@@ -80,7 +80,7 @@ Macros</h2></td></tr>
 <tr class="separator:afa19e2eadb751f3599e443d073862a2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3ded35bf9bb374026100efd4fbeaf376"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sqlexer_8cpp.xhtml#a3ded35bf9bb374026100efd4fbeaf376">INIT_TEMP_STRING</a>()&#160;&#160;&#160;{ _longstr.resize(0);}</td></tr>
 <tr class="separator:a3ded35bf9bb374026100efd4fbeaf376"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad68bd08fc702f8d49756f129d1c785b5"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sqlexer_8cpp.xhtml#ad68bd08fc702f8d49756f129d1c785b5">APPEND_CHAR</a>(<a class="el" href="config-testsuite_8cpp.xhtml#a07f04e4e679e17d1f1c2f0a60cb74aaa">c</a>)&#160;&#160;&#160;{ _longstr.push_back(<a class="el" href="config-testsuite_8cpp.xhtml#a07f04e4e679e17d1f1c2f0a60cb74aaa">c</a>);}</td></tr>
+<tr class="memitem:ad68bd08fc702f8d49756f129d1c785b5"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sqlexer_8cpp.xhtml#ad68bd08fc702f8d49756f129d1c785b5">APPEND_CHAR</a>(c)&#160;&#160;&#160;{ _longstr.push_back(c);}</td></tr>
 <tr class="separator:ad68bd08fc702f8d49756f129d1c785b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a76813cca5945e96b25ca7fbc3d046704"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sqlexer_8cpp.xhtml#a76813cca5945e96b25ca7fbc3d046704">TERMINATE_BUFFER</a>()&#160;&#160;&#160;{_longstr.push_back(_SC('\0'));}</td></tr>
 <tr class="separator:a76813cca5945e96b25ca7fbc3d046704"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -105,11 +105,11 @@ Functions</h2></td></tr>
 <tr class="separator:a57144e13b5387fe0d58016dea04bffe7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a28a5069e069e6ab04d3f75cae7b8b353"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sqlexer_8cpp.xhtml#a28a5069e069e6ab04d3f75cae7b8b353">LexInteger</a> (const SQChar *s, SQUnsignedInteger *res)</td></tr>
 <tr class="separator:a28a5069e069e6ab04d3f75cae7b8b353"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2bf4c909b17984fcfabc384c8297c596"><td class="memItemLeft" align="right" valign="top">SQInteger&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sqlexer_8cpp.xhtml#a2bf4c909b17984fcfabc384c8297c596">scisodigit</a> (SQInteger <a class="el" href="config-testsuite_8cpp.xhtml#a07f04e4e679e17d1f1c2f0a60cb74aaa">c</a>)</td></tr>
+<tr class="memitem:a2bf4c909b17984fcfabc384c8297c596"><td class="memItemLeft" align="right" valign="top">SQInteger&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sqlexer_8cpp.xhtml#a2bf4c909b17984fcfabc384c8297c596">scisodigit</a> (SQInteger c)</td></tr>
 <tr class="separator:a2bf4c909b17984fcfabc384c8297c596"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a94408825292b972dcc53c35cc0a4b9da"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sqlexer_8cpp.xhtml#a94408825292b972dcc53c35cc0a4b9da">LexOctal</a> (const SQChar *s, SQUnsignedInteger *res)</td></tr>
 <tr class="separator:a94408825292b972dcc53c35cc0a4b9da"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a431fe806560b215ac47ae2d3345ae07f"><td class="memItemLeft" align="right" valign="top">SQInteger&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sqlexer_8cpp.xhtml#a431fe806560b215ac47ae2d3345ae07f">isexponent</a> (SQInteger <a class="el" href="config-testsuite_8cpp.xhtml#a07f04e4e679e17d1f1c2f0a60cb74aaa">c</a>)</td></tr>
+<tr class="memitem:a431fe806560b215ac47ae2d3345ae07f"><td class="memItemLeft" align="right" valign="top">SQInteger&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sqlexer_8cpp.xhtml#a431fe806560b215ac47ae2d3345ae07f">isexponent</a> (SQInteger c)</td></tr>
 <tr class="separator:a431fe806560b215ac47ae2d3345ae07f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
@@ -147,8 +147,8 @@ Functions</h2></td></tr>
           <td class="memname">#define APPEND_CHAR</td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><a class="el" href="config-testsuite_8cpp.xhtml#a07f04e4e679e17d1f1c2f0a60cb74aaa">c</a></td><td>)</td>
-          <td>&#160;&#160;&#160;{ _longstr.push_back(<a class="el" href="config-testsuite_8cpp.xhtml#a07f04e4e679e17d1f1c2f0a60cb74aaa">c</a>);}</td>
+          <td class="paramname">c</td><td>)</td>
+          <td>&#160;&#160;&#160;{ _longstr.push_back(c);}</td>
         </tr>
       </table>
 </div><div class="memdoc">

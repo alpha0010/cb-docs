@@ -229,12 +229,11 @@ Variables</h2></td></tr>
 <div class="line">    SQObject str=stack_get(v,1); \</div>
 <div class="line">    SQInteger len=_string(str)-&gt;_len; \</div>
 <div class="line">    const SQChar *sThis=_stringval(str); \</div>
-<div class="line">    SQChar *sNew=(_ss(v)-&gt;GetScratchPad(rsl(len))); <a class="code" href="config-testsuite_8cpp.xhtml#a508532ec7d6e2187a0e728c2c31b9b60">\</a></div>
-<div class="line"><a class="code" href="config-testsuite_8cpp.xhtml#a508532ec7d6e2187a0e728c2c31b9b60">	for</a>(SQInteger i=0;i&lt;len;i++) sNew[i]=func(sThis[i]); \</div>
+<div class="line">    SQChar *sNew=(_ss(v)-&gt;GetScratchPad(rsl(len))); \</div>
+<div class="line">    for(SQInteger i=0;i&lt;len;i++) sNew[i]=func(sThis[i]); \</div>
 <div class="line">    v-&gt;Push(SQString::Create(_ss(v),sNew,len)); \</div>
 <div class="line">    return 1; \</div>
 <div class="line">}</div>
-<div class="ttc" id="config-testsuite_8cpp_xhtml_a508532ec7d6e2187a0e728c2c31b9b60"><div class="ttname"><a href="config-testsuite_8cpp.xhtml#a508532ec7d6e2187a0e728c2c31b9b60">for</a></div><div class="ttdeci">for(unsigned int i=0;i&lt; as.GetCount();++i) m-&gt; DebugLog(wxString(&quot;arraystring element: &quot;)&lt;&lt; as[i])</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -1598,8 +1597,6 @@ Variables</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p>References <a class="el" href="config-testsuite_8cpp.xhtml#a07f04e4e679e17d1f1c2f0a60cb74aaa">c</a>.</p>
 
 </div>
 </div>
