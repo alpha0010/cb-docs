@@ -18,7 +18,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">Code::Blocks
-   &#160;<span id="projectnumber">SVN r10054</span>
+   &#160;<span id="projectnumber">SVN r10078</span>
    </div>
   </td>
  </tr>
@@ -62,7 +62,7 @@
 <div class="dynheader">
 Collaboration diagram for cbWorkspace:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classcbWorkspace__coll__graph.svg" width="182" height="396"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classcbWorkspace__coll__graph.svg" width="182" height="308"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <table class="memberdecls">
@@ -238,7 +238,7 @@ Currently, no inter-project dependencies are supported but at some point they wi
 
 <p>References <a class="el" href="classcbWorkspace.xhtml#ab6b70013a70d0523f872181ea3db2969">m_Filename</a>.</p>
 
-<p>Referenced by <a class="el" href="classMacrosManager.xhtml#a7d3deb54e8de4602973d3883491c16d0">MacrosManager::ClearProjectKeys()</a>, and <a class="el" href="classCompilerGCC.xhtml#a1f2de87a36b5e96fc13119b58e26f526">CompilerGCC::InitBuildLog()</a>.</p>
+<p>Referenced by <a class="el" href="classMacrosManager.xhtml#a7d3deb54e8de4602973d3883491c16d0">MacrosManager::ClearProjectKeys()</a>, <a class="el" href="classCompilerGCC.xhtml#a1f2de87a36b5e96fc13119b58e26f526">CompilerGCC::InitBuildLog()</a>, <a class="el" href="classMainFrame.xhtml#aafc2791e4bec07ad2c9efdcdba5be997">MainFrame::OnFileSaveAll()</a>, <a class="el" href="classMainFrame.xhtml#a5536bba309dc7631b5dfc11a60354f1f">MainFrame::OnFileSaveWorkspace()</a>, <a class="el" href="classMainFrame.xhtml#a69feadca64c5dc3b639dc76edbef181e">MainFrame::OnFileSaveWorkspaceAs()</a>, and <a class="el" href="classProjectManagerUI.xhtml#a4eb37430d409a3240acd4716d27d9756">ProjectManagerUI::RebuildTree()</a>.</p>
 
 </div>
 </div>
@@ -269,7 +269,7 @@ Currently, no inter-project dependencies are supported but at some point they wi
 
 <p>References <a class="el" href="classcbWorkspace.xhtml#a1148a21ef1645e7dae88f76fada25116">m_Modified</a>.</p>
 
-<p>Referenced by <a class="el" href="classProjectManager.xhtml#aa8a7ac8af4ea06ce8df326596b6ec06a">ProjectManager::ReloadProject()</a>.</p>
+<p>Referenced by <a class="el" href="classMainFrame.xhtml#aeebbda741004d89427929a450cb3bbc3">MainFrame::OnFileMenuUpdateUI()</a>, <a class="el" href="classMainFrame.xhtml#aafc2791e4bec07ad2c9efdcdba5be997">MainFrame::OnFileSaveAll()</a>, <a class="el" href="classProjectManagerUI.xhtml#a86c584b78fa71937eba4a0e663064492">ProjectManagerUI::QueryCloseWorkspace()</a>, and <a class="el" href="classProjectManager.xhtml#aa8a7ac8af4ea06ce8df326596b6ec06a">ProjectManager::ReloadProject()</a>.</p>
 
 </div>
 </div>
@@ -318,7 +318,7 @@ Currently, no inter-project dependencies are supported but at some point they wi
 
 <p>References <a class="el" href="classcbWorkspace.xhtml#a08fe9e26653e794385f266a8ab56e1bb">m_Title</a>.</p>
 
-<p>Referenced by <a class="el" href="classMacrosManager.xhtml#a7d3deb54e8de4602973d3883491c16d0">MacrosManager::ClearProjectKeys()</a>, <a class="el" href="classProjectManager.xhtml#a8f514c86d55a20fe510769351dea56e3">ProjectManager::EndLoadingWorkspace()</a>, and <a class="el" href="classCompilerGCC.xhtml#a1f2de87a36b5e96fc13119b58e26f526">CompilerGCC::InitBuildLog()</a>.</p>
+<p>Referenced by <a class="el" href="classMacrosManager.xhtml#a7d3deb54e8de4602973d3883491c16d0">MacrosManager::ClearProjectKeys()</a>, <a class="el" href="classProjectManager.xhtml#a8f514c86d55a20fe510769351dea56e3">ProjectManager::EndLoadingWorkspace()</a>, <a class="el" href="classCompilerGCC.xhtml#a1f2de87a36b5e96fc13119b58e26f526">CompilerGCC::InitBuildLog()</a>, <a class="el" href="classProjectManagerUI.xhtml#a963b1f1dcdcdf7913b20efac7442fe56">ProjectManagerUI::OnRenameWorkspace()</a>, <a class="el" href="classProjectManagerUI.xhtml#a86c584b78fa71937eba4a0e663064492">ProjectManagerUI::QueryCloseWorkspace()</a>, and <a class="el" href="classProjectManagerUI.xhtml#a4eb37430d409a3240acd4716d27d9756">ProjectManagerUI::RebuildTree()</a>.</p>
 
 </div>
 </div>
@@ -347,6 +347,8 @@ Currently, no inter-project dependencies are supported but at some point they wi
 <dl class="section return"><dt>Returns</dt><dd>True if the workspace is the default, false if not. </dd></dl>
 
 <p>References <a class="el" href="classcbWorkspace.xhtml#ad4c2de70765e406e31e099bb3ca78630">m_IsDefault</a>.</p>
+
+<p>Referenced by <a class="el" href="classMainFrame.xhtml#aeebbda741004d89427929a450cb3bbc3">MainFrame::OnFileMenuUpdateUI()</a>, <a class="el" href="classMainFrame.xhtml#aa63845fb52027a3a27aaacc278add5ab">MainFrame::OnFileOpenDefWorkspace()</a>, <a class="el" href="classMainFrame.xhtml#aafc2791e4bec07ad2c9efdcdba5be997">MainFrame::OnFileSaveAll()</a>, and <a class="el" href="classProjectManagerUI.xhtml#a86c584b78fa71937eba4a0e663064492">ProjectManagerUI::QueryCloseWorkspace()</a>.</p>
 
 </div>
 </div>
@@ -525,7 +527,7 @@ Currently, no inter-project dependencies are supported but at some point they wi
 
 <p>References <a class="el" href="classLogManager.xhtml#a9b9ce987917f59b60428ec76c916bde6">LogManager::DebugLog()</a>, <a class="el" href="logmanager_8h.xhtml#afcd50562b2d380a60ad9e8b56dddc72d">F()</a>, <a class="el" href="classManager.xhtml#acf40c9bf3465914dd64d9fdf3b3dc80a">Manager::Get()</a>, <a class="el" href="classManager.xhtml#aad10e86a7e2db6efe90e7b8c81f7341c">Manager::GetLogManager()</a>, <a class="el" href="classcbWorkspace.xhtml#ab6b70013a70d0523f872181ea3db2969">m_Filename</a>, and <a class="el" href="classWorkspaceLoader.xhtml#a819ac4a1989144330204db2527c512b0">WorkspaceLoader::SaveLayout()</a>.</p>
 
-<p>Referenced by <a class="el" href="classcbWorkspace.xhtml#aa242e7aaa8efc355f2f74a59f44f45bf">ActiveProjectChanged()</a>, and <a class="el" href="classcbWorkspace.xhtml#a4c64deb2a9257ccd4b19060fcdc21692">Save()</a>.</p>
+<p>Referenced by <a class="el" href="classcbWorkspace.xhtml#aa242e7aaa8efc355f2f74a59f44f45bf">ActiveProjectChanged()</a>, <a class="el" href="classProjectManagerUI.xhtml#a86c584b78fa71937eba4a0e663064492">ProjectManagerUI::QueryCloseWorkspace()</a>, and <a class="el" href="classcbWorkspace.xhtml#a4c64deb2a9257ccd4b19060fcdc21692">Save()</a>.</p>
 
 </div>
 </div>
@@ -561,7 +563,7 @@ Currently, no inter-project dependencies are supported but at some point they wi
 
 <p>References <a class="el" href="classcbWorkspace.xhtml#a1148a21ef1645e7dae88f76fada25116">m_Modified</a>.</p>
 
-<p>Referenced by <a class="el" href="classProjectManager.xhtml#a8252265705a4e2562c1aea2ed6dbd10c">ProjectManager::AddProjectDependency()</a>, <a class="el" href="classProjectManager.xhtml#a3a8cf5b9ad76f66cda0ad4cdd215b396">ProjectManager::ClearProjectDependencies()</a>, <a class="el" href="classProjectManager.xhtml#a859d11ac2b732b8a1d38c7ef994a9d9b">ProjectManager::CloseProject()</a>, <a class="el" href="classProjectManager.xhtml#a7a5aa946255b4472041fd49e48240778">ProjectManager::EndLoadingProject()</a>, <a class="el" href="classProjectManager.xhtml#ab540db76896021d149a4fa45ce1371cd">ProjectManager::GetWorkspace()</a>, <a class="el" href="classcbWorkspace.xhtml#a53e6adeb94f81f2d96a43614d9895e2b">Load()</a>, <a class="el" href="classProjectManager.xhtml#aa8a7ac8af4ea06ce8df326596b6ec06a">ProjectManager::ReloadProject()</a>, <a class="el" href="classProjectManager.xhtml#aa6d4900acb23ff6c595033087268b94b">ProjectManager::RemoveProjectDependency()</a>, <a class="el" href="classProjectManager.xhtml#aa420655c7e7ec716b96f732a8727dc5d">ProjectManager::RemoveProjectFromAllDependencies()</a>, <a class="el" href="classcbWorkspace.xhtml#a4c64deb2a9257ccd4b19060fcdc21692">Save()</a>, and <a class="el" href="classcbWorkspace.xhtml#aaa9479febbd4ac93b05a4a17d765125f">SetTitle()</a>.</p>
+<p>Referenced by <a class="el" href="classProjectManager.xhtml#a8252265705a4e2562c1aea2ed6dbd10c">ProjectManager::AddProjectDependency()</a>, <a class="el" href="classProjectManager.xhtml#a3a8cf5b9ad76f66cda0ad4cdd215b396">ProjectManager::ClearProjectDependencies()</a>, <a class="el" href="classProjectManager.xhtml#a859d11ac2b732b8a1d38c7ef994a9d9b">ProjectManager::CloseProject()</a>, <a class="el" href="classProjectManager.xhtml#a7a5aa946255b4472041fd49e48240778">ProjectManager::EndLoadingProject()</a>, <a class="el" href="classProjectManager.xhtml#ab540db76896021d149a4fa45ce1371cd">ProjectManager::GetWorkspace()</a>, <a class="el" href="classcbWorkspace.xhtml#a53e6adeb94f81f2d96a43614d9895e2b">Load()</a>, <a class="el" href="classProjectManagerUI.xhtml#aed50f14090b42d9a1d6ff320c1ad0356">ProjectManagerUI::MoveProjectDown()</a>, <a class="el" href="classProjectManagerUI.xhtml#af7919611299e77e364d51be506cec008">ProjectManagerUI::MoveProjectUp()</a>, <a class="el" href="classProjectManager.xhtml#aa8a7ac8af4ea06ce8df326596b6ec06a">ProjectManager::ReloadProject()</a>, <a class="el" href="classProjectManager.xhtml#aa6d4900acb23ff6c595033087268b94b">ProjectManager::RemoveProjectDependency()</a>, <a class="el" href="classProjectManager.xhtml#aa420655c7e7ec716b96f732a8727dc5d">ProjectManager::RemoveProjectFromAllDependencies()</a>, <a class="el" href="classcbWorkspace.xhtml#a4c64deb2a9257ccd4b19060fcdc21692">Save()</a>, and <a class="el" href="classcbWorkspace.xhtml#aaa9479febbd4ac93b05a4a17d765125f">SetTitle()</a>.</p>
 
 </div>
 </div>
@@ -619,7 +621,7 @@ Currently, no inter-project dependencies are supported but at some point they wi
 
 <p>References <a class="el" href="classcbWorkspace.xhtml#a08fe9e26653e794385f266a8ab56e1bb">m_Title</a>, and <a class="el" href="classcbWorkspace.xhtml#ab639ad0783202e20b39ec13ee02fe960">SetModified()</a>.</p>
 
-<p>Referenced by <a class="el" href="classProjectManager.xhtml#ab540db76896021d149a4fa45ce1371cd">ProjectManager::GetWorkspace()</a>.</p>
+<p>Referenced by <a class="el" href="classProjectManager.xhtml#ab540db76896021d149a4fa45ce1371cd">ProjectManager::GetWorkspace()</a>, and <a class="el" href="classProjectManagerUI.xhtml#a963b1f1dcdcdf7913b20efac7442fe56">ProjectManagerUI::OnRenameWorkspace()</a>.</p>
 
 </div>
 </div>

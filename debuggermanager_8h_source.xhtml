@@ -18,7 +18,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">Code::Blocks
-   &#160;<span id="projectnumber">SVN r10054</span>
+   &#160;<span id="projectnumber">SVN r10078</span>
    </div>
   </td>
  </tr>
@@ -109,7 +109,7 @@
 <div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;    <span class="keyword">public</span>:</div>
 <div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;        <span class="keyword">virtual</span> <span class="keywordtype">void</span> GetSymbol(wxString &amp;symbol) <span class="keyword">const</span> = 0;</div>
 <div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;        <span class="keyword">virtual</span> <span class="keywordtype">void</span> GetValue(wxString &amp;value) <span class="keyword">const</span> = 0;</div>
-<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;        <span class="keyword">virtual</span> <span class="keywordtype">bool</span> SetValue(<span class="keyword">const</span> wxString &amp;value) = 0;</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;        <span class="keyword">virtual</span> <span class="keywordtype">bool</span> <a class="code" href="watchesdlg_8cpp.xhtml#aab9c33473861ee147db7c9327788f250">SetValue</a>(<span class="keyword">const</span> wxString &amp;value) = 0;</div>
 <div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;        <span class="keyword">virtual</span> <span class="keywordtype">void</span> GetFullWatchString(wxString &amp;full_watch) <span class="keyword">const</span> = 0;</div>
 <div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;        <span class="keyword">virtual</span> <span class="keywordtype">void</span> GetType(wxString &amp;type) <span class="keyword">const</span> = 0;</div>
 <div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;        <span class="keyword">virtual</span> <span class="keywordtype">void</span> SetType(<span class="keyword">const</span> wxString &amp;type) = 0;</div>
@@ -494,6 +494,7 @@
 <div class="ttc" id="classcbDebuggerConfiguration_xhtml_ad6bb2d15b3a4d66ecb2b872d839d6164"><div class="ttname"><a href="classcbDebuggerConfiguration.xhtml#ad6bb2d15b3a4d66ecb2b872d839d6164">cbDebuggerConfiguration::~cbDebuggerConfiguration</a></div><div class="ttdeci">virtual ~cbDebuggerConfiguration()</div><div class="ttdef"><b>Definition:</b> debuggermanager.h:159</div></div>
 <div class="ttc" id="structDebuggerManager_1_1PluginData_xhtml_acb60d875e43e75915f4ac82017202d2b"><div class="ttname"><a href="structDebuggerManager_1_1PluginData.xhtml#acb60d875e43e75915f4ac82017202d2b">DebuggerManager::PluginData::m_lastConfigID</a></div><div class="ttdeci">int m_lastConfigID</div><div class="ttdef"><b>Definition:</b> debuggermanager.h:248</div></div>
 <div class="ttc" id="classDebuggerManager_xhtml_aa10c7ff6bd4d983014eac2bafe9c1cee"><div class="ttname"><a href="classDebuggerManager.xhtml#aa10c7ff6bd4d983014eac2bafe9c1cee">DebuggerManager::GetDisassemblyDialog</a></div><div class="ttdeci">cbDisassemblyDlg * GetDisassemblyDialog()</div><div class="ttdef"><b>Definition:</b> debuggermanager.cpp:1039</div></div>
+<div class="ttc" id="watchesdlg_8cpp_xhtml_aab9c33473861ee147db7c9327788f250"><div class="ttname"><a href="watchesdlg_8cpp.xhtml#aab9c33473861ee147db7c9327788f250">SetValue</a></div><div class="ttdeci">void SetValue(WatchesProperty *prop)</div><div class="ttdef"><b>Definition:</b> watchesdlg.cpp:492</div></div>
 <div class="ttc" id="classcbExamineMemoryDlg_xhtml"><div class="ttname"><a href="classcbExamineMemoryDlg.xhtml">cbExamineMemoryDlg</a></div><div class="ttdef"><b>Definition:</b> cbdebugger_interfaces.h:74</div></div>
 <div class="ttc" id="structDebuggerManager_1_1PluginData_xhtml_af27d71fc33128cdcdc52398eed2cc774"><div class="ttname"><a href="structDebuggerManager_1_1PluginData.xhtml#af27d71fc33128cdcdc52398eed2cc774">DebuggerManager::PluginData::PluginData</a></div><div class="ttdeci">PluginData()</div><div class="ttdef"><b>Definition:</b> debuggermanager.h:233</div></div>
 <div class="ttc" id="classDebuggerManager_xhtml_ad101d906145bdada2023e86d400149bd"><div class="ttname"><a href="classDebuggerManager.xhtml#ad101d906145bdada2023e86d400149bd">DebuggerManager::UpdateDisassembly</a></div><div class="ttdeci">bool UpdateDisassembly()</div><div class="ttdef"><b>Definition:</b> debuggermanager.cpp:1085</div></div>

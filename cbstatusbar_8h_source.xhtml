@@ -18,7 +18,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">Code::Blocks
-   &#160;<span id="projectnumber">SVN r10054</span>
+   &#160;<span id="projectnumber">SVN r10078</span>
    </div>
   </td>
  </tr>
@@ -69,7 +69,7 @@
 <div class="line"><a name="l00018"></a><span class="lineno"><a class="line" href="classcbStatusBar.xhtml">   18</a></span>&#160;<span class="keyword">class </span><a class="code" href="settings_8h.xhtml#aae8fdf6bcc88c172ca8a75ad80f17a95">DLLIMPORT</a> <a class="code" href="classcbStatusBar.xhtml">cbStatusBar</a> : <span class="keyword">public</span> wxStatusBar</div>
 <div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;{</div>
 <div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="keyword">private</span>:</div>
-<div class="line"><a name="l00021"></a><span class="lineno"><a class="line" href="classcbStatusBar.xhtml#a6c60c0de955963aa8e8c042135f923fe">   21</a></span>&#160;    <span class="keyword">friend</span> <span class="keyword">class </span>MainFrame; <span class="comment">// gets initialized from mainframe</span></div>
+<div class="line"><a name="l00021"></a><span class="lineno"><a class="line" href="classcbStatusBar.xhtml#a6c60c0de955963aa8e8c042135f923fe">   21</a></span>&#160;    <span class="keyword">friend</span> <span class="keyword">class </span><a class="code" href="classMainFrame.xhtml">MainFrame</a>; <span class="comment">// gets initialized from mainframe</span></div>
 <div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;</div>
 <div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    <span class="comment">// this will be used from friend mainframe</span></div>
 <div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    <a class="code" href="classcbStatusBar.xhtml">cbStatusBar</a>(wxWindow* parent,  wxWindowID <span class="keywordtype">id</span>, <span class="keywordtype">long</span> style, <span class="keyword">const</span> wxString&amp; name);</div>
@@ -95,7 +95,7 @@
 <div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;</div>
 <div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;<span class="keyword">private</span>:</div>
 <div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;    <span class="comment">// event handlers</span></div>
-<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;    <span class="keywordtype">void</span> OnSize(wxSizeEvent&amp; event);</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classMainFrame.xhtml#a8fd9580d3191784843f34269810a676b">OnSize</a>(wxSizeEvent&amp; event);</div>
 <div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;    <span class="keywordtype">void</span> UpdateWidths();</div>
 <div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;</div>
 <div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;    <span class="keywordtype">void</span> AdjustFieldsSize();</div>
@@ -123,8 +123,10 @@
 <div class="ttc" id="settings_8h_xhtml_aae8fdf6bcc88c172ca8a75ad80f17a95"><div class="ttname"><a href="settings_8h.xhtml#aae8fdf6bcc88c172ca8a75ad80f17a95">DLLIMPORT</a></div><div class="ttdeci">#define DLLIMPORT</div><div class="ttdef"><b>Definition:</b> settings.h:16</div></div>
 <div class="ttc" id="classcbStatusBar_xhtml_structcbStatusBar_1_1cbStatusBarElement"><div class="ttname"><a href="classcbStatusBar.xhtml#structcbStatusBar_1_1cbStatusBarElement">cbStatusBar::cbStatusBarElement</a></div><div class="ttdef"><b>Definition:</b> cbstatusbar.h:81</div></div>
 <div class="ttc" id="classcbPlugin_xhtml"><div class="ttname"><a href="classcbPlugin.xhtml">cbPlugin</a></div><div class="ttdoc">Base class for plugins This is the most basic class a plugin must descend from. cbPlugin descends fro...</div><div class="ttdef"><b>Definition:</b> cbplugin.h:83</div></div>
+<div class="ttc" id="classMainFrame_xhtml"><div class="ttname"><a href="classMainFrame.xhtml">MainFrame</a></div><div class="ttdef"><b>Definition:</b> main.h:60</div></div>
 <div class="ttc" id="classcbStatusBar_xhtml_a71dcf1332c29fa59a033993ce52445c3"><div class="ttname"><a href="classcbStatusBar.xhtml#a71dcf1332c29fa59a033993ce52445c3">cbStatusBar::cbStatusBarElement::plugin</a></div><div class="ttdeci">cbPlugin * plugin</div><div class="ttdef"><b>Definition:</b> cbstatusbar.h:85</div></div>
 <div class="ttc" id="classcbStatusBar_xhtml_aee69c43aaac459c50fed65559412fb00"><div class="ttname"><a href="classcbStatusBar.xhtml#aee69c43aaac459c50fed65559412fb00">cbStatusBar::PushStatusText</a></div><div class="ttdeci">void PushStatusText(cb_unused const wxString &amp;text, cb_unused cbPlugin *plugin)</div><div class="ttdef"><b>Definition:</b> cbstatusbar.h:78</div></div>
+<div class="ttc" id="classMainFrame_xhtml_a8fd9580d3191784843f34269810a676b"><div class="ttname"><a href="classMainFrame.xhtml#a8fd9580d3191784843f34269810a676b">MainFrame::OnSize</a></div><div class="ttdeci">void OnSize(wxSizeEvent &amp;event)</div><div class="ttdef"><b>Definition:</b> main.cpp:2690</div></div>
 <div class="ttc" id="settings_8h_xhtml"><div class="ttname"><a href="settings_8h.xhtml">settings.h</a></div></div>
 <div class="ttc" id="classcbStatusBar_xhtml_a971021d8539045144f4c3d3dc52df190"><div class="ttname"><a href="classcbStatusBar.xhtml#a971021d8539045144f4c3d3dc52df190">cbStatusBar::cbStatusBar</a></div><div class="ttdeci">cbStatusBar()</div><div class="ttdef"><b>Definition:</b> cbstatusbar.h:25</div></div>
 <div class="ttc" id="classcbStatusBar_xhtml_a84da047de020bf72bdd0c97fba57aed5"><div class="ttname"><a href="classcbStatusBar.xhtml#a84da047de020bf72bdd0c97fba57aed5">cbStatusBar::cbStatusBarElement::width</a></div><div class="ttdeci">int width</div><div class="ttdef"><b>Definition:</b> cbstatusbar.h:83</div></div>

@@ -18,7 +18,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">Code::Blocks
-   &#160;<span id="projectnumber">SVN r10054</span>
+   &#160;<span id="projectnumber">SVN r10078</span>
    </div>
   </td>
  </tr>
@@ -155,11 +155,12 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line">SQStream *<span class="keyword">self</span> = NULL; \</div>
+<b>Value:</b><div class="fragment"><div class="line">SQStream *<span class="keyword">self</span> = <a class="code" href="prefix_8cpp.xhtml#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>; \</div>
 <div class="line">    if(SQ_FAILED(<a class="code" href="sqapi_8cpp.xhtml#ade8bec2e5e558d5e7b8a771ba5141d7f">sq_getinstanceup</a>(v,1,(SQUserPointer*)&amp;<span class="keyword">self</span>,(SQUserPointer)SQSTD_STREAM_TYPE_TAG))) \</div>
 <div class="line">        return <a class="code" href="sqapi_8cpp.xhtml#a1120339f46d18eddf68f7a7323937ddb">sq_throwerror</a>(v,_SC(<span class="stringliteral">&quot;invalid type tag&quot;</span>)); \</div>
 <div class="line">    if(!self-&gt;IsValid())  \</div>
 <div class="line">        <span class="keywordflow">return</span> <a class="code" href="sqapi_8cpp.xhtml#a1120339f46d18eddf68f7a7323937ddb">sq_throwerror</a>(v,_SC(<span class="stringliteral">&quot;the stream is invalid&quot;</span>));</div>
+<div class="ttc" id="prefix_8cpp_xhtml_a070d2ce7b6bb7e5c05602aa8c308d0c4"><div class="ttname"><a href="prefix_8cpp.xhtml#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a></div><div class="ttdeci">#define NULL</div><div class="ttdef"><b>Definition:</b> prefix.cpp:59</div></div>
 <div class="ttc" id="sqapi_8cpp_xhtml_ade8bec2e5e558d5e7b8a771ba5141d7f"><div class="ttname"><a href="sqapi_8cpp.xhtml#ade8bec2e5e558d5e7b8a771ba5141d7f">sq_getinstanceup</a></div><div class="ttdeci">SQRESULT sq_getinstanceup(HSQUIRRELVM v, SQInteger idx, SQUserPointer *p, SQUserPointer typetag)</div><div class="ttdef"><b>Definition:</b> sqapi.cpp:647</div></div>
 <div class="ttc" id="sqapi_8cpp_xhtml_a1120339f46d18eddf68f7a7323937ddb"><div class="ttname"><a href="sqapi_8cpp.xhtml#a1120339f46d18eddf68f7a7323937ddb">sq_throwerror</a></div><div class="ttdeci">SQRESULT sq_throwerror(HSQUIRRELVM v, const SQChar *err)</div><div class="ttdef"><b>Definition:</b> sqapi.cpp:918</div></div>
 </div><!-- fragment -->

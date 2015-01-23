@@ -18,7 +18,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">Code::Blocks
-   &#160;<span id="projectnumber">SVN r10054</span>
+   &#160;<span id="projectnumber">SVN r10078</span>
    </div>
   </td>
  </tr>
@@ -287,7 +287,7 @@
 <div class="line"><a name="l00397"></a><span class="lineno">  397</span>&#160;</div>
 <div class="line"><a name="l00399"></a><span class="lineno"><a class="line" href="classSearchTree.xhtml#a3316b511d18c0acb4b870fcf7d30af13">  399</a></span>&#160;    <span class="keyword">virtual</span> wxString <a class="code" href="classSearchTree.xhtml#a3316b511d18c0acb4b870fcf7d30af13">SerializeItem</a>(cb_unused <span class="keywordtype">size_t</span> idx) { <span class="keywordflow">return</span> wxString(_T(<span class="stringliteral">&quot;&quot;</span>)); }</div>
 <div class="line"><a name="l00400"></a><span class="lineno">  400</span>&#160;</div>
-<div class="line"><a name="l00402"></a><span class="lineno"><a class="line" href="classSearchTree.xhtml#ab921b0bedde98c6fda1ba4bedeba29e1">  402</a></span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">void</span>* <a class="code" href="classSearchTree.xhtml#ab921b0bedde98c6fda1ba4bedeba29e1">UnserializeItem</a>(cb_unused <span class="keyword">const</span> wxString&amp; s) { <span class="keywordflow">return</span> NULL; }</div>
+<div class="line"><a name="l00402"></a><span class="lineno"><a class="line" href="classSearchTree.xhtml#ab921b0bedde98c6fda1ba4bedeba29e1">  402</a></span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">void</span>* <a class="code" href="classSearchTree.xhtml#ab921b0bedde98c6fda1ba4bedeba29e1">UnserializeItem</a>(cb_unused <span class="keyword">const</span> wxString&amp; s) { <span class="keywordflow">return</span> <a class="code" href="prefix_8cpp.xhtml#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>; }</div>
 <div class="line"><a name="l00403"></a><span class="lineno">  403</span>&#160;</div>
 <div class="line"><a name="l00404"></a><span class="lineno">  404</span>&#160;<span class="keyword">protected</span>:</div>
 <div class="line"><a name="l00405"></a><span class="lineno"><a class="line" href="classSearchTree.xhtml#a7171d8435f1efdd9ee306822c1dcead4">  405</a></span>&#160;    std::vector&lt;T&gt; <a class="code" href="classSearchTree.xhtml#a7171d8435f1efdd9ee306822c1dcead4">m_Items</a>;   </div>
@@ -449,6 +449,7 @@
 <div class="ttc" id="classSearchTree_xhtml_a88855039e7bddd308b6a6b7cc7fd818a"><div class="ttname"><a href="classSearchTree.xhtml#a88855039e7bddd308b6a6b7cc7fd818a">SearchTree::Serialize</a></div><div class="ttdeci">wxString Serialize()</div><div class="ttdoc">Loads the Tree and items from a file. </div><div class="ttdef"><b>Definition:</b> searchtree.h:519</div></div>
 <div class="ttc" id="classBasicSearchTree_xhtml_aaf21db833f7fc5b08e4ba02e48b4d22b"><div class="ttname"><a href="classBasicSearchTree.xhtml#aaf21db833f7fc5b08e4ba02e48b4d22b">BasicSearchTree::~BasicSearchTree</a></div><div class="ttdeci">virtual ~BasicSearchTree()</div><div class="ttdef"><b>Definition:</b> searchtree.cpp:529</div></div>
 <div class="ttc" id="classBasicSearchTree_xhtml_af048321974c7f425744329529da8139b"><div class="ttname"><a href="classBasicSearchTree.xhtml#af048321974c7f425744329529da8139b">BasicSearchTree::GetString</a></div><div class="ttdeci">const wxString GetString(size_t n) const </div><div class="ttdoc">Gets the key string for item n. </div><div class="ttdef"><b>Definition:</b> searchtree.cpp:556</div></div>
+<div class="ttc" id="prefix_8cpp_xhtml_a070d2ce7b6bb7e5c05602aa8c308d0c4"><div class="ttname"><a href="prefix_8cpp.xhtml#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a></div><div class="ttdeci">#define NULL</div><div class="ttdef"><b>Definition:</b> prefix.cpp:59</div></div>
 <div class="ttc" id="classBasicSearchTreeIterator_xhtml_ac95dcabc5d1cd6c0ccd98f11cecd9fa8"><div class="ttname"><a href="classBasicSearchTreeIterator.xhtml#ac95dcabc5d1cd6c0ccd98f11cecd9fa8">BasicSearchTreeIterator::m_Eof</a></div><div class="ttdeci">bool m_Eof</div><div class="ttdoc">current pointed node index </div><div class="ttdef"><b>Definition:</b> searchtree.h:99</div></div>
 <div class="ttc" id="classSearchTreePoint_xhtml_a13ac249a39181be203dbd5e97e2cea94"><div class="ttname"><a href="classSearchTreePoint.xhtml#a13ac249a39181be203dbd5e97e2cea94">SearchTreePoint::depth</a></div><div class="ttdeci">size_t depth</div><div class="ttdoc">Which node are we pointing to? </div><div class="ttdef"><b>Definition:</b> searchtree.h:128</div></div>
 <div class="ttc" id="classSearchTree_xhtml_ac5c3873a5e74a88625df55ad1dcb68d7"><div class="ttname"><a href="classSearchTree.xhtml#ac5c3873a5e74a88625df55ad1dcb68d7">SearchTree::AddItem</a></div><div class="ttdeci">size_t AddItem(const wxString &amp;s, T item, bool replaceexisting=false)</div><div class="ttdoc">Adds an item to position defined by s and return the item number. </div><div class="ttdef"><b>Definition:</b> searchtree.h:468</div></div>

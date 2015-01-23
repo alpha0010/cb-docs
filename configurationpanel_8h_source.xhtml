@@ -18,7 +18,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">Code::Blocks
-   &#160;<span id="projectnumber">SVN r10054</span>
+   &#160;<span id="projectnumber">SVN r10078</span>
    </div>
   </td>
  </tr>
@@ -87,7 +87,7 @@
 <div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;        {</div>
 <div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;            <span class="keywordflow">return</span> m_parentDialog;</div>
 <div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;        }</div>
-<div class="line"><a name="l00046"></a><span class="lineno"><a class="line" href="classcbConfigurationPanel.xhtml#a55e8e2a4b0f080d1932f538978efe61d">   46</a></span>&#160;        <span class="keywordtype">int</span> <a class="code" href="classcbConfigurationPanel.xhtml#a55e8e2a4b0f080d1932f538978efe61d">cbMessageBox</a>(<span class="keyword">const</span> wxString&amp; message, <span class="keyword">const</span> wxString&amp; caption = wxEmptyString, <span class="keywordtype">int</span> style = wxOK, wxWindow *parent = NULL, <span class="keywordtype">int</span> x = -1, <span class="keywordtype">int</span> y = -1)</div>
+<div class="line"><a name="l00046"></a><span class="lineno"><a class="line" href="classcbConfigurationPanel.xhtml#a55e8e2a4b0f080d1932f538978efe61d">   46</a></span>&#160;        <span class="keywordtype">int</span> <a class="code" href="classcbConfigurationPanel.xhtml#a55e8e2a4b0f080d1932f538978efe61d">cbMessageBox</a>(<span class="keyword">const</span> wxString&amp; message, <span class="keyword">const</span> wxString&amp; caption = wxEmptyString, <span class="keywordtype">int</span> style = wxOK, wxWindow *parent = <a class="code" href="prefix_8cpp.xhtml#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>, <span class="keywordtype">int</span> x = -1, <span class="keywordtype">int</span> y = -1)</div>
 <div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;        {</div>
 <div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;            <span class="keywordflow">if</span> (parent)</div>
 <div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;                <a class="code" href="globals_8h.xhtml#ac15fb582509374db9a0dc8f69b5ba156">return ::cbMessageBox</a>(message, caption, style, parent, x, y);</div>
@@ -121,6 +121,7 @@
 <div class="ttc" id="classcbConfigurationDialog_xhtml_a90fd0bbf3d0956041b2da83d61c0bbfe"><div class="ttname"><a href="classcbConfigurationDialog.xhtml#a90fd0bbf3d0956041b2da83d61c0bbfe">cbConfigurationDialog::m_pCancel</a></div><div class="ttdeci">wxButton * m_pCancel</div><div class="ttdef"><b>Definition:</b> configurationpanel.h:69</div></div>
 <div class="ttc" id="classcbConfigurationPanel_xhtml"><div class="ttname"><a href="classcbConfigurationPanel.xhtml">cbConfigurationPanel</a></div><div class="ttdoc">Base class for plugin configuration panels. </div><div class="ttdef"><b>Definition:</b> configurationpanel.h:19</div></div>
 <div class="ttc" id="classcbConfigurationPanel_xhtml_a33c81270aa535accc59c2281c08c486d"><div class="ttname"><a href="classcbConfigurationPanel.xhtml#a33c81270aa535accc59c2281c08c486d">cbConfigurationPanel::cbConfigurationPanel</a></div><div class="ttdeci">cbConfigurationPanel()</div><div class="ttdef"><b>Definition:</b> configurationpanel.h:22</div></div>
+<div class="ttc" id="prefix_8cpp_xhtml_a070d2ce7b6bb7e5c05602aa8c308d0c4"><div class="ttname"><a href="prefix_8cpp.xhtml#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a></div><div class="ttdeci">#define NULL</div><div class="ttdef"><b>Definition:</b> prefix.cpp:59</div></div>
 <div class="ttc" id="classcbConfigurationDialog_xhtml_ac57b74b0e40ada7a3e1fd7a58f9c492d"><div class="ttname"><a href="classcbConfigurationDialog.xhtml#ac57b74b0e40ada7a3e1fd7a58f9c492d">cbConfigurationDialog::m_pPanel</a></div><div class="ttdeci">cbConfigurationPanel * m_pPanel</div><div class="ttdef"><b>Definition:</b> configurationpanel.h:67</div></div>
 <div class="ttc" id="classcbConfigurationPanel_xhtml_a55e8e2a4b0f080d1932f538978efe61d"><div class="ttname"><a href="classcbConfigurationPanel.xhtml#a55e8e2a4b0f080d1932f538978efe61d">cbConfigurationPanel::cbMessageBox</a></div><div class="ttdeci">int cbMessageBox(const wxString &amp;message, const wxString &amp;caption=wxEmptyString, int style=wxOK, wxWindow *parent=NULL, int x=-1, int y=-1)</div><div class="ttdef"><b>Definition:</b> configurationpanel.h:46</div></div>
 <div class="ttc" id="classcbConfigurationPanel_xhtml_a16be5949aa67fc70a8847a67d5aa9af3"><div class="ttname"><a href="classcbConfigurationPanel.xhtml#a16be5949aa67fc70a8847a67d5aa9af3">cbConfigurationPanel::m_parentDialog</a></div><div class="ttdeci">wxWindow * m_parentDialog</div><div class="ttdef"><b>Definition:</b> configurationpanel.h:54</div></div>

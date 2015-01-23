@@ -18,7 +18,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">Code::Blocks
-   &#160;<span id="projectnumber">SVN r10054</span>
+   &#160;<span id="projectnumber">SVN r10078</span>
    </div>
   </td>
  </tr>
@@ -119,6 +119,9 @@
 <li>s_DefaultCompiler
 : <a class="el" href="classCompilerFactory.xhtml#ad87414309adb7b3820f24db03f40d6ae">CompilerFactory</a>
 </li>
+<li>s_dialogs
+: <a class="el" href="classWatchRawDialog.xhtml#a1bb513ca38db044534c60c43970f721d">WatchRawDialog</a>
+</li>
 <li>s_Inst
 : <a class="el" href="classCCLogger.xhtml#ac9a67f2a660c416d68827091aa850943">CCLogger</a>
 </li>
@@ -209,6 +212,7 @@
 <li>SaveChanges()
 : <a class="el" href="classcbDebuggerConfiguration.xhtml#a058df40c13c702be9f668d4fa55011d8">cbDebuggerConfiguration</a>
 , <a class="el" href="classDebuggerConfiguration.xhtml#a609ff643469c18e9c156adae7cef0ea3">DebuggerConfiguration</a>
+, <a class="el" href="classDebuggerSettingsCommonPanel.xhtml#a9d286dcb79ad90f2eb4f672caf3a5161">DebuggerSettingsCommonPanel</a>
 </li>
 <li>SaveComboValues()
 : <a class="el" href="classFindReplaceDlg.xhtml#a7ca39c140fb774dac565e6ca82a8755a">FindReplaceDlg</a>
@@ -231,10 +235,16 @@
 <li>SaveFoldState()
 : <a class="el" href="classcbEditor.xhtml#a9235c3a584390c814c62e4923bb045f4">cbEditor</a>
 </li>
+<li>SaveItem()
+: <a class="el" href="classScriptingSettingsDlg.xhtml#aeb7fc7749a66e7ecd0f6543fe8400856">ScriptingSettingsDlg</a>
+</li>
 <li>SaveLayout()
 : <a class="el" href="classcbProject.xhtml#a16709771372282c286156c79323b79af">cbProject</a>
 , <a class="el" href="classcbWorkspace.xhtml#a89e79953b690c75f80eabd9fb9a99b3d">cbWorkspace</a>
 , <a class="el" href="classWorkspaceLoader.xhtml#a819ac4a1989144330204db2527c512b0">WorkspaceLoader</a>
+</li>
+<li>SaveList()
+: <a class="el" href="classProjectDepsDlg.xhtml#ae6f4c02ed06651390930c655fe56cb95">ProjectDepsDlg</a>
 </li>
 <li>SaveNestingLevel()
 : <a class="el" href="classTokenizer.xhtml#acf2c13aafcb90ecf14536957c94cd350">Tokenizer</a>
@@ -261,6 +271,9 @@
 : <a class="el" href="classCompiler.xhtml#afdf13f6ccf4e618e1de0602f03a33988">Compiler</a>
 , <a class="el" href="classCompilerFactory.xhtml#a36bfd0a732ae462a04c76b5232e94a0d">CompilerFactory</a>
 </li>
+<li>SaveTabOrder()
+: <a class="el" href="classInfoPane.xhtml#aa03fd1dd4c0ea3a2cab7d53c2196df51">InfoPane</a>
+</li>
 <li>SaveTokenIdx()
 : <a class="el" href="classDocumentationHelper.xhtml#ae4c5fc155b616ab572a7c2f89b03bbdd">DocumentationHelper</a>
 </li>
@@ -279,6 +292,12 @@
 <li>SaveUTF8()
 : <a class="el" href="classFileManager.xhtml#ab4b882b57c2cc64adfd5e31b1843e66e">FileManager</a>
 </li>
+<li>SaveViewLayout()
+: <a class="el" href="classMainFrame.xhtml#a7c9f20a57b76ae904b98aa727383460b">MainFrame</a>
+</li>
+<li>SaveWindowState()
+: <a class="el" href="classMainFrame.xhtml#a8e99fb372ae9967055e9dd6cdc5fb2ab">MainFrame</a>
+</li>
 <li>SaveWorkspace()
 : <a class="el" href="classProjectManager.xhtml#af505af85cb26404d56ae438d95290d38">ProjectManager</a>
 </li>
@@ -289,10 +308,14 @@
 : <a class="el" href="classcbEditorPrintout.xhtml#ac0133b70ebc2772242874bc1d3eae036">cbEditorPrintout</a>
 </li>
 <li>ScanForPlugins()
-: <a class="el" href="classPluginManager.xhtml#a9542c1dfceb83fec29e6fedcc8a87abd">PluginManager</a>
+: <a class="el" href="classMainFrame.xhtml#a01aef9ba2fcca697fceaa080a50092b7">MainFrame</a>
+, <a class="el" href="classPluginManager.xhtml#a9542c1dfceb83fec29e6fedcc8a87abd">PluginManager</a>
 </li>
 <li>ScintillaWX
 : <a class="el" href="classwxScintilla.xhtml#a861976d50ab5327773d44d28771ba638">wxScintilla</a>
+</li>
+<li>scope
+: <a class="el" href="structcbFindReplaceData.xhtml#a554ec72f01ac51fa49f3375359712a0e">cbFindReplaceData</a>
 </li>
 <li>Scope
 : <a class="el" href="structCodeCompletion_1_1FunctionScope.xhtml#a700dc00001275f56029bd15ccd27209a">CodeCompletion::FunctionScope</a>
@@ -307,13 +330,20 @@
 : <a class="el" href="classScopeTreeData.xhtml#a4ecfa81238c30c67679883925419df05">ScopeTreeData</a>
 </li>
 <li>script
-: <a class="el" href="wiz_8h.xhtml#af3bc03cfafe03649fc97d1fb3caa7729">WizardInfo</a>
+: <a class="el" href="classScriptEntry.xhtml#abd2b6e51c292675134fd75b2f214433a">ScriptEntry</a>
+, <a class="el" href="wiz_8h.xhtml#af3bc03cfafe03649fc97d1fb3caa7729">WizardInfo</a>
+</li>
+<li>ScriptConsole()
+: <a class="el" href="classScriptConsole.xhtml#a2e6b62310a69916bc0b78e30287ff055">ScriptConsole</a>
 </li>
 <li>ScriptedType()
 : <a class="el" href="structScriptedType.xhtml#a2f79f02a70fcfc575feeed6355e04dc5">ScriptedType</a>
 </li>
 <li>ScriptingManager()
 : <a class="el" href="classScriptingManager.xhtml#a59cc0ce2a13c181cceff3a21c7134384">ScriptingManager</a>
+</li>
+<li>ScriptingSettingsDlg()
+: <a class="el" href="classScriptingSettingsDlg.xhtml#a8cba71bc671c9e0c1391f73435db263b">ScriptingSettingsDlg</a>
 </li>
 <li>scriptOrFunc
 : <a class="el" href="classScriptingManager.xhtml#ade5b71ceb5c79a410a6c56ef9d630ff6">ScriptingManager::MenuBoundScript</a>
@@ -357,8 +387,17 @@
 <li>SearchInFiles()
 : <a class="el" href="classCodeRefactoring.xhtml#a80ff511f12e5083e97b493865e0ae025">CodeRefactoring</a>
 </li>
+<li>SearchInSelectionEnd
+: <a class="el" href="structcbFindReplaceData.xhtml#a50ededa19da7ffa17c6229f7bcaf3322">cbFindReplaceData</a>
+</li>
+<li>SearchInSelectionStart
+: <a class="el" href="structcbFindReplaceData.xhtml#a9480980bedb5d4183433be094c93a635">cbFindReplaceData</a>
+</li>
 <li>SearchInTarget()
 : <a class="el" href="classwxScintilla.xhtml#a1561f7cd84cfc33f13b6aa032926c12e">wxScintilla</a>
+</li>
+<li>searchMask
+: <a class="el" href="structcbFindReplaceData.xhtml#a4b1353f0e8f84ccb4a306e1fd55a3050">cbFindReplaceData</a>
 </li>
 <li>SearchMode
 : <a class="el" href="classCompilerXML.xhtml#ae0d8167db1715d94730f519fbf475631">CompilerXML</a>
@@ -366,8 +405,17 @@
 <li>SearchNext()
 : <a class="el" href="classwxScintilla.xhtml#a880f0f3a689c4781bd218630eb6599b7">wxScintilla</a>
 </li>
+<li>searchPath
+: <a class="el" href="structcbFindReplaceData.xhtml#a69a581a8e1870bfcae11784fa25a3c20">cbFindReplaceData</a>
+</li>
 <li>SearchPrev()
 : <a class="el" href="classwxScintilla.xhtml#af28e701101d2bf774b02aef1da45dfe9">wxScintilla</a>
+</li>
+<li>searchProject
+: <a class="el" href="structcbFindReplaceData.xhtml#a11e5df3ed9e5d542464293b545ee4500">cbFindReplaceData</a>
+</li>
+<li>searchTarget
+: <a class="el" href="structcbFindReplaceData.xhtml#a848167241a2f3afbc5fea8f6e6e69ec6">cbFindReplaceData</a>
 </li>
 <li>SearchTree()
 : <a class="el" href="classSearchTree.xhtml#ae49f5a7b0e9d9e61d1daa00dde234493">SearchTree&lt; T &gt;</a>
@@ -442,6 +490,12 @@
 : <a class="el" href="classBackgroundThread.xhtml#a4c19f248535e0bd43ea4ee53538c3704">BackgroundThread</a>
 , <a class="el" href="classBackgroundThreadPool.xhtml#a8a9fd3ec7ccedb275a4c94e5561b8066">BackgroundThreadPool</a>
 </li>
+<li>Send()
+: <a class="el" href="classIPC.xhtml#a69c62d9ad3d7b4926cd610f0b059065e">IPC</a>
+</li>
+<li>SendCloseEvent()
+: <a class="el" href="classwxMultiColumnListCtrl.xhtml#a50a927cfc9f5cb1cb399f70c10c152bb">wxMultiColumnListCtrl</a>
+</li>
 <li>SendCommand()
 : <a class="el" href="classcbDebuggerPlugin.xhtml#a24c8c637a0081947b13a1d597c159b57">cbDebuggerPlugin</a>
 , <a class="el" href="classDebuggerGDB.xhtml#a8f270096e7322fad773917a760fd9ad4">DebuggerGDB</a>
@@ -467,6 +521,7 @@
 </li>
 <li>SerializeIn()
 : <a class="el" href="classISerializable.xhtml#a0ce3b2159be6794469abf09f97c0dfe1">ISerializable</a>
+, <a class="el" href="classScriptEntry.xhtml#a684208159f4f639e643b11b70fe941ff">ScriptEntry</a>
 </li>
 <li>SerializeItem()
 : <a class="el" href="classSearchTree.xhtml#a3316b511d18c0acb4b870fcf7d30af13">SearchTree&lt; T &gt;</a>
@@ -479,12 +534,20 @@
 </li>
 <li>SerializeOut()
 : <a class="el" href="classISerializable.xhtml#afcd342c74b903b7ca05033f1b6fc01e0">ISerializable</a>
+, <a class="el" href="classScriptEntry.xhtml#a851fb35e237ceb390720df123f017fc1">ScriptEntry</a>
 </li>
 <li>SerializeString()
 : <a class="el" href="classSearchTreeNode.xhtml#a174b7cda5259364162798ce31028b8d1">SearchTreeNode</a>
 </li>
 <li>serialPort
 : <a class="el" href="structRemoteDebugging.xhtml#a01f738f90b3e7c306e306768c6d669bc">RemoteDebugging</a>
+</li>
+<li>Server()
+: <a class="el" href="classIPC.xhtml#a7dca8f853dce810eaf5457ee0a8e9cc9">IPC</a>
+, <a class="el" href="classSharedMemory.xhtml#a54004c2aeba3756be05225d9f53630a5">SharedMemory</a>
+</li>
+<li>server
+: <a class="el" href="classSharedMemory.xhtml#aed6740e969e1d81ec75317de9406abe0">SharedMemory</a>
 </li>
 <li>Set()
 : <a class="el" href="classConfigManager.xhtml#aa16e37df51319521ba81eda9d7995158">ConfigManager</a>
@@ -497,6 +560,7 @@
 </li>
 <li>SetActiveAddress()
 : <a class="el" href="classcbDisassemblyDlg.xhtml#ac59d55beb8a4c3cd98965a46e5de13dc">cbDisassemblyDlg</a>
+, <a class="el" href="classDisassemblyDlg.xhtml#aa76dc942937520698604927876882578">DisassemblyDlg</a>
 </li>
 <li>SetActiveBuildTarget()
 : <a class="el" href="classcbProject.xhtml#a595e01991258566a9d2c674743fcad32">cbProject</a>
@@ -507,6 +571,7 @@
 <li>SetActiveDebugger()
 : <a class="el" href="classcbDebuggerMenuHandler.xhtml#a64e554fee343714016bd4a359bdb08c7">cbDebuggerMenuHandler</a>
 , <a class="el" href="classDebuggerManager.xhtml#a0103f7095ae9774f923683fc90651250">DebuggerManager</a>
+, <a class="el" href="classDebuggerMenuHandler.xhtml#a6a87870697d9358cfa8985130848a6e6">DebuggerMenuHandler</a>
 </li>
 <li>SetActiveEditor()
 : <a class="el" href="classEditorManager.xhtml#aa220cf1831cd7d6700cfb21bc365603f">EditorManager</a>
@@ -566,11 +631,17 @@
 <li>SetArrayParams()
 : <a class="el" href="classGDBWatch.xhtml#a41de64e28bf4fe8cac5fffc3db2dca7c">GDBWatch</a>
 </li>
+<li>SetAutoFile()
+: <a class="el" href="classCodeBlocksApp.xhtml#a8ce0a97da6c1d7eebf79a1236e18d59f">CodeBlocksApp</a>
+</li>
 <li>SetAutoGeneratedBy()
 : <a class="el" href="classProjectFile.xhtml#a7106f5dc2f413f8dceca7d8c68c59660">ProjectFile</a>
 </li>
 <li>SetAutomaticFold()
 : <a class="el" href="classwxScintilla.xhtml#af24edb8e44b24006e147285b821b3bcc">wxScintilla</a>
+</li>
+<li>SetBackgroundColour()
+: <a class="el" href="classwxSwitcherItems.xhtml#aee4900fa275ff855360ea3508cf34556">wxSwitcherItems</a>
 </li>
 <li>SetBackSpaceUnIndents()
 : <a class="el" href="classwxScintilla.xhtml#af3a449f3c34ead9d93d3bc92c931551f">wxScintilla</a>
@@ -580,6 +651,12 @@
 </li>
 <li>SetBatchBuild()
 : <a class="el" href="classManager.xhtml#a380bdcbed984aa271c111562ebf76d30">Manager</a>
+</li>
+<li>SetBitmap()
+: <a class="el" href="classwxSwitcherItem.xhtml#a5bba386f67a9b64802a71e5c7aa4605e">wxSwitcherItem</a>
+</li>
+<li>SetBorderColour()
+: <a class="el" href="classwxSwitcherDialog.xhtml#afd3aaf29dd452445157a67157736d627">wxSwitcherDialog</a>
 </li>
 <li>SetBufferedDraw()
 : <a class="el" href="classwxScintilla.xhtml#a3c2fe375c81b5b8d5db880206d726086">wxScintilla</a>
@@ -656,6 +733,12 @@
 <li>SetColourSet()
 : <a class="el" href="classcbEditor.xhtml#a817143d870121793708c8f18962659a4">cbEditor</a>
 , <a class="el" href="classEditorManager.xhtml#a88bee44a32485229d71150134026104a">EditorManager</a>
+</li>
+<li>SetColPos()
+: <a class="el" href="classwxSwitcherItem.xhtml#ac7068f87bcd085f933967ecb96f26b92">wxSwitcherItem</a>
+</li>
+<li>SetColumnCount()
+: <a class="el" href="classwxSwitcherItems.xhtml#aeb8178f46beb18c77c8e21a95ef8fe8a">wxSwitcherItems</a>
 </li>
 <li>SetComboboxSelection()
 : <a class="el" href="classWiz.xhtml#a7be0e4e8621c5cc5f0a3d838fda3ea6a">Wiz</a>
@@ -757,7 +840,7 @@
 : <a class="el" href="classFilesGroupsAndMasks.xhtml#aec2dbb3a24bad3d6ac570909def9d2e2">FilesGroupsAndMasks</a>
 </li>
 <li>SetDefaultCompiler()
-: <a class="el" href="classCompilerFactory.xhtml#ad17b9dd5fefb0c2826e4e34d626a98b6">CompilerFactory</a>
+: <a class="el" href="classCompilerFactory.xhtml#a064086276f30d64c92b1e81db779107b">CompilerFactory</a>
 </li>
 <li>SetDefaultExecuteTarget()
 : <a class="el" href="classcbProject.xhtml#afedfe6c3f3d62ae805ba84c4c5090f11">cbProject</a>
@@ -774,6 +857,7 @@
 <li>SetDescription()
 : <a class="el" href="classGenericSelectPath.xhtml#af0b25c7ae6a99925c83073462a0d82d4">GenericSelectPath</a>
 , <a class="el" href="classGenericSingleChoiceList.xhtml#a6eb76910e2298642b6f684bf7bbf194e">GenericSingleChoiceList</a>
+, <a class="el" href="classwxSwitcherItem.xhtml#aa7b0d93641ddfde0a7b5245d9ae2ef98">wxSwitcherItem</a>
 </li>
 <li>SetDialog()
 : <a class="el" href="classwxDialogHelper.xhtml#a9218ca2702b2f95807ecfcd9023edf51">wxDialogHelper</a>
@@ -862,6 +946,10 @@
 <li>SetExtraDescent()
 : <a class="el" href="classwxScintilla.xhtml#a006baaa8772785da367787b34b428b03">wxScintilla</a>
 </li>
+<li>SetExtraNavigationKey()
+: <a class="el" href="classwxMultiColumnListCtrl.xhtml#a09c1853d9db7c56ad2187d4cda90a738">wxMultiColumnListCtrl</a>
+, <a class="el" href="classwxSwitcherDialog.xhtml#a2d01720fdbfdaca5f9716b6139a74a3e">wxSwitcherDialog</a>
+</li>
 <li>SetExtraPaths()
 : <a class="el" href="classCompiler.xhtml#ab563e0347fbfc71133a79d7b357ebe07">Compiler</a>
 </li>
@@ -923,6 +1011,9 @@
 <li>SetFoldMarginHiColour()
 : <a class="el" href="classwxScintilla.xhtml#a53f52702b812810cf37ed4d79bb2b226">wxScintilla</a>
 </li>
+<li>SetFont()
+: <a class="el" href="classwxSwitcherItem.xhtml#ac62ff3463715d9d98755244dab92e5b6">wxSwitcherItem</a>
+</li>
 <li>SetFontQuality()
 : <a class="el" href="classwxScintilla.xhtml#af7907b3ed319d782085843cd83191f98">wxScintilla</a>
 </li>
@@ -955,6 +1046,9 @@
 </li>
 <li>SetHScrollBar()
 : <a class="el" href="classwxScintilla.xhtml#a89ff357294da5eb7e97a1cdc34be2946">wxScintilla</a>
+</li>
+<li>SetId()
+: <a class="el" href="classwxSwitcherItem.xhtml#a75c9f2796ea59ec12dddfa832ef99b9e">wxSwitcherItem</a>
 </li>
 <li>SetIdentifier()
 : <a class="el" href="classwxScintilla.xhtml#a57a5351e517db43a9094e0e3908be511">wxScintilla</a>
@@ -995,11 +1089,20 @@
 <li>SetIntroText()
 : <a class="el" href="classInfoPanel.xhtml#a8725a0f2a7557d4ed0df831f2689f063">InfoPanel</a>
 </li>
+<li>SetIsGroup()
+: <a class="el" href="classwxSwitcherItem.xhtml#a5363f031c703b2e855d448d67960605d">wxSwitcherItem</a>
+</li>
 <li>SetIsRunning()
 : <a class="el" href="classProjectManager.xhtml#abac75bb2af9d4668f8f8fe23403c20d9">ProjectManager</a>
 </li>
 <li>SetItemAtPos()
 : <a class="el" href="classSearchTree.xhtml#aae4aee3daf5200ca58ddf0ff7cf58d89">SearchTree&lt; T &gt;</a>
+</li>
+<li>SetItemFont()
+: <a class="el" href="classwxSwitcherItems.xhtml#ab8216cd1c4abdc326dad8e05cb2858a7">wxSwitcherItems</a>
+</li>
+<li>SetItems()
+: <a class="el" href="classwxMultiColumnListCtrl.xhtml#ad23ef2579514c87720709659012c0210">wxMultiColumnListCtrl</a>
 </li>
 <li>SetKey()
 : <a class="el" href="classwxScintillaEvent.xhtml#a6631179d7f05210cb9276580298455ba">wxScintillaEvent</a>
@@ -1178,6 +1281,10 @@
 , <a class="el" href="classCompileOptionsBase.xhtml#a80f7d8672ac61a6e3fafcf80eb920798">CompileOptionsBase</a>
 , <a class="el" href="classEditorBase.xhtml#a28bff9f5f78d0c98f73ae9b57edea522">EditorBase</a>
 </li>
+<li>SetModifierKey()
+: <a class="el" href="classwxMultiColumnListCtrl.xhtml#ae031e41d29ef667559adb9e85b1017b7">wxMultiColumnListCtrl</a>
+, <a class="el" href="classwxSwitcherDialog.xhtml#a21d993f7230195d515870a1164b1d469">wxSwitcherDialog</a>
+</li>
 <li>SetModifiers()
 : <a class="el" href="classwxScintillaEvent.xhtml#a32977889a99803de8c640f6b323e2c53">wxScintillaEvent</a>
 </li>
@@ -1204,6 +1311,7 @@
 , <a class="el" href="classcbTool.xhtml#a628b036ce4f72984d3ea7d91262c87d7">cbTool</a>
 , <a class="el" href="classCompiler.xhtml#a695b996bb720e72b457c80f92b428b41">Compiler</a>
 , <a class="el" href="classEditorColourSet.xhtml#a1738988e419f004942856e7edd683805">EditorColourSet</a>
+, <a class="el" href="classwxSwitcherItem.xhtml#a42db8af7a21ed10306fdc0f709aec6d8">wxSwitcherItem</a>
 </li>
 <li>SetNextStatement
 : <a class="el" href="cbplugin_8h.xhtml#a009a1de7545608959c8e6419b1f89ef5a2c15bb178e958ac53520c1f2a3acf889">cbDebuggerFeature</a>
@@ -1337,6 +1445,9 @@
 , <a class="el" href="classEditorBase.xhtml#a9fb0d0fe30ffe05cd38508166236b799">EditorBase</a>
 , <a class="el" href="classwxScintilla.xhtml#ad4e204d26aef2231e5012307d2271992">wxScintilla</a>
 </li>
+<li>SetRect()
+: <a class="el" href="classwxSwitcherItem.xhtml#a09115dae8ef5ec50b948d95f6aa2d478">wxSwitcherItem</a>
+</li>
 <li>SetRectangularSelectionAnchor()
 : <a class="el" href="classwxScintilla.xhtml#aef0cb63e2b33a93d401086140ce33948">wxScintilla</a>
 </li>
@@ -1357,6 +1468,7 @@
 </li>
 <li>SetRegisterValue()
 : <a class="el" href="classcbCPURegistersDlg.xhtml#aaf0c3545769ae4bd7a1f15a0674c388d">cbCPURegistersDlg</a>
+, <a class="el" href="classCPURegistersDlg.xhtml#adc214d0d5ffda620fc9ff0262f5ca6ef">CPURegistersDlg</a>
 </li>
 <li>SetReleaseName()
 : <a class="el" href="classCompilerPanel.xhtml#ab14dce440c4fad5c584cd57afd9d9169">CompilerPanel</a>
@@ -1378,6 +1490,12 @@
 </li>
 <li>SetResourceIncludeDirs()
 : <a class="el" href="classCompileOptionsBase.xhtml#ac9ad3ce19b4e636ba56c1feca3a4c957">CompileOptionsBase</a>
+</li>
+<li>SetRowCount()
+: <a class="el" href="classwxSwitcherItems.xhtml#aaba7cef42583ffe3d39849ae01313cfd">wxSwitcherItems</a>
+</li>
+<li>SetRowPos()
+: <a class="el" href="classwxSwitcherItem.xhtml#ad034cbe1bac00c6cd9f48ede5bc37ae0">wxSwitcherItem</a>
 </li>
 <li>SetRunHostApplicationInTerminal()
 : <a class="el" href="classCompileTargetBase.xhtml#abe00abe987fdc5fdeb4db25b99febffd">CompileTargetBase</a>
@@ -1417,9 +1535,13 @@
 </li>
 <li>SetSelection()
 : <a class="el" href="classwxScintilla.xhtml#ab123236f354fbd1ecf526110e44038f4">wxScintilla</a>
+, <a class="el" href="classwxSwitcherItems.xhtml#a27682f217915ec4a4a294c550f033e2f">wxSwitcherItems</a>
 </li>
 <li>SetSelectionClipboard()
 : <a class="el" href="classEditorManager.xhtml#a42cea750edcbaf663bb08924a1c9ec8b">EditorManager</a>
+</li>
+<li>SetSelectionColour()
+: <a class="el" href="classwxSwitcherItems.xhtml#abee9099f640e7efbc2d8dc448b61a28d">wxSwitcherItems</a>
 </li>
 <li>SetSelectionEnd()
 : <a class="el" href="classwxScintilla.xhtml#ab716c4030b41178b5eecea47d62d22f1">wxScintilla</a>
@@ -1448,8 +1570,14 @@
 <li>SetSelectionNStart()
 : <a class="el" href="classwxScintilla.xhtml#a4211b46bf99444ad64076e727120164e">wxScintilla</a>
 </li>
+<li>SetSelectionOutlineColour()
+: <a class="el" href="classwxSwitcherItems.xhtml#a24d420c25740fc5b723fbc9e90da0d99">wxSwitcherItems</a>
+</li>
 <li>SetSelectionStart()
 : <a class="el" href="classwxScintilla.xhtml#a2c789c9593c486bedf17595a02c4311d">wxScintilla</a>
+</li>
+<li>SetSelectionTextColour()
+: <a class="el" href="classwxSwitcherItems.xhtml#ade6592c98ee3c47c8619fe44a2d70a89">wxSwitcherItems</a>
 </li>
 <li>SetSelectionVoid()
 : <a class="el" href="classwxScintilla.xhtml#a9f5bf18050839174a0b95b3cd63dbd18">wxScintilla</a>
@@ -1537,6 +1665,10 @@
 : <a class="el" href="classwxScintilla.xhtml#a365ff108e0169600a4a84a4729b314e3">wxScintilla</a>
 , <a class="el" href="classwxScintillaEvent.xhtml#a6b1ded4fb7e5dda2b158c11995f59f0e">wxScintillaEvent</a>
 </li>
+<li>SetTextColour()
+: <a class="el" href="classwxSwitcherItem.xhtml#a72d5d92bb74785b6b2a77f5745319704">wxSwitcherItem</a>
+, <a class="el" href="classwxSwitcherItems.xhtml#a24d257e1dbcd4949ac70b35a7c70c620">wxSwitcherItems</a>
+</li>
 <li>SetTextControlValue()
 : <a class="el" href="classWiz.xhtml#a898b4af9aae42640f241987ddcd483d0">Wiz</a>
 </li>
@@ -1548,6 +1680,7 @@
 , <a class="el" href="classcbWorkspace.xhtml#aaa9479febbd4ac93b05a4a17d765125f">cbWorkspace</a>
 , <a class="el" href="classCompileTargetBase.xhtml#a68a66cca525e482c72055a81b22b48fe">CompileTargetBase</a>
 , <a class="el" href="classEditorBase.xhtml#ae101719afabeded9433ae9b4bf3ccc38">EditorBase</a>
+, <a class="el" href="classwxSwitcherItem.xhtml#adb13cdcdf89292da2f8982b7379c62c2">wxSwitcherItem</a>
 </li>
 <li>SetToken()
 : <a class="el" href="classClassTreeData.xhtml#a73672846ef6bfe0b85f460d205e7a6a6">ClassTreeData</a>
@@ -1587,8 +1720,14 @@
 <li>SetUpdateType()
 : <a class="el" href="classwxScintillaEvent.xhtml#a9d1220f58767c2f93eef841ac2993fd5">wxScintillaEvent</a>
 </li>
+<li>SetupDebuggerUI()
+: <a class="el" href="classMainFrame.xhtml#aa63a82193d4d364f1c1cf9284c746a9b">MainFrame</a>
+</li>
 <li>SetupEnvironment()
 : <a class="el" href="classCompilerGCC.xhtml#a6f472cd8d233a6140c070088288825b2">CompilerGCC</a>
+</li>
+<li>SetupGUILogging()
+: <a class="el" href="classMainFrame.xhtml#a8248fcdd1b8d4ff17432f8cf1f5116bf">MainFrame</a>
 </li>
 <li>SetupIncludeDirs()
 : <a class="el" href="classCompilerCommandGenerator.xhtml#a2f68b51fc831702468b2da7036742c47">CompilerCommandGenerator</a>
@@ -1614,6 +1753,9 @@
 </li>
 <li>SetupOutputFilenames()
 : <a class="el" href="classCompilerCommandGenerator.xhtml#a544bb285684bc4e2e8e65d381c519f2e">CompilerCommandGenerator</a>
+</li>
+<li>SetupPersonality()
+: <a class="el" href="classCodeBlocksApp.xhtml#a6a581c39f068bd21280499245d921fb6">CodeBlocksApp</a>
 </li>
 <li>SetupResourceCompilerOptions()
 : <a class="el" href="classCompilerCommandGenerator.xhtml#a6ef6be90e59d5dd80c1f65f8b9934fd2">CompilerCommandGenerator</a>
@@ -1652,6 +1794,7 @@
 <li>SetValue()
 : <a class="el" href="classcbWatch.xhtml#a8893b1fbf86c5bbf86b13ab35e3d48d3">cbWatch</a>
 , <a class="el" href="classGDBWatch.xhtml#ab7bd3576607d25e0b4449ca452d88a3e">GDBWatch</a>
+, <a class="el" href="classWatchRawDialog.xhtml#ab91740a1ee88fa7043ae7e7addc6536e">WatchRawDialog</a>
 , <a class="el" href="classwxScintilla.xhtml#a86049c652e7a2e9b34f39e5d4835c43c">wxScintilla</a>
 </li>
 <li>SetValueTooltipFont()
@@ -1681,6 +1824,9 @@
 <li>SetVirtualSpaceOptions()
 : <a class="el" href="classwxScintilla.xhtml#a7d174c19d43acc1b3755d992c206a292">wxScintilla</a>
 </li>
+<li>SetVirtualTarget()
+: <a class="el" href="classVirtualBuildTargetsDlg.xhtml#a8b61bcc3ccd31c6b063c38a98e773275">VirtualBuildTargetsDlg</a>
+</li>
 <li>SetVisiblePolicy()
 : <a class="el" href="classwxScintilla.xhtml#a6559d6398c06aac6226c34f2f8f84a12">wxScintilla</a>
 </li>
@@ -1692,6 +1838,9 @@
 </li>
 <li>SetWantRelease()
 : <a class="el" href="classCompilerPanel.xhtml#a4813c6783c1a48fc18b99de4dd7ace15">CompilerPanel</a>
+</li>
+<li>SetWatch()
+: <a class="el" href="classWatchesProperty.xhtml#aadb64a7480b1f5e53f08b8f61505d1c7">WatchesProperty</a>
 </li>
 <li>SetWatchValue()
 : <a class="el" href="classcbDebuggerPlugin.xhtml#ad991a1122e2b5b4783e3f55b2f90891a">cbDebuggerPlugin</a>
@@ -1708,6 +1857,9 @@
 </li>
 <li>SetWhitespaceSize()
 : <a class="el" href="classwxScintilla.xhtml#add76203c238dbda4a00b39b97b3c50ac">wxScintilla</a>
+</li>
+<li>SetWindow()
+: <a class="el" href="classwxSwitcherItem.xhtml#a66f7424f75e84b908f7c9a453cf644bb">wxSwitcherItem</a>
 </li>
 <li>SetWordChars()
 : <a class="el" href="classwxScintilla.xhtml#a1899c7718b0838e88d1d90eb285c3f14">wxScintilla</a>
@@ -1760,6 +1912,12 @@
 , <a class="el" href="classEditorManager.xhtml#a5f211cadde70028a0a6a78d00887bd0c">EditorManager</a>
 , <a class="el" href="classwxScintilla.xhtml#a3915e5b27c7e1709ba338cd734b3bb2d">wxScintilla</a>
 </li>
+<li>shared
+: <a class="el" href="classSharedMemory.xhtml#ad82f26c5bf106bd11705fc36945e069b">SharedMemory</a>
+</li>
+<li>SharedMemory()
+: <a class="el" href="classSharedMemory.xhtml#ad4cee9385b663fa8bc396e934ca9b50e">SharedMemory</a>
+</li>
 <li>ShiftBreakpoint()
 : <a class="el" href="classcbDebuggerPlugin.xhtml#ab2bffd92ff41c32e8b74749a00faeb1a">cbDebuggerPlugin</a>
 , <a class="el" href="classDebuggerGDB.xhtml#ab9b4747a3275eb7b5da406502cb1dc34">DebuggerGDB</a>
@@ -1768,11 +1926,15 @@
 <li>ShiftExp()
 : <a class="el" href="classSQCompiler.xhtml#a5bc5faa44288c58bd3beb3cd0feac35f">SQCompiler</a>
 </li>
+<li>shm
+: <a class="el" href="classIPC.xhtml#ad73b4a6a6f18d6c5c756559bf2e12175">IPC</a>
+</li>
 <li>ShortName
 : <a class="el" href="structCodeCompletion_1_1FunctionScope.xhtml#af782771aa4b11e9e58622970396c4c1f">CodeCompletion::FunctionScope</a>
 </li>
 <li>Show()
-: <a class="el" href="classUnfocusablePopupWindow.xhtml#a2a2eca457041c4e81efe7a3af861ca2c">UnfocusablePopupWindow</a>
+: <a class="el" href="classInfoPane.xhtml#a8fa84c1df32a4545a14df7405fbee0ef">InfoPane</a>
+, <a class="el" href="classUnfocusablePopupWindow.xhtml#a2a2eca457041c4e81efe7a3af861ca2c">UnfocusablePopupWindow</a>
 , <a class="el" href="classwxScrollingDialog.xhtml#a14be688a3d3a2b29e10cc4a21bb14e2c">wxScrollingDialog</a>
 , <a class="el" href="classwxScrollingPropertySheetDialog.xhtml#a2b7d099f96e7658eb5f40fb6838b7dec">wxScrollingPropertySheetDialog</a>
 </li>
@@ -1785,6 +1947,9 @@
 <li>ShowDebuggersLog
 : <a class="el" href="structcbDebuggerCommonConfig.xhtml#ac2049f2b0b8d09b72a64dc046407eef3a9d1bd3bd7824a3094d8ced0cf925f1e9">cbDebuggerCommonConfig</a>
 </li>
+<li>ShowDescription()
+: <a class="el" href="classwxSwitcherDialog.xhtml#a71071a8e843ef19c9144fafb4ae3ca98">wxSwitcherDialog</a>
+</li>
 <li>ShowErrorMessage()
 : <a class="el" href="classcbException.xhtml#aacb9f4eae9894b0feb133881b8f46834">cbException</a>
 </li>
@@ -1794,9 +1959,19 @@
 <li>ShowFileInTree()
 : <a class="el" href="classcbProjectManagerUI.xhtml#a36810b357355ceebafdc2bfa03ccd17a">cbProjectManagerUI</a>
 , <a class="el" href="classNullProjectManagerUI.xhtml#af48592978294e859bbf5fe0dbf6b5066">NullProjectManagerUI</a>
+, <a class="el" href="classProjectManagerUI.xhtml#a4c9ca188b291b0f98177ce9d15acad78">ProjectManagerUI</a>
+</li>
+<li>ShowFindDialog()
+: <a class="el" href="classFindReplace.xhtml#a5e01586957d532f9b5f8364c829b724c">FindReplace</a>
 </li>
 <li>ShowHeaderGuard()
 : <a class="el" href="classFilePathPanel.xhtml#a2f73b37f12e43b2ca79c5786da9719d8">FilePathPanel</a>
+</li>
+<li>ShowHideScriptConsole()
+: <a class="el" href="classMainFrame.xhtml#ae0013104ef566775c77ac8f8bfc86e3a">MainFrame</a>
+</li>
+<li>ShowHideStartPage()
+: <a class="el" href="classMainFrame.xhtml#a4541075673495e65ea2ad186ed8a2a62">MainFrame</a>
 </li>
 <li>showInheritance
 : <a class="el" href="parser__base_8h.xhtml#a26a1817c1aac303c2f6ac3613ef690f9">BrowserOptions</a>
@@ -1809,6 +1984,7 @@
 </li>
 <li>ShowMenu()
 : <a class="el" href="classClassBrowser.xhtml#a823ab29ceebff92c545ad88746c1f2c9">ClassBrowser</a>
+, <a class="el" href="classProjectManagerUI.xhtml#ab0eb5e27daa6fdea873e2d52b94ce249">ProjectManagerUI</a>
 </li>
 <li>ShowModal()
 : <a class="el" href="classAnnoyingDialog.xhtml#a763a491180a3448aefc2dfb53074e07c">AnnoyingDialog</a>
@@ -1818,11 +1994,17 @@
 <li>shown
 : <a class="el" href="classCodeBlocksDockEvent.xhtml#a50a0c682adb103932316d05d6fd70491">CodeBlocksDockEvent</a>
 </li>
+<li>ShowNonLogger()
+: <a class="el" href="classInfoPane.xhtml#a5ed791f403d39a0bcd5646df5ee5a036">InfoPane</a>
+</li>
 <li>ShowNotebook()
 : <a class="el" href="classEditorManager.xhtml#a8b29de8426ed72e9777b4b66c3441b56">EditorManager</a>
 </li>
 <li>ShowNotes()
 : <a class="el" href="classcbProject.xhtml#a9c1d1a0e1e95db6151c620909d4b56da">cbProject</a>
+</li>
+<li>ShowOpenFileDialog()
+: <a class="el" href="classMainFrame.xhtml#aa1121018a5542ca528ccf0cf0c13607a">MainFrame</a>
 </li>
 <li>ShowOptions()
 : <a class="el" href="classProjectFile.xhtml#a655ae39e5739a4a4add65590df3a1449">ProjectFile</a>
@@ -1830,18 +2012,23 @@
 <li>ShowTemporaryBreakpoints
 : <a class="el" href="structcbDebuggerCommonConfig.xhtml#ac2049f2b0b8d09b72a64dc046407eef3a41404084ed9695ea526e780192d9b4c8">cbDebuggerCommonConfig</a>
 </li>
+<li>ShowTips()
+: <a class="el" href="classMainFrame.xhtml#a395444893410a420efab4d50b66fc3ed">MainFrame</a>
+</li>
 <li>ShowValueTooltip()
 : <a class="el" href="classcbDebuggerPlugin.xhtml#ad80e3ecdce195a84ac392fc48ca6cc79">cbDebuggerPlugin</a>
 , <a class="el" href="classcbDebugInterfaceFactory.xhtml#a1886ce96a09cbf541703f9c92a9d7cea">cbDebugInterfaceFactory</a>
 , <a class="el" href="classDebuggerGDB.xhtml#a47bca9f045a7acfe70ef1d5db71fa11b">DebuggerGDB</a>
 , <a class="el" href="classDebuggerManager.xhtml#aa5f1f6626fd19e5e29f92ac1a111d8bc">DebuggerManager</a>
+, <a class="el" href="classDebugInterfaceFactory.xhtml#a11756b3ec68a13f1e8dd521ef2895fda">DebugInterfaceFactory</a>
 </li>
 <li>ShowWatchProperties()
 : <a class="el" href="classcbDebuggerPlugin.xhtml#a8907808c3ae16e0c9caf6a02f044ae9f">cbDebuggerPlugin</a>
 , <a class="el" href="classDebuggerGDB.xhtml#ae1cbd97168c601d46bdd34200a3987e4">DebuggerGDB</a>
 </li>
 <li>Shutdown()
-: <a class="el" href="classManager.xhtml#a93cce918aa0b32328011b64af921e9bf">Manager</a>
+: <a class="el" href="classIPC.xhtml#af74178e54021f05000a5654e30e9a481">IPC</a>
+, <a class="el" href="classManager.xhtml#a93cce918aa0b32328011b64af921e9bf">Manager</a>
 </li>
 <li>singleUsage
 : <a class="el" href="classGdbCmd__FindTooltipType.xhtml#a1eea37be84d9e13bb26b7c49f34ca6dc">GdbCmd_FindTooltipType</a>
@@ -1851,8 +2038,9 @@
 , <a class="el" href="sqapi_8cpp.xhtml#a88d5163bf3b5e9826093972f4cd96790">BufState</a>
 , <a class="el" href="classSearchTree.xhtml#acf024494b8dbca66d36947956360aa67">SearchTree&lt; T &gt;</a>
 </li>
-<li>Size
-: <a class="el" href="structSqPlus_1_1TypeInfo_3_01unsigned_01short_01_4.xhtml#a35cbb9d2cee6071cb3eaaafcbc9e3395a10e41eb9f2e3e8b4f423198f5626b406">SqPlus::TypeInfo&lt; unsigned short &gt;</a>
+<li>Size()
+: <a class="el" href="classSharedMemory.xhtml#ac63c23dc33025654cc5cf90ceeb4a5d7">SharedMemory</a>
+, <a class="el" href="structSqPlus_1_1TypeInfo_3_01unsigned_01short_01_4.xhtml#a35cbb9d2cee6071cb3eaaafcbc9e3395a10e41eb9f2e3e8b4f423198f5626b406">SqPlus::TypeInfo&lt; unsigned short &gt;</a>
 </li>
 <li>size()
 : <a class="el" href="classTokenTree.xhtml#a9d74634d50de749bf1451bfeb7aa88ac">TokenTree</a>
@@ -1916,11 +2104,11 @@
 <li>SkipWhitespaceForward()
 : <a class="el" href="classNativeParser.xhtml#a804c41604a388e47643ab37f4d5dbbc2">NativeParser</a>
 </li>
-<li>slot
-: <a class="el" href="classLogManager.xhtml#acf76bce6e5d39dd8b202b672eb4ee285">LogManager</a>
-</li>
 <li>Slot()
 : <a class="el" href="classLogManager.xhtml#a5b1614b0de590ed392524e8c2d2a5817">LogManager</a>
+</li>
+<li>slot
+: <a class="el" href="classLogManager.xhtml#acf76bce6e5d39dd8b202b672eb4ee285">LogManager</a>
 </li>
 <li>sm_layoutAdaptation
 : <a class="el" href="classwxDialogHelper.xhtml#a52812ca38842f7ab2681e792da3a7bc6">wxDialogHelper</a>
@@ -1933,6 +2121,9 @@
 </li>
 <li>SortOptions
 : <a class="el" href="classCompiler.xhtml#a77881fa7192fee25ba2c425ae30813f1">Compiler::MirrorSettings</a>
+</li>
+<li>sortSearchResult
+: <a class="el" href="structcbFindReplaceData.xhtml#ab9e5e89ba19466e2fc22652a4d4e6ae6">cbFindReplaceData</a>
 </li>
 <li>sortType
 : <a class="el" href="parser__base_8h.xhtml#aa77b0e0b0637cd9c91b5866644c03247">BrowserOptions</a>
@@ -1953,6 +2144,9 @@
 : <a class="el" href="structCSS.xhtml#aaf1cd041f4b2ec8690db0925d81c77ac">CSS</a>
 , <a class="el" href="classLogger.xhtml#aed6cff4305f6b79f0620111fd4c26121a4d594c92fbb2da8aeb94029fa6847b13">Logger</a>
 </li>
+<li>special
+: <a class="el" href="structWatchesDlg_1_1WatchItem.xhtml#ac3ba9a69c4654accddecc9df48546638">WatchesDlg::WatchItem</a>
+</li>
 <li>Split()
 : <a class="el" href="classcbEditor.xhtml#af382683b5789b3c2126b7907566b81ba">cbEditor</a>
 </li>
@@ -1971,14 +2165,20 @@
 <li>SplitType
 : <a class="el" href="classcbEditor.xhtml#ad8bd78eb5d3ad1865be933c394e70440">cbEditor</a>
 </li>
+<li>spnSet
+: <a class="el" href="classEditKeywordsDlg.xhtml#af24a07f69759a915a4809d01c80ae5b9">EditKeywordsDlg</a>
+</li>
 <li>SQCompiler()
 : <a class="el" href="classSQCompiler.xhtml#a70b5da16126b868ed56de4dacc541c6e">SQCompiler</a>
 </li>
 <li>SQFile()
-: <a class="el" href="structSQFile.xhtml#a3e81ae9731056c83c0edf50e7c32ae3b">SQFile</a>
+: <a class="el" href="structSQFile.xhtml#a334fc4a2747e797a9f2817df4d470dfd">SQFile</a>
 </li>
 <li>StackFrameContainer
 : <a class="el" href="classDebuggerDriver.xhtml#afbdc5a34816814cc92ce9a5a1b92a06a">DebuggerDriver</a>
+</li>
+<li>start
+: <a class="el" href="structcbFindReplaceData.xhtml#a1a9cc1486ca9a89aed30d7c7b9554ec7">cbFindReplaceData</a>
 </li>
 <li>Start()
 : <a class="el" href="classCDB__driver.xhtml#a33bd40199f0981ea136cdf2b0da59fad">CDB_driver</a>
@@ -1993,6 +2193,12 @@
 </li>
 <li>StartDriver()
 : <a class="el" href="classDebuggerState.xhtml#aa7e897362f33e16b9d6da10358f9c0e5">DebuggerState</a>
+</li>
+<li>startFile
+: <a class="el" href="structcbFindReplaceData.xhtml#aec398d2c10d757fe1dd46006fa5deefe">cbFindReplaceData</a>
+</li>
+<li>StartHerePage()
+: <a class="el" href="classStartHerePage.xhtml#a43d3be2c3463d619da665bf110b082d4">StartHerePage</a>
 </li>
 <li>StartLine
 : <a class="el" href="structCodeCompletion_1_1FunctionScope.xhtml#a51b923e8d7489b6b445e264dc0e80a31">CodeCompletion::FunctionScope</a>
@@ -2018,6 +2224,12 @@
 </li>
 <li>StartTypeUnknown
 : <a class="el" href="classcbDebuggerPlugin.xhtml#a7a8a2759e09f5dea5ab1b3f047b11744ae2f9db6593ae017579c9661e34a80f0a">cbDebuggerPlugin</a>
+</li>
+<li>StartupDone()
+: <a class="el" href="classMainFrame.xhtml#a5721cc63e5d7d3901fffc987d0356c02">MainFrame</a>
+</li>
+<li>startWord
+: <a class="el" href="structcbFindReplaceData.xhtml#a39a4ff886efe4f204aeda016e57a5fe8">cbFindReplaceData</a>
 </li>
 <li>Statement()
 : <a class="el" href="classSQCompiler.xhtml#af1801d03469d133d2a24a60c882b5467">SQCompiler</a>
@@ -2142,6 +2354,9 @@
 </li>
 <li>StringLexerStyles
 : <a class="el" href="classcbStyledTextCtrl.xhtml#a927d72c0a50af2da78605d86e6575033">cbStyledTextCtrl</a>
+</li>
+<li>StringToAnnoyingDlgReturn()
+: <a class="el" href="classEnvironmentSettingsDlg.xhtml#a8bc9919199461e4579357aaea7055d53">EnvironmentSettingsDlg</a>
 </li>
 <li>StripQuotes()
 : <a class="el" href="classDebuggerGDB.xhtml#a94169a1df09add04b8df7d4ba8f313d3">DebuggerGDB</a>
@@ -2347,6 +2562,7 @@
 <li>SwitchToProjectsPage()
 : <a class="el" href="classcbProjectManagerUI.xhtml#afe0f47c2d8e5ddb9f66c111b572e64bc">cbProjectManagerUI</a>
 , <a class="el" href="classNullProjectManagerUI.xhtml#a64799184b71b21bf87d107aa3c9a691e">NullProjectManagerUI</a>
+, <a class="el" href="classProjectManagerUI.xhtml#a89d8e09e887d70657c9348ebc22099ff">ProjectManagerUI</a>
 </li>
 <li>SwitchToR()
 : <a class="el" href="classCfgMgrBldr.xhtml#a26d4d074283e20752743ac5beb0bcb36">CfgMgrBldr</a>

@@ -18,7 +18,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">Code::Blocks
-   &#160;<span id="projectnumber">SVN r10054</span>
+   &#160;<span id="projectnumber">SVN r10078</span>
    </div>
   </td>
  </tr>
@@ -64,13 +64,13 @@
 <div class="dynheader">
 Inheritance diagram for EditorBase:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classEditorBase__inherit__graph.svg" width="211" height="1292"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classEditorBase__inherit__graph.svg" width="398" height="1175"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <div class="dynheader">
 Collaboration diagram for EditorBase:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classEditorBase__coll__graph.svg" width="211" height="722"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classEditorBase__coll__graph.svg" width="211" height="692"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <table class="memberdecls">
@@ -345,7 +345,7 @@ Private Attributes</h2></td></tr>
 
 <p>References <a class="el" href="classManager.xhtml#acf40c9bf3465914dd64d9fdf3b3dc80a">Manager::Get()</a>, <a class="el" href="classManager.xhtml#a66c9757eaea9fce292dc74ae43a6d637">Manager::GetEditorManager()</a>, and <a class="el" href="classEditorManager.xhtml#aa220cf1831cd7d6700cfb21bc365603f">EditorManager::SetActiveEditor()</a>.</p>
 
-<p>Referenced by <a class="el" href="classCompilerErrors.xhtml#a09d22d62013a1d956f5259416ffa626c">CompilerErrors::DoGotoError()</a>, <a class="el" href="classcbProject.xhtml#af02bcebde85e1b84f9184b83ead27b28">cbProject::LoadLayout()</a>, <a class="el" href="namespaceScriptBindings.xhtml#a6e0d78bfc5615f6749b598ac91010184">ScriptBindings::RegisterBindings()</a>, and <a class="el" href="classcbSearchResultsLog.xhtml#aaf2a4f93819e9398c3015b672665bcec">cbSearchResultsLog::SyncEditor()</a>.</p>
+<p>Referenced by <a class="el" href="classCompilerErrors.xhtml#a09d22d62013a1d956f5259416ffa626c">CompilerErrors::DoGotoError()</a>, <a class="el" href="classProjectManagerUI.xhtml#a2699e49eb729a65827ee69aa5e433862">ProjectManagerUI::DoOpenFile()</a>, <a class="el" href="classMainFrame.xhtml#ad58b9ff28f35908a5f6bc5a25797ba3f">MainFrame::DoOpenFile()</a>, <a class="el" href="classcbProject.xhtml#af02bcebde85e1b84f9184b83ead27b28">cbProject::LoadLayout()</a>, <a class="el" href="classBreakpointsDlg.xhtml#a3c6f4a513d5fe40be767711d0eae0d13">BreakpointsDlg::OnOpen()</a>, <a class="el" href="namespaceScriptBindings.xhtml#a6e0d78bfc5615f6749b598ac91010184">ScriptBindings::RegisterBindings()</a>, and <a class="el" href="classcbSearchResultsLog.xhtml#aaf2a4f93819e9398c3015b672665bcec">cbSearchResultsLog::SyncEditor()</a>.</p>
 
 </div>
 </div>
@@ -462,7 +462,7 @@ Private Attributes</h2></td></tr>
 
 <p>Reimplemented in <a class="el" href="classcbEditor.xhtml#a750cd2a8212f9d3f567807953d6e8e25">cbEditor</a>.</p>
 
-<p>Referenced by <a class="el" href="namespaceScriptBindings.xhtml#a6e0d78bfc5615f6749b598ac91010184">ScriptBindings::RegisterBindings()</a>.</p>
+<p>Referenced by <a class="el" href="classMainFrame.xhtml#ab9c0307f55464c5fe3a7be464bd27183">MainFrame::OnEditMenuUpdateUI()</a>, and <a class="el" href="namespaceScriptBindings.xhtml#a6e0d78bfc5615f6749b598ac91010184">ScriptBindings::RegisterBindings()</a>.</p>
 
 </div>
 </div>
@@ -491,7 +491,7 @@ Private Attributes</h2></td></tr>
 
 <p>Reimplemented in <a class="el" href="classcbEditor.xhtml#afd17e6826e503f573cca9ee7f9168a2f">cbEditor</a>.</p>
 
-<p>Referenced by <a class="el" href="namespaceScriptBindings.xhtml#a6e0d78bfc5615f6749b598ac91010184">ScriptBindings::RegisterBindings()</a>.</p>
+<p>Referenced by <a class="el" href="classMainFrame.xhtml#ab9c0307f55464c5fe3a7be464bd27183">MainFrame::OnEditMenuUpdateUI()</a>, and <a class="el" href="namespaceScriptBindings.xhtml#a6e0d78bfc5615f6749b598ac91010184">ScriptBindings::RegisterBindings()</a>.</p>
 
 </div>
 </div>
@@ -520,6 +520,8 @@ Private Attributes</h2></td></tr>
 
 <p>Reimplemented in <a class="el" href="classcbEditor.xhtml#a924522b189c7d83aecbdb5f754245bc8">cbEditor</a>.</p>
 
+<p>Referenced by <a class="el" href="classMainFrame.xhtml#ab9c0307f55464c5fe3a7be464bd27183">MainFrame::OnEditMenuUpdateUI()</a>.</p>
+
 </div>
 </div>
 <a class="anchor" id="aaf10b60613c8a2ecb234e09043fc37d6"></a>
@@ -547,7 +549,7 @@ Private Attributes</h2></td></tr>
 
 <p>Reimplemented in <a class="el" href="classcbEditor.xhtml#a91cf6d830cece9d498eb9dba5c28fb13">cbEditor</a>.</p>
 
-<p>Referenced by <a class="el" href="namespaceScriptBindings.xhtml#a6e0d78bfc5615f6749b598ac91010184">ScriptBindings::RegisterBindings()</a>.</p>
+<p>Referenced by <a class="el" href="classMainFrame.xhtml#ab9c0307f55464c5fe3a7be464bd27183">MainFrame::OnEditMenuUpdateUI()</a>, <a class="el" href="classMainFrame.xhtml#ae1e9a4962b798281ef7423c577f00cdc">MainFrame::OnEditUndo()</a>, and <a class="el" href="namespaceScriptBindings.xhtml#a6e0d78bfc5615f6749b598ac91010184">ScriptBindings::RegisterBindings()</a>.</p>
 
 </div>
 </div>
@@ -574,6 +576,8 @@ Private Attributes</h2></td></tr>
 <p>Clear Undo- (and Changebar-) history </p>
 
 <p>Reimplemented in <a class="el" href="classcbEditor.xhtml#a4551951e2da99662ae101fea85e3f737">cbEditor</a>.</p>
+
+<p>Referenced by <a class="el" href="classMainFrame.xhtml#ace8eb4d7175131e367e64a667dda415e">MainFrame::OnEditClearHistory()</a>.</p>
 
 </div>
 </div>
@@ -629,7 +633,7 @@ Private Attributes</h2></td></tr>
 
 <p>Reimplemented in <a class="el" href="classcbEditor.xhtml#a1220eecdfcf5398c59ea313be5a0552b">cbEditor</a>.</p>
 
-<p>Referenced by <a class="el" href="namespaceScriptBindings.xhtml#a6e0d78bfc5615f6749b598ac91010184">ScriptBindings::RegisterBindings()</a>.</p>
+<p>Referenced by <a class="el" href="classMainFrame.xhtml#a73e0ec2b6adab98eeaeaddf1b2563cd7">MainFrame::OnEditCopy()</a>, and <a class="el" href="namespaceScriptBindings.xhtml#a6e0d78bfc5615f6749b598ac91010184">ScriptBindings::RegisterBindings()</a>.</p>
 
 </div>
 </div>
@@ -720,7 +724,7 @@ Private Attributes</h2></td></tr>
 
 <p>Reimplemented in <a class="el" href="classcbEditor.xhtml#ae35e6bc707ec3847ea0917da1c210a2f">cbEditor</a>.</p>
 
-<p>Referenced by <a class="el" href="namespaceScriptBindings.xhtml#a6e0d78bfc5615f6749b598ac91010184">ScriptBindings::RegisterBindings()</a>.</p>
+<p>Referenced by <a class="el" href="classMainFrame.xhtml#a6eb45f3f679726a64aa367d2a957e37d">MainFrame::OnEditCut()</a>, and <a class="el" href="namespaceScriptBindings.xhtml#a6e0d78bfc5615f6749b598ac91010184">ScriptBindings::RegisterBindings()</a>.</p>
 
 </div>
 </div>
@@ -793,7 +797,7 @@ Private Attributes</h2></td></tr>
 <p>Get the editor's filename (if applicable). </p>
 <dl class="section return"><dt>Returns</dt><dd>The editor's filename. </dd></dl>
 
-<p>Referenced by <a class="el" href="classNativeParser.xhtml#aeaf9b621dfd1fa3fa21be8973f4c7611">NativeParser::AddProjectToParser()</a>, <a class="el" href="classEditorColourSet.xhtml#ae5c9d56d9176ae62abf4a309f53dbecd">EditorColourSet::Apply()</a>, <a class="el" href="classEditorManager.xhtml#a89d70b8b27e1f8db64a4241ba4510728">EditorManager::CheckForExternallyModifiedFiles()</a>, <a class="el" href="classCodeCompletion.xhtml#ab4bc3803d1bf0ef1703e0a6355fc45f4">CodeCompletion::DoAllMethodsImpl()</a>, <a class="el" href="classCompilerGCC.xhtml#ad498dbf44c23f9ee56de9b1c3d87d839">CompilerGCC::DoBuild()</a>, <a class="el" href="classCodeCompletion.xhtml#a7fc8ad45379b08c75033009b7e95c6a6">CodeCompletion::DoClassMethodDeclImpl()</a>, <a class="el" href="classCodeCompletion.xhtml#ac98f9af5040ada8d35c7f2520a632efd">CodeCompletion::DoCodeComplete()</a>, <a class="el" href="classCodeCompletion.xhtml#a7b3f6a432e4bb274ef5a8de685d3b974">CodeCompletion::DoCodeCompleteIncludes()</a>, <a class="el" href="classCodeRefactoring.xhtml#a17fc2374b1a5bac83db36bed234f5e31">CodeRefactoring::DoFindReferences()</a>, <a class="el" href="classcbDebuggerPlugin.xhtml#aec014d2aa1f2f3837352233f84eed2d6">cbDebuggerPlugin::EditorLinesAddedOrRemoved()</a>, <a class="el" href="classNativeParser.xhtml#abe807622f77b9024bfdbb04bd3be4033">NativeParser::GetCallTips()</a>, <a class="el" href="classCodeRefactoring.xhtml#a67e18679fa7bc88cb90724070ae32e7b">CodeRefactoring::GetOpenedFiles()</a>, <a class="el" href="classNativeParser.xhtml#a8b007d1e00c78728d669c2708ba4c186">NativeParser::GetProjectByEditor()</a>, <a class="el" href="classCodeCompletion.xhtml#ae5b502b99c1c116f009c15a57474826b">CodeCompletion::GetProviderStatusFor()</a>, <a class="el" href="classEditorManager.xhtml#a88ba15ee31690e944d1d435620b6d28c">EditorManager::IsOpen()</a>, <a class="el" href="classFileManager.xhtml#a109c5fc3efb679d77617b00f7ecf7333">FileManager::Load()</a>, <a class="el" href="classNativeParser.xhtml#a8145caa2f0205caccb4d1546610ec8ed">NativeParser::MarkItemsByAI()</a>, <a class="el" href="classEditorManager.xhtml#a9ac66bb51c22ed9ba71c833d2cf2a8b8">EditorManager::New()</a>, <a class="el" href="classEditorManager.xhtml#a542b4d15845dbb9ea22879745c29f156">EditorManager::OnAddFileToProject()</a>, <a class="el" href="classCompilerGCC.xhtml#afe837e7ea095670e65dbd57c5a9ae1b0">CompilerGCC::OnCompileFileRequest()</a>, <a class="el" href="classcbEditor.xhtml#af5dd90b81d25fa93cc0b1038f12b8c58">cbEditor::OnContextMenuEntry()</a>, <a class="el" href="classNativeParser.xhtml#a6015f6263678e9f11fb9ab8ca14d13a2">NativeParser::OnEditorActivated()</a>, <a class="el" href="classCodeCompletion.xhtml#abdf63aa2fe4e40f4a92ded787c2c7b67">CodeCompletion::OnEditorActivatedTimer()</a>, <a class="el" href="classCodeCompletion.xhtml#a6e9c356a90b1a2e9647a083917aca6a9">CodeCompletion::OnEditorClosed()</a>, <a class="el" href="classNativeParser.xhtml#a49a62e9804e1416506db28f0cc78ec53">NativeParser::OnEditorClosed()</a>, <a class="el" href="classCodeCompletion.xhtml#ab6653fbe616a78a0591a99f873670718">CodeCompletion::OnEditorOpen()</a>, <a class="el" href="classcbDebuggerPlugin.xhtml#ac79a4553c8eb0b43c99c4788f060ec8a">cbDebuggerPlugin::OnEditorOpened()</a>, <a class="el" href="classCodeCompletion.xhtml#acb0d32dca055b52bcacf92ff0e384abb">CodeCompletion::OnOpenIncludeFile()</a>, <a class="el" href="classCodeCompletion.xhtml#a3fbbab2507931f95cf45a63c33e1577f">CodeCompletion::OnReparsingTimer()</a>, <a class="el" href="classEditorManager.xhtml#a09f08ffd5a2e4a20c85e84954bb08345">EditorManager::Open()</a>, <a class="el" href="classEditorManager.xhtml#a1396e158069941d78d858062c57d48bf">EditorManager::OpenContainingFolder()</a>, <a class="el" href="classCodeRefactoring.xhtml#a8065883dc72e7d0eb2e4f8d923549b2d">CodeRefactoring::Parse()</a>, <a class="el" href="classCodeCompletion.xhtml#a63617b6a10de1313f94a8e1c5e6ad7ed">CodeCompletion::ParseFunctionsAndFillToolbar()</a>, <a class="el" href="classCompilerGCC.xhtml#ae7d898f0c5437c53acb02e781678291c">CompilerGCC::PrepareCompileFile()</a>, <a class="el" href="classEditorBase.xhtml#a32905d5c981017303b10efe52db08723">QueryClose()</a>, <a class="el" href="classMacrosManager.xhtml#a187352f68096ae1a32efa1ffb9ab873e">MacrosManager::RecalcVars()</a>, <a class="el" href="classcbEditor.xhtml#a2f2a29f44261acbed668e25dcc5f806f">cbEditor::RefreshBreakpointMarkers()</a>, <a class="el" href="namespaceScriptBindings.xhtml#a6e0d78bfc5615f6749b598ac91010184">ScriptBindings::RegisterBindings()</a>, <a class="el" href="classMacrosManager.xhtml#a2f2f810c74129089baa58a68ba52e06b">MacrosManager::ReplaceMacros()</a>, <a class="el" href="classcbEditor.xhtml#a9380cd7ff4b55249f61632d292943de9">cbEditor::Save()</a>, <a class="el" href="classEditorManager.xhtml#ad6032abb8b7071cbe4eaf2b37f900cd0">EditorManager::SaveAll()</a>, <a class="el" href="classcbEditor.xhtml#a03fb10c8e4b20c8270da0d6d6cbfa7a4">cbEditor::SetProjectFile()</a>, <a class="el" href="classEditorBase.xhtml#ae101719afabeded9433ae9b4bf3ccc38">SetTitle()</a>, <a class="el" href="classEditorManager.xhtml#a0348e6e0e4d7204aca821b33a3f69367">EditorManager::SwapActiveHeaderSource()</a>, <a class="el" href="classClassBrowser.xhtml#a27b88dac0c8a2db3ff179ab0fd616b62">ClassBrowser::UpdateClassBrowserView()</a>, and <a class="el" href="classCodeCompletion.xhtml#a3d1351e1519d2024e554429d8f249356">CodeCompletion::UpdateEditorSyntax()</a>.</p>
+<p>Referenced by <a class="el" href="classNativeParser.xhtml#aeaf9b621dfd1fa3fa21be8973f4c7611">NativeParser::AddProjectToParser()</a>, <a class="el" href="classEditorColourSet.xhtml#ae5c9d56d9176ae62abf4a309f53dbecd">EditorColourSet::Apply()</a>, <a class="el" href="classEditorManager.xhtml#a89d70b8b27e1f8db64a4241ba4510728">EditorManager::CheckForExternallyModifiedFiles()</a>, <a class="el" href="crashhandler_8cpp.xhtml#a64fc8a65a58b38beb5e707b5f5e82e76">CrashHandlerSaveEditorFiles()</a>, <a class="el" href="classCodeCompletion.xhtml#ab4bc3803d1bf0ef1703e0a6355fc45f4">CodeCompletion::DoAllMethodsImpl()</a>, <a class="el" href="classCompilerGCC.xhtml#ad498dbf44c23f9ee56de9b1c3d87d839">CompilerGCC::DoBuild()</a>, <a class="el" href="classCodeCompletion.xhtml#a7fc8ad45379b08c75033009b7e95c6a6">CodeCompletion::DoClassMethodDeclImpl()</a>, <a class="el" href="classCodeCompletion.xhtml#ac98f9af5040ada8d35c7f2520a632efd">CodeCompletion::DoCodeComplete()</a>, <a class="el" href="classCodeCompletion.xhtml#a7b3f6a432e4bb274ef5a8de685d3b974">CodeCompletion::DoCodeCompleteIncludes()</a>, <a class="el" href="classCodeRefactoring.xhtml#a17fc2374b1a5bac83db36bed234f5e31">CodeRefactoring::DoFindReferences()</a>, <a class="el" href="classMainFrame.xhtml#ad58b9ff28f35908a5f6bc5a25797ba3f">MainFrame::DoOpenFile()</a>, <a class="el" href="classMainFrame.xhtml#ad710291679838578decd89840074a56d">MainFrame::DoUpdateStatusBar()</a>, <a class="el" href="classcbDebuggerPlugin.xhtml#aec014d2aa1f2f3837352233f84eed2d6">cbDebuggerPlugin::EditorLinesAddedOrRemoved()</a>, <a class="el" href="classFindReplace.xhtml#a2f5fa0ae1f4f4aaf0f32baf42c01da23">FindReplace::FindInFiles()</a>, <a class="el" href="classNativeParser.xhtml#abe807622f77b9024bfdbb04bd3be4033">NativeParser::GetCallTips()</a>, <a class="el" href="classMainFrame.xhtml#a41f2f39d8ea85d732af96d5e03e2f121">MainFrame::GetEditorDescription()</a>, <a class="el" href="classCodeRefactoring.xhtml#a67e18679fa7bc88cb90724070ae32e7b">CodeRefactoring::GetOpenedFiles()</a>, <a class="el" href="classNativeParser.xhtml#a8b007d1e00c78728d669c2708ba4c186">NativeParser::GetProjectByEditor()</a>, <a class="el" href="classCodeCompletion.xhtml#ae5b502b99c1c116f009c15a57474826b">CodeCompletion::GetProviderStatusFor()</a>, <a class="el" href="classEditorManager.xhtml#a88ba15ee31690e944d1d435620b6d28c">EditorManager::IsOpen()</a>, <a class="el" href="classFileManager.xhtml#a109c5fc3efb679d77617b00f7ecf7333">FileManager::Load()</a>, <a class="el" href="classNativeParser.xhtml#a8145caa2f0205caccb4d1546610ec8ed">NativeParser::MarkItemsByAI()</a>, <a class="el" href="classEditorManager.xhtml#a9ac66bb51c22ed9ba71c833d2cf2a8b8">EditorManager::New()</a>, <a class="el" href="classEditorManager.xhtml#a542b4d15845dbb9ea22879745c29f156">EditorManager::OnAddFileToProject()</a>, <a class="el" href="classCompilerGCC.xhtml#afe837e7ea095670e65dbd57c5a9ae1b0">CompilerGCC::OnCompileFileRequest()</a>, <a class="el" href="classcbEditor.xhtml#af5dd90b81d25fa93cc0b1038f12b8c58">cbEditor::OnContextMenuEntry()</a>, <a class="el" href="classNativeParser.xhtml#a6015f6263678e9f11fb9ab8ca14d13a2">NativeParser::OnEditorActivated()</a>, <a class="el" href="classCodeCompletion.xhtml#abdf63aa2fe4e40f4a92ded787c2c7b67">CodeCompletion::OnEditorActivatedTimer()</a>, <a class="el" href="classCodeCompletion.xhtml#a6e9c356a90b1a2e9647a083917aca6a9">CodeCompletion::OnEditorClosed()</a>, <a class="el" href="classNativeParser.xhtml#a49a62e9804e1416506db28f0cc78ec53">NativeParser::OnEditorClosed()</a>, <a class="el" href="classCodeCompletion.xhtml#ab6653fbe616a78a0591a99f873670718">CodeCompletion::OnEditorOpen()</a>, <a class="el" href="classcbDebuggerPlugin.xhtml#ac79a4553c8eb0b43c99c4788f060ec8a">cbDebuggerPlugin::OnEditorOpened()</a>, <a class="el" href="classCodeCompletion.xhtml#acb0d32dca055b52bcacf92ff0e384abb">CodeCompletion::OnOpenIncludeFile()</a>, <a class="el" href="classCodeCompletion.xhtml#a3fbbab2507931f95cf45a63c33e1577f">CodeCompletion::OnReparsingTimer()</a>, <a class="el" href="classDebuggerMenuHandler.xhtml#aa82128da2ef3c053cd4bfee689cda8b1">DebuggerMenuHandler::OnRunToCursor()</a>, <a class="el" href="classDebuggerMenuHandler.xhtml#a288452df23eb9110b60696a195ce4155">DebuggerMenuHandler::OnSetNextStatement()</a>, <a class="el" href="classEditorManager.xhtml#a09f08ffd5a2e4a20c85e84954bb08345">EditorManager::Open()</a>, <a class="el" href="classEditorManager.xhtml#a1396e158069941d78d858062c57d48bf">EditorManager::OpenContainingFolder()</a>, <a class="el" href="classCodeRefactoring.xhtml#a8065883dc72e7d0eb2e4f8d923549b2d">CodeRefactoring::Parse()</a>, <a class="el" href="classCodeCompletion.xhtml#a63617b6a10de1313f94a8e1c5e6ad7ed">CodeCompletion::ParseFunctionsAndFillToolbar()</a>, <a class="el" href="classCompilerGCC.xhtml#ae7d898f0c5437c53acb02e781678291c">CompilerGCC::PrepareCompileFile()</a>, <a class="el" href="classEditorBase.xhtml#a32905d5c981017303b10efe52db08723">QueryClose()</a>, <a class="el" href="classMacrosManager.xhtml#a187352f68096ae1a32efa1ffb9ab873e">MacrosManager::RecalcVars()</a>, <a class="el" href="classcbEditor.xhtml#a2f2a29f44261acbed668e25dcc5f806f">cbEditor::RefreshBreakpointMarkers()</a>, <a class="el" href="namespaceScriptBindings.xhtml#a6e0d78bfc5615f6749b598ac91010184">ScriptBindings::RegisterBindings()</a>, <a class="el" href="classFindReplace.xhtml#aa72b4ade1d0e234c7cf4763b12842e20">FindReplace::ReplaceInFiles()</a>, <a class="el" href="classMacrosManager.xhtml#a2f2f810c74129089baa58a68ba52e06b">MacrosManager::ReplaceMacros()</a>, <a class="el" href="classcbEditor.xhtml#a9380cd7ff4b55249f61632d292943de9">cbEditor::Save()</a>, <a class="el" href="classEditorManager.xhtml#ad6032abb8b7071cbe4eaf2b37f900cd0">EditorManager::SaveAll()</a>, <a class="el" href="classcbEditor.xhtml#a03fb10c8e4b20c8270da0d6d6cbfa7a4">cbEditor::SetProjectFile()</a>, <a class="el" href="classEditorBase.xhtml#ae101719afabeded9433ae9b4bf3ccc38">SetTitle()</a>, <a class="el" href="classEditorManager.xhtml#a0348e6e0e4d7204aca821b33a3f69367">EditorManager::SwapActiveHeaderSource()</a>, <a class="el" href="classClassBrowser.xhtml#a27b88dac0c8a2db3ff179ab0fd616b62">ClassBrowser::UpdateClassBrowserView()</a>, and <a class="el" href="classCodeCompletion.xhtml#a3d1351e1519d2024e554429d8f249356">CodeCompletion::UpdateEditorSyntax()</a>.</p>
 
 </div>
 </div>
@@ -824,7 +828,7 @@ Private Attributes</h2></td></tr>
 
 <p>Reimplemented in <a class="el" href="classcbEditor.xhtml#a620a4fcbfdd88801a7621a979b2e4167">cbEditor</a>.</p>
 
-<p>Referenced by <a class="el" href="classEditorBase.xhtml#a5b6574467d571eaf7f84c251842ce5e7">BasicAddToContextMenu()</a>, <a class="el" href="classEditorBase.xhtml#a5c43212c763f911d20686908ea14200d">CreateContextSubMenu()</a>, <a class="el" href="classEditorManager.xhtml#a8d4659ccc8983e6b66bd03d72334de58">EditorManager::OnPageContextMenu()</a>, <a class="el" href="classEditorBase.xhtml#a32905d5c981017303b10efe52db08723">QueryClose()</a>, <a class="el" href="namespaceScriptBindings.xhtml#a6e0d78bfc5615f6749b598ac91010184">ScriptBindings::RegisterBindings()</a>, and <a class="el" href="classEditorManager.xhtml#ad6032abb8b7071cbe4eaf2b37f900cd0">EditorManager::SaveAll()</a>.</p>
+<p>Referenced by <a class="el" href="classEditorBase.xhtml#a5b6574467d571eaf7f84c251842ce5e7">BasicAddToContextMenu()</a>, <a class="el" href="classEditorBase.xhtml#a5c43212c763f911d20686908ea14200d">CreateContextSubMenu()</a>, <a class="el" href="classMainFrame.xhtml#aeebbda741004d89427929a450cb3bbc3">MainFrame::OnFileMenuUpdateUI()</a>, <a class="el" href="classEditorManager.xhtml#a8d4659ccc8983e6b66bd03d72334de58">EditorManager::OnPageContextMenu()</a>, <a class="el" href="classEditorBase.xhtml#a32905d5c981017303b10efe52db08723">QueryClose()</a>, <a class="el" href="namespaceScriptBindings.xhtml#a6e0d78bfc5615f6749b598ac91010184">ScriptBindings::RegisterBindings()</a>, and <a class="el" href="classEditorManager.xhtml#ad6032abb8b7071cbe4eaf2b37f900cd0">EditorManager::SaveAll()</a>.</p>
 
 </div>
 </div>
@@ -883,7 +887,7 @@ Private Attributes</h2></td></tr>
 
 <p>References <a class="el" href="classEditorBase.xhtml#a52e96553e47a1064ddba787aa0b567ec">m_WinTitle</a>.</p>
 
-<p>Referenced by <a class="el" href="classEditorManager.xhtml#a77f51c8a0997afb28fabb0437014ceac">EditorManager::AddEditorBase()</a>, and <a class="el" href="namespaceScriptBindings.xhtml#a6e0d78bfc5615f6749b598ac91010184">ScriptBindings::RegisterBindings()</a>.</p>
+<p>Referenced by <a class="el" href="classEditorManager.xhtml#a77f51c8a0997afb28fabb0437014ceac">EditorManager::AddEditorBase()</a>, <a class="el" href="classMainFrame.xhtml#a7cacb450724ccd4e5c709af9e37d0d9d">MainFrame::DoUpdateAppTitle()</a>, and <a class="el" href="namespaceScriptBindings.xhtml#a6e0d78bfc5615f6749b598ac91010184">ScriptBindings::RegisterBindings()</a>.</p>
 
 </div>
 </div>
@@ -929,7 +933,7 @@ Private Attributes</h2></td></tr>
 
 <p>Reimplemented in <a class="el" href="classcbEditor.xhtml#a49d817602de516562bed75d689cee096">cbEditor</a>.</p>
 
-<p>Referenced by <a class="el" href="namespaceScriptBindings.xhtml#a6e0d78bfc5615f6749b598ac91010184">ScriptBindings::RegisterBindings()</a>.</p>
+<p>Referenced by <a class="el" href="classCodeBlocksApp.xhtml#af32638a5677a43ca4e803fb40fe05d0f">CodeBlocksApp::LoadDelayedFiles()</a>, and <a class="el" href="namespaceScriptBindings.xhtml#a6e0d78bfc5615f6749b598ac91010184">ScriptBindings::RegisterBindings()</a>.</p>
 
 </div>
 </div>
@@ -957,7 +961,7 @@ Private Attributes</h2></td></tr>
 
 <p>Reimplemented in <a class="el" href="classcbEditor.xhtml#ae036b7d1311c4717e19f29830d93ba13">cbEditor</a>.</p>
 
-<p>Referenced by <a class="el" href="namespaceScriptBindings.xhtml#a6e0d78bfc5615f6749b598ac91010184">ScriptBindings::RegisterBindings()</a>.</p>
+<p>Referenced by <a class="el" href="classMainFrame.xhtml#a190b74b1208cd95edf92ea0e0dbcf28a">MainFrame::OnEditBookmarksNext()</a>, and <a class="el" href="namespaceScriptBindings.xhtml#a6e0d78bfc5615f6749b598ac91010184">ScriptBindings::RegisterBindings()</a>.</p>
 
 </div>
 </div>
@@ -1039,7 +1043,7 @@ Private Attributes</h2></td></tr>
 
 <p>Reimplemented in <a class="el" href="classcbEditor.xhtml#afe5553aa68be456d527175c29065e4c9">cbEditor</a>.</p>
 
-<p>Referenced by <a class="el" href="namespaceScriptBindings.xhtml#a6e0d78bfc5615f6749b598ac91010184">ScriptBindings::RegisterBindings()</a>.</p>
+<p>Referenced by <a class="el" href="classMainFrame.xhtml#aeb68d1aeae1fcc7fe4a3c78dcd8e7d6d">MainFrame::OnEditBookmarksPrevious()</a>, and <a class="el" href="namespaceScriptBindings.xhtml#a6e0d78bfc5615f6749b598ac91010184">ScriptBindings::RegisterBindings()</a>.</p>
 
 </div>
 </div>
@@ -1188,7 +1192,7 @@ Private Attributes</h2></td></tr>
 
 <p>Reimplemented in <a class="el" href="classcbEditor.xhtml#ac6f24d97648703d99e5f34445a8da8ff">cbEditor</a>.</p>
 
-<p>Referenced by <a class="el" href="namespaceScriptBindings.xhtml#a6e0d78bfc5615f6749b598ac91010184">ScriptBindings::RegisterBindings()</a>.</p>
+<p>Referenced by <a class="el" href="classMainFrame.xhtml#ab9c0307f55464c5fe3a7be464bd27183">MainFrame::OnEditMenuUpdateUI()</a>, and <a class="el" href="namespaceScriptBindings.xhtml#a6e0d78bfc5615f6749b598ac91010184">ScriptBindings::RegisterBindings()</a>.</p>
 
 </div>
 </div>
@@ -1252,7 +1256,7 @@ Private Attributes</h2></td></tr>
 
 <p>References <a class="el" href="classEditorBase.xhtml#a15976b31fc21fa3abdab4bffb793782b">m_IsBuiltinEditor</a>.</p>
 
-<p>Referenced by <a class="el" href="classEditorManager.xhtml#a4106217c1628a104010aefe956f47e71">EditorManager::GetBuiltinEditor()</a>, <a class="el" href="classEditorManager.xhtml#a7e3bf538a8797b2697c2ba9c564872d9">EditorManager::InternalGetBuiltinEditor()</a>, <a class="el" href="classcbSmartIndentPlugin.xhtml#a2106cd4b5a882c7ce2b35fece205a982">cbSmartIndentPlugin::OnCCDoneEvent()</a>, <a class="el" href="classCodeCompletion.xhtml#a6e9c356a90b1a2e9647a083917aca6a9">CodeCompletion::OnEditorClosed()</a>, <a class="el" href="classCCManager.xhtml#a6ceb05acd672045f40df02a684259d72">CCManager::OnEditorTooltip()</a>, <a class="el" href="classEditorManager.xhtml#a09f08ffd5a2e4a20c85e84954bb08345">EditorManager::Open()</a>, <a class="el" href="classcbDebuggerPlugin.xhtml#a6b47c83ee9b0971b950488967ef671aa">cbDebuggerPlugin::ProcessValueTooltip()</a>, <a class="el" href="classMacrosManager.xhtml#a187352f68096ae1a32efa1ffb9ab873e">MacrosManager::RecalcVars()</a>, <a class="el" href="debuggermanager_8cpp.xhtml#a647fb0c536d5fa3f0e082a7a1dd81aef">RefreshBreakpoints()</a>, <a class="el" href="namespaceScriptBindings.xhtml#a6e0d78bfc5615f6749b598ac91010184">ScriptBindings::RegisterBindings()</a>, and <a class="el" href="classEditorManager.xhtml#aa220cf1831cd7d6700cfb21bc365603f">EditorManager::SetActiveEditor()</a>.</p>
+<p>Referenced by <a class="el" href="classProjectManagerUI.xhtml#a2699e49eb729a65827ee69aa5e433862">ProjectManagerUI::DoOpenFile()</a>, <a class="el" href="classMainFrame.xhtml#a7cacb450724ccd4e5c709af9e37d0d9d">MainFrame::DoUpdateAppTitle()</a>, <a class="el" href="classEditorManager.xhtml#a4106217c1628a104010aefe956f47e71">EditorManager::GetBuiltinEditor()</a>, <a class="el" href="classMainFrame.xhtml#a41f2f39d8ea85d732af96d5e03e2f121">MainFrame::GetEditorDescription()</a>, <a class="el" href="classEditorManager.xhtml#a7e3bf538a8797b2697c2ba9c564872d9">EditorManager::InternalGetBuiltinEditor()</a>, <a class="el" href="classcbSmartIndentPlugin.xhtml#a2106cd4b5a882c7ce2b35fece205a982">cbSmartIndentPlugin::OnCCDoneEvent()</a>, <a class="el" href="classMainFrame.xhtml#a8fec715e766b01da923884d48d0bc528">MainFrame::OnEditorActivated()</a>, <a class="el" href="classCodeCompletion.xhtml#a6e9c356a90b1a2e9647a083917aca6a9">CodeCompletion::OnEditorClosed()</a>, <a class="el" href="classCCManager.xhtml#a6ceb05acd672045f40df02a684259d72">CCManager::OnEditorTooltip()</a>, <a class="el" href="classMainFrame.xhtml#a70bdef8ec2af750d4743d8cdff8f5836">MainFrame::OnEditSelectNext()</a>, <a class="el" href="classMainFrame.xhtml#a74a1e4007453c22468b57e505cc94d0b">MainFrame::OnEditSelectNextSkip()</a>, <a class="el" href="classEditorManager.xhtml#a09f08ffd5a2e4a20c85e84954bb08345">EditorManager::Open()</a>, <a class="el" href="classcbDebuggerPlugin.xhtml#a6b47c83ee9b0971b950488967ef671aa">cbDebuggerPlugin::ProcessValueTooltip()</a>, <a class="el" href="classMacrosManager.xhtml#a187352f68096ae1a32efa1ffb9ab873e">MacrosManager::RecalcVars()</a>, <a class="el" href="debuggermanager_8cpp.xhtml#a647fb0c536d5fa3f0e082a7a1dd81aef">RefreshBreakpoints()</a>, <a class="el" href="namespaceScriptBindings.xhtml#a6e0d78bfc5615f6749b598ac91010184">ScriptBindings::RegisterBindings()</a>, <a class="el" href="classEditorManager.xhtml#aa220cf1831cd7d6700cfb21bc365603f">EditorManager::SetActiveEditor()</a>, and <a class="el" href="classDebugInterfaceFactory.xhtml#a11756b3ec68a13f1e8dd521ef2895fda">DebugInterfaceFactory::ShowValueTooltip()</a>.</p>
 
 </div>
 </div>
@@ -1310,7 +1314,7 @@ Private Attributes</h2></td></tr>
 
 <p>Reimplemented in <a class="el" href="classcbEditor.xhtml#a71c7b68afb2292df0d78fc5dcc41f9e4">cbEditor</a>.</p>
 
-<p>Referenced by <a class="el" href="classEditorManager.xhtml#a89d70b8b27e1f8db64a4241ba4510728">EditorManager::CheckForExternallyModifiedFiles()</a>, <a class="el" href="namespaceScriptBindings.xhtml#a6e0d78bfc5615f6749b598ac91010184">ScriptBindings::RegisterBindings()</a>, and <a class="el" href="classEditorBase.xhtml#ae101719afabeded9433ae9b4bf3ccc38">SetTitle()</a>.</p>
+<p>Referenced by <a class="el" href="classEditorManager.xhtml#a89d70b8b27e1f8db64a4241ba4510728">EditorManager::CheckForExternallyModifiedFiles()</a>, <a class="el" href="classMainFrame.xhtml#ab9c0307f55464c5fe3a7be464bd27183">MainFrame::OnEditMenuUpdateUI()</a>, <a class="el" href="namespaceScriptBindings.xhtml#a6e0d78bfc5615f6749b598ac91010184">ScriptBindings::RegisterBindings()</a>, and <a class="el" href="classEditorBase.xhtml#ae101719afabeded9433ae9b4bf3ccc38">SetTitle()</a>.</p>
 
 </div>
 </div>
@@ -1468,7 +1472,7 @@ Private Attributes</h2></td></tr>
 
 <p>Reimplemented in <a class="el" href="classcbEditor.xhtml#a80f58c3a58428d761e7f3843ea05e55e">cbEditor</a>.</p>
 
-<p>Referenced by <a class="el" href="namespaceScriptBindings.xhtml#a6e0d78bfc5615f6749b598ac91010184">ScriptBindings::RegisterBindings()</a>.</p>
+<p>Referenced by <a class="el" href="classMainFrame.xhtml#a73e081e4284eabe13af5c30a40c9a4d3">MainFrame::OnEditPaste()</a>, and <a class="el" href="namespaceScriptBindings.xhtml#a6e0d78bfc5615f6749b598ac91010184">ScriptBindings::RegisterBindings()</a>.</p>
 
 </div>
 </div>
@@ -1526,7 +1530,7 @@ Private Attributes</h2></td></tr>
 
 <p>Reimplemented in <a class="el" href="classcbEditor.xhtml#a67eb5f128616d5bff3630ae60e57a6bf">cbEditor</a>.</p>
 
-<p>Referenced by <a class="el" href="namespaceScriptBindings.xhtml#a6e0d78bfc5615f6749b598ac91010184">ScriptBindings::RegisterBindings()</a>.</p>
+<p>Referenced by <a class="el" href="classMainFrame.xhtml#a41ac087b8501357fe1904cc691a00661">MainFrame::OnEditRedo()</a>, and <a class="el" href="namespaceScriptBindings.xhtml#a6e0d78bfc5615f6749b598ac91010184">ScriptBindings::RegisterBindings()</a>.</p>
 
 </div>
 </div>
@@ -1554,7 +1558,7 @@ Private Attributes</h2></td></tr>
 
 <p>Reimplemented in <a class="el" href="classcbEditor.xhtml#a2f2a29f44261acbed668e25dcc5f806f">cbEditor</a>.</p>
 
-<p>Referenced by <a class="el" href="classcbDebuggerPlugin.xhtml#ac79a4553c8eb0b43c99c4788f060ec8a">cbDebuggerPlugin::OnEditorOpened()</a>, and <a class="el" href="debuggermanager_8cpp.xhtml#a647fb0c536d5fa3f0e082a7a1dd81aef">RefreshBreakpoints()</a>.</p>
+<p>Referenced by <a class="el" href="classBreakpointsDlg.xhtml#a94c997efa1c780951e9c70ff785dd748">BreakpointsDlg::OnBreakpointEdit()</a>, <a class="el" href="classcbDebuggerPlugin.xhtml#ac79a4553c8eb0b43c99c4788f060ec8a">cbDebuggerPlugin::OnEditorOpened()</a>, and <a class="el" href="debuggermanager_8cpp.xhtml#a647fb0c536d5fa3f0e082a7a1dd81aef">RefreshBreakpoints()</a>.</p>
 
 </div>
 </div>
@@ -1641,6 +1645,8 @@ Private Attributes</h2></td></tr>
 <p>Select everything in the editor </p>
 
 <p>Reimplemented in <a class="el" href="classcbEditor.xhtml#aea28ebb1b33f3691c0dcf7bdfed784d2">cbEditor</a>.</p>
+
+<p>Referenced by <a class="el" href="classMainFrame.xhtml#a2f3a5ba184da8d8d916fbc5abf8fecf9">MainFrame::OnEditSelectAll()</a>.</p>
 
 </div>
 </div>
@@ -1934,7 +1940,7 @@ Private Attributes</h2></td></tr>
 
 <p>Reimplemented in <a class="el" href="classcbEditor.xhtml#ab27d1e906cbc1191d02eacf4f966d462">cbEditor</a>.</p>
 
-<p>Referenced by <a class="el" href="namespaceScriptBindings.xhtml#a6e0d78bfc5615f6749b598ac91010184">ScriptBindings::RegisterBindings()</a>.</p>
+<p>Referenced by <a class="el" href="classMainFrame.xhtml#a60f92179ddfd09e0e623888b326e5202">MainFrame::OnEditBookmarksToggle()</a>, and <a class="el" href="namespaceScriptBindings.xhtml#a6e0d78bfc5615f6749b598ac91010184">ScriptBindings::RegisterBindings()</a>.</p>
 
 </div>
 </div>
@@ -2007,7 +2013,7 @@ Private Attributes</h2></td></tr>
 
 <p>Reimplemented in <a class="el" href="classcbEditor.xhtml#acf36f3d352f448c68b3d7beeaf50329a">cbEditor</a>.</p>
 
-<p>Referenced by <a class="el" href="namespaceScriptBindings.xhtml#a6e0d78bfc5615f6749b598ac91010184">ScriptBindings::RegisterBindings()</a>.</p>
+<p>Referenced by <a class="el" href="classMainFrame.xhtml#ae1e9a4962b798281ef7423c577f00cdc">MainFrame::OnEditUndo()</a>, and <a class="el" href="namespaceScriptBindings.xhtml#a6e0d78bfc5615f6749b598ac91010184">ScriptBindings::RegisterBindings()</a>.</p>
 
 </div>
 </div>
@@ -2034,6 +2040,8 @@ Private Attributes</h2></td></tr>
 <p>Should this kind of editor be visible in the open files tree?</p>
 <p>There are rare cases where an editor should not be visible in the open files tree. One such example is the "Start here" page...</p>
 <dl class="section return"><dt>Returns</dt><dd>True if it should be visible in the open files tree, false if not. </dd></dl>
+
+<p>Reimplemented in <a class="el" href="classStartHerePage.xhtml#a72160158c2b6005ba6ceb8611f7792f4">StartHerePage</a>.</p>
 
 </div>
 </div>
