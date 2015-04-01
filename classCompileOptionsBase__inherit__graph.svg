@@ -11,28 +11,28 @@
 <polygon fill="white" stroke="none" points="-4,4 -4,-1191 2515.5,-1191 2515.5,4 -4,4"/>
 <!-- Node1 -->
 <g id="node1" class="node"><title>Node1</title>
-<polygon fill="#bfbfbf" stroke="black" points="1646.5,-953.5 1646.5,-1186.5 1783.5,-1186.5 1783.5,-953.5 1646.5,-953.5"/>
+<polygon fill="#bfbfbf" stroke="black" points="1640.5,-953.5 1640.5,-1186.5 1789.5,-1186.5 1789.5,-953.5 1640.5,-953.5"/>
 <text text-anchor="middle" x="1715" y="-1174.5" font-family="FreeSans" font-size="10.00">CompileOptionsBase</text>
-<polyline fill="none" stroke="black" points="1646.5,-1167.5 1783.5,-1167.5 "/>
-<text text-anchor="start" x="1654.5" y="-1155.5" font-family="FreeSans" font-size="10.00"># m_Platform</text>
-<text text-anchor="start" x="1654.5" y="-1144.5" font-family="FreeSans" font-size="10.00"># m_LinkerOptions</text>
-<text text-anchor="start" x="1654.5" y="-1133.5" font-family="FreeSans" font-size="10.00"># m_LinkLibs</text>
-<text text-anchor="start" x="1654.5" y="-1122.5" font-family="FreeSans" font-size="10.00"># m_CompilerOptions</text>
-<text text-anchor="start" x="1654.5" y="-1111.5" font-family="FreeSans" font-size="10.00"># m_IncludeDirs</text>
-<text text-anchor="start" x="1654.5" y="-1100.5" font-family="FreeSans" font-size="10.00"># m_ResIncludeDirs</text>
-<text text-anchor="start" x="1654.5" y="-1089.5" font-family="FreeSans" font-size="10.00"># m_LibDirs</text>
-<text text-anchor="start" x="1654.5" y="-1078.5" font-family="FreeSans" font-size="10.00"># m_CmdsBefore</text>
-<text text-anchor="start" x="1654.5" y="-1067.5" font-family="FreeSans" font-size="10.00">and 5 more...</text>
-<polyline fill="none" stroke="black" points="1646.5,-1060.5 1783.5,-1060.5 "/>
-<text text-anchor="start" x="1654.5" y="-1048.5" font-family="FreeSans" font-size="10.00">+ CompileOptionsBase()</text>
-<text text-anchor="start" x="1654.5" y="-1037.5" font-family="FreeSans" font-size="10.00">+ ~CompileOptionsBase()</text>
-<text text-anchor="start" x="1654.5" y="-1026.5" font-family="FreeSans" font-size="10.00">+ AddPlatform()</text>
-<text text-anchor="start" x="1654.5" y="-1015.5" font-family="FreeSans" font-size="10.00">+ RemovePlatform()</text>
-<text text-anchor="start" x="1654.5" y="-1004.5" font-family="FreeSans" font-size="10.00">+ SetPlatforms()</text>
-<text text-anchor="start" x="1654.5" y="-993.5" font-family="FreeSans" font-size="10.00">+ GetPlatforms()</text>
-<text text-anchor="start" x="1654.5" y="-982.5" font-family="FreeSans" font-size="10.00">+ SupportsCurrentPlatform()</text>
-<text text-anchor="start" x="1654.5" y="-971.5" font-family="FreeSans" font-size="10.00">+ SetLinkerOptions()</text>
-<text text-anchor="start" x="1654.5" y="-960.5" font-family="FreeSans" font-size="10.00">and 45 more...</text>
+<polyline fill="none" stroke="black" points="1640.5,-1167.5 1789.5,-1167.5 "/>
+<text text-anchor="start" x="1648.5" y="-1155.5" font-family="FreeSans" font-size="10.00"># m_Platform</text>
+<text text-anchor="start" x="1648.5" y="-1144.5" font-family="FreeSans" font-size="10.00"># m_LinkerOptions</text>
+<text text-anchor="start" x="1648.5" y="-1133.5" font-family="FreeSans" font-size="10.00"># m_LinkLibs</text>
+<text text-anchor="start" x="1648.5" y="-1122.5" font-family="FreeSans" font-size="10.00"># m_CompilerOptions</text>
+<text text-anchor="start" x="1648.5" y="-1111.5" font-family="FreeSans" font-size="10.00"># m_ResourceCompilerOptions</text>
+<text text-anchor="start" x="1648.5" y="-1100.5" font-family="FreeSans" font-size="10.00"># m_IncludeDirs</text>
+<text text-anchor="start" x="1648.5" y="-1089.5" font-family="FreeSans" font-size="10.00"># m_ResIncludeDirs</text>
+<text text-anchor="start" x="1648.5" y="-1078.5" font-family="FreeSans" font-size="10.00"># m_LibDirs</text>
+<text text-anchor="start" x="1648.5" y="-1067.5" font-family="FreeSans" font-size="10.00">and 6 more...</text>
+<polyline fill="none" stroke="black" points="1640.5,-1060.5 1789.5,-1060.5 "/>
+<text text-anchor="start" x="1648.5" y="-1048.5" font-family="FreeSans" font-size="10.00">+ CompileOptionsBase()</text>
+<text text-anchor="start" x="1648.5" y="-1037.5" font-family="FreeSans" font-size="10.00">+ ~CompileOptionsBase()</text>
+<text text-anchor="start" x="1648.5" y="-1026.5" font-family="FreeSans" font-size="10.00">+ AddPlatform()</text>
+<text text-anchor="start" x="1648.5" y="-1015.5" font-family="FreeSans" font-size="10.00">+ RemovePlatform()</text>
+<text text-anchor="start" x="1648.5" y="-1004.5" font-family="FreeSans" font-size="10.00">+ SetPlatforms()</text>
+<text text-anchor="start" x="1648.5" y="-993.5" font-family="FreeSans" font-size="10.00">+ GetPlatforms()</text>
+<text text-anchor="start" x="1648.5" y="-982.5" font-family="FreeSans" font-size="10.00">+ SupportsCurrentPlatform()</text>
+<text text-anchor="start" x="1648.5" y="-971.5" font-family="FreeSans" font-size="10.00">+ SetLinkerOptions()</text>
+<text text-anchor="start" x="1648.5" y="-960.5" font-family="FreeSans" font-size="10.00">and 49 more...</text>
 </g>
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
@@ -83,8 +83,8 @@
 </g>
 <!-- Node1&#45;&gt;Node2 -->
 <g id="edge1" class="edge"><title>Node1&#45;&gt;Node2</title>
-<path fill="none" stroke="midnightblue" d="M1637.85,-1017.13C1532.39,-946.216 1344.28,-819.733 1238.59,-748.669"/>
-<polygon fill="none" stroke="midnightblue" points="1635.98,-1020.09 1646.23,-1022.76 1639.89,-1014.28 1635.98,-1020.09"/>
+<path fill="none" stroke="midnightblue" d="M1631.8,-1013.06C1525.31,-941.458 1342.23,-818.353 1238.53,-748.633"/>
+<polygon fill="none" stroke="midnightblue" points="1630.03,-1016.09 1640.29,-1018.76 1633.94,-1010.28 1630.03,-1016.09"/>
 </g>
 <!-- Node19 -->
 <g id="node19" class="node"><title>Node19</title>
@@ -119,8 +119,8 @@
 </g>
 <!-- Node1&#45;&gt;Node19 -->
 <g id="edge18" class="edge"><title>Node1&#45;&gt;Node19</title>
-<path fill="none" stroke="midnightblue" d="M1792.15,-1017.13C1897.61,-946.216 2085.72,-819.733 2191.41,-748.669"/>
-<polygon fill="none" stroke="midnightblue" points="1790.11,-1014.28 1783.77,-1022.76 1794.02,-1020.09 1790.11,-1014.28"/>
+<path fill="none" stroke="midnightblue" d="M1798.2,-1013.06C1904.69,-941.458 2087.77,-818.353 2191.47,-748.633"/>
+<polygon fill="none" stroke="midnightblue" points="1796.06,-1010.28 1789.71,-1018.76 1799.97,-1016.09 1796.06,-1010.28"/>
 </g>
 <!-- Node3 -->
 <g id="node3" class="node"><title>Node3</title>

@@ -18,7 +18,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">Code::Blocks
-   &#160;<span id="projectnumber">SVN r10078</span>
+   &#160;<span id="projectnumber">SVN r10170</span>
    </div>
   </td>
  </tr>
@@ -89,7 +89,8 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<div class="textblock"></div><div class="dynheader">
+<div class="textblock"><p>used to record the position of a token when user click find declaration or implementation </p>
+</div><div class="dynheader">
 Collaboration diagram for CodeCompletionHelper::GotoDeclarationItem:</div>
 <div class="dyncontent">
 <div class="center"><iframe scrolling="no" frameborder="0" src="structCodeCompletionHelper_1_1GotoDeclarationItem__coll__graph.svg" width="166" height="118"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
@@ -135,6 +136,13 @@ line</td>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>when user select one item in the suggestion list, the selected contains the full display name, for example, "function_name():function_return_type", and we only need to insert the "function_name" to the editor, so this function just get the actual inserted text. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">selected</td><td>a full display name of the selected token in the suggestion list </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>the stripped text which are used to insert to the editor </dd></dl>
 
 <p>Referenced by <a class="el" href="classCodeCompletion.xhtml#a3645d1eb4696eb059ee94aa3693929f6">CodeCompletion::DoAutocomplete()</a>.</p>
 
@@ -205,6 +213,14 @@ line</td>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>return identifier like token string under the current cursor pointer </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">NameUnderCursor</td><td>the identifier like token string </td></tr>
+    <tr><td class="paramname">IsInclude</td><td>true if it is a #include command </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>true if the underlining text is a #include command, or a normal identifier </dd></dl>
 
 <p>References <a class="el" href="classManager.xhtml#acf40c9bf3465914dd64d9fdf3b3dc80a">Manager::Get()</a>, <a class="el" href="classwxScintilla.xhtml#adea6c80b28bf607c5ea9f712ed497597">wxScintilla::GetCurrentPos()</a>, <a class="el" href="classwxScintilla.xhtml#a046f93788083602909c31fcf85d4f8b4">wxScintilla::GetLine()</a>, <a class="el" href="classwxScintilla.xhtml#ac0986156648367398d59015a37a62f95">wxScintilla::GetTextRange()</a>, <a class="el" href="classwxScintilla.xhtml#ac4485dbdb3372dfdd03210b6321385b3">wxScintilla::LineFromPosition()</a>, <a class="el" href="classwxScintilla.xhtml#a940652a85a6928bccd57f408a5885667">wxScintilla::WordEndPosition()</a>, and <a class="el" href="classwxScintilla.xhtml#aac5d34cfe8ca7441b411e8f0b0b7b319">wxScintilla::WordStartPosition()</a>.</p>
 

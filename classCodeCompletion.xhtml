@@ -18,7 +18,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">Code::Blocks
-   &#160;<span id="projectnumber">SVN r10078</span>
+   &#160;<span id="projectnumber">SVN r10170</span>
    </div>
   </td>
  </tr>
@@ -69,7 +69,7 @@ Inheritance diagram for CodeCompletion:</div>
 <div class="dynheader">
 Collaboration diagram for CodeCompletion:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classCodeCompletion__coll__graph.svg" width="3856" height="4178"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classCodeCompletion__coll__graph.svg" width="3592" height="4178"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <table class="memberdecls">
@@ -202,8 +202,6 @@ Private Member Functions</h2></td></tr>
 <tr class="separator:a961d68a55ee6d67bb3298c37e13aa40f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af24c6d04b18ebdf814f59629f3980792"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCodeCompletion.xhtml#af24c6d04b18ebdf814f59629f3980792">OnViewClassBrowser</a> (wxCommandEvent &amp;event)</td></tr>
 <tr class="separator:af24c6d04b18ebdf814f59629f3980792"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3f73328ca0e3033f75dd4e86c37e31c6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCodeCompletion.xhtml#a3f73328ca0e3033f75dd4e86c37e31c6">OnCodeComplete</a> (wxCommandEvent &amp;event)</td></tr>
-<tr class="separator:a3f73328ca0e3033f75dd4e86c37e31c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a59d7e94088b3391d378fcde6b1f5f12e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCodeCompletion.xhtml#a59d7e94088b3391d378fcde6b1f5f12e">OnGotoFunction</a> (wxCommandEvent &amp;event)</td></tr>
 <tr class="separator:a59d7e94088b3391d378fcde6b1f5f12e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0928c86cc5bdb2dbc67f575c384e4469"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCodeCompletion.xhtml#a0928c86cc5bdb2dbc67f575c384e4469">OnGotoPrevFunction</a> (wxCommandEvent &amp;event)</td></tr>
@@ -300,8 +298,6 @@ Private Member Functions</h2></td></tr>
 <tr class="separator:a6bcddaeb8691d7deb4ea12acd87441cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3d1351e1519d2024e554429d8f249356"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCodeCompletion.xhtml#a3d1351e1519d2024e554429d8f249356">UpdateEditorSyntax</a> (<a class="el" href="classcbEditor.xhtml">cbEditor</a> *ed=<a class="el" href="prefix_8cpp.xhtml#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>)</td></tr>
 <tr class="separator:a3d1351e1519d2024e554429d8f249356"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a960f07990cdfd6682404aca9c534b96d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCodeCompletion.xhtml#a960f07990cdfd6682404aca9c534b96d">OnCodeCompleteTimer</a> (wxTimerEvent &amp;event)</td></tr>
-<tr class="separator:a960f07990cdfd6682404aca9c534b96d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1b63624b17ae3086eee4839cc6514b9d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCodeCompletion.xhtml#a1b63624b17ae3086eee4839cc6514b9d">OnToolbarTimer</a> (wxTimerEvent &amp;event)</td></tr>
 <tr class="separator:a1b63624b17ae3086eee4839cc6514b9d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9acac2c28c73f5505cb60df555878b7e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCodeCompletion.xhtml#a9acac2c28c73f5505cb60df555878b7e">OnRealtimeParsingTimer</a> (wxTimerEvent &amp;event)</td></tr>
@@ -503,7 +499,8 @@ parsed</td>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>map to record all re-parsing files </p>
+<p>map to record all re-parsing files</p>
+<p>Here is an example how the ReparsingMap is used. Suppose you have two cbp opened: a.cbp, which contains a1.cpp, a2.cpp and a3.cpp b.cbp, which contains b1,cpp, b2,cpp and b3.cpp now, if a1,cpp and b2.cpp b3.cpp are modified, and the user press the Save all button Then CC receives event about project saved, then we store such information. ReparsingMap contains such two elements (a.cbp, (a1,cpp)) (b.cbp, (b2.cpp, b3.cpp)) there two elements will be passed to m_NativeParser, and m_NativeParser will distribute to each <a class="el" href="classParser.xhtml" title="Parser class holds all the tokens of a C::B project. ">Parser</a> objects </p>
 
 </div>
 </div>
@@ -810,6 +807,15 @@ parsed</td>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>fill the tokens with correct code complete words </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">caretPos</td><td>the location of caret </td></tr>
+    <tr><td class="paramname">ed</td><td>the context editor where we locates </td></tr>
+    <tr><td class="paramname">tokens</td><td>the stored token results </td></tr>
+    <tr><td class="paramname">preprocessorOnly</td><td>if true, we only collect macro definition tokens </td></tr>
+  </table>
+  </dd>
+</dl>
 
 <p>References <a class="el" href="classTokenTree.xhtml#a27fc4ea2842b026514e7b7f92a5e578e">TokenTree::at()</a>, <a class="el" href="classwxScintilla.xhtml#a684e0e2157aec2db3bd5b53ec62cb404">wxScintilla::CallTipActive()</a>, <a class="el" href="classwxScintilla.xhtml#a9925001ad0503464798758b402726bb7">wxScintilla::CallTipShow()</a>, <a class="el" href="structParserOptions.xhtml#ad821bd33e40ce55857a8ddb6ba38b9bf">ParserOptions::caseSensitive</a>, <a class="el" href="cclogger_8h.xhtml#abeaaa24b840507a2dce16ea2306b7995">CC_LOCKER_TRACK_TT_MTX_LOCK</a>, <a class="el" href="cclogger_8h.xhtml#a12481e66c0dee266f5a45a7ba7565a17">CC_LOCKER_TRACK_TT_MTX_UNLOCK</a>, <a class="el" href="classwxScintilla.xhtml#a3ec80efe85709225b190a7f575ace957">wxScintilla::ClearRegisteredImages()</a>, <a class="el" href="classCCLogger.xhtml#aa64a8ddd35ee6847500ee8afa9905d07">CCLogger::DebugLog()</a>, <a class="el" href="classParserBase.xhtml#ad27e0c9c7076e7dff106743f4076436c">ParserBase::Done()</a>, <a class="el" href="logmanager_8h.xhtml#afcd50562b2d380a60ad9e8b56dddc72d">F()</a>, <a class="el" href="globals_8h.xhtml#a490dcc57bbefb98f57f1bf01710809f0">FileTypeOf()</a>, <a class="el" href="globals_8h.xhtml#a2c794c5c13ab4dd7e65bad031dbe41c3aab10e586aa5d66c8a5b7cd72a04492ad">ftHeader</a>, <a class="el" href="globals_8h.xhtml#a2c794c5c13ab4dd7e65bad031dbe41c3ac68e71f9505838f69b7fe6bd5d912dfb">ftSource</a>, <a class="el" href="classCCLogger.xhtml#a8026c2410c4373264868a80352638508">CCLogger::Get()</a>, <a class="el" href="classcbEditor.xhtml#aeb143d73e803acbdb32cd9c93df6aefe">cbEditor::GetColourSet()</a>, <a class="el" href="classcbEditor.xhtml#a8e29060c87dc410a8f5e31f2c6e1994c">cbEditor::GetControl()</a>, <a class="el" href="classwxScintilla.xhtml#adea6c80b28bf607c5ea9f712ed497597">wxScintilla::GetCurrentPos()</a>, <a class="el" href="classEditorBase.xhtml#a74769e1dacdfb9d94f0184c7989cc928">EditorBase::GetFilename()</a>, <a class="el" href="classToken.xhtml#a7bb217770e9710de9b62fb6ded64749f">Token::GetFormattedArgs()</a>, <a class="el" href="classNativeParser.xhtml#ae88fbec04abe0bcbbe29923e5c69592b">NativeParser::GetImageList()</a>, <a class="el" href="classEditorColourSet.xhtml#a38dca1116a681bf740b66f24ae767da9">EditorColourSet::GetKeywords()</a>, <a class="el" href="classcbEditor.xhtml#a0eadda8c4ea06686ea4a54bfd0a9f45c">cbEditor::GetLanguage()</a>, <a class="el" href="classEditorColourSet.xhtml#ac395e06495c1033df2c831926a75cf96">EditorColourSet::GetLanguageForFilename()</a>, <a class="el" href="classEditorColourSet.xhtml#a979fb4d118bfbac0d8f02001f1ab924e">EditorColourSet::GetLanguageName()</a>, <a class="el" href="classNativeParser.xhtml#a97a304509c57b877da06b25d66a2a6c4">NativeParser::GetParser()</a>, <a class="el" href="classEditorBase.xhtml#a90280c6bea24bd7304d0ecb3ac31c1bf">EditorBase::GetShortName()</a>, <a class="el" href="classNativeParser.xhtml#a4bf8edf54585762cb616461c26f83815">NativeParser::GetTokenKindImage()</a>, <a class="el" href="classParserBase.xhtml#aac0664f6c437a9ab7216690d853b85a8">ParserBase::GetTokenTree()</a>, <a class="el" href="globals_8h.xhtml#a35678ac815d95b36eb73d3a2e577af30">HL_NONE</a>, <a class="el" href="classDocumentationHelper.xhtml#a06381222c8ffadf4c31c1122a0f36076">DocumentationHelper::IsEnabled()</a>, <a class="el" href="classNativeParser.xhtml#a007230bcd8c7490804b38c983fe319c1">NativeParser::LastAIGlobalSearch()</a>, <a class="el" href="classNativeParser.xhtml#ad9e87284328ab69e8bd9c593c167da92">NativeParser::LastAISearchWasGlobal()</a>, <a class="el" href="classToken.xhtml#a04fc0199cad56059310d8620e6620c17">Token::m_Aliases</a>, <a class="el" href="classCodeCompletion.xhtml#ab667c91fc8073cc44c12b3653bcf4151">m_CCMaxMatches</a>, <a class="el" href="classCodeCompletion.xhtml#a68459726d540b1222d7ced2c2072823e">m_DocHelper</a>, <a class="el" href="classToken.xhtml#a1b939df520f020469a4023c9e121040f">Token::m_FullType</a>, <a class="el" href="classToken.xhtml#ad3a46f07f6d3d8851188695914a79907">Token::m_Index</a>, <a class="el" href="classToken.xhtml#a29c336e8b9c40df3fbdd71df626269b4">Token::m_IsTemp</a>, <a class="el" href="classCodeCompletion.xhtml#a3877caaa311454eb9677e8b41ae8e72b">m_LexerKeywordsToInclude</a>, <a class="el" href="classToken.xhtml#a66d4391491a9244d9c0e060045d9cdee">Token::m_Name</a>, <a class="el" href="classCodeCompletion.xhtml#ad2d2715374705eab4ba5eae3fd8b0171">m_NativeParser</a>, <a class="el" href="classToken.xhtml#aae52d5bca7a44fcd03345e405ab979b6">Token::m_TokenKind</a>, <a class="el" href="classNativeParser.xhtml#a2b47f79f6c74e82a519d14947e404596">NativeParser::MarkItemsByAI()</a>, <a class="el" href="classParserBase.xhtml#ac423ee4f64978bacd51645d5ee22ecd8">ParserBase::NotDoneReason()</a>, <a class="el" href="classParserBase.xhtml#aa6b2dd71b882462974f62c7883dc2ab7">ParserBase::Options()</a>, <a class="el" href="classwxScintilla.xhtml#a5f217211125d5b119cc398dda291684f">wxScintilla::RegisterImage()</a>, <a class="el" href="nativeparser_8cpp.xhtml#aae6889eb5da84bada7b9f050d803c61d">s_DebugSmartSense</a>, <a class="el" href="tokentree_8cpp.xhtml#a9280aad984604fac23895e7805450781">s_TokenTreeMutex</a>, <a class="el" href="token_8h.xhtml#a7a47dce04185ce6008048622cc792f25a41b6019cea50c68b09d3aa4e927327aa">tkAnyFunction</a>, <a class="el" href="token_8h.xhtml#a7a47dce04185ce6008048622cc792f25aa0ca06d013acd15e8fd2be8cb57c2f20">tkMacroDef</a>, <a class="el" href="token_8h.xhtml#a7a47dce04185ce6008048622cc792f25aa38450654b481800ad6cd006ebb0e98a">tkNamespace</a>, <a class="el" href="token_8h.xhtml#a7a47dce04185ce6008048622cc792f25ae8e186b68231e5889c97c05a22bde507">tkVariable</a>, <a class="el" href="codecompletion_8cpp.xhtml#a1c9f8c7ecc64a760dc3ac03706556ea9">TRACE</a>, <a class="el" href="structParserOptions.xhtml#ae7a95c41e065d530f495aa095447ef8c">ParserOptions::useSmartSense</a>, and <a class="el" href="wxscintilla_8h.xhtml#a3f7295447caaba85a8b193c21308b88b">wxSCI_KEYWORDSET_MAX</a>.</p>
 
@@ -860,6 +866,15 @@ parsed</td>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>fill the tokens with correct include file names </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">tknStart</td><td>the start of the completed word </td></tr>
+    <tr><td class="paramname">tknEnd</td><td>current caret location </td></tr>
+    <tr><td class="paramname">ed</td><td>current active editor </td></tr>
+    <tr><td class="paramname">tokens</td><td>results storing all the suggested include files </td></tr>
+  </table>
+  </dd>
+</dl>
 
 <p>References <a class="el" href="classProjectFile.xhtml#a05f7c20d6c454c08b146b4a37321b8ba">ProjectFile::buildTargets</a>, <a class="el" href="classwxScintilla.xhtml#a3ec80efe85709225b190a7f575ace957">wxScintilla::ClearRegisteredImages()</a>, <a class="el" href="classProjectFile.xhtml#ac5db87b9c26df1973173fa5227fb7b4f">ProjectFile::file</a>, <a class="el" href="globals_8h.xhtml#a490dcc57bbefb98f57f1bf01710809f0">FileTypeOf()</a>, <a class="el" href="globals_8h.xhtml#a2c794c5c13ab4dd7e65bad031dbe41c3aab10e586aa5d66c8a5b7cd72a04492ad">ftHeader</a>, <a class="el" href="globals_8h.xhtml#a2c794c5c13ab4dd7e65bad031dbe41c3ac68e71f9505838f69b7fe6bd5d912dfb">ftSource</a>, <a class="el" href="classcbEditor.xhtml#a8e29060c87dc410a8f5e31f2c6e1994c">cbEditor::GetControl()</a>, <a class="el" href="classwxScintilla.xhtml#a5a511a698aa7ebda79e086552e633921">wxScintilla::GetCurLine()</a>, <a class="el" href="classwxScintilla.xhtml#a58e2393536a2228a640fe9b816e716a0">wxScintilla::GetCurrentLine()</a>, <a class="el" href="classcbProject.xhtml#ae1c77f931f4cca91516826314811efc3">cbProject::GetFileByFilename()</a>, <a class="el" href="classEditorBase.xhtml#a74769e1dacdfb9d94f0184c7989cc928">EditorBase::GetFilename()</a>, <a class="el" href="classcbProject.xhtml#aa447cac9e3abfe2b29c1920fdae8edbe">cbProject::GetFilesList()</a>, <a class="el" href="classCodeCompletion.xhtml#aaccedd4b553db5b218d233d1884e2959">GetLocalIncludeDirs()</a>, <a class="el" href="classcbProject.xhtml#ab49399e9ef9fbe272682deda3d907c6c">cbProject::GetModified()</a>, <a class="el" href="classNativeParser.xhtml#a8b007d1e00c78728d669c2708ba4c186">NativeParser::GetProjectByEditor()</a>, <a class="el" href="classEditorBase.xhtml#a90280c6bea24bd7304d0ecb3ac31c1bf">EditorBase::GetShortName()</a>, <a class="el" href="classCodeCompletion.xhtml#a4f97289c0e670885d1d3f9f3b7a9540a">GetSystemIncludeDirs()</a>, <a class="el" href="classCodeCompletion.xhtml#adb3dd490323f1ff675c2328f860dc4d5">m_CCEnableHeaders</a>, <a class="el" href="classCodeCompletion.xhtml#ab667c91fc8073cc44c12b3653bcf4151">m_CCMaxMatches</a>, <a class="el" href="classCodeCompletion.xhtml#ad2d2715374705eab4ba5eae3fd8b0171">m_NativeParser</a>, <a class="el" href="classCodeCompletion.xhtml#ae4e7c16441ae583cf1392e89f95a74d1">m_SystemHeadersMap</a>, <a class="el" href="classCodeCompletion.xhtml#a0d0eec17839e99c5d64335625a37f9f8">m_SystemHeadersThreadCS</a>, <a class="el" href="classwxScintilla.xhtml#abd4a7f966cd0d1e006f4949cce7ea479">wxScintilla::PositionFromLine()</a>, <a class="el" href="classwxScintilla.xhtml#a5f217211125d5b119cc398dda291684f">wxScintilla::RegisterImage()</a>, <a class="el" href="classProjectFile.xhtml#a3b08eb658a73e9549eaf5fd7a3ae7e50">ProjectFile::relativeFilename</a>, and <a class="el" href="namespaceCodeCompletionHelper.xhtml#a43fc6616b1a05409624332d1d54ad5f0">CodeCompletionHelper::TestIncludeLine()</a>.</p>
 
@@ -910,6 +925,15 @@ parsed</td>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>fill the tokens with correct preprocessor directives, such as #i will prompt "if", "include" </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">tknStart</td><td>the start of the completed word </td></tr>
+    <tr><td class="paramname">tknEnd</td><td>current caret location </td></tr>
+    <tr><td class="paramname">ed</td><td>current active editor </td></tr>
+    <tr><td class="paramname">tokens</td><td>results storing all the suggesting texts </td></tr>
+  </table>
+  </dd>
+</dl>
 
 <p>References <a class="el" href="classwxScintilla.xhtml#a3ec80efe85709225b190a7f575ace957">wxScintilla::ClearRegisteredImages()</a>, <a class="el" href="logmanager_8h.xhtml#afcd50562b2d380a60ad9e8b56dddc72d">F()</a>, <a class="el" href="globals_8h.xhtml#a490dcc57bbefb98f57f1bf01710809f0">FileTypeOf()</a>, <a class="el" href="globals_8h.xhtml#a2c794c5c13ab4dd7e65bad031dbe41c3aab10e586aa5d66c8a5b7cd72a04492ad">ftHeader</a>, <a class="el" href="globals_8h.xhtml#a2c794c5c13ab4dd7e65bad031dbe41c3a3fa26d7a2990434acb3b8c17caa5c864">ftResource</a>, <a class="el" href="globals_8h.xhtml#a2c794c5c13ab4dd7e65bad031dbe41c3ac68e71f9505838f69b7fe6bd5d912dfb">ftSource</a>, <a class="el" href="classcbEditor.xhtml#a8e29060c87dc410a8f5e31f2c6e1994c">cbEditor::GetControl()</a>, <a class="el" href="classNativeParser.xhtml#ae88fbec04abe0bcbbe29923e5c69592b">NativeParser::GetImageList()</a>, <a class="el" href="classwxScintilla.xhtml#abf81400745caf5ac02cac1dfa9ae08fa">wxScintilla::GetLexer()</a>, <a class="el" href="classEditorBase.xhtml#a90280c6bea24bd7304d0ecb3ac31c1bf">EditorBase::GetShortName()</a>, <a class="el" href="classwxScintilla.xhtml#ac0986156648367398d59015a37a62f95">wxScintilla::GetTextRange()</a>, <a class="el" href="classCodeCompletion.xhtml#ad2d2715374705eab4ba5eae3fd8b0171">m_NativeParser</a>, <a class="el" href="parser_8h.xhtml#a7127979a0a007c48c112e58d7403520e">PARSER_IMG_MACRO_DEF</a>, <a class="el" href="classwxScintilla.xhtml#a5f217211125d5b119cc398dda291684f">wxScintilla::RegisterImage()</a>, and <a class="el" href="wxscintilla_8h.xhtml#a71a8cee68874d7318b55616496ec3d2c">wxSCI_LEX_CPP</a>.</p>
 
@@ -937,6 +961,7 @@ parsed</td>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>if C::B starts up with some projects opened, this function will be called to parse the already opened projects </p>
 
 <p>References <a class="el" href="classNativeParser.xhtml#a435fb7bfceb1b19f678311f23ba6a809">NativeParser::CreateParser()</a>, <a class="el" href="classManager.xhtml#acf40c9bf3465914dd64d9fdf3b3dc80a">Manager::Get()</a>, <a class="el" href="classProjectManager.xhtml#a9caef3e66c1c7944a2774f3f70507b78">ProjectManager::GetActiveProject()</a>, <a class="el" href="classEditorManager.xhtml#af47b36d55e37f971e62f0590ce0aea81">EditorManager::GetBuiltinActiveEditor()</a>, <a class="el" href="classManager.xhtml#a66c9757eaea9fce292dc74ae43a6d637">Manager::GetEditorManager()</a>, <a class="el" href="classNativeParser.xhtml#a0a45d360286dbf851ce2bdab90e6676a">NativeParser::GetParserByProject()</a>, <a class="el" href="classManager.xhtml#a257bd7c728150123cab119f95809a443">Manager::GetProjectManager()</a>, <a class="el" href="classCodeCompletion.xhtml#af243a8a7f26ca59ec1db72be75577bea">m_InitDone</a>, <a class="el" href="classCodeCompletion.xhtml#ad2d2715374705eab4ba5eae3fd8b0171">m_NativeParser</a>, and <a class="el" href="classNativeParser.xhtml#a6015f6263678e9f11fb9ab8ca14d13a2">NativeParser::OnEditorActivated()</a>.</p>
 
@@ -996,6 +1021,7 @@ parsed</td>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>enable the two wxChoices </p>
 
 <p>References <a class="el" href="classCodeCompletion.xhtml#ad77d0d249c853cc6d0d4f8b0f1165e2d">m_Function</a>, and <a class="el" href="classCodeCompletion.xhtml#ab17d83ab7f36bb1762bcf89058265756">m_Scope</a>.</p>
 
@@ -1024,6 +1050,7 @@ parsed</td>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>the caret has changed, so the wxChoice need to be updated to indicates which scope and function in which the caret locates. </p>
 
 <p>References <a class="el" href="classCodeCompletion.xhtml#a136df2eb35cb5e5c600e3a1deee15cdf">FunctionPosition()</a>, <a class="el" href="codecompletion_8cpp.xhtml#a0dfa2ee56acc047965f0acf0d2dd1f23">g_GlobalScope()</a>, <a class="el" href="classCodeCompletion.xhtml#ad85a12040b41c11d94ee2354a2b10a13">m_CurrentLine</a>, <a class="el" href="classCodeCompletion.xhtml#ad77d0d249c853cc6d0d4f8b0f1165e2d">m_Function</a>, <a class="el" href="classCodeCompletion.xhtml#a568476921e368513c8238d8834de9e21">m_NameSpaces</a>, <a class="el" href="classCodeCompletion.xhtml#ab17d83ab7f36bb1762bcf89058265756">m_Scope</a>, <a class="el" href="classCodeCompletion.xhtml#aac0a31b65277f7e94231aa5b131ec800">NameSpacePosition()</a>, and <a class="el" href="classCodeCompletion.xhtml#a6f78cd20d93dd2aca4c0b4ce8474f6be">UpdateFunctions()</a>.</p>
 
@@ -1290,6 +1317,7 @@ parsed</td>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>CC's config dialog </p>
 
 <p>References <a class="el" href="classCodeCompletion.xhtml#a68459726d540b1222d7ced2c2072823e">m_DocHelper</a>, and <a class="el" href="classCodeCompletion.xhtml#ad2d2715374705eab4ba5eae3fd8b0171">m_NativeParser</a>.</p>
 
@@ -1402,6 +1430,7 @@ parsed</td>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>CC's config dialog which show in the project options panel </p>
 
 <p>References <a class="el" href="classCodeCompletion.xhtml#ad2d2715374705eab4ba5eae3fd8b0171">m_NativeParser</a>.</p>
 
@@ -1669,6 +1698,16 @@ parsed</td>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>modify the string content to follow the current editor's code style The code style includes the EOL, TAB and indent </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">str</td><td>the input string, but also the modified string </td></tr>
+    <tr><td class="paramdir"></td><td class="paramname">eolStyle</td><td>an int value to indicate the EOL style </td></tr>
+    <tr><td class="paramdir"></td><td class="paramname">indent</td><td>a wxString containing the whole intent text </td></tr>
+    <tr><td class="paramdir"></td><td class="paramname">useTabs</td><td>whether TAB is used </td></tr>
+    <tr><td class="paramdir"></td><td class="paramname">tabSize</td><td>how long is the TAB </td></tr>
+  </table>
+  </dd>
+</dl>
 
 <p>References <a class="el" href="globals_8h.xhtml#a84682c6e0915b0a240b532714d8dcd48">GetEOLStr()</a>.</p>
 
@@ -1696,7 +1735,7 @@ parsed</td>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>help method in finding the namespace position in the vector for the namespace containing the current line </p>
+<p>find the namespace whose scope covers the current line the m_CurrentLine is used </p><dl class="section return"><dt>Returns</dt><dd>the found namespace index </dd></dl>
 
 <p>References <a class="el" href="classCodeCompletion.xhtml#ad85a12040b41c11d94ee2354a2b10a13">m_CurrentLine</a>, <a class="el" href="classCodeCompletion.xhtml#a568476921e368513c8238d8834de9e21">m_NameSpaces</a>, and <a class="el" href="parserthread_8h.xhtml#ab08c63e9f0119a0e891afc0239782cb1">NameSpace::StartLine</a>.</p>
 
@@ -1784,7 +1823,7 @@ Think of this method as the actual constructor... </p>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>CC's own debug logger, to handle event sent from other thread or itself </p>
+<p>CC's own debug logger, to handle log event sent from other worker threads or itself(the main GUI thread), the log messages will be printed in the "Code::Blocks Debug" log panel. </p>
 
 <p>References <a class="el" href="classLogManager.xhtml#a9b9ce987917f59b60428ec76c916bde6">LogManager::DebugLog()</a>, <a class="el" href="classManager.xhtml#acf40c9bf3465914dd64d9fdf3b3dc80a">Manager::Get()</a>, <a class="el" href="classManager.xhtml#aad10e86a7e2db6efe90e7b8c81f7341c">Manager::GetLogManager()</a>, and <a class="el" href="classManager.xhtml#a7f3b917f0c41e8ee07129259cef1f058">Manager::IsAppShuttingDown()</a>.</p>
 
@@ -1813,7 +1852,7 @@ Think of this method as the actual constructor... </p>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>CC's own logger, to handle event sent from other thread or itself </p>
+<p>CC's own logger, to handle log events sent from other worker threads or itself(the main GUI thread), the log messages will be printed in the "Code::Blocks" log panel. </p>
 
 <p>References <a class="el" href="classManager.xhtml#acf40c9bf3465914dd64d9fdf3b3dc80a">Manager::Get()</a>, <a class="el" href="classManager.xhtml#aad10e86a7e2db6efe90e7b8c81f7341c">Manager::GetLogManager()</a>, <a class="el" href="classManager.xhtml#a7f3b917f0c41e8ee07129259cef1f058">Manager::IsAppShuttingDown()</a>, and <a class="el" href="classLogManager.xhtml#af892db72606178f1e29c8892d213f9da">LogManager::Log()</a>.</p>
 
@@ -1842,59 +1881,9 @@ Think of this method as the actual constructor... </p>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>handle CC's context menu-&gt;insert </p>
+<p>handle CC's context menu-&gt;insert "Class method declaration/implementation..." </p>
 
 <p>References <a class="el" href="classCodeCompletion.xhtml#a7fc8ad45379b08c75033009b7e95c6a6">DoClassMethodDeclImpl()</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a3f73328ca0e3033f75dd4e86c37e31c6"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void CodeCompletion::OnCodeComplete </td>
-          <td>(</td>
-          <td class="paramtype">wxCommandEvent &amp;&#160;</td>
-          <td class="paramname"><em>event</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<p>event handler to list the suggestion, when a user press CTRL+space(by default) </p>
-
-</div>
-</div>
-<a class="anchor" id="a960f07990cdfd6682404aca9c534b96d"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void CodeCompletion::OnCodeCompleteTimer </td>
-          <td>(</td>
-          <td class="paramtype">wxTimerEvent &amp;&#160;</td>
-          <td class="paramname"><em>event</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<p>delayed for code completion </p>
 
 </div>
 </div>
@@ -2053,7 +2042,7 @@ Think of this method as the actual constructor... </p>
 </table>
 </div><div class="memdoc">
 
-<p>References <a class="el" href="parser__base_8h.xhtml#a9e22c37e10be75400182c5148a8f27e2a72bfc909cc8b9a205c06b4e7fca6451d">bdfFile</a>, <a class="el" href="classParserBase.xhtml#aefac51387313f915a254c74164dbbaa7">ParserBase::ClassBrowserOptions()</a>, <a class="el" href="parser__base_8h.xhtml#a8026bee1fb416db5887b311bf9238e80">BrowserOptions::displayFilter</a>, <a class="el" href="classCodeCompletion.xhtml#a36f9f87987101bc26730e959bdb7bcb8">EnableToolbarTools()</a>, <a class="el" href="classManager.xhtml#acf40c9bf3465914dd64d9fdf3b3dc80a">Manager::Get()</a>, <a class="el" href="classEditorManager.xhtml#a60a41be8743c2988e68d989227d865ff">EditorManager::GetActiveEditor()</a>, <a class="el" href="classEditorManager.xhtml#a4106217c1628a104010aefe956f47e71">EditorManager::GetBuiltinEditor()</a>, <a class="el" href="classCodeBlocksEvent.xhtml#afd4a49fb67d27f5fb50f056a036e4046">CodeBlocksEvent::GetEditor()</a>, <a class="el" href="classManager.xhtml#a66c9757eaea9fce292dc74ae43a6d637">Manager::GetEditorManager()</a>, <a class="el" href="classEditorManager.xhtml#aa39a1210caec1e9f19607cab46ee23e2">EditorManager::GetEditorsCount()</a>, <a class="el" href="classEditorBase.xhtml#a74769e1dacdfb9d94f0184c7989cc928">EditorBase::GetFilename()</a>, <a class="el" href="classNativeParser.xhtml#a97a304509c57b877da06b25d66a2a6c4">NativeParser::GetParser()</a>, <a class="el" href="classEditorBase.xhtml#a0ee23cf15843f4f850433bfa8d215781">EditorBase::IsBuiltinEditor()</a>, <a class="el" href="classCodeCompletion.xhtml#a32c661590f6a46ed4dbc5d3aebb76374">m_AllFunctionsScopes</a>, <a class="el" href="classCodeCompletion.xhtml#ad77d0d249c853cc6d0d4f8b0f1165e2d">m_Function</a>, <a class="el" href="classCodeCompletion.xhtml#a04a447894f0a659a802093e4ebeb36d7">m_LastEditor</a>, <a class="el" href="classCodeCompletion.xhtml#a2368c1fed0116868f32313e1cce29848">m_LastFile</a>, <a class="el" href="classCodeCompletion.xhtml#ad2d2715374705eab4ba5eae3fd8b0171">m_NativeParser</a>, <a class="el" href="classCodeCompletion.xhtml#ab17d83ab7f36bb1762bcf89058265756">m_Scope</a>, <a class="el" href="classCodeCompletion.xhtml#acc2c5f25b19b50ae6f200c024907cfe9">m_TimerEditorActivated</a>, <a class="el" href="classNativeParser.xhtml#a49a62e9804e1416506db28f0cc78ec53">NativeParser::OnEditorClosed()</a>, <a class="el" href="codecompletion_8cpp.xhtml#a1c9f8c7ecc64a760dc3ac03706556ea9">TRACE</a>, and <a class="el" href="classNativeParser.xhtml#ad59a310226ca58e5a0b058342ca521ff">NativeParser::UpdateClassBrowser()</a>.</p>
+<p>References <a class="el" href="parser__base_8h.xhtml#a9e22c37e10be75400182c5148a8f27e2a72bfc909cc8b9a205c06b4e7fca6451d">bdfFile</a>, <a class="el" href="classParserBase.xhtml#aefac51387313f915a254c74164dbbaa7">ParserBase::ClassBrowserOptions()</a>, <a class="el" href="structBrowserOptions.xhtml#a8026bee1fb416db5887b311bf9238e80">BrowserOptions::displayFilter</a>, <a class="el" href="classCodeCompletion.xhtml#a36f9f87987101bc26730e959bdb7bcb8">EnableToolbarTools()</a>, <a class="el" href="classManager.xhtml#acf40c9bf3465914dd64d9fdf3b3dc80a">Manager::Get()</a>, <a class="el" href="classEditorManager.xhtml#a60a41be8743c2988e68d989227d865ff">EditorManager::GetActiveEditor()</a>, <a class="el" href="classEditorManager.xhtml#a4106217c1628a104010aefe956f47e71">EditorManager::GetBuiltinEditor()</a>, <a class="el" href="classCodeBlocksEvent.xhtml#afd4a49fb67d27f5fb50f056a036e4046">CodeBlocksEvent::GetEditor()</a>, <a class="el" href="classManager.xhtml#a66c9757eaea9fce292dc74ae43a6d637">Manager::GetEditorManager()</a>, <a class="el" href="classEditorManager.xhtml#aa39a1210caec1e9f19607cab46ee23e2">EditorManager::GetEditorsCount()</a>, <a class="el" href="classEditorBase.xhtml#a74769e1dacdfb9d94f0184c7989cc928">EditorBase::GetFilename()</a>, <a class="el" href="classNativeParser.xhtml#a97a304509c57b877da06b25d66a2a6c4">NativeParser::GetParser()</a>, <a class="el" href="classEditorBase.xhtml#a0ee23cf15843f4f850433bfa8d215781">EditorBase::IsBuiltinEditor()</a>, <a class="el" href="classCodeCompletion.xhtml#a32c661590f6a46ed4dbc5d3aebb76374">m_AllFunctionsScopes</a>, <a class="el" href="classCodeCompletion.xhtml#ad77d0d249c853cc6d0d4f8b0f1165e2d">m_Function</a>, <a class="el" href="classCodeCompletion.xhtml#a04a447894f0a659a802093e4ebeb36d7">m_LastEditor</a>, <a class="el" href="classCodeCompletion.xhtml#a2368c1fed0116868f32313e1cce29848">m_LastFile</a>, <a class="el" href="classCodeCompletion.xhtml#ad2d2715374705eab4ba5eae3fd8b0171">m_NativeParser</a>, <a class="el" href="classCodeCompletion.xhtml#ab17d83ab7f36bb1762bcf89058265756">m_Scope</a>, <a class="el" href="classCodeCompletion.xhtml#acc2c5f25b19b50ae6f200c024907cfe9">m_TimerEditorActivated</a>, <a class="el" href="classNativeParser.xhtml#a49a62e9804e1416506db28f0cc78ec53">NativeParser::OnEditorClosed()</a>, <a class="el" href="codecompletion_8cpp.xhtml#a1c9f8c7ecc64a760dc3ac03706556ea9">TRACE</a>, and <a class="el" href="classNativeParser.xhtml#ad59a310226ca58e5a0b058342ca521ff">NativeParser::UpdateClassBrowser()</a>.</p>
 
 <p>Referenced by <a class="el" href="classCodeCompletion.xhtml#ab8d12dd91635e01b3922efd10e35ffaf">OnAttach()</a>.</p>
 
@@ -2326,7 +2315,7 @@ Think of this method as the actual constructor... </p>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>batch parsing end event </p>
+<p>batch parsing end event this event usually be fired when the task pool becomes empty </p>
 
 <p>References <a class="el" href="classNativeParser.xhtml#a01eda92f827fca5cbc6e055c77f27ac3">NativeParser::Done()</a>, <a class="el" href="classManager.xhtml#acf40c9bf3465914dd64d9fdf3b3dc80a">Manager::Get()</a>, <a class="el" href="classEditorManager.xhtml#af47b36d55e37f971e62f0590ce0aea81">EditorManager::GetBuiltinActiveEditor()</a>, <a class="el" href="classEditorManager.xhtml#a4106217c1628a104010aefe956f47e71">EditorManager::GetBuiltinEditor()</a>, <a class="el" href="classManager.xhtml#a66c9757eaea9fce292dc74ae43a6d637">Manager::GetEditorManager()</a>, <a class="el" href="classEditorManager.xhtml#aa39a1210caec1e9f19607cab46ee23e2">EditorManager::GetEditorsCount()</a>, <a class="el" href="classCodeCompletion.xhtml#adb3dd490323f1ff675c2328f860dc4d5">m_CCEnableHeaders</a>, <a class="el" href="classCodeCompletion.xhtml#ad2d2715374705eab4ba5eae3fd8b0171">m_NativeParser</a>, <a class="el" href="classCodeCompletion.xhtml#a90aa05be30e994f8f19ef3ccdc9223f5">m_NeedsBatchColour</a>, <a class="el" href="classCodeCompletion.xhtml#a0fc330613e0c934b2cf566ff4e98f14f">m_SystemHeadersThreads</a>, <a class="el" href="classCodeCompletion.xhtml#a082e13fa58d46844817c4c627b716620">m_TimerToolbar</a>, <a class="el" href="classCodeCompletion.xhtml#a5789aad44768615b42df482a1dc618c2">m_ToolbarNeedReparse</a>, <a class="el" href="namespaceParserCommon.xhtml#a906bcf9de1a0a3c11b86f21417aa4e46a0bdd24af8650729167d888f4d25dedc1">ParserCommon::ptCreateParser</a>, <a class="el" href="codecompletion_8cpp.xhtml#ad2d18711e974f1d03629bbaae268533f">TOOLBAR_REFRESH_DELAY</a>, <a class="el" href="codecompletion_8cpp.xhtml#a1c9f8c7ecc64a760dc3ac03706556ea9">TRACE</a>, and <a class="el" href="classCodeCompletion.xhtml#a3d1351e1519d2024e554429d8f249356">UpdateEditorSyntax()</a>.</p>
 
@@ -2355,7 +2344,7 @@ Think of this method as the actual constructor... </p>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>batch parsing start event </p>
+<p>batch parsing start event this event usually be fired when an <a class="el" href="classParser.xhtml" title="Parser class holds all the tokens of a C::B project. ">Parser</a> object try to start parsing tasks in the thread pool </p>
 
 <p>References <a class="el" href="classCodeCompletion.xhtml#a36f9f87987101bc26730e959bdb7bcb8">EnableToolbarTools()</a>, <a class="el" href="classManager.xhtml#acf40c9bf3465914dd64d9fdf3b3dc80a">Manager::Get()</a>, <a class="el" href="classEditorManager.xhtml#af47b36d55e37f971e62f0590ce0aea81">EditorManager::GetBuiltinActiveEditor()</a>, <a class="el" href="classManager.xhtml#a66c9757eaea9fce292dc74ae43a6d637">Manager::GetEditorManager()</a>, <a class="el" href="classNativeParser.xhtml#a8b007d1e00c78728d669c2708ba4c186">NativeParser::GetProjectByEditor()</a>, <a class="el" href="classCodeCompletion.xhtml#a4f97289c0e670885d1d3f9f3b7a9540a">GetSystemIncludeDirs()</a>, <a class="el" href="classCodeCompletion.xhtml#adb3dd490323f1ff675c2328f860dc4d5">m_CCEnableHeaders</a>, <a class="el" href="classCodeCompletion.xhtml#ad2d2715374705eab4ba5eae3fd8b0171">m_NativeParser</a>, <a class="el" href="classCodeCompletion.xhtml#ae4e7c16441ae583cf1392e89f95a74d1">m_SystemHeadersMap</a>, <a class="el" href="classCodeCompletion.xhtml#a0d0eec17839e99c5d64335625a37f9f8">m_SystemHeadersThreadCS</a>, <a class="el" href="classCodeCompletion.xhtml#a0fc330613e0c934b2cf566ff4e98f14f">m_SystemHeadersThreads</a>, and <a class="el" href="namespaceParserCommon.xhtml#a906bcf9de1a0a3c11b86f21417aa4e46a0bdd24af8650729167d888f4d25dedc1">ParserCommon::ptCreateParser</a>.</p>
 
@@ -2386,7 +2375,7 @@ Think of this method as the actual constructor... </p>
 </div><div class="memdoc">
 <p>SDK project related events </p>
 
-<p>References <a class="el" href="parser__base_8h.xhtml#a9e22c37e10be75400182c5148a8f27e2af6efff074fbbf30a9c914e53ed3da092">bdfProject</a>, <a class="el" href="classParserBase.xhtml#aefac51387313f915a254c74164dbbaa7">ParserBase::ClassBrowserOptions()</a>, <a class="el" href="classNativeParser.xhtml#a435fb7bfceb1b19f678311f23ba6a809">NativeParser::CreateParser()</a>, <a class="el" href="parser__base_8h.xhtml#a8026bee1fb416db5887b311bf9238e80">BrowserOptions::displayFilter</a>, <a class="el" href="classcbProject.xhtml#a09def1c2f364e671a752857e16ba0113">cbProject::GetFilesCount()</a>, <a class="el" href="classNativeParser.xhtml#a97a304509c57b877da06b25d66a2a6c4">NativeParser::GetParser()</a>, <a class="el" href="classNativeParser.xhtml#a0a45d360286dbf851ce2bdab90e6676a">NativeParser::GetParserByProject()</a>, <a class="el" href="classcbPlugin.xhtml#a295a1b1c3ef2f77c3947ec76d3c38363">cbPlugin::IsAttached()</a>, <a class="el" href="classProjectManager.xhtml#a421c6b90f9e81885d1cb8a552259b9f1">ProjectManager::IsBusy()</a>, <a class="el" href="classCodeCompletion.xhtml#af243a8a7f26ca59ec1db72be75577bea">m_InitDone</a>, <a class="el" href="classCodeCompletion.xhtml#ad2d2715374705eab4ba5eae3fd8b0171">m_NativeParser</a>, <a class="el" href="classCodeCompletion.xhtml#a90aa05be30e994f8f19ef3ccdc9223f5">m_NeedsBatchColour</a>, and <a class="el" href="classNativeParser.xhtml#ad59a310226ca58e5a0b058342ca521ff">NativeParser::UpdateClassBrowser()</a>.</p>
+<p>References <a class="el" href="parser__base_8h.xhtml#a9e22c37e10be75400182c5148a8f27e2af6efff074fbbf30a9c914e53ed3da092">bdfProject</a>, <a class="el" href="classParserBase.xhtml#aefac51387313f915a254c74164dbbaa7">ParserBase::ClassBrowserOptions()</a>, <a class="el" href="classNativeParser.xhtml#a435fb7bfceb1b19f678311f23ba6a809">NativeParser::CreateParser()</a>, <a class="el" href="structBrowserOptions.xhtml#a8026bee1fb416db5887b311bf9238e80">BrowserOptions::displayFilter</a>, <a class="el" href="classcbProject.xhtml#a09def1c2f364e671a752857e16ba0113">cbProject::GetFilesCount()</a>, <a class="el" href="classNativeParser.xhtml#a97a304509c57b877da06b25d66a2a6c4">NativeParser::GetParser()</a>, <a class="el" href="classNativeParser.xhtml#a0a45d360286dbf851ce2bdab90e6676a">NativeParser::GetParserByProject()</a>, <a class="el" href="classcbPlugin.xhtml#a295a1b1c3ef2f77c3947ec76d3c38363">cbPlugin::IsAttached()</a>, <a class="el" href="classProjectManager.xhtml#a421c6b90f9e81885d1cb8a552259b9f1">ProjectManager::IsBusy()</a>, <a class="el" href="classCodeCompletion.xhtml#af243a8a7f26ca59ec1db72be75577bea">m_InitDone</a>, <a class="el" href="classCodeCompletion.xhtml#ad2d2715374705eab4ba5eae3fd8b0171">m_NativeParser</a>, <a class="el" href="classCodeCompletion.xhtml#a90aa05be30e994f8f19ef3ccdc9223f5">m_NeedsBatchColour</a>, and <a class="el" href="classNativeParser.xhtml#ad59a310226ca58e5a0b058342ca521ff">NativeParser::UpdateClassBrowser()</a>.</p>
 
 <p>Referenced by <a class="el" href="classCodeCompletion.xhtml#ab8d12dd91635e01b3922efd10e35ffaf">OnAttach()</a>.</p>
 
@@ -2886,7 +2875,7 @@ Think of this method as the actual constructor... </p>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>handle CC's context menu-&gt;insert </p>
+<p>handle CC's context menu-&gt;insert "All class methods without implementation..." </p>
 
 <p>References <a class="el" href="classCodeCompletion.xhtml#ab4bc3803d1bf0ef1703e0a6355fc45f4">DoAllMethodsImpl()</a>.</p>
 
@@ -2969,7 +2958,7 @@ Think of this method as the actual constructor... </p>
 </div><div class="memdoc">
 <p>SDK workspace related events </p>
 
-<p>References <a class="el" href="parser__base_8h.xhtml#a9e22c37e10be75400182c5148a8f27e2af6efff074fbbf30a9c914e53ed3da092">bdfProject</a>, <a class="el" href="classParserBase.xhtml#aefac51387313f915a254c74164dbbaa7">ParserBase::ClassBrowserOptions()</a>, <a class="el" href="classNativeParser.xhtml#a435fb7bfceb1b19f678311f23ba6a809">NativeParser::CreateParser()</a>, <a class="el" href="parser__base_8h.xhtml#a8026bee1fb416db5887b311bf9238e80">BrowserOptions::displayFilter</a>, <a class="el" href="classManager.xhtml#acf40c9bf3465914dd64d9fdf3b3dc80a">Manager::Get()</a>, <a class="el" href="classProjectManager.xhtml#a9caef3e66c1c7944a2774f3f70507b78">ProjectManager::GetActiveProject()</a>, <a class="el" href="classNativeParser.xhtml#a97a304509c57b877da06b25d66a2a6c4">NativeParser::GetParser()</a>, <a class="el" href="classNativeParser.xhtml#a0a45d360286dbf851ce2bdab90e6676a">NativeParser::GetParserByProject()</a>, <a class="el" href="classManager.xhtml#a257bd7c728150123cab119f95809a443">Manager::GetProjectManager()</a>, <a class="el" href="classcbPlugin.xhtml#a295a1b1c3ef2f77c3947ec76d3c38363">cbPlugin::IsAttached()</a>, <a class="el" href="classCodeCompletion.xhtml#af243a8a7f26ca59ec1db72be75577bea">m_InitDone</a>, <a class="el" href="classCodeCompletion.xhtml#ad2d2715374705eab4ba5eae3fd8b0171">m_NativeParser</a>, <a class="el" href="classCodeCompletion.xhtml#a082e13fa58d46844817c4c627b716620">m_TimerToolbar</a>, <a class="el" href="codecompletion_8cpp.xhtml#ad2d18711e974f1d03629bbaae268533f">TOOLBAR_REFRESH_DELAY</a>, <a class="el" href="codecompletion_8cpp.xhtml#a1c9f8c7ecc64a760dc3ac03706556ea9">TRACE</a>, and <a class="el" href="classNativeParser.xhtml#ad59a310226ca58e5a0b058342ca521ff">NativeParser::UpdateClassBrowser()</a>.</p>
+<p>References <a class="el" href="parser__base_8h.xhtml#a9e22c37e10be75400182c5148a8f27e2af6efff074fbbf30a9c914e53ed3da092">bdfProject</a>, <a class="el" href="classParserBase.xhtml#aefac51387313f915a254c74164dbbaa7">ParserBase::ClassBrowserOptions()</a>, <a class="el" href="classNativeParser.xhtml#a435fb7bfceb1b19f678311f23ba6a809">NativeParser::CreateParser()</a>, <a class="el" href="structBrowserOptions.xhtml#a8026bee1fb416db5887b311bf9238e80">BrowserOptions::displayFilter</a>, <a class="el" href="classManager.xhtml#acf40c9bf3465914dd64d9fdf3b3dc80a">Manager::Get()</a>, <a class="el" href="classProjectManager.xhtml#a9caef3e66c1c7944a2774f3f70507b78">ProjectManager::GetActiveProject()</a>, <a class="el" href="classNativeParser.xhtml#a97a304509c57b877da06b25d66a2a6c4">NativeParser::GetParser()</a>, <a class="el" href="classNativeParser.xhtml#a0a45d360286dbf851ce2bdab90e6676a">NativeParser::GetParserByProject()</a>, <a class="el" href="classManager.xhtml#a257bd7c728150123cab119f95809a443">Manager::GetProjectManager()</a>, <a class="el" href="classcbPlugin.xhtml#a295a1b1c3ef2f77c3947ec76d3c38363">cbPlugin::IsAttached()</a>, <a class="el" href="classCodeCompletion.xhtml#af243a8a7f26ca59ec1db72be75577bea">m_InitDone</a>, <a class="el" href="classCodeCompletion.xhtml#ad2d2715374705eab4ba5eae3fd8b0171">m_NativeParser</a>, <a class="el" href="classCodeCompletion.xhtml#a082e13fa58d46844817c4c627b716620">m_TimerToolbar</a>, <a class="el" href="codecompletion_8cpp.xhtml#ad2d18711e974f1d03629bbaae268533f">TOOLBAR_REFRESH_DELAY</a>, <a class="el" href="codecompletion_8cpp.xhtml#a1c9f8c7ecc64a760dc3ac03706556ea9">TRACE</a>, and <a class="el" href="classNativeParser.xhtml#ad59a310226ca58e5a0b058342ca521ff">NativeParser::UpdateClassBrowser()</a>.</p>
 
 <p>Referenced by <a class="el" href="classCodeCompletion.xhtml#ab8d12dd91635e01b3922efd10e35ffaf">OnAttach()</a>.</p>
 
@@ -2995,7 +2984,14 @@ Think of this method as the actual constructor... </p>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<p>normally the editor has changed, then CC need to parse the document again, and (re)construct the internal database, and refresh the toolbar(wxChoice's content)</p>
+<p>Here is the expansion of how the two wxChoices are constructed. for a file have such contents below</p>
+<p>Line 0 void g_func1(){ Line 1 } Line 2 Line 3 void ClassA::func1(){ Line 4 } Line 5 Line 6 void ClassA::func2(){ Line 7 } Line 8 Line 9 void ClassB::func1(){ Line 10 } Line 11 Line 12 void ClassB::func2(){ Line 13 }</p>
+<p>m_FunctionsScope is std::vector of length 5, capacity 8 = { {StartLine = 0, EndLine = 1, ShortName = L"g_func1", Name = L"g_func1() : void", Scope = L"&lt;global&gt;"}, {StartLine = 3, EndLine = 4, ShortName = L"func1", Name = L"func1() : void", Scope = L"ClassA::"}, {StartLine = 6, EndLine = 7, ShortName = L"func2", Name = L"func2() : void", Scope = L"ClassA::"}, {StartLine = 9, EndLine = 10, ShortName = L"func1", Name = L"func1() : void", Scope = L"ClassB::"}, {StartLine = 12, EndLine = 13, ShortName = L"func2", Name = L"func2() : void", Scope = L"ClassB::"}}</p>
+<p>m_ScopeMarks is std::vector of length 3, capacity 4 = {0, 1, 3}, which is the start of Scope "&lt;global&gt;" Scope "ClassA::" and Scope "ClassB::".</p>
+<p>Then we have wxChoice Scopes and Functions like below </p><pre class="fragment">&lt;global&gt;          ClassA::        ClassB::
+  |- g_func1()      |- func1()      |- func1()
+                    |- func2()      |- func2()</pre> 
 <p>References <a class="el" href="cclogger_8h.xhtml#abeaaa24b840507a2dce16ea2306b7995">CC_LOCKER_TRACK_TT_MTX_LOCK</a>, <a class="el" href="cclogger_8h.xhtml#a12481e66c0dee266f5a45a7ba7565a17">CC_LOCKER_TRACK_TT_MTX_UNLOCK</a>, <a class="el" href="classCCLogger.xhtml#aa64a8ddd35ee6847500ee8afa9905d07">CCLogger::DebugLog()</a>, <a class="el" href="classCodeCompletion.xhtml#a36f9f87987101bc26730e959bdb7bcb8">EnableToolbarTools()</a>, <a class="el" href="structCodeCompletion_1_1FunctionScope.xhtml#a9b9639773f3426c9d250d2b437bb1482">CodeCompletion::FunctionScope::EndLine</a>, <a class="el" href="namespaceCodeCompletionHelper.xhtml#a2afb4d2c2ede45a7a9f059cdaabcfaa7">CodeCompletionHelper::EqualFunctionScope()</a>, <a class="el" href="logmanager_8h.xhtml#afcd50562b2d380a60ad9e8b56dddc72d">F()</a>, <a class="el" href="classCodeCompletion.xhtml#aee9bf00a3132557b40cc4bfeafbbfbea">FindFunctionAndUpdate()</a>, <a class="el" href="classParserBase.xhtml#ae6a65a90c7ae93ec37a19ad9ff8aa7dd">ParserBase::FindTokensInFile()</a>, <a class="el" href="codecompletion_8cpp.xhtml#a0dfa2ee56acc047965f0acf0d2dd1f23">g_GlobalScope()</a>, <a class="el" href="classCCLogger.xhtml#a8026c2410c4373264868a80352638508">CCLogger::Get()</a>, <a class="el" href="classManager.xhtml#acf40c9bf3465914dd64d9fdf3b3dc80a">Manager::Get()</a>, <a class="el" href="classEditorManager.xhtml#af47b36d55e37f971e62f0590ce0aea81">EditorManager::GetBuiltinActiveEditor()</a>, <a class="el" href="classcbEditor.xhtml#a8e29060c87dc410a8f5e31f2c6e1994c">cbEditor::GetControl()</a>, <a class="el" href="classwxScintilla.xhtml#a58e2393536a2228a640fe9b816e716a0">wxScintilla::GetCurrentLine()</a>, <a class="el" href="classManager.xhtml#a66c9757eaea9fce292dc74ae43a6d637">Manager::GetEditorManager()</a>, <a class="el" href="classEditorBase.xhtml#a74769e1dacdfb9d94f0184c7989cc928">EditorBase::GetFilename()</a>, <a class="el" href="classToken.xhtml#a7bb217770e9710de9b62fb6ded64749f">Token::GetFormattedArgs()</a>, <a class="el" href="classToken.xhtml#a1655d75503e09f2eb2774a1d2224a8aa">Token::GetNamespace()</a>, <a class="el" href="classNativeParser.xhtml#a97a304509c57b877da06b25d66a2a6c4">NativeParser::GetParser()</a>, <a class="el" href="classwxScintilla.xhtml#a9da5c5dcfca161f9459bc10a16a8e56a">wxScintilla::GetText()</a>, <a class="el" href="classParserBase.xhtml#aac0664f6c437a9ab7216690d853b85a8">ParserBase::GetTokenTree()</a>, <a class="el" href="classParserBase.xhtml#a56db47dbb455d057e9042aba077d2865">ParserBase::IsFileParsed()</a>, <a class="el" href="namespaceCodeCompletionHelper.xhtml#a880eaa38caea839d87bc4f5d6f481d20">CodeCompletionHelper::LessFunctionScope()</a>, <a class="el" href="namespaceCodeCompletionHelper.xhtml#a19990e829905db8527658366eba08d3d">CodeCompletionHelper::LessNameSpace()</a>, <a class="el" href="classCodeCompletion.xhtml#a32c661590f6a46ed4dbc5d3aebb76374">m_AllFunctionsScopes</a>, <a class="el" href="classToken.xhtml#ad993bc78fb9aab6105daca3c104d7b5c">Token::m_BaseType</a>, <a class="el" href="classCodeCompletion.xhtml#ad77d0d249c853cc6d0d4f8b0f1165e2d">m_Function</a>, <a class="el" href="classCodeCompletion.xhtml#a3aca1f336733069d2feb008f42ab9d4f">CodeCompletion::FunctionsScopePerFile::m_FunctionsScope</a>, <a class="el" href="classCodeCompletion.xhtml#ac0ae58426125706b2b0ac98ae3efc850">m_FunctionsScope</a>, <a class="el" href="classToken.xhtml#ab01f001b0ff015f374c3631aba65bd57">Token::m_ImplFileIdx</a>, <a class="el" href="classToken.xhtml#a8ae34ce001ad24cd7e1d761be8feb61a">Token::m_ImplLine</a>, <a class="el" href="classToken.xhtml#a49474c5087079ad605f493b5bdf323d4">Token::m_ImplLineEnd</a>, <a class="el" href="classCodeCompletion.xhtml#a2368c1fed0116868f32313e1cce29848">m_LastFile</a>, <a class="el" href="classToken.xhtml#a66d4391491a9244d9c0e060045d9cdee">Token::m_Name</a>, <a class="el" href="classCodeCompletion.xhtml#a5541137e188cc1f5151c82440ee94b9a">CodeCompletion::FunctionsScopePerFile::m_NameSpaces</a>, <a class="el" href="classCodeCompletion.xhtml#a568476921e368513c8238d8834de9e21">m_NameSpaces</a>, <a class="el" href="classCodeCompletion.xhtml#ad2d2715374705eab4ba5eae3fd8b0171">m_NativeParser</a>, <a class="el" href="classCodeCompletion.xhtml#ab17d83ab7f36bb1762bcf89058265756">m_Scope</a>, <a class="el" href="classCodeCompletion.xhtml#a8cd8845f5e78a55f1cce125d1e3ae9c5">m_ScopeMarks</a>, <a class="el" href="classToken.xhtml#aae52d5bca7a44fcd03345e405ab979b6">Token::m_TokenKind</a>, <a class="el" href="classCodeCompletion.xhtml#a6102cf384559cbaec6759145cc4d6aea">m_ToolbarNeedRefresh</a>, <a class="el" href="classCodeCompletion.xhtml#a5789aad44768615b42df482a1dc618c2">m_ToolbarNeedReparse</a>, <a class="el" href="structCodeCompletion_1_1FunctionScope.xhtml#aa24912530835404f3275950b58d207e2">CodeCompletion::FunctionScope::Name</a>, <a class="el" href="classParserBase.xhtml#a00b313c9af6b1a4bd96f8cb982e7a1c2">ParserBase::ParseBufferForNamespaces()</a>, <a class="el" href="classCodeCompletion.xhtml#ac3aedaf83c44f8a8e5fed1aadbcbf2b8">CodeCompletion::FunctionsScopePerFile::parsed</a>, <a class="el" href="tokentree_8cpp.xhtml#a9280aad984604fac23895e7805450781">s_TokenTreeMutex</a>, <a class="el" href="structCodeCompletion_1_1FunctionScope.xhtml#a700dc00001275f56029bd15ccd27209a">CodeCompletion::FunctionScope::Scope</a>, <a class="el" href="structCodeCompletion_1_1FunctionScope.xhtml#af782771aa4b11e9e58622970396c4c1f">CodeCompletion::FunctionScope::ShortName</a>, <a class="el" href="structCodeCompletion_1_1FunctionScope.xhtml#a51b923e8d7489b6b445e264dc0e80a31">CodeCompletion::FunctionScope::StartLine</a>, <a class="el" href="token_8h.xhtml#a7a47dce04185ce6008048622cc792f25a41b6019cea50c68b09d3aa4e927327aa">tkAnyFunction</a>, <a class="el" href="token_8h.xhtml#a7a47dce04185ce6008048622cc792f25a36d9f3721a93b1c4a60b1d50d0198af2">tkClass</a>, <a class="el" href="token_8h.xhtml#a7a47dce04185ce6008048622cc792f25a5bf7196b13ca1ae329ed8a409c1c41c0">tkEnum</a>, <a class="el" href="token_8h.xhtml#a7a47dce04185ce6008048622cc792f25aa38450654b481800ad6cd006ebb0e98a">tkNamespace</a>, and <a class="el" href="codecompletion_8cpp.xhtml#a1c9f8c7ecc64a760dc3ac03706556ea9">TRACE</a>.</p>
 
 <p>Referenced by <a class="el" href="classCodeCompletion.xhtml#a1b63624b17ae3086eee4839cc6514b9d">OnToolbarTimer()</a>.</p>
@@ -3100,6 +3096,12 @@ Think of this method as the actual constructor... </p>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>the scope item has changed or becomes invalid, so the associated function wxChoice should be updated. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">scopeItem</td><td>the new item in scope wxChoice. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 <p>References <a class="el" href="classCodeCompletion.xhtml#ad77d0d249c853cc6d0d4f8b0f1165e2d">m_Function</a>, <a class="el" href="classCodeCompletion.xhtml#ac0ae58426125706b2b0ac98ae3efc850">m_FunctionsScope</a>, and <a class="el" href="classCodeCompletion.xhtml#a8cd8845f5e78a55f1cce125d1e3ae9c5">m_ScopeMarks</a>.</p>
 
@@ -3127,7 +3129,7 @@ Think of this method as the actual constructor... </p>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>update CC's ToolBar </p>
+<p>update CC's ToolBar, the user may disable the first wxChoice, so we need to recreate the wxChoice and measure the best fit size </p>
 
 <p>References <a class="el" href="classManager.xhtml#acf40c9bf3465914dd64d9fdf3b3dc80a">Manager::Get()</a>, <a class="el" href="classManager.xhtml#ac1a103bddcdaea3cf2dd1d2be10a56c6">Manager::GetConfigManager()</a>, <a class="el" href="classCodeCompletion.xhtml#ab17d83ab7f36bb1762bcf89058265756">m_Scope</a>, <a class="el" href="classCodeCompletion.xhtml#a502a0d1e11b941dbe2077a8e361c00f6">m_ToolBar</a>, <a class="el" href="prefix_8cpp.xhtml#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>, and <a class="el" href="classConfigManager.xhtml#afafa1482c7fa4a41208b6916a2ccf0fc">ConfigManager::ReadBool()</a>.</p>
 
@@ -3211,7 +3213,7 @@ Think of this method as the actual constructor... </p>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>whether add parentheses after user select a function name in the code-completion suggestion list </p>
+<p>whether add parentheses after user selects a function name in the code-completion suggestion list </p>
 
 <p>Referenced by <a class="el" href="classCodeCompletion.xhtml#ac663e6d853d36c36570cde996321a0b7">RereadOptions()</a>.</p>
 
@@ -3234,6 +3236,7 @@ Think of this method as the actual constructor... </p>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>add function arguments' types and names when autocompleted outside function. The default value is false. </p>
 
 <p>Referenced by <a class="el" href="classCodeCompletion.xhtml#ac663e6d853d36c36570cde996321a0b7">RereadOptions()</a>.</p>
 
@@ -3279,7 +3282,7 @@ Think of this method as the actual constructor... </p>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>defines characters that work like Tab (empty by Default) but are also inserted </p>
+<p>user defined characters that work like Tab (empty by Default). They will be inserted with the selected item. </p>
 
 <p>Referenced by <a class="el" href="classCodeCompletion.xhtml#ac663e6d853d36c36570cde996321a0b7">RereadOptions()</a>.</p>
 
@@ -3531,6 +3534,7 @@ Think of this method as the actual constructor... </p>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>the last valid editor </p>
 
 <p>Referenced by <a class="el" href="classCodeCompletion.xhtml#aec5e8de65a1ca709a8d07de7a130f286">OnEditorActivated()</a>, <a class="el" href="classCodeCompletion.xhtml#abdf63aa2fe4e40f4a92ded787c2c7b67">OnEditorActivatedTimer()</a>, and <a class="el" href="classCodeCompletion.xhtml#a6e9c356a90b1a2e9647a083917aca6a9">OnEditorClosed()</a>.</p>
 
@@ -3713,6 +3717,7 @@ Think of this method as the actual constructor... </p>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>all the files need to be parsed and their associated projects </p>
 
 <p>Referenced by <a class="el" href="classCodeCompletion.xhtml#abd501b16cc21007d0598e7bc908025f4">OnEditorSave()</a>, <a class="el" href="classCodeCompletion.xhtml#a4dbdaa9d4b289732c2cc85b693b014bb">OnProjectClosed()</a>, <a class="el" href="classCodeCompletion.xhtml#a5cb20dfc6596d2c3fc7eae556c08680d">OnProjectSavedTimer()</a>, and <a class="el" href="classCodeCompletion.xhtml#a3fbbab2507931f95cf45a63c33e1577f">OnReparsingTimer()</a>.</p>
 

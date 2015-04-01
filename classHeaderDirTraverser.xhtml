@@ -18,7 +18,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">Code::Blocks
-   &#160;<span id="projectnumber">SVN r10078</span>
+   &#160;<span id="projectnumber">SVN r10170</span>
    </div>
   </td>
  </tr>
@@ -47,6 +47,7 @@
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pri-methods">Private Member Functions</a> &#124;
 <a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="classHeaderDirTraverser-members.xhtml">List of all members</a>  </div>
   <div class="headertitle">
@@ -56,13 +57,13 @@
 <div class="dynheader">
 Inheritance diagram for HeaderDirTraverser:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classHeaderDirTraverser__inherit__graph.svg" width="206" height="375"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classHeaderDirTraverser__inherit__graph.svg" width="206" height="404"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <div class="dynheader">
 Collaboration diagram for HeaderDirTraverser:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classHeaderDirTraverser__coll__graph.svg" width="418" height="500"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classHeaderDirTraverser__coll__graph.svg" width="428" height="530"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <table class="memberdecls">
@@ -76,8 +77,13 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a53208456a205e0035d1784dbb44119e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac231ce85d1b8568d19bf32cdea33483f"><td class="memItemLeft" align="right" valign="top">virtual wxDirTraverseResult&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classHeaderDirTraverser.xhtml#ac231ce85d1b8568d19bf32cdea33483f">OnDir</a> (const wxString &amp;dirname)</td></tr>
 <tr class="separator:ac231ce85d1b8568d19bf32cdea33483f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
 <tr class="memitem:a3c186a343f6e48a2329c29d3b5213b83"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classHeaderDirTraverser.xhtml#a3c186a343f6e48a2329c29d3b5213b83">AddLock</a> (bool is_file)</td></tr>
 <tr class="separator:a3c186a343f6e48a2329c29d3b5213b83"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9ba9df091bc84d66f6e60bbecfd5994e"><td class="memItemLeft" align="right" valign="top">wxDirTraverseResult&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classHeaderDirTraverser.xhtml#a9ba9df091bc84d66f6e60bbecfd5994e">GetStatus</a> (const wxString &amp;path)</td></tr>
+<tr class="separator:a9ba9df091bc84d66f6e60bbecfd5994e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
@@ -87,6 +93,8 @@ Private Attributes</h2></td></tr>
 <tr class="separator:adc15a33a1a2c059df9cb326cda95521e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1eae5682e38399dcbc04b151d08cc14e"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="systemheadersthread_8h.xhtml#abf56d7ea36c93305cae328b2e55be5e4">SystemHeadersMap</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classHeaderDirTraverser.xhtml#a1eae5682e38399dcbc04b151d08cc14e">m_SystemHeadersMap</a></td></tr>
 <tr class="separator:a1eae5682e38399dcbc04b151d08cc14e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5313573e19365984160c78f2b57672c6"><td class="memItemLeft" align="right" valign="top">std::set&lt; wxString &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classHeaderDirTraverser.xhtml#a5313573e19365984160c78f2b57672c6">m_VisitedDirs</a></td></tr>
+<tr class="separator:a5313573e19365984160c78f2b57672c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1dfd48dc5e7c2a1ac089cb23d5621c70"><td class="memItemLeft" align="right" valign="top">const wxString &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classHeaderDirTraverser.xhtml#a1dfd48dc5e7c2a1ac089cb23d5621c70">m_SearchDir</a></td></tr>
 <tr class="separator:a1dfd48dc5e7c2a1ac089cb23d5621c70"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae2e3a5a7c9534a9912a614ca056d7cb5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="parser__base_8h.xhtml#a8bf2f2cd6055240c3ac97b527462d98f">StringSet</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classHeaderDirTraverser.xhtml#ae2e3a5a7c9534a9912a614ca056d7cb5">m_Headers</a></td></tr>
@@ -166,6 +174,9 @@ Private Attributes</h2></td></tr>
 <a class="anchor" id="a3c186a343f6e48a2329c29d3b5213b83"></a>
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">void HeaderDirTraverser::AddLock </td>
@@ -175,12 +186,45 @@ Private Attributes</h2></td></tr>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 <p>this function will be called every time we meet a file or a dir, and we count the file and dir, we temporary leave the critical section to give other thread a change to access the file maps. </p>
 
 <p>References <a class="el" href="classHeaderDirTraverser.xhtml#aed9c542607a9c9d491f51d5a5161b19c">m_Dirs</a>, <a class="el" href="classHeaderDirTraverser.xhtml#abd87bb6539540f26266ef0171b4cd18a">m_Files</a>, <a class="el" href="classHeaderDirTraverser.xhtml#ad6f3d33c478f9e26e5744b61e9be3f20">m_Locked</a>, <a class="el" href="classHeaderDirTraverser.xhtml#adc15a33a1a2c059df9cb326cda95521e">m_SystemHeadersThreadCS</a>, and <a class="el" href="systemheadersthread_8cpp.xhtml#a1c9f8c7ecc64a760dc3ac03706556ea9">TRACE</a>.</p>
 
 <p>Referenced by <a class="el" href="classHeaderDirTraverser.xhtml#ac231ce85d1b8568d19bf32cdea33483f">OnDir()</a>, and <a class="el" href="classHeaderDirTraverser.xhtml#a53208456a205e0035d1784dbb44119e4">OnFile()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a9ba9df091bc84d66f6e60bbecfd5994e"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">wxDirTraverseResult HeaderDirTraverser::GetStatus </td>
+          <td>(</td>
+          <td class="paramtype">const wxString &amp;&#160;</td>
+          <td class="paramname"><em>path</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>References <a class="el" href="classHeaderDirTraverser.xhtml#a1eae5682e38399dcbc04b151d08cc14e">m_SystemHeadersMap</a>, and <a class="el" href="classHeaderDirTraverser.xhtml#a5313573e19365984160c78f2b57672c6">m_VisitedDirs</a>.</p>
+
+<p>Referenced by <a class="el" href="classHeaderDirTraverser.xhtml#ac231ce85d1b8568d19bf32cdea33483f">OnDir()</a>.</p>
 
 </div>
 </div>
@@ -207,7 +251,7 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 <p>call back function when we meet a dir </p>
 
-<p>References <a class="el" href="classHeaderDirTraverser.xhtml#a3c186a343f6e48a2329c29d3b5213b83">AddLock()</a>, <a class="el" href="classHeaderDirTraverser.xhtml#a1eae5682e38399dcbc04b151d08cc14e">m_SystemHeadersMap</a>, and <a class="el" href="classHeaderDirTraverser.xhtml#a98525b280aefe9b35474ab5569e3c534">m_Thread</a>.</p>
+<p>References <a class="el" href="classHeaderDirTraverser.xhtml#a3c186a343f6e48a2329c29d3b5213b83">AddLock()</a>, <a class="el" href="classHeaderDirTraverser.xhtml#a9ba9df091bc84d66f6e60bbecfd5994e">GetStatus()</a>, and <a class="el" href="classHeaderDirTraverser.xhtml#a98525b280aefe9b35474ab5569e3c534">m_Thread</a>.</p>
 
 </div>
 </div>
@@ -368,7 +412,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Referenced by <a class="el" href="classHeaderDirTraverser.xhtml#ac231ce85d1b8568d19bf32cdea33483f">OnDir()</a>.</p>
+<p>Referenced by <a class="el" href="classHeaderDirTraverser.xhtml#a9ba9df091bc84d66f6e60bbecfd5994e">GetStatus()</a>.</p>
 
 </div>
 </div>
@@ -413,6 +457,28 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Referenced by <a class="el" href="classHeaderDirTraverser.xhtml#ac231ce85d1b8568d19bf32cdea33483f">OnDir()</a>, and <a class="el" href="classHeaderDirTraverser.xhtml#a53208456a205e0035d1784dbb44119e4">OnFile()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a5313573e19365984160c78f2b57672c6"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::set&lt;wxString&gt; HeaderDirTraverser::m_VisitedDirs</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Referenced by <a class="el" href="classHeaderDirTraverser.xhtml#a9ba9df091bc84d66f6e60bbecfd5994e">GetStatus()</a>.</p>
 
 </div>
 </div>

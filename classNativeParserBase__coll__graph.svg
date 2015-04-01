@@ -11,40 +11,40 @@
 <polygon fill="white" stroke="none" points="-4,4 -4,-519 254.5,-519 254.5,4 -4,4"/>
 <!-- Node1 -->
 <g id="node1" class="node"><title>Node1</title>
-<polygon fill="#bfbfbf" stroke="black" points="31.5,-0.5 31.5,-365.5 199.5,-365.5 199.5,-0.5 31.5,-0.5"/>
+<polygon fill="#bfbfbf" stroke="black" points="35.5,-0.5 35.5,-365.5 195.5,-365.5 195.5,-0.5 35.5,-0.5"/>
 <text text-anchor="middle" x="115.5" y="-353.5" font-family="FreeSans" font-size="10.00">NativeParserBase</text>
-<polyline fill="none" stroke="black" points="31.5,-346.5 199.5,-346.5 "/>
+<polyline fill="none" stroke="black" points="35.5,-346.5 195.5,-346.5 "/>
 <text text-anchor="middle" x="115.5" y="-334.5" font-family="FreeSans" font-size="10.00"> </text>
-<polyline fill="none" stroke="black" points="31.5,-327.5 199.5,-327.5 "/>
-<text text-anchor="start" x="39.5" y="-315.5" font-family="FreeSans" font-size="10.00">+ NativeParserBase()</text>
-<text text-anchor="start" x="39.5" y="-304.5" font-family="FreeSans" font-size="10.00">+ ~NativeParserBase()</text>
-<text text-anchor="start" x="39.5" y="-293.5" font-family="FreeSans" font-size="10.00"># Reset()</text>
-<text text-anchor="start" x="39.5" y="-282.5" font-family="FreeSans" font-size="10.00"># FindAIMatches()</text>
-<text text-anchor="start" x="39.5" y="-271.5" font-family="FreeSans" font-size="10.00"># FindCurrentFunctionScope()</text>
-<text text-anchor="start" x="39.5" y="-260.5" font-family="FreeSans" font-size="10.00"># CleanupSearchScope()</text>
-<text text-anchor="start" x="39.5" y="-249.5" font-family="FreeSans" font-size="10.00"># GetCallTipHighlight()</text>
-<text text-anchor="start" x="39.5" y="-238.5" font-family="FreeSans" font-size="10.00"># FindFunctionOpenParenthesis()</text>
-<text text-anchor="start" x="39.5" y="-227.5" font-family="FreeSans" font-size="10.00"># BelongsToParentOrItsAncestors()</text>
-<text text-anchor="start" x="39.5" y="-216.5" font-family="FreeSans" font-size="10.00"># GetCCToken()</text>
-<text text-anchor="start" x="39.5" y="-205.5" font-family="FreeSans" font-size="10.00">and 15 more...</text>
-<text text-anchor="start" x="39.5" y="-194.5" font-family="FreeSans" font-size="10.00"># CountCommas()</text>
-<text text-anchor="start" x="39.5" y="-183.5" font-family="FreeSans" font-size="10.00"># InsideToken()</text>
-<text text-anchor="start" x="39.5" y="-172.5" font-family="FreeSans" font-size="10.00"># BeginOfToken()</text>
-<text text-anchor="start" x="39.5" y="-161.5" font-family="FreeSans" font-size="10.00"># BeforeToken()</text>
-<text text-anchor="start" x="39.5" y="-150.5" font-family="FreeSans" font-size="10.00"># IsOperatorEnd()</text>
-<text text-anchor="start" x="39.5" y="-139.5" font-family="FreeSans" font-size="10.00"># IsOperatorPointer()</text>
-<text text-anchor="start" x="39.5" y="-128.5" font-family="FreeSans" font-size="10.00"># IsOperatorBegin()</text>
-<text text-anchor="start" x="39.5" y="-117.5" font-family="FreeSans" font-size="10.00"># IsOperatorDot()</text>
-<text text-anchor="start" x="39.5" y="-106.5" font-family="FreeSans" font-size="10.00"># BeforeWhitespace()</text>
-<text text-anchor="start" x="39.5" y="-95.5" font-family="FreeSans" font-size="10.00"># AfterWhitespace()</text>
-<text text-anchor="start" x="39.5" y="-84.5" font-family="FreeSans" font-size="10.00"># IsOpeningBracket()</text>
-<text text-anchor="start" x="39.5" y="-73.5" font-family="FreeSans" font-size="10.00"># IsClosingBracket()</text>
-<text text-anchor="start" x="39.5" y="-62.5" font-family="FreeSans" font-size="10.00">&#45; AddChildrenOfUnnamed()</text>
-<text text-anchor="start" x="39.5" y="-51.5" font-family="FreeSans" font-size="10.00">&#45; AddChildrenOfEnum()</text>
-<text text-anchor="start" x="39.5" y="-40.5" font-family="FreeSans" font-size="10.00">&#45; IsChildOfUnnamedOrEnum()</text>
-<text text-anchor="start" x="39.5" y="-29.5" font-family="FreeSans" font-size="10.00">&#45; AddConstructors()</text>
-<text text-anchor="start" x="39.5" y="-18.5" font-family="FreeSans" font-size="10.00">&#45; MatchText()</text>
-<text text-anchor="start" x="39.5" y="-7.5" font-family="FreeSans" font-size="10.00">&#45; MatchType()</text>
+<polyline fill="none" stroke="black" points="35.5,-327.5 195.5,-327.5 "/>
+<text text-anchor="start" x="43.5" y="-315.5" font-family="FreeSans" font-size="10.00">+ NativeParserBase()</text>
+<text text-anchor="start" x="43.5" y="-304.5" font-family="FreeSans" font-size="10.00">+ ~NativeParserBase()</text>
+<text text-anchor="start" x="43.5" y="-293.5" font-family="FreeSans" font-size="10.00"># Reset()</text>
+<text text-anchor="start" x="43.5" y="-282.5" font-family="FreeSans" font-size="10.00"># FindAIMatches()</text>
+<text text-anchor="start" x="43.5" y="-271.5" font-family="FreeSans" font-size="10.00"># FindCurrentFunctionScope()</text>
+<text text-anchor="start" x="43.5" y="-260.5" font-family="FreeSans" font-size="10.00"># CleanupSearchScope()</text>
+<text text-anchor="start" x="43.5" y="-249.5" font-family="FreeSans" font-size="10.00"># GetCallTipHighlight()</text>
+<text text-anchor="start" x="43.5" y="-238.5" font-family="FreeSans" font-size="10.00"># FindFunctionOpenParenthesis()</text>
+<text text-anchor="start" x="43.5" y="-227.5" font-family="FreeSans" font-size="10.00"># GetCCToken()</text>
+<text text-anchor="start" x="43.5" y="-216.5" font-family="FreeSans" font-size="10.00"># FindCCTokenStart()</text>
+<text text-anchor="start" x="43.5" y="-205.5" font-family="FreeSans" font-size="10.00">and 14 more...</text>
+<text text-anchor="start" x="43.5" y="-194.5" font-family="FreeSans" font-size="10.00"># CountCommas()</text>
+<text text-anchor="start" x="43.5" y="-183.5" font-family="FreeSans" font-size="10.00"># InsideToken()</text>
+<text text-anchor="start" x="43.5" y="-172.5" font-family="FreeSans" font-size="10.00"># BeginOfToken()</text>
+<text text-anchor="start" x="43.5" y="-161.5" font-family="FreeSans" font-size="10.00"># BeforeToken()</text>
+<text text-anchor="start" x="43.5" y="-150.5" font-family="FreeSans" font-size="10.00"># IsOperatorEnd()</text>
+<text text-anchor="start" x="43.5" y="-139.5" font-family="FreeSans" font-size="10.00"># IsOperatorPointer()</text>
+<text text-anchor="start" x="43.5" y="-128.5" font-family="FreeSans" font-size="10.00"># IsOperatorBegin()</text>
+<text text-anchor="start" x="43.5" y="-117.5" font-family="FreeSans" font-size="10.00"># IsOperatorDot()</text>
+<text text-anchor="start" x="43.5" y="-106.5" font-family="FreeSans" font-size="10.00"># BeforeWhitespace()</text>
+<text text-anchor="start" x="43.5" y="-95.5" font-family="FreeSans" font-size="10.00"># AfterWhitespace()</text>
+<text text-anchor="start" x="43.5" y="-84.5" font-family="FreeSans" font-size="10.00"># IsOpeningBracket()</text>
+<text text-anchor="start" x="43.5" y="-73.5" font-family="FreeSans" font-size="10.00"># IsClosingBracket()</text>
+<text text-anchor="start" x="43.5" y="-62.5" font-family="FreeSans" font-size="10.00">&#45; AddChildrenOfUnnamed()</text>
+<text text-anchor="start" x="43.5" y="-51.5" font-family="FreeSans" font-size="10.00">&#45; AddChildrenOfEnum()</text>
+<text text-anchor="start" x="43.5" y="-40.5" font-family="FreeSans" font-size="10.00">&#45; IsChildOfUnnamedOrEnum()</text>
+<text text-anchor="start" x="43.5" y="-29.5" font-family="FreeSans" font-size="10.00">&#45; AddConstructors()</text>
+<text text-anchor="start" x="43.5" y="-18.5" font-family="FreeSans" font-size="10.00">&#45; MatchText()</text>
+<text text-anchor="start" x="43.5" y="-7.5" font-family="FreeSans" font-size="10.00">&#45; MatchType()</text>
 </g>
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>

@@ -11,22 +11,22 @@
 <polygon fill="white" stroke="none" points="-4,4 -4,-1757 1220,-1757 1220,4 -4,4"/>
 <!-- Node1 -->
 <g id="node1" class="node"><title>Node1</title>
-<polygon fill="#bfbfbf" stroke="black" points="190.5,-144 190.5,-311 327.5,-311 327.5,-144 190.5,-144"/>
-<text text-anchor="middle" x="259" y="-299" font-family="FreeSans" font-size="10.00">ParserBase</text>
-<polyline fill="none" stroke="black" points="190.5,-292 327.5,-292 "/>
-<text text-anchor="start" x="198.5" y="-280" font-family="FreeSans" font-size="10.00">&#45; m_IncludeDirs</text>
-<polyline fill="none" stroke="black" points="190.5,-273 327.5,-273 "/>
-<text text-anchor="start" x="198.5" y="-261" font-family="FreeSans" font-size="10.00">+ ParserBase()</text>
-<text text-anchor="start" x="198.5" y="-250" font-family="FreeSans" font-size="10.00">+ ~ParserBase()</text>
-<text text-anchor="start" x="198.5" y="-239" font-family="FreeSans" font-size="10.00">+ AddBatchParse()</text>
-<text text-anchor="start" x="198.5" y="-228" font-family="FreeSans" font-size="10.00">+ AddParse()</text>
-<text text-anchor="start" x="198.5" y="-217" font-family="FreeSans" font-size="10.00">+ AddPredefinedMacros()</text>
-<text text-anchor="start" x="198.5" y="-206" font-family="FreeSans" font-size="10.00">+ UpdateParsingProject()</text>
-<text text-anchor="start" x="198.5" y="-195" font-family="FreeSans" font-size="10.00">+ ParseBuffer()</text>
-<text text-anchor="start" x="198.5" y="-184" font-family="FreeSans" font-size="10.00">+ ParseBufferForFunctions()</text>
-<text text-anchor="start" x="198.5" y="-173" font-family="FreeSans" font-size="10.00">and 19 more...</text>
-<text text-anchor="start" x="198.5" y="-162" font-family="FreeSans" font-size="10.00">&#45; ParseFile()</text>
-<text text-anchor="start" x="198.5" y="-151" font-family="FreeSans" font-size="10.00">&#45; FindFirstFileInIncludeDirs()</text>
+<polygon fill="#bfbfbf" stroke="black" points="191.5,-144 191.5,-311 328.5,-311 328.5,-144 191.5,-144"/>
+<text text-anchor="middle" x="260" y="-299" font-family="FreeSans" font-size="10.00">ParserBase</text>
+<polyline fill="none" stroke="black" points="191.5,-292 328.5,-292 "/>
+<text text-anchor="start" x="199.5" y="-280" font-family="FreeSans" font-size="10.00">&#45; m_IncludeDirs</text>
+<polyline fill="none" stroke="black" points="191.5,-273 328.5,-273 "/>
+<text text-anchor="start" x="199.5" y="-261" font-family="FreeSans" font-size="10.00">+ ParserBase()</text>
+<text text-anchor="start" x="199.5" y="-250" font-family="FreeSans" font-size="10.00">+ ~ParserBase()</text>
+<text text-anchor="start" x="199.5" y="-239" font-family="FreeSans" font-size="10.00">+ AddBatchParse()</text>
+<text text-anchor="start" x="199.5" y="-228" font-family="FreeSans" font-size="10.00">+ AddParse()</text>
+<text text-anchor="start" x="199.5" y="-217" font-family="FreeSans" font-size="10.00">+ AddPredefinedMacros()</text>
+<text text-anchor="start" x="199.5" y="-206" font-family="FreeSans" font-size="10.00">+ UpdateParsingProject()</text>
+<text text-anchor="start" x="199.5" y="-195" font-family="FreeSans" font-size="10.00">+ ParseBuffer()</text>
+<text text-anchor="start" x="199.5" y="-184" font-family="FreeSans" font-size="10.00">+ ParseBufferForFunctions()</text>
+<text text-anchor="start" x="199.5" y="-173" font-family="FreeSans" font-size="10.00">and 19 more...</text>
+<text text-anchor="start" x="199.5" y="-162" font-family="FreeSans" font-size="10.00">&#45; ParseFile()</text>
+<text text-anchor="start" x="199.5" y="-151" font-family="FreeSans" font-size="10.00">&#45; FindFirstFileInIncludeDirs()</text>
 </g>
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
@@ -39,8 +39,8 @@
 </g>
 <!-- Node2&#45;&gt;Node1 -->
 <g id="edge1" class="edge"><title>Node2&#45;&gt;Node1</title>
-<path fill="none" stroke="midnightblue" d="M44.9928,-491.651C53.5649,-457.179 69.6289,-406.006 96,-368 121.162,-331.736 157.955,-299.155 190.22,-274.616"/>
-<polygon fill="none" stroke="midnightblue" points="41.4924,-491.24 42.5699,-501.78 48.3004,-492.869 41.4924,-491.24"/>
+<path fill="none" stroke="midnightblue" d="M44.966,-491.633C53.5196,-457.148 69.5715,-405.966 96,-368 121.413,-331.493 158.637,-298.783 191.2,-274.228"/>
+<polygon fill="none" stroke="midnightblue" points="41.4648,-491.226 42.5489,-501.765 48.2737,-492.85 41.4648,-491.226"/>
 </g>
 <!-- Node3 -->
 <g id="node3" class="node"><title>Node3</title>
@@ -66,8 +66,8 @@
 </g>
 <!-- Node3&#45;&gt;Node1 -->
 <g id="edge2" class="edge"><title>Node3&#45;&gt;Node1</title>
-<path fill="none" stroke="#404040" d="M81.548,-700.34C91.2486,-598.135 108.132,-434.372 119,-408 133.947,-371.732 158.35,-336.603 182.629,-307.183"/>
-<polygon fill="none" stroke="#404040" points="182.767,-307.018 183.571,-299.852 190.495,-297.837 189.691,-305.003 182.767,-307.018"/>
+<path fill="none" stroke="#404040" d="M81.534,-700.334C91.2194,-598.123 108.086,-434.353 119,-408 134.119,-371.494 158.85,-336.195 183.413,-306.701"/>
+<polygon fill="none" stroke="#404040" points="183.6,-306.48 184.436,-299.318 191.369,-297.335 190.533,-304.497 183.6,-306.48"/>
 <text text-anchor="middle" x="160.5" y="-528" font-family="FreeSans" font-size="10.00"> &#45;m_GlobalIncludes</text>
 </g>
 <!-- Node4 -->
@@ -134,8 +134,8 @@
 </g>
 <!-- Node4&#45;&gt;Node13 -->
 <g id="edge30" class="edge"><title>Node4&#45;&gt;Node13</title>
-<path fill="none" stroke="#404040" d="M175.627,-973.369C159.297,-873.809 145.315,-740.03 179,-700 257.707,-606.467 337.561,-700.966 450,-653 481.911,-639.387 513.454,-618.513 540.279,-597.886"/>
-<polygon fill="none" stroke="#404040" points="540.497,-597.716 542.751,-590.866 549.94,-590.312 547.686,-597.162 540.497,-597.716"/>
+<path fill="none" stroke="#404040" d="M175.61,-973.354C159.268,-873.785 145.278,-739.999 179,-700 258.64,-605.535 339.522,-701.875 453,-653 483.778,-639.744 514.097,-619.514 540.03,-599.342"/>
+<polygon fill="none" stroke="#404040" points="540.348,-599.089 542.56,-592.226 549.747,-591.628 547.534,-598.491 540.348,-599.089"/>
 <text text-anchor="middle" x="219" y="-781.5" font-family="FreeSans" font-size="10.00"> #m_FilenameMap</text>
 </g>
 <!-- Node18 -->
@@ -308,32 +308,32 @@
 </g>
 <!-- Node12 -->
 <g id="node12" class="node"><title>Node12</title>
-<g id="a_node12"><a xlink:href="parser__base_8h.xhtml#structBrowserOptions" target="_top" xlink:title="{BrowserOptions\n|+ showInheritance\l+ expandNS\l+ treeMembers\l+ displayFilter\l+ sortType\l|}">
-<polygon fill="white" stroke="black" points="211.5,-480 211.5,-581 306.5,-581 306.5,-480 211.5,-480"/>
-<text text-anchor="middle" x="259" y="-569" font-family="FreeSans" font-size="10.00">BrowserOptions</text>
-<polyline fill="none" stroke="black" points="211.5,-562 306.5,-562 "/>
-<text text-anchor="start" x="219.5" y="-550" font-family="FreeSans" font-size="10.00">+ showInheritance</text>
-<text text-anchor="start" x="219.5" y="-539" font-family="FreeSans" font-size="10.00">+ expandNS</text>
-<text text-anchor="start" x="219.5" y="-528" font-family="FreeSans" font-size="10.00">+ treeMembers</text>
-<text text-anchor="start" x="219.5" y="-517" font-family="FreeSans" font-size="10.00">+ displayFilter</text>
-<text text-anchor="start" x="219.5" y="-506" font-family="FreeSans" font-size="10.00">+ sortType</text>
-<polyline fill="none" stroke="black" points="211.5,-499 306.5,-499 "/>
-<text text-anchor="middle" x="259" y="-487" font-family="FreeSans" font-size="10.00"> </text>
+<g id="a_node12"><a xlink:href="structBrowserOptions.xhtml" target="_top" xlink:title="{BrowserOptions\n|+ showInheritance\l+ expandNS\l+ treeMembers\l+ displayFilter\l+ sortType\l|+ BrowserOptions()\l}">
+<polygon fill="white" stroke="black" points="211,-480 211,-581 309,-581 309,-480 211,-480"/>
+<text text-anchor="middle" x="260" y="-569" font-family="FreeSans" font-size="10.00">BrowserOptions</text>
+<polyline fill="none" stroke="black" points="211,-562 309,-562 "/>
+<text text-anchor="start" x="219" y="-550" font-family="FreeSans" font-size="10.00">+ showInheritance</text>
+<text text-anchor="start" x="219" y="-539" font-family="FreeSans" font-size="10.00">+ expandNS</text>
+<text text-anchor="start" x="219" y="-528" font-family="FreeSans" font-size="10.00">+ treeMembers</text>
+<text text-anchor="start" x="219" y="-517" font-family="FreeSans" font-size="10.00">+ displayFilter</text>
+<text text-anchor="start" x="219" y="-506" font-family="FreeSans" font-size="10.00">+ sortType</text>
+<polyline fill="none" stroke="black" points="211,-499 309,-499 "/>
+<text text-anchor="start" x="219" y="-487" font-family="FreeSans" font-size="10.00">+ BrowserOptions()</text>
 </a>
 </g>
 </g>
 <!-- Node12&#45;&gt;Node1 -->
 <g id="edge12" class="edge"><title>Node12&#45;&gt;Node1</title>
-<path fill="none" stroke="#404040" d="M259,-479.796C259,-437.44 259,-375.371 259,-323.518"/>
-<polygon fill="none" stroke="#404040" points="259,-323.26 255,-317.26 259,-311.26 263,-317.26 259,-323.26"/>
-<text text-anchor="middle" x="303.5" y="-376.5" font-family="FreeSans" font-size="10.00"> #m_BrowserOptions</text>
+<path fill="none" stroke="#404040" d="M260,-479.796C260,-437.44 260,-375.371 260,-323.518"/>
+<polygon fill="none" stroke="#404040" points="260,-323.26 256,-317.26 260,-311.26 264,-317.26 260,-323.26"/>
+<text text-anchor="middle" x="304.5" y="-376.5" font-family="FreeSans" font-size="10.00"> #m_BrowserOptions</text>
 </g>
 <!-- Node13&#45;&gt;Node1 -->
 <g id="edge13" class="edge"><title>Node13&#45;&gt;Node1</title>
-<path fill="none" stroke="#404040" d="M549.704,-474.292C489.629,-423.498 400.458,-348.104 336.733,-294.224"/>
-<polygon fill="none" stroke="#404040" points="336.685,-294.183 329.521,-293.364 327.522,-286.436 334.686,-287.255 336.685,-294.183"/>
-<text text-anchor="middle" x="494.5" y="-382" font-family="FreeSans" font-size="10.00"> #m_TempTokenTree</text>
-<text text-anchor="middle" x="494.5" y="-371" font-family="FreeSans" font-size="10.00">#m_TokenTree</text>
+<path fill="none" stroke="#404040" d="M549.888,-474.292C490.077,-423.579 401.344,-348.344 337.818,-294.481"/>
+<polygon fill="none" stroke="#404040" points="337.788,-294.455 330.624,-293.626 328.635,-286.695 335.798,-287.524 337.788,-294.455"/>
+<text text-anchor="middle" x="495.5" y="-382" font-family="FreeSans" font-size="10.00"> #m_TempTokenTree</text>
+<text text-anchor="middle" x="495.5" y="-371" font-family="FreeSans" font-size="10.00">#m_TokenTree</text>
 </g>
 <!-- Node15 -->
 <g id="node15" class="node"><title>Node15</title>
@@ -550,27 +550,27 @@
 <!-- Node25 -->
 <g id="node25" class="node"><title>Node25</title>
 <g id="a_node25"><a xlink:href="structParserOptions.xhtml" target="_top" xlink:title="{ParserOptions\n|+ followLocalIncludes\l+ followGlobalIncludes\l+ caseSensitive\l+ wantPreprocessor\l+ useSmartSense\l+ whileTyping\l+ parseComplexMacros\l+ storeDocumentation\l|+ ParserOptions()\l}">
-<polygon fill="white" stroke="black" points="324.5,-463.5 324.5,-597.5 441.5,-597.5 441.5,-463.5 324.5,-463.5"/>
-<text text-anchor="middle" x="383" y="-585.5" font-family="FreeSans" font-size="10.00">ParserOptions</text>
-<polyline fill="none" stroke="black" points="324.5,-578.5 441.5,-578.5 "/>
-<text text-anchor="start" x="332.5" y="-566.5" font-family="FreeSans" font-size="10.00">+ followLocalIncludes</text>
-<text text-anchor="start" x="332.5" y="-555.5" font-family="FreeSans" font-size="10.00">+ followGlobalIncludes</text>
-<text text-anchor="start" x="332.5" y="-544.5" font-family="FreeSans" font-size="10.00">+ caseSensitive</text>
-<text text-anchor="start" x="332.5" y="-533.5" font-family="FreeSans" font-size="10.00">+ wantPreprocessor</text>
-<text text-anchor="start" x="332.5" y="-522.5" font-family="FreeSans" font-size="10.00">+ useSmartSense</text>
-<text text-anchor="start" x="332.5" y="-511.5" font-family="FreeSans" font-size="10.00">+ whileTyping</text>
-<text text-anchor="start" x="332.5" y="-500.5" font-family="FreeSans" font-size="10.00">+ parseComplexMacros</text>
-<text text-anchor="start" x="332.5" y="-489.5" font-family="FreeSans" font-size="10.00">+ storeDocumentation</text>
-<polyline fill="none" stroke="black" points="324.5,-482.5 441.5,-482.5 "/>
-<text text-anchor="start" x="332.5" y="-470.5" font-family="FreeSans" font-size="10.00">+ ParserOptions()</text>
+<polygon fill="white" stroke="black" points="327.5,-463.5 327.5,-597.5 444.5,-597.5 444.5,-463.5 327.5,-463.5"/>
+<text text-anchor="middle" x="386" y="-585.5" font-family="FreeSans" font-size="10.00">ParserOptions</text>
+<polyline fill="none" stroke="black" points="327.5,-578.5 444.5,-578.5 "/>
+<text text-anchor="start" x="335.5" y="-566.5" font-family="FreeSans" font-size="10.00">+ followLocalIncludes</text>
+<text text-anchor="start" x="335.5" y="-555.5" font-family="FreeSans" font-size="10.00">+ followGlobalIncludes</text>
+<text text-anchor="start" x="335.5" y="-544.5" font-family="FreeSans" font-size="10.00">+ caseSensitive</text>
+<text text-anchor="start" x="335.5" y="-533.5" font-family="FreeSans" font-size="10.00">+ wantPreprocessor</text>
+<text text-anchor="start" x="335.5" y="-522.5" font-family="FreeSans" font-size="10.00">+ useSmartSense</text>
+<text text-anchor="start" x="335.5" y="-511.5" font-family="FreeSans" font-size="10.00">+ whileTyping</text>
+<text text-anchor="start" x="335.5" y="-500.5" font-family="FreeSans" font-size="10.00">+ parseComplexMacros</text>
+<text text-anchor="start" x="335.5" y="-489.5" font-family="FreeSans" font-size="10.00">+ storeDocumentation</text>
+<polyline fill="none" stroke="black" points="327.5,-482.5 444.5,-482.5 "/>
+<text text-anchor="start" x="335.5" y="-470.5" font-family="FreeSans" font-size="10.00">+ ParserOptions()</text>
 </a>
 </g>
 </g>
 <!-- Node25&#45;&gt;Node1 -->
 <g id="edge31" class="edge"><title>Node25&#45;&gt;Node1</title>
-<path fill="none" stroke="#404040" d="M376.356,-463.354C371.836,-433.438 364.339,-398.118 352,-368 345.545,-352.243 337.183,-336.403 328.124,-321.341"/>
-<polygon fill="none" stroke="#404040" points="328.069,-321.252 321.511,-318.255 321.756,-311.048 328.314,-314.045 328.069,-321.252"/>
-<text text-anchor="middle" x="387.5" y="-376.5" font-family="FreeSans" font-size="10.00"> #m_Options</text>
+<path fill="none" stroke="#404040" d="M378.385,-463.352C373.464,-433.434 365.547,-398.115 353,-368 346.451,-352.282 338.039,-336.463 328.957,-321.41"/>
+<polygon fill="none" stroke="#404040" points="328.901,-321.32 322.339,-318.329 322.577,-311.122 329.138,-314.113 328.901,-321.32"/>
+<text text-anchor="middle" x="388.5" y="-376.5" font-family="FreeSans" font-size="10.00"> #m_Options</text>
 </g>
 </g>
 </svg>

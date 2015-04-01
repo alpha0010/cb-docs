@@ -313,29 +313,29 @@
 </g>
 <!-- Node10 -->
 <g id="node10" class="node"><title>Node10</title>
-<g id="a_node10"><a xlink:href="classCompileOptionsBase.xhtml" target="_top" xlink:title="{CompileOptionsBase\n|# m_Platform\l# m_LinkerOptions\l# m_LinkLibs\l# m_CompilerOptions\l# m_IncludeDirs\l# m_ResIncludeDirs\l# m_LibDirs\l# m_CmdsBefore\land 5 more...\l|+ CompileOptionsBase()\l+ ~CompileOptionsBase()\l+ AddPlatform()\l+ RemovePlatform()\l+ SetPlatforms()\l+ GetPlatforms()\l+ SupportsCurrentPlatform()\l+ SetLinkerOptions()\land 45 more...\l}">
-<polygon fill="white" stroke="black" points="556,-1267.5 556,-1500.5 693,-1500.5 693,-1267.5 556,-1267.5"/>
+<g id="a_node10"><a xlink:href="classCompileOptionsBase.xhtml" target="_top" xlink:title="{CompileOptionsBase\n|# m_Platform\l# m_LinkerOptions\l# m_LinkLibs\l# m_CompilerOptions\l# m_ResourceCompilerOptions\l# m_IncludeDirs\l# m_ResIncludeDirs\l# m_LibDirs\land 6 more...\l|+ CompileOptionsBase()\l+ ~CompileOptionsBase()\l+ AddPlatform()\l+ RemovePlatform()\l+ SetPlatforms()\l+ GetPlatforms()\l+ SupportsCurrentPlatform()\l+ SetLinkerOptions()\land 49 more...\l}">
+<polygon fill="white" stroke="black" points="550,-1267.5 550,-1500.5 699,-1500.5 699,-1267.5 550,-1267.5"/>
 <text text-anchor="middle" x="624.5" y="-1488.5" font-family="FreeSans" font-size="10.00">CompileOptionsBase</text>
-<polyline fill="none" stroke="black" points="556,-1481.5 693,-1481.5 "/>
-<text text-anchor="start" x="564" y="-1469.5" font-family="FreeSans" font-size="10.00"># m_Platform</text>
-<text text-anchor="start" x="564" y="-1458.5" font-family="FreeSans" font-size="10.00"># m_LinkerOptions</text>
-<text text-anchor="start" x="564" y="-1447.5" font-family="FreeSans" font-size="10.00"># m_LinkLibs</text>
-<text text-anchor="start" x="564" y="-1436.5" font-family="FreeSans" font-size="10.00"># m_CompilerOptions</text>
-<text text-anchor="start" x="564" y="-1425.5" font-family="FreeSans" font-size="10.00"># m_IncludeDirs</text>
-<text text-anchor="start" x="564" y="-1414.5" font-family="FreeSans" font-size="10.00"># m_ResIncludeDirs</text>
-<text text-anchor="start" x="564" y="-1403.5" font-family="FreeSans" font-size="10.00"># m_LibDirs</text>
-<text text-anchor="start" x="564" y="-1392.5" font-family="FreeSans" font-size="10.00"># m_CmdsBefore</text>
-<text text-anchor="start" x="564" y="-1381.5" font-family="FreeSans" font-size="10.00">and 5 more...</text>
-<polyline fill="none" stroke="black" points="556,-1374.5 693,-1374.5 "/>
-<text text-anchor="start" x="564" y="-1362.5" font-family="FreeSans" font-size="10.00">+ CompileOptionsBase()</text>
-<text text-anchor="start" x="564" y="-1351.5" font-family="FreeSans" font-size="10.00">+ ~CompileOptionsBase()</text>
-<text text-anchor="start" x="564" y="-1340.5" font-family="FreeSans" font-size="10.00">+ AddPlatform()</text>
-<text text-anchor="start" x="564" y="-1329.5" font-family="FreeSans" font-size="10.00">+ RemovePlatform()</text>
-<text text-anchor="start" x="564" y="-1318.5" font-family="FreeSans" font-size="10.00">+ SetPlatforms()</text>
-<text text-anchor="start" x="564" y="-1307.5" font-family="FreeSans" font-size="10.00">+ GetPlatforms()</text>
-<text text-anchor="start" x="564" y="-1296.5" font-family="FreeSans" font-size="10.00">+ SupportsCurrentPlatform()</text>
-<text text-anchor="start" x="564" y="-1285.5" font-family="FreeSans" font-size="10.00">+ SetLinkerOptions()</text>
-<text text-anchor="start" x="564" y="-1274.5" font-family="FreeSans" font-size="10.00">and 45 more...</text>
+<polyline fill="none" stroke="black" points="550,-1481.5 699,-1481.5 "/>
+<text text-anchor="start" x="558" y="-1469.5" font-family="FreeSans" font-size="10.00"># m_Platform</text>
+<text text-anchor="start" x="558" y="-1458.5" font-family="FreeSans" font-size="10.00"># m_LinkerOptions</text>
+<text text-anchor="start" x="558" y="-1447.5" font-family="FreeSans" font-size="10.00"># m_LinkLibs</text>
+<text text-anchor="start" x="558" y="-1436.5" font-family="FreeSans" font-size="10.00"># m_CompilerOptions</text>
+<text text-anchor="start" x="558" y="-1425.5" font-family="FreeSans" font-size="10.00"># m_ResourceCompilerOptions</text>
+<text text-anchor="start" x="558" y="-1414.5" font-family="FreeSans" font-size="10.00"># m_IncludeDirs</text>
+<text text-anchor="start" x="558" y="-1403.5" font-family="FreeSans" font-size="10.00"># m_ResIncludeDirs</text>
+<text text-anchor="start" x="558" y="-1392.5" font-family="FreeSans" font-size="10.00"># m_LibDirs</text>
+<text text-anchor="start" x="558" y="-1381.5" font-family="FreeSans" font-size="10.00">and 6 more...</text>
+<polyline fill="none" stroke="black" points="550,-1374.5 699,-1374.5 "/>
+<text text-anchor="start" x="558" y="-1362.5" font-family="FreeSans" font-size="10.00">+ CompileOptionsBase()</text>
+<text text-anchor="start" x="558" y="-1351.5" font-family="FreeSans" font-size="10.00">+ ~CompileOptionsBase()</text>
+<text text-anchor="start" x="558" y="-1340.5" font-family="FreeSans" font-size="10.00">+ AddPlatform()</text>
+<text text-anchor="start" x="558" y="-1329.5" font-family="FreeSans" font-size="10.00">+ RemovePlatform()</text>
+<text text-anchor="start" x="558" y="-1318.5" font-family="FreeSans" font-size="10.00">+ SetPlatforms()</text>
+<text text-anchor="start" x="558" y="-1307.5" font-family="FreeSans" font-size="10.00">+ GetPlatforms()</text>
+<text text-anchor="start" x="558" y="-1296.5" font-family="FreeSans" font-size="10.00">+ SupportsCurrentPlatform()</text>
+<text text-anchor="start" x="558" y="-1285.5" font-family="FreeSans" font-size="10.00">+ SetLinkerOptions()</text>
+<text text-anchor="start" x="558" y="-1274.5" font-family="FreeSans" font-size="10.00">and 49 more...</text>
 </a>
 </g>
 </g>

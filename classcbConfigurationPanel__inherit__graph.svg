@@ -90,7 +90,7 @@
 </g>
 <!-- Node5 -->
 <g id="node5" class="node"><title>Node5</title>
-<g id="a_node5"><a xlink:href="classCompilerOptionsDlg.xhtml" target="_top" xlink:title="{CompilerOptionsDlg\n|&#45; m_FlagsPG\l&#45; m_Compiler\l&#45; m_Options\l&#45; m_LinkerOptions\l&#45; m_LinkLibs\l&#45; m_CompilerOptions\l&#45; m_CurrentCompilerIdx\l&#45; m_pProject\land 6 more...\l&#45; m_MenuOption\l|+ CompilerOptionsDlg()\l+ ~CompilerOptionsDlg()\l+ GetTitle()\l+ GetBitmapBaseName()\l+ OnApply()\l+ OnCancel()\l&#45; TextToOptions()\l&#45; OptionsToText()\l&#45; DoFillCompilerSets()\l&#45; DoFillCompilerPrograms()\l&#45; DoFillVars()\l&#45; DoFillOthers()\l&#45; DoFillOptions()\l&#45; DoFillCompilerDependentSettings()\land 58 more...\l}">
+<g id="a_node5"><a xlink:href="classCompilerOptionsDlg.xhtml" target="_top" xlink:title="{CompilerOptionsDlg\n|&#45; m_FlagsPG\l&#45; m_Compiler\l&#45; m_Options\l&#45; m_LinkerOptions\l&#45; m_LinkLibs\l&#45; m_CompilerOptions\l&#45; m_ResourceCompilerOptions\l&#45; m_CurrentCompilerIdx\land 7 more...\l&#45; m_MenuOption\l|+ CompilerOptionsDlg()\l+ ~CompilerOptionsDlg()\l+ GetTitle()\l+ GetBitmapBaseName()\l+ OnApply()\l+ OnCancel()\l&#45; TextToOptions()\l&#45; OptionsToText()\l&#45; DoFillCompilerSets()\l&#45; DoFillCompilerPrograms()\l&#45; DoFillVars()\l&#45; DoFillOthers()\l&#45; DoFillOptions()\l&#45; DoFillCompilerDependentSettings()\land 58 more...\l}">
 <polygon fill="white" stroke="black" points="310.5,-0.5 310.5,-310.5 483.5,-310.5 483.5,-0.5 310.5,-0.5"/>
 <text text-anchor="middle" x="397" y="-298.5" font-family="FreeSans" font-size="10.00">CompilerOptionsDlg</text>
 <polyline fill="none" stroke="black" points="310.5,-291.5 483.5,-291.5 "/>
@@ -100,9 +100,9 @@
 <text text-anchor="start" x="318.5" y="-246.5" font-family="FreeSans" font-size="10.00">&#45; m_LinkerOptions</text>
 <text text-anchor="start" x="318.5" y="-235.5" font-family="FreeSans" font-size="10.00">&#45; m_LinkLibs</text>
 <text text-anchor="start" x="318.5" y="-224.5" font-family="FreeSans" font-size="10.00">&#45; m_CompilerOptions</text>
-<text text-anchor="start" x="318.5" y="-213.5" font-family="FreeSans" font-size="10.00">&#45; m_CurrentCompilerIdx</text>
-<text text-anchor="start" x="318.5" y="-202.5" font-family="FreeSans" font-size="10.00">&#45; m_pProject</text>
-<text text-anchor="start" x="318.5" y="-191.5" font-family="FreeSans" font-size="10.00">and 6 more...</text>
+<text text-anchor="start" x="318.5" y="-213.5" font-family="FreeSans" font-size="10.00">&#45; m_ResourceCompilerOptions</text>
+<text text-anchor="start" x="318.5" y="-202.5" font-family="FreeSans" font-size="10.00">&#45; m_CurrentCompilerIdx</text>
+<text text-anchor="start" x="318.5" y="-191.5" font-family="FreeSans" font-size="10.00">and 7 more...</text>
 <text text-anchor="start" x="318.5" y="-180.5" font-family="FreeSans" font-size="10.00">&#45; m_MenuOption</text>
 <polyline fill="none" stroke="black" points="310.5,-173.5 483.5,-173.5 "/>
 <text text-anchor="start" x="318.5" y="-161.5" font-family="FreeSans" font-size="10.00">+ CompilerOptionsDlg()</text>

@@ -267,7 +267,7 @@
 </g>
 <!-- Node4 -->
 <g id="node4" class="node"><title>Node4</title>
-<g id="a_node4"><a xlink:href="classCodeCompletion.xhtml" target="_top" xlink:title="{CodeCompletion\n|&#45; m_InitDone\l&#45; m_EditMenu\l&#45; m_SearchMenu\l&#45; m_ViewMenu\l&#45; m_ProjectMenu\l&#45; m_NativeParser\l&#45; m_CodeRefactoring\l&#45; m_EditorHookId\land 31 more...\l|+ CodeCompletion()\l+ ~CodeCompletion()\l+ OnAttach()\l+ OnRelease()\l+ GetConfigurationGroup()\l+ GetConfigurationPanel()\l+ GetProjectConfigurationPanel()\l+ BuildMenu()\land 15 more...\l&#45; UpdateToolBar()\l&#45; LoadTokenReplacements()\l&#45; SaveTokenReplacements()\l&#45; OnUpdateUI()\l&#45; OnViewClassBrowser()\l&#45; OnCodeComplete()\l&#45; OnGotoFunction()\l&#45; OnGotoPrevFunction()\land 52 more...\l}">
+<g id="a_node4"><a xlink:href="classCodeCompletion.xhtml" target="_top" xlink:title="{CodeCompletion\n|&#45; m_InitDone\l&#45; m_EditMenu\l&#45; m_SearchMenu\l&#45; m_ViewMenu\l&#45; m_ProjectMenu\l&#45; m_NativeParser\l&#45; m_CodeRefactoring\l&#45; m_EditorHookId\land 31 more...\l|+ CodeCompletion()\l+ ~CodeCompletion()\l+ OnAttach()\l+ OnRelease()\l+ GetConfigurationGroup()\l+ GetConfigurationPanel()\l+ GetProjectConfigurationPanel()\l+ BuildMenu()\land 15 more...\l&#45; UpdateToolBar()\l&#45; LoadTokenReplacements()\l&#45; SaveTokenReplacements()\l&#45; OnUpdateUI()\l&#45; OnViewClassBrowser()\l&#45; OnGotoFunction()\l&#45; OnGotoPrevFunction()\l&#45; OnGotoNextFunction()\land 50 more...\l}">
 <polygon fill="white" stroke="black" points="0,-55.5 0,-387.5 158,-387.5 158,-55.5 0,-55.5"/>
 <text text-anchor="middle" x="79" y="-375.5" font-family="FreeSans" font-size="10.00">CodeCompletion</text>
 <polyline fill="none" stroke="black" points="0,-368.5 158,-368.5 "/>
@@ -295,10 +295,10 @@
 <text text-anchor="start" x="8" y="-128.5" font-family="FreeSans" font-size="10.00">&#45; SaveTokenReplacements()</text>
 <text text-anchor="start" x="8" y="-117.5" font-family="FreeSans" font-size="10.00">&#45; OnUpdateUI()</text>
 <text text-anchor="start" x="8" y="-106.5" font-family="FreeSans" font-size="10.00">&#45; OnViewClassBrowser()</text>
-<text text-anchor="start" x="8" y="-95.5" font-family="FreeSans" font-size="10.00">&#45; OnCodeComplete()</text>
-<text text-anchor="start" x="8" y="-84.5" font-family="FreeSans" font-size="10.00">&#45; OnGotoFunction()</text>
-<text text-anchor="start" x="8" y="-73.5" font-family="FreeSans" font-size="10.00">&#45; OnGotoPrevFunction()</text>
-<text text-anchor="start" x="8" y="-62.5" font-family="FreeSans" font-size="10.00">and 52 more...</text>
+<text text-anchor="start" x="8" y="-95.5" font-family="FreeSans" font-size="10.00">&#45; OnGotoFunction()</text>
+<text text-anchor="start" x="8" y="-84.5" font-family="FreeSans" font-size="10.00">&#45; OnGotoPrevFunction()</text>
+<text text-anchor="start" x="8" y="-73.5" font-family="FreeSans" font-size="10.00">&#45; OnGotoNextFunction()</text>
+<text text-anchor="start" x="8" y="-62.5" font-family="FreeSans" font-size="10.00">and 50 more...</text>
 </a>
 </g>
 </g>
