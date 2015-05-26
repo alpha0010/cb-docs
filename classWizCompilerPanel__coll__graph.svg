@@ -120,7 +120,7 @@
 </g>
 <!-- Node7 -->
 <g id="node7" class="node"><title>Node7</title>
-<g id="a_node7"><a xlink:href="classCompilerPanel.xhtml" target="_top" xlink:title="{CompilerPanel\n|+ ID_STATICTEXT1\l+ ID_STATICTEXT2\l+ ID_COMBOBOX1\l+ ID_CHECKBOX1\l+ ID_TEXTCTRL3\l+ ID_STATICTEXT3\l+ ID_TEXTCTRL1\l+ ID_STATICTEXT4\land 7 more...\l&#45; BoxSizer4\l&#45; StaticBoxSizer2\l&#45; chkConfRelease\l&#45; BoxSizer5\l&#45; txtRelName\l&#45; StaticText1\l&#45; cmbCompiler\l&#45; txtRelOut\land 7 more...\l|+ CompilerPanel()\l+ ~CompilerPanel()\l+ GetCompilerCombo()\l+ EnableConfigurationTargets()\l+ SetWantDebug()\l+ GetWantDebug()\l+ SetDebugName()\l+ GetDebugName()\land 12 more...\l&#45; OnDebugChange()\l&#45; OnReleaseChange()\l}">
+<g id="a_node7"><a xlink:href="classCompilerPanel.xhtml" target="_top" xlink:title="{CompilerPanel\n|+ ID_STATICTEXT1\l+ ID_STATICTEXT2\l+ ID_COMBOBOX1\l+ ID_CHECKBOX1\l+ ID_TEXTCTRL3\l+ ID_STATICTEXT3\l+ ID_TEXTCTRL1\l+ ID_STATICTEXT4\land 7 more...\l&#45; StaticBoxSizer2\l&#45; txtDbgObjOut\l&#45; cmbCompiler\l&#45; txtRelName\l&#45; StaticText1\l&#45; BoxSizer4\l&#45; chkConfRelease\l&#45; txtDbgName\land 7 more...\l|+ CompilerPanel()\l+ ~CompilerPanel()\l+ GetCompilerCombo()\l+ EnableConfigurationTargets()\l+ SetWantDebug()\l+ GetWantDebug()\l+ SetDebugName()\l+ GetDebugName()\land 12 more...\l&#45; OnDebugChange()\l&#45; OnReleaseChange()\l}">
 <polygon fill="white" stroke="black" points="201.5,-226.5 201.5,-580.5 350.5,-580.5 350.5,-226.5 201.5,-226.5"/>
 <text text-anchor="middle" x="276" y="-568.5" font-family="FreeSans" font-size="10.00">CompilerPanel</text>
 <polyline fill="none" stroke="black" points="201.5,-561.5 350.5,-561.5 "/>
@@ -133,14 +133,14 @@
 <text text-anchor="start" x="209.5" y="-483.5" font-family="FreeSans" font-size="10.00">+ ID_TEXTCTRL1</text>
 <text text-anchor="start" x="209.5" y="-472.5" font-family="FreeSans" font-size="10.00">+ ID_STATICTEXT4</text>
 <text text-anchor="start" x="209.5" y="-461.5" font-family="FreeSans" font-size="10.00">and 7 more...</text>
-<text text-anchor="start" x="209.5" y="-450.5" font-family="FreeSans" font-size="10.00">&#45; BoxSizer4</text>
-<text text-anchor="start" x="209.5" y="-439.5" font-family="FreeSans" font-size="10.00">&#45; StaticBoxSizer2</text>
-<text text-anchor="start" x="209.5" y="-428.5" font-family="FreeSans" font-size="10.00">&#45; chkConfRelease</text>
-<text text-anchor="start" x="209.5" y="-417.5" font-family="FreeSans" font-size="10.00">&#45; BoxSizer5</text>
-<text text-anchor="start" x="209.5" y="-406.5" font-family="FreeSans" font-size="10.00">&#45; txtRelName</text>
-<text text-anchor="start" x="209.5" y="-395.5" font-family="FreeSans" font-size="10.00">&#45; StaticText1</text>
-<text text-anchor="start" x="209.5" y="-384.5" font-family="FreeSans" font-size="10.00">&#45; cmbCompiler</text>
-<text text-anchor="start" x="209.5" y="-373.5" font-family="FreeSans" font-size="10.00">&#45; txtRelOut</text>
+<text text-anchor="start" x="209.5" y="-450.5" font-family="FreeSans" font-size="10.00">&#45; StaticBoxSizer2</text>
+<text text-anchor="start" x="209.5" y="-439.5" font-family="FreeSans" font-size="10.00">&#45; txtDbgObjOut</text>
+<text text-anchor="start" x="209.5" y="-428.5" font-family="FreeSans" font-size="10.00">&#45; cmbCompiler</text>
+<text text-anchor="start" x="209.5" y="-417.5" font-family="FreeSans" font-size="10.00">&#45; txtRelName</text>
+<text text-anchor="start" x="209.5" y="-406.5" font-family="FreeSans" font-size="10.00">&#45; StaticText1</text>
+<text text-anchor="start" x="209.5" y="-395.5" font-family="FreeSans" font-size="10.00">&#45; BoxSizer4</text>
+<text text-anchor="start" x="209.5" y="-384.5" font-family="FreeSans" font-size="10.00">&#45; chkConfRelease</text>
+<text text-anchor="start" x="209.5" y="-373.5" font-family="FreeSans" font-size="10.00">&#45; txtDbgName</text>
 <text text-anchor="start" x="209.5" y="-362.5" font-family="FreeSans" font-size="10.00">and 7 more...</text>
 <polyline fill="none" stroke="black" points="201.5,-355.5 350.5,-355.5 "/>
 <text text-anchor="start" x="209.5" y="-343.5" font-family="FreeSans" font-size="10.00">+ CompilerPanel()</text>

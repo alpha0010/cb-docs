@@ -132,7 +132,7 @@
 </g>
 <!-- Node7 -->
 <g id="node7" class="node"><title>Node7</title>
-<g id="a_node7"><a xlink:href="classParserBase.xhtml" target="_top" xlink:title="{ParserBase\n|&#45; m_IncludeDirs\l|+ ParserBase()\l+ ~ParserBase()\l+ AddBatchParse()\l+ AddParse()\l+ AddPredefinedMacros()\l+ UpdateParsingProject()\l+ ParseBuffer()\l+ ParseBufferForFunctions()\land 19 more...\l&#45; ParseFile()\l&#45; FindFirstFileInIncludeDirs()\l}">
+<g id="a_node7"><a xlink:href="classParserBase.xhtml" target="_top" xlink:title="{ParserBase\n|&#45; m_IncludeDirs\l|+ ParserBase()\l+ ~ParserBase()\l+ AddBatchParse()\l+ AddParse()\l+ AddPredefinedMacros()\l+ UpdateParsingProject()\l+ ParseBuffer()\l+ ParseBufferForFunctions()\land 20 more...\l&#45; ParseFile()\l&#45; FindFirstFileInIncludeDirs()\l}">
 <polygon fill="white" stroke="black" points="416,-243 416,-410 553,-410 553,-243 416,-243"/>
 <text text-anchor="middle" x="484.5" y="-398" font-family="FreeSans" font-size="10.00">ParserBase</text>
 <polyline fill="none" stroke="black" points="416,-391 553,-391 "/>
@@ -146,7 +146,7 @@
 <text text-anchor="start" x="424" y="-305" font-family="FreeSans" font-size="10.00">+ UpdateParsingProject()</text>
 <text text-anchor="start" x="424" y="-294" font-family="FreeSans" font-size="10.00">+ ParseBuffer()</text>
 <text text-anchor="start" x="424" y="-283" font-family="FreeSans" font-size="10.00">+ ParseBufferForFunctions()</text>
-<text text-anchor="start" x="424" y="-272" font-family="FreeSans" font-size="10.00">and 19 more...</text>
+<text text-anchor="start" x="424" y="-272" font-family="FreeSans" font-size="10.00">and 20 more...</text>
 <text text-anchor="start" x="424" y="-261" font-family="FreeSans" font-size="10.00">&#45; ParseFile()</text>
 <text text-anchor="start" x="424" y="-250" font-family="FreeSans" font-size="10.00">&#45; FindFirstFileInIncludeDirs()</text>
 </a>
@@ -679,26 +679,27 @@
 </g>
 <!-- Node31 -->
 <g id="node31" class="node"><title>Node31</title>
-<g id="a_node31"><a xlink:href="structParserOptions.xhtml" target="_top" xlink:title="{ParserOptions\n|+ followLocalIncludes\l+ followGlobalIncludes\l+ caseSensitive\l+ wantPreprocessor\l+ useSmartSense\l+ whileTyping\l+ parseComplexMacros\l+ storeDocumentation\l|+ ParserOptions()\l}">
-<polygon fill="white" stroke="black" points="369,-562.5 369,-696.5 486,-696.5 486,-562.5 369,-562.5"/>
-<text text-anchor="middle" x="427.5" y="-684.5" font-family="FreeSans" font-size="10.00">ParserOptions</text>
-<polyline fill="none" stroke="black" points="369,-677.5 486,-677.5 "/>
-<text text-anchor="start" x="377" y="-665.5" font-family="FreeSans" font-size="10.00">+ followLocalIncludes</text>
-<text text-anchor="start" x="377" y="-654.5" font-family="FreeSans" font-size="10.00">+ followGlobalIncludes</text>
-<text text-anchor="start" x="377" y="-643.5" font-family="FreeSans" font-size="10.00">+ caseSensitive</text>
-<text text-anchor="start" x="377" y="-632.5" font-family="FreeSans" font-size="10.00">+ wantPreprocessor</text>
-<text text-anchor="start" x="377" y="-621.5" font-family="FreeSans" font-size="10.00">+ useSmartSense</text>
-<text text-anchor="start" x="377" y="-610.5" font-family="FreeSans" font-size="10.00">+ whileTyping</text>
-<text text-anchor="start" x="377" y="-599.5" font-family="FreeSans" font-size="10.00">+ parseComplexMacros</text>
-<text text-anchor="start" x="377" y="-588.5" font-family="FreeSans" font-size="10.00">+ storeDocumentation</text>
-<polyline fill="none" stroke="black" points="369,-581.5 486,-581.5 "/>
-<text text-anchor="start" x="377" y="-569.5" font-family="FreeSans" font-size="10.00">+ ParserOptions()</text>
+<g id="a_node31"><a xlink:href="structParserOptions.xhtml" target="_top" xlink:title="{ParserOptions\n|+ followLocalIncludes\l+ followGlobalIncludes\l+ caseSensitive\l+ wantPreprocessor\l+ useSmartSense\l+ whileTyping\l+ parseComplexMacros\l+ platformCheck\l+ storeDocumentation\l|+ ParserOptions()\l}">
+<polygon fill="white" stroke="black" points="369,-557 369,-702 486,-702 486,-557 369,-557"/>
+<text text-anchor="middle" x="427.5" y="-690" font-family="FreeSans" font-size="10.00">ParserOptions</text>
+<polyline fill="none" stroke="black" points="369,-683 486,-683 "/>
+<text text-anchor="start" x="377" y="-671" font-family="FreeSans" font-size="10.00">+ followLocalIncludes</text>
+<text text-anchor="start" x="377" y="-660" font-family="FreeSans" font-size="10.00">+ followGlobalIncludes</text>
+<text text-anchor="start" x="377" y="-649" font-family="FreeSans" font-size="10.00">+ caseSensitive</text>
+<text text-anchor="start" x="377" y="-638" font-family="FreeSans" font-size="10.00">+ wantPreprocessor</text>
+<text text-anchor="start" x="377" y="-627" font-family="FreeSans" font-size="10.00">+ useSmartSense</text>
+<text text-anchor="start" x="377" y="-616" font-family="FreeSans" font-size="10.00">+ whileTyping</text>
+<text text-anchor="start" x="377" y="-605" font-family="FreeSans" font-size="10.00">+ parseComplexMacros</text>
+<text text-anchor="start" x="377" y="-594" font-family="FreeSans" font-size="10.00">+ platformCheck</text>
+<text text-anchor="start" x="377" y="-583" font-family="FreeSans" font-size="10.00">+ storeDocumentation</text>
+<polyline fill="none" stroke="black" points="369,-576 486,-576 "/>
+<text text-anchor="start" x="377" y="-564" font-family="FreeSans" font-size="10.00">+ ParserOptions()</text>
 </a>
 </g>
 </g>
 <!-- Node31&#45;&gt;Node7 -->
 <g id="edge37" class="edge"><title>Node31&#45;&gt;Node7</title>
-<path fill="none" stroke="#404040" d="M436.649,-562.311C440.98,-533.021 446.513,-498.208 452.5,-467 455.289,-452.462 458.513,-437.136 461.818,-422.176"/>
+<path fill="none" stroke="#404040" d="M437.475,-556.757C441.673,-528.683 446.887,-496.257 452.5,-467 455.289,-452.462 458.513,-437.136 461.818,-422.176"/>
 <polygon fill="none" stroke="#404040" points="461.86,-421.989 459.266,-415.26 464.48,-410.278 467.073,-417.007 461.86,-421.989"/>
 <text text-anchor="middle" x="480" y="-475.5" font-family="FreeSans" font-size="10.00"> #m_Options</text>
 </g>

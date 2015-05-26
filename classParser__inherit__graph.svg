@@ -11,49 +11,49 @@
 <polygon fill="white" stroke="none" points="-4,4 -4,-778 141,-778 141,4 -4,4"/>
 <!-- Node1 -->
 <g id="node1" class="node"><title>Node1</title>
-<polygon fill="#bfbfbf" stroke="black" points="0,-0.5 0,-420.5 137,-420.5 137,-0.5 0,-0.5"/>
+<polygon fill="#bfbfbf" stroke="black" points="3,-0.5 3,-420.5 134,-420.5 134,-0.5 3,-0.5"/>
 <text text-anchor="middle" x="68.5" y="-408.5" font-family="FreeSans" font-size="10.00">Parser</text>
-<polyline fill="none" stroke="black" points="0,-401.5 137,-401.5 "/>
-<text text-anchor="start" x="8" y="-389.5" font-family="FreeSans" font-size="10.00"># m_UsingCache</text>
-<text text-anchor="start" x="8" y="-378.5" font-family="FreeSans" font-size="10.00"># m_Pool</text>
-<text text-anchor="start" x="8" y="-367.5" font-family="FreeSans" font-size="10.00"># m_IsParsing</text>
-<text text-anchor="start" x="8" y="-356.5" font-family="FreeSans" font-size="10.00"># m_NeedsReparse</text>
-<text text-anchor="start" x="8" y="-345.5" font-family="FreeSans" font-size="10.00"># m_IsFirstBatch</text>
-<text text-anchor="start" x="8" y="-334.5" font-family="FreeSans" font-size="10.00">&#45; m_Parent</text>
-<text text-anchor="start" x="8" y="-323.5" font-family="FreeSans" font-size="10.00">&#45; m_Project</text>
-<text text-anchor="start" x="8" y="-312.5" font-family="FreeSans" font-size="10.00">&#45; m_ReparseTimer</text>
-<text text-anchor="start" x="8" y="-301.5" font-family="FreeSans" font-size="10.00">&#45; m_BatchTimer</text>
-<text text-anchor="start" x="8" y="-290.5" font-family="FreeSans" font-size="10.00">&#45; m_StopWatch</text>
-<text text-anchor="start" x="8" y="-279.5" font-family="FreeSans" font-size="10.00">&#45; m_StopWatchRunning</text>
-<text text-anchor="start" x="8" y="-268.5" font-family="FreeSans" font-size="10.00">&#45; m_LastStopWatchTime</text>
-<text text-anchor="start" x="8" y="-257.5" font-family="FreeSans" font-size="10.00">&#45; m_IgnoreThreadEvents</text>
-<text text-anchor="start" x="8" y="-246.5" font-family="FreeSans" font-size="10.00">and 5 more...</text>
-<polyline fill="none" stroke="black" points="0,-239.5 137,-239.5 "/>
-<text text-anchor="start" x="8" y="-227.5" font-family="FreeSans" font-size="10.00">+ Parser()</text>
-<text text-anchor="start" x="8" y="-216.5" font-family="FreeSans" font-size="10.00">+ ~Parser()</text>
-<text text-anchor="start" x="8" y="-205.5" font-family="FreeSans" font-size="10.00">+ AddBatchParse()</text>
-<text text-anchor="start" x="8" y="-194.5" font-family="FreeSans" font-size="10.00">+ AddParse()</text>
-<text text-anchor="start" x="8" y="-183.5" font-family="FreeSans" font-size="10.00">+ AddPredefinedMacros()</text>
-<text text-anchor="start" x="8" y="-172.5" font-family="FreeSans" font-size="10.00">+ UpdateParsingProject()</text>
-<text text-anchor="start" x="8" y="-161.5" font-family="FreeSans" font-size="10.00">+ ParseBuffer()</text>
-<text text-anchor="start" x="8" y="-150.5" font-family="FreeSans" font-size="10.00">+ ParseBufferForFunctions()</text>
-<text text-anchor="start" x="8" y="-139.5" font-family="FreeSans" font-size="10.00">and 8 more...</text>
-<text text-anchor="start" x="8" y="-128.5" font-family="FreeSans" font-size="10.00"># StartStopWatch()</text>
-<text text-anchor="start" x="8" y="-117.5" font-family="FreeSans" font-size="10.00"># EndStopWatch()</text>
-<text text-anchor="start" x="8" y="-106.5" font-family="FreeSans" font-size="10.00"># GetMaxThreads()</text>
-<text text-anchor="start" x="8" y="-95.5" font-family="FreeSans" font-size="10.00"># SetMaxThreads()</text>
-<text text-anchor="start" x="8" y="-84.5" font-family="FreeSans" font-size="10.00"># Parse()</text>
-<text text-anchor="start" x="8" y="-73.5" font-family="FreeSans" font-size="10.00"># ReparseModifiedFiles()</text>
-<text text-anchor="start" x="8" y="-62.5" font-family="FreeSans" font-size="10.00"># TerminateAllThreads()</text>
-<text text-anchor="start" x="8" y="-51.5" font-family="FreeSans" font-size="10.00"># OnAllThreadsDone()</text>
-<text text-anchor="start" x="8" y="-40.5" font-family="FreeSans" font-size="10.00">and 5 more...</text>
-<text text-anchor="start" x="8" y="-29.5" font-family="FreeSans" font-size="10.00">&#45; ParseFile()</text>
-<text text-anchor="start" x="8" y="-18.5" font-family="FreeSans" font-size="10.00">&#45; ConnectEvents()</text>
-<text text-anchor="start" x="8" y="-7.5" font-family="FreeSans" font-size="10.00">&#45; DisconnectEvents()</text>
+<polyline fill="none" stroke="black" points="3,-401.5 134,-401.5 "/>
+<text text-anchor="start" x="11" y="-389.5" font-family="FreeSans" font-size="10.00"># m_UsingCache</text>
+<text text-anchor="start" x="11" y="-378.5" font-family="FreeSans" font-size="10.00"># m_Pool</text>
+<text text-anchor="start" x="11" y="-367.5" font-family="FreeSans" font-size="10.00"># m_IsParsing</text>
+<text text-anchor="start" x="11" y="-356.5" font-family="FreeSans" font-size="10.00"># m_NeedsReparse</text>
+<text text-anchor="start" x="11" y="-345.5" font-family="FreeSans" font-size="10.00"># m_IsFirstBatch</text>
+<text text-anchor="start" x="11" y="-334.5" font-family="FreeSans" font-size="10.00">&#45; m_Parent</text>
+<text text-anchor="start" x="11" y="-323.5" font-family="FreeSans" font-size="10.00">&#45; m_Project</text>
+<text text-anchor="start" x="11" y="-312.5" font-family="FreeSans" font-size="10.00">&#45; m_ReparseTimer</text>
+<text text-anchor="start" x="11" y="-301.5" font-family="FreeSans" font-size="10.00">&#45; m_BatchTimer</text>
+<text text-anchor="start" x="11" y="-290.5" font-family="FreeSans" font-size="10.00">&#45; m_StopWatch</text>
+<text text-anchor="start" x="11" y="-279.5" font-family="FreeSans" font-size="10.00">&#45; m_StopWatchRunning</text>
+<text text-anchor="start" x="11" y="-268.5" font-family="FreeSans" font-size="10.00">&#45; m_LastStopWatchTime</text>
+<text text-anchor="start" x="11" y="-257.5" font-family="FreeSans" font-size="10.00">&#45; m_IgnoreThreadEvents</text>
+<text text-anchor="start" x="11" y="-246.5" font-family="FreeSans" font-size="10.00">and 6 more...</text>
+<polyline fill="none" stroke="black" points="3,-239.5 134,-239.5 "/>
+<text text-anchor="start" x="11" y="-227.5" font-family="FreeSans" font-size="10.00">+ Parser()</text>
+<text text-anchor="start" x="11" y="-216.5" font-family="FreeSans" font-size="10.00">+ ~Parser()</text>
+<text text-anchor="start" x="11" y="-205.5" font-family="FreeSans" font-size="10.00">+ AddBatchParse()</text>
+<text text-anchor="start" x="11" y="-194.5" font-family="FreeSans" font-size="10.00">+ AddParse()</text>
+<text text-anchor="start" x="11" y="-183.5" font-family="FreeSans" font-size="10.00">+ AddPredefinedMacros()</text>
+<text text-anchor="start" x="11" y="-172.5" font-family="FreeSans" font-size="10.00">+ ClearPredefinedMacros()</text>
+<text text-anchor="start" x="11" y="-161.5" font-family="FreeSans" font-size="10.00">+ GetPredefinedMacros()</text>
+<text text-anchor="start" x="11" y="-150.5" font-family="FreeSans" font-size="10.00">+ UpdateParsingProject()</text>
+<text text-anchor="start" x="11" y="-139.5" font-family="FreeSans" font-size="10.00">and 10 more...</text>
+<text text-anchor="start" x="11" y="-128.5" font-family="FreeSans" font-size="10.00"># StartStopWatch()</text>
+<text text-anchor="start" x="11" y="-117.5" font-family="FreeSans" font-size="10.00"># EndStopWatch()</text>
+<text text-anchor="start" x="11" y="-106.5" font-family="FreeSans" font-size="10.00"># GetMaxThreads()</text>
+<text text-anchor="start" x="11" y="-95.5" font-family="FreeSans" font-size="10.00"># SetMaxThreads()</text>
+<text text-anchor="start" x="11" y="-84.5" font-family="FreeSans" font-size="10.00"># Parse()</text>
+<text text-anchor="start" x="11" y="-73.5" font-family="FreeSans" font-size="10.00"># ReparseModifiedFiles()</text>
+<text text-anchor="start" x="11" y="-62.5" font-family="FreeSans" font-size="10.00"># TerminateAllThreads()</text>
+<text text-anchor="start" x="11" y="-51.5" font-family="FreeSans" font-size="10.00"># OnAllThreadsDone()</text>
+<text text-anchor="start" x="11" y="-40.5" font-family="FreeSans" font-size="10.00">and 5 more...</text>
+<text text-anchor="start" x="11" y="-29.5" font-family="FreeSans" font-size="10.00">&#45; ParseFile()</text>
+<text text-anchor="start" x="11" y="-18.5" font-family="FreeSans" font-size="10.00">&#45; ConnectEvents()</text>
+<text text-anchor="start" x="11" y="-7.5" font-family="FreeSans" font-size="10.00">&#45; DisconnectEvents()</text>
 </g>
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
-<g id="a_node2"><a xlink:href="classParserBase.xhtml" target="_top" xlink:title="{ParserBase\n|# m_TokenTree\l# m_TempTokenTree\l# m_Options\l# m_BrowserOptions\l&#45; m_GlobalIncludes\l&#45; m_IncludeDirs\l|+ ParserBase()\l+ ~ParserBase()\l+ AddBatchParse()\l+ AddParse()\l+ AddPredefinedMacros()\l+ UpdateParsingProject()\l+ ParseBuffer()\l+ ParseBufferForFunctions()\land 19 more...\l&#45; ParseFile()\l&#45; FindFirstFileInIncludeDirs()\l}">
+<g id="a_node2"><a xlink:href="classParserBase.xhtml" target="_top" xlink:title="{ParserBase\n|# m_TokenTree\l# m_TempTokenTree\l# m_Options\l# m_BrowserOptions\l&#45; m_GlobalIncludes\l&#45; m_IncludeDirs\l|+ ParserBase()\l+ ~ParserBase()\l+ AddBatchParse()\l+ AddParse()\l+ AddPredefinedMacros()\l+ UpdateParsingProject()\l+ ParseBuffer()\l+ ParseBufferForFunctions()\land 20 more...\l&#45; ParseFile()\l&#45; FindFirstFileInIncludeDirs()\l}">
 <polygon fill="white" stroke="black" points="0,-457.5 0,-679.5 137,-679.5 137,-457.5 0,-457.5"/>
 <text text-anchor="middle" x="68.5" y="-667.5" font-family="FreeSans" font-size="10.00">ParserBase</text>
 <polyline fill="none" stroke="black" points="0,-660.5 137,-660.5 "/>
@@ -72,7 +72,7 @@
 <text text-anchor="start" x="8" y="-519.5" font-family="FreeSans" font-size="10.00">+ UpdateParsingProject()</text>
 <text text-anchor="start" x="8" y="-508.5" font-family="FreeSans" font-size="10.00">+ ParseBuffer()</text>
 <text text-anchor="start" x="8" y="-497.5" font-family="FreeSans" font-size="10.00">+ ParseBufferForFunctions()</text>
-<text text-anchor="start" x="8" y="-486.5" font-family="FreeSans" font-size="10.00">and 19 more...</text>
+<text text-anchor="start" x="8" y="-486.5" font-family="FreeSans" font-size="10.00">and 20 more...</text>
 <text text-anchor="start" x="8" y="-475.5" font-family="FreeSans" font-size="10.00">&#45; ParseFile()</text>
 <text text-anchor="start" x="8" y="-464.5" font-family="FreeSans" font-size="10.00">&#45; FindFirstFileInIncludeDirs()</text>
 </a>

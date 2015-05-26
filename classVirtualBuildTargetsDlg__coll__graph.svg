@@ -14,11 +14,11 @@
 <polygon fill="#bfbfbf" stroke="black" points="152,-17 152,-217 283,-217 283,-17 152,-17"/>
 <text text-anchor="middle" x="217.5" y="-205" font-family="FreeSans" font-size="10.00">VirtualBuildTargetsDlg</text>
 <polyline fill="none" stroke="black" points="152,-198 283,-198 "/>
-<text text-anchor="start" x="160" y="-186" font-family="FreeSans" font-size="10.00"># lstAliases</text>
-<text text-anchor="start" x="160" y="-175" font-family="FreeSans" font-size="10.00"># btnAdd</text>
+<text text-anchor="start" x="160" y="-186" font-family="FreeSans" font-size="10.00"># lstTargets</text>
+<text text-anchor="start" x="160" y="-175" font-family="FreeSans" font-size="10.00"># btnEdit</text>
 <text text-anchor="start" x="160" y="-164" font-family="FreeSans" font-size="10.00"># btnRemove</text>
-<text text-anchor="start" x="160" y="-153" font-family="FreeSans" font-size="10.00"># btnEdit</text>
-<text text-anchor="start" x="160" y="-142" font-family="FreeSans" font-size="10.00"># lstTargets</text>
+<text text-anchor="start" x="160" y="-153" font-family="FreeSans" font-size="10.00"># btnAdd</text>
+<text text-anchor="start" x="160" y="-142" font-family="FreeSans" font-size="10.00"># lstAliases</text>
 <polyline fill="none" stroke="black" points="152,-135 283,-135 "/>
 <text text-anchor="start" x="160" y="-123" font-family="FreeSans" font-size="10.00">+ VirtualBuildTargetsDlg()</text>
 <text text-anchor="start" x="160" y="-112" font-family="FreeSans" font-size="10.00">+ ~VirtualBuildTargetsDlg()</text>
@@ -252,7 +252,7 @@
 </g>
 <!-- Node9 -->
 <g id="node9" class="node"><title>Node9</title>
-<g id="a_node9"><a xlink:href="classCompileOptionsBase.xhtml" target="_top" xlink:title="{CompileOptionsBase\n|# m_Platform\l# m_LinkerOptions\l# m_LinkLibs\l# m_CompilerOptions\l# m_ResourceCompilerOptions\l# m_IncludeDirs\l# m_ResIncludeDirs\l# m_LibDirs\land 6 more...\l|+ CompileOptionsBase()\l+ ~CompileOptionsBase()\l+ AddPlatform()\l+ RemovePlatform()\l+ SetPlatforms()\l+ GetPlatforms()\l+ SupportsCurrentPlatform()\l+ SetLinkerOptions()\land 49 more...\l}">
+<g id="a_node9"><a xlink:href="classCompileOptionsBase.xhtml" target="_top" xlink:title="{CompileOptionsBase\n|# m_Platform\l# m_LinkerOptions\l# m_LinkLibs\l# m_CompilerOptions\l# m_ResourceCompilerOptions\l# m_IncludeDirs\l# m_ResIncludeDirs\l# m_LibDirs\land 6 more...\l|+ CompileOptionsBase()\l+ ~CompileOptionsBase()\l+ AddPlatform()\l+ RemovePlatform()\l+ SetPlatforms()\l+ GetPlatforms()\l+ SupportsCurrentPlatform()\l+ SetLinkerOptions()\land 56 more...\l}">
 <polygon fill="white" stroke="black" points="503,-953.5 503,-1186.5 652,-1186.5 652,-953.5 503,-953.5"/>
 <text text-anchor="middle" x="577.5" y="-1174.5" font-family="FreeSans" font-size="10.00">CompileOptionsBase</text>
 <polyline fill="none" stroke="black" points="503,-1167.5 652,-1167.5 "/>
@@ -274,7 +274,7 @@
 <text text-anchor="start" x="511" y="-993.5" font-family="FreeSans" font-size="10.00">+ GetPlatforms()</text>
 <text text-anchor="start" x="511" y="-982.5" font-family="FreeSans" font-size="10.00">+ SupportsCurrentPlatform()</text>
 <text text-anchor="start" x="511" y="-971.5" font-family="FreeSans" font-size="10.00">+ SetLinkerOptions()</text>
-<text text-anchor="start" x="511" y="-960.5" font-family="FreeSans" font-size="10.00">and 49 more...</text>
+<text text-anchor="start" x="511" y="-960.5" font-family="FreeSans" font-size="10.00">and 56 more...</text>
 </a>
 </g>
 </g>

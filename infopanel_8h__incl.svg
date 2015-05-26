@@ -11,48 +11,48 @@
 <polygon fill="white" stroke="none" points="-4,4 -4,-80 328,-80 328,4 -4,4"/>
 <!-- Node1 -->
 <g id="node1" class="node"><title>Node1</title>
-<polygon fill="#bfbfbf" stroke="black" points="125.5,-56.5 125.5,-75.5 188.5,-75.5 188.5,-56.5 125.5,-56.5"/>
-<text text-anchor="middle" x="157" y="-63.5" font-family="FreeSans" font-size="10.00">infopanel.h</text>
+<polygon fill="#bfbfbf" stroke="black" points="134.5,-56.5 134.5,-75.5 197.5,-75.5 197.5,-56.5 134.5,-56.5"/>
+<text text-anchor="middle" x="166" y="-63.5" font-family="FreeSans" font-size="10.00">infopanel.h</text>
 </g>
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
-<polygon fill="white" stroke="#bfbfbf" points="0,-0.5 0,-19.5 58,-19.5 58,-0.5 0,-0.5"/>
-<text text-anchor="middle" x="29" y="-7.5" font-family="FreeSans" font-size="10.00">wx/sizer.h</text>
+<polygon fill="white" stroke="#bfbfbf" points="0,-0.5 0,-19.5 80,-19.5 80,-0.5 0,-0.5"/>
+<text text-anchor="middle" x="40" y="-7.5" font-family="FreeSans" font-size="10.00">wx/checkbox.h</text>
 </g>
 <!-- Node1&#45;&gt;Node2 -->
 <g id="edge1" class="edge"><title>Node1&#45;&gt;Node2</title>
-<path fill="none" stroke="midnightblue" d="M136.718,-56.4435C115.653,-47.5566 82.4832,-33.5632 58.5145,-23.4514"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="59.7612,-20.1787 49.1871,-19.5164 57.0403,-26.6283 59.7612,-20.1787"/>
+<path fill="none" stroke="midnightblue" d="M146.035,-56.4435C125.391,-47.5961 92.9375,-33.6875 69.3684,-23.5865"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="70.4419,-20.2387 59.8717,-19.5164 67.6844,-26.6727 70.4419,-20.2387"/>
 </g>
 <!-- Node3 -->
 <g id="node3" class="node"><title>Node3</title>
-<polygon fill="white" stroke="#bfbfbf" points="76,-0.5 76,-19.5 146,-19.5 146,-0.5 76,-0.5"/>
-<text text-anchor="middle" x="111" y="-7.5" font-family="FreeSans" font-size="10.00">wx/stattext.h</text>
+<polygon fill="white" stroke="#bfbfbf" points="98,-0.5 98,-19.5 156,-19.5 156,-0.5 98,-0.5"/>
+<text text-anchor="middle" x="127" y="-7.5" font-family="FreeSans" font-size="10.00">wx/sizer.h</text>
 </g>
 <!-- Node1&#45;&gt;Node3 -->
 <g id="edge2" class="edge"><title>Node1&#45;&gt;Node3</title>
-<path fill="none" stroke="midnightblue" d="M149.404,-56.083C142.773,-48.2982 132.979,-36.8015 124.942,-27.3665"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="127.604,-25.0939 118.455,-19.7511 122.275,-29.6332 127.604,-25.0939"/>
+<path fill="none" stroke="midnightblue" d="M159.56,-56.083C154.051,-48.4554 145.969,-37.2645 139.235,-27.9408"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="142.013,-25.8087 133.32,-19.7511 136.338,-29.9071 142.013,-25.8087"/>
 </g>
 <!-- Node4 -->
 <g id="node4" class="node"><title>Node4</title>
-<polygon fill="white" stroke="#bfbfbf" points="164,-0.5 164,-19.5 244,-19.5 244,-0.5 164,-0.5"/>
-<text text-anchor="middle" x="204" y="-7.5" font-family="FreeSans" font-size="10.00">wx/checkbox.h</text>
+<polygon fill="white" stroke="#bfbfbf" points="174,-0.5 174,-19.5 236,-19.5 236,-0.5 174,-0.5"/>
+<text text-anchor="middle" x="205" y="-7.5" font-family="FreeSans" font-size="10.00">wx/panel.h</text>
 </g>
 <!-- Node1&#45;&gt;Node4 -->
 <g id="edge3" class="edge"><title>Node1&#45;&gt;Node4</title>
-<path fill="none" stroke="midnightblue" d="M164.761,-56.083C171.537,-48.2982 181.543,-36.8015 189.755,-27.3665"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="192.458,-29.592 196.383,-19.7511 187.178,-24.9963 192.458,-29.592"/>
+<path fill="none" stroke="midnightblue" d="M172.44,-56.083C177.949,-48.4554 186.031,-37.2645 192.765,-27.9408"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="195.662,-29.9071 198.68,-19.7511 189.987,-25.8087 195.662,-29.9071"/>
 </g>
 <!-- Node5 -->
 <g id="node5" class="node"><title>Node5</title>
-<polygon fill="white" stroke="#bfbfbf" points="262,-0.5 262,-19.5 324,-19.5 324,-0.5 262,-0.5"/>
-<text text-anchor="middle" x="293" y="-7.5" font-family="FreeSans" font-size="10.00">wx/panel.h</text>
+<polygon fill="white" stroke="#bfbfbf" points="254,-0.5 254,-19.5 324,-19.5 324,-0.5 254,-0.5"/>
+<text text-anchor="middle" x="289" y="-7.5" font-family="FreeSans" font-size="10.00">wx/stattext.h</text>
 </g>
 <!-- Node1&#45;&gt;Node5 -->
 <g id="edge4" class="edge"><title>Node1&#45;&gt;Node5</title>
-<path fill="none" stroke="midnightblue" d="M178.55,-56.4435C201.031,-47.5171 236.488,-33.4387 261.98,-23.3168"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="263.549,-26.4598 271.551,-19.5164 260.965,-19.9539 263.549,-26.4598"/>
+<path fill="none" stroke="midnightblue" d="M185.49,-56.4435C205.642,-47.5961 237.323,-33.6875 260.331,-23.5865"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="261.852,-26.7411 269.601,-19.5164 259.038,-20.3316 261.852,-26.7411"/>
 </g>
 </g>
 </svg>
