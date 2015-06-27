@@ -47,7 +47,7 @@
 </g>
 <!-- Node3 -->
 <g id="node3" class="node"><title>Node3</title>
-<g id="a_node3"><a xlink:href="classListCtrlLogger.xhtml" target="_top" xlink:title="{ListCtrlLogger\n|# control\l# fixed\l# titles\l# widths\l|+ ListCtrlLogger()\l+ ~ListCtrlLogger()\l+ CopyContentsToClipboard()\l+ UpdateSettings()\l+ Append()\l+ Append()\l+ GetItemsCount()\l+ Clear()\l+ CreateControl()\l+ HasFeature()\l+ AutoFitColumns()\l# GetItemAsText()\l}">
+<g id="a_node3"><a xlink:href="classListCtrlLogger" target="_top" xlink:title="a logger which prints messages to a wxListCtrl ">
 <polygon fill="white" stroke="black" points="92.5,-248.5 92.5,-459.5 235.5,-459.5 235.5,-248.5 92.5,-248.5"/>
 <text text-anchor="middle" x="164" y="-447.5" font-family="FreeSans" font-size="10.00">ListCtrlLogger</text>
 <polyline fill="none" stroke="black" points="92.5,-440.5 235.5,-440.5 "/>
@@ -78,7 +78,7 @@
 </g>
 <!-- Node4 -->
 <g id="node4" class="node"><title>Node4</title>
-<g id="a_node4"><a xlink:href="classLogger.xhtml" target="_top" xlink:title="{Logger\n||+ Logger()\l+ ~Logger()\l+ Append()\l+ Clear()\l+ CopyContentsToClipboard()\l+ UpdateSettings()\l+ CreateControl()\l+ GetWrapMode()\l+ HasFeature()\l+ AppendAdditionalMenuItems()\l}">
+<g id="a_node4"><a xlink:href="classLogger" target="_top" xlink:title="The base class for all kinds of loggers, see loggers.h for its derived classes. ">
 <polygon fill="white" stroke="black" points="8.5,-507.5 8.5,-663.5 163.5,-663.5 163.5,-507.5 8.5,-507.5"/>
 <text text-anchor="middle" x="86" y="-651.5" font-family="FreeSans" font-size="10.00">Logger</text>
 <polyline fill="none" stroke="black" points="8.5,-644.5 163.5,-644.5 "/>
@@ -104,7 +104,7 @@
 </g>
 <!-- Node5 -->
 <g id="node5" class="node"><title>Node5</title>
-<g id="a_node5"><a xlink:href="classListCtrlLogger.xhtml#structListCtrlLogger_1_1ListStyles" target="_top" xlink:title="{ListCtrlLogger::ListStyles\n|+ font\l+ colour\l|}">
+<g id="a_node5"><a xlink:href="classListCtrlLogger#structListCtrlLogger_1_1ListStyles" target="_top" xlink:title="{ListCtrlLogger::ListStyles\n|+ font\l+ colour\l|}">
 <polygon fill="white" stroke="black" points="182,-551.5 182,-619.5 304,-619.5 304,-551.5 182,-551.5"/>
 <text text-anchor="middle" x="243" y="-607.5" font-family="FreeSans" font-size="10.00">ListCtrlLogger::ListStyles</text>
 <polyline fill="none" stroke="black" points="182,-600.5 304,-600.5 "/>
@@ -123,7 +123,7 @@
 </g>
 <!-- Node6 -->
 <g id="node6" class="node"><title>Node6</title>
-<g id="a_node6"><a xlink:href="classCompilerErrors.xhtml" target="_top" xlink:title="{CompilerErrors\n|&#45; m_Errors\l&#45; m_ErrorIndex\l|+ CompilerErrors()\l+ ~CompilerErrors()\l+ AddError()\l+ GotoError()\l+ Next()\l+ Previous()\l+ Clear()\l+ HasNextError()\land 6 more...\l&#45; DoAddError()\l&#45; DoGotoError()\l&#45; DoClearErrorMarkFromAllEditors()\l&#45; ErrorLineHasMore()\l}">
+<g id="a_node6"><a xlink:href="classCompilerErrors" target="_top" xlink:title="{CompilerErrors\n|&#45; m_Errors\l&#45; m_ErrorIndex\l|+ CompilerErrors()\l+ ~CompilerErrors()\l+ AddError()\l+ GotoError()\l+ Next()\l+ Previous()\l+ Clear()\l+ HasNextError()\land 6 more...\l&#45; DoAddError()\l&#45; DoGotoError()\l&#45; DoClearErrorMarkFromAllEditors()\l&#45; ErrorLineHasMore()\l}">
 <polygon fill="white" stroke="black" points="253.5,-254 253.5,-454 420.5,-454 420.5,-254 253.5,-254"/>
 <text text-anchor="middle" x="337" y="-442" font-family="FreeSans" font-size="10.00">CompilerErrors</text>
 <polyline fill="none" stroke="black" points="253.5,-435 420.5,-435 "/>

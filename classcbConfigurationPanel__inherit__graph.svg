@@ -28,7 +28,7 @@
 </g>
 <!-- Node3 -->
 <g id="node3" class="node"><title>Node3</title>
-<g id="a_node3"><a xlink:href="classCCOptionsDlg.xhtml" target="_top" xlink:title="{CCOptionsDlg\n|&#45; m_NativeParser\l&#45; m_CodeCompletion\l&#45; m_Parser\l&#45; m_Documentation\l|+ CCOptionsDlg()\l+ ~CCOptionsDlg()\l+ GetTitle()\l+ GetBitmapBaseName()\l+ OnApply()\l+ OnCancel()\l# OnAddRepl()\l# OnEditRepl()\l# OnDelRepl()\l# OnChooseColour()\l# OnCCDelayScroll()\l# OnUpdateUI()\l&#45; UpdateCCDelayLabel()\l&#45; ValidateReplacementToken()\l}">
+<g id="a_node3"><a xlink:href="classCCOptionsDlg" target="_top" xlink:title="{CCOptionsDlg\n|&#45; m_NativeParser\l&#45; m_CodeCompletion\l&#45; m_Parser\l&#45; m_Documentation\l|+ CCOptionsDlg()\l+ ~CCOptionsDlg()\l+ GetTitle()\l+ GetBitmapBaseName()\l+ OnApply()\l+ OnCancel()\l# OnAddRepl()\l# OnEditRepl()\l# OnDelRepl()\l# OnChooseColour()\l# OnCCDelayScroll()\l# OnUpdateUI()\l&#45; UpdateCCDelayLabel()\l&#45; ValidateReplacementToken()\l}">
 <polygon fill="white" stroke="black" points="0,-39 0,-272 146,-272 146,-39 0,-39"/>
 <text text-anchor="middle" x="73" y="-260" font-family="FreeSans" font-size="10.00">CCOptionsDlg</text>
 <polyline fill="none" stroke="black" points="0,-253 146,-253 "/>
@@ -61,7 +61,7 @@
 </g>
 <!-- Node4 -->
 <g id="node4" class="node"><title>Node4</title>
-<g id="a_node4"><a xlink:href="classCCOptionsProjectDlg.xhtml" target="_top" xlink:title="{CCOptionsProjectDlg\n|&#45; m_Project\l&#45; m_NativeParser\l&#45; m_Parser\l&#45; m_OldPaths\l|+ CCOptionsProjectDlg()\l+ ~CCOptionsProjectDlg()\l+ GetTitle()\l+ GetBitmapBaseName()\l+ OnApply()\l+ OnCancel()\l# OnAdd()\l# OnEdit()\l# OnDelete()\l# OnUpdateUI()\l}">
+<g id="a_node4"><a xlink:href="classCCOptionsProjectDlg" target="_top" xlink:title="{CCOptionsProjectDlg\n|&#45; m_Project\l&#45; m_NativeParser\l&#45; m_Parser\l&#45; m_OldPaths\l|+ CCOptionsProjectDlg()\l+ ~CCOptionsProjectDlg()\l+ GetTitle()\l+ GetBitmapBaseName()\l+ OnApply()\l+ OnCancel()\l# OnAdd()\l# OnEdit()\l# OnDelete()\l# OnUpdateUI()\l}">
 <polygon fill="white" stroke="black" points="164,-61 164,-250 292,-250 292,-61 164,-61"/>
 <text text-anchor="middle" x="228" y="-238" font-family="FreeSans" font-size="10.00">CCOptionsProjectDlg</text>
 <polyline fill="none" stroke="black" points="164,-231 292,-231 "/>
@@ -90,7 +90,7 @@
 </g>
 <!-- Node5 -->
 <g id="node5" class="node"><title>Node5</title>
-<g id="a_node5"><a xlink:href="classCompilerOptionsDlg.xhtml" target="_top" xlink:title="{CompilerOptionsDlg\n|&#45; m_FlagsPG\l&#45; m_Compiler\l&#45; m_Options\l&#45; m_LinkerOptions\l&#45; m_LinkLibs\l&#45; m_CompilerOptions\l&#45; m_ResourceCompilerOptions\l&#45; m_CurrentCompilerIdx\land 7 more...\l&#45; m_MenuOption\l|+ CompilerOptionsDlg()\l+ ~CompilerOptionsDlg()\l+ GetTitle()\l+ GetBitmapBaseName()\l+ OnApply()\l+ OnCancel()\l&#45; TextToOptions()\l&#45; OptionsToText()\l&#45; DoFillCompilerSets()\l&#45; DoFillCompilerPrograms()\l&#45; DoFillVars()\l&#45; DoFillOthers()\l&#45; DoFillOptions()\l&#45; DoFillCompilerDependentSettings()\land 58 more...\l}">
+<g id="a_node5"><a xlink:href="classCompilerOptionsDlg" target="_top" xlink:title="{CompilerOptionsDlg\n|&#45; m_FlagsPG\l&#45; m_Compiler\l&#45; m_Options\l&#45; m_LinkerOptions\l&#45; m_LinkLibs\l&#45; m_CompilerOptions\l&#45; m_ResourceCompilerOptions\l&#45; m_CurrentCompilerIdx\land 7 more...\l&#45; m_MenuOption\l|+ CompilerOptionsDlg()\l+ ~CompilerOptionsDlg()\l+ GetTitle()\l+ GetBitmapBaseName()\l+ OnApply()\l+ OnCancel()\l&#45; TextToOptions()\l&#45; OptionsToText()\l&#45; DoFillCompilerSets()\l&#45; DoFillCompilerPrograms()\l&#45; DoFillVars()\l&#45; DoFillOthers()\l&#45; DoFillOptions()\l&#45; DoFillCompilerDependentSettings()\land 58 more...\l}">
 <polygon fill="white" stroke="black" points="310.5,-0.5 310.5,-310.5 483.5,-310.5 483.5,-0.5 310.5,-0.5"/>
 <text text-anchor="middle" x="397" y="-298.5" font-family="FreeSans" font-size="10.00">CompilerOptionsDlg</text>
 <polyline fill="none" stroke="black" points="310.5,-291.5 483.5,-291.5 "/>
@@ -130,7 +130,7 @@
 </g>
 <!-- Node6 -->
 <g id="node6" class="node"><title>Node6</title>
-<g id="a_node6"><a xlink:href="classDebuggerOptionsProjectDlg.xhtml" target="_top" xlink:title="{DebuggerOptionsProjectDlg\n|&#45; m_pDBG\l&#45; m_pProject\l&#45; m_OldPaths\l&#45; m_CurrentRemoteDebugging\l&#45; m_LastTargetSel\l|+ DebuggerOptionsProjectDlg()\l+ ~DebuggerOptionsProjectDlg()\l+ GetTitle()\l+ GetBitmapBaseName()\l+ OnApply()\l+ OnCancel()\l# OnTargetSel()\l# OnAdd()\l# OnEdit()\l# OnDelete()\l# OnUpdateUI()\l&#45; OnBuildTargetRemoved()\l&#45; OnBuildTargetAdded()\l&#45; OnBuildTargetRenamed()\l&#45; LoadCurrentRemoteDebugging\lRecord()\l&#45; SaveCurrentRemoteDebugging\lRecord()\l}">
+<g id="a_node6"><a xlink:href="classDebuggerOptionsProjectDlg" target="_top" xlink:title="{DebuggerOptionsProjectDlg\n|&#45; m_pDBG\l&#45; m_pProject\l&#45; m_OldPaths\l&#45; m_CurrentRemoteDebugging\l&#45; m_LastTargetSel\l|+ DebuggerOptionsProjectDlg()\l+ ~DebuggerOptionsProjectDlg()\l+ GetTitle()\l+ GetBitmapBaseName()\l+ OnApply()\l+ OnCancel()\l# OnTargetSel()\l# OnAdd()\l# OnEdit()\l# OnDelete()\l# OnUpdateUI()\l&#45; OnBuildTargetRemoved()\l&#45; OnBuildTargetAdded()\l&#45; OnBuildTargetRenamed()\l&#45; LoadCurrentRemoteDebugging\lRecord()\l&#45; SaveCurrentRemoteDebugging\lRecord()\l}">
 <polygon fill="white" stroke="black" points="501.5,-11.5 501.5,-299.5 656.5,-299.5 656.5,-11.5 501.5,-11.5"/>
 <text text-anchor="middle" x="579" y="-287.5" font-family="FreeSans" font-size="10.00">DebuggerOptionsProjectDlg</text>
 <polyline fill="none" stroke="black" points="501.5,-280.5 656.5,-280.5 "/>

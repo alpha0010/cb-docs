@@ -21,7 +21,7 @@
 </g>
 <!-- Node4 -->
 <g id="node4" class="node"><title>Node4</title>
-<g id="a_node4"><a xlink:href="classGdbCmd__StepInstruction.xhtml" target="_top" xlink:title="{GdbCmd_StepInstruction\n||+ GdbCmd_StepInstruction()\l}">
+<g id="a_node4"><a xlink:href="classGdbCmd__StepInstruction" target="_top" xlink:title="{GdbCmd_StepInstruction\n||+ GdbCmd_StepInstruction()\l}">
 <polygon fill="white" stroke="black" points="0,-0.5 0,-57.5 140,-57.5 140,-0.5 0,-0.5"/>
 <text text-anchor="middle" x="70" y="-45.5" font-family="FreeSans" font-size="10.00">GdbCmd_StepInstruction</text>
 <polyline fill="none" stroke="black" points="0,-38.5 140,-38.5 "/>
@@ -38,7 +38,7 @@
 </g>
 <!-- Node5 -->
 <g id="node5" class="node"><title>Node5</title>
-<g id="a_node5"><a xlink:href="classGdbCmd__StepIntoInstruction.xhtml" target="_top" xlink:title="{GdbCmd_StepIntoInstruction\n||+ GdbCmd_StepIntoInstruction()\l}">
+<g id="a_node5"><a xlink:href="classGdbCmd__StepIntoInstruction" target="_top" xlink:title="{GdbCmd_StepIntoInstruction\n||+ GdbCmd_StepIntoInstruction()\l}">
 <polygon fill="white" stroke="black" points="158,-0.5 158,-57.5 314,-57.5 314,-0.5 158,-0.5"/>
 <text text-anchor="middle" x="236" y="-45.5" font-family="FreeSans" font-size="10.00">GdbCmd_StepIntoInstruction</text>
 <polyline fill="none" stroke="black" points="158,-38.5 314,-38.5 "/>
@@ -55,7 +55,7 @@
 </g>
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
-<g id="a_node2"><a xlink:href="classDebuggerContinueBaseCmd.xhtml" target="_top" xlink:title="{DebuggerContinueBaseCmd\n||+ DebuggerContinueBaseCmd()\l+ IsContinueCommand()\l}">
+<g id="a_node2"><a xlink:href="classDebuggerContinueBaseCmd" target="_top" xlink:title="Base class for all Continue type of commands. ">
 <polygon fill="white" stroke="black" points="77,-199.5 77,-267.5 229,-267.5 229,-199.5 77,-199.5"/>
 <text text-anchor="middle" x="153" y="-255.5" font-family="FreeSans" font-size="10.00">DebuggerContinueBaseCmd</text>
 <polyline fill="none" stroke="black" points="77,-248.5 229,-248.5 "/>
@@ -73,7 +73,7 @@
 </g>
 <!-- Node3 -->
 <g id="node3" class="node"><title>Node3</title>
-<g id="a_node3"><a xlink:href="classDebuggerCmd.xhtml" target="_top" xlink:title="{DebuggerCmd\n|+ m_Cmd\l# m_pDriver\l# m_LogToNormalLog\l|+ DebuggerCmd()\l+ ~DebuggerCmd()\l+ Action()\l+ ParseOutput()\l+ IsContinueCommand()\l}">
+<g id="a_node3"><a xlink:href="classDebuggerCmd" target="_top" xlink:title="Basic interface for debugger commands. ">
 <polygon fill="white" stroke="black" points="92.5,-304.5 92.5,-427.5 213.5,-427.5 213.5,-304.5 92.5,-304.5"/>
 <text text-anchor="middle" x="153" y="-415.5" font-family="FreeSans" font-size="10.00">DebuggerCmd</text>
 <polyline fill="none" stroke="black" points="92.5,-408.5 213.5,-408.5 "/>

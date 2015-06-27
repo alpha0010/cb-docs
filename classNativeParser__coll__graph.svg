@@ -56,7 +56,7 @@
 </g>
 <!-- Node15 -->
 <g id="node15" class="node"><title>Node15</title>
-<g id="a_node15"><a xlink:href="classClassBrowser.xhtml" target="_top" xlink:title="{ClassBrowser\n|&#45; m_TreeForPopupMenu\l&#45; m_Search\l&#45; m_ActiveFilename\l&#45; m_ClassBrowserSemaphore\l|+ ClassBrowser()\l+ ~ClassBrowser()\l+ GetCCTreeCtrl()\l+ SetParser()\l+ UpdateClassBrowserView()\l+ UpdateSash()\l&#45; OnTreeItemDoubleClick()\l&#45; OnTreeItemRightClick()\l&#45; OnJumpTo()\l&#45; OnRefreshTree()\l&#45; OnForceReparse()\l&#45; OnCBViewMode()\l&#45; OnCBExpandNS()\l&#45; OnViewScope()\land 13 more...\l}">
+<g id="a_node15"><a xlink:href="classClassBrowser" target="_top" xlink:title="symbol browser panel is shown in the Management panel besides projects browser panel. ">
 <polygon fill="white" stroke="black" points="1022,-0.5 1022,-244.5 1165,-244.5 1165,-0.5 1022,-0.5"/>
 <text text-anchor="middle" x="1093.5" y="-232.5" font-family="FreeSans" font-size="10.00">ClassBrowser</text>
 <polyline fill="none" stroke="black" points="1022,-225.5 1165,-225.5 "/>
@@ -91,7 +91,7 @@
 </g>
 <!-- Node17 -->
 <g id="node17" class="node"><title>Node17</title>
-<g id="a_node17"><a xlink:href="classClassBrowserBuilderThread.xhtml" target="_top" xlink:title="{ClassBrowserBuilderThread\n|# m_Parent\l# m_ClassBrowserSemaphore\l# m_ClassBrowserBuilderThread\lMutex\l# m_ActiveFilename\l# m_UserData\l&#45; m_InitDone\l&#45; m_TerminationRequested\l&#45; m_idThreadEvent\l&#45; m_SelectItemRequired\l|+ ClassBrowserBuilderThread()\l+ ~ClassBrowserBuilderThread()\l+ Init()\l+ ExpandItem()\l+ CollapseItem()\l+ SelectItem()\l+ SelectItemRequired()\l+ RequestTermination()\l# Entry()\l# BuildTree()\l# RemoveInvalidNodes()\l# ExpandNamespaces()\l# CreateSpecialFolders()\l# AddNodeIfNotThere()\l# AddChildrenOf()\l# AddAncestorsOf()\l# AddDescendantsOf()\l# AddMembersOf()\l&#45; AddNodes()\l&#45; TokenMatchesFilter()\l&#45; TokenContainsChildrenOfKind()\l&#45; SaveExpandedItems()\l&#45; ExpandSavedItems()\l&#45; SaveSelectedItem()\l&#45; SelectSavedItem()\l}">
+<g id="a_node17"><a xlink:href="classClassBrowserBuilderThread" target="_top" xlink:title="worker thread to build the symbol browser tree controls(both the top tree and the bottom tree) When t...">
 <polygon fill="white" stroke="black" points="1714.5,-292.5 1714.5,-712.5 1872.5,-712.5 1872.5,-292.5 1714.5,-292.5"/>
 <text text-anchor="middle" x="1793.5" y="-700.5" font-family="FreeSans" font-size="10.00">ClassBrowserBuilderThread</text>
 <polyline fill="none" stroke="black" points="1714.5,-693.5 1872.5,-693.5 "/>
@@ -156,7 +156,7 @@
 </g>
 <!-- Node42 -->
 <g id="node42" class="node"><title>Node42</title>
-<g id="a_node42"><a xlink:href="classParserBase.xhtml" target="_top" xlink:title="{ParserBase\n|&#45; m_IncludeDirs\l|+ ParserBase()\l+ ~ParserBase()\l+ AddBatchParse()\l+ AddParse()\l+ AddPredefinedMacros()\l+ UpdateParsingProject()\l+ ParseBuffer()\l+ ParseBufferForFunctions()\land 20 more...\l&#45; ParseFile()\l&#45; FindFirstFileInIncludeDirs()\l}">
+<g id="a_node42"><a xlink:href="classParserBase" target="_top" xlink:title="{ParserBase\n|&#45; m_IncludeDirs\l|+ ParserBase()\l+ ~ParserBase()\l+ AddBatchParse()\l+ AddParse()\l+ AddPredefinedMacros()\l+ UpdateParsingProject()\l+ ParseBuffer()\l+ ParseBufferForFunctions()\land 20 more...\l&#45; ParseFile()\l&#45; FindFirstFileInIncludeDirs()\l}">
 <polygon fill="white" stroke="black" points="1052,-1429.5 1052,-1596.5 1189,-1596.5 1189,-1429.5 1052,-1429.5"/>
 <text text-anchor="middle" x="1120.5" y="-1584.5" font-family="FreeSans" font-size="10.00">ParserBase</text>
 <polyline fill="none" stroke="black" points="1052,-1577.5 1189,-1577.5 "/>
@@ -183,7 +183,7 @@
 </g>
 <!-- Node3 -->
 <g id="node3" class="node"><title>Node3</title>
-<g id="a_node3"><a xlink:href="classNativeParserBase.xhtml" target="_top" xlink:title="{NativeParserBase\n||+ NativeParserBase()\l+ ~NativeParserBase()\l# Reset()\l# FindAIMatches()\l# FindCurrentFunctionScope()\l# CleanupSearchScope()\l# GetCallTipHighlight()\l# FindFunctionOpenParenthesis()\l# GetCCToken()\l# FindCCTokenStart()\land 14 more...\l# CountCommas()\l# InsideToken()\l# BeginOfToken()\l# BeforeToken()\l# IsOperatorEnd()\l# IsOperatorPointer()\l# IsOperatorBegin()\l# IsOperatorDot()\l# BeforeWhitespace()\l# AfterWhitespace()\l# IsOpeningBracket()\l# IsClosingBracket()\l&#45; AddChildrenOfUnnamed()\l&#45; AddChildrenOfEnum()\l&#45; IsChildOfUnnamedOrEnum()\l&#45; AddConstructors()\l&#45; MatchText()\l&#45; MatchType()\l}">
+<g id="a_node3"><a xlink:href="classNativeParserBase" target="_top" xlink:title="{NativeParserBase\n||+ NativeParserBase()\l+ ~NativeParserBase()\l# Reset()\l# FindAIMatches()\l# FindCurrentFunctionScope()\l# CleanupSearchScope()\l# GetCallTipHighlight()\l# FindFunctionOpenParenthesis()\l# GetCCToken()\l# FindCCTokenStart()\land 16 more...\l# CountCommas()\l# InsideToken()\l# BeginOfToken()\l# BeforeToken()\l# IsOperatorEnd()\l# IsOperatorPointer()\l# IsOperatorBegin()\l# IsOperatorDot()\l# BeforeWhitespace()\l# AfterWhitespace()\l# IsOpeningBracket()\l# IsClosingBracket()\l&#45; AddChildrenOfUnnamed()\l&#45; AddChildrenOfEnum()\l&#45; IsChildOfUnnamedOrEnum()\l&#45; AddConstructors()\l&#45; MatchText()\l&#45; MatchType()\l}">
 <polygon fill="white" stroke="black" points="705.5,-2517.5 705.5,-2882.5 865.5,-2882.5 865.5,-2517.5 705.5,-2517.5"/>
 <text text-anchor="middle" x="785.5" y="-2870.5" font-family="FreeSans" font-size="10.00">NativeParserBase</text>
 <polyline fill="none" stroke="black" points="705.5,-2863.5 865.5,-2863.5 "/>
@@ -199,7 +199,7 @@
 <text text-anchor="start" x="713.5" y="-2755.5" font-family="FreeSans" font-size="10.00"># FindFunctionOpenParenthesis()</text>
 <text text-anchor="start" x="713.5" y="-2744.5" font-family="FreeSans" font-size="10.00"># GetCCToken()</text>
 <text text-anchor="start" x="713.5" y="-2733.5" font-family="FreeSans" font-size="10.00"># FindCCTokenStart()</text>
-<text text-anchor="start" x="713.5" y="-2722.5" font-family="FreeSans" font-size="10.00">and 14 more...</text>
+<text text-anchor="start" x="713.5" y="-2722.5" font-family="FreeSans" font-size="10.00">and 16 more...</text>
 <text text-anchor="start" x="713.5" y="-2711.5" font-family="FreeSans" font-size="10.00"># CountCommas()</text>
 <text text-anchor="start" x="713.5" y="-2700.5" font-family="FreeSans" font-size="10.00"># InsideToken()</text>
 <text text-anchor="start" x="713.5" y="-2689.5" font-family="FreeSans" font-size="10.00"># BeginOfToken()</text>
@@ -245,7 +245,7 @@
 </g>
 <!-- Node24 -->
 <g id="node24" class="node"><title>Node24</title>
-<g id="a_node24"><a xlink:href="classToken.xhtml" target="_top" xlink:title="{Token\n|+ m_FullType\l+ m_BaseType\l+ m_Name\l+ m_Args\l+ m_BaseArgs\l+ m_AncestorsString\l+ m_FileIdx\l+ m_Line\land 23 more...\l# m_Ticket\l|+ Token()\l+ ~Token()\l+ AddChild()\l+ DeleteAllChildren()\l+ HasChildren()\l+ GetNamespace()\l+ InheritsFrom()\l+ DisplayName()\land 15 more...\l}">
+<g id="a_node24"><a xlink:href="classToken" target="_top" xlink:title="a symbol found in the parsed files, it can be many kinds, such as a variable, a class and so on...">
 <polygon fill="white" stroke="black" points="1709,-2578 1709,-2822 1816,-2822 1816,-2578 1709,-2578"/>
 <text text-anchor="middle" x="1762.5" y="-2810" font-family="FreeSans" font-size="10.00">Token</text>
 <polyline fill="none" stroke="black" points="1709,-2803 1816,-2803 "/>
@@ -280,7 +280,7 @@
 </g>
 <!-- Node5 -->
 <g id="node5" class="node"><title>Node5</title>
-<g id="a_node5"><a xlink:href="structNativeParserBase_1_1ParserComponent.xhtml" target="_top" xlink:title="a long statement can be divided to a ParserComponent chain. ">
+<g id="a_node5"><a xlink:href="structNativeParserBase_1_1ParserComponent" target="_top" xlink:title="a long statement can be divided to a ParserComponent chain. ">
 <polygon fill="white" stroke="black" points="722,-2963.5 722,-3064.5 847,-3064.5 847,-2963.5 722,-2963.5"/>
 <text text-anchor="start" x="730" y="-3052.5" font-family="FreeSans" font-size="10.00">NativeParserBase::Parser</text>
 <text text-anchor="middle" x="784.5" y="-3041.5" font-family="FreeSans" font-size="10.00">Component</text>
@@ -333,7 +333,7 @@
 </g>
 <!-- Node8 -->
 <g id="node8" class="node"><title>Node8</title>
-<g id="a_node8"><a xlink:href="classcbProject.xhtml" target="_top" xlink:title="Represents a Code::Blocks project. ">
+<g id="a_node8"><a xlink:href="classcbProject" target="_top" xlink:title="Represents a Code::Blocks project. ">
 <polygon fill="white" stroke="black" points="382.5,-1787.5 382.5,-2097.5 552.5,-2097.5 552.5,-1787.5 382.5,-1787.5"/>
 <text text-anchor="middle" x="467.5" y="-2085.5" font-family="FreeSans" font-size="10.00">cbProject</text>
 <polyline fill="none" stroke="black" points="382.5,-2078.5 552.5,-2078.5 "/>
@@ -374,7 +374,7 @@
 </g>
 <!-- Node14 -->
 <g id="node14" class="node"><title>Node14</title>
-<g id="a_node14"><a xlink:href="classProjectBuildTarget.xhtml" target="_top" xlink:title="{ProjectBuildTarget\n|&#45; m_ExternalDeps\l&#45; m_AdditionalOutputFiles\l&#45; m_TargetDeps\l&#45; m_Files\l&#45; m_FileArray\l&#45; m_BuildWithAll\l&#45; m_CreateStaticLib\l&#45; m_CreateDefFile\l&#45; m_UseConsoleRunner\l|+ ProjectBuildTarget()\l+ ~ProjectBuildTarget()\l+ GetParentProject()\l+ GetFullTitle()\l+ GetExternalDeps()\l+ SetExternalDeps()\l+ GetAdditionalOutputFiles()\l+ SetAdditionalOutputFiles()\land 15 more...\l}">
+<g id="a_node14"><a xlink:href="classProjectBuildTarget" target="_top" xlink:title="Represents a Code::Blocks project build target. ">
 <polygon fill="white" stroke="black" points="287,-1396.5 287,-1629.5 426,-1629.5 426,-1396.5 287,-1396.5"/>
 <text text-anchor="middle" x="356.5" y="-1617.5" font-family="FreeSans" font-size="10.00">ProjectBuildTarget</text>
 <polyline fill="none" stroke="black" points="287,-1610.5 426,-1610.5 "/>
@@ -424,7 +424,7 @@
 </g>
 <!-- Node9 -->
 <g id="node9" class="node"><title>Node9</title>
-<g id="a_node9"><a xlink:href="classCompileTargetBase.xhtml" target="_top" xlink:title="Base class for build target classes Each Code::Blocks project consists of at least one target...">
+<g id="a_node9"><a xlink:href="classCompileTargetBase" target="_top" xlink:title="Base class for build target classes Each Code::Blocks project consists of at least one target...">
 <polygon fill="white" stroke="black" points="521,-2145.5 521,-2411.5 676,-2411.5 676,-2145.5 521,-2145.5"/>
 <text text-anchor="middle" x="598.5" y="-2399.5" font-family="FreeSans" font-size="10.00">CompileTargetBase</text>
 <polyline fill="none" stroke="black" points="521,-2392.5 676,-2392.5 "/>
@@ -465,7 +465,7 @@
 </g>
 <!-- Node10 -->
 <g id="node10" class="node"><title>Node10</title>
-<g id="a_node10"><a xlink:href="classCompileOptionsBase.xhtml" target="_top" xlink:title="{CompileOptionsBase\n|# m_Platform\l# m_LinkerOptions\l# m_LinkLibs\l# m_CompilerOptions\l# m_ResourceCompilerOptions\l# m_IncludeDirs\l# m_ResIncludeDirs\l# m_LibDirs\land 6 more...\l|+ CompileOptionsBase()\l+ ~CompileOptionsBase()\l+ AddPlatform()\l+ RemovePlatform()\l+ SetPlatforms()\l+ GetPlatforms()\l+ SupportsCurrentPlatform()\l+ SetLinkerOptions()\land 56 more...\l}">
+<g id="a_node10"><a xlink:href="classCompileOptionsBase" target="_top" xlink:title="This is a base class for all classes needing compilation parameters. ">
 <polygon fill="white" stroke="black" points="524,-2583.5 524,-2816.5 673,-2816.5 673,-2583.5 524,-2583.5"/>
 <text text-anchor="middle" x="598.5" y="-2804.5" font-family="FreeSans" font-size="10.00">CompileOptionsBase</text>
 <polyline fill="none" stroke="black" points="524,-2797.5 673,-2797.5 "/>
@@ -531,7 +531,7 @@
 </g>
 <!-- Node13 -->
 <g id="node13" class="node"><title>Node13</title>
-<g id="a_node13"><a xlink:href="structcbProject_1_1Glob.xhtml" target="_top" xlink:title="{cbProject::Glob\n|+ m_Path\l+ m_WildCard\l+ m_Recursive\l|+ Glob()\l}">
+<g id="a_node13"><a xlink:href="structcbProject_1_1Glob" target="_top" xlink:title="{cbProject::Glob\n|+ m_Path\l+ m_WildCard\l+ m_Recursive\l|+ Glob()\l}">
 <polygon fill="white" stroke="black" points="287,-2660.5 287,-2739.5 370,-2739.5 370,-2660.5 287,-2660.5"/>
 <text text-anchor="middle" x="328.5" y="-2727.5" font-family="FreeSans" font-size="10.00">cbProject::Glob</text>
 <polyline fill="none" stroke="black" points="287,-2720.5 370,-2720.5 "/>
@@ -623,7 +623,7 @@
 </g>
 <!-- Node25 -->
 <g id="node25" class="node"><title>Node25</title>
-<g id="a_node25"><a xlink:href="classTokenTree.xhtml" target="_top" xlink:title="{TokenTree\n|+ m_TokenTicketCount\l|+ TokenTree()\l+ ~TokenTree()\l+ clear()\l+ operator[]()\l+ at()\l+ at()\l+ size()\l+ realsize()\land 40 more...\l# GetTokenAt()\l# GetTokenAt()\l# AddToken()\l# RemoveToken()\l# RemoveToken()\l# AddTokenToList()\l# RemoveTokenFromList()\l# RecalcFullInheritance()\l# CheckChildRemove()\l}">
+<g id="a_node25"><a xlink:href="classTokenTree" target="_top" xlink:title="a container class to hold all the Tokens getting from parsing stage ">
 <polygon fill="white" stroke="black" points="1435.5,-1820.5 1435.5,-2064.5 1565.5,-2064.5 1565.5,-1820.5 1435.5,-1820.5"/>
 <text text-anchor="middle" x="1500.5" y="-2052.5" font-family="FreeSans" font-size="10.00">TokenTree</text>
 <polyline fill="none" stroke="black" points="1435.5,-2045.5 1565.5,-2045.5 "/>
@@ -690,7 +690,7 @@
 </g>
 <!-- Node20 -->
 <g id="node20" class="node"><title>Node20</title>
-<g id="a_node20"><a xlink:href="structBrowserOptions.xhtml" target="_top" xlink:title="{BrowserOptions\n|+ showInheritance\l+ expandNS\l+ treeMembers\l+ displayFilter\l+ sortType\l|+ BrowserOptions()\l}">
+<g id="a_node20"><a xlink:href="structBrowserOptions" target="_top" xlink:title="{BrowserOptions\n|+ showInheritance\l+ expandNS\l+ treeMembers\l+ displayFilter\l+ sortType\l|+ BrowserOptions()\l}">
 <polygon fill="white" stroke="black" points="1253.5,-1892 1253.5,-1993 1351.5,-1993 1351.5,-1892 1253.5,-1892"/>
 <text text-anchor="middle" x="1302.5" y="-1981" font-family="FreeSans" font-size="10.00">BrowserOptions</text>
 <polyline fill="none" stroke="black" points="1253.5,-1974 1351.5,-1974 "/>
@@ -733,7 +733,7 @@
 </g>
 <!-- Node22 -->
 <g id="node22" class="node"><title>Node22</title>
-<g id="a_node22"><a xlink:href="classCCTreeCtrlData.xhtml" target="_top" xlink:title="{CCTreeCtrlData\n|+ m_KindMask\l+ m_SpecialFolder\l+ m_TokenIndex\l+ m_TokenKind\l+ m_TokenName\l+ m_ParentIndex\l+ m_Ticket\l|+ CCTreeCtrlData()\l}">
+<g id="a_node22"><a xlink:href="classCCTreeCtrlData" target="_top" xlink:title="{CCTreeCtrlData\n|+ m_KindMask\l+ m_SpecialFolder\l+ m_TokenIndex\l+ m_TokenKind\l+ m_TokenName\l+ m_ParentIndex\l+ m_Ticket\l|+ CCTreeCtrlData()\l}">
 <polygon fill="white" stroke="black" points="2058,-1881 2058,-2004 2157,-2004 2157,-1881 2058,-1881"/>
 <text text-anchor="middle" x="2107.5" y="-1992" font-family="FreeSans" font-size="10.00">CCTreeCtrlData</text>
 <polyline fill="none" stroke="black" points="2058,-1985 2157,-1985 "/>
@@ -757,7 +757,7 @@
 </g>
 <!-- Node39 -->
 <g id="node39" class="node"><title>Node39</title>
-<g id="a_node39"><a xlink:href="classCCTreeCtrlExpandedItemData.xhtml" target="_top" xlink:title="{CCTreeCtrlExpandedItemData\n|&#45; m_Level\l|+ CCTreeCtrlExpandedItemData()\l+ GetLevel()\l+ GetData()\l}">
+<g id="a_node39"><a xlink:href="classCCTreeCtrlExpandedItemData" target="_top" xlink:title="{CCTreeCtrlExpandedItemData\n|&#45; m_Level\l|+ CCTreeCtrlExpandedItemData()\l+ GetLevel()\l+ GetData()\l}">
 <polygon fill="white" stroke="black" points="1908,-1473.5 1908,-1552.5 2069,-1552.5 2069,-1473.5 1908,-1473.5"/>
 <text text-anchor="middle" x="1988.5" y="-1540.5" font-family="FreeSans" font-size="10.00">CCTreeCtrlExpandedItemData</text>
 <polyline fill="none" stroke="black" points="1908,-1533.5 2069,-1533.5 "/>
@@ -837,7 +837,7 @@
 </g>
 <!-- Node27 -->
 <g id="node27" class="node"><title>Node27</title>
-<g id="a_node27"><a xlink:href="classSearchTree.xhtml" target="_top" xlink:title="{SearchTree\&lt; TokenIdxSet \&gt;\n||+ SearchTree()\l+ ~SearchTree()\l+ clear()\l+ GetCount()\l+ size()\l+ SaveCacheTo()\l+ LoadCacheFrom()\l+ Serialize()\land 8 more...\l# ClearItems()\l# AddFirstNullItem()\l}">
+<g id="a_node27"><a xlink:href="classSearchTree" target="_top" xlink:title="{SearchTree\&lt; TokenIdxSet \&gt;\n||+ SearchTree()\l+ ~SearchTree()\l+ clear()\l+ GetCount()\l+ size()\l+ SaveCacheTo()\l+ LoadCacheFrom()\l+ Serialize()\land 8 more...\l# ClearItems()\l# AddFirstNullItem()\l}">
 <polygon fill="white" stroke="black" points="1510.5,-2195 1510.5,-2362 1648.5,-2362 1648.5,-2195 1510.5,-2195"/>
 <text text-anchor="middle" x="1579.5" y="-2350" font-family="FreeSans" font-size="10.00">SearchTree&lt; TokenIdxSet &gt;</text>
 <polyline fill="none" stroke="black" points="1510.5,-2343 1648.5,-2343 "/>
@@ -865,7 +865,7 @@
 </g>
 <!-- Node28 -->
 <g id="node28" class="node"><title>Node28</title>
-<g id="a_node28"><a xlink:href="classBasicSearchTree.xhtml" target="_top" xlink:title="{BasicSearchTree\n||+ BasicSearchTree()\l+ ~BasicSearchTree()\l+ size()\l+ GetCount()\l+ clear()\l+ insert()\l+ HasItem()\l+ count()\land 5 more...\l# CreateNode()\l# GetString()\l# GetNode()\l# FindNode()\l# AddNode()\l# SerializeLabel()\l&#45; CreateRootNode()\l&#45; SplitBranch()\l}">
+<g id="a_node28"><a xlink:href="classBasicSearchTree" target="_top" xlink:title="This class is generally a string &#45;&gt; size_t map, the tree details (graph) is already show in the decla...">
 <polygon fill="white" stroke="black" points="1121.5,-2583.5 1121.5,-2816.5 1231.5,-2816.5 1231.5,-2583.5 1121.5,-2583.5"/>
 <text text-anchor="middle" x="1176.5" y="-2804.5" font-family="FreeSans" font-size="10.00">BasicSearchTree</text>
 <polyline fill="none" stroke="black" points="1121.5,-2797.5 1231.5,-2797.5 "/>
@@ -904,7 +904,7 @@
 </g>
 <!-- Node43 -->
 <g id="node43" class="node"><title>Node43</title>
-<g id="a_node43"><a xlink:href="classSearchTree.xhtml" target="_top" xlink:title="{SearchTree\&lt; wxString \&gt;\n||+ SearchTree()\l+ ~SearchTree()\l+ clear()\l+ GetCount()\l+ size()\l+ SaveCacheTo()\l+ LoadCacheFrom()\l+ Serialize()\land 8 more...\l# ClearItems()\l# AddFirstNullItem()\l}">
+<g id="a_node43"><a xlink:href="classSearchTree" target="_top" xlink:title="{SearchTree\&lt; wxString \&gt;\n||+ SearchTree()\l+ ~SearchTree()\l+ clear()\l+ GetCount()\l+ size()\l+ SaveCacheTo()\l+ LoadCacheFrom()\l+ Serialize()\land 8 more...\l# ClearItems()\l# AddFirstNullItem()\l}">
 <polygon fill="white" stroke="black" points="814.5,-2195 814.5,-2362 934.5,-2362 934.5,-2195 814.5,-2195"/>
 <text text-anchor="middle" x="874.5" y="-2350" font-family="FreeSans" font-size="10.00">SearchTree&lt; wxString &gt;</text>
 <polyline fill="none" stroke="black" points="814.5,-2343 934.5,-2343 "/>
@@ -1086,7 +1086,7 @@
 </g>
 <!-- Node40 -->
 <g id="node40" class="node"><title>Node40</title>
-<g id="a_node40"><a xlink:href="classCCTreeCtrl.xhtml" target="_top" xlink:title="{CCTreeCtrl\n|# Compare\l|+ CCTreeCtrl()\l+ CCTreeCtrl()\l+ SetCompareFunction()\l+ RemoveDoubles()\l# OnCompareItems()\l# CBAlphabetCompare()\l# CBKindCompare()\l# CBScopeCompare()\l# CBLineCompare()\l# CBNoCompare()\l}">
+<g id="a_node40"><a xlink:href="classCCTreeCtrl" target="_top" xlink:title="{CCTreeCtrl\n|# Compare\l|+ CCTreeCtrl()\l+ CCTreeCtrl()\l+ SetCompareFunction()\l+ RemoveDoubles()\l# OnCompareItems()\l# CBAlphabetCompare()\l# CBKindCompare()\l# CBScopeCompare()\l# CBLineCompare()\l# CBNoCompare()\l}">
 <polygon fill="white" stroke="black" points="2158.5,-920 2158.5,-1076 2280.5,-1076 2280.5,-920 2158.5,-920"/>
 <text text-anchor="middle" x="2219.5" y="-1064" font-family="FreeSans" font-size="10.00">CCTreeCtrl</text>
 <polyline fill="none" stroke="black" points="2158.5,-1057 2280.5,-1057 "/>
@@ -1154,7 +1154,7 @@
 </g>
 <!-- Node44 -->
 <g id="node44" class="node"><title>Node44</title>
-<g id="a_node44"><a xlink:href="structParserOptions.xhtml" target="_top" xlink:title="{ParserOptions\n|+ followLocalIncludes\l+ followGlobalIncludes\l+ caseSensitive\l+ wantPreprocessor\l+ useSmartSense\l+ whileTyping\l+ parseComplexMacros\l+ platformCheck\l+ storeDocumentation\l|+ ParserOptions()\l}">
+<g id="a_node44"><a xlink:href="structParserOptions" target="_top" xlink:title="Setting of the Parser, some of them will be passed down to ParserThreadOptions. ">
 <polygon fill="white" stroke="black" points="1062,-1870 1062,-2015 1179,-2015 1179,-1870 1062,-1870"/>
 <text text-anchor="middle" x="1120.5" y="-2003" font-family="FreeSans" font-size="10.00">ParserOptions</text>
 <polyline fill="none" stroke="black" points="1062,-1996 1179,-1996 "/>
@@ -1186,7 +1186,7 @@
 </g>
 <!-- Node46 -->
 <g id="node46" class="node"><title>Node46</title>
-<g id="a_node46"><a xlink:href="classcbStyledTextCtrl.xhtml" target="_top" xlink:title="{cbStyledTextCtrl\n|&#45; m_pParent\l&#45; m_lastFocusTime\l&#45; m_bracePosition\l&#45; m_lastPosition\l&#45; m_middleClickPos\l&#45; m_tabSmartJump\l&#45; m_lastSelectedText\l&#45; m_braceShortcutState\l|+ cbStyledTextCtrl()\l+ ~cbStyledTextCtrl()\l+ operator=()\l+ GetLastFocusTime()\l+ GetLastSelectedText()\l+ EnableTabSmartJump()\l+ IsCharacter()\l+ IsString()\land 7 more...\l+ GetCharacterLexerStyles()\l+ GetStringLexerStyles()\l+ GetPreprocessorLexerStyles()\l+ GetCommentLexerStyles()\l&#45; OnContextMenu()\l&#45; OnKillFocus()\l&#45; OnSetFocus()\l&#45; OnMouseMiddleDown()\l&#45; OnMouseMiddleClick()\l&#45; OnKeyDown()\l&#45; OnKeyUp()\l&#45; OnMouseLeftUp()\l&#45; AllowTabSmartJump()\l&#45; HighlightRightBrace()\l&#45; EmulateDwellStart()\l}">
+<g id="a_node46"><a xlink:href="classcbStyledTextCtrl" target="_top" xlink:title="{cbStyledTextCtrl\n|&#45; m_pParent\l&#45; m_lastFocusTime\l&#45; m_bracePosition\l&#45; m_lastPosition\l&#45; m_middleClickPos\l&#45; m_tabSmartJump\l&#45; m_lastSelectedText\l&#45; m_braceShortcutState\l|+ cbStyledTextCtrl()\l+ ~cbStyledTextCtrl()\l+ operator=()\l+ GetLastFocusTime()\l+ GetLastSelectedText()\l+ EnableTabSmartJump()\l+ IsCharacter()\l+ IsString()\land 7 more...\l+ GetCharacterLexerStyles()\l+ GetStringLexerStyles()\l+ GetPreprocessorLexerStyles()\l+ GetCommentLexerStyles()\l&#45; OnContextMenu()\l&#45; OnKillFocus()\l&#45; OnSetFocus()\l&#45; OnMouseMiddleDown()\l&#45; OnMouseMiddleClick()\l&#45; OnKeyDown()\l&#45; OnKeyUp()\l&#45; OnMouseLeftUp()\l&#45; AllowTabSmartJump()\l&#45; HighlightRightBrace()\l&#45; EmulateDwellStart()\l}">
 <polygon fill="white" stroke="black" points="108.5,-1319.5 108.5,-1706.5 260.5,-1706.5 260.5,-1319.5 108.5,-1319.5"/>
 <text text-anchor="middle" x="184.5" y="-1694.5" font-family="FreeSans" font-size="10.00">cbStyledTextCtrl</text>
 <polyline fill="none" stroke="black" points="108.5,-1687.5 260.5,-1687.5 "/>
@@ -1234,7 +1234,7 @@
 </g>
 <!-- Node47 -->
 <g id="node47" class="node"><title>Node47</title>
-<g id="a_node47"><a xlink:href="classwxScintilla.xhtml" target="_top" xlink:title="{wxScintilla\n|# m_swx\l# m_stopWatch\l# m_vScrollBar\l# m_hScrollBar\l# m_lastKeyDownConsumed\l|+ wxScintilla()\l+ wxScintilla()\l+ ~wxScintilla()\l+ Create()\l+ AddText()\l+ AddText()\l+ AddStyledText()\l+ InsertText()\land 707 more...\l# GetValue()\l# SetValue()\l# DoSetValue()\l# DoGetValue()\l# GetEditableWindow()\l# DoLoadFile()\l# DoSaveFile()\l# OnPaint()\land 26 more...\l}">
+<g id="a_node47"><a xlink:href="classwxScintilla" target="_top" xlink:title="{wxScintilla\n|# m_swx\l# m_stopWatch\l# m_vScrollBar\l# m_hScrollBar\l# m_lastKeyDownConsumed\l|+ wxScintilla()\l+ wxScintilla()\l+ ~wxScintilla()\l+ Create()\l+ AddText()\l+ AddText()\l+ AddStyledText()\l+ InsertText()\land 707 more...\l# GetValue()\l# SetValue()\l# DoSetValue()\l# DoGetValue()\l# GetEditableWindow()\l# DoLoadFile()\l# DoSaveFile()\l# OnPaint()\land 26 more...\l}">
 <polygon fill="white" stroke="black" points="0,-1798.5 0,-2086.5 139,-2086.5 139,-1798.5 0,-1798.5"/>
 <text text-anchor="middle" x="69.5" y="-2074.5" font-family="FreeSans" font-size="10.00">wxScintilla</text>
 <polyline fill="none" stroke="black" points="0,-2067.5 139,-2067.5 "/>

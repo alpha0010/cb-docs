@@ -37,7 +37,7 @@
 </g>
 <!-- Node3 -->
 <g id="node3" class="node"><title>Node3</title>
-<g id="a_node3"><a xlink:href="classToken.xhtml" target="_top" xlink:title="{Token\n|+ m_FullType\l+ m_BaseType\l+ m_Name\l+ m_Args\l+ m_BaseArgs\l+ m_AncestorsString\l+ m_FileIdx\l+ m_Line\land 23 more...\l# m_Ticket\l|+ Token()\l+ ~Token()\l+ AddChild()\l+ DeleteAllChildren()\l+ HasChildren()\l+ GetNamespace()\l+ InheritsFrom()\l+ DisplayName()\land 15 more...\l}">
+<g id="a_node3"><a xlink:href="classToken" target="_top" xlink:title="a symbol found in the parsed files, it can be many kinds, such as a variable, a class and so on...">
 <polygon fill="white" stroke="black" points="312.5,-105.5 312.5,-349.5 419.5,-349.5 419.5,-105.5 312.5,-105.5"/>
 <text text-anchor="middle" x="366" y="-337.5" font-family="FreeSans" font-size="10.00">Token</text>
 <polyline fill="none" stroke="black" points="312.5,-330.5 419.5,-330.5 "/>
@@ -167,7 +167,7 @@
 </g>
 <!-- Node6 -->
 <g id="node6" class="node"><title>Node6</title>
-<g id="a_node6"><a xlink:href="classSearchTree.xhtml" target="_top" xlink:title="{SearchTree\&lt; TokenIdxSet \&gt;\n||+ SearchTree()\l+ ~SearchTree()\l+ clear()\l+ GetCount()\l+ size()\l+ SaveCacheTo()\l+ LoadCacheFrom()\l+ Serialize()\land 8 more...\l# ClearItems()\l# AddFirstNullItem()\l}">
+<g id="a_node6"><a xlink:href="classSearchTree" target="_top" xlink:title="{SearchTree\&lt; TokenIdxSet \&gt;\n||+ SearchTree()\l+ ~SearchTree()\l+ clear()\l+ GetCount()\l+ size()\l+ SaveCacheTo()\l+ LoadCacheFrom()\l+ Serialize()\land 8 more...\l# ClearItems()\l# AddFirstNullItem()\l}">
 <polygon fill="white" stroke="black" points="665,-689.5 665,-856.5 803,-856.5 803,-689.5 665,-689.5"/>
 <text text-anchor="middle" x="734" y="-844.5" font-family="FreeSans" font-size="10.00">SearchTree&lt; TokenIdxSet &gt;</text>
 <polyline fill="none" stroke="black" points="665,-837.5 803,-837.5 "/>
@@ -195,7 +195,7 @@
 </g>
 <!-- Node7 -->
 <g id="node7" class="node"><title>Node7</title>
-<g id="a_node7"><a xlink:href="classBasicSearchTree.xhtml" target="_top" xlink:title="{BasicSearchTree\n||+ BasicSearchTree()\l+ ~BasicSearchTree()\l+ size()\l+ GetCount()\l+ clear()\l+ insert()\l+ HasItem()\l+ count()\land 5 more...\l# CreateNode()\l# GetString()\l# GetNode()\l# FindNode()\l# AddNode()\l# SerializeLabel()\l&#45; CreateRootNode()\l&#45; SplitBranch()\l}">
+<g id="a_node7"><a xlink:href="classBasicSearchTree" target="_top" xlink:title="This class is generally a string &#45;&gt; size_t map, the tree details (graph) is already show in the decla...">
 <polygon fill="white" stroke="black" points="865,-962.5 865,-1195.5 975,-1195.5 975,-962.5 865,-962.5"/>
 <text text-anchor="middle" x="920" y="-1183.5" font-family="FreeSans" font-size="10.00">BasicSearchTree</text>
 <polyline fill="none" stroke="black" points="865,-1176.5 975,-1176.5 "/>
@@ -249,7 +249,7 @@
 </g>
 <!-- Node9 -->
 <g id="node9" class="node"><title>Node9</title>
-<g id="a_node9"><a xlink:href="classSearchTreePoint.xhtml" target="_top" xlink:title="{SearchTreePoint\n|+ n\l+ depth\l|+ SearchTreePoint()\l+ SearchTreePoint()\l}">
+<g id="a_node9"><a xlink:href="classSearchTreePoint" target="_top" xlink:title="This class is used to access items of the tree, each node may contains a lot of items, E.g. ">
 <polygon fill="white" stroke="black" points="868,-1447.5 868,-1526.5 972,-1526.5 972,-1447.5 868,-1447.5"/>
 <text text-anchor="middle" x="920" y="-1514.5" font-family="FreeSans" font-size="10.00">SearchTreePoint</text>
 <polyline fill="none" stroke="black" points="868,-1507.5 972,-1507.5 "/>
@@ -299,7 +299,7 @@
 </g>
 <!-- Node12 -->
 <g id="node12" class="node"><title>Node12</title>
-<g id="a_node12"><a xlink:href="classSearchTreeNode.xhtml" target="_top" xlink:title="{SearchTreeNode\n|# m_Depth\l# m_Parent\l# m_Label\l# m_LabelStart\l# m_LabelLen\l|+ SearchTreeNode()\l+ SearchTreeNode()\l+ ~SearchTreeNode()\l+ GetParent()\l+ SetParent()\l+ GetChild()\l+ GetItemNo()\l+ AddItemNo()\land 17 more...\l+ SerializeString()\l+ U2S()\l+ I2S()\l+ UnSerializeString()\l+ S2U()\l+ S2I()\l}">
+<g id="a_node12"><a xlink:href="classSearchTreeNode" target="_top" xlink:title="This class represents a node of the tree, we still take an example E.g. ">
 <polygon fill="white" stroke="black" points="695.5,-1359.5 695.5,-1614.5 804.5,-1614.5 804.5,-1359.5 695.5,-1359.5"/>
 <text text-anchor="middle" x="750" y="-1602.5" font-family="FreeSans" font-size="10.00">SearchTreeNode</text>
 <polyline fill="none" stroke="black" points="695.5,-1595.5 804.5,-1595.5 "/>

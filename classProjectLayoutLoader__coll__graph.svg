@@ -25,7 +25,7 @@
 </g>
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
-<g id="a_node2"><a xlink:href="classProjectFile.xhtml" target="_top" xlink:title="{ProjectFile\n|+ file\l+ relativeFilename\l+ relativeToCommonTopLevelPath\l+ compile\l+ link\l+ weight\l+ editorOpen\l+ editorSplit\land 14 more...\l# m_VisualState\l# m_TreeItemId\l# m_ObjName\l# m_PFDMap\l|+ ProjectFile()\l+ ~ProjectFile()\l+ Rename()\l+ AddBuildTarget()\l+ RenameBuildTarget()\l+ RemoveBuildTarget()\l+ GetBuildTargets()\l+ ShowOptions()\land 16 more...\l+ CompareProjectFiles()\l# DoUpdateFileDetails()\l}">
+<g id="a_node2"><a xlink:href="classProjectFile" target="_top" xlink:title="Represents a file in a Code::Blocks project. ">
 <polygon fill="white" stroke="black" points="400,-160.5 400,-459.5 565,-459.5 565,-160.5 400,-160.5"/>
 <text text-anchor="middle" x="482.5" y="-447.5" font-family="FreeSans" font-size="10.00">ProjectFile</text>
 <polyline fill="none" stroke="black" points="400,-440.5 565,-440.5 "/>
@@ -86,7 +86,7 @@
 </g>
 <!-- Node3 -->
 <g id="node3" class="node"><title>Node3</title>
-<g id="a_node3"><a xlink:href="classcbProject.xhtml" target="_top" xlink:title="Represents a Code::Blocks project. ">
+<g id="a_node3"><a xlink:href="classcbProject" target="_top" xlink:title="Represents a Code::Blocks project. ">
 <polygon fill="white" stroke="black" points="138.5,-507.5 138.5,-817.5 308.5,-817.5 308.5,-507.5 138.5,-507.5"/>
 <text text-anchor="middle" x="223.5" y="-805.5" font-family="FreeSans" font-size="10.00">cbProject</text>
 <polyline fill="none" stroke="black" points="138.5,-798.5 308.5,-798.5 "/>
@@ -133,7 +133,7 @@
 </g>
 <!-- Node9 -->
 <g id="node9" class="node"><title>Node9</title>
-<g id="a_node9"><a xlink:href="classProjectBuildTarget.xhtml" target="_top" xlink:title="{ProjectBuildTarget\n|&#45; m_ExternalDeps\l&#45; m_AdditionalOutputFiles\l&#45; m_TargetDeps\l&#45; m_Files\l&#45; m_FileArray\l&#45; m_BuildWithAll\l&#45; m_CreateStaticLib\l&#45; m_CreateDefFile\l&#45; m_UseConsoleRunner\l|+ ProjectBuildTarget()\l+ ~ProjectBuildTarget()\l+ GetParentProject()\l+ GetFullTitle()\l+ GetExternalDeps()\l+ SetExternalDeps()\l+ GetAdditionalOutputFiles()\l+ SetAdditionalOutputFiles()\land 15 more...\l}">
+<g id="a_node9"><a xlink:href="classProjectBuildTarget" target="_top" xlink:title="Represents a Code::Blocks project build target. ">
 <polygon fill="white" stroke="black" points="41,-193.5 41,-426.5 180,-426.5 180,-193.5 41,-193.5"/>
 <text text-anchor="middle" x="110.5" y="-414.5" font-family="FreeSans" font-size="10.00">ProjectBuildTarget</text>
 <polyline fill="none" stroke="black" points="41,-407.5 180,-407.5 "/>
@@ -167,7 +167,7 @@
 </g>
 <!-- Node4 -->
 <g id="node4" class="node"><title>Node4</title>
-<g id="a_node4"><a xlink:href="classCompileTargetBase.xhtml" target="_top" xlink:title="Base class for build target classes Each Code::Blocks project consists of at least one target...">
+<g id="a_node4"><a xlink:href="classCompileTargetBase" target="_top" xlink:title="Base class for build target classes Each Code::Blocks project consists of at least one target...">
 <polygon fill="white" stroke="black" points="0,-865.5 0,-1131.5 155,-1131.5 155,-865.5 0,-865.5"/>
 <text text-anchor="middle" x="77.5" y="-1119.5" font-family="FreeSans" font-size="10.00">CompileTargetBase</text>
 <polyline fill="none" stroke="black" points="0,-1112.5 155,-1112.5 "/>
@@ -208,7 +208,7 @@
 </g>
 <!-- Node5 -->
 <g id="node5" class="node"><title>Node5</title>
-<g id="a_node5"><a xlink:href="classCompileOptionsBase.xhtml" target="_top" xlink:title="{CompileOptionsBase\n|# m_Platform\l# m_LinkerOptions\l# m_LinkLibs\l# m_CompilerOptions\l# m_ResourceCompilerOptions\l# m_IncludeDirs\l# m_ResIncludeDirs\l# m_LibDirs\land 6 more...\l|+ CompileOptionsBase()\l+ ~CompileOptionsBase()\l+ AddPlatform()\l+ RemovePlatform()\l+ SetPlatforms()\l+ GetPlatforms()\l+ SupportsCurrentPlatform()\l+ SetLinkerOptions()\land 56 more...\l}">
+<g id="a_node5"><a xlink:href="classCompileOptionsBase" target="_top" xlink:title="This is a base class for all classes needing compilation parameters. ">
 <polygon fill="white" stroke="black" points="3,-1179.5 3,-1412.5 152,-1412.5 152,-1179.5 3,-1179.5"/>
 <text text-anchor="middle" x="77.5" y="-1400.5" font-family="FreeSans" font-size="10.00">CompileOptionsBase</text>
 <polyline fill="none" stroke="black" points="3,-1393.5 152,-1393.5 "/>
@@ -274,7 +274,7 @@
 </g>
 <!-- Node8 -->
 <g id="node8" class="node"><title>Node8</title>
-<g id="a_node8"><a xlink:href="structcbProject_1_1Glob.xhtml" target="_top" xlink:title="{cbProject::Glob\n|+ m_Path\l+ m_WildCard\l+ m_Recursive\l|+ Glob()\l}">
+<g id="a_node8"><a xlink:href="structcbProject_1_1Glob" target="_top" xlink:title="{cbProject::Glob\n|+ m_Path\l+ m_WildCard\l+ m_Recursive\l|+ Glob()\l}">
 <polygon fill="white" stroke="black" points="306,-1256.5 306,-1335.5 389,-1335.5 389,-1256.5 306,-1256.5"/>
 <text text-anchor="middle" x="347.5" y="-1323.5" font-family="FreeSans" font-size="10.00">cbProject::Glob</text>
 <polyline fill="none" stroke="black" points="306,-1316.5 389,-1316.5 "/>

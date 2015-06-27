@@ -43,7 +43,7 @@
 </g>
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
-<g id="a_node2"><a xlink:href="classMgr.xhtml" target="_top" xlink:title="{Mgr\&lt; EditorManager \&gt;\n|&#45; isShutdown\l|+ Valid()\l+ Get()\l+ Free()\l# Mgr()\l# ~Mgr()\l&#45; Mgr()\l&#45; operator=()\l}">
+<g id="a_node2"><a xlink:href="classMgr" target="_top" xlink:title="{Mgr\&lt; EditorManager \&gt;\n|&#45; isShutdown\l|+ Valid()\l+ Get()\l+ Free()\l# Mgr()\l# ~Mgr()\l&#45; Mgr()\l&#45; operator=()\l}">
 <polygon fill="white" stroke="black" points="169,-0.5 169,-123.5 281,-123.5 281,-0.5 169,-0.5"/>
 <text text-anchor="middle" x="225" y="-111.5" font-family="FreeSans" font-size="10.00">Mgr&lt; EditorManager &gt;</text>
 <polyline fill="none" stroke="black" points="169,-104.5 281,-104.5 "/>
@@ -67,7 +67,7 @@
 </g>
 <!-- Node7 -->
 <g id="node7" class="node"><title>Node7</title>
-<g id="a_node7"><a xlink:href="structEditorManagerInternalData.xhtml" target="_top" xlink:title="{EditorManagerInternalData\n|+ m_SetFocusFlag\l+ m_SelectionClipboard\l|+ EditorManagerInternalData()\l}">
+<g id="a_node7"><a xlink:href="structEditorManagerInternalData" target="_top" xlink:title=" struct EditorManagerInternalData * This is the private data holder for the EditorManager * All data ...">
 <polygon fill="white" stroke="black" points="304,-28 304,-96 450,-96 450,-28 304,-28"/>
 <text text-anchor="middle" x="377" y="-84" font-family="FreeSans" font-size="10.00">EditorManagerInternalData</text>
 <polyline fill="none" stroke="black" points="304,-77 450,-77 "/>
@@ -105,7 +105,7 @@
 </g>
 <!-- Node4 -->
 <g id="node4" class="node"><title>Node4</title>
-<g id="a_node4"><a xlink:href="classcbAuiNotebook.xhtml" target="_top" xlink:title="A notebook class This class is derived from wxAuiNotebook, to enhance its abilities. It adds the ability to store (and restore) the visible tab&#45;order, because wxAuiNotebook&#45;tabs can be reordered with drag and drop. Another added feature is the possibility to add tooltips to the tabs belonging to added panes. ">
+<g id="a_node4"><a xlink:href="classcbAuiNotebook" target="_top" xlink:title="A notebook class This class is derived from wxAuiNotebook, to enhance its abilities. ">
 <polygon fill="white" stroke="black" points="92,-540.5 92,-993.5 244,-993.5 244,-540.5 92,-540.5"/>
 <text text-anchor="middle" x="168" y="-981.5" font-family="FreeSans" font-size="10.00">cbAuiNotebook</text>
 <polyline fill="none" stroke="black" points="92,-974.5 244,-974.5 "/>
@@ -173,7 +173,7 @@
 </g>
 <!-- Node6 -->
 <g id="node6" class="node"><title>Node6</title>
-<g id="a_node6"><a xlink:href="classEditorColourSet.xhtml" target="_top" xlink:title="{EditorColourSet\n|&#45; m_Name\l&#45; m_Sets\l|+ EditorColourSet()\l+ EditorColourSet()\l+ ~EditorColourSet()\l+ AddHighlightLanguage()\l+ GetHighlightLanguage()\l+ GetHighlightLanguage()\l+ GetAllHighlightLanguages()\l+ AddOption()\land 28 more...\l&#45; DoApplyStyle()\l&#45; LoadAvailableSets()\l&#45; Load()\l&#45; ClearAllOptionColours()\l&#45; GetDefaultOption()\l}">
+<g id="a_node6"><a xlink:href="classEditorColourSet" target="_top" xlink:title="{EditorColourSet\n|&#45; m_Name\l&#45; m_Sets\l|+ EditorColourSet()\l+ EditorColourSet()\l+ ~EditorColourSet()\l+ AddHighlightLanguage()\l+ GetHighlightLanguage()\l+ GetHighlightLanguage()\l+ GetAllHighlightLanguages()\l+ AddOption()\land 28 more...\l&#45; DoApplyStyle()\l&#45; LoadAvailableSets()\l&#45; Load()\l&#45; ClearAllOptionColours()\l&#45; GetDefaultOption()\l}">
 <polygon fill="white" stroke="black" points="262,-661.5 262,-872.5 404,-872.5 404,-661.5 262,-661.5"/>
 <text text-anchor="middle" x="333" y="-860.5" font-family="FreeSans" font-size="10.00">EditorColourSet</text>
 <polyline fill="none" stroke="black" points="262,-853.5 404,-853.5 "/>
@@ -211,7 +211,7 @@
 </g>
 <!-- Node8 -->
 <g id="node8" class="node"><title>Node8</title>
-<g id="a_node8"><a xlink:href="structcbNotebookStack.xhtml" target="_top" xlink:title="{cbNotebookStack\n|+ window\l|+ cbNotebookStack()\l}">
+<g id="a_node8"><a xlink:href="structcbNotebookStack" target="_top" xlink:title="{cbNotebookStack\n|+ window\l|+ cbNotebookStack()\l}">
 <polygon fill="white" stroke="black" points="422,-738.5 422,-795.5 530,-795.5 530,-738.5 422,-738.5"/>
 <text text-anchor="middle" x="476" y="-783.5" font-family="FreeSans" font-size="10.00">cbNotebookStack</text>
 <polyline fill="none" stroke="black" points="422,-776.5 530,-776.5 "/>

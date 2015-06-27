@@ -43,7 +43,7 @@
 </g>
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
-<g id="a_node2"><a xlink:href="classMgr.xhtml" target="_top" xlink:title="{Mgr\&lt; ProjectManager \&gt;\n|&#45; isShutdown\l|+ Valid()\l+ Get()\l+ Free()\l# Mgr()\l# ~Mgr()\l&#45; Mgr()\l&#45; operator=()\l}">
+<g id="a_node2"><a xlink:href="classMgr" target="_top" xlink:title="{Mgr\&lt; ProjectManager \&gt;\n|&#45; isShutdown\l|+ Valid()\l+ Get()\l+ Free()\l# Mgr()\l# ~Mgr()\l&#45; Mgr()\l&#45; operator=()\l}">
 <polygon fill="white" stroke="black" points="345,-0.5 345,-123.5 463,-123.5 463,-0.5 345,-0.5"/>
 <text text-anchor="middle" x="404" y="-111.5" font-family="FreeSans" font-size="10.00">Mgr&lt; ProjectManager &gt;</text>
 <polyline fill="none" stroke="black" points="345,-104.5 463,-104.5 "/>
@@ -86,7 +86,7 @@
 </g>
 <!-- Node12 -->
 <g id="node12" class="node"><title>Node12</title>
-<g id="a_node12"><a xlink:href="classcbPlugin.xhtml" target="_top" xlink:title="Base class for plugins This is the most basic class a plugin must descend from. cbPlugin descends fro...">
+<g id="a_node12"><a xlink:href="classcbPlugin" target="_top" xlink:title="Base class for plugins This is the most basic class a plugin must descend from. ">
 <polygon fill="white" stroke="black" points="478,-590 478,-801 636,-801 636,-590 478,-590"/>
 <text text-anchor="middle" x="557" y="-789" font-family="FreeSans" font-size="10.00">cbPlugin</text>
 <polyline fill="none" stroke="black" points="478,-782 636,-782 "/>
@@ -117,7 +117,7 @@
 </g>
 <!-- Node4 -->
 <g id="node4" class="node"><title>Node4</title>
-<g id="a_node4"><a xlink:href="classcbWorkspace.xhtml" target="_top" xlink:title="A workspace class. ">
+<g id="a_node4"><a xlink:href="classcbWorkspace" target="_top" xlink:title="A workspace class. ">
 <polygon fill="white" stroke="black" points="294,-584.5 294,-806.5 422,-806.5 422,-584.5 294,-584.5"/>
 <text text-anchor="middle" x="358" y="-794.5" font-family="FreeSans" font-size="10.00">cbWorkspace</text>
 <polyline fill="none" stroke="black" points="294,-787.5 422,-787.5 "/>
@@ -150,7 +150,7 @@
 </g>
 <!-- Node5 -->
 <g id="node5" class="node"><title>Node5</title>
-<g id="a_node5"><a xlink:href="classcbProject.xhtml" target="_top" xlink:title="Represents a Code::Blocks project. ">
+<g id="a_node5"><a xlink:href="classcbProject" target="_top" xlink:title="Represents a Code::Blocks project. ">
 <polygon fill="white" stroke="black" points="735,-540.5 735,-850.5 905,-850.5 905,-540.5 735,-540.5"/>
 <text text-anchor="middle" x="820" y="-838.5" font-family="FreeSans" font-size="10.00">cbProject</text>
 <polyline fill="none" stroke="black" points="735,-831.5 905,-831.5 "/>
@@ -192,7 +192,7 @@
 </g>
 <!-- Node11 -->
 <g id="node11" class="node"><title>Node11</title>
-<g id="a_node11"><a xlink:href="classProjectBuildTarget.xhtml" target="_top" xlink:title="{ProjectBuildTarget\n|&#45; m_ExternalDeps\l&#45; m_AdditionalOutputFiles\l&#45; m_TargetDeps\l&#45; m_Files\l&#45; m_FileArray\l&#45; m_BuildWithAll\l&#45; m_CreateStaticLib\l&#45; m_CreateDefFile\l&#45; m_UseConsoleRunner\l|+ ProjectBuildTarget()\l+ ~ProjectBuildTarget()\l+ GetParentProject()\l+ GetFullTitle()\l+ GetExternalDeps()\l+ SetExternalDeps()\l+ GetAdditionalOutputFiles()\l+ SetAdditionalOutputFiles()\land 15 more...\l}">
+<g id="a_node11"><a xlink:href="classProjectBuildTarget" target="_top" xlink:title="Represents a Code::Blocks project build target. ">
 <polygon fill="white" stroke="black" points="752.5,-210 752.5,-443 891.5,-443 891.5,-210 752.5,-210"/>
 <text text-anchor="middle" x="822" y="-431" font-family="FreeSans" font-size="10.00">ProjectBuildTarget</text>
 <polyline fill="none" stroke="black" points="752.5,-424 891.5,-424 "/>
@@ -226,7 +226,7 @@
 </g>
 <!-- Node6 -->
 <g id="node6" class="node"><title>Node6</title>
-<g id="a_node6"><a xlink:href="classCompileTargetBase.xhtml" target="_top" xlink:title="Base class for build target classes Each Code::Blocks project consists of at least one target...">
+<g id="a_node6"><a xlink:href="classCompileTargetBase" target="_top" xlink:title="Base class for build target classes Each Code::Blocks project consists of at least one target...">
 <polygon fill="white" stroke="black" points="592.5,-898.5 592.5,-1164.5 747.5,-1164.5 747.5,-898.5 592.5,-898.5"/>
 <text text-anchor="middle" x="670" y="-1152.5" font-family="FreeSans" font-size="10.00">CompileTargetBase</text>
 <polyline fill="none" stroke="black" points="592.5,-1145.5 747.5,-1145.5 "/>
@@ -267,7 +267,7 @@
 </g>
 <!-- Node7 -->
 <g id="node7" class="node"><title>Node7</title>
-<g id="a_node7"><a xlink:href="classCompileOptionsBase.xhtml" target="_top" xlink:title="{CompileOptionsBase\n|# m_Platform\l# m_LinkerOptions\l# m_LinkLibs\l# m_CompilerOptions\l# m_ResourceCompilerOptions\l# m_IncludeDirs\l# m_ResIncludeDirs\l# m_LibDirs\land 6 more...\l|+ CompileOptionsBase()\l+ ~CompileOptionsBase()\l+ AddPlatform()\l+ RemovePlatform()\l+ SetPlatforms()\l+ GetPlatforms()\l+ SupportsCurrentPlatform()\l+ SetLinkerOptions()\land 56 more...\l}">
+<g id="a_node7"><a xlink:href="classCompileOptionsBase" target="_top" xlink:title="This is a base class for all classes needing compilation parameters. ">
 <polygon fill="white" stroke="black" points="595.5,-1212.5 595.5,-1445.5 744.5,-1445.5 744.5,-1212.5 595.5,-1212.5"/>
 <text text-anchor="middle" x="670" y="-1433.5" font-family="FreeSans" font-size="10.00">CompileOptionsBase</text>
 <polyline fill="none" stroke="black" points="595.5,-1426.5 744.5,-1426.5 "/>
@@ -333,7 +333,7 @@
 </g>
 <!-- Node10 -->
 <g id="node10" class="node"><title>Node10</title>
-<g id="a_node10"><a xlink:href="structcbProject_1_1Glob.xhtml" target="_top" xlink:title="{cbProject::Glob\n|+ m_Path\l+ m_WildCard\l+ m_Recursive\l|+ Glob()\l}">
+<g id="a_node10"><a xlink:href="structcbProject_1_1Glob" target="_top" xlink:title="{cbProject::Glob\n|+ m_Path\l+ m_WildCard\l+ m_Recursive\l|+ Glob()\l}">
 <polygon fill="white" stroke="black" points="899.5,-1289.5 899.5,-1368.5 982.5,-1368.5 982.5,-1289.5 899.5,-1289.5"/>
 <text text-anchor="middle" x="941" y="-1356.5" font-family="FreeSans" font-size="10.00">cbProject::Glob</text>
 <polyline fill="none" stroke="black" points="899.5,-1349.5 982.5,-1349.5 "/>
@@ -365,7 +365,7 @@
 </g>
 <!-- Node13 -->
 <g id="node13" class="node"><title>Node13</title>
-<g id="a_node13"><a xlink:href="classFilesGroupsAndMasks.xhtml" target="_top" xlink:title="{FilesGroupsAndMasks\n|&#45; m_Groups\l|+ FilesGroupsAndMasks()\l+ FilesGroupsAndMasks()\l+ ~FilesGroupsAndMasks()\l+ CopyFrom()\l+ SetDefault()\l+ Save()\l+ Clear()\l+ AddGroup()\land 7 more...\l&#45; Load()\l}">
+<g id="a_node13"><a xlink:href="classFilesGroupsAndMasks" target="_top" xlink:title="{FilesGroupsAndMasks\n|&#45; m_Groups\l|+ FilesGroupsAndMasks()\l+ FilesGroupsAndMasks()\l+ ~FilesGroupsAndMasks()\l+ CopyFrom()\l+ SetDefault()\l+ Save()\l+ Clear()\l+ AddGroup()\land 7 more...\l&#45; Load()\l}">
 <polygon fill="white" stroke="black" points="0,-617.5 0,-773.5 132,-773.5 132,-617.5 0,-617.5"/>
 <text text-anchor="middle" x="66" y="-761.5" font-family="FreeSans" font-size="10.00">FilesGroupsAndMasks</text>
 <polyline fill="none" stroke="black" points="0,-754.5 132,-754.5 "/>
@@ -392,7 +392,7 @@
 </g>
 <!-- Node14 -->
 <g id="node14" class="node"><title>Node14</title>
-<g id="a_node14"><a xlink:href="classcbProjectManagerUI.xhtml" target="_top" xlink:title="{cbProjectManagerUI\n||+ ~cbProjectManagerUI()\l+ GetNotebook()\l+ GetTree()\l+ RebuildTree()\l+ FreezeTree()\l+ UnfreezeTree()\l+ GetTreeSelection()\l+ ShowFileInTree()\land 13 more...\l}">
+<g id="a_node14"><a xlink:href="classcbProjectManagerUI" target="_top" xlink:title="{cbProjectManagerUI\n||+ ~cbProjectManagerUI()\l+ GetNotebook()\l+ GetTree()\l+ RebuildTree()\l+ FreezeTree()\l+ UnfreezeTree()\l+ GetTreeSelection()\l+ ShowFileInTree()\land 13 more...\l}">
 <polygon fill="white" stroke="black" points="150.5,-623 150.5,-768 275.5,-768 275.5,-623 150.5,-623"/>
 <text text-anchor="middle" x="213" y="-756" font-family="FreeSans" font-size="10.00">cbProjectManagerUI</text>
 <polyline fill="none" stroke="black" points="150.5,-749 275.5,-749 "/>

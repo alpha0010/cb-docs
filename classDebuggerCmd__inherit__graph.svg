@@ -26,7 +26,7 @@
 </g>
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
-<g id="a_node2"><a xlink:href="classCdbCmd__AddBreakpoint.xhtml" target="_top" xlink:title="{CdbCmd_AddBreakpoint\n|+ m_BP\l&#45; m_lastIndex\l|+ CdbCmd_AddBreakpoint()\l+ ParseOutput()\l}">
+<g id="a_node2"><a xlink:href="classCdbCmd__AddBreakpoint" target="_top" xlink:title="Command to add a breakpoint. ">
 <polygon fill="white" stroke="black" points="0,-127.5 0,-206.5 137,-206.5 137,-127.5 0,-127.5"/>
 <text text-anchor="middle" x="68.5" y="-194.5" font-family="FreeSans" font-size="10.00">CdbCmd_AddBreakpoint</text>
 <polyline fill="none" stroke="black" points="0,-187.5 137,-187.5 "/>
@@ -45,7 +45,7 @@
 </g>
 <!-- Node3 -->
 <g id="node3" class="node"><title>Node3</title>
-<g id="a_node3"><a xlink:href="classCdbCmd__AddSourceDir.xhtml" target="_top" xlink:title="{CdbCmd_AddSourceDir\n||+ CdbCmd_AddSourceDir()\l+ ParseOutput()\l}">
+<g id="a_node3"><a xlink:href="classCdbCmd__AddSourceDir" target="_top" xlink:title="Command to add a search directory for source files in debugger&#39;s paths. ">
 <polygon fill="white" stroke="black" points="155.5,-133 155.5,-201 289.5,-201 289.5,-133 155.5,-133"/>
 <text text-anchor="middle" x="222.5" y="-189" font-family="FreeSans" font-size="10.00">CdbCmd_AddSourceDir</text>
 <polyline fill="none" stroke="black" points="155.5,-182 289.5,-182 "/>
@@ -63,7 +63,7 @@
 </g>
 <!-- Node4 -->
 <g id="node4" class="node"><title>Node4</title>
-<g id="a_node4"><a xlink:href="classCdbCmd__AddSymbolFile.xhtml" target="_top" xlink:title="{CdbCmd_AddSymbolFile\n||+ CdbCmd_AddSymbolFile()\l+ ParseOutput()\l}">
+<g id="a_node4"><a xlink:href="classCdbCmd__AddSymbolFile" target="_top" xlink:title="Command to the add symbol files. ">
 <polygon fill="white" stroke="black" points="308,-133 308,-201 447,-201 447,-133 308,-133"/>
 <text text-anchor="middle" x="377.5" y="-189" font-family="FreeSans" font-size="10.00">CdbCmd_AddSymbolFile</text>
 <polyline fill="none" stroke="black" points="308,-182 447,-182 "/>
@@ -81,7 +81,7 @@
 </g>
 <!-- Node5 -->
 <g id="node5" class="node"><title>Node5</title>
-<g id="a_node5"><a xlink:href="classCdbCmd__AttachToProcess.xhtml" target="_top" xlink:title="{CdbCmd_AttachToProcess\n|&#45; m_pid\l|+ CdbCmd_AttachToProcess()\l+ ParseOutput()\l}">
+<g id="a_node5"><a xlink:href="classCdbCmd__AttachToProcess" target="_top" xlink:title="Command to the attach to a process. ">
 <polygon fill="white" stroke="black" points="465.5,-133 465.5,-201 613.5,-201 613.5,-133 465.5,-133"/>
 <text text-anchor="middle" x="539.5" y="-189" font-family="FreeSans" font-size="10.00">CdbCmd_AttachToProcess</text>
 <polyline fill="none" stroke="black" points="465.5,-182 613.5,-182 "/>
@@ -99,7 +99,7 @@
 </g>
 <!-- Node6 -->
 <g id="node6" class="node"><title>Node6</title>
-<g id="a_node6"><a xlink:href="classCdbCmd__Backtrace.xhtml" target="_top" xlink:title="{CdbCmd_Backtrace\n|&#45; m_SwitchToFirst\l|+ CdbCmd_Backtrace()\l+ ParseOutput()\l}">
+<g id="a_node6"><a xlink:href="classCdbCmd__Backtrace" target="_top" xlink:title="Command to run a backtrace. ">
 <polygon fill="white" stroke="black" points="631.5,-133 631.5,-201 749.5,-201 749.5,-133 631.5,-133"/>
 <text text-anchor="middle" x="690.5" y="-189" font-family="FreeSans" font-size="10.00">CdbCmd_Backtrace</text>
 <polyline fill="none" stroke="black" points="631.5,-182 749.5,-182 "/>
@@ -117,7 +117,7 @@
 </g>
 <!-- Node7 -->
 <g id="node7" class="node"><title>Node7</title>
-<g id="a_node7"><a xlink:href="classCdbCmd__Detach.xhtml" target="_top" xlink:title="{CdbCmd_Detach\n||+ CdbCmd_Detach()\l+ ParseOutput()\l}">
+<g id="a_node7"><a xlink:href="classCdbCmd__Detach" target="_top" xlink:title="Command to the detach from the process. ">
 <polygon fill="white" stroke="black" points="767.5,-133 767.5,-201 871.5,-201 871.5,-133 767.5,-133"/>
 <text text-anchor="middle" x="819.5" y="-189" font-family="FreeSans" font-size="10.00">CdbCmd_Detach</text>
 <polyline fill="none" stroke="black" points="767.5,-182 871.5,-182 "/>
@@ -135,7 +135,7 @@
 </g>
 <!-- Node8 -->
 <g id="node8" class="node"><title>Node8</title>
-<g id="a_node8"><a xlink:href="classCdbCmd__Disassembly.xhtml" target="_top" xlink:title="{CdbCmd_Disassembly\n||+ CdbCmd_Disassembly()\l+ ParseOutput()\l}">
+<g id="a_node8"><a xlink:href="classCdbCmd__Disassembly" target="_top" xlink:title="Command to run a disassembly. ">
 <polygon fill="white" stroke="black" points="890,-133 890,-201 1017,-201 1017,-133 890,-133"/>
 <text text-anchor="middle" x="953.5" y="-189" font-family="FreeSans" font-size="10.00">CdbCmd_Disassembly</text>
 <polyline fill="none" stroke="black" points="890,-182 1017,-182 "/>
@@ -153,7 +153,7 @@
 </g>
 <!-- Node9 -->
 <g id="node9" class="node"><title>Node9</title>
-<g id="a_node9"><a xlink:href="classCdbCmd__DisassemblyInit.xhtml" target="_top" xlink:title="{CdbCmd_DisassemblyInit\n|&#45; LastAddr\l|+ CdbCmd_DisassemblyInit()\l+ ParseOutput()\l}">
+<g id="a_node9"><a xlink:href="classCdbCmd__DisassemblyInit" target="_top" xlink:title="Command to run a disassembly. ">
 <polygon fill="white" stroke="black" points="1035.5,-133 1035.5,-201 1175.5,-201 1175.5,-133 1035.5,-133"/>
 <text text-anchor="middle" x="1105.5" y="-189" font-family="FreeSans" font-size="10.00">CdbCmd_DisassemblyInit</text>
 <polyline fill="none" stroke="black" points="1035.5,-182 1175.5,-182 "/>
@@ -171,7 +171,7 @@
 </g>
 <!-- Node10 -->
 <g id="node10" class="node"><title>Node10</title>
-<g id="a_node10"><a xlink:href="classCdbCmd__GetPID.xhtml" target="_top" xlink:title="{CdbCmd_GetPID\n||+ CdbCmd_GetPID()\l+ ParseOutput()\l}">
+<g id="a_node10"><a xlink:href="classCdbCmd__GetPID" target="_top" xlink:title="Command to find the PID of the active child. ">
 <polygon fill="white" stroke="black" points="1193.5,-133 1193.5,-201 1299.5,-201 1299.5,-133 1193.5,-133"/>
 <text text-anchor="middle" x="1246.5" y="-189" font-family="FreeSans" font-size="10.00">CdbCmd_GetPID</text>
 <polyline fill="none" stroke="black" points="1193.5,-182 1299.5,-182 "/>
@@ -189,7 +189,7 @@
 </g>
 <!-- Node11 -->
 <g id="node11" class="node"><title>Node11</title>
-<g id="a_node11"><a xlink:href="classCdbCmd__InfoRegisters.xhtml" target="_top" xlink:title="{CdbCmd_InfoRegisters\n||+ CdbCmd_InfoRegisters()\l+ ParseOutput()\l}">
+<g id="a_node11"><a xlink:href="classCdbCmd__InfoRegisters" target="_top" xlink:title="Command to run a disassembly. ">
 <polygon fill="white" stroke="black" points="1317.5,-133 1317.5,-201 1447.5,-201 1447.5,-133 1317.5,-133"/>
 <text text-anchor="middle" x="1382.5" y="-189" font-family="FreeSans" font-size="10.00">CdbCmd_InfoRegisters</text>
 <polyline fill="none" stroke="black" points="1317.5,-182 1447.5,-182 "/>
@@ -207,7 +207,7 @@
 </g>
 <!-- Node12 -->
 <g id="node12" class="node"><title>Node12</title>
-<g id="a_node12"><a xlink:href="classCdbCmd__RemoveBreakpoint.xhtml" target="_top" xlink:title="{CdbCmd_RemoveBreakpoint\n|+ m_BP\l|+ CdbCmd_RemoveBreakpoint()\l+ ParseOutput()\l}">
+<g id="a_node12"><a xlink:href="classCdbCmd__RemoveBreakpoint" target="_top" xlink:title="Command to remove a breakpoint. ">
 <polygon fill="white" stroke="black" points="1466,-133 1466,-201 1621,-201 1621,-133 1466,-133"/>
 <text text-anchor="middle" x="1543.5" y="-189" font-family="FreeSans" font-size="10.00">CdbCmd_RemoveBreakpoint</text>
 <polyline fill="none" stroke="black" points="1466,-182 1621,-182 "/>
@@ -225,7 +225,7 @@
 </g>
 <!-- Node13 -->
 <g id="node13" class="node"><title>Node13</title>
-<g id="a_node13"><a xlink:href="classCdbCmd__SetArguments.xhtml" target="_top" xlink:title="{CdbCmd_SetArguments\n||+ CdbCmd_SetArguments()\l+ ParseOutput()\l}">
+<g id="a_node13"><a xlink:href="classCdbCmd__SetArguments" target="_top" xlink:title="Command to set the arguments to the debuggee. ">
 <polygon fill="white" stroke="black" points="1639,-133 1639,-201 1774,-201 1774,-133 1639,-133"/>
 <text text-anchor="middle" x="1706.5" y="-189" font-family="FreeSans" font-size="10.00">CdbCmd_SetArguments</text>
 <polyline fill="none" stroke="black" points="1639,-182 1774,-182 "/>
@@ -243,7 +243,7 @@
 </g>
 <!-- Node14 -->
 <g id="node14" class="node"><title>Node14</title>
-<g id="a_node14"><a xlink:href="classCdbCmd__SetDebuggee.xhtml" target="_top" xlink:title="{CdbCmd_SetDebuggee\n||+ CdbCmd_SetDebuggee()\l+ ParseOutput()\l}">
+<g id="a_node14"><a xlink:href="classCdbCmd__SetDebuggee" target="_top" xlink:title="Command to the set the file to be debugged. ">
 <polygon fill="white" stroke="black" points="1792.5,-133 1792.5,-201 1924.5,-201 1924.5,-133 1792.5,-133"/>
 <text text-anchor="middle" x="1858.5" y="-189" font-family="FreeSans" font-size="10.00">CdbCmd_SetDebuggee</text>
 <polyline fill="none" stroke="black" points="1792.5,-182 1924.5,-182 "/>
@@ -261,7 +261,7 @@
 </g>
 <!-- Node15 -->
 <g id="node15" class="node"><title>Node15</title>
-<g id="a_node15"><a xlink:href="classCdbCmd__SwitchFrame.xhtml" target="_top" xlink:title="{CdbCmd_SwitchFrame\n||+ CdbCmd_SwitchFrame()\l+ ParseOutput()\l}">
+<g id="a_node15"><a xlink:href="classCdbCmd__SwitchFrame" target="_top" xlink:title="{CdbCmd_SwitchFrame\n||+ CdbCmd_SwitchFrame()\l+ ParseOutput()\l}">
 <polygon fill="white" stroke="black" points="1943,-133 1943,-201 2074,-201 2074,-133 1943,-133"/>
 <text text-anchor="middle" x="2008.5" y="-189" font-family="FreeSans" font-size="10.00">CdbCmd_SwitchFrame</text>
 <polyline fill="none" stroke="black" points="1943,-182 2074,-182 "/>
@@ -279,7 +279,7 @@
 </g>
 <!-- Node16 -->
 <g id="node16" class="node"><title>Node16</title>
-<g id="a_node16"><a xlink:href="classCdbCmd__TooltipEvaluation.xhtml" target="_top" xlink:title="{CdbCmd_TooltipEvaluation\n|&#45; m_pWin\l&#45; m_WinRect\l&#45; m_What\l|+ CdbCmd_TooltipEvaluation()\l+ ParseOutput()\l}">
+<g id="a_node16"><a xlink:href="classCdbCmd__TooltipEvaluation" target="_top" xlink:title="Command to display a tooltip about a variables value. ">
 <polygon fill="white" stroke="black" points="2092,-122 2092,-212 2239,-212 2239,-122 2092,-122"/>
 <text text-anchor="middle" x="2165.5" y="-200" font-family="FreeSans" font-size="10.00">CdbCmd_TooltipEvaluation</text>
 <polyline fill="none" stroke="black" points="2092,-193 2239,-193 "/>
@@ -299,7 +299,7 @@
 </g>
 <!-- Node17 -->
 <g id="node17" class="node"><title>Node17</title>
-<g id="a_node17"><a xlink:href="classCdbCmd__Watch.xhtml" target="_top" xlink:title="{CdbCmd_Watch\n|&#45; m_watch\l|+ CdbCmd_Watch()\l+ ParseOutput()\l}">
+<g id="a_node17"><a xlink:href="classCdbCmd__Watch" target="_top" xlink:title="Command to get info about a watched variable. ">
 <polygon fill="white" stroke="black" points="2257,-133 2257,-201 2358,-201 2358,-133 2257,-133"/>
 <text text-anchor="middle" x="2307.5" y="-189" font-family="FreeSans" font-size="10.00">CdbCmd_Watch</text>
 <polyline fill="none" stroke="black" points="2257,-182 2358,-182 "/>
@@ -317,7 +317,7 @@
 </g>
 <!-- Node18 -->
 <g id="node18" class="node"><title>Node18</title>
-<g id="a_node18"><a xlink:href="classDbgCmd__UpdateWatchesTree.xhtml" target="_top" xlink:title="{DbgCmd_UpdateWatchesTree\n||+ DbgCmd_UpdateWatchesTree()\l+ ~DbgCmd_UpdateWatchesTree()\l+ Action()\l}">
+<g id="a_node18"><a xlink:href="classDbgCmd__UpdateWatchesTree" target="_top" xlink:title="Action&#45;only debugger command to signal the watches tree to update. ">
 <polygon fill="white" stroke="black" points="2376,-127.5 2376,-206.5 2543,-206.5 2543,-127.5 2376,-127.5"/>
 <text text-anchor="middle" x="2459.5" y="-194.5" font-family="FreeSans" font-size="10.00">DbgCmd_UpdateWatchesTree</text>
 <polyline fill="none" stroke="black" points="2376,-187.5 2543,-187.5 "/>
@@ -336,7 +336,7 @@
 </g>
 <!-- Node19 -->
 <g id="node19" class="node"><title>Node19</title>
-<g id="a_node19"><a xlink:href="classDebuggerContinueBaseCmd.xhtml" target="_top" xlink:title="{DebuggerContinueBaseCmd\n||+ DebuggerContinueBaseCmd()\l+ IsContinueCommand()\l}">
+<g id="a_node19"><a xlink:href="classDebuggerContinueBaseCmd" target="_top" xlink:title="Base class for all Continue type of commands. ">
 <polygon fill="white" stroke="red" points="2561.5,-133 2561.5,-201 2713.5,-201 2713.5,-133 2561.5,-133"/>
 <text text-anchor="middle" x="2637.5" y="-189" font-family="FreeSans" font-size="10.00">DebuggerContinueBaseCmd</text>
 <polyline fill="none" stroke="red" points="2561.5,-182 2713.5,-182 "/>
@@ -354,7 +354,7 @@
 </g>
 <!-- Node21 -->
 <g id="node21" class="node"><title>Node21</title>
-<g id="a_node21"><a xlink:href="classDebuggerInfoCmd.xhtml" target="_top" xlink:title="{DebuggerInfoCmd\n|+ m_Title\l|+ DebuggerInfoCmd()\l+ ~DebuggerInfoCmd()\l+ ParseOutput()\l}">
+<g id="a_node21"><a xlink:href="classDebuggerInfoCmd" target="_top" xlink:title="This command is similar to DebuggerCmd The only difference is that instead of logging its output in t...">
 <polygon fill="white" stroke="black" points="2731.5,-127.5 2731.5,-206.5 2845.5,-206.5 2845.5,-127.5 2731.5,-127.5"/>
 <text text-anchor="middle" x="2788.5" y="-194.5" font-family="FreeSans" font-size="10.00">DebuggerInfoCmd</text>
 <polyline fill="none" stroke="black" points="2731.5,-187.5 2845.5,-187.5 "/>
@@ -373,7 +373,7 @@
 </g>
 <!-- Node22 -->
 <g id="node22" class="node"><title>Node22</title>
-<g id="a_node22"><a xlink:href="classGdbCmd__AddBreakpoint.xhtml" target="_top" xlink:title="{GdbCmd_AddBreakpoint\n|&#45; m_BP\l|+ GdbCmd_AddBreakpoint()\l+ ParseOutput()\l}">
+<g id="a_node22"><a xlink:href="classGdbCmd__AddBreakpoint" target="_top" xlink:title="Command to add a breakpoint. ">
 <polygon fill="white" stroke="black" points="2863.5,-133 2863.5,-201 3001.5,-201 3001.5,-133 2863.5,-133"/>
 <text text-anchor="middle" x="2932.5" y="-189" font-family="FreeSans" font-size="10.00">GdbCmd_AddBreakpoint</text>
 <polyline fill="none" stroke="black" points="2863.5,-182 3001.5,-182 "/>
@@ -391,7 +391,7 @@
 </g>
 <!-- Node23 -->
 <g id="node23" class="node"><title>Node23</title>
-<g id="a_node23"><a xlink:href="classGdbCmd__AddBreakpointCondition.xhtml" target="_top" xlink:title="{GdbCmd_AddBreakpointCondition\n|&#45; m_BP\l|+ GdbCmd_AddBreakpointCondition()\l+ ParseOutput()\l}">
+<g id="a_node23"><a xlink:href="classGdbCmd__AddBreakpointCondition" target="_top" xlink:title="Utility command to set a breakpoint condition. ">
 <polygon fill="white" stroke="black" points="3020,-133 3020,-201 3199,-201 3199,-133 3020,-133"/>
 <text text-anchor="middle" x="3109.5" y="-189" font-family="FreeSans" font-size="10.00">GdbCmd_AddBreakpointCondition</text>
 <polyline fill="none" stroke="black" points="3020,-182 3199,-182 "/>
@@ -409,7 +409,7 @@
 </g>
 <!-- Node24 -->
 <g id="node24" class="node"><title>Node24</title>
-<g id="a_node24"><a xlink:href="classGdbCmd__AddDataBreakpoint.xhtml" target="_top" xlink:title="{GdbCmd_AddDataBreakpoint\n|&#45; m_BP\l|+ GdbCmd_AddDataBreakpoint()\l+ ParseOutput()\l}">
+<g id="a_node24"><a xlink:href="classGdbCmd__AddDataBreakpoint" target="_top" xlink:title="Command to add a data breakpoint. ">
 <polygon fill="white" stroke="black" points="3217.5,-133 3217.5,-201 3375.5,-201 3375.5,-133 3217.5,-133"/>
 <text text-anchor="middle" x="3296.5" y="-189" font-family="FreeSans" font-size="10.00">GdbCmd_AddDataBreakpoint</text>
 <polyline fill="none" stroke="black" points="3217.5,-182 3375.5,-182 "/>
@@ -427,7 +427,7 @@
 </g>
 <!-- Node25 -->
 <g id="node25" class="node"><title>Node25</title>
-<g id="a_node25"><a xlink:href="classGdbCmd__AddSourceDir.xhtml" target="_top" xlink:title="{GdbCmd_AddSourceDir\n||+ GdbCmd_AddSourceDir()\l+ ParseOutput()\l}">
+<g id="a_node25"><a xlink:href="classGdbCmd__AddSourceDir" target="_top" xlink:title="Command to add a search directory for source files in debugger&#39;s paths. ">
 <polygon fill="white" stroke="black" points="3393.5,-133 3393.5,-201 3527.5,-201 3527.5,-133 3393.5,-133"/>
 <text text-anchor="middle" x="3460.5" y="-189" font-family="FreeSans" font-size="10.00">GdbCmd_AddSourceDir</text>
 <polyline fill="none" stroke="black" points="3393.5,-182 3527.5,-182 "/>
@@ -445,7 +445,7 @@
 </g>
 <!-- Node26 -->
 <g id="node26" class="node"><title>Node26</title>
-<g id="a_node26"><a xlink:href="classGdbCmd__AddSymbolFile.xhtml" target="_top" xlink:title="{GdbCmd_AddSymbolFile\n||+ GdbCmd_AddSymbolFile()\l+ ParseOutput()\l}">
+<g id="a_node26"><a xlink:href="classGdbCmd__AddSymbolFile" target="_top" xlink:title="Command to the add symbol files. ">
 <polygon fill="white" stroke="black" points="3545.5,-133 3545.5,-201 3685.5,-201 3685.5,-133 3545.5,-133"/>
 <text text-anchor="middle" x="3615.5" y="-189" font-family="FreeSans" font-size="10.00">GdbCmd_AddSymbolFile</text>
 <polyline fill="none" stroke="black" points="3545.5,-182 3685.5,-182 "/>
@@ -463,7 +463,7 @@
 </g>
 <!-- Node27 -->
 <g id="node27" class="node"><title>Node27</title>
-<g id="a_node27"><a xlink:href="classGdbCmd__AttachToProcess.xhtml" target="_top" xlink:title="{GdbCmd_AttachToProcess\n||+ GdbCmd_AttachToProcess()\l+ ParseOutput()\l}">
+<g id="a_node27"><a xlink:href="classGdbCmd__AttachToProcess" target="_top" xlink:title="Command to the attach to a process. ">
 <polygon fill="white" stroke="black" points="3704,-133 3704,-201 3853,-201 3853,-133 3704,-133"/>
 <text text-anchor="middle" x="3778.5" y="-189" font-family="FreeSans" font-size="10.00">GdbCmd_AttachToProcess</text>
 <polyline fill="none" stroke="black" points="3704,-182 3853,-182 "/>
@@ -481,7 +481,7 @@
 </g>
 <!-- Node28 -->
 <g id="node28" class="node"><title>Node28</title>
-<g id="a_node28"><a xlink:href="classGdbCmd__Backtrace.xhtml" target="_top" xlink:title="{GdbCmd_Backtrace\n||+ GdbCmd_Backtrace()\l+ ParseOutput()\l+ MatchLine()\l}">
+<g id="a_node28"><a xlink:href="classGdbCmd__Backtrace" target="_top" xlink:title="Command to run a backtrace. ">
 <polygon fill="white" stroke="black" points="3871,-127.5 3871,-206.5 3990,-206.5 3990,-127.5 3871,-127.5"/>
 <text text-anchor="middle" x="3930.5" y="-194.5" font-family="FreeSans" font-size="10.00">GdbCmd_Backtrace</text>
 <polyline fill="none" stroke="black" points="3871,-187.5 3990,-187.5 "/>
@@ -500,7 +500,7 @@
 </g>
 <!-- Node29 -->
 <g id="node29" class="node"><title>Node29</title>
-<g id="a_node29"><a xlink:href="classGdbCmd__ChangeFrame.xhtml" target="_top" xlink:title="{GdbCmd_ChangeFrame\n|&#45; m_addrchgmode\l|+ AddrChgMode()\l+ GdbCmd_ChangeFrame()\l+ ParseOutput()\l}">
+<g id="a_node29"><a xlink:href="classGdbCmd__ChangeFrame" target="_top" xlink:title="Command to change the current frame. ">
 <polygon fill="white" stroke="black" points="4008,-127.5 4008,-206.5 4143,-206.5 4143,-127.5 4008,-127.5"/>
 <text text-anchor="middle" x="4075.5" y="-194.5" font-family="FreeSans" font-size="10.00">GdbCmd_ChangeFrame</text>
 <polyline fill="none" stroke="black" points="4008,-187.5 4143,-187.5 "/>
@@ -519,7 +519,7 @@
 </g>
 <!-- Node30 -->
 <g id="node30" class="node"><title>Node30</title>
-<g id="a_node30"><a xlink:href="classGdbCmd__Detach.xhtml" target="_top" xlink:title="{GdbCmd_Detach\n||+ GdbCmd_Detach()\l+ ParseOutput()\l}">
+<g id="a_node30"><a xlink:href="classGdbCmd__Detach" target="_top" xlink:title="Command to the detach from the process. ">
 <polygon fill="white" stroke="black" points="4161,-133 4161,-201 4266,-201 4266,-133 4161,-133"/>
 <text text-anchor="middle" x="4213.5" y="-189" font-family="FreeSans" font-size="10.00">GdbCmd_Detach</text>
 <polyline fill="none" stroke="black" points="4161,-182 4266,-182 "/>
@@ -537,7 +537,7 @@
 </g>
 <!-- Node31 -->
 <g id="node31" class="node"><title>Node31</title>
-<g id="a_node31"><a xlink:href="classGdbCmd__Disassembly.xhtml" target="_top" xlink:title="{GdbCmd_Disassembly\n|&#45; m_mixedMode\l|+ GdbCmd_Disassembly()\l+ ParseOutput()\l}">
+<g id="a_node31"><a xlink:href="classGdbCmd__Disassembly" target="_top" xlink:title="Command to run a disassembly. ">
 <polygon fill="white" stroke="black" points="4284.5,-133 4284.5,-201 4412.5,-201 4412.5,-133 4284.5,-133"/>
 <text text-anchor="middle" x="4348.5" y="-189" font-family="FreeSans" font-size="10.00">GdbCmd_Disassembly</text>
 <polyline fill="none" stroke="black" points="4284.5,-182 4412.5,-182 "/>
@@ -555,7 +555,7 @@
 </g>
 <!-- Node32 -->
 <g id="node32" class="node"><title>Node32</title>
-<g id="a_node32"><a xlink:href="classGdbCmd__DisassemblyInit.xhtml" target="_top" xlink:title="{GdbCmd_DisassemblyInit\n|&#45; m_disassemblyFlavor\l&#45; m_hexAddrStr\l&#45; LastAddr\l&#45; LastSymbol\l|+ GdbCmd_DisassemblyInit()\l+ ParseOutput()\l+ Clear()\l}">
+<g id="a_node32"><a xlink:href="classGdbCmd__DisassemblyInit" target="_top" xlink:title="Command to initialize a disassembly. ">
 <polygon fill="white" stroke="black" points="4431,-111 4431,-223 4572,-223 4572,-111 4431,-111"/>
 <text text-anchor="middle" x="4501.5" y="-211" font-family="FreeSans" font-size="10.00">GdbCmd_DisassemblyInit</text>
 <polyline fill="none" stroke="black" points="4431,-204 4572,-204 "/>
@@ -577,7 +577,7 @@
 </g>
 <!-- Node33 -->
 <g id="node33" class="node"><title>Node33</title>
-<g id="a_node33"><a xlink:href="classGdbCmd__ExamineMemory.xhtml" target="_top" xlink:title="{GdbCmd_ExamineMemory\n||+ GdbCmd_ExamineMemory()\l+ ParseOutput()\l}">
+<g id="a_node33"><a xlink:href="classGdbCmd__ExamineMemory" target="_top" xlink:title="Command to examine a memory region. ">
 <polygon fill="white" stroke="black" points="4590.5,-133 4590.5,-201 4736.5,-201 4736.5,-133 4590.5,-133"/>
 <text text-anchor="middle" x="4663.5" y="-189" font-family="FreeSans" font-size="10.00">GdbCmd_ExamineMemory</text>
 <polyline fill="none" stroke="black" points="4590.5,-182 4736.5,-182 "/>
@@ -595,7 +595,7 @@
 </g>
 <!-- Node34 -->
 <g id="node34" class="node"><title>Node34</title>
-<g id="a_node34"><a xlink:href="classGdbCmd__FindCursor.xhtml" target="_top" xlink:title="{GdbCmd_FindCursor\n||+ GdbCmd_FindCursor()\l+ ParseOutput()\l}">
+<g id="a_node34"><a xlink:href="classGdbCmd__FindCursor" target="_top" xlink:title="Command which tries to find the current cursor position. ">
 <polygon fill="white" stroke="black" points="4755,-133 4755,-201 4876,-201 4876,-133 4755,-133"/>
 <text text-anchor="middle" x="4815.5" y="-189" font-family="FreeSans" font-size="10.00">GdbCmd_FindCursor</text>
 <polyline fill="none" stroke="black" points="4755,-182 4876,-182 "/>
@@ -613,7 +613,7 @@
 </g>
 <!-- Node35 -->
 <g id="node35" class="node"><title>Node35</title>
-<g id="a_node35"><a xlink:href="classGdbCmd__FindTooltipAddress.xhtml" target="_top" xlink:title="{GdbCmd_FindTooltipAddress\n|&#45; m_WinRect\l&#45; m_What\l&#45; m_Type\l|+ GdbCmd_FindTooltipAddress()\l+ ParseOutput()\l}">
+<g id="a_node35"><a xlink:href="classGdbCmd__FindTooltipAddress" target="_top" xlink:title="Command to get a symbol&#39;s type and use it for tooltip evaluation. ">
 <polygon fill="white" stroke="black" points="4894,-122 4894,-212 5051,-212 5051,-122 4894,-122"/>
 <text text-anchor="middle" x="4972.5" y="-200" font-family="FreeSans" font-size="10.00">GdbCmd_FindTooltipAddress</text>
 <polyline fill="none" stroke="black" points="4894,-193 5051,-193 "/>
@@ -633,7 +633,7 @@
 </g>
 <!-- Node36 -->
 <g id="node36" class="node"><title>Node36</title>
-<g id="a_node36"><a xlink:href="classGdbCmd__FindTooltipType.xhtml" target="_top" xlink:title="{GdbCmd_FindTooltipType\n|&#45; m_WinRect\l&#45; m_What\l&#45; singleUsage\l|+ GdbCmd_FindTooltipType()\l+ ~GdbCmd_FindTooltipType()\l+ ParseOutput()\l}">
+<g id="a_node36"><a xlink:href="classGdbCmd__FindTooltipType" target="_top" xlink:title="Command to get a symbol&#39;s type and use it for tooltip evaluation. ">
 <polygon fill="white" stroke="black" points="5069,-116.5 5069,-217.5 5218,-217.5 5218,-116.5 5069,-116.5"/>
 <text text-anchor="middle" x="5143.5" y="-205.5" font-family="FreeSans" font-size="10.00">GdbCmd_FindTooltipType</text>
 <polyline fill="none" stroke="black" points="5069,-198.5 5218,-198.5 "/>
@@ -654,7 +654,7 @@
 </g>
 <!-- Node37 -->
 <g id="node37" class="node"><title>Node37</title>
-<g id="a_node37"><a xlink:href="classGdbCmd__FindWatchType.xhtml" target="_top" xlink:title="{GdbCmd_FindWatchType\n|&#45; m_watch\l&#45; m_firstTry\l|+ GdbCmd_FindWatchType()\l+ ParseOutput()\l}">
+<g id="a_node37"><a xlink:href="classGdbCmd__FindWatchType" target="_top" xlink:title="Command to get a watched variable&#39;s type. ">
 <polygon fill="white" stroke="black" points="5236.5,-127.5 5236.5,-206.5 5378.5,-206.5 5378.5,-127.5 5236.5,-127.5"/>
 <text text-anchor="middle" x="5307.5" y="-194.5" font-family="FreeSans" font-size="10.00">GdbCmd_FindWatchType</text>
 <polyline fill="none" stroke="black" points="5236.5,-187.5 5378.5,-187.5 "/>
@@ -673,7 +673,7 @@
 </g>
 <!-- Node38 -->
 <g id="node38" class="node"><title>Node38</title>
-<g id="a_node38"><a xlink:href="classGdbCmd__InfoProgram.xhtml" target="_top" xlink:title="{GdbCmd_InfoProgram\n||+ GdbCmd_InfoProgram()\l+ ParseOutput()\l}">
+<g id="a_node38"><a xlink:href="classGdbCmd__InfoProgram" target="_top" xlink:title="Command to get info about current program and state. ">
 <polygon fill="white" stroke="black" points="5396.5,-133 5396.5,-201 5524.5,-201 5524.5,-133 5396.5,-133"/>
 <text text-anchor="middle" x="5460.5" y="-189" font-family="FreeSans" font-size="10.00">GdbCmd_InfoProgram</text>
 <polyline fill="none" stroke="black" points="5396.5,-182 5524.5,-182 "/>
@@ -691,7 +691,7 @@
 </g>
 <!-- Node39 -->
 <g id="node39" class="node"><title>Node39</title>
-<g id="a_node39"><a xlink:href="classGdbCmd__InfoRegisters.xhtml" target="_top" xlink:title="{GdbCmd_InfoRegisters\n|&#45; m_disassemblyFlavor\l|+ GdbCmd_InfoRegisters()\l+ ParseOutput()\l+ ParseOutputFromOR32gdbPort()\l}">
+<g id="a_node39"><a xlink:href="classGdbCmd__InfoRegisters" target="_top" xlink:title="Command to obtain register info. ">
 <polygon fill="white" stroke="black" points="5542.5,-127.5 5542.5,-206.5 5708.5,-206.5 5708.5,-127.5 5542.5,-127.5"/>
 <text text-anchor="middle" x="5625.5" y="-194.5" font-family="FreeSans" font-size="10.00">GdbCmd_InfoRegisters</text>
 <polyline fill="none" stroke="black" points="5542.5,-187.5 5708.5,-187.5 "/>
@@ -710,7 +710,7 @@
 </g>
 <!-- Node40 -->
 <g id="node40" class="node"><title>Node40</title>
-<g id="a_node40"><a xlink:href="classGdbCmd__LocalsFuncArgs.xhtml" target="_top" xlink:title="{GdbCmd_LocalsFuncArgs\n|&#45; m_watch\l&#45; m_doLocals\l|+ GdbCmd_LocalsFuncArgs()\l+ ParseOutput()\l}">
+<g id="a_node40"><a xlink:href="classGdbCmd__LocalsFuncArgs" target="_top" xlink:title="{GdbCmd_LocalsFuncArgs\n|&#45; m_watch\l&#45; m_doLocals\l|+ GdbCmd_LocalsFuncArgs()\l+ ParseOutput()\l}">
 <polygon fill="white" stroke="black" points="5727,-127.5 5727,-206.5 5870,-206.5 5870,-127.5 5727,-127.5"/>
 <text text-anchor="middle" x="5798.5" y="-194.5" font-family="FreeSans" font-size="10.00">GdbCmd_LocalsFuncArgs</text>
 <polyline fill="none" stroke="black" points="5727,-187.5 5870,-187.5 "/>
@@ -729,7 +729,7 @@
 </g>
 <!-- Node41 -->
 <g id="node41" class="node"><title>Node41</title>
-<g id="a_node41"><a xlink:href="classGdbCmd__RemoteBaud.xhtml" target="_top" xlink:title="{GdbCmd_RemoteBaud\n||+ GdbCmd_RemoteBaud()\l+ ParseOutput()\l}">
+<g id="a_node41"><a xlink:href="classGdbCmd__RemoteBaud" target="_top" xlink:title="{GdbCmd_RemoteBaud\n||+ GdbCmd_RemoteBaud()\l+ ParseOutput()\l}">
 <polygon fill="white" stroke="black" points="5888,-133 5888,-201 6019,-201 6019,-133 5888,-133"/>
 <text text-anchor="middle" x="5953.5" y="-189" font-family="FreeSans" font-size="10.00">GdbCmd_RemoteBaud</text>
 <polyline fill="none" stroke="black" points="5888,-182 6019,-182 "/>
@@ -747,7 +747,7 @@
 </g>
 <!-- Node42 -->
 <g id="node42" class="node"><title>Node42</title>
-<g id="a_node42"><a xlink:href="classGdbCmd__RemoteTarget.xhtml" target="_top" xlink:title="{GdbCmd_RemoteTarget\n||+ GdbCmd_RemoteTarget()\l+ ParseOutput()\l}">
+<g id="a_node42"><a xlink:href="classGdbCmd__RemoteTarget" target="_top" xlink:title="{GdbCmd_RemoteTarget\n||+ GdbCmd_RemoteTarget()\l+ ParseOutput()\l}">
 <polygon fill="white" stroke="black" points="6037.5,-133 6037.5,-201 6173.5,-201 6173.5,-133 6037.5,-133"/>
 <text text-anchor="middle" x="6105.5" y="-189" font-family="FreeSans" font-size="10.00">GdbCmd_RemoteTarget</text>
 <polyline fill="none" stroke="black" points="6037.5,-182 6173.5,-182 "/>
@@ -765,7 +765,7 @@
 </g>
 <!-- Node43 -->
 <g id="node43" class="node"><title>Node43</title>
-<g id="a_node43"><a xlink:href="classGdbCmd__RemoveBreakpoint.xhtml" target="_top" xlink:title="{GdbCmd_RemoveBreakpoint\n|+ m_BP\l|+ GdbCmd_RemoveBreakpoint()\l+ ParseOutput()\l}">
+<g id="a_node43"><a xlink:href="classGdbCmd__RemoveBreakpoint" target="_top" xlink:title="Command to remove a breakpoint. ">
 <polygon fill="white" stroke="black" points="6191.5,-133 6191.5,-201 6347.5,-201 6347.5,-133 6191.5,-133"/>
 <text text-anchor="middle" x="6269.5" y="-189" font-family="FreeSans" font-size="10.00">GdbCmd_RemoveBreakpoint</text>
 <polyline fill="none" stroke="black" points="6191.5,-182 6347.5,-182 "/>
@@ -783,7 +783,7 @@
 </g>
 <!-- Node44 -->
 <g id="node44" class="node"><title>Node44</title>
-<g id="a_node44"><a xlink:href="classGdbCmd__SetArguments.xhtml" target="_top" xlink:title="{GdbCmd_SetArguments\n||+ GdbCmd_SetArguments()\l+ ParseOutput()\l}">
+<g id="a_node44"><a xlink:href="classGdbCmd__SetArguments" target="_top" xlink:title="Command to set the arguments to the debuggee. ">
 <polygon fill="white" stroke="black" points="6365.5,-133 6365.5,-201 6501.5,-201 6501.5,-133 6365.5,-133"/>
 <text text-anchor="middle" x="6433.5" y="-189" font-family="FreeSans" font-size="10.00">GdbCmd_SetArguments</text>
 <polyline fill="none" stroke="black" points="6365.5,-182 6501.5,-182 "/>
@@ -801,7 +801,7 @@
 </g>
 <!-- Node45 -->
 <g id="node45" class="node"><title>Node45</title>
-<g id="a_node45"><a xlink:href="classGdbCmd__SetCatch.xhtml" target="_top" xlink:title="{GdbCmd_SetCatch\n|&#45; m_type\l&#45; m_resultIndex\l&#45; m_regExp\l|+ GdbCmd_SetCatch()\l+ ParseOutput()\l}">
+<g id="a_node45"><a xlink:href="classGdbCmd__SetCatch" target="_top" xlink:title="Command to setup an exception breakpoint (for a throw or a catch). ">
 <polygon fill="white" stroke="black" points="6520,-122 6520,-212 6635,-212 6635,-122 6520,-122"/>
 <text text-anchor="middle" x="6577.5" y="-200" font-family="FreeSans" font-size="10.00">GdbCmd_SetCatch</text>
 <polyline fill="none" stroke="black" points="6520,-193 6635,-193 "/>
@@ -821,7 +821,7 @@
 </g>
 <!-- Node46 -->
 <g id="node46" class="node"><title>Node46</title>
-<g id="a_node46"><a xlink:href="classGdbCmd__SetDebuggee.xhtml" target="_top" xlink:title="{GdbCmd_SetDebuggee\n||+ GdbCmd_SetDebuggee()\l+ ParseOutput()\l}">
+<g id="a_node46"><a xlink:href="classGdbCmd__SetDebuggee" target="_top" xlink:title="Command to the set the file to be debugged. ">
 <polygon fill="white" stroke="black" points="6653,-133 6653,-201 6786,-201 6786,-133 6653,-133"/>
 <text text-anchor="middle" x="6719.5" y="-189" font-family="FreeSans" font-size="10.00">GdbCmd_SetDebuggee</text>
 <polyline fill="none" stroke="black" points="6653,-182 6786,-182 "/>
@@ -839,7 +839,7 @@
 </g>
 <!-- Node47 -->
 <g id="node47" class="node"><title>Node47</title>
-<g id="a_node47"><a xlink:href="classGdbCmd__Threads.xhtml" target="_top" xlink:title="{GdbCmd_Threads\n||+ GdbCmd_Threads()\l+ ParseOutput()\l}">
+<g id="a_node47"><a xlink:href="classGdbCmd__Threads" target="_top" xlink:title="Command to get info about running threads. ">
 <polygon fill="white" stroke="black" points="6804,-133 6804,-201 6913,-201 6913,-133 6804,-133"/>
 <text text-anchor="middle" x="6858.5" y="-189" font-family="FreeSans" font-size="10.00">GdbCmd_Threads</text>
 <polyline fill="none" stroke="black" points="6804,-182 6913,-182 "/>
@@ -857,7 +857,7 @@
 </g>
 <!-- Node48 -->
 <g id="node48" class="node"><title>Node48</title>
-<g id="a_node48"><a xlink:href="classGdbCmd__TooltipEvaluation.xhtml" target="_top" xlink:title="{GdbCmd_TooltipEvaluation\n|&#45; m_WinRect\l&#45; m_What\l&#45; m_Type\l&#45; m_Address\l&#45; m_ParseFunc\l&#45; m_autoDereferenced\l|+ GdbCmd_TooltipEvaluation()\l+ ParseOutput()\l}">
+<g id="a_node48"><a xlink:href="classGdbCmd__TooltipEvaluation" target="_top" xlink:title="Command to display a tooltip about a variables value. ">
 <polygon fill="white" stroke="black" points="6931.5,-105.5 6931.5,-228.5 7079.5,-228.5 7079.5,-105.5 6931.5,-105.5"/>
 <text text-anchor="middle" x="7005.5" y="-216.5" font-family="FreeSans" font-size="10.00">GdbCmd_TooltipEvaluation</text>
 <polyline fill="none" stroke="black" points="6931.5,-209.5 7079.5,-209.5 "/>
@@ -880,7 +880,7 @@
 </g>
 <!-- Node49 -->
 <g id="node49" class="node"><title>Node49</title>
-<g id="a_node49"><a xlink:href="classGdbCmd__Watch.xhtml" target="_top" xlink:title="{GdbCmd_Watch\n|&#45; m_watch\l&#45; m_ParseFunc\l|+ GdbCmd_Watch()\l+ ParseOutput()\l}">
+<g id="a_node49"><a xlink:href="classGdbCmd__Watch" target="_top" xlink:title="Command to get info about a watched variable. ">
 <polygon fill="white" stroke="black" points="7097.5,-127.5 7097.5,-206.5 7199.5,-206.5 7199.5,-127.5 7097.5,-127.5"/>
 <text text-anchor="middle" x="7148.5" y="-194.5" font-family="FreeSans" font-size="10.00">GdbCmd_Watch</text>
 <polyline fill="none" stroke="black" points="7097.5,-187.5 7199.5,-187.5 "/>
@@ -899,7 +899,7 @@
 </g>
 <!-- Node20 -->
 <g id="node20" class="node"><title>Node20</title>
-<g id="a_node20"><a xlink:href="classCdbCmd__Continue.xhtml" target="_top" xlink:title="{CdbCmd_Continue\n||+ CdbCmd_Continue()\l+ Action()\l}">
+<g id="a_node20"><a xlink:href="classCdbCmd__Continue" target="_top" xlink:title="Command to continue execution and notify the debugger plugin. ">
 <polygon fill="white" stroke="black" points="2581.5,-0.5 2581.5,-68.5 2693.5,-68.5 2693.5,-0.5 2581.5,-0.5"/>
 <text text-anchor="middle" x="2637.5" y="-56.5" font-family="FreeSans" font-size="10.00">CdbCmd_Continue</text>
 <polyline fill="none" stroke="black" points="2581.5,-49.5 2693.5,-49.5 "/>

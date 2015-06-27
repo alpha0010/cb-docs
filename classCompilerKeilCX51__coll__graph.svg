@@ -22,7 +22,7 @@
 </g>
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
-<g id="a_node2"><a xlink:href="classCompilerKeilC51.xhtml" target="_top" xlink:title="{CompilerKeilC51\n||+ CompilerKeilC51()\l+ ~CompilerKeilC51()\l+ AutoDetectInstallationDir()\l# CompilerKeilC51()\l# CreateCopy()\l# AutoDetectInstallationDir()\l}">
+<g id="a_node2"><a xlink:href="classCompilerKeilC51" target="_top" xlink:title="{CompilerKeilC51\n||+ CompilerKeilC51()\l+ ~CompilerKeilC51()\l+ AutoDetectInstallationDir()\l# CompilerKeilC51()\l# CreateCopy()\l# AutoDetectInstallationDir()\l}">
 <polygon fill="white" stroke="black" points="253.5,-117.5 253.5,-229.5 391.5,-229.5 391.5,-117.5 253.5,-117.5"/>
 <text text-anchor="middle" x="322.5" y="-217.5" font-family="FreeSans" font-size="10.00">CompilerKeilC51</text>
 <polyline fill="none" stroke="black" points="253.5,-210.5 391.5,-210.5 "/>
@@ -44,7 +44,7 @@
 </g>
 <!-- Node3 -->
 <g id="node3" class="node"><title>Node3</title>
-<g id="a_node3"><a xlink:href="classCompiler.xhtml" target="_top" xlink:title="Abstract base class for compilers. ">
+<g id="a_node3"><a xlink:href="classCompiler" target="_top" xlink:title="Abstract base class for compilers. ">
 <polygon fill="white" stroke="black" points="245,-267.5 245,-709.5 400,-709.5 400,-267.5 245,-267.5"/>
 <text text-anchor="middle" x="322.5" y="-697.5" font-family="FreeSans" font-size="10.00">Compiler</text>
 <polyline fill="none" stroke="black" points="245,-690.5 400,-690.5 "/>
@@ -96,7 +96,7 @@
 </g>
 <!-- Node4 -->
 <g id="node4" class="node"><title>Node4</title>
-<g id="a_node4"><a xlink:href="classCompileOptionsBase.xhtml" target="_top" xlink:title="{CompileOptionsBase\n|# m_Platform\l# m_LinkerOptions\l# m_LinkLibs\l# m_CompilerOptions\l# m_ResourceCompilerOptions\l# m_IncludeDirs\l# m_ResIncludeDirs\l# m_LibDirs\land 6 more...\l|+ CompileOptionsBase()\l+ ~CompileOptionsBase()\l+ AddPlatform()\l+ RemovePlatform()\l+ SetPlatforms()\l+ GetPlatforms()\l+ SupportsCurrentPlatform()\l+ SetLinkerOptions()\land 56 more...\l}">
+<g id="a_node4"><a xlink:href="classCompileOptionsBase" target="_top" xlink:title="This is a base class for all classes needing compilation parameters. ">
 <polygon fill="white" stroke="black" points="0,-757.5 0,-990.5 149,-990.5 149,-757.5 0,-757.5"/>
 <text text-anchor="middle" x="74.5" y="-978.5" font-family="FreeSans" font-size="10.00">CompileOptionsBase</text>
 <polyline fill="none" stroke="black" points="0,-971.5 149,-971.5 "/>
@@ -129,7 +129,7 @@
 </g>
 <!-- Node5 -->
 <g id="node5" class="node"><title>Node5</title>
-<g id="a_node5"><a xlink:href="classCompiler.xhtml#structCompiler_1_1MirrorSettings" target="_top" xlink:title="{Compiler::MirrorSettings\n|+ Name\l+ MasterPath\l+ ExtraPaths\l+ CompilerOptions_\l+ LinkerOptions\l+ IncludeDirs\l+ ResIncludeDirs\l+ LibDirs\land 5 more...\l|}">
+<g id="a_node5"><a xlink:href="classCompiler#structCompiler_1_1MirrorSettings" target="_top" xlink:title="{Compiler::MirrorSettings\n|+ Name\l+ MasterPath\l+ ExtraPaths\l+ CompilerOptions_\l+ LinkerOptions\l+ IncludeDirs\l+ ResIncludeDirs\l+ LibDirs\land 5 more...\l|}">
 <polygon fill="white" stroke="black" points="355,-801.5 355,-946.5 474,-946.5 474,-801.5 355,-801.5"/>
 <text text-anchor="middle" x="414.5" y="-934.5" font-family="FreeSans" font-size="10.00">Compiler::MirrorSettings</text>
 <polyline fill="none" stroke="black" points="355,-927.5 474,-927.5 "/>
@@ -155,7 +155,7 @@
 </g>
 <!-- Node6 -->
 <g id="node6" class="node"><title>Node6</title>
-<g id="a_node6"><a xlink:href="classCompilerOptions.xhtml" target="_top" xlink:title="{CompilerOptions\n|&#45; m_Options\l|+ CompilerOptions()\l+ CompilerOptions()\l+ operator=()\l+ ~CompilerOptions()\l+ ClearOptions()\l+ AddOption()\l+ AddOption()\l+ RemoveOption()\land 5 more...\l}">
+<g id="a_node6"><a xlink:href="classCompilerOptions" target="_top" xlink:title="{CompilerOptions\n|&#45; m_Options\l|+ CompilerOptions()\l+ CompilerOptions()\l+ operator=()\l+ ~CompilerOptions()\l+ ClearOptions()\l+ AddOption()\l+ AddOption()\l+ RemoveOption()\land 5 more...\l}">
 <polygon fill="white" stroke="black" points="279,-1044 279,-1189 386,-1189 386,-1044 279,-1044"/>
 <text text-anchor="middle" x="332.5" y="-1177" font-family="FreeSans" font-size="10.00">CompilerOptions</text>
 <polyline fill="none" stroke="black" points="279,-1170 386,-1170 "/>
@@ -187,7 +187,7 @@
 </g>
 <!-- Node7 -->
 <g id="node7" class="node"><title>Node7</title>
-<g id="a_node7"><a xlink:href="structCompilerSwitches.xhtml" target="_top" xlink:title="Struct to keep switches. ">
+<g id="a_node7"><a xlink:href="structCompilerSwitches" target="_top" xlink:title="Struct to keep switches. ">
 <polygon fill="white" stroke="black" points="135.5,-1038.5 135.5,-1194.5 255.5,-1194.5 255.5,-1038.5 135.5,-1038.5"/>
 <text text-anchor="middle" x="195.5" y="-1182.5" font-family="FreeSans" font-size="10.00">CompilerSwitches</text>
 <polyline fill="none" stroke="black" points="135.5,-1175.5 255.5,-1175.5 "/>
@@ -241,7 +241,7 @@
 </g>
 <!-- Node9 -->
 <g id="node9" class="node"><title>Node9</title>
-<g id="a_node9"><a xlink:href="structCompilerTool.xhtml" target="_top" xlink:title="Struct for compiler/linker commands. ">
+<g id="a_node9"><a xlink:href="structCompilerTool" target="_top" xlink:title="Struct for compiler/linker commands. ">
 <polygon fill="white" stroke="black" points="564.5,-1242.5 564.5,-1354.5 652.5,-1354.5 652.5,-1242.5 564.5,-1242.5"/>
 <text text-anchor="middle" x="608.5" y="-1342.5" font-family="FreeSans" font-size="10.00">CompilerTool</text>
 <polyline fill="none" stroke="black" points="564.5,-1335.5 652.5,-1335.5 "/>
@@ -264,7 +264,7 @@
 </g>
 <!-- Node10 -->
 <g id="node10" class="node"><title>Node10</title>
-<g id="a_node10"><a xlink:href="compiler_8h.xhtml#structCompilerPrograms" target="_top" xlink:title="Struct to keep programs. ">
+<g id="a_node10"><a xlink:href="compiler_8h#structCompilerPrograms" target="_top" xlink:title="Struct to keep programs. ">
 <polygon fill="white" stroke="black" points="419.5,-1055 419.5,-1178 515.5,-1178 515.5,-1055 419.5,-1055"/>
 <text text-anchor="middle" x="467.5" y="-1166" font-family="FreeSans" font-size="10.00">CompilerPrograms</text>
 <polyline fill="none" stroke="black" points="419.5,-1159 515.5,-1159 "/>

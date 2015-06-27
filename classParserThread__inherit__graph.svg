@@ -51,7 +51,7 @@
 </g>
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
-<g id="a_node2"><a xlink:href="classcbThreadedTask.xhtml" target="_top" xlink:title="{cbThreadedTask\n|&#45; m_abort\l|+ cbThreadedTask()\l+ ~cbThreadedTask()\l+ Abort()\l+ Execute()\l# TestDestroy()\l# Aborted()\l}">
+<g id="a_node2"><a xlink:href="classcbThreadedTask" target="_top" xlink:title="This is what you have to use instead of wxThread to add tasks to the Thread Pool. ...">
 <polygon fill="white" stroke="black" points="31,-435.5 31,-547.5 139,-547.5 139,-435.5 31,-435.5"/>
 <text text-anchor="middle" x="85" y="-535.5" font-family="FreeSans" font-size="10.00">cbThreadedTask</text>
 <polyline fill="none" stroke="black" points="31,-528.5 139,-528.5 "/>

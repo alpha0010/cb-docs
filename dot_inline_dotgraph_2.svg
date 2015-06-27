@@ -11,7 +11,7 @@
 <polygon fill="white" stroke="none" points="-4,4 -4,-404 203,-404 203,4 -4,4"/>
 <!-- a -->
 <g id="node1" class="node"><title>a</title>
-<g id="a_node1"><a xlink:href="classMgr.xhtml" target="_top" xlink:title="Singleton base for managers.">
+<g id="a_node1"><a xlink:href="classMgr" target="_top" xlink:title="Singleton base for managers.">
 <polygon fill="none" stroke="black" points="0,-190.5 0,-209.5 68,-209.5 68,-190.5 0,-190.5"/>
 <text text-anchor="middle" x="34" y="-197.5" font-family="FreeSans" font-size="10.00">Mgr&lt;MgrT&gt;</text>
 </a>
@@ -19,7 +19,7 @@
 </g>
 <!-- b -->
 <g id="node2" class="node"><title>b</title>
-<g id="a_node2"><a xlink:href="classCCManager.xhtml" target="_top" xlink:title="Governs access and shared code&#45;completion functions.">
+<g id="a_node2"><a xlink:href="classCCManager" target="_top" xlink:title="Governs access and shared code&#45;completion functions.">
 <polygon fill="none" stroke="black" points="117.5,-380.5 117.5,-399.5 185.5,-399.5 185.5,-380.5 117.5,-380.5"/>
 <text text-anchor="middle" x="151.5" y="-387.5" font-family="FreeSans" font-size="10.00">CCManager</text>
 </a>
@@ -32,7 +32,7 @@
 </g>
 <!-- c -->
 <g id="node3" class="node"><title>c</title>
-<g id="a_node3"><a xlink:href="classColourManager.xhtml" target="_top" xlink:title="Manages configurable colour settings.">
+<g id="a_node3"><a xlink:href="classColourManager" target="_top" xlink:title="Manages configurable colour settings.">
 <polygon fill="none" stroke="black" points="110.5,-342.5 110.5,-361.5 192.5,-361.5 192.5,-342.5 110.5,-342.5"/>
 <text text-anchor="middle" x="151.5" y="-349.5" font-family="FreeSans" font-size="10.00">ColourManager</text>
 </a>
@@ -45,7 +45,7 @@
 </g>
 <!-- d -->
 <g id="node4" class="node"><title>d</title>
-<g id="a_node4"><a xlink:href="classConfigManager.xhtml" target="_top" xlink:title="Unified settings storage.">
+<g id="a_node4"><a xlink:href="classConfigManager" target="_top" xlink:title="Unified settings storage.">
 <polygon fill="none" stroke="black" points="111,-304.5 111,-323.5 192,-323.5 192,-304.5 111,-304.5"/>
 <text text-anchor="middle" x="151.5" y="-311.5" font-family="FreeSans" font-size="10.00">ConfigManager</text>
 </a>
@@ -58,7 +58,7 @@
 </g>
 <!-- e -->
 <g id="node5" class="node"><title>e</title>
-<g id="a_node5"><a xlink:href="classDebuggerManager.xhtml" target="_top" xlink:title="Handles debugger plugins.">
+<g id="a_node5"><a xlink:href="classDebuggerManager" target="_top" xlink:title="Handles debugger plugins.">
 <polygon fill="none" stroke="black" points="104,-266.5 104,-285.5 199,-285.5 199,-266.5 104,-266.5"/>
 <text text-anchor="middle" x="151.5" y="-273.5" font-family="FreeSans" font-size="10.00">DebuggerManager</text>
 </a>
@@ -71,7 +71,7 @@
 </g>
 <!-- f -->
 <g id="node6" class="node"><title>f</title>
-<g id="a_node6"><a xlink:href="classEditorManager.xhtml" target="_top" xlink:title="Handles open editors.">
+<g id="a_node6"><a xlink:href="classEditorManager" target="_top" xlink:title="Handles open editors.">
 <polygon fill="none" stroke="black" points="112,-228.5 112,-247.5 191,-247.5 191,-228.5 112,-228.5"/>
 <text text-anchor="middle" x="151.5" y="-235.5" font-family="FreeSans" font-size="10.00">EditorManager</text>
 </a>
@@ -84,7 +84,7 @@
 </g>
 <!-- g -->
 <g id="node7" class="node"><title>g</title>
-<g id="a_node7"><a xlink:href="classFileManager.xhtml" target="_top" xlink:title="Manages low level file access.">
+<g id="a_node7"><a xlink:href="classFileManager" target="_top" xlink:title="Manages low level file access.">
 <polygon fill="none" stroke="black" points="116.5,-190.5 116.5,-209.5 186.5,-209.5 186.5,-190.5 116.5,-190.5"/>
 <text text-anchor="middle" x="151.5" y="-197.5" font-family="FreeSans" font-size="10.00">FileManager</text>
 </a>
@@ -97,7 +97,7 @@
 </g>
 <!-- h -->
 <g id="node8" class="node"><title>h</title>
-<g id="a_node8"><a xlink:href="classLogManager.xhtml" target="_top" xlink:title="Access shared logging functions.">
+<g id="a_node8"><a xlink:href="classLogManager" target="_top" xlink:title="Access shared logging functions.">
 <polygon fill="none" stroke="black" points="116.5,-152.5 116.5,-171.5 186.5,-171.5 186.5,-152.5 116.5,-152.5"/>
 <text text-anchor="middle" x="151.5" y="-159.5" font-family="FreeSans" font-size="10.00">LogManager</text>
 </a>
@@ -110,7 +110,7 @@
 </g>
 <!-- i -->
 <g id="node9" class="node"><title>i</title>
-<g id="a_node9"><a xlink:href="classMacrosManager.xhtml" target="_top" xlink:title="Handles text replacement macros.">
+<g id="a_node9"><a xlink:href="classMacrosManager" target="_top" xlink:title="Handles text replacement macros.">
 <polygon fill="none" stroke="black" points="108.5,-114.5 108.5,-133.5 194.5,-133.5 194.5,-114.5 108.5,-114.5"/>
 <text text-anchor="middle" x="151.5" y="-121.5" font-family="FreeSans" font-size="10.00">MacrosManager</text>
 </a>
@@ -123,7 +123,7 @@
 </g>
 <!-- j -->
 <g id="node10" class="node"><title>j</title>
-<g id="a_node10"><a xlink:href="classPluginManager.xhtml" target="_top" xlink:title="Manages installed plugins.">
+<g id="a_node10"><a xlink:href="classPluginManager" target="_top" xlink:title="Manages installed plugins.">
 <polygon fill="none" stroke="black" points="111,-76.5 111,-95.5 192,-95.5 192,-76.5 111,-76.5"/>
 <text text-anchor="middle" x="151.5" y="-83.5" font-family="FreeSans" font-size="10.00">PluginManager</text>
 </a>
@@ -136,7 +136,7 @@
 </g>
 <!-- k -->
 <g id="node11" class="node"><title>k</title>
-<g id="a_node11"><a xlink:href="classProjectManager.xhtml" target="_top" xlink:title="Manages projects and the workspace.">
+<g id="a_node11"><a xlink:href="classProjectManager" target="_top" xlink:title="Manages projects and the workspace.">
 <polygon fill="none" stroke="black" points="109,-38.5 109,-57.5 194,-57.5 194,-38.5 109,-38.5"/>
 <text text-anchor="middle" x="151.5" y="-45.5" font-family="FreeSans" font-size="10.00">ProjectManager</text>
 </a>
@@ -149,7 +149,7 @@
 </g>
 <!-- l -->
 <g id="node12" class="node"><title>l</title>
-<g id="a_node12"><a xlink:href="classScriptingManager.xhtml" target="_top" xlink:title="Handles script registration and usage.">
+<g id="a_node12"><a xlink:href="classScriptingManager" target="_top" xlink:title="Handles script registration and usage.">
 <polygon fill="none" stroke="black" points="105.5,-0.5 105.5,-19.5 197.5,-19.5 197.5,-0.5 105.5,-0.5"/>
 <text text-anchor="middle" x="151.5" y="-7.5" font-family="FreeSans" font-size="10.00">ScriptingManager</text>
 </a>

@@ -31,7 +31,7 @@
 </g>
 <!-- Node3 -->
 <g id="node3" class="node"><title>Node3</title>
-<g id="a_node3"><a xlink:href="classWizBuildTargetPanel.xhtml" target="_top" xlink:title="{WizBuildTargetPanel\n|&#45; m_pBuildTargetPanel\l|+ WizBuildTargetPanel()\l+ ~WizBuildTargetPanel()\l+ GetCompilerID()\l+ GetEnableDebug()\l+ GetTargetName()\l+ GetTargetOutputDir()\l+ GetTargetObjectOutputDir()\l+ OnPageChanging()\l}">
+<g id="a_node3"><a xlink:href="classWizBuildTargetPanel" target="_top" xlink:title="{WizBuildTargetPanel\n|&#45; m_pBuildTargetPanel\l|+ WizBuildTargetPanel()\l+ ~WizBuildTargetPanel()\l+ GetCompilerID()\l+ GetEnableDebug()\l+ GetTargetName()\l+ GetTargetOutputDir()\l+ GetTargetObjectOutputDir()\l+ OnPageChanging()\l}">
 <polygon fill="white" stroke="black" points="0,-28 0,-162 144,-162 144,-28 0,-28"/>
 <text text-anchor="middle" x="72" y="-150" font-family="FreeSans" font-size="10.00">WizBuildTargetPanel</text>
 <polyline fill="none" stroke="black" points="0,-143 144,-143 "/>
@@ -55,7 +55,7 @@
 </g>
 <!-- Node4 -->
 <g id="node4" class="node"><title>Node4</title>
-<g id="a_node4"><a xlink:href="classWizCompilerPanel.xhtml" target="_top" xlink:title="{WizCompilerPanel\n|&#45; m_pCompilerPanel\l&#45; m_AllowConfigChange\l|+ WizCompilerPanel()\l+ ~WizCompilerPanel()\l+ GetCompilerID()\l+ GetWantDebug()\l+ GetDebugName()\l+ GetDebugOutputDir()\l+ GetDebugObjectOutputDir()\l+ GetWantRelease()\l+ GetReleaseName()\l+ GetReleaseOutputDir()\l+ GetReleaseObjectOutputDir()\l+ OnPageChanging()\l}">
+<g id="a_node4"><a xlink:href="classWizCompilerPanel" target="_top" xlink:title="{WizCompilerPanel\n|&#45; m_pCompilerPanel\l&#45; m_AllowConfigChange\l|+ WizCompilerPanel()\l+ ~WizCompilerPanel()\l+ GetCompilerID()\l+ GetWantDebug()\l+ GetDebugName()\l+ GetDebugOutputDir()\l+ GetDebugObjectOutputDir()\l+ GetWantRelease()\l+ GetReleaseName()\l+ GetReleaseOutputDir()\l+ GetReleaseObjectOutputDir()\l+ OnPageChanging()\l}">
 <polygon fill="white" stroke="black" points="162.5,-0.5 162.5,-189.5 313.5,-189.5 313.5,-0.5 162.5,-0.5"/>
 <text text-anchor="middle" x="238" y="-177.5" font-family="FreeSans" font-size="10.00">WizCompilerPanel</text>
 <polyline fill="none" stroke="black" points="162.5,-170.5 313.5,-170.5 "/>
@@ -84,7 +84,7 @@
 </g>
 <!-- Node5 -->
 <g id="node5" class="node"><title>Node5</title>
-<g id="a_node5"><a xlink:href="classWizFilePathPanel.xhtml" target="_top" xlink:title="{WizFilePathPanel\n|&#45; m_pFilePathPanel\l&#45; m_Filename\l&#45; m_HeaderGuard\l&#45; m_AddToProject\l&#45; m_TargetIndex\l|+ WizFilePathPanel()\l+ ~WizFilePathPanel()\l+ GetFilename()\l+ GetHeaderGuard()\l+ GetAddToProject()\l+ GetTargetIndex()\l+ SetFilePathSelectionFilter()\l+ OnPageChanging()\l}">
+<g id="a_node5"><a xlink:href="classWizFilePathPanel" target="_top" xlink:title="{WizFilePathPanel\n|&#45; m_pFilePathPanel\l&#45; m_Filename\l&#45; m_HeaderGuard\l&#45; m_AddToProject\l&#45; m_TargetIndex\l|+ WizFilePathPanel()\l+ ~WizFilePathPanel()\l+ GetFilename()\l+ GetHeaderGuard()\l+ GetAddToProject()\l+ GetTargetIndex()\l+ SetFilePathSelectionFilter()\l+ OnPageChanging()\l}">
 <polygon fill="white" stroke="black" points="332,-6 332,-184 476,-184 476,-6 332,-6"/>
 <text text-anchor="middle" x="404" y="-172" font-family="FreeSans" font-size="10.00">WizFilePathPanel</text>
 <polyline fill="none" stroke="black" points="332,-165 476,-165 "/>
@@ -112,7 +112,7 @@
 </g>
 <!-- Node6 -->
 <g id="node6" class="node"><title>Node6</title>
-<g id="a_node6"><a xlink:href="classWizGenericSelectPathPanel.xhtml" target="_top" xlink:title="{WizGenericSelectPathPanel\n|&#45; m_pGenericSelectPath\l|+ WizGenericSelectPathPanel()\l+ ~WizGenericSelectPathPanel()\l+ OnButton()\l+ OnPageChanging()\l}">
+<g id="a_node6"><a xlink:href="classWizGenericSelectPathPanel" target="_top" xlink:title="{WizGenericSelectPathPanel\n|&#45; m_pGenericSelectPath\l|+ WizGenericSelectPathPanel()\l+ ~WizGenericSelectPathPanel()\l+ OnButton()\l+ OnPageChanging()\l}">
 <polygon fill="white" stroke="black" points="494,-50 494,-140 652,-140 652,-50 494,-50"/>
 <text text-anchor="middle" x="573" y="-128" font-family="FreeSans" font-size="10.00">WizGenericSelectPathPanel</text>
 <polyline fill="none" stroke="black" points="494,-121 652,-121 "/>
@@ -132,7 +132,7 @@
 </g>
 <!-- Node7 -->
 <g id="node7" class="node"><title>Node7</title>
-<g id="a_node7"><a xlink:href="classWizGenericSingleChoiceList.xhtml" target="_top" xlink:title="{WizGenericSingleChoiceList\n|&#45; m_pGenericSingleChoiceList\l|+ WizGenericSingleChoiceList()\l+ ~WizGenericSingleChoiceList()\l+ GetChoice()\l+ SetChoice()\l+ OnPageChanging()\l}">
+<g id="a_node7"><a xlink:href="classWizGenericSingleChoiceList" target="_top" xlink:title="{WizGenericSingleChoiceList\n|&#45; m_pGenericSingleChoiceList\l|+ WizGenericSingleChoiceList()\l+ ~WizGenericSingleChoiceList()\l+ GetChoice()\l+ SetChoice()\l+ OnPageChanging()\l}">
 <polygon fill="white" stroke="black" points="670,-44.5 670,-145.5 828,-145.5 828,-44.5 670,-44.5"/>
 <text text-anchor="middle" x="749" y="-133.5" font-family="FreeSans" font-size="10.00">WizGenericSingleChoiceList</text>
 <polyline fill="none" stroke="black" points="670,-126.5 828,-126.5 "/>
@@ -153,7 +153,7 @@
 </g>
 <!-- Node8 -->
 <g id="node8" class="node"><title>Node8</title>
-<g id="a_node8"><a xlink:href="classWizInfoPanel.xhtml" target="_top" xlink:title="{WizInfoPanel\n|&#45; m_InfoPanel\l|+ WizInfoPanel()\l+ ~WizInfoPanel()\l+ OnPageChanging()\l}">
+<g id="a_node8"><a xlink:href="classWizInfoPanel" target="_top" xlink:title="{WizInfoPanel\n|&#45; m_InfoPanel\l|+ WizInfoPanel()\l+ ~WizInfoPanel()\l+ OnPageChanging()\l}">
 <polygon fill="white" stroke="black" points="845.5,-55.5 845.5,-134.5 952.5,-134.5 952.5,-55.5 845.5,-55.5"/>
 <text text-anchor="middle" x="899" y="-122.5" font-family="FreeSans" font-size="10.00">WizInfoPanel</text>
 <polyline fill="none" stroke="black" points="845.5,-115.5 952.5,-115.5 "/>
@@ -172,7 +172,7 @@
 </g>
 <!-- Node9 -->
 <g id="node9" class="node"><title>Node9</title>
-<g id="a_node9"><a xlink:href="classWizPage.xhtml" target="_top" xlink:title="{WizPage\n||+ WizPage()\l+ ~WizPage()\l+ OnButton()\l}">
+<g id="a_node9"><a xlink:href="classWizPage" target="_top" xlink:title="{WizPage\n||+ WizPage()\l+ ~WizPage()\l+ OnButton()\l}">
 <polygon fill="white" stroke="black" points="971,-55.5 971,-134.5 1045,-134.5 1045,-55.5 971,-55.5"/>
 <text text-anchor="middle" x="1008" y="-122.5" font-family="FreeSans" font-size="10.00">WizPage</text>
 <polyline fill="none" stroke="black" points="971,-115.5 1045,-115.5 "/>
@@ -191,7 +191,7 @@
 </g>
 <!-- Node10 -->
 <g id="node10" class="node"><title>Node10</title>
-<g id="a_node10"><a xlink:href="classWizProjectPathPanel.xhtml" target="_top" xlink:title="{WizProjectPathPanel\n|&#45; m_pProjectPathPanel\l|+ WizProjectPathPanel()\l+ ~WizProjectPathPanel()\l+ GetPath()\l+ GetName()\l+ GetFullFileName()\l+ GetTitle()\l+ OnButton()\l+ OnPageChanging()\l+ OnPageChanged()\l}">
+<g id="a_node10"><a xlink:href="classWizProjectPathPanel" target="_top" xlink:title="{WizProjectPathPanel\n|&#45; m_pProjectPathPanel\l|+ WizProjectPathPanel()\l+ ~WizProjectPathPanel()\l+ GetPath()\l+ GetName()\l+ GetFullFileName()\l+ GetTitle()\l+ OnButton()\l+ OnPageChanging()\l+ OnPageChanged()\l}">
 <polygon fill="white" stroke="black" points="1063,-22.5 1063,-167.5 1191,-167.5 1191,-22.5 1063,-22.5"/>
 <text text-anchor="middle" x="1127" y="-155.5" font-family="FreeSans" font-size="10.00">WizProjectPathPanel</text>
 <polyline fill="none" stroke="black" points="1063,-148.5 1191,-148.5 "/>

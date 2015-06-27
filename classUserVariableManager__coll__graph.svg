@@ -29,7 +29,7 @@
 </g>
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
-<g id="a_node2"><a xlink:href="classMgr.xhtml" target="_top" xlink:title="{Mgr\&lt; UserVariableManager \&gt;\n|&#45; isShutdown\l|+ Valid()\l+ Get()\l+ Free()\l# Mgr()\l# ~Mgr()\l&#45; Mgr()\l&#45; operator=()\l}">
+<g id="a_node2"><a xlink:href="classMgr" target="_top" xlink:title="{Mgr\&lt; UserVariableManager \&gt;\n|&#45; isShutdown\l|+ Valid()\l+ Get()\l+ Free()\l# Mgr()\l# ~Mgr()\l&#45; Mgr()\l&#45; operator=()\l}">
 <polygon fill="white" stroke="black" points="0,-0.5 0,-123.5 141,-123.5 141,-0.5 0,-0.5"/>
 <text text-anchor="middle" x="70.5" y="-111.5" font-family="FreeSans" font-size="10.00">Mgr&lt; UserVariableManager &gt;</text>
 <polyline fill="none" stroke="black" points="0,-104.5 141,-104.5 "/>
@@ -58,7 +58,7 @@
 </g>
 <!-- Node3 -->
 <g id="node3" class="node"><title>Node3</title>
-<g id="a_node3"><a xlink:href="classConfigManager.xhtml" target="_top" xlink:title="{ConfigManager\n|&#45; doc\l&#45; root\l&#45; pathNode\l&#45; config_folder\l&#45; home_folder\l&#45; data_path_user\l&#45; data_path_global\l&#45; app_path\l&#45; temp_folder\l&#45; alternate_user_data_path\l&#45; has_alternate_user\l_data_path\l|+ GetPath()\l+ SetPath()\l+ EnumerateSubPaths()\l+ EnumerateKeys()\l+ DeleteSubPath()\l+ Clear()\l+ Delete()\l+ DeleteAll()\land 39 more...\l+ LocateDataFile()\l+ GetFolder()\l+ GetHomeFolder()\l+ GetConfigFolder()\l+ GetPluginsFolder()\l+ GetScriptsFolder()\l+ GetDataFolder()\l+ GetExecutableFolder()\land 7 more...\l# SetUserDataFolder()\l# GetUserDataFolder()\l&#45; ConfigManager()\l&#45; AssertPath()\l&#45; GetUniqElement()\l&#45; SetNodeText()\l&#45; Collapse()\l&#45; InvalidNameMessage()\l&#45; InitPaths()\l&#45; MigrateFolders()\l}">
+<g id="a_node3"><a xlink:href="classConfigManager" target="_top" xlink:title="{ConfigManager\n|&#45; doc\l&#45; root\l&#45; pathNode\l&#45; config_folder\l&#45; home_folder\l&#45; data_path_user\l&#45; data_path_global\l&#45; app_path\l&#45; temp_folder\l&#45; alternate_user_data_path\l&#45; has_alternate_user\l_data_path\l|+ GetPath()\l+ SetPath()\l+ EnumerateSubPaths()\l+ EnumerateKeys()\l+ DeleteSubPath()\l+ Clear()\l+ Delete()\l+ DeleteAll()\land 39 more...\l+ LocateDataFile()\l+ GetFolder()\l+ GetHomeFolder()\l+ GetConfigFolder()\l+ GetPluginsFolder()\l+ GetScriptsFolder()\l+ GetDataFolder()\l+ GetExecutableFolder()\land 7 more...\l# SetUserDataFolder()\l# GetUserDataFolder()\l&#45; ConfigManager()\l&#45; AssertPath()\l&#45; GetUniqElement()\l&#45; SetNodeText()\l&#45; Collapse()\l&#45; InvalidNameMessage()\l&#45; InitPaths()\l&#45; MigrateFolders()\l}">
 <polygon fill="white" stroke="black" points="5,-375.5 5,-850.5 136,-850.5 136,-375.5 5,-375.5"/>
 <text text-anchor="middle" x="70.5" y="-838.5" font-family="FreeSans" font-size="10.00">ConfigManager</text>
 <polyline fill="none" stroke="black" points="5,-831.5 136,-831.5 "/>

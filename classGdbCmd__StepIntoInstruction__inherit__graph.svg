@@ -20,7 +20,7 @@
 </g>
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
-<g id="a_node2"><a xlink:href="classGdbCmd__StepOrNextInstruction.xhtml" target="_top" xlink:title="{GdbCmd_StepOrNextInstruction\n||+ GdbCmd_StepOrNextInstruction()\l+ ParseOutput()\l}">
+<g id="a_node2"><a xlink:href="classGdbCmd__StepOrNextInstruction" target="_top" xlink:title="{GdbCmd_StepOrNextInstruction\n||+ GdbCmd_StepOrNextInstruction()\l+ ParseOutput()\l}">
 <polygon fill="white" stroke="black" points="0,-94.5 0,-162.5 170,-162.5 170,-94.5 0,-94.5"/>
 <text text-anchor="middle" x="85" y="-150.5" font-family="FreeSans" font-size="10.00">GdbCmd_StepOrNextInstruction</text>
 <polyline fill="none" stroke="black" points="0,-143.5 170,-143.5 "/>
@@ -38,7 +38,7 @@
 </g>
 <!-- Node3 -->
 <g id="node3" class="node"><title>Node3</title>
-<g id="a_node3"><a xlink:href="classDebuggerContinueBaseCmd.xhtml" target="_top" xlink:title="{DebuggerContinueBaseCmd\n||+ DebuggerContinueBaseCmd()\l+ IsContinueCommand()\l}">
+<g id="a_node3"><a xlink:href="classDebuggerContinueBaseCmd" target="_top" xlink:title="Base class for all Continue type of commands. ">
 <polygon fill="white" stroke="black" points="9,-199.5 9,-267.5 161,-267.5 161,-199.5 9,-199.5"/>
 <text text-anchor="middle" x="85" y="-255.5" font-family="FreeSans" font-size="10.00">DebuggerContinueBaseCmd</text>
 <polyline fill="none" stroke="black" points="9,-248.5 161,-248.5 "/>
@@ -56,7 +56,7 @@
 </g>
 <!-- Node4 -->
 <g id="node4" class="node"><title>Node4</title>
-<g id="a_node4"><a xlink:href="classDebuggerCmd.xhtml" target="_top" xlink:title="{DebuggerCmd\n|+ m_Cmd\l# m_pDriver\l# m_LogToNormalLog\l|+ DebuggerCmd()\l+ ~DebuggerCmd()\l+ Action()\l+ ParseOutput()\l+ IsContinueCommand()\l}">
+<g id="a_node4"><a xlink:href="classDebuggerCmd" target="_top" xlink:title="Basic interface for debugger commands. ">
 <polygon fill="white" stroke="black" points="24.5,-304.5 24.5,-427.5 145.5,-427.5 145.5,-304.5 24.5,-304.5"/>
 <text text-anchor="middle" x="85" y="-415.5" font-family="FreeSans" font-size="10.00">DebuggerCmd</text>
 <polyline fill="none" stroke="black" points="24.5,-408.5 145.5,-408.5 "/>

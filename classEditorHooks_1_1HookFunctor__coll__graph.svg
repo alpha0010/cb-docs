@@ -21,7 +21,7 @@
 </g>
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
-<g id="a_node2"><a xlink:href="classEditorHooks_1_1HookFunctorBase.xhtml" target="_top" xlink:title="{EditorHooks::HookFunctorBase\n||+ ~HookFunctorBase()\l+ Call()\l}">
+<g id="a_node2"><a xlink:href="classEditorHooks_1_1HookFunctorBase" target="_top" xlink:title="Abstract base hook functor interface. ">
 <polygon fill="white" stroke="black" points="236,-523.5 236,-591.5 386,-591.5 386,-523.5 236,-523.5"/>
 <text text-anchor="middle" x="311" y="-579.5" font-family="FreeSans" font-size="10.00">EditorHooks::HookFunctorBase</text>
 <polyline fill="none" stroke="black" points="236,-572.5 386,-572.5 "/>
@@ -39,7 +39,7 @@
 </g>
 <!-- Node3 -->
 <g id="node3" class="node"><title>Node3</title>
-<g id="a_node3"><a xlink:href="classcbEditor.xhtml" target="_top" xlink:title="A file editor. ">
+<g id="a_node3"><a xlink:href="classcbEditor" target="_top" xlink:title="A file editor. ">
 <polygon fill="white" stroke="black" points="404,-336.5 404,-778.5 548,-778.5 548,-336.5 404,-336.5"/>
 <text text-anchor="middle" x="476" y="-766.5" font-family="FreeSans" font-size="10.00">cbEditor</text>
 <polyline fill="none" stroke="black" points="404,-759.5 548,-759.5 "/>
@@ -92,7 +92,7 @@
 </g>
 <!-- Node16 -->
 <g id="node16" class="node"><title>Node16</title>
-<g id="a_node16"><a xlink:href="structcbEditorInternalData.xhtml" target="_top" xlink:title="{cbEditorInternalData\n|+ m_strip_trailing_spaces\l+ m_ensure_final_line_end\l+ m_ensure_consistent\l_line_ends\l+ m_LastMarginMenuLine\l+ m_LastDebugLine\l+ mFoldingLimit\l+ mFoldingLimitLevel\l+ m_encoding\l+ m_useByteOrderMark\l+ m_byteOrderMarkLength\l+ m_lineNumbersWidth\l+ m_lineNumbersWidth2\l|+ cbEditorInternalData()\l+ ~cbEditorInternalData()\l+ StripTrailingSpaces()\l+ EnsureFinalLineEnd()\l+ EnsureConsistentLineEnds()\l+ SetLineNumberColWidth()\l+ SetFoldingColWidth()\l+ GetUrl()\l+ GetLineIndentString()\l+ DetectIndentStyle()\l}">
+<g id="a_node16"><a xlink:href="structcbEditorInternalData" target="_top" xlink:title="{cbEditorInternalData\n|+ m_strip_trailing_spaces\l+ m_ensure_final_line_end\l+ m_ensure_consistent\l_line_ends\l+ m_LastMarginMenuLine\l+ m_LastDebugLine\l+ mFoldingLimit\l+ mFoldingLimitLevel\l+ m_encoding\l+ m_useByteOrderMark\l+ m_byteOrderMarkLength\l+ m_lineNumbersWidth\l+ m_lineNumbersWidth2\l|+ cbEditorInternalData()\l+ ~cbEditorInternalData()\l+ StripTrailingSpaces()\l+ EnsureFinalLineEnd()\l+ EnsureConsistentLineEnds()\l+ SetLineNumberColWidth()\l+ SetFoldingColWidth()\l+ GetUrl()\l+ GetLineIndentString()\l+ DetectIndentStyle()\l}">
 <polygon fill="white" stroke="black" points="472,-0.5 472,-288.5 616,-288.5 616,-0.5 472,-0.5"/>
 <text text-anchor="middle" x="544" y="-276.5" font-family="FreeSans" font-size="10.00">cbEditorInternalData</text>
 <polyline fill="none" stroke="black" points="472,-269.5 616,-269.5 "/>
@@ -131,7 +131,7 @@
 </g>
 <!-- Node4 -->
 <g id="node4" class="node"><title>Node4</title>
-<g id="a_node4"><a xlink:href="classEditorBase.xhtml" target="_top" xlink:title="Base class that all &quot;editors&quot; should inherit from. ">
+<g id="a_node4"><a xlink:href="classEditorBase" target="_top" xlink:title="Base class that all &quot;editors&quot; should inherit from. ">
 <polygon fill="white" stroke="black" points="773,-892.5 773,-1191.5 923,-1191.5 923,-892.5 773,-892.5"/>
 <text text-anchor="middle" x="848" y="-1179.5" font-family="FreeSans" font-size="10.00">EditorBase</text>
 <polyline fill="none" stroke="black" points="773,-1172.5 923,-1172.5 "/>
@@ -170,7 +170,7 @@
 </g>
 <!-- Node6 -->
 <g id="node6" class="node"><title>Node6</title>
-<g id="a_node6"><a xlink:href="structEditorBaseInternalData.xhtml" target="_top" xlink:title="{EditorBaseInternalData\n|+ m_DisplayingPopupMenu\l+ m_CloseMe\l|+ EditorBaseInternalData()\l}">
+<g id="a_node6"><a xlink:href="structEditorBaseInternalData" target="_top" xlink:title="{EditorBaseInternalData\n|+ m_DisplayingPopupMenu\l+ m_CloseMe\l|+ EditorBaseInternalData()\l}">
 <polygon fill="white" stroke="black" points="751,-523.5 751,-591.5 885,-591.5 885,-523.5 751,-523.5"/>
 <text text-anchor="middle" x="818" y="-579.5" font-family="FreeSans" font-size="10.00">EditorBaseInternalData</text>
 <polyline fill="none" stroke="black" points="751,-572.5 885,-572.5 "/>
@@ -209,7 +209,7 @@
 </g>
 <!-- Node7 -->
 <g id="node7" class="node"><title>Node7</title>
-<g id="a_node7"><a xlink:href="classProjectFile.xhtml" target="_top" xlink:title="{ProjectFile\n|+ file\l+ relativeFilename\l+ relativeToCommonTopLevelPath\l+ compile\l+ link\l+ weight\l+ editorOpen\l+ editorSplit\land 14 more...\l# m_VisualState\l# m_TreeItemId\l# m_ObjName\l# m_PFDMap\l|+ ProjectFile()\l+ ~ProjectFile()\l+ Rename()\l+ AddBuildTarget()\l+ RenameBuildTarget()\l+ RemoveBuildTarget()\l+ GetBuildTargets()\l+ ShowOptions()\land 16 more...\l+ CompareProjectFiles()\l# DoUpdateFileDetails()\l}">
+<g id="a_node7"><a xlink:href="classProjectFile" target="_top" xlink:title="Represents a file in a Code::Blocks project. ">
 <polygon fill="white" stroke="black" points="487.5,-892.5 487.5,-1191.5 652.5,-1191.5 652.5,-892.5 487.5,-892.5"/>
 <text text-anchor="middle" x="570" y="-1179.5" font-family="FreeSans" font-size="10.00">ProjectFile</text>
 <polyline fill="none" stroke="black" points="487.5,-1172.5 652.5,-1172.5 "/>
@@ -270,7 +270,7 @@
 </g>
 <!-- Node8 -->
 <g id="node8" class="node"><title>Node8</title>
-<g id="a_node8"><a xlink:href="classcbProject.xhtml" target="_top" xlink:title="Represents a Code::Blocks project. ">
+<g id="a_node8"><a xlink:href="classcbProject" target="_top" xlink:title="Represents a Code::Blocks project. ">
 <polygon fill="white" stroke="black" points="448,-1316.5 448,-1626.5 618,-1626.5 618,-1316.5 448,-1316.5"/>
 <text text-anchor="middle" x="533" y="-1614.5" font-family="FreeSans" font-size="10.00">cbProject</text>
 <polyline fill="none" stroke="black" points="448,-1607.5 618,-1607.5 "/>
@@ -311,7 +311,7 @@
 </g>
 <!-- Node14 -->
 <g id="node14" class="node"><title>Node14</title>
-<g id="a_node14"><a xlink:href="classProjectBuildTarget.xhtml" target="_top" xlink:title="{ProjectBuildTarget\n|&#45; m_ExternalDeps\l&#45; m_AdditionalOutputFiles\l&#45; m_TargetDeps\l&#45; m_Files\l&#45; m_FileArray\l&#45; m_BuildWithAll\l&#45; m_CreateStaticLib\l&#45; m_CreateDefFile\l&#45; m_UseConsoleRunner\l|+ ProjectBuildTarget()\l+ ~ProjectBuildTarget()\l+ GetParentProject()\l+ GetFullTitle()\l+ GetExternalDeps()\l+ SetExternalDeps()\l+ GetAdditionalOutputFiles()\l+ SetAdditionalOutputFiles()\land 15 more...\l}">
+<g id="a_node14"><a xlink:href="classProjectBuildTarget" target="_top" xlink:title="Represents a Code::Blocks project build target. ">
 <polygon fill="white" stroke="black" points="330.5,-925.5 330.5,-1158.5 469.5,-1158.5 469.5,-925.5 330.5,-925.5"/>
 <text text-anchor="middle" x="400" y="-1146.5" font-family="FreeSans" font-size="10.00">ProjectBuildTarget</text>
 <polyline fill="none" stroke="black" points="330.5,-1139.5 469.5,-1139.5 "/>
@@ -345,7 +345,7 @@
 </g>
 <!-- Node9 -->
 <g id="node9" class="node"><title>Node9</title>
-<g id="a_node9"><a xlink:href="classCompileTargetBase.xhtml" target="_top" xlink:title="Base class for build target classes Each Code::Blocks project consists of at least one target...">
+<g id="a_node9"><a xlink:href="classCompileTargetBase" target="_top" xlink:title="Base class for build target classes Each Code::Blocks project consists of at least one target...">
 <polygon fill="white" stroke="black" points="299.5,-1674.5 299.5,-1940.5 454.5,-1940.5 454.5,-1674.5 299.5,-1674.5"/>
 <text text-anchor="middle" x="377" y="-1928.5" font-family="FreeSans" font-size="10.00">CompileTargetBase</text>
 <polyline fill="none" stroke="black" points="299.5,-1921.5 454.5,-1921.5 "/>
@@ -386,7 +386,7 @@
 </g>
 <!-- Node10 -->
 <g id="node10" class="node"><title>Node10</title>
-<g id="a_node10"><a xlink:href="classCompileOptionsBase.xhtml" target="_top" xlink:title="{CompileOptionsBase\n|# m_Platform\l# m_LinkerOptions\l# m_LinkLibs\l# m_CompilerOptions\l# m_ResourceCompilerOptions\l# m_IncludeDirs\l# m_ResIncludeDirs\l# m_LibDirs\land 6 more...\l|+ CompileOptionsBase()\l+ ~CompileOptionsBase()\l+ AddPlatform()\l+ RemovePlatform()\l+ SetPlatforms()\l+ GetPlatforms()\l+ SupportsCurrentPlatform()\l+ SetLinkerOptions()\land 56 more...\l}">
+<g id="a_node10"><a xlink:href="classCompileOptionsBase" target="_top" xlink:title="This is a base class for all classes needing compilation parameters. ">
 <polygon fill="white" stroke="black" points="302.5,-1988.5 302.5,-2221.5 451.5,-2221.5 451.5,-1988.5 302.5,-1988.5"/>
 <text text-anchor="middle" x="377" y="-2209.5" font-family="FreeSans" font-size="10.00">CompileOptionsBase</text>
 <polyline fill="none" stroke="black" points="302.5,-2202.5 451.5,-2202.5 "/>
@@ -452,7 +452,7 @@
 </g>
 <!-- Node13 -->
 <g id="node13" class="node"><title>Node13</title>
-<g id="a_node13"><a xlink:href="structcbProject_1_1Glob.xhtml" target="_top" xlink:title="{cbProject::Glob\n|+ m_Path\l+ m_WildCard\l+ m_Recursive\l|+ Glob()\l}">
+<g id="a_node13"><a xlink:href="structcbProject_1_1Glob" target="_top" xlink:title="{cbProject::Glob\n|+ m_Path\l+ m_WildCard\l+ m_Recursive\l|+ Glob()\l}">
 <polygon fill="white" stroke="black" points="607.5,-2065.5 607.5,-2144.5 690.5,-2144.5 690.5,-2065.5 607.5,-2065.5"/>
 <text text-anchor="middle" x="649" y="-2132.5" font-family="FreeSans" font-size="10.00">cbProject::Glob</text>
 <polyline fill="none" stroke="black" points="607.5,-2125.5 690.5,-2125.5 "/>
@@ -490,7 +490,7 @@
 </g>
 <!-- Node17 -->
 <g id="node17" class="node"><title>Node17</title>
-<g id="a_node17"><a xlink:href="classLoaderBase.xhtml" target="_top" xlink:title="{LoaderBase\n|# fileName\l# data\l# len\l&#45; sem\l&#45; wait\l|+ LoaderBase()\l+ ~LoaderBase()\l+ operator()()\l+ FileName()\l+ Sync()\l+ GetData()\l+ GetLength()\l# Ready()\l&#45; WaitReady()\l}">
+<g id="a_node17"><a xlink:href="classLoaderBase" target="_top" xlink:title="{LoaderBase\n|# fileName\l# data\l# len\l&#45; sem\l&#45; wait\l|+ LoaderBase()\l+ ~LoaderBase()\l+ operator()()\l+ FileName()\l+ Sync()\l+ GetData()\l+ GetLength()\l# Ready()\l&#45; WaitReady()\l}">
 <polygon fill="white" stroke="black" points="919.5,-463 919.5,-652 1006.5,-652 1006.5,-463 919.5,-463"/>
 <text text-anchor="middle" x="963" y="-640" font-family="FreeSans" font-size="10.00">LoaderBase</text>
 <polyline fill="none" stroke="black" points="919.5,-633 1006.5,-633 "/>
@@ -520,7 +520,7 @@
 </g>
 <!-- Node18 -->
 <g id="node18" class="node"><title>Node18</title>
-<g id="a_node18"><a xlink:href="classAbstractJob.xhtml" target="_top" xlink:title="{AbstractJob\n||+ AbstractJob()\l+ ~AbstractJob()\l+ operator()()\l}">
+<g id="a_node18"><a xlink:href="classAbstractJob" target="_top" xlink:title="{AbstractJob\n||+ AbstractJob()\l+ ~AbstractJob()\l+ operator()()\l}">
 <polygon fill="white" stroke="black" points="941,-1002.5 941,-1081.5 1029,-1081.5 1029,-1002.5 941,-1002.5"/>
 <text text-anchor="middle" x="985" y="-1069.5" font-family="FreeSans" font-size="10.00">AbstractJob</text>
 <polyline fill="none" stroke="black" points="941,-1062.5 1029,-1062.5 "/>
@@ -539,7 +539,7 @@
 </g>
 <!-- Node19 -->
 <g id="node19" class="node"><title>Node19</title>
-<g id="a_node19"><a xlink:href="classEditorColourSet.xhtml" target="_top" xlink:title="{EditorColourSet\n|&#45; m_Name\l&#45; m_Sets\l|+ EditorColourSet()\l+ EditorColourSet()\l+ ~EditorColourSet()\l+ AddHighlightLanguage()\l+ GetHighlightLanguage()\l+ GetHighlightLanguage()\l+ GetAllHighlightLanguages()\l+ AddOption()\land 28 more...\l&#45; DoApplyStyle()\l&#45; LoadAvailableSets()\l&#45; Load()\l&#45; ClearAllOptionColours()\l&#45; GetDefaultOption()\l}">
+<g id="a_node19"><a xlink:href="classEditorColourSet" target="_top" xlink:title="{EditorColourSet\n|&#45; m_Name\l&#45; m_Sets\l|+ EditorColourSet()\l+ EditorColourSet()\l+ ~EditorColourSet()\l+ AddHighlightLanguage()\l+ GetHighlightLanguage()\l+ GetHighlightLanguage()\l+ GetAllHighlightLanguages()\l+ AddOption()\land 28 more...\l&#45; DoApplyStyle()\l&#45; LoadAvailableSets()\l&#45; Load()\l&#45; ClearAllOptionColours()\l&#45; GetDefaultOption()\l}">
 <polygon fill="white" stroke="black" points="0,-936.5 0,-1147.5 142,-1147.5 142,-936.5 0,-936.5"/>
 <text text-anchor="middle" x="71" y="-1135.5" font-family="FreeSans" font-size="10.00">EditorColourSet</text>
 <polyline fill="none" stroke="black" points="0,-1128.5 142,-1128.5 "/>
@@ -571,7 +571,7 @@
 </g>
 <!-- Node20 -->
 <g id="node20" class="node"><title>Node20</title>
-<g id="a_node20"><a xlink:href="classcbStyledTextCtrl.xhtml" target="_top" xlink:title="{cbStyledTextCtrl\n|&#45; m_pParent\l&#45; m_lastFocusTime\l&#45; m_bracePosition\l&#45; m_lastPosition\l&#45; m_middleClickPos\l&#45; m_tabSmartJump\l&#45; m_lastSelectedText\l&#45; m_braceShortcutState\l|+ cbStyledTextCtrl()\l+ ~cbStyledTextCtrl()\l+ operator=()\l+ GetLastFocusTime()\l+ GetLastSelectedText()\l+ EnableTabSmartJump()\l+ IsCharacter()\l+ IsString()\land 7 more...\l+ GetCharacterLexerStyles()\l+ GetStringLexerStyles()\l+ GetPreprocessorLexerStyles()\l+ GetCommentLexerStyles()\l&#45; OnContextMenu()\l&#45; OnKillFocus()\l&#45; OnSetFocus()\l&#45; OnMouseMiddleDown()\l&#45; OnMouseMiddleClick()\l&#45; OnKeyDown()\l&#45; OnKeyUp()\l&#45; OnMouseLeftUp()\l&#45; AllowTabSmartJump()\l&#45; HighlightRightBrace()\l&#45; EmulateDwellStart()\l}">
+<g id="a_node20"><a xlink:href="classcbStyledTextCtrl" target="_top" xlink:title="{cbStyledTextCtrl\n|&#45; m_pParent\l&#45; m_lastFocusTime\l&#45; m_bracePosition\l&#45; m_lastPosition\l&#45; m_middleClickPos\l&#45; m_tabSmartJump\l&#45; m_lastSelectedText\l&#45; m_braceShortcutState\l|+ cbStyledTextCtrl()\l+ ~cbStyledTextCtrl()\l+ operator=()\l+ GetLastFocusTime()\l+ GetLastSelectedText()\l+ EnableTabSmartJump()\l+ IsCharacter()\l+ IsString()\land 7 more...\l+ GetCharacterLexerStyles()\l+ GetStringLexerStyles()\l+ GetPreprocessorLexerStyles()\l+ GetCommentLexerStyles()\l&#45; OnContextMenu()\l&#45; OnKillFocus()\l&#45; OnSetFocus()\l&#45; OnMouseMiddleDown()\l&#45; OnMouseMiddleClick()\l&#45; OnKeyDown()\l&#45; OnKeyUp()\l&#45; OnMouseLeftUp()\l&#45; AllowTabSmartJump()\l&#45; HighlightRightBrace()\l&#45; EmulateDwellStart()\l}">
 <polygon fill="white" stroke="black" points="160,-848.5 160,-1235.5 312,-1235.5 312,-848.5 160,-848.5"/>
 <text text-anchor="middle" x="236" y="-1223.5" font-family="FreeSans" font-size="10.00">cbStyledTextCtrl</text>
 <polyline fill="none" stroke="black" points="160,-1216.5 312,-1216.5 "/>
@@ -621,7 +621,7 @@
 </g>
 <!-- Node21 -->
 <g id="node21" class="node"><title>Node21</title>
-<g id="a_node21"><a xlink:href="classwxScintilla.xhtml" target="_top" xlink:title="{wxScintilla\n|# m_swx\l# m_stopWatch\l# m_vScrollBar\l# m_hScrollBar\l# m_lastKeyDownConsumed\l|+ wxScintilla()\l+ wxScintilla()\l+ ~wxScintilla()\l+ Create()\l+ AddText()\l+ AddText()\l+ AddStyledText()\l+ InsertText()\land 707 more...\l# GetValue()\l# SetValue()\l# DoSetValue()\l# DoGetValue()\l# GetEditableWindow()\l# DoLoadFile()\l# DoSaveFile()\l# OnPaint()\land 26 more...\l}">
+<g id="a_node21"><a xlink:href="classwxScintilla" target="_top" xlink:title="{wxScintilla\n|# m_swx\l# m_stopWatch\l# m_vScrollBar\l# m_hScrollBar\l# m_lastKeyDownConsumed\l|+ wxScintilla()\l+ wxScintilla()\l+ ~wxScintilla()\l+ Create()\l+ AddText()\l+ AddText()\l+ AddStyledText()\l+ InsertText()\land 707 more...\l# GetValue()\l# SetValue()\l# DoSetValue()\l# DoGetValue()\l# GetEditableWindow()\l# DoLoadFile()\l# DoSaveFile()\l# OnPaint()\land 26 more...\l}">
 <polygon fill="white" stroke="black" points="38.5,-1327.5 38.5,-1615.5 177.5,-1615.5 177.5,-1327.5 38.5,-1327.5"/>
 <text text-anchor="middle" x="108" y="-1603.5" font-family="FreeSans" font-size="10.00">wxScintilla</text>
 <polyline fill="none" stroke="black" points="38.5,-1596.5 177.5,-1596.5 "/>

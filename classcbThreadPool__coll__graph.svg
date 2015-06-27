@@ -44,7 +44,7 @@
 </g>
 <!-- Node7 -->
 <g id="node7" class="node"><title>Node7</title>
-<g id="a_node7"><a xlink:href="classcbThreadPool_1_1cbWorkerThread.xhtml" target="_top" xlink:title="{cbThreadPool::cbWorkerThread\n|&#45; m_abort\l&#45; m_taskMutex\l|+ cbWorkerThread()\l+ Entry()\l+ Abort()\l+ Aborted()\l+ AbortTask()\l}">
+<g id="a_node7"><a xlink:href="classcbThreadPool_1_1cbWorkerThread" target="_top" xlink:title="A Worker Thread class. ">
 <polygon fill="white" stroke="black" points="185,-105.5 185,-217.5 337,-217.5 337,-105.5 185,-105.5"/>
 <text text-anchor="middle" x="261" y="-205.5" font-family="FreeSans" font-size="10.00">cbThreadPool::cbWorkerThread</text>
 <polyline fill="none" stroke="black" points="185,-198.5 337,-198.5 "/>
@@ -83,7 +83,7 @@
 </g>
 <!-- Node3 -->
 <g id="node3" class="node"><title>Node3</title>
-<g id="a_node3"><a xlink:href="structcbThreadPool_1_1cbThreadedTaskElement.xhtml" target="_top" xlink:title="All tasks are added to one of these. It&#39;ll also save the autodelete value. ">
+<g id="a_node3"><a xlink:href="structcbThreadPool_1_1cbThreadedTaskElement" target="_top" xlink:title="All tasks are added to one of these. It&#39;ll also save the autodelete value. ">
 <polygon fill="white" stroke="black" points="175,-827.5 175,-906.5 313,-906.5 313,-827.5 175,-827.5"/>
 <text text-anchor="start" x="183" y="-894.5" font-family="FreeSans" font-size="10.00">cbThreadPool::cbThreaded</text>
 <text text-anchor="middle" x="244" y="-883.5" font-family="FreeSans" font-size="10.00">TaskElement</text>
@@ -103,7 +103,7 @@
 </g>
 <!-- Node4 -->
 <g id="node4" class="node"><title>Node4</title>
-<g id="a_node4"><a xlink:href="classcbThreadedTask.xhtml" target="_top" xlink:title="{cbThreadedTask\n|&#45; m_abort\l|+ cbThreadedTask()\l+ ~cbThreadedTask()\l+ Abort()\l+ Execute()\l# TestDestroy()\l# Aborted()\l}">
+<g id="a_node4"><a xlink:href="classcbThreadedTask" target="_top" xlink:title="This is what you have to use instead of wxThread to add tasks to the Thread Pool. ...">
 <polygon fill="white" stroke="black" points="297,-954.5 297,-1066.5 405,-1066.5 405,-954.5 297,-954.5"/>
 <text text-anchor="middle" x="351" y="-1054.5" font-family="FreeSans" font-size="10.00">cbThreadedTask</text>
 <polyline fill="none" stroke="black" points="297,-1047.5 405,-1047.5 "/>
@@ -132,7 +132,7 @@
 </g>
 <!-- Node5 -->
 <g id="node5" class="node"><title>Node5</title>
-<g id="a_node5"><a xlink:href="classcbThreadPool_1_1CountedPtr.xhtml" target="_top" xlink:title="{cbThreadPool::CountedPtr\l\&lt; wxSemaphore \&gt;\n|&#45; ptr\l&#45; count\l|+ CountedPtr()\l+ CountedPtr()\l+ ~CountedPtr()\l+ operator=()\l+ operator*()\l+ operator&#45;\&gt;()\l&#45; dispose()\l}">
+<g id="a_node5"><a xlink:href="classcbThreadPool_1_1CountedPtr" target="_top" xlink:title="{cbThreadPool::CountedPtr\l\&lt; wxSemaphore \&gt;\n|&#45; ptr\l&#45; count\l|+ CountedPtr()\l+ CountedPtr()\l+ ~CountedPtr()\l+ operator=()\l+ operator*()\l+ operator&#45;\&gt;()\l&#45; dispose()\l}">
 <polygon fill="white" stroke="black" points="151,-634.5 151,-779.5 281,-779.5 281,-634.5 151,-634.5"/>
 <text text-anchor="start" x="159" y="-767.5" font-family="FreeSans" font-size="10.00">cbThreadPool::CountedPtr</text>
 <text text-anchor="middle" x="216" y="-756.5" font-family="FreeSans" font-size="10.00">&lt; wxSemaphore &gt;</text>

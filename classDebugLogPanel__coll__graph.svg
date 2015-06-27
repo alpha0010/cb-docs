@@ -39,7 +39,7 @@
 </g>
 <!-- Node3 -->
 <g id="node3" class="node"><title>Node3</title>
-<g id="a_node3"><a xlink:href="classDebugTextCtrlLogger.xhtml" target="_top" xlink:title="{DebugTextCtrlLogger\n|&#45; m_panel\l&#45; m_debugLog\l|+ DebugTextCtrlLogger()\l+ CreateTextCtrl()\l+ CreateControl()\l}">
+<g id="a_node3"><a xlink:href="classDebugTextCtrlLogger" target="_top" xlink:title="{DebugTextCtrlLogger\n|&#45; m_panel\l&#45; m_debugLog\l|+ DebugTextCtrlLogger()\l+ CreateTextCtrl()\l+ CreateControl()\l}">
 <polygon fill="white" stroke="black" points="71.5,-160.5 71.5,-250.5 193.5,-250.5 193.5,-160.5 71.5,-160.5"/>
 <text text-anchor="middle" x="132.5" y="-238.5" font-family="FreeSans" font-size="10.00">DebugTextCtrlLogger</text>
 <polyline fill="none" stroke="black" points="71.5,-231.5 193.5,-231.5 "/>
@@ -60,7 +60,7 @@
 </g>
 <!-- Node4 -->
 <g id="node4" class="node"><title>Node4</title>
-<g id="a_node4"><a xlink:href="classTextCtrlLogger.xhtml" target="_top" xlink:title="{TextCtrlLogger\n|# control\l# fixed\l# style\l|+ TextCtrlLogger()\l+ ~TextCtrlLogger()\l+ CopyContentsToClipboard()\l+ UpdateSettings()\l+ Append()\l+ Clear()\l+ CreateControl()\l+ GetWrapMode()\l+ ToggleWrapMode()\l+ HasFeature()\l}">
+<g id="a_node4"><a xlink:href="classTextCtrlLogger" target="_top" xlink:title="a logger which prints messages to a wxTextCtrl ">
 <polygon fill="white" stroke="black" points="61,-288.5 61,-466.5 204,-466.5 204,-288.5 61,-288.5"/>
 <text text-anchor="middle" x="132.5" y="-454.5" font-family="FreeSans" font-size="10.00">TextCtrlLogger</text>
 <polyline fill="none" stroke="black" points="61,-447.5 204,-447.5 "/>
@@ -88,7 +88,7 @@
 </g>
 <!-- Node5 -->
 <g id="node5" class="node"><title>Node5</title>
-<g id="a_node5"><a xlink:href="classLogger.xhtml" target="_top" xlink:title="{Logger\n||+ Logger()\l+ ~Logger()\l+ Append()\l+ Clear()\l+ CopyContentsToClipboard()\l+ UpdateSettings()\l+ CreateControl()\l+ GetWrapMode()\l+ HasFeature()\l+ AppendAdditionalMenuItems()\l}">
+<g id="a_node5"><a xlink:href="classLogger" target="_top" xlink:title="The base class for all kinds of loggers, see loggers.h for its derived classes. ">
 <polygon fill="white" stroke="black" points="55,-504.5 55,-660.5 210,-660.5 210,-504.5 55,-504.5"/>
 <text text-anchor="middle" x="132.5" y="-648.5" font-family="FreeSans" font-size="10.00">Logger</text>
 <polyline fill="none" stroke="black" points="55,-641.5 210,-641.5 "/>

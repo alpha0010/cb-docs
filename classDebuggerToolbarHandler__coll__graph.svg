@@ -40,7 +40,7 @@
 </g>
 <!-- Node3 -->
 <g id="node3" class="node"><title>Node3</title>
-<g id="a_node3"><a xlink:href="classDebuggerMenuHandler.xhtml" target="_top" xlink:title="{DebuggerMenuHandler\n|&#45; m_lastCommand\l&#45; m_disableContinue\l|+ DebuggerMenuHandler()\l+ RegisterDefaultWindowItems()\l+ AppendWindowMenuItems()\l+ SetActiveDebugger()\l+ MarkActiveTargetAsValid()\l+ RebuildMenus()\l+ BuildContextMenu()\l+ RegisterWindowMenu()\l+ UnregisterWindowMenu()\l&#45; OnUpdateUI()\l&#45; OnStart()\l&#45; OnBreak()\l&#45; OnStop()\l&#45; OnContinue()\l&#45; OnNext()\l&#45; OnNextInstr()\l&#45; OnStepIntoInstr()\land 17 more...\l}">
+<g id="a_node3"><a xlink:href="classDebuggerMenuHandler" target="_top" xlink:title="{DebuggerMenuHandler\n|&#45; m_lastCommand\l&#45; m_disableContinue\l|+ DebuggerMenuHandler()\l+ RegisterDefaultWindowItems()\l+ AppendWindowMenuItems()\l+ SetActiveDebugger()\l+ MarkActiveTargetAsValid()\l+ RebuildMenus()\l+ BuildContextMenu()\l+ RegisterWindowMenu()\l+ UnregisterWindowMenu()\l&#45; OnUpdateUI()\l&#45; OnStart()\l&#45; OnBreak()\l&#45; OnStop()\l&#45; OnContinue()\l&#45; OnNext()\l&#45; OnNextInstr()\l&#45; OnStepIntoInstr()\land 17 more...\l}">
 <polygon fill="white" stroke="black" points="95.5,-171.5 95.5,-426.5 250.5,-426.5 250.5,-171.5 95.5,-171.5"/>
 <text text-anchor="middle" x="173" y="-414.5" font-family="FreeSans" font-size="10.00">DebuggerMenuHandler</text>
 <polyline fill="none" stroke="black" points="95.5,-407.5 250.5,-407.5 "/>
@@ -75,7 +75,7 @@
 </g>
 <!-- Node6 -->
 <g id="node6" class="node"><title>Node6</title>
-<g id="a_node6"><a xlink:href="classcbPlugin.xhtml" target="_top" xlink:title="Base class for plugins This is the most basic class a plugin must descend from. cbPlugin descends fro...">
+<g id="a_node6"><a xlink:href="classcbPlugin" target="_top" xlink:title="Base class for plugins This is the most basic class a plugin must descend from. ">
 <polygon fill="white" stroke="black" points="94,-1180.5 94,-1391.5 252,-1391.5 252,-1180.5 94,-1180.5"/>
 <text text-anchor="middle" x="173" y="-1379.5" font-family="FreeSans" font-size="10.00">cbPlugin</text>
 <polyline fill="none" stroke="black" points="94,-1372.5 252,-1372.5 "/>
@@ -112,7 +112,7 @@
 </g>
 <!-- Node4 -->
 <g id="node4" class="node"><title>Node4</title>
-<g id="a_node4"><a xlink:href="classcbDebuggerMenuHandler.xhtml" target="_top" xlink:title="{cbDebuggerMenuHandler\n||+ ~cbDebuggerMenuHandler()\l+ SetActiveDebugger()\l+ MarkActiveTargetAsValid()\l+ RebuildMenus()\l+ BuildContextMenu()\l+ RegisterWindowMenu()\l+ UnregisterWindowMenu()\l}">
+<g id="a_node4"><a xlink:href="classcbDebuggerMenuHandler" target="_top" xlink:title="{cbDebuggerMenuHandler\n||+ ~cbDebuggerMenuHandler()\l+ SetActiveDebugger()\l+ MarkActiveTargetAsValid()\l+ RebuildMenus()\l+ BuildContextMenu()\l+ RegisterWindowMenu()\l+ UnregisterWindowMenu()\l}">
 <polygon fill="white" stroke="black" points="269.5,-650.5 269.5,-773.5 414.5,-773.5 414.5,-650.5 269.5,-650.5"/>
 <text text-anchor="middle" x="342" y="-761.5" font-family="FreeSans" font-size="10.00">cbDebuggerMenuHandler</text>
 <polyline fill="none" stroke="black" points="269.5,-754.5 414.5,-754.5 "/>
@@ -135,7 +135,7 @@
 </g>
 <!-- Node5 -->
 <g id="node5" class="node"><title>Node5</title>
-<g id="a_node5"><a xlink:href="classcbDebuggerPlugin.xhtml" target="_top" xlink:title="Base class for debugger plugins. ">
+<g id="a_node5"><a xlink:href="classcbDebuggerPlugin" target="_top" xlink:title="Base class for debugger plugins. ">
 <polygon fill="white" stroke="black" points="94.5,-474.5 94.5,-949.5 251.5,-949.5 251.5,-474.5 94.5,-474.5"/>
 <text text-anchor="middle" x="173" y="-937.5" font-family="FreeSans" font-size="10.00">cbDebuggerPlugin</text>
 <polyline fill="none" stroke="black" points="94.5,-930.5 251.5,-930.5 "/>
@@ -196,7 +196,7 @@
 </g>
 <!-- Node7 -->
 <g id="node7" class="node"><title>Node7</title>
-<g id="a_node7"><a xlink:href="classcbCompilerPlugin.xhtml" target="_top" xlink:title="Base class for compiler plugins. ">
+<g id="a_node7"><a xlink:href="classcbCompilerPlugin" target="_top" xlink:title="Base class for compiler plugins. ">
 <polygon fill="white" stroke="black" points="180.5,-997.5 180.5,-1142.5 287.5,-1142.5 287.5,-997.5 180.5,-997.5"/>
 <text text-anchor="middle" x="234" y="-1130.5" font-family="FreeSans" font-size="10.00">cbCompilerPlugin</text>
 <polyline fill="none" stroke="black" points="180.5,-1123.5 287.5,-1123.5 "/>
@@ -243,7 +243,7 @@
 </g>
 <!-- Node9 -->
 <g id="node9" class="node"><title>Node9</title>
-<g id="a_node9"><a xlink:href="classDebuggerMenuHandler.xhtml#structDebuggerMenuHandler_1_1WindowMenuItem" target="_top" xlink:title="{DebuggerMenuHandler\l::WindowMenuItem\n|+ item\l+ name\l+ help\l|}">
+<g id="a_node9"><a xlink:href="classDebuggerMenuHandler#structDebuggerMenuHandler_1_1WindowMenuItem" target="_top" xlink:title="{DebuggerMenuHandler\l::WindowMenuItem\n|+ item\l+ name\l+ help\l|}">
 <polygon fill="white" stroke="black" points="446.5,-1025 446.5,-1115 561.5,-1115 561.5,-1025 446.5,-1025"/>
 <text text-anchor="start" x="454.5" y="-1103" font-family="FreeSans" font-size="10.00">DebuggerMenuHandler</text>
 <text text-anchor="middle" x="504" y="-1092" font-family="FreeSans" font-size="10.00">::WindowMenuItem</text>

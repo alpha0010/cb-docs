@@ -21,7 +21,7 @@
 </g>
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
-<g id="a_node2"><a xlink:href="classEditorManager.xhtml" target="_top" xlink:title="{EditorManager\n|&#45; m_nNotebookStackSize\l&#45; m_Zoom\l&#45; m_isCheckingForExternally\lModifiedFiles\l&#45; s_CanShutdown\l|+ operator=()\l+ GetNotebook()\l+ GetNotebookStack()\l+ DeleteNotebookStack()\l+ RebuildNotebookStack()\l+ RecreateOpenEditorStyles()\l+ GetEditorsCount()\l+ IsOpen()\land 70 more...\l+ CanShutdown()\l# AddEditorBase()\l# RemoveEditorBase()\l# InternalGetBuiltinEditor()\l# InternalGetEditorBase()\l&#45; EditorManager()\l&#45; EditorManager()\l&#45; ~EditorManager()\l&#45; OnCheckForModifiedFiles()\l&#45; IsHeaderSource()\l&#45; FindHeaderSource()\l}">
+<g id="a_node2"><a xlink:href="classEditorManager" target="_top" xlink:title="{EditorManager\n|&#45; m_nNotebookStackSize\l&#45; m_Zoom\l&#45; m_isCheckingForExternally\lModifiedFiles\l&#45; s_CanShutdown\l|+ operator=()\l+ GetNotebook()\l+ GetNotebookStack()\l+ DeleteNotebookStack()\l+ RebuildNotebookStack()\l+ RecreateOpenEditorStyles()\l+ GetEditorsCount()\l+ IsOpen()\land 70 more...\l+ CanShutdown()\l# AddEditorBase()\l# RemoveEditorBase()\l# InternalGetBuiltinEditor()\l# InternalGetEditorBase()\l&#45; EditorManager()\l&#45; EditorManager()\l&#45; ~EditorManager()\l&#45; OnCheckForModifiedFiles()\l&#45; IsHeaderSource()\l&#45; FindHeaderSource()\l}">
 <polygon fill="white" stroke="black" points="177,-171.5 177,-481.5 321,-481.5 321,-171.5 177,-171.5"/>
 <text text-anchor="middle" x="249" y="-469.5" font-family="FreeSans" font-size="10.00">EditorManager</text>
 <polyline fill="none" stroke="black" points="177,-462.5 321,-462.5 "/>
@@ -68,7 +68,7 @@
 </g>
 <!-- Node3 -->
 <g id="node3" class="node"><title>Node3</title>
-<g id="a_node3"><a xlink:href="classMgr.xhtml" target="_top" xlink:title="{Mgr\&lt; EditorManager \&gt;\n|&#45; isShutdown\l|+ Valid()\l+ Get()\l+ Free()\l# Mgr()\l# ~Mgr()\l&#45; Mgr()\l&#45; operator=()\l}">
+<g id="a_node3"><a xlink:href="classMgr" target="_top" xlink:title="{Mgr\&lt; EditorManager \&gt;\n|&#45; isShutdown\l|+ Valid()\l+ Get()\l+ Free()\l# Mgr()\l# ~Mgr()\l&#45; Mgr()\l&#45; operator=()\l}">
 <polygon fill="white" stroke="black" points="193,-0.5 193,-123.5 305,-123.5 305,-0.5 193,-0.5"/>
 <text text-anchor="middle" x="249" y="-111.5" font-family="FreeSans" font-size="10.00">Mgr&lt; EditorManager &gt;</text>
 <polyline fill="none" stroke="black" points="193,-104.5 305,-104.5 "/>
@@ -111,7 +111,7 @@
 </g>
 <!-- Node5 -->
 <g id="node5" class="node"><title>Node5</title>
-<g id="a_node5"><a xlink:href="classcbAuiNotebook.xhtml" target="_top" xlink:title="A notebook class This class is derived from wxAuiNotebook, to enhance its abilities. It adds the ability to store (and restore) the visible tab&#45;order, because wxAuiNotebook&#45;tabs can be reordered with drag and drop. Another added feature is the possibility to add tooltips to the tabs belonging to added panes. ">
+<g id="a_node5"><a xlink:href="classcbAuiNotebook" target="_top" xlink:title="A notebook class This class is derived from wxAuiNotebook, to enhance its abilities. ">
 <polygon fill="white" stroke="black" points="256,-540.5 256,-993.5 408,-993.5 408,-540.5 256,-540.5"/>
 <text text-anchor="middle" x="332" y="-981.5" font-family="FreeSans" font-size="10.00">cbAuiNotebook</text>
 <polyline fill="none" stroke="black" points="256,-974.5 408,-974.5 "/>
@@ -179,7 +179,7 @@
 </g>
 <!-- Node7 -->
 <g id="node7" class="node"><title>Node7</title>
-<g id="a_node7"><a xlink:href="classEditorColourSet.xhtml" target="_top" xlink:title="{EditorColourSet\n|&#45; m_Name\l&#45; m_Sets\l|+ EditorColourSet()\l+ EditorColourSet()\l+ ~EditorColourSet()\l+ AddHighlightLanguage()\l+ GetHighlightLanguage()\l+ GetHighlightLanguage()\l+ GetAllHighlightLanguages()\l+ AddOption()\land 28 more...\l&#45; DoApplyStyle()\l&#45; LoadAvailableSets()\l&#45; Load()\l&#45; ClearAllOptionColours()\l&#45; GetDefaultOption()\l}">
+<g id="a_node7"><a xlink:href="classEditorColourSet" target="_top" xlink:title="{EditorColourSet\n|&#45; m_Name\l&#45; m_Sets\l|+ EditorColourSet()\l+ EditorColourSet()\l+ ~EditorColourSet()\l+ AddHighlightLanguage()\l+ GetHighlightLanguage()\l+ GetHighlightLanguage()\l+ GetAllHighlightLanguages()\l+ AddOption()\land 28 more...\l&#45; DoApplyStyle()\l&#45; LoadAvailableSets()\l&#45; Load()\l&#45; ClearAllOptionColours()\l&#45; GetDefaultOption()\l}">
 <polygon fill="white" stroke="black" points="426,-661.5 426,-872.5 568,-872.5 568,-661.5 426,-661.5"/>
 <text text-anchor="middle" x="497" y="-860.5" font-family="FreeSans" font-size="10.00">EditorColourSet</text>
 <polyline fill="none" stroke="black" points="426,-853.5 568,-853.5 "/>
@@ -211,7 +211,7 @@
 </g>
 <!-- Node8 -->
 <g id="node8" class="node"><title>Node8</title>
-<g id="a_node8"><a xlink:href="structcbNotebookStack.xhtml" target="_top" xlink:title="{cbNotebookStack\n|+ window\l|+ cbNotebookStack()\l}">
+<g id="a_node8"><a xlink:href="structcbNotebookStack" target="_top" xlink:title="{cbNotebookStack\n|+ window\l|+ cbNotebookStack()\l}">
 <polygon fill="white" stroke="black" points="586,-738.5 586,-795.5 694,-795.5 694,-738.5 586,-738.5"/>
 <text text-anchor="middle" x="640" y="-783.5" font-family="FreeSans" font-size="10.00">cbNotebookStack</text>
 <polyline fill="none" stroke="black" points="586,-776.5 694,-776.5 "/>

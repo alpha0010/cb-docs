@@ -45,7 +45,7 @@
 </g>
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
-<g id="a_node2"><a xlink:href="classcbCompilerPlugin.xhtml" target="_top" xlink:title="Base class for compiler plugins. ">
+<g id="a_node2"><a xlink:href="classcbCompilerPlugin" target="_top" xlink:title="Base class for compiler plugins. ">
 <polygon fill="white" stroke="black" points="98.5,-408 98.5,-553 205.5,-553 205.5,-408 98.5,-408"/>
 <text text-anchor="middle" x="152" y="-541" font-family="FreeSans" font-size="10.00">cbCompilerPlugin</text>
 <polyline fill="none" stroke="black" points="98.5,-534 205.5,-534 "/>
@@ -70,7 +70,7 @@
 </g>
 <!-- Node3 -->
 <g id="node3" class="node"><title>Node3</title>
-<g id="a_node3"><a xlink:href="classcbPlugin.xhtml" target="_top" xlink:title="Base class for plugins This is the most basic class a plugin must descend from. cbPlugin descends fro...">
+<g id="a_node3"><a xlink:href="classcbPlugin" target="_top" xlink:title="Base class for plugins This is the most basic class a plugin must descend from. ">
 <polygon fill="white" stroke="black" points="0,-661.5 0,-872.5 158,-872.5 158,-661.5 0,-661.5"/>
 <text text-anchor="middle" x="79" y="-860.5" font-family="FreeSans" font-size="10.00">cbPlugin</text>
 <polyline fill="none" stroke="black" points="0,-853.5 158,-853.5 "/>
@@ -115,7 +115,7 @@
 </g>
 <!-- Node6 -->
 <g id="node6" class="node"><title>Node6</title>
-<g id="a_node6"><a xlink:href="classCompilerMessages.xhtml" target="_top" xlink:title="{CompilerMessages\n|&#45; m_autoFit\l|+ CompilerMessages()\l+ ~CompilerMessages()\l+ SetCompilerErrors()\l+ FocusError()\l+ AutoFitColumns()\l+ CreateControl()\l+ DestroyControls()\l+ HasFeature()\l+ AppendAdditionalMenuItems()\l&#45; OnClick()\l&#45; OnDoubleClick()\l&#45; OnFit()\l&#45; OnAutoFit()\l&#45; FitColumns()\l}">
+<g id="a_node6"><a xlink:href="classCompilerMessages" target="_top" xlink:title="{CompilerMessages\n|&#45; m_autoFit\l|+ CompilerMessages()\l+ ~CompilerMessages()\l+ SetCompilerErrors()\l+ FocusError()\l+ AutoFitColumns()\l+ CreateControl()\l+ DestroyControls()\l+ HasFeature()\l+ AppendAdditionalMenuItems()\l&#45; OnClick()\l&#45; OnDoubleClick()\l&#45; OnFit()\l&#45; OnAutoFit()\l&#45; FitColumns()\l}">
 <polygon fill="white" stroke="black" points="357.5,-380.5 357.5,-580.5 512.5,-580.5 512.5,-380.5 357.5,-380.5"/>
 <text text-anchor="middle" x="435" y="-568.5" font-family="FreeSans" font-size="10.00">CompilerMessages</text>
 <polyline fill="none" stroke="black" points="357.5,-561.5 512.5,-561.5 "/>
@@ -145,7 +145,7 @@
 </g>
 <!-- Node5 -->
 <g id="node5" class="node"><title>Node5</title>
-<g id="a_node5"><a xlink:href="classCompilerErrors.xhtml" target="_top" xlink:title="{CompilerErrors\n|&#45; m_Errors\l&#45; m_ErrorIndex\l|+ CompilerErrors()\l+ ~CompilerErrors()\l+ AddError()\l+ GotoError()\l+ Next()\l+ Previous()\l+ Clear()\l+ HasNextError()\land 6 more...\l&#45; DoAddError()\l&#45; DoGotoError()\l&#45; DoClearErrorMarkFromAllEditors()\l&#45; ErrorLineHasMore()\l}">
+<g id="a_node5"><a xlink:href="classCompilerErrors" target="_top" xlink:title="{CompilerErrors\n|&#45; m_Errors\l&#45; m_ErrorIndex\l|+ CompilerErrors()\l+ ~CompilerErrors()\l+ AddError()\l+ GotoError()\l+ Next()\l+ Previous()\l+ Clear()\l+ HasNextError()\land 6 more...\l&#45; DoAddError()\l&#45; DoGotoError()\l&#45; DoClearErrorMarkFromAllEditors()\l&#45; ErrorLineHasMore()\l}">
 <polygon fill="white" stroke="black" points="175.5,-667 175.5,-867 342.5,-867 342.5,-667 175.5,-667"/>
 <text text-anchor="middle" x="259" y="-855" font-family="FreeSans" font-size="10.00">CompilerErrors</text>
 <polyline fill="none" stroke="black" points="175.5,-848 342.5,-848 "/>
@@ -188,7 +188,7 @@
 </g>
 <!-- Node7 -->
 <g id="node7" class="node"><title>Node7</title>
-<g id="a_node7"><a xlink:href="classListCtrlLogger.xhtml" target="_top" xlink:title="{ListCtrlLogger\n|# control\l# fixed\l# titles\l# widths\l|+ ListCtrlLogger()\l+ ~ListCtrlLogger()\l+ CopyContentsToClipboard()\l+ UpdateSettings()\l+ Append()\l+ Append()\l+ GetItemsCount()\l+ Clear()\l+ CreateControl()\l+ HasFeature()\l+ AutoFitColumns()\l# GetItemAsText()\l}">
+<g id="a_node7"><a xlink:href="classListCtrlLogger" target="_top" xlink:title="a logger which prints messages to a wxListCtrl ">
 <polygon fill="white" stroke="black" points="398.5,-661.5 398.5,-872.5 541.5,-872.5 541.5,-661.5 398.5,-661.5"/>
 <text text-anchor="middle" x="470" y="-860.5" font-family="FreeSans" font-size="10.00">ListCtrlLogger</text>
 <polyline fill="none" stroke="black" points="398.5,-853.5 541.5,-853.5 "/>
@@ -219,7 +219,7 @@
 </g>
 <!-- Node8 -->
 <g id="node8" class="node"><title>Node8</title>
-<g id="a_node8"><a xlink:href="classLogger.xhtml" target="_top" xlink:title="{Logger\n||+ Logger()\l+ ~Logger()\l+ Append()\l+ Clear()\l+ CopyContentsToClipboard()\l+ UpdateSettings()\l+ CreateControl()\l+ GetWrapMode()\l+ HasFeature()\l+ AppendAdditionalMenuItems()\l}">
+<g id="a_node8"><a xlink:href="classLogger" target="_top" xlink:title="The base class for all kinds of loggers, see loggers.h for its derived classes. ">
 <polygon fill="white" stroke="black" points="551.5,-1008.5 551.5,-1164.5 706.5,-1164.5 706.5,-1008.5 551.5,-1008.5"/>
 <text text-anchor="middle" x="629" y="-1152.5" font-family="FreeSans" font-size="10.00">Logger</text>
 <polyline fill="none" stroke="black" points="551.5,-1145.5 706.5,-1145.5 "/>
@@ -245,7 +245,7 @@
 </g>
 <!-- Node25 -->
 <g id="node25" class="node"><title>Node25</title>
-<g id="a_node25"><a xlink:href="classTextCtrlLogger.xhtml" target="_top" xlink:title="{TextCtrlLogger\n|# control\l# fixed\l# style\l|+ TextCtrlLogger()\l+ ~TextCtrlLogger()\l+ CopyContentsToClipboard()\l+ UpdateSettings()\l+ Append()\l+ Clear()\l+ CreateControl()\l+ GetWrapMode()\l+ ToggleWrapMode()\l+ HasFeature()\l}">
+<g id="a_node25"><a xlink:href="classTextCtrlLogger" target="_top" xlink:title="a logger which prints messages to a wxTextCtrl ">
 <polygon fill="white" stroke="black" points="559.5,-678 559.5,-856 702.5,-856 702.5,-678 559.5,-678"/>
 <text text-anchor="middle" x="631" y="-844" font-family="FreeSans" font-size="10.00">TextCtrlLogger</text>
 <polyline fill="none" stroke="black" points="559.5,-837 702.5,-837 "/>
@@ -273,7 +273,7 @@
 </g>
 <!-- Node9 -->
 <g id="node9" class="node"><title>Node9</title>
-<g id="a_node9"><a xlink:href="classListCtrlLogger.xhtml#structListCtrlLogger_1_1ListStyles" target="_top" xlink:title="{ListCtrlLogger::ListStyles\n|+ font\l+ colour\l|}">
+<g id="a_node9"><a xlink:href="classListCtrlLogger#structListCtrlLogger_1_1ListStyles" target="_top" xlink:title="{ListCtrlLogger::ListStyles\n|+ font\l+ colour\l|}">
 <polygon fill="white" stroke="black" points="409,-1052.5 409,-1120.5 531,-1120.5 531,-1052.5 409,-1052.5"/>
 <text text-anchor="middle" x="470" y="-1108.5" font-family="FreeSans" font-size="10.00">ListCtrlLogger::ListStyles</text>
 <polyline fill="none" stroke="black" points="409,-1101.5 531,-1101.5 "/>
@@ -307,7 +307,7 @@
 </g>
 <!-- Node11 -->
 <g id="node11" class="node"><title>Node11</title>
-<g id="a_node11"><a xlink:href="structCompilerGCC_1_1BuildJobTarget.xhtml" target="_top" xlink:title="{CompilerGCC::BuildJobTarget\n|+ targetName\l|+ BuildJobTarget()\l}">
+<g id="a_node11"><a xlink:href="structCompilerGCC_1_1BuildJobTarget" target="_top" xlink:title="{CompilerGCC::BuildJobTarget\n|+ targetName\l|+ BuildJobTarget()\l}">
 <polygon fill="white" stroke="black" points="721,-738.5 721,-795.5 867,-795.5 867,-738.5 721,-738.5"/>
 <text text-anchor="middle" x="794" y="-783.5" font-family="FreeSans" font-size="10.00">CompilerGCC::BuildJobTarget</text>
 <polyline fill="none" stroke="black" points="721,-776.5 867,-776.5 "/>
@@ -325,7 +325,7 @@
 </g>
 <!-- Node12 -->
 <g id="node12" class="node"><title>Node12</title>
-<g id="a_node12"><a xlink:href="classcbProject.xhtml" target="_top" xlink:title="Represents a Code::Blocks project. ">
+<g id="a_node12"><a xlink:href="classcbProject" target="_top" xlink:title="Represents a Code::Blocks project. ">
 <polygon fill="white" stroke="black" points="843,-931.5 843,-1241.5 1013,-1241.5 1013,-931.5 843,-931.5"/>
 <text text-anchor="middle" x="928" y="-1229.5" font-family="FreeSans" font-size="10.00">cbProject</text>
 <polyline fill="none" stroke="black" points="843,-1222.5 1013,-1222.5 "/>
@@ -374,7 +374,7 @@
 </g>
 <!-- Node18 -->
 <g id="node18" class="node"><title>Node18</title>
-<g id="a_node18"><a xlink:href="classProjectBuildTarget.xhtml" target="_top" xlink:title="{ProjectBuildTarget\n|&#45; m_ExternalDeps\l&#45; m_AdditionalOutputFiles\l&#45; m_TargetDeps\l&#45; m_Files\l&#45; m_FileArray\l&#45; m_BuildWithAll\l&#45; m_CreateStaticLib\l&#45; m_CreateDefFile\l&#45; m_UseConsoleRunner\l|+ ProjectBuildTarget()\l+ ~ProjectBuildTarget()\l+ GetParentProject()\l+ GetFullTitle()\l+ GetExternalDeps()\l+ SetExternalDeps()\l+ GetAdditionalOutputFiles()\l+ SetAdditionalOutputFiles()\land 15 more...\l}">
+<g id="a_node18"><a xlink:href="classProjectBuildTarget" target="_top" xlink:title="Represents a Code::Blocks project build target. ">
 <polygon fill="white" stroke="black" points="975.5,-650.5 975.5,-883.5 1114.5,-883.5 1114.5,-650.5 975.5,-650.5"/>
 <text text-anchor="middle" x="1045" y="-871.5" font-family="FreeSans" font-size="10.00">ProjectBuildTarget</text>
 <polyline fill="none" stroke="black" points="975.5,-864.5 1114.5,-864.5 "/>
@@ -408,7 +408,7 @@
 </g>
 <!-- Node13 -->
 <g id="node13" class="node"><title>Node13</title>
-<g id="a_node13"><a xlink:href="classCompileTargetBase.xhtml" target="_top" xlink:title="Base class for build target classes Each Code::Blocks project consists of at least one target...">
+<g id="a_node13"><a xlink:href="classCompileTargetBase" target="_top" xlink:title="Base class for build target classes Each Code::Blocks project consists of at least one target...">
 <polygon fill="white" stroke="black" points="1048.5,-1289.5 1048.5,-1555.5 1203.5,-1555.5 1203.5,-1289.5 1048.5,-1289.5"/>
 <text text-anchor="middle" x="1126" y="-1543.5" font-family="FreeSans" font-size="10.00">CompileTargetBase</text>
 <polyline fill="none" stroke="black" points="1048.5,-1536.5 1203.5,-1536.5 "/>
@@ -449,7 +449,7 @@
 </g>
 <!-- Node14 -->
 <g id="node14" class="node"><title>Node14</title>
-<g id="a_node14"><a xlink:href="classCompileOptionsBase.xhtml" target="_top" xlink:title="{CompileOptionsBase\n|# m_Platform\l# m_LinkerOptions\l# m_LinkLibs\l# m_CompilerOptions\l# m_ResourceCompilerOptions\l# m_IncludeDirs\l# m_ResIncludeDirs\l# m_LibDirs\land 6 more...\l|+ CompileOptionsBase()\l+ ~CompileOptionsBase()\l+ AddPlatform()\l+ RemovePlatform()\l+ SetPlatforms()\l+ GetPlatforms()\l+ SupportsCurrentPlatform()\l+ SetLinkerOptions()\land 56 more...\l}">
+<g id="a_node14"><a xlink:href="classCompileOptionsBase" target="_top" xlink:title="This is a base class for all classes needing compilation parameters. ">
 <polygon fill="white" stroke="black" points="1051.5,-1603.5 1051.5,-1836.5 1200.5,-1836.5 1200.5,-1603.5 1051.5,-1603.5"/>
 <text text-anchor="middle" x="1126" y="-1824.5" font-family="FreeSans" font-size="10.00">CompileOptionsBase</text>
 <polyline fill="none" stroke="black" points="1051.5,-1817.5 1200.5,-1817.5 "/>
@@ -515,7 +515,7 @@
 </g>
 <!-- Node17 -->
 <g id="node17" class="node"><title>Node17</title>
-<g id="a_node17"><a xlink:href="structcbProject_1_1Glob.xhtml" target="_top" xlink:title="{cbProject::Glob\n|+ m_Path\l+ m_WildCard\l+ m_Recursive\l|+ Glob()\l}">
+<g id="a_node17"><a xlink:href="structcbProject_1_1Glob" target="_top" xlink:title="{cbProject::Glob\n|+ m_Path\l+ m_WildCard\l+ m_Recursive\l|+ Glob()\l}">
 <polygon fill="white" stroke="black" points="805.5,-1680.5 805.5,-1759.5 888.5,-1759.5 888.5,-1680.5 805.5,-1680.5"/>
 <text text-anchor="middle" x="847" y="-1747.5" font-family="FreeSans" font-size="10.00">cbProject::Glob</text>
 <polyline fill="none" stroke="black" points="805.5,-1740.5 888.5,-1740.5 "/>
@@ -547,7 +547,7 @@
 </g>
 <!-- Node19 -->
 <g id="node19" class="node"><title>Node19</title>
-<g id="a_node19"><a xlink:href="classCompilerQueue.xhtml" target="_top" xlink:title="{CompilerQueue\n|# m_Commands\l# m_LastWasRun\l|+ CompilerQueue()\l+ ~CompilerQueue()\l+ Clear()\l+ GetCount()\l+ LastCommandWasRun()\l+ Add()\l+ Add()\l+ Next()\l+ Peek()\l}">
+<g id="a_node19"><a xlink:href="classCompilerQueue" target="_top" xlink:title="{CompilerQueue\n|# m_Commands\l# m_LastWasRun\l|+ CompilerQueue()\l+ ~CompilerQueue()\l+ Clear()\l+ GetCount()\l+ LastCommandWasRun()\l+ Add()\l+ Add()\l+ Next()\l+ Peek()\l}">
 <polygon fill="white" stroke="black" points="920.5,-402.5 920.5,-558.5 1049.5,-558.5 1049.5,-402.5 920.5,-402.5"/>
 <text text-anchor="middle" x="985" y="-546.5" font-family="FreeSans" font-size="10.00">CompilerQueue</text>
 <polyline fill="none" stroke="black" points="920.5,-539.5 1049.5,-539.5 "/>
@@ -589,7 +589,7 @@
 </g>
 <!-- Node21 -->
 <g id="node21" class="node"><title>Node21</title>
-<g id="a_node21"><a xlink:href="classCompilerGCC.xhtml#structCompilerGCC_1_1CompilerProcess" target="_top" xlink:title="{CompilerGCC::CompilerProcess\n|+ OutputFile\l+ PID\l|}">
+<g id="a_node21"><a xlink:href="classCompilerGCC#structCompilerGCC_1_1CompilerProcess" target="_top" xlink:title="{CompilerGCC::CompilerProcess\n|+ OutputFile\l+ PID\l|}">
 <polygon fill="white" stroke="black" points="1207.5,-733 1207.5,-801 1360.5,-801 1360.5,-733 1207.5,-733"/>
 <text text-anchor="middle" x="1284" y="-789" font-family="FreeSans" font-size="10.00">CompilerGCC::CompilerProcess</text>
 <polyline fill="none" stroke="black" points="1207.5,-782 1360.5,-782 "/>
@@ -608,7 +608,7 @@
 </g>
 <!-- Node22 -->
 <g id="node22" class="node"><title>Node22</title>
-<g id="a_node22"><a xlink:href="classPipedProcess.xhtml" target="_top" xlink:title="{PipedProcess\n|# m_Parent\l# m_Id\l# m_Pid\l# m_timerPollProcess\l|+ PipedProcess()\l+ ~PipedProcess()\l+ Launch()\l+ SendString()\l+ HasInput()\l+ GetPid()\l+ ForfeitStreams()\l# OnTerminate()\l# OnTimer()\l# OnIdle()\l}">
+<g id="a_node22"><a xlink:href="classPipedProcess" target="_top" xlink:title="{PipedProcess\n|# m_Parent\l# m_Id\l# m_Pid\l# m_timerPollProcess\l|+ PipedProcess()\l+ ~PipedProcess()\l+ Launch()\l+ SendString()\l+ HasInput()\l+ GetPid()\l+ ForfeitStreams()\l# OnTerminate()\l# OnTimer()\l# OnIdle()\l}">
 <polygon fill="white" stroke="black" points="1229,-992 1229,-1181 1339,-1181 1339,-992 1229,-992"/>
 <text text-anchor="middle" x="1284" y="-1169" font-family="FreeSans" font-size="10.00">PipedProcess</text>
 <polyline fill="none" stroke="black" points="1229,-1162 1339,-1162 "/>
@@ -658,7 +658,7 @@
 </g>
 <!-- Node24 -->
 <g id="node24" class="node"><title>Node24</title>
-<g id="a_node24"><a xlink:href="classBuildLogger.xhtml" target="_top" xlink:title="{BuildLogger\n|+ progress\l&#45; panel\l&#45; sizer\l|+ BuildLogger()\l+ UpdateSettings()\l+ CreateControl()\l+ AddBuildProgressBar()\l+ RemoveBuildProgressBar()\l+ OpenLink()\l}">
+<g id="a_node24"><a xlink:href="classBuildLogger" target="_top" xlink:title="{BuildLogger\n|+ progress\l&#45; panel\l&#45; sizer\l|+ BuildLogger()\l+ UpdateSettings()\l+ CreateControl()\l+ AddBuildProgressBar()\l+ RemoveBuildProgressBar()\l+ OpenLink()\l}">
 <polygon fill="white" stroke="black" points="563,-413.5 563,-547.5 703,-547.5 703,-413.5 563,-413.5"/>
 <text text-anchor="middle" x="633" y="-535.5" font-family="FreeSans" font-size="10.00">BuildLogger</text>
 <polyline fill="none" stroke="black" points="563,-528.5 703,-528.5 "/>

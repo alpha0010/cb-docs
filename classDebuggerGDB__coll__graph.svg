@@ -55,7 +55,7 @@
 </g>
 <!-- Node20 -->
 <g id="node20" class="node"><title>Node20</title>
-<g id="a_node20"><a xlink:href="classDebuggerState.xhtml" target="_top" xlink:title="{DebuggerState\n||+ DebuggerState()\l+ ~DebuggerState()\l+ GetBreakpoints()\l+ StartDriver()\l+ StopDriver()\l+ HasDriver()\l+ GetDriver()\l+ GetDriver()\land 15 more...\l# ConvertToValidFilename()\l}">
+<g id="a_node20"><a xlink:href="classDebuggerState" target="_top" xlink:title="{DebuggerState\n||+ DebuggerState()\l+ ~DebuggerState()\l+ GetBreakpoints()\l+ StartDriver()\l+ StopDriver()\l+ HasDriver()\l+ GetDriver()\l+ GetDriver()\land 15 more...\l# ConvertToValidFilename()\l}">
 <polygon fill="white" stroke="black" points="445.5,-0.5 445.5,-156.5 580.5,-156.5 580.5,-0.5 445.5,-0.5"/>
 <text text-anchor="middle" x="513" y="-144.5" font-family="FreeSans" font-size="10.00">DebuggerState</text>
 <polyline fill="none" stroke="black" points="445.5,-137.5 580.5,-137.5 "/>
@@ -82,7 +82,7 @@
 </g>
 <!-- Node22 -->
 <g id="node22" class="node"><title>Node22</title>
-<g id="a_node22"><a xlink:href="classDebuggerDriver.xhtml" target="_top" xlink:title="{DebuggerDriver\n|# m_Dirs\l# m_WorkingDir\l# m_Args\l# m_ProgramIsStopped\l# m_LastCursorAddress\l# m_ChildPID\l# m_DCmds\l# m_QueueBusy\l# m_currentFrameNo\l# m_userSelectedFrameNo\l|+ DebuggerDriver()\l+ ~DebuggerDriver()\l+ Log()\l+ DebugLog()\l+ GetDebugger()\l+ AddDirectory()\l+ ClearDirectories()\l+ SetWorkingDirectory()\land 62 more...\l# ResetCursor()\l}">
+<g id="a_node22"><a xlink:href="classDebuggerDriver" target="_top" xlink:title="{DebuggerDriver\n|# m_Dirs\l# m_WorkingDir\l# m_Args\l# m_ProgramIsStopped\l# m_LastCursorAddress\l# m_ChildPID\l# m_DCmds\l# m_QueueBusy\l# m_currentFrameNo\l# m_userSelectedFrameNo\l|+ DebuggerDriver()\l+ ~DebuggerDriver()\l+ Log()\l+ DebugLog()\l+ GetDebugger()\l+ AddDirectory()\l+ ClearDirectories()\l+ SetWorkingDirectory()\land 62 more...\l# ResetCursor()\l}">
 <polygon fill="white" stroke="black" points="671,-204.5 671,-459.5 805,-459.5 805,-204.5 671,-204.5"/>
 <text text-anchor="middle" x="738" y="-447.5" font-family="FreeSans" font-size="10.00">DebuggerDriver</text>
 <polyline fill="none" stroke="black" points="671,-440.5 805,-440.5 "/>
@@ -118,7 +118,7 @@
 </g>
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
-<g id="a_node2"><a xlink:href="classcbDebuggerPlugin.xhtml" target="_top" xlink:title="Base class for debugger plugins. ">
+<g id="a_node2"><a xlink:href="classcbDebuggerPlugin" target="_top" xlink:title="Base class for debugger plugins. ">
 <polygon fill="white" stroke="black" points="2.5,-997.5 2.5,-1472.5 159.5,-1472.5 159.5,-997.5 2.5,-997.5"/>
 <text text-anchor="middle" x="81" y="-1460.5" font-family="FreeSans" font-size="10.00">cbDebuggerPlugin</text>
 <polyline fill="none" stroke="black" points="2.5,-1453.5 159.5,-1453.5 "/>
@@ -173,7 +173,7 @@
 </g>
 <!-- Node3 -->
 <g id="node3" class="node"><title>Node3</title>
-<g id="a_node3"><a xlink:href="classcbPlugin.xhtml" target="_top" xlink:title="Base class for plugins This is the most basic class a plugin must descend from. cbPlugin descends fro...">
+<g id="a_node3"><a xlink:href="classcbPlugin" target="_top" xlink:title="Base class for plugins This is the most basic class a plugin must descend from. ">
 <polygon fill="white" stroke="black" points="0,-1906 0,-2117 158,-2117 158,-1906 0,-1906"/>
 <text text-anchor="middle" x="79" y="-2105" font-family="FreeSans" font-size="10.00">cbPlugin</text>
 <polyline fill="none" stroke="black" points="0,-2098 158,-2098 "/>
@@ -204,7 +204,7 @@
 </g>
 <!-- Node5 -->
 <g id="node5" class="node"><title>Node5</title>
-<g id="a_node5"><a xlink:href="classcbCompilerPlugin.xhtml" target="_top" xlink:title="Base class for compiler plugins. ">
+<g id="a_node5"><a xlink:href="classcbCompilerPlugin" target="_top" xlink:title="Base class for compiler plugins. ">
 <polygon fill="white" stroke="black" points="80.5,-1603 80.5,-1748 187.5,-1748 187.5,-1603 80.5,-1603"/>
 <text text-anchor="middle" x="134" y="-1736" font-family="FreeSans" font-size="10.00">cbCompilerPlugin</text>
 <polyline fill="none" stroke="black" points="80.5,-1729 187.5,-1729 "/>
@@ -265,7 +265,7 @@
 </g>
 <!-- Node7 -->
 <g id="node7" class="node"><title>Node7</title>
-<g id="a_node7"><a xlink:href="classPipedProcess.xhtml" target="_top" xlink:title="{PipedProcess\n|# m_Parent\l# m_Id\l# m_Pid\l# m_timerPollProcess\l|+ PipedProcess()\l+ ~PipedProcess()\l+ Launch()\l+ SendString()\l+ HasInput()\l+ GetPid()\l+ ForfeitStreams()\l# OnTerminate()\l# OnTimer()\l# OnIdle()\l}">
+<g id="a_node7"><a xlink:href="classPipedProcess" target="_top" xlink:title="{PipedProcess\n|# m_Parent\l# m_Id\l# m_Pid\l# m_timerPollProcess\l|+ PipedProcess()\l+ ~PipedProcess()\l+ Launch()\l+ SendString()\l+ HasInput()\l+ GetPid()\l+ ForfeitStreams()\l# OnTerminate()\l# OnTimer()\l# OnIdle()\l}">
 <polygon fill="white" stroke="black" points="308,-1140.5 308,-1329.5 418,-1329.5 418,-1140.5 308,-1140.5"/>
 <text text-anchor="middle" x="363" y="-1317.5" font-family="FreeSans" font-size="10.00">PipedProcess</text>
 <polyline fill="none" stroke="black" points="308,-1310.5 418,-1310.5 "/>
@@ -379,7 +379,7 @@
 </g>
 <!-- Node13 -->
 <g id="node13" class="node"><title>Node13</title>
-<g id="a_node13"><a xlink:href="classcbProject.xhtml" target="_top" xlink:title="Represents a Code::Blocks project. ">
+<g id="a_node13"><a xlink:href="classcbProject" target="_top" xlink:title="Represents a Code::Blocks project. ">
 <polygon fill="white" stroke="black" points="670,-1520.5 670,-1830.5 840,-1830.5 840,-1520.5 670,-1520.5"/>
 <text text-anchor="middle" x="755" y="-1818.5" font-family="FreeSans" font-size="10.00">cbProject</text>
 <polyline fill="none" stroke="black" points="670,-1811.5 840,-1811.5 "/>
@@ -426,7 +426,7 @@
 </g>
 <!-- Node19 -->
 <g id="node19" class="node"><title>Node19</title>
-<g id="a_node19"><a xlink:href="classProjectBuildTarget.xhtml" target="_top" xlink:title="{ProjectBuildTarget\n|&#45; m_ExternalDeps\l&#45; m_AdditionalOutputFiles\l&#45; m_TargetDeps\l&#45; m_Files\l&#45; m_FileArray\l&#45; m_BuildWithAll\l&#45; m_CreateStaticLib\l&#45; m_CreateDefFile\l&#45; m_UseConsoleRunner\l|+ ProjectBuildTarget()\l+ ~ProjectBuildTarget()\l+ GetParentProject()\l+ GetFullTitle()\l+ GetExternalDeps()\l+ SetExternalDeps()\l+ GetAdditionalOutputFiles()\l+ SetAdditionalOutputFiles()\land 15 more...\l}">
+<g id="a_node19"><a xlink:href="classProjectBuildTarget" target="_top" xlink:title="Represents a Code::Blocks project build target. ">
 <polygon fill="white" stroke="black" points="864.5,-1118.5 864.5,-1351.5 1003.5,-1351.5 1003.5,-1118.5 864.5,-1118.5"/>
 <text text-anchor="middle" x="934" y="-1339.5" font-family="FreeSans" font-size="10.00">ProjectBuildTarget</text>
 <polyline fill="none" stroke="black" points="864.5,-1332.5 1003.5,-1332.5 "/>
@@ -476,7 +476,7 @@
 </g>
 <!-- Node14 -->
 <g id="node14" class="node"><title>Node14</title>
-<g id="a_node14"><a xlink:href="classCompileTargetBase.xhtml" target="_top" xlink:title="Base class for build target classes Each Code::Blocks project consists of at least one target...">
+<g id="a_node14"><a xlink:href="classCompileTargetBase" target="_top" xlink:title="Base class for build target classes Each Code::Blocks project consists of at least one target...">
 <polygon fill="white" stroke="black" points="875.5,-1878.5 875.5,-2144.5 1030.5,-2144.5 1030.5,-1878.5 875.5,-1878.5"/>
 <text text-anchor="middle" x="953" y="-2132.5" font-family="FreeSans" font-size="10.00">CompileTargetBase</text>
 <polyline fill="none" stroke="black" points="875.5,-2125.5 1030.5,-2125.5 "/>
@@ -517,7 +517,7 @@
 </g>
 <!-- Node15 -->
 <g id="node15" class="node"><title>Node15</title>
-<g id="a_node15"><a xlink:href="classCompileOptionsBase.xhtml" target="_top" xlink:title="{CompileOptionsBase\n|# m_Platform\l# m_LinkerOptions\l# m_LinkLibs\l# m_CompilerOptions\l# m_ResourceCompilerOptions\l# m_IncludeDirs\l# m_ResIncludeDirs\l# m_LibDirs\land 6 more...\l|+ CompileOptionsBase()\l+ ~CompileOptionsBase()\l+ AddPlatform()\l+ RemovePlatform()\l+ SetPlatforms()\l+ GetPlatforms()\l+ SupportsCurrentPlatform()\l+ SetLinkerOptions()\land 56 more...\l}">
+<g id="a_node15"><a xlink:href="classCompileOptionsBase" target="_top" xlink:title="This is a base class for all classes needing compilation parameters. ">
 <polygon fill="white" stroke="black" points="878.5,-2192.5 878.5,-2425.5 1027.5,-2425.5 1027.5,-2192.5 878.5,-2192.5"/>
 <text text-anchor="middle" x="953" y="-2413.5" font-family="FreeSans" font-size="10.00">CompileOptionsBase</text>
 <polyline fill="none" stroke="black" points="878.5,-2406.5 1027.5,-2406.5 "/>
@@ -583,7 +583,7 @@
 </g>
 <!-- Node18 -->
 <g id="node18" class="node"><title>Node18</title>
-<g id="a_node18"><a xlink:href="structcbProject_1_1Glob.xhtml" target="_top" xlink:title="{cbProject::Glob\n|+ m_Path\l+ m_WildCard\l+ m_Recursive\l|+ Glob()\l}">
+<g id="a_node18"><a xlink:href="structcbProject_1_1Glob" target="_top" xlink:title="{cbProject::Glob\n|+ m_Path\l+ m_WildCard\l+ m_Recursive\l|+ Glob()\l}">
 <polygon fill="white" stroke="black" points="735.5,-2269.5 735.5,-2348.5 818.5,-2348.5 818.5,-2269.5 735.5,-2269.5"/>
 <text text-anchor="middle" x="777" y="-2336.5" font-family="FreeSans" font-size="10.00">cbProject::Glob</text>
 <polyline fill="none" stroke="black" points="735.5,-2329.5 818.5,-2329.5 "/>
@@ -637,7 +637,7 @@
 </g>
 <!-- Node23 -->
 <g id="node23" class="node"><title>Node23</title>
-<g id="a_node23"><a xlink:href="structCursor.xhtml" target="_top" xlink:title="{Cursor\n|+ file\l+ address\l+ function\l+ line\l+ changed\l|+ Cursor()\l}">
+<g id="a_node23"><a xlink:href="structCursor" target="_top" xlink:title="Debugger cursor info. ">
 <polygon fill="white" stroke="black" points="817,-678 817,-779 879,-779 879,-678 817,-678"/>
 <text text-anchor="middle" x="848" y="-767" font-family="FreeSans" font-size="10.00">Cursor</text>
 <polyline fill="none" stroke="black" points="817,-760 879,-760 "/>

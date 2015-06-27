@@ -21,7 +21,7 @@
 </g>
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
-<g id="a_node2"><a xlink:href="classEditorHooks_1_1cbSmartIndentEditorHookFunctor.xhtml" target="_top" xlink:title="{EditorHooks::cbSmartIndent\lEditorHookFunctor\n|&#45; m_plugin\l|+ cbSmartIndentEditorHookFunctor()\l+ ~cbSmartIndentEditorHook\lFunctor()\l+ Call()\l}">
+<g id="a_node2"><a xlink:href="classEditorHooks_1_1cbSmartIndentEditorHookFunctor" target="_top" xlink:title="Provides a HookFunctor which redirects the Call() of a cbSmartIndentPlugin so only the interface of c...">
 <polygon fill="white" stroke="black" points="0,-0.5 0,-101.5 175,-101.5 175,-0.5 0,-0.5"/>
 <text text-anchor="start" x="8" y="-89.5" font-family="FreeSans" font-size="10.00">EditorHooks::cbSmartIndent</text>
 <text text-anchor="middle" x="87.5" y="-78.5" font-family="FreeSans" font-size="10.00">EditorHookFunctor</text>
@@ -42,7 +42,7 @@
 </g>
 <!-- Node3 -->
 <g id="node3" class="node"><title>Node3</title>
-<g id="a_node3"><a xlink:href="classEditorHooks_1_1HookFunctor.xhtml" target="_top" xlink:title="{EditorHooks::HookFunctor\&lt; T \&gt;\n|# m_pObj\l# m_pFunc\l|+ HookFunctor()\l+ Call()\l}">
+<g id="a_node3"><a xlink:href="classEditorHooks_1_1HookFunctor" target="_top" xlink:title="Functor class for use as a editor modification operations hook. ">
 <polygon fill="white" stroke="black" points="193,-11.5 193,-90.5 344,-90.5 344,-11.5 193,-11.5"/>
 <text text-anchor="middle" x="268.5" y="-78.5" font-family="FreeSans" font-size="10.00">EditorHooks::HookFunctor&lt; T &gt;</text>
 <polyline fill="none" stroke="black" points="193,-71.5 344,-71.5 "/>

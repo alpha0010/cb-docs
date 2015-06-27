@@ -37,7 +37,7 @@
 </g>
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
-<g id="a_node2"><a xlink:href="classCDB__driver.xhtml" target="_top" xlink:title="{CDB_driver\n|&#45; m_Target\l&#45; m_IsStarted\l|+ CDB_driver()\l+ ~CDB_driver()\l+ GetCommandLine()\l+ GetCommandLine()\l+ SetTarget()\l+ Prepare()\l+ Start()\l+ Stop()\land 32 more...\l&#45; DoBacktrace()\l&#45; GetCommonCommandLine()\l}">
+<g id="a_node2"><a xlink:href="classCDB__driver" target="_top" xlink:title="{CDB_driver\n|&#45; m_Target\l&#45; m_IsStarted\l|+ CDB_driver()\l+ ~CDB_driver()\l+ GetCommandLine()\l+ GetCommandLine()\l+ SetTarget()\l+ Prepare()\l+ Start()\l+ Stop()\land 32 more...\l&#45; DoBacktrace()\l&#45; GetCommonCommandLine()\l}">
 <polygon fill="white" stroke="black" points="0,-61 0,-239 145,-239 145,-61 0,-61"/>
 <text text-anchor="middle" x="72.5" y="-227" font-family="FreeSans" font-size="10.00">CDB_driver</text>
 <polyline fill="none" stroke="black" points="0,-220 145,-220 "/>
@@ -65,7 +65,7 @@
 </g>
 <!-- Node3 -->
 <g id="node3" class="node"><title>Node3</title>
-<g id="a_node3"><a xlink:href="classGDB__driver.xhtml" target="_top" xlink:title="{GDB_driver\n|&#45; m_CygwinPresent\l&#45; m_CygdrivePrefix\l&#45; m_Types\l&#45; m_BreakOnEntry\l&#45; m_ManualBreakOnEntry\l&#45; m_IsStarted\l&#45; m_needsUpdate\l&#45; m_forceUpdate\land 7 more...\l|+ GDB_driver()\l+ ~GDB_driver()\l+ GetCommandLine()\l+ GetCommandLine()\l+ SetTarget()\l+ Prepare()\l+ Start()\l+ Stop()\land 35 more...\l&#45; InitializeScripting()\l&#45; RegisterType()\l&#45; HandleMainBreakPoint()\l&#45; DetectCygwinMount()\l&#45; CorrectCygwinPath()\l&#45; GetRemoteDebuggingInfo()\l}">
+<g id="a_node3"><a xlink:href="classGDB__driver" target="_top" xlink:title="{GDB_driver\n|&#45; m_CygwinPresent\l&#45; m_CygdrivePrefix\l&#45; m_Types\l&#45; m_BreakOnEntry\l&#45; m_ManualBreakOnEntry\l&#45; m_IsStarted\l&#45; m_needsUpdate\l&#45; m_forceUpdate\land 7 more...\l|+ GDB_driver()\l+ ~GDB_driver()\l+ GetCommandLine()\l+ GetCommandLine()\l+ SetTarget()\l+ Prepare()\l+ Start()\l+ Stop()\land 35 more...\l&#45; InitializeScripting()\l&#45; RegisterType()\l&#45; HandleMainBreakPoint()\l&#45; DetectCygwinMount()\l&#45; CorrectCygwinPath()\l&#45; GetRemoteDebuggingInfo()\l}">
 <polygon fill="white" stroke="black" points="163.5,-0.5 163.5,-299.5 303.5,-299.5 303.5,-0.5 163.5,-0.5"/>
 <text text-anchor="middle" x="233.5" y="-287.5" font-family="FreeSans" font-size="10.00">GDB_driver</text>
 <polyline fill="none" stroke="black" points="163.5,-280.5 303.5,-280.5 "/>

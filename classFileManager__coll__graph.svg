@@ -25,7 +25,7 @@
 </g>
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
-<g id="a_node2"><a xlink:href="classMgr.xhtml" target="_top" xlink:title="{Mgr\&lt; FileManager \&gt;\n|&#45; isShutdown\l|+ Valid()\l+ Get()\l+ Free()\l# Mgr()\l# ~Mgr()\l&#45; Mgr()\l&#45; operator=()\l}">
+<g id="a_node2"><a xlink:href="classMgr" target="_top" xlink:title="{Mgr\&lt; FileManager \&gt;\n|&#45; isShutdown\l|+ Valid()\l+ Get()\l+ Free()\l# Mgr()\l# ~Mgr()\l&#45; Mgr()\l&#45; operator=()\l}">
 <polygon fill="white" stroke="black" points="7.5,-0.5 7.5,-123.5 110.5,-123.5 110.5,-0.5 7.5,-0.5"/>
 <text text-anchor="middle" x="59" y="-111.5" font-family="FreeSans" font-size="10.00">Mgr&lt; FileManager &gt;</text>
 <polyline fill="none" stroke="black" points="7.5,-104.5 110.5,-104.5 "/>
@@ -54,7 +54,7 @@
 </g>
 <!-- Node3 -->
 <g id="node3" class="node"><title>Node3</title>
-<g id="a_node3"><a xlink:href="classBackgroundThread.xhtml" target="_top" xlink:title="{BackgroundThread\n|&#45; semaphore\l&#45; die\l&#45; ownsQueue\l&#45; ownsSemaphore\l&#45; ownsJobs\l|+ BackgroundThread()\l+ BackgroundThread()\l+ BackgroundThread()\l+ BackgroundThread()\l+ ~BackgroundThread()\l+ Queue()\l+ Die()\l+ MarkDying()\l+ MurderDeathKill()\l+ Entry()\l}">
+<g id="a_node3"><a xlink:href="classBackgroundThread" target="_top" xlink:title="{BackgroundThread\n|&#45; semaphore\l&#45; die\l&#45; ownsQueue\l&#45; ownsSemaphore\l&#45; ownsJobs\l|+ BackgroundThread()\l+ BackgroundThread()\l+ BackgroundThread()\l+ BackgroundThread()\l+ ~BackgroundThread()\l+ Queue()\l+ Die()\l+ MarkDying()\l+ MurderDeathKill()\l+ Entry()\l}">
 <polygon fill="white" stroke="black" points="0,-353.5 0,-553.5 118,-553.5 118,-353.5 0,-353.5"/>
 <text text-anchor="middle" x="59" y="-541.5" font-family="FreeSans" font-size="10.00">BackgroundThread</text>
 <polyline fill="none" stroke="black" points="0,-534.5 118,-534.5 "/>
@@ -101,7 +101,7 @@
 </g>
 <!-- Node5 -->
 <g id="node5" class="node"><title>Node5</title>
-<g id="a_node5"><a xlink:href="classJobQueue.xhtml" target="_top" xlink:title="{JobQueue\n|&#45; c\l|+ Push()\l+ Pop()\l}">
+<g id="a_node5"><a xlink:href="classJobQueue" target="_top" xlink:title="{JobQueue\n|&#45; c\l|+ Push()\l+ Pop()\l}">
 <polygon fill="white" stroke="black" points="79.5,-601.5 79.5,-669.5 140.5,-669.5 140.5,-601.5 79.5,-601.5"/>
 <text text-anchor="middle" x="110" y="-657.5" font-family="FreeSans" font-size="10.00">JobQueue</text>
 <polyline fill="none" stroke="black" points="79.5,-650.5 140.5,-650.5 "/>

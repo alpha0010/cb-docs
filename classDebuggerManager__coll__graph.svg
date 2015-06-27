@@ -41,7 +41,7 @@
 </g>
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
-<g id="a_node2"><a xlink:href="classMgr.xhtml" target="_top" xlink:title="{Mgr\&lt; DebuggerManager \&gt;\n|&#45; isShutdown\l|+ Valid()\l+ Get()\l+ Free()\l# Mgr()\l# ~Mgr()\l&#45; Mgr()\l&#45; operator=()\l}">
+<g id="a_node2"><a xlink:href="classMgr" target="_top" xlink:title="{Mgr\&lt; DebuggerManager \&gt;\n|&#45; isShutdown\l|+ Valid()\l+ Get()\l+ Free()\l# Mgr()\l# ~Mgr()\l&#45; Mgr()\l&#45; operator=()\l}">
 <polygon fill="white" stroke="black" points="750.5,-0.5 750.5,-123.5 878.5,-123.5 878.5,-0.5 750.5,-0.5"/>
 <text text-anchor="middle" x="814.5" y="-111.5" font-family="FreeSans" font-size="10.00">Mgr&lt; DebuggerManager &gt;</text>
 <polyline fill="none" stroke="black" points="750.5,-104.5 878.5,-104.5 "/>
@@ -70,7 +70,7 @@
 </g>
 <!-- Node3 -->
 <g id="node3" class="node"><title>Node3</title>
-<g id="a_node3"><a xlink:href="classcbThreadsDlg.xhtml" target="_top" xlink:title="{cbThreadsDlg\n||+ ~cbThreadsDlg()\l+ GetWindow()\l+ Reload()\l+ EnableWindow()\l}">
+<g id="a_node3"><a xlink:href="classcbThreadsDlg" target="_top" xlink:title="{cbThreadsDlg\n||+ ~cbThreadsDlg()\l+ GetWindow()\l+ Reload()\l+ EnableWindow()\l}">
 <polygon fill="white" stroke="black" points="0,-551.5 0,-641.5 95,-641.5 95,-551.5 0,-551.5"/>
 <text text-anchor="middle" x="47.5" y="-629.5" font-family="FreeSans" font-size="10.00">cbThreadsDlg</text>
 <polyline fill="none" stroke="black" points="0,-622.5 95,-622.5 "/>
@@ -91,7 +91,7 @@
 </g>
 <!-- Node4 -->
 <g id="node4" class="node"><title>Node4</title>
-<g id="a_node4"><a xlink:href="classcbDebuggerMenuHandler.xhtml" target="_top" xlink:title="{cbDebuggerMenuHandler\n||+ ~cbDebuggerMenuHandler()\l+ SetActiveDebugger()\l+ MarkActiveTargetAsValid()\l+ RebuildMenus()\l+ BuildContextMenu()\l+ RegisterWindowMenu()\l+ UnregisterWindowMenu()\l}">
+<g id="a_node4"><a xlink:href="classcbDebuggerMenuHandler" target="_top" xlink:title="{cbDebuggerMenuHandler\n||+ ~cbDebuggerMenuHandler()\l+ SetActiveDebugger()\l+ MarkActiveTargetAsValid()\l+ RebuildMenus()\l+ BuildContextMenu()\l+ RegisterWindowMenu()\l+ UnregisterWindowMenu()\l}">
 <polygon fill="white" stroke="black" points="113,-535 113,-658 258,-658 258,-535 113,-535"/>
 <text text-anchor="middle" x="185.5" y="-646" font-family="FreeSans" font-size="10.00">cbDebuggerMenuHandler</text>
 <polyline fill="none" stroke="black" points="113,-639 258,-639 "/>
@@ -115,7 +115,7 @@
 </g>
 <!-- Node5 -->
 <g id="node5" class="node"><title>Node5</title>
-<g id="a_node5"><a xlink:href="classcbDebuggerPlugin.xhtml" target="_top" xlink:title="Base class for debugger plugins. ">
+<g id="a_node5"><a xlink:href="classcbDebuggerPlugin" target="_top" xlink:title="Base class for debugger plugins. ">
 <polygon fill="white" stroke="black" points="374,-733.5 374,-1208.5 531,-1208.5 531,-733.5 374,-733.5"/>
 <text text-anchor="middle" x="452.5" y="-1196.5" font-family="FreeSans" font-size="10.00">cbDebuggerPlugin</text>
 <polyline fill="none" stroke="black" points="374,-1189.5 531,-1189.5 "/>
@@ -187,7 +187,7 @@
 </g>
 <!-- Node6 -->
 <g id="node6" class="node"><title>Node6</title>
-<g id="a_node6"><a xlink:href="classcbPlugin.xhtml" target="_top" xlink:title="Base class for plugins This is the most basic class a plugin must descend from. cbPlugin descends fro...">
+<g id="a_node6"><a xlink:href="classcbPlugin" target="_top" xlink:title="Base class for plugins This is the most basic class a plugin must descend from. ">
 <polygon fill="white" stroke="black" points="381.5,-1449.5 381.5,-1660.5 539.5,-1660.5 539.5,-1449.5 381.5,-1449.5"/>
 <text text-anchor="middle" x="460.5" y="-1648.5" font-family="FreeSans" font-size="10.00">cbPlugin</text>
 <polyline fill="none" stroke="black" points="381.5,-1641.5 539.5,-1641.5 "/>
@@ -218,7 +218,7 @@
 </g>
 <!-- Node8 -->
 <g id="node8" class="node"><title>Node8</title>
-<g id="a_node8"><a xlink:href="classcbCompilerPlugin.xhtml" target="_top" xlink:title="Base class for compiler plugins. ">
+<g id="a_node8"><a xlink:href="classcbCompilerPlugin" target="_top" xlink:title="Base class for compiler plugins. ">
 <polygon fill="white" stroke="black" points="471,-1256.5 471,-1401.5 578,-1401.5 578,-1256.5 471,-1256.5"/>
 <text text-anchor="middle" x="524.5" y="-1389.5" font-family="FreeSans" font-size="10.00">cbCompilerPlugin</text>
 <polyline fill="none" stroke="black" points="471,-1382.5 578,-1382.5 "/>
@@ -269,7 +269,7 @@
 </g>
 <!-- Node10 -->
 <g id="node10" class="node"><title>Node10</title>
-<g id="a_node10"><a xlink:href="structDebuggerManager_1_1PluginData.xhtml" target="_top" xlink:title="{DebuggerManager::PluginData\n|&#45; m_lastConfigID\l|+ PluginData()\l+ GetConfigurations()\l+ GetConfigurations()\l+ GetConfiguration()\l+ ClearConfigurations()\l}">
+<g id="a_node10"><a xlink:href="structDebuggerManager_1_1PluginData" target="_top" xlink:title="{DebuggerManager::PluginData\n|&#45; m_lastConfigID\l|+ PluginData()\l+ GetConfigurations()\l+ GetConfigurations()\l+ GetConfiguration()\l+ ClearConfigurations()\l}">
 <polygon fill="white" stroke="black" points="209,-920.5 209,-1021.5 356,-1021.5 356,-920.5 209,-920.5"/>
 <text text-anchor="middle" x="282.5" y="-1009.5" font-family="FreeSans" font-size="10.00">DebuggerManager::PluginData</text>
 <polyline fill="none" stroke="black" points="209,-1002.5 356,-1002.5 "/>
@@ -306,7 +306,7 @@
 </g>
 <!-- Node12 -->
 <g id="node12" class="node"><title>Node12</title>
-<g id="a_node12"><a xlink:href="classcbDebuggerConfiguration.xhtml" target="_top" xlink:title="{cbDebuggerConfiguration\n|&#45; m_name\l&#45; m_menuId\l|+ cbDebuggerConfiguration()\l+ ~cbDebuggerConfiguration()\l+ Clone()\l+ MakePanel()\l+ SaveChanges()\l+ SetName()\l+ GetName()\l+ GetConfig()\l+ SetConfig()\l+ SetMenuId()\l+ GetMenuId()\l# cbDebuggerConfiguration()\l# operator=()\l}">
+<g id="a_node12"><a xlink:href="classcbDebuggerConfiguration" target="_top" xlink:title="{cbDebuggerConfiguration\n|&#45; m_name\l&#45; m_menuId\l|+ cbDebuggerConfiguration()\l+ ~cbDebuggerConfiguration()\l+ Clone()\l+ MakePanel()\l+ SaveChanges()\l+ SetName()\l+ GetName()\l+ GetConfig()\l+ SetConfig()\l+ SetMenuId()\l+ GetMenuId()\l# cbDebuggerConfiguration()\l# operator=()\l}">
 <polygon fill="white" stroke="black" points="210.5,-1455 210.5,-1655 354.5,-1655 354.5,-1455 210.5,-1455"/>
 <text text-anchor="middle" x="282.5" y="-1643" font-family="FreeSans" font-size="10.00">cbDebuggerConfiguration</text>
 <polyline fill="none" stroke="black" points="210.5,-1636 354.5,-1636 "/>
@@ -337,7 +337,7 @@
 </g>
 <!-- Node13 -->
 <g id="node13" class="node"><title>Node13</title>
-<g id="a_node13"><a xlink:href="classConfigManagerWrapper.xhtml" target="_top" xlink:title="{ConfigManagerWrapper\n|&#45; m_namespace\l&#45; m_basepath\l|+ ConfigManagerWrapper()\l+ ConfigManagerWrapper()\l+ IsValid()\l+ GetBasepath()\l+ Write()\l+ Read()\l+ Read()\l+ Write()\land 9 more...\l}">
+<g id="a_node13"><a xlink:href="classConfigManagerWrapper" target="_top" xlink:title="Wrapper class for reading or writing config values, without the need for the full path...">
 <polygon fill="white" stroke="black" points="217,-1708.5 217,-1864.5 348,-1864.5 348,-1708.5 217,-1708.5"/>
 <text text-anchor="middle" x="282.5" y="-1852.5" font-family="FreeSans" font-size="10.00">ConfigManagerWrapper</text>
 <polyline fill="none" stroke="black" points="217,-1845.5 348,-1845.5 "/>
@@ -364,7 +364,7 @@
 </g>
 <!-- Node14 -->
 <g id="node14" class="node"><title>Node14</title>
-<g id="a_node14"><a xlink:href="classcbDisassemblyDlg.xhtml" target="_top" xlink:title="{cbDisassemblyDlg\n||+ ~cbDisassemblyDlg()\l+ GetWindow()\l+ Clear()\l+ AddAssemblerLine()\l+ AddSourceLine()\l+ SetActiveAddress()\l+ CenterLine()\l+ CenterCurrentLine()\l+ HasActiveAddr()\l+ EnableWindow()\l}">
+<g id="a_node14"><a xlink:href="classcbDisassemblyDlg" target="_top" xlink:title="{cbDisassemblyDlg\n||+ ~cbDisassemblyDlg()\l+ GetWindow()\l+ Clear()\l+ AddAssemblerLine()\l+ AddSourceLine()\l+ SetActiveAddress()\l+ CenterLine()\l+ CenterCurrentLine()\l+ HasActiveAddr()\l+ EnableWindow()\l}">
 <polygon fill="white" stroke="black" points="556.5,-518.5 556.5,-674.5 670.5,-674.5 670.5,-518.5 556.5,-518.5"/>
 <text text-anchor="middle" x="613.5" y="-662.5" font-family="FreeSans" font-size="10.00">cbDisassemblyDlg</text>
 <polyline fill="none" stroke="black" points="556.5,-655.5 670.5,-655.5 "/>
@@ -391,7 +391,7 @@
 </g>
 <!-- Node15 -->
 <g id="node15" class="node"><title>Node15</title>
-<g id="a_node15"><a xlink:href="classcbWatchesDlg.xhtml" target="_top" xlink:title="{cbWatchesDlg\n||+ ~cbWatchesDlg()\l+ GetWindow()\l+ UpdateWatches()\l+ AddWatch()\l+ AddSpecialWatch()\l+ RemoveWatch()\l+ RenameWatch()\l+ RefreshUI()\l}">
+<g id="a_node15"><a xlink:href="classcbWatchesDlg" target="_top" xlink:title="{cbWatchesDlg\n||+ ~cbWatchesDlg()\l+ GetWindow()\l+ UpdateWatches()\l+ AddWatch()\l+ AddSpecialWatch()\l+ RemoveWatch()\l+ RenameWatch()\l+ RefreshUI()\l}">
 <polygon fill="white" stroke="black" points="688.5,-529.5 688.5,-663.5 796.5,-663.5 796.5,-529.5 688.5,-529.5"/>
 <text text-anchor="middle" x="742.5" y="-651.5" font-family="FreeSans" font-size="10.00">cbWatchesDlg</text>
 <polyline fill="none" stroke="black" points="688.5,-644.5 796.5,-644.5 "/>
@@ -416,7 +416,7 @@
 </g>
 <!-- Node16 -->
 <g id="node16" class="node"><title>Node16</title>
-<g id="a_node16"><a xlink:href="classcbDebugInterfaceFactory.xhtml" target="_top" xlink:title="{cbDebugInterfaceFactory\n||+ cbDebugInterfaceFactory()\l+ ~cbDebugInterfaceFactory()\l+ CreateBacktrace()\l+ DeleteBacktrace()\l+ CreateBreapoints()\l+ DeleteBreakpoints()\l+ CreateCPURegisters()\l+ DeleteCPURegisters()\land 12 more...\l&#45; cbDebugInterfaceFactory()\l&#45; operator=()\l}">
+<g id="a_node16"><a xlink:href="classcbDebugInterfaceFactory" target="_top" xlink:title="{cbDebugInterfaceFactory\n||+ cbDebugInterfaceFactory()\l+ ~cbDebugInterfaceFactory()\l+ CreateBacktrace()\l+ DeleteBacktrace()\l+ CreateBreapoints()\l+ DeleteBreakpoints()\l+ CreateCPURegisters()\l+ DeleteCPURegisters()\land 12 more...\l&#45; cbDebugInterfaceFactory()\l&#45; operator=()\l}">
 <polygon fill="white" stroke="black" points="815,-513 815,-680 960,-680 960,-513 815,-513"/>
 <text text-anchor="middle" x="887.5" y="-668" font-family="FreeSans" font-size="10.00">cbDebugInterfaceFactory</text>
 <polyline fill="none" stroke="black" points="815,-661 960,-661 "/>
@@ -444,7 +444,7 @@
 </g>
 <!-- Node17 -->
 <g id="node17" class="node"><title>Node17</title>
-<g id="a_node17"><a xlink:href="classTextCtrlLogger.xhtml" target="_top" xlink:title="{TextCtrlLogger\n|# control\l# fixed\l# style\l|+ TextCtrlLogger()\l+ ~TextCtrlLogger()\l+ CopyContentsToClipboard()\l+ UpdateSettings()\l+ Append()\l+ Clear()\l+ CreateControl()\l+ GetWrapMode()\l+ ToggleWrapMode()\l+ HasFeature()\l}">
+<g id="a_node17"><a xlink:href="classTextCtrlLogger" target="_top" xlink:title="a logger which prints messages to a wxTextCtrl ">
 <polygon fill="white" stroke="black" points="978,-507.5 978,-685.5 1121,-685.5 1121,-507.5 978,-507.5"/>
 <text text-anchor="middle" x="1049.5" y="-673.5" font-family="FreeSans" font-size="10.00">TextCtrlLogger</text>
 <polyline fill="none" stroke="black" points="978,-666.5 1121,-666.5 "/>
@@ -473,7 +473,7 @@
 </g>
 <!-- Node18 -->
 <g id="node18" class="node"><title>Node18</title>
-<g id="a_node18"><a xlink:href="classLogger.xhtml" target="_top" xlink:title="{Logger\n||+ Logger()\l+ ~Logger()\l+ Append()\l+ Clear()\l+ CopyContentsToClipboard()\l+ UpdateSettings()\l+ CreateControl()\l+ GetWrapMode()\l+ HasFeature()\l+ AppendAdditionalMenuItems()\l}">
+<g id="a_node18"><a xlink:href="classLogger" target="_top" xlink:title="The base class for all kinds of loggers, see loggers.h for its derived classes. ">
 <polygon fill="white" stroke="black" points="972,-893 972,-1049 1127,-1049 1127,-893 972,-893"/>
 <text text-anchor="middle" x="1049.5" y="-1037" font-family="FreeSans" font-size="10.00">Logger</text>
 <polyline fill="none" stroke="black" points="972,-1030 1127,-1030 "/>
@@ -499,7 +499,7 @@
 </g>
 <!-- Node19 -->
 <g id="node19" class="node"><title>Node19</title>
-<g id="a_node19"><a xlink:href="classcbCPURegistersDlg.xhtml" target="_top" xlink:title="{cbCPURegistersDlg\n||+ ~cbCPURegistersDlg()\l+ GetWindow()\l+ Clear()\l+ SetRegisterValue()\l+ EnableWindow()\l}">
+<g id="a_node19"><a xlink:href="classcbCPURegistersDlg" target="_top" xlink:title="{cbCPURegistersDlg\n||+ ~cbCPURegistersDlg()\l+ GetWindow()\l+ Clear()\l+ SetRegisterValue()\l+ EnableWindow()\l}">
 <polygon fill="white" stroke="black" points="1139,-546 1139,-647 1260,-647 1260,-546 1139,-546"/>
 <text text-anchor="middle" x="1199.5" y="-635" font-family="FreeSans" font-size="10.00">cbCPURegistersDlg</text>
 <polyline fill="none" stroke="black" points="1139,-628 1260,-628 "/>
@@ -521,7 +521,7 @@
 </g>
 <!-- Node20 -->
 <g id="node20" class="node"><title>Node20</title>
-<g id="a_node20"><a xlink:href="classcbBreakpointsDlg.xhtml" target="_top" xlink:title="{cbBreakpointsDlg\n||+ ~cbBreakpointsDlg()\l+ GetWindow()\l+ AddBreakpoint()\l+ RemoveBreakpoint()\l+ RemoveAllBreakpoints()\l+ EditBreakpoint()\l+ EnableBreakpoint()\l+ Reload()\l}">
+<g id="a_node20"><a xlink:href="classcbBreakpointsDlg" target="_top" xlink:title="{cbBreakpointsDlg\n||+ ~cbBreakpointsDlg()\l+ GetWindow()\l+ AddBreakpoint()\l+ RemoveBreakpoint()\l+ RemoveAllBreakpoints()\l+ EditBreakpoint()\l+ EnableBreakpoint()\l+ Reload()\l}">
 <polygon fill="white" stroke="black" points="1278.5,-529.5 1278.5,-663.5 1406.5,-663.5 1406.5,-529.5 1278.5,-529.5"/>
 <text text-anchor="middle" x="1342.5" y="-651.5" font-family="FreeSans" font-size="10.00">cbBreakpointsDlg</text>
 <polyline fill="none" stroke="black" points="1278.5,-644.5 1406.5,-644.5 "/>
@@ -546,7 +546,7 @@
 </g>
 <!-- Node21 -->
 <g id="node21" class="node"><title>Node21</title>
-<g id="a_node21"><a xlink:href="classcbExamineMemoryDlg.xhtml" target="_top" xlink:title="{cbExamineMemoryDlg\n||+ ~cbExamineMemoryDlg()\l+ GetWindow()\l+ Begin()\l+ End()\l+ Clear()\l+ GetBaseAddress()\l+ GetBytes()\l+ AddError()\l+ AddHexByte()\l+ EnableWindow()\l}">
+<g id="a_node21"><a xlink:href="classcbExamineMemoryDlg" target="_top" xlink:title="{cbExamineMemoryDlg\n||+ ~cbExamineMemoryDlg()\l+ GetWindow()\l+ Begin()\l+ End()\l+ Clear()\l+ GetBaseAddress()\l+ GetBytes()\l+ AddError()\l+ AddHexByte()\l+ EnableWindow()\l}">
 <polygon fill="white" stroke="black" points="1424.5,-518.5 1424.5,-674.5 1556.5,-674.5 1556.5,-518.5 1424.5,-518.5"/>
 <text text-anchor="middle" x="1490.5" y="-662.5" font-family="FreeSans" font-size="10.00">cbExamineMemoryDlg</text>
 <polyline fill="none" stroke="black" points="1424.5,-655.5 1556.5,-655.5 "/>
@@ -573,7 +573,7 @@
 </g>
 <!-- Node22 -->
 <g id="node22" class="node"><title>Node22</title>
-<g id="a_node22"><a xlink:href="classcbBacktraceDlg.xhtml" target="_top" xlink:title="{cbBacktraceDlg\n||+ ~cbBacktraceDlg()\l+ GetWindow()\l+ Reload()\l+ EnableWindow()\l}">
+<g id="a_node22"><a xlink:href="classcbBacktraceDlg" target="_top" xlink:title="{cbBacktraceDlg\n||+ ~cbBacktraceDlg()\l+ GetWindow()\l+ Reload()\l+ EnableWindow()\l}">
 <polygon fill="white" stroke="black" points="1576,-551.5 1576,-641.5 1681,-641.5 1681,-551.5 1576,-551.5"/>
 <text text-anchor="middle" x="1628.5" y="-629.5" font-family="FreeSans" font-size="10.00">cbBacktraceDlg</text>
 <polyline fill="none" stroke="black" points="1576,-622.5 1681,-622.5 "/>

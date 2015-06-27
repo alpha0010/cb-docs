@@ -29,7 +29,7 @@
 </g>
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
-<g id="a_node2"><a xlink:href="classFileLogger.xhtml" target="_top" xlink:title="{FileLogger\n|# f\l|+ FileLogger()\l+ FileLogger()\l+ Append()\l+ Open()\l+ Close()\l}">
+<g id="a_node2"><a xlink:href="classFileLogger" target="_top" xlink:title="a logger which prints messages to a file ">
 <polygon fill="white" stroke="black" points="15,-309 15,-410 91,-410 91,-309 15,-309"/>
 <text text-anchor="middle" x="53" y="-398" font-family="FreeSans" font-size="10.00">FileLogger</text>
 <polyline fill="none" stroke="black" points="15,-391 91,-391 "/>
@@ -50,7 +50,7 @@
 </g>
 <!-- Node4 -->
 <g id="node4" class="node"><title>Node4</title>
-<g id="a_node4"><a xlink:href="classListCtrlLogger.xhtml" target="_top" xlink:title="{ListCtrlLogger\n|# control\l# fixed\l# titles\l# widths\l# style\l|+ ListCtrlLogger()\l+ ~ListCtrlLogger()\l+ CopyContentsToClipboard()\l+ UpdateSettings()\l+ Append()\l+ Append()\l+ GetItemsCount()\l+ Clear()\l+ CreateControl()\l+ HasFeature()\l+ AutoFitColumns()\l# GetItemAsText()\l}">
+<g id="a_node4"><a xlink:href="classListCtrlLogger" target="_top" xlink:title="a logger which prints messages to a wxListCtrl ">
 <polygon fill="white" stroke="black" points="145.5,-248.5 145.5,-470.5 288.5,-470.5 288.5,-248.5 145.5,-248.5"/>
 <text text-anchor="middle" x="217" y="-458.5" font-family="FreeSans" font-size="10.00">ListCtrlLogger</text>
 <polyline fill="none" stroke="black" points="145.5,-451.5 288.5,-451.5 "/>
@@ -82,7 +82,7 @@
 </g>
 <!-- Node7 -->
 <g id="node7" class="node"><title>Node7</title>
-<g id="a_node7"><a xlink:href="classNullLogger.xhtml" target="_top" xlink:title="{NullLogger\n||+ Append()\l}">
+<g id="a_node7"><a xlink:href="classNullLogger" target="_top" xlink:title="a logger simply does nothing ">
 <polygon fill="white" stroke="black" points="307,-331 307,-388 371,-388 371,-331 307,-331"/>
 <text text-anchor="middle" x="339" y="-376" font-family="FreeSans" font-size="10.00">NullLogger</text>
 <polyline fill="none" stroke="black" points="307,-369 371,-369 "/>
@@ -99,7 +99,7 @@
 </g>
 <!-- Node8 -->
 <g id="node8" class="node"><title>Node8</title>
-<g id="a_node8"><a xlink:href="classStdoutLogger.xhtml" target="_top" xlink:title="{StdoutLogger\n||+ Append()\l}">
+<g id="a_node8"><a xlink:href="classStdoutLogger" target="_top" xlink:title="a logger which prints messages to the standard console IO ">
 <polygon fill="white" stroke="black" points="389,-331 389,-388 463,-388 463,-331 389,-331"/>
 <text text-anchor="middle" x="426" y="-376" font-family="FreeSans" font-size="10.00">StdoutLogger</text>
 <polyline fill="none" stroke="black" points="389,-369 463,-369 "/>
@@ -116,7 +116,7 @@
 </g>
 <!-- Node9 -->
 <g id="node9" class="node"><title>Node9</title>
-<g id="a_node9"><a xlink:href="classTextCtrlLogger.xhtml" target="_top" xlink:title="{TextCtrlLogger\n|# control\l# fixed\l# style\l|+ TextCtrlLogger()\l+ ~TextCtrlLogger()\l+ CopyContentsToClipboard()\l+ UpdateSettings()\l+ Append()\l+ Clear()\l+ CreateControl()\l+ GetWrapMode()\l+ ToggleWrapMode()\l+ HasFeature()\l}">
+<g id="a_node9"><a xlink:href="classTextCtrlLogger" target="_top" xlink:title="a logger which prints messages to a wxTextCtrl ">
 <polygon fill="white" stroke="black" points="549.5,-270.5 549.5,-448.5 692.5,-448.5 692.5,-270.5 549.5,-270.5"/>
 <text text-anchor="middle" x="621" y="-436.5" font-family="FreeSans" font-size="10.00">TextCtrlLogger</text>
 <polyline fill="none" stroke="black" points="549.5,-429.5 692.5,-429.5 "/>
@@ -144,7 +144,7 @@
 </g>
 <!-- Node3 -->
 <g id="node3" class="node"><title>Node3</title>
-<g id="a_node3"><a xlink:href="classHTMLFileLogger.xhtml" target="_top" xlink:title="{HTMLFileLogger\n|&#45; css\l|+ HTMLFileLogger()\l+ SetCSS()\l+ Append()\l+ Open()\l+ Close()\l}">
+<g id="a_node3"><a xlink:href="classHTMLFileLogger" target="_top" xlink:title="a logger which prints messages to an HTML file ">
 <polygon fill="white" stroke="black" points="0,-55.5 0,-156.5 102,-156.5 102,-55.5 0,-55.5"/>
 <text text-anchor="middle" x="51" y="-144.5" font-family="FreeSans" font-size="10.00">HTMLFileLogger</text>
 <polyline fill="none" stroke="black" points="0,-137.5 102,-137.5 "/>
@@ -165,7 +165,7 @@
 </g>
 <!-- Node5 -->
 <g id="node5" class="node"><title>Node5</title>
-<g id="a_node5"><a xlink:href="classcbSearchResultsLog.xhtml" target="_top" xlink:title="{cbSearchResultsLog\n|# m_Base\l|+ cbSearchResultsLog()\l+ ~cbSearchResultsLog()\l+ FocusEntry()\l+ SetBasePath()\l+ CreateControl()\l# OnDoubleClick()\l# SyncEditor()\l}">
+<g id="a_node5"><a xlink:href="classcbSearchResultsLog" target="_top" xlink:title="{cbSearchResultsLog\n|# m_Base\l|+ cbSearchResultsLog()\l+ ~cbSearchResultsLog()\l+ FocusEntry()\l+ SetBasePath()\l+ CreateControl()\l# OnDoubleClick()\l# SyncEditor()\l}">
 <polygon fill="white" stroke="black" points="120.5,-44.5 120.5,-167.5 245.5,-167.5 245.5,-44.5 120.5,-44.5"/>
 <text text-anchor="middle" x="183" y="-155.5" font-family="FreeSans" font-size="10.00">cbSearchResultsLog</text>
 <polyline fill="none" stroke="black" points="120.5,-148.5 245.5,-148.5 "/>
@@ -188,7 +188,7 @@
 </g>
 <!-- Node6 -->
 <g id="node6" class="node"><title>Node6</title>
-<g id="a_node6"><a xlink:href="classCompilerMessages.xhtml" target="_top" xlink:title="{CompilerMessages\n|&#45; m_pErrors\l&#45; m_autoFit\l|+ CompilerMessages()\l+ ~CompilerMessages()\l+ SetCompilerErrors()\l+ FocusError()\l+ AutoFitColumns()\l+ CreateControl()\l+ DestroyControls()\l+ HasFeature()\l+ AppendAdditionalMenuItems()\l&#45; OnClick()\l&#45; OnDoubleClick()\l&#45; OnFit()\l&#45; OnAutoFit()\l&#45; FitColumns()\l}">
+<g id="a_node6"><a xlink:href="classCompilerMessages" target="_top" xlink:title="{CompilerMessages\n|&#45; m_pErrors\l&#45; m_autoFit\l|+ CompilerMessages()\l+ ~CompilerMessages()\l+ SetCompilerErrors()\l+ FocusError()\l+ AutoFitColumns()\l+ CreateControl()\l+ DestroyControls()\l+ HasFeature()\l+ AppendAdditionalMenuItems()\l&#45; OnClick()\l&#45; OnDoubleClick()\l&#45; OnFit()\l&#45; OnAutoFit()\l&#45; FitColumns()\l}">
 <polygon fill="white" stroke="black" points="263.5,-0.5 263.5,-211.5 418.5,-211.5 418.5,-0.5 263.5,-0.5"/>
 <text text-anchor="middle" x="341" y="-199.5" font-family="FreeSans" font-size="10.00">CompilerMessages</text>
 <polyline fill="none" stroke="black" points="263.5,-192.5 418.5,-192.5 "/>
@@ -219,7 +219,7 @@
 </g>
 <!-- Node10 -->
 <g id="node10" class="node"><title>Node10</title>
-<g id="a_node10"><a xlink:href="classBuildLogger.xhtml" target="_top" xlink:title="{BuildLogger\n|+ progress\l&#45; panel\l&#45; sizer\l|+ BuildLogger()\l+ UpdateSettings()\l+ CreateControl()\l+ AddBuildProgressBar()\l+ RemoveBuildProgressBar()\l+ OpenLink()\l}">
+<g id="a_node10"><a xlink:href="classBuildLogger" target="_top" xlink:title="{BuildLogger\n|+ progress\l&#45; panel\l&#45; sizer\l|+ BuildLogger()\l+ UpdateSettings()\l+ CreateControl()\l+ AddBuildProgressBar()\l+ RemoveBuildProgressBar()\l+ OpenLink()\l}">
 <polygon fill="white" stroke="black" points="437,-39 437,-173 577,-173 577,-39 437,-39"/>
 <text text-anchor="middle" x="507" y="-161" font-family="FreeSans" font-size="10.00">BuildLogger</text>
 <polyline fill="none" stroke="black" points="437,-154 577,-154 "/>
@@ -243,7 +243,7 @@
 </g>
 <!-- Node11 -->
 <g id="node11" class="node"><title>Node11</title>
-<g id="a_node11"><a xlink:href="classDebugTextCtrlLogger.xhtml" target="_top" xlink:title="{DebugTextCtrlLogger\n|&#45; m_panel\l&#45; m_debugLog\l|+ DebugTextCtrlLogger()\l+ CreateTextCtrl()\l+ CreateControl()\l}">
+<g id="a_node11"><a xlink:href="classDebugTextCtrlLogger" target="_top" xlink:title="{DebugTextCtrlLogger\n|&#45; m_panel\l&#45; m_debugLog\l|+ DebugTextCtrlLogger()\l+ CreateTextCtrl()\l+ CreateControl()\l}">
 <polygon fill="white" stroke="black" points="595,-61 595,-151 717,-151 717,-61 595,-61"/>
 <text text-anchor="middle" x="656" y="-139" font-family="FreeSans" font-size="10.00">DebugTextCtrlLogger</text>
 <polyline fill="none" stroke="black" points="595,-132 717,-132 "/>
@@ -263,7 +263,7 @@
 </g>
 <!-- Node12 -->
 <g id="node12" class="node"><title>Node12</title>
-<g id="a_node12"><a xlink:href="classTimestampTextCtrlLogger.xhtml" target="_top" xlink:title="{TimestampTextCtrlLogger\n||+ Append()\l}">
+<g id="a_node12"><a xlink:href="classTimestampTextCtrlLogger" target="_top" xlink:title="an extended logger from TextCtrlLogger, since it add time stamps for each log message ...">
 <polygon fill="white" stroke="black" points="735,-77.5 735,-134.5 863,-134.5 863,-77.5 735,-77.5"/>
 <text text-anchor="middle" x="799" y="-122.5" font-family="FreeSans" font-size="10.00">TimestampTextCtrlLogger</text>
 <polyline fill="none" stroke="black" points="735,-115.5 863,-115.5 "/>
