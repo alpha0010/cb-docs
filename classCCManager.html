@@ -18,7 +18,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">Code::Blocks
-   &#160;<span id="projectnumber">SVN r10345</span>
+   &#160;<span id="projectnumber">SVN r10408</span>
    </div>
   </td>
  </tr>
@@ -57,6 +57,9 @@
 </div><!--header-->
 <div class="contents">
 
+<p>code completion plugin manager  
+ <a href="classCCManager#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="ccmanager_8h_source">ccmanager.h</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for CCManager:</div>
@@ -74,7 +77,7 @@ Collaboration diagram for CCManager:</div>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:fh-GetProviderFor"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classcbCodeCompletionPlugin">cbCodeCompletionPlugin</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCCManager#fh-GetProviderFor">GetProviderFor</a> (<a class="el" href="classcbEditor">cbEditor</a> *ed=<a class="el" href="nullptr_8cpp#ix-nullptr">nullptr</a>)</td></tr>
-<tr class="memdesc:fh-GetProviderFor"><td class="mdescLeft">&#160;</td><td class="mdescRight">uses active editor if one is not passed; has (minimal) cache optimization  <a href="#fh-GetProviderFor">More...</a><br /></td></tr>
+<tr class="memdesc:fh-GetProviderFor"><td class="mdescLeft">&#160;</td><td class="mdescRight">get the ccPlugin instant for the <a class="el" href="classcbEditor" title="A file editor. ">cbEditor</a> If the editor opened a c/c++ file, then it returns the native c/c++ ccPlugin.  <a href="#fh-GetProviderFor">More...</a><br /></td></tr>
 <tr class="separator:fh-GetProviderFor"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:hu-RegisterCallTipChars"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCCManager#hu-RegisterCallTipChars">RegisterCallTipChars</a> (const wxString &amp;chars, <a class="el" href="classcbCodeCompletionPlugin">cbCodeCompletionPlugin</a> *registrant)</td></tr>
 <tr class="memdesc:hu-RegisterCallTipChars"><td class="mdescLeft">&#160;</td><td class="mdescRight">if the default set of characters that invoke calltip requests are not appropriate, register a new set  <a href="#hu-RegisterCallTipChars">More...</a><br /></td></tr>
@@ -83,13 +86,13 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:in-RegisterAutoLaunchChars"><td class="mdescLeft">&#160;</td><td class="mdescRight">if the default set of characters that auto-launch codecomplete requests are not appropriate, register a new set  <a href="#in-RegisterAutoLaunchChars">More...</a><br /></td></tr>
 <tr class="separator:in-RegisterAutoLaunchChars"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:l7-NotifyDocumentation"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCCManager#l7-NotifyDocumentation">NotifyDocumentation</a> ()</td></tr>
-<tr class="memdesc:l7-NotifyDocumentation"><td class="mdescLeft">&#160;</td><td class="mdescRight">let <a class="el" href="classCCManager">CCManager</a> know that new results are available from <a class="el" href="classcbCodeCompletionPlugin#ka-GetDocumentation" title="Supply html formatted documentation for the passed token. ">cbCodeCompletionPlugin::GetDocumentation()</a>  <a href="#l7-NotifyDocumentation">More...</a><br /></td></tr>
+<tr class="memdesc:l7-NotifyDocumentation"><td class="mdescLeft">&#160;</td><td class="mdescRight">let <a class="el" href="classCCManager" title="code completion plugin manager ">CCManager</a> know that new results are available from <a class="el" href="classcbCodeCompletionPlugin#ka-GetDocumentation" title="Supply html formatted documentation for the passed token. ">cbCodeCompletionPlugin::GetDocumentation()</a>  <a href="#l7-NotifyDocumentation">More...</a><br /></td></tr>
 <tr class="separator:l7-NotifyDocumentation"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ca-NotifyPluginStatus"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCCManager#ca-NotifyPluginStatus">NotifyPluginStatus</a> ()</td></tr>
-<tr class="memdesc:ca-NotifyPluginStatus"><td class="mdescLeft">&#160;</td><td class="mdescRight">let <a class="el" href="classCCManager">CCManager</a> know that a change (e.g.  <a href="#ca-NotifyPluginStatus">More...</a><br /></td></tr>
+<tr class="memdesc:ca-NotifyPluginStatus"><td class="mdescLeft">&#160;</td><td class="mdescRight">let <a class="el" href="classCCManager" title="code completion plugin manager ">CCManager</a> know that a change (e.g.  <a href="#ca-NotifyPluginStatus">More...</a><br /></td></tr>
 <tr class="separator:ca-NotifyPluginStatus"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:d3-InjectAutoCompShow"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCCManager#d3-InjectAutoCompShow">InjectAutoCompShow</a> (int lenEntered, const wxString &amp;itemList)</td></tr>
-<tr class="memdesc:d3-InjectAutoCompShow"><td class="mdescLeft">&#160;</td><td class="mdescRight">if for some reason you <em>need</em> to use <a class="el" href="classwxScintilla#wv-AutoCompShow">wxScintilla::AutoCompShow()</a>, call this instead so <a class="el" href="classCCManager">CCManager</a> does not step on you  <a href="#d3-InjectAutoCompShow">More...</a><br /></td></tr>
+<tr class="memdesc:d3-InjectAutoCompShow"><td class="mdescLeft">&#160;</td><td class="mdescRight">if for some reason you <em>need</em> to use <a class="el" href="classwxScintilla#wv-AutoCompShow">wxScintilla::AutoCompShow()</a>, call this instead so <a class="el" href="classCCManager" title="code completion plugin manager ">CCManager</a> does not step on you  <a href="#d3-InjectAutoCompShow">More...</a><br /></td></tr>
 <tr class="separator:d3-InjectAutoCompShow"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:mb-ProcessArrow"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCCManager#mb-ProcessArrow">ProcessArrow</a> (int key)</td></tr>
 <tr class="memdesc:mb-ProcessArrow"><td class="mdescLeft">&#160;</td><td class="mdescRight">used by <a class="el" href="classcbStyledTextCtrl">cbStyledTextCtrl</a> to process ArrowUp and ArrowDown key press.  <a href="#mb-ProcessArrow">More...</a><br /></td></tr>
@@ -99,7 +102,8 @@ Public Member Functions</h2></td></tr>
 Private Types</h2></td></tr>
 <tr class="memitem:jx-Direction"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCCManager#jx-Direction">Direction</a> { <a class="el" href="classCCManager#jx-Direction:Previous">Previous</a>, 
 <a class="el" href="classCCManager#jx-Direction:Next">Next</a>
- }<tr class="separator:jx-Direction"><td class="memSeparator" colspan="2">&#160;</td></tr>
+ }<tr class="memdesc:jx-Direction"><td class="mdescLeft">&#160;</td><td class="mdescRight">user click the next or previous small button of the tip window  <a href="classCCManager#jx-Direction">More...</a><br /></td></tr>
+<tr class="separator:jx-Direction"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </td></tr>
 <tr class="memitem:yp-CCPluginCharMap"><td class="memItemLeft" align="right" valign="top">typedef std::map&lt; <a class="el" href="classcbCodeCompletionPlugin">cbCodeCompletionPlugin</a> *, std::set&lt; wxChar &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCCManager#yp-CCPluginCharMap">CCPluginCharMap</a></td></tr>
 <tr class="separator:yp-CCPluginCharMap"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -125,6 +129,7 @@ Private Member Functions</h2></td></tr>
 <tr class="memitem:lo-OnEditorClose"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCCManager#lo-OnEditorClose">OnEditorClose</a> (<a class="el" href="classCodeBlocksEvent">CodeBlocksEvent</a> &amp;event)</td></tr>
 <tr class="separator:lo-OnEditorClose"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:cf-OnEditorHook"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCCManager#cf-OnEditorHook">OnEditorHook</a> (<a class="el" href="classcbEditor">cbEditor</a> *ed, <a class="el" href="classwxScintillaEvent">wxScintillaEvent</a> &amp;event)</td></tr>
+<tr class="memdesc:cf-OnEditorHook"><td class="mdescLeft">&#160;</td><td class="mdescRight">hook to the editor, so that we know some specific chars were entered, then we can decide whether it time to show a calltip or suggestion list  <a href="#cf-OnEditorHook">More...</a><br /></td></tr>
 <tr class="separator:cf-OnEditorHook"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:s5-OnEditorTooltip"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCCManager#s5-OnEditorTooltip">OnEditorTooltip</a> (<a class="el" href="classCodeBlocksEvent">CodeBlocksEvent</a> &amp;event)</td></tr>
 <tr class="memdesc:s5-OnEditorTooltip"><td class="mdescLeft">&#160;</td><td class="mdescRight">mouse hover event  <a href="#s5-OnEditorTooltip">More...</a><br /></td></tr>
@@ -138,17 +143,22 @@ Private Member Functions</h2></td></tr>
 <tr class="memitem:y4-OnAutocompleteHide"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCCManager#y4-OnAutocompleteHide">OnAutocompleteHide</a> (wxShowEvent &amp;event)</td></tr>
 <tr class="separator:y4-OnAutocompleteHide"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:zb-OnDeferredCallTipShow"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCCManager#zb-OnDeferredCallTipShow">OnDeferredCallTipShow</a> (wxCommandEvent &amp;event)</td></tr>
+<tr class="memdesc:zb-OnDeferredCallTipShow"><td class="mdescLeft">&#160;</td><td class="mdescRight">defer showing the calltip to avoid a crash issue,  <a href="#zb-OnDeferredCallTipShow">More...</a><br /></td></tr>
 <tr class="separator:zb-OnDeferredCallTipShow"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ui-OnDeferredCallTipCancel"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCCManager#ui-OnDeferredCallTipCancel">OnDeferredCallTipCancel</a> (wxCommandEvent &amp;event)</td></tr>
+<tr class="memdesc:ui-OnDeferredCallTipCancel"><td class="mdescLeft">&#160;</td><td class="mdescRight">defer canceling the calltip to avoid a crash issue,  <a href="#ui-OnDeferredCallTipCancel">More...</a><br /></td></tr>
 <tr class="separator:ui-OnDeferredCallTipCancel"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:mn-OnPopupScroll"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCCManager#mn-OnPopupScroll">OnPopupScroll</a> (wxMouseEvent &amp;event)</td></tr>
 <tr class="memdesc:mn-OnPopupScroll"><td class="mdescLeft">&#160;</td><td class="mdescRight">intercept <a class="el" href="classcbStyledTextCtrl">cbStyledTextCtrl</a> scroll events and forward to autocomplete/documentation popups  <a href="#mn-OnPopupScroll">More...</a><br /></td></tr>
 <tr class="separator:mn-OnPopupScroll"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:e4-OnHtmlLink"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCCManager#e4-OnHtmlLink">OnHtmlLink</a> (wxHtmlLinkEvent &amp;event)</td></tr>
+<tr class="memdesc:e4-OnHtmlLink"><td class="mdescLeft">&#160;</td><td class="mdescRight">a link is clicked in the document window  <a href="#e4-OnHtmlLink">More...</a><br /></td></tr>
 <tr class="separator:e4-OnHtmlLink"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:dp-OnTimer"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCCManager#dp-OnTimer">OnTimer</a> (wxTimerEvent &amp;event)</td></tr>
+<tr class="memdesc:dp-OnTimer"><td class="mdescLeft">&#160;</td><td class="mdescRight">comment timer event handler for several timers  <a href="#dp-OnTimer">More...</a><br /></td></tr>
 <tr class="separator:dp-OnTimer"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:bn-OnMenuSelect"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCCManager#bn-OnMenuSelect">OnMenuSelect</a> (wxCommandEvent &amp;event)</td></tr>
+<tr class="memdesc:bn-OnMenuSelect"><td class="mdescLeft">&#160;</td><td class="mdescRight">handle the CC related menu click  <a href="#bn-OnMenuSelect">More...</a><br /></td></tr>
 <tr class="separator:bn-OnMenuSelect"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:m5-DoBufferedCC"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCCManager#m5-DoBufferedCC">DoBufferedCC</a> (<a class="el" href="classcbStyledTextCtrl">cbStyledTextCtrl</a> *stc)</td></tr>
 <tr class="separator:m5-DoBufferedCC"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -159,11 +169,13 @@ Private Member Functions</h2></td></tr>
 <tr class="memitem:hb-DoUpdateCallTip"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCCManager#hb-DoUpdateCallTip">DoUpdateCallTip</a> (<a class="el" href="classcbEditor">cbEditor</a> *ed)</td></tr>
 <tr class="separator:hb-DoUpdateCallTip"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:hk-AdvanceTip"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCCManager#hk-AdvanceTip">AdvanceTip</a> (<a class="el" href="classCCManager#jx-Direction">Direction</a> direction)</td></tr>
+<tr class="memdesc:hk-AdvanceTip"><td class="mdescLeft">&#160;</td><td class="mdescRight">switch the tip window to the next item  <a href="#hk-AdvanceTip">More...</a><br /></td></tr>
 <tr class="separator:hk-AdvanceTip"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:cu-DoShowTips"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCCManager#cu-DoShowTips">DoShowTips</a> (const <a class="el" href="globals_8h#cu-wxStringVec">wxStringVec</a> &amp;tips, <a class="el" href="classcbStyledTextCtrl">cbStyledTextCtrl</a> *stc, int pos, int argsPos, int hlStart, int hlEnd)</td></tr>
 <tr class="memdesc:cu-DoShowTips"><td class="mdescLeft">&#160;</td><td class="mdescRight">format tips by breaking long lines at (hopefully) logical places  <a href="#cu-DoShowTips">More...</a><br /></td></tr>
 <tr class="separator:cu-DoShowTips"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:m8-CallSmartIndentCCDone"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCCManager#m8-CallSmartIndentCCDone">CallSmartIndentCCDone</a> (<a class="el" href="classcbEditor">cbEditor</a> *ed)</td></tr>
+<tr class="memdesc:m8-CallSmartIndentCCDone"><td class="mdescLeft">&#160;</td><td class="mdescRight">code completion as just insert some text in the editor, ask the smart indent plugin to adjust the indent  <a href="#m8-CallSmartIndentCCDone">More...</a><br /></td></tr>
 <tr class="separator:m8-CallSmartIndentCCDone"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
@@ -180,7 +192,7 @@ Private Attributes</h2></td></tr>
 <tr class="memdesc:b6-m_AutocompPosition"><td class="mdescLeft">&#160;</td><td class="mdescRight">location of caret when autocomplete timer starts, if caret is still there, launch autocomplete  <a href="#b6-m_AutocompPosition">More...</a><br /></td></tr>
 <tr class="separator:b6-m_AutocompPosition"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:z6-m_CallTipActive"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCCManager#z6-m_CallTipActive">m_CallTipActive</a></td></tr>
-<tr class="memdesc:z6-m_CallTipActive"><td class="mdescLeft">&#160;</td><td class="mdescRight">is <a class="el" href="classCCManager">CCManager</a> currently displaying a calltip, and if so, where  <a href="#z6-m_CallTipActive">More...</a><br /></td></tr>
+<tr class="memdesc:z6-m_CallTipActive"><td class="mdescLeft">&#160;</td><td class="mdescRight">is <a class="el" href="classCCManager" title="code completion plugin manager ">CCManager</a> currently displaying a calltip, and if so, where  <a href="#z6-m_CallTipActive">More...</a><br /></td></tr>
 <tr class="separator:z6-m_CallTipActive"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:sp-m_LastAutocompIndex"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCCManager#sp-m_LastAutocompIndex">m_LastAutocompIndex</a></td></tr>
 <tr class="memdesc:sp-m_LastAutocompIndex"><td class="mdescLeft">&#160;</td><td class="mdescRight">index of currently selected entry in autocomplete popup  <a href="#sp-m_LastAutocompIndex">More...</a><br /></td></tr>
@@ -260,7 +272,13 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:wf-Mgr inherit pro_methods_classMgr"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMgr#wf-Mgr">~Mgr</a> ()</td></tr>
 <tr class="separator:wf-Mgr inherit pro_methods_classMgr"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Typedef Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>code completion plugin manager </p>
+<p>This class manages all kinds of code completion plugins. For example, the native C/C++ code completion plugin, the Fortran code completion plugin and Python code completion plugin. The ccmanager asks some informations from the managed ccplugins. The major value passes from the ccmanager and the ccplugins are CCCallTip and CCToken.</p>
+<p>The CCToken is needed when ccmanager needs to fill a code suggestion list, it is the ccplugin's duty to supply a collection of CCTokens.</p>
+<p>When user is entering some function call statement, CCCallTip is used to show the function information, and especially it can highlight the current function argument.</p>
+<p>Another kind of tip is the tooltip, this is the tip window shown when mouse hover on a specified token(such as variable token), ccmanager queries this information by asking CCToken information from ccplugin. </p>
+</div><h2 class="groupheader">Member Typedef Documentation</h2>
 <a class="anchor" id="nm-CallTipVec"></a>
 <div class="memitem">
 <div class="memproto">
@@ -319,6 +337,8 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>user click the next or previous small button of the tip window </p>
 <table class="fieldtable">
 <tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a class="anchor" id="jx-Direction:Previous"></a>Previous&#160;</td><td class="fielddoc">
 </td></tr>
@@ -402,6 +422,8 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>switch the tip window to the next item </p>
+
 <p>References <a class="el" href="classCCManager#om-m_CallTips">m_CallTips</a>, <a class="el" href="classCCManager#k9-m_CurCallTip">m_CurCallTip</a>, and <a class="el" href="classCCManager#jx-Direction:Next">Next</a>.</p>
 
 <p>Referenced by <a class="el" href="classCCManager#cf-OnEditorHook">OnEditorHook()</a>, <a class="el" href="classCCManager#bn-OnMenuSelect">OnMenuSelect()</a>, and <a class="el" href="classCCManager#mb-ProcessArrow">ProcessArrow()</a>.</p>
@@ -429,6 +451,8 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>code completion as just insert some text in the editor, ask the smart indent plugin to adjust the indent </p>
 
 <p>References <a class="el" href="sdk__events_8h#zl-cbEVT_EDITOR_CC_DONE">cbEVT_EDITOR_CC_DONE</a>, <a class="el" href="classManager#rz-Get">Manager::Get()</a>, and <a class="el" href="classManager#qc-ProcessEvent">Manager::ProcessEvent()</a>.</p>
 
@@ -625,7 +649,13 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>uses active editor if one is not passed; has (minimal) cache optimization </p>
+<p>get the ccPlugin instant for the <a class="el" href="classcbEditor" title="A file editor. ">cbEditor</a> If the editor opened a c/c++ file, then it returns the native c/c++ ccPlugin. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">ed</td><td>input editor, uses active editor if one is not passed; has (minimal) cache optimization </td></tr>
+  </table>
+  </dd>
+</dl>
 
 <p>References <a class="el" href="classcbCodeCompletionPlugin#jb-CCProviderStatus:ccpsActive">cbCodeCompletionPlugin::ccpsActive</a>, <a class="el" href="classcbCodeCompletionPlugin#jb-CCProviderStatus:ccpsUniversal">cbCodeCompletionPlugin::ccpsUniversal</a>, <a class="el" href="classManager#rz-Get">Manager::Get()</a>, <a class="el" href="classEditorManager#kx-GetBuiltinActiveEditor">EditorManager::GetBuiltinActiveEditor()</a>, <a class="el" href="classPluginManager#u3-GetCodeCompletionOffers">PluginManager::GetCodeCompletionOffers()</a>, <a class="el" href="classManager#wg-GetEditorManager">Manager::GetEditorManager()</a>, <a class="el" href="classManager#ij-GetPluginManager">Manager::GetPluginManager()</a>, <a class="el" href="ccmanager_8cpp#yg-ACLaunchState:lsCaretStart">lsCaretStart</a>, <a class="el" href="classCCManager#kp-m_LastACLaunchState">m_LastACLaunchState</a>, <a class="el" href="classCCManager#bu-m_pLastCCPlugin">m_pLastCCPlugin</a>, <a class="el" href="classCCManager#bf-m_pLastEditor">m_pLastEditor</a>, and <a class="el" href="wxscintilla_8h#yt-wxSCI_INVALID_POSITION">wxSCI_INVALID_POSITION</a>.</p>
 
@@ -657,7 +687,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>if for some reason you <em>need</em> to use <a class="el" href="classwxScintilla#wv-AutoCompShow">wxScintilla::AutoCompShow()</a>, call this instead so <a class="el" href="classCCManager">CCManager</a> does not step on you </p>
+<p>if for some reason you <em>need</em> to use <a class="el" href="classwxScintilla#wv-AutoCompShow">wxScintilla::AutoCompShow()</a>, call this instead so <a class="el" href="classCCManager" title="code completion plugin manager ">CCManager</a> does not step on you </p>
 
 <p>References <a class="el" href="classwxScintilla#wv-AutoCompShow">wxScintilla::AutoCompShow()</a>, <a class="el" href="classManager#rz-Get">Manager::Get()</a>, <a class="el" href="classEditorManager#kx-GetBuiltinActiveEditor">EditorManager::GetBuiltinActiveEditor()</a>, <a class="el" href="classcbEditor#iz-GetControl">cbEditor::GetControl()</a>, <a class="el" href="classManager#wg-GetEditorManager">Manager::GetEditorManager()</a>, <a class="el" href="classCCManager#cm-m_AutocompTokens">m_AutocompTokens</a>, and <a class="el" href="classCCManager#ab-m_OwnsAutocomp">m_OwnsAutocomp</a>.</p>
 
@@ -676,7 +706,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>let <a class="el" href="classCCManager">CCManager</a> know that new results are available from <a class="el" href="classcbCodeCompletionPlugin#ka-GetDocumentation" title="Supply html formatted documentation for the passed token. ">cbCodeCompletionPlugin::GetDocumentation()</a> </p>
+<p>let <a class="el" href="classCCManager" title="code completion plugin manager ">CCManager</a> know that new results are available from <a class="el" href="classcbCodeCompletionPlugin#ka-GetDocumentation" title="Supply html formatted documentation for the passed token. ">cbCodeCompletionPlugin::GetDocumentation()</a> </p>
 
 <p>References <a class="el" href="classCCManager#dz-DoShowDocumentation">DoShowDocumentation()</a>, <a class="el" href="classManager#rz-Get">Manager::Get()</a>, <a class="el" href="classEditorManager#kx-GetBuiltinActiveEditor">EditorManager::GetBuiltinActiveEditor()</a>, and <a class="el" href="classManager#wg-GetEditorManager">Manager::GetEditorManager()</a>.</p>
 
@@ -695,7 +725,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>let <a class="el" href="classCCManager">CCManager</a> know that a change (e.g. </p>
+<p>let <a class="el" href="classCCManager" title="code completion plugin manager ">CCManager</a> know that a change (e.g. </p>
 <p>active lexer is switched) may invalidate cached active ccPlugin </p>
 
 <p>References <a class="el" href="classCCManager#bu-m_pLastCCPlugin">m_pLastCCPlugin</a>, and <a class="el" href="classCCManager#bf-m_pLastEditor">m_pLastEditor</a>.</p>
@@ -872,6 +902,9 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>defer canceling the calltip to avoid a crash issue, </p>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="classCCManager#zb-OnDeferredCallTipShow" title="defer showing the calltip to avoid a crash issue, ">CCManager::OnDeferredCallTipShow</a> </dd></dl>
+
 <p>References <a class="el" href="classManager#rz-Get">Manager::Get()</a>, <a class="el" href="classEditorManager#kx-GetBuiltinActiveEditor">EditorManager::GetBuiltinActiveEditor()</a>, <a class="el" href="classcbEditor#iz-GetControl">cbEditor::GetControl()</a>, and <a class="el" href="classManager#wg-GetEditorManager">Manager::GetEditorManager()</a>.</p>
 
 <p>Referenced by <a class="el" href="classCCManager#pj-CCManager">CCManager()</a>.</p>
@@ -899,6 +932,9 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>defer showing the calltip to avoid a crash issue, </p>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="classCCManager#zb-OnDeferredCallTipShow" title="defer showing the calltip to avoid a crash issue, ">CCManager::OnDeferredCallTipShow</a> </dd></dl>
 
 <p>References <a class="el" href="sdk__events_8h#do-cbEVT_SHOW_CALL_TIP">cbEVT_SHOW_CALL_TIP</a>, <a class="el" href="classManager#rz-Get">Manager::Get()</a>, and <a class="el" href="classManager#qc-ProcessEvent">Manager::ProcessEvent()</a>.</p>
 
@@ -965,6 +1001,8 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>hook to the editor, so that we know some specific chars were entered, then we can decide whether it time to show a calltip or suggestion list </p>
 
 <p>References <a class="el" href="classCCManager#hk-AdvanceTip">AdvanceTip()</a>, <a class="el" href="classwxScintilla#j8-AutoCompActive">wxScintilla::AutoCompActive()</a>, <a class="el" href="classwxScintilla#kp-AutoCompCancel">wxScintilla::AutoCompCancel()</a>, <a class="el" href="classCCManager#m8-CallSmartIndentCCDone">CallSmartIndentCCDone()</a>, <a class="el" href="ccmanager_8cpp#xo-CALLTIP_REFRESH_DELAY">CALLTIP_REFRESH_DELAY</a>, <a class="el" href="classwxScintilla#k3-CallTipActive">wxScintilla::CallTipActive()</a>, <a class="el" href="sdk__events_8h#wh-cbEVT_COMPLETE_CODE">cbEVT_COMPLETE_CODE</a>, <a class="el" href="classcbCodeCompletionPlugin#q0-DoAutocomplete">cbCodeCompletionPlugin::DoAutocomplete()</a>, <a class="el" href="classCCManager#ys-DoHidePopup">DoHidePopup()</a>, <a class="el" href="classCCManager#hb-DoUpdateCallTip">DoUpdateCallTip()</a>, <a class="el" href="classManager#rz-Get">Manager::Get()</a>, <a class="el" href="classManager#hd-GetConfigManager">Manager::GetConfigManager()</a>, <a class="el" href="classcbEditor#iz-GetControl">cbEditor::GetControl()</a>, <a class="el" href="classwxScintilla#a7-GetCurrentPos">wxScintilla::GetCurrentPos()</a>, <a class="el" href="classwxScintillaEvent#os-GetKey">wxScintillaEvent::GetKey()</a>, <a class="el" href="classwxScintillaEvent#ow-GetModificationType">wxScintillaEvent::GetModificationType()</a>, <a class="el" href="classwxScintillaEvent#wz-GetPosition">wxScintillaEvent::GetPosition()</a>, <a class="el" href="classCCManager#fh-GetProviderFor">GetProviderFor()</a>, <a class="el" href="classwxScintillaEvent#q2-GetText">wxScintillaEvent::GetText()</a>, <a class="el" href="classwxScintillaEvent#ow-GetUpdated">wxScintillaEvent::GetUpdated()</a>, <a class="el" href="namespaceCCManagerHelper#e8-IsPosVisible">CCManagerHelper::IsPosVisible()</a>, <a class="el" href="classCCManager#b6-m_AutocompPosition">m_AutocompPosition</a>, <a class="el" href="classCCManager#cm-m_AutocompTokens">m_AutocompTokens</a>, <a class="el" href="classCCManager#t9-m_AutoLaunchChars">m_AutoLaunchChars</a>, <a class="el" href="classCCManager#do-m_AutoLaunchTimer">m_AutoLaunchTimer</a>, <a class="el" href="classCCManager#z6-m_CallTipActive">m_CallTipActive</a>, <a class="el" href="classCCManager#w4-m_CallTipChars">m_CallTipChars</a>, <a class="el" href="classCCManager#qm-m_CallTipTimer">m_CallTipTimer</a>, <a class="el" href="classCCManager#sp-m_LastAutocompIndex">m_LastAutocompIndex</a>, <a class="el" href="classCCManager#ab-m_OwnsAutocomp">m_OwnsAutocomp</a>, <a class="el" href="classCCManager#jx-Direction:Next">Next</a>, <a class="el" href="classCCManager#jx-Direction:Previous">Previous</a>, <a class="el" href="classManager#qc-ProcessEvent">Manager::ProcessEvent()</a>, <a class="el" href="classConfigManager#kb-ReadInt">ConfigManager::ReadInt()</a>, <a class="el" href="ccmanager_8cpp#k2-SCROLL_REFRESH_DELAY">SCROLL_REFRESH_DELAY</a>, <a class="el" href="classwxScintilla#uc-WordStartPosition">wxScintilla::WordStartPosition()</a>, <a class="el" href="wxscintilla_8h#yt-wxSCI_INVALID_POSITION">wxSCI_INVALID_POSITION</a>, <a class="el" href="wxscintilla_8h#an-wxSCI_KEY_DOWN">wxSCI_KEY_DOWN</a>, <a class="el" href="wxscintilla_8h#r7-wxSCI_KEY_LEFT">wxSCI_KEY_LEFT</a>, <a class="el" href="wxscintilla_8h#k0-wxSCI_KEY_RIGHT">wxSCI_KEY_RIGHT</a>, <a class="el" href="wxscintilla_8h#nf-wxSCI_KEY_UP">wxSCI_KEY_UP</a>, <a class="el" href="wxscintilla_8h#fb-wxSCI_PERFORMED_UNDO">wxSCI_PERFORMED_UNDO</a>, <a class="el" href="wxscintilla_8h#xp-wxSCI_UPDATE_H_SCROLL">wxSCI_UPDATE_H_SCROLL</a>, and <a class="el" href="wxscintilla_8h#s4-wxSCI_UPDATE_V_SCROLL">wxSCI_UPDATE_V_SCROLL</a>.</p>
 
@@ -1052,6 +1090,8 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>a link is clicked in the document window </p>
+
 <p>References <a class="el" href="classCCManager#ys-DoHidePopup">DoHidePopup()</a>, <a class="el" href="classCCManager#fh-GetProviderFor">GetProviderFor()</a>, <a class="el" href="classCCManager#tv-m_pHtml">m_pHtml</a>, and <a class="el" href="classcbCodeCompletionPlugin#er-OnDocumentationLink">cbCodeCompletionPlugin::OnDocumentationLink()</a>.</p>
 
 <p>Referenced by <a class="el" href="classCCManager#pj-CCManager">CCManager()</a>, and <a class="el" href="classCCManager#je-CCManager">~CCManager()</a>.</p>
@@ -1079,6 +1119,8 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>handle the CC related menu click </p>
 
 <p>References <a class="el" href="classCCManager#hk-AdvanceTip">AdvanceTip()</a>, <a class="el" href="classwxScintilla#k3-CallTipActive">wxScintilla::CallTipActive()</a>, <a class="el" href="sdk__events_8h#v0-cbEVT_EDITOR_TOOLTIP">cbEVT_EDITOR_TOOLTIP</a>, <a class="el" href="classCCManager#hb-DoUpdateCallTip">DoUpdateCallTip()</a>, <a class="el" href="classManager#rz-Get">Manager::Get()</a>, <a class="el" href="classEditorManager#kx-GetBuiltinActiveEditor">EditorManager::GetBuiltinActiveEditor()</a>, <a class="el" href="classcbEditor#iz-GetControl">cbEditor::GetControl()</a>, <a class="el" href="classwxScintilla#a7-GetCurrentPos">wxScintilla::GetCurrentPos()</a>, <a class="el" href="classManager#wg-GetEditorManager">Manager::GetEditorManager()</a>, <a class="el" href="classwxScintilla#xv-GetStyleAt">wxScintilla::GetStyleAt()</a>, <a class="el" href="ccmanager_8cpp#tn-idCallTipNext">idCallTipNext</a>, <a class="el" href="ccmanager_8cpp#lr-idCallTipPrevious">idCallTipPrevious</a>, <a class="el" href="ccmanager_8cpp#gb-idShowTooltip">idShowTooltip</a>, <a class="el" href="classCCManager#z6-m_CallTipActive">m_CallTipActive</a>, <a class="el" href="classCCManager#om-m_CallTips">m_CallTips</a>, <a class="el" href="classCCManager#jx-Direction:Next">Next</a>, <a class="el" href="classwxScintilla#wy-PointFromPosition">wxScintilla::PointFromPosition()</a>, <a class="el" href="classCCManager#jx-Direction:Previous">Previous</a>, <a class="el" href="classManager#qc-ProcessEvent">Manager::ProcessEvent()</a>, <a class="el" href="classCodeBlocksEvent#e5-SetEditor">CodeBlocksEvent::SetEditor()</a>, <a class="el" href="classCodeBlocksEvent#vb-SetX">CodeBlocksEvent::SetX()</a>, <a class="el" href="classCodeBlocksEvent#f1-SetY">CodeBlocksEvent::SetY()</a>, and <a class="el" href="wxscintilla_8h#yt-wxSCI_INVALID_POSITION">wxSCI_INVALID_POSITION</a>.</p>
 
@@ -1167,6 +1209,8 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>comment timer event handler for several timers </p>
 
 <p>References <a class="el" href="classwxScintilla#j8-AutoCompActive">wxScintilla::AutoCompActive()</a>, <a class="el" href="classwxScintilla#sy-AutoCompGetCurrent">wxScintilla::AutoCompGetCurrent()</a>, <a class="el" href="sdk__events_8h#wh-cbEVT_COMPLETE_CODE">cbEVT_COMPLETE_CODE</a>, <a class="el" href="classCCManager#dz-DoShowDocumentation">DoShowDocumentation()</a>, <a class="el" href="ccmanager_8cpp#pj-FROM_TIMER">FROM_TIMER</a>, <a class="el" href="classManager#rz-Get">Manager::Get()</a>, <a class="el" href="classEditorManager#kx-GetBuiltinActiveEditor">EditorManager::GetBuiltinActiveEditor()</a>, <a class="el" href="classcbEditor#iz-GetControl">cbEditor::GetControl()</a>, <a class="el" href="classwxScintilla#a7-GetCurrentPos">wxScintilla::GetCurrentPos()</a>, <a class="el" href="classManager#wg-GetEditorManager">Manager::GetEditorManager()</a>, <a class="el" href="ccmanager_8cpp#q3-idAutocompSelectTimer">idAutocompSelectTimer</a>, <a class="el" href="ccmanager_8cpp#q9-idAutoLaunchTimer">idAutoLaunchTimer</a>, <a class="el" href="ccmanager_8cpp#qb-idCallTipTimer">idCallTipTimer</a>, <a class="el" href="classCCManager#b6-m_AutocompPosition">m_AutocompPosition</a>, <a class="el" href="classCCManager#sp-m_LastAutocompIndex">m_LastAutocompIndex</a>, <a class="el" href="classManager#qc-ProcessEvent">Manager::ProcessEvent()</a>, and <a class="el" href="wxscintilla_8h#yt-wxSCI_INVALID_POSITION">wxSCI_INVALID_POSITION</a>.</p>
 
@@ -1433,7 +1477,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>is <a class="el" href="classCCManager">CCManager</a> currently displaying a calltip, and if so, where </p>
+<p>is <a class="el" href="classCCManager" title="code completion plugin manager ">CCManager</a> currently displaying a calltip, and if so, where </p>
 
 <p>Referenced by <a class="el" href="classCCManager#m5-DoBufferedCC">DoBufferedCC()</a>, <a class="el" href="classCCManager#hb-DoUpdateCallTip">DoUpdateCallTip()</a>, <a class="el" href="classCCManager#y4-OnAutocompleteHide">OnAutocompleteHide()</a>, <a class="el" href="classCCManager#u3-OnCompleteCode">OnCompleteCode()</a>, <a class="el" href="classCCManager#j6-OnDeactivateApp">OnDeactivateApp()</a>, <a class="el" href="classCCManager#e1-OnDeactivateEd">OnDeactivateEd()</a>, <a class="el" href="classCCManager#cf-OnEditorHook">OnEditorHook()</a>, <a class="el" href="classCCManager#s5-OnEditorTooltip">OnEditorTooltip()</a>, <a class="el" href="classCCManager#bn-OnMenuSelect">OnMenuSelect()</a>, <a class="el" href="classCCManager#jo-OnShowCallTip">OnShowCallTip()</a>, and <a class="el" href="classCCManager#mb-ProcessArrow">ProcessArrow()</a>.</p>
 

@@ -18,7 +18,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">Code::Blocks
-   &#160;<span id="projectnumber">SVN r10345</span>
+   &#160;<span id="projectnumber">SVN r10408</span>
    </div>
   </td>
  </tr>
@@ -134,10 +134,10 @@ Protected Member Functions</h2></td></tr>
 <tr class="memdesc:s5-FindFunctionOpenParenthesis"><td class="mdescLeft">&#160;</td><td class="mdescRight">for <a class="el" href="classNativeParserBase#er-GetCallTipHighlight" title="Returns the start and end of the call-tip highlight region. ">GetCallTipHighlight()</a> Finds the position of the opening parenthesis marking the beginning of the params.  <a href="#s5-FindFunctionOpenParenthesis">More...</a><br /></td></tr>
 <tr class="separator:s5-FindFunctionOpenParenthesis"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:v6-GetCCToken"><td class="memItemLeft" align="right" valign="top">wxString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNativeParserBase#v6-GetCCToken">GetCCToken</a> (wxString &amp;line, <a class="el" href="classNativeParserBase#u7-ParserTokenType">ParserTokenType</a> &amp;tokenType, <a class="el" href="classNativeParserBase#q3-OperatorType">OperatorType</a> &amp;tokenOperatorType)</td></tr>
-<tr class="memdesc:v6-GetCCToken"><td class="mdescLeft">&#160;</td><td class="mdescRight">helper function to split the statement line contains a string on the following form: "    char* mychar = SomeNamespace::m_SomeVar.SomeMeth" first we locate the first non-space char starting from the <em>end</em>:  <a href="#v6-GetCCToken">More...</a><br /></td></tr>
+<tr class="memdesc:v6-GetCCToken"><td class="mdescLeft">&#160;</td><td class="mdescRight">helper function to split the statement line contains a string on the following form:  <a href="#v6-GetCCToken">More...</a><br /></td></tr>
 <tr class="separator:v6-GetCCToken"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:q8-FindCCTokenStart"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNativeParserBase#q8-FindCCTokenStart">FindCCTokenStart</a> (const wxString &amp;line)</td></tr>
-<tr class="memdesc:q8-FindCCTokenStart"><td class="mdescLeft">&#160;</td><td class="mdescRight">helper function to split the statement "    SomeNameSpace::SomeClass.SomeMethod|" ^ should stop here &lt;---------&mdash; ^ start from here, go backward(right to left) "    f(SomeNameSpace::SomeClass.SomeMethod|" ^ should stop here so, brace level should be considered  <a href="#q8-FindCCTokenStart">More...</a><br /></td></tr>
+<tr class="memdesc:q8-FindCCTokenStart"><td class="mdescLeft">&#160;</td><td class="mdescRight">helper function to split the statement  <a href="#q8-FindCCTokenStart">More...</a><br /></td></tr>
 <tr class="separator:q8-FindCCTokenStart"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:pz-GetNextCCToken"><td class="memItemLeft" align="right" valign="top">wxString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNativeParserBase#pz-GetNextCCToken">GetNextCCToken</a> (const wxString &amp;line, unsigned int &amp;startAt, <a class="el" href="classNativeParserBase#q3-OperatorType">OperatorType</a> &amp;tokenOperatorType)</td></tr>
 <tr class="memdesc:pz-GetNextCCToken"><td class="mdescLeft">&#160;</td><td class="mdescRight">helper function to read the next CCToken, begin from the startAt, this point to a non-space character, and fetch the beginning identifier  <a href="#pz-GetNextCCToken">More...</a><br /></td></tr>
@@ -182,10 +182,10 @@ Protected Member Functions</h2></td></tr>
 <tr class="memdesc:ez-GetTokenFromCurrentLine"><td class="mdescLeft">&#160;</td><td class="mdescRight">used to get the correct token index in current line, e.g.  <a href="#ez-GetTokenFromCurrentLine">More...</a><br /></td></tr>
 <tr class="separator:ez-GetTokenFromCurrentLine"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa-ComputeCallTip"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNativeParserBase#aa-ComputeCallTip">ComputeCallTip</a> (<a class="el" href="classTokenTree">TokenTree</a> *tree, const <a class="el" href="token_8h#wh-TokenIdxSet">TokenIdxSet</a> &amp;tokens, wxArrayString &amp;items)</td></tr>
-<tr class="memdesc:aa-ComputeCallTip"><td class="mdescLeft">&#160;</td><td class="mdescRight">call tips are tips when you are entering some functions, such as you have a class definition class A { public: void A() {}; void test() { }; }; when you are entering some text like A(| or objA.test(| then there will be a tip window show the function prototype of the function  <a href="#aa-ComputeCallTip">More...</a><br /></td></tr>
+<tr class="memdesc:aa-ComputeCallTip"><td class="mdescLeft">&#160;</td><td class="mdescRight">call tips are tips when you are entering some functions, such as you have a class definition  <a href="#aa-ComputeCallTip">More...</a><br /></td></tr>
 <tr class="separator:aa-ComputeCallTip"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:nr-PrettyPrintToken"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNativeParserBase#nr-PrettyPrintToken">PrettyPrintToken</a> (<a class="el" href="classTokenTree">TokenTree</a> *tree, const <a class="el" href="classToken">Token</a> *token, wxString &amp;result, bool isRoot=true)</td></tr>
-<tr class="memdesc:nr-PrettyPrintToken"><td class="mdescLeft">&#160;</td><td class="mdescRight">For <a class="el" href="classNativeParserBase#aa-ComputeCallTip" title="call tips are tips when you are entering some functions, such as you have a class definition class A ...">ComputeCallTip()</a> No critical section needed in this recursive function! All functions that call this recursive function, should already entered a critical section.  <a href="#nr-PrettyPrintToken">More...</a><br /></td></tr>
+<tr class="memdesc:nr-PrettyPrintToken"><td class="mdescLeft">&#160;</td><td class="mdescRight">For <a class="el" href="classNativeParserBase#aa-ComputeCallTip" title="call tips are tips when you are entering some functions, such as you have a class definition ...">ComputeCallTip()</a> No critical section needed in this recursive function! All functions that call this recursive function, should already entered a critical section.  <a href="#nr-PrettyPrintToken">More...</a><br /></td></tr>
 <tr class="separator:nr-PrettyPrintToken"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-static-methods"></a>
@@ -193,15 +193,15 @@ Static Protected Member Functions</h2></td></tr>
 <tr class="memitem:j0-CountCommas"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNativeParserBase#j0-CountCommas">CountCommas</a> (const wxString &amp;lineText, int start)</td></tr>
 <tr class="separator:j0-CountCommas"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ly-InsideToken"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNativeParserBase#ly-InsideToken">InsideToken</a> (int startAt, const wxString &amp;line)</td></tr>
-<tr class="memdesc:ly-InsideToken"><td class="mdescLeft">&#160;</td><td class="mdescRight">check whether the line[startAt] point to the identifier SomeMethod(arg1, arg2)-&gt;Method2() ^^^^^^^^^^ those index will return true  <a href="#ly-InsideToken">More...</a><br /></td></tr>
+<tr class="memdesc:ly-InsideToken"><td class="mdescLeft">&#160;</td><td class="mdescRight">check whether the line[startAt] point to the identifier  <a href="#ly-InsideToken">More...</a><br /></td></tr>
 <tr class="separator:ly-InsideToken"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:vr-BeginOfToken"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNativeParserBase#vr-BeginOfToken">BeginOfToken</a> (int startAt, const wxString &amp;line)</td></tr>
-<tr class="memdesc:vr-BeginOfToken"><td class="mdescLeft">&#160;</td><td class="mdescRight">go to the first character of the identifier, e.g "    f(SomeNameSpace::SomeClass.SomeMethod" return value^ ^begin this is the index before the first character of the identifier  <a href="#vr-BeginOfToken">More...</a><br /></td></tr>
+<tr class="memdesc:vr-BeginOfToken"><td class="mdescLeft">&#160;</td><td class="mdescRight">go to the first character of the identifier, e.g  <a href="#vr-BeginOfToken">More...</a><br /></td></tr>
 <tr class="separator:vr-BeginOfToken"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ak-BeforeToken"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNativeParserBase#ak-BeforeToken">BeforeToken</a> (int startAt, const wxString &amp;line)</td></tr>
 <tr class="separator:ak-BeforeToken"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:pi-IsOperatorEnd"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNativeParserBase#pi-IsOperatorEnd">IsOperatorEnd</a> (int startAt, const wxString &amp;line)</td></tr>
-<tr class="memdesc:pi-IsOperatorEnd"><td class="mdescLeft">&#160;</td><td class="mdescRight">check startAt is at some character like: SomeNameSpace::SomeClass ^ here is a double colon SomeObject-&gt;SomeMethod ^ here is a pointer member access operator  <a href="#pi-IsOperatorEnd">More...</a><br /></td></tr>
+<tr class="memdesc:pi-IsOperatorEnd"><td class="mdescLeft">&#160;</td><td class="mdescRight">check startAt is at some character like:  <a href="#pi-IsOperatorEnd">More...</a><br /></td></tr>
 <tr class="separator:pi-IsOperatorEnd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ic-IsOperatorPointer"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNativeParserBase#ic-IsOperatorPointer">IsOperatorPointer</a> (int startAt, const wxString &amp;line)</td></tr>
 <tr class="separator:ic-IsOperatorPointer"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -215,7 +215,7 @@ Static Protected Member Functions</h2></td></tr>
 <tr class="memdesc:ik-BeforeWhitespace"><td class="mdescLeft">&#160;</td><td class="mdescRight">move to the char before whitespace and tabs, e.g.  <a href="#ik-BeforeWhitespace">More...</a><br /></td></tr>
 <tr class="separator:ik-BeforeWhitespace"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:dp-AfterWhitespace"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNativeParserBase#dp-AfterWhitespace">AfterWhitespace</a> (int startAt, const wxString &amp;line)</td></tr>
-<tr class="memdesc:dp-AfterWhitespace"><td class="mdescLeft">&#160;</td><td class="mdescRight">search from left to right, move to the first character of the space "       ::   f" ^begin ^end  <a href="#dp-AfterWhitespace">More...</a><br /></td></tr>
+<tr class="memdesc:dp-AfterWhitespace"><td class="mdescLeft">&#160;</td><td class="mdescRight">search from left to right, move to the first character of the space  <a href="#dp-AfterWhitespace">More...</a><br /></td></tr>
 <tr class="separator:dp-AfterWhitespace"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ii-IsOpeningBracket"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNativeParserBase#ii-IsOpeningBracket">IsOpeningBracket</a> (int startAt, const wxString &amp;line)</td></tr>
 <tr class="separator:ii-IsOpeningBracket"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -581,8 +581,10 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>search from left to right, move to the first character of the space "       ::   f" ^begin ^end </p>
-
+<p>search from left to right, move to the first character of the space </p>
+<div class="fragment"><div class="line"><span class="stringliteral">&quot;       ::   f&quot;</span></div>
+<div class="line">^begin  ^end</div>
+</div><!-- fragment --> 
 <p>Referenced by <a class="el" href="classNativeParserBase#q8-FindCCTokenStart">FindCCTokenStart()</a>, <a class="el" href="classNativeParserBase#v6-GetCCToken">GetCCToken()</a>, and <a class="el" href="classNativeParserBase#pz-GetNextCCToken">GetNextCCToken()</a>.</p>
 
 </div>
@@ -656,7 +658,12 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>move to the char before whitespace and tabs, e.g. </p>
-<p>SomeNameSpace :: SomeClass ^end ^begin note if there some spaces in the begging like "       f::" ^end ^begin the returned index is -1. </p>
+<div class="fragment"><div class="line"> SomeNameSpace       ::  SomeClass</div>
+<div class="line">             ^end   ^begin</div>
+<div class="line">note <span class="keywordflow">if</span> there some spaces in the begging like</div>
+<div class="line">     <span class="stringliteral">&quot;       f::&quot;</span></div>
+<div class="line">    ^end    ^begin</div>
+</div><!-- fragment --><p> the returned index is -1. </p>
 
 <p>Referenced by <a class="el" href="classNativeParserBase#q8-FindCCTokenStart">FindCCTokenStart()</a>.</p>
 
@@ -694,7 +701,10 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>go to the first character of the identifier, e.g "    f(SomeNameSpace::SomeClass.SomeMethod" return value^ ^begin this is the index before the first character of the identifier </p>
+<p>go to the first character of the identifier, e.g </p>
+<div class="fragment"><div class="line"><span class="stringliteral">&quot;    f(SomeNameSpace::SomeClass.SomeMethod&quot;</span></div>
+<div class="line">                   <span class="keywordflow">return</span> value^         ^begin</div>
+</div><!-- fragment --><p> this is the index before the first character of the identifier </p>
 
 <p>Referenced by <a class="el" href="classNativeParserBase#q8-FindCCTokenStart">FindCCTokenStart()</a>.</p>
 
@@ -880,7 +890,15 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>call tips are tips when you are entering some functions, such as you have a class definition class A { public: void A() {}; void test() { }; }; when you are entering some text like A(| or objA.test(| then there will be a tip window show the function prototype of the function </p>
+<p>call tips are tips when you are entering some functions, such as you have a class definition </p>
+<div class="fragment"><div class="line"><span class="keyword">class </span>A {</div>
+<div class="line"><span class="keyword">public</span>:</div>
+<div class="line">    <span class="keywordtype">void</span> A() {};</div>
+<div class="line">    <span class="keywordtype">void</span> test() { };</div>
+<div class="line">};</div>
+<div class="line">when you are entering some text like</div>
+<div class="line">A(|    or  objA.test(|</div>
+</div><!-- fragment --><p> then there will be a tip window show the function prototype of the function </p>
 
 <p>References <a class="el" href="classTokenTree#z7-at">TokenTree::at()</a>, <a class="el" href="cclogger_8h#ap-CC_LOCKER_TRACK_TT_MTX_LOCK">CC_LOCKER_TRACK_TT_MTX_LOCK</a>, <a class="el" href="cclogger_8h#al-CC_LOCKER_TRACK_TT_MTX_UNLOCK">CC_LOCKER_TRACK_TT_MTX_UNLOCK</a>, <a class="el" href="classTokenTree#tb-FindMatches">TokenTree::FindMatches()</a>, <a class="el" href="classTokenizer#p4-GetToken">Tokenizer::GetToken()</a>, <a class="el" href="classTokenizer#jo-InitFromBuffer">Tokenizer::InitFromBuffer()</a>, <a class="el" href="classToken#wh-m_Args">Token::m_Args</a>, <a class="el" href="classToken#bs-m_BaseType">Token::m_BaseType</a>, <a class="el" href="classToken#jd-m_Children">Token::m_Children</a>, <a class="el" href="classToken#z1-m_FullType">Token::m_FullType</a>, <a class="el" href="classToken#df-m_IsOperator">Token::m_IsOperator</a>, <a class="el" href="classToken#el-m_Name">Token::m_Name</a>, <a class="el" href="classToken#d0-m_Scope">Token::m_Scope</a>, <a class="el" href="classToken#ky-m_TokenKind">Token::m_TokenKind</a>, <a class="el" href="classTokenizer#pm-PeekToken">Tokenizer::PeekToken()</a>, <a class="el" href="classNativeParserBase#nr-PrettyPrintToken">PrettyPrintToken()</a>, <a class="el" href="classTokenizer#v8-ReplaceMacroUsage">Tokenizer::ReplaceMacroUsage()</a>, <a class="el" href="tokentree_8cpp#ko-s_TokenTreeMutex">s_TokenTreeMutex</a>, <a class="el" href="token_8h#uj-TokenKind:tkClass">tkClass</a>, <a class="el" href="token_8h#uj-TokenKind:tkConstructor">tkConstructor</a>, <a class="el" href="token_8h#uj-TokenKind:tkFunction">tkFunction</a>, <a class="el" href="token_8h#uj-TokenKind:tkMacroDef">tkMacroDef</a>, <a class="el" href="token_8h#uj-TokenKind:tkVariable">tkVariable</a>, <a class="el" href="classTokenTree#b7-TokenExists">TokenTree::TokenExists()</a>, <a class="el" href="token_8h#bs-TokenScope:tsPublic">tsPublic</a>, and <a class="el" href="token_8h#bs-TokenScope:tsUndefined">tsUndefined</a>.</p>
 
@@ -1085,7 +1103,12 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>helper function to split the statement "    SomeNameSpace::SomeClass.SomeMethod|" ^ should stop here &lt;---------&mdash; ^ start from here, go backward(right to left) "    f(SomeNameSpace::SomeClass.SomeMethod|" ^ should stop here so, brace level should be considered </p>
+<p>helper function to split the statement </p>
+<div class="fragment"><div class="line"><span class="stringliteral">&quot;    SomeNameSpace::SomeClass.SomeMethod|&quot;</span></div>
+<div class="line">     ^  should stop here  &lt;------------ ^ start from here, go backward(right to left)</div>
+<div class="line"><span class="stringliteral">&quot;    f(SomeNameSpace::SomeClass.SomeMethod|&quot;</span></div>
+<div class="line">       ^ should stop here</div>
+</div><!-- fragment --><p> so, brace level should be considered </p>
 
 <p>References <a class="el" href="classNativeParserBase#dp-AfterWhitespace">AfterWhitespace()</a>, <a class="el" href="classNativeParserBase#ak-BeforeToken">BeforeToken()</a>, <a class="el" href="classNativeParserBase#ik-BeforeWhitespace">BeforeWhitespace()</a>, <a class="el" href="classNativeParserBase#vr-BeginOfToken">BeginOfToken()</a>, <a class="el" href="classNativeParserBase#xe-IsClosingBracket">IsClosingBracket()</a>, <a class="el" href="classNativeParserBase#ii-IsOpeningBracket">IsOpeningBracket()</a>, <a class="el" href="classNativeParserBase#qv-IsOperatorDot">IsOperatorDot()</a>, <a class="el" href="classNativeParserBase#pi-IsOperatorEnd">IsOperatorEnd()</a>, and <a class="el" href="nativeparser__base_8cpp#qa-TRACE">TRACE</a>.</p>
 
@@ -1413,8 +1436,12 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>helper function to split the statement line contains a string on the following form: "    char* mychar = SomeNamespace::m_SomeVar.SomeMeth" first we locate the first non-space char starting from the <em>end</em>: </p>
-<p>"    char* mychar = SomeNamespace::m_SomeVar.SomeMeth" ^ then we remove everything before it. after it, what we do here, is (by this example) return "SomeNamespace" <em>and</em> modify line to become: m_SomeVar.SomeMeth so that if we 're called again with the (modified) line, we 'll return "m_SomeVar" and modify line (again) to become: SomeMeth and so on and so forth until we return an empty string... NOTE: if we find () args or [] arrays in our way, we skip them (done in GetNextCCToken)... </p>
+<p>helper function to split the statement line contains a string on the following form: </p>
+<div class="fragment"><div class="line"><span class="stringliteral">&quot;    char* mychar = SomeNamespace::m_SomeVar.SomeMeth&quot;</span></div>
+</div><!-- fragment --><p> first we locate the first non-space char starting from the <em>end</em>: </p><div class="fragment"><div class="line"><span class="stringliteral">&quot;    char* mychar = SomeNamespace::m_SomeVar.SomeMeth&quot;</span></div>
+</div><!-- fragment --><p> ^ then we remove everything before it. after it, what we do here, is (by this example) return "SomeNamespace" <em>and</em> modify line to become: </p><div class="fragment"><div class="line">m_SomeVar.SomeMeth</div>
+</div><!-- fragment --><p> so that if we 're called again with the (modified) line, we 'll return "m_SomeVar" and modify line (again) to become: </p><div class="fragment"><div class="line">SomeMeth</div>
+</div><!-- fragment --><p> and so on and so forth until we return an empty string... NOTE: if we find () args or [] arrays in our way, we skip them (done in GetNextCCToken)... </p>
 
 <p>References <a class="el" href="classNativeParserBase#dp-AfterWhitespace">AfterWhitespace()</a>, <a class="el" href="classNativeParserBase#q8-FindCCTokenStart">FindCCTokenStart()</a>, <a class="el" href="classNativeParserBase#pz-GetNextCCToken">GetNextCCToken()</a>, <a class="el" href="classNativeParserBase#qv-IsOperatorDot">IsOperatorDot()</a>, <a class="el" href="classNativeParserBase#pi-IsOperatorEnd">IsOperatorEnd()</a>, <a class="el" href="classNativeParserBase#ic-IsOperatorPointer">IsOperatorPointer()</a>, <a class="el" href="classNativeParserBase#q3-OperatorType:otOperatorParentheses">otOperatorParentheses</a>, <a class="el" href="classNativeParserBase#q3-OperatorType:otOperatorPointer">otOperatorPointer</a>, <a class="el" href="classNativeParserBase#q3-OperatorType:otOperatorSquare">otOperatorSquare</a>, <a class="el" href="classNativeParserBase#q3-OperatorType:otOperatorUndefined">otOperatorUndefined</a>, <a class="el" href="classNativeParserBase#u7-ParserTokenType:pttClass">pttClass</a>, <a class="el" href="classNativeParserBase#u7-ParserTokenType:pttFunction">pttFunction</a>, <a class="el" href="classNativeParserBase#u7-ParserTokenType:pttNamespace">pttNamespace</a>, <a class="el" href="classNativeParserBase#u7-ParserTokenType:pttSearchText">pttSearchText</a>, and <a class="el" href="nativeparser__base_8cpp#qa-TRACE">TRACE</a>.</p>
 
@@ -1464,7 +1491,9 @@ Private Attributes</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">startAt</td><td>this will be updated to the char after the identifier </td></tr>
-    <tr><td class="paramname">tokenOperatorType</td><td>the type of the operator E.g. SomeMethod()-&gt; ^begin the returned wxString is "SomeMethod", the tokenOperatorType is pointer member access </td></tr>
+    <tr><td class="paramname">tokenOperatorType</td><td>the type of the operator E.g. <div class="fragment"><div class="line">SomeMethod()-&gt;</div>
+<div class="line">^begin</div>
+</div><!-- fragment --> the returned wxString is "SomeMethod", the tokenOperatorType is pointer member access </td></tr>
   </table>
   </dd>
 </dl>
@@ -1520,7 +1549,14 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>used to get the correct token index in current line, e.g. </p>
-<p>class A { void test() { // start of the function body | }; // end of the function body }; </p><dl class="params"><dt>Parameters</dt><dd>
+<div class="fragment"><div class="line"><span class="keyword">class </span>A</div>
+<div class="line">{</div>
+<div class="line">   <span class="keywordtype">void</span> test()</div>
+<div class="line">   {               <span class="comment">// start of the function body</span></div>
+<div class="line">      |</div>
+<div class="line">   };              <span class="comment">// end of the function body</span></div>
+<div class="line">};</div>
+</div><!-- fragment --> <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">tokens</td><td>all current file's function and class, which cover the current line </td></tr>
     <tr><td class="paramname">curLine</td><td>the line of the current caret position </td></tr>
@@ -1567,8 +1603,10 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>check whether the line[startAt] point to the identifier SomeMethod(arg1, arg2)-&gt;Method2() ^^^^^^^^^^ those index will return true </p>
-
+<p>check whether the line[startAt] point to the identifier </p>
+<div class="fragment"><div class="line">SomeMethod(<a class="code" href="sqvm_8cpp#wp-arg1">arg1</a>, <a class="code" href="sqvm_8cpp#ga-arg2">arg2</a>)-&gt;Method2()</div>
+<div class="line">^^^^^^^^^^ those index will <span class="keywordflow">return</span> <span class="keyword">true</span></div>
+</div><!-- fragment --> 
 <p>Referenced by <a class="el" href="classNativeParserBase#pz-GetNextCCToken">GetNextCCToken()</a>.</p>
 
 </div>
@@ -1854,8 +1892,12 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>check startAt is at some character like: SomeNameSpace::SomeClass ^ here is a double colon SomeObject-&gt;SomeMethod ^ here is a pointer member access operator </p>
-
+<p>check startAt is at some character like: </p>
+<div class="fragment"><div class="line">SomeNameSpace::SomeClass</div>
+<div class="line">              ^ here is a <span class="keywordtype">double</span> <a class="code" href="namespaceParserConsts#ox-colon">colon</a></div>
+<div class="line">SomeObject-&gt;SomeMethod</div>
+<div class="line">           ^ here is a pointer member access <span class="keyword">operator</span></div>
+</div><!-- fragment --> 
 <p>Referenced by <a class="el" href="classNativeParserBase#q8-FindCCTokenStart">FindCCTokenStart()</a>, and <a class="el" href="classNativeParserBase#v6-GetCCToken">GetCCToken()</a>.</p>
 
 </div>
@@ -2024,7 +2066,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>For <a class="el" href="classNativeParserBase#aa-ComputeCallTip" title="call tips are tips when you are entering some functions, such as you have a class definition class A ...">ComputeCallTip()</a> No critical section needed in this recursive function! All functions that call this recursive function, should already entered a critical section. </p>
+<p>For <a class="el" href="classNativeParserBase#aa-ComputeCallTip" title="call tips are tips when you are entering some functions, such as you have a class definition ...">ComputeCallTip()</a> No critical section needed in this recursive function! All functions that call this recursive function, should already entered a critical section. </p>
 
 <p>References <a class="el" href="classTokenTree#z7-at">TokenTree::at()</a>, <a class="el" href="classToken#py-GetFormattedArgs">Token::GetFormattedArgs()</a>, <a class="el" href="classToken#wh-m_Args">Token::m_Args</a>, <a class="el" href="classToken#bs-m_BaseType">Token::m_BaseType</a>, <a class="el" href="classToken#z1-m_FullType">Token::m_FullType</a>, <a class="el" href="classToken#sk-m_IsConst">Token::m_IsConst</a>, <a class="el" href="classToken#ht-m_IsNoExcept">Token::m_IsNoExcept</a>, <a class="el" href="classToken#el-m_Name">Token::m_Name</a>, <a class="el" href="classToken#wc-m_ParentIndex">Token::m_ParentIndex</a>, <a class="el" href="classToken#ky-m_TokenKind">Token::m_TokenKind</a>, <a class="el" href="token_8h#uj-TokenKind:tkAnyContainer">tkAnyContainer</a>, <a class="el" href="token_8h#uj-TokenKind:tkAnyFunction">tkAnyFunction</a>, <a class="el" href="token_8h#uj-TokenKind:tkClass">tkClass</a>, <a class="el" href="token_8h#uj-TokenKind:tkConstructor">tkConstructor</a>, <a class="el" href="token_8h#uj-TokenKind:tkDestructor">tkDestructor</a>, <a class="el" href="token_8h#uj-TokenKind:tkEnum">tkEnum</a>, <a class="el" href="token_8h#uj-TokenKind:tkEnumerator">tkEnumerator</a>, <a class="el" href="token_8h#uj-TokenKind:tkFunction">tkFunction</a>, <a class="el" href="token_8h#uj-TokenKind:tkMacroDef">tkMacroDef</a>, <a class="el" href="token_8h#uj-TokenKind:tkMacroUse">tkMacroUse</a>, <a class="el" href="token_8h#uj-TokenKind:tkNamespace">tkNamespace</a>, <a class="el" href="token_8h#uj-TokenKind:tkTypedef">tkTypedef</a>, <a class="el" href="token_8h#uj-TokenKind:tkUndefined">tkUndefined</a>, <a class="el" href="token_8h#uj-TokenKind:tkVariable">tkVariable</a>, and <a class="el" href="classTokenTree#b7-TokenExists">TokenTree::TokenExists()</a>.</p>
 
@@ -2219,9 +2261,25 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>A statement(expression) is expressed by a <a class="el" href="structNativeParserBase_1_1ParserComponent" title="a long statement can be divided to a ParserComponent chain. ">ParserComponent</a> queue We do a match from the left of the queue one by one. </p>
-<p>Here is a simple description about the algorithm, suppose we have such code snippet namespace AAA { class BBB { public: int m_aaa; } class CCC { public: BBB fun(); } } AAA::CCC obj; obj.fun().|--&mdash;we want to get code suggestion list here</p>
-<p>We first split the statement "obj.fun()." into 3 components: component name 1, obj 2, fun 3, empty</p>
-<p>We do three loops here, each loop, we consume one component. Also each loop's result will serve as the next loop's search scope.</p>
+<p>Here is a simple description about the algorithm, suppose we have such code snippet </p><div class="fragment"><div class="line"><span class="keyword">namespace </span>AAA</div>
+<div class="line">{</div>
+<div class="line">    <span class="keyword">class </span>BBB</div>
+<div class="line">    {</div>
+<div class="line">    <span class="keyword">public</span>:</div>
+<div class="line">        <span class="keywordtype">int</span> m_aaa;</div>
+<div class="line">    }</div>
+<div class="line">    <span class="keyword">class </span>CCC</div>
+<div class="line">    {</div>
+<div class="line">    <span class="keyword">public</span>:</div>
+<div class="line">        BBB fun();</div>
+<div class="line">    }</div>
+<div class="line">}</div>
+<div class="line">AAA::CCC obj;</div>
+<div class="line">obj.fun().|-----we want to <span class="keyword">get</span> code suggestion list here</div>
+</div><!-- fragment --><p> We first split the statement "obj.fun()." into 3 components: component name </p><div class="fragment"><div class="line">1, obj</div>
+<div class="line">2, fun</div>
+<div class="line">3, <a class="code" href="namespaceParserConsts#gs-empty">empty</a></div>
+</div><!-- fragment --><p> We do three loops here, each loop, we consume one component. Also each loop's result will serve as the next loop's search scope.</p>
 <p>Loop 1 We first search the tree by the text "obj", we find a matched variable token, which has the type string "AAA::CCC", then the text "AAA::CCC" is resolved to a class kind token "class CCC" Loop 2 We search the tree by the text "fun". Here the search scope should be "CCC", it's the result from the previous loop, so we find that there is a function kind token under "class CCC", which is "function fun()" token. Then we need to see the return type of the fun() token, which is the name "BBB". Then we do another text search for "BBB" in the tree, and find a class kind token "class BBB" Loop 3 Since the last search text is empty, we just return all the children of the "class BBB" token, so finally, we give the child variable kind token "m_aaa", then the code suggestion should prompt the string "m_aaa"</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">

@@ -18,7 +18,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">Code::Blocks
-   &#160;<span id="projectnumber">SVN r10345</span>
+   &#160;<span id="projectnumber">SVN r10408</span>
    </div>
   </td>
  </tr>
@@ -70,7 +70,8 @@ Inheritance diagram for cbAuiNotebook:</div>
 <div class="dynheader">
 Collaboration diagram for cbAuiNotebook:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classcbAuiNotebook__coll__graph.svg" width="214" height="742"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classcbAuiNotebook__coll__graph.svg" width="214" height="742"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
@@ -126,6 +127,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:yz-FocusActiveTabCtrl"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcbAuiNotebook#yz-FocusActiveTabCtrl">FocusActiveTabCtrl</a> ()</td></tr>
 <tr class="memdesc:yz-FocusActiveTabCtrl"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set Focus on the tabCtrl belonging to the active tab.  <a href="#yz-FocusActiveTabCtrl">More...</a><br /></td></tr>
 <tr class="separator:yz-FocusActiveTabCtrl"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:rl-GetTabCtrl"><td class="memItemLeft" align="right" valign="top">wxAuiTabCtrl *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcbAuiNotebook#rl-GetTabCtrl">GetTabCtrl</a> (wxWindow *page)</td></tr>
+<tr class="memdesc:rl-GetTabCtrl"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a pointer to the page's tab control or nullptr.  <a href="#rl-GetTabCtrl">More...</a><br /></td></tr>
+<tr class="separator:rl-GetTabCtrl"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ip-GetPagesInTabCtrl"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcbAuiNotebook#ip-GetPagesInTabCtrl">GetPagesInTabCtrl</a> (std::vector&lt; wxWindow * &gt; &amp;result, wxWindow *page)</td></tr>
+<tr class="memdesc:ip-GetPagesInTabCtrl"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return a vector containing all pages that are in the same tab control as the page passed as parameter.  <a href="#ip-GetPagesInTabCtrl">More...</a><br /></td></tr>
+<tr class="separator:ip-GetPagesInTabCtrl"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
@@ -542,6 +549,38 @@ Static Protected Attributes</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="ip-GetPagesInTabCtrl"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void cbAuiNotebook::GetPagesInTabCtrl </td>
+          <td>(</td>
+          <td class="paramtype">std::vector&lt; wxWindow * &gt; &amp;&#160;</td>
+          <td class="paramname"><em>result</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">wxWindow *&#160;</td>
+          <td class="paramname"><em>page</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Return a vector containing all pages that are in the same tab control as the page passed as parameter. </p>
+
+<p>References <a class="el" href="classcbAuiNotebook#rl-GetTabCtrl">GetTabCtrl()</a>.</p>
+
+<p>Referenced by <a class="el" href="classEditorManager#ug-GetEditorsInTabCtrl">EditorManager::GetEditorsInTabCtrl()</a>.</p>
+
+</div>
+</div>
 <a class="anchor" id="cd-GetPageToolTip"></a>
 <div class="memitem">
 <div class="memproto">
@@ -561,6 +600,26 @@ Static Protected Attributes</h2></td></tr>
 <dl class="section return"><dt>Returns</dt><dd>wxString the tooltip of the page with the given index </dd></dl>
 
 <p>Referenced by <a class="el" href="classcbAuiNotebook#g5-GetTabIndexFromTooltip">GetTabIndexFromTooltip()</a>, <a class="el" href="classcbAuiNotebook#vl-LoadPerspective">LoadPerspective()</a>, <a class="el" href="classProjectManagerUI#sh-OnProperties">ProjectManagerUI::OnProperties()</a>, and <a class="el" href="classcbAuiNotebook#qh-SavePerspective">SavePerspective()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="rl-GetTabCtrl"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">wxAuiTabCtrl * cbAuiNotebook::GetTabCtrl </td>
+          <td>(</td>
+          <td class="paramtype">wxWindow *&#160;</td>
+          <td class="paramname"><em>page</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns a pointer to the page's tab control or nullptr. </p>
+
+<p>Referenced by <a class="el" href="classcbAuiNotebook#ip-GetPagesInTabCtrl">GetPagesInTabCtrl()</a>, and <a class="el" href="classEditorManager#hj-OnPageContextMenu">EditorManager::OnPageContextMenu()</a>.</p>
 
 </div>
 </div>

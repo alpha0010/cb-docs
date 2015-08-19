@@ -18,7 +18,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">Code::Blocks
-   &#160;<span id="projectnumber">SVN r10345</span>
+   &#160;<span id="projectnumber">SVN r10408</span>
    </div>
   </td>
  </tr>
@@ -63,7 +63,8 @@
 <div class="dynheader">
 Collaboration diagram for SearchTreeNode:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classSearchTreeNode__coll__graph.svg" width="392" height="522"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classSearchTreeNode__coll__graph.svg" width="392" height="522"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
@@ -189,16 +190,16 @@ Friends</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>This class represents a node of the tree, we still take an example E.g. </p>
-<ul>
-<li>"" (0)<ul>
-<li>"p" (4) +- "hysi" (2) | +- "cs" (1) | - "ology" (3)<ul>
-<li>"sychic" (5)</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-<p>Here, a tree of 6 nodes. Let's look at node (2), its incoming edge is "hysi", it has two child nodes "cs" (1) and "ology" (3). To access child nodes from parent node, we need a link map, here is an example of link map for node (2), note that link map's key is always a single character. char -&gt; node index 'c' -&gt; 1 'o' -&gt; 3 The parent node of the node (2) is the node (4), note that the left most node in the above tree is the root node, the root node has index number 0, because it was the first node created when the tree constructed. </p>
+<div class="fragment"><div class="line">- <span class="stringliteral">&quot;&quot;</span> (0)</div>
+<div class="line">      \- <span class="stringliteral">&quot;p&quot;</span> (4)</div>
+<div class="line">              +- <span class="stringliteral">&quot;hysi&quot;</span> (2)</div>
+<div class="line">              |          +- <span class="stringliteral">&quot;cs&quot;</span> (1)</div>
+<div class="line">              |          \- <span class="stringliteral">&quot;ology&quot;</span> (3)</div>
+<div class="line">              \- <span class="stringliteral">&quot;sychic&quot;</span> (5)</div>
+</div><!-- fragment --><p> Here, a tree of 6 nodes. Let's look at node (2), its incoming edge is "hysi", it has two child nodes "cs" (1) and "ology" (3). To access child nodes from parent node, we need a link map, here is an example of link map for node (2), note that link map's key is always a single character. </p><div class="fragment"><div class="line"><span class="keywordtype">char</span> -&gt; node index</div>
+<div class="line"> <span class="charliteral">&#39;c&#39;</span> -&gt; 1</div>
+<div class="line"> <span class="charliteral">&#39;o&#39;</span> -&gt; 3</div>
+</div><!-- fragment --><p> The parent node of the node (2) is the node (4), note that the left most node in the above tree is the root node, the root node has index number 0, because it was the first node created when the tree constructed. </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="v9-SearchTreeNode"></a>
 <div class="memitem">

@@ -18,7 +18,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">Code::Blocks
-   &#160;<span id="projectnumber">SVN r10345</span>
+   &#160;<span id="projectnumber">SVN r10408</span>
    </div>
   </td>
  </tr>
@@ -65,7 +65,8 @@
 <div class="dynheader">
 Collaboration diagram for NativeParserBase::ParserComponent:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="structNativeParserBase_1_1ParserComponent__coll__graph.svg" width="178" height="147"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="structNativeParserBase_1_1ParserComponent__coll__graph.svg" width="178" height="147"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
@@ -89,9 +90,12 @@ Public Attributes</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>a long statement can be divided to a <a class="el" href="structNativeParserBase_1_1ParserComponent" title="a long statement can be divided to a ParserComponent chain. ">ParserComponent</a> chain. </p>
-<p>e.g. for a statement like below: Ogre::Root::getSingleton().|</p>
-<p>a chains of four ParserComponents will be generated and list below: Ogre [pttNamespace] Root [pttClass] getSingleton [pttFunction] (empty space) [pttSearchText] </p>
-</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<p>e.g. for a statement like below: </p><div class="fragment"><div class="line">Ogre::Root::getSingleton().|</div>
+</div><!-- fragment --><p>a chains of four ParserComponents will be generated and list below: </p><div class="fragment"><div class="line">Ogre             [<a class="code" href="classNativeParserBase#u7-ParserTokenType:pttNamespace">pttNamespace</a>]</div>
+<div class="line">Root             [<a class="code" href="classNativeParserBase#u7-ParserTokenType:pttClass">pttClass</a>]</div>
+<div class="line">getSingleton     [<a class="code" href="classNativeParserBase#u7-ParserTokenType:pttFunction">pttFunction</a>]</div>
+<div class="line">(<a class="code" href="namespaceParserConsts#gs-empty">empty</a> <a class="code" href="namespaceParserConsts#p0-space">space</a>)    [<a class="code" href="classNativeParserBase#u7-ParserTokenType:pttSearchText">pttSearchText</a>]</div>
+</div><!-- fragment --> </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="sw-ParserComponent"></a>
 <div class="memitem">
 <div class="memproto">

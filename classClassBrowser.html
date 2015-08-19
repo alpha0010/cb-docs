@@ -18,7 +18,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">Code::Blocks
-   &#160;<span id="projectnumber">SVN r10345</span>
+   &#160;<span id="projectnumber">SVN r10408</span>
    </div>
   </td>
  </tr>
@@ -62,7 +62,8 @@
 <div class="dynheader">
 Inheritance diagram for ClassBrowser:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classClassBrowser__inherit__graph.svg" width="215" height="536"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classClassBrowser__inherit__graph.svg" width="215" height="536"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 <div class="dynheader">
 Collaboration diagram for ClassBrowser:</div>
@@ -177,9 +178,18 @@ Private Attributes</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>symbol browser panel is shown in the Management panel besides projects browser panel. </p>
-<p>It mainly has four parts, see the simple diagram below.</p>
-<p>+-------------&mdash;+ | view option | +-------------&mdash;+ | search box | +-------------&mdash;+ | top tree | | | +-------------&mdash;+ | bottom tree | | | +-------------&mdash;+</p>
-<p>1, the view option is a list box to let user choose which tokens should be shown in the trees it can either show the tokens for the whole workspace, or only the active C::B project, or the active editor (source files) 2, search box, a combo-box lets user enter texts for searching a specific symbol 3, top tree, a wxTreeCtrl shows the mostly top level symbols, such as the global namespaces, macro definitions, class definition in global namesapces. 4, bottom tree, shows members of the select item in the top tree, e.g. if a user select a class, then, this tree will show all the member variables of the class. Note, this tree can be hidden by the user in CC's setting dialog, in this case only the top tree is shown on the panel. </p>
+<p>It mainly has four parts, see the simple diagram below. </p><div class="fragment"><div class="line">+----------------+</div>
+<div class="line">| view option    |</div>
+<div class="line">+----------------+</div>
+<div class="line">| search box     |</div>
+<div class="line">+----------------+</div>
+<div class="line">|  top tree      |</div>
+<div class="line">|                |</div>
+<div class="line">+----------------+</div>
+<div class="line">|  bottom tree   |</div>
+<div class="line">|                |</div>
+<div class="line">+----------------+</div>
+</div><!-- fragment --><p> 1, the view option is a list box to let user choose which tokens should be shown in the trees it can either show the tokens for the whole workspace, or only the active C::B project, or the active editor (source files) 2, search box, a combo-box lets user enter texts for searching a specific symbol 3, top tree, a wxTreeCtrl shows the mostly top level symbols, such as the global namespaces, macro definitions, class definition in global namesapces. 4, bottom tree, shows members of the select item in the top tree, e.g. if a user select a class, then, this tree will show all the member variables of the class. Note, this tree can be hidden by the user in CC's setting dialog, in this case only the top tree is shown on the panel. </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="s7-ClassBrowser"></a>
 <div class="memitem">

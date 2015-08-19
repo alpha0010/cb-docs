@@ -18,7 +18,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">Code::Blocks
-   &#160;<span id="projectnumber">SVN r10345</span>
+   &#160;<span id="projectnumber">SVN r10408</span>
    </div>
   </td>
  </tr>
@@ -102,6 +102,7 @@ Macros</h2></td></tr>
 <tr class="memitem:k2-SCROLL_REFRESH_DELAY"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ccmanager_8cpp#k2-SCROLL_REFRESH_DELAY">SCROLL_REFRESH_DELAY</a>&#160;&#160;&#160;500</td></tr>
 <tr class="separator:k2-SCROLL_REFRESH_DELAY"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:pj-FROM_TIMER"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ccmanager_8cpp#pj-FROM_TIMER">FROM_TIMER</a>&#160;&#160;&#160;1</td></tr>
+<tr class="memdesc:pj-FROM_TIMER"><td class="mdescLeft">&#160;</td><td class="mdescRight">FROM_TIMER means the event is automatically fired from the ccmanager, not explicitly called by the user.  <a href="#pj-FROM_TIMER">More...</a><br /></td></tr>
 <tr class="separator:pj-FROM_TIMER"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
@@ -179,6 +180,11 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>FROM_TIMER means the event is automatically fired from the ccmanager, not explicitly called by the user. </p>
+<p>For example, if the code suggestion is fired by the client code, such as: </p><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;CodeBlocksEvent evt(cbEVT_COMPLETE_CODE);</div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;Manager::Get()-&gt;ProcessEvent(evt);</div>
+</div><!-- fragment --><p> Then the event has int value 0. </p>
 
 <p>Referenced by <a class="el" href="classCCManager#u3-OnCompleteCode">CCManager::OnCompleteCode()</a>, <a class="el" href="classCCManager#jo-OnShowCallTip">CCManager::OnShowCallTip()</a>, and <a class="el" href="classCCManager#dp-OnTimer">CCManager::OnTimer()</a>.</p>
 

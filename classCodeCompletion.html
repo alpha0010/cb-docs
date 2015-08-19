@@ -18,7 +18,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">Code::Blocks
-   &#160;<span id="projectnumber">SVN r10345</span>
+   &#160;<span id="projectnumber">SVN r10408</span>
    </div>
   </td>
  </tr>
@@ -549,7 +549,8 @@ Additional Inherited Members</h2></td></tr>
 <div class="textblock"></div><div class="dynheader">
 Collaboration diagram for CodeCompletion::FunctionsScopePerFile:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="structCodeCompletion_1_1FunctionsScopePerFile__coll__graph.svg" width="398" height="471"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="structCodeCompletion_1_1FunctionsScopePerFile__coll__graph.svg" width="398" height="471"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 <table class="fieldtable">
 <tr><th colspan="3">Class Members</th></tr>
@@ -1328,9 +1329,24 @@ parsed</td>
 </div><div class="memdoc">
 
 <p>Supply content for the autocompletion list. </p>
-<p><a class="el" href="classCCManager">CCManager</a> takes care of calling this during most relevant situations. If the autocompletion mechanism is required at a time that <a class="el" href="classCCManager">CCManager</a> does not initiate, call </p><div class="fragment"><div class="line"><a class="code" href="classCodeBlocksEvent">CodeBlocksEvent</a> evt(<a class="code" href="sdk__events_8h#wh-cbEVT_COMPLETE_CODE">cbEVT_COMPLETE_CODE</a>);</div>
+<p><a class="el" href="classCCManager" title="code completion plugin manager ">CCManager</a> takes care of calling this during most relevant situations. If the autocompletion mechanism is required at a time that <a class="el" href="classCCManager" title="code completion plugin manager ">CCManager</a> does not initiate, call </p><div class="fragment"><div class="line"><a class="code" href="classCodeBlocksEvent">CodeBlocksEvent</a> evt(<a class="code" href="sdk__events_8h#wh-cbEVT_COMPLETE_CODE">cbEVT_COMPLETE_CODE</a>);</div>
 <div class="line"><a class="code" href="classManager#rz-Get">Manager::Get</a>()-&gt;<a class="code" href="classManager#qc-ProcessEvent">ProcessEvent</a>(evt);</div>
-</div><!-- fragment --><dl class="params"><dt>Parameters</dt><dd>
+</div><!-- fragment --><p> In this case, the parameter isAuto is passed as false value.</p>
+<p>Here is an example </p><div class="fragment"><div class="line"><span class="preprocessor">#include &lt;math.h&gt;</span></div>
+<div class="line"><span class="keywordtype">int</span> <a class="code" href="debuggergdb__test__main_8cpp#av-main">main</a>()</div>
+<div class="line">{</div>
+<div class="line">    <span class="keywordtype">float</span> i = cos|------<span class="keyword">auto</span> completion here</div>
+<div class="line">              ^  ^</div>
+<div class="line">}</div>
+</div><!-- fragment --><p> This is the case the user has just enter the chars "cos", now to get a suggestion list. The first '^' is the position of tknStart, and the second '^' is the position of tknEnd In this case, the cc plugin would supply a CCToken vectors, which could contains "cos", "cosh" and "cosh"... In some special cases, the tknStart tknEnd may point to the same position, such as </p><div class="fragment"><div class="line"><span class="keyword">struct </span>AAA { <span class="keywordtype">int</span> m_aaa1; };</div>
+<div class="line"><span class="keywordtype">int</span> <a class="code" href="debuggergdb__test__main_8cpp#av-main">main</a>()</div>
+<div class="line">{</div>
+<div class="line">    AAA obj;</div>
+<div class="line">    obj.|------<span class="keyword">auto</span> completion here</div>
+<div class="line">        ^</div>
+<div class="line">}</div>
+</div><!-- fragment --><p> Here, '^' are the positions of both tknStart and tknEnd.</p>
+<dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir"></td><td class="paramname">isAuto</td><td>Passed as <code>true</code> if autocompletion was launched by typing an 'interesting' character such as '<code>&gt;</code>' (for '<code>-&gt;</code>'). It is the plugin's job to filter out incorrect calls of this. </td></tr>
     <tr><td class="paramdir"></td><td class="paramname">ed</td><td>The context of this codecompletion call. </td></tr>
@@ -1404,7 +1420,7 @@ parsed</td>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>Each entry in this vector is guaranteed either a new line or a separate page in the calltip. <a class="el" href="classCCManager">CCManager</a> will decide if lines should be further split (for formatting to fit the monitor). </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>Each entry in this vector is guaranteed either a new line or a separate page in the calltip. <a class="el" href="classCCManager" title="code completion plugin manager ">CCManager</a> will decide if lines should be further split (for formatting to fit the monitor). </dd></dl>
 
 <p>Implements <a class="el" href="classcbCodeCompletionPlugin#o2-GetCallTips">cbCodeCompletionPlugin</a>.</p>
 
@@ -1493,7 +1509,7 @@ parsed</td>
 </div><div class="memdoc">
 
 <p>Supply html formatted documentation for the passed token. </p>
-<p>Refer to <a href="http://docs.wxwidgets.org/stable/overview_html.html#overview_html_supptags">http://docs.wxwidgets.org/stable/overview_html.html#overview_html_supptags</a> for the available formatting. When selecting colours, prefer use of the ones <a class="el" href="classCCManager">CCManager</a> has registered with <a class="el" href="classColourManager">ColourManager</a>, which are (TODO: register colours). Returning an empty string will cancel the documentation popup.</p>
+<p>Refer to <a href="http://docs.wxwidgets.org/stable/overview_html.html#overview_html_supptags">http://docs.wxwidgets.org/stable/overview_html.html#overview_html_supptags</a> for the available formatting. When selecting colours, prefer use of the ones <a class="el" href="classCCManager" title="code completion plugin manager ">CCManager</a> has registered with <a class="el" href="classColourManager">ColourManager</a>, which are (TODO: register colours). Returning an empty string will cancel the documentation popup.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">token</td><td>The token to document. </td></tr>
@@ -1609,7 +1625,7 @@ parsed</td>
 </div><div class="memdoc">
 
 <p>Does this plugin handle code completion for the editor <code>ed</code>? </p>
-<p>The plugin should check the lexer, the <code>HighlightLanguage</code>, the file extension, or some combination of these. Do <em>not</em> call <code><a class="el" href="classCCManager#fh-GetProviderFor" title="uses active editor if one is not passed; has (minimal) cache optimization ">CCManager::GetProviderFor()</a></code> from this function.</p>
+<p>The plugin should check the lexer, the <code>HighlightLanguage</code>, the file extension, or some combination of these. Do <em>not</em> call <code><a class="el" href="classCCManager#fh-GetProviderFor" title="get the ccPlugin instant for the cbEditor If the editor opened a c/c++ file, then it returns the nati...">CCManager::GetProviderFor()</a></code> from this function.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">ed</td><td>The editor being checked. </td></tr>
@@ -1706,7 +1722,7 @@ parsed</td>
   <table class="params">
     <tr><td class="paramdir"></td><td class="paramname">pos</td><td>The location being queried. </td></tr>
     <tr><td class="paramdir"></td><td class="paramname">ed</td><td>The context of the request. </td></tr>
-    <tr><td class="paramdir">[out]</td><td class="paramname">allowCallTip</td><td>Allow <a class="el" href="classCCManager">CCManager</a> to consider displaying a calltip if the results from this function are unsuitable/empty. True by default. </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">allowCallTip</td><td>Allow <a class="el" href="classCCManager" title="code completion plugin manager ">CCManager</a> to consider displaying a calltip if the results from this function are unsuitable/empty. True by default. </td></tr>
   </table>
   </dd>
 </dl>
@@ -3191,19 +3207,19 @@ Think of this method as the actual constructor... </p>
 <div class="line">Line 11</div>
 <div class="line">Line 12     <span class="keywordtype">void</span> ClassB::func2(){</div>
 <div class="line">Line 13     }</div>
-</div><!-- fragment --><p>The two key variable will be constructed like below </p><pre class="fragment">  m_FunctionsScope is std::vector of length 5, capacity 8 = {
-  {StartLine = 0, EndLine = 1, ShortName = L"g_func1", Name = L"g_func1() : void", Scope = L"&lt;global&gt;"},
-  {StartLine = 3, EndLine = 4, ShortName = L"func1", Name = L"func1() : void", Scope = L"ClassA::"},
-  {StartLine = 6, EndLine = 7, ShortName = L"func2", Name = L"func2() : void", Scope = L"ClassA::"},
-  {StartLine = 9, EndLine = 10, ShortName = L"func1", Name = L"func1() : void", Scope = L"ClassB::"},
-  {StartLine = 12, EndLine = 13, ShortName = L"func2", Name = L"func2() : void", Scope = L"ClassB::"}}
-
-  m_ScopeMarks is std::vector of length 3, capacity 4 = {0, 1, 3}, which is the start of Scope "&lt;global&gt;"
-  Scope "ClassA::" and Scope "ClassB::".
-</pre><p>Then we have wxChoice Scopes and Functions like below </p><pre class="fragment">      &lt;global&gt;          ClassA::        ClassB::
-        |- g_func1()      |- func1()      |- func1()
-                          |- func2()      |- func2()
-</pre> 
+</div><!-- fragment --><p>The two key variable will be constructed like below </p><div class="fragment"><div class="line"><a class="code" href="classCodeCompletion#i4-m_FunctionsScope">m_FunctionsScope</a> is std::vector of length 5, capacity 8 = {</div>
+<div class="line">{StartLine = 0, EndLine = 1, ShortName = L<span class="stringliteral">&quot;g_func1&quot;</span>, Name = L<span class="stringliteral">&quot;g_func1() : void&quot;</span>, Scope = L<span class="stringliteral">&quot;&lt;global&gt;&quot;</span>},</div>
+<div class="line">{StartLine = 3, EndLine = 4, ShortName = L<span class="stringliteral">&quot;func1&quot;</span>, Name = L<span class="stringliteral">&quot;func1() : void&quot;</span>, Scope = L<span class="stringliteral">&quot;ClassA::&quot;</span>},</div>
+<div class="line">{StartLine = 6, EndLine = 7, ShortName = L<span class="stringliteral">&quot;func2&quot;</span>, Name = L<span class="stringliteral">&quot;func2() : void&quot;</span>, Scope = L<span class="stringliteral">&quot;ClassA::&quot;</span>},</div>
+<div class="line">{StartLine = 9, EndLine = 10, ShortName = L<span class="stringliteral">&quot;func1&quot;</span>, Name = L<span class="stringliteral">&quot;func1() : void&quot;</span>, Scope = L<span class="stringliteral">&quot;ClassB::&quot;</span>},</div>
+<div class="line">{StartLine = 12, EndLine = 13, ShortName = L<span class="stringliteral">&quot;func2&quot;</span>, Name = L<span class="stringliteral">&quot;func2() : void&quot;</span>, Scope = L<span class="stringliteral">&quot;ClassB::&quot;</span>}}</div>
+<div class="line"></div>
+<div class="line"><a class="code" href="classCodeCompletion#o7-m_ScopeMarks">m_ScopeMarks</a> is std::vector of length 3, capacity 4 = {0, 1, 3}, which is the start of Scope <span class="stringliteral">&quot;&lt;global&gt;&quot;</span></div>
+<div class="line">Scope <span class="stringliteral">&quot;ClassA::&quot;</span> and Scope <span class="stringliteral">&quot;ClassB::&quot;</span>.</div>
+</div><!-- fragment --><p>Then we have wxChoice Scopes and Functions like below </p><div class="fragment"><div class="line">&lt;global&gt;          ClassA::        ClassB::</div>
+<div class="line">  |- g_func1()      |- func1()      |- func1()</div>
+<div class="line">                    |- func2()      |- func2()</div>
+</div><!-- fragment --> 
 <p>References <a class="el" href="cclogger_8h#ap-CC_LOCKER_TRACK_TT_MTX_LOCK">CC_LOCKER_TRACK_TT_MTX_LOCK</a>, <a class="el" href="cclogger_8h#al-CC_LOCKER_TRACK_TT_MTX_UNLOCK">CC_LOCKER_TRACK_TT_MTX_UNLOCK</a>, <a class="el" href="classCCLogger#ux-DebugLog">CCLogger::DebugLog()</a>, <a class="el" href="classCodeCompletion#ow-EnableToolbarTools">EnableToolbarTools()</a>, <a class="el" href="structCodeCompletion_1_1FunctionScope#bx-EndLine">CodeCompletion::FunctionScope::EndLine</a>, <a class="el" href="namespaceCodeCompletionHelper#ck-EqualFunctionScope">CodeCompletionHelper::EqualFunctionScope()</a>, <a class="el" href="logmanager_8h#ug-F">F()</a>, <a class="el" href="classCodeCompletion#ki-FindFunctionAndUpdate">FindFunctionAndUpdate()</a>, <a class="el" href="classParserBase#gc-FindTokensInFile">ParserBase::FindTokensInFile()</a>, <a class="el" href="codecompletion_8cpp#ra-g_GlobalScope">g_GlobalScope()</a>, <a class="el" href="classCCLogger#ma-Get">CCLogger::Get()</a>, <a class="el" href="classManager#rz-Get">Manager::Get()</a>, <a class="el" href="classEditorManager#kx-GetBuiltinActiveEditor">EditorManager::GetBuiltinActiveEditor()</a>, <a class="el" href="classcbEditor#iz-GetControl">cbEditor::GetControl()</a>, <a class="el" href="classwxScintilla#gt-GetCurrentLine">wxScintilla::GetCurrentLine()</a>, <a class="el" href="classManager#wg-GetEditorManager">Manager::GetEditorManager()</a>, <a class="el" href="classEditorBase#e0-GetFilename">EditorBase::GetFilename()</a>, <a class="el" href="classToken#py-GetFormattedArgs">Token::GetFormattedArgs()</a>, <a class="el" href="classToken#ww-GetNamespace">Token::GetNamespace()</a>, <a class="el" href="classNativeParser#hw-GetParser">NativeParser::GetParser()</a>, <a class="el" href="classwxScintilla#je-GetText">wxScintilla::GetText()</a>, <a class="el" href="classParserBase#kx-GetTokenTree">ParserBase::GetTokenTree()</a>, <a class="el" href="classParserBase#gk-IsFileParsed">ParserBase::IsFileParsed()</a>, <a class="el" href="namespaceCodeCompletionHelper#wx-LessFunctionScope">CodeCompletionHelper::LessFunctionScope()</a>, <a class="el" href="namespaceCodeCompletionHelper#b0-LessNameSpace">CodeCompletionHelper::LessNameSpace()</a>, <a class="el" href="classCodeCompletion#cc-m_AllFunctionsScopes">m_AllFunctionsScopes</a>, <a class="el" href="classToken#bs-m_BaseType">Token::m_BaseType</a>, <a class="el" href="classCodeCompletion#l6-m_Function">m_Function</a>, <a class="el" href="classCodeCompletion#s0-m_FunctionsScope">CodeCompletion::FunctionsScopePerFile::m_FunctionsScope</a>, <a class="el" href="classCodeCompletion#i4-m_FunctionsScope">m_FunctionsScope</a>, <a class="el" href="classToken#ot-m_ImplFileIdx">Token::m_ImplFileIdx</a>, <a class="el" href="classToken#ur-m_ImplLine">Token::m_ImplLine</a>, <a class="el" href="classToken#tv-m_ImplLineEnd">Token::m_ImplLineEnd</a>, <a class="el" href="classCodeCompletion#xa-m_LastFile">m_LastFile</a>, <a class="el" href="classToken#el-m_Name">Token::m_Name</a>, <a class="el" href="classCodeCompletion#vk-m_NameSpaces">CodeCompletion::FunctionsScopePerFile::m_NameSpaces</a>, <a class="el" href="classCodeCompletion#g4-m_NameSpaces">m_NameSpaces</a>, <a class="el" href="classCodeCompletion#at-m_NativeParser">m_NativeParser</a>, <a class="el" href="classCodeCompletion#hx-m_Scope">m_Scope</a>, <a class="el" href="classCodeCompletion#o7-m_ScopeMarks">m_ScopeMarks</a>, <a class="el" href="classToken#ky-m_TokenKind">Token::m_TokenKind</a>, <a class="el" href="classCodeCompletion#z8-m_ToolbarNeedRefresh">m_ToolbarNeedRefresh</a>, <a class="el" href="classCodeCompletion#b7-m_ToolbarNeedReparse">m_ToolbarNeedReparse</a>, <a class="el" href="structCodeCompletion_1_1FunctionScope#un-Name">CodeCompletion::FunctionScope::Name</a>, <a class="el" href="classParserBase#kv-ParseBufferForNamespaces">ParserBase::ParseBufferForNamespaces()</a>, <a class="el" href="classCodeCompletion#ls-parsed">CodeCompletion::FunctionsScopePerFile::parsed</a>, <a class="el" href="tokentree_8cpp#ko-s_TokenTreeMutex">s_TokenTreeMutex</a>, <a class="el" href="structCodeCompletion_1_1FunctionScope#my-Scope">CodeCompletion::FunctionScope::Scope</a>, <a class="el" href="structCodeCompletion_1_1FunctionScope#tm-ShortName">CodeCompletion::FunctionScope::ShortName</a>, <a class="el" href="structCodeCompletion_1_1FunctionScope#dj-StartLine">CodeCompletion::FunctionScope::StartLine</a>, <a class="el" href="token_8h#uj-TokenKind:tkAnyFunction">tkAnyFunction</a>, <a class="el" href="token_8h#uj-TokenKind:tkClass">tkClass</a>, <a class="el" href="token_8h#uj-TokenKind:tkEnum">tkEnum</a>, <a class="el" href="token_8h#uj-TokenKind:tkNamespace">tkNamespace</a>, and <a class="el" href="codecompletion_8cpp#qa-TRACE">TRACE</a>.</p>
 
 <p>Referenced by <a class="el" href="classCodeCompletion#nz-OnToolbarTimer">OnToolbarTimer()</a>.</p>

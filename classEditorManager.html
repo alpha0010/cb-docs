@@ -18,7 +18,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">Code::Blocks
-   &#160;<span id="projectnumber">SVN r10345</span>
+   &#160;<span id="projectnumber">SVN r10408</span>
    </div>
   </td>
  </tr>
@@ -63,13 +63,13 @@
 <div class="dynheader">
 Inheritance diagram for EditorManager:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classEditorManager__inherit__graph.svg" width="283" height="727"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classEditorManager__inherit__graph.svg" width="283" height="771"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <div class="dynheader">
 Collaboration diagram for EditorManager:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classEditorManager__coll__graph.svg" width="778" height="1463"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classEditorManager__coll__graph.svg" width="778" height="1507"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <table class="memberdecls">
@@ -148,9 +148,17 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:wk-QueryCloseAll"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEditorManager#wk-QueryCloseAll">QueryCloseAll</a> ()</td></tr>
 <tr class="separator:wk-QueryCloseAll"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:rz-CloseAll"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEditorManager#rz-CloseAll">CloseAll</a> (bool dontsave=false)</td></tr>
+<tr class="memdesc:rz-CloseAll"><td class="mdescLeft">&#160;</td><td class="mdescRight">Closes all opened editors.  <a href="#rz-CloseAll">More...</a><br /></td></tr>
 <tr class="separator:rz-CloseAll"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:pr-CloseAllExcept"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEditorManager#pr-CloseAllExcept">CloseAllExcept</a> (<a class="el" href="classEditorBase">EditorBase</a> *editor, bool dontsave=false)</td></tr>
+<tr class="memdesc:pr-CloseAllExcept"><td class="mdescLeft">&#160;</td><td class="mdescRight">Closes all opened editors, except the editor passed as parameter.  <a href="#pr-CloseAllExcept">More...</a><br /></td></tr>
 <tr class="separator:pr-CloseAllExcept"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:s2-CloseAllInTabCtrl"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEditorManager#s2-CloseAllInTabCtrl">CloseAllInTabCtrl</a> (bool dontsave=false)</td></tr>
+<tr class="memdesc:s2-CloseAllInTabCtrl"><td class="mdescLeft">&#160;</td><td class="mdescRight">Closes all editors in the same tab control as the active editor.  <a href="#s2-CloseAllInTabCtrl">More...</a><br /></td></tr>
+<tr class="separator:s2-CloseAllInTabCtrl"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gl-CloseAllInTabCtrlExcept"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEditorManager#gl-CloseAllInTabCtrlExcept">CloseAllInTabCtrlExcept</a> (<a class="el" href="classEditorBase">EditorBase</a> *editor, bool dontsave=false)</td></tr>
+<tr class="memdesc:gl-CloseAllInTabCtrlExcept"><td class="mdescLeft">&#160;</td><td class="mdescRight">Closes all editors in the same tab control as the active editor, except the editor passed as parameter.  <a href="#gl-CloseAllInTabCtrlExcept">More...</a><br /></td></tr>
+<tr class="separator:gl-CloseAllInTabCtrlExcept"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:sw-Save"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEditorManager#sw-Save">Save</a> (const wxString &amp;filename)</td></tr>
 <tr class="separator:sw-Save"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:nl-Save"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEditorManager#nl-Save">Save</a> (int index)</td></tr>
@@ -174,6 +182,47 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ve-CheckForExternallyModifiedFil"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEditorManager#ve-CheckForExternallyModifiedFil">CheckForExternallyModifiedFiles</a> ()</td></tr>
 <tr class="memdesc:ve-CheckForExternallyModifiedFil"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if one of the open files has been modified outside the IDE.  <a href="#ve-CheckForExternallyModifiedFil">More...</a><br /></td></tr>
 <tr class="separator:ve-CheckForExternallyModifiedFil"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:zn-SetZoom"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEditorManager#zn-SetZoom">SetZoom</a> (int zoom)</td></tr>
+<tr class="separator:zn-SetZoom"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:uz-GetZoom"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEditorManager#uz-GetZoom">GetZoom</a> () const </td></tr>
+<tr class="separator:uz-GetZoom"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:fk-MarkReadOnly"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEditorManager#fk-MarkReadOnly">MarkReadOnly</a> (int page, bool readOnly=true)</td></tr>
+<tr class="separator:fk-MarkReadOnly"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:qf-GetSelectionClipboard"><td class="memItemLeft" align="right" valign="top">wxString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEditorManager#qf-GetSelectionClipboard">GetSelectionClipboard</a> ()</td></tr>
+<tr class="separator:qf-GetSelectionClipboard"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:sc-SetSelectionClipboard"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEditorManager#sc-SetSelectionClipboard">SetSelectionClipboard</a> (const wxString &amp;data)</td></tr>
+<tr class="separator:sc-SetSelectionClipboard"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
+Static Public Member Functions</h2></td></tr>
+<tr class="memitem:pd-CanShutdown"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEditorManager#pd-CanShutdown">CanShutdown</a> ()</td></tr>
+<tr class="separator:pd-CanShutdown"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_static_methods_classMgr"><td colspan="2" onclick="javascript:toggleInherit('pub_static_methods_classMgr')"><img src="closed.png" alt="-"/>&#160;Static Public Member Functions inherited from <a class="el" href="classMgr">Mgr&lt; EditorManager &gt;</a></td></tr>
+<tr class="memitem:ak-Valid inherit pub_static_methods_classMgr"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMgr#ak-Valid">Valid</a> ()</td></tr>
+<tr class="separator:ak-Valid inherit pub_static_methods_classMgr"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:xq-Get inherit pub_static_methods_classMgr"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classEditorManager">EditorManager</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMgr#xq-Get">Get</a> ()</td></tr>
+<tr class="separator:xq-Get inherit pub_static_methods_classMgr"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:xa-Free inherit pub_static_methods_classMgr"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMgr#xa-Free">Free</a> ()</td></tr>
+<tr class="separator:xa-Free inherit pub_static_methods_classMgr"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
+Protected Member Functions</h2></td></tr>
+<tr class="memitem:li-AddEditorBase"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEditorManager#li-AddEditorBase">AddEditorBase</a> (<a class="el" href="classEditorBase">EditorBase</a> *eb)</td></tr>
+<tr class="separator:li-AddEditorBase"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ox-RemoveEditorBase"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEditorManager#ox-RemoveEditorBase">RemoveEditorBase</a> (<a class="el" href="classEditorBase">EditorBase</a> *eb, bool deleteObject=true)</td></tr>
+<tr class="separator:ox-RemoveEditorBase"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:si-InternalGetBuiltinEditor"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classcbEditor">cbEditor</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEditorManager#si-InternalGetBuiltinEditor">InternalGetBuiltinEditor</a> (int page)</td></tr>
+<tr class="separator:si-InternalGetBuiltinEditor"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ws-InternalGetEditorBase"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classEditorBase">EditorBase</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEditorManager#ws-InternalGetEditorBase">InternalGetEditorBase</a> (int page)</td></tr>
+<tr class="separator:ws-InternalGetEditorBase"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_methods_classMgr"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_classMgr')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="classMgr">Mgr&lt; EditorManager &gt;</a></td></tr>
+<tr class="memitem:ad-Mgr inherit pro_methods_classMgr"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMgr#ad-Mgr">Mgr</a> ()</td></tr>
+<tr class="separator:ad-Mgr inherit pro_methods_classMgr"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:wf-Mgr inherit pro_methods_classMgr"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMgr#wf-Mgr">~Mgr</a> ()</td></tr>
+<tr class="separator:wf-Mgr inherit pro_methods_classMgr"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
 <tr class="memitem:us-OnGenericContextMenuHandler"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEditorManager#us-OnGenericContextMenuHandler">OnGenericContextMenuHandler</a> (wxCommandEvent &amp;event)</td></tr>
 <tr class="separator:us-OnGenericContextMenuHandler"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:t3-OnPageChanged"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEditorManager#t3-OnPageChanged">OnPageChanged</a> (wxAuiNotebookEvent &amp;event)</td></tr>
@@ -222,49 +271,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:gc-OnTreeItemRightClick"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:c8-CollectDefines"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEditorManager#c8-CollectDefines">CollectDefines</a> (<a class="el" href="classCodeBlocksEvent">CodeBlocksEvent</a> &amp;event)</td></tr>
 <tr class="separator:c8-CollectDefines"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:zn-SetZoom"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEditorManager#zn-SetZoom">SetZoom</a> (int zoom)</td></tr>
-<tr class="separator:zn-SetZoom"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:uz-GetZoom"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEditorManager#uz-GetZoom">GetZoom</a> () const </td></tr>
-<tr class="separator:uz-GetZoom"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:fk-MarkReadOnly"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEditorManager#fk-MarkReadOnly">MarkReadOnly</a> (int page, bool readOnly=true)</td></tr>
-<tr class="separator:fk-MarkReadOnly"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:zw-OnAppActivated"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEditorManager#zw-OnAppActivated">OnAppActivated</a> (<a class="el" href="classCodeBlocksEvent">CodeBlocksEvent</a> &amp;event)</td></tr>
 <tr class="separator:zw-OnAppActivated"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:qf-GetSelectionClipboard"><td class="memItemLeft" align="right" valign="top">wxString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEditorManager#qf-GetSelectionClipboard">GetSelectionClipboard</a> ()</td></tr>
-<tr class="separator:qf-GetSelectionClipboard"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:sc-SetSelectionClipboard"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEditorManager#sc-SetSelectionClipboard">SetSelectionClipboard</a> (const wxString &amp;data)</td></tr>
-<tr class="separator:sc-SetSelectionClipboard"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
-Static Public Member Functions</h2></td></tr>
-<tr class="memitem:pd-CanShutdown"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEditorManager#pd-CanShutdown">CanShutdown</a> ()</td></tr>
-<tr class="separator:pd-CanShutdown"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pub_static_methods_classMgr"><td colspan="2" onclick="javascript:toggleInherit('pub_static_methods_classMgr')"><img src="closed.png" alt="-"/>&#160;Static Public Member Functions inherited from <a class="el" href="classMgr">Mgr&lt; EditorManager &gt;</a></td></tr>
-<tr class="memitem:ak-Valid inherit pub_static_methods_classMgr"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMgr#ak-Valid">Valid</a> ()</td></tr>
-<tr class="separator:ak-Valid inherit pub_static_methods_classMgr"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:xq-Get inherit pub_static_methods_classMgr"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classEditorManager">EditorManager</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMgr#xq-Get">Get</a> ()</td></tr>
-<tr class="separator:xq-Get inherit pub_static_methods_classMgr"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:xa-Free inherit pub_static_methods_classMgr"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMgr#xa-Free">Free</a> ()</td></tr>
-<tr class="separator:xa-Free inherit pub_static_methods_classMgr"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
-Protected Member Functions</h2></td></tr>
-<tr class="memitem:li-AddEditorBase"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEditorManager#li-AddEditorBase">AddEditorBase</a> (<a class="el" href="classEditorBase">EditorBase</a> *eb)</td></tr>
-<tr class="separator:li-AddEditorBase"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ox-RemoveEditorBase"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEditorManager#ox-RemoveEditorBase">RemoveEditorBase</a> (<a class="el" href="classEditorBase">EditorBase</a> *eb, bool deleteObject=true)</td></tr>
-<tr class="separator:ox-RemoveEditorBase"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:si-InternalGetBuiltinEditor"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classcbEditor">cbEditor</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEditorManager#si-InternalGetBuiltinEditor">InternalGetBuiltinEditor</a> (int page)</td></tr>
-<tr class="separator:si-InternalGetBuiltinEditor"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ws-InternalGetEditorBase"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classEditorBase">EditorBase</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEditorManager#ws-InternalGetEditorBase">InternalGetEditorBase</a> (int page)</td></tr>
-<tr class="separator:ws-InternalGetEditorBase"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pro_methods_classMgr"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_classMgr')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="classMgr">Mgr&lt; EditorManager &gt;</a></td></tr>
-<tr class="memitem:ad-Mgr inherit pro_methods_classMgr"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMgr#ad-Mgr">Mgr</a> ()</td></tr>
-<tr class="separator:ad-Mgr inherit pro_methods_classMgr"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:wf-Mgr inherit pro_methods_classMgr"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMgr#wf-Mgr">~Mgr</a> ()</td></tr>
-<tr class="separator:wf-Mgr inherit pro_methods_classMgr"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
-Private Member Functions</h2></td></tr>
 <tr class="memitem:et-EditorManager"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEditorManager#et-EditorManager">EditorManager</a> (cb_unused const <a class="el" href="classEditorManager">EditorManager</a> &amp;rhs)</td></tr>
 <tr class="separator:et-EditorManager"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ti-EditorManager"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEditorManager#ti-EditorManager">EditorManager</a> ()</td></tr>
@@ -277,6 +285,12 @@ Private Member Functions</h2></td></tr>
 <tr class="separator:d0-IsHeaderSource"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:wf-FindHeaderSource"><td class="memItemLeft" align="right" valign="top">wxFileName&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEditorManager#wf-FindHeaderSource">FindHeaderSource</a> (const wxArrayString &amp;candidateFilesArray, const wxFileName &amp;activeFile, bool &amp;isCandidate)</td></tr>
 <tr class="separator:wf-FindHeaderSource"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:cd-CloseEditors"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEditorManager#cd-CloseEditors">CloseEditors</a> (const std::vector&lt; <a class="el" href="classEditorBase">EditorBase</a> * &gt; &amp;editors, bool dontsave=false)</td></tr>
+<tr class="memdesc:cd-CloseEditors"><td class="mdescLeft">&#160;</td><td class="mdescRight">Closes all editors passed to the function.  <a href="#cd-CloseEditors">More...</a><br /></td></tr>
+<tr class="separator:cd-CloseEditors"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ug-GetEditorsInTabCtrl"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEditorManager#ug-GetEditorsInTabCtrl">GetEditorsInTabCtrl</a> (std::vector&lt; <a class="el" href="classEditorBase">EditorBase</a> * &gt; &amp;editors, <a class="el" href="classEditorBase">EditorBase</a> *editor)</td></tr>
+<tr class="memdesc:ug-GetEditorsInTabCtrl"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a vector with pointers to the editors that are in the same tab control as the passed editor.  <a href="#ug-GetEditorsInTabCtrl">More...</a><br /></td></tr>
+<tr class="separator:ug-GetEditorsInTabCtrl"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
@@ -546,7 +560,7 @@ Friends</h2></td></tr>
 
 <p>References <a class="el" href="classEditorManager#sv-IsOpen">IsOpen()</a>.</p>
 
-<p>Referenced by <a class="el" href="classEditorManager#o5-Close">Close()</a>, <a class="el" href="classEditorManager#os-CloseActive">CloseActive()</a>, <a class="el" href="classEditorManager#pr-CloseAllExcept">CloseAllExcept()</a>, <a class="el" href="classcbProject#gu-CloseAllFiles">cbProject::CloseAllFiles()</a>, <a class="el" href="classEditorBase#im-DisplayContextMenu">EditorBase::DisplayContextMenu()</a>, <a class="el" href="namespaceScriptBindings#cf-EditorManager_Close">ScriptBindings::EditorManager_Close()</a>, <a class="el" href="classEditorManager#vu-OnClose">OnClose()</a>, <a class="el" href="classcbEditor#wu-OnClose">cbEditor::OnClose()</a>, <a class="el" href="classProjectManagerUI#rr-OnCloseFile">ProjectManagerUI::OnCloseFile()</a>, <a class="el" href="classEditorBase#eh-OnContextMenuEntry">EditorBase::OnContextMenuEntry()</a>, <a class="el" href="classEditorManager#m6-OnPageClose">OnPageClose()</a>, <a class="el" href="classcbProject#q5-RemoveFile">cbProject::RemoveFile()</a>, and <a class="el" href="classFindReplace#xo-ReplaceInFiles">FindReplace::ReplaceInFiles()</a>.</p>
+<p>Referenced by <a class="el" href="classEditorManager#o5-Close">Close()</a>, <a class="el" href="classEditorManager#os-CloseActive">CloseActive()</a>, <a class="el" href="classcbProject#gu-CloseAllFiles">cbProject::CloseAllFiles()</a>, <a class="el" href="classEditorManager#cd-CloseEditors">CloseEditors()</a>, <a class="el" href="classEditorBase#im-DisplayContextMenu">EditorBase::DisplayContextMenu()</a>, <a class="el" href="namespaceScriptBindings#cf-EditorManager_Close">ScriptBindings::EditorManager_Close()</a>, <a class="el" href="classEditorManager#vu-OnClose">OnClose()</a>, <a class="el" href="classcbEditor#wu-OnClose">cbEditor::OnClose()</a>, <a class="el" href="classProjectManagerUI#rr-OnCloseFile">ProjectManagerUI::OnCloseFile()</a>, <a class="el" href="classEditorBase#eh-OnContextMenuEntry">EditorBase::OnContextMenuEntry()</a>, <a class="el" href="classEditorManager#m6-OnPageClose">OnPageClose()</a>, <a class="el" href="classcbProject#q5-RemoveFile">cbProject::RemoveFile()</a>, and <a class="el" href="classFindReplace#xo-ReplaceInFiles">FindReplace::ReplaceInFiles()</a>.</p>
 
 </div>
 </div>
@@ -640,9 +654,11 @@ Friends</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>References <a class="el" href="classEditorManager#pr-CloseAllExcept">CloseAllExcept()</a>, and <a class="el" href="classEditorManager#wn-GetEditor">GetEditor()</a>.</p>
+<p>Closes all opened editors. </p>
 
-<p>Referenced by <a class="el" href="classEditorManager#hw-OnCloseAll">OnCloseAll()</a>, <a class="el" href="classEditorBase#eh-OnContextMenuEntry">EditorBase::OnContextMenuEntry()</a>, <a class="el" href="classMainFrame#c2-OnFileCloseAll">MainFrame::OnFileCloseAll()</a>, and <a class="el" href="namespaceScriptBindings#yj-RegisterBindings">ScriptBindings::RegisterBindings()</a>.</p>
+<p>References <a class="el" href="classEditorManager#cd-CloseEditors">CloseEditors()</a>, <a class="el" href="classEditorManager#wn-GetEditor">GetEditor()</a>, and <a class="el" href="classEditorManager#na-m_pNotebook">m_pNotebook</a>.</p>
+
+<p>Referenced by <a class="el" href="classMainFrame#c2-OnFileCloseAll">MainFrame::OnFileCloseAll()</a>, and <a class="el" href="namespaceScriptBindings#yj-RegisterBindings">ScriptBindings::RegisterBindings()</a>.</p>
 
 </div>
 </div>
@@ -670,15 +686,112 @@ Friends</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>References <a class="el" href="classEditorManager#kf-Close">Close()</a>, <a class="el" href="classEditorManager#ws-InternalGetEditorBase">InternalGetEditorBase()</a>, <a class="el" href="classEditorManager#na-m_pNotebook">m_pNotebook</a>, and <a class="el" href="classEditorManager#pu-QueryClose">QueryClose()</a>.</p>
+<p>Closes all opened editors, except the editor passed as parameter. </p>
 
-<p>Referenced by <a class="el" href="classEditorManager#rz-CloseAll">CloseAll()</a>, <a class="el" href="classEditorManager#lv-OnCloseAllOthers">OnCloseAllOthers()</a>, and <a class="el" href="classEditorBase#eh-OnContextMenuEntry">EditorBase::OnContextMenuEntry()</a>.</p>
+<p>References <a class="el" href="classEditorManager#cd-CloseEditors">CloseEditors()</a>, <a class="el" href="classEditorManager#ws-InternalGetEditorBase">InternalGetEditorBase()</a>, and <a class="el" href="classEditorManager#na-m_pNotebook">m_pNotebook</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="s2-CloseAllInTabCtrl"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool EditorManager::CloseAllInTabCtrl </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>dontsave</em> = <code>false</code></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Closes all editors in the same tab control as the active editor. </p>
+
+<p>References <a class="el" href="classEditorManager#cd-CloseEditors">CloseEditors()</a>, <a class="el" href="classEditorManager#ao-GetActiveEditor">GetActiveEditor()</a>, and <a class="el" href="classEditorManager#ug-GetEditorsInTabCtrl">GetEditorsInTabCtrl()</a>.</p>
+
+<p>Referenced by <a class="el" href="classEditorManager#hw-OnCloseAll">OnCloseAll()</a>, and <a class="el" href="classEditorBase#eh-OnContextMenuEntry">EditorBase::OnContextMenuEntry()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="gl-CloseAllInTabCtrlExcept"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool EditorManager::CloseAllInTabCtrlExcept </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classEditorBase">EditorBase</a> *&#160;</td>
+          <td class="paramname"><em>editor</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>dontsave</em> = <code>false</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Closes all editors in the same tab control as the active editor, except the editor passed as parameter. </p>
+
+<p>References <a class="el" href="classEditorManager#cd-CloseEditors">CloseEditors()</a>, <a class="el" href="classEditorManager#ao-GetActiveEditor">GetActiveEditor()</a>, and <a class="el" href="classEditorManager#ug-GetEditorsInTabCtrl">GetEditorsInTabCtrl()</a>.</p>
+
+<p>Referenced by <a class="el" href="classEditorManager#lv-OnCloseAllOthers">OnCloseAllOthers()</a>, and <a class="el" href="classEditorBase#eh-OnContextMenuEntry">EditorBase::OnContextMenuEntry()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="cd-CloseEditors"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool EditorManager::CloseEditors </td>
+          <td>(</td>
+          <td class="paramtype">const std::vector&lt; <a class="el" href="classEditorBase">EditorBase</a> * &gt; &amp;&#160;</td>
+          <td class="paramname"><em>editors</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>dontsave</em> = <code>false</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Closes all editors passed to the function. </p>
+
+<p>References <a class="el" href="classEditorManager#kf-Close">Close()</a>, <a class="el" href="classEditorManager#na-m_pNotebook">m_pNotebook</a>, and <a class="el" href="classEditorManager#pu-QueryClose">QueryClose()</a>.</p>
+
+<p>Referenced by <a class="el" href="classEditorManager#rz-CloseAll">CloseAll()</a>, <a class="el" href="classEditorManager#pr-CloseAllExcept">CloseAllExcept()</a>, <a class="el" href="classEditorManager#s2-CloseAllInTabCtrl">CloseAllInTabCtrl()</a>, and <a class="el" href="classEditorManager#gl-CloseAllInTabCtrlExcept">CloseAllInTabCtrlExcept()</a>.</p>
 
 </div>
 </div>
 <a class="anchor" id="c8-CollectDefines"></a>
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">void EditorManager::CollectDefines </td>
@@ -688,6 +801,11 @@ Friends</h2></td></tr>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p>References <a class="el" href="globals_8h#fz-AppendArray">AppendArray()</a>, <a class="el" href="globals_8h#s3-ExpandBackticks">ExpandBackticks()</a>, <a class="el" href="classManager#rz-Get">Manager::Get()</a>, <a class="el" href="classcbProject#fl-GetActiveBuildTarget">cbProject::GetActiveBuildTarget()</a>, <a class="el" href="classProjectManager#qe-GetActiveProject">ProjectManager::GetActiveProject()</a>, <a class="el" href="globals_8h#sj-GetArrayFromString">GetArrayFromString()</a>, <a class="el" href="classcbProject#fh-GetBuildTarget">cbProject::GetBuildTarget()</a>, <a class="el" href="classEditorManager#rw-GetBuiltinEditor">GetBuiltinEditor()</a>, <a class="el" href="classCompilerFactory#b5-GetCompiler">CompilerFactory::GetCompiler()</a>, <a class="el" href="classCompileTargetBase#tr-GetCompilerID">CompileTargetBase::GetCompilerID()</a>, <a class="el" href="classCompileOptionsBase#a0-GetCompilerOptions">CompileOptionsBase::GetCompilerOptions()</a>, <a class="el" href="classManager#hd-GetConfigManager">Manager::GetConfigManager()</a>, <a class="el" href="classcbEditor#iz-GetControl">cbEditor::GetControl()</a>, <a class="el" href="classEditorManager#hm-GetEditorsCount">GetEditorsCount()</a>, <a class="el" href="classProjectBuildTarget#ym-GetFilesList">ProjectBuildTarget::GetFilesList()</a>, <a class="el" href="classcbProject#ym-GetFilesList">cbProject::GetFilesList()</a>, <a class="el" href="classEditorColourSet#xg-GetHighlightLanguage">EditorColourSet::GetHighlightLanguage()</a>, <a class="el" href="classEditorColourSet#od-GetKeywords">EditorColourSet::GetKeywords()</a>, <a class="el" href="classcbEditor#mp-GetLanguage">cbEditor::GetLanguage()</a>, <a class="el" href="classEditorColourSet#lo-GetName">EditorColourSet::GetName()</a>, <a class="el" href="classManager#z6-GetProjectManager">Manager::GetProjectManager()</a>, <a class="el" href="globals_8h#n5-GetStringFromArray">GetStringFromArray()</a>, <a class="el" href="classEditorManager#fw-m_Theme">m_Theme</a>, <a class="el" href="globals_8h#hp-MakeUniqueArray">MakeUniqueArray()</a>, <a class="el" href="classEditorColourSet#ia-SetKeywords">EditorColourSet::SetKeywords()</a>, <a class="el" href="classwxScintilla#mm-SetKeyWords">wxScintilla::SetKeyWords()</a>, and <a class="el" href="classConfigManager#ls-Write">ConfigManager::Write()</a>.</p>
@@ -794,7 +912,7 @@ Friends</h2></td></tr>
 
 <p>References <a class="el" href="classEditorManager#ws-InternalGetEditorBase">InternalGetEditorBase()</a>, and <a class="el" href="classEditorManager#na-m_pNotebook">m_pNotebook</a>.</p>
 
-<p>Referenced by <a class="el" href="classNativeParser#mv-AddProjectToParser">NativeParser::AddProjectToParser()</a>, <a class="el" href="classEditorManager#ve-CheckForExternallyModifiedFil">CheckForExternallyModifiedFiles()</a>, <a class="el" href="classEditorManager#os-CloseActive">CloseActive()</a>, <a class="el" href="classCompilerGCC#ya-DoBuild">CompilerGCC::DoBuild()</a>, <a class="el" href="classMainFrame#ec-DoUpdateAppTitle">MainFrame::DoUpdateAppTitle()</a>, <a class="el" href="classMainFrame#xk-DoUpdateStatusBar">MainFrame::DoUpdateStatusBar()</a>, <a class="el" href="classEditorManager#vu-OnClose">OnClose()</a>, <a class="el" href="classEditorManager#lv-OnCloseAllOthers">OnCloseAllOthers()</a>, <a class="el" href="classMainFrame#zk-OnEditBookmarksNext">MainFrame::OnEditBookmarksNext()</a>, <a class="el" href="classMainFrame#jp-OnEditBookmarksPrevious">MainFrame::OnEditBookmarksPrevious()</a>, <a class="el" href="classMainFrame#w9-OnEditBookmarksToggle">MainFrame::OnEditBookmarksToggle()</a>, <a class="el" href="classMainFrame#qz-OnEditClearHistory">MainFrame::OnEditClearHistory()</a>, <a class="el" href="classMainFrame#jl-OnEditCopy">MainFrame::OnEditCopy()</a>, <a class="el" href="classMainFrame#yn-OnEditCut">MainFrame::OnEditCut()</a>, <a class="el" href="classMainFrame#na-OnEditMenuUpdateUI">MainFrame::OnEditMenuUpdateUI()</a>, <a class="el" href="classCodeCompletion#yj-OnEditorClosed">CodeCompletion::OnEditorClosed()</a>, <a class="el" href="classMainFrame#do-OnEditorUpdateUI">MainFrame::OnEditorUpdateUI()</a>, <a class="el" href="classcbEditor#r1-OnEditorUpdateUI">cbEditor::OnEditorUpdateUI()</a>, <a class="el" href="classMainFrame#dc-OnEditPaste">MainFrame::OnEditPaste()</a>, <a class="el" href="classMainFrame#fi-OnEditRedo">MainFrame::OnEditRedo()</a>, <a class="el" href="classMainFrame#p0-OnEditSelectAll">MainFrame::OnEditSelectAll()</a>, <a class="el" href="classMainFrame#ua-OnEditSelectNext">MainFrame::OnEditSelectNext()</a>, <a class="el" href="classMainFrame#a2-OnEditSelectNextSkip">MainFrame::OnEditSelectNextSkip()</a>, <a class="el" href="classMainFrame#n6-OnEditUndo">MainFrame::OnEditUndo()</a>, <a class="el" href="classMainFrame#ar-OnFileMenuUpdateUI">MainFrame::OnFileMenuUpdateUI()</a>, <a class="el" href="classEditorManager#us-OnGenericContextMenuHandler">OnGenericContextMenuHandler()</a>, <a class="el" href="classEditorManager#hj-OnPageContextMenu">OnPageContextMenu()</a>, <a class="el" href="classEditorManager#tv-OnProperties">OnProperties()</a>, <a class="el" href="classCodeCompletion#v1-OnReparsingTimer">CodeCompletion::OnReparsingTimer()</a>, <a class="el" href="classEditorManager#r8-Open">Open()</a>, <a class="el" href="classEditorManager#nz-OpenContainingFolder">OpenContainingFolder()</a>, <a class="el" href="classGdbCmd__AddBreakpointCondition#vz-ParseOutput">GdbCmd_AddBreakpointCondition::ParseOutput()</a>, <a class="el" href="classEditorManager#f2-Print">Print()</a>, <a class="el" href="namespaceScriptBindings#yj-RegisterBindings">ScriptBindings::RegisterBindings()</a>, <a class="el" href="classMacrosManager#lm-ReplaceMacros">MacrosManager::ReplaceMacros()</a>, <a class="el" href="classEditorManager#c0-SaveActive">SaveActive()</a>, <a class="el" href="classEditorManager#lv-SaveActiveAs">SaveActiveAs()</a>, <a class="el" href="classFindReplace#ed-ShowFindDialog">FindReplace::ShowFindDialog()</a>, <a class="el" href="classProjectManagerUI#mq-ShowMenu">ProjectManagerUI::ShowMenu()</a>, <a class="el" href="classDebugInterfaceFactory#x5-ShowValueTooltip">DebugInterfaceFactory::ShowValueTooltip()</a>, and <a class="el" href="classEditorManager#fv-SwapActiveHeaderSource">SwapActiveHeaderSource()</a>.</p>
+<p>Referenced by <a class="el" href="classNativeParser#mv-AddProjectToParser">NativeParser::AddProjectToParser()</a>, <a class="el" href="classEditorManager#ve-CheckForExternallyModifiedFil">CheckForExternallyModifiedFiles()</a>, <a class="el" href="classEditorManager#os-CloseActive">CloseActive()</a>, <a class="el" href="classEditorManager#s2-CloseAllInTabCtrl">CloseAllInTabCtrl()</a>, <a class="el" href="classEditorManager#gl-CloseAllInTabCtrlExcept">CloseAllInTabCtrlExcept()</a>, <a class="el" href="classCompilerGCC#ya-DoBuild">CompilerGCC::DoBuild()</a>, <a class="el" href="classMainFrame#ec-DoUpdateAppTitle">MainFrame::DoUpdateAppTitle()</a>, <a class="el" href="classMainFrame#xk-DoUpdateStatusBar">MainFrame::DoUpdateStatusBar()</a>, <a class="el" href="classEditorManager#vu-OnClose">OnClose()</a>, <a class="el" href="classEditorManager#lv-OnCloseAllOthers">OnCloseAllOthers()</a>, <a class="el" href="classMainFrame#zk-OnEditBookmarksNext">MainFrame::OnEditBookmarksNext()</a>, <a class="el" href="classMainFrame#jp-OnEditBookmarksPrevious">MainFrame::OnEditBookmarksPrevious()</a>, <a class="el" href="classMainFrame#w9-OnEditBookmarksToggle">MainFrame::OnEditBookmarksToggle()</a>, <a class="el" href="classMainFrame#qz-OnEditClearHistory">MainFrame::OnEditClearHistory()</a>, <a class="el" href="classMainFrame#jl-OnEditCopy">MainFrame::OnEditCopy()</a>, <a class="el" href="classMainFrame#yn-OnEditCut">MainFrame::OnEditCut()</a>, <a class="el" href="classMainFrame#na-OnEditMenuUpdateUI">MainFrame::OnEditMenuUpdateUI()</a>, <a class="el" href="classCodeCompletion#yj-OnEditorClosed">CodeCompletion::OnEditorClosed()</a>, <a class="el" href="classMainFrame#do-OnEditorUpdateUI">MainFrame::OnEditorUpdateUI()</a>, <a class="el" href="classcbEditor#r1-OnEditorUpdateUI">cbEditor::OnEditorUpdateUI()</a>, <a class="el" href="classMainFrame#dc-OnEditPaste">MainFrame::OnEditPaste()</a>, <a class="el" href="classMainFrame#fi-OnEditRedo">MainFrame::OnEditRedo()</a>, <a class="el" href="classMainFrame#p0-OnEditSelectAll">MainFrame::OnEditSelectAll()</a>, <a class="el" href="classMainFrame#ua-OnEditSelectNext">MainFrame::OnEditSelectNext()</a>, <a class="el" href="classMainFrame#a2-OnEditSelectNextSkip">MainFrame::OnEditSelectNextSkip()</a>, <a class="el" href="classMainFrame#n6-OnEditUndo">MainFrame::OnEditUndo()</a>, <a class="el" href="classMainFrame#ar-OnFileMenuUpdateUI">MainFrame::OnFileMenuUpdateUI()</a>, <a class="el" href="classEditorManager#us-OnGenericContextMenuHandler">OnGenericContextMenuHandler()</a>, <a class="el" href="classEditorManager#hj-OnPageContextMenu">OnPageContextMenu()</a>, <a class="el" href="classEditorManager#tv-OnProperties">OnProperties()</a>, <a class="el" href="classCodeCompletion#v1-OnReparsingTimer">CodeCompletion::OnReparsingTimer()</a>, <a class="el" href="classEditorManager#r8-Open">Open()</a>, <a class="el" href="classEditorManager#nz-OpenContainingFolder">OpenContainingFolder()</a>, <a class="el" href="classGdbCmd__AddBreakpointCondition#vz-ParseOutput">GdbCmd_AddBreakpointCondition::ParseOutput()</a>, <a class="el" href="classEditorManager#f2-Print">Print()</a>, <a class="el" href="namespaceScriptBindings#yj-RegisterBindings">ScriptBindings::RegisterBindings()</a>, <a class="el" href="classMacrosManager#lm-ReplaceMacros">MacrosManager::ReplaceMacros()</a>, <a class="el" href="classEditorManager#c0-SaveActive">SaveActive()</a>, <a class="el" href="classEditorManager#lv-SaveActiveAs">SaveActiveAs()</a>, <a class="el" href="classFindReplace#ed-ShowFindDialog">FindReplace::ShowFindDialog()</a>, <a class="el" href="classProjectManagerUI#mq-ShowMenu">ProjectManagerUI::ShowMenu()</a>, <a class="el" href="classDebugInterfaceFactory#x5-ShowValueTooltip">DebugInterfaceFactory::ShowValueTooltip()</a>, and <a class="el" href="classEditorManager#fv-SwapActiveHeaderSource">SwapActiveHeaderSource()</a>.</p>
 
 </div>
 </div>
@@ -980,6 +1098,46 @@ Friends</h2></td></tr>
 <p>References <a class="el" href="classEditorManager#na-m_pNotebook">m_pNotebook</a>.</p>
 
 <p>Referenced by <a class="el" href="classcbDebuggerPlugin#v0-ClearActiveMarkFromAllEditors">cbDebuggerPlugin::ClearActiveMarkFromAllEditors()</a>, <a class="el" href="classEditorManager#c8-CollectDefines">CollectDefines()</a>, <a class="el" href="crashhandler_8cpp#kd-CrashHandlerSaveEditorFiles">CrashHandlerSaveEditorFiles()</a>, <a class="el" href="classEditorBase#gj-CreateContextSubMenu">EditorBase::CreateContextSubMenu()</a>, <a class="el" href="classCompilerErrors#gi-DoClearErrorMarkFromAllEditor">CompilerErrors::DoClearErrorMarkFromAllEditors()</a>, <a class="el" href="classCompilerErrors#n2-DoGotoError">CompilerErrors::DoGotoError()</a>, <a class="el" href="classEditorConfigurationDlg#d8-EndModal">EditorConfigurationDlg::EndModal()</a>, <a class="el" href="classFindReplace#j7-FindInFiles">FindReplace::FindInFiles()</a>, <a class="el" href="classFindReplaceDlg#ra-FindReplaceDlg">FindReplaceDlg::FindReplaceDlg()</a>, <a class="el" href="classCodeRefactoring#zf-GetOpenedFiles">CodeRefactoring::GetOpenedFiles()</a>, <a class="el" href="classFileManager#cn-Load">FileManager::Load()</a>, <a class="el" href="classCodeCompletion#yj-OnEditorClosed">CodeCompletion::OnEditorClosed()</a>, <a class="el" href="classMainFrame#ar-OnFileMenuUpdateUI">MainFrame::OnFileMenuUpdateUI()</a>, <a class="el" href="classEditorManager#hj-OnPageContextMenu">OnPageContextMenu()</a>, <a class="el" href="classCodeCompletion#he-OnParserEnd">CodeCompletion::OnParserEnd()</a>, <a class="el" href="debuggermanager_8cpp#sx-RefreshBreakpoints">RefreshBreakpoints()</a>, <a class="el" href="classFindReplace#xo-ReplaceInFiles">FindReplace::ReplaceInFiles()</a>, <a class="el" href="classEditorManager#fv-SwapActiveHeaderSource">SwapActiveHeaderSource()</a>, and <a class="el" href="classcbDebuggerPlugin#pe-SyncEditor">cbDebuggerPlugin::SyncEditor()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ug-GetEditorsInTabCtrl"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void EditorManager::GetEditorsInTabCtrl </td>
+          <td>(</td>
+          <td class="paramtype">std::vector&lt; <a class="el" href="classEditorBase">EditorBase</a> * &gt; &amp;&#160;</td>
+          <td class="paramname"><em>editors</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classEditorBase">EditorBase</a> *&#160;</td>
+          <td class="paramname"><em>editor</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns a vector with pointers to the editors that are in the same tab control as the passed editor. </p>
+
+<p>References <a class="el" href="classcbAuiNotebook#ip-GetPagesInTabCtrl">cbAuiNotebook::GetPagesInTabCtrl()</a>, and <a class="el" href="classEditorManager#na-m_pNotebook">m_pNotebook</a>.</p>
+
+<p>Referenced by <a class="el" href="classEditorManager#s2-CloseAllInTabCtrl">CloseAllInTabCtrl()</a>, and <a class="el" href="classEditorManager#gl-CloseAllInTabCtrlExcept">CloseAllInTabCtrlExcept()</a>.</p>
 
 </div>
 </div>
@@ -1287,6 +1445,9 @@ Friends</h2></td></tr>
 <a class="anchor" id="i2-OnAddFileToProject"></a>
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">void EditorManager::OnAddFileToProject </td>
@@ -1296,6 +1457,11 @@ Friends</h2></td></tr>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p>References <a class="el" href="classManager#rz-Get">Manager::Get()</a>, <a class="el" href="classProjectManager#qe-GetActiveProject">ProjectManager::GetActiveProject()</a>, <a class="el" href="classEditorManager#kx-GetBuiltinActiveEditor">GetBuiltinActiveEditor()</a>, <a class="el" href="classcbProject#j4-GetFileByFilename">cbProject::GetFileByFilename()</a>, <a class="el" href="classEditorBase#e0-GetFilename">EditorBase::GetFilename()</a>, <a class="el" href="classManager#z6-GetProjectManager">Manager::GetProjectManager()</a>, <a class="el" href="classProjectManager#p8-GetUI">ProjectManager::GetUI()</a>, <a class="el" href="classcbProjectManagerUI#n3-RebuildTree">cbProjectManagerUI::RebuildTree()</a>, and <a class="el" href="classcbEditor#b5-SetProjectFile">cbEditor::SetProjectFile()</a>.</p>
@@ -1305,6 +1471,9 @@ Friends</h2></td></tr>
 <a class="anchor" id="zw-OnAppActivated"></a>
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">void EditorManager::OnAppActivated </td>
@@ -1314,6 +1483,11 @@ Friends</h2></td></tr>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p>References <a class="el" href="classEditorManager#qo-m_pData">m_pData</a>, and <a class="el" href="structEditorManagerInternalData#rr-m_SelectionClipboard">EditorManagerInternalData::m_SelectionClipboard</a>.</p>
@@ -1325,6 +1499,9 @@ Friends</h2></td></tr>
 <a class="anchor" id="tb-OnAppDoneStartup"></a>
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">void EditorManager::OnAppDoneStartup </td>
@@ -1334,6 +1511,11 @@ Friends</h2></td></tr>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>
@@ -1341,6 +1523,9 @@ Friends</h2></td></tr>
 <a class="anchor" id="by-OnAppStartShutdown"></a>
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">void EditorManager::OnAppStartShutdown </td>
@@ -1350,6 +1535,11 @@ Friends</h2></td></tr>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>
@@ -1383,6 +1573,9 @@ Friends</h2></td></tr>
 <a class="anchor" id="vu-OnClose"></a>
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">void EditorManager::OnClose </td>
@@ -1392,15 +1585,23 @@ Friends</h2></td></tr>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
-<p>References <a class="el" href="classEditorManager#kf-Close">Close()</a>, <a class="el" href="classManager#rz-Get">Manager::Get()</a>, <a class="el" href="classEditorManager#ao-GetActiveEditor">GetActiveEditor()</a>, and <a class="el" href="classManager#wg-GetEditorManager">Manager::GetEditorManager()</a>.</p>
+<p>References <a class="el" href="classEditorManager#kf-Close">Close()</a>, and <a class="el" href="classEditorManager#ao-GetActiveEditor">GetActiveEditor()</a>.</p>
 
 </div>
 </div>
 <a class="anchor" id="hw-OnCloseAll"></a>
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">void EditorManager::OnCloseAll </td>
@@ -1410,15 +1611,23 @@ Friends</h2></td></tr>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
-<p>References <a class="el" href="classEditorManager#rz-CloseAll">CloseAll()</a>, <a class="el" href="classManager#rz-Get">Manager::Get()</a>, and <a class="el" href="classManager#wg-GetEditorManager">Manager::GetEditorManager()</a>.</p>
+<p>References <a class="el" href="classEditorManager#s2-CloseAllInTabCtrl">CloseAllInTabCtrl()</a>.</p>
 
 </div>
 </div>
 <a class="anchor" id="lv-OnCloseAllOthers"></a>
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">void EditorManager::OnCloseAllOthers </td>
@@ -1428,15 +1637,23 @@ Friends</h2></td></tr>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
-<p>References <a class="el" href="classEditorManager#pr-CloseAllExcept">CloseAllExcept()</a>, <a class="el" href="classManager#rz-Get">Manager::Get()</a>, <a class="el" href="classEditorManager#ao-GetActiveEditor">GetActiveEditor()</a>, and <a class="el" href="classManager#wg-GetEditorManager">Manager::GetEditorManager()</a>.</p>
+<p>References <a class="el" href="classEditorManager#gl-CloseAllInTabCtrlExcept">CloseAllInTabCtrlExcept()</a>, and <a class="el" href="classEditorManager#ao-GetActiveEditor">GetActiveEditor()</a>.</p>
 
 </div>
 </div>
 <a class="anchor" id="us-OnGenericContextMenuHandler"></a>
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">void EditorManager::OnGenericContextMenuHandler </td>
@@ -1446,6 +1663,11 @@ Friends</h2></td></tr>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p>References <a class="el" href="classEditorManager#ao-GetActiveEditor">GetActiveEditor()</a>, <a class="el" href="classEditorManager#rw-GetBuiltinEditor">GetBuiltinEditor()</a>, <a class="el" href="classEditorManager#wn-GetEditor">GetEditor()</a>, <a class="el" href="editormanager_8cpp#qt-idNBSwitchFile1">idNBSwitchFile1</a>, <a class="el" href="editormanager_8cpp#wb-idNBSwitchFileMax">idNBSwitchFileMax</a>, <a class="el" href="editormanager_8cpp#p8-idNBTabSplitHorz">idNBTabSplitHorz</a>, <a class="el" href="editormanager_8cpp#sc-idNBTabSplitVert">idNBTabSplitVert</a>, <a class="el" href="editormanager_8cpp#dc-idNBTabUnsplit">idNBTabUnsplit</a>, <a class="el" href="classEditorManager#qh-SetActiveEditor">SetActiveEditor()</a>, <a class="el" href="classcbEditor#ds-Split">cbEditor::Split()</a>, <a class="el" href="classcbEditor#qc-SplitType:stHorizontal">cbEditor::stHorizontal</a>, <a class="el" href="classcbEditor#qc-SplitType:stVertical">cbEditor::stVertical</a>, and <a class="el" href="classcbEditor#qd-Unsplit">cbEditor::Unsplit()</a>.</p>
@@ -1455,6 +1677,9 @@ Friends</h2></td></tr>
 <a class="anchor" id="oe-OnOpenContainingFolder"></a>
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">void EditorManager::OnOpenContainingFolder </td>
@@ -1464,15 +1689,23 @@ Friends</h2></td></tr>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
-<p>References <a class="el" href="classManager#rz-Get">Manager::Get()</a>, <a class="el" href="classManager#wg-GetEditorManager">Manager::GetEditorManager()</a>, and <a class="el" href="classEditorManager#nz-OpenContainingFolder">OpenContainingFolder()</a>.</p>
+<p>References <a class="el" href="classEditorManager#nz-OpenContainingFolder">OpenContainingFolder()</a>.</p>
 
 </div>
 </div>
 <a class="anchor" id="t3-OnPageChanged"></a>
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">void EditorManager::OnPageChanged </td>
@@ -1482,6 +1715,11 @@ Friends</h2></td></tr>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p>References <a class="el" href="sdk__events_8h#h8-cbEVT_EDITOR_ACTIVATED">cbEVT_EDITOR_ACTIVATED</a>, <a class="el" href="sdk__events_8h#em-cbEVT_EDITOR_SWITCHED">cbEVT_EDITOR_SWITCHED</a>, <a class="el" href="classManager#rz-Get">Manager::Get()</a>, <a class="el" href="classManager#ij-GetPluginManager">Manager::GetPluginManager()</a>, <a class="el" href="classEditorManager#he-m_nNotebookStackSize">m_nNotebookStackSize</a>, <a class="el" href="classEditorManager#qo-m_pData">m_pData</a>, <a class="el" href="classEditorManager#na-m_pNotebook">m_pNotebook</a>, <a class="el" href="classEditorManager#b5-m_pNotebookStackHead">m_pNotebookStackHead</a>, <a class="el" href="classEditorManager#ba-m_pNotebookStackTail">m_pNotebookStackTail</a>, <a class="el" href="structEditorManagerInternalData#w4-m_SetFocusFlag">EditorManagerInternalData::m_SetFocusFlag</a>, <a class="el" href="structcbNotebookStack#wa-next">cbNotebookStack::next</a>, <a class="el" href="classPluginManager#ap-NotifyPlugins">PluginManager::NotifyPlugins()</a>, and <a class="el" href="structcbNotebookStack#a7-window">cbNotebookStack::window</a>.</p>
@@ -1491,6 +1729,9 @@ Friends</h2></td></tr>
 <a class="anchor" id="da-OnPageChanging"></a>
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">void EditorManager::OnPageChanging </td>
@@ -1500,6 +1741,11 @@ Friends</h2></td></tr>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p>References <a class="el" href="sdk__events_8h#mr-cbEVT_EDITOR_DEACTIVATED">cbEVT_EDITOR_DEACTIVATED</a>, <a class="el" href="classManager#rz-Get">Manager::Get()</a>, <a class="el" href="classManager#ij-GetPluginManager">Manager::GetPluginManager()</a>, <a class="el" href="classEditorManager#na-m_pNotebook">m_pNotebook</a>, and <a class="el" href="classPluginManager#ap-NotifyPlugins">PluginManager::NotifyPlugins()</a>.</p>
@@ -1509,6 +1755,9 @@ Friends</h2></td></tr>
 <a class="anchor" id="m6-OnPageClose"></a>
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">void EditorManager::OnPageClose </td>
@@ -1518,6 +1767,11 @@ Friends</h2></td></tr>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p>References <a class="el" href="sdk__events_8h#em-cbEVT_EDITOR_SWITCHED">cbEVT_EDITOR_SWITCHED</a>, <a class="el" href="classEditorManager#kf-Close">Close()</a>, <a class="el" href="classManager#rz-Get">Manager::Get()</a>, <a class="el" href="classManager#ij-GetPluginManager">Manager::GetPluginManager()</a>, <a class="el" href="classEditorManager#he-m_nNotebookStackSize">m_nNotebookStackSize</a>, <a class="el" href="classEditorManager#na-m_pNotebook">m_pNotebook</a>, <a class="el" href="classEditorManager#b5-m_pNotebookStackHead">m_pNotebookStackHead</a>, <a class="el" href="structcbNotebookStack#wa-next">cbNotebookStack::next</a>, <a class="el" href="classPluginManager#ap-NotifyPlugins">PluginManager::NotifyPlugins()</a>, <a class="el" href="classEditorManager#pu-QueryClose">QueryClose()</a>, and <a class="el" href="structcbNotebookStack#a7-window">cbNotebookStack::window</a>.</p>
@@ -1527,6 +1781,9 @@ Friends</h2></td></tr>
 <a class="anchor" id="hj-OnPageContextMenu"></a>
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">void EditorManager::OnPageContextMenu </td>
@@ -1536,15 +1793,23 @@ Friends</h2></td></tr>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
-<p>References <a class="el" href="classPluginManager#h9-AskPluginsForModuleMenu">PluginManager::AskPluginsForModuleMenu()</a>, <a class="el" href="namespaceAssociations#fx-Check">Associations::Check()</a>, <a class="el" href="editormanager_8cpp#a7-EditorMaxSwitchTo">EditorMaxSwitchTo</a>, <a class="el" href="classManager#rz-Get">Manager::Get()</a>, <a class="el" href="classEditorManager#ao-GetActiveEditor">GetActiveEditor()</a>, <a class="el" href="classEditorManager#rw-GetBuiltinEditor">GetBuiltinEditor()</a>, <a class="el" href="classEditorManager#wn-GetEditor">GetEditor()</a>, <a class="el" href="classEditorManager#hm-GetEditorsCount">GetEditorsCount()</a>, <a class="el" href="classEditorBase#a2-GetModified">EditorBase::GetModified()</a>, <a class="el" href="classManager#ij-GetPluginManager">Manager::GetPluginManager()</a>, <a class="el" href="classcbEditor#l2-GetProjectFile">cbEditor::GetProjectFile()</a>, <a class="el" href="classEditorBase#kj-GetShortName">EditorBase::GetShortName()</a>, <a class="el" href="classcbEditor#k5-GetSplitType">cbEditor::GetSplitType()</a>, <a class="el" href="editormanager_8cpp#da-idNBAddFileToProject">idNBAddFileToProject</a>, <a class="el" href="editormanager_8cpp#py-idNBProperties">idNBProperties</a>, <a class="el" href="editormanager_8cpp#oq-idNBRemoveFileFromProject">idNBRemoveFileFromProject</a>, <a class="el" href="editormanager_8cpp#sb-idNBShowFileInTree">idNBShowFileInTree</a>, <a class="el" href="editormanager_8cpp#pa-idNBSwapHeaderSource">idNBSwapHeaderSource</a>, <a class="el" href="editormanager_8cpp#qt-idNBSwitchFile1">idNBSwitchFile1</a>, <a class="el" href="editormanager_8cpp#j6-idNBTabBottom">idNBTabBottom</a>, <a class="el" href="editormanager_8cpp#yh-idNBTabClose">idNBTabClose</a>, <a class="el" href="editormanager_8cpp#de-idNBTabCloseAll">idNBTabCloseAll</a>, <a class="el" href="editormanager_8cpp#eg-idNBTabCloseAllOthers">idNBTabCloseAllOthers</a>, <a class="el" href="editormanager_8cpp#wb-idNBTabOpenContainingFolder">idNBTabOpenContainingFolder</a>, <a class="el" href="editormanager_8cpp#ul-idNBTabSave">idNBTabSave</a>, <a class="el" href="editormanager_8cpp#x6-idNBTabSaveAll">idNBTabSaveAll</a>, <a class="el" href="editormanager_8cpp#p8-idNBTabSplitHorz">idNBTabSplitHorz</a>, <a class="el" href="editormanager_8cpp#sc-idNBTabSplitVert">idNBTabSplitVert</a>, <a class="el" href="editormanager_8cpp#id-idNBTabTop">idNBTabTop</a>, <a class="el" href="editormanager_8cpp#dc-idNBTabUnsplit">idNBTabUnsplit</a>, <a class="el" href="classEditorManager#na-m_pNotebook">m_pNotebook</a>, <a class="el" href="globals_8h#ou-ModuleType:mtEditorTab">mtEditorTab</a>, <a class="el" href="classcbEditor#qc-SplitType:stHorizontal">cbEditor::stHorizontal</a>, <a class="el" href="classcbEditor#qc-SplitType:stNoSplit">cbEditor::stNoSplit</a>, and <a class="el" href="classcbEditor#qc-SplitType:stVertical">cbEditor::stVertical</a>.</p>
+<p>References <a class="el" href="classPluginManager#h9-AskPluginsForModuleMenu">PluginManager::AskPluginsForModuleMenu()</a>, <a class="el" href="namespaceAssociations#fx-Check">Associations::Check()</a>, <a class="el" href="editormanager_8cpp#a7-EditorMaxSwitchTo">EditorMaxSwitchTo</a>, <a class="el" href="classManager#rz-Get">Manager::Get()</a>, <a class="el" href="classEditorManager#ao-GetActiveEditor">GetActiveEditor()</a>, <a class="el" href="classEditorManager#rw-GetBuiltinEditor">GetBuiltinEditor()</a>, <a class="el" href="classEditorManager#wn-GetEditor">GetEditor()</a>, <a class="el" href="classEditorManager#hm-GetEditorsCount">GetEditorsCount()</a>, <a class="el" href="classEditorBase#a2-GetModified">EditorBase::GetModified()</a>, <a class="el" href="classManager#ij-GetPluginManager">Manager::GetPluginManager()</a>, <a class="el" href="classcbEditor#l2-GetProjectFile">cbEditor::GetProjectFile()</a>, <a class="el" href="classEditorBase#kj-GetShortName">EditorBase::GetShortName()</a>, <a class="el" href="classcbEditor#k5-GetSplitType">cbEditor::GetSplitType()</a>, <a class="el" href="classcbAuiNotebook#rl-GetTabCtrl">cbAuiNotebook::GetTabCtrl()</a>, <a class="el" href="editormanager_8cpp#da-idNBAddFileToProject">idNBAddFileToProject</a>, <a class="el" href="editormanager_8cpp#py-idNBProperties">idNBProperties</a>, <a class="el" href="editormanager_8cpp#oq-idNBRemoveFileFromProject">idNBRemoveFileFromProject</a>, <a class="el" href="editormanager_8cpp#sb-idNBShowFileInTree">idNBShowFileInTree</a>, <a class="el" href="editormanager_8cpp#pa-idNBSwapHeaderSource">idNBSwapHeaderSource</a>, <a class="el" href="editormanager_8cpp#qt-idNBSwitchFile1">idNBSwitchFile1</a>, <a class="el" href="editormanager_8cpp#j6-idNBTabBottom">idNBTabBottom</a>, <a class="el" href="editormanager_8cpp#yh-idNBTabClose">idNBTabClose</a>, <a class="el" href="editormanager_8cpp#de-idNBTabCloseAll">idNBTabCloseAll</a>, <a class="el" href="editormanager_8cpp#eg-idNBTabCloseAllOthers">idNBTabCloseAllOthers</a>, <a class="el" href="editormanager_8cpp#wb-idNBTabOpenContainingFolder">idNBTabOpenContainingFolder</a>, <a class="el" href="editormanager_8cpp#ul-idNBTabSave">idNBTabSave</a>, <a class="el" href="editormanager_8cpp#x6-idNBTabSaveAll">idNBTabSaveAll</a>, <a class="el" href="editormanager_8cpp#p8-idNBTabSplitHorz">idNBTabSplitHorz</a>, <a class="el" href="editormanager_8cpp#sc-idNBTabSplitVert">idNBTabSplitVert</a>, <a class="el" href="editormanager_8cpp#id-idNBTabTop">idNBTabTop</a>, <a class="el" href="editormanager_8cpp#dc-idNBTabUnsplit">idNBTabUnsplit</a>, <a class="el" href="classEditorManager#na-m_pNotebook">m_pNotebook</a>, <a class="el" href="globals_8h#ou-ModuleType:mtEditorTab">mtEditorTab</a>, <a class="el" href="classcbEditor#qc-SplitType:stHorizontal">cbEditor::stHorizontal</a>, <a class="el" href="classcbEditor#qc-SplitType:stNoSplit">cbEditor::stNoSplit</a>, and <a class="el" href="classcbEditor#qc-SplitType:stVertical">cbEditor::stVertical</a>.</p>
 
 </div>
 </div>
 <a class="anchor" id="tv-OnProperties"></a>
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">void EditorManager::OnProperties </td>
@@ -1554,6 +1819,11 @@ Friends</h2></td></tr>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p>References <a class="el" href="classManager#rz-Get">Manager::Get()</a>, <a class="el" href="classEditorManager#ao-GetActiveEditor">GetActiveEditor()</a>, <a class="el" href="classEditorManager#kx-GetBuiltinActiveEditor">GetBuiltinActiveEditor()</a>, <a class="el" href="classcbEditor#l2-GetProjectFile">cbEditor::GetProjectFile()</a>, <a class="el" href="globals_8h#bq-PlaceWindow">PlaceWindow()</a>, <a class="el" href="classwxScrollingDialog#ik-ShowModal">wxScrollingDialog::ShowModal()</a>, and <a class="el" href="classProjectFile#v0-ShowOptions">ProjectFile::ShowOptions()</a>.</p>
@@ -1563,6 +1833,9 @@ Friends</h2></td></tr>
 <a class="anchor" id="i9-OnRemoveFileFromProject"></a>
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">void EditorManager::OnRemoveFileFromProject </td>
@@ -1572,6 +1845,11 @@ Friends</h2></td></tr>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p>References <a class="el" href="classManager#rz-Get">Manager::Get()</a>, <a class="el" href="classEditorManager#kx-GetBuiltinActiveEditor">GetBuiltinActiveEditor()</a>, <a class="el" href="classProjectFile#lr-GetParentProject">ProjectFile::GetParentProject()</a>, <a class="el" href="classcbEditor#l2-GetProjectFile">cbEditor::GetProjectFile()</a>, <a class="el" href="classManager#z6-GetProjectManager">Manager::GetProjectManager()</a>, <a class="el" href="classProjectManager#p8-GetUI">ProjectManager::GetUI()</a>, <a class="el" href="classcbProjectManagerUI#n3-RebuildTree">cbProjectManagerUI::RebuildTree()</a>, and <a class="el" href="classProjectManager#nk-RemoveFileFromProject">ProjectManager::RemoveFileFromProject()</a>.</p>
@@ -1581,6 +1859,9 @@ Friends</h2></td></tr>
 <a class="anchor" id="vw-OnSave"></a>
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">void EditorManager::OnSave </td>
@@ -1590,15 +1871,23 @@ Friends</h2></td></tr>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
-<p>References <a class="el" href="classManager#rz-Get">Manager::Get()</a>, <a class="el" href="classManager#wg-GetEditorManager">Manager::GetEditorManager()</a>, <a class="el" href="classEditorManager#na-m_pNotebook">m_pNotebook</a>, and <a class="el" href="classEditorManager#sw-Save">Save()</a>.</p>
+<p>References <a class="el" href="classEditorManager#na-m_pNotebook">m_pNotebook</a>, and <a class="el" href="classEditorManager#sw-Save">Save()</a>.</p>
 
 </div>
 </div>
 <a class="anchor" id="gf-OnSaveAll"></a>
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">void EditorManager::OnSaveAll </td>
@@ -1608,15 +1897,23 @@ Friends</h2></td></tr>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
-<p>References <a class="el" href="classManager#rz-Get">Manager::Get()</a>, <a class="el" href="classManager#wg-GetEditorManager">Manager::GetEditorManager()</a>, and <a class="el" href="classEditorManager#i3-SaveAll">SaveAll()</a>.</p>
+<p>References <a class="el" href="classEditorManager#i3-SaveAll">SaveAll()</a>.</p>
 
 </div>
 </div>
 <a class="anchor" id="f1-OnShowFileInTree"></a>
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">void EditorManager::OnShowFileInTree </td>
@@ -1626,6 +1923,11 @@ Friends</h2></td></tr>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p>References <a class="el" href="classManager#rz-Get">Manager::Get()</a>, <a class="el" href="classEditorManager#kx-GetBuiltinActiveEditor">GetBuiltinActiveEditor()</a>, <a class="el" href="classcbEditor#l2-GetProjectFile">cbEditor::GetProjectFile()</a>, <a class="el" href="classManager#z6-GetProjectManager">Manager::GetProjectManager()</a>, <a class="el" href="classProjectManager#p8-GetUI">ProjectManager::GetUI()</a>, <a class="el" href="classcbProjectManagerUI#og-ShowFileInTree">cbProjectManagerUI::ShowFileInTree()</a>, and <a class="el" href="classcbProjectManagerUI#qj-SwitchToProjectsPage">cbProjectManagerUI::SwitchToProjectsPage()</a>.</p>
@@ -1635,6 +1937,9 @@ Friends</h2></td></tr>
 <a class="anchor" id="nu-OnSwapHeaderSource"></a>
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">void EditorManager::OnSwapHeaderSource </td>
@@ -1644,15 +1949,23 @@ Friends</h2></td></tr>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
-<p>References <a class="el" href="classManager#rz-Get">Manager::Get()</a>, <a class="el" href="classManager#wg-GetEditorManager">Manager::GetEditorManager()</a>, and <a class="el" href="classEditorManager#fv-SwapActiveHeaderSource">SwapActiveHeaderSource()</a>.</p>
+<p>References <a class="el" href="classEditorManager#fv-SwapActiveHeaderSource">SwapActiveHeaderSource()</a>.</p>
 
 </div>
 </div>
 <a class="anchor" id="qz-OnTabPosition"></a>
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">void EditorManager::OnTabPosition </td>
@@ -1662,6 +1975,11 @@ Friends</h2></td></tr>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p>References <a class="el" href="classManager#rz-Get">Manager::Get()</a>, <a class="el" href="classManager#hd-GetConfigManager">Manager::GetConfigManager()</a>, <a class="el" href="editormanager_8cpp#j6-idNBTabBottom">idNBTabBottom</a>, <a class="el" href="classEditorManager#na-m_pNotebook">m_pNotebook</a>, and <a class="el" href="classConfigManager#ls-Write">ConfigManager::Write()</a>.</p>
@@ -1671,6 +1989,9 @@ Friends</h2></td></tr>
 <a class="anchor" id="bs-OnTreeItemActivated"></a>
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">void EditorManager::OnTreeItemActivated </td>
@@ -1680,6 +2001,11 @@ Friends</h2></td></tr>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>
@@ -1687,6 +2013,9 @@ Friends</h2></td></tr>
 <a class="anchor" id="gc-OnTreeItemRightClick"></a>
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">void EditorManager::OnTreeItemRightClick </td>
@@ -1696,6 +2025,11 @@ Friends</h2></td></tr>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>
@@ -1703,6 +2037,9 @@ Friends</h2></td></tr>
 <a class="anchor" id="it-OnTreeItemSelected"></a>
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">void EditorManager::OnTreeItemSelected </td>
@@ -1712,6 +2049,11 @@ Friends</h2></td></tr>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>
@@ -1719,6 +2061,9 @@ Friends</h2></td></tr>
 <a class="anchor" id="tp-OnUpdateUI"></a>
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">void EditorManager::OnUpdateUI </td>
@@ -1728,6 +2073,11 @@ Friends</h2></td></tr>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p>References <a class="el" href="classManager#rz-Get">Manager::Get()</a>, <a class="el" href="classEditorManager#kx-GetBuiltinActiveEditor">GetBuiltinActiveEditor()</a>, <a class="el" href="classcbEditor#iz-GetControl">cbEditor::GetControl()</a>, <a class="el" href="classEditorManager#qo-m_pData">m_pData</a>, and <a class="el" href="structEditorManagerInternalData#w4-m_SetFocusFlag">EditorManagerInternalData::m_SetFocusFlag</a>.</p>
@@ -1905,7 +2255,7 @@ Friends</h2></td></tr>
 
 <p>References <a class="el" href="classEditorBase#om-QueryClose">EditorBase::QueryClose()</a>.</p>
 
-<p>Referenced by <a class="el" href="classEditorManager#by-Close">Close()</a>, <a class="el" href="classEditorManager#pr-CloseAllExcept">CloseAllExcept()</a>, <a class="el" href="classEditorManager#m6-OnPageClose">OnPageClose()</a>, <a class="el" href="classEditorManager#wk-QueryCloseAll">QueryCloseAll()</a>, and <a class="el" href="classcbProject#w7-QueryCloseAllFiles">cbProject::QueryCloseAllFiles()</a>.</p>
+<p>Referenced by <a class="el" href="classEditorManager#by-Close">Close()</a>, <a class="el" href="classEditorManager#cd-CloseEditors">CloseEditors()</a>, <a class="el" href="classEditorManager#m6-OnPageClose">OnPageClose()</a>, <a class="el" href="classEditorManager#wk-QueryCloseAll">QueryCloseAll()</a>, and <a class="el" href="classcbProject#w7-QueryCloseAllFiles">cbProject::QueryCloseAllFiles()</a>.</p>
 
 </div>
 </div>
@@ -2251,7 +2601,7 @@ Friends</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>References <a class="el" href="classProjectManager#uu-AddFileToProject">ProjectManager::AddFileToProject()</a>, <a class="el" href="classProjectFile#dn-AutoGeneratedBy">ProjectFile::AutoGeneratedBy()</a>, <a class="el" href="globals_8h#f6-cbMessageBox">cbMessageBox()</a>, <a class="el" href="classEditorManager#ve-CheckForExternallyModifiedFil">CheckForExternallyModifiedFiles()</a>, <a class="el" href="namespaceFileFilters#p0-CPP_EXT">FileFilters::CPP_EXT</a>, <a class="el" href="classProjectFile#pz-file">ProjectFile::file</a>, <a class="el" href="globals_8h#fu-FileTypeOf">FileTypeOf()</a>, <a class="el" href="classEditorManager#wf-FindHeaderSource">FindHeaderSource()</a>, <a class="el" href="globals_8h#k1-FileType:ftHeader">ftHeader</a>, <a class="el" href="globals_8h#k1-FileType:ftSource">ftSource</a>, <a class="el" href="classProjectFile#r3-generatedFiles">ProjectFile::generatedFiles</a>, <a class="el" href="classManager#rz-Get">Manager::Get()</a>, <a class="el" href="classEditorManager#ao-GetActiveEditor">GetActiveEditor()</a>, <a class="el" href="classProjectManager#qe-GetActiveProject">ProjectManager::GetActiveProject()</a>, <a class="el" href="classCompileTargetBase#qh-GetBasePath">CompileTargetBase::GetBasePath()</a>, <a class="el" href="classcbProject#fh-GetBuildTarget">cbProject::GetBuildTarget()</a>, <a class="el" href="classcbProject#oa-GetBuildTargetsCount">cbProject::GetBuildTargetsCount()</a>, <a class="el" href="classEditorManager#rw-GetBuiltinEditor">GetBuiltinEditor()</a>, <a class="el" href="classEditorManager#wn-GetEditor">GetEditor()</a>, <a class="el" href="classManager#wg-GetEditorManager">Manager::GetEditorManager()</a>, <a class="el" href="classEditorManager#hm-GetEditorsCount">GetEditorsCount()</a>, <a class="el" href="classcbProject#j4-GetFileByFilename">cbProject::GetFileByFilename()</a>, <a class="el" href="classEditorBase#e0-GetFilename">EditorBase::GetFilename()</a>, <a class="el" href="classcbProject#ym-GetFilesList">cbProject::GetFilesList()</a>, <a class="el" href="classCompileOptionsBase#lt-GetIncludeDirs">CompileOptionsBase::GetIncludeDirs()</a>, <a class="el" href="classManager#z0-GetMacrosManager">Manager::GetMacrosManager()</a>, <a class="el" href="classProjectFile#lr-GetParentProject">ProjectFile::GetParentProject()</a>, <a class="el" href="classcbEditor#l2-GetProjectFile">cbEditor::GetProjectFile()</a>, <a class="el" href="classManager#z6-GetProjectManager">Manager::GetProjectManager()</a>, <a class="el" href="classProjectManager#p8-GetUI">ProjectManager::GetUI()</a>, <a class="el" href="namespaceFileFilters#mk-H_EXT">FileFilters::H_EXT</a>, <a class="el" href="classEditorManager#u7-New">New()</a>, <a class="el" href="classEditorManager#ua-Open">Open()</a>, <a class="el" href="classcbProjectManagerUI#n3-RebuildTree">cbProjectManagerUI::RebuildTree()</a>, <a class="el" href="classMacrosManager#lm-ReplaceMacros">MacrosManager::ReplaceMacros()</a>, and <a class="el" href="classcbEditor#b5-SetProjectFile">cbEditor::SetProjectFile()</a>.</p>
+<p>References <a class="el" href="classProjectManager#uu-AddFileToProject">ProjectManager::AddFileToProject()</a>, <a class="el" href="classProjectFile#dn-AutoGeneratedBy">ProjectFile::AutoGeneratedBy()</a>, <a class="el" href="globals_8h#f6-cbMessageBox">cbMessageBox()</a>, <a class="el" href="classEditorManager#ve-CheckForExternallyModifiedFil">CheckForExternallyModifiedFiles()</a>, <a class="el" href="namespaceFileFilters#p0-CPP_EXT">FileFilters::CPP_EXT</a>, <a class="el" href="classProjectFile#pz-file">ProjectFile::file</a>, <a class="el" href="globals_8h#fu-FileTypeOf">FileTypeOf()</a>, <a class="el" href="classEditorManager#wf-FindHeaderSource">FindHeaderSource()</a>, <a class="el" href="globals_8h#k1-FileType:ftHeader">ftHeader</a>, <a class="el" href="globals_8h#k1-FileType:ftSource">ftSource</a>, <a class="el" href="classProjectFile#r3-generatedFiles">ProjectFile::generatedFiles</a>, <a class="el" href="classManager#rz-Get">Manager::Get()</a>, <a class="el" href="classEditorManager#ao-GetActiveEditor">GetActiveEditor()</a>, <a class="el" href="classProjectManager#qe-GetActiveProject">ProjectManager::GetActiveProject()</a>, <a class="el" href="classCompileTargetBase#qh-GetBasePath">CompileTargetBase::GetBasePath()</a>, <a class="el" href="classcbProject#fh-GetBuildTarget">cbProject::GetBuildTarget()</a>, <a class="el" href="classcbProject#oa-GetBuildTargetsCount">cbProject::GetBuildTargetsCount()</a>, <a class="el" href="classEditorManager#rw-GetBuiltinEditor">GetBuiltinEditor()</a>, <a class="el" href="classEditorManager#wn-GetEditor">GetEditor()</a>, <a class="el" href="classEditorManager#hm-GetEditorsCount">GetEditorsCount()</a>, <a class="el" href="classcbProject#j4-GetFileByFilename">cbProject::GetFileByFilename()</a>, <a class="el" href="classEditorBase#e0-GetFilename">EditorBase::GetFilename()</a>, <a class="el" href="classcbProject#ym-GetFilesList">cbProject::GetFilesList()</a>, <a class="el" href="classCompileOptionsBase#lt-GetIncludeDirs">CompileOptionsBase::GetIncludeDirs()</a>, <a class="el" href="classManager#z0-GetMacrosManager">Manager::GetMacrosManager()</a>, <a class="el" href="classProjectFile#lr-GetParentProject">ProjectFile::GetParentProject()</a>, <a class="el" href="classcbEditor#l2-GetProjectFile">cbEditor::GetProjectFile()</a>, <a class="el" href="classManager#z6-GetProjectManager">Manager::GetProjectManager()</a>, <a class="el" href="classProjectManager#p8-GetUI">ProjectManager::GetUI()</a>, <a class="el" href="namespaceFileFilters#mk-H_EXT">FileFilters::H_EXT</a>, <a class="el" href="classEditorManager#u7-New">New()</a>, <a class="el" href="classEditorManager#ua-Open">Open()</a>, <a class="el" href="classcbProjectManagerUI#n3-RebuildTree">cbProjectManagerUI::RebuildTree()</a>, <a class="el" href="classMacrosManager#lm-ReplaceMacros">MacrosManager::ReplaceMacros()</a>, and <a class="el" href="classcbEditor#b5-SetProjectFile">cbEditor::SetProjectFile()</a>.</p>
 
 <p>Referenced by <a class="el" href="classcbEditor#dd-OnContextMenuEntry">cbEditor::OnContextMenuEntry()</a>, <a class="el" href="classMainFrame#q6-OnEditSwapHeaderSource">MainFrame::OnEditSwapHeaderSource()</a>, <a class="el" href="classEditorManager#nu-OnSwapHeaderSource">OnSwapHeaderSource()</a>, and <a class="el" href="namespaceScriptBindings#yj-RegisterBindings">ScriptBindings::RegisterBindings()</a>.</p>
 
@@ -2423,7 +2773,7 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Referenced by <a class="el" href="classEditorManager#t4-ActivateNext">ActivateNext()</a>, <a class="el" href="classEditorManager#o0-ActivatePrevious">ActivatePrevious()</a>, <a class="el" href="classEditorManager#li-AddEditorBase">AddEditorBase()</a>, <a class="el" href="classEditorManager#ve-CheckForExternallyModifiedFil">CheckForExternallyModifiedFiles()</a>, <a class="el" href="classEditorManager#by-Close">Close()</a>, <a class="el" href="classEditorManager#pr-CloseAllExcept">CloseAllExcept()</a>, <a class="el" href="classEditorManager#uq-FindPageFromEditor">FindPageFromEditor()</a>, <a class="el" href="classEditorManager#ao-GetActiveEditor">GetActiveEditor()</a>, <a class="el" href="classEditorManager#hm-GetEditorsCount">GetEditorsCount()</a>, <a class="el" href="classEditorManager#t2-GetNotebookStack">GetNotebookStack()</a>, <a class="el" href="classEditorManager#cu-HideNotebook">HideNotebook()</a>, <a class="el" href="classEditorManager#ws-InternalGetEditorBase">InternalGetEditorBase()</a>, <a class="el" href="classEditorManager#sv-IsOpen">IsOpen()</a>, <a class="el" href="classEditorManager#fk-MarkReadOnly">MarkReadOnly()</a>, <a class="el" href="classEditorManager#u7-New">New()</a>, <a class="el" href="classEditorManager#t3-OnPageChanged">OnPageChanged()</a>, <a class="el" href="classEditorManager#da-OnPageChanging">OnPageChanging()</a>, <a class="el" href="classEditorManager#m6-OnPageClose">OnPageClose()</a>, <a class="el" href="classEditorManager#hj-OnPageContextMenu">OnPageContextMenu()</a>, <a class="el" href="classEditorManager#vw-OnSave">OnSave()</a>, <a class="el" href="classEditorManager#qz-OnTabPosition">OnTabPosition()</a>, <a class="el" href="classEditorManager#r8-Open">Open()</a>, <a class="el" href="classEditorManager#f2-Print">Print()</a>, <a class="el" href="classEditorManager#wk-QueryCloseAll">QueryCloseAll()</a>, <a class="el" href="classEditorManager#og-RebuildNotebookStack">RebuildNotebookStack()</a>, <a class="el" href="classEditorManager#ef-RecreateOpenEditorStyles">RecreateOpenEditorStyles()</a>, <a class="el" href="classEditorManager#ox-RemoveEditorBase">RemoveEditorBase()</a>, <a class="el" href="classEditorManager#i3-SaveAll">SaveAll()</a>, <a class="el" href="classEditorManager#qh-SetActiveEditor">SetActiveEditor()</a>, <a class="el" href="classEditorManager#eu-SetColourSet">SetColourSet()</a>, <a class="el" href="classEditorManager#ts-ShowNotebook">ShowNotebook()</a>, and <a class="el" href="classEditorManager#iz-UpdateProjectFiles">UpdateProjectFiles()</a>.</p>
+<p>Referenced by <a class="el" href="classEditorManager#t4-ActivateNext">ActivateNext()</a>, <a class="el" href="classEditorManager#o0-ActivatePrevious">ActivatePrevious()</a>, <a class="el" href="classEditorManager#li-AddEditorBase">AddEditorBase()</a>, <a class="el" href="classEditorManager#ve-CheckForExternallyModifiedFil">CheckForExternallyModifiedFiles()</a>, <a class="el" href="classEditorManager#by-Close">Close()</a>, <a class="el" href="classEditorManager#rz-CloseAll">CloseAll()</a>, <a class="el" href="classEditorManager#pr-CloseAllExcept">CloseAllExcept()</a>, <a class="el" href="classEditorManager#cd-CloseEditors">CloseEditors()</a>, <a class="el" href="classEditorManager#uq-FindPageFromEditor">FindPageFromEditor()</a>, <a class="el" href="classEditorManager#ao-GetActiveEditor">GetActiveEditor()</a>, <a class="el" href="classEditorManager#hm-GetEditorsCount">GetEditorsCount()</a>, <a class="el" href="classEditorManager#ug-GetEditorsInTabCtrl">GetEditorsInTabCtrl()</a>, <a class="el" href="classEditorManager#t2-GetNotebookStack">GetNotebookStack()</a>, <a class="el" href="classEditorManager#cu-HideNotebook">HideNotebook()</a>, <a class="el" href="classEditorManager#ws-InternalGetEditorBase">InternalGetEditorBase()</a>, <a class="el" href="classEditorManager#sv-IsOpen">IsOpen()</a>, <a class="el" href="classEditorManager#fk-MarkReadOnly">MarkReadOnly()</a>, <a class="el" href="classEditorManager#u7-New">New()</a>, <a class="el" href="classEditorManager#t3-OnPageChanged">OnPageChanged()</a>, <a class="el" href="classEditorManager#da-OnPageChanging">OnPageChanging()</a>, <a class="el" href="classEditorManager#m6-OnPageClose">OnPageClose()</a>, <a class="el" href="classEditorManager#hj-OnPageContextMenu">OnPageContextMenu()</a>, <a class="el" href="classEditorManager#vw-OnSave">OnSave()</a>, <a class="el" href="classEditorManager#qz-OnTabPosition">OnTabPosition()</a>, <a class="el" href="classEditorManager#r8-Open">Open()</a>, <a class="el" href="classEditorManager#f2-Print">Print()</a>, <a class="el" href="classEditorManager#wk-QueryCloseAll">QueryCloseAll()</a>, <a class="el" href="classEditorManager#og-RebuildNotebookStack">RebuildNotebookStack()</a>, <a class="el" href="classEditorManager#ef-RecreateOpenEditorStyles">RecreateOpenEditorStyles()</a>, <a class="el" href="classEditorManager#ox-RemoveEditorBase">RemoveEditorBase()</a>, <a class="el" href="classEditorManager#i3-SaveAll">SaveAll()</a>, <a class="el" href="classEditorManager#qh-SetActiveEditor">SetActiveEditor()</a>, <a class="el" href="classEditorManager#eu-SetColourSet">SetColourSet()</a>, <a class="el" href="classEditorManager#ts-ShowNotebook">ShowNotebook()</a>, and <a class="el" href="classEditorManager#iz-UpdateProjectFiles">UpdateProjectFiles()</a>.</p>
 
 </div>
 </div>
