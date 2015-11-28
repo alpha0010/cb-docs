@@ -18,7 +18,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">Code::Blocks
-   &#160;<span id="projectnumber">SVN r10408</span>
+   &#160;<span id="projectnumber">SVN r10603</span>
    </div>
   </td>
  </tr>
@@ -75,14 +75,14 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:u6-GetWindow"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ul-Clear"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcbDisassemblyDlg#ul-Clear">Clear</a> (const <a class="el" href="classcbStackFrame">cbStackFrame</a> &amp;frame)=0</td></tr>
 <tr class="separator:ul-Clear"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gq-AddAssemblerLine"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcbDisassemblyDlg#gq-AddAssemblerLine">AddAssemblerLine</a> (size_t addr, const wxString &amp;line)=0</td></tr>
-<tr class="separator:gq-AddAssemblerLine"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:j7-AddSourceLine"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcbDisassemblyDlg#j7-AddSourceLine">AddSourceLine</a> (size_t lineno, const wxString &amp;line)=0</td></tr>
-<tr class="separator:j7-AddSourceLine"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:b2-SetActiveAddress"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcbDisassemblyDlg#b2-SetActiveAddress">SetActiveAddress</a> (size_t addr)=0</td></tr>
-<tr class="separator:b2-SetActiveAddress"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:zo-CenterLine"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcbDisassemblyDlg#zo-CenterLine">CenterLine</a> (size_t lineno)=0</td></tr>
-<tr class="separator:zo-CenterLine"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:jo-AddAssemblerLine"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcbDisassemblyDlg#jo-AddAssemblerLine">AddAssemblerLine</a> (uint64_t addr, const wxString &amp;line)=0</td></tr>
+<tr class="separator:jo-AddAssemblerLine"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5-AddSourceLine"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcbDisassemblyDlg#a5-AddSourceLine">AddSourceLine</a> (int lineno, const wxString &amp;line)=0</td></tr>
+<tr class="separator:a5-AddSourceLine"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:su-SetActiveAddress"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcbDisassemblyDlg#su-SetActiveAddress">SetActiveAddress</a> (uint64_t addr)=0</td></tr>
+<tr class="separator:su-SetActiveAddress"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:qf-CenterLine"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcbDisassemblyDlg#qf-CenterLine">CenterLine</a> (int lineno)=0</td></tr>
+<tr class="separator:qf-CenterLine"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:jm-CenterCurrentLine"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcbDisassemblyDlg#jm-CenterCurrentLine">CenterCurrentLine</a> ()=0</td></tr>
 <tr class="separator:jm-CenterCurrentLine"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:qq-HasActiveAddr"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcbDisassemblyDlg#qq-HasActiveAddr">HasActiveAddr</a> ()=0</td></tr>
@@ -115,7 +115,7 @@ Public Member Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="gq-AddAssemblerLine"></a>
+<a class="anchor" id="jo-AddAssemblerLine"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -125,7 +125,7 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="memname">virtual void cbDisassemblyDlg::AddAssemblerLine </td>
           <td>(</td>
-          <td class="paramtype">size_t&#160;</td>
+          <td class="paramtype">uint64_t&#160;</td>
           <td class="paramname"><em>addr</em>, </td>
         </tr>
         <tr>
@@ -147,13 +147,13 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implemented in <a class="el" href="classDisassemblyDlg#h2-AddAssemblerLine">DisassemblyDlg</a>.</p>
+<p>Implemented in <a class="el" href="classDisassemblyDlg#cm-AddAssemblerLine">DisassemblyDlg</a>.</p>
 
 <p>Referenced by <a class="el" href="classCdbCmd__Disassembly#dy-ParseOutput">CdbCmd_Disassembly::ParseOutput()</a>, and <a class="el" href="classGdbCmd__Disassembly#vx-ParseOutput">GdbCmd_Disassembly::ParseOutput()</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="j7-AddSourceLine"></a>
+<a class="anchor" id="a5-AddSourceLine"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -163,7 +163,7 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="memname">virtual void cbDisassemblyDlg::AddSourceLine </td>
           <td>(</td>
-          <td class="paramtype">size_t&#160;</td>
+          <td class="paramtype">int&#160;</td>
           <td class="paramname"><em>lineno</em>, </td>
         </tr>
         <tr>
@@ -185,7 +185,7 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implemented in <a class="el" href="classDisassemblyDlg#v0-AddSourceLine">DisassemblyDlg</a>.</p>
+<p>Implemented in <a class="el" href="classDisassemblyDlg#oy-AddSourceLine">DisassemblyDlg</a>.</p>
 
 <p>Referenced by <a class="el" href="classGdbCmd__Disassembly#vx-ParseOutput">GdbCmd_Disassembly::ParseOutput()</a>.</p>
 
@@ -218,7 +218,7 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="zo-CenterLine"></a>
+<a class="anchor" id="qf-CenterLine"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -228,7 +228,7 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="memname">virtual void cbDisassemblyDlg::CenterLine </td>
           <td>(</td>
-          <td class="paramtype">size_t&#160;</td>
+          <td class="paramtype">int&#160;</td>
           <td class="paramname"><em>lineno</em></td><td>)</td>
           <td></td>
         </tr>
@@ -240,7 +240,7 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implemented in <a class="el" href="classDisassemblyDlg#ar-CenterLine">DisassemblyDlg</a>.</p>
+<p>Implemented in <a class="el" href="classDisassemblyDlg#pm-CenterLine">DisassemblyDlg</a>.</p>
 
 </div>
 </div>
@@ -352,7 +352,7 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="b2-SetActiveAddress"></a>
+<a class="anchor" id="su-SetActiveAddress"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -362,7 +362,7 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="memname">virtual bool cbDisassemblyDlg::SetActiveAddress </td>
           <td>(</td>
-          <td class="paramtype">size_t&#160;</td>
+          <td class="paramtype">uint64_t&#160;</td>
           <td class="paramname"><em>addr</em></td><td>)</td>
           <td></td>
         </tr>
@@ -374,7 +374,7 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implemented in <a class="el" href="classDisassemblyDlg#x8-SetActiveAddress">DisassemblyDlg</a>.</p>
+<p>Implemented in <a class="el" href="classDisassemblyDlg#lh-SetActiveAddress">DisassemblyDlg</a>.</p>
 
 <p>Referenced by <a class="el" href="classDebuggerGDB#fx-OnCursorChanged">DebuggerGDB::OnCursorChanged()</a>, <a class="el" href="classCdbCmd__DisassemblyInit#ow-ParseOutput">CdbCmd_DisassemblyInit::ParseOutput()</a>, <a class="el" href="classGdbCmd__DisassemblyInit#ir-ParseOutput">GdbCmd_DisassemblyInit::ParseOutput()</a>, and <a class="el" href="classGdbCmd__StepOrNextInstruction#ls-ParseOutput">GdbCmd_StepOrNextInstruction::ParseOutput()</a>.</p>
 

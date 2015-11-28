@@ -18,7 +18,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">Code::Blocks
-   &#160;<span id="projectnumber">SVN r10408</span>
+   &#160;<span id="projectnumber">SVN r10603</span>
    </div>
   </td>
  </tr>
@@ -71,7 +71,7 @@
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for tokenizer.cpp:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="tokenizer_8cpp__incl.svg" width="2879" height="486"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="tokenizer_8cpp__incl.svg" width="3016" height="486"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </div><table class="memberdecls">
@@ -97,6 +97,8 @@ Functions</h2></td></tr>
 <tr class="separator:a9-colon"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:kp-colon_colon"><td class="memItemLeft" align="right" valign="top">const wxString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceTokenizerConsts#kp-colon_colon">TokenizerConsts::colon_colon</a> (_T(&quot;::&quot;))</td></tr>
 <tr class="separator:kp-colon_colon"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:yv-equal"><td class="memItemLeft" align="right" valign="top">const wxString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceTokenizerConsts#yv-equal">TokenizerConsts::equal</a> (_T(&quot;=&quot;))</td></tr>
+<tr class="separator:yv-equal"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:sk-kw_if"><td class="memItemLeft" align="right" valign="top">const wxString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceTokenizerConsts#sk-kw_if">TokenizerConsts::kw_if</a> (_T(&quot;if&quot;))</td></tr>
 <tr class="separator:sk-kw_if"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:tt-kw_ifdef"><td class="memItemLeft" align="right" valign="top">const wxString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceTokenizerConsts#tt-kw_ifdef">TokenizerConsts::kw_ifdef</a> (_T(&quot;ifdef&quot;))</td></tr>
@@ -117,11 +119,15 @@ Functions</h2></td></tr>
 <tr class="separator:sy-hash"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:n1-tabcrlf"><td class="memItemLeft" align="right" valign="top">const wxString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceTokenizerConsts#n1-tabcrlf">TokenizerConsts::tabcrlf</a> (_T(&quot;\t\n\r&quot;))</td></tr>
 <tr class="separator:n1-tabcrlf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:qb-kw_define"><td class="memItemLeft" align="right" valign="top">const wxString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceTokenizerConsts#qb-kw_define">TokenizerConsts::kw_define</a> (_T(&quot;define&quot;))</td></tr>
+<tr class="separator:qb-kw_define"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:co-kw_undef"><td class="memItemLeft" align="right" valign="top">const wxString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceTokenizerConsts#co-kw_undef">TokenizerConsts::kw_undef</a> (_T(&quot;undef&quot;))</td></tr>
+<tr class="separator:co-kw_undef"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:lg-s_MaxRepeatReplaceCount"><td class="memItemLeft" align="right" valign="top">static const size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tokenizer_8cpp#lg-s_MaxRepeatReplaceCount">s_MaxRepeatReplaceCount</a> = 50</td></tr>
-<tr class="separator:lg-s_MaxRepeatReplaceCount"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:tg-s_MaxMacroReplaceDepth"><td class="memItemLeft" align="right" valign="top">static const size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tokenizer_8cpp#tg-s_MaxMacroReplaceDepth">s_MaxMacroReplaceDepth</a> = 5</td></tr>
+<tr class="separator:tg-s_MaxMacroReplaceDepth"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
 <a class="anchor" id="gu-CC_TOKENIZER_DEBUG_OUTPUT"></a>
@@ -160,7 +166,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Referenced by <a class="el" href="classTokenizer#pi-CalcConditionExpression">Tokenizer::CalcConditionExpression()</a>, <a class="el" href="classTokenizer#jw-GetMacroExpandedText">Tokenizer::GetMacroExpandedText()</a>, <a class="el" href="classTokenizer#u0-GetReplacedToken">Tokenizer::GetReplacedToken()</a>, <a class="el" href="classTokenizer#v8-HandleConditionPreprocessor">Tokenizer::HandleConditionPreprocessor()</a>, <a class="el" href="classTokenizer#zq-Init">Tokenizer::Init()</a>, <a class="el" href="classTokenizer#je-KMP_Find">Tokenizer::KMP_Find()</a>, <a class="el" href="classTokenizer#zl-ReadParentheses">Tokenizer::ReadParentheses()</a>, <a class="el" href="classTokenizer#j7-ReadToEOL">Tokenizer::ReadToEOL()</a>, <a class="el" href="classTokenizer#hh-ReplaceBufferText">Tokenizer::ReplaceBufferText()</a>, <a class="el" href="classTokenizer#eo-SkipComment">Tokenizer::SkipComment()</a>, <a class="el" href="classTokenizer#hc-SkipToEOL">Tokenizer::SkipToEOL()</a>, and <a class="el" href="classTokenizer#e2-SkipToInlineCommentEnd">Tokenizer::SkipToInlineCommentEnd()</a>.</p>
+<p>Referenced by <a class="el" href="classTokenizer#pi-CalcConditionExpression">Tokenizer::CalcConditionExpression()</a>, <a class="el" href="classTokenizer#jw-GetMacroExpandedText">Tokenizer::GetMacroExpandedText()</a>, <a class="el" href="classTokenizer#v8-HandleConditionPreprocessor">Tokenizer::HandleConditionPreprocessor()</a>, <a class="el" href="classTokenizer#us-HandleUndefs">Tokenizer::HandleUndefs()</a>, <a class="el" href="classTokenizer#zq-Init">Tokenizer::Init()</a>, <a class="el" href="classTokenizer#je-KMP_Find">Tokenizer::KMP_Find()</a>, <a class="el" href="classTokenizer#po-ReadToEOL">Tokenizer::ReadToEOL()</a>, <a class="el" href="classTokenizer#i3-ReplaceBufferText">Tokenizer::ReplaceBufferText()</a>, <a class="el" href="classTokenizer#eo-SkipComment">Tokenizer::SkipComment()</a>, <a class="el" href="classTokenizer#l2-SkipToEOL">Tokenizer::SkipToEOL()</a>, and <a class="el" href="classTokenizer#e2-SkipToInlineCommentEnd">Tokenizer::SkipToInlineCommentEnd()</a>.</p>
 
 </div>
 </div>
@@ -211,7 +217,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Variable Documentation</h2>
-<a class="anchor" id="lg-s_MaxRepeatReplaceCount"></a>
+<a class="anchor" id="tg-s_MaxMacroReplaceDepth"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -219,7 +225,7 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const size_t s_MaxRepeatReplaceCount = 50</td>
+          <td class="memname">const size_t s_MaxMacroReplaceDepth = 5</td>
         </tr>
       </table>
   </td>
@@ -229,7 +235,7 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Referenced by <a class="el" href="classTokenizer#hh-ReplaceBufferText">Tokenizer::ReplaceBufferText()</a>.</p>
+<p>Referenced by <a class="el" href="classTokenizer#i3-ReplaceBufferText">Tokenizer::ReplaceBufferText()</a>.</p>
 
 </div>
 </div>

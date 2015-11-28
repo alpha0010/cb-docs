@@ -18,7 +18,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">Code::Blocks
-   &#160;<span id="projectnumber">SVN r10408</span>
+   &#160;<span id="projectnumber">SVN r10603</span>
    </div>
   </td>
  </tr>
@@ -49,6 +49,7 @@
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pro-methods">Protected Member Functions</a> &#124;
 <a href="#pro-attribs">Protected Attributes</a> &#124;
+<a href="#pri-types">Private Types</a> &#124;
 <a href="#pri-methods">Private Member Functions</a> &#124;
 <a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="#friends">Friends</a> &#124;
@@ -65,13 +66,13 @@
 <div class="dynheader">
 Inheritance diagram for Parser:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classParser__inherit__graph.svg" width="194" height="1043"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classParser__inherit__graph.svg" width="194" height="1087"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <div class="dynheader">
 Collaboration diagram for Parser:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classParser__coll__graph.svg" width="2730" height="3222"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classParser__coll__graph.svg" width="2950" height="3328"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <table class="memberdecls">
@@ -250,6 +251,12 @@ Protected Attributes</h2></td></tr>
 <tr class="memdesc:b5-m_BrowserOptions inherit pro_attribs_classParserBase"><td class="mdescLeft">&#160;</td><td class="mdescRight">options for how the symbol browser was shown  <a href="#b5-m_BrowserOptions">More...</a><br /></td></tr>
 <tr class="separator:b5-m_BrowserOptions inherit pro_attribs_classParserBase"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-types"></a>
+Private Types</h2></td></tr>
+<tr class="memitem:xu-TasksQueue"><td class="memItemLeft" align="right" valign="top">typedef std::list&lt; <a class="el" href="classcbThreadedTask">cbThreadedTask</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classParser#xu-TasksQueue">TasksQueue</a></td></tr>
+<tr class="memdesc:xu-TasksQueue"><td class="mdescLeft">&#160;</td><td class="mdescRight">A list to contain pointers to internal running threads.  <a href="#xu-TasksQueue">More...</a><br /></td></tr>
+<tr class="separator:xu-TasksQueue"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
 <tr class="memitem:rp-ParseFile"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classParser#rp-ParseFile">ParseFile</a> (const wxString &amp;filename, bool isGlobal, bool locked=false)</td></tr>
@@ -261,6 +268,15 @@ Private Member Functions</h2></td></tr>
 <tr class="memitem:f8-DisconnectEvents"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classParser#f8-DisconnectEvents">DisconnectEvents</a> ()</td></tr>
 <tr class="memdesc:f8-DisconnectEvents"><td class="mdescLeft">&#160;</td><td class="mdescRight">connect event handlers of the timers and thread pool  <a href="#f8-DisconnectEvents">More...</a><br /></td></tr>
 <tr class="separator:f8-DisconnectEvents"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ov-AddParserThread"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classParser#ov-AddParserThread">AddParserThread</a> (<a class="el" href="classcbThreadedTask">cbThreadedTask</a> *task)</td></tr>
+<tr class="memdesc:ov-AddParserThread"><td class="mdescLeft">&#160;</td><td class="mdescRight">Remember a newly created internal running threads.  <a href="#ov-AddParserThread">More...</a><br /></td></tr>
+<tr class="separator:ov-AddParserThread"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:z8-RemoveParserThread"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classParser#z8-RemoveParserThread">RemoveParserThread</a> (<a class="el" href="classcbThreadedTask">cbThreadedTask</a> *task)</td></tr>
+<tr class="memdesc:z8-RemoveParserThread"><td class="mdescLeft">&#160;</td><td class="mdescRight">Remove a completed internal running threads.  <a href="#z8-RemoveParserThread">More...</a><br /></td></tr>
+<tr class="separator:z8-RemoveParserThread"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:x2-AbortParserThreads"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classParser#x2-AbortParserThreads">AbortParserThreads</a> ()</td></tr>
+<tr class="memdesc:x2-AbortParserThreads"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tell internal running threads to abort further processing.  <a href="#x2-AbortParserThreads">More...</a><br /></td></tr>
+<tr class="separator:x2-AbortParserThreads"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
@@ -303,6 +319,8 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:k3-m_NeedMarkFileAsLocal"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classParser#k3-m_NeedMarkFileAsLocal">m_NeedMarkFileAsLocal</a></td></tr>
 <tr class="memdesc:k3-m_NeedMarkFileAsLocal"><td class="mdescLeft">&#160;</td><td class="mdescRight">if true, all the files of the current project will be labeled as "local"  <a href="#k3-m_NeedMarkFileAsLocal">More...</a><br /></td></tr>
 <tr class="separator:k3-m_NeedMarkFileAsLocal"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:rp-m_tasksQueue"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classParser#xu-TasksQueue">TasksQueue</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classParser#rp-m_tasksQueue">m_tasksQueue</a></td></tr>
+<tr class="separator:rp-m_tasksQueue"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="friends"></a>
 Friends</h2></td></tr>
@@ -312,7 +330,30 @@ Friends</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p><a class="el" href="classParser" title="Parser class holds all the tokens of a C::B project. ">Parser</a> class holds all the tokens of a C::B project. </p>
 <p><a class="el" href="classParser" title="Parser class holds all the tokens of a C::B project. ">Parser</a> class contains the <a class="el" href="classTokenTree" title="a container class to hold all the Tokens getting from parsing stage ">TokenTree</a> which is a trie structure to record the token information. For details about trie, see <a href="http://en.wikipedia.org/wiki/Trie">http://en.wikipedia.org/wiki/Trie</a> The parser class manages <a class="el" href="classParser" title="Parser class holds all the tokens of a C::B project. ">Parser</a> threaded Tasks in a ThreadPool. A <a class="el" href="classParserThread" title="A parser threaded task, which can be assigned to the thread task pool, and run there. ">ParserThread</a> object is associated with a single source file. Batch parse mode means we have a lot of files to be parsed, so a lot of ParserThreads were generated and added to the ThreadPool, and finally, the <a class="el" href="classParserThread" title="A parser threaded task, which can be assigned to the thread task pool, and run there. ">ParserThread</a> was executed by ThreadPool. </p>
-</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+</div><h2 class="groupheader">Member Typedef Documentation</h2>
+<a class="anchor" id="xu-TasksQueue"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef std::list&lt;<a class="el" href="classcbThreadedTask">cbThreadedTask</a>*&gt; <a class="el" href="classParser#xu-TasksQueue">Parser::TasksQueue</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>A list to contain pointers to internal running threads. </p>
+
+</div>
+</div>
+<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="l5-Parser"></a>
 <div class="memitem">
 <div class="memproto">
@@ -378,6 +419,35 @@ Friends</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="x2-AbortParserThreads"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Parser::AbortParserThreads </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Tell internal running threads to abort further processing. </p>
+
+<p>References <a class="el" href="classParser#rp-m_tasksQueue">m_tasksQueue</a>.</p>
+
+<p>Referenced by <a class="el" href="classParser#i0-TerminateAllThreads">TerminateAllThreads()</a>.</p>
+
+</div>
+</div>
 <a class="anchor" id="uw-AddBatchParse"></a>
 <div class="memitem">
 <div class="memproto">
@@ -490,6 +560,36 @@ Friends</h2></td></tr>
 <p>References <a class="el" href="cclogger_8h#ir-CC_LOCKER_TRACK_P_MTX_LOCK">CC_LOCKER_TRACK_P_MTX_LOCK</a>, <a class="el" href="cclogger_8h#iw-CC_LOCKER_TRACK_P_MTX_UNLOCK">CC_LOCKER_TRACK_P_MTX_UNLOCK</a>, <a class="el" href="classParser#x1-m_BatchParseFiles">m_BatchParseFiles</a>, <a class="el" href="classParser#ga-m_BatchTimer">m_BatchTimer</a>, <a class="el" href="classParser#oc-m_IsParsing">m_IsParsing</a>, <a class="el" href="namespaceParserCommon#fm-PARSER_BATCHPARSE_TIMER_DELAY">ParserCommon::PARSER_BATCHPARSE_TIMER_DELAY</a>, <a class="el" href="namespaceParserCommon#ir-s_ParserMutex">ParserCommon::s_ParserMutex</a>, and <a class="el" href="parser_8cpp#qa-TRACE">TRACE</a>.</p>
 
 <p>Referenced by <a class="el" href="classParser#sc-AddFile">AddFile()</a>, and <a class="el" href="classParser#qq-ReparseModifiedFiles">ReparseModifiedFiles()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ov-AddParserThread"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Parser::AddParserThread </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classcbThreadedTask">cbThreadedTask</a> *&#160;</td>
+          <td class="paramname"><em>task</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Remember a newly created internal running threads. </p>
+
+<p>References <a class="el" href="classParser#rp-m_tasksQueue">m_tasksQueue</a>.</p>
+
+<p>Referenced by <a class="el" href="classParser#o1-Parse">Parse()</a>.</p>
 
 </div>
 </div>
@@ -927,7 +1027,7 @@ Friends</h2></td></tr>
   </dd>
 </dl>
 
-<p>References <a class="el" href="classcbThreadPool#rm-AddTask">cbThreadPool::AddTask()</a>, <a class="el" href="structParserThreadOptions#m7-bufferSkipBlocks">ParserThreadOptions::bufferSkipBlocks</a>, <a class="el" href="structParserThreadOptions#mc-bufferSkipOuterBlocks">ParserThreadOptions::bufferSkipOuterBlocks</a>, <a class="el" href="cclogger_8h#ap-CC_LOCKER_TRACK_TT_MTX_LOCK">CC_LOCKER_TRACK_TT_MTX_LOCK</a>, <a class="el" href="cclogger_8h#al-CC_LOCKER_TRACK_TT_MTX_UNLOCK">CC_LOCKER_TRACK_TT_MTX_UNLOCK</a>, <a class="el" href="structParserThreadOptions#k0-followGlobalIncludes">ParserThreadOptions::followGlobalIncludes</a>, <a class="el" href="structParserOptions#r4-followGlobalIncludes">ParserOptions::followGlobalIncludes</a>, <a class="el" href="structParserThreadOptions#zu-followLocalIncludes">ParserThreadOptions::followLocalIncludes</a>, <a class="el" href="structParserOptions#rw-followLocalIncludes">ParserOptions::followLocalIncludes</a>, <a class="el" href="classManager#rz-Get">Manager::Get()</a>, <a class="el" href="classManager#ez-GetFileManager">Manager::GetFileManager()</a>, <a class="el" href="classTokenTree#vv-IsFileParsed">TokenTree::IsFileParsed()</a>, <a class="el" href="classFileManager#cn-Load">FileManager::Load()</a>, <a class="el" href="structParserThreadOptions#li-loader">ParserThreadOptions::loader</a>, <a class="el" href="classParser#b7-m_NeedsReparse">m_NeedsReparse</a>, <a class="el" href="classParserBase#em-m_Options">ParserBase::m_Options</a>, <a class="el" href="classParser#l6-m_Pool">m_Pool</a>, <a class="el" href="classParserBase#cr-m_TokenTree">ParserBase::m_TokenTree</a>, <a class="el" href="classParserThread#te-Parse">ParserThread::Parse()</a>, <a class="el" href="structParserThreadOptions#y8-parseComplexMacros">ParserThreadOptions::parseComplexMacros</a>, <a class="el" href="structParserOptions#q8-parseComplexMacros">ParserOptions::parseComplexMacros</a>, <a class="el" href="classParserBase#ne-ParserThread">ParserBase::ParserThread</a>, <a class="el" href="structParserThreadOptions#kw-platformCheck">ParserThreadOptions::platformCheck</a>, <a class="el" href="structParserOptions#a3-platformCheck">ParserOptions::platformCheck</a>, <a class="el" href="classTokenTree#na-ReserveFileForParsing">TokenTree::ReserveFileForParsing()</a>, <a class="el" href="tokentree_8cpp#ko-s_TokenTreeMutex">s_TokenTreeMutex</a>, <a class="el" href="structParserThreadOptions#x0-storeDocumentation">ParserThreadOptions::storeDocumentation</a>, <a class="el" href="structParserOptions#wh-storeDocumentation">ParserOptions::storeDocumentation</a>, <a class="el" href="parser_8cpp#qa-TRACE">TRACE</a>, <a class="el" href="structParserThreadOptions#du-useBuffer">ParserThreadOptions::useBuffer</a>, <a class="el" href="structParserThreadOptions#ju-wantPreprocessor">ParserThreadOptions::wantPreprocessor</a>, and <a class="el" href="structParserOptions#qw-wantPreprocessor">ParserOptions::wantPreprocessor</a>.</p>
+<p>References <a class="el" href="classParser#ov-AddParserThread">AddParserThread()</a>, <a class="el" href="classcbThreadPool#rm-AddTask">cbThreadPool::AddTask()</a>, <a class="el" href="structParserThreadOptions#m7-bufferSkipBlocks">ParserThreadOptions::bufferSkipBlocks</a>, <a class="el" href="structParserThreadOptions#mc-bufferSkipOuterBlocks">ParserThreadOptions::bufferSkipOuterBlocks</a>, <a class="el" href="cclogger_8h#ap-CC_LOCKER_TRACK_TT_MTX_LOCK">CC_LOCKER_TRACK_TT_MTX_LOCK</a>, <a class="el" href="cclogger_8h#al-CC_LOCKER_TRACK_TT_MTX_UNLOCK">CC_LOCKER_TRACK_TT_MTX_UNLOCK</a>, <a class="el" href="structParserThreadOptions#k0-followGlobalIncludes">ParserThreadOptions::followGlobalIncludes</a>, <a class="el" href="structParserOptions#r4-followGlobalIncludes">ParserOptions::followGlobalIncludes</a>, <a class="el" href="structParserThreadOptions#zu-followLocalIncludes">ParserThreadOptions::followLocalIncludes</a>, <a class="el" href="structParserOptions#rw-followLocalIncludes">ParserOptions::followLocalIncludes</a>, <a class="el" href="classManager#rz-Get">Manager::Get()</a>, <a class="el" href="classManager#ez-GetFileManager">Manager::GetFileManager()</a>, <a class="el" href="classTokenTree#vv-IsFileParsed">TokenTree::IsFileParsed()</a>, <a class="el" href="classFileManager#cn-Load">FileManager::Load()</a>, <a class="el" href="structParserThreadOptions#li-loader">ParserThreadOptions::loader</a>, <a class="el" href="classParser#b7-m_NeedsReparse">m_NeedsReparse</a>, <a class="el" href="classParserBase#em-m_Options">ParserBase::m_Options</a>, <a class="el" href="classParser#l6-m_Pool">m_Pool</a>, <a class="el" href="classParserBase#cr-m_TokenTree">ParserBase::m_TokenTree</a>, <a class="el" href="classParserThread#te-Parse">ParserThread::Parse()</a>, <a class="el" href="structParserThreadOptions#y8-parseComplexMacros">ParserThreadOptions::parseComplexMacros</a>, <a class="el" href="structParserOptions#q8-parseComplexMacros">ParserOptions::parseComplexMacros</a>, <a class="el" href="classParserBase#ne-ParserThread">ParserBase::ParserThread</a>, <a class="el" href="structParserThreadOptions#kw-platformCheck">ParserThreadOptions::platformCheck</a>, <a class="el" href="structParserOptions#a3-platformCheck">ParserOptions::platformCheck</a>, <a class="el" href="classParser#z8-RemoveParserThread">RemoveParserThread()</a>, <a class="el" href="classTokenTree#na-ReserveFileForParsing">TokenTree::ReserveFileForParsing()</a>, <a class="el" href="tokentree_8cpp#ko-s_TokenTreeMutex">s_TokenTreeMutex</a>, <a class="el" href="structParserThreadOptions#x0-storeDocumentation">ParserThreadOptions::storeDocumentation</a>, <a class="el" href="structParserOptions#wh-storeDocumentation">ParserOptions::storeDocumentation</a>, <a class="el" href="parser_8cpp#qa-TRACE">TRACE</a>, <a class="el" href="structParserThreadOptions#du-useBuffer">ParserThreadOptions::useBuffer</a>, <a class="el" href="structParserThreadOptions#ju-wantPreprocessor">ParserThreadOptions::wantPreprocessor</a>, and <a class="el" href="structParserOptions#qw-wantPreprocessor">ParserOptions::wantPreprocessor</a>.</p>
 
 <p>Referenced by <a class="el" href="classParserThreadedTask#fr-Execute">ParserThreadedTask::Execute()</a>, and <a class="el" href="classParser#rp-ParseFile">ParseFile()</a>.</p>
 
@@ -1000,7 +1100,7 @@ Friends</h2></td></tr>
 
 <p>Reimplemented from <a class="el" href="classParserBase#kd-ParseBuffer">ParserBase</a>.</p>
 
-<p>References <a class="el" href="structParserThreadOptions#m7-bufferSkipBlocks">ParserThreadOptions::bufferSkipBlocks</a>, <a class="el" href="cclogger_8h#ap-CC_LOCKER_TRACK_TT_MTX_LOCK">CC_LOCKER_TRACK_TT_MTX_LOCK</a>, <a class="el" href="cclogger_8h#al-CC_LOCKER_TRACK_TT_MTX_UNLOCK">CC_LOCKER_TRACK_TT_MTX_UNLOCK</a>, <a class="el" href="structParserThreadOptions#pm-fileOfBuffer">ParserThreadOptions::fileOfBuffer</a>, <a class="el" href="structParserThreadOptions#k0-followGlobalIncludes">ParserThreadOptions::followGlobalIncludes</a>, <a class="el" href="structParserThreadOptions#zu-followLocalIncludes">ParserThreadOptions::followLocalIncludes</a>, <a class="el" href="structParserThreadOptions#wc-handleFunctions">ParserThreadOptions::handleFunctions</a>, <a class="el" href="structParserThreadOptions#ui-initLineOfBuffer">ParserThreadOptions::initLineOfBuffer</a>, <a class="el" href="structParserThreadOptions#s3-isTemp">ParserThreadOptions::isTemp</a>, <a class="el" href="classParserBase#em-m_Options">ParserBase::m_Options</a>, <a class="el" href="classParserBase#cr-m_TokenTree">ParserBase::m_TokenTree</a>, <a class="el" href="structParserThreadOptions#ud-parentIdxOfBuffer">ParserThreadOptions::parentIdxOfBuffer</a>, <a class="el" href="classParserThread#te-Parse">ParserThread::Parse()</a>, <a class="el" href="structParserThreadOptions#y8-parseComplexMacros">ParserThreadOptions::parseComplexMacros</a>, <a class="el" href="structParserThreadOptions#kw-platformCheck">ParserThreadOptions::platformCheck</a>, <a class="el" href="tokentree_8cpp#ko-s_TokenTreeMutex">s_TokenTreeMutex</a>, <a class="el" href="structParserThreadOptions#x0-storeDocumentation">ParserThreadOptions::storeDocumentation</a>, <a class="el" href="structParserOptions#wh-storeDocumentation">ParserOptions::storeDocumentation</a>, <a class="el" href="structParserThreadOptions#du-useBuffer">ParserThreadOptions::useBuffer</a>, <a class="el" href="structParserThreadOptions#ju-wantPreprocessor">ParserThreadOptions::wantPreprocessor</a>, and <a class="el" href="structParserOptions#qw-wantPreprocessor">ParserOptions::wantPreprocessor</a>.</p>
+<p>References <a class="el" href="structParserThreadOptions#m7-bufferSkipBlocks">ParserThreadOptions::bufferSkipBlocks</a>, <a class="el" href="cclogger_8h#ap-CC_LOCKER_TRACK_TT_MTX_LOCK">CC_LOCKER_TRACK_TT_MTX_LOCK</a>, <a class="el" href="cclogger_8h#al-CC_LOCKER_TRACK_TT_MTX_UNLOCK">CC_LOCKER_TRACK_TT_MTX_UNLOCK</a>, <a class="el" href="structParserThreadOptions#pm-fileOfBuffer">ParserThreadOptions::fileOfBuffer</a>, <a class="el" href="structParserThreadOptions#k0-followGlobalIncludes">ParserThreadOptions::followGlobalIncludes</a>, <a class="el" href="structParserThreadOptions#zu-followLocalIncludes">ParserThreadOptions::followLocalIncludes</a>, <a class="el" href="structParserThreadOptions#wc-handleFunctions">ParserThreadOptions::handleFunctions</a>, <a class="el" href="structParserThreadOptions#ui-initLineOfBuffer">ParserThreadOptions::initLineOfBuffer</a>, <a class="el" href="structParserThreadOptions#s3-isTemp">ParserThreadOptions::isTemp</a>, <a class="el" href="classParserBase#em-m_Options">ParserBase::m_Options</a>, <a class="el" href="classParserBase#cr-m_TokenTree">ParserBase::m_TokenTree</a>, <a class="el" href="structParserThreadOptions#ud-parentIdxOfBuffer">ParserThreadOptions::parentIdxOfBuffer</a>, <a class="el" href="classParserThread#te-Parse">ParserThread::Parse()</a>, <a class="el" href="structParserThreadOptions#y8-parseComplexMacros">ParserThreadOptions::parseComplexMacros</a>, <a class="el" href="structParserOptions#q8-parseComplexMacros">ParserOptions::parseComplexMacros</a>, <a class="el" href="structParserThreadOptions#kw-platformCheck">ParserThreadOptions::platformCheck</a>, <a class="el" href="tokentree_8cpp#ko-s_TokenTreeMutex">s_TokenTreeMutex</a>, <a class="el" href="structParserThreadOptions#x0-storeDocumentation">ParserThreadOptions::storeDocumentation</a>, <a class="el" href="structParserOptions#wh-storeDocumentation">ParserOptions::storeDocumentation</a>, <a class="el" href="structParserThreadOptions#du-useBuffer">ParserThreadOptions::useBuffer</a>, <a class="el" href="structParserThreadOptions#ju-wantPreprocessor">ParserThreadOptions::wantPreprocessor</a>, and <a class="el" href="structParserOptions#qw-wantPreprocessor">ParserOptions::wantPreprocessor</a>.</p>
 
 <p>Referenced by <a class="el" href="classParserThreadedTask#fr-Execute">ParserThreadedTask::Execute()</a>.</p>
 
@@ -1283,6 +1383,36 @@ Friends</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="z8-RemoveParserThread"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Parser::RemoveParserThread </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classcbThreadedTask">cbThreadedTask</a> *&#160;</td>
+          <td class="paramname"><em>task</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Remove a completed internal running threads. </p>
+
+<p>References <a class="el" href="classParser#rp-m_tasksQueue">m_tasksQueue</a>.</p>
+
+<p>Referenced by <a class="el" href="classParser#o1-Parse">Parse()</a>.</p>
+
+</div>
+</div>
 <a class="anchor" id="zd-Reparse"></a>
 <div class="memitem">
 <div class="memproto">
@@ -1429,7 +1559,7 @@ Friends</h2></td></tr>
 
 <p>cancel all the tasks in the thread pool m_Pool </p>
 
-<p>References <a class="el" href="classcbThreadPool#s5-AbortAllTasks">cbThreadPool::AbortAllTasks()</a>, <a class="el" href="classcbThreadPool#lj-Done">cbThreadPool::Done()</a>, and <a class="el" href="classParser#l6-m_Pool">m_Pool</a>.</p>
+<p>References <a class="el" href="classcbThreadPool#s5-AbortAllTasks">cbThreadPool::AbortAllTasks()</a>, <a class="el" href="classParser#x2-AbortParserThreads">AbortParserThreads()</a>, <a class="el" href="classcbThreadPool#lj-Done">cbThreadPool::Done()</a>, and <a class="el" href="classParser#l6-m_Pool">m_Pool</a>.</p>
 
 <p>Referenced by <a class="el" href="classParser#ij-Parser">~Parser()</a>.</p>
 
@@ -1943,6 +2073,28 @@ Friends</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Referenced by <a class="el" href="classParser#qu-EndStopWatch">EndStopWatch()</a>, and <a class="el" href="classParser#zj-StartStopWatch">StartStopWatch()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="rp-m_tasksQueue"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classParser#xu-TasksQueue">TasksQueue</a> Parser::m_tasksQueue</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Referenced by <a class="el" href="classParser#x2-AbortParserThreads">AbortParserThreads()</a>, <a class="el" href="classParser#ov-AddParserThread">AddParserThread()</a>, and <a class="el" href="classParser#z8-RemoveParserThread">RemoveParserThread()</a>.</p>
 
 </div>
 </div>

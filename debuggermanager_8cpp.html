@@ -18,7 +18,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">Code::Blocks
-   &#160;<span id="projectnumber">SVN r10408</span>
+   &#160;<span id="projectnumber">SVN r10603</span>
    </div>
   </td>
  </tr>
@@ -75,6 +75,7 @@
 <code>#include &quot;<a class="el" href="logmanager_8h_source">logmanager.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="projectmanager_8h_source">projectmanager.h</a>&quot;</code><br />
 <code>#include &lt;algorithm&gt;</code><br />
+<code>#include &lt;sstream&gt;</code><br />
 <code>#include &lt;wx/toolbar.h&gt;</code><br />
 <code>#include &quot;<a class="el" href="debuggermanager_8h_source">debuggermanager.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="annoyingdialog_8h_source">annoyingdialog.h</a>&quot;</code><br />
@@ -84,7 +85,7 @@
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for debuggermanager.cpp:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="debuggermanager_8cpp__incl.svg" width="3364" height="411"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="debuggermanager_8cpp__incl.svg" width="3315" height="411"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </div><table class="memberdecls">
@@ -104,6 +105,12 @@ Functions</h2></td></tr>
 <tr class="memitem:t8-cbDetectDebuggerExecutable"><td class="memItemLeft" align="right" valign="top">wxString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="debuggermanager_8cpp#t8-cbDetectDebuggerExecutable">cbDetectDebuggerExecutable</a> (const wxString &amp;exeName)</td></tr>
 <tr class="memdesc:t8-cbDetectDebuggerExecutable"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tries to detect the path to the debugger's executable.  <a href="#t8-cbDetectDebuggerExecutable">More...</a><br /></td></tr>
 <tr class="separator:t8-cbDetectDebuggerExecutable"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:b7-cbDebuggerStringToAddress"><td class="memItemLeft" align="right" valign="top">uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="debuggermanager_8cpp#b7-cbDebuggerStringToAddress">cbDebuggerStringToAddress</a> (const wxString &amp;address)</td></tr>
+<tr class="memdesc:b7-cbDebuggerStringToAddress"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert a string in hex form to a uint64_t number.  <a href="#b7-cbDebuggerStringToAddress">More...</a><br /></td></tr>
+<tr class="separator:b7-cbDebuggerStringToAddress"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:c5-cbDebuggerAddressToString"><td class="memItemLeft" align="right" valign="top">wxString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="debuggermanager_8cpp#c5-cbDebuggerAddressToString">cbDebuggerAddressToString</a> (uint64_t address)</td></tr>
+<tr class="memdesc:c5-cbDebuggerAddressToString"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert a uint64_t variable to a hex string that will look like an address.  <a href="#c5-cbDebuggerAddressToString">More...</a><br /></td></tr>
+<tr class="separator:c5-cbDebuggerAddressToString"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:u9-ReadActiveDebuggerConfig"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="debuggermanager_8cpp#u9-ReadActiveDebuggerConfig">ReadActiveDebuggerConfig</a> (wxString &amp;name, int &amp;configIndex)</td></tr>
 <tr class="separator:u9-ReadActiveDebuggerConfig"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:pg-WriteActiveDebuggerConfig"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="debuggermanager_8cpp#pg-WriteActiveDebuggerConfig">WriteActiveDebuggerConfig</a> (const wxString &amp;name, int configIndex)</td></tr>
@@ -112,6 +119,47 @@ Functions</h2></td></tr>
 <tr class="separator:sx-RefreshBreakpoints"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
+<a class="anchor" id="c5-cbDebuggerAddressToString"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">wxString cbDebuggerAddressToString </td>
+          <td>(</td>
+          <td class="paramtype">uint64_t&#160;</td>
+          <td class="paramname"><em>address</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Convert a uint64_t variable to a hex string that will look like an address. </p>
+
+<p>Referenced by <a class="el" href="classDisassemblyDlg#cm-AddAssemblerLine">DisassemblyDlg::AddAssemblerLine()</a>, and <a class="el" href="classcbStackFrame#dw-GetAddressAsString">cbStackFrame::GetAddressAsString()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="b7-cbDebuggerStringToAddress"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint64_t cbDebuggerStringToAddress </td>
+          <td>(</td>
+          <td class="paramtype">const wxString &amp;&#160;</td>
+          <td class="paramname"><em>address</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Convert a string in hex form to a uint64_t number. </p>
+<dl class="section return"><dt>Returns</dt><dd>The uint64_t representation of the string or 0 when the string can't be converted. </dd></dl>
+
+<p>Referenced by <a class="el" href="classGdbCmd__Backtrace#qa-MatchLine">GdbCmd_Backtrace::MatchLine()</a>, <a class="el" href="classDebuggerGDB#fx-OnCursorChanged">DebuggerGDB::OnCursorChanged()</a>, <a class="el" href="classCdbCmd__Backtrace#e3-ParseOutput">CdbCmd_Backtrace::ParseOutput()</a>, <a class="el" href="classCdbCmd__Disassembly#dy-ParseOutput">CdbCmd_Disassembly::ParseOutput()</a>, <a class="el" href="classCdbCmd__DisassemblyInit#ow-ParseOutput">CdbCmd_DisassemblyInit::ParseOutput()</a>, <a class="el" href="classGdbCmd__Disassembly#vx-ParseOutput">GdbCmd_Disassembly::ParseOutput()</a>, <a class="el" href="classGdbCmd__DisassemblyInit#ir-ParseOutput">GdbCmd_DisassemblyInit::ParseOutput()</a>, <a class="el" href="classGdbCmd__StepOrNextInstruction#ls-ParseOutput">GdbCmd_StepOrNextInstruction::ParseOutput()</a>, and <a class="el" href="classDisassemblyDlg#lh-SetActiveAddress">DisassemblyDlg::SetActiveAddress()</a>.</p>
+
+</div>
+</div>
 <a class="anchor" id="t8-cbDetectDebuggerExecutable"></a>
 <div class="memitem">
 <div class="memproto">

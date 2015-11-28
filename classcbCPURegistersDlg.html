@@ -18,7 +18,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">Code::Blocks
-   &#160;<span id="projectnumber">SVN r10408</span>
+   &#160;<span id="projectnumber">SVN r10603</span>
    </div>
   </td>
  </tr>
@@ -75,8 +75,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:vf-GetWindow"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:q9-Clear"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcbCPURegistersDlg#q9-Clear">Clear</a> ()=0</td></tr>
 <tr class="separator:q9-Clear"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:rb-SetRegisterValue"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcbCPURegistersDlg#rb-SetRegisterValue">SetRegisterValue</a> (const wxString &amp;reg_name, size_t value)=0</td></tr>
-<tr class="separator:rb-SetRegisterValue"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:kp-SetRegisterValue"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcbCPURegistersDlg#kp-SetRegisterValue">SetRegisterValue</a> (const wxString &amp;reg_name, const wxString &amp;hexValue, const wxString &amp;interpreted)=0</td></tr>
+<tr class="separator:kp-SetRegisterValue"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:xx-EnableWindow"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcbCPURegistersDlg#xx-EnableWindow">EnableWindow</a> (bool enable)=0</td></tr>
 <tr class="separator:xx-EnableWindow"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -185,7 +185,7 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="rb-SetRegisterValue"></a>
+<a class="anchor" id="kp-SetRegisterValue"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -201,8 +201,14 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">size_t&#160;</td>
-          <td class="paramname"><em>value</em>&#160;</td>
+          <td class="paramtype">const wxString &amp;&#160;</td>
+          <td class="paramname"><em>hexValue</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const wxString &amp;&#160;</td>
+          <td class="paramname"><em>interpreted</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -217,7 +223,7 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implemented in <a class="el" href="classCPURegistersDlg#ug-SetRegisterValue">CPURegistersDlg</a>.</p>
+<p>Implemented in <a class="el" href="classCPURegistersDlg#fi-SetRegisterValue">CPURegistersDlg</a>.</p>
 
 <p>Referenced by <a class="el" href="classCdbCmd__InfoRegisters#gi-ParseOutput">CdbCmd_InfoRegisters::ParseOutput()</a>, <a class="el" href="classGdbCmd__InfoRegisters#ly-ParseOutput">GdbCmd_InfoRegisters::ParseOutput()</a>, and <a class="el" href="classGdbCmd__InfoRegisters#ol-ParseOutputFromOR32gdbPort">GdbCmd_InfoRegisters::ParseOutputFromOR32gdbPort()</a>.</p>
 

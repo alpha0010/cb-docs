@@ -40,23 +40,23 @@
 <path fill="none" stroke="midnightblue" d="M150.913,-168.083C143.341,-160.22 132.122,-148.569 122.986,-139.081"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="125.385,-136.527 115.927,-131.751 120.342,-141.382 125.385,-136.527"/>
 </g>
-<!-- Node8 -->
-<g id="node8" class="node"><title>Node8</title>
+<!-- Node9 -->
+<g id="node9" class="node"><title>Node9</title>
 <polygon fill="white" stroke="#bfbfbf" points="171.5,-112.5 171.5,-131.5 253.5,-131.5 253.5,-112.5 171.5,-112.5"/>
 <text text-anchor="middle" x="212.5" y="-119.5" font-family="FreeSans" font-size="10.00">wx/xrc/xmlres.h</text>
 </g>
-<!-- Node1&#45;&gt;Node8 -->
-<g id="edge7" class="edge"><title>Node1&#45;&gt;Node8</title>
+<!-- Node1&#45;&gt;Node9 -->
+<g id="edge8" class="edge"><title>Node1&#45;&gt;Node9</title>
 <path fill="none" stroke="midnightblue" d="M168.252,-168.083C175.97,-160.22 187.405,-148.569 196.717,-139.081"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="199.404,-141.34 203.911,-131.751 194.408,-136.436 199.404,-141.34"/>
 </g>
-<!-- Node9 -->
-<g id="node9" class="node"><title>Node9</title>
+<!-- Node10 -->
+<g id="node10" class="node"><title>Node10</title>
 <polygon fill="white" stroke="#bfbfbf" points="271.5,-112.5 271.5,-131.5 331.5,-131.5 331.5,-112.5 271.5,-112.5"/>
 <text text-anchor="middle" x="301.5" y="-119.5" font-family="FreeSans" font-size="10.00">wx/arrstr.h</text>
 </g>
-<!-- Node1&#45;&gt;Node9 -->
-<g id="edge8" class="edge"><title>Node1&#45;&gt;Node9</title>
+<!-- Node1&#45;&gt;Node10 -->
+<g id="edge9" class="edge"><title>Node1&#45;&gt;Node10</title>
 <path fill="none" stroke="midnightblue" d="M182,-168.444C205.577,-159.478 242.822,-145.314 269.464,-135.183"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="271.002,-138.342 279.105,-131.516 268.514,-131.8 271.002,-138.342"/>
 </g>
@@ -85,23 +85,36 @@
 </g>
 <!-- Node6 -->
 <g id="node6" class="node"><title>Node6</title>
-<polygon fill="white" stroke="#bfbfbf" points="80.5,-0.5 80.5,-19.5 144.5,-19.5 144.5,-0.5 80.5,-0.5"/>
-<text text-anchor="middle" x="112.5" y="-7.5" font-family="FreeSans" font-size="10.00">wx/dialog.h</text>
+<polygon fill="white" stroke="#bfbfbf" points="38.5,-0.5 38.5,-19.5 102.5,-19.5 102.5,-0.5 38.5,-0.5"/>
+<text text-anchor="middle" x="70.5" y="-7.5" font-family="FreeSans" font-size="10.00">wx/dialog.h</text>
 </g>
 <!-- Node5&#45;&gt;Node6 -->
 <g id="edge5" class="edge"><title>Node5&#45;&gt;Node6</title>
-<path fill="none" stroke="midnightblue" d="M148.399,-56.083C142.263,-48.3768 133.23,-37.0333 125.761,-27.6531"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="128.436,-25.3936 119.468,-19.7511 122.96,-29.7542 128.436,-25.3936"/>
+<path fill="none" stroke="midnightblue" d="M141.843,-56.324C128.584,-47.9002 108.232,-34.9709 92.6538,-25.0741"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="94.4404,-22.0626 84.1228,-19.6545 90.6867,-27.9711 94.4404,-22.0626"/>
 </g>
 <!-- Node7 -->
 <g id="node7" class="node"><title>Node7</title>
-<polygon fill="white" stroke="#bfbfbf" points="162.5,-0.5 162.5,-19.5 232.5,-19.5 232.5,-0.5 162.5,-0.5"/>
-<text text-anchor="middle" x="197.5" y="-7.5" font-family="FreeSans" font-size="10.00">wx/propdlg.h</text>
+<polygon fill="white" stroke="#bfbfbf" points="120.5,-0.5 120.5,-19.5 190.5,-19.5 190.5,-0.5 120.5,-0.5"/>
+<text text-anchor="middle" x="155.5" y="-7.5" font-family="FreeSans" font-size="10.00">wx/propdlg.h</text>
 </g>
 <!-- Node5&#45;&gt;Node7 -->
 <g id="edge6" class="edge"><title>Node5&#45;&gt;Node7</title>
-<path fill="none" stroke="midnightblue" d="M162.435,-56.083C168.429,-48.3768 177.252,-37.0333 184.548,-27.6531"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="187.317,-29.7934 190.694,-19.7511 181.791,-25.4958 187.317,-29.7934"/>
+<path fill="none" stroke="midnightblue" d="M155.5,-56.083C155.5,-49.0059 155.5,-38.8611 155.5,-29.9865"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="159,-29.751 155.5,-19.7511 152,-29.7511 159,-29.751"/>
+</g>
+<!-- Node8 -->
+<g id="node8" class="node"><title>Node8</title>
+<g id="a_node8"><a xlink:href="settings_8h" target="_top" xlink:title="settings.h">
+<polygon fill="white" stroke="black" points="209,-0.5 209,-19.5 266,-19.5 266,-0.5 209,-0.5"/>
+<text text-anchor="middle" x="237.5" y="-7.5" font-family="FreeSans" font-size="10.00">settings.h</text>
+</a>
+</g>
+</g>
+<!-- Node5&#45;&gt;Node8 -->
+<g id="edge7" class="edge"><title>Node5&#45;&gt;Node8</title>
+<path fill="none" stroke="midnightblue" d="M168.675,-56.324C181.347,-47.979 200.733,-35.2122 215.706,-25.3524"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="217.931,-28.0776 224.358,-19.6545 214.081,-22.2313 217.931,-28.0776"/>
 </g>
 </g>
 </svg>

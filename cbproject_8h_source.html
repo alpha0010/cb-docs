@@ -18,7 +18,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">Code::Blocks
-   &#160;<span id="projectnumber">SVN r10408</span>
+   &#160;<span id="projectnumber">SVN r10603</span>
    </div>
   </td>
  </tr>
@@ -381,8 +381,8 @@
 <div class="line"><a name="l00734"></a><span class="lineno"><a class="line" href="classcbProject#kf-m_pExtensionsElement">  734</a></span>&#160;        TiXmlElement* <a class="code" href="classcbProject#kf-m_pExtensionsElement">m_pExtensionsElement</a>;</div>
 <div class="line"><a name="l00735"></a><span class="lineno">  735</span>&#160;};</div>
 <div class="line"><a name="l00736"></a><span class="lineno">  736</span>&#160;</div>
-<div class="line"><a name="l00738"></a><span class="lineno">  738</span>&#160;wxString <a class="code" href="cbproject_8h#o0-cbGetDynamicLinkerPathForTarg">cbGetDynamicLinkerPathForTarget</a>(<a class="code" href="classcbProject">cbProject</a> *project, <a class="code" href="classProjectBuildTarget">ProjectBuildTarget</a>* target);</div>
-<div class="line"><a name="l00740"></a><span class="lineno">  740</span>&#160;wxString <a class="code" href="cbproject_8h#qs-cbMergeLibPaths">cbMergeLibPaths</a>(<span class="keyword">const</span> wxString &amp;oldPath, <span class="keyword">const</span> wxString &amp;newPath);</div>
+<div class="line"><a name="l00738"></a><span class="lineno">  738</span>&#160;<a class="code" href="settings_8h#oc-DLLIMPORT">DLLIMPORT</a> wxString <a class="code" href="cbproject_8h#o8-cbGetDynamicLinkerPathForTarg">cbGetDynamicLinkerPathForTarget</a>(<a class="code" href="classcbProject">cbProject</a> *project, <a class="code" href="classProjectBuildTarget">ProjectBuildTarget</a>* target);</div>
+<div class="line"><a name="l00740"></a><span class="lineno">  740</span>&#160;<a class="code" href="settings_8h#oc-DLLIMPORT">DLLIMPORT</a> wxString <a class="code" href="cbproject_8h#er-cbMergeLibPaths">cbMergeLibPaths</a>(<span class="keyword">const</span> wxString &amp;oldPath, <span class="keyword">const</span> wxString &amp;newPath);</div>
 <div class="line"><a name="l00741"></a><span class="lineno">  741</span>&#160;</div>
 <div class="line"><a name="l00742"></a><span class="lineno">  742</span>&#160;<span class="preprocessor">#endif // CBPROJECT_H</span></div>
 <div class="line"><a name="l00743"></a><span class="lineno">  743</span>&#160;</div>
@@ -399,7 +399,6 @@
 <div class="ttc" id="classcbProject_o3-SetModeForPCH"><div class="ttname"><a href="classcbProject#o3-SetModeForPCH">cbProject::SetModeForPCH</a></div><div class="ttdeci">void SetModeForPCH(PCHMode mode)</div><div class="ttdoc">Set the mode to handle precompiled headers. </div><div class="ttdef"><b>Definition:</b> cbproject.h:306</div></div>
 <div class="ttc" id="classcbProject_gz-m_CurrentlyCompilingTarget"><div class="ttname"><a href="classcbProject#gz-m_CurrentlyCompilingTarget">cbProject::m_CurrentlyCompilingTarget</a></div><div class="ttdeci">ProjectBuildTarget * m_CurrentlyCompilingTarget</div><div class="ttdef"><b>Definition:</b> cbproject.h:723</div></div>
 <div class="ttc" id="classcbProject_tx-m_Globs"><div class="ttname"><a href="classcbProject#tx-m_Globs">cbProject::m_Globs</a></div><div class="ttdeci">std::vector&lt; Glob &gt; m_Globs</div><div class="ttdef"><b>Definition:</b> cbproject.h:705</div></div>
-<div class="ttc" id="cbproject_8h_o0-cbGetDynamicLinkerPathForTarg"><div class="ttname"><a href="cbproject_8h#o0-cbGetDynamicLinkerPathForTarg">cbGetDynamicLinkerPathForTarget</a></div><div class="ttdeci">wxString cbGetDynamicLinkerPathForTarget(cbProject *project, ProjectBuildTarget *target)</div><div class="ttdoc">Returns a string valid to be used as LD_LIBRARY_PATH (or equivalent). </div><div class="ttdef"><b>Definition:</b> cbproject.cpp:1744</div></div>
 <div class="ttc" id="classFilesGroupsAndMasks"><div class="ttname"><a href="classFilesGroupsAndMasks">FilesGroupsAndMasks</a></div><div class="ttdef"><b>Definition:</b> filegroupsandmasks.h:20</div></div>
 <div class="ttc" id="classFileTreeData_dy-FileTreeDataKind:ftdkFile"><div class="ttname"><a href="classFileTreeData#dy-FileTreeDataKind:ftdkFile">FileTreeData::ftdkFile</a></div><div class="ttdef"><b>Definition:</b> cbproject.h:46</div></div>
 <div class="ttc" id="structcbProject_1_1Glob_fq-m_Recursive"><div class="ttname"><a href="structcbProject_1_1Glob#fq-m_Recursive">cbProject::Glob::m_Recursive</a></div><div class="ttdeci">bool m_Recursive</div><div class="ttdef"><b>Definition:</b> cbproject.h:428</div></div>
@@ -431,6 +430,7 @@
 <div class="ttc" id="misctreeitemdata_8h"><div class="ttname"><a href="misctreeitemdata_8h">misctreeitemdata.h</a></div></div>
 <div class="ttc" id="classcbProject_yq-m_Notes"><div class="ttname"><a href="classcbProject#yq-m_Notes">cbProject::m_Notes</a></div><div class="ttdeci">wxString m_Notes</div><div class="ttdef"><b>Definition:</b> cbproject.h:728</div></div>
 <div class="ttc" id="classcbProject"><div class="ttname"><a href="classcbProject">cbProject</a></div><div class="ttdoc">Represents a Code::Blocks project. </div><div class="ttdef"><b>Definition:</b> cbproject.h:96</div></div>
+<div class="ttc" id="cbproject_8h_o8-cbGetDynamicLinkerPathForTarg"><div class="ttname"><a href="cbproject_8h#o8-cbGetDynamicLinkerPathForTarg">cbGetDynamicLinkerPathForTarget</a></div><div class="ttdeci">DLLIMPORT wxString cbGetDynamicLinkerPathForTarget(cbProject *project, ProjectBuildTarget *target)</div><div class="ttdoc">Returns a string valid to be used as LD_LIBRARY_PATH (or equivalent). </div><div class="ttdef"><b>Definition:</b> cbproject.cpp:1747</div></div>
 <div class="ttc" id="classcbProject_xz-ExpandedNodes"><div class="ttname"><a href="classcbProject#xz-ExpandedNodes">cbProject::ExpandedNodes</a></div><div class="ttdeci">const wxArrayString &amp; ExpandedNodes()</div><div class="ttdoc">Convenience function for remembering the project&#39;s tree state when refreshing it. ...</div><div class="ttdef"><b>Definition:</b> cbproject.h:445</div></div>
 <div class="ttc" id="classcbProject_kf-m_pExtensionsElement"><div class="ttname"><a href="classcbProject#kf-m_pExtensionsElement">cbProject::m_pExtensionsElement</a></div><div class="ttdeci">TiXmlElement * m_pExtensionsElement</div><div class="ttdef"><b>Definition:</b> cbproject.h:734</div></div>
 <div class="ttc" id="nullptr_8cpp_ix-nullptr"><div class="ttname"><a href="nullptr_8cpp#ix-nullptr">nullptr</a></div><div class="ttdeci">null_pointer_t nullptr</div><div class="ttdef"><b>Definition:</b> nullptr.cpp:16</div></div>
@@ -481,10 +481,10 @@
 <div class="ttc" id="classFileTreeData_tc-m_folder"><div class="ttname"><a href="classFileTreeData#tc-m_folder">FileTreeData::m_folder</a></div><div class="ttdeci">wxString m_folder</div><div class="ttdef"><b>Definition:</b> cbproject.h:75</div></div>
 <div class="ttc" id="globals_8h_zn-RestoreTreeState"><div class="ttname"><a href="globals_8h#zn-RestoreTreeState">RestoreTreeState</a></div><div class="ttdeci">DLLIMPORT void RestoreTreeState(wxTreeCtrl *tree, const wxTreeItemId &amp;parent, wxArrayString &amp;nodePaths, wxArrayString &amp;selectedItemPaths)</div><div class="ttdef"><b>Definition:</b> globals.cpp:565</div></div>
 <div class="ttc" id="classcbProject_ma-m_Loaded"><div class="ttname"><a href="classcbProject#ma-m_Loaded">cbProject::m_Loaded</a></div><div class="ttdeci">bool m_Loaded</div><div class="ttdef"><b>Definition:</b> cbproject.h:710</div></div>
+<div class="ttc" id="cbproject_8h_er-cbMergeLibPaths"><div class="ttname"><a href="cbproject_8h#er-cbMergeLibPaths">cbMergeLibPaths</a></div><div class="ttdeci">DLLIMPORT wxString cbMergeLibPaths(const wxString &amp;oldPath, const wxString &amp;newPath)</div><div class="ttdoc">Merges to LD_LIBRARY_PATH/PATH strings together to form a new valid string. </div><div class="ttdef"><b>Definition:</b> cbproject.cpp:1769</div></div>
 <div class="ttc" id="classFileTreeData_n7-SetFileIndex"><div class="ttname"><a href="classFileTreeData#n7-SetFileIndex">FileTreeData::SetFileIndex</a></div><div class="ttdeci">void SetFileIndex(int index)</div><div class="ttdef"><b>Definition:</b> cbproject.h:67</div></div>
 <div class="ttc" id="structcbProject_1_1Glob"><div class="ttname"><a href="structcbProject_1_1Glob">cbProject::Glob</a></div><div class="ttdef"><b>Definition:</b> cbproject.h:424</div></div>
 <div class="ttc" id="classCompileTargetBase"><div class="ttname"><a href="classCompileTargetBase">CompileTargetBase</a></div><div class="ttdoc">Base class for build target classes Each Code::Blocks project consists of at least one target...</div><div class="ttdef"><b>Definition:</b> compiletargetbase.h:77</div></div>
-<div class="ttc" id="cbproject_8h_qs-cbMergeLibPaths"><div class="ttname"><a href="cbproject_8h#qs-cbMergeLibPaths">cbMergeLibPaths</a></div><div class="ttdeci">wxString cbMergeLibPaths(const wxString &amp;oldPath, const wxString &amp;newPath)</div><div class="ttdoc">Merges to LD_LIBRARY_PATH/PATH strings together to form a new valid string. </div><div class="ttdef"><b>Definition:</b> cbproject.cpp:1766</div></div>
 <div class="ttc" id="classcbProject_ep-m_Makefile"><div class="ttname"><a href="classcbProject#ep-m_Makefile">cbProject::m_Makefile</a></div><div class="ttdeci">wxString m_Makefile</div><div class="ttdef"><b>Definition:</b> cbproject.h:701</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->

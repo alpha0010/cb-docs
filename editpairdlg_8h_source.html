@@ -18,7 +18,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">Code::Blocks
-   &#160;<span id="projectnumber">SVN r10408</span>
+   &#160;<span id="projectnumber">SVN r10603</span>
    </div>
   </td>
  </tr>
@@ -62,23 +62,23 @@
 <div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor">#include &lt;wx/intl.h&gt;</span></div>
 <div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="scrollingdialog_8h">scrollingdialog.h</a>&quot;</span></div>
 <div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;</div>
-<div class="line"><a name="l00012"></a><span class="lineno"><a class="line" href="classEditPairDlg">   12</a></span>&#160;<span class="keyword">class </span><a class="code" href="classEditPairDlg">EditPairDlg</a> : <span class="keyword">public</span> <a class="code" href="classwxScrollingDialog">wxScrollingDialog</a></div>
+<div class="line"><a name="l00012"></a><span class="lineno"><a class="line" href="classEditPairDlg">   12</a></span>&#160;<span class="keyword">class </span><a class="code" href="settings_8h#oc-DLLIMPORT">DLLIMPORT</a> <a class="code" href="classEditPairDlg">EditPairDlg</a> : <span class="keyword">public</span> <a class="code" href="classwxScrollingDialog">wxScrollingDialog</a></div>
 <div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;{</div>
 <div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;    <span class="keyword">public</span>:</div>
 <div class="line"><a name="l00015"></a><span class="lineno"><a class="line" href="classEditPairDlg#iy-BrowseMode">   15</a></span>&#160;        <span class="keyword">enum</span> <a class="code" href="classEditPairDlg#iy-BrowseMode">BrowseMode</a></div>
 <div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;        {</div>
-<div class="line"><a name="l00017"></a><span class="lineno"><a class="line" href="classEditPairDlg#iy-BrowseMode:bmDisable">   17</a></span>&#160;            <a class="code" href="classEditPairDlg#iy-BrowseMode:bmDisable">bmDisable</a> = 0,</div>
+<div class="line"><a name="l00017"></a><span class="lineno"><a class="line" href="classEditPairDlg#iy-BrowseMode:bmDisable">   17</a></span>&#160;            bmDisable = 0,</div>
 <div class="line"><a name="l00018"></a><span class="lineno"><a class="line" href="classEditPairDlg#iy-BrowseMode:bmBrowseForFile">   18</a></span>&#160;            <a class="code" href="classEditPairDlg#iy-BrowseMode:bmBrowseForFile">bmBrowseForFile</a>,</div>
-<div class="line"><a name="l00019"></a><span class="lineno"><a class="line" href="classEditPairDlg#iy-BrowseMode:bmBrowseForDirectory">   19</a></span>&#160;            <a class="code" href="classEditPairDlg#iy-BrowseMode:bmBrowseForDirectory">bmBrowseForDirectory</a></div>
+<div class="line"><a name="l00019"></a><span class="lineno"><a class="line" href="classEditPairDlg#iy-BrowseMode:bmBrowseForDirectory">   19</a></span>&#160;            bmBrowseForDirectory</div>
 <div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;        };</div>
 <div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;</div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;        <a class="code" href="classEditPairDlg#uf-EditPairDlg">EditPairDlg</a>(wxWindow* parent, wxString&amp; key, wxString&amp; value, <span class="keyword">const</span> wxString&amp; title = _(<span class="stringliteral">&quot;Edit pair&quot;</span>), <a class="code" href="classEditPairDlg#iy-BrowseMode">BrowseMode</a> allowBrowse = <a class="code" href="classEditPairDlg#iy-BrowseMode:bmDisable">bmDisable</a>);</div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;        <span class="keyword">virtual</span> <a class="code" href="classEditPairDlg#xp-EditPairDlg">~EditPairDlg</a>();</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;        <a class="code" href="classEditPairDlg">EditPairDlg</a>(wxWindow* parent, wxString&amp; key, wxString&amp; value, <span class="keyword">const</span> wxString&amp; title = _(<span class="stringliteral">&quot;Edit pair&quot;</span>), BrowseMode allowBrowse = bmDisable);</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;        <span class="keyword">virtual</span> ~<a class="code" href="classEditPairDlg">EditPairDlg</a>();</div>
 <div class="line"><a name="l00024"></a><span class="lineno"><a class="line" href="classEditPairDlg#fv-operator">   24</a></span>&#160;        <a class="code" href="classEditPairDlg">EditPairDlg</a>&amp; <a class="code" href="classEditPairDlg#fv-operator">operator=</a>(<span class="keyword">const</span> <a class="code" href="classEditPairDlg">EditPairDlg</a>&amp;){ <span class="keywordflow">return</span> *<span class="keyword">this</span>; } <span class="comment">// just to satisfy script bindings (never used)</span></div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;        <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classEditPairDlg#fg-EndModal">EndModal</a>(<span class="keywordtype">int</span> retCode);</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;        <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="namespaceScriptBindings#zg-EndModal">EndModal</a>(<span class="keywordtype">int</span> retCode);</div>
 <div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    <span class="keyword">protected</span>:</div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="classEditPairDlg#r4-OnUpdateUI">OnUpdateUI</a>(wxUpdateUIEvent&amp; event);</div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="classEditPairDlg#kj-OnBrowse">OnBrowse</a>(wxCommandEvent&amp; event);</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;        <span class="keywordtype">void</span> OnUpdateUI(wxUpdateUIEvent&amp; event);</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;        <span class="keywordtype">void</span> OnBrowse(wxCommandEvent&amp; event);</div>
 <div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;</div>
 <div class="line"><a name="l00030"></a><span class="lineno"><a class="line" href="classEditPairDlg#ne-m_Key">   30</a></span>&#160;        wxString&amp; <a class="code" href="classEditPairDlg#ne-m_Key">m_Key</a>;</div>
 <div class="line"><a name="l00031"></a><span class="lineno"><a class="line" href="classEditPairDlg#iz-m_Value">   31</a></span>&#160;        wxString&amp; <a class="code" href="classEditPairDlg#iz-m_Value">m_Value</a>;</div>
@@ -88,16 +88,11 @@
 <div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;};</div>
 <div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;</div>
 <div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;<span class="preprocessor">#endif // EDITPAIRDLG_H</span></div>
-<div class="ttc" id="classEditPairDlg_r4-OnUpdateUI"><div class="ttname"><a href="classEditPairDlg#r4-OnUpdateUI">EditPairDlg::OnUpdateUI</a></div><div class="ttdeci">void OnUpdateUI(wxUpdateUIEvent &amp;event)</div><div class="ttdef"><b>Definition:</b> editpairdlg.cpp:49</div></div>
+<div class="ttc" id="namespaceScriptBindings_zg-EndModal"><div class="ttname"><a href="namespaceScriptBindings#zg-EndModal">ScriptBindings::EndModal</a></div><div class="ttdeci">void EndModal(int retCode)</div><div class="ttdef"><b>Definition:</b> sc_dialog.cpp:112</div></div>
 <div class="ttc" id="classEditPairDlg_iy-BrowseMode:bmBrowseForFile"><div class="ttname"><a href="classEditPairDlg#iy-BrowseMode:bmBrowseForFile">EditPairDlg::bmBrowseForFile</a></div><div class="ttdef"><b>Definition:</b> editpairdlg.h:18</div></div>
-<div class="ttc" id="classEditPairDlg_uf-EditPairDlg"><div class="ttname"><a href="classEditPairDlg#uf-EditPairDlg">EditPairDlg::EditPairDlg</a></div><div class="ttdeci">EditPairDlg(wxWindow *parent, wxString &amp;key, wxString &amp;value, const wxString &amp;title=_(&quot;Edit pair&quot;), BrowseMode allowBrowse=bmDisable)</div><div class="ttdef"><b>Definition:</b> editpairdlg.cpp:31</div></div>
-<div class="ttc" id="classEditPairDlg_fg-EndModal"><div class="ttname"><a href="classEditPairDlg#fg-EndModal">EditPairDlg::EndModal</a></div><div class="ttdeci">virtual void EndModal(int retCode)</div><div class="ttdef"><b>Definition:</b> editpairdlg.cpp:92</div></div>
-<div class="ttc" id="classwxScrollingDialog"><div class="ttname"><a href="classwxScrollingDialog">wxScrollingDialog</a></div><div class="ttdef"><b>Definition:</b> scrollingdialog.h:162</div></div>
+<div class="ttc" id="classwxScrollingDialog"><div class="ttname"><a href="classwxScrollingDialog">wxScrollingDialog</a></div><div class="ttdef"><b>Definition:</b> scrollingdialog.h:163</div></div>
 <div class="ttc" id="scrollingdialog_8h"><div class="ttname"><a href="scrollingdialog_8h">scrollingdialog.h</a></div></div>
-<div class="ttc" id="classEditPairDlg_iy-BrowseMode:bmBrowseForDirectory"><div class="ttname"><a href="classEditPairDlg#iy-BrowseMode:bmBrowseForDirectory">EditPairDlg::bmBrowseForDirectory</a></div><div class="ttdef"><b>Definition:</b> editpairdlg.h:19</div></div>
-<div class="ttc" id="classEditPairDlg_kj-OnBrowse"><div class="ttname"><a href="classEditPairDlg#kj-OnBrowse">EditPairDlg::OnBrowse</a></div><div class="ttdeci">void OnBrowse(wxCommandEvent &amp;event)</div><div class="ttdef"><b>Definition:</b> editpairdlg.cpp:58</div></div>
-<div class="ttc" id="classEditPairDlg_xp-EditPairDlg"><div class="ttname"><a href="classEditPairDlg#xp-EditPairDlg">EditPairDlg::~EditPairDlg</a></div><div class="ttdeci">virtual ~EditPairDlg()</div><div class="ttdef"><b>Definition:</b> editpairdlg.cpp:44</div></div>
-<div class="ttc" id="classEditPairDlg_iy-BrowseMode:bmDisable"><div class="ttname"><a href="classEditPairDlg#iy-BrowseMode:bmDisable">EditPairDlg::bmDisable</a></div><div class="ttdef"><b>Definition:</b> editpairdlg.h:17</div></div>
+<div class="ttc" id="settings_8h_oc-DLLIMPORT"><div class="ttname"><a href="settings_8h#oc-DLLIMPORT">DLLIMPORT</a></div><div class="ttdeci">#define DLLIMPORT</div><div class="ttdef"><b>Definition:</b> settings.h:16</div></div>
 <div class="ttc" id="classEditPairDlg_iy-BrowseMode"><div class="ttname"><a href="classEditPairDlg#iy-BrowseMode">EditPairDlg::BrowseMode</a></div><div class="ttdeci">BrowseMode</div><div class="ttdef"><b>Definition:</b> editpairdlg.h:15</div></div>
 <div class="ttc" id="classEditPairDlg"><div class="ttname"><a href="classEditPairDlg">EditPairDlg</a></div><div class="ttdef"><b>Definition:</b> editpairdlg.h:12</div></div>
 <div class="ttc" id="classEditPairDlg_h2-m_BrowseMode"><div class="ttname"><a href="classEditPairDlg#h2-m_BrowseMode">EditPairDlg::m_BrowseMode</a></div><div class="ttdeci">BrowseMode m_BrowseMode</div><div class="ttdef"><b>Definition:</b> editpairdlg.h:32</div></div>

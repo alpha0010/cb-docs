@@ -18,7 +18,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">Code::Blocks
-   &#160;<span id="projectnumber">SVN r10408</span>
+   &#160;<span id="projectnumber">SVN r10603</span>
    </div>
   </td>
  </tr>
@@ -84,7 +84,7 @@
 <div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;<span class="comment">//} // namespace cb</span></div>
 <div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;</div>
 <div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;</div>
-<div class="line"><a name="l00034"></a><span class="lineno"><a class="line" href="structLogSlot">   34</a></span>&#160;<span class="keyword">struct </span><a class="code" href="structLogSlot">LogSlot</a></div>
+<div class="line"><a name="l00034"></a><span class="lineno"><a class="line" href="structLogSlot">   34</a></span>&#160;<span class="keyword">struct </span><a class="code" href="settings_8h#oc-DLLIMPORT">DLLIMPORT</a> <a class="code" href="structLogSlot">LogSlot</a></div>
 <div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;{</div>
 <div class="line"><a name="l00036"></a><span class="lineno"><a class="line" href="structLogSlot#a9-LogManager">   36</a></span>&#160;    <span class="keyword">friend</span> <span class="keyword">class </span><a class="code" href="classLogManager">LogManager</a>;</div>
 <div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;</div>
@@ -93,13 +93,13 @@
 <div class="line"><a name="l00040"></a><span class="lineno"><a class="line" href="structLogSlot#ws-icon">   40</a></span>&#160;    wxBitmap* <a class="code" href="structLogSlot#ws-icon">icon</a>;</div>
 <div class="line"><a name="l00041"></a><span class="lineno"><a class="line" href="structLogSlot#kx-title">   41</a></span>&#160;    wxString  <a class="code" href="structLogSlot#kx-title">title</a>;</div>
 <div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;</div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    <a class="code" href="structLogSlot#tm-LogSlot">LogSlot</a>();</div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    <a class="code" href="structLogSlot#s8-LogSlot">~LogSlot</a>();</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    <a class="code" href="structLogSlot">LogSlot</a>();</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    ~<a class="code" href="structLogSlot">LogSlot</a>();</div>
 <div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;</div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    <span class="keywordtype">size_t</span> <a class="code" href="structLogSlot#xk-Index">Index</a>() <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    <span class="keywordtype">size_t</span> Index() <span class="keyword">const</span>;</div>
 <div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;</div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    <span class="keywordtype">void</span>    <a class="code" href="structLogSlot#r5-SetLogger">SetLogger</a>(<a class="code" href="classLogger">Logger</a>* in);</div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    <a class="code" href="classLogger">Logger</a>* <a class="code" href="structLogSlot#qz-GetLogger">GetLogger</a>() <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    <span class="keywordtype">void</span>    SetLogger(<a class="code" href="classLogger">Logger</a>* in);</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    <a class="code" href="classLogger">Logger</a>* GetLogger() <span class="keyword">const</span>;</div>
 <div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;};</div>
 <div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;</div>
 <div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;</div>
@@ -212,7 +212,6 @@
 <div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;</div>
 <div class="ttc" id="logmanager_8h_ug-F"><div class="ttname"><a href="logmanager_8h#ug-F">F</a></div><div class="ttdeci">wxString F(const wxChar *msg,...)</div><div class="ttdef"><b>Definition:</b> logmanager.h:15</div></div>
-<div class="ttc" id="structLogSlot_tm-LogSlot"><div class="ttname"><a href="structLogSlot#tm-LogSlot">LogSlot::LogSlot</a></div><div class="ttdeci">LogSlot()</div><div class="ttdef"><b>Definition:</b> logmanager.cpp:29</div></div>
 <div class="ttc" id="classLogManager_nk-instMap"><div class="ttname"><a href="classLogManager#nk-instMap">LogManager::instMap</a></div><div class="ttdeci">inst_map_t instMap</div><div class="ttdef"><b>Definition:</b> logmanager.h:71</div></div>
 <div class="ttc" id="classLogManager_c8-DebugLogError"><div class="ttname"><a href="classLogManager#c8-DebugLogError">LogManager::DebugLogError</a></div><div class="ttdeci">void DebugLogError(const wxString &amp;msg)</div><div class="ttdef"><b>Definition:</b> logmanager.h:124</div></div>
 <div class="ttc" id="manager_8h"><div class="ttname"><a href="manager_8h">manager.h</a></div></div>
@@ -224,7 +223,6 @@
 <div class="ttc" id="classLogger"><div class="ttname"><a href="classLogger">Logger</a></div><div class="ttdoc">The base class for all kinds of loggers, see loggers.h for its derived classes. </div><div class="ttdef"><b>Definition:</b> logger.h:23</div></div>
 <div class="ttc" id="classLogger_nc-level:warning"><div class="ttname"><a href="classLogger#nc-level:warning">Logger::warning</a></div><div class="ttdef"><b>Definition:</b> logger.h:37</div></div>
 <div class="ttc" id="structLogManager_1_1InstantiatorBase_z0-RequiresFilename"><div class="ttname"><a href="structLogManager_1_1InstantiatorBase#z0-RequiresFilename">LogManager::InstantiatorBase::RequiresFilename</a></div><div class="ttdeci">virtual bool RequiresFilename() const </div><div class="ttdef"><b>Definition:</b> logmanager.h:59</div></div>
-<div class="ttc" id="structLogSlot_qz-GetLogger"><div class="ttname"><a href="structLogSlot#qz-GetLogger">LogSlot::GetLogger</a></div><div class="ttdeci">Logger * GetLogger() const </div><div class="ttdef"><b>Definition:</b> logmanager.cpp:54</div></div>
 <div class="ttc" id="structLogSlot_bz-log"><div class="ttname"><a href="structLogSlot#bz-log">LogSlot::log</a></div><div class="ttdeci">Logger * log</div><div class="ttdef"><b>Definition:</b> logmanager.h:38</div></div>
 <div class="ttc" id="structLogManager_1_1InstantiatorBase_m2-New"><div class="ttname"><a href="structLogManager_1_1InstantiatorBase#m2-New">LogManager::InstantiatorBase::New</a></div><div class="ttdeci">virtual Logger * New()</div><div class="ttdef"><b>Definition:</b> logmanager.h:58</div></div>
 <div class="ttc" id="settings_8h_oc-DLLIMPORT"><div class="ttname"><a href="settings_8h#oc-DLLIMPORT">DLLIMPORT</a></div><div class="ttdeci">#define DLLIMPORT</div><div class="ttdef"><b>Definition:</b> settings.h:16</div></div>
@@ -238,16 +236,13 @@
 <div class="ttc" id="structLogManager_1_1Instantiator"><div class="ttname"><a href="structLogManager_1_1Instantiator">LogManager::Instantiator</a></div><div class="ttdef"><b>Definition:</b> logmanager.h:62</div></div>
 <div class="ttc" id="classMgr"><div class="ttname"><a href="classMgr">Mgr</a></div><div class="ttdef"><b>Definition:</b> manager.h:182</div></div>
 <div class="ttc" id="classLogManager"><div class="ttname"><a href="classLogManager">LogManager</a></div><div class="ttdef"><b>Definition:</b> logmanager.h:53</div></div>
-<div class="ttc" id="structLogSlot_r5-SetLogger"><div class="ttname"><a href="structLogSlot#r5-SetLogger">LogSlot::SetLogger</a></div><div class="ttdeci">void SetLogger(Logger *in)</div><div class="ttdef"><b>Definition:</b> logmanager.cpp:47</div></div>
 <div class="ttc" id="classLogger_nc-level:info"><div class="ttname"><a href="classLogger#nc-level:info">Logger::info</a></div><div class="ttdef"><b>Definition:</b> logger.h:37</div></div>
 <div class="ttc" id="classLogManager_lu-ClearLog"><div class="ttname"><a href="classLogManager#lu-ClearLog">LogManager::ClearLog</a></div><div class="ttdeci">void ClearLog(int i)</div><div class="ttdef"><b>Definition:</b> logmanager.h:128</div></div>
 <div class="ttc" id="classLogManager_qh-3:stdout_log"><div class="ttname"><a href="classLogManager#qh-3:stdout_log">LogManager::stdout_log</a></div><div class="ttdef"><b>Definition:</b> logmanager.h:86</div></div>
 <div class="ttc" id="classLogger_nc-level"><div class="ttname"><a href="classLogger#nc-level">Logger::level</a></div><div class="ttdeci">level</div><div class="ttdef"><b>Definition:</b> logger.h:37</div></div>
 <div class="ttc" id="classLogManager_gt-Log"><div class="ttname"><a href="classLogManager#gt-Log">LogManager::Log</a></div><div class="ttdeci">void Log(const wxString &amp;msg, int i=app_log, Logger::level lv=Logger::info)</div><div class="ttdef"><b>Definition:</b> logmanager.h:117</div></div>
 <div class="ttc" id="classLogManager_bl-DebugLog"><div class="ttname"><a href="classLogManager#bl-DebugLog">LogManager::DebugLog</a></div><div class="ttdeci">void DebugLog(const wxString &amp;msg, Logger::level lv=Logger::info)</div><div class="ttdef"><b>Definition:</b> logmanager.h:123</div></div>
-<div class="ttc" id="structLogSlot_xk-Index"><div class="ttname"><a href="structLogSlot#xk-Index">LogSlot::Index</a></div><div class="ttdeci">size_t Index() const </div><div class="ttdef"><b>Definition:</b> logmanager.cpp:42</div></div>
 <div class="ttc" id="structLogManager_1_1InstantiatorBase_h7-InstantiatorBase"><div class="ttname"><a href="structLogManager_1_1InstantiatorBase#h7-InstantiatorBase">LogManager::InstantiatorBase::~InstantiatorBase</a></div><div class="ttdeci">virtual ~InstantiatorBase()</div><div class="ttdef"><b>Definition:</b> logmanager.h:60</div></div>
-<div class="ttc" id="structLogSlot_s8-LogSlot"><div class="ttname"><a href="structLogSlot#s8-LogSlot">LogSlot::~LogSlot</a></div><div class="ttdeci">~LogSlot()</div><div class="ttdef"><b>Definition:</b> logmanager.cpp:35</div></div>
 <div class="ttc" id="logger_8h"><div class="ttname"><a href="logger_8h">logger.h</a></div></div>
 <div class="ttc" id="structLogSlot_ws-icon"><div class="ttname"><a href="structLogSlot#ws-icon">LogSlot::icon</a></div><div class="ttdeci">wxBitmap * icon</div><div class="ttdef"><b>Definition:</b> logmanager.h:40</div></div>
 <div class="ttc" id="classLogManager_yc-inst_map_t"><div class="ttname"><a href="classLogManager#yc-inst_map_t">LogManager::inst_map_t</a></div><div class="ttdeci">std::map&lt; wxString, InstantiatorBase * &gt; inst_map_t</div><div class="ttdef"><b>Definition:</b> logmanager.h:70</div></div>

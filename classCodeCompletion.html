@@ -18,7 +18,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">Code::Blocks
-   &#160;<span id="projectnumber">SVN r10408</span>
+   &#160;<span id="projectnumber">SVN r10603</span>
    </div>
   </td>
  </tr>
@@ -66,7 +66,7 @@
 <div class="dynheader">
 Inheritance diagram for CodeCompletion:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classCodeCompletion__inherit__graph.svg" width="222" height="1168"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classCodeCompletion__inherit__graph.svg" width="235" height="1168"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <div class="dynheader">
@@ -228,12 +228,6 @@ Private Member Functions</h2></td></tr>
 <tr class="memitem:s7-UpdateToolBar"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCodeCompletion#s7-UpdateToolBar">UpdateToolBar</a> ()</td></tr>
 <tr class="memdesc:s7-UpdateToolBar"><td class="mdescLeft">&#160;</td><td class="mdescRight">update CC's ToolBar, the user may disable the first wxChoice, so we need to recreate the wxChoice and measure the best fit size  <a href="#s7-UpdateToolBar">More...</a><br /></td></tr>
 <tr class="separator:s7-UpdateToolBar"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:f6-LoadTokenReplacements"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCodeCompletion#f6-LoadTokenReplacements">LoadTokenReplacements</a> ()</td></tr>
-<tr class="memdesc:f6-LoadTokenReplacements"><td class="mdescLeft">&#160;</td><td class="mdescRight">load the token replacement map (macro definitions) from configuration file  <a href="#f6-LoadTokenReplacements">More...</a><br /></td></tr>
-<tr class="separator:f6-LoadTokenReplacements"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:qz-SaveTokenReplacements"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCodeCompletion#qz-SaveTokenReplacements">SaveTokenReplacements</a> ()</td></tr>
-<tr class="memdesc:qz-SaveTokenReplacements"><td class="mdescLeft">&#160;</td><td class="mdescRight">write the <a class="el" href="classToken" title="a symbol found in the parsed files, it can be many kinds, such as a variable, a class and so on...">Token</a> replacement map to the configure file  <a href="#qz-SaveTokenReplacements">More...</a><br /></td></tr>
-<tr class="separator:qz-SaveTokenReplacements"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ex-OnUpdateUI"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCodeCompletion#ex-OnUpdateUI">OnUpdateUI</a> (wxUpdateUIEvent &amp;event)</td></tr>
 <tr class="memdesc:ex-OnUpdateUI"><td class="mdescLeft">&#160;</td><td class="mdescRight">event handler for updating UI e.g.  <a href="#ex-OnUpdateUI">More...</a><br /></td></tr>
 <tr class="separator:ex-OnUpdateUI"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -414,7 +408,7 @@ Private Attributes</h2></td></tr>
 <tr class="memdesc:t7-m_TimerRealtimeParsing"><td class="mdescLeft">&#160;</td><td class="mdescRight">timer triggered by editor hook function to delay the real-time parse  <a href="#t7-m_TimerRealtimeParsing">More...</a><br /></td></tr>
 <tr class="separator:t7-m_TimerRealtimeParsing"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ox-m_TimerToolbar"><td class="memItemLeft" align="right" valign="top">wxTimer&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCodeCompletion#ox-m_TimerToolbar">m_TimerToolbar</a></td></tr>
-<tr class="memdesc:ox-m_TimerToolbar"><td class="mdescLeft">&#160;</td><td class="mdescRight">timer for toolbar  <a href="#ox-m_TimerToolbar">More...</a><br /></td></tr>
+<tr class="memdesc:ox-m_TimerToolbar"><td class="mdescLeft">&#160;</td><td class="mdescRight">timer for toolbar we only show an updated item in CC's toolbar's item list when caret position is stable for a period of time.  <a href="#ox-m_TimerToolbar">More...</a><br /></td></tr>
 <tr class="separator:ox-m_TimerToolbar"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ba-m_TimerProjectSaved"><td class="memItemLeft" align="right" valign="top">wxTimer&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCodeCompletion#ba-m_TimerProjectSaved">m_TimerProjectSaved</a></td></tr>
 <tr class="memdesc:ba-m_TimerProjectSaved"><td class="mdescLeft">&#160;</td><td class="mdescRight">delay after project saved event  <a href="#ba-m_TimerProjectSaved">More...</a><br /></td></tr>
@@ -423,10 +417,10 @@ Private Attributes</h2></td></tr>
 <tr class="memdesc:g3-m_TimerReparsing"><td class="mdescLeft">&#160;</td><td class="mdescRight">delay after receive a project save/modified event  <a href="#g3-m_TimerReparsing">More...</a><br /></td></tr>
 <tr class="separator:g3-m_TimerReparsing"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ms-m_TimerEditorActivated"><td class="memItemLeft" align="right" valign="top">wxTimer&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCodeCompletion#ms-m_TimerEditorActivated">m_TimerEditorActivated</a></td></tr>
-<tr class="memdesc:ms-m_TimerEditorActivated"><td class="mdescLeft">&#160;</td><td class="mdescRight">delay after receive editor activated event  <a href="#ms-m_TimerEditorActivated">More...</a><br /></td></tr>
+<tr class="memdesc:ms-m_TimerEditorActivated"><td class="mdescLeft">&#160;</td><td class="mdescRight">delay after receive editor activated event the reason we need a timer is that we want to get a stable editor activate information thus we will only handle the last editor activated editor The timer will be restart when an editor activated event happens.  <a href="#ms-m_TimerEditorActivated">More...</a><br /></td></tr>
 <tr class="separator:ms-m_TimerEditorActivated"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:kl-m_LastEditor"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classcbEditor">cbEditor</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCodeCompletion#kl-m_LastEditor">m_LastEditor</a></td></tr>
-<tr class="memdesc:kl-m_LastEditor"><td class="mdescLeft">&#160;</td><td class="mdescRight">the last valid editor  <a href="#kl-m_LastEditor">More...</a><br /></td></tr>
+<tr class="memdesc:kl-m_LastEditor"><td class="mdescLeft">&#160;</td><td class="mdescRight">the last valid editor it is saved in editor activated event handler, and will be verified in editor activated timer event handler  <a href="#kl-m_LastEditor">More...</a><br /></td></tr>
 <tr class="separator:kl-m_LastEditor"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:u2-m_ToolBar"><td class="memItemLeft" align="right" valign="top">wxToolBar *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCodeCompletion#u2-m_ToolBar">m_ToolBar</a></td></tr>
 <tr class="memdesc:u2-m_ToolBar"><td class="mdescLeft">&#160;</td><td class="mdescRight">the CC's toolbar  <a href="#u2-m_ToolBar">More...</a><br /></td></tr>
@@ -450,13 +444,13 @@ Private Attributes</h2></td></tr>
 <tr class="memdesc:cc-m_AllFunctionsScopes"><td class="mdescLeft">&#160;</td><td class="mdescRight">this is a "filename-&gt;info" map containing all the opening files choice info  <a href="#cc-m_AllFunctionsScopes">More...</a><br /></td></tr>
 <tr class="separator:cc-m_AllFunctionsScopes"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:z8-m_ToolbarNeedRefresh"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCodeCompletion#z8-m_ToolbarNeedRefresh">m_ToolbarNeedRefresh</a></td></tr>
-<tr class="memdesc:z8-m_ToolbarNeedRefresh"><td class="mdescLeft">&#160;</td><td class="mdescRight">indicate whether the CC's toolbar need a refresh  <a href="#z8-m_ToolbarNeedRefresh">More...</a><br /></td></tr>
+<tr class="memdesc:z8-m_ToolbarNeedRefresh"><td class="mdescLeft">&#160;</td><td class="mdescRight">indicate whether the CC's toolbar need a refresh, this means the toolbar list will be reconstructed  <a href="#z8-m_ToolbarNeedRefresh">More...</a><br /></td></tr>
 <tr class="separator:z8-m_ToolbarNeedRefresh"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:b7-m_ToolbarNeedReparse"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCodeCompletion#b7-m_ToolbarNeedReparse">m_ToolbarNeedReparse</a></td></tr>
-<tr class="memdesc:b7-m_ToolbarNeedReparse"><td class="mdescLeft">&#160;</td><td class="mdescRight">force update toolbar  <a href="#b7-m_ToolbarNeedReparse">More...</a><br /></td></tr>
+<tr class="memdesc:b7-m_ToolbarNeedReparse"><td class="mdescLeft">&#160;</td><td class="mdescRight">force to re-collect the CC toolbar's item information this means we will parse the buffer to collect the scope information and then rebuild the toolbar items  <a href="#b7-m_ToolbarNeedReparse">More...</a><br /></td></tr>
 <tr class="separator:b7-m_ToolbarNeedReparse"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:sn-m_CurrentLine"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCodeCompletion#sn-m_CurrentLine">m_CurrentLine</a></td></tr>
-<tr class="memdesc:sn-m_CurrentLine"><td class="mdescLeft">&#160;</td><td class="mdescRight">current caret line  <a href="#sn-m_CurrentLine">More...</a><br /></td></tr>
+<tr class="memdesc:sn-m_CurrentLine"><td class="mdescLeft">&#160;</td><td class="mdescRight">current caret line, this is actually the saved caret line  <a href="#sn-m_CurrentLine">More...</a><br /></td></tr>
 <tr class="separator:sn-m_CurrentLine"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:xa-m_LastFile"><td class="memItemLeft" align="right" valign="top">wxString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCodeCompletion#xa-m_LastFile">m_LastFile</a></td></tr>
 <tr class="memdesc:xa-m_LastFile"><td class="mdescLeft">&#160;</td><td class="mdescRight">the file updating the toolbar info  <a href="#xa-m_LastFile">More...</a><br /></td></tr>
@@ -468,7 +462,7 @@ Private Attributes</h2></td></tr>
 <tr class="memdesc:vs-m_NeedReparse"><td class="mdescLeft">&#160;</td><td class="mdescRight">indicate the editor has modified by the user and a real-time parse should be start  <a href="#vs-m_NeedReparse">More...</a><br /></td></tr>
 <tr class="separator:vs-m_NeedReparse"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:c2-m_CurrentLength"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCodeCompletion#c2-m_CurrentLength">m_CurrentLength</a></td></tr>
-<tr class="memdesc:c2-m_CurrentLength"><td class="mdescLeft">&#160;</td><td class="mdescRight">remember the number of bytes in the current editor/document  <a href="#c2-m_CurrentLength">More...</a><br /></td></tr>
+<tr class="memdesc:c2-m_CurrentLength"><td class="mdescLeft">&#160;</td><td class="mdescRight">remember the number of bytes in the current editor/document this is actually the saved editor or file's size  <a href="#c2-m_CurrentLength">More...</a><br /></td></tr>
 <tr class="separator:c2-m_CurrentLength"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:u6-m_NeedsBatchColour"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCodeCompletion#u6-m_NeedsBatchColour">m_NeedsBatchColour</a></td></tr>
 <tr class="memdesc:u6-m_NeedsBatchColour"><td class="mdescLeft">&#160;</td><td class="mdescRight">batch run <a class="el" href="classCodeCompletion#l9-UpdateEditorSyntax" title="highlight member variables ">UpdateEditorSyntax()</a> after first parsing  <a href="#u6-m_NeedsBatchColour">More...</a><br /></td></tr>
@@ -813,7 +807,7 @@ parsed</td>
 
 <p>ContextMenu-&gt;Insert-&gt; All class methods. </p>
 
-<p>References <a class="el" href="classTokenTree#z7-at">TokenTree::at()</a>, <a class="el" href="globals_8h#f6-cbMessageBox">cbMessageBox()</a>, <a class="el" href="cclogger_8h#ap-CC_LOCKER_TRACK_TT_MTX_LOCK">CC_LOCKER_TRACK_TT_MTX_LOCK</a>, <a class="el" href="cclogger_8h#al-CC_LOCKER_TRACK_TT_MTX_UNLOCK">CC_LOCKER_TRACK_TT_MTX_UNLOCK</a>, <a class="el" href="classCCLogger#ux-DebugLog">CCLogger::DebugLog()</a>, <a class="el" href="classToken#a0-DisplayName">Token::DisplayName()</a>, <a class="el" href="globals_8h#fu-FileTypeOf">FileTypeOf()</a>, <a class="el" href="globals_8h#k1-FileType:ftHeader">ftHeader</a>, <a class="el" href="globals_8h#k1-FileType:ftSource">ftSource</a>, <a class="el" href="classCCLogger#ma-Get">CCLogger::Get()</a>, <a class="el" href="classManager#rz-Get">Manager::Get()</a>, <a class="el" href="classNativeParser#fc-GetAllPathsByFilename">NativeParser::GetAllPathsByFilename()</a>, <a class="el" href="classEditorManager#kx-GetBuiltinActiveEditor">EditorManager::GetBuiltinActiveEditor()</a>, <a class="el" href="classManager#hd-GetConfigManager">Manager::GetConfigManager()</a>, <a class="el" href="classcbEditor#iz-GetControl">cbEditor::GetControl()</a>, <a class="el" href="classwxScintilla#a7-GetCurrentPos">wxScintilla::GetCurrentPos()</a>, <a class="el" href="classManager#wg-GetEditorManager">Manager::GetEditorManager()</a>, <a class="el" href="classwxScintilla#gi-GetEOLMode">wxScintilla::GetEOLMode()</a>, <a class="el" href="classTokenTree#pi-GetFileMatches">TokenTree::GetFileMatches()</a>, <a class="el" href="classEditorBase#e0-GetFilename">EditorBase::GetFilename()</a>, <a class="el" href="classwxScintilla#wa-GetLineEndPosition">wxScintilla::GetLineEndPosition()</a>, <a class="el" href="classcbEditor#lz-GetLineIndentString">cbEditor::GetLineIndentString()</a>, <a class="el" href="classNativeParser#hw-GetParser">NativeParser::GetParser()</a>, <a class="el" href="classMultiSelectDlg#lk-GetSelectedIndices">MultiSelectDlg::GetSelectedIndices()</a>, <a class="el" href="classEditorBase#kj-GetShortName">EditorBase::GetShortName()</a>, <a class="el" href="classToken#ll-GetStrippedArgs">Token::GetStrippedArgs()</a>, <a class="el" href="classwxScintilla#xw-GetTabWidth">wxScintilla::GetTabWidth()</a>, <a class="el" href="classTokenTree#hg-GetTokensBelongToFile">TokenTree::GetTokensBelongToFile()</a>, <a class="el" href="classParserBase#kx-GetTokenTree">ParserBase::GetTokenTree()</a>, <a class="el" href="classwxScintilla#d7-GetUseTabs">wxScintilla::GetUseTabs()</a>, <a class="el" href="classwxScintilla#q3-GotoPos">wxScintilla::GotoPos()</a>, <a class="el" href="classcbPlugin#ln-IsAttached">cbPlugin::IsAttached()</a>, <a class="el" href="classwxScintilla#mk-LineFromPosition">wxScintilla::LineFromPosition()</a>, <a class="el" href="classToken#bs-m_BaseType">Token::m_BaseType</a>, <a class="el" href="classToken#ur-m_ImplLine">Token::m_ImplLine</a>, <a class="el" href="classCodeCompletion#i9-m_InitDone">m_InitDone</a>, <a class="el" href="classToken#sk-m_IsConst">Token::m_IsConst</a>, <a class="el" href="classToken#ht-m_IsNoExcept">Token::m_IsNoExcept</a>, <a class="el" href="classToken#qp-m_Line">Token::m_Line</a>, <a class="el" href="classToken#el-m_Name">Token::m_Name</a>, <a class="el" href="classCodeCompletion#at-m_NativeParser">m_NativeParser</a>, <a class="el" href="classToken#wc-m_ParentIndex">Token::m_ParentIndex</a>, <a class="el" href="classToken#ky-m_TokenKind">Token::m_TokenKind</a>, <a class="el" href="classCodeCompletion#v1-MatchCodeStyle">MatchCodeStyle()</a>, <a class="el" href="classwxScintilla#v0-PositionFromLine">wxScintilla::PositionFromLine()</a>, <a class="el" href="classConfigManager#mv-ReadBool">ConfigManager::ReadBool()</a>, <a class="el" href="classwxScintilla#ay-ReplaceTarget">wxScintilla::ReplaceTarget()</a>, <a class="el" href="tokentree_8cpp#ko-s_TokenTreeMutex">s_TokenTreeMutex</a>, <a class="el" href="classwxScintilla#c4-SetTargetEnd">wxScintilla::SetTargetEnd()</a>, <a class="el" href="classwxScintilla#r4-SetTargetStart">wxScintilla::SetTargetStart()</a>, <a class="el" href="classwxScrollingDialog#ik-ShowModal">wxScrollingDialog::ShowModal()</a>, <a class="el" href="token_8h#uj-TokenKind:tkConstructor">tkConstructor</a>, <a class="el" href="token_8h#uj-TokenKind:tkDestructor">tkDestructor</a>, and <a class="el" href="token_8h#uj-TokenKind:tkFunction">tkFunction</a>.</p>
+<p>References <a class="el" href="classTokenTree#z7-at">TokenTree::at()</a>, <a class="el" href="globals_8h#f6-cbMessageBox">cbMessageBox()</a>, <a class="el" href="cclogger_8h#ap-CC_LOCKER_TRACK_TT_MTX_LOCK">CC_LOCKER_TRACK_TT_MTX_LOCK</a>, <a class="el" href="cclogger_8h#al-CC_LOCKER_TRACK_TT_MTX_UNLOCK">CC_LOCKER_TRACK_TT_MTX_UNLOCK</a>, <a class="el" href="classCCLogger#ux-DebugLog">CCLogger::DebugLog()</a>, <a class="el" href="classToken#a0-DisplayName">Token::DisplayName()</a>, <a class="el" href="globals_8h#fu-FileTypeOf">FileTypeOf()</a>, <a class="el" href="globals_8h#k1-FileType:ftHeader">ftHeader</a>, <a class="el" href="globals_8h#k1-FileType:ftSource">ftSource</a>, <a class="el" href="classCCLogger#ma-Get">CCLogger::Get()</a>, <a class="el" href="classManager#rz-Get">Manager::Get()</a>, <a class="el" href="classNativeParser#fc-GetAllPathsByFilename">NativeParser::GetAllPathsByFilename()</a>, <a class="el" href="classEditorManager#kx-GetBuiltinActiveEditor">EditorManager::GetBuiltinActiveEditor()</a>, <a class="el" href="classManager#hd-GetConfigManager">Manager::GetConfigManager()</a>, <a class="el" href="classcbEditor#iz-GetControl">cbEditor::GetControl()</a>, <a class="el" href="classwxScintilla#a7-GetCurrentPos">wxScintilla::GetCurrentPos()</a>, <a class="el" href="classManager#wg-GetEditorManager">Manager::GetEditorManager()</a>, <a class="el" href="classwxScintilla#gi-GetEOLMode">wxScintilla::GetEOLMode()</a>, <a class="el" href="classTokenTree#pi-GetFileMatches">TokenTree::GetFileMatches()</a>, <a class="el" href="classEditorBase#e0-GetFilename">EditorBase::GetFilename()</a>, <a class="el" href="classwxScintilla#wa-GetLineEndPosition">wxScintilla::GetLineEndPosition()</a>, <a class="el" href="classcbEditor#lz-GetLineIndentString">cbEditor::GetLineIndentString()</a>, <a class="el" href="classNativeParser#hw-GetParser">NativeParser::GetParser()</a>, <a class="el" href="classMultiSelectDlg#lk-GetSelectedIndices">MultiSelectDlg::GetSelectedIndices()</a>, <a class="el" href="classEditorBase#kj-GetShortName">EditorBase::GetShortName()</a>, <a class="el" href="classToken#ll-GetStrippedArgs">Token::GetStrippedArgs()</a>, <a class="el" href="classwxScintilla#xw-GetTabWidth">wxScintilla::GetTabWidth()</a>, <a class="el" href="classTokenTree#hg-GetTokensBelongToFile">TokenTree::GetTokensBelongToFile()</a>, <a class="el" href="classParserBase#kx-GetTokenTree">ParserBase::GetTokenTree()</a>, <a class="el" href="classwxScintilla#d7-GetUseTabs">wxScintilla::GetUseTabs()</a>, <a class="el" href="classwxScintilla#q3-GotoPos">wxScintilla::GotoPos()</a>, <a class="el" href="classcbPlugin#ln-IsAttached">cbPlugin::IsAttached()</a>, <a class="el" href="classwxScintilla#mk-LineFromPosition">wxScintilla::LineFromPosition()</a>, <a class="el" href="classToken#z1-m_FullType">Token::m_FullType</a>, <a class="el" href="classToken#ur-m_ImplLine">Token::m_ImplLine</a>, <a class="el" href="classCodeCompletion#i9-m_InitDone">m_InitDone</a>, <a class="el" href="classToken#sk-m_IsConst">Token::m_IsConst</a>, <a class="el" href="classToken#ht-m_IsNoExcept">Token::m_IsNoExcept</a>, <a class="el" href="classToken#qp-m_Line">Token::m_Line</a>, <a class="el" href="classToken#el-m_Name">Token::m_Name</a>, <a class="el" href="classCodeCompletion#at-m_NativeParser">m_NativeParser</a>, <a class="el" href="classToken#wc-m_ParentIndex">Token::m_ParentIndex</a>, <a class="el" href="classToken#ky-m_TokenKind">Token::m_TokenKind</a>, <a class="el" href="classCodeCompletion#v1-MatchCodeStyle">MatchCodeStyle()</a>, <a class="el" href="classwxScintilla#v0-PositionFromLine">wxScintilla::PositionFromLine()</a>, <a class="el" href="classConfigManager#mv-ReadBool">ConfigManager::ReadBool()</a>, <a class="el" href="classwxScintilla#ay-ReplaceTarget">wxScintilla::ReplaceTarget()</a>, <a class="el" href="tokentree_8cpp#ko-s_TokenTreeMutex">s_TokenTreeMutex</a>, <a class="el" href="classwxScintilla#c4-SetTargetEnd">wxScintilla::SetTargetEnd()</a>, <a class="el" href="classwxScintilla#r4-SetTargetStart">wxScintilla::SetTargetStart()</a>, <a class="el" href="classwxScrollingDialog#ik-ShowModal">wxScrollingDialog::ShowModal()</a>, <a class="el" href="token_8h#uj-TokenKind:tkConstructor">tkConstructor</a>, <a class="el" href="token_8h#uj-TokenKind:tkDestructor">tkDestructor</a>, and <a class="el" href="token_8h#uj-TokenKind:tkFunction">tkFunction</a>.</p>
 
 <p>Referenced by <a class="el" href="classCodeCompletion#pv-OnUnimplementedClassMethods">OnUnimplementedClassMethods()</a>.</p>
 
@@ -1667,7 +1661,7 @@ parsed</td>
 <p>get the whole search dirs except the ones locally belong to the c::b project, note this function is used for auto suggestion for #include directives. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">force</td><td>if the value is false, just return a static (cached) wxArrayString to optimize the performance, it it is true, we try to update the cache. </td></tr>
+    <tr><td class="paramname">force</td><td>if the value is false, just return a static (cached) wxArrayString to optimize the performance, if it is true, we try to update the cache. </td></tr>
   </table>
   </dd>
 </dl>
@@ -1788,35 +1782,6 @@ parsed</td>
 <p>References <a class="el" href="classManager#rz-Get">Manager::Get()</a>, <a class="el" href="classEditorManager#kx-GetBuiltinActiveEditor">EditorManager::GetBuiltinActiveEditor()</a>, <a class="el" href="classcbEditor#iz-GetControl">cbEditor::GetControl()</a>, <a class="el" href="classwxScintilla#gt-GetCurrentLine">wxScintilla::GetCurrentLine()</a>, <a class="el" href="classManager#wg-GetEditorManager">Manager::GetEditorManager()</a>, <a class="el" href="classcbEditor#ln-GotoLine">cbEditor::GotoLine()</a>, and <a class="el" href="classCodeCompletion#i4-m_FunctionsScope">m_FunctionsScope</a>.</p>
 
 <p>Referenced by <a class="el" href="classCodeCompletion#lq-OnGotoNextFunction">OnGotoNextFunction()</a>, and <a class="el" href="classCodeCompletion#lz-OnGotoPrevFunction">OnGotoPrevFunction()</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="f6-LoadTokenReplacements"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void CodeCompletion::LoadTokenReplacements </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>load the token replacement map (macro definitions) from configuration file </p>
-
-<p>References <a class="el" href="classTokenizer#uk-ConvertToHashReplacementMap">Tokenizer::ConvertToHashReplacementMap()</a>, <a class="el" href="classManager#rz-Get">Manager::Get()</a>, <a class="el" href="classManager#hd-GetConfigManager">Manager::GetConfigManager()</a>, and <a class="el" href="classConfigManager#y7-Read">ConfigManager::Read()</a>.</p>
-
-<p>Referenced by <a class="el" href="classCodeCompletion#mq-OnAttach">OnAttach()</a>.</p>
 
 </div>
 </div>
@@ -1976,7 +1941,7 @@ Think of this method as the actual constructor... </p>
 
 <p>Reimplemented from <a class="el" href="classcbPlugin#su-OnAttach">cbPlugin</a>.</p>
 
-<p>References <a class="el" href="sdk__events_8h#oq-cbEVT_APP_STARTUP_DONE">cbEVT_APP_STARTUP_DONE</a>, <a class="el" href="sdk__events_8h#h8-cbEVT_EDITOR_ACTIVATED">cbEVT_EDITOR_ACTIVATED</a>, <a class="el" href="sdk__events_8h#vn-cbEVT_EDITOR_CLOSE">cbEVT_EDITOR_CLOSE</a>, <a class="el" href="sdk__events_8h#kc-cbEVT_EDITOR_OPEN">cbEVT_EDITOR_OPEN</a>, <a class="el" href="sdk__events_8h#hn-cbEVT_EDITOR_SAVE">cbEVT_EDITOR_SAVE</a>, <a class="el" href="sdk__events_8h#i3-cbEVT_PROJECT_ACTIVATE">cbEVT_PROJECT_ACTIVATE</a>, <a class="el" href="sdk__events_8h#gy-cbEVT_PROJECT_CLOSE">cbEVT_PROJECT_CLOSE</a>, <a class="el" href="sdk__events_8h#zi-cbEVT_PROJECT_FILE_ADDED">cbEVT_PROJECT_FILE_ADDED</a>, <a class="el" href="sdk__events_8h#wn-cbEVT_PROJECT_FILE_CHANGED">cbEVT_PROJECT_FILE_CHANGED</a>, <a class="el" href="sdk__events_8h#pu-cbEVT_PROJECT_FILE_REMOVED">cbEVT_PROJECT_FILE_REMOVED</a>, <a class="el" href="sdk__events_8h#mz-cbEVT_PROJECT_SAVE">cbEVT_PROJECT_SAVE</a>, <a class="el" href="sdk__events_8h#pn-cbEVT_WORKSPACE_CHANGED">cbEVT_WORKSPACE_CHANGED</a>, <a class="el" href="classNativeParser#wo-CreateClassBrowser">NativeParser::CreateClassBrowser()</a>, <a class="el" href="classCodeCompletion#ao-EditorEventHook">EditorEventHook()</a>, <a class="el" href="classManager#rz-Get">Manager::Get()</a>, <a class="el" href="classCodeCompletion#f6-LoadTokenReplacements">LoadTokenReplacements()</a>, <a class="el" href="classCodeCompletion#cc-m_AllFunctionsScopes">m_AllFunctionsScopes</a>, <a class="el" href="classCodeCompletion#uu-m_DocHelper">m_DocHelper</a>, <a class="el" href="classCodeCompletion#hr-m_EditMenu">m_EditMenu</a>, <a class="el" href="classCodeCompletion#om-m_EditorHookId">m_EditorHookId</a>, <a class="el" href="classCodeCompletion#l6-m_Function">m_Function</a>, <a class="el" href="classCodeCompletion#i4-m_FunctionsScope">m_FunctionsScope</a>, <a class="el" href="classCodeCompletion#xa-m_LastFile">m_LastFile</a>, <a class="el" href="classCodeCompletion#g4-m_NameSpaces">m_NameSpaces</a>, <a class="el" href="classCodeCompletion#at-m_NativeParser">m_NativeParser</a>, <a class="el" href="classCodeCompletion#sn-m_ProjectMenu">m_ProjectMenu</a>, <a class="el" href="classCodeCompletion#hx-m_Scope">m_Scope</a>, <a class="el" href="classCodeCompletion#rr-m_SearchMenu">m_SearchMenu</a>, <a class="el" href="classCodeCompletion#u2-m_ToolBar">m_ToolBar</a>, <a class="el" href="classCodeCompletion#z8-m_ToolbarNeedRefresh">m_ToolbarNeedRefresh</a>, <a class="el" href="classCodeCompletion#ka-m_ViewMenu">m_ViewMenu</a>, <a class="el" href="classCodeCompletion#mw-OnAppDoneStartup">OnAppDoneStartup()</a>, <a class="el" href="classDocumentationHelper#tq-OnAttach">DocumentationHelper::OnAttach()</a>, <a class="el" href="classCodeCompletion#gv-OnEditorActivated">OnEditorActivated()</a>, <a class="el" href="classCodeCompletion#yj-OnEditorClosed">OnEditorClosed()</a>, <a class="el" href="classCodeCompletion#oc-OnEditorOpen">OnEditorOpen()</a>, <a class="el" href="classCodeCompletion#lt-OnEditorSave">OnEditorSave()</a>, <a class="el" href="classCodeCompletion#q7-OnProjectActivated">OnProjectActivated()</a>, <a class="el" href="classCodeCompletion#bq-OnProjectClosed">OnProjectClosed()</a>, <a class="el" href="classCodeCompletion#df-OnProjectFileAdded">OnProjectFileAdded()</a>, <a class="el" href="classCodeCompletion#cq-OnProjectFileChanged">OnProjectFileChanged()</a>, <a class="el" href="classCodeCompletion#ik-OnProjectFileRemoved">OnProjectFileRemoved()</a>, <a class="el" href="classCodeCompletion#z8-OnProjectSaved">OnProjectSaved()</a>, <a class="el" href="classCodeCompletion#hb-OnWorkspaceChanged">OnWorkspaceChanged()</a>, <a class="el" href="classManager#jh-RegisterEventSink">Manager::RegisterEventSink()</a>, <a class="el" href="namespaceEditorHooks#zv-RegisterHook">EditorHooks::RegisterHook()</a>, and <a class="el" href="classCodeCompletion#gg-RereadOptions">RereadOptions()</a>.</p>
+<p>References <a class="el" href="sdk__events_8h#oq-cbEVT_APP_STARTUP_DONE">cbEVT_APP_STARTUP_DONE</a>, <a class="el" href="sdk__events_8h#h8-cbEVT_EDITOR_ACTIVATED">cbEVT_EDITOR_ACTIVATED</a>, <a class="el" href="sdk__events_8h#vn-cbEVT_EDITOR_CLOSE">cbEVT_EDITOR_CLOSE</a>, <a class="el" href="sdk__events_8h#kc-cbEVT_EDITOR_OPEN">cbEVT_EDITOR_OPEN</a>, <a class="el" href="sdk__events_8h#hn-cbEVT_EDITOR_SAVE">cbEVT_EDITOR_SAVE</a>, <a class="el" href="sdk__events_8h#i3-cbEVT_PROJECT_ACTIVATE">cbEVT_PROJECT_ACTIVATE</a>, <a class="el" href="sdk__events_8h#gy-cbEVT_PROJECT_CLOSE">cbEVT_PROJECT_CLOSE</a>, <a class="el" href="sdk__events_8h#zi-cbEVT_PROJECT_FILE_ADDED">cbEVT_PROJECT_FILE_ADDED</a>, <a class="el" href="sdk__events_8h#wn-cbEVT_PROJECT_FILE_CHANGED">cbEVT_PROJECT_FILE_CHANGED</a>, <a class="el" href="sdk__events_8h#pu-cbEVT_PROJECT_FILE_REMOVED">cbEVT_PROJECT_FILE_REMOVED</a>, <a class="el" href="sdk__events_8h#mz-cbEVT_PROJECT_SAVE">cbEVT_PROJECT_SAVE</a>, <a class="el" href="sdk__events_8h#pn-cbEVT_WORKSPACE_CHANGED">cbEVT_WORKSPACE_CHANGED</a>, <a class="el" href="classNativeParser#wo-CreateClassBrowser">NativeParser::CreateClassBrowser()</a>, <a class="el" href="classCodeCompletion#ao-EditorEventHook">EditorEventHook()</a>, <a class="el" href="classManager#rz-Get">Manager::Get()</a>, <a class="el" href="classCodeCompletion#cc-m_AllFunctionsScopes">m_AllFunctionsScopes</a>, <a class="el" href="classCodeCompletion#uu-m_DocHelper">m_DocHelper</a>, <a class="el" href="classCodeCompletion#hr-m_EditMenu">m_EditMenu</a>, <a class="el" href="classCodeCompletion#om-m_EditorHookId">m_EditorHookId</a>, <a class="el" href="classCodeCompletion#l6-m_Function">m_Function</a>, <a class="el" href="classCodeCompletion#i4-m_FunctionsScope">m_FunctionsScope</a>, <a class="el" href="classCodeCompletion#xa-m_LastFile">m_LastFile</a>, <a class="el" href="classCodeCompletion#g4-m_NameSpaces">m_NameSpaces</a>, <a class="el" href="classCodeCompletion#at-m_NativeParser">m_NativeParser</a>, <a class="el" href="classCodeCompletion#sn-m_ProjectMenu">m_ProjectMenu</a>, <a class="el" href="classCodeCompletion#hx-m_Scope">m_Scope</a>, <a class="el" href="classCodeCompletion#rr-m_SearchMenu">m_SearchMenu</a>, <a class="el" href="classCodeCompletion#u2-m_ToolBar">m_ToolBar</a>, <a class="el" href="classCodeCompletion#z8-m_ToolbarNeedRefresh">m_ToolbarNeedRefresh</a>, <a class="el" href="classCodeCompletion#ka-m_ViewMenu">m_ViewMenu</a>, <a class="el" href="classCodeCompletion#mw-OnAppDoneStartup">OnAppDoneStartup()</a>, <a class="el" href="classDocumentationHelper#tq-OnAttach">DocumentationHelper::OnAttach()</a>, <a class="el" href="classCodeCompletion#gv-OnEditorActivated">OnEditorActivated()</a>, <a class="el" href="classCodeCompletion#yj-OnEditorClosed">OnEditorClosed()</a>, <a class="el" href="classCodeCompletion#oc-OnEditorOpen">OnEditorOpen()</a>, <a class="el" href="classCodeCompletion#lt-OnEditorSave">OnEditorSave()</a>, <a class="el" href="classCodeCompletion#q7-OnProjectActivated">OnProjectActivated()</a>, <a class="el" href="classCodeCompletion#bq-OnProjectClosed">OnProjectClosed()</a>, <a class="el" href="classCodeCompletion#df-OnProjectFileAdded">OnProjectFileAdded()</a>, <a class="el" href="classCodeCompletion#cq-OnProjectFileChanged">OnProjectFileChanged()</a>, <a class="el" href="classCodeCompletion#ik-OnProjectFileRemoved">OnProjectFileRemoved()</a>, <a class="el" href="classCodeCompletion#z8-OnProjectSaved">OnProjectSaved()</a>, <a class="el" href="classCodeCompletion#hb-OnWorkspaceChanged">OnWorkspaceChanged()</a>, <a class="el" href="classManager#jh-RegisterEventSink">Manager::RegisterEventSink()</a>, <a class="el" href="namespaceEditorHooks#zv-RegisterHook">EditorHooks::RegisterHook()</a>, and <a class="el" href="classCodeCompletion#gg-RereadOptions">RereadOptions()</a>.</p>
 
 </div>
 </div>
@@ -2797,7 +2762,7 @@ Think of this method as the actual constructor... </p>
 </table>
 </div><div class="memdoc">
 
-<p>References <a class="el" href="classNativeParser#lb-ClearParsers">NativeParser::ClearParsers()</a>, <a class="el" href="classManager#rz-Get">Manager::Get()</a>, <a class="el" href="classCodeCompletion#cc-m_AllFunctionsScopes">m_AllFunctionsScopes</a>, <a class="el" href="classCodeCompletion#uu-m_DocHelper">m_DocHelper</a>, <a class="el" href="classCodeCompletion#hr-m_EditMenu">m_EditMenu</a>, <a class="el" href="classCodeCompletion#om-m_EditorHookId">m_EditorHookId</a>, <a class="el" href="classCodeCompletion#i4-m_FunctionsScope">m_FunctionsScope</a>, <a class="el" href="classCodeCompletion#g4-m_NameSpaces">m_NameSpaces</a>, <a class="el" href="classCodeCompletion#at-m_NativeParser">m_NativeParser</a>, <a class="el" href="classCodeCompletion#rr-m_SearchMenu">m_SearchMenu</a>, <a class="el" href="classCodeCompletion#z8-m_ToolbarNeedRefresh">m_ToolbarNeedRefresh</a>, <a class="el" href="classDocumentationHelper#a4-OnRelease">DocumentationHelper::OnRelease()</a>, <a class="el" href="classManager#mw-RemoveAllEventSinksFor">Manager::RemoveAllEventSinksFor()</a>, <a class="el" href="classNativeParser#wy-RemoveClassBrowser">NativeParser::RemoveClassBrowser()</a>, <a class="el" href="classCodeCompletion#qz-SaveTokenReplacements">SaveTokenReplacements()</a>, and <a class="el" href="namespaceEditorHooks#a7-UnregisterHook">EditorHooks::UnregisterHook()</a>.</p>
+<p>References <a class="el" href="classNativeParser#lb-ClearParsers">NativeParser::ClearParsers()</a>, <a class="el" href="classManager#rz-Get">Manager::Get()</a>, <a class="el" href="classCodeCompletion#cc-m_AllFunctionsScopes">m_AllFunctionsScopes</a>, <a class="el" href="classCodeCompletion#uu-m_DocHelper">m_DocHelper</a>, <a class="el" href="classCodeCompletion#hr-m_EditMenu">m_EditMenu</a>, <a class="el" href="classCodeCompletion#om-m_EditorHookId">m_EditorHookId</a>, <a class="el" href="classCodeCompletion#i4-m_FunctionsScope">m_FunctionsScope</a>, <a class="el" href="classCodeCompletion#g4-m_NameSpaces">m_NameSpaces</a>, <a class="el" href="classCodeCompletion#at-m_NativeParser">m_NativeParser</a>, <a class="el" href="classCodeCompletion#rr-m_SearchMenu">m_SearchMenu</a>, <a class="el" href="classCodeCompletion#z8-m_ToolbarNeedRefresh">m_ToolbarNeedRefresh</a>, <a class="el" href="classDocumentationHelper#a4-OnRelease">DocumentationHelper::OnRelease()</a>, <a class="el" href="classManager#mw-RemoveAllEventSinksFor">Manager::RemoveAllEventSinksFor()</a>, <a class="el" href="classNativeParser#wy-RemoveClassBrowser">NativeParser::RemoveClassBrowser()</a>, and <a class="el" href="namespaceEditorHooks#a7-UnregisterHook">EditorHooks::UnregisterHook()</a>.</p>
 
 </div>
 </div>
@@ -3247,35 +3212,6 @@ Think of this method as the actual constructor... </p>
 
 </div>
 </div>
-<a class="anchor" id="qz-SaveTokenReplacements"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void CodeCompletion::SaveTokenReplacements </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>write the <a class="el" href="classToken" title="a symbol found in the parsed files, it can be many kinds, such as a variable, a class and so on...">Token</a> replacement map to the configure file </p>
-
-<p>References <a class="el" href="classManager#rz-Get">Manager::Get()</a>, <a class="el" href="classManager#hd-GetConfigManager">Manager::GetConfigManager()</a>, <a class="el" href="classTokenizer#cx-GetTokenReplacementsMap">Tokenizer::GetTokenReplacementsMap()</a>, and <a class="el" href="classConfigManager#ls-Write">ConfigManager::Write()</a>.</p>
-
-<p>Referenced by <a class="el" href="classCodeCompletion#lu-OnRelease">OnRelease()</a>.</p>
-
-</div>
-</div>
 <a class="anchor" id="l9-UpdateEditorSyntax"></a>
 <div class="memitem">
 <div class="memproto">
@@ -3619,7 +3555,7 @@ Think of this method as the actual constructor... </p>
 </table>
 </div><div class="memdoc">
 
-<p>remember the number of bytes in the current editor/document </p>
+<p>remember the number of bytes in the current editor/document this is actually the saved editor or file's size </p>
 
 <p>Referenced by <a class="el" href="classCodeCompletion#ao-EditorEventHook">EditorEventHook()</a>, and <a class="el" href="classCodeCompletion#so-OnRealtimeParsingTimer">OnRealtimeParsingTimer()</a>.</p>
 
@@ -3643,7 +3579,7 @@ Think of this method as the actual constructor... </p>
 </table>
 </div><div class="memdoc">
 
-<p>current caret line </p>
+<p>current caret line, this is actually the saved caret line </p>
 
 <p>Referenced by <a class="el" href="classCodeCompletion#ao-EditorEventHook">EditorEventHook()</a>, <a class="el" href="classCodeCompletion#ki-FindFunctionAndUpdate">FindFunctionAndUpdate()</a>, <a class="el" href="classCodeCompletion#lc-FunctionPosition">FunctionPosition()</a>, and <a class="el" href="classCodeCompletion#g7-NameSpacePosition">NameSpacePosition()</a>.</p>
 
@@ -3809,7 +3745,7 @@ Think of this method as the actual constructor... </p>
 </table>
 </div><div class="memdoc">
 
-<p>the last valid editor </p>
+<p>the last valid editor it is saved in editor activated event handler, and will be verified in editor activated timer event handler </p>
 
 <p>Referenced by <a class="el" href="classCodeCompletion#gv-OnEditorActivated">OnEditorActivated()</a>, <a class="el" href="classCodeCompletion#je-OnEditorActivatedTimer">OnEditorActivatedTimer()</a>, and <a class="el" href="classCodeCompletion#yj-OnEditorClosed">OnEditorClosed()</a>.</p>
 
@@ -4163,7 +4099,7 @@ Think of this method as the actual constructor... </p>
 </table>
 </div><div class="memdoc">
 
-<p>delay after receive editor activated event </p>
+<p>delay after receive editor activated event the reason we need a timer is that we want to get a stable editor activate information thus we will only handle the last editor activated editor The timer will be restart when an editor activated event happens. </p>
 
 <p>Referenced by <a class="el" href="classCodeCompletion#ao-EditorEventHook">EditorEventHook()</a>, <a class="el" href="classCodeCompletion#gv-OnEditorActivated">OnEditorActivated()</a>, and <a class="el" href="classCodeCompletion#yj-OnEditorClosed">OnEditorClosed()</a>.</p>
 
@@ -4259,7 +4195,7 @@ Think of this method as the actual constructor... </p>
 </table>
 </div><div class="memdoc">
 
-<p>timer for toolbar </p>
+<p>timer for toolbar we only show an updated item in CC's toolbar's item list when caret position is stable for a period of time. </p>
 
 <p>Referenced by <a class="el" href="classCodeCompletion#ao-EditorEventHook">EditorEventHook()</a>, <a class="el" href="classCodeCompletion#gv-OnEditorActivated">OnEditorActivated()</a>, <a class="el" href="classCodeCompletion#je-OnEditorActivatedTimer">OnEditorActivatedTimer()</a>, <a class="el" href="classCodeCompletion#he-OnParserEnd">OnParserEnd()</a>, <a class="el" href="classCodeCompletion#v1-OnReparsingTimer">OnReparsingTimer()</a>, <a class="el" href="classCodeCompletion#nz-OnToolbarTimer">OnToolbarTimer()</a>, <a class="el" href="classCodeCompletion#hb-OnWorkspaceChanged">OnWorkspaceChanged()</a>, and <a class="el" href="classCodeCompletion#gg-RereadOptions">RereadOptions()</a>.</p>
 
@@ -4307,7 +4243,7 @@ Think of this method as the actual constructor... </p>
 </table>
 </div><div class="memdoc">
 
-<p>indicate whether the CC's toolbar need a refresh </p>
+<p>indicate whether the CC's toolbar need a refresh, this means the toolbar list will be reconstructed </p>
 
 <p>Referenced by <a class="el" href="classCodeCompletion#ao-EditorEventHook">EditorEventHook()</a>, <a class="el" href="classCodeCompletion#mq-OnAttach">OnAttach()</a>, <a class="el" href="classCodeCompletion#lu-OnRelease">OnRelease()</a>, and <a class="el" href="classCodeCompletion#rl-ParseFunctionsAndFillToolbar">ParseFunctionsAndFillToolbar()</a>.</p>
 
@@ -4331,7 +4267,7 @@ Think of this method as the actual constructor... </p>
 </table>
 </div><div class="memdoc">
 
-<p>force update toolbar </p>
+<p>force to re-collect the CC toolbar's item information this means we will parse the buffer to collect the scope information and then rebuild the toolbar items </p>
 
 <p>Referenced by <a class="el" href="classCodeCompletion#he-OnParserEnd">OnParserEnd()</a>, <a class="el" href="classCodeCompletion#v1-OnReparsingTimer">OnReparsingTimer()</a>, <a class="el" href="classCodeCompletion#rl-ParseFunctionsAndFillToolbar">ParseFunctionsAndFillToolbar()</a>, and <a class="el" href="classCodeCompletion#gg-RereadOptions">RereadOptions()</a>.</p>
 

@@ -18,7 +18,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">Code::Blocks
-   &#160;<span id="projectnumber">SVN r10408</span>
+   &#160;<span id="projectnumber">SVN r10603</span>
    </div>
   </td>
  </tr>
@@ -64,13 +64,13 @@
 <div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;</div>
 <div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="globals_8h">globals.h</a>&quot;</span> <span class="comment">// for cbC2U()</span></div>
 <div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;</div>
-<div class="line"><a name="l00023"></a><span class="lineno"><a class="line" href="classcbException">   23</a></span>&#160;<span class="keyword">class </span><a class="code" href="classcbException">cbException</a></div>
+<div class="line"><a name="l00023"></a><span class="lineno"><a class="line" href="classcbException">   23</a></span>&#160;<span class="keyword">class </span><a class="code" href="settings_8h#oc-DLLIMPORT">DLLIMPORT</a> <a class="code" href="classcbException">cbException</a></div>
 <div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;{</div>
 <div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    <span class="keyword">public</span>:</div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;        <a class="code" href="classcbException#cy-cbException">cbException</a>(<span class="keyword">const</span> wxString&amp; msg, <span class="keyword">const</span> wxString&amp; file, <span class="keywordtype">int</span> line);</div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;        <span class="keyword">virtual</span> <a class="code" href="classcbException#gq-cbException">~cbException</a>();</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;        <a class="code" href="classcbException">cbException</a>(<span class="keyword">const</span> wxString&amp; msg, <span class="keyword">const</span> wxString&amp; file, <span class="keywordtype">int</span> line);</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;        <span class="keyword">virtual</span> ~<a class="code" href="classcbException">cbException</a>();</div>
 <div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;</div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="classcbException#iy-ShowErrorMessage">ShowErrorMessage</a>(<span class="keywordtype">bool</span> safe = <span class="keyword">true</span>);</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;        <span class="keywordtype">void</span> ShowErrorMessage(<span class="keywordtype">bool</span> safe = <span class="keyword">true</span>);</div>
 <div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;</div>
 <div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;        <span class="comment">// public members</span></div>
 <div class="line"><a name="l00036"></a><span class="lineno"><a class="line" href="classcbException#if-Message">   36</a></span>&#160;        wxString <a class="code" href="classcbException#if-Message">Message</a>; </div>
@@ -126,11 +126,9 @@
 <div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;</div>
 <div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;<span class="preprocessor">#endif // CBEXCEPTION_H</span></div>
-<div class="ttc" id="classcbException_cy-cbException"><div class="ttname"><a href="classcbException#cy-cbException">cbException::cbException</a></div><div class="ttdeci">cbException(const wxString &amp;msg, const wxString &amp;file, int line)</div><div class="ttdef"><b>Definition:</b> cbexception.cpp:21</div></div>
 <div class="ttc" id="classcbException_vk-File"><div class="ttname"><a href="classcbException#vk-File">cbException::File</a></div><div class="ttdeci">wxString File</div><div class="ttdoc">The file where the exception was raised. </div><div class="ttdef"><b>Definition:</b> cbexception.h:37</div></div>
+<div class="ttc" id="settings_8h_oc-DLLIMPORT"><div class="ttname"><a href="settings_8h#oc-DLLIMPORT">DLLIMPORT</a></div><div class="ttdeci">#define DLLIMPORT</div><div class="ttdef"><b>Definition:</b> settings.h:16</div></div>
 <div class="ttc" id="classcbException_vb-Line"><div class="ttname"><a href="classcbException#vb-Line">cbException::Line</a></div><div class="ttdeci">int Line</div><div class="ttdoc">The line in the file where the exception was raised. </div><div class="ttdef"><b>Definition:</b> cbexception.h:38</div></div>
-<div class="ttc" id="classcbException_gq-cbException"><div class="ttname"><a href="classcbException#gq-cbException">cbException::~cbException</a></div><div class="ttdeci">virtual ~cbException()</div><div class="ttdef"><b>Definition:</b> cbexception.cpp:27</div></div>
-<div class="ttc" id="classcbException_iy-ShowErrorMessage"><div class="ttname"><a href="classcbException#iy-ShowErrorMessage">cbException::ShowErrorMessage</a></div><div class="ttdeci">void ShowErrorMessage(bool safe=true)</div><div class="ttdoc">Display exception error message. </div><div class="ttdef"><b>Definition:</b> cbexception.cpp:31</div></div>
 <div class="ttc" id="classcbException_if-Message"><div class="ttname"><a href="classcbException#if-Message">cbException::Message</a></div><div class="ttdeci">wxString Message</div><div class="ttdoc">The exception&#39;s error message. </div><div class="ttdef"><b>Definition:</b> cbexception.h:36</div></div>
 <div class="ttc" id="classcbException"><div class="ttname"><a href="classcbException">cbException</a></div><div class="ttdoc">Code::Blocks error handling unit. </div><div class="ttdef"><b>Definition:</b> cbexception.h:23</div></div>
 <div class="ttc" id="globals_8h"><div class="ttname"><a href="globals_8h">globals.h</a></div></div>

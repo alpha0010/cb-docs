@@ -18,7 +18,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">Code::Blocks
-   &#160;<span id="projectnumber">SVN r10408</span>
+   &#160;<span id="projectnumber">SVN r10603</span>
    </div>
   </td>
  </tr>
@@ -102,8 +102,55 @@ Functions</h2></td></tr>
 <tr class="memitem:yu-cbDetectDebuggerExecutable"><td class="memItemLeft" align="right" valign="top"><a class="el" href="settings_8h#oc-DLLIMPORT">DLLIMPORT</a> wxString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="debuggermanager_8h#yu-cbDetectDebuggerExecutable">cbDetectDebuggerExecutable</a> (const wxString &amp;exeName)</td></tr>
 <tr class="memdesc:yu-cbDetectDebuggerExecutable"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tries to detect the path to the debugger's executable.  <a href="#yu-cbDetectDebuggerExecutable">More...</a><br /></td></tr>
 <tr class="separator:yu-cbDetectDebuggerExecutable"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:x4-cbDebuggerStringToAddress"><td class="memItemLeft" align="right" valign="top"><a class="el" href="settings_8h#oc-DLLIMPORT">DLLIMPORT</a> uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="debuggermanager_8h#x4-cbDebuggerStringToAddress">cbDebuggerStringToAddress</a> (const wxString &amp;address)</td></tr>
+<tr class="memdesc:x4-cbDebuggerStringToAddress"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert a string in hex form to a uint64_t number.  <a href="#x4-cbDebuggerStringToAddress">More...</a><br /></td></tr>
+<tr class="separator:x4-cbDebuggerStringToAddress"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:cj-cbDebuggerAddressToString"><td class="memItemLeft" align="right" valign="top"><a class="el" href="settings_8h#oc-DLLIMPORT">DLLIMPORT</a> wxString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="debuggermanager_8h#cj-cbDebuggerAddressToString">cbDebuggerAddressToString</a> (uint64_t address)</td></tr>
+<tr class="memdesc:cj-cbDebuggerAddressToString"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert a uint64_t variable to a hex string that will look like an address.  <a href="#cj-cbDebuggerAddressToString">More...</a><br /></td></tr>
+<tr class="separator:cj-cbDebuggerAddressToString"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
+<a class="anchor" id="cj-cbDebuggerAddressToString"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="settings_8h#oc-DLLIMPORT">DLLIMPORT</a> wxString cbDebuggerAddressToString </td>
+          <td>(</td>
+          <td class="paramtype">uint64_t&#160;</td>
+          <td class="paramname"><em>address</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Convert a uint64_t variable to a hex string that will look like an address. </p>
+
+<p>Referenced by <a class="el" href="classDisassemblyDlg#cm-AddAssemblerLine">DisassemblyDlg::AddAssemblerLine()</a>, and <a class="el" href="classcbStackFrame#dw-GetAddressAsString">cbStackFrame::GetAddressAsString()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="x4-cbDebuggerStringToAddress"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="settings_8h#oc-DLLIMPORT">DLLIMPORT</a> uint64_t cbDebuggerStringToAddress </td>
+          <td>(</td>
+          <td class="paramtype">const wxString &amp;&#160;</td>
+          <td class="paramname"><em>address</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Convert a string in hex form to a uint64_t number. </p>
+<dl class="section return"><dt>Returns</dt><dd>The uint64_t representation of the string or 0 when the string can't be converted. </dd></dl>
+
+<p>Referenced by <a class="el" href="classGdbCmd__Backtrace#qa-MatchLine">GdbCmd_Backtrace::MatchLine()</a>, <a class="el" href="classDebuggerGDB#fx-OnCursorChanged">DebuggerGDB::OnCursorChanged()</a>, <a class="el" href="classCdbCmd__Backtrace#e3-ParseOutput">CdbCmd_Backtrace::ParseOutput()</a>, <a class="el" href="classCdbCmd__Disassembly#dy-ParseOutput">CdbCmd_Disassembly::ParseOutput()</a>, <a class="el" href="classCdbCmd__DisassemblyInit#ow-ParseOutput">CdbCmd_DisassemblyInit::ParseOutput()</a>, <a class="el" href="classGdbCmd__Disassembly#vx-ParseOutput">GdbCmd_Disassembly::ParseOutput()</a>, <a class="el" href="classGdbCmd__DisassemblyInit#ir-ParseOutput">GdbCmd_DisassemblyInit::ParseOutput()</a>, <a class="el" href="classGdbCmd__StepOrNextInstruction#ls-ParseOutput">GdbCmd_StepOrNextInstruction::ParseOutput()</a>, and <a class="el" href="classDisassemblyDlg#lh-SetActiveAddress">DisassemblyDlg::SetActiveAddress()</a>.</p>
+
+</div>
+</div>
 <a class="anchor" id="yu-cbDetectDebuggerExecutable"></a>
 <div class="memitem">
 <div class="memproto">

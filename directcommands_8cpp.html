@@ -18,7 +18,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">Code::Blocks
-   &#160;<span id="projectnumber">SVN r10408</span>
+   &#160;<span id="projectnumber">SVN r10603</span>
    </div>
   </td>
  </tr>
@@ -48,7 +48,8 @@
 </div><!-- top -->
 <div class="header">
   <div class="summary">
-<a href="#func-members">Functions</a>  </div>
+<a href="#func-members">Functions</a> &#124;
+<a href="#var-members">Variables</a>  </div>
   <div class="headertitle">
 <div class="title">directcommands.cpp File Reference</div>  </div>
 </div><!--header-->
@@ -84,10 +85,157 @@ Include dependency graph for directcommands.cpp:</div>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
+<tr class="memitem:l4-COMPILER_SIMPLE_LOG"><td class="memItemLeft" align="right" valign="top">const wxString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="directcommands_8cpp#l4-COMPILER_SIMPLE_LOG">COMPILER_SIMPLE_LOG</a> (_T(&quot;SLOG:&quot;))</td></tr>
+<tr class="separator:l4-COMPILER_SIMPLE_LOG"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:vb-COMPILER_NOTE_LOG"><td class="memItemLeft" align="right" valign="top">const wxString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="directcommands_8cpp#vb-COMPILER_NOTE_LOG">COMPILER_NOTE_LOG</a> (_T(&quot;SLOG:NLOG:&quot;))</td></tr>
+<tr class="separator:vb-COMPILER_NOTE_LOG"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:zl-COMPILER_WARNING_LOG"><td class="memItemLeft" align="right" valign="top">const wxString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="directcommands_8cpp#zl-COMPILER_WARNING_LOG">COMPILER_WARNING_LOG</a> (_T(&quot;SLOG:WLOG:&quot;))</td></tr>
+<tr class="separator:zl-COMPILER_WARNING_LOG"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:fd-COMPILER_ERROR_LOG"><td class="memItemLeft" align="right" valign="top">const wxString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="directcommands_8cpp#fd-COMPILER_ERROR_LOG">COMPILER_ERROR_LOG</a> (_T(&quot;SLOG:ELOG:&quot;))</td></tr>
+<tr class="separator:fd-COMPILER_ERROR_LOG"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gg-COMPILER_TARGET_CHANGE"><td class="memItemLeft" align="right" valign="top">const wxString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="directcommands_8cpp#gg-COMPILER_TARGET_CHANGE">COMPILER_TARGET_CHANGE</a> (_T(&quot;TGT:&quot;))</td></tr>
+<tr class="separator:gg-COMPILER_TARGET_CHANGE"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ud-COMPILER_WAIT"><td class="memItemLeft" align="right" valign="top">const wxString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="directcommands_8cpp#ud-COMPILER_WAIT">COMPILER_WAIT</a> (_T(&quot;WAIT&quot;))</td></tr>
+<tr class="separator:ud-COMPILER_WAIT"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:rc-COMPILER_WAIT_LINK"><td class="memItemLeft" align="right" valign="top">const wxString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="directcommands_8cpp#rc-COMPILER_WAIT_LINK">COMPILER_WAIT_LINK</a> (_T(&quot;LINK&quot;))</td></tr>
+<tr class="separator:rc-COMPILER_WAIT_LINK"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:y8-MySortProjectFilesByWeight"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="directcommands_8cpp#y8-MySortProjectFilesByWeight">MySortProjectFilesByWeight</a> (<a class="el" href="classProjectFile">ProjectFile</a> **one, <a class="el" href="classProjectFile">ProjectFile</a> **two)</td></tr>
 <tr class="separator:y8-MySortProjectFilesByWeight"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:b3-COMPILER_NOTE_ID_LOG"><td class="memItemLeft" align="right" valign="top">const wxString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="directcommands_8cpp#b3-COMPILER_NOTE_ID_LOG">COMPILER_NOTE_ID_LOG</a> = COMPILER_NOTE_LOG.AfterFirst(wxT(':'))</td></tr>
+<tr class="separator:b3-COMPILER_NOTE_ID_LOG"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:tg-COMPILER_WARNING_ID_LOG"><td class="memItemLeft" align="right" valign="top">const wxString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="directcommands_8cpp#tg-COMPILER_WARNING_ID_LOG">COMPILER_WARNING_ID_LOG</a> = COMPILER_WARNING_LOG.AfterFirst(wxT(':'))</td></tr>
+<tr class="separator:tg-COMPILER_WARNING_ID_LOG"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:or-COMPILER_ERROR_ID_LOG"><td class="memItemLeft" align="right" valign="top">const wxString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="directcommands_8cpp#or-COMPILER_ERROR_ID_LOG">COMPILER_ERROR_ID_LOG</a> = COMPILER_ERROR_LOG.AfterFirst(wxT(':'))</td></tr>
+<tr class="separator:or-COMPILER_ERROR_ID_LOG"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
+<a class="anchor" id="fd-COMPILER_ERROR_LOG"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const wxString COMPILER_ERROR_LOG </td>
+          <td>(</td>
+          <td class="paramtype">_T(&quot;SLOG:ELOG:&quot;)&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="vb-COMPILER_NOTE_LOG"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const wxString COMPILER_NOTE_LOG </td>
+          <td>(</td>
+          <td class="paramtype">_T(&quot;SLOG:NLOG:&quot;)&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Referenced by <a class="el" href="classDirectCommands#wh-GetTargetLinkCommands">DirectCommands::GetTargetLinkCommands()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="l4-COMPILER_SIMPLE_LOG"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const wxString COMPILER_SIMPLE_LOG </td>
+          <td>(</td>
+          <td class="paramtype">_T(&quot;SLOG:&quot;)&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Referenced by <a class="el" href="classDirectCommands#x3-GetCompileFileCommand">DirectCommands::GetCompileFileCommand()</a>, <a class="el" href="classDirectCommands#sy-GetCompileSingleFileCommand">DirectCommands::GetCompileSingleFileCommand()</a>, <a class="el" href="classDirectCommands#ja-GetPostBuildCommands">DirectCommands::GetPostBuildCommands()</a>, <a class="el" href="classDirectCommands#rj-GetPreBuildCommands">DirectCommands::GetPreBuildCommands()</a>, and <a class="el" href="classDirectCommands#wh-GetTargetLinkCommands">DirectCommands::GetTargetLinkCommands()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="gg-COMPILER_TARGET_CHANGE"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const wxString COMPILER_TARGET_CHANGE </td>
+          <td>(</td>
+          <td class="paramtype">_T(&quot;TGT:&quot;)&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Referenced by <a class="el" href="classDirectCommands#u7-CompileFile">DirectCommands::CompileFile()</a>, and <a class="el" href="classDirectCommands#wh-GetTargetLinkCommands">DirectCommands::GetTargetLinkCommands()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ud-COMPILER_WAIT"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const wxString COMPILER_WAIT </td>
+          <td>(</td>
+          <td class="paramtype">_T(&quot;WAIT&quot;)&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Referenced by <a class="el" href="classDirectCommands#rn-AddCommandsToArray">DirectCommands::AddCommandsToArray()</a>, <a class="el" href="classDirectCommands#x3-GetCompileFileCommand">DirectCommands::GetCompileFileCommand()</a>, <a class="el" href="classDirectCommands#ja-GetPostBuildCommands">DirectCommands::GetPostBuildCommands()</a>, <a class="el" href="classDirectCommands#rj-GetPreBuildCommands">DirectCommands::GetPreBuildCommands()</a>, and <a class="el" href="classDirectCommands#f2-GetTargetCompileCommands">DirectCommands::GetTargetCompileCommands()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="rc-COMPILER_WAIT_LINK"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const wxString COMPILER_WAIT_LINK </td>
+          <td>(</td>
+          <td class="paramtype">_T(&quot;LINK&quot;)&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Referenced by <a class="el" href="classDirectCommands#rn-AddCommandsToArray">DirectCommands::AddCommandsToArray()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="zl-COMPILER_WARNING_LOG"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const wxString COMPILER_WARNING_LOG </td>
+          <td>(</td>
+          <td class="paramtype">_T(&quot;SLOG:WLOG:&quot;)&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Referenced by <a class="el" href="classDirectCommands#u7-CompileFile">DirectCommands::CompileFile()</a>, <a class="el" href="classDirectCommands#f2-GetTargetCompileCommands">DirectCommands::GetTargetCompileCommands()</a>, and <a class="el" href="classDirectCommands#wh-GetTargetLinkCommands">DirectCommands::GetTargetLinkCommands()</a>.</p>
+
+</div>
+</div>
 <a class="anchor" id="y8-MySortProjectFilesByWeight"></a>
 <div class="memitem">
 <div class="memproto">
@@ -121,6 +269,49 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Referenced by <a class="el" href="classDirectCommands#jt-GetProjectFilesSortedByWeight">DirectCommands::GetProjectFilesSortedByWeight()</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Variable Documentation</h2>
+<a class="anchor" id="or-COMPILER_ERROR_ID_LOG"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const wxString COMPILER_ERROR_ID_LOG = COMPILER_ERROR_LOG.AfterFirst(wxT(':'))</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Referenced by <a class="el" href="classCompilerGCC#ak-LogMessage">CompilerGCC::LogMessage()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="b3-COMPILER_NOTE_ID_LOG"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const wxString COMPILER_NOTE_ID_LOG = COMPILER_NOTE_LOG.AfterFirst(wxT(':'))</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Referenced by <a class="el" href="classCompilerGCC#ak-LogMessage">CompilerGCC::LogMessage()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="tg-COMPILER_WARNING_ID_LOG"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const wxString COMPILER_WARNING_ID_LOG = COMPILER_WARNING_LOG.AfterFirst(wxT(':'))</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Referenced by <a class="el" href="classCompilerGCC#ak-LogMessage">CompilerGCC::LogMessage()</a>.</p>
 
 </div>
 </div>

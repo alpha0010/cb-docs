@@ -18,7 +18,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">Code::Blocks
-   &#160;<span id="projectnumber">SVN r10408</span>
+   &#160;<span id="projectnumber">SVN r10603</span>
    </div>
   </td>
  </tr>
@@ -63,12 +63,14 @@ Enumerations</h2></td></tr>
 <tr class="memitem:pu-EFileType"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceParserCommon#pu-EFileType">EFileType</a> { <a class="el" href="namespaceParserCommon#pu-EFileType:ftHeader">ftHeader</a>, 
 <a class="el" href="namespaceParserCommon#pu-EFileType:ftSource">ftSource</a>, 
 <a class="el" href="namespaceParserCommon#pu-EFileType:ftOther">ftOther</a>
- }<tr class="separator:pu-EFileType"><td class="memSeparator" colspan="2">&#160;</td></tr>
+ }<tr class="memdesc:pu-EFileType"><td class="mdescLeft">&#160;</td><td class="mdescRight">the enum type of the file type  <a href="namespaceParserCommon#pu-EFileType">More...</a><br /></td></tr>
+<tr class="separator:pu-EFileType"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:fo-FileType"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceParserCommon#pu-EFileType">EFileType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceParserCommon#fo-FileType">FileType</a> (const wxString &amp;filename, bool force_refresh=false)</td></tr>
+<tr class="memdesc:fo-FileType"><td class="mdescLeft">&#160;</td><td class="mdescRight">return a file type, which can be either header files or implementation files or other files  <a href="#fo-FileType">More...</a><br /></td></tr>
 <tr class="separator:fo-FileType"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
@@ -100,6 +102,8 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>the enum type of the file type </p>
 <table class="fieldtable">
 <tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a class="anchor" id="pu-EFileType:ftHeader"></a>ftHeader&#160;</td><td class="fielddoc">
 </td></tr>
@@ -161,6 +165,15 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>return a file type, which can be either header files or implementation files or other files </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">filename</td><td>the input file name </td></tr>
+    <tr><td class="paramname">force_refresh</td><td>read the user's option of file extension to classify the file type </td></tr>
+  </table>
+  </dd>
+</dl>
 
 <p>References <a class="el" href="namespaceParserCommon#pu-EFileType:ftHeader">ftHeader</a>, <a class="el" href="namespaceParserCommon#pu-EFileType:ftOther">ftOther</a>, <a class="el" href="namespaceParserCommon#pu-EFileType:ftSource">ftSource</a>, <a class="el" href="classManager#rz-Get">Manager::Get()</a>, <a class="el" href="classManager#hd-GetConfigManager">Manager::GetConfigManager()</a>, <a class="el" href="classConfigManager#y7-Read">ConfigManager::Read()</a>, and <a class="el" href="classConfigManager#mv-ReadBool">ConfigManager::ReadBool()</a>.</p>
 

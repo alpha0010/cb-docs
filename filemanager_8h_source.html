@@ -18,7 +18,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">Code::Blocks
-   &#160;<span id="projectnumber">SVN r10408</span>
+   &#160;<span id="projectnumber">SVN r10603</span>
    </div>
   </td>
  </tr>
@@ -81,7 +81,7 @@
 <div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;</div>
 <div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;</div>
 <div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;<span class="comment">// ***** class: LoaderBase *****</span></div>
-<div class="line"><a name="l00031"></a><span class="lineno"><a class="line" href="classLoaderBase">   31</a></span>&#160;<span class="keyword">class </span><a class="code" href="classLoaderBase">LoaderBase</a> : <span class="keyword">public</span> <a class="code" href="classAbstractJob">AbstractJob</a></div>
+<div class="line"><a name="l00031"></a><span class="lineno"><a class="line" href="classLoaderBase">   31</a></span>&#160;<span class="keyword">class </span><a class="code" href="settings_8h#oc-DLLIMPORT">DLLIMPORT</a> <a class="code" href="classLoaderBase">LoaderBase</a> : <span class="keyword">public</span> <a class="code" href="classAbstractJob">AbstractJob</a></div>
 <div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;{</div>
 <div class="line"><a name="l00033"></a><span class="lineno"><a class="line" href="classLoaderBase#yn-sem">   33</a></span>&#160;    wxSemaphore <a class="code" href="classLoaderBase#yn-sem">sem</a>;</div>
 <div class="line"><a name="l00034"></a><span class="lineno"><a class="line" href="classLoaderBase#eh-wait">   34</a></span>&#160;    <span class="keywordtype">bool</span> <a class="code" href="classLoaderBase#eh-wait">wait</a>;</div>
@@ -96,7 +96,7 @@
 <div class="line"><a name="l00043"></a><span class="lineno"><a class="line" href="classLoaderBase#ai-fileName">   43</a></span>&#160;    };</div>
 <div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;</div>
 <div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;<span class="keyword">protected</span>:</div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    wxString <a class="code" href="classLoaderBase#ai-fileName">fileName</a>;</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    wxString fileName;</div>
 <div class="line"><a name="l00047"></a><span class="lineno"><a class="line" href="classLoaderBase#u3-data">   47</a></span>&#160;    <span class="keywordtype">char</span> *<a class="code" href="classLoaderBase#u3-data">data</a>;</div>
 <div class="line"><a name="l00048"></a><span class="lineno"><a class="line" href="classLoaderBase#x8-len">   48</a></span>&#160;    <span class="keywordtype">size_t</span> <a class="code" href="classLoaderBase#x8-len">len</a>;</div>
 <div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;</div>
@@ -107,50 +107,50 @@
 <div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;</div>
 <div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;<span class="keyword">public</span>:</div>
 <div class="line"><a name="l00056"></a><span class="lineno"><a class="line" href="classLoaderBase#n9-LoaderBase">   56</a></span>&#160;    <a class="code" href="classLoaderBase#n9-LoaderBase">LoaderBase</a>() : wait(true), data(<a class="code" href="nullptr_8cpp#ix-nullptr">nullptr</a>), len(0) {};</div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;    <a class="code" href="classLoaderBase#i0-LoaderBase">~LoaderBase</a>();</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;    ~<a class="code" href="classLoaderBase">LoaderBase</a>();</div>
 <div class="line"><a name="l00058"></a><span class="lineno"><a class="line" href="classLoaderBase#mh-operator">   58</a></span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classLoaderBase#mh-operator">operator()</a>() {};</div>
-<div class="line"><a name="l00059"></a><span class="lineno"><a class="line" href="classLoaderBase#xn-FileName">   59</a></span>&#160;    wxString <a class="code" href="classLoaderBase#xn-FileName">FileName</a>()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> <a class="code" href="classLoaderBase#ai-fileName">fileName</a>; };</div>
+<div class="line"><a name="l00059"></a><span class="lineno"><a class="line" href="classLoaderBase#xn-FileName">   59</a></span>&#160;    wxString <a class="code" href="classLoaderBase#xn-FileName">FileName</a>()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> fileName; };</div>
 <div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;</div>
-<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;    <span class="keywordtype">bool</span> <a class="code" href="classLoaderBase#yt-Sync">Sync</a>();</div>
-<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;    <span class="keywordtype">char</span>* <a class="code" href="classLoaderBase#d3-GetData">GetData</a>();</div>
-<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;    <span class="keywordtype">size_t</span> <a class="code" href="classLoaderBase#es-GetLength">GetLength</a>();</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;    <span class="keywordtype">bool</span> Sync();</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;    <span class="keywordtype">char</span>* GetData();</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;    <span class="keywordtype">size_t</span> GetLength();</div>
 <div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;};</div>
 <div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;</div>
 <div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;<span class="comment">// ***** class: FileLoader *****</span></div>
-<div class="line"><a name="l00067"></a><span class="lineno"><a class="line" href="classFileLoader">   67</a></span>&#160;<span class="keyword">class </span><a class="code" href="classFileLoader">FileLoader</a> : <span class="keyword">public</span> <a class="code" href="classLoaderBase">LoaderBase</a></div>
+<div class="line"><a name="l00067"></a><span class="lineno"><a class="line" href="classFileLoader">   67</a></span>&#160;<span class="keyword">class </span><a class="code" href="settings_8h#oc-DLLIMPORT">DLLIMPORT</a> <a class="code" href="classFileLoader">FileLoader</a> : <span class="keyword">public</span> <a class="code" href="classLoaderBase">LoaderBase</a></div>
 <div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;{</div>
 <div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;<span class="keyword">public</span>:</div>
-<div class="line"><a name="l00070"></a><span class="lineno"><a class="line" href="classFileLoader#ck-FileLoader">   70</a></span>&#160;    <a class="code" href="classFileLoader#ck-FileLoader">FileLoader</a>(<span class="keyword">const</span> wxString&amp; name) { <a class="code" href="classLoaderBase#ai-fileName">fileName</a> = name; };</div>
-<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classFileLoader#eg-operator">operator()</a>();</div>
+<div class="line"><a name="l00070"></a><span class="lineno"><a class="line" href="classFileLoader#ck-FileLoader">   70</a></span>&#160;    <a class="code" href="classFileLoader#ck-FileLoader">FileLoader</a>(<span class="keyword">const</span> wxString&amp; name) { fileName = name; };</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classLoaderBase#mh-operator">operator()</a>();</div>
 <div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;};</div>
 <div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;</div>
 <div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;<span class="comment">// ***** class: URLLoader *****</span></div>
-<div class="line"><a name="l00075"></a><span class="lineno"><a class="line" href="classURLLoader">   75</a></span>&#160;<span class="keyword">class </span><a class="code" href="classURLLoader">URLLoader</a> : <span class="keyword">public</span> <a class="code" href="classLoaderBase">LoaderBase</a></div>
+<div class="line"><a name="l00075"></a><span class="lineno"><a class="line" href="classURLLoader">   75</a></span>&#160;<span class="keyword">class </span><a class="code" href="settings_8h#oc-DLLIMPORT">DLLIMPORT</a> <a class="code" href="classURLLoader">URLLoader</a> : <span class="keyword">public</span> <a class="code" href="classLoaderBase">LoaderBase</a></div>
 <div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;{</div>
 <div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;<span class="keyword">public</span>:</div>
-<div class="line"><a name="l00078"></a><span class="lineno"><a class="line" href="classURLLoader#c5-URLLoader">   78</a></span>&#160;    <a class="code" href="classURLLoader#c5-URLLoader">URLLoader</a>(<span class="keyword">const</span> wxString&amp; name) { <a class="code" href="classLoaderBase#ai-fileName">fileName</a> = name; };</div>
-<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classURLLoader#ov-operator">operator()</a>();</div>
+<div class="line"><a name="l00078"></a><span class="lineno"><a class="line" href="classURLLoader#c5-URLLoader">   78</a></span>&#160;    <a class="code" href="classURLLoader#c5-URLLoader">URLLoader</a>(<span class="keyword">const</span> wxString&amp; name) { fileName = name; };</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classLoaderBase#mh-operator">operator()</a>();</div>
 <div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;<span class="keyword">private</span>:</div>
 <div class="line"><a name="l00081"></a><span class="lineno"><a class="line" href="classURLLoader#nm-mBuffer">   81</a></span>&#160;    std::vector&lt;char&gt; <a class="code" href="classURLLoader#nm-mBuffer">mBuffer</a>;</div>
 <div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;};</div>
 <div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;</div>
 <div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;<span class="comment">// ***** class: NullLoader *****</span></div>
-<div class="line"><a name="l00085"></a><span class="lineno"><a class="line" href="classNullLoader">   85</a></span>&#160;<span class="keyword">class </span><a class="code" href="classNullLoader">NullLoader</a> : <span class="keyword">public</span> <a class="code" href="classLoaderBase">LoaderBase</a></div>
+<div class="line"><a name="l00085"></a><span class="lineno"><a class="line" href="classNullLoader">   85</a></span>&#160;<span class="keyword">class </span><a class="code" href="settings_8h#oc-DLLIMPORT">DLLIMPORT</a> <a class="code" href="classNullLoader">NullLoader</a> : <span class="keyword">public</span> <a class="code" href="classLoaderBase">LoaderBase</a></div>
 <div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;{</div>
 <div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;<span class="keyword">public</span>:</div>
-<div class="line"><a name="l00088"></a><span class="lineno"><a class="line" href="classNullLoader#ap-NullLoader">   88</a></span>&#160;    <a class="code" href="classNullLoader#ap-NullLoader">NullLoader</a>(<span class="keyword">const</span> wxString&amp; name, <span class="keywordtype">char</span>* buffer, <span class="keywordtype">size_t</span> size) { <a class="code" href="classLoaderBase#ai-fileName">fileName</a> = name; <a class="code" href="classLoaderBase#u3-data">data</a> = buffer; <a class="code" href="classLoaderBase#x8-len">len</a> = size; <a class="code" href="classLoaderBase#f6-Ready">Ready</a>(); };</div>
+<div class="line"><a name="l00088"></a><span class="lineno"><a class="line" href="classNullLoader#ap-NullLoader">   88</a></span>&#160;    <a class="code" href="classNullLoader#ap-NullLoader">NullLoader</a>(<span class="keyword">const</span> wxString&amp; name, <span class="keywordtype">char</span>* buffer, <span class="keywordtype">size_t</span> size) { fileName = name; data = buffer; len = size; <a class="code" href="classLoaderBase#f6-Ready">Ready</a>(); };</div>
 <div class="line"><a name="l00089"></a><span class="lineno"><a class="line" href="classNullLoader#wu-operator">   89</a></span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classNullLoader#wu-operator">operator()</a>(){};</div>
 <div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;};</div>
 <div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;</div>
 <div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;<span class="comment">// ***** class: EditorReuser *****</span></div>
-<div class="line"><a name="l00093"></a><span class="lineno"><a class="line" href="classEditorReuser">   93</a></span>&#160;<span class="keyword">class </span><a class="code" href="classEditorReuser">EditorReuser</a> : <span class="keyword">public</span> <a class="code" href="classLoaderBase">LoaderBase</a></div>
+<div class="line"><a name="l00093"></a><span class="lineno"><a class="line" href="classEditorReuser">   93</a></span>&#160;<span class="keyword">class </span><a class="code" href="settings_8h#oc-DLLIMPORT">DLLIMPORT</a> <a class="code" href="classEditorReuser">EditorReuser</a> : <span class="keyword">public</span> <a class="code" href="classLoaderBase">LoaderBase</a></div>
 <div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;{</div>
 <div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;<span class="keyword">public</span>:</div>
 <div class="line"><a name="l00100"></a><span class="lineno"><a class="line" href="classEditorReuser#lk-EditorReuser">  100</a></span>&#160;    <a class="code" href="classEditorReuser#lk-EditorReuser">EditorReuser</a>(<span class="keyword">const</span> wxString&amp; name, <span class="keyword">const</span> wxString&amp; s)</div>
 <div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;    {</div>
-<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;        <a class="code" href="classLoaderBase#ai-fileName">fileName</a> = name;</div>
-<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;        <a class="code" href="classLoaderBase#x8-len">len</a> = strlen(s.mb_str(wxConvUTF8));</div>
-<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;        <a class="code" href="classLoaderBase#u3-data">data</a> = <span class="keyword">new</span> <span class="keywordtype">char</span>[<a class="code" href="classLoaderBase#x8-len">len</a> + 1];</div>
+<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;        fileName = name;</div>
+<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;        len = strlen(s.mb_str(wxConvUTF8));</div>
+<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;        data = <span class="keyword">new</span> <span class="keywordtype">char</span>[len + 1];</div>
 <div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;        strcpy(data, (<span class="keyword">const</span> <span class="keywordtype">char</span>*)s.mb_str(wxConvUTF8));</div>
 <div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;        <a class="code" href="classLoaderBase#f6-Ready">Ready</a>();</div>
 <div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;    }</div>
@@ -158,48 +158,41 @@
 <div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;};</div>
 <div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;</div>
 <div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;<span class="comment">// ***** class: FileManager *****</span></div>
-<div class="line"><a name="l00112"></a><span class="lineno"><a class="line" href="classFileManager">  112</a></span>&#160;<span class="keyword">class </span><a class="code" href="classFileManager">FileManager</a> : <span class="keyword">public</span> <a class="code" href="classMgr">Mgr</a>&lt;FileManager&gt;</div>
+<div class="line"><a name="l00112"></a><span class="lineno"><a class="line" href="classFileManager">  112</a></span>&#160;<span class="keyword">class </span><a class="code" href="settings_8h#oc-DLLIMPORT">DLLIMPORT</a> <a class="code" href="classFileManager">FileManager</a> : <span class="keyword">public</span> <a class="code" href="classMgr">Mgr</a>&lt;FileManager&gt;</div>
 <div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;{</div>
 <div class="line"><a name="l00114"></a><span class="lineno"><a class="line" href="classFileManager#om-fileLoaderThread">  114</a></span>&#160;    <a class="code" href="classBackgroundThread">BackgroundThread</a> <a class="code" href="classFileManager#om-fileLoaderThread">fileLoaderThread</a>;</div>
 <div class="line"><a name="l00115"></a><span class="lineno"><a class="line" href="classFileManager#jj-uncLoaderThread">  115</a></span>&#160;    <a class="code" href="classBackgroundThread">BackgroundThread</a> <a class="code" href="classFileManager#jj-uncLoaderThread">uncLoaderThread</a>;</div>
 <div class="line"><a name="l00116"></a><span class="lineno"><a class="line" href="classFileManager#zr-urlLoaderThread">  116</a></span>&#160;    <a class="code" href="classBackgroundThread">BackgroundThread</a> <a class="code" href="classFileManager#zr-urlLoaderThread">urlLoaderThread</a>;</div>
 <div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;<span class="keyword">public</span>:</div>
-<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;    <a class="code" href="classFileManager#y9-FileManager">FileManager</a>();</div>
-<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;    <a class="code" href="classFileManager#oy-FileManager">~FileManager</a>();</div>
+<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;    <a class="code" href="classFileManager">FileManager</a>();</div>
+<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;    ~<a class="code" href="classFileManager">FileManager</a>();</div>
 <div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;</div>
-<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;    cb_must_consume_result <a class="code" href="classLoaderBase">LoaderBase</a>* <a class="code" href="classFileManager#cn-Load">Load</a>(<span class="keyword">const</span> wxString&amp; file, <span class="keywordtype">bool</span> reuseEditors = <span class="keyword">false</span>);</div>
+<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;    cb_must_consume_result <a class="code" href="classLoaderBase">LoaderBase</a>* Load(<span class="keyword">const</span> wxString&amp; file, <span class="keywordtype">bool</span> reuseEditors = <span class="keyword">false</span>);</div>
 <div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;</div>
-<div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;    <span class="keywordtype">bool</span> <a class="code" href="classFileManager#xb-Save">Save</a>(<span class="keyword">const</span> wxString&amp; file, <span class="keyword">const</span> wxString&amp; data, wxFontEncoding encoding, <span class="keywordtype">bool</span> bom);</div>
+<div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;    <span class="keywordtype">bool</span> Save(<span class="keyword">const</span> wxString&amp; file, <span class="keyword">const</span> wxString&amp; data, wxFontEncoding encoding, <span class="keywordtype">bool</span> bom);</div>
 <div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;</div>
 <div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;<span class="keyword">private</span>:</div>
 <div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;    <span class="keyword">friend</span> <span class="keywordtype">bool</span> <a class="code" href="namespaceTinyXML#k0-SaveDocument">TinyXML::SaveDocument</a>(<span class="keyword">const</span> wxString&amp;, TiXmlDocument*);</div>
-<div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;    <span class="keywordtype">bool</span> <a class="code" href="classFileManager#ct-SaveUTF8">SaveUTF8</a>(<span class="keyword">const</span> wxString&amp; file, <span class="keyword">const</span> <span class="keywordtype">char</span>* data, <span class="keywordtype">size_t</span> len);</div>
+<div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;    <span class="keywordtype">bool</span> SaveUTF8(<span class="keyword">const</span> wxString&amp; file, <span class="keyword">const</span> <span class="keywordtype">char</span>* data, <span class="keywordtype">size_t</span> len);</div>
 <div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;</div>
-<div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;    <span class="keywordtype">bool</span> <a class="code" href="classFileManager#lj-WriteWxStringToFile">WriteWxStringToFile</a>(wxFile&amp; f, <span class="keyword">const</span> wxString&amp; data, wxFontEncoding encoding, <span class="keywordtype">bool</span> bom);</div>
+<div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;    <span class="keywordtype">bool</span> WriteWxStringToFile(wxFile&amp; f, <span class="keyword">const</span> wxString&amp; data, wxFontEncoding encoding, <span class="keywordtype">bool</span> bom);</div>
 <div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;};</div>
 <div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;</div>
 <div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="ttc" id="classNullLoader_wu-operator"><div class="ttname"><a href="classNullLoader#wu-operator">NullLoader::operator()</a></div><div class="ttdeci">void operator()()</div><div class="ttdef"><b>Definition:</b> filemanager.h:89</div></div>
-<div class="ttc" id="classFileManager_oy-FileManager"><div class="ttname"><a href="classFileManager#oy-FileManager">FileManager::~FileManager</a></div><div class="ttdeci">~FileManager()</div><div class="ttdef"><b>Definition:</b> filemanager.cpp:127</div></div>
 <div class="ttc" id="classBackgroundThread"><div class="ttname"><a href="classBackgroundThread">BackgroundThread</a></div><div class="ttdef"><b>Definition:</b> backgroundthread.h:66</div></div>
-<div class="ttc" id="classFileManager_y9-FileManager"><div class="ttname"><a href="classFileManager#y9-FileManager">FileManager::FileManager</a></div><div class="ttdeci">FileManager()</div><div class="ttdef"><b>Definition:</b> filemanager.cpp:120</div></div>
-<div class="ttc" id="classURLLoader_ov-operator"><div class="ttname"><a href="classURLLoader#ov-operator">URLLoader::operator()</a></div><div class="ttdeci">void operator()()</div><div class="ttdef"><b>Definition:</b> filemanager.cpp:81</div></div>
-<div class="ttc" id="classLoaderBase_es-GetLength"><div class="ttname"><a href="classLoaderBase#es-GetLength">LoaderBase::GetLength</a></div><div class="ttdeci">size_t GetLength()</div><div class="ttdef"><b>Definition:</b> filemanager.cpp:46</div></div>
 <div class="ttc" id="classEditorReuser"><div class="ttname"><a href="classEditorReuser">EditorReuser</a></div><div class="ttdef"><b>Definition:</b> filemanager.h:93</div></div>
 <div class="ttc" id="classLoaderBase_l6-WaitReady"><div class="ttname"><a href="classLoaderBase#l6-WaitReady">LoaderBase::WaitReady</a></div><div class="ttdeci">void WaitReady()</div><div class="ttdef"><b>Definition:</b> filemanager.h:36</div></div>
 <div class="ttc" id="classURLLoader_c5-URLLoader"><div class="ttname"><a href="classURLLoader#c5-URLLoader">URLLoader::URLLoader</a></div><div class="ttdeci">URLLoader(const wxString &amp;name)</div><div class="ttdef"><b>Definition:</b> filemanager.h:78</div></div>
-<div class="ttc" id="classLoaderBase_i0-LoaderBase"><div class="ttname"><a href="classLoaderBase#i0-LoaderBase">LoaderBase::~LoaderBase</a></div><div class="ttdeci">~LoaderBase()</div><div class="ttdef"><b>Definition:</b> filemanager.cpp:28</div></div>
 <div class="ttc" id="classURLLoader_nm-mBuffer"><div class="ttname"><a href="classURLLoader#nm-mBuffer">URLLoader::mBuffer</a></div><div class="ttdeci">std::vector&lt; char &gt; mBuffer</div><div class="ttdef"><b>Definition:</b> filemanager.h:81</div></div>
 <div class="ttc" id="classFileManager"><div class="ttname"><a href="classFileManager">FileManager</a></div><div class="ttdef"><b>Definition:</b> filemanager.h:112</div></div>
 <div class="ttc" id="classFileManager_zr-urlLoaderThread"><div class="ttname"><a href="classFileManager#zr-urlLoaderThread">FileManager::urlLoaderThread</a></div><div class="ttdeci">BackgroundThread urlLoaderThread</div><div class="ttdef"><b>Definition:</b> filemanager.h:116</div></div>
 <div class="ttc" id="namespaceTinyXML"><div class="ttname"><a href="namespaceTinyXML">TinyXML</a></div><div class="ttdef"><b>Definition:</b> filemanager.h:27</div></div>
 <div class="ttc" id="classLoaderBase"><div class="ttname"><a href="classLoaderBase">LoaderBase</a></div><div class="ttdef"><b>Definition:</b> filemanager.h:31</div></div>
 <div class="ttc" id="classLoaderBase_u3-data"><div class="ttname"><a href="classLoaderBase#u3-data">LoaderBase::data</a></div><div class="ttdeci">char * data</div><div class="ttdef"><b>Definition:</b> filemanager.h:47</div></div>
-<div class="ttc" id="classFileManager_xb-Save"><div class="ttname"><a href="classFileManager#xb-Save">FileManager::Save</a></div><div class="ttdeci">bool Save(const wxString &amp;file, const wxString &amp;data, wxFontEncoding encoding, bool bom)</div><div class="ttdef"><b>Definition:</b> filemanager.cpp:253</div></div>
 <div class="ttc" id="classLoaderBase_x8-len"><div class="ttname"><a href="classLoaderBase#x8-len">LoaderBase::len</a></div><div class="ttdeci">size_t len</div><div class="ttdef"><b>Definition:</b> filemanager.h:48</div></div>
 <div class="ttc" id="classLoaderBase_mh-operator"><div class="ttname"><a href="classLoaderBase#mh-operator">LoaderBase::operator()</a></div><div class="ttdeci">void operator()()</div><div class="ttdef"><b>Definition:</b> filemanager.h:58</div></div>
-<div class="ttc" id="classLoaderBase_yt-Sync"><div class="ttname"><a href="classLoaderBase#yt-Sync">LoaderBase::Sync</a></div><div class="ttdeci">bool Sync()</div><div class="ttdef"><b>Definition:</b> filemanager.cpp:34</div></div>
-<div class="ttc" id="classLoaderBase_ai-fileName"><div class="ttname"><a href="classLoaderBase#ai-fileName">LoaderBase::fileName</a></div><div class="ttdeci">wxString fileName</div><div class="ttdef"><b>Definition:</b> filemanager.h:43</div></div>
+<div class="ttc" id="settings_8h_oc-DLLIMPORT"><div class="ttname"><a href="settings_8h#oc-DLLIMPORT">DLLIMPORT</a></div><div class="ttdeci">#define DLLIMPORT</div><div class="ttdef"><b>Definition:</b> settings.h:16</div></div>
 <div class="ttc" id="nullptr_8cpp_ix-nullptr"><div class="ttname"><a href="nullptr_8cpp#ix-nullptr">nullptr</a></div><div class="ttdeci">null_pointer_t nullptr</div><div class="ttdef"><b>Definition:</b> nullptr.cpp:16</div></div>
 <div class="ttc" id="classLoaderBase_n9-LoaderBase"><div class="ttname"><a href="classLoaderBase#n9-LoaderBase">LoaderBase::LoaderBase</a></div><div class="ttdeci">LoaderBase()</div><div class="ttdef"><b>Definition:</b> filemanager.h:56</div></div>
 <div class="ttc" id="classNullLoader_ap-NullLoader"><div class="ttname"><a href="classNullLoader#ap-NullLoader">NullLoader::NullLoader</a></div><div class="ttdeci">NullLoader(const wxString &amp;name, char *buffer, size_t size)</div><div class="ttdef"><b>Definition:</b> filemanager.h:88</div></div>
@@ -207,22 +200,17 @@
 <div class="ttc" id="classFileManager_jj-uncLoaderThread"><div class="ttname"><a href="classFileManager#jj-uncLoaderThread">FileManager::uncLoaderThread</a></div><div class="ttdeci">BackgroundThread uncLoaderThread</div><div class="ttdef"><b>Definition:</b> filemanager.h:115</div></div>
 <div class="ttc" id="classMgr"><div class="ttname"><a href="classMgr">Mgr</a></div><div class="ttdef"><b>Definition:</b> manager.h:182</div></div>
 <div class="ttc" id="classURLLoader"><div class="ttname"><a href="classURLLoader">URLLoader</a></div><div class="ttdef"><b>Definition:</b> filemanager.h:75</div></div>
-<div class="ttc" id="classFileManager_cn-Load"><div class="ttname"><a href="classFileManager#cn-Load">FileManager::Load</a></div><div class="ttdeci">cb_must_consume_result LoaderBase * Load(const wxString &amp;file, bool reuseEditors=false)</div><div class="ttdoc">Loads a file, once this function is called, the actually loading process is done in the worker thread...</div><div class="ttdef"><b>Definition:</b> filemanager.cpp:134</div></div>
 <div class="ttc" id="classLoaderBase_xn-FileName"><div class="ttname"><a href="classLoaderBase#xn-FileName">LoaderBase::FileName</a></div><div class="ttdeci">wxString FileName() const </div><div class="ttdef"><b>Definition:</b> filemanager.h:59</div></div>
 <div class="ttc" id="classLoaderBase_f6-Ready"><div class="ttname"><a href="classLoaderBase#f6-Ready">LoaderBase::Ready</a></div><div class="ttdeci">void Ready()</div><div class="ttdef"><b>Definition:</b> filemanager.h:50</div></div>
 <div class="ttc" id="backgroundthread_8h"><div class="ttname"><a href="backgroundthread_8h">backgroundthread.h</a></div></div>
-<div class="ttc" id="classFileManager_ct-SaveUTF8"><div class="ttname"><a href="classFileManager#ct-SaveUTF8">FileManager::SaveUTF8</a></div><div class="ttdeci">bool SaveUTF8(const wxString &amp;file, const char *data, size_t len)</div><div class="ttdef"><b>Definition:</b> filemanager.cpp:215</div></div>
-<div class="ttc" id="classLoaderBase_d3-GetData"><div class="ttname"><a href="classLoaderBase#d3-GetData">LoaderBase::GetData</a></div><div class="ttdeci">char * GetData()</div><div class="ttdef"><b>Definition:</b> filemanager.cpp:40</div></div>
 <div class="ttc" id="classEditorReuser_t1-operator"><div class="ttname"><a href="classEditorReuser#t1-operator">EditorReuser::operator()</a></div><div class="ttdeci">void operator()()</div><div class="ttdef"><b>Definition:</b> filemanager.h:108</div></div>
 <div class="ttc" id="namespaceTinyXML_k0-SaveDocument"><div class="ttname"><a href="namespaceTinyXML#k0-SaveDocument">TinyXML::SaveDocument</a></div><div class="ttdeci">bool SaveDocument(const wxString &amp;, TiXmlDocument *)</div></div>
 <div class="ttc" id="classLoaderBase_yn-sem"><div class="ttname"><a href="classLoaderBase#yn-sem">LoaderBase::sem</a></div><div class="ttdeci">wxSemaphore sem</div><div class="ttdef"><b>Definition:</b> filemanager.h:33</div></div>
 <div class="ttc" id="classAbstractJob"><div class="ttname"><a href="classAbstractJob">AbstractJob</a></div><div class="ttdef"><b>Definition:</b> backgroundthread.h:35</div></div>
 <div class="ttc" id="classFileManager_om-fileLoaderThread"><div class="ttname"><a href="classFileManager#om-fileLoaderThread">FileManager::fileLoaderThread</a></div><div class="ttdeci">BackgroundThread fileLoaderThread</div><div class="ttdef"><b>Definition:</b> filemanager.h:114</div></div>
-<div class="ttc" id="classFileLoader_eg-operator"><div class="ttname"><a href="classFileLoader#eg-operator">FileLoader::operator()</a></div><div class="ttdeci">void operator()()</div><div class="ttdef"><b>Definition:</b> filemanager.cpp:53</div></div>
 <div class="ttc" id="classLoaderBase_eh-wait"><div class="ttname"><a href="classLoaderBase#eh-wait">LoaderBase::wait</a></div><div class="ttdeci">bool wait</div><div class="ttdef"><b>Definition:</b> filemanager.h:34</div></div>
 <div class="ttc" id="classEditorReuser_lk-EditorReuser"><div class="ttname"><a href="classEditorReuser#lk-EditorReuser">EditorReuser::EditorReuser</a></div><div class="ttdeci">EditorReuser(const wxString &amp;name, const wxString &amp;s)</div><div class="ttdoc">Gets a UTF8 representation of the editor&#39;s content. </div><div class="ttdef"><b>Definition:</b> filemanager.h:100</div></div>
 <div class="ttc" id="classFileLoader"><div class="ttname"><a href="classFileLoader">FileLoader</a></div><div class="ttdef"><b>Definition:</b> filemanager.h:67</div></div>
-<div class="ttc" id="classFileManager_lj-WriteWxStringToFile"><div class="ttname"><a href="classFileManager#lj-WriteWxStringToFile">FileManager::WriteWxStringToFile</a></div><div class="ttdeci">bool WriteWxStringToFile(wxFile &amp;f, const wxString &amp;data, wxFontEncoding encoding, bool bom)</div><div class="ttdef"><b>Definition:</b> filemanager.cpp:293</div></div>
 <div class="ttc" id="classFileLoader_ck-FileLoader"><div class="ttname"><a href="classFileLoader#ck-FileLoader">FileLoader::FileLoader</a></div><div class="ttdeci">FileLoader(const wxString &amp;name)</div><div class="ttdef"><b>Definition:</b> filemanager.h:70</div></div>
 <div class="ttc" id="configmanager_8h"><div class="ttname"><a href="configmanager_8h">configmanager.h</a></div></div>
 </div><!-- fragment --></div><!-- contents -->

@@ -18,7 +18,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">Code::Blocks
-   &#160;<span id="projectnumber">SVN r10408</span>
+   &#160;<span id="projectnumber">SVN r10603</span>
    </div>
   </td>
  </tr>
@@ -127,6 +127,8 @@ Namespaces</h2></td></tr>
 Functions</h2></td></tr>
 <tr class="memitem:pl-gBuildLog"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceScriptBindings#pl-gBuildLog">ScriptBindings::gBuildLog</a> (const wxString &amp;msg)</td></tr>
 <tr class="separator:pl-gBuildLog"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:qy-getBuildTargetName"><td class="memItemLeft" align="right" valign="top">static wxString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="compilergcc_8cpp#qy-getBuildTargetName">getBuildTargetName</a> (const <a class="el" href="classProjectBuildTarget">ProjectBuildTarget</a> *bt)</td></tr>
+<tr class="separator:qy-getBuildTargetName"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:j6-StateToString"><td class="memItemLeft" align="right" valign="top">wxString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="compilergcc_8cpp#j6-StateToString">StateToString</a> (<a class="el" href="compilergcc_8h#yh-BuildState">BuildState</a> bs)</td></tr>
 <tr class="separator:j6-StateToString"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -232,6 +234,34 @@ Variables</h2></td></tr>
 <tr class="separator:kh-idGCCProcess16"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
+<a class="anchor" id="qy-getBuildTargetName"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static wxString getBuildTargetName </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classProjectBuildTarget">ProjectBuildTarget</a> *&#160;</td>
+          <td class="paramname"><em>bt</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>References <a class="el" href="classCompileTargetBase#fk-GetTitle">CompileTargetBase::GetTitle()</a>.</p>
+
+<p>Referenced by <a class="el" href="classCompilerGCC#kp-BuildStateManagement">CompilerGCC::BuildStateManagement()</a>, and <a class="el" href="classCompilerGCC#wf-DoCleanWithMake">CompilerGCC::DoCleanWithMake()</a>.</p>
+
+</div>
+</div>
 <a class="anchor" id="j6-StateToString"></a>
 <div class="memitem">
 <div class="memproto">

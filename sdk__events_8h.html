@@ -18,7 +18,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">Code::Blocks
-   &#160;<span id="projectnumber">SVN r10408</span>
+   &#160;<span id="projectnumber">SVN r10603</span>
    </div>
   </td>
  </tr>
@@ -184,6 +184,10 @@ Macros</h2></td></tr>
 <tr class="separator:jk-EVT_WORKSPACE_CHANGED"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:e0-EVT_WORKSPACE_LOADING_COMPLET"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sdk__events_8h#e0-EVT_WORKSPACE_LOADING_COMPLET">EVT_WORKSPACE_LOADING_COMPLETE</a>(fn)&#160;&#160;&#160;DECLARE_EVENT_TABLE_ENTRY( <a class="el" href="sdk__events_8cpp#kg-cbEVT_WORKSPACE_LOADING_COMPL">cbEVT_WORKSPACE_LOADING_COMPLETE</a>, -1, -1, (wxObjectEventFunction)(wxEventFunction)(<a class="el" href="sdk__events_8h#r8-CodeBlocksEventFunction">CodeBlocksEventFunction</a>)&amp;fn, (wxObject *) <a class="el" href="prefix_8cpp#t6-NULL">NULL</a> ),</td></tr>
 <tr class="separator:e0-EVT_WORKSPACE_LOADING_COMPLET"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:cu-EVT_WORKSPACE_CLOSING_BEGIN"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sdk__events_8h#cu-EVT_WORKSPACE_CLOSING_BEGIN">EVT_WORKSPACE_CLOSING_BEGIN</a>(fn)&#160;&#160;&#160;DECLARE_EVENT_TABLE_ENTRY( cbEVT_WORKSPACE_CLOSE_BEGIN, -1, -1, (wxObjectEventFunction)(wxEventFunction)(<a class="el" href="sdk__events_8h#r8-CodeBlocksEventFunction">CodeBlocksEventFunction</a>)&amp;fn, (wxObject *) <a class="el" href="prefix_8cpp#t6-NULL">NULL</a> ),</td></tr>
+<tr class="separator:cu-EVT_WORKSPACE_CLOSING_BEGIN"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:hz-EVT_WORKSPACE_CLOSING_COMPLET"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sdk__events_8h#hz-EVT_WORKSPACE_CLOSING_COMPLET">EVT_WORKSPACE_CLOSING_COMPLETE</a>(fn)&#160;&#160;&#160;DECLARE_EVENT_TABLE_ENTRY( cbEVT_WORKSPACE_CLOSE_COMPLETE, -1, -1, (wxObjectEventFunction)(wxEventFunction)(<a class="el" href="sdk__events_8h#r8-CodeBlocksEventFunction">CodeBlocksEventFunction</a>)&amp;fn, (wxObject *) <a class="el" href="prefix_8cpp#t6-NULL">NULL</a> ),</td></tr>
+<tr class="separator:hz-EVT_WORKSPACE_CLOSING_COMPLET"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gl-EVT_BUILDTARGET_ADDED"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sdk__events_8h#gl-EVT_BUILDTARGET_ADDED">EVT_BUILDTARGET_ADDED</a>(fn)&#160;&#160;&#160;DECLARE_EVENT_TABLE_ENTRY( <a class="el" href="sdk__events_8cpp#x3-cbEVT_BUILDTARGET_ADDED">cbEVT_BUILDTARGET_ADDED</a>, -1, -1, (wxObjectEventFunction) (wxEventFunction) (<a class="el" href="sdk__events_8h#r8-CodeBlocksEventFunction">CodeBlocksEventFunction</a>) &amp; fn, (wxObject *) <a class="el" href="prefix_8cpp#t6-NULL">NULL</a> ),</td></tr>
 <tr class="separator:gl-EVT_BUILDTARGET_ADDED"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:zr-EVT_BUILDTARGET_REMOVED"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sdk__events_8h#zr-EVT_BUILDTARGET_REMOVED">EVT_BUILDTARGET_REMOVED</a>(fn)&#160;&#160;&#160;DECLARE_EVENT_TABLE_ENTRY( <a class="el" href="sdk__events_8cpp#os-cbEVT_BUILDTARGET_REMOVED">cbEVT_BUILDTARGET_REMOVED</a>, -1, -1, (wxObjectEventFunction) (wxEventFunction) (<a class="el" href="sdk__events_8h#r8-CodeBlocksEventFunction">CodeBlocksEventFunction</a>) &amp; fn, (wxObject *) <a class="el" href="prefix_8cpp#t6-NULL">NULL</a> ),</td></tr>
@@ -378,6 +382,10 @@ Variables</h2></td></tr>
 <tr class="separator:pn-cbEVT_WORKSPACE_CHANGED"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ek-cbEVT_WORKSPACE_LOADING_COMPL"><td class="memItemLeft" align="right" valign="top"><a class="el" href="settings_8h#kg-EVTIMPORT">EVTIMPORT</a> const wxEventType&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sdk__events_8h#ek-cbEVT_WORKSPACE_LOADING_COMPL">cbEVT_WORKSPACE_LOADING_COMPLETE</a></td></tr>
 <tr class="separator:ek-cbEVT_WORKSPACE_LOADING_COMPL"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:v9-cbEVT_WORKSPACE_CLOSING_BEGIN"><td class="memItemLeft" align="right" valign="top"><a class="el" href="settings_8h#kg-EVTIMPORT">EVTIMPORT</a> const wxEventType&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sdk__events_8h#v9-cbEVT_WORKSPACE_CLOSING_BEGIN">cbEVT_WORKSPACE_CLOSING_BEGIN</a></td></tr>
+<tr class="separator:v9-cbEVT_WORKSPACE_CLOSING_BEGIN"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ao-cbEVT_WORKSPACE_CLOSING_COMPL"><td class="memItemLeft" align="right" valign="top"><a class="el" href="settings_8h#kg-EVTIMPORT">EVTIMPORT</a> const wxEventType&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sdk__events_8h#ao-cbEVT_WORKSPACE_CLOSING_COMPL">cbEVT_WORKSPACE_CLOSING_COMPLETE</a></td></tr>
+<tr class="separator:ao-cbEVT_WORKSPACE_CLOSING_COMPL"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ik-cbEVT_BUILDTARGET_ADDED"><td class="memItemLeft" align="right" valign="top"><a class="el" href="settings_8h#kg-EVTIMPORT">EVTIMPORT</a> const wxEventType&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sdk__events_8h#ik-cbEVT_BUILDTARGET_ADDED">cbEVT_BUILDTARGET_ADDED</a></td></tr>
 <tr class="separator:ik-cbEVT_BUILDTARGET_ADDED"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:yh-cbEVT_BUILDTARGET_REMOVED"><td class="memItemLeft" align="right" valign="top"><a class="el" href="settings_8h#kg-EVTIMPORT">EVTIMPORT</a> const wxEventType&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sdk__events_8h#yh-cbEVT_BUILDTARGET_REMOVED">cbEVT_BUILDTARGET_REMOVED</a></td></tr>
@@ -2074,6 +2082,38 @@ Type</td>
 
 </div>
 </div>
+<a class="anchor" id="cu-EVT_WORKSPACE_CLOSING_BEGIN"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define EVT_WORKSPACE_CLOSING_BEGIN</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">fn</td><td>)</td>
+          <td>&#160;&#160;&#160;DECLARE_EVENT_TABLE_ENTRY( cbEVT_WORKSPACE_CLOSE_BEGIN, -1, -1, (wxObjectEventFunction)(wxEventFunction)(<a class="el" href="sdk__events_8h#r8-CodeBlocksEventFunction">CodeBlocksEventFunction</a>)&amp;fn, (wxObject *) <a class="el" href="prefix_8cpp#t6-NULL">NULL</a> ),</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="hz-EVT_WORKSPACE_CLOSING_COMPLET"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define EVT_WORKSPACE_CLOSING_COMPLETE</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">fn</td><td>)</td>
+          <td>&#160;&#160;&#160;DECLARE_EVENT_TABLE_ENTRY( cbEVT_WORKSPACE_CLOSE_COMPLETE, -1, -1, (wxObjectEventFunction)(wxEventFunction)(<a class="el" href="sdk__events_8h#r8-CodeBlocksEventFunction">CodeBlocksEventFunction</a>)&amp;fn, (wxObject *) <a class="el" href="prefix_8cpp#t6-NULL">NULL</a> ),</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a class="anchor" id="e0-EVT_WORKSPACE_LOADING_COMPLET"></a>
 <div class="memitem">
 <div class="memproto">
@@ -3331,6 +3371,34 @@ Type</td>
 </div><div class="memdoc">
 
 <p>Referenced by <a class="el" href="classCodeCompletion#mq-OnAttach">CodeCompletion::OnAttach()</a>, and <a class="el" href="classProjectManager#i2-WorkspaceChanged">ProjectManager::WorkspaceChanged()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="v9-cbEVT_WORKSPACE_CLOSING_BEGIN"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="settings_8h#kg-EVTIMPORT">EVTIMPORT</a> const wxEventType cbEVT_WORKSPACE_CLOSING_BEGIN</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Referenced by <a class="el" href="classProjectManager#qt-CloseWorkspace">ProjectManager::CloseWorkspace()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ao-cbEVT_WORKSPACE_CLOSING_COMPL"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="settings_8h#kg-EVTIMPORT">EVTIMPORT</a> const wxEventType cbEVT_WORKSPACE_CLOSING_COMPLETE</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Referenced by <a class="el" href="classProjectManager#qt-CloseWorkspace">ProjectManager::CloseWorkspace()</a>.</p>
 
 </div>
 </div>

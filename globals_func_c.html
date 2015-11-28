@@ -18,7 +18,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">Code::Blocks
-   &#160;<span id="projectnumber">SVN r10408</span>
+   &#160;<span id="projectnumber">SVN r10603</span>
    </div>
   </td>
  </tr>
@@ -93,21 +93,29 @@
 : <a class="el" href="globals_8cpp#x9-cbC2U">globals.cpp</a>
 , <a class="el" href="globals_8h#x4-cbC2U">globals.h</a>
 </li>
+<li>cbDebuggerAddressToString()
+: <a class="el" href="debuggermanager_8h#cj-cbDebuggerAddressToString">debuggermanager.h</a>
+, <a class="el" href="debuggermanager_8cpp#c5-cbDebuggerAddressToString">debuggermanager.cpp</a>
+</li>
+<li>cbDebuggerStringToAddress()
+: <a class="el" href="debuggermanager_8cpp#b7-cbDebuggerStringToAddress">debuggermanager.cpp</a>
+, <a class="el" href="debuggermanager_8h#x4-cbDebuggerStringToAddress">debuggermanager.h</a>
+</li>
 <li>cbDetectDebuggerExecutable()
 : <a class="el" href="debuggermanager_8h#yu-cbDetectDebuggerExecutable">debuggermanager.h</a>
 , <a class="el" href="debuggermanager_8cpp#t8-cbDetectDebuggerExecutable">debuggermanager.cpp</a>
 </li>
 <li>cbDirAccessCheck()
-: <a class="el" href="globals_8cpp#lr-cbDirAccessCheck">globals.cpp</a>
-, <a class="el" href="globals_8h#a9-cbDirAccessCheck">globals.h</a>
+: <a class="el" href="globals_8h#a9-cbDirAccessCheck">globals.h</a>
+, <a class="el" href="globals_8cpp#lr-cbDirAccessCheck">globals.cpp</a>
 </li>
 <li>cbFindFileInPATH()
 : <a class="el" href="globals_8h#br-cbFindFileInPATH">globals.h</a>
 , <a class="el" href="globals_8cpp#gv-cbFindFileInPATH">globals.cpp</a>
 </li>
 <li>cbGetDynamicLinkerPathForTarget()
-: <a class="el" href="cbproject_8h#o0-cbGetDynamicLinkerPathForTarg">cbproject.h</a>
-, <a class="el" href="cbproject_8cpp#o0-cbGetDynamicLinkerPathForTarg">cbproject.cpp</a>
+: <a class="el" href="cbproject_8cpp#o0-cbGetDynamicLinkerPathForTarg">cbproject.cpp</a>
+, <a class="el" href="cbproject_8h#o8-cbGetDynamicLinkerPathForTarg">cbproject.h</a>
 </li>
 <li>cbGetRootWatch()
 : <a class="el" href="debuggermanager_8h#v1-cbGetRootWatch">debuggermanager.h</a>
@@ -121,7 +129,7 @@
 , <a class="el" href="globals_8cpp#mw-cbLoadBitmap">globals.cpp</a>
 </li>
 <li>cbMergeLibPaths()
-: <a class="el" href="cbproject_8h#qs-cbMergeLibPaths">cbproject.h</a>
+: <a class="el" href="cbproject_8h#er-cbMergeLibPaths">cbproject.h</a>
 , <a class="el" href="cbproject_8cpp#qs-cbMergeLibPaths">cbproject.cpp</a>
 </li>
 <li>cbMessageBox()
@@ -140,15 +148,15 @@
 : <a class="el" href="editormanager_8cpp#cx-cbRegisterId">editormanager.cpp</a>
 </li>
 <li>cbSaveTinyXMLDocument()
-: <a class="el" href="globals_8h#jl-cbSaveTinyXMLDocument">globals.h</a>
-, <a class="el" href="globals_8cpp#et-cbSaveTinyXMLDocument">globals.cpp</a>
+: <a class="el" href="globals_8cpp#et-cbSaveTinyXMLDocument">globals.cpp</a>
+, <a class="el" href="globals_8h#jl-cbSaveTinyXMLDocument">globals.h</a>
 </li>
 <li>cbSaveToFile()
 : <a class="el" href="globals_8h#u2-cbSaveToFile">globals.h</a>
 , <a class="el" href="globals_8cpp#py-cbSaveToFile">globals.cpp</a>
 </li>
 <li>cbSyncExecute()
-: <a class="el" href="cbexecute_8h#jm-cbSyncExecute">cbexecute.h</a>
+: <a class="el" href="cbexecute_8h#af-cbSyncExecute">cbexecute.h</a>
 </li>
 <li>cbU2C()
 : <a class="el" href="globals_8h#kp-cbU2C">globals.h</a>
@@ -184,8 +192,8 @@
 : <a class="el" href="sqbaselib_8cpp#wo-class_setattributes">sqbaselib.cpp</a>
 </li>
 <li>CleanStringValue()
-: <a class="el" href="debugger__defs_8h#ig-CleanStringValue">debugger_defs.h</a>
-, <a class="el" href="debugger__defs_8cpp#ig-CleanStringValue">debugger_defs.cpp</a>
+: <a class="el" href="debugger__defs_8cpp#ig-CleanStringValue">debugger_defs.cpp</a>
+, <a class="el" href="debugger__defs_8h#ig-CleanStringValue">debugger_defs.h</a>
 </li>
 <li>cLflags()
 : <a class="el" href="uservarmanager_8cpp#kr-cLflags">uservarmanager.cpp</a>
@@ -226,6 +234,27 @@
 <li>Compile()
 : <a class="el" href="sqcompiler_8cpp#go-Compile">sqcompiler.cpp</a>
 </li>
+<li>COMPILER_ERROR_LOG()
+: <a class="el" href="directcommands_8cpp#fd-COMPILER_ERROR_LOG">directcommands.cpp</a>
+</li>
+<li>COMPILER_NOTE_LOG()
+: <a class="el" href="directcommands_8cpp#vb-COMPILER_NOTE_LOG">directcommands.cpp</a>
+</li>
+<li>COMPILER_SIMPLE_LOG()
+: <a class="el" href="directcommands_8cpp#l4-COMPILER_SIMPLE_LOG">directcommands.cpp</a>
+</li>
+<li>COMPILER_TARGET_CHANGE()
+: <a class="el" href="directcommands_8cpp#gg-COMPILER_TARGET_CHANGE">directcommands.cpp</a>
+</li>
+<li>COMPILER_WAIT()
+: <a class="el" href="directcommands_8cpp#ud-COMPILER_WAIT">directcommands.cpp</a>
+</li>
+<li>COMPILER_WAIT_LINK()
+: <a class="el" href="directcommands_8cpp#rc-COMPILER_WAIT_LINK">directcommands.cpp</a>
+</li>
+<li>COMPILER_WARNING_LOG()
+: <a class="el" href="directcommands_8cpp#zl-COMPILER_WARNING_LOG">directcommands.cpp</a>
+</li>
 <li>CompileTypemask()
 : <a class="el" href="sqstate_8cpp#xa-CompileTypemask">sqstate.cpp</a>
 </li>
@@ -245,8 +274,8 @@
 : <a class="el" href="advancedcompileroptionsdlg_8cpp#pr-ControlCharsToString">advancedcompileroptionsdlg.cpp</a>
 </li>
 <li>CopyMenu()
-: <a class="el" href="globals_8cpp#sc-CopyMenu">globals.cpp</a>
-, <a class="el" href="globals_8h#wr-CopyMenu">globals.h</a>
+: <a class="el" href="globals_8h#wr-CopyMenu">globals.h</a>
+, <a class="el" href="globals_8cpp#sc-CopyMenu">globals.cpp</a>
 </li>
 <li>CountLineEnds()
 : <a class="el" href="cbeditor_8cpp#we-CountLineEnds">cbeditor.cpp</a>
@@ -267,12 +296,12 @@
 : <a class="el" href="sqstate_8cpp#f8-CreateDefaultDelegate">sqstate.cpp</a>
 </li>
 <li>CreateDir()
-: <a class="el" href="globals_8cpp#s5-CreateDir">globals.cpp</a>
-, <a class="el" href="globals_8h#g4-CreateDir">globals.h</a>
+: <a class="el" href="globals_8h#g4-CreateDir">globals.h</a>
+, <a class="el" href="globals_8cpp#s5-CreateDir">globals.cpp</a>
 </li>
 <li>CreateDirRecursively()
-: <a class="el" href="globals_8cpp#r6-CreateDirRecursively">globals.cpp</a>
-, <a class="el" href="globals_8h#r1-CreateDirRecursively">globals.h</a>
+: <a class="el" href="globals_8h#r1-CreateDirRecursively">globals.h</a>
+, <a class="el" href="globals_8cpp#r6-CreateDirRecursively">globals.cpp</a>
 </li>
 <li>CreateNativeClassInstance()
 : <a class="el" href="SquirrelBindingsUtils_8cpp#zj-CreateNativeClassInstance">SquirrelBindingsUtils.cpp</a>

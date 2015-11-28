@@ -18,7 +18,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">Code::Blocks
-   &#160;<span id="projectnumber">SVN r10408</span>
+   &#160;<span id="projectnumber">SVN r10603</span>
    </div>
   </td>
  </tr>
@@ -56,6 +56,8 @@ Functions</h2></td></tr>
 <tr class="separator:a9-colon"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:kp-colon_colon"><td class="memItemLeft" align="right" valign="top">const wxString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceTokenizerConsts#kp-colon_colon">colon_colon</a> (_T(&quot;::&quot;))</td></tr>
 <tr class="separator:kp-colon_colon"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:yv-equal"><td class="memItemLeft" align="right" valign="top">const wxString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceTokenizerConsts#yv-equal">equal</a> (_T(&quot;=&quot;))</td></tr>
+<tr class="separator:yv-equal"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:sk-kw_if"><td class="memItemLeft" align="right" valign="top">const wxString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceTokenizerConsts#sk-kw_if">kw_if</a> (_T(&quot;if&quot;))</td></tr>
 <tr class="separator:sk-kw_if"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:tt-kw_ifdef"><td class="memItemLeft" align="right" valign="top">const wxString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceTokenizerConsts#tt-kw_ifdef">kw_ifdef</a> (_T(&quot;ifdef&quot;))</td></tr>
@@ -76,6 +78,10 @@ Functions</h2></td></tr>
 <tr class="separator:sy-hash"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:n1-tabcrlf"><td class="memItemLeft" align="right" valign="top">const wxString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceTokenizerConsts#n1-tabcrlf">tabcrlf</a> (_T(&quot;\t\n\r&quot;))</td></tr>
 <tr class="separator:n1-tabcrlf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:qb-kw_define"><td class="memItemLeft" align="right" valign="top">const wxString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceTokenizerConsts#qb-kw_define">kw_define</a> (_T(&quot;define&quot;))</td></tr>
+<tr class="separator:qb-kw_define"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:co-kw_undef"><td class="memItemLeft" align="right" valign="top">const wxString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceTokenizerConsts#co-kw_undef">kw_undef</a> (_T(&quot;undef&quot;))</td></tr>
+<tr class="separator:co-kw_undef"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
 <a class="anchor" id="a9-colon"></a>
@@ -92,7 +98,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Referenced by <a class="el" href="classTokenizer#nr-DoGetToken">Tokenizer::DoGetToken()</a>.</p>
+<p>Referenced by <a class="el" href="classTokenizer#xx-Lex">Tokenizer::Lex()</a>.</p>
 
 </div>
 </div>
@@ -110,7 +116,25 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Referenced by <a class="el" href="classTokenizer#nr-DoGetToken">Tokenizer::DoGetToken()</a>.</p>
+<p>Referenced by <a class="el" href="classTokenizer#xx-Lex">Tokenizer::Lex()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="yv-equal"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const wxString TokenizerConsts::equal </td>
+          <td>(</td>
+          <td class="paramtype">_T(&quot;=&quot;)&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Referenced by <a class="el" href="classTokenizer#xx-Lex">Tokenizer::Lex()</a>.</p>
 
 </div>
 </div>
@@ -127,6 +151,24 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="qb-kw_define"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const wxString TokenizerConsts::kw_define </td>
+          <td>(</td>
+          <td class="paramtype">_T(&quot;define&quot;)&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Referenced by <a class="el" href="classTokenizer#qi-GetPreprocessorType">Tokenizer::GetPreprocessorType()</a>.</p>
 
 </div>
 </div>
@@ -264,6 +306,24 @@ Functions</h2></td></tr>
           <td class="memname">const wxString TokenizerConsts::kw_ifndef </td>
           <td>(</td>
           <td class="paramtype">_T(&quot;ifndef&quot;)&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Referenced by <a class="el" href="classTokenizer#qi-GetPreprocessorType">Tokenizer::GetPreprocessorType()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="co-kw_undef"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const wxString TokenizerConsts::kw_undef </td>
+          <td>(</td>
+          <td class="paramtype">_T(&quot;undef&quot;)&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>

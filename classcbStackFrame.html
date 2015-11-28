@@ -18,7 +18,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">Code::Blocks
-   &#160;<span id="projectnumber">SVN r10408</span>
+   &#160;<span id="projectnumber">SVN r10603</span>
    </div>
   </td>
  </tr>
@@ -58,7 +58,7 @@
 <div class="dynheader">
 Collaboration diagram for cbStackFrame:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classcbStackFrame__coll__graph.svg" width="138" height="323"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classcbStackFrame__coll__graph.svg" width="138" height="279"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <table class="memberdecls">
@@ -68,8 +68,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ft-cbStackFrame"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:d9-SetNumber"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcbStackFrame#d9-SetNumber">SetNumber</a> (int number)</td></tr>
 <tr class="separator:d9-SetNumber"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:yd-SetAddress"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcbStackFrame#yd-SetAddress">SetAddress</a> (size_t address)</td></tr>
-<tr class="separator:yd-SetAddress"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:wn-SetAddress"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcbStackFrame#wn-SetAddress">SetAddress</a> (uint64_t address)</td></tr>
+<tr class="separator:wn-SetAddress"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:s1-SetSymbol"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcbStackFrame#s1-SetSymbol">SetSymbol</a> (const wxString &amp;symbol)</td></tr>
 <tr class="separator:s1-SetSymbol"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ys-SetFile"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcbStackFrame#ys-SetFile">SetFile</a> (const wxString &amp;filename, const wxString &amp;line)</td></tr>
@@ -78,8 +78,10 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:nj-MakeValid"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:fv-GetNumber"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcbStackFrame#fv-GetNumber">GetNumber</a> () const </td></tr>
 <tr class="separator:fv-GetNumber"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:t3-GetAddress"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcbStackFrame#t3-GetAddress">GetAddress</a> () const </td></tr>
-<tr class="separator:t3-GetAddress"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:vs-GetAddress"><td class="memItemLeft" align="right" valign="top">uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcbStackFrame#vs-GetAddress">GetAddress</a> () const </td></tr>
+<tr class="separator:vs-GetAddress"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:dw-GetAddressAsString"><td class="memItemLeft" align="right" valign="top">wxString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcbStackFrame#dw-GetAddressAsString">GetAddressAsString</a> () const </td></tr>
+<tr class="separator:dw-GetAddressAsString"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:e4-GetSymbol"><td class="memItemLeft" align="right" valign="top">const wxString &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcbStackFrame#e4-GetSymbol">GetSymbol</a> () const </td></tr>
 <tr class="separator:e4-GetSymbol"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:c6-GetFilename"><td class="memItemLeft" align="right" valign="top">const wxString &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcbStackFrame#c6-GetFilename">GetFilename</a> () const </td></tr>
@@ -97,9 +99,9 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:zb-m_number"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcbStackFrame#zb-m_number">m_number</a></td></tr>
 <tr class="memdesc:zb-m_number"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stack frame's number (used in backtraces).  <a href="#zb-m_number">More...</a><br /></td></tr>
 <tr class="separator:zb-m_number"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:wf-m_address"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcbStackFrame#wf-m_address">m_address</a></td></tr>
-<tr class="memdesc:wf-m_address"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stack frame's address.  <a href="#wf-m_address">More...</a><br /></td></tr>
-<tr class="separator:wf-m_address"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:pj-m_address"><td class="memItemLeft" align="right" valign="top">uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcbStackFrame#pj-m_address">m_address</a></td></tr>
+<tr class="memdesc:pj-m_address"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stack frame's address.  <a href="#pj-m_address">More...</a><br /></td></tr>
+<tr class="separator:pj-m_address"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:xu-m_symbol"><td class="memItemLeft" align="right" valign="top">wxString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcbStackFrame#xu-m_symbol">m_symbol</a></td></tr>
 <tr class="memdesc:xu-m_symbol"><td class="mdescLeft">&#160;</td><td class="mdescRight">Current function name.  <a href="#xu-m_symbol">More...</a><br /></td></tr>
 <tr class="separator:xu-m_symbol"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -127,12 +129,12 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="t3-GetAddress"></a>
+<a class="anchor" id="vs-GetAddress"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">size_t cbStackFrame::GetAddress </td>
+          <td class="memname">uint64_t cbStackFrame::GetAddress </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -140,9 +142,28 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>References <a class="el" href="classcbStackFrame#wf-m_address">m_address</a>.</p>
+<p>References <a class="el" href="classcbStackFrame#pj-m_address">m_address</a>.</p>
 
-<p>Referenced by <a class="el" href="classDisassemblyDlg#gv-Clear">DisassemblyDlg::Clear()</a>, <a class="el" href="classCdbCmd__Backtrace#e3-ParseOutput">CdbCmd_Backtrace::ParseOutput()</a>, and <a class="el" href="debuggergdb__test__backtrace_8cpp#js-SUITE">SUITE()</a>.</p>
+<p>Referenced by <a class="el" href="debuggergdb__test__backtrace_8cpp#js-SUITE">SUITE()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="dw-GetAddressAsString"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">wxString cbStackFrame::GetAddressAsString </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>References <a class="el" href="debuggermanager_8cpp#c5-cbDebuggerAddressToString">cbDebuggerAddressToString()</a>, and <a class="el" href="classcbStackFrame#pj-m_address">m_address</a>.</p>
+
+<p>Referenced by <a class="el" href="classDisassemblyDlg#gv-Clear">DisassemblyDlg::Clear()</a>, and <a class="el" href="classCdbCmd__Backtrace#e3-ParseOutput">CdbCmd_Backtrace::ParseOutput()</a>.</p>
 
 </div>
 </div>
@@ -261,21 +282,21 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="yd-SetAddress"></a>
+<a class="anchor" id="wn-SetAddress"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname">void cbStackFrame::SetAddress </td>
           <td>(</td>
-          <td class="paramtype">size_t&#160;</td>
+          <td class="paramtype">uint64_t&#160;</td>
           <td class="paramname"><em>address</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>References <a class="el" href="classcbStackFrame#wf-m_address">m_address</a>.</p>
+<p>References <a class="el" href="classcbStackFrame#pj-m_address">m_address</a>.</p>
 
 <p>Referenced by <a class="el" href="classGdbCmd__Backtrace#qa-MatchLine">GdbCmd_Backtrace::MatchLine()</a>, <a class="el" href="classCdbCmd__Backtrace#e3-ParseOutput">CdbCmd_Backtrace::ParseOutput()</a>, <a class="el" href="classCdbCmd__DisassemblyInit#ow-ParseOutput">CdbCmd_DisassemblyInit::ParseOutput()</a>, and <a class="el" href="classGdbCmd__DisassemblyInit#ir-ParseOutput">GdbCmd_DisassemblyInit::ParseOutput()</a>.</p>
 
@@ -352,7 +373,7 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a class="anchor" id="wf-m_address"></a>
+<a class="anchor" id="pj-m_address"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -360,7 +381,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">size_t cbStackFrame::m_address</td>
+          <td class="memname">uint64_t cbStackFrame::m_address</td>
         </tr>
       </table>
   </td>
@@ -372,7 +393,7 @@ Private Attributes</h2></td></tr>
 
 <p>Stack frame's address. </p>
 
-<p>Referenced by <a class="el" href="classcbStackFrame#t3-GetAddress">GetAddress()</a>, and <a class="el" href="classcbStackFrame#yd-SetAddress">SetAddress()</a>.</p>
+<p>Referenced by <a class="el" href="classcbStackFrame#vs-GetAddress">GetAddress()</a>, <a class="el" href="classcbStackFrame#dw-GetAddressAsString">GetAddressAsString()</a>, and <a class="el" href="classcbStackFrame#wn-SetAddress">SetAddress()</a>.</p>
 
 </div>
 </div>

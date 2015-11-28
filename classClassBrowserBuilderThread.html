@@ -18,7 +18,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">Code::Blocks
-   &#160;<span id="projectnumber">SVN r10408</span>
+   &#160;<span id="projectnumber">SVN r10603</span>
    </div>
   </td>
  </tr>
@@ -71,7 +71,7 @@ Inheritance diagram for ClassBrowserBuilderThread:</div>
 <div class="dynheader">
 Collaboration diagram for ClassBrowserBuilderThread:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classClassBrowserBuilderThread__coll__graph.svg" width="2698" height="5010"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classClassBrowserBuilderThread__coll__graph.svg" width="2494" height="5215"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <table class="memberdecls">
@@ -95,14 +95,17 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:l8-Init"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClassBrowserBuilderThread#l8-Init">Init</a> (<a class="el" href="classNativeParser">NativeParser</a> *np, <a class="el" href="classCCTreeCtrl">CCTreeCtrl</a> *treeTop, <a class="el" href="classCCTreeCtrl">CCTreeCtrl</a> *treeBottom, const wxString &amp;active_filename, void *user_data, const <a class="el" href="structBrowserOptions">BrowserOptions</a> &amp;bo, <a class="el" href="classTokenTree">TokenTree</a> *tt, int <a class="el" href="classbrowser_8cpp#cl-idThreadEvent">idThreadEvent</a>)</td></tr>
 <tr class="separator:l8-Init"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:jh-ExpandItem"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClassBrowserBuilderThread#jh-ExpandItem">ExpandItem</a> (wxTreeItemId item)</td></tr>
+<tr class="memdesc:jh-ExpandItem"><td class="mdescLeft">&#160;</td><td class="mdescRight">construct the children of the tree item Called from external, <a class="el" href="classClassBrowserBuilderThread#d0-BuildTree">BuildTree()</a>:  <a href="#jh-ExpandItem">More...</a><br /></td></tr>
 <tr class="separator:jh-ExpandItem"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:k5-CollapseItem"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClassBrowserBuilderThread#k5-CollapseItem">CollapseItem</a> (wxTreeItemId item)</td></tr>
+<tr class="memdesc:k5-CollapseItem"><td class="mdescLeft">&#160;</td><td class="mdescRight">remove the children of the tree item Called from external, <a class="el" href="classClassBrowserBuilderThread#d0-BuildTree">BuildTree()</a>, <a class="el" href="classClassBrowserBuilderThread#sh-RemoveInvalidNodes">RemoveInvalidNodes()</a>:  <a href="#k5-CollapseItem">More...</a><br /></td></tr>
 <tr class="separator:k5-CollapseItem"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:yz-SelectItem"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClassBrowserBuilderThread#yz-SelectItem">SelectItem</a> (wxTreeItemId item)</td></tr>
 <tr class="separator:yz-SelectItem"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:zj-SelectItemRequired"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClassBrowserBuilderThread#zj-SelectItemRequired">SelectItemRequired</a> ()</td></tr>
 <tr class="separator:zj-SelectItemRequired"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:df-RequestTermination"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClassBrowserBuilderThread#df-RequestTermination">RequestTermination</a> (bool terminate=true)</td></tr>
+<tr class="memdesc:df-RequestTermination"><td class="mdescLeft">&#160;</td><td class="mdescRight">ask the worker thread to die Called from external: when the class browser window get destroyed  <a href="#df-RequestTermination">More...</a><br /></td></tr>
 <tr class="separator:df-RequestTermination"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
@@ -114,6 +117,7 @@ Protected Member Functions</h2></td></tr>
 <tr class="memitem:sh-RemoveInvalidNodes"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClassBrowserBuilderThread#sh-RemoveInvalidNodes">RemoveInvalidNodes</a> (<a class="el" href="classCCTreeCtrl">CCTreeCtrl</a> *tree, wxTreeItemId parent)</td></tr>
 <tr class="separator:sh-RemoveInvalidNodes"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:jg-ExpandNamespaces"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClassBrowserBuilderThread#jg-ExpandNamespaces">ExpandNamespaces</a> (wxTreeItemId node, <a class="el" href="token_8h#uj-TokenKind">TokenKind</a> tokenKind, int level)</td></tr>
+<tr class="memdesc:jg-ExpandNamespaces"><td class="mdescLeft">&#160;</td><td class="mdescRight">recursively construct the children of node's children, which matches tokenKind Called from <a class="el" href="classClassBrowserBuilderThread#d0-BuildTree">BuildTree()</a>:  <a href="#jg-ExpandNamespaces">More...</a><br /></td></tr>
 <tr class="separator:jg-ExpandNamespaces"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:rw-CreateSpecialFolders"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClassBrowserBuilderThread#rw-CreateSpecialFolders">CreateSpecialFolders</a> (<a class="el" href="classCCTreeCtrl">CCTreeCtrl</a> *tree, wxTreeItemId parent)</td></tr>
 <tr class="separator:rw-CreateSpecialFolders"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -135,7 +139,7 @@ Protected Attributes</h2></td></tr>
 <tr class="memitem:ru-m_ClassBrowserSemaphore"><td class="memItemLeft" align="right" valign="top">wxSemaphore &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClassBrowserBuilderThread#ru-m_ClassBrowserSemaphore">m_ClassBrowserSemaphore</a></td></tr>
 <tr class="separator:ru-m_ClassBrowserSemaphore"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:v8-m_ClassBrowserBuilderThreadMu"><td class="memItemLeft" align="right" valign="top">wxMutex&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClassBrowserBuilderThread#v8-m_ClassBrowserBuilderThreadMu">m_ClassBrowserBuilderThreadMutex</a></td></tr>
-<tr class="memdesc:v8-m_ClassBrowserBuilderThreadMu"><td class="mdescLeft">&#160;</td><td class="mdescRight">Some member functions of <a class="el" href="classClassBrowserBuilderThread" title="worker thread to build the symbol browser tree controls(both the top tree and the bottom tree) When t...">ClassBrowserBuilderThread</a> such as <a class="el" href="classClassBrowserBuilderThread#jh-ExpandItem">ExpandItem()</a> can either be called from the main GUI thread(in ClassBrowser::OnTreeItemExpanding(wxTreeEvent&amp; event)), or be called in the worker thread(in <a class="el" href="classClassBrowserBuilderThread#d0-BuildTree">BuildTree()</a> which is called in <a class="el" href="classClassBrowserBuilderThread#m1-Entry">ClassBrowserBuilderThread::Entry()</a>), to protect the member variables of the class, we use the Mutex so that only one thread can access to those member variables.  <a href="#v8-m_ClassBrowserBuilderThreadMu">More...</a><br /></td></tr>
+<tr class="memdesc:v8-m_ClassBrowserBuilderThreadMu"><td class="mdescLeft">&#160;</td><td class="mdescRight">Some member functions of <a class="el" href="classClassBrowserBuilderThread" title="worker thread to build the symbol browser tree controls(both the top tree and the bottom tree) When t...">ClassBrowserBuilderThread</a> such as <a class="el" href="classClassBrowserBuilderThread#jh-ExpandItem" title="construct the children of the tree item Called from external, BuildTree(): ">ExpandItem()</a> can either be called from the main GUI thread(in ClassBrowser::OnTreeItemExpanding(wxTreeEvent&amp; event)), or be called in the worker thread(in <a class="el" href="classClassBrowserBuilderThread#d0-BuildTree">BuildTree()</a> which is called in <a class="el" href="classClassBrowserBuilderThread#m1-Entry">ClassBrowserBuilderThread::Entry()</a>), to protect the member variables of the class(especially the wxTreeCtrl, we use the Mutex so that only one thread can access to those member variables.  <a href="#v8-m_ClassBrowserBuilderThreadMu">More...</a><br /></td></tr>
 <tr class="separator:v8-m_ClassBrowserBuilderThreadMu"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:lc-m_NativeParser"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classNativeParser">NativeParser</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClassBrowserBuilderThread#lc-m_NativeParser">m_NativeParser</a></td></tr>
 <tr class="separator:lc-m_NativeParser"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -633,6 +637,8 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>remove the children of the tree item Called from external, <a class="el" href="classClassBrowserBuilderThread#d0-BuildTree">BuildTree()</a>, <a class="el" href="classClassBrowserBuilderThread#sh-RemoveInvalidNodes">RemoveInvalidNodes()</a>: </p>
+
 <p>References <a class="el" href="classbrowserbuilderthread_8cpp#p1-CBBT_SANITY_CHECK">CBBT_SANITY_CHECK</a>, <a class="el" href="cclogger_8h#xr-CC_LOCKER_TRACK_CBBT_MTX_LOCK">CC_LOCKER_TRACK_CBBT_MTX_LOCK</a>, <a class="el" href="cclogger_8h#yf-CC_LOCKER_TRACK_CBBT_MTX_UNLO">CC_LOCKER_TRACK_CBBT_MTX_UNLOCK</a>, <a class="el" href="classClassBrowserBuilderThread#dz-m_CCTreeCtrlTop">m_CCTreeCtrlTop</a>, <a class="el" href="classClassBrowserBuilderThread#v8-m_ClassBrowserBuilderThreadMu">m_ClassBrowserBuilderThreadMutex</a>, <a class="el" href="classClassBrowserBuilderThread#a2-m_InitDone">m_InitDone</a>, and <a class="el" href="classbrowserbuilderthread_8cpp#qa-TRACE">TRACE</a>.</p>
 
 <p>Referenced by <a class="el" href="classClassBrowserBuilderThread#d0-BuildTree">BuildTree()</a>, <a class="el" href="classClassBrowser#xp-OnTreeItemCollapsing">ClassBrowser::OnTreeItemCollapsing()</a>, and <a class="el" href="classClassBrowserBuilderThread#sh-RemoveInvalidNodes">RemoveInvalidNodes()</a>.</p>
@@ -716,6 +722,8 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>construct the children of the tree item Called from external, <a class="el" href="classClassBrowserBuilderThread#d0-BuildTree">BuildTree()</a>: </p>
+
 <p>References <a class="el" href="classClassBrowserBuilderThread#yw-AddAncestorsOf">AddAncestorsOf()</a>, <a class="el" href="classClassBrowserBuilderThread#ig-AddChildrenOf">AddChildrenOf()</a>, <a class="el" href="classClassBrowserBuilderThread#e3-AddDescendantsOf">AddDescendantsOf()</a>, <a class="el" href="classClassBrowserBuilderThread#ie-AddMembersOf">AddMembersOf()</a>, <a class="el" href="parser__base_8h#s6-BrowserDisplayFilter:bdfFile">bdfFile</a>, <a class="el" href="classbrowserbuilderthread_8cpp#p1-CBBT_SANITY_CHECK">CBBT_SANITY_CHECK</a>, <a class="el" href="cclogger_8h#xr-CC_LOCKER_TRACK_CBBT_MTX_LOCK">CC_LOCKER_TRACK_CBBT_MTX_LOCK</a>, <a class="el" href="cclogger_8h#yf-CC_LOCKER_TRACK_CBBT_MTX_UNLO">CC_LOCKER_TRACK_CBBT_MTX_UNLOCK</a>, <a class="el" href="cclogger_8h#ap-CC_LOCKER_TRACK_TT_MTX_LOCK">CC_LOCKER_TRACK_TT_MTX_LOCK</a>, <a class="el" href="cclogger_8h#al-CC_LOCKER_TRACK_TT_MTX_UNLOCK">CC_LOCKER_TRACK_TT_MTX_UNLOCK</a>, <a class="el" href="classClassBrowserBuilderThread#rw-CreateSpecialFolders">CreateSpecialFolders()</a>, <a class="el" href="classCCLogger#ux-DebugLog">CCLogger::DebugLog()</a>, <a class="el" href="structBrowserOptions#ee-displayFilter">BrowserOptions::displayFilter</a>, <a class="el" href="logmanager_8h#ug-F">F()</a>, <a class="el" href="classCCLogger#ma-Get">CCLogger::Get()</a>, <a class="el" href="classClassBrowserBuilderThread#kf-m_ActiveFilename">m_ActiveFilename</a>, <a class="el" href="classClassBrowserBuilderThread#bd-m_BrowserOptions">m_BrowserOptions</a>, <a class="el" href="classClassBrowserBuilderThread#dz-m_CCTreeCtrlTop">m_CCTreeCtrlTop</a>, <a class="el" href="classClassBrowserBuilderThread#v8-m_ClassBrowserBuilderThreadMu">m_ClassBrowserBuilderThreadMutex</a>, <a class="el" href="classToken#od-m_Descendants">Token::m_Descendants</a>, <a class="el" href="classToken#fb-m_DirectAncestors">Token::m_DirectAncestors</a>, <a class="el" href="classToken#zl-m_Index">Token::m_Index</a>, <a class="el" href="classClassBrowserBuilderThread#a2-m_InitDone">m_InitDone</a>, <a class="el" href="classClassBrowserBuilderThread#lc-m_NativeParser">m_NativeParser</a>, <a class="el" href="classCCTreeCtrlData#vr-m_SpecialFolder">CCTreeCtrlData::m_SpecialFolder</a>, <a class="el" href="classCCTreeCtrlData#a3-m_Token">CCTreeCtrlData::m_Token</a>, <a class="el" href="classToken#ky-m_TokenKind">Token::m_TokenKind</a>, <a class="el" href="classClassBrowserBuilderThread#qe-m_TokenTree">m_TokenTree</a>, <a class="el" href="parser_8h#yh-PARSER_IMG_CLASS_FOLDER">PARSER_IMG_CLASS_FOLDER</a>, <a class="el" href="classTokenTree#ww-RecalcInheritanceChain">TokenTree::RecalcInheritanceChain()</a>, <a class="el" href="tokentree_8cpp#ko-s_TokenTreeMutex">s_TokenTreeMutex</a>, <a class="el" href="cctreectrl_8h#ah-SpecialFolder:sfBase">sfBase</a>, <a class="el" href="cctreectrl_8h#ah-SpecialFolder:sfDerived">sfDerived</a>, <a class="el" href="cctreectrl_8h#ah-SpecialFolder:sfGFuncs">sfGFuncs</a>, <a class="el" href="cctreectrl_8h#ah-SpecialFolder:sfGVars">sfGVars</a>, <a class="el" href="cctreectrl_8h#ah-SpecialFolder:sfMacro">sfMacro</a>, <a class="el" href="cctreectrl_8h#ah-SpecialFolder:sfPreproc">sfPreproc</a>, <a class="el" href="cctreectrl_8h#ah-SpecialFolder:sfRoot">sfRoot</a>, <a class="el" href="cctreectrl_8h#ah-SpecialFolder:sfToken">sfToken</a>, <a class="el" href="cctreectrl_8h#ah-SpecialFolder:sfTypedef">sfTypedef</a>, <a class="el" href="structBrowserOptions#ww-showInheritance">BrowserOptions::showInheritance</a>, <a class="el" href="token_8h#uj-TokenKind:tkAnyContainer">tkAnyContainer</a>, <a class="el" href="token_8h#uj-TokenKind:tkAnyFunction">tkAnyFunction</a>, <a class="el" href="token_8h#uj-TokenKind:tkClass">tkClass</a>, <a class="el" href="token_8h#uj-TokenKind:tkConstructor">tkConstructor</a>, <a class="el" href="token_8h#uj-TokenKind:tkDestructor">tkDestructor</a>, <a class="el" href="token_8h#uj-TokenKind:tkEnum">tkEnum</a>, <a class="el" href="token_8h#uj-TokenKind:tkEnumerator">tkEnumerator</a>, <a class="el" href="token_8h#uj-TokenKind:tkFunction">tkFunction</a>, <a class="el" href="token_8h#uj-TokenKind:tkMacroDef">tkMacroDef</a>, <a class="el" href="token_8h#uj-TokenKind:tkMacroUse">tkMacroUse</a>, <a class="el" href="token_8h#uj-TokenKind:tkNamespace">tkNamespace</a>, <a class="el" href="token_8h#uj-TokenKind:tkTypedef">tkTypedef</a>, <a class="el" href="token_8h#uj-TokenKind:tkUndefined">tkUndefined</a>, <a class="el" href="token_8h#uj-TokenKind:tkVariable">tkVariable</a>, <a class="el" href="classbrowserbuilderthread_8cpp#qa-TRACE">TRACE</a>, and <a class="el" href="structBrowserOptions#le-treeMembers">BrowserOptions::treeMembers</a>.</p>
 
 <p>Referenced by <a class="el" href="classClassBrowserBuilderThread#d0-BuildTree">BuildTree()</a>, and <a class="el" href="classClassBrowser#wr-OnTreeItemExpanding">ClassBrowser::OnTreeItemExpanding()</a>.</p>
@@ -759,6 +767,14 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>recursively construct the children of node's children, which matches tokenKind Called from <a class="el" href="classClassBrowserBuilderThread#d0-BuildTree">BuildTree()</a>: </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">level</td><td>the recursive level </td></tr>
+  </table>
+  </dd>
+</dl>
 
 <p>References <a class="el" href="classbrowserbuilderthread_8cpp#p1-CBBT_SANITY_CHECK">CBBT_SANITY_CHECK</a>, <a class="el" href="structBrowserOptions#e3-expandNS">BrowserOptions::expandNS</a>, <a class="el" href="logmanager_8h#ug-F">F()</a>, <a class="el" href="classClassBrowserBuilderThread#bd-m_BrowserOptions">m_BrowserOptions</a>, <a class="el" href="classClassBrowserBuilderThread#dz-m_CCTreeCtrlTop">m_CCTreeCtrlTop</a>, <a class="el" href="classToken#el-m_Name">Token::m_Name</a>, <a class="el" href="classCCTreeCtrlData#a3-m_Token">CCTreeCtrlData::m_Token</a>, <a class="el" href="classToken#ky-m_TokenKind">Token::m_TokenKind</a>, and <a class="el" href="classbrowserbuilderthread_8cpp#qa-TRACE">TRACE</a>.</p>
 
@@ -935,6 +951,8 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>ask the worker thread to die Called from external: when the class browser window get destroyed </p>
 
 <p>References <a class="el" href="classClassBrowserBuilderThread#f9-m_TerminationRequested">m_TerminationRequested</a>.</p>
 
@@ -1266,7 +1284,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Some member functions of <a class="el" href="classClassBrowserBuilderThread" title="worker thread to build the symbol browser tree controls(both the top tree and the bottom tree) When t...">ClassBrowserBuilderThread</a> such as <a class="el" href="classClassBrowserBuilderThread#jh-ExpandItem">ExpandItem()</a> can either be called from the main GUI thread(in ClassBrowser::OnTreeItemExpanding(wxTreeEvent&amp; event)), or be called in the worker thread(in <a class="el" href="classClassBrowserBuilderThread#d0-BuildTree">BuildTree()</a> which is called in <a class="el" href="classClassBrowserBuilderThread#m1-Entry">ClassBrowserBuilderThread::Entry()</a>), to protect the member variables of the class, we use the Mutex so that only one thread can access to those member variables. </p>
+<p>Some member functions of <a class="el" href="classClassBrowserBuilderThread" title="worker thread to build the symbol browser tree controls(both the top tree and the bottom tree) When t...">ClassBrowserBuilderThread</a> such as <a class="el" href="classClassBrowserBuilderThread#jh-ExpandItem" title="construct the children of the tree item Called from external, BuildTree(): ">ExpandItem()</a> can either be called from the main GUI thread(in ClassBrowser::OnTreeItemExpanding(wxTreeEvent&amp; event)), or be called in the worker thread(in <a class="el" href="classClassBrowserBuilderThread#d0-BuildTree">BuildTree()</a> which is called in <a class="el" href="classClassBrowserBuilderThread#m1-Entry">ClassBrowserBuilderThread::Entry()</a>), to protect the member variables of the class(especially the wxTreeCtrl, we use the Mutex so that only one thread can access to those member variables. </p>
 
 <p>Referenced by <a class="el" href="classClassBrowserBuilderThread#k5-CollapseItem">CollapseItem()</a>, <a class="el" href="classClassBrowserBuilderThread#jh-ExpandItem">ExpandItem()</a>, <a class="el" href="classClassBrowserBuilderThread#l8-Init">Init()</a>, and <a class="el" href="classClassBrowserBuilderThread#yz-SelectItem">SelectItem()</a>.</p>
 

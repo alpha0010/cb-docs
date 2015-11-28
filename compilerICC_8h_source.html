@@ -18,7 +18,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">Code::Blocks
-   &#160;<span id="projectnumber">SVN r10408</span>
+   &#160;<span id="projectnumber">SVN r10603</span>
    </div>
   </td>
  </tr>
@@ -65,61 +65,26 @@
 <div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="globals_8h">globals.h</a>&gt;</span></div>
 <div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="compiler_8h">compiler.h</a>&gt;</span></div>
 <div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;</div>
-<div class="line"><a name="l00015"></a><span class="lineno"><a class="line" href="classwxIccDirTraverser">   15</a></span>&#160;<span class="keyword">class </span><a class="code" href="classwxIccDirTraverser">wxIccDirTraverser</a> : <span class="keyword">public</span> wxDirTraverser</div>
+<div class="line"><a name="l00015"></a><span class="lineno"><a class="line" href="classCompilerICC">   15</a></span>&#160;<span class="keyword">class </span><a class="code" href="classCompilerICC">CompilerICC</a> : <span class="keyword">public</span> <a class="code" href="classCompiler">Compiler</a></div>
 <div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;{</div>
 <div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;    <span class="keyword">public</span>:</div>
-<div class="line"><a name="l00018"></a><span class="lineno"><a class="line" href="classwxIccDirTraverser#lb-wxIccDirTraverser">   18</a></span>&#160;        <a class="code" href="classwxIccDirTraverser#lb-wxIccDirTraverser">wxIccDirTraverser</a>(wxArrayString&amp; folders) : <a class="code" href="classwxIccDirTraverser#ju-m_Dirs">m_Dirs</a>(folders)</div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;        {</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;            <a class="code" href="classwxIccDirTraverser#fi-m_SepChar">m_SepChar</a> = (platform::windows == 1) ? _T(<span class="charliteral">&#39;\\&#39;</span>) : _T(<span class="charliteral">&#39;/&#39;</span>);</div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;        }</div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;</div>
-<div class="line"><a name="l00023"></a><span class="lineno"><a class="line" href="classwxIccDirTraverser#x6-OnFile">   23</a></span>&#160;        <span class="keyword">virtual</span> wxDirTraverseResult <a class="code" href="classwxIccDirTraverser#x6-OnFile">OnFile</a>(<span class="keyword">const</span> wxString&amp; WXUNUSED(filename))</div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;        {</div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;            <span class="keywordflow">return</span> wxDIR_CONTINUE;</div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;        }</div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;</div>
-<div class="line"><a name="l00028"></a><span class="lineno"><a class="line" href="classwxIccDirTraverser#lb-OnDir">   28</a></span>&#160;        <span class="keyword">virtual</span> wxDirTraverseResult <a class="code" href="classwxIccDirTraverser#lb-OnDir">OnDir</a>(<span class="keyword">const</span> wxString&amp; dirname)</div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;        {</div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;            <span class="keywordflow">if</span> (<a class="code" href="classwxIccDirTraverser#ju-m_Dirs">m_Dirs</a>.Index(dirname) == wxNOT_FOUND &amp;&amp;</div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;                dirname.AfterLast(<a class="code" href="classwxIccDirTraverser#fi-m_SepChar">m_SepChar</a>).Contains(_T(<span class="stringliteral">&quot;.&quot;</span>)))</div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;            {</div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;                <a class="code" href="classwxIccDirTraverser#ju-m_Dirs">m_Dirs</a>.Add(dirname);</div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;            }</div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;            <span class="keywordflow">return</span> wxDIR_CONTINUE;</div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;        }</div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;</div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    <span class="keyword">private</span>:</div>
-<div class="line"><a name="l00039"></a><span class="lineno"><a class="line" href="classwxIccDirTraverser#ju-m_Dirs">   39</a></span>&#160;        wxArrayString&amp; <a class="code" href="classwxIccDirTraverser#ju-m_Dirs">m_Dirs</a>;</div>
-<div class="line"><a name="l00040"></a><span class="lineno"><a class="line" href="classwxIccDirTraverser#fi-m_SepChar">   40</a></span>&#160;        wxChar <a class="code" href="classwxIccDirTraverser#fi-m_SepChar">m_SepChar</a>;</div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;};</div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;</div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;</div>
-<div class="line"><a name="l00044"></a><span class="lineno"><a class="line" href="classCompilerICC">   44</a></span>&#160;<span class="keyword">class </span><a class="code" href="classCompilerICC">CompilerICC</a> : <span class="keyword">public</span> <a class="code" href="classCompiler">Compiler</a></div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;{</div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    <span class="keyword">public</span>:</div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;        <a class="code" href="classCompilerICC#fw-CompilerICC">CompilerICC</a>();</div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;        <span class="keyword">virtual</span> <a class="code" href="classCompilerICC#ts-CompilerICC">~CompilerICC</a>();</div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;        <span class="keyword">virtual</span> <a class="code" href="compiler_8h#ka-AutoDetectResult">AutoDetectResult</a> <a class="code" href="classCompilerICC#uv-AutoDetectInstallationDir">AutoDetectInstallationDir</a>();</div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;    <span class="keyword">protected</span>:</div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;        <span class="keyword">virtual</span> <a class="code" href="classCompiler">Compiler</a>* <a class="code" href="classCompilerICC#f3-CreateCopy">CreateCopy</a>();</div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;    <span class="keyword">private</span>:</div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;};</div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;</div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;<span class="preprocessor">#endif // COMPILER_ICC_H</span></div>
-<div class="ttc" id="classwxIccDirTraverser_lb-OnDir"><div class="ttname"><a href="classwxIccDirTraverser#lb-OnDir">wxIccDirTraverser::OnDir</a></div><div class="ttdeci">virtual wxDirTraverseResult OnDir(const wxString &amp;dirname)</div><div class="ttdef"><b>Definition:</b> compilerICC.h:28</div></div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;        <a class="code" href="classCompilerICC#fw-CompilerICC">CompilerICC</a>();</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;        <span class="keyword">virtual</span> <a class="code" href="classCompilerICC#ts-CompilerICC">~CompilerICC</a>();</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;        <span class="keyword">virtual</span> <a class="code" href="compiler_8h#ka-AutoDetectResult">AutoDetectResult</a> <a class="code" href="classCompilerICC#uv-AutoDetectInstallationDir">AutoDetectInstallationDir</a>();</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;    <span class="keyword">protected</span>:</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;        <span class="keyword">virtual</span> <a class="code" href="classCompiler">Compiler</a>* <a class="code" href="classCompilerICC#f3-CreateCopy">CreateCopy</a>();</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    <span class="keyword">private</span>:</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;};</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="preprocessor">#endif // COMPILER_ICC_H</span></div>
 <div class="ttc" id="compiler_8h"><div class="ttname"><a href="compiler_8h">compiler.h</a></div></div>
-<div class="ttc" id="classCompilerICC"><div class="ttname"><a href="classCompilerICC">CompilerICC</a></div><div class="ttdef"><b>Definition:</b> compilerICC.h:44</div></div>
-<div class="ttc" id="classwxIccDirTraverser_fi-m_SepChar"><div class="ttname"><a href="classwxIccDirTraverser#fi-m_SepChar">wxIccDirTraverser::m_SepChar</a></div><div class="ttdeci">wxChar m_SepChar</div><div class="ttdef"><b>Definition:</b> compilerICC.h:40</div></div>
-<div class="ttc" id="classCompilerICC_fw-CompilerICC"><div class="ttname"><a href="classCompilerICC#fw-CompilerICC">CompilerICC::CompilerICC</a></div><div class="ttdeci">CompilerICC()</div><div class="ttdef"><b>Definition:</b> compilerICC.cpp:26</div></div>
-<div class="ttc" id="classwxIccDirTraverser_lb-wxIccDirTraverser"><div class="ttname"><a href="classwxIccDirTraverser#lb-wxIccDirTraverser">wxIccDirTraverser::wxIccDirTraverser</a></div><div class="ttdeci">wxIccDirTraverser(wxArrayString &amp;folders)</div><div class="ttdef"><b>Definition:</b> compilerICC.h:18</div></div>
-<div class="ttc" id="classCompilerICC_f3-CreateCopy"><div class="ttname"><a href="classCompilerICC#f3-CreateCopy">CompilerICC::CreateCopy</a></div><div class="ttdeci">virtual Compiler * CreateCopy()</div><div class="ttdoc">Implement this in new compilers, to return a new copy. </div><div class="ttdef"><b>Definition:</b> compilerICC.cpp:38</div></div>
+<div class="ttc" id="classCompilerICC"><div class="ttname"><a href="classCompilerICC">CompilerICC</a></div><div class="ttdef"><b>Definition:</b> compilerICC.h:15</div></div>
+<div class="ttc" id="classCompilerICC_fw-CompilerICC"><div class="ttname"><a href="classCompilerICC#fw-CompilerICC">CompilerICC::CompilerICC</a></div><div class="ttdeci">CompilerICC()</div><div class="ttdef"><b>Definition:</b> compilerICC.cpp:55</div></div>
+<div class="ttc" id="classCompilerICC_f3-CreateCopy"><div class="ttname"><a href="classCompilerICC#f3-CreateCopy">CompilerICC::CreateCopy</a></div><div class="ttdeci">virtual Compiler * CreateCopy()</div><div class="ttdoc">Implement this in new compilers, to return a new copy. </div><div class="ttdef"><b>Definition:</b> compilerICC.cpp:67</div></div>
 <div class="ttc" id="compiler_8h_ka-AutoDetectResult"><div class="ttname"><a href="compiler_8h#ka-AutoDetectResult">AutoDetectResult</a></div><div class="ttdeci">AutoDetectResult</div><div class="ttdef"><b>Definition:</b> compiler.h:172</div></div>
-<div class="ttc" id="classwxIccDirTraverser_ju-m_Dirs"><div class="ttname"><a href="classwxIccDirTraverser#ju-m_Dirs">wxIccDirTraverser::m_Dirs</a></div><div class="ttdeci">wxArrayString &amp; m_Dirs</div><div class="ttdef"><b>Definition:</b> compilerICC.h:39</div></div>
-<div class="ttc" id="classwxIccDirTraverser"><div class="ttname"><a href="classwxIccDirTraverser">wxIccDirTraverser</a></div><div class="ttdef"><b>Definition:</b> compilerICC.h:15</div></div>
 <div class="ttc" id="classCompiler"><div class="ttname"><a href="classCompiler">Compiler</a></div><div class="ttdoc">Abstract base class for compilers. </div><div class="ttdef"><b>Definition:</b> compiler.h:256</div></div>
-<div class="ttc" id="classCompilerICC_ts-CompilerICC"><div class="ttname"><a href="classCompilerICC#ts-CompilerICC">CompilerICC::~CompilerICC</a></div><div class="ttdeci">virtual ~CompilerICC()</div><div class="ttdef"><b>Definition:</b> compilerICC.cpp:33</div></div>
-<div class="ttc" id="classwxIccDirTraverser_x6-OnFile"><div class="ttname"><a href="classwxIccDirTraverser#x6-OnFile">wxIccDirTraverser::OnFile</a></div><div class="ttdeci">virtual wxDirTraverseResult OnFile(const wxString &amp;WXUNUSED(filename))</div><div class="ttdef"><b>Definition:</b> compilerICC.h:23</div></div>
-<div class="ttc" id="classCompilerICC_uv-AutoDetectInstallationDir"><div class="ttname"><a href="classCompilerICC#uv-AutoDetectInstallationDir">CompilerICC::AutoDetectInstallationDir</a></div><div class="ttdeci">virtual AutoDetectResult AutoDetectInstallationDir()</div><div class="ttdoc">Try to auto-detect the compiler&#39;s installation directory. </div><div class="ttdef"><b>Definition:</b> compilerICC.cpp:43</div></div>
+<div class="ttc" id="classCompilerICC_ts-CompilerICC"><div class="ttname"><a href="classCompilerICC#ts-CompilerICC">CompilerICC::~CompilerICC</a></div><div class="ttdeci">virtual ~CompilerICC()</div><div class="ttdef"><b>Definition:</b> compilerICC.cpp:62</div></div>
+<div class="ttc" id="classCompilerICC_uv-AutoDetectInstallationDir"><div class="ttname"><a href="classCompilerICC#uv-AutoDetectInstallationDir">CompilerICC::AutoDetectInstallationDir</a></div><div class="ttdeci">virtual AutoDetectResult AutoDetectInstallationDir()</div><div class="ttdoc">Try to auto-detect the compiler&#39;s installation directory. </div><div class="ttdef"><b>Definition:</b> compilerICC.cpp:72</div></div>
 <div class="ttc" id="globals_8h"><div class="ttname"><a href="globals_8h">globals.h</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->

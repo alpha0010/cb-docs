@@ -18,7 +18,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">Code::Blocks
-   &#160;<span id="projectnumber">SVN r10408</span>
+   &#160;<span id="projectnumber">SVN r10603</span>
    </div>
   </td>
  </tr>
@@ -68,7 +68,7 @@ Inheritance diagram for ClassBrowser:</div>
 <div class="dynheader">
 Collaboration diagram for ClassBrowser:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classClassBrowser__coll__graph.svg" width="2712" height="4642"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classClassBrowser__coll__graph.svg" width="2718" height="4642"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <table class="memberdecls">
@@ -78,14 +78,16 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:s7-ClassBrowser"><td class="mdescLeft">&#160;</td><td class="mdescRight">class constructor  <a href="#s7-ClassBrowser">More...</a><br /></td></tr>
 <tr class="separator:s7-ClassBrowser"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:i6-ClassBrowser"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClassBrowser#i6-ClassBrowser">~ClassBrowser</a> ()</td></tr>
+<tr class="memdesc:i6-ClassBrowser"><td class="mdescLeft">&#160;</td><td class="mdescRight">class destructor  <a href="#i6-ClassBrowser">More...</a><br /></td></tr>
 <tr class="separator:i6-ClassBrowser"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ya-GetCCTreeCtrl"><td class="memItemLeft" align="right" valign="top">const wxTreeCtrl *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClassBrowser#ya-GetCCTreeCtrl">GetCCTreeCtrl</a> ()</td></tr>
+<tr class="memdesc:ya-GetCCTreeCtrl"><td class="mdescLeft">&#160;</td><td class="mdescRight">return a pointer to the top tree control  <a href="#ya-GetCCTreeCtrl">More...</a><br /></td></tr>
 <tr class="separator:ya-GetCCTreeCtrl"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:tr-SetParser"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClassBrowser#tr-SetParser">SetParser</a> (<a class="el" href="classParserBase">ParserBase</a> *parser)</td></tr>
 <tr class="memdesc:tr-SetParser"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the <a class="el" href="classParser" title="Parser class holds all the tokens of a C::B project. ">Parser</a> object associated with the class browser.  <a href="#tr-SetParser">More...</a><br /></td></tr>
 <tr class="separator:tr-SetParser"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:pg-UpdateClassBrowserView"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClassBrowser#pg-UpdateClassBrowserView">UpdateClassBrowserView</a> (bool checkHeaderSwap=false)</td></tr>
-<tr class="memdesc:pg-UpdateClassBrowserView"><td class="mdescLeft">&#160;</td><td class="mdescRight">update or refresh the symbol browser trees, there are many cases the tree need to be updated.  <a href="#pg-UpdateClassBrowserView">More...</a><br /></td></tr>
+<tr class="memdesc:pg-UpdateClassBrowserView"><td class="mdescLeft">&#160;</td><td class="mdescRight">update or refresh the symbol browser trees  <a href="#pg-UpdateClassBrowserView">More...</a><br /></td></tr>
 <tr class="separator:pg-UpdateClassBrowserView"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:cl-UpdateSash"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClassBrowser#cl-UpdateSash">UpdateSash</a> ()</td></tr>
 <tr class="memdesc:cl-UpdateSash"><td class="mdescLeft">&#160;</td><td class="mdescRight">update the position sash bar between top tree and the bottom tree, the position (percentage) of the two trees are saved in the configuration files.  <a href="#cl-UpdateSash">More...</a><br /></td></tr>
@@ -127,14 +129,19 @@ Private Member Functions</h2></td></tr>
 <tr class="memdesc:aw-OnSearch"><td class="mdescLeft">&#160;</td><td class="mdescRight">when user try to search a word in the symbols tree  <a href="#aw-OnSearch">More...</a><br /></td></tr>
 <tr class="separator:aw-OnSearch"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:cj-FoundMatch"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClassBrowser#cj-FoundMatch">FoundMatch</a> (const wxString &amp;search, wxTreeCtrl *tree, const wxTreeItemId &amp;item)</td></tr>
+<tr class="memdesc:cj-FoundMatch"><td class="mdescLeft">&#160;</td><td class="mdescRight">string compare between the search and the token's name associated with item  <a href="#cj-FoundMatch">More...</a><br /></td></tr>
 <tr class="separator:cj-FoundMatch"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:v2-FindNext"><td class="memItemLeft" align="right" valign="top">wxTreeItemId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClassBrowser#v2-FindNext">FindNext</a> (const wxString &amp;search, wxTreeCtrl *tree, const wxTreeItemId &amp;start)</td></tr>
+<tr class="memdesc:v2-FindNext"><td class="mdescLeft">&#160;</td><td class="mdescRight">get the next item of the "start" item, if no next item in the current level, go up one level  <a href="#v2-FindNext">More...</a><br /></td></tr>
 <tr class="separator:v2-FindNext"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:sm-FindChild"><td class="memItemLeft" align="right" valign="top">wxTreeItemId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClassBrowser#sm-FindChild">FindChild</a> (const wxString &amp;search, wxTreeCtrl *tree, const wxTreeItemId &amp;start, bool recurse=false, bool partialMatch=false)</td></tr>
+<tr class="memdesc:sm-FindChild"><td class="mdescLeft">&#160;</td><td class="mdescRight">get a child of the parent item, which matches the "search" key  <a href="#sm-FindChild">More...</a><br /></td></tr>
 <tr class="separator:sm-FindChild"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:xr-RecursiveSearch"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClassBrowser#xr-RecursiveSearch">RecursiveSearch</a> (const wxString &amp;search, wxTreeCtrl *tree, const wxTreeItemId &amp;parent, wxTreeItemId &amp;result)</td></tr>
+<tr class="memdesc:xr-RecursiveSearch"><td class="mdescLeft">&#160;</td><td class="mdescRight">find an item whose item name matches the "search" key string in the sub-tree  <a href="#xr-RecursiveSearch">More...</a><br /></td></tr>
 <tr class="separator:xr-RecursiveSearch"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:qp-ShowMenu"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClassBrowser#qp-ShowMenu">ShowMenu</a> (wxTreeCtrl *tree, wxTreeItemId id, const wxPoint &amp;pt)</td></tr>
+<tr class="memdesc:qp-ShowMenu"><td class="mdescLeft">&#160;</td><td class="mdescRight">build and show a context menu when user click on the tree item "id"  <a href="#qp-ShowMenu">More...</a><br /></td></tr>
 <tr class="separator:qp-ShowMenu"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:qn-ThreadedBuildTree"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClassBrowser#qn-ThreadedBuildTree">ThreadedBuildTree</a> (<a class="el" href="classcbProject">cbProject</a> *activeProject)</td></tr>
 <tr class="memdesc:qn-ThreadedBuildTree"><td class="mdescLeft">&#160;</td><td class="mdescRight">create a thread to update the symbol tree, if the thread is already created, just pause and resume the thread.  <a href="#qn-ThreadedBuildTree">More...</a><br /></td></tr>
@@ -249,6 +256,8 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>class destructor </p>
+
 <p>References <a class="el" href="classManager#rz-Get">Manager::Get()</a>, <a class="el" href="classManager#hd-GetConfigManager">Manager::GetConfigManager()</a>, <a class="el" href="classClassBrowser#yh-m_ClassBrowserBuilderThread">m_ClassBrowserBuilderThread</a>, <a class="el" href="classClassBrowser#hg-m_ClassBrowserSemaphore">m_ClassBrowserSemaphore</a>, <a class="el" href="prefix_8cpp#t6-NULL">NULL</a>, <a class="el" href="classClassBrowserBuilderThread#df-RequestTermination">ClassBrowserBuilderThread::RequestTermination()</a>, <a class="el" href="classClassBrowser#tr-SetParser">SetParser()</a>, and <a class="el" href="classConfigManager#ls-Write">ConfigManager::Write()</a>.</p>
 
 </div>
@@ -304,6 +313,14 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>get a child of the parent item, which matches the "search" key </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">recurse</td><td>whether recursive search to the children of the children  "search" key is the prefix of the item's text </td></tr>
+  </table>
+  </dd>
+</dl>
+
 <p>References <a class="el" href="classClassBrowser#gn-m_CCTreeCtrl">m_CCTreeCtrl</a>.</p>
 
 <p>Referenced by <a class="el" href="classClassBrowser#aw-OnSearch">OnSearch()</a>.</p>
@@ -348,6 +365,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>get the next item of the "start" item, if no next item in the current level, go up one level </p>
+<dl class="section note"><dt>Note</dt><dd>it looks like the "search" parameter is not used in this function </dd></dl>
+
 <p>Referenced by <a class="el" href="classClassBrowser#xr-RecursiveSearch">RecursiveSearch()</a>.</p>
 
 </div>
@@ -390,6 +410,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>string compare between the search and the token's name associated with item </p>
+<dl class="section return"><dt>Returns</dt><dd>true if their name matches </dd></dl>
+
 <p>References <a class="el" href="classClassTreeData#iw-GetToken">ClassTreeData::GetToken()</a>, and <a class="el" href="classToken#el-m_Name">Token::m_Name</a>.</p>
 
 <p>Referenced by <a class="el" href="classClassBrowser#xr-RecursiveSearch">RecursiveSearch()</a>.</p>
@@ -416,6 +439,8 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>return a pointer to the top tree control </p>
 
 <p>References <a class="el" href="classClassBrowser#gn-m_CCTreeCtrl">m_CCTreeCtrl</a>.</p>
 
@@ -879,6 +904,14 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>find an item whose item name matches the "search" key string in the sub-tree </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">parent</td><td>search will start from this parent item, and recursively to the sub-tree </td></tr>
+  </table>
+  </dd>
+</dl>
+
 <p>References <a class="el" href="classClassBrowser#v2-FindNext">FindNext()</a>, and <a class="el" href="classClassBrowser#cj-FoundMatch">FoundMatch()</a>.</p>
 
 </div>
@@ -949,6 +982,8 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>build and show a context menu when user click on the tree item "id" </p>
+
 <p>References <a class="el" href="parser__base_8h#gj-BrowserSortType:bstAlphabet">bstAlphabet</a>, <a class="el" href="parser__base_8h#gj-BrowserSortType:bstKind">bstKind</a>, <a class="el" href="parser__base_8h#gj-BrowserSortType:bstLine">bstLine</a>, <a class="el" href="parser__base_8h#gj-BrowserSortType:bstNone">bstNone</a>, <a class="el" href="parser__base_8h#gj-BrowserSortType:bstScope">bstScope</a>, <a class="el" href="classParserBase#tq-ClassBrowserOptions">ParserBase::ClassBrowserOptions()</a>, <a class="el" href="structBrowserOptions#e3-expandNS">BrowserOptions::expandNS</a>, <a class="el" href="classToken#ls-GetImplFilename">Token::GetImplFilename()</a>, <a class="el" href="classbrowser_8cpp#j8-idCBBottomTree">idCBBottomTree</a>, <a class="el" href="classbrowser_8cpp#bg-idCBExpandNS">idCBExpandNS</a>, <a class="el" href="classbrowser_8cpp#ub-idCBNoSort">idCBNoSort</a>, <a class="el" href="classbrowser_8cpp#xn-idCBSortByAlpabet">idCBSortByAlpabet</a>, <a class="el" href="classbrowser_8cpp#lh-idCBSortByKind">idCBSortByKind</a>, <a class="el" href="classbrowser_8cpp#e2-idCBSortByLine">idCBSortByLine</a>, <a class="el" href="classbrowser_8cpp#jr-idCBSortByScope">idCBSortByScope</a>, <a class="el" href="classbrowser_8cpp#wh-idCBViewInheritance">idCBViewInheritance</a>, <a class="el" href="classbrowser_8cpp#lu-idMenuDebugSmartSense">idMenuDebugSmartSense</a>, <a class="el" href="classbrowser_8cpp#qn-idMenuForceReparse">idMenuForceReparse</a>, <a class="el" href="classbrowser_8cpp#if-idMenuJumpToDeclaration">idMenuJumpToDeclaration</a>, <a class="el" href="classbrowser_8cpp#kq-idMenuJumpToImplementation">idMenuJumpToImplementation</a>, <a class="el" href="classbrowser_8cpp#ii-idMenuRefreshTree">idMenuRefreshTree</a>, <a class="el" href="classClassBrowser#gn-m_CCTreeCtrl">m_CCTreeCtrl</a>, <a class="el" href="classToken#ur-m_ImplLine">Token::m_ImplLine</a>, <a class="el" href="classClassBrowser#f0-m_Parser">m_Parser</a>, <a class="el" href="classCCTreeCtrlData#a3-m_Token">CCTreeCtrlData::m_Token</a>, <a class="el" href="classToken#ky-m_TokenKind">Token::m_TokenKind</a>, <a class="el" href="classClassBrowser#mg-m_TreeForPopupMenu">m_TreeForPopupMenu</a>, <a class="el" href="nativeparser_8cpp#oc-s_DebugSmartSense">s_DebugSmartSense</a>, <a class="el" href="structBrowserOptions#ww-showInheritance">BrowserOptions::showInheritance</a>, <a class="el" href="structBrowserOptions#b7-sortType">BrowserOptions::sortType</a>, <a class="el" href="token_8h#uj-TokenKind:tkAnyContainer">tkAnyContainer</a>, <a class="el" href="token_8h#uj-TokenKind:tkAnyFunction">tkAnyFunction</a>, <a class="el" href="token_8h#uj-TokenKind:tkClass">tkClass</a>, <a class="el" href="token_8h#uj-TokenKind:tkConstructor">tkConstructor</a>, <a class="el" href="token_8h#uj-TokenKind:tkDestructor">tkDestructor</a>, <a class="el" href="token_8h#uj-TokenKind:tkEnum">tkEnum</a>, <a class="el" href="token_8h#uj-TokenKind:tkEnumerator">tkEnumerator</a>, <a class="el" href="token_8h#uj-TokenKind:tkFunction">tkFunction</a>, <a class="el" href="token_8h#uj-TokenKind:tkMacroDef">tkMacroDef</a>, <a class="el" href="token_8h#uj-TokenKind:tkMacroUse">tkMacroUse</a>, <a class="el" href="token_8h#uj-TokenKind:tkNamespace">tkNamespace</a>, <a class="el" href="token_8h#uj-TokenKind:tkTypedef">tkTypedef</a>, <a class="el" href="token_8h#uj-TokenKind:tkUndefined">tkUndefined</a>, <a class="el" href="token_8h#uj-TokenKind:tkVariable">tkVariable</a>, and <a class="el" href="structBrowserOptions#le-treeMembers">BrowserOptions::treeMembers</a>.</p>
 
 <p>Referenced by <a class="el" href="classClassBrowser#wz-OnTreeItemRightClick">OnTreeItemRightClick()</a>.</p>
@@ -999,8 +1034,8 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>update or refresh the symbol browser trees, there are many cases the tree need to be updated. </p>
-<p>E.g. if the View option of the tree is the "Current file's symbols", the user switch the editor to a new source file, then the tree should be updated(rebuild). </p><dl class="params"><dt>Parameters</dt><dd>
+<p>update or refresh the symbol browser trees </p>
+<p>There are many cases the tree need to be updated. E.g. if the View option of the tree is the "Current file's symbols", the user switch the editor to a new source file, then the tree should be updated(rebuild). </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">checkHeaderSwap</td><td>if true, we should check if the new editor opened has the same base file as the old file. E.g. If you are currently viewing a file named A.cpp, and you switch to A.h in this case, the tree should not be updated, because tokens(symbols) in both files were already shown. False if you need to update the tree without such optimization. </td></tr>
   </table>

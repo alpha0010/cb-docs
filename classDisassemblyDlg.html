@@ -18,7 +18,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">Code::Blocks
-   &#160;<span id="projectnumber">SVN r10408</span>
+   &#160;<span id="projectnumber">SVN r10603</span>
    </div>
   </td>
  </tr>
@@ -79,14 +79,14 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:hp-GetWindow"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gv-Clear"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDisassemblyDlg#gv-Clear">Clear</a> (const <a class="el" href="classcbStackFrame">cbStackFrame</a> &amp;frame)</td></tr>
 <tr class="separator:gv-Clear"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:h2-AddAssemblerLine"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDisassemblyDlg#h2-AddAssemblerLine">AddAssemblerLine</a> (size_t addr, const wxString &amp;line)</td></tr>
-<tr class="separator:h2-AddAssemblerLine"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:v0-AddSourceLine"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDisassemblyDlg#v0-AddSourceLine">AddSourceLine</a> (size_t lineno, const wxString &amp;line)</td></tr>
-<tr class="separator:v0-AddSourceLine"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:x8-SetActiveAddress"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDisassemblyDlg#x8-SetActiveAddress">SetActiveAddress</a> (size_t addr)</td></tr>
-<tr class="separator:x8-SetActiveAddress"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ar-CenterLine"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDisassemblyDlg#ar-CenterLine">CenterLine</a> (size_t lineno)</td></tr>
-<tr class="separator:ar-CenterLine"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:cm-AddAssemblerLine"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDisassemblyDlg#cm-AddAssemblerLine">AddAssemblerLine</a> (uint64_t addr, const wxString &amp;line)</td></tr>
+<tr class="separator:cm-AddAssemblerLine"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:oy-AddSourceLine"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDisassemblyDlg#oy-AddSourceLine">AddSourceLine</a> (int lineno, const wxString &amp;line)</td></tr>
+<tr class="separator:oy-AddSourceLine"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:lh-SetActiveAddress"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDisassemblyDlg#lh-SetActiveAddress">SetActiveAddress</a> (uint64_t addr)</td></tr>
+<tr class="separator:lh-SetActiveAddress"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:pm-CenterLine"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDisassemblyDlg#pm-CenterLine">CenterLine</a> (int lineno)</td></tr>
+<tr class="separator:pm-CenterLine"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:r5-CenterCurrentLine"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDisassemblyDlg#r5-CenterCurrentLine">CenterCurrentLine</a> ()</td></tr>
 <tr class="separator:r5-CenterCurrentLine"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:lh-HasActiveAddr"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDisassemblyDlg#lh-HasActiveAddr">HasActiveAddr</a> ()</td></tr>
@@ -112,8 +112,8 @@ Protected Member Functions</h2></td></tr>
 Protected Attributes</h2></td></tr>
 <tr class="memitem:m4-m_pCode"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classwxScintilla">wxScintilla</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDisassemblyDlg#m4-m_pCode">m_pCode</a></td></tr>
 <tr class="separator:m4-m_pCode"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:pm-m_LastActiveAddr"><td class="memItemLeft" align="right" valign="top">unsigned long int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDisassemblyDlg#pm-m_LastActiveAddr">m_LastActiveAddr</a></td></tr>
-<tr class="separator:pm-m_LastActiveAddr"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:q4-m_LastActiveAddr"><td class="memItemLeft" align="right" valign="top">uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDisassemblyDlg#q4-m_LastActiveAddr">m_LastActiveAddr</a></td></tr>
+<tr class="separator:q4-m_LastActiveAddr"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:h1-m_HasActiveAddr"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDisassemblyDlg#h1-m_HasActiveAddr">m_HasActiveAddr</a></td></tr>
 <tr class="separator:h1-m_HasActiveAddr"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:zq-m_FrameFunction"><td class="memItemLeft" align="right" valign="top">wxString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDisassemblyDlg#zq-m_FrameFunction">m_FrameFunction</a></td></tr>
@@ -155,7 +155,7 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="h2-AddAssemblerLine"></a>
+<a class="anchor" id="cm-AddAssemblerLine"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -165,7 +165,7 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="memname">void DisassemblyDlg::AddAssemblerLine </td>
           <td>(</td>
-          <td class="paramtype">size_t&#160;</td>
+          <td class="paramtype">uint64_t&#160;</td>
           <td class="paramname"><em>addr</em>, </td>
         </tr>
         <tr>
@@ -187,13 +187,13 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implements <a class="el" href="classcbDisassemblyDlg#gq-AddAssemblerLine">cbDisassemblyDlg</a>.</p>
+<p>Implements <a class="el" href="classcbDisassemblyDlg#jo-AddAssemblerLine">cbDisassemblyDlg</a>.</p>
 
-<p>References <a class="el" href="classwxScintilla#eh-AppendText">wxScintilla::AppendText()</a>, <a class="el" href="classwxScintilla#a4-ClearAll">wxScintilla::ClearAll()</a>, <a class="el" href="classDisassemblyDlg#pc-m_ClearFlag">m_ClearFlag</a>, <a class="el" href="classDisassemblyDlg#pm-m_LastActiveAddr">m_LastActiveAddr</a>, <a class="el" href="classDisassemblyDlg#o3-m_LineTypes">m_LineTypes</a>, <a class="el" href="classDisassemblyDlg#m4-m_pCode">m_pCode</a>, <a class="el" href="classDisassemblyDlg#x8-SetActiveAddress">SetActiveAddress()</a>, and <a class="el" href="classwxScintilla#y2-SetReadOnly">wxScintilla::SetReadOnly()</a>.</p>
+<p>References <a class="el" href="classwxScintilla#eh-AppendText">wxScintilla::AppendText()</a>, <a class="el" href="debuggermanager_8h#cj-cbDebuggerAddressToString">cbDebuggerAddressToString()</a>, <a class="el" href="classwxScintilla#a4-ClearAll">wxScintilla::ClearAll()</a>, <a class="el" href="classDisassemblyDlg#pc-m_ClearFlag">m_ClearFlag</a>, <a class="el" href="classDisassemblyDlg#q4-m_LastActiveAddr">m_LastActiveAddr</a>, <a class="el" href="classDisassemblyDlg#o3-m_LineTypes">m_LineTypes</a>, <a class="el" href="classDisassemblyDlg#m4-m_pCode">m_pCode</a>, <a class="el" href="classDisassemblyDlg#lh-SetActiveAddress">SetActiveAddress()</a>, and <a class="el" href="classwxScintilla#y2-SetReadOnly">wxScintilla::SetReadOnly()</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="v0-AddSourceLine"></a>
+<a class="anchor" id="oy-AddSourceLine"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -203,7 +203,7 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="memname">void DisassemblyDlg::AddSourceLine </td>
           <td>(</td>
-          <td class="paramtype">size_t&#160;</td>
+          <td class="paramtype">int&#160;</td>
           <td class="paramname"><em>lineno</em>, </td>
         </tr>
         <tr>
@@ -225,7 +225,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implements <a class="el" href="classcbDisassemblyDlg#j7-AddSourceLine">cbDisassemblyDlg</a>.</p>
+<p>Implements <a class="el" href="classcbDisassemblyDlg#a5-AddSourceLine">cbDisassemblyDlg</a>.</p>
 
 <p>References <a class="el" href="classwxScintilla#eh-AppendText">wxScintilla::AppendText()</a>, <a class="el" href="classwxScintilla#a4-ClearAll">wxScintilla::ClearAll()</a>, <a class="el" href="classDisassemblyDlg#pc-m_ClearFlag">m_ClearFlag</a>, <a class="el" href="classDisassemblyDlg#o3-m_LineTypes">m_LineTypes</a>, <a class="el" href="classDisassemblyDlg#m4-m_pCode">m_pCode</a>, and <a class="el" href="classwxScintilla#y2-SetReadOnly">wxScintilla::SetReadOnly()</a>.</p>
 
@@ -254,11 +254,11 @@ Private Attributes</h2></td></tr>
 
 <p>Implements <a class="el" href="classcbDisassemblyDlg#jm-CenterCurrentLine">cbDisassemblyDlg</a>.</p>
 
-<p>References <a class="el" href="classDisassemblyDlg#ar-CenterLine">CenterLine()</a>, <a class="el" href="classwxScintilla#gt-GetCurrentLine">wxScintilla::GetCurrentLine()</a>, and <a class="el" href="classDisassemblyDlg#m4-m_pCode">m_pCode</a>.</p>
+<p>References <a class="el" href="classDisassemblyDlg#pm-CenterLine">CenterLine()</a>, <a class="el" href="classwxScintilla#gt-GetCurrentLine">wxScintilla::GetCurrentLine()</a>, and <a class="el" href="classDisassemblyDlg#m4-m_pCode">m_pCode</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="ar-CenterLine"></a>
+<a class="anchor" id="pm-CenterLine"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -268,7 +268,7 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="memname">void DisassemblyDlg::CenterLine </td>
           <td>(</td>
-          <td class="paramtype">size_t&#160;</td>
+          <td class="paramtype">int&#160;</td>
           <td class="paramname"><em>lineno</em></td><td>)</td>
           <td></td>
         </tr>
@@ -280,11 +280,11 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implements <a class="el" href="classcbDisassemblyDlg#zo-CenterLine">cbDisassemblyDlg</a>.</p>
+<p>Implements <a class="el" href="classcbDisassemblyDlg#qf-CenterLine">cbDisassemblyDlg</a>.</p>
 
 <p>References <a class="el" href="classwxScintilla#ka-LinesOnScreen">wxScintilla::LinesOnScreen()</a>, <a class="el" href="classDisassemblyDlg#m4-m_pCode">m_pCode</a>, and <a class="el" href="classwxScintilla#z3-SetFirstVisibleLine">wxScintilla::SetFirstVisibleLine()</a>.</p>
 
-<p>Referenced by <a class="el" href="classDisassemblyDlg#r5-CenterCurrentLine">CenterCurrentLine()</a>, <a class="el" href="classDisassemblyDlg#nr-OnAdjustLine">OnAdjustLine()</a>, and <a class="el" href="classDisassemblyDlg#x8-SetActiveAddress">SetActiveAddress()</a>.</p>
+<p>Referenced by <a class="el" href="classDisassemblyDlg#r5-CenterCurrentLine">CenterCurrentLine()</a>, <a class="el" href="classDisassemblyDlg#nr-OnAdjustLine">OnAdjustLine()</a>, and <a class="el" href="classDisassemblyDlg#lh-SetActiveAddress">SetActiveAddress()</a>.</p>
 
 </div>
 </div>
@@ -312,7 +312,7 @@ Private Attributes</h2></td></tr>
 
 <p>Implements <a class="el" href="classcbDisassemblyDlg#ul-Clear">cbDisassemblyDlg</a>.</p>
 
-<p>References <a class="el" href="classwxScintilla#a4-ClearAll">wxScintilla::ClearAll()</a>, <a class="el" href="disassemblydlg_8cpp#il-DEBUG_MARKER">DEBUG_MARKER</a>, <a class="el" href="classManager#rz-Get">Manager::Get()</a>, <a class="el" href="classDebuggerManager#ca-GetActiveDebugger">DebuggerManager::GetActiveDebugger()</a>, <a class="el" href="classcbStackFrame#t3-GetAddress">cbStackFrame::GetAddress()</a>, <a class="el" href="classManager#zy-GetDebuggerManager">Manager::GetDebuggerManager()</a>, <a class="el" href="classcbStackFrame#e4-GetSymbol">cbStackFrame::GetSymbol()</a>, <a class="el" href="classcbDebuggerPlugin#op-IsRunning">cbDebuggerPlugin::IsRunning()</a>, <a class="el" href="classcbStackFrame#rs-IsValid">cbStackFrame::IsValid()</a>, <a class="el" href="classDisassemblyDlg#pc-m_ClearFlag">m_ClearFlag</a>, <a class="el" href="classDisassemblyDlg#fu-m_FrameAddress">m_FrameAddress</a>, <a class="el" href="classDisassemblyDlg#zq-m_FrameFunction">m_FrameFunction</a>, <a class="el" href="classDisassemblyDlg#h1-m_HasActiveAddr">m_HasActiveAddr</a>, <a class="el" href="classDisassemblyDlg#o3-m_LineTypes">m_LineTypes</a>, <a class="el" href="classDisassemblyDlg#m4-m_pCode">m_pCode</a>, <a class="el" href="classwxScintilla#ly-MarkerDeleteAll">wxScintilla::MarkerDeleteAll()</a>, <a class="el" href="classwxScintilla#y2-SetReadOnly">wxScintilla::SetReadOnly()</a>, and <a class="el" href="classwxScintilla#c6-SetText">wxScintilla::SetText()</a>.</p>
+<p>References <a class="el" href="classwxScintilla#a4-ClearAll">wxScintilla::ClearAll()</a>, <a class="el" href="disassemblydlg_8cpp#il-DEBUG_MARKER">DEBUG_MARKER</a>, <a class="el" href="classManager#rz-Get">Manager::Get()</a>, <a class="el" href="classDebuggerManager#ca-GetActiveDebugger">DebuggerManager::GetActiveDebugger()</a>, <a class="el" href="classcbStackFrame#dw-GetAddressAsString">cbStackFrame::GetAddressAsString()</a>, <a class="el" href="classManager#zy-GetDebuggerManager">Manager::GetDebuggerManager()</a>, <a class="el" href="classcbStackFrame#e4-GetSymbol">cbStackFrame::GetSymbol()</a>, <a class="el" href="classcbDebuggerPlugin#op-IsRunning">cbDebuggerPlugin::IsRunning()</a>, <a class="el" href="classcbStackFrame#rs-IsValid">cbStackFrame::IsValid()</a>, <a class="el" href="classDisassemblyDlg#pc-m_ClearFlag">m_ClearFlag</a>, <a class="el" href="classDisassemblyDlg#fu-m_FrameAddress">m_FrameAddress</a>, <a class="el" href="classDisassemblyDlg#zq-m_FrameFunction">m_FrameFunction</a>, <a class="el" href="classDisassemblyDlg#h1-m_HasActiveAddr">m_HasActiveAddr</a>, <a class="el" href="classDisassemblyDlg#o3-m_LineTypes">m_LineTypes</a>, <a class="el" href="classDisassemblyDlg#m4-m_pCode">m_pCode</a>, <a class="el" href="classwxScintilla#ly-MarkerDeleteAll">wxScintilla::MarkerDeleteAll()</a>, <a class="el" href="classwxScintilla#y2-SetReadOnly">wxScintilla::SetReadOnly()</a>, and <a class="el" href="classwxScintilla#c6-SetText">wxScintilla::SetText()</a>.</p>
 
 </div>
 </div>
@@ -439,7 +439,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>References <a class="el" href="classDisassemblyDlg#ar-CenterLine">CenterLine()</a>, <a class="el" href="classwxScintilla#gt-GetCurrentLine">wxScintilla::GetCurrentLine()</a>, <a class="el" href="classwxScintilla#o6-GetFirstVisibleLine">wxScintilla::GetFirstVisibleLine()</a>, <a class="el" href="classwxScintilla#ka-LinesOnScreen">wxScintilla::LinesOnScreen()</a>, and <a class="el" href="classDisassemblyDlg#m4-m_pCode">m_pCode</a>.</p>
+<p>References <a class="el" href="classDisassemblyDlg#pm-CenterLine">CenterLine()</a>, <a class="el" href="classwxScintilla#gt-GetCurrentLine">wxScintilla::GetCurrentLine()</a>, <a class="el" href="classwxScintilla#o6-GetFirstVisibleLine">wxScintilla::GetFirstVisibleLine()</a>, <a class="el" href="classwxScintilla#ka-LinesOnScreen">wxScintilla::LinesOnScreen()</a>, and <a class="el" href="classDisassemblyDlg#m4-m_pCode">m_pCode</a>.</p>
 
 </div>
 </div>
@@ -521,7 +521,7 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="x8-SetActiveAddress"></a>
+<a class="anchor" id="lh-SetActiveAddress"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -531,7 +531,7 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="memname">bool DisassemblyDlg::SetActiveAddress </td>
           <td>(</td>
-          <td class="paramtype">size_t&#160;</td>
+          <td class="paramtype">uint64_t&#160;</td>
           <td class="paramname"><em>addr</em></td><td>)</td>
           <td></td>
         </tr>
@@ -543,11 +543,11 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implements <a class="el" href="classcbDisassemblyDlg#b2-SetActiveAddress">cbDisassemblyDlg</a>.</p>
+<p>Implements <a class="el" href="classcbDisassemblyDlg#su-SetActiveAddress">cbDisassemblyDlg</a>.</p>
 
-<p>References <a class="el" href="classDisassemblyDlg#ar-CenterLine">CenterLine()</a>, <a class="el" href="disassemblydlg_8cpp#il-DEBUG_MARKER">DEBUG_MARKER</a>, <a class="el" href="classManager#rz-Get">Manager::Get()</a>, <a class="el" href="classManager#zy-GetDebuggerManager">Manager::GetDebuggerManager()</a>, <a class="el" href="classwxScintilla#o6-GetFirstVisibleLine">wxScintilla::GetFirstVisibleLine()</a>, <a class="el" href="classwxScintilla#e0-GetLine">wxScintilla::GetLine()</a>, <a class="el" href="classwxScintilla#ni-GetLineCount">wxScintilla::GetLineCount()</a>, <a class="el" href="classwxScintilla#rv-GetLineVisible">wxScintilla::GetLineVisible()</a>, <a class="el" href="classwxScintilla#dz-GotoLine">wxScintilla::GotoLine()</a>, <a class="el" href="classDebuggerManager#vg-IsDisassemblyMixedMode">DebuggerManager::IsDisassemblyMixedMode()</a>, <a class="el" href="classwxScintilla#ka-LinesOnScreen">wxScintilla::LinesOnScreen()</a>, <a class="el" href="classDisassemblyDlg#h1-m_HasActiveAddr">m_HasActiveAddr</a>, <a class="el" href="classDisassemblyDlg#pm-m_LastActiveAddr">m_LastActiveAddr</a>, <a class="el" href="classDisassemblyDlg#o3-m_LineTypes">m_LineTypes</a>, <a class="el" href="classDisassemblyDlg#m4-m_pCode">m_pCode</a>, <a class="el" href="classwxScintilla#qg-MarkerAdd">wxScintilla::MarkerAdd()</a>, and <a class="el" href="classwxScintilla#ly-MarkerDeleteAll">wxScintilla::MarkerDeleteAll()</a>.</p>
+<p>References <a class="el" href="debuggermanager_8h#x4-cbDebuggerStringToAddress">cbDebuggerStringToAddress()</a>, <a class="el" href="classDisassemblyDlg#pm-CenterLine">CenterLine()</a>, <a class="el" href="disassemblydlg_8cpp#il-DEBUG_MARKER">DEBUG_MARKER</a>, <a class="el" href="classManager#rz-Get">Manager::Get()</a>, <a class="el" href="classManager#zy-GetDebuggerManager">Manager::GetDebuggerManager()</a>, <a class="el" href="classwxScintilla#o6-GetFirstVisibleLine">wxScintilla::GetFirstVisibleLine()</a>, <a class="el" href="classwxScintilla#e0-GetLine">wxScintilla::GetLine()</a>, <a class="el" href="classwxScintilla#ni-GetLineCount">wxScintilla::GetLineCount()</a>, <a class="el" href="classwxScintilla#rv-GetLineVisible">wxScintilla::GetLineVisible()</a>, <a class="el" href="classwxScintilla#dz-GotoLine">wxScintilla::GotoLine()</a>, <a class="el" href="classDebuggerManager#vg-IsDisassemblyMixedMode">DebuggerManager::IsDisassemblyMixedMode()</a>, <a class="el" href="classwxScintilla#ka-LinesOnScreen">wxScintilla::LinesOnScreen()</a>, <a class="el" href="classDisassemblyDlg#h1-m_HasActiveAddr">m_HasActiveAddr</a>, <a class="el" href="classDisassemblyDlg#q4-m_LastActiveAddr">m_LastActiveAddr</a>, <a class="el" href="classDisassemblyDlg#o3-m_LineTypes">m_LineTypes</a>, <a class="el" href="classDisassemblyDlg#m4-m_pCode">m_pCode</a>, <a class="el" href="classwxScintilla#qg-MarkerAdd">wxScintilla::MarkerAdd()</a>, and <a class="el" href="classwxScintilla#ly-MarkerDeleteAll">wxScintilla::MarkerDeleteAll()</a>.</p>
 
-<p>Referenced by <a class="el" href="classDisassemblyDlg#h2-AddAssemblerLine">AddAssemblerLine()</a>.</p>
+<p>Referenced by <a class="el" href="classDisassemblyDlg#cm-AddAssemblerLine">AddAssemblerLine()</a>.</p>
 
 </div>
 </div>
@@ -570,7 +570,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Referenced by <a class="el" href="classDisassemblyDlg#h2-AddAssemblerLine">AddAssemblerLine()</a>, <a class="el" href="classDisassemblyDlg#v0-AddSourceLine">AddSourceLine()</a>, and <a class="el" href="classDisassemblyDlg#gv-Clear">Clear()</a>.</p>
+<p>Referenced by <a class="el" href="classDisassemblyDlg#cm-AddAssemblerLine">AddAssemblerLine()</a>, <a class="el" href="classDisassemblyDlg#oy-AddSourceLine">AddSourceLine()</a>, and <a class="el" href="classDisassemblyDlg#gv-Clear">Clear()</a>.</p>
 
 </div>
 </div>
@@ -636,11 +636,11 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Referenced by <a class="el" href="classDisassemblyDlg#gv-Clear">Clear()</a>, <a class="el" href="classDisassemblyDlg#lh-HasActiveAddr">HasActiveAddr()</a>, and <a class="el" href="classDisassemblyDlg#x8-SetActiveAddress">SetActiveAddress()</a>.</p>
+<p>Referenced by <a class="el" href="classDisassemblyDlg#gv-Clear">Clear()</a>, <a class="el" href="classDisassemblyDlg#lh-HasActiveAddr">HasActiveAddr()</a>, and <a class="el" href="classDisassemblyDlg#lh-SetActiveAddress">SetActiveAddress()</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="pm-m_LastActiveAddr"></a>
+<a class="anchor" id="q4-m_LastActiveAddr"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -648,7 +648,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">unsigned long int DisassemblyDlg::m_LastActiveAddr</td>
+          <td class="memname">uint64_t DisassemblyDlg::m_LastActiveAddr</td>
         </tr>
       </table>
   </td>
@@ -658,7 +658,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Referenced by <a class="el" href="classDisassemblyDlg#h2-AddAssemblerLine">AddAssemblerLine()</a>, and <a class="el" href="classDisassemblyDlg#x8-SetActiveAddress">SetActiveAddress()</a>.</p>
+<p>Referenced by <a class="el" href="classDisassemblyDlg#cm-AddAssemblerLine">AddAssemblerLine()</a>, and <a class="el" href="classDisassemblyDlg#lh-SetActiveAddress">SetActiveAddress()</a>.</p>
 
 </div>
 </div>
@@ -680,7 +680,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Referenced by <a class="el" href="classDisassemblyDlg#h2-AddAssemblerLine">AddAssemblerLine()</a>, <a class="el" href="classDisassemblyDlg#v0-AddSourceLine">AddSourceLine()</a>, <a class="el" href="classDisassemblyDlg#gv-Clear">Clear()</a>, and <a class="el" href="classDisassemblyDlg#x8-SetActiveAddress">SetActiveAddress()</a>.</p>
+<p>Referenced by <a class="el" href="classDisassemblyDlg#cm-AddAssemblerLine">AddAssemblerLine()</a>, <a class="el" href="classDisassemblyDlg#oy-AddSourceLine">AddSourceLine()</a>, <a class="el" href="classDisassemblyDlg#gv-Clear">Clear()</a>, and <a class="el" href="classDisassemblyDlg#lh-SetActiveAddress">SetActiveAddress()</a>.</p>
 
 </div>
 </div>
@@ -724,7 +724,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Referenced by <a class="el" href="classDisassemblyDlg#h2-AddAssemblerLine">AddAssemblerLine()</a>, <a class="el" href="classDisassemblyDlg#v0-AddSourceLine">AddSourceLine()</a>, <a class="el" href="classDisassemblyDlg#r5-CenterCurrentLine">CenterCurrentLine()</a>, <a class="el" href="classDisassemblyDlg#ar-CenterLine">CenterLine()</a>, <a class="el" href="classDisassemblyDlg#gv-Clear">Clear()</a>, <a class="el" href="classDisassemblyDlg#nr-OnAdjustLine">OnAdjustLine()</a>, <a class="el" href="classDisassemblyDlg#gg-OnSave">OnSave()</a>, and <a class="el" href="classDisassemblyDlg#x8-SetActiveAddress">SetActiveAddress()</a>.</p>
+<p>Referenced by <a class="el" href="classDisassemblyDlg#cm-AddAssemblerLine">AddAssemblerLine()</a>, <a class="el" href="classDisassemblyDlg#oy-AddSourceLine">AddSourceLine()</a>, <a class="el" href="classDisassemblyDlg#r5-CenterCurrentLine">CenterCurrentLine()</a>, <a class="el" href="classDisassemblyDlg#pm-CenterLine">CenterLine()</a>, <a class="el" href="classDisassemblyDlg#gv-Clear">Clear()</a>, <a class="el" href="classDisassemblyDlg#nr-OnAdjustLine">OnAdjustLine()</a>, <a class="el" href="classDisassemblyDlg#gg-OnSave">OnSave()</a>, and <a class="el" href="classDisassemblyDlg#lh-SetActiveAddress">SetActiveAddress()</a>.</p>
 
 </div>
 </div>

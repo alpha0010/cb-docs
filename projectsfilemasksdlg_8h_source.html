@@ -18,7 +18,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">Code::Blocks
-   &#160;<span id="projectnumber">SVN r10408</span>
+   &#160;<span id="projectnumber">SVN r10603</span>
    </div>
   </td>
  </tr>
@@ -62,53 +62,43 @@
 <div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="scrollingdialog_8h">scrollingdialog.h</a>&quot;</span></div>
 <div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="filegroupsandmasks_8h">filegroupsandmasks.h</a>&quot;</span></div>
 <div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;</div>
-<div class="line"><a name="l00012"></a><span class="lineno"><a class="line" href="classProjectsFileMasksDlg">   12</a></span>&#160;<span class="keyword">class </span><a class="code" href="classProjectsFileMasksDlg">ProjectsFileMasksDlg</a> : <span class="keyword">public</span> <a class="code" href="classwxScrollingDialog">wxScrollingDialog</a></div>
+<div class="line"><a name="l00012"></a><span class="lineno"><a class="line" href="classProjectsFileMasksDlg">   12</a></span>&#160;<span class="keyword">class </span><a class="code" href="settings_8h#oc-DLLIMPORT">DLLIMPORT</a> <a class="code" href="classProjectsFileMasksDlg">ProjectsFileMasksDlg</a> : <span class="keyword">public</span> <a class="code" href="classwxScrollingDialog">wxScrollingDialog</a></div>
 <div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;{</div>
 <div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;    <span class="keyword">public</span>:</div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;        <a class="code" href="classProjectsFileMasksDlg#h2-ProjectsFileMasksDlg">ProjectsFileMasksDlg</a>(wxWindow* parent, <a class="code" href="classFilesGroupsAndMasks">FilesGroupsAndMasks</a>* fgam);</div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;        <span class="keyword">virtual</span> <a class="code" href="classProjectsFileMasksDlg#x7-ProjectsFileMasksDlg">~ProjectsFileMasksDlg</a>();</div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;        <a class="code" href="classProjectsFileMasksDlg">ProjectsFileMasksDlg</a>(wxWindow* parent, <a class="code" href="classFilesGroupsAndMasks">FilesGroupsAndMasks</a>* fgam);</div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;        <span class="keyword">virtual</span> ~<a class="code" href="classProjectsFileMasksDlg">ProjectsFileMasksDlg</a>();</div>
 <div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;</div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="classProjectsFileMasksDlg#gd-OnUpdateUI">OnUpdateUI</a>(wxUpdateUIEvent&amp; event);</div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="classProjectsFileMasksDlg#al-OnAdd">OnAdd</a>(wxCommandEvent&amp; event);</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="classProjectsFileMasksDlg#e3-OnEdit">OnEdit</a>(wxCommandEvent&amp; event);</div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="classProjectsFileMasksDlg#mz-OnDelete">OnDelete</a>(wxCommandEvent&amp; event);</div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="classProjectsFileMasksDlg#be-OnSetDefault">OnSetDefault</a>(wxCommandEvent&amp; event);</div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="classProjectsFileMasksDlg#w1-OnListChanged">OnListChanged</a>(wxCommandEvent&amp; event);</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;        <span class="keywordtype">void</span> OnUpdateUI(wxUpdateUIEvent&amp; event);</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;        <span class="keywordtype">void</span> OnAdd(wxCommandEvent&amp; event);</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;        <span class="keywordtype">void</span> OnEdit(wxCommandEvent&amp; event);</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;        <span class="keywordtype">void</span> OnDelete(wxCommandEvent&amp; event);</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;        <span class="keywordtype">void</span> OnSetDefault(wxCommandEvent&amp; event);</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;        <span class="keywordtype">void</span> OnListChanged(wxCommandEvent&amp; event);</div>
 <div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    <span class="keyword">protected</span>:</div>
 <div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    <span class="keyword">private</span>:</div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="classProjectsFileMasksDlg#j2-RebuildList">RebuildList</a>();</div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="classProjectsFileMasksDlg#qj-ListChange">ListChange</a>();</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;        <span class="keywordtype">void</span> RebuildList();</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;        <span class="keywordtype">void</span> ListChange();</div>
 <div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;</div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;        <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classProjectsFileMasksDlg#cf-EndModal">EndModal</a>(<span class="keywordtype">int</span> retCode);</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;        <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="namespaceScriptBindings#zg-EndModal">EndModal</a>(<span class="keywordtype">int</span> retCode);</div>
 <div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;</div>
 <div class="line"><a name="l00031"></a><span class="lineno"><a class="line" href="classProjectsFileMasksDlg#so-m_FileGroupsAndMasksCopy">   31</a></span>&#160;        <a class="code" href="classFilesGroupsAndMasks">FilesGroupsAndMasks</a>  <a class="code" href="classProjectsFileMasksDlg#so-m_FileGroupsAndMasksCopy">m_FileGroupsAndMasksCopy</a>;</div>
 <div class="line"><a name="l00032"></a><span class="lineno"><a class="line" href="classProjectsFileMasksDlg#rb-m_pFileGroupsAndMasks">   32</a></span>&#160;        <a class="code" href="classFilesGroupsAndMasks">FilesGroupsAndMasks</a>* <a class="code" href="classProjectsFileMasksDlg#rb-m_pFileGroupsAndMasks">m_pFileGroupsAndMasks</a>;</div>
 <div class="line"><a name="l00033"></a><span class="lineno"><a class="line" href="classProjectsFileMasksDlg#vk-m_LastListSelection">   33</a></span>&#160;        <span class="keywordtype">int</span>                  <a class="code" href="classProjectsFileMasksDlg#vk-m_LastListSelection">m_LastListSelection</a>;</div>
 <div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;</div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;        <a class="code" href="classProjectsFileMasksDlg#u7-DECLARE_EVENT_TABLE">DECLARE_EVENT_TABLE</a>();</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;        DECLARE_EVENT_TABLE();</div>
 <div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;};</div>
 <div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;</div>
 <div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;<span class="preprocessor">#endif // PROJECTSFILEMASKSDLG_H</span></div>
-<div class="ttc" id="classProjectsFileMasksDlg_j2-RebuildList"><div class="ttname"><a href="classProjectsFileMasksDlg#j2-RebuildList">ProjectsFileMasksDlg::RebuildList</a></div><div class="ttdeci">void RebuildList()</div><div class="ttdef"><b>Definition:</b> projectsfilemasksdlg.cpp:49</div></div>
-<div class="ttc" id="classProjectsFileMasksDlg_al-OnAdd"><div class="ttname"><a href="classProjectsFileMasksDlg#al-OnAdd">ProjectsFileMasksDlg::OnAdd</a></div><div class="ttdeci">void OnAdd(wxCommandEvent &amp;event)</div><div class="ttdef"><b>Definition:</b> projectsfilemasksdlg.cpp:87</div></div>
+<div class="ttc" id="namespaceScriptBindings_zg-EndModal"><div class="ttname"><a href="namespaceScriptBindings#zg-EndModal">ScriptBindings::EndModal</a></div><div class="ttdeci">void EndModal(int retCode)</div><div class="ttdef"><b>Definition:</b> sc_dialog.cpp:112</div></div>
 <div class="ttc" id="classFilesGroupsAndMasks"><div class="ttname"><a href="classFilesGroupsAndMasks">FilesGroupsAndMasks</a></div><div class="ttdef"><b>Definition:</b> filegroupsandmasks.h:20</div></div>
-<div class="ttc" id="classProjectsFileMasksDlg_qj-ListChange"><div class="ttname"><a href="classProjectsFileMasksDlg#qj-ListChange">ProjectsFileMasksDlg::ListChange</a></div><div class="ttdeci">void ListChange()</div><div class="ttdef"><b>Definition:</b> projectsfilemasksdlg.cpp:63</div></div>
 <div class="ttc" id="classProjectsFileMasksDlg_so-m_FileGroupsAndMasksCopy"><div class="ttname"><a href="classProjectsFileMasksDlg#so-m_FileGroupsAndMasksCopy">ProjectsFileMasksDlg::m_FileGroupsAndMasksCopy</a></div><div class="ttdeci">FilesGroupsAndMasks m_FileGroupsAndMasksCopy</div><div class="ttdef"><b>Definition:</b> projectsfilemasksdlg.h:31</div></div>
-<div class="ttc" id="classProjectsFileMasksDlg_cf-EndModal"><div class="ttname"><a href="classProjectsFileMasksDlg#cf-EndModal">ProjectsFileMasksDlg::EndModal</a></div><div class="ttdeci">virtual void EndModal(int retCode)</div><div class="ttdef"><b>Definition:</b> projectsfilemasksdlg.cpp:137</div></div>
-<div class="ttc" id="classProjectsFileMasksDlg_x7-ProjectsFileMasksDlg"><div class="ttname"><a href="classProjectsFileMasksDlg#x7-ProjectsFileMasksDlg">ProjectsFileMasksDlg::~ProjectsFileMasksDlg</a></div><div class="ttdeci">virtual ~ProjectsFileMasksDlg()</div><div class="ttdef"><b>Definition:</b> projectsfilemasksdlg.cpp:44</div></div>
 <div class="ttc" id="classProjectsFileMasksDlg"><div class="ttname"><a href="classProjectsFileMasksDlg">ProjectsFileMasksDlg</a></div><div class="ttdef"><b>Definition:</b> projectsfilemasksdlg.h:12</div></div>
 <div class="ttc" id="classProjectsFileMasksDlg_rb-m_pFileGroupsAndMasks"><div class="ttname"><a href="classProjectsFileMasksDlg#rb-m_pFileGroupsAndMasks">ProjectsFileMasksDlg::m_pFileGroupsAndMasks</a></div><div class="ttdeci">FilesGroupsAndMasks * m_pFileGroupsAndMasks</div><div class="ttdef"><b>Definition:</b> projectsfilemasksdlg.h:32</div></div>
-<div class="ttc" id="classProjectsFileMasksDlg_mz-OnDelete"><div class="ttname"><a href="classProjectsFileMasksDlg#mz-OnDelete">ProjectsFileMasksDlg::OnDelete</a></div><div class="ttdeci">void OnDelete(wxCommandEvent &amp;event)</div><div class="ttdef"><b>Definition:</b> projectsfilemasksdlg.cpp:114</div></div>
-<div class="ttc" id="classProjectsFileMasksDlg_gd-OnUpdateUI"><div class="ttname"><a href="classProjectsFileMasksDlg#gd-OnUpdateUI">ProjectsFileMasksDlg::OnUpdateUI</a></div><div class="ttdeci">void OnUpdateUI(wxUpdateUIEvent &amp;event)</div><div class="ttdef"><b>Definition:</b> projectsfilemasksdlg.cpp:79</div></div>
-<div class="ttc" id="classProjectsFileMasksDlg_w1-OnListChanged"><div class="ttname"><a href="classProjectsFileMasksDlg#w1-OnListChanged">ProjectsFileMasksDlg::OnListChanged</a></div><div class="ttdeci">void OnListChanged(wxCommandEvent &amp;event)</div><div class="ttdef"><b>Definition:</b> projectsfilemasksdlg.cpp:132</div></div>
-<div class="ttc" id="classwxScrollingDialog"><div class="ttname"><a href="classwxScrollingDialog">wxScrollingDialog</a></div><div class="ttdef"><b>Definition:</b> scrollingdialog.h:162</div></div>
+<div class="ttc" id="classwxScrollingDialog"><div class="ttname"><a href="classwxScrollingDialog">wxScrollingDialog</a></div><div class="ttdef"><b>Definition:</b> scrollingdialog.h:163</div></div>
 <div class="ttc" id="scrollingdialog_8h"><div class="ttname"><a href="scrollingdialog_8h">scrollingdialog.h</a></div></div>
-<div class="ttc" id="classProjectsFileMasksDlg_e3-OnEdit"><div class="ttname"><a href="classProjectsFileMasksDlg#e3-OnEdit">ProjectsFileMasksDlg::OnEdit</a></div><div class="ttdeci">void OnEdit(wxCommandEvent &amp;event)</div><div class="ttdef"><b>Definition:</b> projectsfilemasksdlg.cpp:101</div></div>
+<div class="ttc" id="settings_8h_oc-DLLIMPORT"><div class="ttname"><a href="settings_8h#oc-DLLIMPORT">DLLIMPORT</a></div><div class="ttdeci">#define DLLIMPORT</div><div class="ttdef"><b>Definition:</b> settings.h:16</div></div>
 <div class="ttc" id="classProjectsFileMasksDlg_vk-m_LastListSelection"><div class="ttname"><a href="classProjectsFileMasksDlg#vk-m_LastListSelection">ProjectsFileMasksDlg::m_LastListSelection</a></div><div class="ttdeci">int m_LastListSelection</div><div class="ttdef"><b>Definition:</b> projectsfilemasksdlg.h:33</div></div>
 <div class="ttc" id="filegroupsandmasks_8h"><div class="ttname"><a href="filegroupsandmasks_8h">filegroupsandmasks.h</a></div></div>
-<div class="ttc" id="classProjectsFileMasksDlg_h2-ProjectsFileMasksDlg"><div class="ttname"><a href="classProjectsFileMasksDlg#h2-ProjectsFileMasksDlg">ProjectsFileMasksDlg::ProjectsFileMasksDlg</a></div><div class="ttdeci">ProjectsFileMasksDlg(wxWindow *parent, FilesGroupsAndMasks *fgam)</div><div class="ttdef"><b>Definition:</b> projectsfilemasksdlg.cpp:34</div></div>
-<div class="ttc" id="classProjectsFileMasksDlg_u7-DECLARE_EVENT_TABLE"><div class="ttname"><a href="classProjectsFileMasksDlg#u7-DECLARE_EVENT_TABLE">ProjectsFileMasksDlg::DECLARE_EVENT_TABLE</a></div><div class="ttdeci">DECLARE_EVENT_TABLE()</div></div>
-<div class="ttc" id="classProjectsFileMasksDlg_be-OnSetDefault"><div class="ttname"><a href="classProjectsFileMasksDlg#be-OnSetDefault">ProjectsFileMasksDlg::OnSetDefault</a></div><div class="ttdeci">void OnSetDefault(wxCommandEvent &amp;event)</div><div class="ttdef"><b>Definition:</b> projectsfilemasksdlg.cpp:126</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

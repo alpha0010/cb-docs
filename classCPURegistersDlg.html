@@ -18,7 +18,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">Code::Blocks
-   &#160;<span id="projectnumber">SVN r10408</span>
+   &#160;<span id="projectnumber">SVN r10603</span>
    </div>
   </td>
  </tr>
@@ -78,8 +78,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:y8-GetWindow"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:eu-Clear"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCPURegistersDlg#eu-Clear">Clear</a> ()</td></tr>
 <tr class="separator:eu-Clear"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ug-SetRegisterValue"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCPURegistersDlg#ug-SetRegisterValue">SetRegisterValue</a> (const wxString &amp;reg_name, size_t value)</td></tr>
-<tr class="separator:ug-SetRegisterValue"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:fi-SetRegisterValue"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCPURegistersDlg#fi-SetRegisterValue">SetRegisterValue</a> (const wxString &amp;reg_name, const wxString &amp;hexValue, const wxString &amp;interpreted)</td></tr>
+<tr class="separator:fi-SetRegisterValue"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:t9-EnableWindow"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCPURegistersDlg#t9-EnableWindow">EnableWindow</a> (bool enable)</td></tr>
 <tr class="separator:t9-EnableWindow"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classcbCPURegistersDlg"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classcbCPURegistersDlg')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classcbCPURegistersDlg">cbCPURegistersDlg</a></td></tr>
@@ -272,11 +272,11 @@ Private Attributes</h2></td></tr>
 
 <p>References <a class="el" href="classCPURegistersDlg#au-m_pList">m_pList</a>.</p>
 
-<p>Referenced by <a class="el" href="classCPURegistersDlg#ug-SetRegisterValue">SetRegisterValue()</a>.</p>
+<p>Referenced by <a class="el" href="classCPURegistersDlg#fi-SetRegisterValue">SetRegisterValue()</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="ug-SetRegisterValue"></a>
+<a class="anchor" id="fi-SetRegisterValue"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -292,8 +292,14 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">size_t&#160;</td>
-          <td class="paramname"><em>value</em>&#160;</td>
+          <td class="paramtype">const wxString &amp;&#160;</td>
+          <td class="paramname"><em>hexValue</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const wxString &amp;&#160;</td>
+          <td class="paramname"><em>interpreted</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -308,7 +314,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implements <a class="el" href="classcbCPURegistersDlg#rb-SetRegisterValue">cbCPURegistersDlg</a>.</p>
+<p>Implements <a class="el" href="classcbCPURegistersDlg#kp-SetRegisterValue">cbCPURegistersDlg</a>.</p>
 
 <p>References <a class="el" href="classCPURegistersDlg#au-m_pList">m_pList</a>, and <a class="el" href="classCPURegistersDlg#qa-RegisterIndex">RegisterIndex()</a>.</p>
 
@@ -333,7 +339,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Referenced by <a class="el" href="classCPURegistersDlg#eu-Clear">Clear()</a>, <a class="el" href="classCPURegistersDlg#t9-EnableWindow">EnableWindow()</a>, <a class="el" href="classCPURegistersDlg#qa-RegisterIndex">RegisterIndex()</a>, and <a class="el" href="classCPURegistersDlg#ug-SetRegisterValue">SetRegisterValue()</a>.</p>
+<p>Referenced by <a class="el" href="classCPURegistersDlg#eu-Clear">Clear()</a>, <a class="el" href="classCPURegistersDlg#t9-EnableWindow">EnableWindow()</a>, <a class="el" href="classCPURegistersDlg#qa-RegisterIndex">RegisterIndex()</a>, and <a class="el" href="classCPURegistersDlg#fi-SetRegisterValue">SetRegisterValue()</a>.</p>
 
 </div>
 </div>

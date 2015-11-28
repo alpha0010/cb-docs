@@ -18,7 +18,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">Code::Blocks
-   &#160;<span id="projectnumber">SVN r10408</span>
+   &#160;<span id="projectnumber">SVN r10603</span>
    </div>
   </td>
  </tr>
@@ -85,9 +85,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ku-AdvanceSelection"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcbAuiNotebook#ku-AdvanceSelection">AdvanceSelection</a> (bool forward=true)</td></tr>
 <tr class="memdesc:ku-AdvanceSelection"><td class="mdescLeft">&#160;</td><td class="mdescRight">Advances the selection.  <a href="#ku-AdvanceSelection">More...</a><br /></td></tr>
 <tr class="separator:ku-AdvanceSelection"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:qh-SavePerspective"><td class="memItemLeft" align="right" valign="top">wxString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcbAuiNotebook#qh-SavePerspective">SavePerspective</a> ()</td></tr>
-<tr class="memdesc:qh-SavePerspective"><td class="mdescLeft">&#160;</td><td class="mdescRight">Save layout of the notebook.  <a href="#qh-SavePerspective">More...</a><br /></td></tr>
-<tr class="separator:qh-SavePerspective"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ie-SavePerspective"><td class="memItemLeft" align="right" valign="top">wxString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcbAuiNotebook#ie-SavePerspective">SavePerspective</a> (const wxString projectTitle=wxEmptyString)</td></tr>
+<tr class="memdesc:ie-SavePerspective"><td class="mdescLeft">&#160;</td><td class="mdescRight">Save layout of the notebook.  <a href="#ie-SavePerspective">More...</a><br /></td></tr>
+<tr class="separator:ie-SavePerspective"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:vl-LoadPerspective"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcbAuiNotebook#vl-LoadPerspective">LoadPerspective</a> (const wxString &amp;layout, bool mergeLayouts=false)</td></tr>
 <tr class="memdesc:vl-LoadPerspective"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads serialized notebook layout.  <a href="#vl-LoadPerspective">More...</a><br /></td></tr>
 <tr class="separator:vl-LoadPerspective"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -599,7 +599,7 @@ Static Protected Attributes</h2></td></tr>
 <p>Returns the tooltip for the tab label of the page. </p><dl class="section remark"><dt>Remarks</dt><dd>Uses the name of the wxWindow to store the message </dd></dl>
 <dl class="section return"><dt>Returns</dt><dd>wxString the tooltip of the page with the given index </dd></dl>
 
-<p>Referenced by <a class="el" href="classcbAuiNotebook#g5-GetTabIndexFromTooltip">GetTabIndexFromTooltip()</a>, <a class="el" href="classcbAuiNotebook#vl-LoadPerspective">LoadPerspective()</a>, <a class="el" href="classProjectManagerUI#sh-OnProperties">ProjectManagerUI::OnProperties()</a>, and <a class="el" href="classcbAuiNotebook#qh-SavePerspective">SavePerspective()</a>.</p>
+<p>Referenced by <a class="el" href="classcbAuiNotebook#g5-GetTabIndexFromTooltip">GetTabIndexFromTooltip()</a>, <a class="el" href="classcbAuiNotebook#vl-LoadPerspective">LoadPerspective()</a>, <a class="el" href="classProjectManagerUI#sh-OnProperties">ProjectManagerUI::OnProperties()</a>, and <a class="el" href="classcbAuiNotebook#ie-SavePerspective">SavePerspective()</a>.</p>
 
 </div>
 </div>
@@ -880,6 +880,7 @@ Static Protected Attributes</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">layout</td><td>the serialized layout </td></tr>
+    <tr><td class="paramname">mergeLayouts</td><td>try to merge the tab-layouts </td></tr>
   </table>
   </dd>
 </dl>
@@ -1392,23 +1393,30 @@ Static Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="qh-SavePerspective"></a>
+<a class="anchor" id="ie-SavePerspective"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname">wxString cbAuiNotebook::SavePerspective </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype">const wxString&#160;</td>
+          <td class="paramname"><em>projectTitle</em> = <code>wxEmptyString</code></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 <p>Save layout of the notebook. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">projectTitle</td><td>only save the layout of the project with this title, save all projects layout, if empty </td></tr>
+  </table>
+  </dd>
+</dl>
 <dl class="section return"><dt>Returns</dt><dd>wxString the serialized layout </dd></dl>
 
-<p>References <a class="el" href="classcbAuiNotebook#cd-GetPageToolTip">GetPageToolTip()</a>, <a class="el" href="classcbAuiNotebook#bm-m_TabCtrls">m_TabCtrls</a>, <a class="el" href="classcbAuiNotebook#cz-UniqueIdFromTooltip">UniqueIdFromTooltip()</a>, and <a class="el" href="classcbAuiNotebook#bb-UpdateTabControlsArray">UpdateTabControlsArray()</a>.</p>
+<p>References <a class="el" href="namespaceParserConsts#gs-empty">ParserConsts::empty()</a>, <a class="el" href="globals_8h#sj-GetArrayFromString">GetArrayFromString()</a>, <a class="el" href="classcbAuiNotebook#cd-GetPageToolTip">GetPageToolTip()</a>, <a class="el" href="globals_8h#n5-GetStringFromArray">GetStringFromArray()</a>, <a class="el" href="classcbAuiNotebook#bm-m_TabCtrls">m_TabCtrls</a>, <a class="el" href="classcbAuiNotebook#cz-UniqueIdFromTooltip">UniqueIdFromTooltip()</a>, and <a class="el" href="classcbAuiNotebook#bb-UpdateTabControlsArray">UpdateTabControlsArray()</a>.</p>
 
 </div>
 </div>
@@ -1578,7 +1586,7 @@ Static Protected Attributes</h2></td></tr>
 
 <p>References <a class="el" href="classProjectManager#vk-FindProjectForFile">ProjectManager::FindProjectForFile()</a>, <a class="el" href="classManager#rz-Get">Manager::Get()</a>, <a class="el" href="classManager#z6-GetProjectManager">Manager::GetProjectManager()</a>, <a class="el" href="classCompileTargetBase#fk-GetTitle">CompileTargetBase::GetTitle()</a>, and <a class="el" href="classProjectFile#b9-relativeFilename">ProjectFile::relativeFilename</a>.</p>
 
-<p>Referenced by <a class="el" href="classcbAuiNotebook#g5-GetTabIndexFromTooltip">GetTabIndexFromTooltip()</a>, <a class="el" href="classcbAuiNotebook#vl-LoadPerspective">LoadPerspective()</a>, and <a class="el" href="classcbAuiNotebook#qh-SavePerspective">SavePerspective()</a>.</p>
+<p>Referenced by <a class="el" href="classcbAuiNotebook#g5-GetTabIndexFromTooltip">GetTabIndexFromTooltip()</a>, <a class="el" href="classcbAuiNotebook#vl-LoadPerspective">LoadPerspective()</a>, and <a class="el" href="classcbAuiNotebook#ie-SavePerspective">SavePerspective()</a>.</p>
 
 </div>
 </div>
@@ -1607,7 +1615,7 @@ Static Protected Attributes</h2></td></tr>
 
 <p>References <a class="el" href="classcbAuiNotebook#bm-m_TabCtrls">m_TabCtrls</a>, and <a class="el" href="classcbAuiNotebook#ok-ResetTabCtrlEvents">ResetTabCtrlEvents()</a>.</p>
 
-<p>Referenced by <a class="el" href="classcbAuiNotebook#yz-FocusActiveTabCtrl">FocusActiveTabCtrl()</a>, <a class="el" href="classcbAuiNotebook#y5-GetTabPositionFromIndex">GetTabPositionFromIndex()</a>, <a class="el" href="classcbAuiNotebook#vl-LoadPerspective">LoadPerspective()</a>, <a class="el" href="classcbAuiNotebook#kd-MovePage">MovePage()</a>, <a class="el" href="classcbAuiNotebook#fs-OnDragDone">OnDragDone()</a>, <a class="el" href="classcbAuiNotebook#eo-OnIdle">OnIdle()</a>, <a class="el" href="classcbAuiNotebook#qh-SavePerspective">SavePerspective()</a>, <a class="el" href="classcbAuiNotebook#r9-SetPageToolTip">SetPageToolTip()</a>, and <a class="el" href="classcbAuiNotebook#zs-SetZoom">SetZoom()</a>.</p>
+<p>Referenced by <a class="el" href="classcbAuiNotebook#yz-FocusActiveTabCtrl">FocusActiveTabCtrl()</a>, <a class="el" href="classcbAuiNotebook#y5-GetTabPositionFromIndex">GetTabPositionFromIndex()</a>, <a class="el" href="classcbAuiNotebook#vl-LoadPerspective">LoadPerspective()</a>, <a class="el" href="classcbAuiNotebook#kd-MovePage">MovePage()</a>, <a class="el" href="classcbAuiNotebook#fs-OnDragDone">OnDragDone()</a>, <a class="el" href="classcbAuiNotebook#eo-OnIdle">OnIdle()</a>, <a class="el" href="classcbAuiNotebook#ie-SavePerspective">SavePerspective()</a>, <a class="el" href="classcbAuiNotebook#r9-SetPageToolTip">SetPageToolTip()</a>, and <a class="el" href="classcbAuiNotebook#zs-SetZoom">SetZoom()</a>.</p>
 
 </div>
 </div>
@@ -1818,7 +1826,7 @@ Static Protected Attributes</h2></td></tr>
 <p>Holds the wxTabCtrls used by the notebook. </p>
 <dl class="section remark"><dt>Remarks</dt><dd>Should be updated with <a class="el" href="classcbAuiNotebook#bb-UpdateTabControlsArray" title="Updates the array, that holds the wxTabCtrls. ">UpdateTabControlsArray()</a>, before it's used </dd></dl>
 
-<p>Referenced by <a class="el" href="classcbAuiNotebook#yz-FocusActiveTabCtrl">FocusActiveTabCtrl()</a>, <a class="el" href="classcbAuiNotebook#y5-GetTabPositionFromIndex">GetTabPositionFromIndex()</a>, <a class="el" href="classcbAuiNotebook#vl-LoadPerspective">LoadPerspective()</a>, <a class="el" href="classcbAuiNotebook#kd-MovePage">MovePage()</a>, <a class="el" href="classcbAuiNotebook#eo-OnIdle">OnIdle()</a>, <a class="el" href="classcbAuiNotebook#ok-ResetTabCtrlEvents">ResetTabCtrlEvents()</a>, <a class="el" href="classcbAuiNotebook#qh-SavePerspective">SavePerspective()</a>, <a class="el" href="classcbAuiNotebook#zs-SetZoom">SetZoom()</a>, and <a class="el" href="classcbAuiNotebook#bb-UpdateTabControlsArray">UpdateTabControlsArray()</a>.</p>
+<p>Referenced by <a class="el" href="classcbAuiNotebook#yz-FocusActiveTabCtrl">FocusActiveTabCtrl()</a>, <a class="el" href="classcbAuiNotebook#y5-GetTabPositionFromIndex">GetTabPositionFromIndex()</a>, <a class="el" href="classcbAuiNotebook#vl-LoadPerspective">LoadPerspective()</a>, <a class="el" href="classcbAuiNotebook#kd-MovePage">MovePage()</a>, <a class="el" href="classcbAuiNotebook#eo-OnIdle">OnIdle()</a>, <a class="el" href="classcbAuiNotebook#ok-ResetTabCtrlEvents">ResetTabCtrlEvents()</a>, <a class="el" href="classcbAuiNotebook#ie-SavePerspective">SavePerspective()</a>, <a class="el" href="classcbAuiNotebook#zs-SetZoom">SetZoom()</a>, and <a class="el" href="classcbAuiNotebook#bb-UpdateTabControlsArray">UpdateTabControlsArray()</a>.</p>
 
 </div>
 </div>

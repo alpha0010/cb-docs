@@ -18,7 +18,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">Code::Blocks
-   &#160;<span id="projectnumber">SVN r10408</span>
+   &#160;<span id="projectnumber">SVN r10603</span>
    </div>
   </td>
  </tr>
@@ -152,6 +152,10 @@ Variables</h2></td></tr>
 <tr class="separator:kg-cbEVT_WORKSPACE_CHANGED"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:kg-cbEVT_WORKSPACE_LOADING_COMPL"><td class="memItemLeft" align="right" valign="top">const wxEventType&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sdk__events_8cpp#kg-cbEVT_WORKSPACE_LOADING_COMPL">cbEVT_WORKSPACE_LOADING_COMPLETE</a> = wxNewEventType()</td></tr>
 <tr class="separator:kg-cbEVT_WORKSPACE_LOADING_COMPL"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ct-cbEVT_WORKSPACE_CLOSING_BEGIN"><td class="memItemLeft" align="right" valign="top">const wxEventType&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sdk__events_8cpp#ct-cbEVT_WORKSPACE_CLOSING_BEGIN">cbEVT_WORKSPACE_CLOSING_BEGIN</a> = wxNewEventType()</td></tr>
+<tr class="separator:ct-cbEVT_WORKSPACE_CLOSING_BEGIN"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:e6-cbEVT_WORKSPACE_CLOSING_COMPL"><td class="memItemLeft" align="right" valign="top">const wxEventType&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sdk__events_8cpp#e6-cbEVT_WORKSPACE_CLOSING_COMPL">cbEVT_WORKSPACE_CLOSING_COMPLETE</a> = wxNewEventType()</td></tr>
+<tr class="separator:e6-cbEVT_WORKSPACE_CLOSING_COMPL"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:x3-cbEVT_BUILDTARGET_ADDED"><td class="memItemLeft" align="right" valign="top">const wxEventType&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sdk__events_8cpp#x3-cbEVT_BUILDTARGET_ADDED">cbEVT_BUILDTARGET_ADDED</a> = wxNewEventType()</td></tr>
 <tr class="separator:x3-cbEVT_BUILDTARGET_ADDED"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:os-cbEVT_BUILDTARGET_REMOVED"><td class="memItemLeft" align="right" valign="top">const wxEventType&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sdk__events_8cpp#os-cbEVT_BUILDTARGET_REMOVED">cbEVT_BUILDTARGET_REMOVED</a> = wxNewEventType()</td></tr>
@@ -1421,6 +1425,34 @@ Variables</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Referenced by <a class="el" href="classCodeCompletion#mq-OnAttach">CodeCompletion::OnAttach()</a>, and <a class="el" href="classProjectManager#i2-WorkspaceChanged">ProjectManager::WorkspaceChanged()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ct-cbEVT_WORKSPACE_CLOSING_BEGIN"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const wxEventType cbEVT_WORKSPACE_CLOSING_BEGIN = wxNewEventType()</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Referenced by <a class="el" href="classProjectManager#qt-CloseWorkspace">ProjectManager::CloseWorkspace()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="e6-cbEVT_WORKSPACE_CLOSING_COMPL"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const wxEventType cbEVT_WORKSPACE_CLOSING_COMPLETE = wxNewEventType()</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Referenced by <a class="el" href="classProjectManager#qt-CloseWorkspace">ProjectManager::CloseWorkspace()</a>.</p>
 
 </div>
 </div>

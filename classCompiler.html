@@ -18,7 +18,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">Code::Blocks
-   &#160;<span id="projectnumber">SVN r10408</span>
+   &#160;<span id="projectnumber">SVN r10603</span>
    </div>
   </td>
  </tr>
@@ -73,7 +73,7 @@ Inheritance diagram for Compiler:</div>
 <div class="dynheader">
 Collaboration diagram for Compiler:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classCompiler__coll__graph.svg" width="928" height="1462"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classCompiler__coll__graph.svg" width="928" height="1476"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <table class="memberdecls">
@@ -195,6 +195,9 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:e8-GetCOnlyFlags"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:so-GetCPPOnlyFlags"><td class="memItemLeft" align="right" valign="top">const wxString &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCompiler#so-GetCPPOnlyFlags">GetCPPOnlyFlags</a> ()</td></tr>
 <tr class="separator:so-GetCPPOnlyFlags"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:xk-WithMultiLineMsg"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCompiler#xk-WithMultiLineMsg">WithMultiLineMsg</a> ()</td></tr>
+<tr class="memdesc:xk-WithMultiLineMsg"><td class="mdescLeft">&#160;</td><td class="mdescRight">Do compiler writes multi-line messages?  <a href="#xk-WithMultiLineMsg">More...</a><br /></td></tr>
+<tr class="separator:xk-WithMultiLineMsg"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classCompileOptionsBase"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classCompileOptionsBase')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classCompileOptionsBase">CompileOptionsBase</a></td></tr>
 <tr class="memitem:ks-CompileOptionsBase inherit pub_methods_classCompileOptionsBase"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCompileOptionsBase#ks-CompileOptionsBase">CompileOptionsBase</a> ()</td></tr>
 <tr class="separator:ks-CompileOptionsBase inherit pub_methods_classCompileOptionsBase"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -387,6 +390,8 @@ Protected Attributes</h2></td></tr>
 <tr class="separator:uu-m_SortOptions"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:mp-m_Weight"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCompiler#mp-m_Weight">m_Weight</a></td></tr>
 <tr class="separator:mp-m_Weight"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:zi-m_MultiLineMessages"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCompiler#zi-m_MultiLineMessages">m_MultiLineMessages</a></td></tr>
+<tr class="separator:zi-m_MultiLineMessages"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_attribs_classCompileOptionsBase"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_classCompileOptionsBase')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="classCompileOptionsBase">CompileOptionsBase</a></td></tr>
 <tr class="memitem:pj-m_Platform inherit pro_attribs_classCompileOptionsBase"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCompileOptionsBase#pj-m_Platform">m_Platform</a></td></tr>
 <tr class="separator:pj-m_Platform inherit pro_attribs_classCompileOptionsBase"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -655,7 +660,7 @@ Switches</td>
 </table>
 </div><div class="memdoc">
 
-<p>References <a class="el" href="compiler_8h#fe-CommandType:ctCount">ctCount</a>, <a class="el" href="classCompileOptionsBase#l6-m_CmdsAfter">CompileOptionsBase::m_CmdsAfter</a>, <a class="el" href="classCompileOptionsBase#mc-m_CmdsBefore">CompileOptionsBase::m_CmdsBefore</a>, <a class="el" href="classCompiler#kb-m_Commands">m_Commands</a>, <a class="el" href="classCompileOptionsBase#m1-m_CompilerOptions">CompileOptionsBase::m_CompilerOptions</a>, <a class="el" href="classCompiler#yt-m_ExtraPaths">m_ExtraPaths</a>, <a class="el" href="classCompiler#ny-m_ID">m_ID</a>, <a class="el" href="classCompileOptionsBase#g2-m_IncludeDirs">CompileOptionsBase::m_IncludeDirs</a>, <a class="el" href="classCompileOptionsBase#z1-m_LibDirs">CompileOptionsBase::m_LibDirs</a>, <a class="el" href="classCompileOptionsBase#xf-m_LinkerOptions">CompileOptionsBase::m_LinkerOptions</a>, <a class="el" href="classCompileOptionsBase#zq-m_LinkLibs">CompileOptionsBase::m_LinkLibs</a>, <a class="el" href="classCompiler#ef-m_MasterPath">m_MasterPath</a>, <a class="el" href="classCompiler#z2-m_Name">m_Name</a>, <a class="el" href="classCompiler#au-m_NeedValidityCheck">m_NeedValidityCheck</a>, <a class="el" href="classCompiler#g9-m_Options">m_Options</a>, <a class="el" href="classCompiler#ui-m_Programs">m_Programs</a>, <a class="el" href="classCompiler#ha-m_RegExes">m_RegExes</a>, <a class="el" href="classCompileOptionsBase#ld-m_ResIncludeDirs">CompileOptionsBase::m_ResIncludeDirs</a>, <a class="el" href="classCompiler#uu-m_SortOptions">m_SortOptions</a>, <a class="el" href="classCompiler#mk-m_Switches">m_Switches</a>, <a class="el" href="classCompiler#xe-m_Valid">m_Valid</a>, <a class="el" href="classCompiler#xq-m_VersionString">m_VersionString</a>, <a class="el" href="classCompiler#mp-m_Weight">m_Weight</a>, <a class="el" href="globals_8h#hp-MakeUniqueArray">MakeUniqueArray()</a>, and <a class="el" href="classCompiler#ln-MakeValidID">MakeValidID()</a>.</p>
+<p>References <a class="el" href="compiler_8h#fe-CommandType:ctCount">ctCount</a>, <a class="el" href="classCompileOptionsBase#l6-m_CmdsAfter">CompileOptionsBase::m_CmdsAfter</a>, <a class="el" href="classCompileOptionsBase#mc-m_CmdsBefore">CompileOptionsBase::m_CmdsBefore</a>, <a class="el" href="classCompiler#kb-m_Commands">m_Commands</a>, <a class="el" href="classCompileOptionsBase#m1-m_CompilerOptions">CompileOptionsBase::m_CompilerOptions</a>, <a class="el" href="classCompiler#yt-m_ExtraPaths">m_ExtraPaths</a>, <a class="el" href="classCompiler#ny-m_ID">m_ID</a>, <a class="el" href="classCompileOptionsBase#g2-m_IncludeDirs">CompileOptionsBase::m_IncludeDirs</a>, <a class="el" href="classCompileOptionsBase#z1-m_LibDirs">CompileOptionsBase::m_LibDirs</a>, <a class="el" href="classCompileOptionsBase#xf-m_LinkerOptions">CompileOptionsBase::m_LinkerOptions</a>, <a class="el" href="classCompileOptionsBase#zq-m_LinkLibs">CompileOptionsBase::m_LinkLibs</a>, <a class="el" href="classCompiler#ef-m_MasterPath">m_MasterPath</a>, <a class="el" href="classCompiler#zi-m_MultiLineMessages">m_MultiLineMessages</a>, <a class="el" href="classCompiler#z2-m_Name">m_Name</a>, <a class="el" href="classCompiler#au-m_NeedValidityCheck">m_NeedValidityCheck</a>, <a class="el" href="classCompiler#g9-m_Options">m_Options</a>, <a class="el" href="classCompiler#ui-m_Programs">m_Programs</a>, <a class="el" href="classCompiler#ha-m_RegExes">m_RegExes</a>, <a class="el" href="classCompileOptionsBase#ld-m_ResIncludeDirs">CompileOptionsBase::m_ResIncludeDirs</a>, <a class="el" href="classCompiler#uu-m_SortOptions">m_SortOptions</a>, <a class="el" href="classCompiler#mk-m_Switches">m_Switches</a>, <a class="el" href="classCompiler#xe-m_Valid">m_Valid</a>, <a class="el" href="classCompiler#xq-m_VersionString">m_VersionString</a>, <a class="el" href="classCompiler#mp-m_Weight">m_Weight</a>, <a class="el" href="globals_8h#hp-MakeUniqueArray">MakeUniqueArray()</a>, and <a class="el" href="classCompiler#ln-MakeValidID">MakeValidID()</a>.</p>
 
 </div>
 </div>
@@ -685,7 +690,7 @@ Switches</td>
 
 <p>Implemented in <a class="el" href="classCompilerICC#uv-AutoDetectInstallationDir">CompilerICC</a>, <a class="el" href="classCompilerMINGW#ux-AutoDetectInstallationDir">CompilerMINGW</a>, <a class="el" href="classCompilerG95#cu-AutoDetectInstallationDir">CompilerG95</a>, <a class="el" href="classCompilerCYGWIN#rc-AutoDetectInstallationDir">CompilerCYGWIN</a>, <a class="el" href="classCompilerGDC#sm-AutoDetectInstallationDir">CompilerGDC</a>, <a class="el" href="classCompilerGNUARM#q9-AutoDetectInstallationDir">CompilerGNUARM</a>, <a class="el" href="classCompilerGNUFortran#sx-AutoDetectInstallationDir">CompilerGNUFortran</a>, <a class="el" href="classCompilerIAR#sr-AutoDetectInstallationDir">CompilerIAR</a>, <a class="el" href="classCompilerKeilC51#cj-AutoDetectInstallationDir">CompilerKeilC51</a>, <a class="el" href="classCompilerMSVC#hl-AutoDetectInstallationDir">CompilerMSVC</a>, <a class="el" href="classCompilerMSVC10#bj-AutoDetectInstallationDir">CompilerMSVC10</a>, <a class="el" href="classCompilerMSVC8#p9-AutoDetectInstallationDir">CompilerMSVC8</a>, <a class="el" href="classCompilerOW#yl-AutoDetectInstallationDir">CompilerOW</a>, <a class="el" href="classCompilerLCC#gd-AutoDetectInstallationDir">CompilerLCC</a>, and <a class="el" href="classCompilerXML#cn-AutoDetectInstallationDir">CompilerXML</a>.</p>
 
-<p>Referenced by <a class="el" href="classCompilerOptionsDlg#dy-AutoDetectCompiler">CompilerOptionsDlg::AutoDetectCompiler()</a>, <a class="el" href="classAutoDetectCompilers#gl-AutoDetectCompilers">AutoDetectCompilers::AutoDetectCompilers()</a>, and <a class="el" href="classCompilerICC#uv-AutoDetectInstallationDir">CompilerICC::AutoDetectInstallationDir()</a>.</p>
+<p>Referenced by <a class="el" href="classCompilerOptionsDlg#dy-AutoDetectCompiler">CompilerOptionsDlg::AutoDetectCompiler()</a>, and <a class="el" href="classAutoDetectCompilers#gl-AutoDetectCompilers">AutoDetectCompilers::AutoDetectCompilers()</a>.</p>
 
 </div>
 </div>
@@ -713,7 +718,7 @@ Switches</td>
 
 <p>Check if the supplied string is a compiler warning/error. </p>
 
-<p>References <a class="el" href="compiler_8h#kx-CompilerLineType:cltNormal">cltNormal</a>, <a class="el" href="structRegExStruct#ic-filename">RegExStruct::filename</a>, <a class="el" href="structRegExStruct#vu-GetRegEx">RegExStruct::GetRegEx()</a>, <a class="el" href="structRegExStruct#ml-line">RegExStruct::line</a>, <a class="el" href="structRegExStruct#b1-lt">RegExStruct::lt</a>, <a class="el" href="classCompiler#o4-m_Error">m_Error</a>, <a class="el" href="classCompiler#ft-m_ErrorFilename">m_ErrorFilename</a>, <a class="el" href="classCompiler#ne-m_ErrorLine">m_ErrorLine</a>, <a class="el" href="classCompiler#ha-m_RegExes">m_RegExes</a>, <a class="el" href="structRegExStruct#wo-msg">RegExStruct::msg</a>, <a class="el" href="structRegExStruct#dv-regex">RegExStruct::regex</a>, and <a class="el" href="globals_8h#xy-UnixFilename">UnixFilename()</a>.</p>
+<p>References <a class="el" href="compiler_8h#kx-CompilerLineType:cltNormal">cltNormal</a>, <a class="el" href="structRegExStruct#ic-filename">RegExStruct::filename</a>, <a class="el" href="structRegExStruct#vu-GetRegEx">RegExStruct::GetRegEx()</a>, <a class="el" href="structRegExStruct#ml-line">RegExStruct::line</a>, <a class="el" href="structRegExStruct#b1-lt">RegExStruct::lt</a>, <a class="el" href="classCompiler#o4-m_Error">m_Error</a>, <a class="el" href="classCompiler#ft-m_ErrorFilename">m_ErrorFilename</a>, <a class="el" href="classCompiler#ne-m_ErrorLine">m_ErrorLine</a>, <a class="el" href="classCompiler#zi-m_MultiLineMessages">m_MultiLineMessages</a>, <a class="el" href="classCompiler#ha-m_RegExes">m_RegExes</a>, <a class="el" href="structRegExStruct#wo-msg">RegExStruct::msg</a>, <a class="el" href="structRegExStruct#dv-regex">RegExStruct::regex</a>, and <a class="el" href="globals_8h#xy-UnixFilename">UnixFilename()</a>.</p>
 
 <p>Referenced by <a class="el" href="classCompilerGCC#dh-AddOutputLine">CompilerGCC::AddOutputLine()</a>, and <a class="el" href="classAdvancedCompilerOptionsDlg#zh-OnRegexTest">AdvancedCompilerOptionsDlg::OnRegexTest()</a>.</p>
 
@@ -769,7 +774,7 @@ Switches</td>
 
 <p>Implement this in new compilers, to return a new copy. </p>
 
-<p>Implemented in <a class="el" href="classCompilerICC#f3-CreateCopy">CompilerICC</a>, <a class="el" href="classCompilerKeilCX51#ib-CreateCopy">CompilerKeilCX51</a>, <a class="el" href="classCompilerMINGW#i7-CreateCopy">CompilerMINGW</a>, <a class="el" href="classCompilerOW#ne-CreateCopy">CompilerOW</a>, <a class="el" href="classCompilerG95#dl-CreateCopy">CompilerG95</a>, <a class="el" href="classCompilerKeilC51#o7-CreateCopy">CompilerKeilC51</a>, <a class="el" href="classCompilerMSVC10#np-CreateCopy">CompilerMSVC10</a>, <a class="el" href="classCompilerCYGWIN#vb-CreateCopy">CompilerCYGWIN</a>, <a class="el" href="classCompilerGDC#zs-CreateCopy">CompilerGDC</a>, <a class="el" href="classCompilerGNUARM#c8-CreateCopy">CompilerGNUARM</a>, <a class="el" href="classCompilerGNUFortran#db-CreateCopy">CompilerGNUFortran</a>, <a class="el" href="classCompilerIAR#rg-CreateCopy">CompilerIAR</a>, <a class="el" href="classCompilerMSVC#db-CreateCopy">CompilerMSVC</a>, <a class="el" href="classCompilerMSVC8#aq-CreateCopy">CompilerMSVC8</a>, <a class="el" href="classCompilerLCC#d9-CreateCopy">CompilerLCC</a>, and <a class="el" href="classCompilerXML#ro-CreateCopy">CompilerXML</a>.</p>
+<p>Implemented in <a class="el" href="classCompilerKeilCX51#ib-CreateCopy">CompilerKeilCX51</a>, <a class="el" href="classCompilerICC#f3-CreateCopy">CompilerICC</a>, <a class="el" href="classCompilerMINGW#i7-CreateCopy">CompilerMINGW</a>, <a class="el" href="classCompilerOW#ne-CreateCopy">CompilerOW</a>, <a class="el" href="classCompilerG95#dl-CreateCopy">CompilerG95</a>, <a class="el" href="classCompilerKeilC51#o7-CreateCopy">CompilerKeilC51</a>, <a class="el" href="classCompilerMSVC10#np-CreateCopy">CompilerMSVC10</a>, <a class="el" href="classCompilerCYGWIN#vb-CreateCopy">CompilerCYGWIN</a>, <a class="el" href="classCompilerGDC#zs-CreateCopy">CompilerGDC</a>, <a class="el" href="classCompilerGNUARM#c8-CreateCopy">CompilerGNUARM</a>, <a class="el" href="classCompilerGNUFortran#db-CreateCopy">CompilerGNUFortran</a>, <a class="el" href="classCompilerIAR#rg-CreateCopy">CompilerIAR</a>, <a class="el" href="classCompilerMSVC#db-CreateCopy">CompilerMSVC</a>, <a class="el" href="classCompilerMSVC8#aq-CreateCopy">CompilerMSVC8</a>, <a class="el" href="classCompilerLCC#d9-CreateCopy">CompilerLCC</a>, and <a class="el" href="classCompilerXML#ro-CreateCopy">CompilerXML</a>.</p>
 
 <p>Referenced by <a class="el" href="classCompilerFactory#o5-CreateCompilerCopy">CompilerFactory::CreateCompilerCopy()</a>.</p>
 
@@ -1297,7 +1302,7 @@ Switches</td>
 
 <p>Get the compiler's programs. </p>
 
-<p>Referenced by <a class="el" href="classNativeParser#cw-AddCompilerIncludeDirsToParse">NativeParser::AddCompilerIncludeDirsToParser()</a>, <a class="el" href="classNativeParser#he-AddCompilerPredefinedMacrosGC">NativeParser::AddCompilerPredefinedMacrosGCC()</a>, <a class="el" href="classNativeParser#tw-AddCompilerPredefinedMacrosVC">NativeParser::AddCompilerPredefinedMacrosVC()</a>, <a class="el" href="classCompilerOptionsDlg#s6-DoFillCompilerPrograms">CompilerOptionsDlg::DoFillCompilerPrograms()</a>, <a class="el" href="classCompilerOptionsDlg#et-DoSaveCompilerDefinition">CompilerOptionsDlg::DoSaveCompilerDefinition()</a>, <a class="el" href="classDebuggerManager#cs-FindTargetsDebugger">DebuggerManager::FindTargetsDebugger()</a>, <a class="el" href="classCompilerCommandGenerator#pp-GenerateCommandLine">CompilerCommandGenerator::GenerateCommandLine()</a>, <a class="el" href="classCompilerGCC#y8-GetMakeCommandFor">CompilerGCC::GetMakeCommandFor()</a>, and <a class="el" href="classCompilerGCC#ti-SetupEnvironment">CompilerGCC::SetupEnvironment()</a>.</p>
+<p>Referenced by <a class="el" href="classNativeParser#cw-AddCompilerIncludeDirsToParse">NativeParser::AddCompilerIncludeDirsToParser()</a>, <a class="el" href="classNativeParser#he-AddCompilerPredefinedMacrosGC">NativeParser::AddCompilerPredefinedMacrosGCC()</a>, <a class="el" href="classNativeParser#tw-AddCompilerPredefinedMacrosVC">NativeParser::AddCompilerPredefinedMacrosVC()</a>, <a class="el" href="classCompilerICC#uv-AutoDetectInstallationDir">CompilerICC::AutoDetectInstallationDir()</a>, <a class="el" href="classCompilerOptionsDlg#s6-DoFillCompilerPrograms">CompilerOptionsDlg::DoFillCompilerPrograms()</a>, <a class="el" href="classCompilerOptionsDlg#et-DoSaveCompilerDefinition">CompilerOptionsDlg::DoSaveCompilerDefinition()</a>, <a class="el" href="classDebuggerManager#cs-FindTargetsDebugger">DebuggerManager::FindTargetsDebugger()</a>, <a class="el" href="classCompilerCommandGenerator#pp-GenerateCommandLine">CompilerCommandGenerator::GenerateCommandLine()</a>, <a class="el" href="classCompilerGCC#y8-GetMakeCommandFor">CompilerGCC::GetMakeCommandFor()</a>, and <a class="el" href="classCompilerGCC#ti-SetupEnvironment">CompilerGCC::SetupEnvironment()</a>.</p>
 
 </div>
 </div>
@@ -1351,7 +1356,7 @@ Switches</td>
 
 <p>Get the compiler's generic switches. </p>
 
-<p>Referenced by <a class="el" href="classDirectCommands#z8-AreExternalDepsOutdated">DirectCommands::AreExternalDepsOutdated()</a>, <a class="el" href="classCompilerGCC#kp-BuildStateManagement">CompilerGCC::BuildStateManagement()</a>, <a class="el" href="classProjectLoader#jd-ConvertLibraries">ProjectLoader::ConvertLibraries()</a>, <a class="el" href="classCompilerOptionsDlg#ds-DoLoadOptions">CompilerOptionsDlg::DoLoadOptions()</a>, <a class="el" href="classCompilerOptionsDlg#et-DoSaveCompilerDefinition">CompilerOptionsDlg::DoSaveCompilerDefinition()</a>, <a class="el" href="classCompilerOptionsDlg#wc-DoSaveOptions">CompilerOptionsDlg::DoSaveOptions()</a>, <a class="el" href="classProjectLoader#p3-ExportTargetAsProject">ProjectLoader::ExportTargetAsProject()</a>, <a class="el" href="classCompilerCommandGenerator#te-FixPathSeparators">CompilerCommandGenerator::FixPathSeparators()</a>, <a class="el" href="classCompilerCommandGenerator#oq-FixupLinkLibraries">CompilerCommandGenerator::FixupLinkLibraries()</a>, <a class="el" href="classCompilerCommandGenerator#pp-GenerateCommandLine">CompilerCommandGenerator::GenerateCommandLine()</a>, <a class="el" href="classCompileTargetBase#q0-GenerateTargetFilename">CompileTargetBase::GenerateTargetFilename()</a>, <a class="el" href="classDirectCommands#mj-GetCleanSingleFileCommand">DirectCommands::GetCleanSingleFileCommand()</a>, <a class="el" href="classDirectCommands#x3-GetCompileFileCommand">DirectCommands::GetCompileFileCommand()</a>, <a class="el" href="classDirectCommands#sy-GetCompileSingleFileCommand">DirectCommands::GetCompileSingleFileCommand()</a>, <a class="el" href="classCompilerCommandGenerator#m2-GetOrderedIncludeDirs">CompilerCommandGenerator::GetOrderedIncludeDirs()</a>, <a class="el" href="classCompilerCommandGenerator#rz-GetOrderedLibrariesDirs">CompilerCommandGenerator::GetOrderedLibrariesDirs()</a>, <a class="el" href="classCompilerCommandGenerator#zz-GetOrderedResourceIncludeDirs">CompilerCommandGenerator::GetOrderedResourceIncludeDirs()</a>, <a class="el" href="classCompilerCommandGenerator#eu-GetProcessedIncludeDir">CompilerCommandGenerator::GetProcessedIncludeDir()</a>, <a class="el" href="classCompileTargetBase#kt-GetStaticLibFilename">CompileTargetBase::GetStaticLibFilename()</a>, <a class="el" href="classDirectCommands#v3-GetTargetCleanCommands">DirectCommands::GetTargetCleanCommands()</a>, <a class="el" href="classDirectCommands#wh-GetTargetLinkCommands">DirectCommands::GetTargetLinkCommands()</a>, <a class="el" href="classDirectCommands#qt-IsObjectOutdated">DirectCommands::IsObjectOutdated()</a>, <a class="el" href="classTemplateManager#az-NewProjectFromUserTemplate">TemplateManager::NewProjectFromUserTemplate()</a>, <a class="el" href="classCompilerGCC#e3-OnCleanFile">CompilerGCC::OnCleanFile()</a>, <a class="el" href="classProjectOptionsDlg#hj-OnProjectTypeChanged">ProjectOptionsDlg::OnProjectTypeChanged()</a>, <a class="el" href="classCompilerOptionsDlg#i3-OptionsToText">CompilerOptionsDlg::OptionsToText()</a>, <a class="el" href="classProjectOptionsDlg#n8-ProjectOptionsDlg">ProjectOptionsDlg::ProjectOptionsDlg()</a>, <a class="el" href="classAdvancedCompilerOptionsDlg#bb-ReadCompilerOptions">AdvancedCompilerOptionsDlg::ReadCompilerOptions()</a>, <a class="el" href="classCompilerCommandGenerator#xg-SearchDirsFromBackticks">CompilerCommandGenerator::SearchDirsFromBackticks()</a>, <a class="el" href="classcbProject#c7-SetCompilerID">cbProject::SetCompilerID()</a>, <a class="el" href="classProjectFile#vh-SetObjName">ProjectFile::SetObjName()</a>, <a class="el" href="classCompilerMINGWGenerator#kx-SetupIncludeDirs">CompilerMINGWGenerator::SetupIncludeDirs()</a>, <a class="el" href="classCompilerCommandGenerator#x8-SetupIncludeDirs">CompilerCommandGenerator::SetupIncludeDirs()</a>, <a class="el" href="classCompilerOWGenerator#mj-SetupLibrariesDirs">CompilerOWGenerator::SetupLibrariesDirs()</a>, <a class="el" href="classCompilerCommandGenerator#wz-SetupLibrariesDirs">CompilerCommandGenerator::SetupLibrariesDirs()</a>, <a class="el" href="classCompilerCommandGenerator#qh-SetupLinkLibraries">CompilerCommandGenerator::SetupLinkLibraries()</a>, <a class="el" href="classCompilerCommandGenerator#wn-SetupOutputFilenames">CompilerCommandGenerator::SetupOutputFilenames()</a>, <a class="el" href="classCompilerCommandGenerator#mr-SetupResourceIncludeDirs">CompilerCommandGenerator::SetupResourceIncludeDirs()</a>, <a class="el" href="classCompilerOptionsDlg#bb-TextToOptions">CompilerOptionsDlg::TextToOptions()</a>, and <a class="el" href="classpfDetails#es-Update">pfDetails::Update()</a>.</p>
+<p>Referenced by <a class="el" href="classDirectCommands#z8-AreExternalDepsOutdated">DirectCommands::AreExternalDepsOutdated()</a>, <a class="el" href="classCompilerGCC#kp-BuildStateManagement">CompilerGCC::BuildStateManagement()</a>, <a class="el" href="classProjectLoader#jd-ConvertLibraries">ProjectLoader::ConvertLibraries()</a>, <a class="el" href="classCompilerGCC#wf-DoCleanWithMake">CompilerGCC::DoCleanWithMake()</a>, <a class="el" href="classCompilerOptionsDlg#ds-DoLoadOptions">CompilerOptionsDlg::DoLoadOptions()</a>, <a class="el" href="classCompilerOptionsDlg#et-DoSaveCompilerDefinition">CompilerOptionsDlg::DoSaveCompilerDefinition()</a>, <a class="el" href="classCompilerOptionsDlg#wc-DoSaveOptions">CompilerOptionsDlg::DoSaveOptions()</a>, <a class="el" href="classProjectLoader#p3-ExportTargetAsProject">ProjectLoader::ExportTargetAsProject()</a>, <a class="el" href="classCompilerCommandGenerator#te-FixPathSeparators">CompilerCommandGenerator::FixPathSeparators()</a>, <a class="el" href="classCompilerCommandGenerator#oq-FixupLinkLibraries">CompilerCommandGenerator::FixupLinkLibraries()</a>, <a class="el" href="classCompilerCommandGenerator#pp-GenerateCommandLine">CompilerCommandGenerator::GenerateCommandLine()</a>, <a class="el" href="classCompileTargetBase#q0-GenerateTargetFilename">CompileTargetBase::GenerateTargetFilename()</a>, <a class="el" href="classDirectCommands#mj-GetCleanSingleFileCommand">DirectCommands::GetCleanSingleFileCommand()</a>, <a class="el" href="classDirectCommands#x3-GetCompileFileCommand">DirectCommands::GetCompileFileCommand()</a>, <a class="el" href="classDirectCommands#sy-GetCompileSingleFileCommand">DirectCommands::GetCompileSingleFileCommand()</a>, <a class="el" href="classCompilerCommandGenerator#m2-GetOrderedIncludeDirs">CompilerCommandGenerator::GetOrderedIncludeDirs()</a>, <a class="el" href="classCompilerCommandGenerator#rz-GetOrderedLibrariesDirs">CompilerCommandGenerator::GetOrderedLibrariesDirs()</a>, <a class="el" href="classCompilerCommandGenerator#zz-GetOrderedResourceIncludeDirs">CompilerCommandGenerator::GetOrderedResourceIncludeDirs()</a>, <a class="el" href="classCompilerCommandGenerator#eu-GetProcessedIncludeDir">CompilerCommandGenerator::GetProcessedIncludeDir()</a>, <a class="el" href="classCompileTargetBase#kt-GetStaticLibFilename">CompileTargetBase::GetStaticLibFilename()</a>, <a class="el" href="classDirectCommands#v3-GetTargetCleanCommands">DirectCommands::GetTargetCleanCommands()</a>, <a class="el" href="classDirectCommands#wh-GetTargetLinkCommands">DirectCommands::GetTargetLinkCommands()</a>, <a class="el" href="classDirectCommands#qt-IsObjectOutdated">DirectCommands::IsObjectOutdated()</a>, <a class="el" href="classTemplateManager#az-NewProjectFromUserTemplate">TemplateManager::NewProjectFromUserTemplate()</a>, <a class="el" href="classCompilerGCC#e3-OnCleanFile">CompilerGCC::OnCleanFile()</a>, <a class="el" href="classProjectOptionsDlg#hj-OnProjectTypeChanged">ProjectOptionsDlg::OnProjectTypeChanged()</a>, <a class="el" href="classCompilerOptionsDlg#i3-OptionsToText">CompilerOptionsDlg::OptionsToText()</a>, <a class="el" href="classProjectOptionsDlg#n8-ProjectOptionsDlg">ProjectOptionsDlg::ProjectOptionsDlg()</a>, <a class="el" href="classAdvancedCompilerOptionsDlg#bb-ReadCompilerOptions">AdvancedCompilerOptionsDlg::ReadCompilerOptions()</a>, <a class="el" href="classCompilerCommandGenerator#xg-SearchDirsFromBackticks">CompilerCommandGenerator::SearchDirsFromBackticks()</a>, <a class="el" href="classcbProject#c7-SetCompilerID">cbProject::SetCompilerID()</a>, <a class="el" href="classProjectFile#vh-SetObjName">ProjectFile::SetObjName()</a>, <a class="el" href="classCompilerMINGWGenerator#kx-SetupIncludeDirs">CompilerMINGWGenerator::SetupIncludeDirs()</a>, <a class="el" href="classCompilerCommandGenerator#x8-SetupIncludeDirs">CompilerCommandGenerator::SetupIncludeDirs()</a>, <a class="el" href="classCompilerOWGenerator#mj-SetupLibrariesDirs">CompilerOWGenerator::SetupLibrariesDirs()</a>, <a class="el" href="classCompilerCommandGenerator#wz-SetupLibrariesDirs">CompilerCommandGenerator::SetupLibrariesDirs()</a>, <a class="el" href="classCompilerCommandGenerator#qh-SetupLinkLibraries">CompilerCommandGenerator::SetupLinkLibraries()</a>, <a class="el" href="classCompilerCommandGenerator#wn-SetupOutputFilenames">CompilerCommandGenerator::SetupOutputFilenames()</a>, <a class="el" href="classCompilerCommandGenerator#mr-SetupResourceIncludeDirs">CompilerCommandGenerator::SetupResourceIncludeDirs()</a>, <a class="el" href="classCompilerOptionsDlg#bb-TextToOptions">CompilerOptionsDlg::TextToOptions()</a>, and <a class="el" href="classpfDetails#es-Update">pfDetails::Update()</a>.</p>
 
 </div>
 </div>
@@ -2008,6 +2013,33 @@ Switches</td>
 
 </div>
 </div>
+<a class="anchor" id="xk-WithMultiLineMsg"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Compiler::WithMultiLineMsg </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Do compiler writes multi-line messages? </p>
+
+<p>Referenced by <a class="el" href="classCompilerGCC#dh-AddOutputLine">CompilerGCC::AddOutputLine()</a>.</p>
+
+</div>
+</div>
 <h2 class="groupheader">Friends And Related Function Documentation</h2>
 <a class="anchor" id="m4-CompilerFactory"></a>
 <div class="memitem">
@@ -2304,6 +2336,28 @@ Switches</td>
 </div><div class="memdoc">
 
 <p>Referenced by <a class="el" href="classCompiler#tz-MirrorCurrentSettings">MirrorCurrentSettings()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="zi-m_MultiLineMessages"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Compiler::m_MultiLineMessages</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Referenced by <a class="el" href="classCompiler#io-CheckForWarningsAndErrors">CheckForWarningsAndErrors()</a>, <a class="el" href="classCompiler#d9-Compiler">Compiler()</a>, <a class="el" href="classCompilerGNUFortran#ol-CompilerGNUFortran">CompilerGNUFortran::CompilerGNUFortran()</a>, and <a class="el" href="classCompilerXML#l6-CompilerXML">CompilerXML::CompilerXML()</a>.</p>
 
 </div>
 </div>

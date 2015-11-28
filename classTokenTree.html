@@ -18,7 +18,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">Code::Blocks
-   &#160;<span id="projectnumber">SVN r10408</span>
+   &#160;<span id="projectnumber">SVN r10603</span>
    </div>
   </td>
  </tr>
@@ -64,7 +64,7 @@
 <div class="dynheader">
 Collaboration diagram for TokenTree:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classTokenTree__coll__graph.svg" width="1512" height="2334"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classTokenTree__coll__graph.svg" width="1307" height="2334"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <table class="memberdecls">
@@ -187,9 +187,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:gk-MarkFileTokensAsLocal"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTokenTree#gk-MarkFileTokensAsLocal">MarkFileTokensAsLocal</a> (size_t fileIdx, bool local=true, void *userData=0)</td></tr>
 <tr class="memdesc:gk-MarkFileTokensAsLocal"><td class="mdescLeft">&#160;</td><td class="mdescRight">mark the tokens so that they are associated with a C::B project  <a href="#gk-MarkFileTokensAsLocal">More...</a><br /></td></tr>
 <tr class="separator:gk-MarkFileTokensAsLocal"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:hm-AppendDocumentation"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTokenTree#hm-AppendDocumentation">AppendDocumentation</a> (int tokenIdx, const wxString &amp;doc)</td></tr>
-<tr class="memdesc:hm-AppendDocumentation"><td class="mdescLeft">&#160;</td><td class="mdescRight">associate a document string with the token  <a href="#hm-AppendDocumentation">More...</a><br /></td></tr>
-<tr class="separator:hm-AppendDocumentation"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:fi-AppendDocumentation"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTokenTree#fi-AppendDocumentation">AppendDocumentation</a> (int tokenIdx, unsigned int fileIdx, const wxString &amp;doc)</td></tr>
+<tr class="memdesc:fi-AppendDocumentation"><td class="mdescLeft">&#160;</td><td class="mdescRight">associate a document string with the token  <a href="#fi-AppendDocumentation">More...</a><br /></td></tr>
+<tr class="separator:fi-AppendDocumentation"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:mb-GetDocumentation"><td class="memItemLeft" align="right" valign="top">wxString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTokenTree#mb-GetDocumentation">GetDocumentation</a> (int tokenIdx)</td></tr>
 <tr class="memdesc:mb-GetDocumentation"><td class="mdescLeft">&#160;</td><td class="mdescRight">get the document string associated with the token  <a href="#mb-GetDocumentation">More...</a><br /></td></tr>
 <tr class="separator:mb-GetDocumentation"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -251,9 +251,6 @@ Protected Attributes</h2></td></tr>
 <tr class="memitem:di-m_FilesToBeReparsed"><td class="memItemLeft" align="right" valign="top"><a class="el" href="token_8h#ty-TokenFileSet">TokenFileSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTokenTree#di-m_FilesToBeReparsed">m_FilesToBeReparsed</a></td></tr>
 <tr class="memdesc:di-m_FilesToBeReparsed"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set: file indices.  <a href="#di-m_FilesToBeReparsed">More...</a><br /></td></tr>
 <tr class="separator:di-m_FilesToBeReparsed"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:f0-m_TokenDocumentationMap"><td class="memItemLeft" align="right" valign="top"><a class="el" href="tokentree_8h#om-TokenIdxStringMap">TokenIdxStringMap</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTokenTree#f0-m_TokenDocumentationMap">m_TokenDocumentationMap</a></td></tr>
-<tr class="memdesc:f0-m_TokenDocumentationMap"><td class="mdescLeft">&#160;</td><td class="mdescRight">Map: token index -&gt; documentation.  <a href="#f0-m_TokenDocumentationMap">More...</a><br /></td></tr>
-<tr class="separator:f0-m_TokenDocumentationMap"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="friends"></a>
 Friends</h2></td></tr>
@@ -392,7 +389,7 @@ Friends</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="hm-AppendDocumentation"></a>
+<a class="anchor" id="fi-AppendDocumentation"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -401,6 +398,12 @@ Friends</h2></td></tr>
           <td>(</td>
           <td class="paramtype">int&#160;</td>
           <td class="paramname"><em>tokenIdx</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">unsigned int&#160;</td>
+          <td class="paramname"><em>fileIdx</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -420,12 +423,13 @@ Friends</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">tokenIdx</td><td>token index </td></tr>
+    <tr><td class="paramname">fileIdx</td><td>the file index where the doc locates </td></tr>
     <tr><td class="paramname">doc</td><td>document string </td></tr>
   </table>
   </dd>
 </dl>
 
-<p>References <a class="el" href="classTokenTree#f0-m_TokenDocumentationMap">m_TokenDocumentationMap</a>.</p>
+<p>References <a class="el" href="classTokenTree#wb-GetTokenAt">GetTokenAt()</a>, <a class="el" href="classToken#q9-m_Doc">Token::m_Doc</a>, <a class="el" href="classToken#ss-m_FileIdx">Token::m_FileIdx</a>, <a class="el" href="classToken#vw-m_ImplDoc">Token::m_ImplDoc</a>, and <a class="el" href="classToken#ot-m_ImplFileIdx">Token::m_ImplFileIdx</a>.</p>
 
 <p>Referenced by <a class="el" href="classTokenizer#d7-SetLastTokenIdx">Tokenizer::SetLastTokenIdx()</a>, and <a class="el" href="classTokenizer#eo-SkipComment">Tokenizer::SkipComment()</a>.</p>
 
@@ -455,7 +459,7 @@ Friends</h2></td></tr>
 
 <p>References <a class="el" href="classTokenTree#wb-GetTokenAt">GetTokenAt()</a>.</p>
 
-<p>Referenced by <a class="el" href="classClassBrowserBuilderThread#yw-AddAncestorsOf">ClassBrowserBuilderThread::AddAncestorsOf()</a>, <a class="el" href="classClassBrowserBuilderThread#ig-AddChildrenOf">ClassBrowserBuilderThread::AddChildrenOf()</a>, <a class="el" href="classNativeParserBase#a1-AddChildrenOfEnum">NativeParserBase::AddChildrenOfEnum()</a>, <a class="el" href="classNativeParserBase#nu-AddChildrenOfUnnamed">NativeParserBase::AddChildrenOfUnnamed()</a>, <a class="el" href="classNativeParserBase#fn-AddConstructors">NativeParserBase::AddConstructors()</a>, <a class="el" href="classClassBrowserBuilderThread#e3-AddDescendantsOf">ClassBrowserBuilderThread::AddDescendantsOf()</a>, <a class="el" href="classClassBrowserBuilderThread#mn-AddNodes">ClassBrowserBuilderThread::AddNodes()</a>, <a class="el" href="classNativeParserBase#zr-AddTemplateAlias">NativeParserBase::AddTemplateAlias()</a>, <a class="el" href="classTokenizer#pi-CalcConditionExpression">Tokenizer::CalcConditionExpression()</a>, <a class="el" href="classParserThread#nq-CalcEnumExpression">ParserThread::CalcEnumExpression()</a>, <a class="el" href="classTokenTree#ld-CheckChildRemove">CheckChildRemove()</a>, <a class="el" href="classNativeParserBase#my-CleanupSearchScope">NativeParserBase::CleanupSearchScope()</a>, <a class="el" href="classNativeParserBase#nm-CollectSearchScopes">NativeParserBase::CollectSearchScopes()</a>, <a class="el" href="classNativeParserBase#aa-ComputeCallTip">NativeParserBase::ComputeCallTip()</a>, <a class="el" href="classClassBrowserBuilderThread#rw-CreateSpecialFolders">ClassBrowserBuilderThread::CreateSpecialFolders()</a>, <a class="el" href="classNativeParserBase#ji-DependsOnAllocator">NativeParserBase::DependsOnAllocator()</a>, <a class="el" href="classCCDebugInfo#im-DisplayTokenInfo">CCDebugInfo::DisplayTokenInfo()</a>, <a class="el" href="classParserThread#hd-DoAddToken">ParserThread::DoAddToken()</a>, <a class="el" href="classCodeCompletion#cp-DoAllMethodsImpl">CodeCompletion::DoAllMethodsImpl()</a>, <a class="el" href="classCodeCompletion#l3-DoCodeComplete">CodeCompletion::DoCodeComplete()</a>, <a class="el" href="namespaceInsertClassMethodDlgHelper#q8-DoFillMethodsFor">InsertClassMethodDlgHelper::DoFillMethodsFor()</a>, <a class="el" href="classCCDebugInfo#kw-FillAncestors">CCDebugInfo::FillAncestors()</a>, <a class="el" href="classCCDebugInfo#hi-FillChildren">CCDebugInfo::FillChildren()</a>, <a class="el" href="classInsertClassMethodDlg#pw-FillClasses">InsertClassMethodDlg::FillClasses()</a>, <a class="el" href="classCCDebugInfo#sl-FillDescendants">CCDebugInfo::FillDescendants()</a>, <a class="el" href="classNativeParserBase#nm-FindAIMatches">NativeParserBase::FindAIMatches()</a>, <a class="el" href="classNativeParserBase#e0-FindCurrentFunctionScope">NativeParserBase::FindCurrentFunctionScope()</a>, <a class="el" href="classNativeParser#qf-FindCurrentFunctionStart">NativeParser::FindCurrentFunctionStart()</a>, <a class="el" href="classTokenTree#tb-FindMatches">FindMatches()</a>, <a class="el" href="classParserBase#gc-FindTokensInFile">ParserBase::FindTokensInFile()</a>, <a class="el" href="classTokenTree#sk-FindTokensInFile">FindTokensInFile()</a>, <a class="el" href="classDocumentationHelper#rl-GenerateHTML">DocumentationHelper::GenerateHTML()</a>, <a class="el" href="classNativeParserBase#lo-GenerateResultSet">NativeParserBase::GenerateResultSet()</a>, <a class="el" href="classToken#ww-GetNamespace">Token::GetNamespace()</a>, <a class="el" href="classTokenizer#u0-GetReplacedToken">Tokenizer::GetReplacedToken()</a>, <a class="el" href="classCodeCompletion#is-GetTokenAt">CodeCompletion::GetTokenAt()</a>, <a class="el" href="classNativeParserBase#ez-GetTokenFromCurrentLine">NativeParserBase::GetTokenFromCurrentLine()</a>, <a class="el" href="classParserThread#sa-HandleMacroExpansion">ParserThread::HandleMacroExpansion()</a>, <a class="el" href="classToken#z5-InheritsFrom">Token::InheritsFrom()</a>, <a class="el" href="classClassBrowserBuilderThread#l8-Init">ClassBrowserBuilderThread::Init()</a>, <a class="el" href="classNativeParserBase#dg-IsAllocator">NativeParserBase::IsAllocator()</a>, <a class="el" href="classNativeParserBase#k1-IsChildOfUnnamedOrEnum">NativeParserBase::IsChildOfUnnamedOrEnum()</a>, <a class="el" href="classDocumentationHelper#j2-OnDocumentationLink">DocumentationHelper::OnDocumentationLink()</a>, <a class="el" href="classCCDebugInfo#vb-OnFindClick">CCDebugInfo::OnFindClick()</a>, <a class="el" href="classCCDebugInfo#is-OnGoAscClick">CCDebugInfo::OnGoAscClick()</a>, <a class="el" href="classCCDebugInfo#bq-OnGoChildrenClick">CCDebugInfo::OnGoChildrenClick()</a>, <a class="el" href="classCCDebugInfo#bp-OnGoDescClick">CCDebugInfo::OnGoDescClick()</a>, <a class="el" href="classCCDebugInfo#nf-OnGoParentClick">CCDebugInfo::OnGoParentClick()</a>, <a class="el" href="classCodeCompletion#k5-OnGotoDeclaration">CodeCompletion::OnGotoDeclaration()</a>, <a class="el" href="classCodeCompletion#fy-OnGotoFunction">CodeCompletion::OnGotoFunction()</a>, <a class="el" href="classCCDebugInfo#xz-OnSave">CCDebugInfo::OnSave()</a>, <a class="el" href="classClassBrowser#aw-OnSearch">ClassBrowser::OnSearch()</a>, <a class="el" href="classCodeRefactoring#y0-Parse">CodeRefactoring::Parse()</a>, <a class="el" href="classNativeParser#gu-ParseBufferForUsingNamespace">NativeParser::ParseBufferForUsingNamespace()</a>, <a class="el" href="classNativeParser#fc-ParseFunctionArguments">NativeParser::ParseFunctionArguments()</a>, <a class="el" href="classNativeParser#ay-ParseLocalBlock">NativeParser::ParseLocalBlock()</a>, <a class="el" href="classNativeParserBase#nr-PrettyPrintToken">NativeParserBase::PrettyPrintToken()</a>, <a class="el" href="classTokenTree#qo-RecalcFullInheritance">RecalcFullInheritance()</a>, <a class="el" href="classTokenTree#ww-RecalcInheritanceChain">RecalcInheritanceChain()</a>, <a class="el" href="classTokenTree#cg-RemoveFile">RemoveFile()</a>, <a class="el" href="classClassBrowserBuilderThread#sh-RemoveInvalidNodes">ClassBrowserBuilderThread::RemoveInvalidNodes()</a>, <a class="el" href="classNativeParserBase#zx-RemoveLastFunctionChildren">NativeParserBase::RemoveLastFunctionChildren()</a>, <a class="el" href="classNativeParserBase#gq-ResolveExpression">NativeParserBase::ResolveExpression()</a>, <a class="el" href="classNativeParserBase#f4-ResolveOperator">NativeParserBase::ResolveOperator()</a>, <a class="el" href="classParserThread#rd-ResolveTemplateMap">ParserThread::ResolveTemplateMap()</a>, <a class="el" href="classClassBrowserBuilderThread#e8-TokenContainsChildrenOfKind">ClassBrowserBuilderThread::TokenContainsChildrenOfKind()</a>, <a class="el" href="classParserThread#mq-TokenExists">ParserThread::TokenExists()</a>, <a class="el" href="classClassBrowserBuilderThread#ec-TokenMatchesFilter">ClassBrowserBuilderThread::TokenMatchesFilter()</a>, <a class="el" href="classCodeCompletion#l9-UpdateEditorSyntax">CodeCompletion::UpdateEditorSyntax()</a>, and <a class="el" href="classCodeRefactoring#qs-VerifyResult">CodeRefactoring::VerifyResult()</a>.</p>
+<p>Referenced by <a class="el" href="classClassBrowserBuilderThread#yw-AddAncestorsOf">ClassBrowserBuilderThread::AddAncestorsOf()</a>, <a class="el" href="classClassBrowserBuilderThread#ig-AddChildrenOf">ClassBrowserBuilderThread::AddChildrenOf()</a>, <a class="el" href="classNativeParserBase#a1-AddChildrenOfEnum">NativeParserBase::AddChildrenOfEnum()</a>, <a class="el" href="classNativeParserBase#nu-AddChildrenOfUnnamed">NativeParserBase::AddChildrenOfUnnamed()</a>, <a class="el" href="classNativeParserBase#fn-AddConstructors">NativeParserBase::AddConstructors()</a>, <a class="el" href="classClassBrowserBuilderThread#e3-AddDescendantsOf">ClassBrowserBuilderThread::AddDescendantsOf()</a>, <a class="el" href="classTokenizer#bp-AddMacroDefinition">Tokenizer::AddMacroDefinition()</a>, <a class="el" href="classClassBrowserBuilderThread#mn-AddNodes">ClassBrowserBuilderThread::AddNodes()</a>, <a class="el" href="classNativeParserBase#zr-AddTemplateAlias">NativeParserBase::AddTemplateAlias()</a>, <a class="el" href="classParserThread#nq-CalcEnumExpression">ParserThread::CalcEnumExpression()</a>, <a class="el" href="classTokenTree#ld-CheckChildRemove">CheckChildRemove()</a>, <a class="el" href="classTokenizer#oa-CheckMacroUsageAndReplace">Tokenizer::CheckMacroUsageAndReplace()</a>, <a class="el" href="classNativeParserBase#my-CleanupSearchScope">NativeParserBase::CleanupSearchScope()</a>, <a class="el" href="classNativeParserBase#nm-CollectSearchScopes">NativeParserBase::CollectSearchScopes()</a>, <a class="el" href="classNativeParserBase#aa-ComputeCallTip">NativeParserBase::ComputeCallTip()</a>, <a class="el" href="classClassBrowserBuilderThread#rw-CreateSpecialFolders">ClassBrowserBuilderThread::CreateSpecialFolders()</a>, <a class="el" href="classNativeParserBase#ji-DependsOnAllocator">NativeParserBase::DependsOnAllocator()</a>, <a class="el" href="classCCDebugInfo#im-DisplayTokenInfo">CCDebugInfo::DisplayTokenInfo()</a>, <a class="el" href="classParserThread#hd-DoAddToken">ParserThread::DoAddToken()</a>, <a class="el" href="classCodeCompletion#cp-DoAllMethodsImpl">CodeCompletion::DoAllMethodsImpl()</a>, <a class="el" href="classCodeCompletion#l3-DoCodeComplete">CodeCompletion::DoCodeComplete()</a>, <a class="el" href="namespaceInsertClassMethodDlgHelper#q8-DoFillMethodsFor">InsertClassMethodDlgHelper::DoFillMethodsFor()</a>, <a class="el" href="classCCDebugInfo#kw-FillAncestors">CCDebugInfo::FillAncestors()</a>, <a class="el" href="classCCDebugInfo#hi-FillChildren">CCDebugInfo::FillChildren()</a>, <a class="el" href="classInsertClassMethodDlg#pw-FillClasses">InsertClassMethodDlg::FillClasses()</a>, <a class="el" href="classCCDebugInfo#sl-FillDescendants">CCDebugInfo::FillDescendants()</a>, <a class="el" href="classNativeParserBase#nm-FindAIMatches">NativeParserBase::FindAIMatches()</a>, <a class="el" href="classNativeParserBase#e0-FindCurrentFunctionScope">NativeParserBase::FindCurrentFunctionScope()</a>, <a class="el" href="classNativeParser#qf-FindCurrentFunctionStart">NativeParser::FindCurrentFunctionStart()</a>, <a class="el" href="classTokenTree#tb-FindMatches">FindMatches()</a>, <a class="el" href="classParserBase#gc-FindTokensInFile">ParserBase::FindTokensInFile()</a>, <a class="el" href="classTokenTree#sk-FindTokensInFile">FindTokensInFile()</a>, <a class="el" href="classDocumentationHelper#rl-GenerateHTML">DocumentationHelper::GenerateHTML()</a>, <a class="el" href="classNativeParserBase#lo-GenerateResultSet">NativeParserBase::GenerateResultSet()</a>, <a class="el" href="classToken#ww-GetNamespace">Token::GetNamespace()</a>, <a class="el" href="classCodeCompletion#is-GetTokenAt">CodeCompletion::GetTokenAt()</a>, <a class="el" href="classNativeParserBase#ez-GetTokenFromCurrentLine">NativeParserBase::GetTokenFromCurrentLine()</a>, <a class="el" href="classToken#z5-InheritsFrom">Token::InheritsFrom()</a>, <a class="el" href="classClassBrowserBuilderThread#l8-Init">ClassBrowserBuilderThread::Init()</a>, <a class="el" href="classNativeParserBase#dg-IsAllocator">NativeParserBase::IsAllocator()</a>, <a class="el" href="classNativeParserBase#k1-IsChildOfUnnamedOrEnum">NativeParserBase::IsChildOfUnnamedOrEnum()</a>, <a class="el" href="classDocumentationHelper#j2-OnDocumentationLink">DocumentationHelper::OnDocumentationLink()</a>, <a class="el" href="classCCDebugInfo#vb-OnFindClick">CCDebugInfo::OnFindClick()</a>, <a class="el" href="classCCDebugInfo#is-OnGoAscClick">CCDebugInfo::OnGoAscClick()</a>, <a class="el" href="classCCDebugInfo#bq-OnGoChildrenClick">CCDebugInfo::OnGoChildrenClick()</a>, <a class="el" href="classCCDebugInfo#bp-OnGoDescClick">CCDebugInfo::OnGoDescClick()</a>, <a class="el" href="classCCDebugInfo#nf-OnGoParentClick">CCDebugInfo::OnGoParentClick()</a>, <a class="el" href="classCodeCompletion#k5-OnGotoDeclaration">CodeCompletion::OnGotoDeclaration()</a>, <a class="el" href="classCodeCompletion#fy-OnGotoFunction">CodeCompletion::OnGotoFunction()</a>, <a class="el" href="classCCDebugInfo#xz-OnSave">CCDebugInfo::OnSave()</a>, <a class="el" href="classClassBrowser#aw-OnSearch">ClassBrowser::OnSearch()</a>, <a class="el" href="classCodeRefactoring#y0-Parse">CodeRefactoring::Parse()</a>, <a class="el" href="classNativeParser#gu-ParseBufferForUsingNamespace">NativeParser::ParseBufferForUsingNamespace()</a>, <a class="el" href="classNativeParser#fc-ParseFunctionArguments">NativeParser::ParseFunctionArguments()</a>, <a class="el" href="classNativeParser#ay-ParseLocalBlock">NativeParser::ParseLocalBlock()</a>, <a class="el" href="classNativeParserBase#nr-PrettyPrintToken">NativeParserBase::PrettyPrintToken()</a>, <a class="el" href="classTokenTree#qo-RecalcFullInheritance">RecalcFullInheritance()</a>, <a class="el" href="classTokenTree#ww-RecalcInheritanceChain">RecalcInheritanceChain()</a>, <a class="el" href="classTokenTree#cg-RemoveFile">RemoveFile()</a>, <a class="el" href="classClassBrowserBuilderThread#sh-RemoveInvalidNodes">ClassBrowserBuilderThread::RemoveInvalidNodes()</a>, <a class="el" href="classNativeParserBase#zx-RemoveLastFunctionChildren">NativeParserBase::RemoveLastFunctionChildren()</a>, <a class="el" href="classNativeParserBase#gq-ResolveExpression">NativeParserBase::ResolveExpression()</a>, <a class="el" href="classNativeParserBase#f4-ResolveOperator">NativeParserBase::ResolveOperator()</a>, <a class="el" href="classParserThread#rd-ResolveTemplateMap">ParserThread::ResolveTemplateMap()</a>, <a class="el" href="classClassBrowserBuilderThread#e8-TokenContainsChildrenOfKind">ClassBrowserBuilderThread::TokenContainsChildrenOfKind()</a>, <a class="el" href="classParserThread#mq-TokenExists">ParserThread::TokenExists()</a>, <a class="el" href="classClassBrowserBuilderThread#ec-TokenMatchesFilter">ClassBrowserBuilderThread::TokenMatchesFilter()</a>, <a class="el" href="classCodeCompletion#l9-UpdateEditorSyntax">CodeCompletion::UpdateEditorSyntax()</a>, and <a class="el" href="classCodeRefactoring#qs-VerifyResult">CodeRefactoring::VerifyResult()</a>.</p>
 
 </div>
 </div>
@@ -546,7 +550,7 @@ Friends</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>References <a class="el" href="classBasicSearchTree#mm-clear">BasicSearchTree::clear()</a>, <a class="el" href="classSearchTree#uq-clear">SearchTree&lt; T &gt;::clear()</a>, <a class="el" href="classTokenTree#t7-m_FileMap">m_FileMap</a>, <a class="el" href="classTokenTree#l6-m_FilenameMap">m_FilenameMap</a>, <a class="el" href="classTokenTree#e7-m_FileStatusMap">m_FileStatusMap</a>, <a class="el" href="classTokenTree#di-m_FilesToBeReparsed">m_FilesToBeReparsed</a>, <a class="el" href="classTokenTree#ad-m_FreeTokens">m_FreeTokens</a>, <a class="el" href="classTokenTree#of-m_GlobalNameSpaces">m_GlobalNameSpaces</a>, <a class="el" href="classTokenTree#f0-m_TokenDocumentationMap">m_TokenDocumentationMap</a>, <a class="el" href="classTokenTree#yj-m_Tokens">m_Tokens</a>, <a class="el" href="classTokenTree#ao-m_TopNameSpaces">m_TopNameSpaces</a>, and <a class="el" href="classTokenTree#p2-m_Tree">m_Tree</a>.</p>
+<p>References <a class="el" href="classBasicSearchTree#mm-clear">BasicSearchTree::clear()</a>, <a class="el" href="classSearchTree#uq-clear">SearchTree&lt; T &gt;::clear()</a>, <a class="el" href="classTokenTree#t7-m_FileMap">m_FileMap</a>, <a class="el" href="classTokenTree#l6-m_FilenameMap">m_FilenameMap</a>, <a class="el" href="classTokenTree#e7-m_FileStatusMap">m_FileStatusMap</a>, <a class="el" href="classTokenTree#di-m_FilesToBeReparsed">m_FilesToBeReparsed</a>, <a class="el" href="classTokenTree#ad-m_FreeTokens">m_FreeTokens</a>, <a class="el" href="classTokenTree#of-m_GlobalNameSpaces">m_GlobalNameSpaces</a>, <a class="el" href="classTokenTree#yj-m_Tokens">m_Tokens</a>, <a class="el" href="classTokenTree#ao-m_TopNameSpaces">m_TopNameSpaces</a>, and <a class="el" href="classTokenTree#p2-m_Tree">m_Tree</a>.</p>
 
 <p>Referenced by <a class="el" href="classTokenTree#sm-Clear">Clear()</a>, <a class="el" href="classCodeCompletion#fy-OnGotoFunction">CodeCompletion::OnGotoFunction()</a>, and <a class="el" href="classTokenTree#qk-TokenTree">~TokenTree()</a>.</p>
 
@@ -626,7 +630,7 @@ Friends</h2></td></tr>
 
 <p>References <a class="el" href="classTokenTree#yj-m_Tokens">m_Tokens</a>, and <a class="el" href="classTokenTree#to-RemoveToken">RemoveToken()</a>.</p>
 
-<p>Referenced by <a class="el" href="classToken#q1-DeleteAllChildren">Token::DeleteAllChildren()</a>, and <a class="el" href="classParserThread#sn-HandleUndefs">ParserThread::HandleUndefs()</a>.</p>
+<p>Referenced by <a class="el" href="classToken#q1-DeleteAllChildren">Token::DeleteAllChildren()</a>, and <a class="el" href="classTokenizer#us-HandleUndefs">Tokenizer::HandleUndefs()</a>.</p>
 
 </div>
 </div>
@@ -915,7 +919,7 @@ Friends</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>wxString the document </dd></dl>
 
-<p>References <a class="el" href="classTokenTree#f0-m_TokenDocumentationMap">m_TokenDocumentationMap</a>.</p>
+<p>References <a class="el" href="classTokenTree#wb-GetTokenAt">GetTokenAt()</a>, <a class="el" href="classToken#q9-m_Doc">Token::m_Doc</a>, and <a class="el" href="classToken#vw-m_ImplDoc">Token::m_ImplDoc</a>.</p>
 
 <p>Referenced by <a class="el" href="classDocumentationHelper#rl-GenerateHTML">DocumentationHelper::GenerateHTML()</a>.</p>
 
@@ -1161,7 +1165,7 @@ Friends</h2></td></tr>
 
 <p>References <a class="el" href="classTokenTree#yj-m_Tokens">m_Tokens</a>.</p>
 
-<p>Referenced by <a class="el" href="classTokenTree#z7-at">at()</a>, and <a class="el" href="classTokenTree#b6-operator">operator[]()</a>.</p>
+<p>Referenced by <a class="el" href="classTokenTree#fi-AppendDocumentation">AppendDocumentation()</a>, <a class="el" href="classTokenTree#z7-at">at()</a>, <a class="el" href="classTokenTree#mb-GetDocumentation">GetDocumentation()</a>, and <a class="el" href="classTokenTree#b6-operator">operator[]()</a>.</p>
 
 </div>
 </div>
@@ -1271,7 +1275,7 @@ Friends</h2></td></tr>
 
 <p>References <a class="el" href="classTokenTree#xc-AddToken">AddToken()</a>.</p>
 
-<p>Referenced by <a class="el" href="classParserThread#hd-DoAddToken">ParserThread::DoAddToken()</a>, and <a class="el" href="classParserThread#fp-FindTokenFromQueue">ParserThread::FindTokenFromQueue()</a>.</p>
+<p>Referenced by <a class="el" href="classTokenizer#bp-AddMacroDefinition">Tokenizer::AddMacroDefinition()</a>, <a class="el" href="classParserThread#hd-DoAddToken">ParserThread::DoAddToken()</a>, and <a class="el" href="classParserThread#fp-FindTokenFromQueue">ParserThread::FindTokenFromQueue()</a>.</p>
 
 </div>
 </div>
@@ -1647,7 +1651,7 @@ Friends</h2></td></tr>
 
 <p>remove tokens belong to the file </p>
 
-<p>References <a class="el" href="classTokenTree#z7-at">at()</a>, <a class="el" href="classTokenTree#ld-CheckChildRemove">CheckChildRemove()</a>, <a class="el" href="classToken#ss-m_FileIdx">Token::m_FileIdx</a>, <a class="el" href="classTokenTree#t7-m_FileMap">m_FileMap</a>, <a class="el" href="classToken#ot-m_ImplFileIdx">Token::m_ImplFileIdx</a>, <a class="el" href="classToken#ur-m_ImplLine">Token::m_ImplLine</a>, <a class="el" href="classToken#qp-m_Line">Token::m_Line</a>, <a class="el" href="classTokenTree#yj-m_Tokens">m_Tokens</a>, and <a class="el" href="classTokenTree#to-RemoveToken">RemoveToken()</a>.</p>
+<p>References <a class="el" href="classTokenTree#z7-at">at()</a>, <a class="el" href="classTokenTree#ld-CheckChildRemove">CheckChildRemove()</a>, <a class="el" href="classToken#q9-m_Doc">Token::m_Doc</a>, <a class="el" href="classToken#ss-m_FileIdx">Token::m_FileIdx</a>, <a class="el" href="classTokenTree#t7-m_FileMap">m_FileMap</a>, <a class="el" href="classToken#vw-m_ImplDoc">Token::m_ImplDoc</a>, <a class="el" href="classToken#ot-m_ImplFileIdx">Token::m_ImplFileIdx</a>, <a class="el" href="classToken#ur-m_ImplLine">Token::m_ImplLine</a>, <a class="el" href="classToken#qp-m_Line">Token::m_Line</a>, <a class="el" href="classTokenTree#yj-m_Tokens">m_Tokens</a>, and <a class="el" href="classTokenTree#to-RemoveToken">RemoveToken()</a>.</p>
 
 </div>
 </div>
@@ -1701,7 +1705,7 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>References <a class="el" href="classCCLogger#ux-DebugLog">CCLogger::DebugLog()</a>, <a class="el" href="classCCLogger#ma-Get">CCLogger::Get()</a>, <a class="el" href="classSearchTree#qg-GetItemAtPos">SearchTree&lt; T &gt;::GetItemAtPos()</a>, <a class="el" href="classBasicSearchTree#xm-GetItemNo">BasicSearchTree::GetItemNo()</a>, <a class="el" href="classToken#iq-m_Ancestors">Token::m_Ancestors</a>, <a class="el" href="classToken#jd-m_Children">Token::m_Children</a>, <a class="el" href="classToken#od-m_Descendants">Token::m_Descendants</a>, <a class="el" href="classToken#fb-m_DirectAncestors">Token::m_DirectAncestors</a>, <a class="el" href="classTokenTree#of-m_GlobalNameSpaces">m_GlobalNameSpaces</a>, <a class="el" href="classToken#zl-m_Index">Token::m_Index</a>, <a class="el" href="classToken#el-m_Name">Token::m_Name</a>, <a class="el" href="classToken#wc-m_ParentIndex">Token::m_ParentIndex</a>, <a class="el" href="classTokenTree#f0-m_TokenDocumentationMap">m_TokenDocumentationMap</a>, <a class="el" href="classTokenTree#yj-m_Tokens">m_Tokens</a>, <a class="el" href="classTokenTree#ao-m_TopNameSpaces">m_TopNameSpaces</a>, <a class="el" href="classTokenTree#p2-m_Tree">m_Tree</a>, <a class="el" href="classTokenTree#to-RemoveToken">RemoveToken()</a>, and <a class="el" href="classTokenTree#am-RemoveTokenFromList">RemoveTokenFromList()</a>.</p>
+<p>References <a class="el" href="classCCLogger#ux-DebugLog">CCLogger::DebugLog()</a>, <a class="el" href="classCCLogger#ma-Get">CCLogger::Get()</a>, <a class="el" href="classSearchTree#qg-GetItemAtPos">SearchTree&lt; T &gt;::GetItemAtPos()</a>, <a class="el" href="classBasicSearchTree#xm-GetItemNo">BasicSearchTree::GetItemNo()</a>, <a class="el" href="classToken#iq-m_Ancestors">Token::m_Ancestors</a>, <a class="el" href="classToken#jd-m_Children">Token::m_Children</a>, <a class="el" href="classToken#od-m_Descendants">Token::m_Descendants</a>, <a class="el" href="classToken#fb-m_DirectAncestors">Token::m_DirectAncestors</a>, <a class="el" href="classTokenTree#of-m_GlobalNameSpaces">m_GlobalNameSpaces</a>, <a class="el" href="classToken#zl-m_Index">Token::m_Index</a>, <a class="el" href="classToken#el-m_Name">Token::m_Name</a>, <a class="el" href="classToken#wc-m_ParentIndex">Token::m_ParentIndex</a>, <a class="el" href="classTokenTree#yj-m_Tokens">m_Tokens</a>, <a class="el" href="classTokenTree#ao-m_TopNameSpaces">m_TopNameSpaces</a>, <a class="el" href="classTokenTree#p2-m_Tree">m_Tree</a>, <a class="el" href="classTokenTree#to-RemoveToken">RemoveToken()</a>, and <a class="el" href="classTokenTree#am-RemoveTokenFromList">RemoveTokenFromList()</a>.</p>
 
 </div>
 </div>
@@ -1871,7 +1875,7 @@ Friends</h2></td></tr>
 
 <p>References <a class="el" href="classSearchTree#qg-GetItemAtPos">SearchTree&lt; T &gt;::GetItemAtPos()</a>, <a class="el" href="classBasicSearchTree#xm-GetItemNo">BasicSearchTree::GetItemNo()</a>, <a class="el" href="classToken#wc-m_ParentIndex">Token::m_ParentIndex</a>, <a class="el" href="classToken#ky-m_TokenKind">Token::m_TokenKind</a>, <a class="el" href="classTokenTree#yj-m_Tokens">m_Tokens</a>, and <a class="el" href="classTokenTree#p2-m_Tree">m_Tree</a>.</p>
 
-<p>Referenced by <a class="el" href="classTokenizer#pi-CalcConditionExpression">Tokenizer::CalcConditionExpression()</a>, <a class="el" href="classParserThread#nq-CalcEnumExpression">ParserThread::CalcEnumExpression()</a>, <a class="el" href="classNativeParserBase#aa-ComputeCallTip">NativeParserBase::ComputeCallTip()</a>, <a class="el" href="classParserThread#tn-DoParse">ParserThread::DoParse()</a>, <a class="el" href="classTokenizer#u0-GetReplacedToken">Tokenizer::GetReplacedToken()</a>, <a class="el" href="classTokenizer#wz-IsMacroDefined">Tokenizer::IsMacroDefined()</a>, <a class="el" href="classCodeCompletion#k5-OnGotoDeclaration">CodeCompletion::OnGotoDeclaration()</a>, <a class="el" href="classNativeParser#gu-ParseBufferForUsingNamespace">NativeParser::ParseBufferForUsingNamespace()</a>, <a class="el" href="classNativeParserBase#nr-PrettyPrintToken">NativeParserBase::PrettyPrintToken()</a>, <a class="el" href="classTokenTree#ww-RecalcInheritanceChain">RecalcInheritanceChain()</a>, and <a class="el" href="classParserThread#mq-TokenExists">ParserThread::TokenExists()</a>.</p>
+<p>Referenced by <a class="el" href="classTokenizer#bp-AddMacroDefinition">Tokenizer::AddMacroDefinition()</a>, <a class="el" href="classParserThread#nq-CalcEnumExpression">ParserThread::CalcEnumExpression()</a>, <a class="el" href="classTokenizer#oa-CheckMacroUsageAndReplace">Tokenizer::CheckMacroUsageAndReplace()</a>, <a class="el" href="classNativeParserBase#aa-ComputeCallTip">NativeParserBase::ComputeCallTip()</a>, <a class="el" href="classTokenizer#us-HandleUndefs">Tokenizer::HandleUndefs()</a>, <a class="el" href="classTokenizer#wz-IsMacroDefined">Tokenizer::IsMacroDefined()</a>, <a class="el" href="classCodeCompletion#k5-OnGotoDeclaration">CodeCompletion::OnGotoDeclaration()</a>, <a class="el" href="classNativeParser#gu-ParseBufferForUsingNamespace">NativeParser::ParseBufferForUsingNamespace()</a>, <a class="el" href="classNativeParserBase#nr-PrettyPrintToken">NativeParserBase::PrettyPrintToken()</a>, <a class="el" href="classTokenTree#ww-RecalcInheritanceChain">RecalcInheritanceChain()</a>, and <a class="el" href="classParserThread#mq-TokenExists">ParserThread::TokenExists()</a>.</p>
 
 </div>
 </div>
@@ -2249,30 +2253,6 @@ Friends</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="f0-m_TokenDocumentationMap"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="tokentree_8h#om-TokenIdxStringMap">TokenIdxStringMap</a> TokenTree::m_TokenDocumentationMap</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Map: token index -&gt; documentation. </p>
-
-<p>Referenced by <a class="el" href="classTokenTree#hm-AppendDocumentation">AppendDocumentation()</a>, <a class="el" href="classTokenTree#nu-clear">clear()</a>, <a class="el" href="classTokenTree#mb-GetDocumentation">GetDocumentation()</a>, and <a class="el" href="classTokenTree#qs-RemoveToken">RemoveToken()</a>.</p>
-
-</div>
-</div>
 <a class="anchor" id="yj-m_Tokens"></a>
 <div class="memitem">
 <div class="memproto">
@@ -2307,7 +2287,7 @@ Friends</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Referenced by <a class="el" href="classParserThread#hd-DoAddToken">ParserThread::DoAddToken()</a>, and <a class="el" href="classParserThread#fp-FindTokenFromQueue">ParserThread::FindTokenFromQueue()</a>.</p>
+<p>Referenced by <a class="el" href="classTokenizer#bp-AddMacroDefinition">Tokenizer::AddMacroDefinition()</a>, <a class="el" href="classParserThread#hd-DoAddToken">ParserThread::DoAddToken()</a>, and <a class="el" href="classParserThread#fp-FindTokenFromQueue">ParserThread::FindTokenFromQueue()</a>.</p>
 
 </div>
 </div>

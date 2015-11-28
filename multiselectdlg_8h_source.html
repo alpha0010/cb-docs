@@ -18,7 +18,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">Code::Blocks
-   &#160;<span id="projectnumber">SVN r10408</span>
+   &#160;<span id="projectnumber">SVN r10603</span>
    </div>
   </td>
  </tr>
@@ -64,54 +64,43 @@
 <div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="preprocessor">#include &lt;wx/dynarray.h&gt;</span></div>
 <div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="scrollingdialog_8h">scrollingdialog.h</a>&quot;</span></div>
 <div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;</div>
-<div class="line"><a name="l00014"></a><span class="lineno"><a class="line" href="classMultiSelectDlg">   14</a></span>&#160;<span class="keyword">class </span><a class="code" href="classMultiSelectDlg">MultiSelectDlg</a> : <span class="keyword">public</span> <a class="code" href="classwxScrollingDialog">wxScrollingDialog</a></div>
+<div class="line"><a name="l00014"></a><span class="lineno"><a class="line" href="classMultiSelectDlg">   14</a></span>&#160;<span class="keyword">class </span><a class="code" href="settings_8h#oc-DLLIMPORT">DLLIMPORT</a> <a class="code" href="classMultiSelectDlg">MultiSelectDlg</a> : <span class="keyword">public</span> <a class="code" href="classwxScrollingDialog">wxScrollingDialog</a></div>
 <div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;{</div>
 <div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;    <span class="keyword">public</span>:</div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;        <a class="code" href="classMultiSelectDlg#ra-MultiSelectDlg">MultiSelectDlg</a>(wxWindow* parent,</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;        <a class="code" href="classMultiSelectDlg">MultiSelectDlg</a>(wxWindow* parent,</div>
 <div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;                       <span class="keyword">const</span> wxArrayString&amp; items,</div>
 <div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;                       <span class="keyword">const</span> wxString&amp; wildcard,</div>
 <div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;                       <span class="keyword">const</span> wxString&amp; label = _(<span class="stringliteral">&quot;Select items:&quot;</span>),</div>
 <div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;                       <span class="keyword">const</span> wxString&amp; title = _(<span class="stringliteral">&quot;Multiple selection&quot;</span>));</div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;        <a class="code" href="classMultiSelectDlg#ra-MultiSelectDlg">MultiSelectDlg</a>(wxWindow* parent,</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;        <a class="code" href="classMultiSelectDlg">MultiSelectDlg</a>(wxWindow* parent,</div>
 <div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;                       <span class="keyword">const</span> wxArrayString&amp; items,</div>
 <div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;                       <span class="keywordtype">bool</span> selectall = <span class="keyword">false</span>,</div>
 <div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;                       <span class="keyword">const</span> wxString&amp; label = _(<span class="stringliteral">&quot;Select items:&quot;</span>),</div>
 <div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;                       <span class="keyword">const</span> wxString&amp; title = _(<span class="stringliteral">&quot;Multiple selection&quot;</span>));</div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;        <span class="keyword">virtual</span> <a class="code" href="classMultiSelectDlg#wd-MultiSelectDlg">~MultiSelectDlg</a>();</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;        <span class="keyword">virtual</span> ~<a class="code" href="classMultiSelectDlg">MultiSelectDlg</a>();</div>
 <div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;</div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;        wxArrayString <a class="code" href="classMultiSelectDlg#g2-GetSelectedStrings">GetSelectedStrings</a>() <span class="keyword">const</span>;</div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;        wxArrayInt <a class="code" href="classMultiSelectDlg#lk-GetSelectedIndices">GetSelectedIndices</a>() <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;        wxArrayString GetSelectedStrings() <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;        wxArrayInt GetSelectedIndices() <span class="keyword">const</span>;</div>
 <div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;</div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="classMultiSelectDlg#v9-SelectWildCard">SelectWildCard</a>(<span class="keyword">const</span> wxString&amp; wild, <span class="keywordtype">bool</span> select = <span class="keyword">true</span>, <span class="keywordtype">bool</span> clearOld = <span class="keyword">false</span>);</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;        <span class="keywordtype">void</span> SelectWildCard(<span class="keyword">const</span> wxString&amp; wild, <span class="keywordtype">bool</span> select = <span class="keyword">true</span>, <span class="keywordtype">bool</span> clearOld = <span class="keyword">false</span>);</div>
 <div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    <span class="keyword">protected</span>:</div>
 <div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="classwxScrollingDialog#yz-Init">Init</a>(<span class="keyword">const</span> wxArrayString&amp; items, <span class="keyword">const</span> wxString&amp; wildcard);</div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="classMultiSelectDlg#nv-UpdateStatus">UpdateStatus</a>();</div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="classMultiSelectDlg#ly-OnWildcard">OnWildcard</a>(wxCommandEvent&amp; event);</div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="classMultiSelectDlg#fj-OnToggle">OnToggle</a>(wxCommandEvent&amp; event);</div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="classMultiSelectDlg#yy-OnSelectAll">OnSelectAll</a>(wxCommandEvent&amp; event);</div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="classMultiSelectDlg#cf-OnDeselectAll">OnDeselectAll</a>(wxCommandEvent&amp; event);</div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="classMultiSelectDlg#d8-OnItemToggle">OnItemToggle</a>(wxCommandEvent&amp; event);</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;        <span class="keywordtype">void</span> UpdateStatus();</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;        <span class="keywordtype">void</span> OnWildcard(wxCommandEvent&amp; event);</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;        <span class="keywordtype">void</span> OnToggle(wxCommandEvent&amp; event);</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;        <span class="keywordtype">void</span> OnSelectAll(wxCommandEvent&amp; event);</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;        <span class="keywordtype">void</span> OnDeselectAll(wxCommandEvent&amp; event);</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;        <span class="keywordtype">void</span> OnItemToggle(wxCommandEvent&amp; event);</div>
 <div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    <span class="keyword">private</span>:</div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;        <a class="code" href="classMultiSelectDlg#dc-DECLARE_EVENT_TABLE">DECLARE_EVENT_TABLE</a>();</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;        DECLARE_EVENT_TABLE();</div>
 <div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;};</div>
 <div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;</div>
 <div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;<span class="preprocessor">#endif // MULTISELECTDLG_H</span></div>
-<div class="ttc" id="classMultiSelectDlg_nv-UpdateStatus"><div class="ttname"><a href="classMultiSelectDlg#nv-UpdateStatus">MultiSelectDlg::UpdateStatus</a></div><div class="ttdeci">void UpdateStatus()</div><div class="ttdef"><b>Definition:</b> multiselectdlg.cpp:74</div></div>
-<div class="ttc" id="classMultiSelectDlg_yy-OnSelectAll"><div class="ttname"><a href="classMultiSelectDlg#yy-OnSelectAll">MultiSelectDlg::OnSelectAll</a></div><div class="ttdeci">void OnSelectAll(wxCommandEvent &amp;event)</div><div class="ttdef"><b>Definition:</b> multiselectdlg.cpp:185</div></div>
-<div class="ttc" id="classwxScrollingDialog"><div class="ttname"><a href="classwxScrollingDialog">wxScrollingDialog</a></div><div class="ttdef"><b>Definition:</b> scrollingdialog.h:162</div></div>
-<div class="ttc" id="classMultiSelectDlg_lk-GetSelectedIndices"><div class="ttname"><a href="classMultiSelectDlg#lk-GetSelectedIndices">MultiSelectDlg::GetSelectedIndices</a></div><div class="ttdeci">wxArrayInt GetSelectedIndices() const </div><div class="ttdef"><b>Definition:</b> multiselectdlg.cpp:100</div></div>
+<div class="ttc" id="classwxScrollingDialog"><div class="ttname"><a href="classwxScrollingDialog">wxScrollingDialog</a></div><div class="ttdef"><b>Definition:</b> scrollingdialog.h:163</div></div>
 <div class="ttc" id="scrollingdialog_8h"><div class="ttname"><a href="scrollingdialog_8h">scrollingdialog.h</a></div></div>
 <div class="ttc" id="classwxScrollingDialog_yz-Init"><div class="ttname"><a href="classwxScrollingDialog#yz-Init">wxScrollingDialog::Init</a></div><div class="ttdeci">void Init()</div><div class="ttdef"><b>Definition:</b> scrollingdialog.cpp:425</div></div>
-<div class="ttc" id="classMultiSelectDlg_d8-OnItemToggle"><div class="ttname"><a href="classMultiSelectDlg#d8-OnItemToggle">MultiSelectDlg::OnItemToggle</a></div><div class="ttdeci">void OnItemToggle(wxCommandEvent &amp;event)</div><div class="ttdef"><b>Definition:</b> multiselectdlg.cpp:171</div></div>
-<div class="ttc" id="classMultiSelectDlg_wd-MultiSelectDlg"><div class="ttname"><a href="classMultiSelectDlg#wd-MultiSelectDlg">MultiSelectDlg::~MultiSelectDlg</a></div><div class="ttdeci">virtual ~MultiSelectDlg()</div><div class="ttdef"><b>Definition:</b> multiselectdlg.cpp:60</div></div>
-<div class="ttc" id="classMultiSelectDlg_dc-DECLARE_EVENT_TABLE"><div class="ttname"><a href="classMultiSelectDlg#dc-DECLARE_EVENT_TABLE">MultiSelectDlg::DECLARE_EVENT_TABLE</a></div><div class="ttdeci">DECLARE_EVENT_TABLE()</div></div>
+<div class="ttc" id="settings_8h_oc-DLLIMPORT"><div class="ttname"><a href="settings_8h#oc-DLLIMPORT">DLLIMPORT</a></div><div class="ttdeci">#define DLLIMPORT</div><div class="ttdef"><b>Definition:</b> settings.h:16</div></div>
 <div class="ttc" id="classMultiSelectDlg"><div class="ttname"><a href="classMultiSelectDlg">MultiSelectDlg</a></div><div class="ttdef"><b>Definition:</b> multiselectdlg.h:14</div></div>
-<div class="ttc" id="classMultiSelectDlg_ra-MultiSelectDlg"><div class="ttname"><a href="classMultiSelectDlg#ra-MultiSelectDlg">MultiSelectDlg::MultiSelectDlg</a></div><div class="ttdeci">MultiSelectDlg(wxWindow *parent, const wxArrayString &amp;items, const wxString &amp;wildcard, const wxString &amp;label=_(&quot;Select items:&quot;), const wxString &amp;title=_(&quot;Multiple selection&quot;))</div><div class="ttdef"><b>Definition:</b> multiselectdlg.cpp:32</div></div>
-<div class="ttc" id="classMultiSelectDlg_v9-SelectWildCard"><div class="ttname"><a href="classMultiSelectDlg#v9-SelectWildCard">MultiSelectDlg::SelectWildCard</a></div><div class="ttdeci">void SelectWildCard(const wxString &amp;wild, bool select=true, bool clearOld=false)</div><div class="ttdef"><b>Definition:</b> multiselectdlg.cpp:112</div></div>
-<div class="ttc" id="classMultiSelectDlg_ly-OnWildcard"><div class="ttname"><a href="classMultiSelectDlg#ly-OnWildcard">MultiSelectDlg::OnWildcard</a></div><div class="ttdeci">void OnWildcard(wxCommandEvent &amp;event)</div><div class="ttdef"><b>Definition:</b> multiselectdlg.cpp:142</div></div>
-<div class="ttc" id="classMultiSelectDlg_fj-OnToggle"><div class="ttname"><a href="classMultiSelectDlg#fj-OnToggle">MultiSelectDlg::OnToggle</a></div><div class="ttdeci">void OnToggle(wxCommandEvent &amp;event)</div><div class="ttdef"><b>Definition:</b> multiselectdlg.cpp:176</div></div>
-<div class="ttc" id="classMultiSelectDlg_cf-OnDeselectAll"><div class="ttname"><a href="classMultiSelectDlg#cf-OnDeselectAll">MultiSelectDlg::OnDeselectAll</a></div><div class="ttdeci">void OnDeselectAll(wxCommandEvent &amp;event)</div><div class="ttdef"><b>Definition:</b> multiselectdlg.cpp:194</div></div>
-<div class="ttc" id="classMultiSelectDlg_g2-GetSelectedStrings"><div class="ttname"><a href="classMultiSelectDlg#g2-GetSelectedStrings">MultiSelectDlg::GetSelectedStrings</a></div><div class="ttdeci">wxArrayString GetSelectedStrings() const </div><div class="ttdef"><b>Definition:</b> multiselectdlg.cpp:88</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

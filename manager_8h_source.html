@@ -18,7 +18,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">Code::Blocks
-   &#160;<span id="projectnumber">SVN r10408</span>
+   &#160;<span id="projectnumber">SVN r10603</span>
    </div>
   </td>
  </tr>
@@ -198,7 +198,7 @@
 <div class="line"><a name="l00179"></a><span class="lineno"><a class="line" href="classManager#cx-m_SearchResultLog">  179</a></span>&#160;    <a class="code" href="classcbSearchResultsLog">cbSearchResultsLog</a> *<a class="code" href="classManager#cx-m_SearchResultLog">m_SearchResultLog</a>;</div>
 <div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;};</div>
 <div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160;</div>
-<div class="line"><a name="l00182"></a><span class="lineno"><a class="line" href="classMgr">  182</a></span>&#160;<span class="keyword">template</span> &lt;<span class="keyword">class</span> MgrT&gt; <span class="keyword">class </span><a class="code" href="classMgr">Mgr</a></div>
+<div class="line"><a name="l00182"></a><span class="lineno"><a class="line" href="classMgr">  182</a></span>&#160;<span class="keyword">template</span> &lt;<span class="keyword">class</span> MgrT&gt; <span class="keyword">class </span><a class="code" href="settings_8h#oc-DLLIMPORT">DLLIMPORT</a> <a class="code" href="classMgr">Mgr</a></div>
 <div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160;{</div>
 <div class="line"><a name="l00184"></a><span class="lineno"><a class="line" href="classMgr#z8-instance">  184</a></span>&#160;    <span class="keyword">static</span> MgrT *<a class="code" href="classMgr#z8-instance">instance</a>;</div>
 <div class="line"><a name="l00185"></a><span class="lineno"><a class="line" href="classMgr#ff-isShutdown">  185</a></span>&#160;    <span class="keyword">static</span> <span class="keywordtype">bool</span> <a class="code" href="classMgr#ff-isShutdown">isShutdown</a>;</div>
@@ -212,20 +212,20 @@
 <div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;</div>
 <div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160;<span class="keyword">public</span>:</div>
 <div class="line"><a name="l00195"></a><span class="lineno">  195</span>&#160;</div>
-<div class="line"><a name="l00196"></a><span class="lineno"><a class="line" href="classMgr#ak-Valid">  196</a></span>&#160;    <span class="keyword">static</span> <span class="keyword">inline</span> <span class="keywordtype">bool</span> <a class="code" href="classMgr#ak-Valid">Valid</a>() { <span class="keywordflow">return</span> <a class="code" href="classMgr#z8-instance">instance</a>; }</div>
+<div class="line"><a name="l00196"></a><span class="lineno"><a class="line" href="classMgr#ak-Valid">  196</a></span>&#160;    <span class="keyword">static</span> <span class="keyword">inline</span> <span class="keywordtype">bool</span> <a class="code" href="classMgr#ak-Valid">Valid</a>() { <span class="keywordflow">return</span> instance; }</div>
 <div class="line"><a name="l00197"></a><span class="lineno">  197</span>&#160;</div>
 <div class="line"><a name="l00198"></a><span class="lineno"><a class="line" href="classMgr#xq-Get">  198</a></span>&#160;    <span class="keyword">static</span> <span class="keyword">inline</span> MgrT* <a class="code" href="classMgr#xq-Get">Get</a>()</div>
 <div class="line"><a name="l00199"></a><span class="lineno">  199</span>&#160;    {</div>
 <div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160;        <span class="keywordflow">if</span> (instance == <span class="keyword">nullptr</span> &amp;&amp; isShutdown == <span class="keyword">false</span>)</div>
 <div class="line"><a name="l00201"></a><span class="lineno">  201</span>&#160;            instance = <span class="keyword">new</span> MgrT();</div>
 <div class="line"><a name="l00202"></a><span class="lineno">  202</span>&#160;</div>
-<div class="line"><a name="l00203"></a><span class="lineno">  203</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="classMgr#z8-instance">instance</a>;</div>
+<div class="line"><a name="l00203"></a><span class="lineno">  203</span>&#160;        <span class="keywordflow">return</span> instance;</div>
 <div class="line"><a name="l00204"></a><span class="lineno">  204</span>&#160;    }</div>
 <div class="line"><a name="l00205"></a><span class="lineno">  205</span>&#160;</div>
 <div class="line"><a name="l00206"></a><span class="lineno"><a class="line" href="classMgr#xa-Free">  206</a></span>&#160;    <span class="keyword">static</span> <span class="keywordtype">void</span> <a class="code" href="classMgr#xa-Free">Free</a>()</div>
 <div class="line"><a name="l00207"></a><span class="lineno">  207</span>&#160;    {</div>
 <div class="line"><a name="l00208"></a><span class="lineno">  208</span>&#160;        isShutdown = <span class="keyword">true</span>;</div>
-<div class="line"><a name="l00209"></a><span class="lineno">  209</span>&#160;        <span class="keyword">delete</span> <a class="code" href="classMgr#z8-instance">instance</a>;</div>
+<div class="line"><a name="l00209"></a><span class="lineno">  209</span>&#160;        <span class="keyword">delete</span> instance;</div>
 <div class="line"><a name="l00210"></a><span class="lineno">  210</span>&#160;        instance = <span class="keyword">nullptr</span>;</div>
 <div class="line"><a name="l00211"></a><span class="lineno">  211</span>&#160;    }</div>
 <div class="line"><a name="l00212"></a><span class="lineno">  212</span>&#160;};</div>
@@ -286,7 +286,7 @@
 <div class="ttc" id="classToolsManager"><div class="ttname"><a href="classToolsManager">ToolsManager</a></div><div class="ttdef"><b>Definition:</b> toolsmanager.h:23</div></div>
 <div class="ttc" id="classMgr_wf-Mgr"><div class="ttname"><a href="classMgr#wf-Mgr">Mgr::~Mgr</a></div><div class="ttdeci">virtual ~Mgr()</div><div class="ttdef"><b>Definition:</b> manager.h:192</div></div>
 <div class="ttc" id="classManager_wq-m_CmdLineParser"><div class="ttname"><a href="classManager#wq-m_CmdLineParser">Manager::m_CmdLineParser</a></div><div class="ttdeci">static wxCmdLineParser m_CmdLineParser</div><div class="ttdef"><b>Definition:</b> manager.h:54</div></div>
-<div class="ttc" id="classDebuggerManager"><div class="ttname"><a href="classDebuggerManager">DebuggerManager</a></div><div class="ttdef"><b>Definition:</b> debuggermanager.h:219</div></div>
+<div class="ttc" id="classDebuggerManager"><div class="ttname"><a href="classDebuggerManager">DebuggerManager</a></div><div class="ttdef"><b>Definition:</b> debuggermanager.h:228</div></div>
 <div class="ttc" id="classCodeBlocksLayoutEvent"><div class="ttname"><a href="classCodeBlocksLayoutEvent">CodeBlocksLayoutEvent</a></div><div class="ttdoc">Event used to request from the main app to manage the view layouts. </div><div class="ttdef"><b>Definition:</b> sdk_events.h:158</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->

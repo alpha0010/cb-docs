@@ -18,7 +18,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">Code::Blocks
-   &#160;<span id="projectnumber">SVN r10408</span>
+   &#160;<span id="projectnumber">SVN r10603</span>
    </div>
   </td>
  </tr>
@@ -103,7 +103,7 @@
 <div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;        <span class="keyword">virtual</span> wxWindow* GetWindow() = 0;</div>
 <div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;</div>
 <div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;        <span class="keyword">virtual</span> <span class="keywordtype">void</span> Clear() = 0;</div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;        <span class="keyword">virtual</span> <span class="keywordtype">void</span> SetRegisterValue(<span class="keyword">const</span> wxString&amp; reg_name, <span class="keywordtype">size_t</span> value) = 0;</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;        <span class="keyword">virtual</span> <span class="keywordtype">void</span> SetRegisterValue(<span class="keyword">const</span> wxString&amp; reg_name, <span class="keyword">const</span> wxString&amp; hexValue, <span class="keyword">const</span> wxString&amp; interpreted) = 0;</div>
 <div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;        <span class="keyword">virtual</span> <span class="keywordtype">void</span> EnableWindow(<span class="keywordtype">bool</span> enable) = 0;</div>
 <div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;};</div>
 <div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;</div>
@@ -115,10 +115,10 @@
 <div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;        <span class="keyword">virtual</span> wxWindow* GetWindow() = 0;</div>
 <div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;</div>
 <div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;        <span class="keyword">virtual</span> <span class="keywordtype">void</span> Clear(<span class="keyword">const</span> <a class="code" href="classcbStackFrame">cbStackFrame</a>&amp; frame) = 0;</div>
-<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;        <span class="keyword">virtual</span> <span class="keywordtype">void</span> AddAssemblerLine(<span class="keywordtype">size_t</span> addr, <span class="keyword">const</span> wxString&amp; line) = 0;</div>
-<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;        <span class="keyword">virtual</span> <span class="keywordtype">void</span> AddSourceLine(<span class="keywordtype">size_t</span> lineno, <span class="keyword">const</span> wxString&amp; line) = 0;</div>
-<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;        <span class="keyword">virtual</span> <span class="keywordtype">bool</span> SetActiveAddress(<span class="keywordtype">size_t</span> addr) = 0;</div>
-<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;        <span class="keyword">virtual</span> <span class="keywordtype">void</span> CenterLine(<span class="keywordtype">size_t</span> lineno) = 0;</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;        <span class="keyword">virtual</span> <span class="keywordtype">void</span> AddAssemblerLine(uint64_t addr, <span class="keyword">const</span> wxString&amp; line) = 0;</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;        <span class="keyword">virtual</span> <span class="keywordtype">void</span> AddSourceLine(<span class="keywordtype">int</span> lineno, <span class="keyword">const</span> wxString&amp; line) = 0;</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;        <span class="keyword">virtual</span> <span class="keywordtype">bool</span> SetActiveAddress(uint64_t addr) = 0;</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;        <span class="keyword">virtual</span> <span class="keywordtype">void</span> CenterLine(<span class="keywordtype">int</span> lineno) = 0;</div>
 <div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;        <span class="keyword">virtual</span> <span class="keywordtype">void</span> CenterCurrentLine() = 0;</div>
 <div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;        <span class="keyword">virtual</span> <span class="keywordtype">bool</span> HasActiveAddr() = 0;</div>
 <div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;        <span class="keyword">virtual</span> <span class="keywordtype">void</span> EnableWindow(<span class="keywordtype">bool</span> enable) = 0;</div>

@@ -18,7 +18,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">Code::Blocks
-   &#160;<span id="projectnumber">SVN r10408</span>
+   &#160;<span id="projectnumber">SVN r10603</span>
    </div>
   </td>
  </tr>
@@ -236,8 +236,6 @@ Currently, no inter-project dependencies are supported but at some point they wi
 <p>Get the workspace file's name. </p>
 <dl class="section return"><dt>Returns</dt><dd>The name of the file this workspace was loaded from. </dd></dl>
 
-<p>References <a class="el" href="classcbWorkspace#ce-m_Filename">m_Filename</a>.</p>
-
 <p>Referenced by <a class="el" href="classMacrosManager#hf-ClearProjectKeys">MacrosManager::ClearProjectKeys()</a>, <a class="el" href="classCompilerGCC#t6-InitBuildLog">CompilerGCC::InitBuildLog()</a>, <a class="el" href="classMainFrame#nl-OnFileSaveAll">MainFrame::OnFileSaveAll()</a>, <a class="el" href="classMainFrame#vc-OnFileSaveWorkspace">MainFrame::OnFileSaveWorkspace()</a>, <a class="el" href="classMainFrame#fi-OnFileSaveWorkspaceAs">MainFrame::OnFileSaveWorkspaceAs()</a>, and <a class="el" href="classProjectManagerUI#s2-RebuildTree">ProjectManagerUI::RebuildTree()</a>.</p>
 
 </div>
@@ -266,8 +264,6 @@ Currently, no inter-project dependencies are supported but at some point they wi
 <p>Is this workspace modified? </p>
 <dl class="section return"><dt>Returns</dt><dd>True if the workspace is modified, false if not. </dd></dl>
 <dl class="section note"><dt>Note</dt><dd>A workspace is considered modified when projects are added-to/removed-from it, when the project's order is changed or when the active project is changed. </dd></dl>
-
-<p>References <a class="el" href="classcbWorkspace#lr-m_Modified">m_Modified</a>.</p>
 
 <p>Referenced by <a class="el" href="classMainFrame#ar-OnFileMenuUpdateUI">MainFrame::OnFileMenuUpdateUI()</a>, <a class="el" href="classMainFrame#nl-OnFileSaveAll">MainFrame::OnFileSaveAll()</a>, <a class="el" href="classProjectManagerUI#q3-QueryCloseWorkspace">ProjectManagerUI::QueryCloseWorkspace()</a>, and <a class="el" href="classProjectManager#yo-ReloadProject">ProjectManager::ReloadProject()</a>.</p>
 
@@ -316,8 +312,6 @@ Currently, no inter-project dependencies are supported but at some point they wi
 <p>Get the workspace's title. </p>
 <dl class="section return"><dt>Returns</dt><dd>The title of the workspace. </dd></dl>
 
-<p>References <a class="el" href="classcbWorkspace#yg-m_Title">m_Title</a>.</p>
-
 <p>Referenced by <a class="el" href="classMacrosManager#hf-ClearProjectKeys">MacrosManager::ClearProjectKeys()</a>, <a class="el" href="classProjectManager#zz-EndLoadingWorkspace">ProjectManager::EndLoadingWorkspace()</a>, <a class="el" href="classCompilerGCC#t6-InitBuildLog">CompilerGCC::InitBuildLog()</a>, <a class="el" href="classProjectManagerUI#kq-OnRenameWorkspace">ProjectManagerUI::OnRenameWorkspace()</a>, <a class="el" href="classProjectManagerUI#q3-QueryCloseWorkspace">ProjectManagerUI::QueryCloseWorkspace()</a>, and <a class="el" href="classProjectManagerUI#s2-RebuildTree">ProjectManagerUI::RebuildTree()</a>.</p>
 
 </div>
@@ -345,8 +339,6 @@ Currently, no inter-project dependencies are supported but at some point they wi
 
 <p>Is this workspace the Code::Blocks default? </p>
 <dl class="section return"><dt>Returns</dt><dd>True if the workspace is the default, false if not. </dd></dl>
-
-<p>References <a class="el" href="classcbWorkspace#g7-m_IsDefault">m_IsDefault</a>.</p>
 
 <p>Referenced by <a class="el" href="classMainFrame#ar-OnFileMenuUpdateUI">MainFrame::OnFileMenuUpdateUI()</a>, <a class="el" href="classMainFrame#k2-OnFileOpenDefWorkspace">MainFrame::OnFileOpenDefWorkspace()</a>, <a class="el" href="classMainFrame#nl-OnFileSaveAll">MainFrame::OnFileSaveAll()</a>, and <a class="el" href="classProjectManagerUI#q3-QueryCloseWorkspace">ProjectManagerUI::QueryCloseWorkspace()</a>.</p>
 
@@ -376,8 +368,6 @@ Currently, no inter-project dependencies are supported but at some point they wi
 <p>Was this workspace loaded successfully? </p>
 <dl class="section return"><dt>Returns</dt><dd>True if the workspace was loaded successfully, false if not. </dd></dl>
 <dl class="section note"><dt>Note</dt><dd>Because the only way to load a workspace is through its constructor, and because we don't use exceptions, this is the only way to know if loading succeeded. </dd></dl>
-
-<p>References <a class="el" href="classcbWorkspace#y3-m_IsOK">m_IsOK</a>.</p>
 
 <p>Referenced by <a class="el" href="classProjectManager#zz-EndLoadingWorkspace">ProjectManager::EndLoadingWorkspace()</a>, and <a class="el" href="classProjectManager#jo-LoadWorkspace">ProjectManager::LoadWorkspace()</a>.</p>
 
@@ -644,7 +634,7 @@ Currently, no inter-project dependencies are supported but at some point they wi
 </table>
 </div><div class="memdoc">
 
-<p>Referenced by <a class="el" href="classcbWorkspace#pp-cbWorkspace">cbWorkspace()</a>, <a class="el" href="classcbWorkspace#gs-GetFilename">GetFilename()</a>, <a class="el" href="classcbWorkspace#vb-Load">Load()</a>, <a class="el" href="classcbWorkspace#lu-LoadLayout">LoadLayout()</a>, <a class="el" href="classcbWorkspace#a6-Save">Save()</a>, <a class="el" href="classcbWorkspace#s3-SaveAs">SaveAs()</a>, and <a class="el" href="classcbWorkspace#p5-SaveLayout">SaveLayout()</a>.</p>
+<p>Referenced by <a class="el" href="classcbWorkspace#pp-cbWorkspace">cbWorkspace()</a>, <a class="el" href="classcbWorkspace#vb-Load">Load()</a>, <a class="el" href="classcbWorkspace#lu-LoadLayout">LoadLayout()</a>, <a class="el" href="classcbWorkspace#a6-Save">Save()</a>, <a class="el" href="classcbWorkspace#s3-SaveAs">SaveAs()</a>, and <a class="el" href="classcbWorkspace#p5-SaveLayout">SaveLayout()</a>.</p>
 
 </div>
 </div>
@@ -666,7 +656,7 @@ Currently, no inter-project dependencies are supported but at some point they wi
 </table>
 </div><div class="memdoc">
 
-<p>Referenced by <a class="el" href="classcbWorkspace#pp-cbWorkspace">cbWorkspace()</a>, <a class="el" href="classcbWorkspace#m2-IsDefault">IsDefault()</a>, <a class="el" href="classcbWorkspace#vb-Load">Load()</a>, and <a class="el" href="classcbWorkspace#s3-SaveAs">SaveAs()</a>.</p>
+<p>Referenced by <a class="el" href="classcbWorkspace#pp-cbWorkspace">cbWorkspace()</a>, <a class="el" href="classcbWorkspace#vb-Load">Load()</a>, and <a class="el" href="classcbWorkspace#s3-SaveAs">SaveAs()</a>.</p>
 
 </div>
 </div>
@@ -688,7 +678,7 @@ Currently, no inter-project dependencies are supported but at some point they wi
 </table>
 </div><div class="memdoc">
 
-<p>Referenced by <a class="el" href="classcbWorkspace#gs-IsOK">IsOK()</a>, and <a class="el" href="classcbWorkspace#vb-Load">Load()</a>.</p>
+<p>Referenced by <a class="el" href="classcbWorkspace#vb-Load">Load()</a>.</p>
 
 </div>
 </div>
@@ -710,7 +700,7 @@ Currently, no inter-project dependencies are supported but at some point they wi
 </table>
 </div><div class="memdoc">
 
-<p>Referenced by <a class="el" href="classcbWorkspace#gt-GetModified">GetModified()</a>, <a class="el" href="classcbWorkspace#a6-Save">Save()</a>, and <a class="el" href="classcbWorkspace#md-SetModified">SetModified()</a>.</p>
+<p>Referenced by <a class="el" href="classcbWorkspace#a6-Save">Save()</a>, and <a class="el" href="classcbWorkspace#md-SetModified">SetModified()</a>.</p>
 
 </div>
 </div>
@@ -754,7 +744,7 @@ Currently, no inter-project dependencies are supported but at some point they wi
 </table>
 </div><div class="memdoc">
 
-<p>Referenced by <a class="el" href="classcbWorkspace#pi-GetTitle">GetTitle()</a>, <a class="el" href="classcbWorkspace#vb-Load">Load()</a>, <a class="el" href="classcbWorkspace#a6-Save">Save()</a>, and <a class="el" href="classcbWorkspace#a9-SetTitle">SetTitle()</a>.</p>
+<p>Referenced by <a class="el" href="classcbWorkspace#vb-Load">Load()</a>, <a class="el" href="classcbWorkspace#a6-Save">Save()</a>, and <a class="el" href="classcbWorkspace#a9-SetTitle">SetTitle()</a>.</p>
 
 </div>
 </div>

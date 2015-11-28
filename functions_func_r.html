@@ -18,7 +18,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">Code::Blocks
-   &#160;<span id="projectnumber">SVN r10408</span>
+   &#160;<span id="projectnumber">SVN r10603</span>
    </div>
   </td>
  </tr>
@@ -95,6 +95,9 @@
 , <a class="el" href="classConfigManagerWrapper#h0-Read">ConfigManagerWrapper</a>
 , <a class="el" href="structSQFile#dh-Read">SQFile</a>
 </li>
+<li>ReadAngleBrackets()
+: <a class="el" href="classParserThread#it-ReadAngleBrackets">ParserThread</a>
+</li>
 <li>ReadAppPath()
 : <a class="el" href="classConfigManager#d8-ReadAppPath">ConfigManager</a>
 </li>
@@ -163,7 +166,7 @@
 : <a class="el" href="classConfigManager#k3-ReadSSMap">ConfigManager</a>
 </li>
 <li>ReadToEOL()
-: <a class="el" href="classTokenizer#j7-ReadToEOL">Tokenizer</a>
+: <a class="el" href="classTokenizer#po-ReadToEOL">Tokenizer</a>
 </li>
 <li>ReadVarNames()
 : <a class="el" href="classParserThread#p3-ReadVarNames">ParserThread</a>
@@ -488,6 +491,9 @@
 <li>RemovePage()
 : <a class="el" href="classcbAuiNotebook#g7-RemovePage">cbAuiNotebook</a>
 </li>
+<li>RemoveParserThread()
+: <a class="el" href="classParser#z8-RemoveParserThread">Parser</a>
+</li>
 <li>RemovePlatform()
 : <a class="el" href="classCompileOptionsBase#xx-RemovePlatform">CompileOptionsBase</a>
 </li>
@@ -505,9 +511,6 @@
 <li>RemoveProjectFromParser()
 : <a class="el" href="classNativeParser#bg-RemoveProjectFromParser">NativeParser</a>
 </li>
-<li>RemoveReplacementString()
-: <a class="el" href="classTokenizer#lk-RemoveReplacementString">Tokenizer</a>
-</li>
 <li>RemoveResourceCompilerOption()
 : <a class="el" href="classCompileOptionsBase#tp-RemoveResourceCompilerOption">CompileOptionsBase</a>
 </li>
@@ -518,7 +521,7 @@
 : <a class="el" href="classParserThread#a8-RemoveTemplateArgs">ParserThread</a>
 </li>
 <li>RemoveToken()
-: <a class="el" href="classTokenTree#qs-RemoveToken">TokenTree</a>
+: <a class="el" href="classTokenTree#to-RemoveToken">TokenTree</a>
 </li>
 <li>RemoveTokenFromList()
 : <a class="el" href="classTokenTree#am-RemoveTokenFromList">TokenTree</a>
@@ -552,7 +555,7 @@
 : <a class="el" href="classProjectFile#nb-Rename">ProjectFile</a>
 </li>
 <li>RenameBuildTarget()
-: <a class="el" href="classcbProject#uv-RenameBuildTarget">cbProject</a>
+: <a class="el" href="classcbProject#ev-RenameBuildTarget">cbProject</a>
 , <a class="el" href="classProjectFile#tf-RenameBuildTarget">ProjectFile</a>
 </li>
 <li>RenameGroup()
@@ -599,7 +602,7 @@
 , <a class="el" href="classwxScintilla#o8-Replace">wxScintilla</a>
 </li>
 <li>ReplaceBufferText()
-: <a class="el" href="classTokenizer#hh-ReplaceBufferText">Tokenizer</a>
+: <a class="el" href="classTokenizer#i3-ReplaceBufferText">Tokenizer</a>
 </li>
 <li>ReplaceCompilerOption()
 : <a class="el" href="classCompileOptionsBase#fn-ReplaceCompilerOption">CompileOptionsBase</a>
@@ -633,9 +636,6 @@
 </li>
 <li>ReplaceMacroUsage()
 : <a class="el" href="classTokenizer#v8-ReplaceMacroUsage">Tokenizer</a>
-</li>
-<li>ReplacementTokenListClientData()
-: <a class="el" href="structReplacementTokenListClientData#ss-ReplacementTokenListClientDat">ReplacementTokenListClientData</a>
 </li>
 <li>ReplaceResourceCompilerOption()
 : <a class="el" href="classCompileOptionsBase#l4-ReplaceResourceCompilerOption">CompileOptionsBase</a>
@@ -752,8 +752,8 @@
 : <a class="el" href="classwxScintilla#py-RotateSelection">wxScintilla</a>
 </li>
 <li>Run()
-: <a class="el" href="classcbCompilerPlugin#qb-Run">cbCompilerPlugin</a>
-, <a class="el" href="classCompilerGCC#ad-Run">CompilerGCC</a>
+: <a class="el" href="classcbCompilerPlugin#os-Run">cbCompilerPlugin</a>
+, <a class="el" href="classCompilerGCC#hx-Run">CompilerGCC</a>
 </li>
 <li>RunCommand()
 : <a class="el" href="classDebuggerGDB#jd-RunCommand">DebuggerGDB</a>
