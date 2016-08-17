@@ -8,7 +8,6 @@
  viewBox="0.00 0.00 498.00 556.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 552)">
 <title>cbThreadedTask</title>
-<polygon fill="white" stroke="none" points="-4,4 -4,-552 494,-552 494,4 -4,4"/>
 <!-- Node1 -->
 <g id="node1" class="node"><title>Node1</title>
 <polygon fill="#bfbfbf" stroke="black" points="213,-435.5 213,-547.5 321,-547.5 321,-435.5 213,-435.5"/>
@@ -26,7 +25,7 @@
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
 <g id="a_node2"><a xlink:href="classMarkFileAsLocalThreadedTask" target="_top" xlink:title="{MarkFileAsLocalThreadedTask\n|&#45; m_Parser\l&#45; m_Project\l|+ MarkFileAsLocalThreadedTask()\l+ Execute()\l}">
-<polygon fill="white" stroke="black" points="0,-160 0,-239 164,-239 164,-160 0,-160"/>
+<polygon fill="none" stroke="black" points="0,-160 0,-239 164,-239 164,-160 0,-160"/>
 <text text-anchor="middle" x="82" y="-227" font-family="FreeSans" font-size="10.00">MarkFileAsLocalThreadedTask</text>
 <polyline fill="none" stroke="black" points="0,-220 164,-220 "/>
 <text text-anchor="start" x="8" y="-208" font-family="FreeSans" font-size="10.00">&#45; m_Parser</text>
@@ -45,7 +44,7 @@
 <!-- Node3 -->
 <g id="node3" class="node"><title>Node3</title>
 <g id="a_node3"><a xlink:href="classParserThread" target="_top" xlink:title="A parser threaded task, which can be assigned to the thread task pool, and run there. ">
-<polygon fill="white" stroke="black" points="182,-0.5 182,-398.5 352,-398.5 352,-0.5 182,-0.5"/>
+<polygon fill="none" stroke="black" points="182,-0.5 182,-398.5 352,-398.5 352,-0.5 182,-0.5"/>
 <text text-anchor="middle" x="267" y="-386.5" font-family="FreeSans" font-size="10.00">ParserThread</text>
 <polyline fill="none" stroke="black" points="182,-379.5 352,-379.5 "/>
 <text text-anchor="start" x="190" y="-367.5" font-family="FreeSans" font-size="10.00">&#45; m_Tokenizer</text>
@@ -56,7 +55,7 @@
 <text text-anchor="start" x="190" y="-312.5" font-family="FreeSans" font-size="10.00">&#45; m_Filename</text>
 <text text-anchor="start" x="190" y="-301.5" font-family="FreeSans" font-size="10.00">&#45; m_FileSize</text>
 <text text-anchor="start" x="190" y="-290.5" font-family="FreeSans" font-size="10.00">&#45; m_FileIdx</text>
-<text text-anchor="start" x="190" y="-279.5" font-family="FreeSans" font-size="10.00">and 15 more...</text>
+<text text-anchor="start" x="190" y="-279.5" font-family="FreeSans" font-size="10.00">and 14 more...</text>
 <polyline fill="none" stroke="black" points="182,-272.5 352,-272.5 "/>
 <text text-anchor="start" x="190" y="-260.5" font-family="FreeSans" font-size="10.00">+ ParserThread()</text>
 <text text-anchor="start" x="190" y="-249.5" font-family="FreeSans" font-size="10.00">+ ~ParserThread()</text>
@@ -93,7 +92,7 @@
 <!-- Node4 -->
 <g id="node4" class="node"><title>Node4</title>
 <g id="a_node4"><a xlink:href="classParserThreadedTask" target="_top" xlink:title="{ParserThreadedTask\n|&#45; m_Parser\l&#45; m_ParserMutex\l|+ ParserThreadedTask()\l+ Execute()\l}">
-<polygon fill="white" stroke="black" points="370,-160 370,-239 490,-239 490,-160 370,-160"/>
+<polygon fill="none" stroke="black" points="370,-160 370,-239 490,-239 490,-160 370,-160"/>
 <text text-anchor="middle" x="430" y="-227" font-family="FreeSans" font-size="10.00">ParserThreadedTask</text>
 <polyline fill="none" stroke="black" points="370,-220 490,-220 "/>
 <text text-anchor="start" x="378" y="-208" font-family="FreeSans" font-size="10.00">&#45; m_Parser</text>

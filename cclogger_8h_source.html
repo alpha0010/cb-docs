@@ -18,7 +18,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">Code::Blocks
-   &#160;<span id="projectnumber">SVN r10603</span>
+   &#160;<span id="projectnumber">SVN r10885</span>
    </div>
   </td>
  </tr>
@@ -30,6 +30,7 @@
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="index"><span>Main&#160;Page</span></a></li>
+      <li><a href="pages"><span>Related&#160;Pages</span></a></li>
       <li><a href="namespaces"><span>Namespaces</span></a></li>
       <li><a href="annotated"><span>Classes</span></a></li>
       <li class="current"><a href="files"><span>Files</span></a></li>
@@ -62,7 +63,7 @@
 <div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor">#include &lt;wx/string.h&gt;</span></div>
 <div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="preprocessor">#include &lt;wx/thread.h&gt;</span></div>
 <div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;</div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="preprocessor">#include &lt;memory&gt;</span> <span class="comment">// auto_ptr</span></div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="preprocessor">#include &lt;memory&gt;</span> <span class="comment">// unique_ptr</span></div>
 <div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;</div>
 <div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="cbexception_8h">cbexception.h</a>&gt;</span> <span class="comment">// cbAssert</span></div>
 <div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="logmanager_8h">logmanager.h</a>&gt;</span>  <span class="comment">// F()</span></div>
@@ -102,8 +103,8 @@
 <div class="line"><a name="l00049"></a><span class="lineno"><a class="line" href="classCCLogger#d6-operator">   49</a></span>&#160;    <a class="code" href="classCCLogger">CCLogger</a>&amp; <a class="code" href="classCCLogger#d6-operator">operator=</a>(<span class="keyword">const</span> <a class="code" href="classCCLogger">CCLogger</a>&amp;) { <span class="keywordflow">return</span> *<span class="keyword">this</span>; }</div>
 <div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;</div>
 <div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    <span class="comment">// static member variables (instance and critical section for Parser)</span></div>
-<div class="line"><a name="l00052"></a><span class="lineno"><a class="line" href="classCCLogger#h3-stdauto_ptrCCLogger">   52</a></span>&#160;    <span class="keyword">friend</span> <span class="keyword">class </span>std::auto_ptr&lt;<a class="code" href="classCCLogger">CCLogger</a>&gt;;</div>
-<div class="line"><a name="l00053"></a><span class="lineno"><a class="line" href="classCCLogger#zk-s_Inst">   53</a></span>&#160;    <span class="keyword">static</span> std::auto_ptr&lt;CCLogger&gt; <a class="code" href="classCCLogger#zk-s_Inst">s_Inst</a>;</div>
+<div class="line"><a name="l00052"></a><span class="lineno"><a class="line" href="classCCLogger#yk-stddefault_deleteCCLogger">   52</a></span>&#160;    <span class="keyword">friend</span> <span class="keyword">class </span>std::default_delete&lt;<a class="code" href="classCCLogger">CCLogger</a>&gt;;</div>
+<div class="line"><a name="l00053"></a><span class="lineno"><a class="line" href="classCCLogger#k1-s_Inst">   53</a></span>&#160;    <span class="keyword">static</span> std::unique_ptr&lt;CCLogger&gt; <a class="code" href="classCCLogger#k1-s_Inst">s_Inst</a>;</div>
 <div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;</div>
 <div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;<span class="keyword">private</span>:</div>
 <div class="line"><a name="l00056"></a><span class="lineno"><a class="line" href="classCCLogger#tq-m_Parent">   56</a></span>&#160;    wxEvtHandler* <a class="code" href="classCCLogger#tq-m_Parent">m_Parent</a>;</div>
@@ -233,10 +234,10 @@
 <div class="ttc" id="cclogger_8h_dz-g_DebugTraceFile"><div class="ttname"><a href="cclogger_8h#dz-g_DebugTraceFile">g_DebugTraceFile</a></div><div class="ttdeci">const wxString g_DebugTraceFile</div><div class="ttdoc">Trace file name (if above is enabled). </div><div class="ttdef"><b>Definition:</b> cclogger.cpp:23</div></div>
 <div class="ttc" id="classCCLogger_ma-Get"><div class="ttname"><a href="classCCLogger#ma-Get">CCLogger::Get</a></div><div class="ttdeci">static CCLogger * Get()</div><div class="ttdef"><b>Definition:</b> cclogger.cpp:58</div></div>
 <div class="ttc" id="classCCLogger_nt-Log"><div class="ttname"><a href="classCCLogger#nt-Log">CCLogger::Log</a></div><div class="ttdeci">void Log(const wxString &amp;msg)</div><div class="ttdef"><b>Definition:</b> cclogger.cpp:88</div></div>
+<div class="ttc" id="classCCLogger_k1-s_Inst"><div class="ttname"><a href="classCCLogger#k1-s_Inst">CCLogger::s_Inst</a></div><div class="ttdeci">static std::unique_ptr&lt; CCLogger &gt; s_Inst</div><div class="ttdef"><b>Definition:</b> cclogger.h:53</div></div>
 <div class="ttc" id="classCCLogger_jw-CCLogger"><div class="ttname"><a href="classCCLogger#jw-CCLogger">CCLogger::CCLogger</a></div><div class="ttdeci">CCLogger(const CCLogger &amp;)</div><div class="ttdef"><b>Definition:</b> cclogger.h:48</div></div>
 <div class="ttc" id="classCCLogger_gi-AddToken"><div class="ttname"><a href="classCCLogger#gi-AddToken">CCLogger::AddToken</a></div><div class="ttdeci">void AddToken(const wxString &amp;msg)</div><div class="ttdef"><b>Definition:</b> cclogger.cpp:75</div></div>
 <div class="ttc" id="classCCLogger_dl-m_DebugLogId"><div class="ttname"><a href="classCCLogger#dl-m_DebugLogId">CCLogger::m_DebugLogId</a></div><div class="ttdeci">int m_DebugLogId</div><div class="ttdef"><b>Definition:</b> cclogger.h:58</div></div>
-<div class="ttc" id="classCCLogger_zk-s_Inst"><div class="ttname"><a href="classCCLogger#zk-s_Inst">CCLogger::s_Inst</a></div><div class="ttdeci">static std::auto_ptr&lt; CCLogger &gt; s_Inst</div><div class="ttdef"><b>Definition:</b> cclogger.h:53</div></div>
 <div class="ttc" id="cclogger_8h_xc-g_idCCDebugLogger"><div class="ttname"><a href="cclogger_8h#xc-g_idCCDebugLogger">g_idCCDebugLogger</a></div><div class="ttdeci">long g_idCCDebugLogger</div><div class="ttdef"><b>Definition:</b> cclogger.cpp:26</div></div>
 <div class="ttc" id="prep_8h"><div class="ttname"><a href="prep_8h">prep.h</a></div></div>
 <div class="ttc" id="classCCLogger_ux-DebugLog"><div class="ttname"><a href="classCCLogger#ux-DebugLog">CCLogger::DebugLog</a></div><div class="ttdeci">void DebugLog(const wxString &amp;msg)</div><div class="ttdef"><b>Definition:</b> cclogger.cpp:105</div></div>

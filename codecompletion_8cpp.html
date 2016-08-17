@@ -18,7 +18,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">Code::Blocks
-   &#160;<span id="projectnumber">SVN r10603</span>
+   &#160;<span id="projectnumber">SVN r10885</span>
    </div>
   </td>
  </tr>
@@ -30,6 +30,7 @@
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="index"><span>Main&#160;Page</span></a></li>
+      <li><a href="pages"><span>Related&#160;Pages</span></a></li>
       <li><a href="namespaces"><span>Namespaces</span></a></li>
       <li><a href="annotated"><span>Classes</span></a></li>
       <li class="current"><a href="files"><span>Files</span></a></li>
@@ -58,33 +59,6 @@
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &lt;<a class="el" href="sdk_8h_source">sdk.h</a>&gt;</code><br />
-<code>#include &lt;algorithm&gt;</code><br />
-<code>#include &lt;iterator&gt;</code><br />
-<code>#include &lt;set&gt;</code><br />
-<code>#include &lt;wx/choicdlg.h&gt;</code><br />
-<code>#include &lt;wx/choice.h&gt;</code><br />
-<code>#include &lt;wx/dir.h&gt;</code><br />
-<code>#include &lt;wx/filename.h&gt;</code><br />
-<code>#include &lt;wx/fs_zip.h&gt;</code><br />
-<code>#include &lt;wx/menu.h&gt;</code><br />
-<code>#include &lt;wx/mimetype.h&gt;</code><br />
-<code>#include &lt;wx/msgdlg.h&gt;</code><br />
-<code>#include &lt;wx/regex.h&gt;</code><br />
-<code>#include &lt;wx/tipwin.h&gt;</code><br />
-<code>#include &lt;wx/toolbar.h&gt;</code><br />
-<code>#include &lt;wx/utils.h&gt;</code><br />
-<code>#include &lt;wx/xrc/xmlres.h&gt;</code><br />
-<code>#include &lt;<a class="el" href="wxscintilla_8h_source">wx/wxscintilla.h</a>&gt;</code><br />
-<code>#include &lt;<a class="el" href="cbeditor_8h_source">cbeditor.h</a>&gt;</code><br />
-<code>#include &lt;<a class="el" href="configmanager_8h_source">configmanager.h</a>&gt;</code><br />
-<code>#include &lt;<a class="el" href="editorcolourset_8h_source">editorcolourset.h</a>&gt;</code><br />
-<code>#include &lt;<a class="el" href="editormanager_8h_source">editormanager.h</a>&gt;</code><br />
-<code>#include &lt;<a class="el" href="globals_8h_source">globals.h</a>&gt;</code><br />
-<code>#include &lt;<a class="el" href="logmanager_8h_source">logmanager.h</a>&gt;</code><br />
-<code>#include &lt;<a class="el" href="macrosmanager_8h_source">macrosmanager.h</a>&gt;</code><br />
-<code>#include &lt;<a class="el" href="manager_8h_source">manager.h</a>&gt;</code><br />
-<code>#include &lt;<a class="el" href="projectmanager_8h_source">projectmanager.h</a>&gt;</code><br />
-<code>#include &lt;<a class="el" href="sdk__events_8h_source">sdk_events.h</a>&gt;</code><br />
 <code>#include &lt;wx/tokenzr.h&gt;</code><br />
 <code>#include &lt;wx/html/htmlwin.h&gt;</code><br />
 <code>#include &lt;<a class="el" href="cbstyledtextctrl_8h_source">cbstyledtextctrl.h</a>&gt;</code><br />
@@ -105,8 +79,7 @@
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for codecompletion.cpp:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="codecompletion_8cpp__incl.svg" width="4668" height="336"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="codecompletion_8cpp__incl.svg" width="10667" height="859"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
@@ -148,12 +121,16 @@ Functions</h2></td></tr>
 <tr class="memitem:p3-EqualNameSpace"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceCodeCompletionHelper#p3-EqualNameSpace">CodeCompletionHelper::EqualNameSpace</a> (const <a class="el" href="parserthread_8h#structNameSpace">NameSpace</a> &amp;ns1, const <a class="el" href="parserthread_8h#structNameSpace">NameSpace</a> &amp;ns2)</td></tr>
 <tr class="separator:p3-EqualNameSpace"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:lm-GetLastNonWhitespaceChar"><td class="memItemLeft" align="right" valign="top">wxChar&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceCodeCompletionHelper#lm-GetLastNonWhitespaceChar">CodeCompletionHelper::GetLastNonWhitespaceChar</a> (<a class="el" href="classcbStyledTextCtrl">cbStyledTextCtrl</a> *control, int position)</td></tr>
+<tr class="memdesc:lm-GetLastNonWhitespaceChar"><td class="mdescLeft">&#160;</td><td class="mdescRight">for OnGotoFunction(), search backward  <a href="namespaceCodeCompletionHelper#lm-GetLastNonWhitespaceChar">More...</a><br /></td></tr>
 <tr class="separator:lm-GetLastNonWhitespaceChar"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:xs-GetNextNonWhitespaceChar"><td class="memItemLeft" align="right" valign="top">wxChar&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceCodeCompletionHelper#xs-GetNextNonWhitespaceChar">CodeCompletionHelper::GetNextNonWhitespaceChar</a> (<a class="el" href="classcbStyledTextCtrl">cbStyledTextCtrl</a> *control, int position)</td></tr>
-<tr class="separator:xs-GetNextNonWhitespaceChar"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:q4-GetNextNonWhitespaceChar"><td class="memItemLeft" align="right" valign="top">xxxxx **begin result *wxChar&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceCodeCompletionHelper#q4-GetNextNonWhitespaceChar">CodeCompletionHelper::GetNextNonWhitespaceChar</a> (<a class="el" href="classcbStyledTextCtrl">cbStyledTextCtrl</a> *control, int position)</td></tr>
+<tr class="memdesc:q4-GetNextNonWhitespaceChar"><td class="mdescLeft">&#160;</td><td class="mdescRight">for OnGotoFunction(), search forward /* yyy  <a href="namespaceCodeCompletionHelper#q4-GetNextNonWhitespaceChar">More...</a><br /></td></tr>
+<tr class="separator:q4-GetNextNonWhitespaceChar"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gw-CompareStringLen"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceCodeCompletionHelper#gw-CompareStringLen">CodeCompletionHelper::CompareStringLen</a> (const wxString &amp;first, const wxString &amp;second)</td></tr>
+<tr class="memdesc:gw-CompareStringLen"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sorting in GetLocalIncludeDirs()  <a href="namespaceCodeCompletionHelper#gw-CompareStringLen">More...</a><br /></td></tr>
 <tr class="separator:gw-CompareStringLen"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:l0-TestIncludeLine"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceCodeCompletionHelper#l0-TestIncludeLine">CodeCompletionHelper::TestIncludeLine</a> (wxString const &amp;line)</td></tr>
+<tr class="memdesc:l0-TestIncludeLine"><td class="mdescLeft">&#160;</td><td class="mdescRight">for CodeCompleteIncludes() a line has some pattern like below  <a href="namespaceCodeCompletionHelper#l0-TestIncludeLine">More...</a><br /></td></tr>
 <tr class="separator:l0-TestIncludeLine"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gy-EditorHasNameUnderCursor"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceCodeCompletionHelper#gy-EditorHasNameUnderCursor">CodeCompletionHelper::EditorHasNameUnderCursor</a> (wxString &amp;NameUnderCursor, bool &amp;IsInclude)</td></tr>
 <tr class="memdesc:gy-EditorHasNameUnderCursor"><td class="mdescLeft">&#160;</td><td class="mdescRight">return identifier like token string under the current cursor pointer  <a href="namespaceCodeCompletionHelper#gy-EditorHasNameUnderCursor">More...</a><br /></td></tr>
@@ -233,8 +210,7 @@ Variables</h2></td></tr>
 </div><div class="dynheader">
 Collaboration diagram for CodeCompletionHelper::GotoDeclarationItem:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="structCodeCompletionHelper_1_1GotoDeclarationItem__coll__graph.svg" width="166" height="118"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="structCodeCompletionHelper_1_1GotoDeclarationItem__coll__graph.svg" width="166" height="118"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <table class="fieldtable">
 <tr><th colspan="3">Class Members</th></tr>

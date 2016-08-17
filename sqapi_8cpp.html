@@ -18,7 +18,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">Code::Blocks
-   &#160;<span id="projectnumber">SVN r10603</span>
+   &#160;<span id="projectnumber">SVN r10885</span>
    </div>
   </td>
  </tr>
@@ -30,6 +30,7 @@
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="index"><span>Main&#160;Page</span></a></li>
+      <li><a href="pages"><span>Related&#160;Pages</span></a></li>
       <li><a href="namespaces"><span>Namespaces</span></a></li>
       <li><a href="annotated"><span>Classes</span></a></li>
       <li class="current"><a href="files"><span>Files</span></a></li>
@@ -69,8 +70,7 @@
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for sqapi.cpp:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="sqapi_8cpp__incl.svg" width="1186" height="112"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="sqapi_8cpp__incl.svg" width="1186" height="112"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
@@ -105,7 +105,7 @@ Functions</h2></td></tr>
 <tr class="separator:bg-sq_setdebughook"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:w6-sq_close"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sqapi_8cpp#w6-sq_close">sq_close</a> (HSQUIRRELVM v)</td></tr>
 <tr class="separator:w6-sq_close"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:tb-sq_compile"><td class="memItemLeft" align="right" valign="top">SQRESULT&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sqapi_8cpp#tb-sq_compile">sq_compile</a> (HSQUIRRELVM v, SQLEXREADFUNC read, SQUserPointer p, const SQChar *sourcename, SQBool raiseerror)</td></tr>
+<tr class="memitem:tb-sq_compile"><td class="memItemLeft" align="right" valign="top">SQRESULT&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sqapi_8cpp#tb-sq_compile">sq_compile</a> (HSQUIRRELVM v, SQLEXREADFUNC read, SQUserPointer p, const <a class="el" href="scriptingmanager_8h#ss-SQChar">SQChar</a> *sourcename, SQBool raiseerror)</td></tr>
 <tr class="separator:tb-sq_compile"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ql-sq_enabledebuginfo"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sqapi_8cpp#ql-sq_enabledebuginfo">sq_enabledebuginfo</a> (HSQUIRRELVM v, SQBool enable)</td></tr>
 <tr class="separator:ql-sq_enabledebuginfo"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -115,7 +115,7 @@ Functions</h2></td></tr>
 <tr class="separator:gr-sq_addref"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:vc-sq_release"><td class="memItemLeft" align="right" valign="top">SQBool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sqapi_8cpp#vc-sq_release">sq_release</a> (HSQUIRRELVM v, HSQOBJECT *po)</td></tr>
 <tr class="separator:vc-sq_release"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:eo-sq_objtostring"><td class="memItemLeft" align="right" valign="top">const SQChar *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sqapi_8cpp#eo-sq_objtostring">sq_objtostring</a> (HSQOBJECT *o)</td></tr>
+<tr class="memitem:eo-sq_objtostring"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="scriptingmanager_8h#ss-SQChar">SQChar</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sqapi_8cpp#eo-sq_objtostring">sq_objtostring</a> (HSQOBJECT *o)</td></tr>
 <tr class="separator:eo-sq_objtostring"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:pq-sq_objtointeger"><td class="memItemLeft" align="right" valign="top">SQInteger&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sqapi_8cpp#pq-sq_objtointeger">sq_objtointeger</a> (HSQOBJECT *o)</td></tr>
 <tr class="separator:pq-sq_objtointeger"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -125,7 +125,7 @@ Functions</h2></td></tr>
 <tr class="separator:fe-sq_objtobool"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:f1-sq_pushnull"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sqapi_8cpp#f1-sq_pushnull">sq_pushnull</a> (HSQUIRRELVM v)</td></tr>
 <tr class="separator:f1-sq_pushnull"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:nu-sq_pushstring"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sqapi_8cpp#nu-sq_pushstring">sq_pushstring</a> (HSQUIRRELVM v, const SQChar *s, SQInteger len)</td></tr>
+<tr class="memitem:nu-sq_pushstring"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sqapi_8cpp#nu-sq_pushstring">sq_pushstring</a> (HSQUIRRELVM v, const <a class="el" href="scriptingmanager_8h#ss-SQChar">SQChar</a> *s, SQInteger len)</td></tr>
 <tr class="separator:nu-sq_pushstring"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:j4-sq_pushinteger"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sqapi_8cpp#j4-sq_pushinteger">sq_pushinteger</a> (HSQUIRRELVM v, SQInteger n)</td></tr>
 <tr class="separator:j4-sq_pushinteger"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -161,9 +161,9 @@ Functions</h2></td></tr>
 <tr class="separator:o0-sq_newclosure"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:g6-sq_getclosureinfo"><td class="memItemLeft" align="right" valign="top">SQRESULT&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sqapi_8cpp#g6-sq_getclosureinfo">sq_getclosureinfo</a> (HSQUIRRELVM v, SQInteger idx, SQUnsignedInteger *nparams, SQUnsignedInteger *nfreevars)</td></tr>
 <tr class="separator:g6-sq_getclosureinfo"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:p0-sq_setnativeclosurename"><td class="memItemLeft" align="right" valign="top">SQRESULT&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sqapi_8cpp#p0-sq_setnativeclosurename">sq_setnativeclosurename</a> (HSQUIRRELVM v, SQInteger idx, const SQChar *name)</td></tr>
+<tr class="memitem:p0-sq_setnativeclosurename"><td class="memItemLeft" align="right" valign="top">SQRESULT&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sqapi_8cpp#p0-sq_setnativeclosurename">sq_setnativeclosurename</a> (HSQUIRRELVM v, SQInteger idx, const <a class="el" href="scriptingmanager_8h#ss-SQChar">SQChar</a> *name)</td></tr>
 <tr class="separator:p0-sq_setnativeclosurename"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:lw-sq_setparamscheck"><td class="memItemLeft" align="right" valign="top">SQRESULT&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sqapi_8cpp#lw-sq_setparamscheck">sq_setparamscheck</a> (HSQUIRRELVM v, SQInteger nparamscheck, const SQChar *typemask)</td></tr>
+<tr class="memitem:lw-sq_setparamscheck"><td class="memItemLeft" align="right" valign="top">SQRESULT&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sqapi_8cpp#lw-sq_setparamscheck">sq_setparamscheck</a> (HSQUIRRELVM v, SQInteger nparamscheck, const <a class="el" href="scriptingmanager_8h#ss-SQChar">SQChar</a> *typemask)</td></tr>
 <tr class="separator:lw-sq_setparamscheck"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:cv-sq_bindenv"><td class="memItemLeft" align="right" valign="top">SQRESULT&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sqapi_8cpp#cv-sq_bindenv">sq_bindenv</a> (HSQUIRRELVM v, SQInteger idx)</td></tr>
 <tr class="separator:cv-sq_bindenv"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -197,7 +197,7 @@ Functions</h2></td></tr>
 <tr class="separator:im-sq_getfloat"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:vn-sq_getbool"><td class="memItemLeft" align="right" valign="top">SQRESULT&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sqapi_8cpp#vn-sq_getbool">sq_getbool</a> (HSQUIRRELVM v, SQInteger idx, SQBool *b)</td></tr>
 <tr class="separator:vn-sq_getbool"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ze-sq_getstring"><td class="memItemLeft" align="right" valign="top">SQRESULT&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sqapi_8cpp#ze-sq_getstring">sq_getstring</a> (HSQUIRRELVM v, SQInteger idx, const SQChar **c)</td></tr>
+<tr class="memitem:ze-sq_getstring"><td class="memItemLeft" align="right" valign="top">SQRESULT&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sqapi_8cpp#ze-sq_getstring">sq_getstring</a> (HSQUIRRELVM v, SQInteger idx, const <a class="el" href="scriptingmanager_8h#ss-SQChar">SQChar</a> **c)</td></tr>
 <tr class="separator:ze-sq_getstring"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:lb-sq_getthread"><td class="memItemLeft" align="right" valign="top">SQRESULT&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sqapi_8cpp#lb-sq_getthread">sq_getthread</a> (HSQUIRRELVM v, SQInteger idx, HSQUIRRELVM *thread)</td></tr>
 <tr class="separator:lb-sq_getthread"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -253,13 +253,13 @@ Functions</h2></td></tr>
 <tr class="separator:bz-sq_rawget"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad-sq_getstackobj"><td class="memItemLeft" align="right" valign="top">SQRESULT&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sqapi_8cpp#ad-sq_getstackobj">sq_getstackobj</a> (HSQUIRRELVM v, SQInteger idx, HSQOBJECT *po)</td></tr>
 <tr class="separator:ad-sq_getstackobj"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:hx-sq_getlocal"><td class="memItemLeft" align="right" valign="top">const SQChar *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sqapi_8cpp#hx-sq_getlocal">sq_getlocal</a> (HSQUIRRELVM v, SQUnsignedInteger level, SQUnsignedInteger idx)</td></tr>
+<tr class="memitem:hx-sq_getlocal"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="scriptingmanager_8h#ss-SQChar">SQChar</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sqapi_8cpp#hx-sq_getlocal">sq_getlocal</a> (HSQUIRRELVM v, SQUnsignedInteger level, SQUnsignedInteger idx)</td></tr>
 <tr class="separator:hx-sq_getlocal"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8-sq_pushobject"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sqapi_8cpp#a8-sq_pushobject">sq_pushobject</a> (HSQUIRRELVM v, HSQOBJECT obj)</td></tr>
 <tr class="separator:a8-sq_pushobject"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af-sq_resetobject"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sqapi_8cpp#af-sq_resetobject">sq_resetobject</a> (HSQOBJECT *po)</td></tr>
 <tr class="separator:af-sq_resetobject"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:tf-sq_throwerror"><td class="memItemLeft" align="right" valign="top">SQRESULT&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sqapi_8cpp#tf-sq_throwerror">sq_throwerror</a> (HSQUIRRELVM v, const SQChar *err)</td></tr>
+<tr class="memitem:tf-sq_throwerror"><td class="memItemLeft" align="right" valign="top">SQRESULT&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sqapi_8cpp#tf-sq_throwerror">sq_throwerror</a> (HSQUIRRELVM v, const <a class="el" href="scriptingmanager_8h#ss-SQChar">SQChar</a> *err)</td></tr>
 <tr class="separator:tf-sq_throwerror"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:o5-sq_reseterror"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sqapi_8cpp#o5-sq_reseterror">sq_reseterror</a> (HSQUIRRELVM v)</td></tr>
 <tr class="separator:o5-sq_reseterror"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -283,11 +283,11 @@ Functions</h2></td></tr>
 <tr class="separator:h9-sq_writeclosure"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:z9-sq_readclosure"><td class="memItemLeft" align="right" valign="top">SQRESULT&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sqapi_8cpp#z9-sq_readclosure">sq_readclosure</a> (HSQUIRRELVM v, SQREADFUNC r, SQUserPointer up)</td></tr>
 <tr class="separator:z9-sq_readclosure"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:d9-sq_getscratchpad"><td class="memItemLeft" align="right" valign="top">SQChar *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sqapi_8cpp#d9-sq_getscratchpad">sq_getscratchpad</a> (HSQUIRRELVM v, SQInteger minsize)</td></tr>
+<tr class="memitem:d9-sq_getscratchpad"><td class="memItemLeft" align="right" valign="top"><a class="el" href="scriptingmanager_8h#ss-SQChar">SQChar</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sqapi_8cpp#d9-sq_getscratchpad">sq_getscratchpad</a> (HSQUIRRELVM v, SQInteger minsize)</td></tr>
 <tr class="separator:d9-sq_getscratchpad"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:qv-sq_collectgarbage"><td class="memItemLeft" align="right" valign="top">SQInteger&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sqapi_8cpp#qv-sq_collectgarbage">sq_collectgarbage</a> (HSQUIRRELVM v)</td></tr>
 <tr class="separator:qv-sq_collectgarbage"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:m3-sq_getfreevariable"><td class="memItemLeft" align="right" valign="top">const SQChar *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sqapi_8cpp#m3-sq_getfreevariable">sq_getfreevariable</a> (HSQUIRRELVM v, SQInteger idx, SQUnsignedInteger nval)</td></tr>
+<tr class="memitem:m3-sq_getfreevariable"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="scriptingmanager_8h#ss-SQChar">SQChar</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sqapi_8cpp#m3-sq_getfreevariable">sq_getfreevariable</a> (HSQUIRRELVM v, SQInteger idx, SQUnsignedInteger nval)</td></tr>
 <tr class="separator:m3-sq_getfreevariable"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gt-sq_setfreevariable"><td class="memItemLeft" align="right" valign="top">SQRESULT&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sqapi_8cpp#gt-sq_setfreevariable">sq_setfreevariable</a> (HSQUIRRELVM v, SQInteger idx, SQUnsignedInteger nval)</td></tr>
 <tr class="separator:gt-sq_setfreevariable"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -311,7 +311,7 @@ Functions</h2></td></tr>
 <tr class="separator:la-sq_next"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:vt-buf_lexfeed"><td class="memItemLeft" align="right" valign="top">SQInteger&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sqapi_8cpp#vt-buf_lexfeed">buf_lexfeed</a> (SQUserPointer file)</td></tr>
 <tr class="separator:vt-buf_lexfeed"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:kz-sq_compilebuffer"><td class="memItemLeft" align="right" valign="top">SQRESULT&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sqapi_8cpp#kz-sq_compilebuffer">sq_compilebuffer</a> (HSQUIRRELVM v, const SQChar *s, SQInteger size, const SQChar *sourcename, SQBool raiseerror)</td></tr>
+<tr class="memitem:kz-sq_compilebuffer"><td class="memItemLeft" align="right" valign="top">SQRESULT&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sqapi_8cpp#kz-sq_compilebuffer">sq_compilebuffer</a> (HSQUIRRELVM v, const <a class="el" href="scriptingmanager_8h#ss-SQChar">SQChar</a> *s, SQInteger size, const <a class="el" href="scriptingmanager_8h#ss-SQChar">SQChar</a> *sourcename, SQBool raiseerror)</td></tr>
 <tr class="separator:kz-sq_compilebuffer"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:v8-sq_move"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sqapi_8cpp#v8-sq_move">sq_move</a> (HSQUIRRELVM dest, HSQUIRRELVM src, SQInteger idx)</td></tr>
 <tr class="separator:v8-sq_move"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -339,13 +339,12 @@ Functions</h2></td></tr>
 <div class="textblock"></div><div class="dynheader">
 Collaboration diagram for BufState:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="structBufState__coll__graph.svg" width="84" height="118"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="structBufState__coll__graph.svg" width="84" height="118"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <table class="fieldtable">
 <tr><th colspan="3">Class Members</th></tr>
 <tr><td class="fieldtype">
-<a class="anchor" id="a2-buf"></a>const SQChar *</td>
+<a class="anchor" id="a2-buf"></a>const <a class="el" href="scriptingmanager_8h#ss-SQChar">SQChar</a> *</td>
 <td class="fieldname">
 buf</td>
 <td class="fielddoc">
@@ -985,7 +984,7 @@ size</td>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const SQChar *&#160;</td>
+          <td class="paramtype">const <a class="el" href="scriptingmanager_8h#ss-SQChar">SQChar</a> *&#160;</td>
           <td class="paramname"><em>sourcename</em>, </td>
         </tr>
         <tr>
@@ -1021,7 +1020,7 @@ size</td>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const SQChar *&#160;</td>
+          <td class="paramtype">const <a class="el" href="scriptingmanager_8h#ss-SQChar">SQChar</a> *&#160;</td>
           <td class="paramname"><em>s</em>, </td>
         </tr>
         <tr>
@@ -1033,7 +1032,7 @@ size</td>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const SQChar *&#160;</td>
+          <td class="paramtype">const <a class="el" href="scriptingmanager_8h#ss-SQChar">SQChar</a> *&#160;</td>
           <td class="paramname"><em>sourcename</em>, </td>
         </tr>
         <tr>
@@ -1479,7 +1478,7 @@ size</td>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const SQChar* sq_getfreevariable </td>
+          <td class="memname">const <a class="el" href="scriptingmanager_8h#ss-SQChar">SQChar</a>* sq_getfreevariable </td>
           <td>(</td>
           <td class="paramtype">HSQUIRRELVM&#160;</td>
           <td class="paramname"><em>v</em>, </td>
@@ -1605,7 +1604,7 @@ size</td>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const SQChar* sq_getlocal </td>
+          <td class="memname">const <a class="el" href="scriptingmanager_8h#ss-SQChar">SQChar</a>* sq_getlocal </td>
           <td>(</td>
           <td class="paramtype">HSQUIRRELVM&#160;</td>
           <td class="paramname"><em>v</em>, </td>
@@ -1687,7 +1686,7 @@ size</td>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">SQChar* sq_getscratchpad </td>
+          <td class="memname"><a class="el" href="scriptingmanager_8h#ss-SQChar">SQChar</a>* sq_getscratchpad </td>
           <td>(</td>
           <td class="paramtype">HSQUIRRELVM&#160;</td>
           <td class="paramname"><em>v</em>, </td>
@@ -1791,7 +1790,7 @@ size</td>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const SQChar **&#160;</td>
+          <td class="paramtype">const <a class="el" href="scriptingmanager_8h#ss-SQChar">SQChar</a> **&#160;</td>
           <td class="paramname"><em>c</em>&#160;</td>
         </tr>
         <tr>
@@ -2423,7 +2422,7 @@ size</td>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const SQChar* sq_objtostring </td>
+          <td class="memname">const <a class="el" href="scriptingmanager_8h#ss-SQChar">SQChar</a>* sq_objtostring </td>
           <td>(</td>
           <td class="paramtype">HSQOBJECT *&#160;</td>
           <td class="paramname"><em>o</em></td><td>)</td>
@@ -2721,7 +2720,7 @@ size</td>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const SQChar *&#160;</td>
+          <td class="paramtype">const <a class="el" href="scriptingmanager_8h#ss-SQChar">SQChar</a> *&#160;</td>
           <td class="paramname"><em>s</em>, </td>
         </tr>
         <tr>
@@ -3407,7 +3406,7 @@ size</td>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const SQChar *&#160;</td>
+          <td class="paramtype">const <a class="el" href="scriptingmanager_8h#ss-SQChar">SQChar</a> *&#160;</td>
           <td class="paramname"><em>name</em>&#160;</td>
         </tr>
         <tr>
@@ -3443,7 +3442,7 @@ size</td>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const SQChar *&#160;</td>
+          <td class="paramtype">const <a class="el" href="scriptingmanager_8h#ss-SQChar">SQChar</a> *&#160;</td>
           <td class="paramname"><em>typemask</em>&#160;</td>
         </tr>
         <tr>
@@ -3641,7 +3640,7 @@ size</td>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const SQChar *&#160;</td>
+          <td class="paramtype">const <a class="el" href="scriptingmanager_8h#ss-SQChar">SQChar</a> *&#160;</td>
           <td class="paramname"><em>err</em>&#160;</td>
         </tr>
         <tr>

@@ -18,7 +18,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">Code::Blocks
-   &#160;<span id="projectnumber">SVN r10603</span>
+   &#160;<span id="projectnumber">SVN r10885</span>
    </div>
   </td>
  </tr>
@@ -30,6 +30,7 @@
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="index"><span>Main&#160;Page</span></a></li>
+      <li><a href="pages"><span>Related&#160;Pages</span></a></li>
       <li><a href="namespaces"><span>Namespaces</span></a></li>
       <li class="current"><a href="annotated"><span>Classes</span></a></li>
       <li><a href="files"><span>Files</span></a></li>
@@ -66,8 +67,7 @@
 <div class="dynheader">
 Collaboration diagram for cbThreadPool:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classcbThreadPool__coll__graph.svg" width="607" height="1434"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classcbThreadPool__coll__graph.svg" width="607" height="1434"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
@@ -118,7 +118,7 @@ Public Member Functions</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
 <tr class="memitem:h4-GetNextTask"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structcbThreadPool_1_1cbThreadedTaskElement">cbThreadedTaskElement</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcbThreadPool#h4-GetNextTask">GetNextTask</a> ()</td></tr>
-<tr class="memdesc:h4-GetNextTask"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the next task to run.  <a href="#h4-GetNextTask">More...</a><br /></td></tr>
+<tr class="memdesc:h4-GetNextTask"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the next task in the queue to run.  <a href="#h4-GetNextTask">More...</a><br /></td></tr>
 <tr class="separator:h4-GetNextTask"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:md-WorkingThread"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcbThreadPool#md-WorkingThread">WorkingThread</a> ()</td></tr>
 <tr class="memdesc:md-WorkingThread"><td class="mdescLeft">&#160;</td><td class="mdescRight">Mechanism for the threads to tell the Pool they're running, a thread is switch from the idle mode to working mode.  <a href="#md-WorkingThread">More...</a><br /></td></tr>
@@ -167,6 +167,7 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:ov-m_taskAdded"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcbThreadPool#ov-m_taskAdded">m_taskAdded</a></td></tr>
 <tr class="separator:ov-m_taskAdded"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:hv-m_workingThreads"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcbThreadPool#hv-m_workingThreads">m_workingThreads</a></td></tr>
+<tr class="memdesc:hv-m_workingThreads"><td class="mdescLeft">&#160;</td><td class="mdescRight">how many working threads are running tasks m_workingThreads + thread in Idle = m_concurrentThreads  <a href="#hv-m_workingThreads">More...</a><br /></td></tr>
 <tr class="separator:hv-m_workingThreads"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:tz-m_Mutex"><td class="memItemLeft" align="right" valign="top">wxMutex&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcbThreadPool#tz-m_Mutex">m_Mutex</a></td></tr>
 <tr class="separator:tz-m_Mutex"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -378,7 +379,7 @@ Friends</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">task</td><td>The task to execute </td></tr>
-    <tr><td class="paramname">autodelete</td><td>If true, the task will be deleted when it finish or be aborted </td></tr>
+    <tr><td class="paramname">autodelete</td><td>If true, the task will be deleted when it finishes or be aborted </td></tr>
   </table>
   </dd>
 </dl>
@@ -438,7 +439,9 @@ Friends</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Begin a batch process. </p>
-<dl class="section note"><dt>Note</dt><dd>EVIL: Call it if you want to add all tasks first and get none executed yet. If you DON'T call it, tasks will be executed as you add them (in fact it's what one would expect). </dd></dl>
+<dl class="section note"><dt>Note</dt><dd>EVIL: Call it if you want to add all tasks first and get none executed yet. If you DON'T call it, tasks will be executed as you add them (in fact it's what one would expect). </dd>
+<dd>
+If when calling the <a class="el" href="classcbThreadPool#bf-BatchBegin" title="Begin a batch process. ">BatchBegin()</a>, the pool is ready running tasks, then the added task still has chance to run, so be best time to call this function is <a class="el" href="classcbThreadPool#lj-Done" title="Tells if the pool has finished its job. ">Done()</a> returns true </dd></dl>
 
 <p>References <a class="el" href="classcbThreadPool#vh-m_batching">m_batching</a>, and <a class="el" href="classcbThreadPool#tz-m_Mutex">m_Mutex</a>.</p>
 
@@ -600,7 +603,7 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Returns the next task to run. </p>
+<p>Returns the next task in the queue to run. </p>
 <dl class="section return"><dt>Returns</dt><dd>Next task to run, or a NULL task (set in .task) if none </dd></dl>
 
 <p>References <a class="el" href="classcbThreadPool#tz-m_Mutex">m_Mutex</a>, and <a class="el" href="classcbThreadPool#f8-m_tasksQueue">m_tasksQueue</a>.</p>
@@ -692,6 +695,7 @@ Friends</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Mechanism for the threads to tell the Pool they're done and will go to idle, so we can assign another task to this thread. </p>
+<p>this function will be called in the worker thread, it just say: hey, I have finished one task thus, decrease the running thread number by one, and let me go to idle mode</p>
 <dl class="section return"><dt>Returns</dt><dd>true if everything is OK, false if we should abort, this usually happens we need to set a scheduled m_concurrentThreads value. </dd></dl>
 
 <p>References <a class="el" href="classcbThreadPool#p3-_SetConcurrentThreads">_SetConcurrentThreads()</a>, <a class="el" href="sdk__events_8h#p3-cbEVT_THREADTASK_ALLDONE">cbEVT_THREADTASK_ALLDONE</a>, <a class="el" href="classcbThreadPool#bk-m_concurrentThreadsSchedule">m_concurrentThreadsSchedule</a>, <a class="el" href="classcbThreadPool#uz-m_ID">m_ID</a>, <a class="el" href="classcbThreadPool#tz-m_Mutex">m_Mutex</a>, <a class="el" href="classcbThreadPool#hj-m_pOwner">m_pOwner</a>, <a class="el" href="classcbThreadPool#r0-m_semaphore">m_semaphore</a>, <a class="el" href="classcbThreadPool#ov-m_taskAdded">m_taskAdded</a>, <a class="el" href="classcbThreadPool#f8-m_tasksQueue">m_tasksQueue</a>, and <a class="el" href="classcbThreadPool#hv-m_workingThreads">m_workingThreads</a>.</p>
@@ -720,7 +724,7 @@ Friends</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Mechanism for the threads to tell the Pool they're running, a thread is switch from the idle mode to working mode. </p>
-<p>This is triggered by semaphore released somewhere </p>
+<p>This is triggered by semaphore released somewhere this function will be called in the worker thread, the thread just say: hey, I'm running now so increase the running thread number by one </p>
 
 <p>References <a class="el" href="classcbThreadPool#tz-m_Mutex">m_Mutex</a>, and <a class="el" href="classcbThreadPool#hv-m_workingThreads">m_workingThreads</a>.</p>
 
@@ -1009,6 +1013,8 @@ Friends</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>how many working threads are running tasks m_workingThreads + thread in Idle = m_concurrentThreads </p>
 
 <p>Referenced by <a class="el" href="classcbThreadPool#p3-_SetConcurrentThreads">_SetConcurrentThreads()</a>, <a class="el" href="classcbThreadPool#rm-AddTask">AddTask()</a>, <a class="el" href="classcbThreadPool#uf-AwakeNeeded">AwakeNeeded()</a>, <a class="el" href="classcbThreadPool#r2-Broadcast">Broadcast()</a>, <a class="el" href="classcbThreadPool#lj-Done">Done()</a>, <a class="el" href="classcbThreadPool#vc-WaitingThread">WaitingThread()</a>, and <a class="el" href="classcbThreadPool#md-WorkingThread">WorkingThread()</a>.</p>
 

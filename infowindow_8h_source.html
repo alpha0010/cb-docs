@@ -18,7 +18,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">Code::Blocks
-   &#160;<span id="projectnumber">SVN r10603</span>
+   &#160;<span id="projectnumber">SVN r10885</span>
    </div>
   </td>
  </tr>
@@ -30,6 +30,7 @@
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="index"><span>Main&#160;Page</span></a></li>
+      <li><a href="pages"><span>Related&#160;Pages</span></a></li>
       <li><a href="namespaces"><span>Namespaces</span></a></li>
       <li><a href="annotated"><span>Classes</span></a></li>
       <li class="current"><a href="files"><span>Files</span></a></li>
@@ -79,17 +80,17 @@
 <div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;</div>
 <div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<span class="preprocessor">#if wxUSE_POPUPWIN</span></div>
 <div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="preprocessor">    #include &lt;wx/popupwin.h&gt;</span></div>
-<div class="line"><a name="l00029"></a><span class="lineno"><a class="line" href="infowindow_8h#z1-wxInfoWindowBase">   29</a></span>&#160;    <span class="keyword">typedef</span> wxPopupWindow <a class="code" href="infowindow_8h#z1-wxInfoWindowBase">wxInfoWindowBase</a>;</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    <span class="keyword">typedef</span> wxPopupWindow <a class="code" href="infowindow_8h#a4-wxInfoWindowBase">wxInfoWindowBase</a>;</div>
 <div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;<span class="preprocessor">#else</span></div>
 <div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;<span class="preprocessor">    #include &quot;<a class="code" href="scrollingdialog_8h">scrollingdialog.h</a>&quot;</span></div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    <span class="keyword">typedef</span> <a class="code" href="classwxScrollingDialog">wxScrollingDialog</a> <a class="code" href="infowindow_8h#z1-wxInfoWindowBase">wxInfoWindowBase</a>;</div>
+<div class="line"><a name="l00032"></a><span class="lineno"><a class="line" href="infowindow_8h#a4-wxInfoWindowBase">   32</a></span>&#160;    <span class="keyword">typedef</span> <a class="code" href="classwxScrollingDialog">wxScrollingDialog</a> <a class="code" href="infowindow_8h#a4-wxInfoWindowBase">wxInfoWindowBase</a>;</div>
 <div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;</div>
 <div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;<span class="preprocessor">#undef new</span></div>
 <div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;<span class="preprocessor">#include &lt;list&gt;</span></div>
 <div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;<span class="preprocessor">#include &lt;algorithm&gt;</span></div>
 <div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;</div>
-<div class="line"><a name="l00039"></a><span class="lineno"><a class="line" href="classInfoWindow">   39</a></span>&#160;<span class="keyword">class </span><a class="code" href="settings_8h#oc-DLLIMPORT">DLLIMPORT</a> <a class="code" href="classInfoWindow">InfoWindow</a> : <span class="keyword">public</span> <a class="code" href="infowindow_8h#z1-wxInfoWindowBase">wxInfoWindowBase</a></div>
+<div class="line"><a name="l00039"></a><span class="lineno"><a class="line" href="classInfoWindow">   39</a></span>&#160;<span class="keyword">class </span><a class="code" href="settings_8h#oc-DLLIMPORT">DLLIMPORT</a> <a class="code" href="classInfoWindow">InfoWindow</a> : <span class="keyword">public</span> <a class="code" href="classwxScrollingDialog">wxInfoWindowBase</a></div>
 <div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;{</div>
 <div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;        <a class="code" href="classInfoWindow">InfoWindow</a>(<span class="keyword">const</span> wxString&amp; title, <span class="keyword">const</span> wxString&amp; message, <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> delay, <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> hysteresis);</div>
 <div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;        <span class="keyword">virtual</span> ~InfoWindow();</div>
@@ -115,6 +116,7 @@
 <div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;};</div>
 <div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;</div>
 <div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="ttc" id="infowindow_8h_a4-wxInfoWindowBase"><div class="ttname"><a href="infowindow_8h#a4-wxInfoWindowBase">wxInfoWindowBase</a></div><div class="ttdeci">wxScrollingDialog wxInfoWindowBase</div><div class="ttdef"><b>Definition:</b> infowindow.h:32</div></div>
 <div class="ttc" id="classInfoWindow_k3-status"><div class="ttname"><a href="classInfoWindow#k3-status">InfoWindow::status</a></div><div class="ttdeci">unsigned int status</div><div class="ttdef"><b>Definition:</b> infowindow.h:56</div></div>
 <div class="ttc" id="classInfoWindow_u2-my_message_iterator"><div class="ttname"><a href="classInfoWindow#u2-my_message_iterator">InfoWindow::my_message_iterator</a></div><div class="ttdeci">std::list&lt; wxString &gt;::iterator my_message_iterator</div><div class="ttdef"><b>Definition:</b> infowindow.h:59</div></div>
 <div class="ttc" id="classwxScrollingDialog"><div class="ttname"><a href="classwxScrollingDialog">wxScrollingDialog</a></div><div class="ttdef"><b>Definition:</b> scrollingdialog.h:163</div></div>
@@ -129,7 +131,6 @@
 <div class="ttc" id="classInfoWindow_qu-m_timer"><div class="ttname"><a href="classInfoWindow#qu-m_timer">InfoWindow::m_timer</a></div><div class="ttdeci">wxTimer * m_timer</div><div class="ttdef"><b>Definition:</b> infowindow.h:51</div></div>
 <div class="ttc" id="classInfoWindow"><div class="ttname"><a href="classInfoWindow">InfoWindow</a></div><div class="ttdef"><b>Definition:</b> infowindow.h:39</div></div>
 <div class="ttc" id="classInfoWindow_m8-left"><div class="ttname"><a href="classInfoWindow#m8-left">InfoWindow::left</a></div><div class="ttdeci">int left</div><div class="ttdef"><b>Definition:</b> infowindow.h:52</div></div>
-<div class="ttc" id="infowindow_8h_z1-wxInfoWindowBase"><div class="ttname"><a href="infowindow_8h#z1-wxInfoWindowBase">wxInfoWindowBase</a></div><div class="ttdeci">wxPopupWindow wxInfoWindowBase</div><div class="ttdef"><b>Definition:</b> infowindow.h:29</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

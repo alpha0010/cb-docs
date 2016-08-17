@@ -18,7 +18,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">Code::Blocks
-   &#160;<span id="projectnumber">SVN r10603</span>
+   &#160;<span id="projectnumber">SVN r10885</span>
    </div>
   </td>
  </tr>
@@ -30,6 +30,7 @@
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="index"><span>Main&#160;Page</span></a></li>
+      <li><a href="pages"><span>Related&#160;Pages</span></a></li>
       <li><a href="namespaces"><span>Namespaces</span></a></li>
       <li><a href="annotated"><span>Classes</span></a></li>
       <li class="current"><a href="files"><span>Files</span></a></li>
@@ -56,7 +57,7 @@
 <div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="comment">// Author:      Julian Smart</span></div>
 <div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="comment">// Modified by: Jens Lody</span></div>
 <div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="comment">// Created:     2007-12-11</span></div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="comment">// RCS-ID:      $Id: scrollingdialog.h 10560 2015-11-07 16:28:07Z mortenmacfly $</span></div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="comment">// RCS-ID:      $Id: scrollingdialog.h 10769 2016-02-06 14:26:58Z mortenmacfly $</span></div>
 <div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="comment">// Copyright:   (c) Julian Smart</span></div>
 <div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="comment">// Licence:</span></div>
 <div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="comment"></span></div>
@@ -74,7 +75,7 @@
 <div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;<span class="keyword">class </span>wxButton;</div>
 <div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;<span class="keyword">class </span>wxScrolledWindow;</div>
 <div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;</div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;<span class="preprocessor">#if !wxCHECK_VERSION(2,9,0)</span></div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;<span class="preprocessor">#if !wxCHECK_VERSION(3, 0, 0)</span></div>
 <div class="line"><a name="l00034"></a><span class="lineno"><a class="line" href="classwxDialogLayoutAdapter">   34</a></span>&#160;<span class="keyword">class </span><a class="code" href="classwxDialogLayoutAdapter">wxDialogLayoutAdapter</a>: <span class="keyword">public</span> wxObject</div>
 <div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;{</div>
 <div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    DECLARE_CLASS(<a class="code" href="classwxDialogLayoutAdapter">wxDialogLayoutAdapter</a>)</div>
@@ -163,10 +164,10 @@
 <div class="line"><a name="l00154"></a><span class="lineno"><a class="line" href="classwxDialogHelper#pb-sm_layoutAdapter">  154</a></span>&#160;    <span class="keyword">static</span> <a class="code" href="classwxDialogLayoutAdapter">wxDialogLayoutAdapter</a>*       <a class="code" href="classwxDialogHelper#pb-sm_layoutAdapter">sm_layoutAdapter</a>;</div>
 <div class="line"><a name="l00155"></a><span class="lineno"><a class="line" href="classwxDialogHelper#ef-sm_layoutAdaptation">  155</a></span>&#160;    <span class="keyword">static</span> <span class="keywordtype">bool</span>                         <a class="code" href="classwxDialogHelper#ef-sm_layoutAdaptation">sm_layoutAdaptation</a>;</div>
 <div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;};</div>
-<div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;<span class="preprocessor">#endif //#if !wxCHECK_VERSION(2,9,0)</span></div>
+<div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;<span class="preprocessor">#endif //#if !wxCHECK_VERSION(3, 0, 0)</span></div>
 <div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;</div>
 <div class="line"><a name="l00163"></a><span class="lineno"><a class="line" href="classwxScrollingDialog">  163</a></span>&#160;<span class="keyword">class </span><a class="code" href="settings_8h#oc-DLLIMPORT">DLLIMPORT</a> <a class="code" href="classwxScrollingDialog">wxScrollingDialog</a>: <span class="keyword">public</span> wxDialog</div>
-<div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;<span class="preprocessor">#if !wxCHECK_VERSION(2,9,0)</span></div>
+<div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;<span class="preprocessor">#if !wxCHECK_VERSION(3, 0, 0)</span></div>
 <div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;    , <span class="keyword">public</span> <a class="code" href="classwxDialogHelper">wxDialogHelper</a></div>
 <div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;{</div>
@@ -175,7 +176,7 @@
 <div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;</div>
 <div class="line"><a name="l00171"></a><span class="lineno"><a class="line" href="classwxScrollingDialog#dg-wxScrollingDialog">  171</a></span>&#160;    <a class="code" href="classwxScrollingDialog#dg-wxScrollingDialog">wxScrollingDialog</a>()</div>
 <div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;    {</div>
-<div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;<span class="preprocessor">#if !wxCHECK_VERSION(2,9,0)</span></div>
+<div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;<span class="preprocessor">#if !wxCHECK_VERSION(3, 0, 0)</span></div>
 <div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;        <a class="code" href="classwxDialogHelper#fa-Init">Init</a>();</div>
 <div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;<span class="preprocessor">#else</span></div>
 <div class="line"><a name="l00176"></a><span class="lineno">  176</span>&#160;        SetLayoutAdaptationMode(wxDIALOG_ADAPTATION_MODE_ENABLED);</div>
@@ -189,14 +190,14 @@
 <div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;             <span class="keywordtype">long</span> style = wxDEFAULT_DIALOG_STYLE,</div>
 <div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160;             <span class="keyword">const</span> wxString&amp; name = _(<span class="stringliteral">&quot;dialogBox&quot;</span>))</div>
 <div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;    {</div>
-<div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160;<span class="preprocessor">#if !wxCHECK_VERSION(2,9,0)</span></div>
+<div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160;<span class="preprocessor">#if !wxCHECK_VERSION(3, 0, 0)</span></div>
 <div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;        <a class="code" href="classwxDialogHelper#fa-Init">Init</a>();</div>
 <div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;<span class="preprocessor">#else</span></div>
 <div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;        SetLayoutAdaptationMode(wxDIALOG_ADAPTATION_MODE_ENABLED);</div>
 <div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160;        Create(parent, <span class="keywordtype">id</span>, title, pos, size, style, name);</div>
 <div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;    }</div>
-<div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160;<span class="preprocessor">#if !wxCHECK_VERSION(2,9,0)</span></div>
+<div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160;<span class="preprocessor">#if !wxCHECK_VERSION(3, 0, 0)</span></div>
 <div class="line"><a name="l00195"></a><span class="lineno">  195</span>&#160;    <span class="keywordtype">bool</span> Create(wxWindow *parent,</div>
 <div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160;             <span class="keywordtype">int</span> <span class="keywordtype">id</span> = wxID_ANY,</div>
 <div class="line"><a name="l00197"></a><span class="lineno">  197</span>&#160;             <span class="keyword">const</span> wxString&amp; title = wxEmptyString,</div>
@@ -214,7 +215,7 @@
 <div class="line"><a name="l00211"></a><span class="lineno">  211</span>&#160;};</div>
 <div class="line"><a name="l00212"></a><span class="lineno">  212</span>&#160;</div>
 <div class="line"><a name="l00217"></a><span class="lineno"><a class="line" href="classwxScrollingPropertySheetDialog">  217</a></span>&#160;<span class="keyword">class </span><a class="code" href="classwxScrollingPropertySheetDialog">wxScrollingPropertySheetDialog</a> : <span class="keyword">public</span> wxPropertySheetDialog</div>
-<div class="line"><a name="l00218"></a><span class="lineno">  218</span>&#160;<span class="preprocessor">#if !wxCHECK_VERSION(2,9,0)</span></div>
+<div class="line"><a name="l00218"></a><span class="lineno">  218</span>&#160;<span class="preprocessor">#if !wxCHECK_VERSION(3, 0, 0)</span></div>
 <div class="line"><a name="l00219"></a><span class="lineno">  219</span>&#160;    , <span class="keyword">public</span> <a class="code" href="classwxDialogHelper">wxDialogHelper</a></div>
 <div class="line"><a name="l00220"></a><span class="lineno">  220</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="line"><a name="l00221"></a><span class="lineno">  221</span>&#160;</div>
@@ -222,7 +223,7 @@
 <div class="line"><a name="l00223"></a><span class="lineno">  223</span>&#160;<span class="keyword">public</span>:</div>
 <div class="line"><a name="l00224"></a><span class="lineno"><a class="line" href="classwxScrollingPropertySheetDialog#qh-wxScrollingPropertySheetDialo">  224</a></span>&#160;    <a class="code" href="classwxScrollingPropertySheetDialog#qh-wxScrollingPropertySheetDialo">wxScrollingPropertySheetDialog</a>() : wxPropertySheetDialog()</div>
 <div class="line"><a name="l00225"></a><span class="lineno">  225</span>&#160;    {</div>
-<div class="line"><a name="l00226"></a><span class="lineno">  226</span>&#160;<span class="preprocessor">#if !wxCHECK_VERSION(2,9,0)</span></div>
+<div class="line"><a name="l00226"></a><span class="lineno">  226</span>&#160;<span class="preprocessor">#if !wxCHECK_VERSION(3, 0, 0)</span></div>
 <div class="line"><a name="l00227"></a><span class="lineno">  227</span>&#160;        <a class="code" href="classwxScrollingPropertySheetDialog#n1-Init">Init</a>();</div>
 <div class="line"><a name="l00228"></a><span class="lineno">  228</span>&#160;<span class="preprocessor">#else</span></div>
 <div class="line"><a name="l00229"></a><span class="lineno">  229</span>&#160;        SetLayoutAdaptationMode(wxDIALOG_ADAPTATION_MODE_ENABLED);</div>
@@ -236,7 +237,7 @@
 <div class="line"><a name="l00237"></a><span class="lineno">  237</span>&#160;                       <span class="keywordtype">long</span> style = wxDEFAULT_DIALOG_STYLE,</div>
 <div class="line"><a name="l00238"></a><span class="lineno">  238</span>&#160;                       <span class="keyword">const</span> wxString&amp; name = wxDialogNameStr)</div>
 <div class="line"><a name="l00239"></a><span class="lineno">  239</span>&#160;    {</div>
-<div class="line"><a name="l00240"></a><span class="lineno">  240</span>&#160;<span class="preprocessor">#if !wxCHECK_VERSION(2,9,0)</span></div>
+<div class="line"><a name="l00240"></a><span class="lineno">  240</span>&#160;<span class="preprocessor">#if !wxCHECK_VERSION(3, 0, 0)</span></div>
 <div class="line"><a name="l00241"></a><span class="lineno">  241</span>&#160;        <a class="code" href="classwxScrollingPropertySheetDialog#n1-Init">Init</a>();</div>
 <div class="line"><a name="l00242"></a><span class="lineno">  242</span>&#160;<span class="preprocessor">#else</span></div>
 <div class="line"><a name="l00243"></a><span class="lineno">  243</span>&#160;        SetLayoutAdaptationMode(wxDIALOG_ADAPTATION_MODE_ENABLED);</div>
@@ -244,7 +245,7 @@
 <div class="line"><a name="l00245"></a><span class="lineno">  245</span>&#160;        Create(parent, <span class="keywordtype">id</span>, title, pos, sz, style, name);</div>
 <div class="line"><a name="l00246"></a><span class="lineno">  246</span>&#160;    }</div>
 <div class="line"><a name="l00247"></a><span class="lineno">  247</span>&#160;</div>
-<div class="line"><a name="l00248"></a><span class="lineno">  248</span>&#160;<span class="preprocessor">#if !wxCHECK_VERSION(2,9,0)</span></div>
+<div class="line"><a name="l00248"></a><span class="lineno">  248</span>&#160;<span class="preprocessor">#if !wxCHECK_VERSION(3, 0, 0)</span></div>
 <div class="line"><a name="l00249"></a><span class="lineno">  249</span>&#160;</div>
 <div class="line"><a name="l00252"></a><span class="lineno">  252</span>&#160;    <span class="keyword">virtual</span> wxWindow* <a class="code" href="classwxScrollingPropertySheetDialog#uu-GetContentWindow">GetContentWindow</a>() <span class="keyword">const</span>;</div>
 <div class="line"><a name="l00253"></a><span class="lineno">  253</span>&#160;</div>
@@ -268,8 +269,8 @@
 <div class="ttc" id="classwxScrollingPropertySheetDialog_qh-wxScrollingPropertySheetDialo"><div class="ttname"><a href="classwxScrollingPropertySheetDialog#qh-wxScrollingPropertySheetDialo">wxScrollingPropertySheetDialog::wxScrollingPropertySheetDialog</a></div><div class="ttdeci">wxScrollingPropertySheetDialog()</div><div class="ttdef"><b>Definition:</b> scrollingdialog.h:224</div></div>
 <div class="ttc" id="classwxScrollingPropertySheetDialog"><div class="ttname"><a href="classwxScrollingPropertySheetDialog">wxScrollingPropertySheetDialog</a></div><div class="ttdef"><b>Definition:</b> scrollingdialog.h:217</div></div>
 <div class="ttc" id="classwxDialogHelper_aj-GetContentWindow"><div class="ttname"><a href="classwxDialogHelper#aj-GetContentWindow">wxDialogHelper::GetContentWindow</a></div><div class="ttdeci">virtual wxWindow * GetContentWindow() const </div><div class="ttdoc">Returns a content window if there is one. </div><div class="ttdef"><b>Definition:</b> scrollingdialog.h:116</div></div>
-<div class="ttc" id="classwxDialogHelper_qz-SetLayoutAdapter"><div class="ttname"><a href="classwxDialogHelper#qz-SetLayoutAdapter">wxDialogHelper::SetLayoutAdapter</a></div><div class="ttdeci">static wxDialogLayoutAdapter * SetLayoutAdapter(wxDialogLayoutAdapter *adapter)</div><div class="ttdoc">Set layout adapter class, returning old adapter. </div><div class="ttdef"><b>Definition:</b> scrollingdialog.cpp:59</div></div>
-<div class="ttc" id="classwxStandardDialogLayoutAdapter_in-CanDoLayoutAdaptation"><div class="ttname"><a href="classwxStandardDialogLayoutAdapter#in-CanDoLayoutAdaptation">wxStandardDialogLayoutAdapter::CanDoLayoutAdaptation</a></div><div class="ttdeci">virtual bool CanDoLayoutAdaptation(wxDialogHelper *dialog)</div><div class="ttdoc">Indicate that adaptation should be done. </div><div class="ttdef"><b>Definition:</b> scrollingdialog.cpp:73</div></div>
+<div class="ttc" id="classwxDialogHelper_qz-SetLayoutAdapter"><div class="ttname"><a href="classwxDialogHelper#qz-SetLayoutAdapter">wxDialogHelper::SetLayoutAdapter</a></div><div class="ttdeci">static wxDialogLayoutAdapter * SetLayoutAdapter(wxDialogLayoutAdapter *adapter)</div><div class="ttdoc">Set layout adapter class, returning old adapter. </div><div class="ttdef"><b>Definition:</b> scrollingdialog.cpp:65</div></div>
+<div class="ttc" id="classwxStandardDialogLayoutAdapter_in-CanDoLayoutAdaptation"><div class="ttname"><a href="classwxStandardDialogLayoutAdapter#in-CanDoLayoutAdaptation">wxStandardDialogLayoutAdapter::CanDoLayoutAdaptation</a></div><div class="ttdeci">virtual bool CanDoLayoutAdaptation(wxDialogHelper *dialog)</div><div class="ttdoc">Indicate that adaptation should be done. </div><div class="ttdef"><b>Definition:</b> scrollingdialog.cpp:79</div></div>
 <div class="ttc" id="classwxDialogHelper_lf-m_dialog"><div class="ttname"><a href="classwxDialogHelper#lf-m_dialog">wxDialogHelper::m_dialog</a></div><div class="ttdeci">wxDialog * m_dialog</div><div class="ttdef"><b>Definition:</b> scrollingdialog.h:150</div></div>
 <div class="ttc" id="classwxScrollingPropertySheetDialog_l2-wxScrollingPropertySheetDialo"><div class="ttname"><a href="classwxScrollingPropertySheetDialog#l2-wxScrollingPropertySheetDialo">wxScrollingPropertySheetDialog::wxScrollingPropertySheetDialog</a></div><div class="ttdeci">wxScrollingPropertySheetDialog(wxWindow *parent, wxWindowID id, const wxString &amp;title, const wxPoint &amp;pos=wxDefaultPosition, const wxSize &amp;sz=wxDefaultSize, long style=wxDEFAULT_DIALOG_STYLE, const wxString &amp;name=wxDialogNameStr)</div><div class="ttdef"><b>Definition:</b> scrollingdialog.h:233</div></div>
 <div class="ttc" id="classwxDialogHelper_pb-sm_layoutAdapter"><div class="ttname"><a href="classwxDialogHelper#pb-sm_layoutAdapter">wxDialogHelper::sm_layoutAdapter</a></div><div class="ttdeci">static wxDialogLayoutAdapter * sm_layoutAdapter</div><div class="ttdef"><b>Definition:</b> scrollingdialog.h:154</div></div>
@@ -279,7 +280,7 @@
 <div class="ttc" id="classwxDialogHelper_bf-SetLayoutAdaptationLevel"><div class="ttname"><a href="classwxDialogHelper#bf-SetLayoutAdaptationLevel">wxDialogHelper::SetLayoutAdaptationLevel</a></div><div class="ttdeci">void SetLayoutAdaptationLevel(int level)</div><div class="ttdoc">Level of adaptation, from none (Level 0) to full (Level 3). </div><div class="ttdef"><b>Definition:</b> scrollingdialog.h:131</div></div>
 <div class="ttc" id="classwxDialogHelper_z6-SetLayoutAdaptation"><div class="ttname"><a href="classwxDialogHelper#z6-SetLayoutAdaptation">wxDialogHelper::SetLayoutAdaptation</a></div><div class="ttdeci">static void SetLayoutAdaptation(bool enable)</div><div class="ttdef"><b>Definition:</b> scrollingdialog.h:146</div></div>
 <div class="ttc" id="classwxStandardDialogLayoutAdapter_uu-wxStandardDialogLayoutAdapter"><div class="ttname"><a href="classwxStandardDialogLayoutAdapter#uu-wxStandardDialogLayoutAdapter">wxStandardDialogLayoutAdapter::wxStandardDialogLayoutAdapter</a></div><div class="ttdeci">wxStandardDialogLayoutAdapter()</div><div class="ttdef"><b>Definition:</b> scrollingdialog.h:56</div></div>
-<div class="ttc" id="classwxDialogHelper_m8-CanDoLayoutAdaptation"><div class="ttname"><a href="classwxDialogHelper#m8-CanDoLayoutAdaptation">wxDialogHelper::CanDoLayoutAdaptation</a></div><div class="ttdeci">virtual bool CanDoLayoutAdaptation()</div><div class="ttdoc">Can we do the adaptation? </div><div class="ttdef"><b>Definition:</b> scrollingdialog.cpp:53</div></div>
+<div class="ttc" id="classwxDialogHelper_m8-CanDoLayoutAdaptation"><div class="ttname"><a href="classwxDialogHelper#m8-CanDoLayoutAdaptation">wxDialogHelper::CanDoLayoutAdaptation</a></div><div class="ttdeci">virtual bool CanDoLayoutAdaptation()</div><div class="ttdoc">Can we do the adaptation? </div><div class="ttdef"><b>Definition:</b> scrollingdialog.cpp:59</div></div>
 <div class="ttc" id="classwxScrollingDialog"><div class="ttname"><a href="classwxScrollingDialog">wxScrollingDialog</a></div><div class="ttdef"><b>Definition:</b> scrollingdialog.h:163</div></div>
 <div class="ttc" id="classwxDialogLayoutAdapter_z1-DoLayoutAdaptation"><div class="ttname"><a href="classwxDialogLayoutAdapter#z1-DoLayoutAdaptation">wxDialogLayoutAdapter::DoLayoutAdaptation</a></div><div class="ttdeci">virtual bool DoLayoutAdaptation(wxDialogHelper *dialog)=0</div><div class="ttdoc">Override this function to do the adaptation. </div></div>
 <div class="ttc" id="classwxStandardDialogLayoutAdapter_w2-FitWithScrolling"><div class="ttname"><a href="classwxStandardDialogLayoutAdapter#w2-FitWithScrolling">wxStandardDialogLayoutAdapter::FitWithScrolling</a></div><div class="ttdeci">virtual bool FitWithScrolling(wxDialog *dialog, wxScrolledWindow *scrolledWindow)</div><div class="ttdoc">A function to fit the dialog around its contents, and then adjust for screen size. </div><div class="ttdef"><b>Definition:</b> scrollingdialog.cpp:395</div></div>
@@ -291,7 +292,7 @@
 <div class="ttc" id="classwxDialogHelper_dy-SetLayoutAdaptationDone"><div class="ttname"><a href="classwxDialogHelper#dy-SetLayoutAdaptationDone">wxDialogHelper::SetLayoutAdaptationDone</a></div><div class="ttdeci">void SetLayoutAdaptationDone(bool adaptationDone)</div><div class="ttdoc">Returns true if the adaptation has been done. </div><div class="ttdef"><b>Definition:</b> scrollingdialog.h:137</div></div>
 <div class="ttc" id="classwxDialogLayoutAdapter_vy-wxDialogLayoutAdapter"><div class="ttname"><a href="classwxDialogLayoutAdapter#vy-wxDialogLayoutAdapter">wxDialogLayoutAdapter::wxDialogLayoutAdapter</a></div><div class="ttdeci">wxDialogLayoutAdapter()</div><div class="ttdef"><b>Definition:</b> scrollingdialog.h:38</div></div>
 <div class="ttc" id="classwxDialogHelper_gm-GetButtonIds"><div class="ttname"><a href="classwxDialogHelper#gm-GetButtonIds">wxDialogHelper::GetButtonIds</a></div><div class="ttdeci">wxArrayInt &amp; GetButtonIds()</div><div class="ttdef"><b>Definition:</b> scrollingdialog.h:120</div></div>
-<div class="ttc" id="classwxStandardDialogLayoutAdapter_ed-DoLayoutAdaptation"><div class="ttname"><a href="classwxStandardDialogLayoutAdapter#ed-DoLayoutAdaptation">wxStandardDialogLayoutAdapter::DoLayoutAdaptation</a></div><div class="ttdeci">virtual bool DoLayoutAdaptation(wxDialogHelper *dialog)</div><div class="ttdoc">Do layout adaptation. </div><div class="ttdef"><b>Definition:</b> scrollingdialog.cpp:84</div></div>
+<div class="ttc" id="classwxStandardDialogLayoutAdapter_ed-DoLayoutAdaptation"><div class="ttname"><a href="classwxStandardDialogLayoutAdapter#ed-DoLayoutAdaptation">wxStandardDialogLayoutAdapter::DoLayoutAdaptation</a></div><div class="ttdeci">virtual bool DoLayoutAdaptation(wxDialogHelper *dialog)</div><div class="ttdoc">Do layout adaptation. </div><div class="ttdef"><b>Definition:</b> scrollingdialog.cpp:90</div></div>
 <div class="ttc" id="classwxStandardDialogLayoutAdapter_cz-FindLooseButtons"><div class="ttname"><a href="classwxStandardDialogLayoutAdapter#cz-FindLooseButtons">wxStandardDialogLayoutAdapter::FindLooseButtons</a></div><div class="ttdeci">virtual bool FindLooseButtons(wxDialogHelper *dialog, wxStdDialogButtonSizer *buttonSizer, wxSizer *sizer, int &amp;count)</div><div class="ttdoc">Find &#39;loose&#39; main buttons in the existing layout and add them to the standard dialog sizer...</div><div class="ttdef"><b>Definition:</b> scrollingdialog.cpp:255</div></div>
 <div class="ttc" id="classwxStandardDialogLayoutAdapter_bl-IsOrdinaryButtonSizer"><div class="ttname"><a href="classwxStandardDialogLayoutAdapter#bl-IsOrdinaryButtonSizer">wxStandardDialogLayoutAdapter::IsOrdinaryButtonSizer</a></div><div class="ttdeci">virtual bool IsOrdinaryButtonSizer(wxDialogHelper *dialog, wxBoxSizer *sizer)</div><div class="ttdoc">Check if this sizer contains standard buttons, and so can be repositioned in the dialog. </div><div class="ttdef"><b>Definition:</b> scrollingdialog.cpp:228</div></div>
 <div class="ttc" id="settings_8h"><div class="ttname"><a href="settings_8h">settings.h</a></div></div>
@@ -299,14 +300,14 @@
 <div class="ttc" id="classwxStandardDialogLayoutAdapter_y9-MustScroll"><div class="ttname"><a href="classwxStandardDialogLayoutAdapter#y9-MustScroll">wxStandardDialogLayoutAdapter::MustScroll</a></div><div class="ttdeci">virtual int MustScroll(wxDialog *dialog, wxSize &amp;windowSize, wxSize &amp;displaySize)</div><div class="ttdoc">Find whether scrolling will be necessary for the dialog, returning wxVERTICAL, wxHORIZONTAL or both...</div><div class="ttdef"><b>Definition:</b> scrollingdialog.cpp:305</div></div>
 <div class="ttc" id="classwxScrollingDialog_hq-wxScrollingDialog"><div class="ttname"><a href="classwxScrollingDialog#hq-wxScrollingDialog">wxScrollingDialog::wxScrollingDialog</a></div><div class="ttdeci">wxScrollingDialog(wxWindow *parent, int id=wxID_ANY, const wxString &amp;title=wxEmptyString, const wxPoint &amp;pos=wxDefaultPosition, const wxSize &amp;size=wxDefaultSize, long style=wxDEFAULT_DIALOG_STYLE, const wxString &amp;name=_(&quot;dialogBox&quot;))</div><div class="ttdef"><b>Definition:</b> scrollingdialog.h:179</div></div>
 <div class="ttc" id="classwxDialogHelper_jd-wxDialogHelper"><div class="ttname"><a href="classwxDialogHelper#jd-wxDialogHelper">wxDialogHelper::wxDialogHelper</a></div><div class="ttdeci">wxDialogHelper(wxDialog *dialog=NULL)</div><div class="ttdef"><b>Definition:</b> scrollingdialog.h:101</div></div>
-<div class="ttc" id="classwxDialogHelper_z3-DoLayoutAdaptation"><div class="ttname"><a href="classwxDialogHelper#z3-DoLayoutAdaptation">wxDialogHelper::DoLayoutAdaptation</a></div><div class="ttdeci">virtual bool DoLayoutAdaptation()</div><div class="ttdoc">Do the adaptation. </div><div class="ttdef"><b>Definition:</b> scrollingdialog.cpp:44</div></div>
+<div class="ttc" id="classwxDialogHelper_z3-DoLayoutAdaptation"><div class="ttname"><a href="classwxDialogHelper#z3-DoLayoutAdaptation">wxDialogHelper::DoLayoutAdaptation</a></div><div class="ttdeci">virtual bool DoLayoutAdaptation()</div><div class="ttdoc">Do the adaptation. </div><div class="ttdef"><b>Definition:</b> scrollingdialog.cpp:50</div></div>
 <div class="ttc" id="classwxDialogHelper_bs-m_buttonIds"><div class="ttname"><a href="classwxDialogHelper#bs-m_buttonIds">wxDialogHelper::m_buttonIds</a></div><div class="ttdeci">wxArrayInt m_buttonIds</div><div class="ttdef"><b>Definition:</b> scrollingdialog.h:152</div></div>
 <div class="ttc" id="classwxScrollingDialog_dg-wxScrollingDialog"><div class="ttname"><a href="classwxScrollingDialog#dg-wxScrollingDialog">wxScrollingDialog::wxScrollingDialog</a></div><div class="ttdeci">wxScrollingDialog()</div><div class="ttdef"><b>Definition:</b> scrollingdialog.h:171</div></div>
 <div class="ttc" id="classwxDialogHelper_me-m_layoutAdaptationLevel"><div class="ttname"><a href="classwxDialogHelper#me-m_layoutAdaptationLevel">wxDialogHelper::m_layoutAdaptationLevel</a></div><div class="ttdeci">int m_layoutAdaptationLevel</div><div class="ttdef"><b>Definition:</b> scrollingdialog.h:153</div></div>
 <div class="ttc" id="classwxDialogHelper"><div class="ttname"><a href="classwxDialogHelper">wxDialogHelper</a></div><div class="ttdef"><b>Definition:</b> scrollingdialog.h:97</div></div>
 <div class="ttc" id="classwxDialogHelper_ll-GetLayoutAdaptationDone"><div class="ttname"><a href="classwxDialogHelper#ll-GetLayoutAdaptationDone">wxDialogHelper::GetLayoutAdaptationDone</a></div><div class="ttdeci">bool GetLayoutAdaptationDone() const </div><div class="ttdef"><b>Definition:</b> scrollingdialog.h:138</div></div>
 <div class="ttc" id="classwxDialogHelper_qp-m_layoutLayoutAdaptationDone"><div class="ttname"><a href="classwxDialogHelper#qp-m_layoutLayoutAdaptationDone">wxDialogHelper::m_layoutLayoutAdaptationDone</a></div><div class="ttdeci">bool m_layoutLayoutAdaptationDone</div><div class="ttdef"><b>Definition:</b> scrollingdialog.h:151</div></div>
-<div class="ttc" id="classwxDialogHelper_fa-Init"><div class="ttname"><a href="classwxDialogHelper#fa-Init">wxDialogHelper::Init</a></div><div class="ttdeci">void Init()</div><div class="ttdef"><b>Definition:</b> scrollingdialog.cpp:37</div></div>
+<div class="ttc" id="classwxDialogHelper_fa-Init"><div class="ttname"><a href="classwxDialogHelper#fa-Init">wxDialogHelper::Init</a></div><div class="ttdeci">void Init()</div><div class="ttdef"><b>Definition:</b> scrollingdialog.cpp:43</div></div>
 <div class="ttc" id="classwxScrollingPropertySheetDialog_uu-GetContentWindow"><div class="ttname"><a href="classwxScrollingPropertySheetDialog#uu-GetContentWindow">wxScrollingPropertySheetDialog::GetContentWindow</a></div><div class="ttdeci">virtual wxWindow * GetContentWindow() const </div><div class="ttdoc">Returns the content window. </div><div class="ttdef"><b>Definition:</b> scrollingdialog.cpp:467</div></div>
 <div class="ttc" id="classwxStandardDialogLayoutAdapter_ii-ReparentControls"><div class="ttname"><a href="classwxStandardDialogLayoutAdapter#ii-ReparentControls">wxStandardDialogLayoutAdapter::ReparentControls</a></div><div class="ttdeci">virtual void ReparentControls(wxWindow *parent, wxWindow *reparentTo, wxSizer *buttonSizer=NULL)</div><div class="ttdoc">Reparent the controls to the scrolled window, except those in buttonSizer. </div><div class="ttdef"><b>Definition:</b> scrollingdialog.cpp:281</div></div>
 <div class="ttc" id="classwxDialogLayoutAdapter"><div class="ttname"><a href="classwxDialogLayoutAdapter">wxDialogLayoutAdapter</a></div><div class="ttdef"><b>Definition:</b> scrollingdialog.h:34</div></div>

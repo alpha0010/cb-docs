@@ -8,7 +8,6 @@
  viewBox="0.00 0.00 715.50 1737.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 1733)">
 <title>CompilerMINGWGenerator</title>
-<polygon fill="white" stroke="none" points="-4,4 -4,-1733 711.5,-1733 711.5,4 -4,4"/>
 <!-- Node1 -->
 <g id="node1" class="node"><title>Node1</title>
 <polygon fill="#bfbfbf" stroke="black" points="66.5,-0.5 66.5,-79.5 218.5,-79.5 218.5,-0.5 66.5,-0.5"/>
@@ -23,7 +22,7 @@
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
 <g id="a_node2"><a xlink:href="classCompilerCommandGenerator" target="_top" xlink:title="Generate command&#45;lines needed to produce a build. ">
-<polygon fill="white" stroke="black" points="58,-117.5 58,-394.5 227,-394.5 227,-117.5 58,-117.5"/>
+<polygon fill="none" stroke="black" points="58,-117.5 58,-394.5 227,-394.5 227,-117.5 58,-117.5"/>
 <text text-anchor="middle" x="142.5" y="-382.5" font-family="FreeSans" font-size="10.00">CompilerCommandGenerator</text>
 <polyline fill="none" stroke="black" points="58,-375.5 227,-375.5 "/>
 <text text-anchor="start" x="66" y="-363.5" font-family="FreeSans" font-size="10.00"># m_PrjIncPath</text>
@@ -59,7 +58,7 @@
 </g>
 <!-- Node3 -->
 <g id="node3" class="node"><title>Node3</title>
-<polygon fill="white" stroke="#bfbfbf" points="0,-673.5 0,-741.5 141,-741.5 141,-673.5 0,-673.5"/>
+<polygon fill="none" stroke="#bfbfbf" points="0,-673.5 0,-741.5 141,-741.5 141,-673.5 0,-673.5"/>
 <text text-anchor="start" x="8" y="-729.5" font-family="FreeSans" font-size="10.00">std::map&lt; ProjectBuildTarget</text>
 <text text-anchor="middle" x="70.5" y="-718.5" font-family="FreeSans" font-size="10.00"> *, wxArrayString &gt;</text>
 <polyline fill="none" stroke="#bfbfbf" points="0,-711.5 141,-711.5 "/>
@@ -77,7 +76,7 @@
 <!-- Node4 -->
 <g id="node4" class="node"><title>Node4</title>
 <g id="a_node4"><a xlink:href="classProjectBuildTarget" target="_top" xlink:title="Represents a Code::Blocks project build target. ">
-<polygon fill="white" stroke="black" points="164,-910.5 164,-1143.5 303,-1143.5 303,-910.5 164,-910.5"/>
+<polygon fill="none" stroke="black" points="164,-910.5 164,-1143.5 303,-1143.5 303,-910.5 164,-910.5"/>
 <text text-anchor="middle" x="233.5" y="-1131.5" font-family="FreeSans" font-size="10.00">ProjectBuildTarget</text>
 <polyline fill="none" stroke="black" points="164,-1124.5 303,-1124.5 "/>
 <text text-anchor="start" x="172" y="-1112.5" font-family="FreeSans" font-size="10.00">&#45; m_ExternalDeps</text>
@@ -111,7 +110,7 @@
 <!-- Node7 -->
 <g id="node7" class="node"><title>Node7</title>
 <g id="a_node7"><a xlink:href="classcbProject" target="_top" xlink:title="Represents a Code::Blocks project. ">
-<polygon fill="white" stroke="black" points="364.5,-552.5 364.5,-862.5 534.5,-862.5 534.5,-552.5 364.5,-552.5"/>
+<polygon fill="none" stroke="black" points="364.5,-552.5 364.5,-862.5 534.5,-862.5 534.5,-552.5 364.5,-552.5"/>
 <text text-anchor="middle" x="449.5" y="-850.5" font-family="FreeSans" font-size="10.00">cbProject</text>
 <polyline fill="none" stroke="black" points="364.5,-843.5 534.5,-843.5 "/>
 <text text-anchor="start" x="372.5" y="-831.5" font-family="FreeSans" font-size="10.00">&#45; m_Targets</text>
@@ -151,7 +150,7 @@
 </g>
 <!-- Node11 -->
 <g id="node11" class="node"><title>Node11</title>
-<polygon fill="white" stroke="#bfbfbf" points="159,-673.5 159,-741.5 300,-741.5 300,-673.5 159,-673.5"/>
+<polygon fill="none" stroke="#bfbfbf" points="159,-673.5 159,-741.5 300,-741.5 300,-673.5 159,-673.5"/>
 <text text-anchor="start" x="167" y="-729.5" font-family="FreeSans" font-size="10.00">std::map&lt; ProjectBuildTarget</text>
 <text text-anchor="middle" x="229.5" y="-718.5" font-family="FreeSans" font-size="10.00"> *, wxString &gt;</text>
 <polyline fill="none" stroke="#bfbfbf" points="159,-711.5 300,-711.5 "/>
@@ -168,7 +167,7 @@
 <!-- Node5 -->
 <g id="node5" class="node"><title>Node5</title>
 <g id="a_node5"><a xlink:href="classCompileTargetBase" target="_top" xlink:title="Base class for build target classes Each Code::Blocks project consists of at least one target...">
-<polygon fill="white" stroke="black" points="312,-1191.5 312,-1457.5 467,-1457.5 467,-1191.5 312,-1191.5"/>
+<polygon fill="none" stroke="black" points="312,-1191.5 312,-1457.5 467,-1457.5 467,-1191.5 312,-1191.5"/>
 <text text-anchor="middle" x="389.5" y="-1445.5" font-family="FreeSans" font-size="10.00">CompileTargetBase</text>
 <polyline fill="none" stroke="black" points="312,-1438.5 467,-1438.5 "/>
 <text text-anchor="start" x="320" y="-1426.5" font-family="FreeSans" font-size="10.00"># m_Filename</text>
@@ -209,7 +208,7 @@
 <!-- Node6 -->
 <g id="node6" class="node"><title>Node6</title>
 <g id="a_node6"><a xlink:href="classCompileOptionsBase" target="_top" xlink:title="This is a base class for all classes needing compilation parameters. ">
-<polygon fill="white" stroke="black" points="315,-1495.5 315,-1728.5 464,-1728.5 464,-1495.5 315,-1495.5"/>
+<polygon fill="none" stroke="black" points="315,-1495.5 315,-1728.5 464,-1728.5 464,-1495.5 315,-1495.5"/>
 <text text-anchor="middle" x="389.5" y="-1716.5" font-family="FreeSans" font-size="10.00">CompileOptionsBase</text>
 <polyline fill="none" stroke="black" points="315,-1709.5 464,-1709.5 "/>
 <text text-anchor="start" x="323" y="-1697.5" font-family="FreeSans" font-size="10.00"># m_Platform</text>
@@ -247,7 +246,7 @@
 </g>
 <!-- Node8 -->
 <g id="node8" class="node"><title>Node8</title>
-<polygon fill="white" stroke="#bfbfbf" points="478,-987.5 478,-1066.5 579,-1066.5 579,-987.5 478,-987.5"/>
+<polygon fill="none" stroke="#bfbfbf" points="478,-987.5 478,-1066.5 579,-1066.5 579,-987.5 478,-987.5"/>
 <text text-anchor="start" x="486" y="-1054.5" font-family="FreeSans" font-size="10.00">std::map&lt; wxString,</text>
 <text text-anchor="middle" x="528.5" y="-1043.5" font-family="FreeSans" font-size="10.00"> wxArrayString &gt;</text>
 <polyline fill="none" stroke="#bfbfbf" points="478,-1036.5 579,-1036.5 "/>
@@ -264,7 +263,7 @@
 </g>
 <!-- Node9 -->
 <g id="node9" class="node"><title>Node9</title>
-<polygon fill="white" stroke="#bfbfbf" points="597.5,-993 597.5,-1061 707.5,-1061 707.5,-993 597.5,-993"/>
+<polygon fill="none" stroke="#bfbfbf" points="597.5,-993 597.5,-1061 707.5,-1061 707.5,-993 597.5,-993"/>
 <text text-anchor="start" x="605.5" y="-1049" font-family="FreeSans" font-size="10.00">std::vector&lt; cbProject</text>
 <text text-anchor="middle" x="652.5" y="-1038" font-family="FreeSans" font-size="10.00">::Glob &gt;</text>
 <polyline fill="none" stroke="#bfbfbf" points="597.5,-1031 707.5,-1031 "/>
@@ -281,7 +280,7 @@
 <!-- Node10 -->
 <g id="node10" class="node"><title>Node10</title>
 <g id="a_node10"><a xlink:href="structcbProject_1_1Glob" target="_top" xlink:title="{cbProject::Glob\n|+ m_Path\l+ m_WildCard\l+ m_Recursive\l|+ Glob()\l}">
-<polygon fill="white" stroke="black" points="611,-1285 611,-1364 694,-1364 694,-1285 611,-1285"/>
+<polygon fill="none" stroke="black" points="611,-1285 611,-1364 694,-1364 694,-1285 611,-1285"/>
 <text text-anchor="middle" x="652.5" y="-1352" font-family="FreeSans" font-size="10.00">cbProject::Glob</text>
 <polyline fill="none" stroke="black" points="611,-1345 694,-1345 "/>
 <text text-anchor="start" x="619" y="-1333" font-family="FreeSans" font-size="10.00">+ m_Path</text>

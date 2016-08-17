@@ -8,7 +8,6 @@
  viewBox="0.00 0.00 317.50 895.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 891)">
 <title>ProjectsFileMasksDlg</title>
-<polygon fill="white" stroke="none" points="-4,4 -4,-891 313.5,-891 313.5,4 -4,4"/>
 <!-- Node1 -->
 <g id="node1" class="node"><title>Node1</title>
 <polygon fill="#bfbfbf" stroke="black" points="84.5,-0.5 84.5,-178.5 228.5,-178.5 228.5,-0.5 84.5,-0.5"/>
@@ -32,7 +31,7 @@
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
 <g id="a_node2"><a xlink:href="classwxScrollingDialog" target="_top" xlink:title="{wxScrollingDialog\n||+ wxScrollingDialog()\l+ wxScrollingDialog()\l+ Create()\l+ Init()\l+ Show()\l+ ShowModal()\l}">
-<polygon fill="white" stroke="black" points="0,-259.5 0,-371.5 107,-371.5 107,-259.5 0,-259.5"/>
+<polygon fill="none" stroke="black" points="0,-259.5 0,-371.5 107,-371.5 107,-259.5 0,-259.5"/>
 <text text-anchor="middle" x="53.5" y="-359.5" font-family="FreeSans" font-size="10.00">wxScrollingDialog</text>
 <polyline fill="none" stroke="black" points="0,-352.5 107,-352.5 "/>
 <text text-anchor="middle" x="53.5" y="-340.5" font-family="FreeSans" font-size="10.00"> </text>
@@ -53,7 +52,7 @@
 </g>
 <!-- Node3 -->
 <g id="node3" class="node"><title>Node3</title>
-<polygon fill="white" stroke="#bfbfbf" points="14,-519.5 14,-576.5 69,-576.5 69,-519.5 14,-519.5"/>
+<polygon fill="none" stroke="#bfbfbf" points="14,-519.5 14,-576.5 69,-576.5 69,-519.5 14,-519.5"/>
 <text text-anchor="middle" x="41.5" y="-564.5" font-family="FreeSans" font-size="10.00">wxDialog</text>
 <polyline fill="none" stroke="#bfbfbf" points="14,-557.5 69,-557.5 "/>
 <text text-anchor="middle" x="41.5" y="-545.5" font-family="FreeSans" font-size="10.00"> </text>
@@ -68,7 +67,7 @@
 <!-- Node4 -->
 <g id="node4" class="node"><title>Node4</title>
 <g id="a_node4"><a xlink:href="classwxDialogHelper" target="_top" xlink:title="{wxDialogHelper\n|# m_dialog\l# m_layoutLayoutAdaptationDone\l# m_buttonIds\l# m_layoutAdaptationLevel\l# sm_layoutAdaptation\l|+ wxDialogHelper()\l+ ~wxDialogHelper()\l+ Init()\l+ SetDialog()\l+ GetDialog()\l+ DoLayoutAdaptation()\l+ CanDoLayoutAdaptation()\l+ GetContentWindow()\land 7 more...\l+ SetLayoutAdapter()\l+ GetLayoutAdapter()\l+ GetLayoutAdaptation()\l+ SetLayoutAdaptation()\l}">
-<polygon fill="white" stroke="black" points="87,-431.5 87,-664.5 248,-664.5 248,-431.5 87,-431.5"/>
+<polygon fill="none" stroke="black" points="87,-431.5 87,-664.5 248,-664.5 248,-431.5 87,-431.5"/>
 <text text-anchor="middle" x="167.5" y="-652.5" font-family="FreeSans" font-size="10.00">wxDialogHelper</text>
 <polyline fill="none" stroke="black" points="87,-645.5 248,-645.5 "/>
 <text text-anchor="start" x="95" y="-633.5" font-family="FreeSans" font-size="10.00"># m_dialog</text>
@@ -101,7 +100,7 @@
 <!-- Node5 -->
 <g id="node5" class="node"><title>Node5</title>
 <g id="a_node5"><a xlink:href="classwxDialogLayoutAdapter" target="_top" xlink:title="{wxDialogLayoutAdapter\n||+ wxDialogLayoutAdapter()\l+ CanDoLayoutAdaptation()\l+ DoLayoutAdaptation()\l}">
-<polygon fill="white" stroke="black" points="100,-712.5 100,-791.5 235,-791.5 235,-712.5 100,-712.5"/>
+<polygon fill="none" stroke="black" points="100,-712.5 100,-791.5 235,-791.5 235,-712.5 100,-712.5"/>
 <text text-anchor="middle" x="167.5" y="-779.5" font-family="FreeSans" font-size="10.00">wxDialogLayoutAdapter</text>
 <polyline fill="none" stroke="black" points="100,-772.5 235,-772.5 "/>
 <text text-anchor="middle" x="167.5" y="-760.5" font-family="FreeSans" font-size="10.00"> </text>
@@ -120,7 +119,7 @@
 </g>
 <!-- Node6 -->
 <g id="node6" class="node"><title>Node6</title>
-<polygon fill="white" stroke="#bfbfbf" points="139.5,-829.5 139.5,-886.5 195.5,-886.5 195.5,-829.5 139.5,-829.5"/>
+<polygon fill="none" stroke="#bfbfbf" points="139.5,-829.5 139.5,-886.5 195.5,-886.5 195.5,-829.5 139.5,-829.5"/>
 <text text-anchor="middle" x="167.5" y="-874.5" font-family="FreeSans" font-size="10.00">wxObject</text>
 <polyline fill="none" stroke="#bfbfbf" points="139.5,-867.5 195.5,-867.5 "/>
 <text text-anchor="middle" x="167.5" y="-855.5" font-family="FreeSans" font-size="10.00"> </text>
@@ -135,7 +134,7 @@
 <!-- Node7 -->
 <g id="node7" class="node"><title>Node7</title>
 <g id="a_node7"><a xlink:href="classFilesGroupsAndMasks" target="_top" xlink:title="{FilesGroupsAndMasks\n|&#45; m_Groups\l|+ FilesGroupsAndMasks()\l+ FilesGroupsAndMasks()\l+ ~FilesGroupsAndMasks()\l+ CopyFrom()\l+ SetDefault()\l+ Save()\l+ Clear()\l+ AddGroup()\land 7 more...\l&#45; Load()\l}">
-<polygon fill="white" stroke="black" points="125.5,-237.5 125.5,-393.5 257.5,-393.5 257.5,-237.5 125.5,-237.5"/>
+<polygon fill="none" stroke="black" points="125.5,-237.5 125.5,-393.5 257.5,-393.5 257.5,-237.5 125.5,-237.5"/>
 <text text-anchor="middle" x="191.5" y="-381.5" font-family="FreeSans" font-size="10.00">FilesGroupsAndMasks</text>
 <polyline fill="none" stroke="black" points="125.5,-374.5 257.5,-374.5 "/>
 <text text-anchor="start" x="133.5" y="-362.5" font-family="FreeSans" font-size="10.00">&#45; m_Groups</text>

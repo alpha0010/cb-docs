@@ -18,7 +18,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">Code::Blocks
-   &#160;<span id="projectnumber">SVN r10603</span>
+   &#160;<span id="projectnumber">SVN r10885</span>
    </div>
   </td>
  </tr>
@@ -30,6 +30,7 @@
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="index"><span>Main&#160;Page</span></a></li>
+      <li><a href="pages"><span>Related&#160;Pages</span></a></li>
       <li><a href="namespaces"><span>Namespaces</span></a></li>
       <li><a href="annotated"><span>Classes</span></a></li>
       <li class="current"><a href="files"><span>Files</span></a></li>
@@ -64,8 +65,7 @@
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for sqlexer.cpp:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="sqlexer_8cpp__incl.svg" width="696" height="112"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="sqlexer_8cpp__incl.svg" width="696" height="112"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
@@ -101,13 +101,13 @@ Macros</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:n1-LexHexadecimal"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sqlexer_8cpp#n1-LexHexadecimal">LexHexadecimal</a> (const SQChar *s, SQUnsignedInteger *res)</td></tr>
+<tr class="memitem:n1-LexHexadecimal"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sqlexer_8cpp#n1-LexHexadecimal">LexHexadecimal</a> (const <a class="el" href="scriptingmanager_8h#ss-SQChar">SQChar</a> *s, SQUnsignedInteger *res)</td></tr>
 <tr class="separator:n1-LexHexadecimal"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:yo-LexInteger"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sqlexer_8cpp#yo-LexInteger">LexInteger</a> (const SQChar *s, SQUnsignedInteger *res)</td></tr>
+<tr class="memitem:yo-LexInteger"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sqlexer_8cpp#yo-LexInteger">LexInteger</a> (const <a class="el" href="scriptingmanager_8h#ss-SQChar">SQChar</a> *s, SQUnsignedInteger *res)</td></tr>
 <tr class="separator:yo-LexInteger"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:rl-scisodigit"><td class="memItemLeft" align="right" valign="top">SQInteger&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sqlexer_8cpp#rl-scisodigit">scisodigit</a> (SQInteger c)</td></tr>
 <tr class="separator:rl-scisodigit"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:mw-LexOctal"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sqlexer_8cpp#mw-LexOctal">LexOctal</a> (const SQChar *s, SQUnsignedInteger *res)</td></tr>
+<tr class="memitem:mw-LexOctal"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sqlexer_8cpp#mw-LexOctal">LexOctal</a> (const <a class="el" href="scriptingmanager_8h#ss-SQChar">SQChar</a> *s, SQUnsignedInteger *res)</td></tr>
 <tr class="separator:mw-LexOctal"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:vr-isexponent"><td class="memItemLeft" align="right" valign="top">SQInteger&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sqlexer_8cpp#vr-isexponent">isexponent</a> (SQInteger c)</td></tr>
 <tr class="separator:vr-isexponent"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -339,7 +339,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="memname">void LexHexadecimal </td>
           <td>(</td>
-          <td class="paramtype">const SQChar *&#160;</td>
+          <td class="paramtype">const <a class="el" href="scriptingmanager_8h#ss-SQChar">SQChar</a> *&#160;</td>
           <td class="paramname"><em>s</em>, </td>
         </tr>
         <tr>
@@ -365,7 +365,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="memname">void LexInteger </td>
           <td>(</td>
-          <td class="paramtype">const SQChar *&#160;</td>
+          <td class="paramtype">const <a class="el" href="scriptingmanager_8h#ss-SQChar">SQChar</a> *&#160;</td>
           <td class="paramname"><em>s</em>, </td>
         </tr>
         <tr>
@@ -391,7 +391,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="memname">void LexOctal </td>
           <td>(</td>
-          <td class="paramtype">const SQChar *&#160;</td>
+          <td class="paramtype">const <a class="el" href="scriptingmanager_8h#ss-SQChar">SQChar</a> *&#160;</td>
           <td class="paramname"><em>s</em>, </td>
         </tr>
         <tr>

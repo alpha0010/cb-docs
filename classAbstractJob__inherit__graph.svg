@@ -8,7 +8,6 @@
  viewBox="0.00 0.00 380.50 419.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 415)">
 <title>AbstractJob</title>
-<polygon fill="white" stroke="none" points="-4,4 -4,-415 376.5,-415 376.5,4 -4,4"/>
 <!-- Node1 -->
 <g id="node1" class="node"><title>Node1</title>
 <polygon fill="#bfbfbf" stroke="black" points="145,-331.5 145,-410.5 233,-410.5 233,-331.5 145,-331.5"/>
@@ -23,7 +22,7 @@
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
 <g id="a_node2"><a xlink:href="classLoaderBase" target="_top" xlink:title="{LoaderBase\n|# fileName\l# data\l# len\l&#45; sem\l&#45; wait\l|+ LoaderBase()\l+ ~LoaderBase()\l+ operator()()\l+ FileName()\l+ Sync()\l+ GetData()\l+ GetLength()\l# Ready()\l&#45; WaitReady()\l}">
-<polygon fill="white" stroke="black" points="145.5,-105.5 145.5,-294.5 232.5,-294.5 232.5,-105.5 145.5,-105.5"/>
+<polygon fill="none" stroke="black" points="145.5,-105.5 145.5,-294.5 232.5,-294.5 232.5,-105.5 145.5,-105.5"/>
 <text text-anchor="middle" x="189" y="-282.5" font-family="FreeSans" font-size="10.00">LoaderBase</text>
 <polyline fill="none" stroke="black" points="145.5,-275.5 232.5,-275.5 "/>
 <text text-anchor="start" x="153.5" y="-263.5" font-family="FreeSans" font-size="10.00"># fileName</text>
@@ -52,7 +51,7 @@
 <!-- Node3 -->
 <g id="node3" class="node"><title>Node3</title>
 <g id="a_node3"><a xlink:href="classEditorReuser" target="_top" xlink:title="{EditorReuser\n||+ EditorReuser()\l+ operator()()\l}">
-<polygon fill="white" stroke="black" points="0,-0.5 0,-68.5 86,-68.5 86,-0.5 0,-0.5"/>
+<polygon fill="none" stroke="black" points="0,-0.5 0,-68.5 86,-68.5 86,-0.5 0,-0.5"/>
 <text text-anchor="middle" x="43" y="-56.5" font-family="FreeSans" font-size="10.00">EditorReuser</text>
 <polyline fill="none" stroke="black" points="0,-49.5 86,-49.5 "/>
 <text text-anchor="middle" x="43" y="-37.5" font-family="FreeSans" font-size="10.00"> </text>
@@ -70,7 +69,7 @@
 <!-- Node4 -->
 <g id="node4" class="node"><title>Node4</title>
 <g id="a_node4"><a xlink:href="classFileLoader" target="_top" xlink:title="{FileLoader\n||+ FileLoader()\l+ operator()()\l}">
-<polygon fill="white" stroke="black" points="104,-0.5 104,-68.5 180,-68.5 180,-0.5 104,-0.5"/>
+<polygon fill="none" stroke="black" points="104,-0.5 104,-68.5 180,-68.5 180,-0.5 104,-0.5"/>
 <text text-anchor="middle" x="142" y="-56.5" font-family="FreeSans" font-size="10.00">FileLoader</text>
 <polyline fill="none" stroke="black" points="104,-49.5 180,-49.5 "/>
 <text text-anchor="middle" x="142" y="-37.5" font-family="FreeSans" font-size="10.00"> </text>
@@ -88,7 +87,7 @@
 <!-- Node5 -->
 <g id="node5" class="node"><title>Node5</title>
 <g id="a_node5"><a xlink:href="classNullLoader" target="_top" xlink:title="{NullLoader\n||+ NullLoader()\l+ operator()()\l}">
-<polygon fill="white" stroke="black" points="198.5,-0.5 198.5,-68.5 275.5,-68.5 275.5,-0.5 198.5,-0.5"/>
+<polygon fill="none" stroke="black" points="198.5,-0.5 198.5,-68.5 275.5,-68.5 275.5,-0.5 198.5,-0.5"/>
 <text text-anchor="middle" x="237" y="-56.5" font-family="FreeSans" font-size="10.00">NullLoader</text>
 <polyline fill="none" stroke="black" points="198.5,-49.5 275.5,-49.5 "/>
 <text text-anchor="middle" x="237" y="-37.5" font-family="FreeSans" font-size="10.00"> </text>
@@ -106,7 +105,7 @@
 <!-- Node6 -->
 <g id="node6" class="node"><title>Node6</title>
 <g id="a_node6"><a xlink:href="classURLLoader" target="_top" xlink:title="{URLLoader\n|&#45; mBuffer\l|+ URLLoader()\l+ operator()()\l}">
-<polygon fill="white" stroke="black" points="293.5,-0.5 293.5,-68.5 372.5,-68.5 372.5,-0.5 293.5,-0.5"/>
+<polygon fill="none" stroke="black" points="293.5,-0.5 293.5,-68.5 372.5,-68.5 372.5,-0.5 293.5,-0.5"/>
 <text text-anchor="middle" x="333" y="-56.5" font-family="FreeSans" font-size="10.00">URLLoader</text>
 <polyline fill="none" stroke="black" points="293.5,-49.5 372.5,-49.5 "/>
 <text text-anchor="start" x="301.5" y="-37.5" font-family="FreeSans" font-size="10.00">&#45; mBuffer</text>

@@ -8,7 +8,6 @@
  viewBox="0.00 0.00 1048.00 2230.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 2226)">
 <title>cbEditor</title>
-<polygon fill="white" stroke="none" points="-4,4 -4,-2226 1044,-2226 1044,4 -4,4"/>
 <!-- Node1 -->
 <g id="node1" class="node"><title>Node1</title>
 <polygon fill="#bfbfbf" stroke="black" points="337,-336.5 337,-778.5 481,-778.5 481,-336.5 337,-336.5"/>
@@ -33,7 +32,7 @@
 <text text-anchor="start" x="345" y="-574.5" font-family="FreeSans" font-size="10.00">+ IsOK()</text>
 <text text-anchor="start" x="345" y="-563.5" font-family="FreeSans" font-size="10.00">+ SetEditorTitle()</text>
 <text text-anchor="start" x="345" y="-552.5" font-family="FreeSans" font-size="10.00">+ GetModified()</text>
-<text text-anchor="start" x="345" y="-541.5" font-family="FreeSans" font-size="10.00">and 73 more...</text>
+<text text-anchor="start" x="345" y="-541.5" font-family="FreeSans" font-size="10.00">and 75 more...</text>
 <text text-anchor="start" x="345" y="-530.5" font-family="FreeSans" font-size="10.00">+ ApplyStyles()</text>
 <text text-anchor="start" x="345" y="-519.5" font-family="FreeSans" font-size="10.00"># cbEditor()</text>
 <text text-anchor="start" x="345" y="-508.5" font-family="FreeSans" font-size="10.00"># cbEditor()</text>
@@ -46,7 +45,7 @@
 <text text-anchor="start" x="345" y="-431.5" font-family="FreeSans" font-size="10.00">&#45; MarkLine()</text>
 <text text-anchor="start" x="345" y="-420.5" font-family="FreeSans" font-size="10.00">&#45; DoFoldAll()</text>
 <text text-anchor="start" x="345" y="-409.5" font-family="FreeSans" font-size="10.00">&#45; DoFoldBlockFromLine()</text>
-<text text-anchor="start" x="345" y="-398.5" font-family="FreeSans" font-size="10.00">and 28 more...</text>
+<text text-anchor="start" x="345" y="-398.5" font-family="FreeSans" font-size="10.00">and 27 more...</text>
 <text text-anchor="start" x="345" y="-387.5" font-family="FreeSans" font-size="10.00">&#45; InternalSetEditorStyleBefore</text>
 <text text-anchor="start" x="345" y="-376.5" font-family="FreeSans" font-size="10.00">FileOpen()</text>
 <text text-anchor="start" x="345" y="-365.5" font-family="FreeSans" font-size="10.00">&#45; InternalSetEditorStyleAfter</text>
@@ -56,7 +55,7 @@
 <!-- Node14 -->
 <g id="node14" class="node"><title>Node14</title>
 <g id="a_node14"><a xlink:href="structcbEditorInternalData" target="_top" xlink:title="{cbEditorInternalData\n|+ m_strip_trailing_spaces\l+ m_ensure_final_line_end\l+ m_ensure_consistent\l_line_ends\l+ m_LastMarginMenuLine\l+ m_LastDebugLine\l+ mFoldingLimit\l+ mFoldingLimitLevel\l+ m_encoding\l+ m_useByteOrderMark\l+ m_byteOrderMarkLength\l+ m_lineNumbersWidth\l+ m_lineNumbersWidth2\l|+ cbEditorInternalData()\l+ ~cbEditorInternalData()\l+ StripTrailingSpaces()\l+ EnsureFinalLineEnd()\l+ EnsureConsistentLineEnds()\l+ SetLineNumberColWidth()\l+ SetFoldingColWidth()\l+ GetUrl()\l+ GetLineIndentString()\l+ DetectIndentStyle()\l}">
-<polygon fill="white" stroke="black" points="415,-0.5 415,-288.5 559,-288.5 559,-0.5 415,-0.5"/>
+<polygon fill="none" stroke="black" points="415,-0.5 415,-288.5 559,-288.5 559,-0.5 415,-0.5"/>
 <text text-anchor="middle" x="487" y="-276.5" font-family="FreeSans" font-size="10.00">cbEditorInternalData</text>
 <polyline fill="none" stroke="black" points="415,-269.5 559,-269.5 "/>
 <text text-anchor="start" x="423" y="-257.5" font-family="FreeSans" font-size="10.00">+ m_strip_trailing_spaces</text>
@@ -95,7 +94,7 @@
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
 <g id="a_node2"><a xlink:href="classEditorBase" target="_top" xlink:title="Base class that all &quot;editors&quot; should inherit from. ">
-<polygon fill="white" stroke="black" points="11,-892.5 11,-1191.5 161,-1191.5 161,-892.5 11,-892.5"/>
+<polygon fill="none" stroke="black" points="11,-892.5 11,-1191.5 161,-1191.5 161,-892.5 11,-892.5"/>
 <text text-anchor="middle" x="86" y="-1179.5" font-family="FreeSans" font-size="10.00">EditorBase</text>
 <polyline fill="none" stroke="black" points="11,-1172.5 161,-1172.5 "/>
 <text text-anchor="start" x="19" y="-1160.5" font-family="FreeSans" font-size="10.00"># m_IsBuiltinEditor</text>
@@ -113,7 +112,7 @@
 <text text-anchor="start" x="19" y="-1031.5" font-family="FreeSans" font-size="10.00">+ GetShortName()</text>
 <text text-anchor="start" x="19" y="-1020.5" font-family="FreeSans" font-size="10.00">+ GetModified()</text>
 <text text-anchor="start" x="19" y="-1009.5" font-family="FreeSans" font-size="10.00">+ SetModified()</text>
-<text text-anchor="start" x="19" y="-998.5" font-family="FreeSans" font-size="10.00">and 41 more...</text>
+<text text-anchor="start" x="19" y="-998.5" font-family="FreeSans" font-size="10.00">and 30 more...</text>
 <text text-anchor="start" x="19" y="-987.5" font-family="FreeSans" font-size="10.00"># InitFilename()</text>
 <text text-anchor="start" x="19" y="-976.5" font-family="FreeSans" font-size="10.00"># CreateContextSubMenu()</text>
 <text text-anchor="start" x="19" y="-965.5" font-family="FreeSans" font-size="10.00"># AddToContextMenu()</text>
@@ -134,7 +133,7 @@
 <!-- Node4 -->
 <g id="node4" class="node"><title>Node4</title>
 <g id="a_node4"><a xlink:href="structEditorBaseInternalData" target="_top" xlink:title="{EditorBaseInternalData\n|+ m_DisplayingPopupMenu\l+ m_CloseMe\l|+ EditorBaseInternalData()\l}">
-<polygon fill="white" stroke="black" points="0,-523.5 0,-591.5 134,-591.5 134,-523.5 0,-523.5"/>
+<polygon fill="none" stroke="black" points="0,-523.5 0,-591.5 134,-591.5 134,-523.5 0,-523.5"/>
 <text text-anchor="middle" x="67" y="-579.5" font-family="FreeSans" font-size="10.00">EditorBaseInternalData</text>
 <polyline fill="none" stroke="black" points="0,-572.5 134,-572.5 "/>
 <text text-anchor="start" x="8" y="-560.5" font-family="FreeSans" font-size="10.00">+ m_DisplayingPopupMenu</text>
@@ -152,7 +151,7 @@
 </g>
 <!-- Node3 -->
 <g id="node3" class="node"><title>Node3</title>
-<polygon fill="white" stroke="#bfbfbf" points="59.5,-1443 59.5,-1500 112.5,-1500 112.5,-1443 59.5,-1443"/>
+<polygon fill="none" stroke="#bfbfbf" points="59.5,-1443 59.5,-1500 112.5,-1500 112.5,-1443 59.5,-1443"/>
 <text text-anchor="middle" x="86" y="-1488" font-family="FreeSans" font-size="10.00">wxPanel</text>
 <polyline fill="none" stroke="#bfbfbf" points="59.5,-1481 112.5,-1481 "/>
 <text text-anchor="middle" x="86" y="-1469" font-family="FreeSans" font-size="10.00"> </text>
@@ -173,7 +172,7 @@
 <!-- Node5 -->
 <g id="node5" class="node"><title>Node5</title>
 <g id="a_node5"><a xlink:href="classProjectFile" target="_top" xlink:title="Represents a file in a Code::Blocks project. ">
-<polygon fill="white" stroke="black" points="509.5,-892.5 509.5,-1191.5 674.5,-1191.5 674.5,-892.5 509.5,-892.5"/>
+<polygon fill="none" stroke="black" points="509.5,-892.5 509.5,-1191.5 674.5,-1191.5 674.5,-892.5 509.5,-892.5"/>
 <text text-anchor="middle" x="592" y="-1179.5" font-family="FreeSans" font-size="10.00">ProjectFile</text>
 <polyline fill="none" stroke="black" points="509.5,-1172.5 674.5,-1172.5 "/>
 <text text-anchor="start" x="517.5" y="-1160.5" font-family="FreeSans" font-size="10.00">+ file</text>
@@ -218,7 +217,7 @@
 </g>
 <!-- Node13 -->
 <g id="node13" class="node"><title>Node13</title>
-<polygon fill="white" stroke="#bfbfbf" points="574.5,-529 574.5,-586 703.5,-586 703.5,-529 574.5,-529"/>
+<polygon fill="none" stroke="#bfbfbf" points="574.5,-529 574.5,-586 703.5,-586 703.5,-529 574.5,-529"/>
 <text text-anchor="middle" x="639" y="-574" font-family="FreeSans" font-size="10.00">std::vector&lt; ProjectFile * &gt;</text>
 <polyline fill="none" stroke="#bfbfbf" points="574.5,-567 703.5,-567 "/>
 <text text-anchor="middle" x="639" y="-555" font-family="FreeSans" font-size="10.00"> </text>
@@ -234,7 +233,7 @@
 <!-- Node6 -->
 <g id="node6" class="node"><title>Node6</title>
 <g id="a_node6"><a xlink:href="classcbProject" target="_top" xlink:title="Represents a Code::Blocks project. ">
-<polygon fill="white" stroke="black" points="624,-1316.5 624,-1626.5 794,-1626.5 794,-1316.5 624,-1316.5"/>
+<polygon fill="none" stroke="black" points="624,-1316.5 624,-1626.5 794,-1626.5 794,-1316.5 624,-1316.5"/>
 <text text-anchor="middle" x="709" y="-1614.5" font-family="FreeSans" font-size="10.00">cbProject</text>
 <polyline fill="none" stroke="black" points="624,-1607.5 794,-1607.5 "/>
 <text text-anchor="start" x="632" y="-1595.5" font-family="FreeSans" font-size="10.00">&#45; m_Targets</text>
@@ -275,7 +274,7 @@
 <!-- Node12 -->
 <g id="node12" class="node"><title>Node12</title>
 <g id="a_node12"><a xlink:href="classProjectBuildTarget" target="_top" xlink:title="Represents a Code::Blocks project build target. ">
-<polygon fill="white" stroke="black" points="794.5,-925.5 794.5,-1158.5 933.5,-1158.5 933.5,-925.5 794.5,-925.5"/>
+<polygon fill="none" stroke="black" points="794.5,-925.5 794.5,-1158.5 933.5,-1158.5 933.5,-925.5 794.5,-925.5"/>
 <text text-anchor="middle" x="864" y="-1146.5" font-family="FreeSans" font-size="10.00">ProjectBuildTarget</text>
 <polyline fill="none" stroke="black" points="794.5,-1139.5 933.5,-1139.5 "/>
 <text text-anchor="start" x="802.5" y="-1127.5" font-family="FreeSans" font-size="10.00">&#45; m_ExternalDeps</text>
@@ -309,7 +308,7 @@
 <!-- Node7 -->
 <g id="node7" class="node"><title>Node7</title>
 <g id="a_node7"><a xlink:href="classCompileTargetBase" target="_top" xlink:title="Base class for build target classes Each Code::Blocks project consists of at least one target...">
-<polygon fill="white" stroke="black" points="822.5,-1674.5 822.5,-1940.5 977.5,-1940.5 977.5,-1674.5 822.5,-1674.5"/>
+<polygon fill="none" stroke="black" points="822.5,-1674.5 822.5,-1940.5 977.5,-1940.5 977.5,-1674.5 822.5,-1674.5"/>
 <text text-anchor="middle" x="900" y="-1928.5" font-family="FreeSans" font-size="10.00">CompileTargetBase</text>
 <polyline fill="none" stroke="black" points="822.5,-1921.5 977.5,-1921.5 "/>
 <text text-anchor="start" x="830.5" y="-1909.5" font-family="FreeSans" font-size="10.00"># m_Filename</text>
@@ -350,7 +349,7 @@
 <!-- Node8 -->
 <g id="node8" class="node"><title>Node8</title>
 <g id="a_node8"><a xlink:href="classCompileOptionsBase" target="_top" xlink:title="This is a base class for all classes needing compilation parameters. ">
-<polygon fill="white" stroke="black" points="825.5,-1988.5 825.5,-2221.5 974.5,-2221.5 974.5,-1988.5 825.5,-1988.5"/>
+<polygon fill="none" stroke="black" points="825.5,-1988.5 825.5,-2221.5 974.5,-2221.5 974.5,-1988.5 825.5,-1988.5"/>
 <text text-anchor="middle" x="900" y="-2209.5" font-family="FreeSans" font-size="10.00">CompileOptionsBase</text>
 <polyline fill="none" stroke="black" points="825.5,-2202.5 974.5,-2202.5 "/>
 <text text-anchor="start" x="833.5" y="-2190.5" font-family="FreeSans" font-size="10.00"># m_Platform</text>
@@ -382,7 +381,7 @@
 </g>
 <!-- Node9 -->
 <g id="node9" class="node"><title>Node9</title>
-<polygon fill="white" stroke="#bfbfbf" points="691.5,-1768 691.5,-1847 792.5,-1847 792.5,-1768 691.5,-1768"/>
+<polygon fill="none" stroke="#bfbfbf" points="691.5,-1768 691.5,-1847 792.5,-1847 792.5,-1768 691.5,-1768"/>
 <text text-anchor="start" x="699.5" y="-1835" font-family="FreeSans" font-size="10.00">std::map&lt; wxString,</text>
 <text text-anchor="middle" x="742" y="-1824" font-family="FreeSans" font-size="10.00"> wxArrayString &gt;</text>
 <polyline fill="none" stroke="#bfbfbf" points="691.5,-1817 792.5,-1817 "/>
@@ -399,7 +398,7 @@
 </g>
 <!-- Node10 -->
 <g id="node10" class="node"><title>Node10</title>
-<polygon fill="white" stroke="#bfbfbf" points="563,-1773.5 563,-1841.5 673,-1841.5 673,-1773.5 563,-1773.5"/>
+<polygon fill="none" stroke="#bfbfbf" points="563,-1773.5 563,-1841.5 673,-1841.5 673,-1773.5 563,-1773.5"/>
 <text text-anchor="start" x="571" y="-1829.5" font-family="FreeSans" font-size="10.00">std::vector&lt; cbProject</text>
 <text text-anchor="middle" x="618" y="-1818.5" font-family="FreeSans" font-size="10.00">::Glob &gt;</text>
 <polyline fill="none" stroke="#bfbfbf" points="563,-1811.5 673,-1811.5 "/>
@@ -416,7 +415,7 @@
 <!-- Node11 -->
 <g id="node11" class="node"><title>Node11</title>
 <g id="a_node11"><a xlink:href="structcbProject_1_1Glob" target="_top" xlink:title="{cbProject::Glob\n|+ m_Path\l+ m_WildCard\l+ m_Recursive\l|+ Glob()\l}">
-<polygon fill="white" stroke="black" points="576.5,-2065.5 576.5,-2144.5 659.5,-2144.5 659.5,-2065.5 576.5,-2065.5"/>
+<polygon fill="none" stroke="black" points="576.5,-2065.5 576.5,-2144.5 659.5,-2144.5 659.5,-2065.5 576.5,-2065.5"/>
 <text text-anchor="middle" x="618" y="-2132.5" font-family="FreeSans" font-size="10.00">cbProject::Glob</text>
 <polyline fill="none" stroke="black" points="576.5,-2125.5 659.5,-2125.5 "/>
 <text text-anchor="start" x="584.5" y="-2113.5" font-family="FreeSans" font-size="10.00">+ m_Path</text>
@@ -454,7 +453,7 @@
 <!-- Node15 -->
 <g id="node15" class="node"><title>Node15</title>
 <g id="a_node15"><a xlink:href="classLoaderBase" target="_top" xlink:title="{LoaderBase\n|# fileName\l# data\l# len\l&#45; sem\l&#45; wait\l|+ LoaderBase()\l+ ~LoaderBase()\l+ operator()()\l+ FileName()\l+ Sync()\l+ GetData()\l+ GetLength()\l# Ready()\l&#45; WaitReady()\l}">
-<polygon fill="white" stroke="black" points="860.5,-463 860.5,-652 947.5,-652 947.5,-463 860.5,-463"/>
+<polygon fill="none" stroke="black" points="860.5,-463 860.5,-652 947.5,-652 947.5,-463 860.5,-463"/>
 <text text-anchor="middle" x="904" y="-640" font-family="FreeSans" font-size="10.00">LoaderBase</text>
 <polyline fill="none" stroke="black" points="860.5,-633 947.5,-633 "/>
 <text text-anchor="start" x="868.5" y="-621" font-family="FreeSans" font-size="10.00"># fileName</text>
@@ -484,7 +483,7 @@
 <!-- Node16 -->
 <g id="node16" class="node"><title>Node16</title>
 <g id="a_node16"><a xlink:href="classAbstractJob" target="_top" xlink:title="{AbstractJob\n||+ AbstractJob()\l+ ~AbstractJob()\l+ operator()()\l}">
-<polygon fill="white" stroke="black" points="952,-1002.5 952,-1081.5 1040,-1081.5 1040,-1002.5 952,-1002.5"/>
+<polygon fill="none" stroke="black" points="952,-1002.5 952,-1081.5 1040,-1081.5 1040,-1002.5 952,-1002.5"/>
 <text text-anchor="middle" x="996" y="-1069.5" font-family="FreeSans" font-size="10.00">AbstractJob</text>
 <polyline fill="none" stroke="black" points="952,-1062.5 1040,-1062.5 "/>
 <text text-anchor="middle" x="996" y="-1050.5" font-family="FreeSans" font-size="10.00"> </text>
@@ -503,7 +502,7 @@
 <!-- Node17 -->
 <g id="node17" class="node"><title>Node17</title>
 <g id="a_node17"><a xlink:href="classEditorColourSet" target="_top" xlink:title="{EditorColourSet\n|&#45; m_Name\l&#45; m_Sets\l|+ EditorColourSet()\l+ EditorColourSet()\l+ ~EditorColourSet()\l+ AddHighlightLanguage()\l+ GetHighlightLanguage()\l+ GetHighlightLanguage()\l+ GetAllHighlightLanguages()\l+ AddOption()\land 28 more...\l&#45; DoApplyStyle()\l&#45; LoadAvailableSets()\l&#45; Load()\l&#45; ClearAllOptionColours()\l&#45; GetDefaultOption()\l}">
-<polygon fill="white" stroke="black" points="179,-936.5 179,-1147.5 321,-1147.5 321,-936.5 179,-936.5"/>
+<polygon fill="none" stroke="black" points="179,-936.5 179,-1147.5 321,-1147.5 321,-936.5 179,-936.5"/>
 <text text-anchor="middle" x="250" y="-1135.5" font-family="FreeSans" font-size="10.00">EditorColourSet</text>
 <polyline fill="none" stroke="black" points="179,-1128.5 321,-1128.5 "/>
 <text text-anchor="start" x="187" y="-1116.5" font-family="FreeSans" font-size="10.00">&#45; m_Name</text>
@@ -535,7 +534,7 @@
 <!-- Node18 -->
 <g id="node18" class="node"><title>Node18</title>
 <g id="a_node18"><a xlink:href="classcbStyledTextCtrl" target="_top" xlink:title="{cbStyledTextCtrl\n|&#45; m_pParent\l&#45; m_lastFocusTime\l&#45; m_bracePosition\l&#45; m_lastPosition\l&#45; m_middleClickPos\l&#45; m_tabSmartJump\l&#45; m_lastSelectedText\l&#45; m_braceShortcutState\l|+ cbStyledTextCtrl()\l+ ~cbStyledTextCtrl()\l+ operator=()\l+ GetLastFocusTime()\l+ GetLastSelectedText()\l+ EnableTabSmartJump()\l+ IsCharacter()\l+ IsString()\land 7 more...\l+ GetCharacterLexerStyles()\l+ GetStringLexerStyles()\l+ GetPreprocessorLexerStyles()\l+ GetCommentLexerStyles()\l&#45; OnContextMenu()\l&#45; OnKillFocus()\l&#45; OnSetFocus()\l&#45; OnMouseMiddleDown()\l&#45; OnMouseMiddleClick()\l&#45; OnKeyDown()\l&#45; OnKeyUp()\l&#45; OnMouseLeftUp()\l&#45; AllowTabSmartJump()\l&#45; HighlightRightBrace()\l&#45; EmulateDwellStart()\l}">
-<polygon fill="white" stroke="black" points="339,-848.5 339,-1235.5 491,-1235.5 491,-848.5 339,-848.5"/>
+<polygon fill="none" stroke="black" points="339,-848.5 339,-1235.5 491,-1235.5 491,-848.5 339,-848.5"/>
 <text text-anchor="middle" x="415" y="-1223.5" font-family="FreeSans" font-size="10.00">cbStyledTextCtrl</text>
 <polyline fill="none" stroke="black" points="339,-1216.5 491,-1216.5 "/>
 <text text-anchor="start" x="347" y="-1204.5" font-family="FreeSans" font-size="10.00">&#45; m_pParent</text>
@@ -584,8 +583,8 @@
 </g>
 <!-- Node19 -->
 <g id="node19" class="node"><title>Node19</title>
-<g id="a_node19"><a xlink:href="classwxScintilla" target="_top" xlink:title="{wxScintilla\n|# m_swx\l# m_stopWatch\l# m_vScrollBar\l# m_hScrollBar\l# m_lastKeyDownConsumed\l|+ wxScintilla()\l+ wxScintilla()\l+ ~wxScintilla()\l+ Create()\l+ AddText()\l+ AddText()\l+ AddStyledText()\l+ InsertText()\land 707 more...\l# GetValue()\l# SetValue()\l# DoSetValue()\l# DoGetValue()\l# GetEditableWindow()\l# DoLoadFile()\l# DoSaveFile()\l# OnPaint()\land 26 more...\l}">
-<polygon fill="white" stroke="black" points="275.5,-1327.5 275.5,-1615.5 414.5,-1615.5 414.5,-1327.5 275.5,-1327.5"/>
+<g id="a_node19"><a xlink:href="classwxScintilla" target="_top" xlink:title="{wxScintilla\n|# m_swx\l# m_stopWatch\l# m_vScrollBar\l# m_hScrollBar\l# m_lastKeyDownConsumed\l|+ wxScintilla()\l+ wxScintilla()\l+ ~wxScintilla()\l+ Create()\l+ AddText()\l+ AddText()\l+ AddStyledText()\l+ InsertText()\land 703 more...\l# GetValue()\l# SetValue()\l# DoSetValue()\l# DoGetValue()\l# GetEditableWindow()\l# DoLoadFile()\l# DoSaveFile()\l# OnPaint()\land 26 more...\l}">
+<polygon fill="none" stroke="black" points="275.5,-1327.5 275.5,-1615.5 414.5,-1615.5 414.5,-1327.5 275.5,-1327.5"/>
 <text text-anchor="middle" x="345" y="-1603.5" font-family="FreeSans" font-size="10.00">wxScintilla</text>
 <polyline fill="none" stroke="black" points="275.5,-1596.5 414.5,-1596.5 "/>
 <text text-anchor="start" x="283.5" y="-1584.5" font-family="FreeSans" font-size="10.00"># m_swx</text>
@@ -602,7 +601,7 @@
 <text text-anchor="start" x="283.5" y="-1466.5" font-family="FreeSans" font-size="10.00">+ AddText()</text>
 <text text-anchor="start" x="283.5" y="-1455.5" font-family="FreeSans" font-size="10.00">+ AddStyledText()</text>
 <text text-anchor="start" x="283.5" y="-1444.5" font-family="FreeSans" font-size="10.00">+ InsertText()</text>
-<text text-anchor="start" x="283.5" y="-1433.5" font-family="FreeSans" font-size="10.00">and 707 more...</text>
+<text text-anchor="start" x="283.5" y="-1433.5" font-family="FreeSans" font-size="10.00">and 703 more...</text>
 <text text-anchor="start" x="283.5" y="-1422.5" font-family="FreeSans" font-size="10.00"># GetValue()</text>
 <text text-anchor="start" x="283.5" y="-1411.5" font-family="FreeSans" font-size="10.00"># SetValue()</text>
 <text text-anchor="start" x="283.5" y="-1400.5" font-family="FreeSans" font-size="10.00"># DoSetValue()</text>
@@ -622,7 +621,7 @@
 </g>
 <!-- Node20 -->
 <g id="node20" class="node"><title>Node20</title>
-<polygon fill="white" stroke="#bfbfbf" points="315.5,-1779 315.5,-1836 374.5,-1836 374.5,-1779 315.5,-1779"/>
+<polygon fill="none" stroke="#bfbfbf" points="315.5,-1779 315.5,-1836 374.5,-1836 374.5,-1779 315.5,-1779"/>
 <text text-anchor="middle" x="345" y="-1824" font-family="FreeSans" font-size="10.00">wxControl</text>
 <polyline fill="none" stroke="#bfbfbf" points="315.5,-1817 374.5,-1817 "/>
 <text text-anchor="middle" x="345" y="-1805" font-family="FreeSans" font-size="10.00"> </text>
@@ -636,7 +635,7 @@
 </g>
 <!-- Node21 -->
 <g id="node21" class="node"><title>Node21</title>
-<polygon fill="white" stroke="#bfbfbf" points="432.5,-1437.5 432.5,-1505.5 521.5,-1505.5 521.5,-1437.5 432.5,-1437.5"/>
+<polygon fill="none" stroke="#bfbfbf" points="432.5,-1437.5 432.5,-1505.5 521.5,-1505.5 521.5,-1437.5 432.5,-1437.5"/>
 <text text-anchor="start" x="440.5" y="-1493.5" font-family="FreeSans" font-size="10.00">std::map&lt; int, std</text>
 <text text-anchor="middle" x="477" y="-1482.5" font-family="FreeSans" font-size="10.00">::set&lt; int &gt; &gt;</text>
 <polyline fill="none" stroke="#bfbfbf" points="432.5,-1475.5 521.5,-1475.5 "/>
@@ -655,7 +654,7 @@
 </g>
 <!-- Node22 -->
 <g id="node22" class="node"><title>Node22</title>
-<polygon fill="white" stroke="#bfbfbf" points="440,-1779 440,-1836 514,-1836 514,-1779 440,-1779"/>
+<polygon fill="none" stroke="#bfbfbf" points="440,-1779 440,-1836 514,-1836 514,-1779 440,-1779"/>
 <text text-anchor="middle" x="477" y="-1824" font-family="FreeSans" font-size="10.00">std::set&lt; int &gt;</text>
 <polyline fill="none" stroke="#bfbfbf" points="440,-1817 514,-1817 "/>
 <text text-anchor="start" x="448" y="-1805" font-family="FreeSans" font-size="10.00">+ keys</text>

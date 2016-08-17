@@ -8,7 +8,6 @@
  viewBox="0.00 0.00 358.50 799.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 795)">
 <title>WizCompilerPanel</title>
-<polygon fill="white" stroke="none" points="-4,4 -4,-795 354.5,-795 354.5,4 -4,4"/>
 <!-- Node1 -->
 <g id="node1" class="node"><title>Node1</title>
 <polygon fill="#bfbfbf" stroke="black" points="140.5,-0.5 140.5,-178.5 291.5,-178.5 291.5,-0.5 140.5,-0.5"/>
@@ -32,7 +31,7 @@
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
 <g id="a_node2"><a xlink:href="classWizPageBase" target="_top" xlink:title="{WizPageBase\n|&#45; m_PageName\l&#45; m_SkipPage\l|+ WizPageBase()\l+ ~WizPageBase()\l+ SkipPage()\l+ OnPageChanging()\l+ OnPageChanged()\l+ GetPrev()\l+ GetNext()\l+ GetPageName()\l+ GetSkipPage()\l+ SetSkipPage()\l}">
-<polygon fill="white" stroke="black" points="76.5,-320 76.5,-487 183.5,-487 183.5,-320 76.5,-320"/>
+<polygon fill="none" stroke="black" points="76.5,-320 76.5,-487 183.5,-487 183.5,-320 76.5,-320"/>
 <text text-anchor="middle" x="130" y="-475" font-family="FreeSans" font-size="10.00">WizPageBase</text>
 <polyline fill="none" stroke="black" points="76.5,-468 183.5,-468 "/>
 <text text-anchor="start" x="84.5" y="-456" font-family="FreeSans" font-size="10.00">&#45; m_PageName</text>
@@ -58,7 +57,7 @@
 </g>
 <!-- Node3 -->
 <g id="node3" class="node"><title>Node3</title>
-<polygon fill="white" stroke="#bfbfbf" points="0,-628.5 0,-685.5 110,-685.5 110,-628.5 0,-628.5"/>
+<polygon fill="none" stroke="#bfbfbf" points="0,-628.5 0,-685.5 110,-685.5 110,-628.5 0,-628.5"/>
 <text text-anchor="middle" x="55" y="-673.5" font-family="FreeSans" font-size="10.00">wxWizardPageSimple</text>
 <polyline fill="none" stroke="#bfbfbf" points="0,-666.5 110,-666.5 "/>
 <text text-anchor="middle" x="55" y="-654.5" font-family="FreeSans" font-size="10.00"> </text>
@@ -73,7 +72,7 @@
 <!-- Node4 -->
 <g id="node4" class="node"><title>Node4</title>
 <g id="a_node4"><a xlink:title="STL class. ">
-<polygon fill="white" stroke="#bfbfbf" points="128.5,-628.5 128.5,-685.5 215.5,-685.5 215.5,-628.5 128.5,-628.5"/>
+<polygon fill="none" stroke="#bfbfbf" points="128.5,-628.5 128.5,-685.5 215.5,-685.5 215.5,-628.5 128.5,-628.5"/>
 <text text-anchor="middle" x="172" y="-673.5" font-family="FreeSans" font-size="10.00">std::map&lt; K, T &gt;</text>
 <polyline fill="none" stroke="#bfbfbf" points="128.5,-666.5 215.5,-666.5 "/>
 <text text-anchor="middle" x="172" y="-654.5" font-family="FreeSans" font-size="10.00"> </text>
@@ -90,7 +89,7 @@
 </g>
 <!-- Node5 -->
 <g id="node5" class="node"><title>Node5</title>
-<polygon fill="white" stroke="#bfbfbf" points="132.5,-733.5 132.5,-790.5 161.5,-790.5 161.5,-733.5 132.5,-733.5"/>
+<polygon fill="none" stroke="#bfbfbf" points="132.5,-733.5 132.5,-790.5 161.5,-790.5 161.5,-733.5 132.5,-733.5"/>
 <text text-anchor="middle" x="147" y="-778.5" font-family="FreeSans" font-size="10.00">K</text>
 <polyline fill="none" stroke="#bfbfbf" points="132.5,-771.5 161.5,-771.5 "/>
 <text text-anchor="middle" x="147" y="-759.5" font-family="FreeSans" font-size="10.00"> </text>
@@ -105,7 +104,7 @@
 </g>
 <!-- Node6 -->
 <g id="node6" class="node"><title>Node6</title>
-<polygon fill="white" stroke="#bfbfbf" points="183.5,-733.5 183.5,-790.5 212.5,-790.5 212.5,-733.5 183.5,-733.5"/>
+<polygon fill="none" stroke="#bfbfbf" points="183.5,-733.5 183.5,-790.5 212.5,-790.5 212.5,-733.5 183.5,-733.5"/>
 <text text-anchor="middle" x="198" y="-778.5" font-family="FreeSans" font-size="10.00">T</text>
 <polyline fill="none" stroke="#bfbfbf" points="183.5,-771.5 212.5,-771.5 "/>
 <text text-anchor="middle" x="198" y="-759.5" font-family="FreeSans" font-size="10.00"> </text>
@@ -121,7 +120,7 @@
 <!-- Node7 -->
 <g id="node7" class="node"><title>Node7</title>
 <g id="a_node7"><a xlink:href="classCompilerPanel" target="_top" xlink:title="{CompilerPanel\n|+ ID_STATICTEXT1\l+ ID_STATICTEXT2\l+ ID_COMBOBOX1\l+ ID_CHECKBOX1\l+ ID_TEXTCTRL3\l+ ID_STATICTEXT3\l+ ID_TEXTCTRL1\l+ ID_STATICTEXT4\land 7 more...\l&#45; StaticBoxSizer2\l&#45; txtDbgObjOut\l&#45; cmbCompiler\l&#45; txtRelName\l&#45; StaticText1\l&#45; BoxSizer4\l&#45; chkConfRelease\l&#45; txtDbgName\land 7 more...\l|+ CompilerPanel()\l+ ~CompilerPanel()\l+ GetCompilerCombo()\l+ EnableConfigurationTargets()\l+ SetWantDebug()\l+ GetWantDebug()\l+ SetDebugName()\l+ GetDebugName()\land 12 more...\l&#45; OnDebugChange()\l&#45; OnReleaseChange()\l}">
-<polygon fill="white" stroke="black" points="201.5,-226.5 201.5,-580.5 350.5,-580.5 350.5,-226.5 201.5,-226.5"/>
+<polygon fill="none" stroke="black" points="201.5,-226.5 201.5,-580.5 350.5,-580.5 350.5,-226.5 201.5,-226.5"/>
 <text text-anchor="middle" x="276" y="-568.5" font-family="FreeSans" font-size="10.00">CompilerPanel</text>
 <polyline fill="none" stroke="black" points="201.5,-561.5 350.5,-561.5 "/>
 <text text-anchor="start" x="209.5" y="-549.5" font-family="FreeSans" font-size="10.00">+ ID_STATICTEXT1</text>
@@ -165,7 +164,7 @@
 </g>
 <!-- Node8 -->
 <g id="node8" class="node"><title>Node8</title>
-<polygon fill="white" stroke="#bfbfbf" points="249.5,-628.5 249.5,-685.5 302.5,-685.5 302.5,-628.5 249.5,-628.5"/>
+<polygon fill="none" stroke="#bfbfbf" points="249.5,-628.5 249.5,-685.5 302.5,-685.5 302.5,-628.5 249.5,-628.5"/>
 <text text-anchor="middle" x="276" y="-673.5" font-family="FreeSans" font-size="10.00">wxPanel</text>
 <polyline fill="none" stroke="#bfbfbf" points="249.5,-666.5 302.5,-666.5 "/>
 <text text-anchor="middle" x="276" y="-654.5" font-family="FreeSans" font-size="10.00"> </text>

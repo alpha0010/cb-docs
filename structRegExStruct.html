@@ -18,7 +18,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">Code::Blocks
-   &#160;<span id="projectnumber">SVN r10603</span>
+   &#160;<span id="projectnumber">SVN r10885</span>
    </div>
   </td>
  </tr>
@@ -30,6 +30,7 @@
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="index"><span>Main&#160;Page</span></a></li>
+      <li><a href="pages"><span>Related&#160;Pages</span></a></li>
       <li><a href="namespaces"><span>Namespaces</span></a></li>
       <li class="current"><a href="annotated"><span>Classes</span></a></li>
       <li><a href="files"><span>Files</span></a></li>
@@ -48,6 +49,7 @@
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
+<a href="#pri-methods">Private Member Functions</a> &#124;
 <a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="structRegExStruct-members">List of all members</a>  </div>
   <div class="headertitle">
@@ -59,8 +61,7 @@
 <div class="dynheader">
 Collaboration diagram for RegExStruct:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="structRegExStruct__coll__graph.svg" width="136" height="279"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="structRegExStruct__coll__graph.svg" width="144" height="338"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
@@ -71,14 +72,18 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:r1-RegExStruct"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:j9-RegExStruct"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structRegExStruct#j9-RegExStruct">RegExStruct</a> (const wxString &amp;_desc, <a class="el" href="compiler_8h#kx-CompilerLineType">CompilerLineType</a> _lt, const wxString &amp;_regex, int _msg, int _filename=0, int _line=0, int _msg2=0, int _msg3=0)</td></tr>
 <tr class="separator:j9-RegExStruct"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ll-operator"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structRegExStruct">RegExStruct</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structRegExStruct#ll-operator">operator=</a> (<a class="el" href="structRegExStruct">RegExStruct</a> &amp;obj)</td></tr>
-<tr class="separator:ll-operator"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:jv-operator"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structRegExStruct">RegExStruct</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structRegExStruct#jv-operator">operator=</a> (const <a class="el" href="structRegExStruct">RegExStruct</a> &amp;obj)</td></tr>
+<tr class="separator:jv-operator"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:np-operator"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structRegExStruct#np-operator">operator!=</a> (const <a class="el" href="structRegExStruct">RegExStruct</a> &amp;other)</td></tr>
 <tr class="separator:np-operator"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:k5-operator"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structRegExStruct#k5-operator">operator==</a> (const <a class="el" href="structRegExStruct">RegExStruct</a> &amp;other)</td></tr>
 <tr class="separator:k5-operator"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:az-CompileRegEx"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structRegExStruct#az-CompileRegEx">CompileRegEx</a> ()</td></tr>
-<tr class="separator:az-CompileRegEx"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:n6-GetRegExString"><td class="memItemLeft" align="right" valign="top">wxString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structRegExStruct#n6-GetRegExString">GetRegExString</a> () const </td></tr>
+<tr class="separator:n6-GetRegExString"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:mk-SetRegExString"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structRegExStruct#mk-SetRegExString">SetRegExString</a> (const wxString &amp;str)</td></tr>
+<tr class="separator:mk-SetRegExString"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:zf-HasRegEx"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structRegExStruct#zf-HasRegEx">HasRegEx</a> () const </td></tr>
+<tr class="separator:zf-HasRegEx"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:vu-GetRegEx"><td class="memItemLeft" align="right" valign="top">const wxRegEx &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structRegExStruct#vu-GetRegEx">GetRegEx</a> () const </td></tr>
 <tr class="separator:vu-GetRegEx"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -88,8 +93,6 @@ Public Attributes</h2></td></tr>
 <tr class="separator:r7-desc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:b1-lt"><td class="memItemLeft" align="right" valign="top"><a class="el" href="compiler_8h#kx-CompilerLineType">CompilerLineType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structRegExStruct#b1-lt">lt</a></td></tr>
 <tr class="separator:b1-lt"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:dv-regex"><td class="memItemLeft" align="right" valign="top">wxString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structRegExStruct#dv-regex">regex</a></td></tr>
-<tr class="separator:dv-regex"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:wo-msg"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structRegExStruct#wo-msg">msg</a> [3]</td></tr>
 <tr class="separator:wo-msg"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ic-filename"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structRegExStruct#ic-filename">filename</a></td></tr>
@@ -97,10 +100,19 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:ml-line"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structRegExStruct#ml-line">line</a></td></tr>
 <tr class="separator:ml-line"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:xv-CompileRegEx"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structRegExStruct#xv-CompileRegEx">CompileRegEx</a> () const </td></tr>
+<tr class="separator:xv-CompileRegEx"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
+<tr class="memitem:dv-regex"><td class="memItemLeft" align="right" valign="top">wxString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structRegExStruct#dv-regex">regex</a></td></tr>
+<tr class="separator:dv-regex"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:r1-regexObject"><td class="memItemLeft" align="right" valign="top">wxRegEx&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structRegExStruct#r1-regexObject">regexObject</a></td></tr>
 <tr class="separator:r1-regexObject"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:xx-regexCompiled"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structRegExStruct#xx-regexCompiled">regexCompiled</a></td></tr>
+<tr class="separator:xx-regexCompiled"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="u6-RegExStruct"></a>
@@ -124,7 +136,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>References <a class="el" href="structRegExStruct#az-CompileRegEx">CompileRegEx()</a>, and <a class="el" href="structRegExStruct#wo-msg">msg</a>.</p>
+<p>References <a class="el" href="structRegExStruct#wo-msg">msg</a>.</p>
 
 </div>
 </div>
@@ -150,7 +162,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>References <a class="el" href="structRegExStruct#az-CompileRegEx">CompileRegEx()</a>, and <a class="el" href="structRegExStruct#wo-msg">msg</a>.</p>
+<p>References <a class="el" href="structRegExStruct#wo-msg">msg</a>.</p>
 
 </div>
 </div>
@@ -222,12 +234,12 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>References <a class="el" href="structRegExStruct#az-CompileRegEx">CompileRegEx()</a>, and <a class="el" href="structRegExStruct#wo-msg">msg</a>.</p>
+<p>References <a class="el" href="structRegExStruct#wo-msg">msg</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="az-CompileRegEx"></a>
+<a class="anchor" id="xv-CompileRegEx"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -238,19 +250,19 @@ Private Attributes</h2></td></tr>
           <td class="memname">void RegExStruct::CompileRegEx </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
-          <td></td>
+          <td> const</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p>References <a class="el" href="structRegExStruct#dv-regex">regex</a>, and <a class="el" href="structRegExStruct#r1-regexObject">regexObject</a>.</p>
+<p>References <a class="el" href="structRegExStruct#dv-regex">regex</a>, <a class="el" href="structRegExStruct#xx-regexCompiled">regexCompiled</a>, and <a class="el" href="structRegExStruct#r1-regexObject">regexObject</a>.</p>
 
-<p>Referenced by <a class="el" href="classCompiler#te-LoadSettings">Compiler::LoadSettings()</a>, <a class="el" href="structRegExStruct#ll-operator">operator=()</a>, and <a class="el" href="structRegExStruct#u6-RegExStruct">RegExStruct()</a>.</p>
+<p>Referenced by <a class="el" href="structRegExStruct#vu-GetRegEx">GetRegEx()</a>.</p>
 
 </div>
 </div>
@@ -275,7 +287,61 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>References <a class="el" href="structRegExStruct#r1-regexObject">regexObject</a>.</p>
+<p>References <a class="el" href="structRegExStruct#xv-CompileRegEx">CompileRegEx()</a>, and <a class="el" href="structRegExStruct#r1-regexObject">regexObject</a>.</p>
+
+<p>Referenced by <a class="el" href="classCompiler#io-CheckForWarningsAndErrors">Compiler::CheckForWarningsAndErrors()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="n6-GetRegExString"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">wxString RegExStruct::GetRegExString </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>References <a class="el" href="structRegExStruct#dv-regex">regex</a>.</p>
+
+<p>Referenced by <a class="el" href="classAdvancedCompilerOptionsDlg#vj-FillRegexDetails">AdvancedCompilerOptionsDlg::FillRegexDetails()</a>, and <a class="el" href="classCompiler#pv-SaveSettings">Compiler::SaveSettings()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="zf-HasRegEx"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool RegExStruct::HasRegEx </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>References <a class="el" href="structRegExStruct#dv-regex">regex</a>.</p>
 
 <p>Referenced by <a class="el" href="classCompiler#io-CheckForWarningsAndErrors">Compiler::CheckForWarningsAndErrors()</a>.</p>
 
@@ -305,7 +371,7 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="ll-operator"></a>
+<a class="anchor" id="jv-operator"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -315,7 +381,7 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="memname"><a class="el" href="structRegExStruct">RegExStruct</a>&amp; RegExStruct::operator= </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structRegExStruct">RegExStruct</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="structRegExStruct">RegExStruct</a> &amp;&#160;</td>
           <td class="paramname"><em>obj</em></td><td>)</td>
           <td></td>
         </tr>
@@ -327,7 +393,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>References <a class="el" href="structRegExStruct#az-CompileRegEx">CompileRegEx()</a>, <a class="el" href="structRegExStruct#r7-desc">desc</a>, <a class="el" href="structRegExStruct#ic-filename">filename</a>, <a class="el" href="structRegExStruct#ml-line">line</a>, <a class="el" href="structRegExStruct#b1-lt">lt</a>, <a class="el" href="structRegExStruct#wo-msg">msg</a>, and <a class="el" href="structRegExStruct#dv-regex">regex</a>.</p>
+<p>References <a class="el" href="structRegExStruct#r7-desc">desc</a>, <a class="el" href="structRegExStruct#ic-filename">filename</a>, <a class="el" href="structRegExStruct#ml-line">line</a>, <a class="el" href="structRegExStruct#b1-lt">lt</a>, <a class="el" href="structRegExStruct#wo-msg">msg</a>, <a class="el" href="structRegExStruct#dv-regex">regex</a>, and <a class="el" href="structRegExStruct#xx-regexCompiled">regexCompiled</a>.</p>
 
 </div>
 </div>
@@ -357,6 +423,34 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="mk-SetRegExString"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void RegExStruct::SetRegExString </td>
+          <td>(</td>
+          <td class="paramtype">const wxString &amp;&#160;</td>
+          <td class="paramname"><em>str</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>References <a class="el" href="structRegExStruct#dv-regex">regex</a>, and <a class="el" href="structRegExStruct#xx-regexCompiled">regexCompiled</a>.</p>
+
+<p>Referenced by <a class="el" href="classAdvancedCompilerOptionsDlg#ro-SaveRegexDetails">AdvancedCompilerOptionsDlg::SaveRegexDetails()</a>.</p>
+
+</div>
+</div>
 <h2 class="groupheader">Member Data Documentation</h2>
 <a class="anchor" id="r7-desc"></a>
 <div class="memitem">
@@ -368,7 +462,7 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Referenced by <a class="el" href="classAdvancedCompilerOptionsDlg#vj-FillRegexDetails">AdvancedCompilerOptionsDlg::FillRegexDetails()</a>, <a class="el" href="classAdvancedCompilerOptionsDlg#rp-FillRegexes">AdvancedCompilerOptionsDlg::FillRegexes()</a>, <a class="el" href="classCompiler#te-LoadSettings">Compiler::LoadSettings()</a>, <a class="el" href="structRegExStruct#ll-operator">operator=()</a>, <a class="el" href="structRegExStruct#k5-operator">operator==()</a>, <a class="el" href="classAdvancedCompilerOptionsDlg#ro-SaveRegexDetails">AdvancedCompilerOptionsDlg::SaveRegexDetails()</a>, and <a class="el" href="classCompiler#pv-SaveSettings">Compiler::SaveSettings()</a>.</p>
+<p>Referenced by <a class="el" href="classAdvancedCompilerOptionsDlg#vj-FillRegexDetails">AdvancedCompilerOptionsDlg::FillRegexDetails()</a>, <a class="el" href="classAdvancedCompilerOptionsDlg#rp-FillRegexes">AdvancedCompilerOptionsDlg::FillRegexes()</a>, <a class="el" href="structRegExStruct#jv-operator">operator=()</a>, <a class="el" href="structRegExStruct#k5-operator">operator==()</a>, <a class="el" href="classAdvancedCompilerOptionsDlg#ro-SaveRegexDetails">AdvancedCompilerOptionsDlg::SaveRegexDetails()</a>, and <a class="el" href="classCompiler#pv-SaveSettings">Compiler::SaveSettings()</a>.</p>
 
 </div>
 </div>
@@ -382,7 +476,7 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Referenced by <a class="el" href="classCompiler#io-CheckForWarningsAndErrors">Compiler::CheckForWarningsAndErrors()</a>, <a class="el" href="classAdvancedCompilerOptionsDlg#vj-FillRegexDetails">AdvancedCompilerOptionsDlg::FillRegexDetails()</a>, <a class="el" href="classCompiler#te-LoadSettings">Compiler::LoadSettings()</a>, <a class="el" href="structRegExStruct#ll-operator">operator=()</a>, <a class="el" href="structRegExStruct#k5-operator">operator==()</a>, <a class="el" href="classAdvancedCompilerOptionsDlg#ro-SaveRegexDetails">AdvancedCompilerOptionsDlg::SaveRegexDetails()</a>, and <a class="el" href="classCompiler#pv-SaveSettings">Compiler::SaveSettings()</a>.</p>
+<p>Referenced by <a class="el" href="classCompiler#io-CheckForWarningsAndErrors">Compiler::CheckForWarningsAndErrors()</a>, <a class="el" href="classAdvancedCompilerOptionsDlg#vj-FillRegexDetails">AdvancedCompilerOptionsDlg::FillRegexDetails()</a>, <a class="el" href="structRegExStruct#jv-operator">operator=()</a>, <a class="el" href="structRegExStruct#k5-operator">operator==()</a>, <a class="el" href="classAdvancedCompilerOptionsDlg#ro-SaveRegexDetails">AdvancedCompilerOptionsDlg::SaveRegexDetails()</a>, and <a class="el" href="classCompiler#pv-SaveSettings">Compiler::SaveSettings()</a>.</p>
 
 </div>
 </div>
@@ -396,7 +490,7 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Referenced by <a class="el" href="classCompiler#io-CheckForWarningsAndErrors">Compiler::CheckForWarningsAndErrors()</a>, <a class="el" href="classAdvancedCompilerOptionsDlg#vj-FillRegexDetails">AdvancedCompilerOptionsDlg::FillRegexDetails()</a>, <a class="el" href="classCompiler#te-LoadSettings">Compiler::LoadSettings()</a>, <a class="el" href="structRegExStruct#ll-operator">operator=()</a>, <a class="el" href="structRegExStruct#k5-operator">operator==()</a>, <a class="el" href="classAdvancedCompilerOptionsDlg#ro-SaveRegexDetails">AdvancedCompilerOptionsDlg::SaveRegexDetails()</a>, and <a class="el" href="classCompiler#pv-SaveSettings">Compiler::SaveSettings()</a>.</p>
+<p>Referenced by <a class="el" href="classCompiler#io-CheckForWarningsAndErrors">Compiler::CheckForWarningsAndErrors()</a>, <a class="el" href="classAdvancedCompilerOptionsDlg#vj-FillRegexDetails">AdvancedCompilerOptionsDlg::FillRegexDetails()</a>, <a class="el" href="structRegExStruct#jv-operator">operator=()</a>, <a class="el" href="structRegExStruct#k5-operator">operator==()</a>, <a class="el" href="classAdvancedCompilerOptionsDlg#ro-SaveRegexDetails">AdvancedCompilerOptionsDlg::SaveRegexDetails()</a>, and <a class="el" href="classCompiler#pv-SaveSettings">Compiler::SaveSettings()</a>.</p>
 
 </div>
 </div>
@@ -410,7 +504,7 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Referenced by <a class="el" href="classCompiler#io-CheckForWarningsAndErrors">Compiler::CheckForWarningsAndErrors()</a>, <a class="el" href="classAdvancedCompilerOptionsDlg#vj-FillRegexDetails">AdvancedCompilerOptionsDlg::FillRegexDetails()</a>, <a class="el" href="classCompiler#te-LoadSettings">Compiler::LoadSettings()</a>, <a class="el" href="structRegExStruct#ll-operator">operator=()</a>, <a class="el" href="structRegExStruct#k5-operator">operator==()</a>, <a class="el" href="classAdvancedCompilerOptionsDlg#ro-SaveRegexDetails">AdvancedCompilerOptionsDlg::SaveRegexDetails()</a>, and <a class="el" href="classCompiler#pv-SaveSettings">Compiler::SaveSettings()</a>.</p>
+<p>Referenced by <a class="el" href="classCompiler#io-CheckForWarningsAndErrors">Compiler::CheckForWarningsAndErrors()</a>, <a class="el" href="classAdvancedCompilerOptionsDlg#vj-FillRegexDetails">AdvancedCompilerOptionsDlg::FillRegexDetails()</a>, <a class="el" href="structRegExStruct#jv-operator">operator=()</a>, <a class="el" href="structRegExStruct#k5-operator">operator==()</a>, <a class="el" href="classAdvancedCompilerOptionsDlg#ro-SaveRegexDetails">AdvancedCompilerOptionsDlg::SaveRegexDetails()</a>, and <a class="el" href="classCompiler#pv-SaveSettings">Compiler::SaveSettings()</a>.</p>
 
 </div>
 </div>
@@ -424,21 +518,51 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Referenced by <a class="el" href="classCompiler#io-CheckForWarningsAndErrors">Compiler::CheckForWarningsAndErrors()</a>, <a class="el" href="classAdvancedCompilerOptionsDlg#vj-FillRegexDetails">AdvancedCompilerOptionsDlg::FillRegexDetails()</a>, <a class="el" href="classCompiler#te-LoadSettings">Compiler::LoadSettings()</a>, <a class="el" href="structRegExStruct#ll-operator">operator=()</a>, <a class="el" href="structRegExStruct#k5-operator">operator==()</a>, <a class="el" href="structRegExStruct#u6-RegExStruct">RegExStruct()</a>, <a class="el" href="classAdvancedCompilerOptionsDlg#ro-SaveRegexDetails">AdvancedCompilerOptionsDlg::SaveRegexDetails()</a>, and <a class="el" href="classCompiler#pv-SaveSettings">Compiler::SaveSettings()</a>.</p>
+<p>Referenced by <a class="el" href="classCompiler#io-CheckForWarningsAndErrors">Compiler::CheckForWarningsAndErrors()</a>, <a class="el" href="classAdvancedCompilerOptionsDlg#vj-FillRegexDetails">AdvancedCompilerOptionsDlg::FillRegexDetails()</a>, <a class="el" href="structRegExStruct#jv-operator">operator=()</a>, <a class="el" href="structRegExStruct#k5-operator">operator==()</a>, <a class="el" href="structRegExStruct#u6-RegExStruct">RegExStruct()</a>, <a class="el" href="classAdvancedCompilerOptionsDlg#ro-SaveRegexDetails">AdvancedCompilerOptionsDlg::SaveRegexDetails()</a>, and <a class="el" href="classCompiler#pv-SaveSettings">Compiler::SaveSettings()</a>.</p>
 
 </div>
 </div>
 <a class="anchor" id="dv-regex"></a>
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">wxString RegExStruct::regex</td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
-<p>Referenced by <a class="el" href="classCompiler#io-CheckForWarningsAndErrors">Compiler::CheckForWarningsAndErrors()</a>, <a class="el" href="structRegExStruct#az-CompileRegEx">CompileRegEx()</a>, <a class="el" href="classAdvancedCompilerOptionsDlg#vj-FillRegexDetails">AdvancedCompilerOptionsDlg::FillRegexDetails()</a>, <a class="el" href="classCompiler#te-LoadSettings">Compiler::LoadSettings()</a>, <a class="el" href="structRegExStruct#ll-operator">operator=()</a>, <a class="el" href="structRegExStruct#k5-operator">operator==()</a>, <a class="el" href="classAdvancedCompilerOptionsDlg#ro-SaveRegexDetails">AdvancedCompilerOptionsDlg::SaveRegexDetails()</a>, and <a class="el" href="classCompiler#pv-SaveSettings">Compiler::SaveSettings()</a>.</p>
+<p>Referenced by <a class="el" href="structRegExStruct#xv-CompileRegEx">CompileRegEx()</a>, <a class="el" href="structRegExStruct#n6-GetRegExString">GetRegExString()</a>, <a class="el" href="structRegExStruct#zf-HasRegEx">HasRegEx()</a>, <a class="el" href="structRegExStruct#jv-operator">operator=()</a>, <a class="el" href="structRegExStruct#k5-operator">operator==()</a>, and <a class="el" href="structRegExStruct#mk-SetRegExString">SetRegExString()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="xx-regexCompiled"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool RegExStruct::regexCompiled</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">mutable</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Referenced by <a class="el" href="structRegExStruct#xv-CompileRegEx">CompileRegEx()</a>, <a class="el" href="structRegExStruct#jv-operator">operator=()</a>, and <a class="el" href="structRegExStruct#mk-SetRegExString">SetRegExString()</a>.</p>
 
 </div>
 </div>
@@ -455,12 +579,12 @@ Private Attributes</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+<span class="mlabels"><span class="mlabel">mutable</span><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p>Referenced by <a class="el" href="structRegExStruct#az-CompileRegEx">CompileRegEx()</a>, and <a class="el" href="structRegExStruct#vu-GetRegEx">GetRegEx()</a>.</p>
+<p>Referenced by <a class="el" href="structRegExStruct#xv-CompileRegEx">CompileRegEx()</a>, and <a class="el" href="structRegExStruct#vu-GetRegEx">GetRegEx()</a>.</p>
 
 </div>
 </div>

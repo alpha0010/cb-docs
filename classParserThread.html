@@ -18,7 +18,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">Code::Blocks
-   &#160;<span id="projectnumber">SVN r10603</span>
+   &#160;<span id="projectnumber">SVN r10885</span>
    </div>
   </td>
  </tr>
@@ -30,6 +30,7 @@
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="index"><span>Main&#160;Page</span></a></li>
+      <li><a href="pages"><span>Related&#160;Pages</span></a></li>
       <li><a href="namespaces"><span>Namespaces</span></a></li>
       <li class="current"><a href="annotated"><span>Classes</span></a></li>
       <li><a href="files"><span>Files</span></a></li>
@@ -64,14 +65,12 @@
 <div class="dynheader">
 Inheritance diagram for ParserThread:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classParserThread__inherit__graph.svg" width="238" height="742"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classParserThread__inherit__graph.svg" width="238" height="742"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <div class="dynheader">
 Collaboration diagram for ParserThread:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classParserThread__coll__graph.svg" width="2556" height="3140"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classParserThread__coll__graph.svg" width="2556" height="3140"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
@@ -278,11 +277,8 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:qh-m_ParsingTypedef"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classParserThread#qh-m_ParsingTypedef">m_ParsingTypedef</a></td></tr>
 <tr class="memdesc:qh-m_ParsingTypedef"><td class="mdescLeft">&#160;</td><td class="mdescRight">this makes a difference in unnamed class/struct/enum handling  <a href="#qh-m_ParsingTypedef">More...</a><br /></td></tr>
 <tr class="separator:qh-m_ParsingTypedef"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:wm-m_IsBuffer"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classParserThread#wm-m_IsBuffer">m_IsBuffer</a></td></tr>
-<tr class="memdesc:wm-m_IsBuffer"><td class="mdescLeft">&#160;</td><td class="mdescRight">local file or buffer in memory  <a href="#wm-m_IsBuffer">More...</a><br /></td></tr>
-<tr class="separator:wm-m_IsBuffer"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:xe-m_Buffer"><td class="memItemLeft" align="right" valign="top">wxString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classParserThread#xe-m_Buffer">m_Buffer</a></td></tr>
-<tr class="memdesc:xe-m_Buffer"><td class="mdescLeft">&#160;</td><td class="mdescRight">a wxString holding the parsing buffer  <a href="#xe-m_Buffer">More...</a><br /></td></tr>
+<tr class="memdesc:xe-m_Buffer"><td class="mdescLeft">&#160;</td><td class="mdescRight">a wxString holding the parsing buffer, if it is a file in the hard disk, then this stands for the file name.  <a href="#xe-m_Buffer">More...</a><br /></td></tr>
 <tr class="separator:xe-m_Buffer"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ng-m_PointerOrRef"><td class="memItemLeft" align="right" valign="top">wxString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classParserThread#ng-m_PointerOrRef">m_PointerOrRef</a></td></tr>
 <tr class="memdesc:ng-m_PointerOrRef"><td class="mdescLeft">&#160;</td><td class="mdescRight">a pointer indicator or a references  <a href="#ng-m_PointerOrRef">More...</a><br /></td></tr>
@@ -1071,7 +1067,7 @@ Private Attributes</h2></td></tr>
 
 <p>handle the statement: namespace XXX { </p>
 
-<p>References <a class="el" href="namespaceParserConsts#rc-dcolon">ParserConsts::dcolon()</a>, <a class="el" href="classParserThread#hd-DoAddToken">DoAddToken()</a>, <a class="el" href="classParserThread#tn-DoParse">DoParse()</a>, <a class="el" href="namespaceParserConsts#vm-equals">ParserConsts::equals()</a>, <a class="el" href="classTokenizer#jr-GetLineNumber">Tokenizer::GetLineNumber()</a>, <a class="el" href="classTokenizer#p4-GetToken">Tokenizer::GetToken()</a>, <a class="el" href="parserthread_8cpp#vg-IS_ALIVE">IS_ALIVE</a>, <a class="el" href="classToken#kh-m_Aliases">Token::m_Aliases</a>, <a class="el" href="classParserThread#ak-m_FileIdx">m_FileIdx</a>, <a class="el" href="classToken#ot-m_ImplFileIdx">Token::m_ImplFileIdx</a>, <a class="el" href="classToken#ur-m_ImplLine">Token::m_ImplLine</a>, <a class="el" href="classToken#tv-m_ImplLineEnd">Token::m_ImplLineEnd</a>, <a class="el" href="classToken#b7-m_ImplLineStart">Token::m_ImplLineStart</a>, <a class="el" href="classParserThread#dn-m_LastParent">m_LastParent</a>, <a class="el" href="classParserThread#rj-m_LastScope">m_LastScope</a>, <a class="el" href="classParserThread#xs-m_Tokenizer">m_Tokenizer</a>, <a class="el" href="prefix_8cpp#t6-NULL">NULL</a>, <a class="el" href="namespaceParserConsts#md-opbrace">ParserConsts::opbrace()</a>, <a class="el" href="classTokenizer#pm-PeekToken">Tokenizer::PeekToken()</a>, <a class="el" href="namespaceParserConsts#jk-semicolonopbrace">ParserConsts::semicolonopbrace()</a>, <a class="el" href="classTokenizer#no-SetState">Tokenizer::SetState()</a>, <a class="el" href="classParserThread#zh-SkipToOneOfChars">SkipToOneOfChars()</a>, <a class="el" href="token_8h#uj-TokenKind:tkNamespace">tkNamespace</a>, <a class="el" href="classParserThread#mq-TokenExists">TokenExists()</a>, <a class="el" href="parserthread_8cpp#qa-TRACE">TRACE</a>, <a class="el" href="tokenizer_8h#fr-TokenizerState:tsNormal">tsNormal</a>, and <a class="el" href="token_8h#bs-TokenScope:tsPublic">tsPublic</a>.</p>
+<p>References <a class="el" href="namespaceParserConsts#rc-dcolon">ParserConsts::dcolon()</a>, <a class="el" href="classParserThread#hd-DoAddToken">DoAddToken()</a>, <a class="el" href="classParserThread#tn-DoParse">DoParse()</a>, <a class="el" href="namespaceParserConsts#vm-equals">ParserConsts::equals()</a>, <a class="el" href="classTokenizer#jr-GetLineNumber">Tokenizer::GetLineNumber()</a>, <a class="el" href="classTokenizer#p4-GetToken">Tokenizer::GetToken()</a>, <a class="el" href="parserthread_8cpp#vg-IS_ALIVE">IS_ALIVE</a>, <a class="el" href="classToken#kh-m_Aliases">Token::m_Aliases</a>, <a class="el" href="classParserThread#ak-m_FileIdx">m_FileIdx</a>, <a class="el" href="classToken#ot-m_ImplFileIdx">Token::m_ImplFileIdx</a>, <a class="el" href="classToken#ur-m_ImplLine">Token::m_ImplLine</a>, <a class="el" href="classToken#tv-m_ImplLineEnd">Token::m_ImplLineEnd</a>, <a class="el" href="classToken#b7-m_ImplLineStart">Token::m_ImplLineStart</a>, <a class="el" href="classParserThread#dn-m_LastParent">m_LastParent</a>, <a class="el" href="classParserThread#rj-m_LastScope">m_LastScope</a>, <a class="el" href="classParserThread#xs-m_Tokenizer">m_Tokenizer</a>, <a class="el" href="prefix_8cpp#t6-NULL">NULL</a>, <a class="el" href="namespaceParserConsts#md-opbrace">ParserConsts::opbrace()</a>, <a class="el" href="classTokenizer#pm-PeekToken">Tokenizer::PeekToken()</a>, <a class="el" href="namespaceParserConsts#jk-semicolonopbrace">ParserConsts::semicolonopbrace()</a>, <a class="el" href="classTokenizer#no-SetState">Tokenizer::SetState()</a>, <a class="el" href="classParserThread#zh-SkipToOneOfChars">SkipToOneOfChars()</a>, <a class="el" href="token_8h#uj-TokenKind:tkNamespace">tkNamespace</a>, <a class="el" href="classParserThread#mq-TokenExists">TokenExists()</a>, <a class="el" href="parserthread_8cpp#qa-TRACE">TRACE</a>, <a class="el" href="tokenizer_8h#fr-TokenizerState:tsNormal">tsNormal</a>, <a class="el" href="token_8h#bs-TokenScope:tsPublic">tsPublic</a>, and <a class="el" href="classTokenizer#jv-UngetToken">Tokenizer::UngetToken()</a>.</p>
 
 <p>Referenced by <a class="el" href="classParserThread#tn-DoParse">DoParse()</a>.</p>
 
@@ -1129,7 +1125,7 @@ Private Attributes</h2></td></tr>
 
 <p>initialize the m_Buffer, load from local file or use a buffer in memory </p>
 
-<p>References <a class="el" href="safedelete_8h#cr-Delete">Delete()</a>, <a class="el" href="structParserThreadOptions#pm-fileOfBuffer">ParserThreadOptions::fileOfBuffer</a>, <a class="el" href="classTokenizer#zq-Init">Tokenizer::Init()</a>, <a class="el" href="classTokenizer#jo-InitFromBuffer">Tokenizer::InitFromBuffer()</a>, <a class="el" href="structParserThreadOptions#ui-initLineOfBuffer">ParserThreadOptions::initLineOfBuffer</a>, <a class="el" href="classTokenTree#h8-InsertFileOrGetIndex">TokenTree::InsertFileOrGetIndex()</a>, <a class="el" href="structParserThreadOptions#li-loader">ParserThreadOptions::loader</a>, <a class="el" href="classParserThread#xe-m_Buffer">m_Buffer</a>, <a class="el" href="classParserThread#ak-m_FileIdx">m_FileIdx</a>, <a class="el" href="classParserThread#ql-m_Filename">m_Filename</a>, <a class="el" href="classParserThread#gi-m_FileSize">m_FileSize</a>, <a class="el" href="classParserThread#wm-m_IsBuffer">m_IsBuffer</a>, <a class="el" href="classParserThread#wi-m_Options">m_Options</a>, <a class="el" href="classParserThread#xs-m_Tokenizer">m_Tokenizer</a>, <a class="el" href="classParserThread#x5-m_TokenTree">m_TokenTree</a>, and <a class="el" href="parserthread_8cpp#qa-TRACE">TRACE</a>.</p>
+<p>References <a class="el" href="safedelete_8h#cr-Delete">Delete()</a>, <a class="el" href="structParserThreadOptions#pm-fileOfBuffer">ParserThreadOptions::fileOfBuffer</a>, <a class="el" href="classTokenizer#zq-Init">Tokenizer::Init()</a>, <a class="el" href="classTokenizer#jo-InitFromBuffer">Tokenizer::InitFromBuffer()</a>, <a class="el" href="structParserThreadOptions#ui-initLineOfBuffer">ParserThreadOptions::initLineOfBuffer</a>, <a class="el" href="classTokenTree#h8-InsertFileOrGetIndex">TokenTree::InsertFileOrGetIndex()</a>, <a class="el" href="structParserThreadOptions#li-loader">ParserThreadOptions::loader</a>, <a class="el" href="classParserThread#xe-m_Buffer">m_Buffer</a>, <a class="el" href="classParserThread#ak-m_FileIdx">m_FileIdx</a>, <a class="el" href="classParserThread#ql-m_Filename">m_Filename</a>, <a class="el" href="classParserThread#gi-m_FileSize">m_FileSize</a>, <a class="el" href="classParserThread#wi-m_Options">m_Options</a>, <a class="el" href="classParserThread#xs-m_Tokenizer">m_Tokenizer</a>, <a class="el" href="classParserThread#x5-m_TokenTree">m_TokenTree</a>, <a class="el" href="parserthread_8cpp#qa-TRACE">TRACE</a>, and <a class="el" href="structParserThreadOptions#du-useBuffer">ParserThreadOptions::useBuffer</a>.</p>
 
 <p>Referenced by <a class="el" href="classParserThread#te-Parse">Parse()</a>.</p>
 
@@ -1856,7 +1852,8 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>a wxString holding the parsing buffer </p>
+<p>a wxString holding the parsing buffer, if it is a file in the hard disk, then this stands for the file name. </p>
+<p>Otherwise, this is the in memory buffer content. </p>
 
 <p>Referenced by <a class="el" href="classParserThread#zz-GetFilename">GetFilename()</a>, and <a class="el" href="classParserThread#fc-InitTokenizer">InitTokenizer()</a>.</p>
 
@@ -2000,30 +1997,6 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>file size, actually the length of the wxString </p>
-
-<p>Referenced by <a class="el" href="classParserThread#fc-InitTokenizer">InitTokenizer()</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="wm-m_IsBuffer"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool ParserThread::m_IsBuffer</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>local file or buffer in memory </p>
 
 <p>Referenced by <a class="el" href="classParserThread#fc-InitTokenizer">InitTokenizer()</a>.</p>
 

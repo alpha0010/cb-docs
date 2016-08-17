@@ -8,7 +8,6 @@
  viewBox="0.00 0.00 218.00 669.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 665)">
 <title>DebugLogPanel</title>
-<polygon fill="white" stroke="none" points="-4,4 -4,-665 214,-665 214,4 -4,4"/>
 <!-- Node1 -->
 <g id="node1" class="node"><title>Node1</title>
 <polygon fill="#bfbfbf" stroke="black" points="5.5,-0.5 5.5,-112.5 115.5,-112.5 115.5,-0.5 5.5,-0.5"/>
@@ -25,7 +24,7 @@
 </g>
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
-<polygon fill="white" stroke="#bfbfbf" points="0,-177 0,-234 53,-234 53,-177 0,-177"/>
+<polygon fill="none" stroke="#bfbfbf" points="0,-177 0,-234 53,-234 53,-177 0,-177"/>
 <text text-anchor="middle" x="26.5" y="-222" font-family="FreeSans" font-size="10.00">wxPanel</text>
 <polyline fill="none" stroke="#bfbfbf" points="0,-215 53,-215 "/>
 <text text-anchor="middle" x="26.5" y="-203" font-family="FreeSans" font-size="10.00"> </text>
@@ -40,7 +39,7 @@
 <!-- Node3 -->
 <g id="node3" class="node"><title>Node3</title>
 <g id="a_node3"><a xlink:href="classDebugTextCtrlLogger" target="_top" xlink:title="{DebugTextCtrlLogger\n|&#45; m_panel\l&#45; m_debugLog\l|+ DebugTextCtrlLogger()\l+ CreateTextCtrl()\l+ CreateControl()\l}">
-<polygon fill="white" stroke="black" points="71.5,-160.5 71.5,-250.5 193.5,-250.5 193.5,-160.5 71.5,-160.5"/>
+<polygon fill="none" stroke="black" points="71.5,-160.5 71.5,-250.5 193.5,-250.5 193.5,-160.5 71.5,-160.5"/>
 <text text-anchor="middle" x="132.5" y="-238.5" font-family="FreeSans" font-size="10.00">DebugTextCtrlLogger</text>
 <polyline fill="none" stroke="black" points="71.5,-231.5 193.5,-231.5 "/>
 <text text-anchor="start" x="79.5" y="-219.5" font-family="FreeSans" font-size="10.00">&#45; m_panel</text>
@@ -61,7 +60,7 @@
 <!-- Node4 -->
 <g id="node4" class="node"><title>Node4</title>
 <g id="a_node4"><a xlink:href="classTextCtrlLogger" target="_top" xlink:title="a logger which prints messages to a wxTextCtrl ">
-<polygon fill="white" stroke="black" points="61,-288.5 61,-466.5 204,-466.5 204,-288.5 61,-288.5"/>
+<polygon fill="none" stroke="black" points="61,-288.5 61,-466.5 204,-466.5 204,-288.5 61,-288.5"/>
 <text text-anchor="middle" x="132.5" y="-454.5" font-family="FreeSans" font-size="10.00">TextCtrlLogger</text>
 <polyline fill="none" stroke="black" points="61,-447.5 204,-447.5 "/>
 <text text-anchor="start" x="69" y="-435.5" font-family="FreeSans" font-size="10.00"># control</text>
@@ -89,7 +88,7 @@
 <!-- Node5 -->
 <g id="node5" class="node"><title>Node5</title>
 <g id="a_node5"><a xlink:href="classLogger" target="_top" xlink:title="The base class for all kinds of loggers, see loggers.h for its derived classes. ">
-<polygon fill="white" stroke="black" points="55,-504.5 55,-660.5 210,-660.5 210,-504.5 55,-504.5"/>
+<polygon fill="none" stroke="black" points="55,-504.5 55,-660.5 210,-660.5 210,-504.5 55,-504.5"/>
 <text text-anchor="middle" x="132.5" y="-648.5" font-family="FreeSans" font-size="10.00">Logger</text>
 <polyline fill="none" stroke="black" points="55,-641.5 210,-641.5 "/>
 <text text-anchor="middle" x="132.5" y="-629.5" font-family="FreeSans" font-size="10.00"> </text>

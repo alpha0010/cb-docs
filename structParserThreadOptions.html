@@ -18,7 +18,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">Code::Blocks
-   &#160;<span id="projectnumber">SVN r10603</span>
+   &#160;<span id="projectnumber">SVN r10885</span>
    </div>
   </td>
  </tr>
@@ -30,6 +30,7 @@
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="index"><span>Main&#160;Page</span></a></li>
+      <li><a href="pages"><span>Related&#160;Pages</span></a></li>
       <li><a href="namespaces"><span>Namespaces</span></a></li>
       <li class="current"><a href="annotated"><span>Classes</span></a></li>
       <li><a href="files"><span>Files</span></a></li>
@@ -58,8 +59,7 @@
 <div class="dynheader">
 Collaboration diagram for ParserThreadOptions:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="structParserThreadOptions__coll__graph.svg" width="174" height="678"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="structParserThreadOptions__coll__graph.svg" width="174" height="678"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
@@ -70,40 +70,58 @@ Public Member Functions</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
 <tr class="memitem:du-useBuffer"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structParserThreadOptions#du-useBuffer">useBuffer</a></td></tr>
+<tr class="memdesc:du-useBuffer"><td class="mdescLeft">&#160;</td><td class="mdescRight">useBuffer specifies that we're not parsing a file, but a temporary buffer.  <a href="#du-useBuffer">More...</a><br /></td></tr>
 <tr class="separator:du-useBuffer"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:pm-fileOfBuffer"><td class="memItemLeft" align="right" valign="top">wxString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structParserThreadOptions#pm-fileOfBuffer">fileOfBuffer</a></td></tr>
+<tr class="memdesc:pm-fileOfBuffer"><td class="mdescLeft">&#160;</td><td class="mdescRight">which file the buffer belongs to, this usually happens when we parse a piece of the <a class="el" href="classcbEditor" title="A file editor. ">cbEditor</a> and the <a class="el" href="classcbEditor" title="A file editor. ">cbEditor</a> is associated by a file in hard disk  <a href="#pm-fileOfBuffer">More...</a><br /></td></tr>
 <tr class="separator:pm-fileOfBuffer"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ud-parentIdxOfBuffer"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structParserThreadOptions#ud-parentIdxOfBuffer">parentIdxOfBuffer</a></td></tr>
+<tr class="memdesc:ud-parentIdxOfBuffer"><td class="mdescLeft">&#160;</td><td class="mdescRight">when parsing a function body, all the tokens are the children of the function token  <a href="#ud-parentIdxOfBuffer">More...</a><br /></td></tr>
 <tr class="separator:ud-parentIdxOfBuffer"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ui-initLineOfBuffer"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structParserThreadOptions#ui-initLineOfBuffer">initLineOfBuffer</a></td></tr>
+<tr class="memdesc:ui-initLineOfBuffer"><td class="mdescLeft">&#160;</td><td class="mdescRight">since we are not parsing start from the first line of the file, this is the first line number of the buffer in the whole file  <a href="#ui-initLineOfBuffer">More...</a><br /></td></tr>
 <tr class="separator:ui-initLineOfBuffer"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:m7-bufferSkipBlocks"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structParserThreadOptions#m7-bufferSkipBlocks">bufferSkipBlocks</a></td></tr>
+<tr class="memdesc:m7-bufferSkipBlocks"><td class="mdescLeft">&#160;</td><td class="mdescRight">do we parse inside the {...} body  <a href="#m7-bufferSkipBlocks">More...</a><br /></td></tr>
 <tr class="separator:m7-bufferSkipBlocks"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:mc-bufferSkipOuterBlocks"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structParserThreadOptions#mc-bufferSkipOuterBlocks">bufferSkipOuterBlocks</a></td></tr>
+<tr class="memdesc:mc-bufferSkipOuterBlocks"><td class="mdescLeft">&#160;</td><td class="mdescRight">not used  <a href="#mc-bufferSkipOuterBlocks">More...</a><br /></td></tr>
 <tr class="separator:mc-bufferSkipOuterBlocks"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:s3-isTemp"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structParserThreadOptions#s3-isTemp">isTemp</a></td></tr>
+<tr class="memdesc:s3-isTemp"><td class="mdescLeft">&#160;</td><td class="mdescRight">this value is passed to the generated <a class="el" href="classToken" title="a symbol found in the parsed files, it can be many kinds, such as a variable, a class and so on...">Token</a>'s m_IsTemp property  <a href="#s3-isTemp">More...</a><br /></td></tr>
 <tr class="separator:s3-isTemp"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:zu-followLocalIncludes"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structParserThreadOptions#zu-followLocalIncludes">followLocalIncludes</a></td></tr>
+<tr class="memdesc:zu-followLocalIncludes"><td class="mdescLeft">&#160;</td><td class="mdescRight">parse the file in #include "file" directive  <a href="#zu-followLocalIncludes">More...</a><br /></td></tr>
 <tr class="separator:zu-followLocalIncludes"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:k0-followGlobalIncludes"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structParserThreadOptions#k0-followGlobalIncludes">followGlobalIncludes</a></td></tr>
+<tr class="memdesc:k0-followGlobalIncludes"><td class="mdescLeft">&#160;</td><td class="mdescRight">parse the file in #include &lt;file&gt; directive  <a href="#k0-followGlobalIncludes">More...</a><br /></td></tr>
 <tr class="separator:k0-followGlobalIncludes"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ju-wantPreprocessor"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structParserThreadOptions#ju-wantPreprocessor">wantPreprocessor</a></td></tr>
+<tr class="memdesc:ju-wantPreprocessor"><td class="mdescLeft">&#160;</td><td class="mdescRight">handle the #if like preprocessor directives, this value is passed to <a class="el" href="classTokenizer" title="This is just a simple lexer class. ">Tokenizer</a>  <a href="#ju-wantPreprocessor">More...</a><br /></td></tr>
 <tr class="separator:ju-wantPreprocessor"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:y8-parseComplexMacros"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structParserThreadOptions#y8-parseComplexMacros">parseComplexMacros</a></td></tr>
+<tr class="memdesc:y8-parseComplexMacros"><td class="mdescLeft">&#160;</td><td class="mdescRight">not used  <a href="#y8-parseComplexMacros">More...</a><br /></td></tr>
 <tr class="separator:y8-parseComplexMacros"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:kw-platformCheck"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structParserThreadOptions#kw-platformCheck">platformCheck</a></td></tr>
+<tr class="memdesc:kw-platformCheck"><td class="mdescLeft">&#160;</td><td class="mdescRight">not used  <a href="#kw-platformCheck">More...</a><br /></td></tr>
 <tr class="separator:kw-platformCheck"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:wc-handleFunctions"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structParserThreadOptions#wc-handleFunctions">handleFunctions</a></td></tr>
+<tr class="memdesc:wc-handleFunctions"><td class="mdescLeft">&#160;</td><td class="mdescRight">whether to parse the functions  <a href="#wc-handleFunctions">More...</a><br /></td></tr>
 <tr class="separator:wc-handleFunctions"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:np-handleVars"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structParserThreadOptions#np-handleVars">handleVars</a></td></tr>
+<tr class="memdesc:np-handleVars"><td class="mdescLeft">&#160;</td><td class="mdescRight">whether to parse the variable definition  <a href="#np-handleVars">More...</a><br /></td></tr>
 <tr class="separator:np-handleVars"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:wj-handleClasses"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structParserThreadOptions#wj-handleClasses">handleClasses</a></td></tr>
+<tr class="memdesc:wj-handleClasses"><td class="mdescLeft">&#160;</td><td class="mdescRight">whether to parse "class ...." like statement  <a href="#wj-handleClasses">More...</a><br /></td></tr>
 <tr class="separator:wj-handleClasses"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:kx-handleEnums"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structParserThreadOptions#kx-handleEnums">handleEnums</a></td></tr>
+<tr class="memdesc:kx-handleEnums"><td class="mdescLeft">&#160;</td><td class="mdescRight">whether to parse "enum ..." like statement  <a href="#kx-handleEnums">More...</a><br /></td></tr>
 <tr class="separator:kx-handleEnums"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:g9-handleTypedefs"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structParserThreadOptions#g9-handleTypedefs">handleTypedefs</a></td></tr>
+<tr class="memdesc:g9-handleTypedefs"><td class="mdescLeft">&#160;</td><td class="mdescRight">whether to parse "typedef ..." like statement  <a href="#g9-handleTypedefs">More...</a><br /></td></tr>
 <tr class="separator:g9-handleTypedefs"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:x0-storeDocumentation"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structParserThreadOptions#x0-storeDocumentation">storeDocumentation</a></td></tr>
+<tr class="memdesc:x0-storeDocumentation"><td class="mdescLeft">&#160;</td><td class="mdescRight">should tokenizer detect and store doxygen documentation?  <a href="#x0-storeDocumentation">More...</a><br /></td></tr>
 <tr class="separator:x0-storeDocumentation"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:li-loader"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classLoaderBase">LoaderBase</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structParserThreadOptions#li-loader">loader</a></td></tr>
 <tr class="separator:li-loader"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -143,7 +161,9 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Referenced by <a class="el" href="classParserThread#tn-DoParse">ParserThread::DoParse()</a>, <a class="el" href="classParser#o1-Parse">Parser::Parse()</a>, <a class="el" href="classParserBase#kd-ParseBuffer">ParserBase::ParseBuffer()</a>, <a class="el" href="classParser#or-ParseBuffer">Parser::ParseBuffer()</a>, <a class="el" href="classParser#nz-ParseBufferForFunctions">Parser::ParseBufferForFunctions()</a>, <a class="el" href="classParserThread#cc-ParseBufferForUsingNamespace">ParserThread::ParseBufferForUsingNamespace()</a>, and <a class="el" href="classParser#u4-ParseBufferForUsingNamespace">Parser::ParseBufferForUsingNamespace()</a>.</p>
+<p>do we parse inside the {...} body </p>
+
+<p>Referenced by <a class="el" href="classParserThread#tn-DoParse">ParserThread::DoParse()</a>, <a class="el" href="classParser#o1-Parse">Parser::Parse()</a>, <a class="el" href="classParserBase#kd-ParseBuffer">ParserBase::ParseBuffer()</a>, <a class="el" href="classParser#or-ParseBuffer">Parser::ParseBuffer()</a>, <a class="el" href="classParser#nz-ParseBufferForFunctions">Parser::ParseBufferForFunctions()</a>, <a class="el" href="classParser#u4-ParseBufferForUsingNamespace">Parser::ParseBufferForUsingNamespace()</a>, and <a class="el" href="classParserThread#cc-ParseBufferForUsingNamespace">ParserThread::ParseBufferForUsingNamespace()</a>.</p>
 
 </div>
 </div>
@@ -156,6 +176,8 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>not used </p>
 
 <p>Referenced by <a class="el" href="classParser#o1-Parse">Parser::Parse()</a>.</p>
 
@@ -171,6 +193,8 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>which file the buffer belongs to, this usually happens when we parse a piece of the <a class="el" href="classcbEditor" title="A file editor. ">cbEditor</a> and the <a class="el" href="classcbEditor" title="A file editor. ">cbEditor</a> is associated by a file in hard disk </p>
+
 <p>Referenced by <a class="el" href="classParserThread#fc-InitTokenizer">ParserThread::InitTokenizer()</a>, <a class="el" href="classParserBase#kd-ParseBuffer">ParserBase::ParseBuffer()</a>, and <a class="el" href="classParser#or-ParseBuffer">Parser::ParseBuffer()</a>.</p>
 
 </div>
@@ -184,6 +208,8 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>parse the file in #include &lt;file&gt; directive </p>
 
 <p>Referenced by <a class="el" href="classParserThread#ky-HandleIncludes">ParserThread::HandleIncludes()</a>, <a class="el" href="classParser#o1-Parse">Parser::Parse()</a>, <a class="el" href="classParserBase#kd-ParseBuffer">ParserBase::ParseBuffer()</a>, <a class="el" href="classParser#or-ParseBuffer">Parser::ParseBuffer()</a>, <a class="el" href="classParser#nz-ParseBufferForFunctions">Parser::ParseBufferForFunctions()</a>, <a class="el" href="classParser#jn-ParseBufferForNamespaces">Parser::ParseBufferForNamespaces()</a>, and <a class="el" href="classParser#u4-ParseBufferForUsingNamespace">Parser::ParseBufferForUsingNamespace()</a>.</p>
 
@@ -199,6 +225,8 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>parse the file in #include "file" directive </p>
+
 <p>Referenced by <a class="el" href="classParserThread#ky-HandleIncludes">ParserThread::HandleIncludes()</a>, <a class="el" href="classParser#o1-Parse">Parser::Parse()</a>, <a class="el" href="classParserBase#kd-ParseBuffer">ParserBase::ParseBuffer()</a>, <a class="el" href="classParser#or-ParseBuffer">Parser::ParseBuffer()</a>, <a class="el" href="classParser#nz-ParseBufferForFunctions">Parser::ParseBufferForFunctions()</a>, <a class="el" href="classParser#jn-ParseBufferForNamespaces">Parser::ParseBufferForNamespaces()</a>, and <a class="el" href="classParser#u4-ParseBufferForUsingNamespace">Parser::ParseBufferForUsingNamespace()</a>.</p>
 
 </div>
@@ -212,6 +240,8 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>whether to parse "class ...." like statement </p>
 
 <p>Referenced by <a class="el" href="classParserThread#tn-DoParse">ParserThread::DoParse()</a>.</p>
 
@@ -227,6 +257,8 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>whether to parse "enum ..." like statement </p>
+
 <p>Referenced by <a class="el" href="classParserThread#tn-DoParse">ParserThread::DoParse()</a>, and <a class="el" href="classParserThread#gm-HandleEnum">ParserThread::HandleEnum()</a>.</p>
 
 </div>
@@ -240,6 +272,8 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>whether to parse the functions </p>
 
 <p>Referenced by <a class="el" href="classParserThread#tn-DoParse">ParserThread::DoParse()</a>, <a class="el" href="classParserBase#kd-ParseBuffer">ParserBase::ParseBuffer()</a>, <a class="el" href="classParser#or-ParseBuffer">Parser::ParseBuffer()</a>, and <a class="el" href="classParser#nz-ParseBufferForFunctions">Parser::ParseBufferForFunctions()</a>.</p>
 
@@ -255,6 +289,8 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>whether to parse "typedef ..." like statement </p>
+
 <p>Referenced by <a class="el" href="classParserThread#tn-DoParse">ParserThread::DoParse()</a>.</p>
 
 </div>
@@ -268,6 +304,8 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>whether to parse the variable definition </p>
 
 <p>Referenced by <a class="el" href="classParserThread#tn-DoParse">ParserThread::DoParse()</a>, and <a class="el" href="classParserThread#s3-HandleClass">ParserThread::HandleClass()</a>.</p>
 
@@ -283,6 +321,8 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>since we are not parsing start from the first line of the file, this is the first line number of the buffer in the whole file </p>
+
 <p>Referenced by <a class="el" href="classParserThread#fc-InitTokenizer">ParserThread::InitTokenizer()</a>, <a class="el" href="classParserBase#kd-ParseBuffer">ParserBase::ParseBuffer()</a>, and <a class="el" href="classParser#or-ParseBuffer">Parser::ParseBuffer()</a>.</p>
 
 </div>
@@ -296,6 +336,8 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>this value is passed to the generated <a class="el" href="classToken" title="a symbol found in the parsed files, it can be many kinds, such as a variable, a class and so on...">Token</a>'s m_IsTemp property </p>
 
 <p>Referenced by <a class="el" href="classParserThread#hd-DoAddToken">ParserThread::DoAddToken()</a>, <a class="el" href="classParserBase#kd-ParseBuffer">ParserBase::ParseBuffer()</a>, and <a class="el" href="classParser#or-ParseBuffer">Parser::ParseBuffer()</a>.</p>
 
@@ -325,6 +367,8 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>when parsing a function body, all the tokens are the children of the function token </p>
+
 <p>Referenced by <a class="el" href="classParserThread#hd-DoAddToken">ParserThread::DoAddToken()</a>, <a class="el" href="classParserBase#kd-ParseBuffer">ParserBase::ParseBuffer()</a>, and <a class="el" href="classParser#or-ParseBuffer">Parser::ParseBuffer()</a>.</p>
 
 </div>
@@ -338,6 +382,8 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>not used </p>
 
 <p>Referenced by <a class="el" href="classParser#o1-Parse">Parser::Parse()</a>, <a class="el" href="classParserBase#kd-ParseBuffer">ParserBase::ParseBuffer()</a>, <a class="el" href="classParser#or-ParseBuffer">Parser::ParseBuffer()</a>, <a class="el" href="classParser#nz-ParseBufferForFunctions">Parser::ParseBufferForFunctions()</a>, <a class="el" href="classParser#jn-ParseBufferForNamespaces">Parser::ParseBufferForNamespaces()</a>, and <a class="el" href="classParser#u4-ParseBufferForUsingNamespace">Parser::ParseBufferForUsingNamespace()</a>.</p>
 
@@ -353,6 +399,8 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>not used </p>
+
 <p>Referenced by <a class="el" href="classParser#o1-Parse">Parser::Parse()</a>, <a class="el" href="classParserBase#kd-ParseBuffer">ParserBase::ParseBuffer()</a>, <a class="el" href="classParser#or-ParseBuffer">Parser::ParseBuffer()</a>, <a class="el" href="classParser#nz-ParseBufferForFunctions">Parser::ParseBufferForFunctions()</a>, <a class="el" href="classParser#jn-ParseBufferForNamespaces">Parser::ParseBufferForNamespaces()</a>, and <a class="el" href="classParser#u4-ParseBufferForUsingNamespace">Parser::ParseBufferForUsingNamespace()</a>.</p>
 
 </div>
@@ -366,6 +414,8 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>should tokenizer detect and store doxygen documentation? </p>
 
 <p>Referenced by <a class="el" href="classParser#o1-Parse">Parser::Parse()</a>, <a class="el" href="classParserBase#kd-ParseBuffer">ParserBase::ParseBuffer()</a>, <a class="el" href="classParser#or-ParseBuffer">Parser::ParseBuffer()</a>, <a class="el" href="classParser#nz-ParseBufferForFunctions">Parser::ParseBufferForFunctions()</a>, <a class="el" href="classParser#jn-ParseBufferForNamespaces">Parser::ParseBufferForNamespaces()</a>, <a class="el" href="classParser#u4-ParseBufferForUsingNamespace">Parser::ParseBufferForUsingNamespace()</a>, and <a class="el" href="classParserThread#kb-ParserThread">ParserThread::ParserThread()</a>.</p>
 
@@ -381,7 +431,10 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Referenced by <a class="el" href="classParserThread#tn-DoParse">ParserThread::DoParse()</a>, <a class="el" href="classParserThread#oq-HandleFunction">ParserThread::HandleFunction()</a>, <a class="el" href="classParserThread#te-Parse">ParserThread::Parse()</a>, <a class="el" href="classParser#o1-Parse">Parser::Parse()</a>, <a class="el" href="classParserBase#kd-ParseBuffer">ParserBase::ParseBuffer()</a>, <a class="el" href="classParser#or-ParseBuffer">Parser::ParseBuffer()</a>, <a class="el" href="classParser#nz-ParseBufferForFunctions">Parser::ParseBufferForFunctions()</a>, <a class="el" href="classParser#jn-ParseBufferForNamespaces">Parser::ParseBufferForNamespaces()</a>, <a class="el" href="classParser#u4-ParseBufferForUsingNamespace">Parser::ParseBufferForUsingNamespace()</a>, and <a class="el" href="classParserBase#bz-Reparse">ParserBase::Reparse()</a>.</p>
+<p>useBuffer specifies that we're not parsing a file, but a temporary buffer. </p>
+<p>The resulting tokens will be temporary, too, and will be deleted before the next file is parsed. </p>
+
+<p>Referenced by <a class="el" href="classParserThread#tn-DoParse">ParserThread::DoParse()</a>, <a class="el" href="classParserThread#oq-HandleFunction">ParserThread::HandleFunction()</a>, <a class="el" href="classParserThread#fc-InitTokenizer">ParserThread::InitTokenizer()</a>, <a class="el" href="classParserThread#te-Parse">ParserThread::Parse()</a>, <a class="el" href="classParser#o1-Parse">Parser::Parse()</a>, <a class="el" href="classParserBase#kd-ParseBuffer">ParserBase::ParseBuffer()</a>, <a class="el" href="classParser#or-ParseBuffer">Parser::ParseBuffer()</a>, <a class="el" href="classParser#nz-ParseBufferForFunctions">Parser::ParseBufferForFunctions()</a>, <a class="el" href="classParser#jn-ParseBufferForNamespaces">Parser::ParseBufferForNamespaces()</a>, <a class="el" href="classParser#u4-ParseBufferForUsingNamespace">Parser::ParseBufferForUsingNamespace()</a>, and <a class="el" href="classParserBase#bz-Reparse">ParserBase::Reparse()</a>.</p>
 
 </div>
 </div>
@@ -394,6 +447,8 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>handle the #if like preprocessor directives, this value is passed to <a class="el" href="classTokenizer" title="This is just a simple lexer class. ">Tokenizer</a> </p>
 
 <p>Referenced by <a class="el" href="classParser#o1-Parse">Parser::Parse()</a>, <a class="el" href="classParserBase#kd-ParseBuffer">ParserBase::ParseBuffer()</a>, <a class="el" href="classParser#or-ParseBuffer">Parser::ParseBuffer()</a>, <a class="el" href="classParser#nz-ParseBufferForFunctions">Parser::ParseBufferForFunctions()</a>, <a class="el" href="classParser#jn-ParseBufferForNamespaces">Parser::ParseBufferForNamespaces()</a>, <a class="el" href="classParser#u4-ParseBufferForUsingNamespace">Parser::ParseBufferForUsingNamespace()</a>, and <a class="el" href="classParserThread#kb-ParserThread">ParserThread::ParserThread()</a>.</p>
 

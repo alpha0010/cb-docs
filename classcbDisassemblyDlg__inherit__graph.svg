@@ -8,7 +8,6 @@
  viewBox="0.00 0.00 152.00 490.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 486)">
 <title>cbDisassemblyDlg</title>
-<polygon fill="white" stroke="none" points="-4,4 -4,-486 148,-486 148,4 -4,4"/>
 <!-- Node1 -->
 <g id="node1" class="node"><title>Node1</title>
 <polygon fill="#bfbfbf" stroke="black" points="15,-325.5 15,-481.5 129,-481.5 129,-325.5 15,-325.5"/>
@@ -30,7 +29,7 @@
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
 <g id="a_node2"><a xlink:href="classDisassemblyDlg" target="_top" xlink:title="{DisassemblyDlg\n|# m_pCode\l# m_LastActiveAddr\l# m_HasActiveAddr\l# m_FrameFunction\l# m_FrameAddress\l# m_ClearFlag\l# m_LineTypes\l&#45; m_MixedModeCB\l|+ DisassemblyDlg()\l+ GetWindow()\l+ Clear()\l+ AddAssemblerLine()\l+ AddSourceLine()\l+ SetActiveAddress()\l+ CenterLine()\l+ CenterCurrentLine()\l+ HasActiveAddr()\l+ EnableWindow()\l# OnSave()\l# OnRefresh()\l# OnMixedModeCB()\l# OnAdjustLine()\l&#45; DECLARE_EVENT_TABLE()\l}">
-<polygon fill="white" stroke="black" points="0,-0.5 0,-288.5 144,-288.5 144,-0.5 0,-0.5"/>
+<polygon fill="none" stroke="black" points="0,-0.5 0,-288.5 144,-288.5 144,-0.5 0,-0.5"/>
 <text text-anchor="middle" x="72" y="-276.5" font-family="FreeSans" font-size="10.00">DisassemblyDlg</text>
 <polyline fill="none" stroke="black" points="0,-269.5 144,-269.5 "/>
 <text text-anchor="start" x="8" y="-257.5" font-family="FreeSans" font-size="10.00"># m_pCode</text>

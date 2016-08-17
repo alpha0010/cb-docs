@@ -18,7 +18,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">Code::Blocks
-   &#160;<span id="projectnumber">SVN r10603</span>
+   &#160;<span id="projectnumber">SVN r10885</span>
    </div>
   </td>
  </tr>
@@ -30,6 +30,7 @@
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="index"><span>Main&#160;Page</span></a></li>
+      <li><a href="pages"><span>Related&#160;Pages</span></a></li>
       <li><a href="namespaces"><span>Namespaces</span></a></li>
       <li><a href="annotated"><span>Classes</span></a></li>
       <li class="current"><a href="files"><span>Files</span></a></li>
@@ -83,77 +84,77 @@
 <div class="line"><a name="l00031"></a><span class="lineno"><a class="line" href="classcbStyledTextCtrl#tl-GetLastSelectedText">   31</a></span>&#160;        wxString <a class="code" href="classcbStyledTextCtrl#tl-GetLastSelectedText">GetLastSelectedText</a>()<span class="keyword"> const </span>{<span class="keywordflow">return</span> m_lastSelectedText;}</div>
 <div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;</div>
 <div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;        <span class="keywordtype">void</span> EnableTabSmartJump(<span class="keywordtype">bool</span> enable = <span class="keyword">true</span>);</div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;        <span class="keywordtype">bool</span> IsCharacter(<span class="keywordtype">int</span> style);</div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;        <span class="keywordtype">bool</span> IsString(<span class="keywordtype">int</span> style);</div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;        <span class="keywordtype">bool</span> IsPreprocessor(<span class="keywordtype">int</span> style);</div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;        <span class="keywordtype">bool</span> IsComment(<span class="keywordtype">int</span> style);</div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="classwxScintilla#tt-CallTipCancel">CallTipCancel</a>();</div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;        <span class="keywordtype">bool</span> IsBraceShortcutActive();</div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;</div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;        <span class="keywordtype">void</span> DoBraceCompletion(<span class="keyword">const</span> wxChar&amp; ch);</div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;        <span class="keywordtype">bool</span> DoSelectionBraceCompletion(<span class="keyword">const</span> wxChar&amp; ch);</div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;</div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;        <span class="keyword">static</span> std::map&lt;int, std::set&lt;int&gt; &gt; &amp;GetCharacterLexerStyles();</div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;        <span class="keyword">static</span> std::map&lt;int, std::set&lt;int&gt; &gt; &amp;GetStringLexerStyles();</div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;        <span class="keyword">static</span> std::map&lt;int, std::set&lt;int&gt; &gt; &amp;GetPreprocessorLexerStyles();</div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;        <span class="keyword">static</span> std::map&lt;int, std::set&lt;int&gt; &gt; &amp;GetCommentLexerStyles();</div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;</div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;        <span class="keywordtype">void</span> MakeNearbyLinesVisible(<span class="keywordtype">int</span> line);</div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;    <span class="keyword">private</span>:</div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="classwxScintilla#up-OnContextMenu">OnContextMenu</a>(wxContextMenuEvent&amp; event);</div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;        <span class="keywordtype">void</span> OnKillFocus(wxFocusEvent&amp; event);</div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;        <span class="keywordtype">void</span> OnSetFocus(wxFocusEvent&amp; event);</div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;        <span class="keywordtype">void</span> OnMouseMiddleDown(wxMouseEvent&amp; event);</div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;        <span class="keywordtype">void</span> OnMouseMiddleClick(wxMouseEvent&amp; event);</div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="classwxScintilla#n3-OnKeyDown">OnKeyDown</a>(wxKeyEvent&amp; event);</div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;        <span class="keywordtype">void</span> OnKeyUp(wxKeyEvent&amp; event);</div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="classwxScintilla#a0-OnMouseLeftUp">OnMouseLeftUp</a>(wxMouseEvent&amp; event);</div>
-<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;</div>
-<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;        <span class="keywordtype">bool</span> AllowTabSmartJump();</div>
-<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;        <span class="keywordtype">void</span> HighlightRightBrace();</div>
-<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;        <span class="keywordtype">void</span> EmulateDwellStart();</div>
-<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;</div>
-<div class="line"><a name="l00064"></a><span class="lineno"><a class="line" href="classcbStyledTextCtrl#ba-m_pParent">   64</a></span>&#160;        wxWindow* <a class="code" href="classcbStyledTextCtrl#ba-m_pParent">m_pParent</a>;</div>
-<div class="line"><a name="l00065"></a><span class="lineno"><a class="line" href="classcbStyledTextCtrl#lx-m_lastFocusTime">   65</a></span>&#160;        wxLongLong <a class="code" href="classcbStyledTextCtrl#lx-m_lastFocusTime">m_lastFocusTime</a>;</div>
-<div class="line"><a name="l00066"></a><span class="lineno"><a class="line" href="classcbStyledTextCtrl#u0-m_bracePosition">   66</a></span>&#160;        <span class="keywordtype">int</span> <a class="code" href="classcbStyledTextCtrl#u0-m_bracePosition">m_bracePosition</a>;</div>
-<div class="line"><a name="l00067"></a><span class="lineno"><a class="line" href="classcbStyledTextCtrl#yt-m_lastPosition">   67</a></span>&#160;        <span class="keywordtype">int</span> <a class="code" href="classcbStyledTextCtrl#yt-m_lastPosition">m_lastPosition</a>;</div>
-<div class="line"><a name="l00068"></a><span class="lineno"><a class="line" href="classcbStyledTextCtrl#eh-m_middleClickPos">   68</a></span>&#160;        <span class="keywordtype">int</span> <a class="code" href="classcbStyledTextCtrl#eh-m_middleClickPos">m_middleClickPos</a>;</div>
-<div class="line"><a name="l00069"></a><span class="lineno"><a class="line" href="classcbStyledTextCtrl#o9-m_tabSmartJump">   69</a></span>&#160;        <span class="keywordtype">bool</span> <a class="code" href="classcbStyledTextCtrl#o9-m_tabSmartJump">m_tabSmartJump</a>;</div>
-<div class="line"><a name="l00070"></a><span class="lineno"><a class="line" href="classcbStyledTextCtrl#bq-m_lastSelectedText">   70</a></span>&#160;        wxString <a class="code" href="classcbStyledTextCtrl#bq-m_lastSelectedText">m_lastSelectedText</a>;</div>
-<div class="line"><a name="l00071"></a><span class="lineno"><a class="line" href="classcbStyledTextCtrl#we-m_braceShortcutState">   71</a></span>&#160;        <span class="keywordtype">bool</span> <a class="code" href="classcbStyledTextCtrl#we-m_braceShortcutState">m_braceShortcutState</a>;</div>
-<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;</div>
-<div class="line"><a name="l00073"></a><span class="lineno"><a class="line" href="classcbStyledTextCtrl#qh-CharacterLexerStyles">   73</a></span>&#160;        <span class="keyword">static</span> std::map&lt;int, std::set&lt;int&gt; &gt; <a class="code" href="classcbStyledTextCtrl#qh-CharacterLexerStyles">CharacterLexerStyles</a>;</div>
-<div class="line"><a name="l00074"></a><span class="lineno"><a class="line" href="classcbStyledTextCtrl#yh-StringLexerStyles">   74</a></span>&#160;        <span class="keyword">static</span> std::map&lt;int, std::set&lt;int&gt; &gt; <a class="code" href="classcbStyledTextCtrl#yh-StringLexerStyles">StringLexerStyles</a>;</div>
-<div class="line"><a name="l00075"></a><span class="lineno"><a class="line" href="classcbStyledTextCtrl#mu-PreprocessorLexerStyles">   75</a></span>&#160;        <span class="keyword">static</span> std::map&lt;int, std::set&lt;int&gt; &gt; <a class="code" href="classcbStyledTextCtrl#mu-PreprocessorLexerStyles">PreprocessorLexerStyles</a>;</div>
-<div class="line"><a name="l00076"></a><span class="lineno"><a class="line" href="classcbStyledTextCtrl#mi-CommentLexerStyles">   76</a></span>&#160;        <span class="keyword">static</span> std::map&lt;int, std::set&lt;int&gt; &gt; <a class="code" href="classcbStyledTextCtrl#mi-CommentLexerStyles">CommentLexerStyles</a>;</div>
-<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;</div>
-<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;        DECLARE_EVENT_TABLE()</div>
-<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;};</div>
-<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;</div>
-<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;<span class="preprocessor">#endif // CBSTYLEDTEXTCTRL_H_INCLUDED</span></div>
-<div class="ttc" id="classcbStyledTextCtrl_ba-m_pParent"><div class="ttname"><a href="classcbStyledTextCtrl#ba-m_pParent">cbStyledTextCtrl::m_pParent</a></div><div class="ttdeci">wxWindow * m_pParent</div><div class="ttdef"><b>Definition:</b> cbstyledtextctrl.h:64</div></div>
-<div class="ttc" id="classcbStyledTextCtrl_we-m_braceShortcutState"><div class="ttname"><a href="classcbStyledTextCtrl#we-m_braceShortcutState">cbStyledTextCtrl::m_braceShortcutState</a></div><div class="ttdeci">bool m_braceShortcutState</div><div class="ttdef"><b>Definition:</b> cbstyledtextctrl.h:71</div></div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;        <span class="keywordtype">bool</span> IsCharacter(<span class="keywordtype">int</span> style);</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;        <span class="keywordtype">bool</span> IsString(<span class="keywordtype">int</span> style);</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;        <span class="keywordtype">bool</span> IsPreprocessor(<span class="keywordtype">int</span> style);</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;        <span class="keywordtype">bool</span> IsComment(<span class="keywordtype">int</span> style);</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="classwxScintilla#tt-CallTipCancel">CallTipCancel</a>();</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;        <span class="keywordtype">bool</span> IsBraceShortcutActive();</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;        <span class="keywordtype">void</span> DoBraceCompletion(<span class="keyword">const</span> wxChar&amp; ch);</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;        <span class="keywordtype">bool</span> DoSelectionBraceCompletion(<span class="keyword">const</span> wxChar&amp; ch);</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;        <span class="keyword">static</span> std::map&lt;int, std::set&lt;int&gt; &gt; &amp;GetCharacterLexerStyles();</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;        <span class="keyword">static</span> std::map&lt;int, std::set&lt;int&gt; &gt; &amp;GetStringLexerStyles();</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;        <span class="keyword">static</span> std::map&lt;int, std::set&lt;int&gt; &gt; &amp;GetPreprocessorLexerStyles();</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;        <span class="keyword">static</span> std::map&lt;int, std::set&lt;int&gt; &gt; &amp;GetCommentLexerStyles();</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;        <span class="keywordtype">void</span> MakeNearbyLinesVisible(<span class="keywordtype">int</span> line);</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;    <span class="keyword">private</span>:</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="classwxScintilla#up-OnContextMenu">OnContextMenu</a>(wxContextMenuEvent&amp; event);</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;        <span class="keywordtype">void</span> OnKillFocus(wxFocusEvent&amp; event);</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;        <span class="keywordtype">void</span> OnSetFocus(wxFocusEvent&amp; event);</div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;        <span class="keywordtype">void</span> OnMouseMiddleDown(wxMouseEvent&amp; event);</div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;        <span class="keywordtype">void</span> OnMouseMiddleClick(wxMouseEvent&amp; event);</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="classwxScintilla#n3-OnKeyDown">OnKeyDown</a>(wxKeyEvent&amp; event);</div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;        <span class="keywordtype">void</span> OnKeyUp(wxKeyEvent&amp; event);</div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="classwxScintilla#a0-OnMouseLeftUp">OnMouseLeftUp</a>(wxMouseEvent&amp; event);</div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;</div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;        <span class="keywordtype">bool</span> AllowTabSmartJump();</div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;        <span class="keywordtype">void</span> HighlightRightBrace();</div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;        <span class="keywordtype">void</span> EmulateDwellStart();</div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;</div>
+<div class="line"><a name="l00093"></a><span class="lineno"><a class="line" href="classcbStyledTextCtrl#ba-m_pParent">   93</a></span>&#160;        wxWindow* <a class="code" href="classcbStyledTextCtrl#ba-m_pParent">m_pParent</a>;</div>
+<div class="line"><a name="l00094"></a><span class="lineno"><a class="line" href="classcbStyledTextCtrl#lx-m_lastFocusTime">   94</a></span>&#160;        wxLongLong <a class="code" href="classcbStyledTextCtrl#lx-m_lastFocusTime">m_lastFocusTime</a>;</div>
+<div class="line"><a name="l00095"></a><span class="lineno"><a class="line" href="classcbStyledTextCtrl#u0-m_bracePosition">   95</a></span>&#160;        <span class="keywordtype">int</span> <a class="code" href="classcbStyledTextCtrl#u0-m_bracePosition">m_bracePosition</a>;</div>
+<div class="line"><a name="l00096"></a><span class="lineno"><a class="line" href="classcbStyledTextCtrl#yt-m_lastPosition">   96</a></span>&#160;        <span class="keywordtype">int</span> <a class="code" href="classcbStyledTextCtrl#yt-m_lastPosition">m_lastPosition</a>;</div>
+<div class="line"><a name="l00097"></a><span class="lineno"><a class="line" href="classcbStyledTextCtrl#eh-m_middleClickPos">   97</a></span>&#160;        <span class="keywordtype">int</span> <a class="code" href="classcbStyledTextCtrl#eh-m_middleClickPos">m_middleClickPos</a>;</div>
+<div class="line"><a name="l00098"></a><span class="lineno"><a class="line" href="classcbStyledTextCtrl#o9-m_tabSmartJump">   98</a></span>&#160;        <span class="keywordtype">bool</span> <a class="code" href="classcbStyledTextCtrl#o9-m_tabSmartJump">m_tabSmartJump</a>;</div>
+<div class="line"><a name="l00099"></a><span class="lineno"><a class="line" href="classcbStyledTextCtrl#bq-m_lastSelectedText">   99</a></span>&#160;        wxString <a class="code" href="classcbStyledTextCtrl#bq-m_lastSelectedText">m_lastSelectedText</a>;</div>
+<div class="line"><a name="l00100"></a><span class="lineno"><a class="line" href="classcbStyledTextCtrl#we-m_braceShortcutState">  100</a></span>&#160;        <span class="keywordtype">bool</span> <a class="code" href="classcbStyledTextCtrl#we-m_braceShortcutState">m_braceShortcutState</a>;</div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;</div>
+<div class="line"><a name="l00102"></a><span class="lineno"><a class="line" href="classcbStyledTextCtrl#qh-CharacterLexerStyles">  102</a></span>&#160;        <span class="keyword">static</span> std::map&lt;int, std::set&lt;int&gt; &gt; <a class="code" href="classcbStyledTextCtrl#qh-CharacterLexerStyles">CharacterLexerStyles</a>;</div>
+<div class="line"><a name="l00103"></a><span class="lineno"><a class="line" href="classcbStyledTextCtrl#yh-StringLexerStyles">  103</a></span>&#160;        <span class="keyword">static</span> std::map&lt;int, std::set&lt;int&gt; &gt; <a class="code" href="classcbStyledTextCtrl#yh-StringLexerStyles">StringLexerStyles</a>;</div>
+<div class="line"><a name="l00104"></a><span class="lineno"><a class="line" href="classcbStyledTextCtrl#mu-PreprocessorLexerStyles">  104</a></span>&#160;        <span class="keyword">static</span> std::map&lt;int, std::set&lt;int&gt; &gt; <a class="code" href="classcbStyledTextCtrl#mu-PreprocessorLexerStyles">PreprocessorLexerStyles</a>;</div>
+<div class="line"><a name="l00105"></a><span class="lineno"><a class="line" href="classcbStyledTextCtrl#mi-CommentLexerStyles">  105</a></span>&#160;        <span class="keyword">static</span> std::map&lt;int, std::set&lt;int&gt; &gt; <a class="code" href="classcbStyledTextCtrl#mi-CommentLexerStyles">CommentLexerStyles</a>;</div>
+<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;</div>
+<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;        DECLARE_EVENT_TABLE()</div>
+<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;};</div>
+<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;</div>
+<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;<span class="preprocessor">#endif // CBSTYLEDTEXTCTRL_H_INCLUDED</span></div>
+<div class="ttc" id="classcbStyledTextCtrl_ba-m_pParent"><div class="ttname"><a href="classcbStyledTextCtrl#ba-m_pParent">cbStyledTextCtrl::m_pParent</a></div><div class="ttdeci">wxWindow * m_pParent</div><div class="ttdef"><b>Definition:</b> cbstyledtextctrl.h:93</div></div>
+<div class="ttc" id="classcbStyledTextCtrl_we-m_braceShortcutState"><div class="ttname"><a href="classcbStyledTextCtrl#we-m_braceShortcutState">cbStyledTextCtrl::m_braceShortcutState</a></div><div class="ttdeci">bool m_braceShortcutState</div><div class="ttdef"><b>Definition:</b> cbstyledtextctrl.h:100</div></div>
 <div class="ttc" id="classwxScintilla"><div class="ttname"><a href="classwxScintilla">wxScintilla</a></div><div class="ttdef"><b>Definition:</b> wxscintilla.h:2781</div></div>
 <div class="ttc" id="classwxScintilla_n3-OnKeyDown"><div class="ttname"><a href="classwxScintilla#n3-OnKeyDown">wxScintilla::OnKeyDown</a></div><div class="ttdeci">void OnKeyDown(wxKeyEvent &amp;evt)</div></div>
-<div class="ttc" id="classcbStyledTextCtrl_yt-m_lastPosition"><div class="ttname"><a href="classcbStyledTextCtrl#yt-m_lastPosition">cbStyledTextCtrl::m_lastPosition</a></div><div class="ttdeci">int m_lastPosition</div><div class="ttdef"><b>Definition:</b> cbstyledtextctrl.h:67</div></div>
+<div class="ttc" id="classcbStyledTextCtrl_yt-m_lastPosition"><div class="ttname"><a href="classcbStyledTextCtrl#yt-m_lastPosition">cbStyledTextCtrl::m_lastPosition</a></div><div class="ttdeci">int m_lastPosition</div><div class="ttdef"><b>Definition:</b> cbstyledtextctrl.h:96</div></div>
 <div class="ttc" id="settings_8h_oc-DLLIMPORT"><div class="ttname"><a href="settings_8h#oc-DLLIMPORT">DLLIMPORT</a></div><div class="ttdeci">#define DLLIMPORT</div><div class="ttdef"><b>Definition:</b> settings.h:16</div></div>
-<div class="ttc" id="classcbStyledTextCtrl_qh-CharacterLexerStyles"><div class="ttname"><a href="classcbStyledTextCtrl#qh-CharacterLexerStyles">cbStyledTextCtrl::CharacterLexerStyles</a></div><div class="ttdeci">static std::map&lt; int, std::set&lt; int &gt; &gt; CharacterLexerStyles</div><div class="ttdef"><b>Definition:</b> cbstyledtextctrl.h:73</div></div>
-<div class="ttc" id="classcbStyledTextCtrl_mu-PreprocessorLexerStyles"><div class="ttname"><a href="classcbStyledTextCtrl#mu-PreprocessorLexerStyles">cbStyledTextCtrl::PreprocessorLexerStyles</a></div><div class="ttdeci">static std::map&lt; int, std::set&lt; int &gt; &gt; PreprocessorLexerStyles</div><div class="ttdef"><b>Definition:</b> cbstyledtextctrl.h:75</div></div>
+<div class="ttc" id="classcbStyledTextCtrl_qh-CharacterLexerStyles"><div class="ttname"><a href="classcbStyledTextCtrl#qh-CharacterLexerStyles">cbStyledTextCtrl::CharacterLexerStyles</a></div><div class="ttdeci">static std::map&lt; int, std::set&lt; int &gt; &gt; CharacterLexerStyles</div><div class="ttdef"><b>Definition:</b> cbstyledtextctrl.h:102</div></div>
+<div class="ttc" id="classcbStyledTextCtrl_mu-PreprocessorLexerStyles"><div class="ttname"><a href="classcbStyledTextCtrl#mu-PreprocessorLexerStyles">cbStyledTextCtrl::PreprocessorLexerStyles</a></div><div class="ttdeci">static std::map&lt; int, std::set&lt; int &gt; &gt; PreprocessorLexerStyles</div><div class="ttdef"><b>Definition:</b> cbstyledtextctrl.h:104</div></div>
 <div class="ttc" id="classcbStyledTextCtrl_tl-GetLastSelectedText"><div class="ttname"><a href="classcbStyledTextCtrl#tl-GetLastSelectedText">cbStyledTextCtrl::GetLastSelectedText</a></div><div class="ttdeci">wxString GetLastSelectedText() const </div><div class="ttdef"><b>Definition:</b> cbstyledtextctrl.h:31</div></div>
-<div class="ttc" id="classcbStyledTextCtrl_mi-CommentLexerStyles"><div class="ttname"><a href="classcbStyledTextCtrl#mi-CommentLexerStyles">cbStyledTextCtrl::CommentLexerStyles</a></div><div class="ttdeci">static std::map&lt; int, std::set&lt; int &gt; &gt; CommentLexerStyles</div><div class="ttdef"><b>Definition:</b> cbstyledtextctrl.h:76</div></div>
-<div class="ttc" id="classcbStyledTextCtrl_lx-m_lastFocusTime"><div class="ttname"><a href="classcbStyledTextCtrl#lx-m_lastFocusTime">cbStyledTextCtrl::m_lastFocusTime</a></div><div class="ttdeci">wxLongLong m_lastFocusTime</div><div class="ttdef"><b>Definition:</b> cbstyledtextctrl.h:65</div></div>
-<div class="ttc" id="classcbStyledTextCtrl_eh-m_middleClickPos"><div class="ttname"><a href="classcbStyledTextCtrl#eh-m_middleClickPos">cbStyledTextCtrl::m_middleClickPos</a></div><div class="ttdeci">int m_middleClickPos</div><div class="ttdef"><b>Definition:</b> cbstyledtextctrl.h:68</div></div>
+<div class="ttc" id="classcbStyledTextCtrl_mi-CommentLexerStyles"><div class="ttname"><a href="classcbStyledTextCtrl#mi-CommentLexerStyles">cbStyledTextCtrl::CommentLexerStyles</a></div><div class="ttdeci">static std::map&lt; int, std::set&lt; int &gt; &gt; CommentLexerStyles</div><div class="ttdef"><b>Definition:</b> cbstyledtextctrl.h:105</div></div>
+<div class="ttc" id="classcbStyledTextCtrl_lx-m_lastFocusTime"><div class="ttname"><a href="classcbStyledTextCtrl#lx-m_lastFocusTime">cbStyledTextCtrl::m_lastFocusTime</a></div><div class="ttdeci">wxLongLong m_lastFocusTime</div><div class="ttdef"><b>Definition:</b> cbstyledtextctrl.h:94</div></div>
+<div class="ttc" id="classcbStyledTextCtrl_eh-m_middleClickPos"><div class="ttname"><a href="classcbStyledTextCtrl#eh-m_middleClickPos">cbStyledTextCtrl::m_middleClickPos</a></div><div class="ttdeci">int m_middleClickPos</div><div class="ttdef"><b>Definition:</b> cbstyledtextctrl.h:97</div></div>
 <div class="ttc" id="settings_8h"><div class="ttname"><a href="settings_8h">settings.h</a></div></div>
 <div class="ttc" id="classcbStyledTextCtrl"><div class="ttname"><a href="classcbStyledTextCtrl">cbStyledTextCtrl</a></div><div class="ttdef"><b>Definition:</b> cbstyledtextctrl.h:21</div></div>
-<div class="ttc" id="classcbStyledTextCtrl_o9-m_tabSmartJump"><div class="ttname"><a href="classcbStyledTextCtrl#o9-m_tabSmartJump">cbStyledTextCtrl::m_tabSmartJump</a></div><div class="ttdeci">bool m_tabSmartJump</div><div class="ttdef"><b>Definition:</b> cbstyledtextctrl.h:69</div></div>
+<div class="ttc" id="classcbStyledTextCtrl_o9-m_tabSmartJump"><div class="ttname"><a href="classcbStyledTextCtrl#o9-m_tabSmartJump">cbStyledTextCtrl::m_tabSmartJump</a></div><div class="ttdeci">bool m_tabSmartJump</div><div class="ttdef"><b>Definition:</b> cbstyledtextctrl.h:98</div></div>
 <div class="ttc" id="classwxScintilla_a0-OnMouseLeftUp"><div class="ttname"><a href="classwxScintilla#a0-OnMouseLeftUp">wxScintilla::OnMouseLeftUp</a></div><div class="ttdeci">void OnMouseLeftUp(wxMouseEvent &amp;evt)</div></div>
 <div class="ttc" id="classcbStyledTextCtrl_me-GetLastFocusTime"><div class="ttname"><a href="classcbStyledTextCtrl#me-GetLastFocusTime">cbStyledTextCtrl::GetLastFocusTime</a></div><div class="ttdeci">wxDateTime GetLastFocusTime() const </div><div class="ttdef"><b>Definition:</b> cbstyledtextctrl.h:30</div></div>
 <div class="ttc" id="classwxScintilla_tt-CallTipCancel"><div class="ttname"><a href="classwxScintilla#tt-CallTipCancel">wxScintilla::CallTipCancel</a></div><div class="ttdeci">void CallTipCancel()</div></div>
-<div class="ttc" id="classcbStyledTextCtrl_yh-StringLexerStyles"><div class="ttname"><a href="classcbStyledTextCtrl#yh-StringLexerStyles">cbStyledTextCtrl::StringLexerStyles</a></div><div class="ttdeci">static std::map&lt; int, std::set&lt; int &gt; &gt; StringLexerStyles</div><div class="ttdef"><b>Definition:</b> cbstyledtextctrl.h:74</div></div>
-<div class="ttc" id="classcbStyledTextCtrl_u0-m_bracePosition"><div class="ttname"><a href="classcbStyledTextCtrl#u0-m_bracePosition">cbStyledTextCtrl::m_bracePosition</a></div><div class="ttdeci">int m_bracePosition</div><div class="ttdef"><b>Definition:</b> cbstyledtextctrl.h:66</div></div>
+<div class="ttc" id="classcbStyledTextCtrl_yh-StringLexerStyles"><div class="ttname"><a href="classcbStyledTextCtrl#yh-StringLexerStyles">cbStyledTextCtrl::StringLexerStyles</a></div><div class="ttdeci">static std::map&lt; int, std::set&lt; int &gt; &gt; StringLexerStyles</div><div class="ttdef"><b>Definition:</b> cbstyledtextctrl.h:103</div></div>
+<div class="ttc" id="classcbStyledTextCtrl_u0-m_bracePosition"><div class="ttname"><a href="classcbStyledTextCtrl#u0-m_bracePosition">cbStyledTextCtrl::m_bracePosition</a></div><div class="ttdeci">int m_bracePosition</div><div class="ttdef"><b>Definition:</b> cbstyledtextctrl.h:95</div></div>
 <div class="ttc" id="wxscintilla_8h"><div class="ttname"><a href="wxscintilla_8h">wxscintilla.h</a></div></div>
 <div class="ttc" id="classwxScintilla_up-OnContextMenu"><div class="ttname"><a href="classwxScintilla#up-OnContextMenu">wxScintilla::OnContextMenu</a></div><div class="ttdeci">void OnContextMenu(wxContextMenuEvent &amp;evt)</div></div>
-<div class="ttc" id="classcbStyledTextCtrl_bq-m_lastSelectedText"><div class="ttname"><a href="classcbStyledTextCtrl#bq-m_lastSelectedText">cbStyledTextCtrl::m_lastSelectedText</a></div><div class="ttdeci">wxString m_lastSelectedText</div><div class="ttdef"><b>Definition:</b> cbstyledtextctrl.h:70</div></div>
+<div class="ttc" id="classcbStyledTextCtrl_bq-m_lastSelectedText"><div class="ttname"><a href="classcbStyledTextCtrl#bq-m_lastSelectedText">cbStyledTextCtrl::m_lastSelectedText</a></div><div class="ttdeci">wxString m_lastSelectedText</div><div class="ttdef"><b>Definition:</b> cbstyledtextctrl.h:99</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

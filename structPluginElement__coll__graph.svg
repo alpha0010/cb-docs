@@ -8,7 +8,6 @@
  viewBox="0.00 0.00 270.00 442.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 438)">
 <title>PluginElement</title>
-<polygon fill="white" stroke="none" points="-4,4 -4,-438 266,-438 266,4 -4,4"/>
 <!-- Node1 -->
 <g id="node1" class="node"><title>Node1</title>
 <polygon fill="#bfbfbf" stroke="black" points="50.5,-0.5 50.5,-68.5 129.5,-68.5 129.5,-0.5 50.5,-0.5"/>
@@ -22,7 +21,7 @@
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
 <g id="a_node2"><a xlink:href="pluginmanager_8h#structPluginInfo" target="_top" xlink:title="Information about the plugin. ">
-<polygon fill="white" stroke="black" points="0,-160.5 0,-305.5 86,-305.5 86,-160.5 0,-160.5"/>
+<polygon fill="none" stroke="black" points="0,-160.5 0,-305.5 86,-305.5 86,-160.5 0,-160.5"/>
 <text text-anchor="middle" x="43" y="-293.5" font-family="FreeSans" font-size="10.00">PluginInfo</text>
 <polyline fill="none" stroke="black" points="0,-286.5 86,-286.5 "/>
 <text text-anchor="start" x="8" y="-274.5" font-family="FreeSans" font-size="10.00">+ name</text>
@@ -48,7 +47,7 @@
 <!-- Node3 -->
 <g id="node3" class="node"><title>Node3</title>
 <g id="a_node3"><a xlink:href="classcbPlugin" target="_top" xlink:title="Base class for plugins This is the most basic class a plugin must descend from. ">
-<polygon fill="white" stroke="black" points="104,-127.5 104,-338.5 262,-338.5 262,-127.5 104,-127.5"/>
+<polygon fill="none" stroke="black" points="104,-127.5 104,-338.5 262,-338.5 262,-127.5 104,-127.5"/>
 <text text-anchor="middle" x="183" y="-326.5" font-family="FreeSans" font-size="10.00">cbPlugin</text>
 <polyline fill="none" stroke="black" points="104,-319.5 262,-319.5 "/>
 <text text-anchor="start" x="112" y="-307.5" font-family="FreeSans" font-size="10.00"># m_Type</text>
@@ -62,7 +61,7 @@
 <text text-anchor="start" x="112" y="-222.5" font-family="FreeSans" font-size="10.00">+ GetConfigurationPanel()</text>
 <text text-anchor="start" x="112" y="-211.5" font-family="FreeSans" font-size="10.00">+ GetProjectConfigurationPanel()</text>
 <text text-anchor="start" x="112" y="-200.5" font-family="FreeSans" font-size="10.00">+ BuildMenu()</text>
-<text text-anchor="start" x="112" y="-189.5" font-family="FreeSans" font-size="10.00">and 6 more...</text>
+<text text-anchor="start" x="112" y="-189.5" font-family="FreeSans" font-size="10.00">and 5 more...</text>
 <text text-anchor="start" x="112" y="-178.5" font-family="FreeSans" font-size="10.00"># OnAttach()</text>
 <text text-anchor="start" x="112" y="-167.5" font-family="FreeSans" font-size="10.00"># OnRelease()</text>
 <text text-anchor="start" x="112" y="-156.5" font-family="FreeSans" font-size="10.00"># NotImplemented()</text>
@@ -80,7 +79,7 @@
 </g>
 <!-- Node4 -->
 <g id="node4" class="node"><title>Node4</title>
-<polygon fill="white" stroke="#bfbfbf" points="146,-376.5 146,-433.5 220,-433.5 220,-376.5 146,-376.5"/>
+<polygon fill="none" stroke="#bfbfbf" points="146,-376.5 146,-433.5 220,-433.5 220,-376.5 146,-376.5"/>
 <text text-anchor="middle" x="183" y="-421.5" font-family="FreeSans" font-size="10.00">wxEvtHandler</text>
 <polyline fill="none" stroke="#bfbfbf" points="146,-414.5 220,-414.5 "/>
 <text text-anchor="middle" x="183" y="-402.5" font-family="FreeSans" font-size="10.00"> </text>

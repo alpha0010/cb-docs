@@ -18,7 +18,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">Code::Blocks
-   &#160;<span id="projectnumber">SVN r10603</span>
+   &#160;<span id="projectnumber">SVN r10885</span>
    </div>
   </td>
  </tr>
@@ -30,6 +30,7 @@
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="index"><span>Main&#160;Page</span></a></li>
+      <li><a href="pages"><span>Related&#160;Pages</span></a></li>
       <li><a href="namespaces"><span>Namespaces</span></a></li>
       <li><a href="annotated"><span>Classes</span></a></li>
       <li class="current"><a href="files"><span>Files</span></a></li>
@@ -53,17 +54,115 @@
 <div class="contents">
 <div class="textblock"><code>#include &lt;wx/wxprec.h&gt;</code><br />
 <code>#include &quot;<a class="el" href="prep_8h_source">prep.h</a>&quot;</code><br />
+<code>#include &lt;wx/app.h&gt;</code><br />
+<code>#include &lt;wx/arrstr.h&gt;</code><br />
+<code>#include &lt;wx/bmpbuttn.h&gt;</code><br />
+<code>#include &lt;wx/button.h&gt;</code><br />
+<code>#include &lt;wx/checkbox.h&gt;</code><br />
+<code>#include &lt;wx/checklst.h&gt;</code><br />
+<code>#include &lt;wx/choice.h&gt;</code><br />
+<code>#include &lt;wx/choicdlg.h&gt;</code><br />
+<code>#include &lt;wx/colordlg.h&gt;</code><br />
+<code>#include &lt;wx/combobox.h&gt;</code><br />
+<code>#include &lt;wx/confbase.h&gt;</code><br />
+<code>#include &lt;wx/datetime.h&gt;</code><br />
+<code>#include &lt;wx/dcclient.h&gt;</code><br />
+<code>#include &lt;wx/dialog.h&gt;</code><br />
+<code>#include &lt;wx/dir.h&gt;</code><br />
+<code>#include &lt;wx/dynarray.h&gt;</code><br />
+<code>#include &lt;wx/event.h&gt;</code><br />
+<code>#include &lt;wx/file.h&gt;</code><br />
+<code>#include &lt;wx/filedlg.h&gt;</code><br />
+<code>#include &lt;wx/filename.h&gt;</code><br />
+<code>#include &lt;wx/font.h&gt;</code><br />
+<code>#include &lt;wx/frame.h&gt;</code><br />
+<code>#include &lt;wx/fs_zip.h&gt;</code><br />
+<code>#include &lt;wx/hashmap.h&gt;</code><br />
+<code>#include &lt;wx/image.h&gt;</code><br />
+<code>#include &lt;wx/imaglist.h&gt;</code><br />
+<code>#include &lt;wx/intl.h&gt;</code><br />
+<code>#include &lt;wx/list.h&gt;</code><br />
+<code>#include &lt;wx/listbox.h&gt;</code><br />
+<code>#include &lt;wx/listctrl.h&gt;</code><br />
+<code>#include &lt;wx/log.h&gt;</code><br />
+<code>#include &lt;wx/menu.h&gt;</code><br />
+<code>#include &lt;wx/menuitem.h&gt;</code><br />
+<code>#include &lt;wx/msgdlg.h&gt;</code><br />
+<code>#include &lt;wx/notebook.h&gt;</code><br />
+<code>#include &lt;wx/panel.h&gt;</code><br />
+<code>#include &lt;wx/print.h&gt;</code><br />
+<code>#include &lt;wx/process.h&gt;</code><br />
+<code>#include &lt;wx/radiobox.h&gt;</code><br />
+<code>#include &lt;wx/radiobut.h&gt;</code><br />
+<code>#include &lt;wx/regex.h&gt;</code><br />
+<code>#include &lt;wx/sizer.h&gt;</code><br />
+<code>#include &lt;wx/slider.h&gt;</code><br />
+<code>#include &lt;wx/socket.h&gt;</code><br />
+<code>#include &lt;wx/spinctrl.h&gt;</code><br />
+<code>#include &lt;wx/splitter.h&gt;</code><br />
+<code>#include &lt;wx/statbmp.h&gt;</code><br />
+<code>#include &lt;wx/stattext.h&gt;</code><br />
+<code>#include &lt;wx/string.h&gt;</code><br />
+<code>#include &lt;wx/textdlg.h&gt;</code><br />
+<code>#include &lt;wx/textctrl.h&gt;</code><br />
+<code>#include &lt;wx/thread.h&gt;</code><br />
+<code>#include &lt;wx/timer.h&gt;</code><br />
+<code>#include &lt;wx/toolbar.h&gt;</code><br />
+<code>#include &lt;wx/treectrl.h&gt;</code><br />
+<code>#include &lt;wx/txtstrm.h&gt;</code><br />
+<code>#include &lt;wx/utils.h&gt;</code><br />
+<code>#include &lt;wx/wfstream.h&gt;</code><br />
+<code>#include &lt;<a class="el" href="wxscintilla_8h_source">wx/wxscintilla.h</a>&gt;</code><br />
+<code>#include &lt;wx/xrc/xmlres.h&gt;</code><br />
+<code>#include &quot;<a class="el" href="settings_8h_source">settings.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="globals_8h_source">globals.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="sdk__events_8h_source">sdk_events.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="cbexception_8h_source">cbexception.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="logger_8h_source">logger.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="editorbase_8h_source">editorbase.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="cbeditor_8h_source">cbeditor.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="compileoptionsbase_8h_source">compileoptionsbase.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="compiletargetbase_8h_source">compiletargetbase.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="projectbuildtarget_8h_source">projectbuildtarget.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="projectfile_8h_source">projectfile.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="cbplugin_8h_source">cbplugin.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="cbproject_8h_source">cbproject.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="cbtool_8h_source">cbtool.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="cbworkspace_8h_source">cbworkspace.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="compilerfactory_8h_source">compilerfactory.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="compiler_8h_source">compiler.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="workspaceloader_8h_source">workspaceloader.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="editorcolourset_8h_source">editorcolourset.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="pipedprocess_8h_source">pipedprocess.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="scrollingdialog_8h_source">scrollingdialog.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="cbauibook_8h_source">cbauibook.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="manager_8h_source">manager.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="configmanager_8h_source">configmanager.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="editormanager_8h_source">editormanager.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="logmanager_8h_source">logmanager.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="projectmanager_8h_source">projectmanager.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="menuitemsmanager_8h_source">menuitemsmanager.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="scriptingmanager_8h_source">scriptingmanager.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="toolsmanager_8h_source">toolsmanager.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="templatemanager_8h_source">templatemanager.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="macrosmanager_8h_source">macrosmanager.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="pluginmanager_8h_source">pluginmanager.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="personalitymanager_8h_source">personalitymanager.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="uservarmanager_8h_source">uservarmanager.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="filemanager_8h_source">filemanager.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="xtra__res_8h_source">xtra_res.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="safedelete_8h_source">safedelete.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="infowindow_8h_source">infowindow.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="licenses_8h_source">licenses.h</a>&quot;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for sdk_common.h:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="sdk__common_8h__incl.svg" width="184" height="112"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="sdk__common_8h__incl.svg" width="11464" height="486"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div><div class="textblock"><div class="dynheader">
 This graph shows which files directly or indirectly include this file:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="sdk__common_8h__dep__incl.svg" width="7251" height="202"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="sdk__common_8h__dep__incl.svg" width="19424" height="202"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 <p><a href="sdk__common_8h_source">Go to the source code of this file.</a></p>

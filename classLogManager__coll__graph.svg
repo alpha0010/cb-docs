@@ -8,7 +8,6 @@
  viewBox="0.00 0.00 325.50 744.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 740)">
 <title>LogManager</title>
-<polygon fill="white" stroke="none" points="-4,4 -4,-740 321.5,-740 321.5,4 -4,4"/>
 <!-- Node1 -->
 <g id="node1" class="node"><title>Node1</title>
 <polygon fill="#bfbfbf" stroke="black" points="116,-171.5 116,-360.5 214,-360.5 214,-171.5 116,-171.5"/>
@@ -33,7 +32,7 @@
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
 <g id="a_node2"><a xlink:href="classMgr" target="_top" xlink:title="{Mgr\&lt; LogManager \&gt;\n|&#45; isShutdown\l|+ Valid()\l+ Get()\l+ Free()\l# Mgr()\l# ~Mgr()\l&#45; Mgr()\l&#45; operator=()\l}">
-<polygon fill="white" stroke="black" points="113.5,-0.5 113.5,-123.5 216.5,-123.5 216.5,-0.5 113.5,-0.5"/>
+<polygon fill="none" stroke="black" points="113.5,-0.5 113.5,-123.5 216.5,-123.5 216.5,-0.5 113.5,-0.5"/>
 <text text-anchor="middle" x="165" y="-111.5" font-family="FreeSans" font-size="10.00">Mgr&lt; LogManager &gt;</text>
 <polyline fill="none" stroke="black" points="113.5,-104.5 216.5,-104.5 "/>
 <text text-anchor="start" x="121.5" y="-92.5" font-family="FreeSans" font-size="10.00">&#45; isShutdown</text>
@@ -61,7 +60,7 @@
 </g>
 <!-- Node3 -->
 <g id="node3" class="node"><title>Node3</title>
-<polygon fill="white" stroke="#bfbfbf" points="35.5,-436 35.5,-504 138.5,-504 138.5,-436 35.5,-436"/>
+<polygon fill="none" stroke="#bfbfbf" points="35.5,-436 35.5,-504 138.5,-504 138.5,-436 35.5,-436"/>
 <text text-anchor="start" x="43.5" y="-492" font-family="FreeSans" font-size="10.00">std::map&lt; wxString,</text>
 <text text-anchor="middle" x="87" y="-481" font-family="FreeSans" font-size="10.00"> InstantiatorBase * &gt;</text>
 <polyline fill="none" stroke="#bfbfbf" points="35.5,-474 138.5,-474 "/>
@@ -78,7 +77,7 @@
 <!-- Node4 -->
 <g id="node4" class="node"><title>Node4</title>
 <g id="a_node4"><a xlink:href="structLogManager_1_1InstantiatorBase" target="_top" xlink:title="{LogManager::InstantiatorBase\n||+ New()\l+ RequiresFilename()\l+ ~InstantiatorBase()\l}">
-<polygon fill="white" stroke="black" points="0,-618 0,-697 144,-697 144,-618 0,-618"/>
+<polygon fill="none" stroke="black" points="0,-618 0,-697 144,-697 144,-618 0,-618"/>
 <text text-anchor="middle" x="72" y="-685" font-family="FreeSans" font-size="10.00">LogManager::InstantiatorBase</text>
 <polyline fill="none" stroke="black" points="0,-678 144,-678 "/>
 <text text-anchor="middle" x="72" y="-666" font-family="FreeSans" font-size="10.00"> </text>
@@ -98,7 +97,7 @@
 <!-- Node5 -->
 <g id="node5" class="node"><title>Node5</title>
 <g id="a_node5"><a xlink:href="structLogSlot" target="_top" xlink:title="{LogSlot\n|+ index\l+ icon\l+ title\l|+ LogSlot()\l+ ~LogSlot()\l+ Index()\l+ SetLogger()\l+ GetLogger()\l}">
-<polygon fill="white" stroke="black" points="187,-408.5 187,-531.5 263,-531.5 263,-408.5 187,-408.5"/>
+<polygon fill="none" stroke="black" points="187,-408.5 187,-531.5 263,-531.5 263,-408.5 187,-408.5"/>
 <text text-anchor="middle" x="225" y="-519.5" font-family="FreeSans" font-size="10.00">LogSlot</text>
 <polyline fill="none" stroke="black" points="187,-512.5 263,-512.5 "/>
 <text text-anchor="start" x="195" y="-500.5" font-family="FreeSans" font-size="10.00">+ index</text>
@@ -122,7 +121,7 @@
 <!-- Node6 -->
 <g id="node6" class="node"><title>Node6</title>
 <g id="a_node6"><a xlink:href="classLogger" target="_top" xlink:title="The base class for all kinds of loggers, see loggers.h for its derived classes. ">
-<polygon fill="white" stroke="black" points="162.5,-579.5 162.5,-735.5 317.5,-735.5 317.5,-579.5 162.5,-579.5"/>
+<polygon fill="none" stroke="black" points="162.5,-579.5 162.5,-735.5 317.5,-735.5 317.5,-579.5 162.5,-579.5"/>
 <text text-anchor="middle" x="240" y="-723.5" font-family="FreeSans" font-size="10.00">Logger</text>
 <polyline fill="none" stroke="black" points="162.5,-716.5 317.5,-716.5 "/>
 <text text-anchor="middle" x="240" y="-704.5" font-family="FreeSans" font-size="10.00"> </text>

@@ -8,7 +8,6 @@
  viewBox="0.00 0.00 297.50 881.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 877)">
 <title>EditorBase</title>
-<polygon fill="white" stroke="none" points="-4,4 -4,-877 293.5,-877 293.5,4 -4,4"/>
 <!-- Node1 -->
 <g id="node1" class="node"><title>Node1</title>
 <polygon fill="#bfbfbf" stroke="black" points="74,-468.5 74,-778.5 224,-778.5 224,-468.5 74,-468.5"/>
@@ -30,7 +29,7 @@
 <text text-anchor="start" x="82" y="-607.5" font-family="FreeSans" font-size="10.00">+ GetShortName()</text>
 <text text-anchor="start" x="82" y="-596.5" font-family="FreeSans" font-size="10.00">+ GetModified()</text>
 <text text-anchor="start" x="82" y="-585.5" font-family="FreeSans" font-size="10.00">+ SetModified()</text>
-<text text-anchor="start" x="82" y="-574.5" font-family="FreeSans" font-size="10.00">and 41 more...</text>
+<text text-anchor="start" x="82" y="-574.5" font-family="FreeSans" font-size="10.00">and 30 more...</text>
 <text text-anchor="start" x="82" y="-563.5" font-family="FreeSans" font-size="10.00"># InitFilename()</text>
 <text text-anchor="start" x="82" y="-552.5" font-family="FreeSans" font-size="10.00"># CreateContextSubMenu()</text>
 <text text-anchor="start" x="82" y="-541.5" font-family="FreeSans" font-size="10.00"># AddToContextMenu()</text>
@@ -44,7 +43,7 @@
 <!-- Node3 -->
 <g id="node3" class="node"><title>Node3</title>
 <g id="a_node3"><a xlink:href="classcbEditor" target="_top" xlink:title="A file editor. ">
-<polygon fill="white" stroke="black" points="0,-0.5 0,-431.5 144,-431.5 144,-0.5 0,-0.5"/>
+<polygon fill="none" stroke="black" points="0,-0.5 0,-431.5 144,-431.5 144,-0.5 0,-0.5"/>
 <text text-anchor="middle" x="72" y="-419.5" font-family="FreeSans" font-size="10.00">cbEditor</text>
 <polyline fill="none" stroke="black" points="0,-412.5 144,-412.5 "/>
 <text text-anchor="start" x="8" y="-400.5" font-family="FreeSans" font-size="10.00">&#45; m_IsOK</text>
@@ -65,7 +64,7 @@
 <text text-anchor="start" x="8" y="-238.5" font-family="FreeSans" font-size="10.00">+ IsOK()</text>
 <text text-anchor="start" x="8" y="-227.5" font-family="FreeSans" font-size="10.00">+ SetEditorTitle()</text>
 <text text-anchor="start" x="8" y="-216.5" font-family="FreeSans" font-size="10.00">+ GetModified()</text>
-<text text-anchor="start" x="8" y="-205.5" font-family="FreeSans" font-size="10.00">and 73 more...</text>
+<text text-anchor="start" x="8" y="-205.5" font-family="FreeSans" font-size="10.00">and 75 more...</text>
 <text text-anchor="start" x="8" y="-194.5" font-family="FreeSans" font-size="10.00">+ ApplyStyles()</text>
 <text text-anchor="start" x="8" y="-183.5" font-family="FreeSans" font-size="10.00"># cbEditor()</text>
 <text text-anchor="start" x="8" y="-172.5" font-family="FreeSans" font-size="10.00"># cbEditor()</text>
@@ -78,7 +77,7 @@
 <text text-anchor="start" x="8" y="-95.5" font-family="FreeSans" font-size="10.00">&#45; MarkLine()</text>
 <text text-anchor="start" x="8" y="-84.5" font-family="FreeSans" font-size="10.00">&#45; DoFoldAll()</text>
 <text text-anchor="start" x="8" y="-73.5" font-family="FreeSans" font-size="10.00">&#45; DoFoldBlockFromLine()</text>
-<text text-anchor="start" x="8" y="-62.5" font-family="FreeSans" font-size="10.00">and 28 more...</text>
+<text text-anchor="start" x="8" y="-62.5" font-family="FreeSans" font-size="10.00">and 27 more...</text>
 <text text-anchor="start" x="8" y="-51.5" font-family="FreeSans" font-size="10.00">&#45; InternalSetEditorStyleBefore</text>
 <text text-anchor="start" x="8" y="-40.5" font-family="FreeSans" font-size="10.00">FileOpen()</text>
 <text text-anchor="start" x="8" y="-29.5" font-family="FreeSans" font-size="10.00">&#45; InternalSetEditorStyleAfter</text>
@@ -95,7 +94,7 @@
 <!-- Node4 -->
 <g id="node4" class="node"><title>Node4</title>
 <g id="a_node4"><a xlink:href="classStartHerePage" target="_top" xlink:title="{StartHerePage\n|# m_pOwner\l# m_pWin\l# m_OriginalPageContent\l# m_projects\l# m_files\l&#45; revInfo\l|+ StartHerePage()\l+ ~StartHerePage()\l+ LinkClicked()\l+ VisibleToTree()\l+ Reload()\l&#45; RegisterColours()\l}">
-<polygon fill="white" stroke="black" points="162.5,-132.5 162.5,-299.5 289.5,-299.5 289.5,-132.5 162.5,-132.5"/>
+<polygon fill="none" stroke="black" points="162.5,-132.5 162.5,-299.5 289.5,-299.5 289.5,-132.5 162.5,-132.5"/>
 <text text-anchor="middle" x="226" y="-287.5" font-family="FreeSans" font-size="10.00">StartHerePage</text>
 <polyline fill="none" stroke="black" points="162.5,-280.5 289.5,-280.5 "/>
 <text text-anchor="start" x="170.5" y="-268.5" font-family="FreeSans" font-size="10.00"># m_pOwner</text>
@@ -121,7 +120,7 @@
 </g>
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
-<polygon fill="white" stroke="#bfbfbf" points="122.5,-815.5 122.5,-872.5 175.5,-872.5 175.5,-815.5 122.5,-815.5"/>
+<polygon fill="none" stroke="#bfbfbf" points="122.5,-815.5 122.5,-872.5 175.5,-872.5 175.5,-815.5 122.5,-815.5"/>
 <text text-anchor="middle" x="149" y="-860.5" font-family="FreeSans" font-size="10.00">wxPanel</text>
 <polyline fill="none" stroke="#bfbfbf" points="122.5,-853.5 175.5,-853.5 "/>
 <text text-anchor="middle" x="149" y="-841.5" font-family="FreeSans" font-size="10.00"> </text>

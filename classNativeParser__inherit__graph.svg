@@ -8,7 +8,6 @@
  viewBox="0.00 0.00 260.00 875.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 871)">
 <title>NativeParser</title>
-<polygon fill="white" stroke="none" points="-4,4 -4,-871 256,-871 256,4 -4,4"/>
 <!-- Node1 -->
 <g id="node1" class="node"><title>Node1</title>
 <polygon fill="#bfbfbf" stroke="black" points="20.5,-0.5 20.5,-453.5 187.5,-453.5 187.5,-0.5 20.5,-0.5"/>
@@ -56,7 +55,7 @@
 </g>
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
-<polygon fill="white" stroke="#bfbfbf" points="0,-650 0,-707 74,-707 74,-650 0,-650"/>
+<polygon fill="none" stroke="#bfbfbf" points="0,-650 0,-707 74,-707 74,-650 0,-650"/>
 <text text-anchor="middle" x="37" y="-695" font-family="FreeSans" font-size="10.00">wxEvtHandler</text>
 <polyline fill="none" stroke="#bfbfbf" points="0,-688 74,-688 "/>
 <text text-anchor="middle" x="37" y="-676" font-family="FreeSans" font-size="10.00"> </text>
@@ -71,7 +70,7 @@
 <!-- Node3 -->
 <g id="node3" class="node"><title>Node3</title>
 <g id="a_node3"><a xlink:href="classNativeParserBase" target="_top" xlink:title="{NativeParserBase\n|&#45; m_LastComponent\l&#45; m_TemplateMap\l|+ NativeParserBase()\l+ ~NativeParserBase()\l# Reset()\l# FindAIMatches()\l# FindCurrentFunctionScope()\l# CleanupSearchScope()\l# GetCallTipHighlight()\l# FindFunctionOpenParenthesis()\l# GetCCToken()\l# FindCCTokenStart()\land 16 more...\l# CountCommas()\l# InsideToken()\l# BeginOfToken()\l# BeforeToken()\l# IsOperatorEnd()\l# IsOperatorPointer()\l# IsOperatorBegin()\l# IsOperatorDot()\l# BeforeWhitespace()\l# AfterWhitespace()\l# IsOpeningBracket()\l# IsClosingBracket()\l&#45; AddChildrenOfUnnamed()\l&#45; AddChildrenOfEnum()\l&#45; IsChildOfUnnamedOrEnum()\l&#45; AddConstructors()\l&#45; MatchText()\l&#45; MatchType()\l}">
-<polygon fill="white" stroke="black" points="92,-490.5 92,-866.5 252,-866.5 252,-490.5 92,-490.5"/>
+<polygon fill="none" stroke="black" points="92,-490.5 92,-866.5 252,-866.5 252,-490.5 92,-490.5"/>
 <text text-anchor="middle" x="172" y="-854.5" font-family="FreeSans" font-size="10.00">NativeParserBase</text>
 <polyline fill="none" stroke="black" points="92,-847.5 252,-847.5 "/>
 <text text-anchor="start" x="100" y="-835.5" font-family="FreeSans" font-size="10.00">&#45; m_LastComponent</text>

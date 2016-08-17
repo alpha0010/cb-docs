@@ -18,7 +18,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">Code::Blocks
-   &#160;<span id="projectnumber">SVN r10603</span>
+   &#160;<span id="projectnumber">SVN r10885</span>
    </div>
   </td>
  </tr>
@@ -30,6 +30,7 @@
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="index"><span>Main&#160;Page</span></a></li>
+      <li><a href="pages"><span>Related&#160;Pages</span></a></li>
       <li><a href="namespaces"><span>Namespaces</span></a></li>
       <li><a href="annotated"><span>Classes</span></a></li>
       <li class="current"><a href="files"><span>Files</span></a></li>
@@ -164,7 +165,10 @@
 <div class="line"><a name="l00255"></a><span class="lineno">  255</span>&#160;        DECLARE_EVENT_TABLE()</div>
 <div class="line"><a name="l00256"></a><span class="lineno">  256</span>&#160;};</div>
 <div class="line"><a name="l00257"></a><span class="lineno">  257</span>&#160;</div>
-<div class="line"><a name="l00258"></a><span class="lineno">  258</span>&#160;<span class="preprocessor">#endif // SCRIPTING_H</span></div>
+<div class="line"><a name="l00258"></a><span class="lineno"><a class="line" href="scriptingmanager_8h#ss-SQChar">  258</a></span>&#160;<span class="keyword">typedef</span> <span class="keywordtype">char</span> <a class="code" href="scriptingmanager_8h#ss-SQChar">SQChar</a>; <span class="comment">// HACK, MUST match with the type as defined for the dedicated platform in squirrel.h</span></div>
+<div class="line"><a name="l00259"></a><span class="lineno">  259</span>&#160;<span class="keywordtype">void</span> <a class="code" href="scriptingmanager_8h#jm-PrintSquirrelToWxString">PrintSquirrelToWxString</a>(wxString&amp; msg, <span class="keyword">const</span> SQChar* s, va_list&amp; vl);</div>
+<div class="line"><a name="l00260"></a><span class="lineno">  260</span>&#160;</div>
+<div class="line"><a name="l00261"></a><span class="lineno">  261</span>&#160;<span class="preprocessor">#endif // SCRIPTING_H</span></div>
 <div class="ttc" id="classScriptingManager_p8-crc"><div class="ttname"><a href="classScriptingManager#p8-crc">ScriptingManager::TrustedScriptProps::crc</a></div><div class="ttdeci">wxUint32 crc</div><div class="ttdef"><b>Definition:</b> scriptingmanager.h:59</div></div>
 <div class="ttc" id="classScriptingManager_wm-m_CurrentlyRunningScriptFile"><div class="ttname"><a href="classScriptingManager#wm-m_CurrentlyRunningScriptFile">ScriptingManager::m_CurrentlyRunningScriptFile</a></div><div class="ttdeci">wxString m_CurrentlyRunningScriptFile</div><div class="ttdef"><b>Definition:</b> scriptingmanager.h:248</div></div>
 <div class="ttc" id="classScriptingManager_aj-scriptOrFunc"><div class="ttname"><a href="classScriptingManager#aj-scriptOrFunc">ScriptingManager::MenuBoundScript::scriptOrFunc</a></div><div class="ttdeci">wxString scriptOrFunc</div><div class="ttdef"><b>Definition:</b> scriptingmanager.h:241</div></div>
@@ -172,6 +176,7 @@
 <div class="ttc" id="classScriptingManager_ay-MenuIDToScript"><div class="ttname"><a href="classScriptingManager#ay-MenuIDToScript">ScriptingManager::MenuIDToScript</a></div><div class="ttdeci">std::map&lt; int, MenuBoundScript &gt; MenuIDToScript</div><div class="ttdef"><b>Definition:</b> scriptingmanager.h:244</div></div>
 <div class="ttc" id="classScriptingManager_n3-isFunc"><div class="ttname"><a href="classScriptingManager#n3-isFunc">ScriptingManager::MenuBoundScript::isFunc</a></div><div class="ttdeci">bool isFunc</div><div class="ttdef"><b>Definition:</b> scriptingmanager.h:242</div></div>
 <div class="ttc" id="manager_8h"><div class="ttname"><a href="manager_8h">manager.h</a></div></div>
+<div class="ttc" id="scriptingmanager_8h_jm-PrintSquirrelToWxString"><div class="ttname"><a href="scriptingmanager_8h#jm-PrintSquirrelToWxString">PrintSquirrelToWxString</a></div><div class="ttdeci">void PrintSquirrelToWxString(wxString &amp;msg, const SQChar *s, va_list &amp;vl)</div><div class="ttdef"><b>Definition:</b> scriptingmanager.cpp:43</div></div>
 <div class="ttc" id="classScriptingManager_ay-m_IncludeSet"><div class="ttname"><a href="classScriptingManager#ay-m_IncludeSet">ScriptingManager::m_IncludeSet</a></div><div class="ttdeci">IncludeSet m_IncludeSet</div><div class="ttdef"><b>Definition:</b> scriptingmanager.h:251</div></div>
 <div class="ttc" id="classScriptingManager_p5-cs"><div class="ttname"><a href="classScriptingManager#p5-cs">ScriptingManager::cs</a></div><div class="ttdeci">wxCriticalSection cs</div><div class="ttdef"><b>Definition:</b> scriptingmanager.h:53</div></div>
 <div class="ttc" id="classScriptingManager_i4-m_MenuItemsManager"><div class="ttname"><a href="classScriptingManager#i4-m_MenuItemsManager">ScriptingManager::m_MenuItemsManager</a></div><div class="ttdeci">MenuItemsManager m_MenuItemsManager</div><div class="ttdef"><b>Definition:</b> scriptingmanager.h:253</div></div>
@@ -188,6 +193,7 @@
 <div class="ttc" id="classScriptingManager_mb-m_AttachedToMainWindow"><div class="ttname"><a href="classScriptingManager#mb-m_AttachedToMainWindow">ScriptingManager::m_AttachedToMainWindow</a></div><div class="ttdeci">bool m_AttachedToMainWindow</div><div class="ttdef"><b>Definition:</b> scriptingmanager.h:247</div></div>
 <div class="ttc" id="classScriptingManager_of-m_MenuIDToScript"><div class="ttname"><a href="classScriptingManager#of-m_MenuIDToScript">ScriptingManager::m_MenuIDToScript</a></div><div class="ttdeci">MenuIDToScript m_MenuIDToScript</div><div class="ttdef"><b>Definition:</b> scriptingmanager.h:245</div></div>
 <div class="ttc" id="classScriptingManager"><div class="ttname"><a href="classScriptingManager">ScriptingManager</a></div><div class="ttdoc">Provides scripting in Code::Blocks. </div><div class="ttdef"><b>Definition:</b> scriptingmanager.h:50</div></div>
+<div class="ttc" id="scriptingmanager_8h_ss-SQChar"><div class="ttname"><a href="scriptingmanager_8h#ss-SQChar">SQChar</a></div><div class="ttdeci">char SQChar</div><div class="ttdef"><b>Definition:</b> scriptingmanager.h:258</div></div>
 <div class="ttc" id="classScriptingManager_structScriptingManager_1_1TrustedScriptProps"><div class="ttname"><a href="classScriptingManager#structScriptingManager_1_1TrustedScriptProps">ScriptingManager::TrustedScriptProps</a></div><div class="ttdoc">Script trusts container struct. </div><div class="ttdef"><b>Definition:</b> scriptingmanager.h:56</div></div>
 <div class="ttc" id="menuitemsmanager_8h"><div class="ttname"><a href="menuitemsmanager_8h">menuitemsmanager.h</a></div></div>
 <div class="ttc" id="classScriptingManager_to-m_TrustedScripts"><div class="ttname"><a href="classScriptingManager#to-m_TrustedScripts">ScriptingManager::m_TrustedScripts</a></div><div class="ttdeci">TrustedScripts m_TrustedScripts</div><div class="ttdef"><b>Definition:</b> scriptingmanager.h:235</div></div>

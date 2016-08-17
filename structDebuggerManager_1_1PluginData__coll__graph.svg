@@ -8,7 +8,6 @@
  viewBox="0.00 0.00 199.00 667.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 663)">
 <title>DebuggerManager::PluginData</title>
-<polygon fill="white" stroke="none" points="-4,4 -4,-663 195,-663 195,4 -4,4"/>
 <!-- Node1 -->
 <g id="node1" class="node"><title>Node1</title>
 <polygon fill="#bfbfbf" stroke="black" points="22,-0.5 22,-101.5 169,-101.5 169,-0.5 22,-0.5"/>
@@ -24,7 +23,7 @@
 </g>
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
-<polygon fill="white" stroke="#bfbfbf" points="0,-149.5 0,-206.5 191,-206.5 191,-149.5 0,-149.5"/>
+<polygon fill="none" stroke="#bfbfbf" points="0,-149.5 0,-206.5 191,-206.5 191,-149.5 0,-149.5"/>
 <text text-anchor="middle" x="95.5" y="-194.5" font-family="FreeSans" font-size="10.00">std::vector&lt; cbDebuggerConfiguration * &gt;</text>
 <polyline fill="none" stroke="#bfbfbf" points="0,-187.5 191,-187.5 "/>
 <text text-anchor="middle" x="95.5" y="-175.5" font-family="FreeSans" font-size="10.00"> </text>
@@ -40,7 +39,7 @@
 <!-- Node3 -->
 <g id="node3" class="node"><title>Node3</title>
 <g id="a_node3"><a xlink:href="classcbDebuggerConfiguration" target="_top" xlink:title="{cbDebuggerConfiguration\n|&#45; m_name\l&#45; m_menuId\l|+ cbDebuggerConfiguration()\l+ ~cbDebuggerConfiguration()\l+ Clone()\l+ MakePanel()\l+ SaveChanges()\l+ SetName()\l+ GetName()\l+ GetConfig()\l+ SetConfig()\l+ SetMenuId()\l+ GetMenuId()\l# cbDebuggerConfiguration()\l# operator=()\l}">
-<polygon fill="white" stroke="black" points="23.5,-254.5 23.5,-454.5 167.5,-454.5 167.5,-254.5 23.5,-254.5"/>
+<polygon fill="none" stroke="black" points="23.5,-254.5 23.5,-454.5 167.5,-454.5 167.5,-254.5 23.5,-254.5"/>
 <text text-anchor="middle" x="95.5" y="-442.5" font-family="FreeSans" font-size="10.00">cbDebuggerConfiguration</text>
 <polyline fill="none" stroke="black" points="23.5,-435.5 167.5,-435.5 "/>
 <text text-anchor="start" x="31.5" y="-423.5" font-family="FreeSans" font-size="10.00">&#45; m_name</text>
@@ -71,7 +70,7 @@
 <!-- Node4 -->
 <g id="node4" class="node"><title>Node4</title>
 <g id="a_node4"><a xlink:href="classConfigManagerWrapper" target="_top" xlink:title="Wrapper class for reading or writing config values, without the need for the full path...">
-<polygon fill="white" stroke="black" points="30,-502.5 30,-658.5 161,-658.5 161,-502.5 30,-502.5"/>
+<polygon fill="none" stroke="black" points="30,-502.5 30,-658.5 161,-658.5 161,-502.5 30,-502.5"/>
 <text text-anchor="middle" x="95.5" y="-646.5" font-family="FreeSans" font-size="10.00">ConfigManagerWrapper</text>
 <polyline fill="none" stroke="black" points="30,-639.5 161,-639.5 "/>
 <text text-anchor="start" x="38" y="-627.5" font-family="FreeSans" font-size="10.00">&#45; m_namespace</text>

@@ -8,7 +8,6 @@
  viewBox="0.00 0.00 298.50 713.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 709)">
 <title>ListItemData</title>
-<polygon fill="white" stroke="none" points="-4,4 -4,-709 294.5,-709 294.5,4 -4,4"/>
 <!-- Node1 -->
 <g id="node1" class="node"><title>Node1</title>
 <polygon fill="#bfbfbf" stroke="black" points="69,-0.5 69,-68.5 158,-68.5 158,-0.5 69,-0.5"/>
@@ -22,7 +21,7 @@
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
 <g id="a_node2"><a xlink:href="classProjectTemplateLoader" target="_top" xlink:title="{ProjectTemplateLoader\n|+ m_Name\l+ m_Notice\l+ m_NoticeMsgType\l+ m_Title\l+ m_Category\l+ m_Bitmap\l+ m_FileSets\l+ m_TemplateOptions\l|+ ProjectTemplateLoader()\l+ ~ProjectTemplateLoader()\l+ Open()\l# DoTemplate()\l# DoTemplateNotice()\l# DoFileSet()\l# DoFileSetFile()\l# DoOption()\l# DoOptionProject()\l# DoOptionCompiler()\l# DoOptionLinker()\l}">
-<polygon fill="white" stroke="black" points="0,-116.5 0,-360.5 137,-360.5 137,-116.5 0,-116.5"/>
+<polygon fill="none" stroke="black" points="0,-116.5 0,-360.5 137,-360.5 137,-116.5 0,-116.5"/>
 <text text-anchor="middle" x="68.5" y="-348.5" font-family="FreeSans" font-size="10.00">ProjectTemplateLoader</text>
 <polyline fill="none" stroke="black" points="0,-341.5 137,-341.5 "/>
 <text text-anchor="start" x="8" y="-329.5" font-family="FreeSans" font-size="10.00">+ m_Name</text>
@@ -57,7 +56,7 @@
 <!-- Node3 -->
 <g id="node3" class="node"><title>Node3</title>
 <g id="a_node3"><a xlink:href="classcbWizardPlugin" target="_top" xlink:title="Base class for wizard plugins. ">
-<polygon fill="white" stroke="black" points="155.5,-138.5 155.5,-338.5 267.5,-338.5 267.5,-138.5 155.5,-138.5"/>
+<polygon fill="none" stroke="black" points="155.5,-138.5 155.5,-338.5 267.5,-338.5 267.5,-138.5 155.5,-138.5"/>
 <text text-anchor="middle" x="211.5" y="-326.5" font-family="FreeSans" font-size="10.00">cbWizardPlugin</text>
 <polyline fill="none" stroke="black" points="155.5,-319.5 267.5,-319.5 "/>
 <text text-anchor="middle" x="211.5" y="-307.5" font-family="FreeSans" font-size="10.00"> </text>
@@ -88,7 +87,7 @@
 <!-- Node4 -->
 <g id="node4" class="node"><title>Node4</title>
 <g id="a_node4"><a xlink:href="classcbPlugin" target="_top" xlink:title="Base class for plugins This is the most basic class a plugin must descend from. ">
-<polygon fill="white" stroke="black" points="132.5,-398.5 132.5,-609.5 290.5,-609.5 290.5,-398.5 132.5,-398.5"/>
+<polygon fill="none" stroke="black" points="132.5,-398.5 132.5,-609.5 290.5,-609.5 290.5,-398.5 132.5,-398.5"/>
 <text text-anchor="middle" x="211.5" y="-597.5" font-family="FreeSans" font-size="10.00">cbPlugin</text>
 <polyline fill="none" stroke="black" points="132.5,-590.5 290.5,-590.5 "/>
 <text text-anchor="start" x="140.5" y="-578.5" font-family="FreeSans" font-size="10.00"># m_Type</text>
@@ -102,7 +101,7 @@
 <text text-anchor="start" x="140.5" y="-493.5" font-family="FreeSans" font-size="10.00">+ GetConfigurationPanel()</text>
 <text text-anchor="start" x="140.5" y="-482.5" font-family="FreeSans" font-size="10.00">+ GetProjectConfigurationPanel()</text>
 <text text-anchor="start" x="140.5" y="-471.5" font-family="FreeSans" font-size="10.00">+ BuildMenu()</text>
-<text text-anchor="start" x="140.5" y="-460.5" font-family="FreeSans" font-size="10.00">and 6 more...</text>
+<text text-anchor="start" x="140.5" y="-460.5" font-family="FreeSans" font-size="10.00">and 5 more...</text>
 <text text-anchor="start" x="140.5" y="-449.5" font-family="FreeSans" font-size="10.00"># OnAttach()</text>
 <text text-anchor="start" x="140.5" y="-438.5" font-family="FreeSans" font-size="10.00"># OnRelease()</text>
 <text text-anchor="start" x="140.5" y="-427.5" font-family="FreeSans" font-size="10.00"># NotImplemented()</text>
@@ -118,7 +117,7 @@
 </g>
 <!-- Node5 -->
 <g id="node5" class="node"><title>Node5</title>
-<polygon fill="white" stroke="#bfbfbf" points="174.5,-647.5 174.5,-704.5 248.5,-704.5 248.5,-647.5 174.5,-647.5"/>
+<polygon fill="none" stroke="#bfbfbf" points="174.5,-647.5 174.5,-704.5 248.5,-704.5 248.5,-647.5 174.5,-647.5"/>
 <text text-anchor="middle" x="211.5" y="-692.5" font-family="FreeSans" font-size="10.00">wxEvtHandler</text>
 <polyline fill="none" stroke="#bfbfbf" points="174.5,-685.5 248.5,-685.5 "/>
 <text text-anchor="middle" x="211.5" y="-673.5" font-family="FreeSans" font-size="10.00"> </text>

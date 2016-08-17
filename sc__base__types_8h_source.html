@@ -18,7 +18,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">Code::Blocks
-   &#160;<span id="projectnumber">SVN r10603</span>
+   &#160;<span id="projectnumber">SVN r10885</span>
    </div>
   </td>
  </tr>
@@ -30,6 +30,7 @@
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="index"><span>Main&#160;Page</span></a></li>
+      <li><a href="pages"><span>Related&#160;Pages</span></a></li>
       <li><a href="namespaces"><span>Namespaces</span></a></li>
       <li><a href="annotated"><span>Classes</span></a></li>
       <li class="current"><a href="files"><span>Files</span></a></li>
@@ -140,7 +141,7 @@
 <div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;    <span class="keyword">template</span>&lt;&gt;</div>
 <div class="line"><a name="l00088"></a><span class="lineno"><a class="line" href="structSqPlus_1_1TypeInfo_3_01unsigned_01short_01_4">   88</a></span>&#160;    <span class="keyword">struct </span>TypeInfo&lt;unsigned short&gt;</div>
 <div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;    {</div>
-<div class="line"><a name="l00090"></a><span class="lineno"><a class="line" href="structSqPlus_1_1TypeInfo_3_01unsigned_01short_01_4#z8-typeName">   90</a></span>&#160;        <span class="keyword">const</span> SQChar * <a class="code" href="structSqPlus_1_1TypeInfo_3_01unsigned_01short_01_4#z8-typeName">typeName</a>;</div>
+<div class="line"><a name="l00090"></a><span class="lineno"><a class="line" href="structSqPlus_1_1TypeInfo_3_01unsigned_01short_01_4#z8-typeName">   90</a></span>&#160;        <span class="keyword">const</span> <a class="code" href="scriptingmanager_8h#ss-SQChar">SQChar</a> * <a class="code" href="structSqPlus_1_1TypeInfo_3_01unsigned_01short_01_4#z8-typeName">typeName</a>;</div>
 <div class="line"><a name="l00091"></a><span class="lineno"><a class="line" href="structSqPlus_1_1TypeInfo_3_01unsigned_01short_01_4#th-TypeInfo">   91</a></span>&#160;        <a class="code" href="structSqPlus_1_1TypeInfo_3_01unsigned_01short_01_4#th-TypeInfo">TypeInfo</a>() : typeName(sqT(<span class="stringliteral">&quot;int&quot;</span>)) {}</div>
 <div class="line"><a name="l00092"></a><span class="lineno"><a class="line" href="structSqPlus_1_1TypeInfo_3_01unsigned_01short_01_4#tp-4:TypeID">   92</a></span>&#160;        <span class="keyword">enum</span> {TypeID=VAR_TYPE_INT,Size=<span class="keyword">sizeof</span>(<span class="keywordtype">unsigned</span> short)};</div>
 <div class="line"><a name="l00093"></a><span class="lineno"><a class="line" href="structSqPlus_1_1TypeInfo_3_01unsigned_01short_01_4#pv-operatorScriptVarType">   93</a></span>&#160;        <span class="keyword">operator</span> ScriptVarType() { <span class="keywordflow">return</span> ScriptVarType(TypeID); }</div>
@@ -149,7 +150,7 @@
 <div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;    <span class="keyword">template</span>&lt;&gt;</div>
 <div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;    <span class="keyword">struct </span>TypeInfo&lt;SQInt32&gt;</div>
 <div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;    {</div>
-<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;        <span class="keyword">const</span> SQChar * typeName;</div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;        <span class="keyword">const</span> <a class="code" href="scriptingmanager_8h#ss-SQChar">SQChar</a> * typeName;</div>
 <div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;        TypeInfo() : typeName(sqT(<span class="stringliteral">&quot;int&quot;</span>)) {}</div>
 <div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;        <span class="keyword">enum</span> {TypeID=VAR_TYPE_INT,Size=<span class="keyword">sizeof</span>(SQInt32)};</div>
 <div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;        <span class="keyword">operator</span> ScriptVarType() { <span class="keywordflow">return</span> ScriptVarType(TypeID); }</div>
@@ -181,16 +182,17 @@
 <div class="ttc" id="classEditorBase"><div class="ttname"><a href="classEditorBase">EditorBase</a></div><div class="ttdoc">Base class that all "editors" should inherit from. </div><div class="ttdef"><b>Definition:</b> editorbase.h:30</div></div>
 <div class="ttc" id="classCompileOptionsBase"><div class="ttname"><a href="classCompileOptionsBase">CompileOptionsBase</a></div><div class="ttdoc">This is a base class for all classes needing compilation parameters. </div><div class="ttdef"><b>Definition:</b> compileoptionsbase.h:28</div></div>
 <div class="ttc" id="macrosmanager_8h"><div class="ttname"><a href="macrosmanager_8h">macrosmanager.h</a></div></div>
-<div class="ttc" id="classConfigManager"><div class="ttname"><a href="classConfigManager">ConfigManager</a></div><div class="ttdef"><b>Definition:</b> configmanager.h:95</div></div>
+<div class="ttc" id="classConfigManager"><div class="ttname"><a href="classConfigManager">ConfigManager</a></div><div class="ttdef"><b>Definition:</b> configmanager.h:94</div></div>
 <div class="ttc" id="pluginmanager_8h"><div class="ttname"><a href="pluginmanager_8h">pluginmanager.h</a></div></div>
-<div class="ttc" id="globals_8h_ml-TemplateOutputType"><div class="ttname"><a href="globals_8h#ml-TemplateOutputType">TemplateOutputType</a></div><div class="ttdeci">TemplateOutputType</div><div class="ttdoc">Template output types. </div><div class="ttdef"><b>Definition:</b> globals.h:144</div></div>
+<div class="ttc" id="globals_8h_ml-TemplateOutputType"><div class="ttname"><a href="globals_8h#ml-TemplateOutputType">TemplateOutputType</a></div><div class="ttdeci">TemplateOutputType</div><div class="ttdoc">Template output types. </div><div class="ttdef"><b>Definition:</b> globals.h:145</div></div>
 <div class="ttc" id="classFileTreeData"><div class="ttname"><a href="classFileTreeData">FileTreeData</a></div><div class="ttdef"><b>Definition:</b> cbproject.h:37</div></div>
 <div class="ttc" id="classcbEditor"><div class="ttname"><a href="classcbEditor">cbEditor</a></div><div class="ttdoc">A file editor. </div><div class="ttdef"><b>Definition:</b> cbeditor.h:43</div></div>
 <div class="ttc" id="sc__base__types_8h_y7-DECLARE_INSTANCE_TYPE"><div class="ttname"><a href="sc__base__types_8h#y7-DECLARE_INSTANCE_TYPE">DECLARE_INSTANCE_TYPE</a></div><div class="ttdeci">DECLARE_INSTANCE_TYPE(wxArrayString)</div></div>
 <div class="ttc" id="classProjectManager"><div class="ttname"><a href="classProjectManager">ProjectManager</a></div><div class="ttdoc">The entry point singleton for working with projects. </div><div class="ttdef"><b>Definition:</b> projectmanager.h:142</div></div>
 <div class="ttc" id="classScriptingManager"><div class="ttname"><a href="classScriptingManager">ScriptingManager</a></div><div class="ttdoc">Provides scripting in Code::Blocks. </div><div class="ttdef"><b>Definition:</b> scriptingmanager.h:50</div></div>
+<div class="ttc" id="scriptingmanager_8h_ss-SQChar"><div class="ttname"><a href="scriptingmanager_8h#ss-SQChar">SQChar</a></div><div class="ttdeci">char SQChar</div><div class="ttdef"><b>Definition:</b> scriptingmanager.h:258</div></div>
 <div class="ttc" id="classUserVariableManager"><div class="ttname"><a href="classUserVariableManager">UserVariableManager</a></div><div class="ttdef"><b>Definition:</b> uservarmanager.h:17</div></div>
-<div class="ttc" id="configmanager_8h_xf-SearchDirs"><div class="ttname"><a href="configmanager_8h#xf-SearchDirs">SearchDirs</a></div><div class="ttdeci">SearchDirs</div><div class="ttdoc">Search dirs values. </div><div class="ttdef"><b>Definition:</b> configmanager.h:65</div></div>
+<div class="ttc" id="configmanager_8h_xf-SearchDirs"><div class="ttname"><a href="configmanager_8h#xf-SearchDirs">SearchDirs</a></div><div class="ttdeci">SearchDirs</div><div class="ttdoc">Search dirs values. </div><div class="ttdef"><b>Definition:</b> configmanager.h:64</div></div>
 <div class="ttc" id="classProjectBuildTarget"><div class="ttname"><a href="classProjectBuildTarget">ProjectBuildTarget</a></div><div class="ttdoc">Represents a Code::Blocks project build target. </div><div class="ttdef"><b>Definition:</b> projectbuildtarget.h:24</div></div>
 <div class="ttc" id="classCompilerFactory"><div class="ttname"><a href="classCompilerFactory">CompilerFactory</a></div><div class="ttdef"><b>Definition:</b> compilerfactory.h:22</div></div>
 <div class="ttc" id="projectmanager_8h"><div class="ttname"><a href="projectmanager_8h">projectmanager.h</a></div></div>

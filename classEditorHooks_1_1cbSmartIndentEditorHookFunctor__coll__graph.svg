@@ -8,7 +8,6 @@
  viewBox="0.00 0.00 333.00 746.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 742)">
 <title>EditorHooks::cbSmartIndentEditorHookFunctor</title>
-<polygon fill="white" stroke="none" points="-4,4 -4,-742 329,-742 329,4 -4,4"/>
 <!-- Node1 -->
 <g id="node1" class="node"><title>Node1</title>
 <polygon fill="#bfbfbf" stroke="black" points="38.5,-0.5 38.5,-101.5 213.5,-101.5 213.5,-0.5 38.5,-0.5"/>
@@ -25,7 +24,7 @@
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
 <g id="a_node2"><a xlink:href="classEditorHooks_1_1HookFunctorBase" target="_top" xlink:title="Abstract base hook functor interface. ">
-<polygon fill="white" stroke="black" points="-1.42109e-14,-237.5 -1.42109e-14,-305.5 150,-305.5 150,-237.5 -1.42109e-14,-237.5"/>
+<polygon fill="none" stroke="black" points="-1.42109e-14,-237.5 -1.42109e-14,-305.5 150,-305.5 150,-237.5 -1.42109e-14,-237.5"/>
 <text text-anchor="middle" x="75" y="-293.5" font-family="FreeSans" font-size="10.00">EditorHooks::HookFunctorBase</text>
 <polyline fill="none" stroke="black" points="-1.42109e-14,-286.5 150,-286.5 "/>
 <text text-anchor="middle" x="75" y="-274.5" font-family="FreeSans" font-size="10.00"> </text>
@@ -43,7 +42,7 @@
 <!-- Node3 -->
 <g id="node3" class="node"><title>Node3</title>
 <g id="a_node3"><a xlink:href="classcbSmartIndentPlugin" target="_top" xlink:title="{cbSmartIndentPlugin\n|&#45; m_FunctorId\l|+ cbSmartIndentPlugin()\l+ OnEditorHook()\l+ OnCCDone()\l# OnAttach()\l# OnRelease()\l# GetLastNonCommentWord()\l# GetLastNonWhitespaceChars()\l# GetLastNonWhitespaceChar()\l# GetNextNonWhitespaceChar\lOnLine()\l# FindBlockStart()\l# FindBlockStart()\land 10 more...\l&#45; BuildMenu()\l&#45; RemoveMenu()\l&#45; BuildModuleMenu()\l&#45; BuildToolBar()\l&#45; RemoveToolBar()\l}">
-<polygon fill="white" stroke="black" points="168,-149.5 168,-393.5 324,-393.5 324,-149.5 168,-149.5"/>
+<polygon fill="none" stroke="black" points="168,-149.5 168,-393.5 324,-393.5 324,-149.5 168,-149.5"/>
 <text text-anchor="middle" x="246" y="-381.5" font-family="FreeSans" font-size="10.00">cbSmartIndentPlugin</text>
 <polyline fill="none" stroke="black" points="168,-374.5 324,-374.5 "/>
 <text text-anchor="start" x="176" y="-362.5" font-family="FreeSans" font-size="10.00">&#45; m_FunctorId</text>
@@ -78,7 +77,7 @@
 <!-- Node4 -->
 <g id="node4" class="node"><title>Node4</title>
 <g id="a_node4"><a xlink:href="classcbPlugin" target="_top" xlink:title="Base class for plugins This is the most basic class a plugin must descend from. ">
-<polygon fill="white" stroke="black" points="167,-431.5 167,-642.5 325,-642.5 325,-431.5 167,-431.5"/>
+<polygon fill="none" stroke="black" points="167,-431.5 167,-642.5 325,-642.5 325,-431.5 167,-431.5"/>
 <text text-anchor="middle" x="246" y="-630.5" font-family="FreeSans" font-size="10.00">cbPlugin</text>
 <polyline fill="none" stroke="black" points="167,-623.5 325,-623.5 "/>
 <text text-anchor="start" x="175" y="-611.5" font-family="FreeSans" font-size="10.00"># m_Type</text>
@@ -92,7 +91,7 @@
 <text text-anchor="start" x="175" y="-526.5" font-family="FreeSans" font-size="10.00">+ GetConfigurationPanel()</text>
 <text text-anchor="start" x="175" y="-515.5" font-family="FreeSans" font-size="10.00">+ GetProjectConfigurationPanel()</text>
 <text text-anchor="start" x="175" y="-504.5" font-family="FreeSans" font-size="10.00">+ BuildMenu()</text>
-<text text-anchor="start" x="175" y="-493.5" font-family="FreeSans" font-size="10.00">and 6 more...</text>
+<text text-anchor="start" x="175" y="-493.5" font-family="FreeSans" font-size="10.00">and 5 more...</text>
 <text text-anchor="start" x="175" y="-482.5" font-family="FreeSans" font-size="10.00"># OnAttach()</text>
 <text text-anchor="start" x="175" y="-471.5" font-family="FreeSans" font-size="10.00"># OnRelease()</text>
 <text text-anchor="start" x="175" y="-460.5" font-family="FreeSans" font-size="10.00"># NotImplemented()</text>
@@ -108,7 +107,7 @@
 </g>
 <!-- Node5 -->
 <g id="node5" class="node"><title>Node5</title>
-<polygon fill="white" stroke="#bfbfbf" points="209,-680.5 209,-737.5 283,-737.5 283,-680.5 209,-680.5"/>
+<polygon fill="none" stroke="#bfbfbf" points="209,-680.5 209,-737.5 283,-737.5 283,-680.5 209,-680.5"/>
 <text text-anchor="middle" x="246" y="-725.5" font-family="FreeSans" font-size="10.00">wxEvtHandler</text>
 <polyline fill="none" stroke="#bfbfbf" points="209,-718.5 283,-718.5 "/>
 <text text-anchor="middle" x="246" y="-706.5" font-family="FreeSans" font-size="10.00"> </text>

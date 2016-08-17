@@ -8,7 +8,6 @@
  viewBox="0.00 0.00 434.00 551.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 547)">
 <title>TextCtrlLogger</title>
-<polygon fill="white" stroke="none" points="-4,4 -4,-547 430,-547 430,4 -4,4"/>
 <!-- Node1 -->
 <g id="node1" class="node"><title>Node1</title>
 <polygon fill="#bfbfbf" stroke="black" points="147.5,-171.5 147.5,-349.5 290.5,-349.5 290.5,-171.5 147.5,-171.5"/>
@@ -32,7 +31,7 @@
 <!-- Node3 -->
 <g id="node3" class="node"><title>Node3</title>
 <g id="a_node3"><a xlink:href="classBuildLogger" target="_top" xlink:title="{BuildLogger\n|+ progress\l&#45; panel\l&#45; sizer\l|+ BuildLogger()\l+ UpdateSettings()\l+ CreateControl()\l+ AddBuildProgressBar()\l+ RemoveBuildProgressBar()\l+ OpenLink()\l}">
-<polygon fill="white" stroke="black" points="0,-0.5 0,-134.5 140,-134.5 140,-0.5 0,-0.5"/>
+<polygon fill="none" stroke="black" points="0,-0.5 0,-134.5 140,-134.5 140,-0.5 0,-0.5"/>
 <text text-anchor="middle" x="70" y="-122.5" font-family="FreeSans" font-size="10.00">BuildLogger</text>
 <polyline fill="none" stroke="black" points="0,-115.5 140,-115.5 "/>
 <text text-anchor="start" x="8" y="-103.5" font-family="FreeSans" font-size="10.00">+ progress</text>
@@ -56,7 +55,7 @@
 <!-- Node4 -->
 <g id="node4" class="node"><title>Node4</title>
 <g id="a_node4"><a xlink:href="classDebugTextCtrlLogger" target="_top" xlink:title="{DebugTextCtrlLogger\n|&#45; m_panel\l&#45; m_debugLog\l|+ DebugTextCtrlLogger()\l+ CreateTextCtrl()\l+ CreateControl()\l}">
-<polygon fill="white" stroke="black" points="158,-22.5 158,-112.5 280,-112.5 280,-22.5 158,-22.5"/>
+<polygon fill="none" stroke="black" points="158,-22.5 158,-112.5 280,-112.5 280,-22.5 158,-22.5"/>
 <text text-anchor="middle" x="219" y="-100.5" font-family="FreeSans" font-size="10.00">DebugTextCtrlLogger</text>
 <polyline fill="none" stroke="black" points="158,-93.5 280,-93.5 "/>
 <text text-anchor="start" x="166" y="-81.5" font-family="FreeSans" font-size="10.00">&#45; m_panel</text>
@@ -76,7 +75,7 @@
 <!-- Node5 -->
 <g id="node5" class="node"><title>Node5</title>
 <g id="a_node5"><a xlink:href="classTimestampTextCtrlLogger" target="_top" xlink:title="an extended logger from TextCtrlLogger, since it add time stamps for each log message ...">
-<polygon fill="white" stroke="black" points="298,-39 298,-96 426,-96 426,-39 298,-39"/>
+<polygon fill="none" stroke="black" points="298,-39 298,-96 426,-96 426,-39 298,-39"/>
 <text text-anchor="middle" x="362" y="-84" font-family="FreeSans" font-size="10.00">TimestampTextCtrlLogger</text>
 <polyline fill="none" stroke="black" points="298,-77 426,-77 "/>
 <text text-anchor="middle" x="362" y="-65" font-family="FreeSans" font-size="10.00"> </text>
@@ -93,7 +92,7 @@
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
 <g id="a_node2"><a xlink:href="classLogger" target="_top" xlink:title="The base class for all kinds of loggers, see loggers.h for its derived classes. ">
-<polygon fill="white" stroke="black" points="141.5,-386.5 141.5,-542.5 296.5,-542.5 296.5,-386.5 141.5,-386.5"/>
+<polygon fill="none" stroke="black" points="141.5,-386.5 141.5,-542.5 296.5,-542.5 296.5,-386.5 141.5,-386.5"/>
 <text text-anchor="middle" x="219" y="-530.5" font-family="FreeSans" font-size="10.00">Logger</text>
 <polyline fill="none" stroke="black" points="141.5,-523.5 296.5,-523.5 "/>
 <text text-anchor="middle" x="219" y="-511.5" font-family="FreeSans" font-size="10.00"> </text>

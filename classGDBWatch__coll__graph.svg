@@ -8,7 +8,6 @@
  viewBox="0.00 0.00 124.00 640.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 636)">
 <title>GDBWatch</title>
-<polygon fill="white" stroke="none" points="-4,4 -4,-636 120,-636 120,4 -4,4"/>
 <!-- Node1 -->
 <g id="node1" class="node"><title>Node1</title>
 <polygon fill="#bfbfbf" stroke="black" points="-7.10543e-15,-0.5 -7.10543e-15,-244.5 116,-244.5 116,-0.5 -7.10543e-15,-0.5"/>
@@ -38,7 +37,7 @@
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
 <g id="a_node2"><a xlink:href="classcbWatch" target="_top" xlink:title="{cbWatch\n|&#45; m_parent\l&#45; m_changed\l&#45; m_removed\l&#45; m_expanded\l&#45; m_autoUpdate\l|+ cbWatch()\l+ GetSymbol()\l+ GetValue()\l+ SetValue()\l+ GetFullWatchString()\l+ GetType()\l+ SetType()\l+ GetDebugString()\land 20 more...\l+ AddChild()\l# ~cbWatch()\l&#45; operator=()\l&#45; cbWatch()\l}">
-<polygon fill="white" stroke="black" points="-7.10543e-15,-282.5 -7.10543e-15,-515.5 116,-515.5 116,-282.5 -7.10543e-15,-282.5"/>
+<polygon fill="none" stroke="black" points="-7.10543e-15,-282.5 -7.10543e-15,-515.5 116,-515.5 116,-282.5 -7.10543e-15,-282.5"/>
 <text text-anchor="middle" x="58" y="-503.5" font-family="FreeSans" font-size="10.00">cbWatch</text>
 <polyline fill="none" stroke="black" points="-7.10543e-15,-496.5 116,-496.5 "/>
 <text text-anchor="start" x="8" y="-484.5" font-family="FreeSans" font-size="10.00">&#45; m_parent</text>
@@ -70,7 +69,7 @@
 </g>
 <!-- Node3 -->
 <g id="node3" class="node"><title>Node3</title>
-<polygon fill="white" stroke="#bfbfbf" points="2,-563.5 2,-631.5 114,-631.5 114,-563.5 2,-563.5"/>
+<polygon fill="none" stroke="#bfbfbf" points="2,-563.5 2,-631.5 114,-631.5 114,-563.5 2,-563.5"/>
 <text text-anchor="start" x="10" y="-619.5" font-family="FreeSans" font-size="10.00">std::vector&lt; cb::shared</text>
 <text text-anchor="middle" x="58" y="-608.5" font-family="FreeSans" font-size="10.00">_ptr&lt; cbWatch &gt; &gt;</text>
 <polyline fill="none" stroke="#bfbfbf" points="2,-601.5 114,-601.5 "/>

@@ -8,7 +8,6 @@
  viewBox="0.00 0.00 627.50 711.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 707)">
 <title>ScriptingManager</title>
-<polygon fill="white" stroke="none" points="-4,4 -4,-707 623.5,-707 623.5,4 -4,4"/>
 <!-- Node1 -->
 <g id="node1" class="node"><title>Node1</title>
 <polygon fill="#bfbfbf" stroke="black" points="226,-171.5 226,-404.5 376,-404.5 376,-171.5 226,-171.5"/>
@@ -37,7 +36,7 @@
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
 <g id="a_node2"><a xlink:href="classMgr" target="_top" xlink:title="{Mgr\&lt; ScriptingManager \&gt;\n|&#45; isShutdown\l|+ Valid()\l+ Get()\l+ Free()\l# Mgr()\l# ~Mgr()\l&#45; Mgr()\l&#45; operator=()\l}">
-<polygon fill="white" stroke="black" points="238.5,-0.5 238.5,-123.5 363.5,-123.5 363.5,-0.5 238.5,-0.5"/>
+<polygon fill="none" stroke="black" points="238.5,-0.5 238.5,-123.5 363.5,-123.5 363.5,-0.5 238.5,-0.5"/>
 <text text-anchor="middle" x="301" y="-111.5" font-family="FreeSans" font-size="10.00">Mgr&lt; ScriptingManager &gt;</text>
 <polyline fill="none" stroke="black" points="238.5,-104.5 363.5,-104.5 "/>
 <text text-anchor="start" x="246.5" y="-92.5" font-family="FreeSans" font-size="10.00">&#45; isShutdown</text>
@@ -65,7 +64,7 @@
 </g>
 <!-- Node3 -->
 <g id="node3" class="node"><title>Node3</title>
-<polygon fill="white" stroke="#bfbfbf" points="0,-485.5 0,-542.5 74,-542.5 74,-485.5 0,-485.5"/>
+<polygon fill="none" stroke="#bfbfbf" points="0,-485.5 0,-542.5 74,-542.5 74,-485.5 0,-485.5"/>
 <text text-anchor="middle" x="37" y="-530.5" font-family="FreeSans" font-size="10.00">wxEvtHandler</text>
 <polyline fill="none" stroke="#bfbfbf" points="0,-523.5 74,-523.5 "/>
 <text text-anchor="middle" x="37" y="-511.5" font-family="FreeSans" font-size="10.00"> </text>
@@ -79,7 +78,7 @@
 </g>
 <!-- Node4 -->
 <g id="node4" class="node"><title>Node4</title>
-<polygon fill="white" stroke="#bfbfbf" points="92,-480 92,-548 220,-548 220,-480 92,-480"/>
+<polygon fill="none" stroke="#bfbfbf" points="92,-480 92,-548 220,-548 220,-480 92,-480"/>
 <text text-anchor="start" x="100" y="-536" font-family="FreeSans" font-size="10.00">std::map&lt; int, MenuBound</text>
 <text text-anchor="middle" x="156" y="-525" font-family="FreeSans" font-size="10.00">Script &gt;</text>
 <polyline fill="none" stroke="#bfbfbf" points="92,-518 220,-518 "/>
@@ -96,7 +95,7 @@
 <!-- Node5 -->
 <g id="node5" class="node"><title>Node5</title>
 <g id="a_node5"><a xlink:href="classScriptingManager#structScriptingManager_1_1MenuBoundScript" target="_top" xlink:title="{ScriptingManager::MenuBound\lScript\n|+ scriptOrFunc\l+ isFunc\l|}">
-<polygon fill="white" stroke="black" points="81.5,-623.5 81.5,-702.5 230.5,-702.5 230.5,-623.5 81.5,-623.5"/>
+<polygon fill="none" stroke="black" points="81.5,-623.5 81.5,-702.5 230.5,-702.5 230.5,-623.5 81.5,-623.5"/>
 <text text-anchor="start" x="89.5" y="-690.5" font-family="FreeSans" font-size="10.00">ScriptingManager::MenuBound</text>
 <text text-anchor="middle" x="156" y="-679.5" font-family="FreeSans" font-size="10.00">Script</text>
 <polyline fill="none" stroke="black" points="81.5,-672.5 230.5,-672.5 "/>
@@ -116,7 +115,7 @@
 <!-- Node6 -->
 <g id="node6" class="node"><title>Node6</title>
 <g id="a_node6"><a xlink:href="classMenuItemsManager" target="_top" xlink:title="Manager for wxMenuItem pointers. ">
-<polygon fill="white" stroke="black" points="238.5,-452.5 238.5,-575.5 363.5,-575.5 363.5,-452.5 238.5,-452.5"/>
+<polygon fill="none" stroke="black" points="238.5,-452.5 238.5,-575.5 363.5,-575.5 363.5,-452.5 238.5,-452.5"/>
 <text text-anchor="middle" x="301" y="-563.5" font-family="FreeSans" font-size="10.00">MenuItemsManager</text>
 <polyline fill="none" stroke="black" points="238.5,-556.5 363.5,-556.5 "/>
 <text text-anchor="start" x="246.5" y="-544.5" font-family="FreeSans" font-size="10.00"># m_MenuItems</text>
@@ -139,7 +138,7 @@
 </g>
 <!-- Node7 -->
 <g id="node7" class="node"><title>Node7</title>
-<polygon fill="white" stroke="#bfbfbf" points="382,-485.5 382,-542.5 482,-542.5 482,-485.5 382,-485.5"/>
+<polygon fill="none" stroke="#bfbfbf" points="382,-485.5 382,-542.5 482,-542.5 482,-485.5 382,-485.5"/>
 <text text-anchor="middle" x="432" y="-530.5" font-family="FreeSans" font-size="10.00">std::set&lt; wxString &gt;</text>
 <polyline fill="none" stroke="#bfbfbf" points="382,-523.5 482,-523.5 "/>
 <text text-anchor="start" x="390" y="-511.5" font-family="FreeSans" font-size="10.00">+ keys</text>
@@ -154,7 +153,7 @@
 </g>
 <!-- Node8 -->
 <g id="node8" class="node"><title>Node8</title>
-<polygon fill="white" stroke="#bfbfbf" points="500,-480 500,-548 610,-548 610,-480 500,-480"/>
+<polygon fill="none" stroke="#bfbfbf" points="500,-480 500,-548 610,-548 610,-480 500,-480"/>
 <text text-anchor="start" x="508" y="-536" font-family="FreeSans" font-size="10.00">std::map&lt; wxString,</text>
 <text text-anchor="middle" x="555" y="-525" font-family="FreeSans" font-size="10.00"> TrustedScriptProps &gt;</text>
 <polyline fill="none" stroke="#bfbfbf" points="500,-518 610,-518 "/>
@@ -171,7 +170,7 @@
 <!-- Node9 -->
 <g id="node9" class="node"><title>Node9</title>
 <g id="a_node9"><a xlink:href="classScriptingManager#structScriptingManager_1_1TrustedScriptProps" target="_top" xlink:title="Script trusts container struct. ">
-<polygon fill="white" stroke="black" points="490.5,-623.5 490.5,-702.5 619.5,-702.5 619.5,-623.5 490.5,-623.5"/>
+<polygon fill="none" stroke="black" points="490.5,-623.5 490.5,-702.5 619.5,-702.5 619.5,-623.5 490.5,-623.5"/>
 <text text-anchor="start" x="498.5" y="-690.5" font-family="FreeSans" font-size="10.00">ScriptingManager::Trusted</text>
 <text text-anchor="middle" x="555" y="-679.5" font-family="FreeSans" font-size="10.00">ScriptProps</text>
 <polyline fill="none" stroke="black" points="490.5,-672.5 619.5,-672.5 "/>

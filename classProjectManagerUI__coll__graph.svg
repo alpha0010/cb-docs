@@ -8,7 +8,6 @@
  viewBox="0.00 0.00 536.00 926.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 922)">
 <title>ProjectManagerUI</title>
-<polygon fill="white" stroke="none" points="-4,4 -4,-922 532,-922 532,4 -4,4"/>
 <!-- Node1 -->
 <g id="node1" class="node"><title>Node1</title>
 <polygon fill="#bfbfbf" stroke="black" points="133,-0.5 133,-321.5 271,-321.5 271,-0.5 133,-0.5"/>
@@ -40,11 +39,11 @@
 <text text-anchor="start" x="141" y="-40.5" font-family="FreeSans" font-size="10.00">&#45; DoOpenFile()</text>
 <text text-anchor="start" x="141" y="-29.5" font-family="FreeSans" font-size="10.00">&#45; DoOpenSelectedFile()</text>
 <text text-anchor="start" x="141" y="-18.5" font-family="FreeSans" font-size="10.00">&#45; RemoveFilesRecursively()</text>
-<text text-anchor="start" x="141" y="-7.5" font-family="FreeSans" font-size="10.00">and 45 more...</text>
+<text text-anchor="start" x="141" y="-7.5" font-family="FreeSans" font-size="10.00">and 46 more...</text>
 </g>
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
-<polygon fill="white" stroke="#bfbfbf" points="0,-567.5 0,-624.5 74,-624.5 74,-567.5 0,-567.5"/>
+<polygon fill="none" stroke="#bfbfbf" points="0,-567.5 0,-624.5 74,-624.5 74,-567.5 0,-567.5"/>
 <text text-anchor="middle" x="37" y="-612.5" font-family="FreeSans" font-size="10.00">wxEvtHandler</text>
 <polyline fill="none" stroke="#bfbfbf" points="0,-605.5 74,-605.5 "/>
 <text text-anchor="middle" x="37" y="-593.5" font-family="FreeSans" font-size="10.00"> </text>
@@ -59,7 +58,7 @@
 <!-- Node3 -->
 <g id="node3" class="node"><title>Node3</title>
 <g id="a_node3"><a xlink:href="classcbProjectManagerUI" target="_top" xlink:title="{cbProjectManagerUI\n||+ ~cbProjectManagerUI()\l+ GetNotebook()\l+ GetTree()\l+ RebuildTree()\l+ FreezeTree()\l+ UnfreezeTree()\l+ GetTreeSelection()\l+ ShowFileInTree()\land 13 more...\l}">
-<polygon fill="white" stroke="black" points="92.5,-523.5 92.5,-668.5 217.5,-668.5 217.5,-523.5 92.5,-523.5"/>
+<polygon fill="none" stroke="black" points="92.5,-523.5 92.5,-668.5 217.5,-668.5 217.5,-523.5 92.5,-523.5"/>
 <text text-anchor="middle" x="155" y="-656.5" font-family="FreeSans" font-size="10.00">cbProjectManagerUI</text>
 <polyline fill="none" stroke="black" points="92.5,-649.5 217.5,-649.5 "/>
 <text text-anchor="middle" x="155" y="-637.5" font-family="FreeSans" font-size="10.00"> </text>
@@ -84,7 +83,7 @@
 <!-- Node4 -->
 <g id="node4" class="node"><title>Node4</title>
 <g id="a_node4"><a xlink:href="classcbAuiNotebook" target="_top" xlink:title="A notebook class This class is derived from wxAuiNotebook, to enhance its abilities. ">
-<polygon fill="white" stroke="black" points="236,-369.5 236,-822.5 388,-822.5 388,-369.5 236,-369.5"/>
+<polygon fill="none" stroke="black" points="236,-369.5 236,-822.5 388,-822.5 388,-369.5 236,-369.5"/>
 <text text-anchor="middle" x="312" y="-810.5" font-family="FreeSans" font-size="10.00">cbAuiNotebook</text>
 <polyline fill="none" stroke="black" points="236,-803.5 388,-803.5 "/>
 <text text-anchor="start" x="244" y="-791.5" font-family="FreeSans" font-size="10.00"># m_TabCtrls</text>
@@ -137,7 +136,7 @@
 </g>
 <!-- Node5 -->
 <g id="node5" class="node"><title>Node5</title>
-<polygon fill="white" stroke="#bfbfbf" points="270.5,-860.5 270.5,-917.5 353.5,-917.5 353.5,-860.5 270.5,-860.5"/>
+<polygon fill="none" stroke="#bfbfbf" points="270.5,-860.5 270.5,-917.5 353.5,-917.5 353.5,-860.5 270.5,-860.5"/>
 <text text-anchor="middle" x="312" y="-905.5" font-family="FreeSans" font-size="10.00">wxAuiNotebook</text>
 <polyline fill="none" stroke="#bfbfbf" points="270.5,-898.5 353.5,-898.5 "/>
 <text text-anchor="middle" x="312" y="-886.5" font-family="FreeSans" font-size="10.00"> </text>
@@ -152,7 +151,7 @@
 <!-- Node6 -->
 <g id="node6" class="node"><title>Node6</title>
 <g id="a_node6"><a xlink:href="classcbTreeCtrl" target="_top" xlink:title="{cbTreeCtrl\n|# Compare\l|+ cbTreeCtrl()\l+ cbTreeCtrl()\l+ SetCompareFunction()\l+ GetPrevVisible()\l# OnKeyDown()\l# OnCompareItems()\l# filesSort()\l# filesSortNameOnly()\l}">
-<polygon fill="white" stroke="black" points="406,-529 406,-663 528,-663 528,-529 406,-529"/>
+<polygon fill="none" stroke="black" points="406,-529 406,-663 528,-663 528,-529 406,-529"/>
 <text text-anchor="middle" x="467" y="-651" font-family="FreeSans" font-size="10.00">cbTreeCtrl</text>
 <polyline fill="none" stroke="black" points="406,-644 528,-644 "/>
 <text text-anchor="start" x="414" y="-632" font-family="FreeSans" font-size="10.00"># Compare</text>
@@ -176,7 +175,7 @@
 </g>
 <!-- Node7 -->
 <g id="node7" class="node"><title>Node7</title>
-<polygon fill="white" stroke="#bfbfbf" points="436,-860.5 436,-917.5 498,-917.5 498,-860.5 436,-860.5"/>
+<polygon fill="none" stroke="#bfbfbf" points="436,-860.5 436,-917.5 498,-917.5 498,-860.5 436,-860.5"/>
 <text text-anchor="middle" x="467" y="-905.5" font-family="FreeSans" font-size="10.00">wxTreeCtrl</text>
 <polyline fill="none" stroke="#bfbfbf" points="436,-898.5 498,-898.5 "/>
 <text text-anchor="middle" x="467" y="-886.5" font-family="FreeSans" font-size="10.00"> </text>

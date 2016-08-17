@@ -18,7 +18,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">Code::Blocks
-   &#160;<span id="projectnumber">SVN r10603</span>
+   &#160;<span id="projectnumber">SVN r10885</span>
    </div>
   </td>
  </tr>
@@ -30,6 +30,7 @@
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="index"><span>Main&#160;Page</span></a></li>
+      <li><a href="pages"><span>Related&#160;Pages</span></a></li>
       <li class="current"><a href="namespaces"><span>Namespaces</span></a></li>
       <li><a href="annotated"><span>Classes</span></a></li>
       <li><a href="files"><span>Files</span></a></li>
@@ -54,23 +55,27 @@
 Functions</h2></td></tr>
 <tr class="memitem:k0-SaveDocument"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceTinyXML#k0-SaveDocument">SaveDocument</a> (const wxString &amp;, TiXmlDocument *)</td></tr>
 <tr class="separator:k0-SaveDocument"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:b9-LoadDocument"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceTinyXML#b9-LoadDocument">LoadDocument</a> (const wxString &amp;filename, TiXmlDocument *doc)</td></tr>
+<tr class="separator:b9-LoadDocument"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:wj-LoadDocument"><td class="memItemLeft" align="right" valign="top">TiXmlDocument *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceTinyXML#wj-LoadDocument">LoadDocument</a> (const wxString &amp;filename)</td></tr>
+<tr class="separator:wj-LoadDocument"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
-<a class="anchor" id="k0-SaveDocument"></a>
+<a class="anchor" id="b9-LoadDocument"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">bool TinyXML::SaveDocument </td>
+          <td class="memname">bool TinyXML::LoadDocument </td>
           <td>(</td>
           <td class="paramtype">const wxString &amp;&#160;</td>
-          <td class="paramname">, </td>
+          <td class="paramname"><em>filename</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">TiXmlDocument *&#160;</td>
-          <td class="paramname">&#160;</td>
+          <td class="paramname"><em>doc</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -79,6 +84,54 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Referenced by <a class="el" href="namespaceTinyXML#wj-LoadDocument">LoadDocument()</a>, <a class="el" href="classWorkspaceLoader#vf-LoadLayout">WorkspaceLoader::LoadLayout()</a>, <a class="el" href="classWorkspaceLoader#ow-Open">WorkspaceLoader::Open()</a>, <a class="el" href="classProjectLayoutLoader#bb-Open">ProjectLayoutLoader::Open()</a>, <a class="el" href="classProjectLoader#eb-Open">ProjectLoader::Open()</a>, and <a class="el" href="classCfgMgrBldr#tx-SwitchTo">CfgMgrBldr::SwitchTo()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="wj-LoadDocument"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">TiXmlDocument * TinyXML::LoadDocument </td>
+          <td>(</td>
+          <td class="paramtype">const wxString &amp;&#160;</td>
+          <td class="paramname"><em>filename</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>References <a class="el" href="namespaceTinyXML#b9-LoadDocument">LoadDocument()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="k0-SaveDocument"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool TinyXML::SaveDocument </td>
+          <td>(</td>
+          <td class="paramtype">const wxString &amp;&#160;</td>
+          <td class="paramname"><em>filename</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">TiXmlDocument *&#160;</td>
+          <td class="paramname"><em>doc</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>References <a class="el" href="classManager#rz-Get">Manager::Get()</a>, <a class="el" href="classManager#ez-GetFileManager">Manager::GetFileManager()</a>, and <a class="el" href="classFileManager#ct-SaveUTF8">FileManager::SaveUTF8()</a>.</p>
 
 <p>Referenced by <a class="el" href="globals_8cpp#et-cbSaveTinyXMLDocument">cbSaveTinyXMLDocument()</a>, and <a class="el" href="classCfgMgrBldr#hq-Flush">CfgMgrBldr::Flush()</a>.</p>
 

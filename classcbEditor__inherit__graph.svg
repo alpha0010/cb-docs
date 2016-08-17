@@ -8,7 +8,6 @@
  viewBox="0.00 0.00 158.00 881.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 877)">
 <title>cbEditor</title>
-<polygon fill="white" stroke="none" points="-4,4 -4,-877 154,-877 154,4 -4,4"/>
 <!-- Node1 -->
 <g id="node1" class="node"><title>Node1</title>
 <polygon fill="#bfbfbf" stroke="black" points="3,-0.5 3,-431.5 147,-431.5 147,-0.5 3,-0.5"/>
@@ -32,7 +31,7 @@
 <text text-anchor="start" x="11" y="-238.5" font-family="FreeSans" font-size="10.00">+ IsOK()</text>
 <text text-anchor="start" x="11" y="-227.5" font-family="FreeSans" font-size="10.00">+ SetEditorTitle()</text>
 <text text-anchor="start" x="11" y="-216.5" font-family="FreeSans" font-size="10.00">+ GetModified()</text>
-<text text-anchor="start" x="11" y="-205.5" font-family="FreeSans" font-size="10.00">and 73 more...</text>
+<text text-anchor="start" x="11" y="-205.5" font-family="FreeSans" font-size="10.00">and 75 more...</text>
 <text text-anchor="start" x="11" y="-194.5" font-family="FreeSans" font-size="10.00">+ ApplyStyles()</text>
 <text text-anchor="start" x="11" y="-183.5" font-family="FreeSans" font-size="10.00"># cbEditor()</text>
 <text text-anchor="start" x="11" y="-172.5" font-family="FreeSans" font-size="10.00"># cbEditor()</text>
@@ -45,7 +44,7 @@
 <text text-anchor="start" x="11" y="-95.5" font-family="FreeSans" font-size="10.00">&#45; MarkLine()</text>
 <text text-anchor="start" x="11" y="-84.5" font-family="FreeSans" font-size="10.00">&#45; DoFoldAll()</text>
 <text text-anchor="start" x="11" y="-73.5" font-family="FreeSans" font-size="10.00">&#45; DoFoldBlockFromLine()</text>
-<text text-anchor="start" x="11" y="-62.5" font-family="FreeSans" font-size="10.00">and 28 more...</text>
+<text text-anchor="start" x="11" y="-62.5" font-family="FreeSans" font-size="10.00">and 27 more...</text>
 <text text-anchor="start" x="11" y="-51.5" font-family="FreeSans" font-size="10.00">&#45; InternalSetEditorStyleBefore</text>
 <text text-anchor="start" x="11" y="-40.5" font-family="FreeSans" font-size="10.00">FileOpen()</text>
 <text text-anchor="start" x="11" y="-29.5" font-family="FreeSans" font-size="10.00">&#45; InternalSetEditorStyleAfter</text>
@@ -55,7 +54,7 @@
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
 <g id="a_node2"><a xlink:href="classEditorBase" target="_top" xlink:title="Base class that all &quot;editors&quot; should inherit from. ">
-<polygon fill="white" stroke="black" points="-1.42109e-14,-468.5 -1.42109e-14,-778.5 150,-778.5 150,-468.5 -1.42109e-14,-468.5"/>
+<polygon fill="none" stroke="black" points="-1.42109e-14,-468.5 -1.42109e-14,-778.5 150,-778.5 150,-468.5 -1.42109e-14,-468.5"/>
 <text text-anchor="middle" x="75" y="-766.5" font-family="FreeSans" font-size="10.00">EditorBase</text>
 <polyline fill="none" stroke="black" points="-1.42109e-14,-759.5 150,-759.5 "/>
 <text text-anchor="start" x="8" y="-747.5" font-family="FreeSans" font-size="10.00"># m_IsBuiltinEditor</text>
@@ -74,7 +73,7 @@
 <text text-anchor="start" x="8" y="-607.5" font-family="FreeSans" font-size="10.00">+ GetShortName()</text>
 <text text-anchor="start" x="8" y="-596.5" font-family="FreeSans" font-size="10.00">+ GetModified()</text>
 <text text-anchor="start" x="8" y="-585.5" font-family="FreeSans" font-size="10.00">+ SetModified()</text>
-<text text-anchor="start" x="8" y="-574.5" font-family="FreeSans" font-size="10.00">and 41 more...</text>
+<text text-anchor="start" x="8" y="-574.5" font-family="FreeSans" font-size="10.00">and 30 more...</text>
 <text text-anchor="start" x="8" y="-563.5" font-family="FreeSans" font-size="10.00"># InitFilename()</text>
 <text text-anchor="start" x="8" y="-552.5" font-family="FreeSans" font-size="10.00"># CreateContextSubMenu()</text>
 <text text-anchor="start" x="8" y="-541.5" font-family="FreeSans" font-size="10.00"># AddToContextMenu()</text>
@@ -94,7 +93,7 @@
 </g>
 <!-- Node3 -->
 <g id="node3" class="node"><title>Node3</title>
-<polygon fill="white" stroke="#bfbfbf" points="48.5,-815.5 48.5,-872.5 101.5,-872.5 101.5,-815.5 48.5,-815.5"/>
+<polygon fill="none" stroke="#bfbfbf" points="48.5,-815.5 48.5,-872.5 101.5,-872.5 101.5,-815.5 48.5,-815.5"/>
 <text text-anchor="middle" x="75" y="-860.5" font-family="FreeSans" font-size="10.00">wxPanel</text>
 <polyline fill="none" stroke="#bfbfbf" points="48.5,-853.5 101.5,-853.5 "/>
 <text text-anchor="middle" x="75" y="-841.5" font-family="FreeSans" font-size="10.00"> </text>

@@ -8,7 +8,6 @@
  viewBox="0.00 0.00 464.00 706.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 702)">
 <title>DisassemblyDlg</title>
-<polygon fill="white" stroke="none" points="-4,4 -4,-702 460,-702 460,4 -4,4"/>
 <!-- Node1 -->
 <g id="node1" class="node"><title>Node1</title>
 <polygon fill="#bfbfbf" stroke="black" points="117.5,-0.5 117.5,-266.5 261.5,-266.5 261.5,-0.5 117.5,-0.5"/>
@@ -39,7 +38,7 @@
 </g>
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
-<polygon fill="white" stroke="#bfbfbf" points="0,-430 0,-487 53,-487 53,-430 0,-430"/>
+<polygon fill="none" stroke="#bfbfbf" points="0,-430 0,-487 53,-487 53,-430 0,-430"/>
 <text text-anchor="middle" x="26.5" y="-475" font-family="FreeSans" font-size="10.00">wxPanel</text>
 <polyline fill="none" stroke="#bfbfbf" points="0,-468 53,-468 "/>
 <text text-anchor="middle" x="26.5" y="-456" font-family="FreeSans" font-size="10.00"> </text>
@@ -54,7 +53,7 @@
 <!-- Node3 -->
 <g id="node3" class="node"><title>Node3</title>
 <g id="a_node3"><a xlink:href="classcbDisassemblyDlg" target="_top" xlink:title="{cbDisassemblyDlg\n||+ ~cbDisassemblyDlg()\l+ GetWindow()\l+ Clear()\l+ AddAssemblerLine()\l+ AddSourceLine()\l+ SetActiveAddress()\l+ CenterLine()\l+ CenterCurrentLine()\l+ HasActiveAddr()\l+ EnableWindow()\l}">
-<polygon fill="white" stroke="black" points="71.5,-380.5 71.5,-536.5 185.5,-536.5 185.5,-380.5 71.5,-380.5"/>
+<polygon fill="none" stroke="black" points="71.5,-380.5 71.5,-536.5 185.5,-536.5 185.5,-380.5 71.5,-380.5"/>
 <text text-anchor="middle" x="128.5" y="-524.5" font-family="FreeSans" font-size="10.00">cbDisassemblyDlg</text>
 <polyline fill="none" stroke="black" points="71.5,-517.5 185.5,-517.5 "/>
 <text text-anchor="middle" x="128.5" y="-505.5" font-family="FreeSans" font-size="10.00"> </text>
@@ -79,7 +78,7 @@
 </g>
 <!-- Node4 -->
 <g id="node4" class="node"><title>Node4</title>
-<polygon fill="white" stroke="#bfbfbf" points="204,-430 204,-487 299,-487 299,-430 204,-430"/>
+<polygon fill="none" stroke="#bfbfbf" points="204,-430 204,-487 299,-487 299,-430 204,-430"/>
 <text text-anchor="middle" x="251.5" y="-475" font-family="FreeSans" font-size="10.00">std::vector&lt; char &gt;</text>
 <polyline fill="none" stroke="#bfbfbf" points="204,-468 299,-468 "/>
 <text text-anchor="start" x="212" y="-456" font-family="FreeSans" font-size="10.00">+ elements</text>
@@ -94,8 +93,8 @@
 </g>
 <!-- Node5 -->
 <g id="node5" class="node"><title>Node5</title>
-<g id="a_node5"><a xlink:href="classwxScintilla" target="_top" xlink:title="{wxScintilla\n|# m_swx\l# m_stopWatch\l# m_vScrollBar\l# m_hScrollBar\l# m_lastKeyDownConsumed\l|+ wxScintilla()\l+ wxScintilla()\l+ ~wxScintilla()\l+ Create()\l+ AddText()\l+ AddText()\l+ AddStyledText()\l+ InsertText()\land 707 more...\l# GetValue()\l# SetValue()\l# DoSetValue()\l# DoGetValue()\l# GetEditableWindow()\l# DoLoadFile()\l# DoSaveFile()\l# OnPaint()\land 26 more...\l}">
-<polygon fill="white" stroke="black" points="317,-314.5 317,-602.5 456,-602.5 456,-314.5 317,-314.5"/>
+<g id="a_node5"><a xlink:href="classwxScintilla" target="_top" xlink:title="{wxScintilla\n|# m_swx\l# m_stopWatch\l# m_vScrollBar\l# m_hScrollBar\l# m_lastKeyDownConsumed\l|+ wxScintilla()\l+ wxScintilla()\l+ ~wxScintilla()\l+ Create()\l+ AddText()\l+ AddText()\l+ AddStyledText()\l+ InsertText()\land 703 more...\l# GetValue()\l# SetValue()\l# DoSetValue()\l# DoGetValue()\l# GetEditableWindow()\l# DoLoadFile()\l# DoSaveFile()\l# OnPaint()\land 26 more...\l}">
+<polygon fill="none" stroke="black" points="317,-314.5 317,-602.5 456,-602.5 456,-314.5 317,-314.5"/>
 <text text-anchor="middle" x="386.5" y="-590.5" font-family="FreeSans" font-size="10.00">wxScintilla</text>
 <polyline fill="none" stroke="black" points="317,-583.5 456,-583.5 "/>
 <text text-anchor="start" x="325" y="-571.5" font-family="FreeSans" font-size="10.00"># m_swx</text>
@@ -112,7 +111,7 @@
 <text text-anchor="start" x="325" y="-453.5" font-family="FreeSans" font-size="10.00">+ AddText()</text>
 <text text-anchor="start" x="325" y="-442.5" font-family="FreeSans" font-size="10.00">+ AddStyledText()</text>
 <text text-anchor="start" x="325" y="-431.5" font-family="FreeSans" font-size="10.00">+ InsertText()</text>
-<text text-anchor="start" x="325" y="-420.5" font-family="FreeSans" font-size="10.00">and 707 more...</text>
+<text text-anchor="start" x="325" y="-420.5" font-family="FreeSans" font-size="10.00">and 703 more...</text>
 <text text-anchor="start" x="325" y="-409.5" font-family="FreeSans" font-size="10.00"># GetValue()</text>
 <text text-anchor="start" x="325" y="-398.5" font-family="FreeSans" font-size="10.00"># SetValue()</text>
 <text text-anchor="start" x="325" y="-387.5" font-family="FreeSans" font-size="10.00"># DoSetValue()</text>
@@ -133,7 +132,7 @@
 </g>
 <!-- Node6 -->
 <g id="node6" class="node"><title>Node6</title>
-<polygon fill="white" stroke="#bfbfbf" points="357,-640.5 357,-697.5 416,-697.5 416,-640.5 357,-640.5"/>
+<polygon fill="none" stroke="#bfbfbf" points="357,-640.5 357,-697.5 416,-697.5 416,-640.5 357,-640.5"/>
 <text text-anchor="middle" x="386.5" y="-685.5" font-family="FreeSans" font-size="10.00">wxControl</text>
 <polyline fill="none" stroke="#bfbfbf" points="357,-678.5 416,-678.5 "/>
 <text text-anchor="middle" x="386.5" y="-666.5" font-family="FreeSans" font-size="10.00"> </text>

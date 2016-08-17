@@ -18,7 +18,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">Code::Blocks
-   &#160;<span id="projectnumber">SVN r10603</span>
+   &#160;<span id="projectnumber">SVN r10885</span>
    </div>
   </td>
  </tr>
@@ -30,6 +30,7 @@
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="index"><span>Main&#160;Page</span></a></li>
+      <li><a href="pages"><span>Related&#160;Pages</span></a></li>
       <li><a href="namespaces"><span>Namespaces</span></a></li>
       <li class="current"><a href="annotated"><span>Classes</span></a></li>
       <li><a href="files"><span>Files</span></a></li>
@@ -64,14 +65,12 @@
 <div class="dynheader">
 Inheritance diagram for CCManager:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classCCManager__inherit__graph.svg" width="270" height="654"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classCCManager__inherit__graph.svg" width="270" height="668"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <div class="dynheader">
 Collaboration diagram for CCManager:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classCCManager__coll__graph.svg" width="2576" height="3246"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classCCManager__coll__graph.svg" width="2534" height="3260"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
@@ -97,6 +96,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:mb-ProcessArrow"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCCManager#mb-ProcessArrow">ProcessArrow</a> (int key)</td></tr>
 <tr class="memdesc:mb-ProcessArrow"><td class="mdescLeft">&#160;</td><td class="mdescRight">used by <a class="el" href="classcbStyledTextCtrl">cbStyledTextCtrl</a> to process ArrowUp and ArrowDown key press.  <a href="#mb-ProcessArrow">More...</a><br /></td></tr>
 <tr class="separator:mb-ProcessArrow"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ir-UpdateEnvSettings"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCCManager#ir-UpdateEnvSettings">UpdateEnvSettings</a> ()</td></tr>
+<tr class="memdesc:ir-UpdateEnvSettings"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called after env settings have changed, so the changes can be applied.  <a href="#ir-UpdateEnvSettings">More...</a><br /></td></tr>
+<tr class="separator:ir-UpdateEnvSettings"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-types"></a>
 Private Types</h2></td></tr>
@@ -161,12 +163,16 @@ Private Member Functions</h2></td></tr>
 <tr class="memdesc:bn-OnMenuSelect"><td class="mdescLeft">&#160;</td><td class="mdescRight">handle the CC related menu click  <a href="#bn-OnMenuSelect">More...</a><br /></td></tr>
 <tr class="separator:bn-OnMenuSelect"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:m5-DoBufferedCC"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCCManager#m5-DoBufferedCC">DoBufferedCC</a> (<a class="el" href="classcbStyledTextCtrl">cbStyledTextCtrl</a> *stc)</td></tr>
+<tr class="memdesc:m5-DoBufferedCC"><td class="mdescLeft">&#160;</td><td class="mdescRight">CC launched in the same state as last run, display via cached data.  <a href="#m5-DoBufferedCC">More...</a><br /></td></tr>
 <tr class="separator:m5-DoBufferedCC"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ys-DoHidePopup"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCCManager#ys-DoHidePopup">DoHidePopup</a> ()</td></tr>
+<tr class="memdesc:ys-DoHidePopup"><td class="mdescLeft">&#160;</td><td class="mdescRight">hide the documentation popup  <a href="#ys-DoHidePopup">More...</a><br /></td></tr>
 <tr class="separator:ys-DoHidePopup"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:dz-DoShowDocumentation"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCCManager#dz-DoShowDocumentation">DoShowDocumentation</a> (<a class="el" href="classcbEditor">cbEditor</a> *ed)</td></tr>
+<tr class="memdesc:dz-DoShowDocumentation"><td class="mdescLeft">&#160;</td><td class="mdescRight">show the documentation popup  <a href="#dz-DoShowDocumentation">More...</a><br /></td></tr>
 <tr class="separator:dz-DoShowDocumentation"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:hb-DoUpdateCallTip"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCCManager#hb-DoUpdateCallTip">DoUpdateCallTip</a> (<a class="el" href="classcbEditor">cbEditor</a> *ed)</td></tr>
+<tr class="memdesc:hb-DoUpdateCallTip"><td class="mdescLeft">&#160;</td><td class="mdescRight">update which tip to show next and where to show it  <a href="#hb-DoUpdateCallTip">More...</a><br /></td></tr>
 <tr class="separator:hb-DoUpdateCallTip"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:hk-AdvanceTip"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCCManager#hk-AdvanceTip">AdvanceTip</a> (<a class="el" href="classCCManager#jx-Direction">Direction</a> direction)</td></tr>
 <tr class="memdesc:hk-AdvanceTip"><td class="mdescLeft">&#160;</td><td class="mdescRight">switch the tip window to the next item  <a href="#hk-AdvanceTip">More...</a><br /></td></tr>
@@ -482,6 +488,8 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>CC launched in the same state as last run, display via cached data. </p>
+
 <p>References <a class="el" href="classwxScintilla#j8-AutoCompActive">wxScintilla::AutoCompActive()</a>, <a class="el" href="classwxScintilla#i2-AutoCompSelect">wxScintilla::AutoCompSelect()</a>, <a class="el" href="classwxScintilla#wv-AutoCompShow">wxScintilla::AutoCompShow()</a>, <a class="el" href="classwxScintilla#k3-CallTipActive">wxScintilla::CallTipActive()</a>, <a class="el" href="structcbCodeCompletionPlugin_1_1CCToken#o7-displayName">cbCodeCompletionPlugin::CCToken::displayName</a>, <a class="el" href="logmanager_8h#ug-F">F()</a>, <a class="el" href="ccmanager_8cpp#yg-ACLaunchState:lsCaretStart">lsCaretStart</a>, <a class="el" href="ccmanager_8cpp#yg-ACLaunchState:lsTknStart">lsTknStart</a>, <a class="el" href="classCCManager#cm-m_AutocompTokens">m_AutocompTokens</a>, <a class="el" href="classCCManager#z6-m_CallTipActive">m_CallTipActive</a>, <a class="el" href="classCCManager#kp-m_LastACLaunchState">m_LastACLaunchState</a>, <a class="el" href="classCCManager#sp-m_LastAutocompIndex">m_LastAutocompIndex</a>, and <a class="el" href="classCCManager#ab-m_OwnsAutocomp">m_OwnsAutocomp</a>.</p>
 
 <p>Referenced by <a class="el" href="classCCManager#u3-OnCompleteCode">OnCompleteCode()</a>.</p>
@@ -508,6 +516,8 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>hide the documentation popup </p>
 
 <p>References <a class="el" href="classcbEditor#iz-GetControl">cbEditor::GetControl()</a>, <a class="el" href="classCCManager#bf-m_pLastEditor">m_pLastEditor</a>, <a class="el" href="classCCManager#yp-m_pPopup">m_pPopup</a>, and <a class="el" href="classCCManager#mn-OnPopupScroll">OnPopupScroll()</a>.</p>
 
@@ -536,6 +546,8 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>show the documentation popup </p>
 
 <p>References <a class="el" href="classCCManager#ys-DoHidePopup">DoHidePopup()</a>, <a class="el" href="classManager#rz-Get">Manager::Get()</a>, <a class="el" href="classcbEditor#iz-GetControl">cbEditor::GetControl()</a>, <a class="el" href="classcbCodeCompletionPlugin#ka-GetDocumentation">cbCodeCompletionPlugin::GetDocumentation()</a>, <a class="el" href="classCCManager#fh-GetProviderFor">GetProviderFor()</a>, <a class="el" href="classCCManager#cm-m_AutocompTokens">m_AutocompTokens</a>, <a class="el" href="classCCManager#tk-m_DocPos">m_DocPos</a>, <a class="el" href="classCCManager#iy-m_DocSize">m_DocSize</a>, <a class="el" href="classCCManager#sp-m_LastAutocompIndex">m_LastAutocompIndex</a>, <a class="el" href="classCCManager#tv-m_pHtml">m_pHtml</a>, <a class="el" href="classCCManager#yp-m_pPopup">m_pPopup</a>, <a class="el" href="classCCManager#mn-OnPopupScroll">OnPopupScroll()</a>, and <a class="el" href="classUnfocusablePopupWindow#a1-Show">UnfocusablePopupWindow::Show()</a>.</p>
 
@@ -628,6 +640,8 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>update which tip to show next and where to show it </p>
 
 <p>References <a class="el" href="namespaceCCManagerHelper#d8-CallTipToInt">CCManagerHelper::CallTipToInt()</a>, <a class="el" href="classCCManager#cu-DoShowTips">DoShowTips()</a>, <a class="el" href="classwxScintilla#yd-GetCharAt">wxScintilla::GetCharAt()</a>, <a class="el" href="classcbEditor#iz-GetControl">cbEditor::GetControl()</a>, <a class="el" href="classwxScintilla#a7-GetCurrentPos">wxScintilla::GetCurrentPos()</a>, <a class="el" href="classwxScintilla#as-GetTextRange">wxScintilla::GetTextRange()</a>, <a class="el" href="classwxScintilla#mk-LineFromPosition">wxScintilla::LineFromPosition()</a>, <a class="el" href="classCCManager#z6-m_CallTipActive">m_CallTipActive</a>, <a class="el" href="classCCManager#lw-m_CallTipChoiceDict">m_CallTipChoiceDict</a>, <a class="el" href="classCCManager#ci-m_CallTipFuzzyChoiceDict">m_CallTipFuzzyChoiceDict</a>, <a class="el" href="classCCManager#om-m_CallTips">m_CallTips</a>, <a class="el" href="classCCManager#k9-m_CurCallTip">m_CurCallTip</a>, <a class="el" href="classCCManager#xp-m_LastTipPos">m_LastTipPos</a>, <a class="el" href="classwxScintilla#v0-PositionFromLine">wxScintilla::PositionFromLine()</a>, <a class="el" href="namespaceCCManagerHelper#ma-RipplePts">CCManagerHelper::RipplePts()</a>, <a class="el" href="classwxScintilla#uc-WordStartPosition">wxScintilla::WordStartPosition()</a>, and <a class="el" href="wxscintilla_8h#yt-wxSCI_INVALID_POSITION">wxSCI_INVALID_POSITION</a>.</p>
 
@@ -1032,7 +1046,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>References <a class="el" href="classwxScintilla#y2-CallTipSetBackground">wxScintilla::CallTipSetBackground()</a>, <a class="el" href="classwxScintilla#e4-CallTipSetForeground">wxScintilla::CallTipSetForeground()</a>, <a class="el" href="classwxScintilla#v1-CallTipSetForegroundHighlight">wxScintilla::CallTipSetForegroundHighlight()</a>, <a class="el" href="classManager#rz-Get">Manager::Get()</a>, <a class="el" href="classEditorManager#rw-GetBuiltinEditor">EditorManager::GetBuiltinEditor()</a>, <a class="el" href="classColourManager#jm-GetColour">ColourManager::GetColour()</a>, <a class="el" href="classManager#p5-GetColourManager">Manager::GetColourManager()</a>, <a class="el" href="classcbEditor#iz-GetControl">cbEditor::GetControl()</a>, <a class="el" href="classCodeBlocksEvent#l5-GetEditor">CodeBlocksEvent::GetEditor()</a>, <a class="el" href="classManager#wg-GetEditorManager">Manager::GetEditorManager()</a>, and <a class="el" href="classCCManager#e3-OnAutocompleteSelect">OnAutocompleteSelect()</a>.</p>
+<p>References <a class="el" href="classManager#rz-Get">Manager::Get()</a>, <a class="el" href="classEditorManager#rw-GetBuiltinEditor">EditorManager::GetBuiltinEditor()</a>, <a class="el" href="classcbEditor#iz-GetControl">cbEditor::GetControl()</a>, <a class="el" href="classCodeBlocksEvent#l5-GetEditor">CodeBlocksEvent::GetEditor()</a>, <a class="el" href="classManager#wg-GetEditorManager">Manager::GetEditorManager()</a>, <a class="el" href="classCCManager#e3-OnAutocompleteSelect">OnAutocompleteSelect()</a>, and <a class="el" href="ccmanager_8cpp#s5-setupColours">setupColours()</a>.</p>
 
 <p>Referenced by <a class="el" href="classCCManager#pj-CCManager">CCManager()</a>.</p>
 
@@ -1298,6 +1312,27 @@ Additional Inherited Members</h2></td></tr>
 <p>if the default set of characters that invoke calltip requests are not appropriate, register a new set </p>
 
 <p>References <a class="el" href="classCCManager#w4-m_CallTipChars">m_CallTipChars</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ir-UpdateEnvSettings"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CCManager::UpdateEnvSettings </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Called after env settings have changed, so the changes can be applied. </p>
+
+<p>References <a class="el" href="classManager#rz-Get">Manager::Get()</a>, <a class="el" href="classEditorManager#rw-GetBuiltinEditor">EditorManager::GetBuiltinEditor()</a>, <a class="el" href="classManager#p5-GetColourManager">Manager::GetColourManager()</a>, <a class="el" href="classEditorManager#wn-GetEditor">EditorManager::GetEditor()</a>, <a class="el" href="classManager#wg-GetEditorManager">Manager::GetEditorManager()</a>, <a class="el" href="classEditorManager#hm-GetEditorsCount">EditorManager::GetEditorsCount()</a>, and <a class="el" href="ccmanager_8cpp#s5-setupColours">setupColours()</a>.</p>
+
+<p>Referenced by <a class="el" href="classMainFrame#e0-OnSettingsEnvironment">MainFrame::OnSettingsEnvironment()</a>.</p>
 
 </div>
 </div>

@@ -8,7 +8,6 @@
  viewBox="0.00 0.00 327.50 585.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 581)">
 <title>cbSearchResultsLog</title>
-<polygon fill="white" stroke="none" points="-4,4 -4,-581 323.5,-581 323.5,4 -4,4"/>
 <!-- Node1 -->
 <g id="node1" class="node"><title>Node1</title>
 <polygon fill="#bfbfbf" stroke="black" points="188,-0.5 188,-123.5 313,-123.5 313,-0.5 188,-0.5"/>
@@ -27,7 +26,7 @@
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
 <g id="a_node2"><a xlink:href="classListCtrlLogger" target="_top" xlink:title="a logger which prints messages to a wxListCtrl ">
-<polygon fill="white" stroke="black" points="84,-161.5 84,-372.5 227,-372.5 227,-161.5 84,-161.5"/>
+<polygon fill="none" stroke="black" points="84,-161.5 84,-372.5 227,-372.5 227,-161.5 84,-161.5"/>
 <text text-anchor="middle" x="155.5" y="-360.5" font-family="FreeSans" font-size="10.00">ListCtrlLogger</text>
 <polyline fill="none" stroke="black" points="84,-353.5 227,-353.5 "/>
 <text text-anchor="start" x="92" y="-341.5" font-family="FreeSans" font-size="10.00"># control</text>
@@ -58,7 +57,7 @@
 <!-- Node3 -->
 <g id="node3" class="node"><title>Node3</title>
 <g id="a_node3"><a xlink:href="classLogger" target="_top" xlink:title="The base class for all kinds of loggers, see loggers.h for its derived classes. ">
-<polygon fill="white" stroke="black" points="0,-420.5 0,-576.5 155,-576.5 155,-420.5 0,-420.5"/>
+<polygon fill="none" stroke="black" points="0,-420.5 0,-576.5 155,-576.5 155,-420.5 0,-420.5"/>
 <text text-anchor="middle" x="77.5" y="-564.5" font-family="FreeSans" font-size="10.00">Logger</text>
 <polyline fill="none" stroke="black" points="0,-557.5 155,-557.5 "/>
 <text text-anchor="middle" x="77.5" y="-545.5" font-family="FreeSans" font-size="10.00"> </text>
@@ -84,7 +83,7 @@
 <!-- Node4 -->
 <g id="node4" class="node"><title>Node4</title>
 <g id="a_node4"><a xlink:href="classListCtrlLogger#structListCtrlLogger_1_1ListStyles" target="_top" xlink:title="{ListCtrlLogger::ListStyles\n|+ font\l+ colour\l|}">
-<polygon fill="white" stroke="black" points="173.5,-464.5 173.5,-532.5 295.5,-532.5 295.5,-464.5 173.5,-464.5"/>
+<polygon fill="none" stroke="black" points="173.5,-464.5 173.5,-532.5 295.5,-532.5 295.5,-464.5 173.5,-464.5"/>
 <text text-anchor="middle" x="234.5" y="-520.5" font-family="FreeSans" font-size="10.00">ListCtrlLogger::ListStyles</text>
 <polyline fill="none" stroke="black" points="173.5,-513.5 295.5,-513.5 "/>
 <text text-anchor="start" x="181.5" y="-501.5" font-family="FreeSans" font-size="10.00">+ font</text>
@@ -102,7 +101,7 @@
 </g>
 <!-- Node5 -->
 <g id="node5" class="node"><title>Node5</title>
-<polygon fill="white" stroke="#bfbfbf" points="245.5,-238.5 245.5,-295.5 319.5,-295.5 319.5,-238.5 245.5,-238.5"/>
+<polygon fill="none" stroke="#bfbfbf" points="245.5,-238.5 245.5,-295.5 319.5,-295.5 319.5,-238.5 245.5,-238.5"/>
 <text text-anchor="middle" x="282.5" y="-283.5" font-family="FreeSans" font-size="10.00">wxEvtHandler</text>
 <polyline fill="none" stroke="#bfbfbf" points="245.5,-276.5 319.5,-276.5 "/>
 <text text-anchor="middle" x="282.5" y="-264.5" font-family="FreeSans" font-size="10.00"> </text>

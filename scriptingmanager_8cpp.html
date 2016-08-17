@@ -18,7 +18,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">Code::Blocks
-   &#160;<span id="projectnumber">SVN r10603</span>
+   &#160;<span id="projectnumber">SVN r10885</span>
    </div>
   </td>
  </tr>
@@ -30,6 +30,7 @@
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="index"><span>Main&#160;Page</span></a></li>
+      <li><a href="pages"><span>Related&#160;Pages</span></a></li>
       <li><a href="namespaces"><span>Namespaces</span></a></li>
       <li><a href="annotated"><span>Classes</span></a></li>
       <li class="current"><a href="files"><span>Files</span></a></li>
@@ -55,19 +56,6 @@
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &lt;<a class="el" href="sdk__precomp_8h_source">sdk_precomp.h</a>&gt;</code><br />
-<code>#include &quot;<a class="el" href="scriptingmanager_8h_source">scriptingmanager.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="cbeditor_8h_source">cbeditor.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="cbexception_8h_source">cbexception.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="configmanager_8h_source">configmanager.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="editormanager_8h_source">editormanager.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="globals_8h_source">globals.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="logmanager_8h_source">logmanager.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="manager_8h_source">manager.h</a>&quot;</code><br />
-<code>#include &lt;<a class="el" href="settings_8h_source">settings.h</a>&gt;</code><br />
-<code>#include &lt;wx/msgdlg.h&gt;</code><br />
-<code>#include &lt;wx/file.h&gt;</code><br />
-<code>#include &lt;wx/filename.h&gt;</code><br />
-<code>#include &lt;wx/regex.h&gt;</code><br />
 <code>#include &quot;<a class="el" href="crc32_8h_source">crc32.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="menuitemsmanager_8h_source">menuitemsmanager.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="genericmultilinenotesdlg_8h_source">genericmultilinenotesdlg.h</a>&quot;</code><br />
@@ -78,15 +66,16 @@
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for scriptingmanager.cpp:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="scriptingmanager_8cpp__incl.svg" width="2644" height="411"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="scriptingmanager_8cpp__incl.svg" width="10739" height="635"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:dm-ScriptsPrintFunc"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scriptingmanager_8cpp#dm-ScriptsPrintFunc">ScriptsPrintFunc</a> (HSQUIRRELVM, const SQChar *s,...)</td></tr>
+<tr class="memitem:jm-PrintSquirrelToWxString"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scriptingmanager_8cpp#jm-PrintSquirrelToWxString">PrintSquirrelToWxString</a> (wxString &amp;msg, const <a class="el" href="scriptingmanager_8h#ss-SQChar">SQChar</a> *s, va_list &amp;vl)</td></tr>
+<tr class="separator:jm-PrintSquirrelToWxString"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:dm-ScriptsPrintFunc"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scriptingmanager_8cpp#dm-ScriptsPrintFunc">ScriptsPrintFunc</a> (HSQUIRRELVM, const <a class="el" href="scriptingmanager_8h#ss-SQChar">SQChar</a> *s,...)</td></tr>
 <tr class="separator:dm-ScriptsPrintFunc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ze-CaptureScriptOutput"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scriptingmanager_8cpp#ze-CaptureScriptOutput">CaptureScriptOutput</a> (HSQUIRRELVM, const SQChar *s,...)</td></tr>
+<tr class="memitem:ze-CaptureScriptOutput"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scriptingmanager_8cpp#ze-CaptureScriptOutput">CaptureScriptOutput</a> (HSQUIRRELVM, const <a class="el" href="scriptingmanager_8h#ss-SQChar">SQChar</a> *s,...)</td></tr>
 <tr class="separator:ze-CaptureScriptOutput"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
@@ -113,7 +102,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const SQChar *&#160;</td>
+          <td class="paramtype">const <a class="el" href="scriptingmanager_8h#ss-SQChar">SQChar</a> *&#160;</td>
           <td class="paramname"><em>s</em>, </td>
         </tr>
         <tr>
@@ -135,9 +124,45 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>References <a class="el" href="scriptingmanager_8cpp#n3-capture">capture</a>, and <a class="el" href="globals_8h#x4-cbC2U">cbC2U()</a>.</p>
+<p>References <a class="el" href="scriptingmanager_8cpp#n3-capture">capture</a>, and <a class="el" href="scriptingmanager_8cpp#jm-PrintSquirrelToWxString">PrintSquirrelToWxString()</a>.</p>
 
 <p>Referenced by <a class="el" href="classScriptingManager#k6-LoadBufferRedirectOutput">ScriptingManager::LoadBufferRedirectOutput()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="jm-PrintSquirrelToWxString"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void PrintSquirrelToWxString </td>
+          <td>(</td>
+          <td class="paramtype">wxString &amp;&#160;</td>
+          <td class="paramname"><em>msg</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="scriptingmanager_8h#ss-SQChar">SQChar</a> *&#160;</td>
+          <td class="paramname"><em>s</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">va_list &amp;&#160;</td>
+          <td class="paramname"><em>vl</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>References <a class="el" href="globals_8h#x4-cbC2U">cbC2U()</a>.</p>
+
+<p>Referenced by <a class="el" href="scriptingmanager_8cpp#ze-CaptureScriptOutput">CaptureScriptOutput()</a>, and <a class="el" href="scriptingmanager_8cpp#dm-ScriptsPrintFunc">ScriptsPrintFunc()</a>.</p>
 
 </div>
 </div>
@@ -157,7 +182,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const SQChar *&#160;</td>
+          <td class="paramtype">const <a class="el" href="scriptingmanager_8h#ss-SQChar">SQChar</a> *&#160;</td>
           <td class="paramname"><em>s</em>, </td>
         </tr>
         <tr>
@@ -179,7 +204,7 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>References <a class="el" href="globals_8h#x4-cbC2U">cbC2U()</a>, <a class="el" href="classLogManager#bl-DebugLog">LogManager::DebugLog()</a>, <a class="el" href="classManager#rz-Get">Manager::Get()</a>, <a class="el" href="classManager#be-GetLogManager">Manager::GetLogManager()</a>, and <a class="el" href="scriptingmanager_8cpp#n2-s_ScriptErrors">s_ScriptErrors</a>.</p>
+<p>References <a class="el" href="scriptingmanager_8cpp#jm-PrintSquirrelToWxString">PrintSquirrelToWxString()</a>, and <a class="el" href="scriptingmanager_8cpp#n2-s_ScriptErrors">s_ScriptErrors</a>.</p>
 
 <p>Referenced by <a class="el" href="classScriptingManager#k6-LoadBufferRedirectOutput">ScriptingManager::LoadBufferRedirectOutput()</a>, and <a class="el" href="classScriptingManager#sa-ScriptingManager">ScriptingManager::ScriptingManager()</a>.</p>
 

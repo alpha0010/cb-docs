@@ -8,7 +8,6 @@
  viewBox="0.00 0.00 325.00 839.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 835)">
 <title>cbStatusBar</title>
-<polygon fill="white" stroke="none" points="-4,4 -4,-835 321,-835 321,4 -4,4"/>
 <!-- Node1 -->
 <g id="node1" class="node"><title>Node1</title>
 <polygon fill="#bfbfbf" stroke="black" points="82.5,-0.5 82.5,-233.5 218.5,-233.5 218.5,-0.5 82.5,-0.5"/>
@@ -36,7 +35,7 @@
 </g>
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
-<polygon fill="white" stroke="#bfbfbf" points="0,-287 0,-344 71,-344 71,-287 0,-287"/>
+<polygon fill="none" stroke="#bfbfbf" points="0,-287 0,-344 71,-344 71,-287 0,-287"/>
 <text text-anchor="middle" x="35.5" y="-332" font-family="FreeSans" font-size="10.00">wxStatusBar</text>
 <polyline fill="none" stroke="#bfbfbf" points="0,-325 71,-325 "/>
 <text text-anchor="middle" x="35.5" y="-313" font-family="FreeSans" font-size="10.00"> </text>
@@ -50,7 +49,7 @@
 </g>
 <!-- Node3 -->
 <g id="node3" class="node"><title>Node3</title>
-<polygon fill="white" stroke="#bfbfbf" points="89.5,-281.5 89.5,-349.5 211.5,-349.5 211.5,-281.5 89.5,-281.5"/>
+<polygon fill="none" stroke="#bfbfbf" points="89.5,-281.5 89.5,-349.5 211.5,-349.5 211.5,-281.5 89.5,-281.5"/>
 <text text-anchor="start" x="97.5" y="-337.5" font-family="FreeSans" font-size="10.00">std::vector&lt; cbStatusBar</text>
 <text text-anchor="middle" x="150.5" y="-326.5" font-family="FreeSans" font-size="10.00">Element &gt;</text>
 <polyline fill="none" stroke="#bfbfbf" points="89.5,-319.5 211.5,-319.5 "/>
@@ -67,7 +66,7 @@
 <!-- Node4 -->
 <g id="node4" class="node"><title>Node4</title>
 <g id="a_node4"><a xlink:href="classcbStatusBar#structcbStatusBar_1_1cbStatusBarElement" target="_top" xlink:title="{cbStatusBar::cbStatusBar\lElement\n|+ width\l+ control\l|}">
-<polygon fill="white" stroke="black" points="86.5,-397.5 86.5,-476.5 214.5,-476.5 214.5,-397.5 86.5,-397.5"/>
+<polygon fill="none" stroke="black" points="86.5,-397.5 86.5,-476.5 214.5,-476.5 214.5,-397.5 86.5,-397.5"/>
 <text text-anchor="start" x="94.5" y="-464.5" font-family="FreeSans" font-size="10.00">cbStatusBar::cbStatusBar</text>
 <text text-anchor="middle" x="150.5" y="-453.5" font-family="FreeSans" font-size="10.00">Element</text>
 <polyline fill="none" stroke="black" points="86.5,-446.5 214.5,-446.5 "/>
@@ -87,7 +86,7 @@
 <!-- Node5 -->
 <g id="node5" class="node"><title>Node5</title>
 <g id="a_node5"><a xlink:href="classcbPlugin" target="_top" xlink:title="Base class for plugins This is the most basic class a plugin must descend from. ">
-<polygon fill="white" stroke="black" points="71.5,-524.5 71.5,-735.5 229.5,-735.5 229.5,-524.5 71.5,-524.5"/>
+<polygon fill="none" stroke="black" points="71.5,-524.5 71.5,-735.5 229.5,-735.5 229.5,-524.5 71.5,-524.5"/>
 <text text-anchor="middle" x="150.5" y="-723.5" font-family="FreeSans" font-size="10.00">cbPlugin</text>
 <polyline fill="none" stroke="black" points="71.5,-716.5 229.5,-716.5 "/>
 <text text-anchor="start" x="79.5" y="-704.5" font-family="FreeSans" font-size="10.00"># m_Type</text>
@@ -101,7 +100,7 @@
 <text text-anchor="start" x="79.5" y="-619.5" font-family="FreeSans" font-size="10.00">+ GetConfigurationPanel()</text>
 <text text-anchor="start" x="79.5" y="-608.5" font-family="FreeSans" font-size="10.00">+ GetProjectConfigurationPanel()</text>
 <text text-anchor="start" x="79.5" y="-597.5" font-family="FreeSans" font-size="10.00">+ BuildMenu()</text>
-<text text-anchor="start" x="79.5" y="-586.5" font-family="FreeSans" font-size="10.00">and 6 more...</text>
+<text text-anchor="start" x="79.5" y="-586.5" font-family="FreeSans" font-size="10.00">and 5 more...</text>
 <text text-anchor="start" x="79.5" y="-575.5" font-family="FreeSans" font-size="10.00"># OnAttach()</text>
 <text text-anchor="start" x="79.5" y="-564.5" font-family="FreeSans" font-size="10.00"># OnRelease()</text>
 <text text-anchor="start" x="79.5" y="-553.5" font-family="FreeSans" font-size="10.00"># NotImplemented()</text>
@@ -118,7 +117,7 @@
 </g>
 <!-- Node6 -->
 <g id="node6" class="node"><title>Node6</title>
-<polygon fill="white" stroke="#bfbfbf" points="113.5,-773.5 113.5,-830.5 187.5,-830.5 187.5,-773.5 113.5,-773.5"/>
+<polygon fill="none" stroke="#bfbfbf" points="113.5,-773.5 113.5,-830.5 187.5,-830.5 187.5,-773.5 113.5,-773.5"/>
 <text text-anchor="middle" x="150.5" y="-818.5" font-family="FreeSans" font-size="10.00">wxEvtHandler</text>
 <polyline fill="none" stroke="#bfbfbf" points="113.5,-811.5 187.5,-811.5 "/>
 <text text-anchor="middle" x="150.5" y="-799.5" font-family="FreeSans" font-size="10.00"> </text>
@@ -132,7 +131,7 @@
 </g>
 <!-- Node7 -->
 <g id="node7" class="node"><title>Node7</title>
-<polygon fill="white" stroke="#bfbfbf" points="230,-287 230,-344 317,-344 317,-287 230,-287"/>
+<polygon fill="none" stroke="#bfbfbf" points="230,-287 230,-344 317,-344 317,-287 230,-287"/>
 <text text-anchor="middle" x="273.5" y="-332" font-family="FreeSans" font-size="10.00">std::vector&lt; int &gt;</text>
 <polyline fill="none" stroke="#bfbfbf" points="230,-325 317,-325 "/>
 <text text-anchor="start" x="238" y="-313" font-family="FreeSans" font-size="10.00">+ elements</text>

@@ -8,7 +8,6 @@
  viewBox="0.00 0.00 296.50 975.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 971)">
 <title>ccSearchData</title>
-<polygon fill="white" stroke="none" points="-4,4 -4,-971 292.5,-971 292.5,4 -4,4"/>
 <!-- Node1 -->
 <g id="node1" class="node"><title>Node1</title>
 <polygon fill="#bfbfbf" stroke="black" points="108.5,-0.5 108.5,-57.5 186.5,-57.5 186.5,-0.5 108.5,-0.5"/>
@@ -21,7 +20,7 @@
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
 <g id="a_node2"><a xlink:href="classcbStyledTextCtrl" target="_top" xlink:title="{cbStyledTextCtrl\n|&#45; m_pParent\l&#45; m_lastFocusTime\l&#45; m_bracePosition\l&#45; m_lastPosition\l&#45; m_middleClickPos\l&#45; m_tabSmartJump\l&#45; m_lastSelectedText\l&#45; m_braceShortcutState\l|+ cbStyledTextCtrl()\l+ ~cbStyledTextCtrl()\l+ operator=()\l+ GetLastFocusTime()\l+ GetLastSelectedText()\l+ EnableTabSmartJump()\l+ IsCharacter()\l+ IsString()\land 7 more...\l+ GetCharacterLexerStyles()\l+ GetStringLexerStyles()\l+ GetPreprocessorLexerStyles()\l+ GetCommentLexerStyles()\l&#45; OnContextMenu()\l&#45; OnKillFocus()\l&#45; OnSetFocus()\l&#45; OnMouseMiddleDown()\l&#45; OnMouseMiddleClick()\l&#45; OnKeyDown()\l&#45; OnKeyUp()\l&#45; OnMouseLeftUp()\l&#45; AllowTabSmartJump()\l&#45; HighlightRightBrace()\l&#45; EmulateDwellStart()\l}">
-<polygon fill="white" stroke="black" points="71.5,-105.5 71.5,-492.5 223.5,-492.5 223.5,-105.5 71.5,-105.5"/>
+<polygon fill="none" stroke="black" points="71.5,-105.5 71.5,-492.5 223.5,-492.5 223.5,-105.5 71.5,-105.5"/>
 <text text-anchor="middle" x="147.5" y="-480.5" font-family="FreeSans" font-size="10.00">cbStyledTextCtrl</text>
 <polyline fill="none" stroke="black" points="71.5,-473.5 223.5,-473.5 "/>
 <text text-anchor="start" x="79.5" y="-461.5" font-family="FreeSans" font-size="10.00">&#45; m_pParent</text>
@@ -68,8 +67,8 @@
 </g>
 <!-- Node3 -->
 <g id="node3" class="node"><title>Node3</title>
-<g id="a_node3"><a xlink:href="classwxScintilla" target="_top" xlink:title="{wxScintilla\n|# m_swx\l# m_stopWatch\l# m_vScrollBar\l# m_hScrollBar\l# m_lastKeyDownConsumed\l|+ wxScintilla()\l+ wxScintilla()\l+ ~wxScintilla()\l+ Create()\l+ AddText()\l+ AddText()\l+ AddStyledText()\l+ InsertText()\land 707 more...\l# GetValue()\l# SetValue()\l# DoSetValue()\l# DoGetValue()\l# GetEditableWindow()\l# DoLoadFile()\l# DoSaveFile()\l# OnPaint()\land 26 more...\l}">
-<polygon fill="white" stroke="black" points="0,-573.5 0,-861.5 139,-861.5 139,-573.5 0,-573.5"/>
+<g id="a_node3"><a xlink:href="classwxScintilla" target="_top" xlink:title="{wxScintilla\n|# m_swx\l# m_stopWatch\l# m_vScrollBar\l# m_hScrollBar\l# m_lastKeyDownConsumed\l|+ wxScintilla()\l+ wxScintilla()\l+ ~wxScintilla()\l+ Create()\l+ AddText()\l+ AddText()\l+ AddStyledText()\l+ InsertText()\land 703 more...\l# GetValue()\l# SetValue()\l# DoSetValue()\l# DoGetValue()\l# GetEditableWindow()\l# DoLoadFile()\l# DoSaveFile()\l# OnPaint()\land 26 more...\l}">
+<polygon fill="none" stroke="black" points="0,-573.5 0,-861.5 139,-861.5 139,-573.5 0,-573.5"/>
 <text text-anchor="middle" x="69.5" y="-849.5" font-family="FreeSans" font-size="10.00">wxScintilla</text>
 <polyline fill="none" stroke="black" points="0,-842.5 139,-842.5 "/>
 <text text-anchor="start" x="8" y="-830.5" font-family="FreeSans" font-size="10.00"># m_swx</text>
@@ -86,7 +85,7 @@
 <text text-anchor="start" x="8" y="-712.5" font-family="FreeSans" font-size="10.00">+ AddText()</text>
 <text text-anchor="start" x="8" y="-701.5" font-family="FreeSans" font-size="10.00">+ AddStyledText()</text>
 <text text-anchor="start" x="8" y="-690.5" font-family="FreeSans" font-size="10.00">+ InsertText()</text>
-<text text-anchor="start" x="8" y="-679.5" font-family="FreeSans" font-size="10.00">and 707 more...</text>
+<text text-anchor="start" x="8" y="-679.5" font-family="FreeSans" font-size="10.00">and 703 more...</text>
 <text text-anchor="start" x="8" y="-668.5" font-family="FreeSans" font-size="10.00"># GetValue()</text>
 <text text-anchor="start" x="8" y="-657.5" font-family="FreeSans" font-size="10.00"># SetValue()</text>
 <text text-anchor="start" x="8" y="-646.5" font-family="FreeSans" font-size="10.00"># DoSetValue()</text>
@@ -106,7 +105,7 @@
 </g>
 <!-- Node4 -->
 <g id="node4" class="node"><title>Node4</title>
-<polygon fill="white" stroke="#bfbfbf" points="40,-909.5 40,-966.5 99,-966.5 99,-909.5 40,-909.5"/>
+<polygon fill="none" stroke="#bfbfbf" points="40,-909.5 40,-966.5 99,-966.5 99,-909.5 40,-909.5"/>
 <text text-anchor="middle" x="69.5" y="-954.5" font-family="FreeSans" font-size="10.00">wxControl</text>
 <polyline fill="none" stroke="#bfbfbf" points="40,-947.5 99,-947.5 "/>
 <text text-anchor="middle" x="69.5" y="-935.5" font-family="FreeSans" font-size="10.00"> </text>
@@ -120,7 +119,7 @@
 </g>
 <!-- Node5 -->
 <g id="node5" class="node"><title>Node5</title>
-<polygon fill="white" stroke="#bfbfbf" points="157,-683.5 157,-751.5 246,-751.5 246,-683.5 157,-683.5"/>
+<polygon fill="none" stroke="#bfbfbf" points="157,-683.5 157,-751.5 246,-751.5 246,-683.5 157,-683.5"/>
 <text text-anchor="start" x="165" y="-739.5" font-family="FreeSans" font-size="10.00">std::map&lt; int, std</text>
 <text text-anchor="middle" x="201.5" y="-728.5" font-family="FreeSans" font-size="10.00">::set&lt; int &gt; &gt;</text>
 <polyline fill="none" stroke="#bfbfbf" points="157,-721.5 246,-721.5 "/>
@@ -139,7 +138,7 @@
 </g>
 <!-- Node6 -->
 <g id="node6" class="node"><title>Node6</title>
-<polygon fill="white" stroke="#bfbfbf" points="164.5,-909.5 164.5,-966.5 238.5,-966.5 238.5,-909.5 164.5,-909.5"/>
+<polygon fill="none" stroke="#bfbfbf" points="164.5,-909.5 164.5,-966.5 238.5,-966.5 238.5,-909.5 164.5,-909.5"/>
 <text text-anchor="middle" x="201.5" y="-954.5" font-family="FreeSans" font-size="10.00">std::set&lt; int &gt;</text>
 <polyline fill="none" stroke="#bfbfbf" points="164.5,-947.5 238.5,-947.5 "/>
 <text text-anchor="start" x="172.5" y="-935.5" font-family="FreeSans" font-size="10.00">+ keys</text>

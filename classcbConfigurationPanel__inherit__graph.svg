@@ -8,7 +8,6 @@
  viewBox="0.00 0.00 664.50 595.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 591)">
 <title>cbConfigurationPanel</title>
-<polygon fill="white" stroke="none" points="-4,4 -4,-591 660.5,-591 660.5,4 -4,4"/>
 <!-- Node1 -->
 <g id="node1" class="node"><title>Node1</title>
 <polygon fill="#bfbfbf" stroke="black" points="248,-347.5 248,-492.5 376,-492.5 376,-347.5 248,-347.5"/>
@@ -29,7 +28,7 @@
 <!-- Node3 -->
 <g id="node3" class="node"><title>Node3</title>
 <g id="a_node3"><a xlink:href="classCCOptionsDlg" target="_top" xlink:title="{CCOptionsDlg\n|&#45; m_NativeParser\l&#45; m_CodeCompletion\l&#45; m_Parser\l&#45; m_Documentation\l|+ CCOptionsDlg()\l+ ~CCOptionsDlg()\l+ GetTitle()\l+ GetBitmapBaseName()\l+ OnApply()\l+ OnCancel()\l# OnChooseColour()\l# OnCCDelayScroll()\l# OnUpdateUI()\l&#45; UpdateCCDelayLabel()\l&#45; ValidateReplacementToken()\l}">
-<polygon fill="white" stroke="black" points="0,-55.5 0,-255.5 146,-255.5 146,-55.5 0,-55.5"/>
+<polygon fill="none" stroke="black" points="0,-55.5 0,-255.5 146,-255.5 146,-55.5 0,-55.5"/>
 <text text-anchor="middle" x="73" y="-243.5" font-family="FreeSans" font-size="10.00">CCOptionsDlg</text>
 <polyline fill="none" stroke="black" points="0,-236.5 146,-236.5 "/>
 <text text-anchor="start" x="8" y="-224.5" font-family="FreeSans" font-size="10.00">&#45; m_NativeParser</text>
@@ -59,7 +58,7 @@
 <!-- Node4 -->
 <g id="node4" class="node"><title>Node4</title>
 <g id="a_node4"><a xlink:href="classCCOptionsProjectDlg" target="_top" xlink:title="{CCOptionsProjectDlg\n|&#45; m_Project\l&#45; m_NativeParser\l&#45; m_Parser\l&#45; m_OldPaths\l|+ CCOptionsProjectDlg()\l+ ~CCOptionsProjectDlg()\l+ GetTitle()\l+ GetBitmapBaseName()\l+ OnApply()\l+ OnCancel()\l# OnAdd()\l# OnEdit()\l# OnDelete()\l# OnUpdateUI()\l}">
-<polygon fill="white" stroke="black" points="164,-61 164,-250 292,-250 292,-61 164,-61"/>
+<polygon fill="none" stroke="black" points="164,-61 164,-250 292,-250 292,-61 164,-61"/>
 <text text-anchor="middle" x="228" y="-238" font-family="FreeSans" font-size="10.00">CCOptionsProjectDlg</text>
 <polyline fill="none" stroke="black" points="164,-231 292,-231 "/>
 <text text-anchor="start" x="172" y="-219" font-family="FreeSans" font-size="10.00">&#45; m_Project</text>
@@ -88,7 +87,7 @@
 <!-- Node5 -->
 <g id="node5" class="node"><title>Node5</title>
 <g id="a_node5"><a xlink:href="classCompilerOptionsDlg" target="_top" xlink:title="{CompilerOptionsDlg\n|&#45; m_FlagsPG\l&#45; m_Compiler\l&#45; m_Options\l&#45; m_LinkerOptions\l&#45; m_LinkLibs\l&#45; m_CompilerOptions\l&#45; m_ResourceCompilerOptions\l&#45; m_CurrentCompilerIdx\land 7 more...\l&#45; m_MenuOption\l|+ CompilerOptionsDlg()\l+ ~CompilerOptionsDlg()\l+ GetTitle()\l+ GetBitmapBaseName()\l+ OnApply()\l+ OnCancel()\l&#45; TextToOptions()\l&#45; OptionsToText()\l&#45; DoFillCompilerSets()\l&#45; DoFillCompilerPrograms()\l&#45; DoFillVars()\l&#45; DoFillOthers()\l&#45; DoFillOptions()\l&#45; DoFillCompilerDependentSettings()\land 58 more...\l}">
-<polygon fill="white" stroke="black" points="310.5,-0.5 310.5,-310.5 483.5,-310.5 483.5,-0.5 310.5,-0.5"/>
+<polygon fill="none" stroke="black" points="310.5,-0.5 310.5,-310.5 483.5,-310.5 483.5,-0.5 310.5,-0.5"/>
 <text text-anchor="middle" x="397" y="-298.5" font-family="FreeSans" font-size="10.00">CompilerOptionsDlg</text>
 <polyline fill="none" stroke="black" points="310.5,-291.5 483.5,-291.5 "/>
 <text text-anchor="start" x="318.5" y="-279.5" font-family="FreeSans" font-size="10.00">&#45; m_FlagsPG</text>
@@ -128,7 +127,7 @@
 <!-- Node6 -->
 <g id="node6" class="node"><title>Node6</title>
 <g id="a_node6"><a xlink:href="classDebuggerOptionsProjectDlg" target="_top" xlink:title="{DebuggerOptionsProjectDlg\n|&#45; m_pDBG\l&#45; m_pProject\l&#45; m_OldPaths\l&#45; m_CurrentRemoteDebugging\l&#45; m_LastTargetSel\l|+ DebuggerOptionsProjectDlg()\l+ ~DebuggerOptionsProjectDlg()\l+ GetTitle()\l+ GetBitmapBaseName()\l+ OnApply()\l+ OnCancel()\l# OnTargetSel()\l# OnAdd()\l# OnEdit()\l# OnDelete()\l# OnUpdateUI()\l&#45; OnBuildTargetRemoved()\l&#45; OnBuildTargetAdded()\l&#45; OnBuildTargetRenamed()\l&#45; LoadCurrentRemoteDebugging\lRecord()\l&#45; SaveCurrentRemoteDebugging\lRecord()\l}">
-<polygon fill="white" stroke="black" points="501.5,-11.5 501.5,-299.5 656.5,-299.5 656.5,-11.5 501.5,-11.5"/>
+<polygon fill="none" stroke="black" points="501.5,-11.5 501.5,-299.5 656.5,-299.5 656.5,-11.5 501.5,-11.5"/>
 <text text-anchor="middle" x="579" y="-287.5" font-family="FreeSans" font-size="10.00">DebuggerOptionsProjectDlg</text>
 <polyline fill="none" stroke="black" points="501.5,-280.5 656.5,-280.5 "/>
 <text text-anchor="start" x="509.5" y="-268.5" font-family="FreeSans" font-size="10.00">&#45; m_pDBG</text>
@@ -165,7 +164,7 @@
 </g>
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
-<polygon fill="white" stroke="#bfbfbf" points="285.5,-529.5 285.5,-586.5 338.5,-586.5 338.5,-529.5 285.5,-529.5"/>
+<polygon fill="none" stroke="#bfbfbf" points="285.5,-529.5 285.5,-586.5 338.5,-586.5 338.5,-529.5 285.5,-529.5"/>
 <text text-anchor="middle" x="312" y="-574.5" font-family="FreeSans" font-size="10.00">wxPanel</text>
 <polyline fill="none" stroke="#bfbfbf" points="285.5,-567.5 338.5,-567.5 "/>
 <text text-anchor="middle" x="312" y="-555.5" font-family="FreeSans" font-size="10.00"> </text>

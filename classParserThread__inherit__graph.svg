@@ -8,7 +8,6 @@
  viewBox="0.00 0.00 178.00 556.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 552)">
 <title>ParserThread</title>
-<polygon fill="white" stroke="none" points="-4,4 -4,-552 174,-552 174,4 -4,4"/>
 <!-- Node1 -->
 <g id="node1" class="node"><title>Node1</title>
 <polygon fill="#bfbfbf" stroke="black" points="0,-0.5 0,-398.5 170,-398.5 170,-0.5 0,-0.5"/>
@@ -22,7 +21,7 @@
 <text text-anchor="start" x="8" y="-312.5" font-family="FreeSans" font-size="10.00">&#45; m_Filename</text>
 <text text-anchor="start" x="8" y="-301.5" font-family="FreeSans" font-size="10.00">&#45; m_FileSize</text>
 <text text-anchor="start" x="8" y="-290.5" font-family="FreeSans" font-size="10.00">&#45; m_FileIdx</text>
-<text text-anchor="start" x="8" y="-279.5" font-family="FreeSans" font-size="10.00">and 15 more...</text>
+<text text-anchor="start" x="8" y="-279.5" font-family="FreeSans" font-size="10.00">and 14 more...</text>
 <polyline fill="none" stroke="black" points="0,-272.5 170,-272.5 "/>
 <text text-anchor="start" x="8" y="-260.5" font-family="FreeSans" font-size="10.00">+ ParserThread()</text>
 <text text-anchor="start" x="8" y="-249.5" font-family="FreeSans" font-size="10.00">+ ~ParserThread()</text>
@@ -52,7 +51,7 @@
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
 <g id="a_node2"><a xlink:href="classcbThreadedTask" target="_top" xlink:title="This is what you have to use instead of wxThread to add tasks to the Thread Pool. ...">
-<polygon fill="white" stroke="black" points="31,-435.5 31,-547.5 139,-547.5 139,-435.5 31,-435.5"/>
+<polygon fill="none" stroke="black" points="31,-435.5 31,-547.5 139,-547.5 139,-435.5 31,-435.5"/>
 <text text-anchor="middle" x="85" y="-535.5" font-family="FreeSans" font-size="10.00">cbThreadedTask</text>
 <polyline fill="none" stroke="black" points="31,-528.5 139,-528.5 "/>
 <text text-anchor="start" x="39" y="-516.5" font-family="FreeSans" font-size="10.00">&#45; m_abort</text>

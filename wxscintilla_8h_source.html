@@ -18,7 +18,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">Code::Blocks
-   &#160;<span id="projectnumber">SVN r10603</span>
+   &#160;<span id="projectnumber">SVN r10885</span>
    </div>
   </td>
  </tr>
@@ -30,6 +30,7 @@
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="index"><span>Main&#160;Page</span></a></li>
+      <li><a href="pages"><span>Related&#160;Pages</span></a></li>
       <li><a href="namespaces"><span>Namespaces</span></a></li>
       <li><a href="annotated"><span>Classes</span></a></li>
       <li class="current"><a href="files"><span>Files</span></a></li>
@@ -64,7 +65,7 @@
 <div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="comment">// Author:      Robin Dunn</span></div>
 <div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="comment">//</span></div>
 <div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="comment">// Created:     13-Jan-2000</span></div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="comment">// RCS-ID:      $Id: wxscintilla.h 10065 2015-01-17 20:07:46Z mortenmacfly $</span></div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="comment">// RCS-ID:      $Id: wxscintilla.h 10769 2016-02-06 14:26:58Z mortenmacfly $</span></div>
 <div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="comment">// Copyright:   (c) 2004 wxCode</span></div>
 <div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="comment">// Licence:     wxWindows</span></div>
 <div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="comment"></span></div>
@@ -82,7 +83,7 @@
 <div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;<span class="preprocessor">#include &lt;wx/timer.h&gt;</span></div>
 <div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;<span class="comment">/* C::B begin */</span></div>
 <div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;<span class="preprocessor">#include &lt;wx/scrolbar.h&gt;</span></div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;<span class="preprocessor">#if wxCHECK_VERSION(2,9,2)</span></div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;<span class="preprocessor">#if wxCHECK_VERSION(3, 0, 0)</span></div>
 <div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;<span class="preprocessor">#include &lt;wx/versioninfo.h&gt;</span></div>
 <div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;<span class="comment">/* C::B end */</span></div>
@@ -102,7 +103,7 @@
 <div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;<span class="preprocessor">#define SCI_USE_DND 1</span></div>
 <div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;<span class="preprocessor">#else</span></div>
 <div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;<span class="preprocessor">#if wxUSE_DRAG_AND_DROP</span></div>
-<div class="line"><a name="l00054"></a><span class="lineno"><a class="line" href="wxscintilla_8h#hm-SCI_USE_DND">   54</a></span>&#160;<span class="preprocessor">#define SCI_USE_DND 1</span></div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;<span class="preprocessor">#define SCI_USE_DND 1</span></div>
 <div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;</div>
@@ -2549,7 +2550,7 @@
 <div class="line"><a name="l02771"></a><span class="lineno"> 2771</span>&#160;<span class="comment">//----------------------------------------------------------------------</span></div>
 <div class="line"><a name="l02772"></a><span class="lineno"> 2772</span>&#160;</div>
 <div class="line"><a name="l02773"></a><span class="lineno"> 2773</span>&#160;<span class="comment">/* C::B begin */</span></div>
-<div class="line"><a name="l02774"></a><span class="lineno"> 2774</span>&#160;<span class="preprocessor">#if !wxCHECK_VERSION(2, 9, 0) &amp;&amp; !defined(_WIN64)</span></div>
+<div class="line"><a name="l02774"></a><span class="lineno"> 2774</span>&#160;<span class="preprocessor">#if !wxCHECK_VERSION(3, 0, 0) &amp;&amp; !defined(_WIN64)</span></div>
 <div class="line"><a name="l02775"></a><span class="lineno"><a class="line" href="wxscintilla_8h#rk-wxIntPtr"> 2775</a></span>&#160;<span class="keyword">typedef</span> <span class="keywordtype">long</span> <a class="code" href="wxscintilla_8h#rk-wxIntPtr">wxIntPtr</a>;</div>
 <div class="line"><a name="l02776"></a><span class="lineno"> 2776</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="line"><a name="l02777"></a><span class="lineno"><a class="line" href="wxscintilla_8h#hv-wxSciFnDirect"> 2777</a></span>&#160;<span class="keyword">typedef</span> <a class="code" href="wxscintilla_8h#rk-wxIntPtr">wxIntPtr</a> (* <a class="code" href="wxscintilla_8h#hv-wxSciFnDirect">wxSciFnDirect</a>) (<a class="code" href="wxscintilla_8h#rk-wxIntPtr">wxIntPtr</a> <a class="code" href="namespaceParserConsts#eu-ptr">ptr</a>, <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> iMessage,</div>
@@ -4914,7 +4915,7 @@
 <div class="line"><a name="l05136"></a><span class="lineno"><a class="line" href="classwxScintilla#uf-SetEditable"> 5136</a></span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classwxScintilla#uf-SetEditable">SetEditable</a>(<span class="keywordtype">bool</span> editable) { SetReadOnly(!editable); }</div>
 <div class="line"><a name="l05137"></a><span class="lineno"> 5137</span>&#160;</div>
 <div class="line"><a name="l05138"></a><span class="lineno"> 5138</span>&#160;<span class="comment">/* C::B begin */</span></div>
-<div class="line"><a name="l05139"></a><span class="lineno"> 5139</span>&#160;<span class="preprocessor">#if wxCHECK_VERSION(2, 9, 2)</span></div>
+<div class="line"><a name="l05139"></a><span class="lineno"> 5139</span>&#160;<span class="preprocessor">#if wxCHECK_VERSION(3, 0, 0)</span></div>
 <div class="line"><a name="l05140"></a><span class="lineno"> 5140</span>&#160;    <span class="keyword">static</span> wxVersionInfo GetLibraryVersionInfo();</div>
 <div class="line"><a name="l05141"></a><span class="lineno"> 5141</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="line"><a name="l05142"></a><span class="lineno"> 5142</span>&#160;<span class="comment">/* C::B end */</span></div>
@@ -5035,13 +5036,13 @@
 <div class="line"><a name="l05257"></a><span class="lineno"><a class="line" href="classwxScintillaEvent#np-SetUpdated"> 5257</a></span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classwxScintillaEvent#np-SetUpdated">SetUpdated</a>(<span class="keywordtype">int</span> val)              { m_updated = val; }</div>
 <div class="line"><a name="l05258"></a><span class="lineno"> 5258</span>&#160;<span class="preprocessor">#ifdef  SCI_USE_DND</span></div>
 <div class="line"><a name="l05259"></a><span class="lineno"> 5259</span>&#160;    <span class="comment">// Kept for backwards compatibility, use SetString().</span></div>
-<div class="line"><a name="l05260"></a><span class="lineno"><a class="line" href="classwxScintillaEvent#yu-SetDragText"> 5260</a></span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classwxScintillaEvent#yu-SetDragText">SetDragText</a>(<span class="keyword">const</span> wxString&amp; val) { SetString(val); }</div>
-<div class="line"><a name="l05261"></a><span class="lineno"><a class="line" href="classwxScintillaEvent#ou-SetDragFlags"> 5261</a></span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classwxScintillaEvent#ou-SetDragFlags">SetDragFlags</a>(<span class="keywordtype">int</span> flags)          { m_dragFlags = flags; }</div>
-<div class="line"><a name="l05262"></a><span class="lineno"><a class="line" href="classwxScintillaEvent#je-SetDragResult"> 5262</a></span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classwxScintillaEvent#je-SetDragResult">SetDragResult</a>(wxDragResult val)  { m_dragResult = val; }</div>
+<div class="line"><a name="l05260"></a><span class="lineno"> 5260</span>&#160;    <span class="keywordtype">void</span> SetDragText(<span class="keyword">const</span> wxString&amp; val) { SetString(val); }</div>
+<div class="line"><a name="l05261"></a><span class="lineno"> 5261</span>&#160;    <span class="keywordtype">void</span> SetDragFlags(<span class="keywordtype">int</span> flags)          { m_dragFlags = flags; }</div>
+<div class="line"><a name="l05262"></a><span class="lineno"> 5262</span>&#160;    <span class="keywordtype">void</span> SetDragResult(wxDragResult val)  { m_dragResult = val; }</div>
 <div class="line"><a name="l05263"></a><span class="lineno"> 5263</span>&#160;</div>
 <div class="line"><a name="l05264"></a><span class="lineno"> 5264</span>&#160;    <span class="comment">// This method is kept mainly for backwards compatibility, use</span></div>
 <div class="line"><a name="l05265"></a><span class="lineno"> 5265</span>&#160;    <span class="comment">// SetDragFlags() in the new code.</span></div>
-<div class="line"><a name="l05266"></a><span class="lineno"><a class="line" href="classwxScintillaEvent#ak-SetDragAllowMove"> 5266</a></span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classwxScintillaEvent#ak-SetDragAllowMove">SetDragAllowMove</a>(<span class="keywordtype">bool</span> allow)</div>
+<div class="line"><a name="l05266"></a><span class="lineno"> 5266</span>&#160;    <span class="keywordtype">void</span> SetDragAllowMove(<span class="keywordtype">bool</span> allow)</div>
 <div class="line"><a name="l05267"></a><span class="lineno"> 5267</span>&#160;    {</div>
 <div class="line"><a name="l05268"></a><span class="lineno"> 5268</span>&#160;        <span class="keywordflow">if</span> ( allow )</div>
 <div class="line"><a name="l05269"></a><span class="lineno"> 5269</span>&#160;            m_dragFlags |= wxDrag_AllowMove;</div>
@@ -5077,11 +5078,11 @@
 <div class="line"><a name="l05299"></a><span class="lineno"> 5299</span>&#160;</div>
 <div class="line"><a name="l05300"></a><span class="lineno"> 5300</span>&#160;<span class="preprocessor">#ifdef SCI_USE_DND</span></div>
 <div class="line"><a name="l05301"></a><span class="lineno"> 5301</span>&#160;    <span class="comment">// Kept for backwards compatibility, use GetString().</span></div>
-<div class="line"><a name="l05302"></a><span class="lineno"><a class="line" href="classwxScintillaEvent#o9-GetDragText"> 5302</a></span>&#160;    wxString <a class="code" href="classwxScintillaEvent#o9-GetDragText">GetDragText</a>()           { <span class="keywordflow">return</span> GetString(); }</div>
-<div class="line"><a name="l05303"></a><span class="lineno"><a class="line" href="classwxScintillaEvent#c8-GetDragFlags"> 5303</a></span>&#160;    <span class="keywordtype">int</span> <a class="code" href="classwxScintillaEvent#c8-GetDragFlags">GetDragFlags</a>()               { <span class="keywordflow">return</span> m_dragFlags; }</div>
-<div class="line"><a name="l05304"></a><span class="lineno"><a class="line" href="classwxScintillaEvent#mx-GetDragResult"> 5304</a></span>&#160;    wxDragResult <a class="code" href="classwxScintillaEvent#mx-GetDragResult">GetDragResult</a>()     { <span class="keywordflow">return</span> m_dragResult; }</div>
+<div class="line"><a name="l05302"></a><span class="lineno"> 5302</span>&#160;    wxString GetDragText()           { <span class="keywordflow">return</span> GetString(); }</div>
+<div class="line"><a name="l05303"></a><span class="lineno"> 5303</span>&#160;    <span class="keywordtype">int</span> GetDragFlags()               { <span class="keywordflow">return</span> m_dragFlags; }</div>
+<div class="line"><a name="l05304"></a><span class="lineno"> 5304</span>&#160;    wxDragResult GetDragResult()     { <span class="keywordflow">return</span> m_dragResult; }</div>
 <div class="line"><a name="l05305"></a><span class="lineno"> 5305</span>&#160;</div>
-<div class="line"><a name="l05306"></a><span class="lineno"><a class="line" href="classwxScintillaEvent#ut-GetDragAllowMove"> 5306</a></span>&#160;    <span class="keywordtype">bool</span> <a class="code" href="classwxScintillaEvent#ut-GetDragAllowMove">GetDragAllowMove</a>() { <span class="keywordflow">return</span> (GetDragFlags() &amp; wxDrag_AllowMove) != 0; }</div>
+<div class="line"><a name="l05306"></a><span class="lineno"> 5306</span>&#160;    <span class="keywordtype">bool</span> GetDragAllowMove() { <span class="keywordflow">return</span> (GetDragFlags() &amp; wxDrag_AllowMove) != 0; }</div>
 <div class="line"><a name="l05307"></a><span class="lineno"> 5307</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="line"><a name="l05308"></a><span class="lineno"> 5308</span>&#160;<span class="comment">/* C::B begin */</span></div>
 <div class="line"><a name="l05309"></a><span class="lineno"><a class="line" href="classwxScintillaEvent#sn-GetUpdateType"> 5309</a></span>&#160;    <span class="keywordtype">int</span> <a class="code" href="classwxScintillaEvent#sn-GetUpdateType">GetUpdateType</a>()              { <span class="keywordflow">return</span> m_update; }</div>
@@ -5124,8 +5125,8 @@
 <div class="line"><a name="l05346"></a><span class="lineno"> 5346</span>&#160;</div>
 <div class="line"><a name="l05347"></a><span class="lineno"> 5347</span>&#160;</div>
 <div class="line"><a name="l05348"></a><span class="lineno"> 5348</span>&#160;<span class="preprocessor">#if wxUSE_DRAG_AND_DROP</span></div>
-<div class="line"><a name="l05349"></a><span class="lineno"><a class="line" href="classwxScintillaEvent#wd-m_dragFlags"> 5349</a></span>&#160;    <span class="keywordtype">int</span>      <a class="code" href="classwxScintillaEvent#wd-m_dragFlags">m_dragFlags</a>;       <span class="comment">// wxEVT_SCI_START_DRAG</span></div>
-<div class="line"><a name="l05350"></a><span class="lineno"><a class="line" href="classwxScintillaEvent#e0-m_dragResult"> 5350</a></span>&#160;    wxDragResult <a class="code" href="classwxScintillaEvent#e0-m_dragResult">m_dragResult</a>;  <span class="comment">// wxEVT_SCI_DRAG_OVER,wxEVT_SCI_DO_DROP</span></div>
+<div class="line"><a name="l05349"></a><span class="lineno"> 5349</span>&#160;    <span class="keywordtype">int</span>      m_dragFlags;       <span class="comment">// wxEVT_SCI_START_DRAG</span></div>
+<div class="line"><a name="l05350"></a><span class="lineno"> 5350</span>&#160;    wxDragResult m_dragResult;  <span class="comment">// wxEVT_SCI_DRAG_OVER,wxEVT_SCI_DO_DROP</span></div>
 <div class="line"><a name="l05351"></a><span class="lineno"> 5351</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="line"><a name="l05352"></a><span class="lineno"> 5352</span>&#160;<span class="comment">/* C::B begin */</span></div>
 <div class="line"><a name="l05353"></a><span class="lineno"><a class="line" href="classwxScintillaEvent#j9-m_update"> 5353</a></span>&#160;    <span class="keywordtype">int</span> <a class="code" href="classwxScintillaEvent#j9-m_update">m_update</a>;</div>
@@ -5227,7 +5228,7 @@
 <div class="line"><a name="l05449"></a><span class="lineno"><a class="line" href="wxscintilla_8h#pp-wxScintillaEventFunction"> 5449</a></span>&#160;<span class="keyword">typedef</span> void (wxEvtHandler::*<a class="code" href="wxscintilla_8h#pp-wxScintillaEventFunction">wxScintillaEventFunction</a>)(<a class="code" href="classwxScintillaEvent">wxScintillaEvent</a>&amp;);</div>
 <div class="line"><a name="l05450"></a><span class="lineno"> 5450</span>&#160;</div>
 <div class="line"><a name="l05451"></a><span class="lineno"> 5451</span>&#160;<span class="comment">/* C::B begin */</span></div>
-<div class="line"><a name="l05452"></a><span class="lineno"> 5452</span>&#160;<span class="preprocessor">#if !wxCHECK_VERSION(2,9,0)</span></div>
+<div class="line"><a name="l05452"></a><span class="lineno"> 5452</span>&#160;<span class="preprocessor">#if !wxCHECK_VERSION(3, 0, 0)</span></div>
 <div class="line"><a name="l05453"></a><span class="lineno"><a class="line" href="wxscintilla_8h#yd-wxEVENT_HANDLER_CAST"> 5453</a></span>&#160;<span class="preprocessor">  #define wxEVENT_HANDLER_CAST( functype, func ) \</span></div>
 <div class="line"><a name="l05454"></a><span class="lineno"> 5454</span>&#160;<span class="preprocessor">      ( wxObjectEventFunction )( wxEventFunction )wxStaticCastEvent( functype, &amp;func )</span></div>
 <div class="line"><a name="l05455"></a><span class="lineno"> 5455</span>&#160;<span class="preprocessor">#endif</span></div>
@@ -5318,25 +5319,20 @@
 <div class="line"><a name="l05540"></a><span class="lineno"> 5540</span>&#160;</div>
 <div class="line"><a name="l05541"></a><span class="lineno"> 5541</span>&#160;<span class="comment">//----------------------------------------------------------------------</span></div>
 <div class="line"><a name="l05542"></a><span class="lineno"> 5542</span>&#160;<span class="preprocessor">#endif // __WXSCINTILLA_H__</span></div>
-<div class="ttc" id="classwxScintillaEvent_mx-GetDragResult"><div class="ttname"><a href="classwxScintillaEvent#mx-GetDragResult">wxScintillaEvent::GetDragResult</a></div><div class="ttdeci">wxDragResult GetDragResult()</div><div class="ttdef"><b>Definition:</b> wxscintilla.h:5304</div></div>
 <div class="ttc" id="classwxScintillaEvent_zt-SetLinesAdded"><div class="ttname"><a href="classwxScintillaEvent#zt-SetLinesAdded">wxScintillaEvent::SetLinesAdded</a></div><div class="ttdeci">void SetLinesAdded(int num)</div><div class="ttdef"><b>Definition:</b> wxscintilla.h:5244</div></div>
 <div class="ttc" id="classwxScintilla_ou-wxScintilla"><div class="ttname"><a href="classwxScintilla#ou-wxScintilla">wxScintilla::wxScintilla</a></div><div class="ttdeci">wxScintilla()</div><div class="ttdef"><b>Definition:</b> wxscintilla.h:2799</div></div>
 <div class="ttc" id="classwxScintillaEvent_ws-SetLParam"><div class="ttname"><a href="classwxScintillaEvent#ws-SetLParam">wxScintillaEvent::SetLParam</a></div><div class="ttdeci">void SetLParam(int val)</div><div class="ttdef"><b>Definition:</b> wxscintilla.h:5251</div></div>
 <div class="ttc" id="classwxScintillaEvent_mb-SetModificationType"><div class="ttname"><a href="classwxScintillaEvent#mb-SetModificationType">wxScintillaEvent::SetModificationType</a></div><div class="ttdeci">void SetModificationType(int t)</div><div class="ttdef"><b>Definition:</b> wxscintilla.h:5240</div></div>
 <div class="ttc" id="classwxScintillaEvent_ow-GetLinesAdded"><div class="ttname"><a href="classwxScintillaEvent#ow-GetLinesAdded">wxScintillaEvent::GetLinesAdded</a></div><div class="ttdeci">int GetLinesAdded() const </div><div class="ttdef"><b>Definition:</b> wxscintilla.h:5285</div></div>
-<div class="ttc" id="classwxScintillaEvent_je-SetDragResult"><div class="ttname"><a href="classwxScintillaEvent#je-SetDragResult">wxScintillaEvent::SetDragResult</a></div><div class="ttdeci">void SetDragResult(wxDragResult val)</div><div class="ttdef"><b>Definition:</b> wxscintilla.h:5262</div></div>
 <div class="ttc" id="classwxScintillaEvent_dx-GetFoldLevelPrev"><div class="ttname"><a href="classwxScintillaEvent#dx-GetFoldLevelPrev">wxScintillaEvent::GetFoldLevelPrev</a></div><div class="ttdeci">int GetFoldLevelPrev() const </div><div class="ttdef"><b>Definition:</b> wxscintilla.h:5288</div></div>
 <div class="ttc" id="classwxScintilla_o8-Replace"><div class="ttname"><a href="classwxScintilla#o8-Replace">wxScintilla::Replace</a></div><div class="ttdeci">virtual void Replace(long from, long to, const wxString &amp;text)</div><div class="ttdef"><b>Definition:</b> wxscintilla.h:5061</div></div>
 <div class="ttc" id="classwxScintilla_ji-SetInsertionPoint"><div class="ttname"><a href="classwxScintilla#ji-SetInsertionPoint">wxScintilla::SetInsertionPoint</a></div><div class="ttdeci">virtual void SetInsertionPoint(long pos)</div><div class="ttdef"><b>Definition:</b> wxscintilla.h:5083</div></div>
 <div class="ttc" id="classwxScintillaEvent_bt-SetText"><div class="ttname"><a href="classwxScintillaEvent#bt-SetText">wxScintillaEvent::SetText</a></div><div class="ttdeci">void SetText(const wxString &amp;t)</div><div class="ttdef"><b>Definition:</b> wxscintilla.h:5242</div></div>
 <div class="ttc" id="classwxScintillaEvent_ic-GetLParam"><div class="ttname"><a href="classwxScintillaEvent#ic-GetLParam">wxScintillaEvent::GetLParam</a></div><div class="ttdeci">int GetLParam() const </div><div class="ttdef"><b>Definition:</b> wxscintilla.h:5292</div></div>
-<div class="ttc" id="classwxScintillaEvent_ou-SetDragFlags"><div class="ttname"><a href="classwxScintillaEvent#ou-SetDragFlags">wxScintillaEvent::SetDragFlags</a></div><div class="ttdeci">void SetDragFlags(int flags)</div><div class="ttdef"><b>Definition:</b> wxscintilla.h:5261</div></div>
-<div class="ttc" id="classwxScintillaEvent_ak-SetDragAllowMove"><div class="ttname"><a href="classwxScintillaEvent#ak-SetDragAllowMove">wxScintillaEvent::SetDragAllowMove</a></div><div class="ttdeci">void SetDragAllowMove(bool allow)</div><div class="ttdef"><b>Definition:</b> wxscintilla.h:5266</div></div>
 <div class="ttc" id="namespaceParserConsts_eu-ptr"><div class="ttname"><a href="namespaceParserConsts#eu-ptr">ParserConsts::ptr</a></div><div class="ttdeci">const wxString ptr(_T(&quot;*&quot;))</div></div>
 <div class="ttc" id="classwxScintillaEvent_qd-SetX"><div class="ttname"><a href="classwxScintillaEvent#qd-SetX">wxScintillaEvent::SetX</a></div><div class="ttdeci">void SetX(int val)</div><div class="ttdef"><b>Definition:</b> wxscintilla.h:5253</div></div>
 <div class="ttc" id="classwxScintillaEvent_e5-Clone"><div class="ttname"><a href="classwxScintillaEvent#e5-Clone">wxScintillaEvent::Clone</a></div><div class="ttdeci">virtual wxEvent * Clone() const </div><div class="ttdef"><b>Definition:</b> wxscintilla.h:5316</div></div>
 <div class="ttc" id="classwxScintilla_qm-GetValue"><div class="ttname"><a href="classwxScintilla#qm-GetValue">wxScintilla::GetValue</a></div><div class="ttdeci">wxString GetValue() const </div><div class="ttdef"><b>Definition:</b> wxscintilla.h:5146</div></div>
-<div class="ttc" id="classwxScintillaEvent_e0-m_dragResult"><div class="ttname"><a href="classwxScintillaEvent#e0-m_dragResult">wxScintillaEvent::m_dragResult</a></div><div class="ttdeci">wxDragResult m_dragResult</div><div class="ttdef"><b>Definition:</b> wxscintilla.h:5350</div></div>
 <div class="ttc" id="wxscintilla_8h_yr-wxScintilla"><div class="ttname"><a href="wxscintilla_8h#yr-wxScintilla">wxScintilla</a></div><div class="ttdeci">class WXDLLIMPEXP_SCI wxScintilla</div><div class="ttdef"><b>Definition:</b> wxscintilla.h:2767</div></div>
 <div class="ttc" id="classwxScintillaEvent_xn-wxScintillaEvent"><div class="ttname"><a href="classwxScintillaEvent#xn-wxScintillaEvent">wxScintillaEvent::~wxScintillaEvent</a></div><div class="ttdeci">~wxScintillaEvent()</div><div class="ttdef"><b>Definition:</b> wxscintilla.h:5235</div></div>
 <div class="ttc" id="classwxScintillaEvent_j9-m_update"><div class="ttname"><a href="classwxScintillaEvent#j9-m_update">wxScintillaEvent::m_update</a></div><div class="ttdeci">int m_update</div><div class="ttdef"><b>Definition:</b> wxscintilla.h:5353</div></div>
@@ -5346,7 +5342,6 @@
 <div class="ttc" id="classwxScintillaEvent_v4-SetY"><div class="ttname"><a href="classwxScintillaEvent#v4-SetY">wxScintillaEvent::SetY</a></div><div class="ttdeci">void SetY(int val)</div><div class="ttdef"><b>Definition:</b> wxscintilla.h:5254</div></div>
 <div class="ttc" id="classwxScintillaEvent_sn-GetUpdateType"><div class="ttname"><a href="classwxScintillaEvent#sn-GetUpdateType">wxScintillaEvent::GetUpdateType</a></div><div class="ttdeci">int GetUpdateType()</div><div class="ttdef"><b>Definition:</b> wxscintilla.h:5309</div></div>
 <div class="ttc" id="classwxScintillaEvent_jg-SetAnnotationLinesAdded"><div class="ttname"><a href="classwxScintillaEvent#jg-SetAnnotationLinesAdded">wxScintillaEvent::SetAnnotationLinesAdded</a></div><div class="ttdeci">void SetAnnotationLinesAdded(int val)</div><div class="ttdef"><b>Definition:</b> wxscintilla.h:5256</div></div>
-<div class="ttc" id="classwxScintillaEvent_ut-GetDragAllowMove"><div class="ttname"><a href="classwxScintillaEvent#ut-GetDragAllowMove">wxScintillaEvent::GetDragAllowMove</a></div><div class="ttdeci">bool GetDragAllowMove()</div><div class="ttdef"><b>Definition:</b> wxscintilla.h:5306</div></div>
 <div class="ttc" id="classwxScintillaEvent_xr-SetUpdateType"><div class="ttname"><a href="classwxScintillaEvent#xr-SetUpdateType">wxScintillaEvent::SetUpdateType</a></div><div class="ttdeci">void SetUpdateType(int update)</div><div class="ttdef"><b>Definition:</b> wxscintilla.h:5275</div></div>
 <div class="ttc" id="classwxScintillaEvent_f1-GetModifiers"><div class="ttname"><a href="classwxScintillaEvent#f1-GetModifiers">wxScintillaEvent::GetModifiers</a></div><div class="ttdeci">int GetModifiers() const </div><div class="ttdef"><b>Definition:</b> wxscintilla.h:5280</div></div>
 <div class="ttc" id="wxscintilla_8h_n2-WXDLLIMPEXP_SCI"><div class="ttname"><a href="wxscintilla_8h#n2-WXDLLIMPEXP_SCI">WXDLLIMPEXP_SCI</a></div><div class="ttdeci">#define WXDLLIMPEXP_SCI</div><div class="ttdef"><b>Definition:</b> wxscintilla.h:40</div></div>
@@ -5354,7 +5349,7 @@
 <div class="ttc" id="classwxScintillaEvent_zg-GetMessage"><div class="ttname"><a href="classwxScintillaEvent#zg-GetMessage">wxScintillaEvent::GetMessage</a></div><div class="ttdeci">int GetMessage() const </div><div class="ttdef"><b>Definition:</b> wxscintilla.h:5290</div></div>
 <div class="ttc" id="wxscintilla_8h_pp-wxScintillaEventFunction"><div class="ttname"><a href="wxscintilla_8h#pp-wxScintillaEventFunction">wxScintillaEventFunction</a></div><div class="ttdeci">void(wxEvtHandler::* wxScintillaEventFunction)(wxScintillaEvent &amp;)</div><div class="ttdef"><b>Definition:</b> wxscintilla.h:5449</div></div>
 <div class="ttc" id="classwxScintillaEvent_zi-GetY"><div class="ttname"><a href="classwxScintillaEvent#zi-GetY">wxScintillaEvent::GetY</a></div><div class="ttdeci">int GetY() const </div><div class="ttdef"><b>Definition:</b> wxscintilla.h:5295</div></div>
-<div class="ttc" id="namespaceCCManagerHelper_za-FindColumn"><div class="ttname"><a href="namespaceCCManagerHelper#za-FindColumn">CCManagerHelper::FindColumn</a></div><div class="ttdeci">int FindColumn(int line, int column, wxScintilla *stc)</div><div class="ttdef"><b>Definition:</b> ccmanager.cpp:50</div></div>
+<div class="ttc" id="namespaceCCManagerHelper_za-FindColumn"><div class="ttname"><a href="namespaceCCManagerHelper#za-FindColumn">CCManagerHelper::FindColumn</a></div><div class="ttdeci">int FindColumn(int line, int column, wxScintilla *stc)</div><div class="ttdef"><b>Definition:</b> ccmanager.cpp:51</div></div>
 <div class="ttc" id="classwxScintillaEvent_yn-SetLine"><div class="ttname"><a href="classwxScintillaEvent#yn-SetLine">wxScintillaEvent::SetLine</a></div><div class="ttdeci">void SetLine(int val)</div><div class="ttdef"><b>Definition:</b> wxscintilla.h:5245</div></div>
 <div class="ttc" id="classwxScintilla"><div class="ttname"><a href="classwxScintilla">wxScintilla</a></div><div class="ttdef"><b>Definition:</b> wxscintilla.h:2781</div></div>
 <div class="ttc" id="classwxScintillaEvent_wc-GetMargin"><div class="ttname"><a href="classwxScintillaEvent#wc-GetMargin">wxScintillaEvent::GetMargin</a></div><div class="ttdeci">int GetMargin() const </div><div class="ttdef"><b>Definition:</b> wxscintilla.h:5289</div></div>
@@ -5368,9 +5363,6 @@
 <div class="ttc" id="wxscintilla_8h_t6-wxSCINameStr"><div class="ttname"><a href="wxscintilla_8h#t6-wxSCINameStr">wxSCINameStr</a></div><div class="ttdeci">WXDLLIMPEXP_SCI const wxChar * wxSCINameStr</div></div>
 <div class="ttc" id="classwxScintillaEvent_ed-SetToken"><div class="ttname"><a href="classwxScintillaEvent#ed-SetToken">wxScintillaEvent::SetToken</a></div><div class="ttdeci">void SetToken(int val)</div><div class="ttdef"><b>Definition:</b> wxscintilla.h:5255</div></div>
 <div class="ttc" id="namespaceParserConsts_p0-space"><div class="ttname"><a href="namespaceParserConsts#p0-space">ParserConsts::space</a></div><div class="ttdeci">const wxString space(_T(&quot; &quot;))</div></div>
-<div class="ttc" id="classwxScintillaEvent_o9-GetDragText"><div class="ttname"><a href="classwxScintillaEvent#o9-GetDragText">wxScintillaEvent::GetDragText</a></div><div class="ttdeci">wxString GetDragText()</div><div class="ttdef"><b>Definition:</b> wxscintilla.h:5302</div></div>
-<div class="ttc" id="classwxScintillaEvent_wd-m_dragFlags"><div class="ttname"><a href="classwxScintillaEvent#wd-m_dragFlags">wxScintillaEvent::m_dragFlags</a></div><div class="ttdeci">int m_dragFlags</div><div class="ttdef"><b>Definition:</b> wxscintilla.h:5349</div></div>
-<div class="ttc" id="classwxScintillaEvent_yu-SetDragText"><div class="ttname"><a href="classwxScintillaEvent#yu-SetDragText">wxScintillaEvent::SetDragText</a></div><div class="ttdeci">void SetDragText(const wxString &amp;val)</div><div class="ttdef"><b>Definition:</b> wxscintilla.h:5260</div></div>
 <div class="ttc" id="classwxScintilla_kl-DoGetValue"><div class="ttname"><a href="classwxScintilla#kl-DoGetValue">wxScintilla::DoGetValue</a></div><div class="ttdeci">virtual wxString DoGetValue() const </div><div class="ttdef"><b>Definition:</b> wxscintilla.h:5150</div></div>
 <div class="ttc" id="classwxScintillaEvent_ge-GetListType"><div class="ttname"><a href="classwxScintillaEvent#ge-GetListType">wxScintillaEvent::GetListType</a></div><div class="ttdeci">int GetListType() const </div><div class="ttdef"><b>Definition:</b> wxscintilla.h:5293</div></div>
 <div class="ttc" id="wxscintilla_8h_dv-wx2sci"><div class="ttname"><a href="wxscintilla_8h#dv-wx2sci">wx2sci</a></div><div class="ttdeci">const wxWX2MBbuf wx2sci(const wxString &amp;str)</div></div>
@@ -5397,19 +5389,18 @@
 <div class="ttc" id="wxscintilla_8h_rk-wxIntPtr"><div class="ttname"><a href="wxscintilla_8h#rk-wxIntPtr">wxIntPtr</a></div><div class="ttdeci">long wxIntPtr</div><div class="ttdef"><b>Definition:</b> wxscintilla.h:2775</div></div>
 <div class="ttc" id="classwxScintilla_k3-GetSelection"><div class="ttname"><a href="classwxScintilla#k3-GetSelection">wxScintilla::GetSelection</a></div><div class="ttdeci">virtual void GetSelection(long *from, long *to) const </div><div class="ttdef"><b>Definition:</b> wxscintilla.h:5111</div></div>
 <div class="ttc" id="classwxScintilla_d1-SetLastKeydownProcessed"><div class="ttname"><a href="classwxScintilla#d1-SetLastKeydownProcessed">wxScintilla::SetLastKeydownProcessed</a></div><div class="ttdeci">void SetLastKeydownProcessed(bool val)</div><div class="ttdef"><b>Definition:</b> wxscintilla.h:4969</div></div>
-<div class="ttc" id="namespaceAssociations_x8-ClearAll"><div class="ttname"><a href="namespaceAssociations#x8-ClearAll">Associations::ClearAll</a></div><div class="ttdeci">void ClearAll()</div><div class="ttdef"><b>Definition:</b> associations.cpp:119</div></div>
+<div class="ttc" id="namespaceAssociations_x8-ClearAll"><div class="ttname"><a href="namespaceAssociations#x8-ClearAll">Associations::ClearAll</a></div><div class="ttdeci">void ClearAll()</div><div class="ttdef"><b>Definition:</b> associations.cpp:122</div></div>
 <div class="ttc" id="classwxScintillaEvent_kr-GetAnnotationsLinesAdded"><div class="ttname"><a href="classwxScintillaEvent#kr-GetAnnotationsLinesAdded">wxScintillaEvent::GetAnnotationsLinesAdded</a></div><div class="ttdeci">int GetAnnotationsLinesAdded() const </div><div class="ttdef"><b>Definition:</b> wxscintilla.h:5297</div></div>
 <div class="ttc" id="classwxScintilla_r0-GetInsertionPoint"><div class="ttname"><a href="classwxScintilla#r0-GetInsertionPoint">wxScintilla::GetInsertionPoint</a></div><div class="ttdeci">virtual long GetInsertionPoint() const </div><div class="ttdef"><b>Definition:</b> wxscintilla.h:5087</div></div>
 <div class="ttc" id="classwxScintillaEvent_ac-SetPosition"><div class="ttname"><a href="classwxScintillaEvent#ac-SetPosition">wxScintillaEvent::SetPosition</a></div><div class="ttdeci">void SetPosition(int pos)</div><div class="ttdef"><b>Definition:</b> wxscintilla.h:5237</div></div>
 <div class="ttc" id="classwxScintilla_t3-SetSelection"><div class="ttname"><a href="classwxScintilla#t3-SetSelection">wxScintilla::SetSelection</a></div><div class="ttdeci">virtual void SetSelection(long from, long to)</div><div class="ttdef"><b>Definition:</b> wxscintilla.h:5090</div></div>
-<div class="ttc" id="classwxScintillaEvent_c8-GetDragFlags"><div class="ttname"><a href="classwxScintillaEvent#c8-GetDragFlags">wxScintillaEvent::GetDragFlags</a></div><div class="ttdeci">int GetDragFlags()</div><div class="ttdef"><b>Definition:</b> wxscintilla.h:5303</div></div>
 <div class="ttc" id="classwxScintillaEvent_np-SetUpdated"><div class="ttname"><a href="classwxScintillaEvent#np-SetUpdated">wxScintillaEvent::SetUpdated</a></div><div class="ttdeci">void SetUpdated(int val)</div><div class="ttdef"><b>Definition:</b> wxscintilla.h:5257</div></div>
 <div class="ttc" id="classwxScintillaEvent_x8-SetFoldLevelNow"><div class="ttname"><a href="classwxScintillaEvent#x8-SetFoldLevelNow">wxScintillaEvent::SetFoldLevelNow</a></div><div class="ttdeci">void SetFoldLevelNow(int val)</div><div class="ttdef"><b>Definition:</b> wxscintilla.h:5246</div></div>
 <div class="ttc" id="classwxScintillaEvent_tj-SetLength"><div class="ttname"><a href="classwxScintillaEvent#tj-SetLength">wxScintillaEvent::SetLength</a></div><div class="ttdeci">void SetLength(int len)</div><div class="ttdef"><b>Definition:</b> wxscintilla.h:5243</div></div>
 <div class="ttc" id="prefix_8cpp_t6-NULL"><div class="ttname"><a href="prefix_8cpp#t6-NULL">NULL</a></div><div class="ttdeci">#define NULL</div><div class="ttdef"><b>Definition:</b> prefix.cpp:59</div></div>
 <div class="ttc" id="wxscintilla_8h_hv-wxSciFnDirect"><div class="ttname"><a href="wxscintilla_8h#hv-wxSciFnDirect">wxSciFnDirect</a></div><div class="ttdeci">wxIntPtr(* wxSciFnDirect)(wxIntPtr ptr, unsigned int iMessage, wxUIntPtr wParam, wxIntPtr lParam)</div><div class="ttdef"><b>Definition:</b> wxscintilla.h:2777</div></div>
 <div class="ttc" id="wxscintilla_8h_tx-wxScrollBar"><div class="ttname"><a href="wxscintilla_8h#tx-wxScrollBar">wxScrollBar</a></div><div class="ttdeci">class WXDLLIMPEXP_FWD_CORE wxScrollBar</div><div class="ttdef"><b>Definition:</b> wxscintilla.h:47</div></div>
-<div class="ttc" id="macrosmanager_8cpp_r2-GetSelectedText"><div class="ttname"><a href="macrosmanager_8cpp#r2-GetSelectedText">GetSelectedText</a></div><div class="ttdeci">wxString GetSelectedText()</div><div class="ttdef"><b>Definition:</b> macrosmanager.cpp:179</div></div>
+<div class="ttc" id="macrosmanager_8cpp_r2-GetSelectedText"><div class="ttname"><a href="macrosmanager_8cpp#r2-GetSelectedText">GetSelectedText</a></div><div class="ttdeci">wxString GetSelectedText()</div><div class="ttdef"><b>Definition:</b> macrosmanager.cpp:180</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

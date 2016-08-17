@@ -8,7 +8,6 @@
  viewBox="0.00 0.00 279.50 818.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 814)">
 <title>IncrementalSelectListDlg</title>
-<polygon fill="white" stroke="none" points="-4,4 -4,-814 275.5,-814 275.5,4 -4,4"/>
 <!-- Node1 -->
 <g id="node1" class="node"><title>Node1</title>
 <polygon fill="#bfbfbf" stroke="black" points="89.5,-0.5 89.5,-156.5 233.5,-156.5 233.5,-0.5 89.5,-0.5"/>
@@ -30,7 +29,7 @@
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
 <g id="a_node2"><a xlink:href="classwxScrollingDialog" target="_top" xlink:title="{wxScrollingDialog\n||+ wxScrollingDialog()\l+ wxScrollingDialog()\l+ Create()\l+ Init()\l+ Show()\l+ ShowModal()\l}">
-<polygon fill="white" stroke="black" points="0,-204.5 0,-316.5 107,-316.5 107,-204.5 0,-204.5"/>
+<polygon fill="none" stroke="black" points="0,-204.5 0,-316.5 107,-316.5 107,-204.5 0,-204.5"/>
 <text text-anchor="middle" x="53.5" y="-304.5" font-family="FreeSans" font-size="10.00">wxScrollingDialog</text>
 <polyline fill="none" stroke="black" points="0,-297.5 107,-297.5 "/>
 <text text-anchor="middle" x="53.5" y="-285.5" font-family="FreeSans" font-size="10.00"> </text>
@@ -51,7 +50,7 @@
 </g>
 <!-- Node3 -->
 <g id="node3" class="node"><title>Node3</title>
-<polygon fill="white" stroke="#bfbfbf" points="14,-442.5 14,-499.5 69,-499.5 69,-442.5 14,-442.5"/>
+<polygon fill="none" stroke="#bfbfbf" points="14,-442.5 14,-499.5 69,-499.5 69,-442.5 14,-442.5"/>
 <text text-anchor="middle" x="41.5" y="-487.5" font-family="FreeSans" font-size="10.00">wxDialog</text>
 <polyline fill="none" stroke="#bfbfbf" points="14,-480.5 69,-480.5 "/>
 <text text-anchor="middle" x="41.5" y="-468.5" font-family="FreeSans" font-size="10.00"> </text>
@@ -66,7 +65,7 @@
 <!-- Node4 -->
 <g id="node4" class="node"><title>Node4</title>
 <g id="a_node4"><a xlink:href="classwxDialogHelper" target="_top" xlink:title="{wxDialogHelper\n|# m_dialog\l# m_layoutLayoutAdaptationDone\l# m_buttonIds\l# m_layoutAdaptationLevel\l# sm_layoutAdaptation\l|+ wxDialogHelper()\l+ ~wxDialogHelper()\l+ Init()\l+ SetDialog()\l+ GetDialog()\l+ DoLayoutAdaptation()\l+ CanDoLayoutAdaptation()\l+ GetContentWindow()\land 7 more...\l+ SetLayoutAdapter()\l+ GetLayoutAdapter()\l+ GetLayoutAdaptation()\l+ SetLayoutAdaptation()\l}">
-<polygon fill="white" stroke="black" points="87,-354.5 87,-587.5 248,-587.5 248,-354.5 87,-354.5"/>
+<polygon fill="none" stroke="black" points="87,-354.5 87,-587.5 248,-587.5 248,-354.5 87,-354.5"/>
 <text text-anchor="middle" x="167.5" y="-575.5" font-family="FreeSans" font-size="10.00">wxDialogHelper</text>
 <polyline fill="none" stroke="black" points="87,-568.5 248,-568.5 "/>
 <text text-anchor="start" x="95" y="-556.5" font-family="FreeSans" font-size="10.00"># m_dialog</text>
@@ -99,7 +98,7 @@
 <!-- Node5 -->
 <g id="node5" class="node"><title>Node5</title>
 <g id="a_node5"><a xlink:href="classwxDialogLayoutAdapter" target="_top" xlink:title="{wxDialogLayoutAdapter\n||+ wxDialogLayoutAdapter()\l+ CanDoLayoutAdaptation()\l+ DoLayoutAdaptation()\l}">
-<polygon fill="white" stroke="black" points="100,-635.5 100,-714.5 235,-714.5 235,-635.5 100,-635.5"/>
+<polygon fill="none" stroke="black" points="100,-635.5 100,-714.5 235,-714.5 235,-635.5 100,-635.5"/>
 <text text-anchor="middle" x="167.5" y="-702.5" font-family="FreeSans" font-size="10.00">wxDialogLayoutAdapter</text>
 <polyline fill="none" stroke="black" points="100,-695.5 235,-695.5 "/>
 <text text-anchor="middle" x="167.5" y="-683.5" font-family="FreeSans" font-size="10.00"> </text>
@@ -118,7 +117,7 @@
 </g>
 <!-- Node6 -->
 <g id="node6" class="node"><title>Node6</title>
-<polygon fill="white" stroke="#bfbfbf" points="139.5,-752.5 139.5,-809.5 195.5,-809.5 195.5,-752.5 139.5,-752.5"/>
+<polygon fill="none" stroke="#bfbfbf" points="139.5,-752.5 139.5,-809.5 195.5,-809.5 195.5,-752.5 139.5,-752.5"/>
 <text text-anchor="middle" x="167.5" y="-797.5" font-family="FreeSans" font-size="10.00">wxObject</text>
 <polyline fill="none" stroke="#bfbfbf" points="139.5,-790.5 195.5,-790.5 "/>
 <text text-anchor="middle" x="167.5" y="-778.5" font-family="FreeSans" font-size="10.00"> </text>
@@ -133,7 +132,7 @@
 <!-- Node7 -->
 <g id="node7" class="node"><title>Node7</title>
 <g id="a_node7"><a xlink:href="classIncrementalSelectIterator" target="_top" xlink:title="{IncrementalSelectIterator\n||+ ~IncrementalSelectIterator()\l+ GetCount()\l+ GetItem()\l+ GetDisplayItem()\l}">
-<polygon fill="white" stroke="black" points="125.5,-215.5 125.5,-305.5 271.5,-305.5 271.5,-215.5 125.5,-215.5"/>
+<polygon fill="none" stroke="black" points="125.5,-215.5 125.5,-305.5 271.5,-305.5 271.5,-215.5 125.5,-215.5"/>
 <text text-anchor="middle" x="198.5" y="-293.5" font-family="FreeSans" font-size="10.00">IncrementalSelectIterator</text>
 <polyline fill="none" stroke="black" points="125.5,-286.5 271.5,-286.5 "/>
 <text text-anchor="middle" x="198.5" y="-274.5" font-family="FreeSans" font-size="10.00"> </text>

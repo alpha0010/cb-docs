@@ -8,7 +8,6 @@
  viewBox="0.00 0.00 284.00 529.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 525)">
 <title>Expression</title>
-<polygon fill="white" stroke="none" points="-4,4 -4,-525 280,-525 280,4 -4,4"/>
 <!-- Node1 -->
 <g id="node1" class="node"><title>Node1</title>
 <polygon fill="#bfbfbf" stroke="black" points="58.5,-0.5 58.5,-156.5 180.5,-156.5 180.5,-0.5 58.5,-0.5"/>
@@ -29,7 +28,7 @@
 </g>
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
-<polygon fill="white" stroke="#bfbfbf" points="0,-204.5 0,-261.5 113,-261.5 113,-204.5 0,-204.5"/>
+<polygon fill="none" stroke="#bfbfbf" points="0,-204.5 0,-261.5 113,-261.5 113,-204.5 0,-204.5"/>
 <text text-anchor="middle" x="56.5" y="-249.5" font-family="FreeSans" font-size="10.00">std::vector&lt; wxString &gt;</text>
 <polyline fill="none" stroke="#bfbfbf" points="0,-242.5 113,-242.5 "/>
 <text text-anchor="start" x="8" y="-230.5" font-family="FreeSans" font-size="10.00">+ elements</text>
@@ -44,7 +43,7 @@
 </g>
 <!-- Node3 -->
 <g id="node3" class="node"><title>Node3</title>
-<polygon fill="white" stroke="#bfbfbf" points="131,-204.5 131,-261.5 276,-261.5 276,-204.5 131,-204.5"/>
+<polygon fill="none" stroke="#bfbfbf" points="131,-204.5 131,-261.5 276,-261.5 276,-204.5 131,-204.5"/>
 <text text-anchor="middle" x="203.5" y="-249.5" font-family="FreeSans" font-size="10.00">std::vector&lt; ExpressionNode &gt;</text>
 <polyline fill="none" stroke="#bfbfbf" points="131,-242.5 276,-242.5 "/>
 <text text-anchor="middle" x="203.5" y="-230.5" font-family="FreeSans" font-size="10.00"> </text>
@@ -60,7 +59,7 @@
 <!-- Node4 -->
 <g id="node4" class="node"><title>Node4</title>
 <g id="a_node4"><a xlink:href="classExpressionNode" target="_top" xlink:title="{ExpressionNode\n|&#45; m_Token\l&#45; m_Type\l&#45; m_UnaryOperator\l&#45; m_Priority\l|+ ExpressionNode()\l+ Initialize()\l+ GetType()\l+ IsUnaryOperator()\l+ SetUnaryOperator()\l+ GetPriority()\l+ GetToken()\l+ GetTokenValue()\l+ ParseNodeType()\l+ GetNodeTypePriority()\l+ IsUnaryNode()\l+ IsBinaryOperator()\l}">
-<polygon fill="white" stroke="black" points="143.5,-309.5 143.5,-520.5 263.5,-520.5 263.5,-309.5 143.5,-309.5"/>
+<polygon fill="none" stroke="black" points="143.5,-309.5 143.5,-520.5 263.5,-520.5 263.5,-309.5 143.5,-309.5"/>
 <text text-anchor="middle" x="203.5" y="-508.5" font-family="FreeSans" font-size="10.00">ExpressionNode</text>
 <polyline fill="none" stroke="black" points="143.5,-501.5 263.5,-501.5 "/>
 <text text-anchor="start" x="151.5" y="-489.5" font-family="FreeSans" font-size="10.00">&#45; m_Token</text>

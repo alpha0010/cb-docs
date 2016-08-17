@@ -8,7 +8,6 @@
  viewBox="0.00 0.00 567.50 1845.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 1841)">
 <title>MacrosManager</title>
-<polygon fill="white" stroke="none" points="-4,4 -4,-1841 563.5,-1841 563.5,4 -4,4"/>
 <!-- Node1 -->
 <g id="node1" class="node"><title>Node1</title>
 <polygon fill="#bfbfbf" stroke="black" points="180.5,-171.5 180.5,-437.5 320.5,-437.5 320.5,-171.5 180.5,-171.5"/>
@@ -40,7 +39,7 @@
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
 <g id="a_node2"><a xlink:href="classMgr" target="_top" xlink:title="{Mgr\&lt; MacrosManager \&gt;\n|&#45; isShutdown\l|+ Valid()\l+ Get()\l+ Free()\l# Mgr()\l# ~Mgr()\l&#45; Mgr()\l&#45; operator=()\l}">
-<polygon fill="white" stroke="black" points="191,-0.5 191,-123.5 310,-123.5 310,-0.5 191,-0.5"/>
+<polygon fill="none" stroke="black" points="191,-0.5 191,-123.5 310,-123.5 310,-0.5 191,-0.5"/>
 <text text-anchor="middle" x="250.5" y="-111.5" font-family="FreeSans" font-size="10.00">Mgr&lt; MacrosManager &gt;</text>
 <polyline fill="none" stroke="black" points="191,-104.5 310,-104.5 "/>
 <text text-anchor="start" x="199" y="-92.5" font-family="FreeSans" font-size="10.00">&#45; isShutdown</text>
@@ -69,7 +68,7 @@
 <!-- Node3 -->
 <g id="node3" class="node"><title>Node3</title>
 <g id="a_node3"><a xlink:href="classUserVariableManager" target="_top" xlink:title="{UserVariableManager\n|&#45; m_ActiveSet\l&#45; m_Preempted\l|+ UserVariableManager()\l+ Replace()\l+ Preempt()\l+ Arrogate()\l+ Exists()\l+ Configure()\l+ Migrate()\l+ operator=()\l&#45; UserVariableManager()\l}">
-<polygon fill="white" stroke="black" points="40.5,-524 40.5,-680 162.5,-680 162.5,-524 40.5,-524"/>
+<polygon fill="none" stroke="black" points="40.5,-524 40.5,-680 162.5,-680 162.5,-524 40.5,-524"/>
 <text text-anchor="middle" x="101.5" y="-668" font-family="FreeSans" font-size="10.00">UserVariableManager</text>
 <polyline fill="none" stroke="black" points="40.5,-661 162.5,-661 "/>
 <text text-anchor="start" x="48.5" y="-649" font-family="FreeSans" font-size="10.00">&#45; m_ActiveSet</text>
@@ -96,7 +95,7 @@
 <!-- Node4 -->
 <g id="node4" class="node"><title>Node4</title>
 <g id="a_node4"><a xlink:href="classMgr" target="_top" xlink:title="{Mgr\&lt; UserVariableManager \&gt;\n|&#45; isShutdown\l|+ Valid()\l+ Get()\l+ Free()\l# Mgr()\l# ~Mgr()\l&#45; Mgr()\l&#45; operator=()\l}">
-<polygon fill="white" stroke="black" points="0,-243 0,-366 141,-366 141,-243 0,-243"/>
+<polygon fill="none" stroke="black" points="0,-243 0,-366 141,-366 141,-243 0,-243"/>
 <text text-anchor="middle" x="70.5" y="-354" font-family="FreeSans" font-size="10.00">Mgr&lt; UserVariableManager &gt;</text>
 <polyline fill="none" stroke="black" points="0,-347 141,-347 "/>
 <text text-anchor="start" x="8" y="-335" font-family="FreeSans" font-size="10.00">&#45; isShutdown</text>
@@ -125,7 +124,7 @@
 <!-- Node5 -->
 <g id="node5" class="node"><title>Node5</title>
 <g id="a_node5"><a xlink:href="classConfigManager" target="_top" xlink:title="{ConfigManager\n|&#45; doc\l&#45; root\l&#45; pathNode\l&#45; config_folder\l&#45; home_folder\l&#45; data_path_user\l&#45; data_path_global\l&#45; app_path\l&#45; temp_folder\l&#45; alternate_user_data_path\l&#45; has_alternate_user\l_data_path\l|+ GetPath()\l+ SetPath()\l+ EnumerateSubPaths()\l+ EnumerateKeys()\l+ DeleteSubPath()\l+ Clear()\l+ Delete()\l+ DeleteAll()\land 39 more...\l+ LocateDataFile()\l+ GetFolder()\l+ GetHomeFolder()\l+ GetConfigFolder()\l+ GetPluginsFolder()\l+ GetScriptsFolder()\l+ GetDataFolder()\l+ GetExecutableFolder()\land 7 more...\l# SetUserDataFolder()\l# GetUserDataFolder()\l&#45; ConfigManager()\l&#45; AssertPath()\l&#45; GetUniqElement()\l&#45; SetNodeText()\l&#45; Collapse()\l&#45; InvalidNameMessage()\l&#45; InitPaths()\l&#45; MigrateFolders()\l}">
-<polygon fill="white" stroke="black" points="36,-766.5 36,-1241.5 167,-1241.5 167,-766.5 36,-766.5"/>
+<polygon fill="none" stroke="black" points="36,-766.5 36,-1241.5 167,-1241.5 167,-766.5 36,-766.5"/>
 <text text-anchor="middle" x="101.5" y="-1229.5" font-family="FreeSans" font-size="10.00">ConfigManager</text>
 <polyline fill="none" stroke="black" points="36,-1222.5 167,-1222.5 "/>
 <text text-anchor="start" x="44" y="-1210.5" font-family="FreeSans" font-size="10.00">&#45; doc</text>
@@ -181,7 +180,7 @@
 <!-- Node6 -->
 <g id="node6" class="node"><title>Node6</title>
 <g id="a_node6"><a xlink:href="classcbProject" target="_top" xlink:title="Represents a Code::Blocks project. ">
-<polygon fill="white" stroke="black" points="300.5,-849 300.5,-1159 470.5,-1159 470.5,-849 300.5,-849"/>
+<polygon fill="none" stroke="black" points="300.5,-849 300.5,-1159 470.5,-1159 470.5,-849 300.5,-849"/>
 <text text-anchor="middle" x="385.5" y="-1147" font-family="FreeSans" font-size="10.00">cbProject</text>
 <polyline fill="none" stroke="black" points="300.5,-1140 470.5,-1140 "/>
 <text text-anchor="start" x="308.5" y="-1128" font-family="FreeSans" font-size="10.00">&#45; m_Targets</text>
@@ -222,7 +221,7 @@
 <!-- Node12 -->
 <g id="node12" class="node"><title>Node12</title>
 <g id="a_node12"><a xlink:href="classProjectBuildTarget" target="_top" xlink:title="Represents a Code::Blocks project build target. ">
-<polygon fill="white" stroke="black" points="181,-485.5 181,-718.5 320,-718.5 320,-485.5 181,-485.5"/>
+<polygon fill="none" stroke="black" points="181,-485.5 181,-718.5 320,-718.5 320,-485.5 181,-485.5"/>
 <text text-anchor="middle" x="250.5" y="-706.5" font-family="FreeSans" font-size="10.00">ProjectBuildTarget</text>
 <polyline fill="none" stroke="black" points="181,-699.5 320,-699.5 "/>
 <text text-anchor="start" x="189" y="-687.5" font-family="FreeSans" font-size="10.00">&#45; m_ExternalDeps</text>
@@ -256,7 +255,7 @@
 <!-- Node7 -->
 <g id="node7" class="node"><title>Node7</title>
 <g id="a_node7"><a xlink:href="classCompileTargetBase" target="_top" xlink:title="Base class for build target classes Each Code::Blocks project consists of at least one target...">
-<polygon fill="white" stroke="black" points="138,-1289.5 138,-1555.5 293,-1555.5 293,-1289.5 138,-1289.5"/>
+<polygon fill="none" stroke="black" points="138,-1289.5 138,-1555.5 293,-1555.5 293,-1289.5 138,-1289.5"/>
 <text text-anchor="middle" x="215.5" y="-1543.5" font-family="FreeSans" font-size="10.00">CompileTargetBase</text>
 <polyline fill="none" stroke="black" points="138,-1536.5 293,-1536.5 "/>
 <text text-anchor="start" x="146" y="-1524.5" font-family="FreeSans" font-size="10.00"># m_Filename</text>
@@ -297,7 +296,7 @@
 <!-- Node8 -->
 <g id="node8" class="node"><title>Node8</title>
 <g id="a_node8"><a xlink:href="classCompileOptionsBase" target="_top" xlink:title="This is a base class for all classes needing compilation parameters. ">
-<polygon fill="white" stroke="black" points="141,-1603.5 141,-1836.5 290,-1836.5 290,-1603.5 141,-1603.5"/>
+<polygon fill="none" stroke="black" points="141,-1603.5 141,-1836.5 290,-1836.5 290,-1603.5 141,-1603.5"/>
 <text text-anchor="middle" x="215.5" y="-1824.5" font-family="FreeSans" font-size="10.00">CompileOptionsBase</text>
 <polyline fill="none" stroke="black" points="141,-1817.5 290,-1817.5 "/>
 <text text-anchor="start" x="149" y="-1805.5" font-family="FreeSans" font-size="10.00"># m_Platform</text>
@@ -329,7 +328,7 @@
 </g>
 <!-- Node9 -->
 <g id="node9" class="node"><title>Node9</title>
-<polygon fill="white" stroke="#bfbfbf" points="330,-1383 330,-1462 431,-1462 431,-1383 330,-1383"/>
+<polygon fill="none" stroke="#bfbfbf" points="330,-1383 330,-1462 431,-1462 431,-1383 330,-1383"/>
 <text text-anchor="start" x="338" y="-1450" font-family="FreeSans" font-size="10.00">std::map&lt; wxString,</text>
 <text text-anchor="middle" x="380.5" y="-1439" font-family="FreeSans" font-size="10.00"> wxArrayString &gt;</text>
 <polyline fill="none" stroke="#bfbfbf" points="330,-1432 431,-1432 "/>
@@ -346,7 +345,7 @@
 </g>
 <!-- Node10 -->
 <g id="node10" class="node"><title>Node10</title>
-<polygon fill="white" stroke="#bfbfbf" points="449.5,-1388.5 449.5,-1456.5 559.5,-1456.5 559.5,-1388.5 449.5,-1388.5"/>
+<polygon fill="none" stroke="#bfbfbf" points="449.5,-1388.5 449.5,-1456.5 559.5,-1456.5 559.5,-1388.5 449.5,-1388.5"/>
 <text text-anchor="start" x="457.5" y="-1444.5" font-family="FreeSans" font-size="10.00">std::vector&lt; cbProject</text>
 <text text-anchor="middle" x="504.5" y="-1433.5" font-family="FreeSans" font-size="10.00">::Glob &gt;</text>
 <polyline fill="none" stroke="#bfbfbf" points="449.5,-1426.5 559.5,-1426.5 "/>
@@ -363,7 +362,7 @@
 <!-- Node11 -->
 <g id="node11" class="node"><title>Node11</title>
 <g id="a_node11"><a xlink:href="structcbProject_1_1Glob" target="_top" xlink:title="{cbProject::Glob\n|+ m_Path\l+ m_WildCard\l+ m_Recursive\l|+ Glob()\l}">
-<polygon fill="white" stroke="black" points="463,-1680.5 463,-1759.5 546,-1759.5 546,-1680.5 463,-1680.5"/>
+<polygon fill="none" stroke="black" points="463,-1680.5 463,-1759.5 546,-1759.5 546,-1680.5 463,-1680.5"/>
 <text text-anchor="middle" x="504.5" y="-1747.5" font-family="FreeSans" font-size="10.00">cbProject::Glob</text>
 <polyline fill="none" stroke="black" points="463,-1740.5 546,-1740.5 "/>
 <text text-anchor="start" x="471" y="-1728.5" font-family="FreeSans" font-size="10.00">+ m_Path</text>

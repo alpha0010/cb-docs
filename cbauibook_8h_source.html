@@ -18,7 +18,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">Code::Blocks
-   &#160;<span id="projectnumber">SVN r10603</span>
+   &#160;<span id="projectnumber">SVN r10885</span>
    </div>
   </td>
  </tr>
@@ -30,6 +30,7 @@
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="index"><span>Main&#160;Page</span></a></li>
+      <li><a href="pages"><span>Related&#160;Pages</span></a></li>
       <li><a href="namespaces"><span>Namespaces</span></a></li>
       <li><a href="annotated"><span>Classes</span></a></li>
       <li class="current"><a href="files"><span>Files</span></a></li>
@@ -84,11 +85,11 @@
 <div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;        <span class="keywordtype">bool</span> LoadPerspective(<span class="keyword">const</span> wxString&amp; layout, <span class="keywordtype">bool</span> mergeLayouts = <span class="keyword">false</span>);</div>
 <div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;        <span class="keywordtype">int</span> GetTabIndexFromTooltip(<span class="keyword">const</span> wxString&amp; text);</div>
 <div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;        <span class="keywordtype">int</span> GetTabPositionFromIndex(<span class="keywordtype">int</span> index);</div>
-<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;<span class="preprocessor">#if !wxCHECK_VERSION(2, 9, 4)</span></div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;<span class="preprocessor">#if !wxCHECK_VERSION(3, 0, 0)</span></div>
 <div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;</div>
 <div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;        <span class="keywordtype">bool</span> SetPageToolTip(<span class="keywordtype">size_t</span> idx, <span class="keyword">const</span> wxString &amp; text );</div>
 <div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;        wxString GetPageToolTip(<span class="keywordtype">size_t</span> idx  );</div>
-<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;<span class="preprocessor">#endif // !wxCHECK_VERSION(2, 9, 4)</span></div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;<span class="preprocessor">#endif // !wxCHECK_VERSION(3, 0, 0)</span></div>
 <div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;</div>
 <div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;        <span class="keywordtype">void</span> MinimizeFreeSpace();</div>
 <div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;        <span class="keywordtype">bool</span> DeletePage(<span class="keywordtype">size_t</span> page);</div>
@@ -112,17 +113,17 @@
 <div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160;    <span class="keyword">protected</span>:</div>
 <div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160;        wxString UniqueIdFromTooltip(<span class="keyword">const</span> wxString&amp; text);</div>
 <div class="line"><a name="l00201"></a><span class="lineno">  201</span>&#160;        <span class="keywordtype">void</span> MinimizeFreeSpace(wxAuiTabCtrl* tabCtrl);</div>
-<div class="line"><a name="l00208"></a><span class="lineno">  208</span>&#160;<span class="preprocessor">#if wxCHECK_VERSION(2, 9, 0)</span></div>
+<div class="line"><a name="l00208"></a><span class="lineno">  208</span>&#160;<span class="preprocessor">#if wxCHECK_VERSION(3, 0, 0)</span></div>
 <div class="line"><a name="l00209"></a><span class="lineno">  209</span>&#160;        <span class="keywordtype">void</span> OnNavigationKeyNotebook(wxNavigationKeyEvent&amp; event);</div>
 <div class="line"><a name="l00210"></a><span class="lineno">  210</span>&#160;<span class="preprocessor">#else</span></div>
 <div class="line"><a name="l00211"></a><span class="lineno">  211</span>&#160;        <span class="keywordtype">void</span> OnNavigationKey(wxNavigationKeyEvent&amp; event);</div>
-<div class="line"><a name="l00212"></a><span class="lineno">  212</span>&#160;<span class="preprocessor">#endif // wxCHECK_VERSION(2, 9, 0)</span></div>
+<div class="line"><a name="l00212"></a><span class="lineno">  212</span>&#160;<span class="preprocessor">#endif // wxCHECK_VERSION(3, 0, 0)</span></div>
 <div class="line"><a name="l00213"></a><span class="lineno">  213</span>&#160;</div>
 <div class="line"><a name="l00217"></a><span class="lineno">  217</span>&#160;        <span class="keywordtype">void</span> OnIdle(cb_unused wxIdleEvent&amp; event);</div>
-<div class="line"><a name="l00218"></a><span class="lineno">  218</span>&#160;<span class="preprocessor">#if !wxCHECK_VERSION(2, 9, 4)</span></div>
+<div class="line"><a name="l00218"></a><span class="lineno">  218</span>&#160;<span class="preprocessor">#if !wxCHECK_VERSION(3, 0, 0)</span></div>
 <div class="line"><a name="l00219"></a><span class="lineno">  219</span>&#160;</div>
 <div class="line"><a name="l00225"></a><span class="lineno">  225</span>&#160;        <span class="keywordtype">void</span> OnMotion(wxMouseEvent&amp; event);</div>
-<div class="line"><a name="l00226"></a><span class="lineno">  226</span>&#160;<span class="preprocessor">#endif // !wxCHECK_VERSION(2, 9, 4)</span></div>
+<div class="line"><a name="l00226"></a><span class="lineno">  226</span>&#160;<span class="preprocessor">#endif // !wxCHECK_VERSION(3, 0, 0)</span></div>
 <div class="line"><a name="l00227"></a><span class="lineno">  227</span>&#160;</div>
 <div class="line"><a name="l00234"></a><span class="lineno">  234</span>&#160;        <span class="keywordtype">void</span> OnTabCtrlDblClick(wxMouseEvent&amp; event);</div>
 <div class="line"><a name="l00242"></a><span class="lineno">  242</span>&#160;        <span class="keywordtype">void</span> OnTabCtrlMouseWheel(wxMouseEvent&amp; event);</div>
@@ -147,10 +148,10 @@
 <div class="line"><a name="l00314"></a><span class="lineno"><a class="line" href="classcbAuiNotebook#mm-m_LastSelected">  314</a></span>&#160;<span class="comment"></span>        <span class="keywordtype">int</span> <a class="code" href="classcbAuiNotebook#mm-m_LastSelected">m_LastSelected</a>;</div>
 <div class="line"><a name="l00319"></a><span class="lineno"><a class="line" href="classcbAuiNotebook#ub-m_LastId">  319</a></span>&#160;        <span class="keywordtype">long</span> <a class="code" href="classcbAuiNotebook#ub-m_LastId">m_LastId</a>;</div>
 <div class="line"><a name="l00320"></a><span class="lineno">  320</span>&#160;<span class="preprocessor">#endif // __WXMSW__</span></div>
-<div class="line"><a name="l00321"></a><span class="lineno">  321</span>&#160;<span class="preprocessor">#if !wxCHECK_VERSION(2, 9, 4)</span></div>
+<div class="line"><a name="l00321"></a><span class="lineno">  321</span>&#160;<span class="preprocessor">#if !wxCHECK_VERSION(3, 0, 0)</span></div>
 <div class="line"><a name="l00322"></a><span class="lineno">  322</span>&#160;</div>
 <div class="line"><a name="l00328"></a><span class="lineno"><a class="line" href="classcbAuiNotebook#e4-m_HasToolTip">  328</a></span>&#160;        <span class="keywordtype">bool</span> <a class="code" href="classcbAuiNotebook#e4-m_HasToolTip">m_HasToolTip</a>;</div>
-<div class="line"><a name="l00329"></a><span class="lineno">  329</span>&#160;<span class="preprocessor">#endif // !wxCHECK_VERSION(2, 9, 4)</span></div>
+<div class="line"><a name="l00329"></a><span class="lineno">  329</span>&#160;<span class="preprocessor">#endif // !wxCHECK_VERSION(3, 0, 0)</span></div>
 <div class="line"><a name="l00330"></a><span class="lineno">  330</span>&#160;</div>
 <div class="line"><a name="l00333"></a><span class="lineno"><a class="line" href="classcbAuiNotebook#cf-m_SetZoomOnIdle">  333</a></span>&#160;        <span class="keywordtype">bool</span> <a class="code" href="classcbAuiNotebook#cf-m_SetZoomOnIdle">m_SetZoomOnIdle</a>;</div>
 <div class="line"><a name="l00337"></a><span class="lineno"><a class="line" href="classcbAuiNotebook#ur-m_MinimizeFreeSpaceOnIdle">  337</a></span>&#160;        <span class="keywordtype">bool</span> <a class="code" href="classcbAuiNotebook#ur-m_MinimizeFreeSpaceOnIdle">m_MinimizeFreeSpaceOnIdle</a>;</div>
@@ -173,10 +174,15 @@
 <div class="line"><a name="l00391"></a><span class="lineno"><a class="line" href="classcbAuiNotebook#ma-s_moveDirection">  391</a></span>&#160;        <span class="keyword">static</span> <span class="keywordtype">int</span> <a class="code" href="classcbAuiNotebook#ma-s_moveDirection">s_moveDirection</a>;</div>
 <div class="line"><a name="l00394"></a><span class="lineno"><a class="line" href="classcbAuiNotebook#sw-s_advanceDirection">  394</a></span>&#160;        <span class="keyword">static</span> <span class="keywordtype">int</span> <a class="code" href="classcbAuiNotebook#sw-s_advanceDirection">s_advanceDirection</a>;</div>
 <div class="line"><a name="l00395"></a><span class="lineno">  395</span>&#160;</div>
-<div class="line"><a name="l00396"></a><span class="lineno">  396</span>&#160;        DECLARE_EVENT_TABLE()</div>
-<div class="line"><a name="l00397"></a><span class="lineno">  397</span>&#160;};</div>
-<div class="line"><a name="l00398"></a><span class="lineno">  398</span>&#160;</div>
-<div class="line"><a name="l00399"></a><span class="lineno">  399</span>&#160;<span class="preprocessor">#endif // CBAUIBOOK_H_INCLUDED</span></div>
+<div class="line"><a name="l00396"></a><span class="lineno">  396</span>&#160;    <span class="keyword">private</span>:</div>
+<div class="line"><a name="l00397"></a><span class="lineno">  397</span>&#160;        <span class="comment">// the following two using directives remove the &quot;-Woverloaded-virtual&quot; warnings</span></div>
+<div class="line"><a name="l00398"></a><span class="lineno">  398</span>&#160;        <span class="keyword">using</span> wxAuiNotebook::AddPage;</div>
+<div class="line"><a name="l00399"></a><span class="lineno">  399</span>&#160;        <span class="keyword">using</span> wxAuiNotebook::InsertPage;</div>
+<div class="line"><a name="l00400"></a><span class="lineno">  400</span>&#160;</div>
+<div class="line"><a name="l00401"></a><span class="lineno">  401</span>&#160;        DECLARE_EVENT_TABLE()</div>
+<div class="line"><a name="l00402"></a><span class="lineno">  402</span>&#160;};</div>
+<div class="line"><a name="l00403"></a><span class="lineno">  403</span>&#160;</div>
+<div class="line"><a name="l00404"></a><span class="lineno">  404</span>&#160;<span class="preprocessor">#endif // CBAUIBOOK_H_INCLUDED</span></div>
 <div class="ttc" id="classcbAuiNotebook_tu-s_modToAdvance"><div class="ttname"><a href="classcbAuiNotebook#tu-s_modToAdvance">cbAuiNotebook::s_modToAdvance</a></div><div class="ttdeci">static bool s_modToAdvance</div><div class="ttdoc">Use modkey to advance through tabs with mousewheel. </div><div class="ttdef"><b>Definition:</b> cbauibook.h:388</div></div>
 <div class="ttc" id="classcbAuiNotebook_r9-m_TabCtrlSize"><div class="ttname"><a href="classcbAuiNotebook#r9-m_TabCtrlSize">cbAuiNotebook::m_TabCtrlSize</a></div><div class="ttdeci">wxSize m_TabCtrlSize</div><div class="ttdoc">Holds the size of a tabCtrl after a resize event. </div><div class="ttdef"><b>Definition:</b> cbauibook.h:343</div></div>
 <div class="ttc" id="prep_8h"><div class="ttname"><a href="prep_8h">prep.h</a></div></div>

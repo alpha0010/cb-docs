@@ -18,7 +18,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">Code::Blocks
-   &#160;<span id="projectnumber">SVN r10603</span>
+   &#160;<span id="projectnumber">SVN r10885</span>
    </div>
   </td>
  </tr>
@@ -30,6 +30,7 @@
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="index"><span>Main&#160;Page</span></a></li>
+      <li><a href="pages"><span>Related&#160;Pages</span></a></li>
       <li><a href="namespaces"><span>Namespaces</span></a></li>
       <li><a href="annotated"><span>Classes</span></a></li>
       <li class="current"><a href="files"><span>Files</span></a></li>
@@ -61,7 +62,7 @@
 <div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;</div>
 <div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="cbauibook_8h">cbauibook.h</a>&quot;</span></div>
 <div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;</div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="preprocessor">#if defined(__WXGTK__) &amp;&amp; (USE_GTK_NOTEBOOK) &amp;&amp; !wxCHECK_VERSION(2, 9, 4)</span></div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="preprocessor">#if defined(__WXGTK__) &amp;&amp; (USE_GTK_NOTEBOOK) &amp;&amp; !wxCHECK_VERSION(3, 0, 0)</span></div>
 <div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="preprocessor">    #define GSocket GLibSocket</span></div>
 <div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="preprocessor">    #include &lt;gtk/gtk.h&gt;</span></div>
 <div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="preprocessor">    #undef GSocket</span></div>
@@ -106,7 +107,7 @@
 <div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;                            <span class="keyword">const</span> wxSize&amp; required_bmp_size);</div>
 <div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;};</div>
 <div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;</div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;<span class="preprocessor">#if defined(__WXGTK__) &amp;&amp; (USE_GTK_NOTEBOOK) &amp;&amp; !wxCHECK_VERSION(2, 9, 4)</span></div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;<span class="preprocessor">#if defined(__WXGTK__) &amp;&amp; (USE_GTK_NOTEBOOK) &amp;&amp; !wxCHECK_VERSION(3, 0, 0)</span></div>
 <div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;<span class="keyword">class </span>NbStyleGTK : <span class="keyword">public</span> wxAuiDefaultTabArt</div>
 <div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;{</div>
 <div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;<span class="keyword">public</span>:</div>
@@ -135,21 +136,21 @@
 <div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;    <span class="keywordtype">int</span> m_TabVBorder;</div>
 <div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;    wxBitmap m_ActiveCloseButton;</div>
 <div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;};</div>
-<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;<span class="preprocessor">#endif // #if defined(__WXGTK__) &amp;&amp; (USE_GTK_NOTEBOOK) &amp;&amp; !wxCHECK_VERSION(2, 9, 4)</span></div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;<span class="preprocessor">#endif // #if defined(__WXGTK__) &amp;&amp; (USE_GTK_NOTEBOOK) &amp;&amp; !wxCHECK_VERSION(3, 0, 0)</span></div>
 <div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;</div>
 <div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;<span class="preprocessor">#endif // NOTEBOOKSTYLES_H</span></div>
-<div class="ttc" id="classNbStyleFF2_rc-Clone"><div class="ttname"><a href="classNbStyleFF2#rc-Clone">NbStyleFF2::Clone</a></div><div class="ttdeci">wxAuiTabArt * Clone()</div><div class="ttdef"><b>Definition:</b> notebookstyles.cpp:250</div></div>
-<div class="ttc" id="classNbStyleFF2_cj-GetBestTabCtrlSize"><div class="ttname"><a href="classNbStyleFF2#cj-GetBestTabCtrlSize">NbStyleFF2::GetBestTabCtrlSize</a></div><div class="ttdeci">int GetBestTabCtrlSize(wxWindow *wnd, const wxAuiNotebookPageArray &amp;pages, const wxSize &amp;required_bmp_size)</div><div class="ttdef"><b>Definition:</b> notebookstyles.cpp:422</div></div>
-<div class="ttc" id="classNbStyleVC71_js-NbStyleVC71"><div class="ttname"><a href="classNbStyleVC71#js-NbStyleVC71">NbStyleVC71::NbStyleVC71</a></div><div class="ttdeci">NbStyleVC71()</div><div class="ttdef"><b>Definition:</b> notebookstyles.cpp:42</div></div>
-<div class="ttc" id="classNbStyleFF2_ht-DrawTab"><div class="ttname"><a href="classNbStyleFF2#ht-DrawTab">NbStyleFF2::DrawTab</a></div><div class="ttdeci">void DrawTab(wxDC &amp;dc, wxWindow *wnd, const wxAuiNotebookPage &amp;page, const wxRect &amp;in_rect, int close_button_state, wxRect *out_tab_rect, wxRect *out_button_rect, int *x_extent)</div><div class="ttdef"><b>Definition:</b> notebookstyles.cpp:267</div></div>
+<div class="ttc" id="classNbStyleFF2_rc-Clone"><div class="ttname"><a href="classNbStyleFF2#rc-Clone">NbStyleFF2::Clone</a></div><div class="ttdeci">wxAuiTabArt * Clone()</div><div class="ttdef"><b>Definition:</b> notebookstyles.cpp:245</div></div>
+<div class="ttc" id="classNbStyleFF2_cj-GetBestTabCtrlSize"><div class="ttname"><a href="classNbStyleFF2#cj-GetBestTabCtrlSize">NbStyleFF2::GetBestTabCtrlSize</a></div><div class="ttdeci">int GetBestTabCtrlSize(wxWindow *wnd, const wxAuiNotebookPageArray &amp;pages, const wxSize &amp;required_bmp_size)</div><div class="ttdef"><b>Definition:</b> notebookstyles.cpp:417</div></div>
+<div class="ttc" id="classNbStyleVC71_js-NbStyleVC71"><div class="ttname"><a href="classNbStyleVC71#js-NbStyleVC71">NbStyleVC71::NbStyleVC71</a></div><div class="ttdeci">NbStyleVC71()</div><div class="ttdef"><b>Definition:</b> notebookstyles.cpp:37</div></div>
+<div class="ttc" id="classNbStyleFF2_ht-DrawTab"><div class="ttname"><a href="classNbStyleFF2#ht-DrawTab">NbStyleFF2::DrawTab</a></div><div class="ttdeci">void DrawTab(wxDC &amp;dc, wxWindow *wnd, const wxAuiNotebookPage &amp;page, const wxRect &amp;in_rect, int close_button_state, wxRect *out_tab_rect, wxRect *out_button_rect, int *x_extent)</div><div class="ttdef"><b>Definition:</b> notebookstyles.cpp:262</div></div>
 <div class="ttc" id="classNbStyleVC71"><div class="ttname"><a href="classNbStyleVC71">NbStyleVC71</a></div><div class="ttdef"><b>Definition:</b> notebookstyles.h:27</div></div>
 <div class="ttc" id="cbauibook_8h"><div class="ttname"><a href="cbauibook_8h">cbauibook.h</a></div></div>
-<div class="ttc" id="classNbStyleVC71_qf-GetBestTabCtrlSize"><div class="ttname"><a href="classNbStyleVC71#qf-GetBestTabCtrlSize">NbStyleVC71::GetBestTabCtrlSize</a></div><div class="ttdeci">int GetBestTabCtrlSize(wxWindow *wnd, const wxAuiNotebookPageArray &amp;pages, const wxSize &amp;required_bmp_size)</div><div class="ttdef"><b>Definition:</b> notebookstyles.cpp:228</div></div>
+<div class="ttc" id="classNbStyleVC71_qf-GetBestTabCtrlSize"><div class="ttname"><a href="classNbStyleVC71#qf-GetBestTabCtrlSize">NbStyleVC71::GetBestTabCtrlSize</a></div><div class="ttdeci">int GetBestTabCtrlSize(wxWindow *wnd, const wxAuiNotebookPageArray &amp;pages, const wxSize &amp;required_bmp_size)</div><div class="ttdef"><b>Definition:</b> notebookstyles.cpp:223</div></div>
 <div class="ttc" id="notebookstyles_8h_pg-wxAuiStepColour"><div class="ttname"><a href="notebookstyles_8h#pg-wxAuiStepColour">wxAuiStepColour</a></div><div class="ttdeci">wxColor wxAuiStepColour(const wxColor &amp;c, int percent)</div></div>
-<div class="ttc" id="classNbStyleVC71_wh-Clone"><div class="ttname"><a href="classNbStyleVC71#wh-Clone">NbStyleVC71::Clone</a></div><div class="ttdeci">wxAuiTabArt * Clone()</div><div class="ttdef"><b>Definition:</b> notebookstyles.cpp:46</div></div>
+<div class="ttc" id="classNbStyleVC71_wh-Clone"><div class="ttname"><a href="classNbStyleVC71#wh-Clone">NbStyleVC71::Clone</a></div><div class="ttdeci">wxAuiTabArt * Clone()</div><div class="ttdef"><b>Definition:</b> notebookstyles.cpp:41</div></div>
 <div class="ttc" id="classNbStyleFF2"><div class="ttname"><a href="classNbStyleFF2">NbStyleFF2</a></div><div class="ttdef"><b>Definition:</b> notebookstyles.h:42</div></div>
-<div class="ttc" id="classNbStyleFF2_tx-NbStyleFF2"><div class="ttname"><a href="classNbStyleFF2#tx-NbStyleFF2">NbStyleFF2::NbStyleFF2</a></div><div class="ttdeci">NbStyleFF2()</div><div class="ttdef"><b>Definition:</b> notebookstyles.cpp:246</div></div>
-<div class="ttc" id="classNbStyleVC71_w9-DrawTab"><div class="ttname"><a href="classNbStyleVC71#w9-DrawTab">NbStyleVC71::DrawTab</a></div><div class="ttdeci">void DrawTab(wxDC &amp;dc, wxWindow *wnd, const wxAuiNotebookPage &amp;page, const wxRect &amp;in_rect, int close_button_state, wxRect *out_tab_rect, wxRect *out_button_rect, int *x_extent)</div><div class="ttdef"><b>Definition:</b> notebookstyles.cpp:63</div></div>
+<div class="ttc" id="classNbStyleFF2_tx-NbStyleFF2"><div class="ttname"><a href="classNbStyleFF2#tx-NbStyleFF2">NbStyleFF2::NbStyleFF2</a></div><div class="ttdeci">NbStyleFF2()</div><div class="ttdef"><b>Definition:</b> notebookstyles.cpp:241</div></div>
+<div class="ttc" id="classNbStyleVC71_w9-DrawTab"><div class="ttname"><a href="classNbStyleVC71#w9-DrawTab">NbStyleVC71::DrawTab</a></div><div class="ttdeci">void DrawTab(wxDC &amp;dc, wxWindow *wnd, const wxAuiNotebookPage &amp;page, const wxRect &amp;in_rect, int close_button_state, wxRect *out_tab_rect, wxRect *out_button_rect, int *x_extent)</div><div class="ttdef"><b>Definition:</b> notebookstyles.cpp:58</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

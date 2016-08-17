@@ -8,7 +8,6 @@
  viewBox="0.00 0.00 691.50 975.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 971)">
 <title>Manager</title>
-<polygon fill="white" stroke="none" points="-4,4 -4,-971 687.5,-971 687.5,4 -4,4"/>
 <!-- Node1 -->
 <g id="node1" class="node"><title>Node1</title>
 <polygon fill="#bfbfbf" stroke="black" points="277.5,-0.5 277.5,-332.5 406.5,-332.5 406.5,-0.5 277.5,-0.5"/>
@@ -45,7 +44,7 @@
 </g>
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
-<polygon fill="white" stroke="#bfbfbf" points="0,-408 0,-476 126,-476 126,-408 0,-408"/>
+<polygon fill="none" stroke="#bfbfbf" points="0,-408 0,-476 126,-476 126,-408 0,-408"/>
 <text text-anchor="start" x="8" y="-464" font-family="FreeSans" font-size="10.00">std::map&lt; wxEventType,</text>
 <text text-anchor="middle" x="63" y="-453" font-family="FreeSans" font-size="10.00"> LayoutEventSinksArray &gt;</text>
 <polyline fill="none" stroke="#bfbfbf" points="0,-446 126,-446 "/>
@@ -62,7 +61,7 @@
 <!-- Node3 -->
 <g id="node3" class="node"><title>Node3</title>
 <g id="a_node3"><a xlink:title="STL class. ">
-<polygon fill="white" stroke="#bfbfbf" points="201.5,-628.5 201.5,-685.5 284.5,-685.5 284.5,-628.5 201.5,-628.5"/>
+<polygon fill="none" stroke="#bfbfbf" points="201.5,-628.5 201.5,-685.5 284.5,-685.5 284.5,-628.5 201.5,-628.5"/>
 <text text-anchor="middle" x="243" y="-673.5" font-family="FreeSans" font-size="10.00">std::vector&lt; T &gt;</text>
 <polyline fill="none" stroke="#bfbfbf" points="201.5,-666.5 284.5,-666.5 "/>
 <text text-anchor="middle" x="243" y="-654.5" font-family="FreeSans" font-size="10.00"> </text>
@@ -79,7 +78,7 @@
 </g>
 <!-- Node10 -->
 <g id="node10" class="node"><title>Node10</title>
-<polygon fill="white" stroke="#bfbfbf" points="144,-408 144,-476 264,-476 264,-408 144,-408"/>
+<polygon fill="none" stroke="#bfbfbf" points="144,-408 144,-476 264,-476 264,-408 144,-408"/>
 <text text-anchor="start" x="152" y="-464" font-family="FreeSans" font-size="10.00">std::map&lt; wxEventType,</text>
 <text text-anchor="middle" x="204" y="-453" font-family="FreeSans" font-size="10.00"> DockEventSinksArray &gt;</text>
 <polyline fill="none" stroke="#bfbfbf" points="144,-446 264,-446 "/>
@@ -95,7 +94,7 @@
 </g>
 <!-- Node11 -->
 <g id="node11" class="node"><title>Node11</title>
-<polygon fill="white" stroke="#bfbfbf" points="282,-408 282,-476 402,-476 402,-408 282,-408"/>
+<polygon fill="none" stroke="#bfbfbf" points="282,-408 282,-476 402,-476 402,-408 282,-408"/>
 <text text-anchor="start" x="290" y="-464" font-family="FreeSans" font-size="10.00">std::map&lt; wxEventType,</text>
 <text text-anchor="middle" x="342" y="-453" font-family="FreeSans" font-size="10.00"> LogEventSinksArray &gt;</text>
 <polyline fill="none" stroke="#bfbfbf" points="282,-446 402,-446 "/>
@@ -111,7 +110,7 @@
 </g>
 <!-- Node12 -->
 <g id="node12" class="node"><title>Node12</title>
-<polygon fill="white" stroke="#bfbfbf" points="420,-408 420,-476 540,-476 540,-408 420,-408"/>
+<polygon fill="none" stroke="#bfbfbf" points="420,-408 420,-476 540,-476 540,-408 420,-408"/>
 <text text-anchor="start" x="428" y="-464" font-family="FreeSans" font-size="10.00">std::map&lt; wxEventType,</text>
 <text text-anchor="middle" x="480" y="-453" font-family="FreeSans" font-size="10.00"> EventSinksArray &gt;</text>
 <polyline fill="none" stroke="#bfbfbf" points="420,-446 540,-446 "/>
@@ -127,7 +126,7 @@
 </g>
 <!-- Node4 -->
 <g id="node4" class="node"><title>Node4</title>
-<polygon fill="white" stroke="#bfbfbf" points="228.5,-860 228.5,-917 257.5,-917 257.5,-860 228.5,-860"/>
+<polygon fill="none" stroke="#bfbfbf" points="228.5,-860 228.5,-917 257.5,-917 257.5,-860 228.5,-860"/>
 <text text-anchor="middle" x="243" y="-905" font-family="FreeSans" font-size="10.00">T</text>
 <polyline fill="none" stroke="#bfbfbf" points="228.5,-898 257.5,-898 "/>
 <text text-anchor="middle" x="243" y="-886" font-family="FreeSans" font-size="10.00"> </text>
@@ -143,7 +142,7 @@
 <!-- Node5 -->
 <g id="node5" class="node"><title>Node5</title>
 <g id="a_node5"><a xlink:href="classcbSearchResultsLog" target="_top" xlink:title="{cbSearchResultsLog\n|# m_Base\l|+ cbSearchResultsLog()\l+ ~cbSearchResultsLog()\l+ FocusEntry()\l+ SetBasePath()\l+ CreateControl()\l# OnDoubleClick()\l# SyncEditor()\l}">
-<polygon fill="white" stroke="black" points="558.5,-380.5 558.5,-503.5 683.5,-503.5 683.5,-380.5 558.5,-380.5"/>
+<polygon fill="none" stroke="black" points="558.5,-380.5 558.5,-503.5 683.5,-503.5 683.5,-380.5 558.5,-380.5"/>
 <text text-anchor="middle" x="621" y="-491.5" font-family="FreeSans" font-size="10.00">cbSearchResultsLog</text>
 <polyline fill="none" stroke="black" points="558.5,-484.5 683.5,-484.5 "/>
 <text text-anchor="start" x="566.5" y="-472.5" font-family="FreeSans" font-size="10.00"># m_Base</text>
@@ -167,7 +166,7 @@
 <!-- Node6 -->
 <g id="node6" class="node"><title>Node6</title>
 <g id="a_node6"><a xlink:href="classListCtrlLogger" target="_top" xlink:title="a logger which prints messages to a wxListCtrl ">
-<polygon fill="white" stroke="black" points="444.5,-551.5 444.5,-762.5 587.5,-762.5 587.5,-551.5 444.5,-551.5"/>
+<polygon fill="none" stroke="black" points="444.5,-551.5 444.5,-762.5 587.5,-762.5 587.5,-551.5 444.5,-551.5"/>
 <text text-anchor="middle" x="516" y="-750.5" font-family="FreeSans" font-size="10.00">ListCtrlLogger</text>
 <polyline fill="none" stroke="black" points="444.5,-743.5 587.5,-743.5 "/>
 <text text-anchor="start" x="452.5" y="-731.5" font-family="FreeSans" font-size="10.00"># control</text>
@@ -198,7 +197,7 @@
 <!-- Node7 -->
 <g id="node7" class="node"><title>Node7</title>
 <g id="a_node7"><a xlink:href="classLogger" target="_top" xlink:title="The base class for all kinds of loggers, see loggers.h for its derived classes. ">
-<polygon fill="white" stroke="black" points="292.5,-810.5 292.5,-966.5 447.5,-966.5 447.5,-810.5 292.5,-810.5"/>
+<polygon fill="none" stroke="black" points="292.5,-810.5 292.5,-966.5 447.5,-966.5 447.5,-810.5 292.5,-810.5"/>
 <text text-anchor="middle" x="370" y="-954.5" font-family="FreeSans" font-size="10.00">Logger</text>
 <polyline fill="none" stroke="black" points="292.5,-947.5 447.5,-947.5 "/>
 <text text-anchor="middle" x="370" y="-935.5" font-family="FreeSans" font-size="10.00"> </text>
@@ -224,7 +223,7 @@
 <!-- Node8 -->
 <g id="node8" class="node"><title>Node8</title>
 <g id="a_node8"><a xlink:href="classListCtrlLogger#structListCtrlLogger_1_1ListStyles" target="_top" xlink:title="{ListCtrlLogger::ListStyles\n|+ font\l+ colour\l|}">
-<polygon fill="white" stroke="black" points="466,-854.5 466,-922.5 588,-922.5 588,-854.5 466,-854.5"/>
+<polygon fill="none" stroke="black" points="466,-854.5 466,-922.5 588,-922.5 588,-854.5 466,-854.5"/>
 <text text-anchor="middle" x="527" y="-910.5" font-family="FreeSans" font-size="10.00">ListCtrlLogger::ListStyles</text>
 <polyline fill="none" stroke="black" points="466,-903.5 588,-903.5 "/>
 <text text-anchor="start" x="474" y="-891.5" font-family="FreeSans" font-size="10.00">+ font</text>
@@ -242,7 +241,7 @@
 </g>
 <!-- Node9 -->
 <g id="node9" class="node"><title>Node9</title>
-<polygon fill="white" stroke="#bfbfbf" points="606,-628.5 606,-685.5 680,-685.5 680,-628.5 606,-628.5"/>
+<polygon fill="none" stroke="#bfbfbf" points="606,-628.5 606,-685.5 680,-685.5 680,-628.5 606,-628.5"/>
 <text text-anchor="middle" x="643" y="-673.5" font-family="FreeSans" font-size="10.00">wxEvtHandler</text>
 <polyline fill="none" stroke="#bfbfbf" points="606,-666.5 680,-666.5 "/>
 <text text-anchor="middle" x="643" y="-654.5" font-family="FreeSans" font-size="10.00"> </text>

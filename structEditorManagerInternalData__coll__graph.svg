@@ -8,7 +8,6 @@
  viewBox="0.00 0.00 747.00 1130.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 1126)">
 <title>EditorManagerInternalData</title>
-<polygon fill="white" stroke="none" points="-4,4 -4,-1126 743,-1126 743,4 -4,4"/>
 <!-- Node1 -->
 <g id="node1" class="node"><title>Node1</title>
 <polygon fill="#bfbfbf" stroke="black" points="0,-766 0,-834 146,-834 146,-766 0,-766"/>
@@ -22,7 +21,7 @@
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
 <g id="a_node2"><a xlink:href="classEditorManager" target="_top" xlink:title="{EditorManager\n|&#45; m_nNotebookStackSize\l&#45; m_Zoom\l&#45; m_isCheckingForExternally\lModifiedFiles\l&#45; s_CanShutdown\l|+ operator=()\l+ GetNotebook()\l+ GetNotebookStack()\l+ DeleteNotebookStack()\l+ RebuildNotebookStack()\l+ RecreateOpenEditorStyles()\l+ GetEditorsCount()\l+ IsOpen()\land 47 more...\l+ CanShutdown()\l# AddEditorBase()\l# RemoveEditorBase()\l# InternalGetBuiltinEditor()\l# InternalGetEditorBase()\l&#45; OnGenericContextMenuHandler()\l&#45; OnPageChanged()\l&#45; OnPageChanging()\l&#45; OnPageClose()\l&#45; OnPageContextMenu()\l&#45; OnClose()\l&#45; OnCloseAll()\l&#45; OnCloseAllOthers()\land 25 more...\l}">
-<polygon fill="white" stroke="black" points="167,-171.5 167,-514.5 331,-514.5 331,-171.5 167,-171.5"/>
+<polygon fill="none" stroke="black" points="167,-171.5 167,-514.5 331,-514.5 331,-171.5 167,-171.5"/>
 <text text-anchor="middle" x="249" y="-502.5" font-family="FreeSans" font-size="10.00">EditorManager</text>
 <polyline fill="none" stroke="black" points="167,-495.5 331,-495.5 "/>
 <text text-anchor="start" x="175" y="-483.5" font-family="FreeSans" font-size="10.00">&#45; m_nNotebookStackSize</text>
@@ -72,7 +71,7 @@
 <!-- Node3 -->
 <g id="node3" class="node"><title>Node3</title>
 <g id="a_node3"><a xlink:href="classMgr" target="_top" xlink:title="{Mgr\&lt; EditorManager \&gt;\n|&#45; isShutdown\l|+ Valid()\l+ Get()\l+ Free()\l# Mgr()\l# ~Mgr()\l&#45; Mgr()\l&#45; operator=()\l}">
-<polygon fill="white" stroke="black" points="193,-0.5 193,-123.5 305,-123.5 305,-0.5 193,-0.5"/>
+<polygon fill="none" stroke="black" points="193,-0.5 193,-123.5 305,-123.5 305,-0.5 193,-0.5"/>
 <text text-anchor="middle" x="249" y="-111.5" font-family="FreeSans" font-size="10.00">Mgr&lt; EditorManager &gt;</text>
 <polyline fill="none" stroke="black" points="193,-104.5 305,-104.5 "/>
 <text text-anchor="start" x="201" y="-92.5" font-family="FreeSans" font-size="10.00">&#45; isShutdown</text>
@@ -100,7 +99,7 @@
 </g>
 <!-- Node4 -->
 <g id="node4" class="node"><title>Node4</title>
-<polygon fill="white" stroke="#bfbfbf" points="164,-771.5 164,-828.5 238,-828.5 238,-771.5 164,-771.5"/>
+<polygon fill="none" stroke="#bfbfbf" points="164,-771.5 164,-828.5 238,-828.5 238,-771.5 164,-771.5"/>
 <text text-anchor="middle" x="201" y="-816.5" font-family="FreeSans" font-size="10.00">wxEvtHandler</text>
 <polyline fill="none" stroke="#bfbfbf" points="164,-809.5 238,-809.5 "/>
 <text text-anchor="middle" x="201" y="-797.5" font-family="FreeSans" font-size="10.00"> </text>
@@ -115,7 +114,7 @@
 <!-- Node5 -->
 <g id="node5" class="node"><title>Node5</title>
 <g id="a_node5"><a xlink:href="classcbAuiNotebook" target="_top" xlink:title="A notebook class This class is derived from wxAuiNotebook, to enhance its abilities. ">
-<polygon fill="white" stroke="black" points="256,-573.5 256,-1026.5 408,-1026.5 408,-573.5 256,-573.5"/>
+<polygon fill="none" stroke="black" points="256,-573.5 256,-1026.5 408,-1026.5 408,-573.5 256,-573.5"/>
 <text text-anchor="middle" x="332" y="-1014.5" font-family="FreeSans" font-size="10.00">cbAuiNotebook</text>
 <polyline fill="none" stroke="black" points="256,-1007.5 408,-1007.5 "/>
 <text text-anchor="start" x="264" y="-995.5" font-family="FreeSans" font-size="10.00"># m_TabCtrls</text>
@@ -168,7 +167,7 @@
 </g>
 <!-- Node6 -->
 <g id="node6" class="node"><title>Node6</title>
-<polygon fill="white" stroke="#bfbfbf" points="290.5,-1064.5 290.5,-1121.5 373.5,-1121.5 373.5,-1064.5 290.5,-1064.5"/>
+<polygon fill="none" stroke="#bfbfbf" points="290.5,-1064.5 290.5,-1121.5 373.5,-1121.5 373.5,-1064.5 290.5,-1064.5"/>
 <text text-anchor="middle" x="332" y="-1109.5" font-family="FreeSans" font-size="10.00">wxAuiNotebook</text>
 <polyline fill="none" stroke="#bfbfbf" points="290.5,-1102.5 373.5,-1102.5 "/>
 <text text-anchor="middle" x="332" y="-1090.5" font-family="FreeSans" font-size="10.00"> </text>
@@ -183,7 +182,7 @@
 <!-- Node7 -->
 <g id="node7" class="node"><title>Node7</title>
 <g id="a_node7"><a xlink:href="classEditorColourSet" target="_top" xlink:title="{EditorColourSet\n|&#45; m_Name\l&#45; m_Sets\l|+ EditorColourSet()\l+ EditorColourSet()\l+ ~EditorColourSet()\l+ AddHighlightLanguage()\l+ GetHighlightLanguage()\l+ GetHighlightLanguage()\l+ GetAllHighlightLanguages()\l+ AddOption()\land 28 more...\l&#45; DoApplyStyle()\l&#45; LoadAvailableSets()\l&#45; Load()\l&#45; ClearAllOptionColours()\l&#45; GetDefaultOption()\l}">
-<polygon fill="white" stroke="black" points="426,-694.5 426,-905.5 568,-905.5 568,-694.5 426,-694.5"/>
+<polygon fill="none" stroke="black" points="426,-694.5 426,-905.5 568,-905.5 568,-694.5 426,-694.5"/>
 <text text-anchor="middle" x="497" y="-893.5" font-family="FreeSans" font-size="10.00">EditorColourSet</text>
 <polyline fill="none" stroke="black" points="426,-886.5 568,-886.5 "/>
 <text text-anchor="start" x="434" y="-874.5" font-family="FreeSans" font-size="10.00">&#45; m_Name</text>
@@ -215,7 +214,7 @@
 <!-- Node8 -->
 <g id="node8" class="node"><title>Node8</title>
 <g id="a_node8"><a xlink:href="structcbNotebookStack" target="_top" xlink:title="{cbNotebookStack\n|+ window\l|+ cbNotebookStack()\l}">
-<polygon fill="white" stroke="black" points="586,-771.5 586,-828.5 694,-828.5 694,-771.5 586,-771.5"/>
+<polygon fill="none" stroke="black" points="586,-771.5 586,-828.5 694,-828.5 694,-771.5 586,-771.5"/>
 <text text-anchor="middle" x="640" y="-816.5" font-family="FreeSans" font-size="10.00">cbNotebookStack</text>
 <polyline fill="none" stroke="black" points="586,-809.5 694,-809.5 "/>
 <text text-anchor="start" x="594" y="-797.5" font-family="FreeSans" font-size="10.00">+ window</text>

@@ -8,7 +8,6 @@
  viewBox="0.00 0.00 782.50 1290.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 1286)">
 <title>EditorConfigurationDlg</title>
-<polygon fill="white" stroke="none" points="-4,4 -4,-1286 778.5,-1286 778.5,4 -4,4"/>
 <!-- Node1 -->
 <g id="node1" class="node"><title>Node1</title>
 <polygon fill="#bfbfbf" stroke="black" points="306.5,-0.5 306.5,-255.5 458.5,-255.5 458.5,-0.5 306.5,-0.5"/>
@@ -39,7 +38,7 @@
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
 <g id="a_node2"><a xlink:href="classwxScrollingDialog" target="_top" xlink:title="{wxScrollingDialog\n||+ wxScrollingDialog()\l+ wxScrollingDialog()\l+ Create()\l+ Init()\l+ Show()\l+ ShowModal()\l}">
-<polygon fill="white" stroke="black" points="100,-441 100,-553 207,-553 207,-441 100,-441"/>
+<polygon fill="none" stroke="black" points="100,-441 100,-553 207,-553 207,-441 100,-441"/>
 <text text-anchor="middle" x="153.5" y="-541" font-family="FreeSans" font-size="10.00">wxScrollingDialog</text>
 <polyline fill="none" stroke="black" points="100,-534 207,-534 "/>
 <text text-anchor="middle" x="153.5" y="-522" font-family="FreeSans" font-size="10.00"> </text>
@@ -60,7 +59,7 @@
 </g>
 <!-- Node3 -->
 <g id="node3" class="node"><title>Node3</title>
-<polygon fill="white" stroke="#bfbfbf" points="0,-887 0,-944 55,-944 55,-887 0,-887"/>
+<polygon fill="none" stroke="#bfbfbf" points="0,-887 0,-944 55,-944 55,-887 0,-887"/>
 <text text-anchor="middle" x="27.5" y="-932" font-family="FreeSans" font-size="10.00">wxDialog</text>
 <polyline fill="none" stroke="#bfbfbf" points="0,-925 55,-925 "/>
 <text text-anchor="middle" x="27.5" y="-913" font-family="FreeSans" font-size="10.00"> </text>
@@ -75,7 +74,7 @@
 <!-- Node4 -->
 <g id="node4" class="node"><title>Node4</title>
 <g id="a_node4"><a xlink:href="classwxDialogHelper" target="_top" xlink:title="{wxDialogHelper\n|# m_dialog\l# m_layoutLayoutAdaptationDone\l# m_buttonIds\l# m_layoutAdaptationLevel\l# sm_layoutAdaptation\l|+ wxDialogHelper()\l+ ~wxDialogHelper()\l+ Init()\l+ SetDialog()\l+ GetDialog()\l+ DoLayoutAdaptation()\l+ CanDoLayoutAdaptation()\l+ GetContentWindow()\land 7 more...\l+ SetLayoutAdapter()\l+ GetLayoutAdapter()\l+ GetLayoutAdaptation()\l+ SetLayoutAdaptation()\l}">
-<polygon fill="white" stroke="black" points="73,-799 73,-1032 234,-1032 234,-799 73,-799"/>
+<polygon fill="none" stroke="black" points="73,-799 73,-1032 234,-1032 234,-799 73,-799"/>
 <text text-anchor="middle" x="153.5" y="-1020" font-family="FreeSans" font-size="10.00">wxDialogHelper</text>
 <polyline fill="none" stroke="black" points="73,-1013 234,-1013 "/>
 <text text-anchor="start" x="81" y="-1001" font-family="FreeSans" font-size="10.00"># m_dialog</text>
@@ -108,7 +107,7 @@
 <!-- Node5 -->
 <g id="node5" class="node"><title>Node5</title>
 <g id="a_node5"><a xlink:href="classwxDialogLayoutAdapter" target="_top" xlink:title="{wxDialogLayoutAdapter\n||+ wxDialogLayoutAdapter()\l+ CanDoLayoutAdaptation()\l+ DoLayoutAdaptation()\l}">
-<polygon fill="white" stroke="black" points="86,-1107.5 86,-1186.5 221,-1186.5 221,-1107.5 86,-1107.5"/>
+<polygon fill="none" stroke="black" points="86,-1107.5 86,-1186.5 221,-1186.5 221,-1107.5 86,-1107.5"/>
 <text text-anchor="middle" x="153.5" y="-1174.5" font-family="FreeSans" font-size="10.00">wxDialogLayoutAdapter</text>
 <polyline fill="none" stroke="black" points="86,-1167.5 221,-1167.5 "/>
 <text text-anchor="middle" x="153.5" y="-1155.5" font-family="FreeSans" font-size="10.00"> </text>
@@ -127,7 +126,7 @@
 </g>
 <!-- Node6 -->
 <g id="node6" class="node"><title>Node6</title>
-<polygon fill="white" stroke="#bfbfbf" points="125.5,-1224.5 125.5,-1281.5 181.5,-1281.5 181.5,-1224.5 125.5,-1224.5"/>
+<polygon fill="none" stroke="#bfbfbf" points="125.5,-1224.5 125.5,-1281.5 181.5,-1281.5 181.5,-1224.5 125.5,-1224.5"/>
 <text text-anchor="middle" x="153.5" y="-1269.5" font-family="FreeSans" font-size="10.00">wxObject</text>
 <polyline fill="none" stroke="#bfbfbf" points="125.5,-1262.5 181.5,-1262.5 "/>
 <text text-anchor="middle" x="153.5" y="-1250.5" font-family="FreeSans" font-size="10.00"> </text>
@@ -141,7 +140,7 @@
 </g>
 <!-- Node7 -->
 <g id="node7" class="node"><title>Node7</title>
-<polygon fill="white" stroke="#bfbfbf" points="242.5,-463 242.5,-531 370.5,-531 370.5,-463 242.5,-463"/>
+<polygon fill="none" stroke="#bfbfbf" points="242.5,-463 242.5,-531 370.5,-531 370.5,-463 242.5,-463"/>
 <text text-anchor="start" x="250.5" y="-519" font-family="FreeSans" font-size="10.00">std::map&lt; long, MenuItem</text>
 <text text-anchor="middle" x="306.5" y="-508" font-family="FreeSans" font-size="10.00">LanguageOptionID &gt;</text>
 <polyline fill="none" stroke="#bfbfbf" points="242.5,-501 370.5,-501 "/>
@@ -158,7 +157,7 @@
 <!-- Node8 -->
 <g id="node8" class="node"><title>Node8</title>
 <g id="a_node8"><a xlink:href="classEditorConfigurationDlg#structEditorConfigurationDlg_1_1MenuItemLanguageOptionID" target="_top" xlink:title="{EditorConfigurationDlg\l::MenuItemLanguageOptionID\n|+ langID\l+ index\l|}">
-<polygon fill="white" stroke="black" points="252,-876 252,-955 397,-955 397,-876 252,-876"/>
+<polygon fill="none" stroke="black" points="252,-876 252,-955 397,-955 397,-876 252,-876"/>
 <text text-anchor="start" x="260" y="-943" font-family="FreeSans" font-size="10.00">EditorConfigurationDlg</text>
 <text text-anchor="middle" x="324.5" y="-932" font-family="FreeSans" font-size="10.00">::MenuItemLanguageOptionID</text>
 <polyline fill="none" stroke="black" points="252,-925 397,-925 "/>
@@ -178,7 +177,7 @@
 <!-- Node9 -->
 <g id="node9" class="node"><title>Node9</title>
 <g id="a_node9"><a xlink:href="classEditorColourSet" target="_top" xlink:title="{EditorColourSet\n|&#45; m_Name\l&#45; m_Sets\l|+ EditorColourSet()\l+ EditorColourSet()\l+ ~EditorColourSet()\l+ AddHighlightLanguage()\l+ GetHighlightLanguage()\l+ GetHighlightLanguage()\l+ GetAllHighlightLanguages()\l+ AddOption()\land 28 more...\l&#45; DoApplyStyle()\l&#45; LoadAvailableSets()\l&#45; Load()\l&#45; ClearAllOptionColours()\l&#45; GetDefaultOption()\l}">
-<polygon fill="white" stroke="black" points="390.5,-391.5 390.5,-602.5 532.5,-602.5 532.5,-391.5 390.5,-391.5"/>
+<polygon fill="none" stroke="black" points="390.5,-391.5 390.5,-602.5 532.5,-602.5 532.5,-391.5 390.5,-391.5"/>
 <text text-anchor="middle" x="461.5" y="-590.5" font-family="FreeSans" font-size="10.00">EditorColourSet</text>
 <polyline fill="none" stroke="black" points="390.5,-583.5 532.5,-583.5 "/>
 <text text-anchor="start" x="398.5" y="-571.5" font-family="FreeSans" font-size="10.00">&#45; m_Name</text>
@@ -210,7 +209,7 @@
 <!-- Node10 -->
 <g id="node10" class="node"><title>Node10</title>
 <g id="a_node10"><a xlink:href="classcbStyledTextCtrl" target="_top" xlink:title="{cbStyledTextCtrl\n|&#45; m_pParent\l&#45; m_lastFocusTime\l&#45; m_bracePosition\l&#45; m_lastPosition\l&#45; m_middleClickPos\l&#45; m_tabSmartJump\l&#45; m_lastSelectedText\l&#45; m_braceShortcutState\l|+ cbStyledTextCtrl()\l+ ~cbStyledTextCtrl()\l+ operator=()\l+ GetLastFocusTime()\l+ GetLastSelectedText()\l+ EnableTabSmartJump()\l+ IsCharacter()\l+ IsString()\land 7 more...\l+ GetCharacterLexerStyles()\l+ GetStringLexerStyles()\l+ GetPreprocessorLexerStyles()\l+ GetCommentLexerStyles()\l&#45; OnContextMenu()\l&#45; OnKillFocus()\l&#45; OnSetFocus()\l&#45; OnMouseMiddleDown()\l&#45; OnMouseMiddleClick()\l&#45; OnKeyDown()\l&#45; OnKeyUp()\l&#45; OnMouseLeftUp()\l&#45; AllowTabSmartJump()\l&#45; HighlightRightBrace()\l&#45; EmulateDwellStart()\l}">
-<polygon fill="white" stroke="black" points="550.5,-303.5 550.5,-690.5 702.5,-690.5 702.5,-303.5 550.5,-303.5"/>
+<polygon fill="none" stroke="black" points="550.5,-303.5 550.5,-690.5 702.5,-690.5 702.5,-303.5 550.5,-303.5"/>
 <text text-anchor="middle" x="626.5" y="-678.5" font-family="FreeSans" font-size="10.00">cbStyledTextCtrl</text>
 <polyline fill="none" stroke="black" points="550.5,-671.5 702.5,-671.5 "/>
 <text text-anchor="start" x="558.5" y="-659.5" font-family="FreeSans" font-size="10.00">&#45; m_pParent</text>
@@ -257,8 +256,8 @@
 </g>
 <!-- Node11 -->
 <g id="node11" class="node"><title>Node11</title>
-<g id="a_node11"><a xlink:href="classwxScintilla" target="_top" xlink:title="{wxScintilla\n|# m_swx\l# m_stopWatch\l# m_vScrollBar\l# m_hScrollBar\l# m_lastKeyDownConsumed\l|+ wxScintilla()\l+ wxScintilla()\l+ ~wxScintilla()\l+ Create()\l+ AddText()\l+ AddText()\l+ AddStyledText()\l+ InsertText()\land 707 more...\l# GetValue()\l# SetValue()\l# DoSetValue()\l# DoGetValue()\l# GetEditableWindow()\l# DoLoadFile()\l# DoSaveFile()\l# OnPaint()\land 26 more...\l}">
-<polygon fill="white" stroke="black" points="491,-771.5 491,-1059.5 630,-1059.5 630,-771.5 491,-771.5"/>
+<g id="a_node11"><a xlink:href="classwxScintilla" target="_top" xlink:title="{wxScintilla\n|# m_swx\l# m_stopWatch\l# m_vScrollBar\l# m_hScrollBar\l# m_lastKeyDownConsumed\l|+ wxScintilla()\l+ wxScintilla()\l+ ~wxScintilla()\l+ Create()\l+ AddText()\l+ AddText()\l+ AddStyledText()\l+ InsertText()\land 703 more...\l# GetValue()\l# SetValue()\l# DoSetValue()\l# DoGetValue()\l# GetEditableWindow()\l# DoLoadFile()\l# DoSaveFile()\l# OnPaint()\land 26 more...\l}">
+<polygon fill="none" stroke="black" points="491,-771.5 491,-1059.5 630,-1059.5 630,-771.5 491,-771.5"/>
 <text text-anchor="middle" x="560.5" y="-1047.5" font-family="FreeSans" font-size="10.00">wxScintilla</text>
 <polyline fill="none" stroke="black" points="491,-1040.5 630,-1040.5 "/>
 <text text-anchor="start" x="499" y="-1028.5" font-family="FreeSans" font-size="10.00"># m_swx</text>
@@ -275,7 +274,7 @@
 <text text-anchor="start" x="499" y="-910.5" font-family="FreeSans" font-size="10.00">+ AddText()</text>
 <text text-anchor="start" x="499" y="-899.5" font-family="FreeSans" font-size="10.00">+ AddStyledText()</text>
 <text text-anchor="start" x="499" y="-888.5" font-family="FreeSans" font-size="10.00">+ InsertText()</text>
-<text text-anchor="start" x="499" y="-877.5" font-family="FreeSans" font-size="10.00">and 707 more...</text>
+<text text-anchor="start" x="499" y="-877.5" font-family="FreeSans" font-size="10.00">and 703 more...</text>
 <text text-anchor="start" x="499" y="-866.5" font-family="FreeSans" font-size="10.00"># GetValue()</text>
 <text text-anchor="start" x="499" y="-855.5" font-family="FreeSans" font-size="10.00"># SetValue()</text>
 <text text-anchor="start" x="499" y="-844.5" font-family="FreeSans" font-size="10.00"># DoSetValue()</text>
@@ -295,7 +294,7 @@
 </g>
 <!-- Node12 -->
 <g id="node12" class="node"><title>Node12</title>
-<polygon fill="white" stroke="#bfbfbf" points="531,-1118.5 531,-1175.5 590,-1175.5 590,-1118.5 531,-1118.5"/>
+<polygon fill="none" stroke="#bfbfbf" points="531,-1118.5 531,-1175.5 590,-1175.5 590,-1118.5 531,-1118.5"/>
 <text text-anchor="middle" x="560.5" y="-1163.5" font-family="FreeSans" font-size="10.00">wxControl</text>
 <polyline fill="none" stroke="#bfbfbf" points="531,-1156.5 590,-1156.5 "/>
 <text text-anchor="middle" x="560.5" y="-1144.5" font-family="FreeSans" font-size="10.00"> </text>
@@ -309,7 +308,7 @@
 </g>
 <!-- Node13 -->
 <g id="node13" class="node"><title>Node13</title>
-<polygon fill="white" stroke="#bfbfbf" points="648,-881.5 648,-949.5 737,-949.5 737,-881.5 648,-881.5"/>
+<polygon fill="none" stroke="#bfbfbf" points="648,-881.5 648,-949.5 737,-949.5 737,-881.5 648,-881.5"/>
 <text text-anchor="start" x="656" y="-937.5" font-family="FreeSans" font-size="10.00">std::map&lt; int, std</text>
 <text text-anchor="middle" x="692.5" y="-926.5" font-family="FreeSans" font-size="10.00">::set&lt; int &gt; &gt;</text>
 <polyline fill="none" stroke="#bfbfbf" points="648,-919.5 737,-919.5 "/>
@@ -328,7 +327,7 @@
 </g>
 <!-- Node14 -->
 <g id="node14" class="node"><title>Node14</title>
-<polygon fill="white" stroke="#bfbfbf" points="655.5,-1118.5 655.5,-1175.5 729.5,-1175.5 729.5,-1118.5 655.5,-1118.5"/>
+<polygon fill="none" stroke="#bfbfbf" points="655.5,-1118.5 655.5,-1175.5 729.5,-1175.5 729.5,-1118.5 655.5,-1118.5"/>
 <text text-anchor="middle" x="692.5" y="-1163.5" font-family="FreeSans" font-size="10.00">std::set&lt; int &gt;</text>
 <polyline fill="none" stroke="#bfbfbf" points="655.5,-1156.5 729.5,-1156.5 "/>
 <text text-anchor="start" x="663.5" y="-1144.5" font-family="FreeSans" font-size="10.00">+ keys</text>

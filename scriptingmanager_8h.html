@@ -18,7 +18,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">Code::Blocks
-   &#160;<span id="projectnumber">SVN r10603</span>
+   &#160;<span id="projectnumber">SVN r10885</span>
    </div>
   </td>
  </tr>
@@ -30,6 +30,7 @@
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="index"><span>Main&#160;Page</span></a></li>
+      <li><a href="pages"><span>Related&#160;Pages</span></a></li>
       <li><a href="namespaces"><span>Namespaces</span></a></li>
       <li><a href="annotated"><span>Classes</span></a></li>
       <li class="current"><a href="files"><span>Files</span></a></li>
@@ -48,15 +49,15 @@
 </div><!-- top -->
 <div class="header">
   <div class="summary">
-<a href="#nested-classes">Classes</a>  </div>
+<a href="#nested-classes">Classes</a> &#124;
+<a href="#typedef-members">Typedefs</a> &#124;
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">scriptingmanager.h File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &lt;map&gt;</code><br />
 <code>#include &lt;set&gt;</code><br />
-<code>#include &quot;<a class="el" href="cbexception_8h_source">cbexception.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="globals_8h_source">globals.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="settings_8h_source">settings.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="manager_8h_source">manager.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="menuitemsmanager_8h_source">menuitemsmanager.h</a>&quot;</code><br />
@@ -64,14 +65,12 @@
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for scriptingmanager.h:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="scriptingmanager_8h__incl.svg" width="1239" height="262"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="scriptingmanager_8h__incl.svg" width="880" height="262"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div><div class="textblock"><div class="dynheader">
 This graph shows which files directly or indirectly include this file:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="scriptingmanager_8h__dep__incl.svg" width="3126" height="336"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="scriptingmanager_8h__dep__incl.svg" width="18519" height="351"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 <p><a href="scriptingmanager_8h_source">Go to the source code of this file.</a></p>
@@ -86,6 +85,16 @@ Classes</h2></td></tr>
 <tr class="separator:structScriptingManager_1_1TrustedScriptProps"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:structScriptingManager_1_1MenuBoundScript"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classScriptingManager#structScriptingManager_1_1MenuBoundScript">ScriptingManager::MenuBoundScript</a></td></tr>
 <tr class="separator:structScriptingManager_1_1MenuBoundScript"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
+Typedefs</h2></td></tr>
+<tr class="memitem:ss-SQChar"><td class="memItemLeft" align="right" valign="top">typedef char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scriptingmanager_8h#ss-SQChar">SQChar</a></td></tr>
+<tr class="separator:ss-SQChar"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:jm-PrintSquirrelToWxString"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scriptingmanager_8h#jm-PrintSquirrelToWxString">PrintSquirrelToWxString</a> (wxString &amp;msg, const <a class="el" href="scriptingmanager_8h#ss-SQChar">SQChar</a> *s, va_list &amp;vl)</td></tr>
+<tr class="separator:jm-PrintSquirrelToWxString"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <hr/><h2 class="groupheader">Class Documentation</h2>
 <a name="structScriptingManager_1_1TrustedScriptProps" id="structScriptingManager_1_1TrustedScriptProps"></a>
@@ -101,8 +110,7 @@ Classes</h2></td></tr>
 </div><div class="dynheader">
 Collaboration diagram for ScriptingManager::TrustedScriptProps:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="structScriptingManager_1_1TrustedScriptProps__coll__graph.svg" width="183" height="118"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="structScriptingManager_1_1TrustedScriptProps__coll__graph.svg" width="183" height="118"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <table class="fieldtable">
 <tr><th colspan="3">Class Members</th></tr>
@@ -134,8 +142,7 @@ permanent</td>
 <div class="textblock"></div><div class="dynheader">
 Collaboration diagram for ScriptingManager::MenuBoundScript:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="structScriptingManager_1_1MenuBoundScript__coll__graph.svg" width="210" height="118"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="structScriptingManager_1_1MenuBoundScript__coll__graph.svg" width="210" height="118"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <table class="fieldtable">
 <tr><th colspan="3">Class Members</th></tr>
@@ -152,6 +159,56 @@ scriptOrFunc</td>
 <td class="fielddoc">
 </td></tr>
 </table>
+
+</div>
+</div>
+<h2 class="groupheader">Typedef Documentation</h2>
+<a class="anchor" id="ss-SQChar"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef char <a class="el" href="scriptingmanager_8h#ss-SQChar">SQChar</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Function Documentation</h2>
+<a class="anchor" id="jm-PrintSquirrelToWxString"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void PrintSquirrelToWxString </td>
+          <td>(</td>
+          <td class="paramtype">wxString &amp;&#160;</td>
+          <td class="paramname"><em>msg</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="scriptingmanager_8h#ss-SQChar">SQChar</a> *&#160;</td>
+          <td class="paramname"><em>s</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">va_list &amp;&#160;</td>
+          <td class="paramname"><em>vl</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>References <a class="el" href="globals_8h#x4-cbC2U">cbC2U()</a>.</p>
+
+<p>Referenced by <a class="el" href="scriptingmanager_8cpp#ze-CaptureScriptOutput">CaptureScriptOutput()</a>, and <a class="el" href="scriptingmanager_8cpp#dm-ScriptsPrintFunc">ScriptsPrintFunc()</a>.</p>
 
 </div>
 </div>

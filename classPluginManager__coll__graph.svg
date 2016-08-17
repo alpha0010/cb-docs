@@ -8,7 +8,6 @@
  viewBox="0.00 0.00 348.50 1076.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 1072)">
 <title>PluginManager</title>
-<polygon fill="white" stroke="none" points="-4,4 -4,-1072 344.5,-1072 344.5,4 -4,4"/>
 <!-- Node1 -->
 <g id="node1" class="node"><title>Node1</title>
 <polygon fill="#bfbfbf" stroke="black" points="0,-171.5 0,-459.5 167,-459.5 167,-171.5 0,-171.5"/>
@@ -42,7 +41,7 @@
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
 <g id="a_node2"><a xlink:href="classMgr" target="_top" xlink:title="{Mgr\&lt; PluginManager \&gt;\n|&#45; isShutdown\l|+ Valid()\l+ Get()\l+ Free()\l# Mgr()\l# ~Mgr()\l&#45; Mgr()\l&#45; operator=()\l}">
-<polygon fill="white" stroke="black" points="26.5,-0.5 26.5,-123.5 140.5,-123.5 140.5,-0.5 26.5,-0.5"/>
+<polygon fill="none" stroke="black" points="26.5,-0.5 26.5,-123.5 140.5,-123.5 140.5,-0.5 26.5,-0.5"/>
 <text text-anchor="middle" x="83.5" y="-111.5" font-family="FreeSans" font-size="10.00">Mgr&lt; PluginManager &gt;</text>
 <polyline fill="none" stroke="black" points="26.5,-104.5 140.5,-104.5 "/>
 <text text-anchor="start" x="34.5" y="-92.5" font-family="FreeSans" font-size="10.00">&#45; isShutdown</text>
@@ -70,7 +69,7 @@
 </g>
 <!-- Node3 -->
 <g id="node3" class="node"><title>Node3</title>
-<polygon fill="white" stroke="#bfbfbf" points="46.5,-1010.5 46.5,-1067.5 120.5,-1067.5 120.5,-1010.5 46.5,-1010.5"/>
+<polygon fill="none" stroke="#bfbfbf" points="46.5,-1010.5 46.5,-1067.5 120.5,-1067.5 120.5,-1010.5 46.5,-1010.5"/>
 <text text-anchor="middle" x="83.5" y="-1055.5" font-family="FreeSans" font-size="10.00">wxEvtHandler</text>
 <polyline fill="none" stroke="#bfbfbf" points="46.5,-1048.5 120.5,-1048.5 "/>
 <text text-anchor="middle" x="83.5" y="-1036.5" font-family="FreeSans" font-size="10.00"> </text>
@@ -85,7 +84,7 @@
 <!-- Node7 -->
 <g id="node7" class="node"><title>Node7</title>
 <g id="a_node7"><a xlink:href="classcbPlugin" target="_top" xlink:title="Base class for plugins This is the most basic class a plugin must descend from. ">
-<polygon fill="white" stroke="black" points="78.5,-761.5 78.5,-972.5 236.5,-972.5 236.5,-761.5 78.5,-761.5"/>
+<polygon fill="none" stroke="black" points="78.5,-761.5 78.5,-972.5 236.5,-972.5 236.5,-761.5 78.5,-761.5"/>
 <text text-anchor="middle" x="157.5" y="-960.5" font-family="FreeSans" font-size="10.00">cbPlugin</text>
 <polyline fill="none" stroke="black" points="78.5,-953.5 236.5,-953.5 "/>
 <text text-anchor="start" x="86.5" y="-941.5" font-family="FreeSans" font-size="10.00"># m_Type</text>
@@ -99,7 +98,7 @@
 <text text-anchor="start" x="86.5" y="-856.5" font-family="FreeSans" font-size="10.00">+ GetConfigurationPanel()</text>
 <text text-anchor="start" x="86.5" y="-845.5" font-family="FreeSans" font-size="10.00">+ GetProjectConfigurationPanel()</text>
 <text text-anchor="start" x="86.5" y="-834.5" font-family="FreeSans" font-size="10.00">+ BuildMenu()</text>
-<text text-anchor="start" x="86.5" y="-823.5" font-family="FreeSans" font-size="10.00">and 6 more...</text>
+<text text-anchor="start" x="86.5" y="-823.5" font-family="FreeSans" font-size="10.00">and 5 more...</text>
 <text text-anchor="start" x="86.5" y="-812.5" font-family="FreeSans" font-size="10.00"># OnAttach()</text>
 <text text-anchor="start" x="86.5" y="-801.5" font-family="FreeSans" font-size="10.00"># OnRelease()</text>
 <text text-anchor="start" x="86.5" y="-790.5" font-family="FreeSans" font-size="10.00"># NotImplemented()</text>
@@ -115,7 +114,7 @@
 </g>
 <!-- Node4 -->
 <g id="node4" class="node"><title>Node4</title>
-<polygon fill="white" stroke="#bfbfbf" points="83,-507.5 83,-575.5 216,-575.5 216,-507.5 83,-507.5"/>
+<polygon fill="none" stroke="#bfbfbf" points="83,-507.5 83,-575.5 216,-575.5 216,-507.5 83,-507.5"/>
 <text text-anchor="start" x="91" y="-563.5" font-family="FreeSans" font-size="10.00">std::vector&lt; PluginManager</text>
 <text text-anchor="middle" x="149.5" y="-552.5" font-family="FreeSans" font-size="10.00">::PluginRegistration &gt;</text>
 <polyline fill="none" stroke="#bfbfbf" points="83,-545.5 216,-545.5 "/>
@@ -132,7 +131,7 @@
 <!-- Node5 -->
 <g id="node5" class="node"><title>Node5</title>
 <g id="a_node5"><a xlink:href="structPluginManager_1_1PluginRegistration" target="_top" xlink:title="{PluginManager::PluginRegistration\n|+ name\l+ versionProc\l|+ PluginRegistration()\l+ PluginRegistration()\l}">
-<polygon fill="white" stroke="black" points="78.5,-623.5 78.5,-702.5 242.5,-702.5 242.5,-623.5 78.5,-623.5"/>
+<polygon fill="none" stroke="black" points="78.5,-623.5 78.5,-702.5 242.5,-702.5 242.5,-623.5 78.5,-623.5"/>
 <text text-anchor="middle" x="160.5" y="-690.5" font-family="FreeSans" font-size="10.00">PluginManager::PluginRegistration</text>
 <polyline fill="none" stroke="black" points="78.5,-683.5 242.5,-683.5 "/>
 <text text-anchor="start" x="86.5" y="-671.5" font-family="FreeSans" font-size="10.00">+ name</text>
@@ -152,7 +151,7 @@
 <!-- Node6 -->
 <g id="node6" class="node"><title>Node6</title>
 <g id="a_node6"><a xlink:href="pluginmanager_8h#structPluginInfo" target="_top" xlink:title="Information about the plugin. ">
-<polygon fill="white" stroke="black" points="254.5,-794.5 254.5,-939.5 340.5,-939.5 340.5,-794.5 254.5,-794.5"/>
+<polygon fill="none" stroke="black" points="254.5,-794.5 254.5,-939.5 340.5,-939.5 340.5,-794.5 254.5,-794.5"/>
 <text text-anchor="middle" x="297.5" y="-927.5" font-family="FreeSans" font-size="10.00">PluginInfo</text>
 <polyline fill="none" stroke="black" points="254.5,-920.5 340.5,-920.5 "/>
 <text text-anchor="start" x="262.5" y="-908.5" font-family="FreeSans" font-size="10.00">+ name</text>

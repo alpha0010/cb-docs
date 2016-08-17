@@ -18,7 +18,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">Code::Blocks
-   &#160;<span id="projectnumber">SVN r10603</span>
+   &#160;<span id="projectnumber">SVN r10885</span>
    </div>
   </td>
  </tr>
@@ -30,6 +30,7 @@
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="index"><span>Main&#160;Page</span></a></li>
+      <li><a href="pages"><span>Related&#160;Pages</span></a></li>
       <li><a href="namespaces"><span>Namespaces</span></a></li>
       <li class="current"><a href="annotated"><span>Classes</span></a></li>
       <li><a href="files"><span>Files</span></a></li>
@@ -63,14 +64,12 @@
 <div class="dynheader">
 Inheritance diagram for cbThreadPool::cbWorkerThread:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classcbThreadPool_1_1cbWorkerThread__inherit__graph.svg" width="214" height="331"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classcbThreadPool_1_1cbWorkerThread__inherit__graph.svg" width="214" height="331"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <div class="dynheader">
 Collaboration diagram for cbThreadPool::cbWorkerThread:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classcbThreadPool_1_1cbWorkerThread__coll__graph.svg" width="638" height="1066"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classcbThreadPool_1_1cbWorkerThread__coll__graph.svg" width="638" height="1066"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
@@ -94,14 +93,19 @@ Public Member Functions</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
 <tr class="memitem:j0-m_abort"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcbThreadPool_1_1cbWorkerThread#j0-m_abort">m_abort</a></td></tr>
+<tr class="memdesc:j0-m_abort"><td class="mdescLeft">&#160;</td><td class="mdescRight">whether is is aborted or not  <a href="#j0-m_abort">More...</a><br /></td></tr>
 <tr class="separator:j0-m_abort"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:fw-m_pPool"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classcbThreadPool">cbThreadPool</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcbThreadPool_1_1cbWorkerThread#fw-m_pPool">m_pPool</a></td></tr>
+<tr class="memdesc:fw-m_pPool"><td class="mdescLeft">&#160;</td><td class="mdescRight">point to the pool which the thread belong to  <a href="#fw-m_pPool">More...</a><br /></td></tr>
 <tr class="separator:fw-m_pPool"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:yx-m_semaphore"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classcbThreadPool_1_1CountedPtr">CountedPtr</a>&lt; wxSemaphore &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcbThreadPool_1_1cbWorkerThread#yx-m_semaphore">m_semaphore</a></td></tr>
+<tr class="memdesc:yx-m_semaphore"><td class="mdescLeft">&#160;</td><td class="mdescRight">a pointer to the wxSemaphore it is a counted semaphore pointer shared with all the <a class="el" href="classcbThreadPool_1_1cbWorkerThread" title="A Worker Thread class. ">cbWorkerThread</a>  <a href="#yx-m_semaphore">More...</a><br /></td></tr>
 <tr class="separator:yx-m_semaphore"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:c5-m_pTask"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classcbThreadedTask">cbThreadedTask</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcbThreadPool_1_1cbWorkerThread#c5-m_pTask">m_pTask</a></td></tr>
+<tr class="memdesc:c5-m_pTask"><td class="mdescLeft">&#160;</td><td class="mdescRight">a pointer to the running task  <a href="#c5-m_pTask">More...</a><br /></td></tr>
 <tr class="separator:c5-m_pTask"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:g9-m_taskMutex"><td class="memItemLeft" align="right" valign="top">wxMutex&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcbThreadPool_1_1cbWorkerThread#g9-m_taskMutex">m_taskMutex</a></td></tr>
+<tr class="memdesc:g9-m_taskMutex"><td class="mdescLeft">&#160;</td><td class="mdescRight">to protect the member variable accessing from multiply threads lock the access to the m_pTask <a class="el" href="classcbThreadPool_1_1cbWorkerThread#e5-AbortTask" title="Aborts the running task (if any) ">cbWorkerThread::AbortTask()</a> which access to m_pTask may be called from poll when thread is running  <a href="#g9-m_taskMutex">More...</a><br /></td></tr>
 <tr class="separator:g9-m_taskMutex"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
@@ -238,6 +242,8 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>whether is is aborted or not </p>
+
 </div>
 </div>
 <a class="anchor" id="fw-m_pPool"></a>
@@ -257,6 +263,8 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>point to the pool which the thread belong to </p>
 
 </div>
 </div>
@@ -278,6 +286,8 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>a pointer to the running task </p>
+
 </div>
 </div>
 <a class="anchor" id="yx-m_semaphore"></a>
@@ -298,6 +308,8 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>a pointer to the wxSemaphore it is a counted semaphore pointer shared with all the <a class="el" href="classcbThreadPool_1_1cbWorkerThread" title="A Worker Thread class. ">cbWorkerThread</a> </p>
+
 </div>
 </div>
 <a class="anchor" id="g9-m_taskMutex"></a>
@@ -317,6 +329,8 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>to protect the member variable accessing from multiply threads lock the access to the m_pTask <a class="el" href="classcbThreadPool_1_1cbWorkerThread#e5-AbortTask" title="Aborts the running task (if any) ">cbWorkerThread::AbortTask()</a> which access to m_pTask may be called from poll when thread is running </p>
 
 </div>
 </div>

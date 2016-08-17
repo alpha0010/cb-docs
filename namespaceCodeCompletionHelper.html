@@ -18,7 +18,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">Code::Blocks
-   &#160;<span id="projectnumber">SVN r10603</span>
+   &#160;<span id="projectnumber">SVN r10885</span>
    </div>
   </td>
  </tr>
@@ -30,6 +30,7 @@
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="index"><span>Main&#160;Page</span></a></li>
+      <li><a href="pages"><span>Related&#160;Pages</span></a></li>
       <li class="current"><a href="namespaces"><span>Namespaces</span></a></li>
       <li><a href="annotated"><span>Classes</span></a></li>
       <li><a href="files"><span>Files</span></a></li>
@@ -68,12 +69,16 @@ Functions</h2></td></tr>
 <tr class="memitem:p3-EqualNameSpace"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceCodeCompletionHelper#p3-EqualNameSpace">EqualNameSpace</a> (const <a class="el" href="parserthread_8h#structNameSpace">NameSpace</a> &amp;ns1, const <a class="el" href="parserthread_8h#structNameSpace">NameSpace</a> &amp;ns2)</td></tr>
 <tr class="separator:p3-EqualNameSpace"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:lm-GetLastNonWhitespaceChar"><td class="memItemLeft" align="right" valign="top">wxChar&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceCodeCompletionHelper#lm-GetLastNonWhitespaceChar">GetLastNonWhitespaceChar</a> (<a class="el" href="classcbStyledTextCtrl">cbStyledTextCtrl</a> *control, int position)</td></tr>
+<tr class="memdesc:lm-GetLastNonWhitespaceChar"><td class="mdescLeft">&#160;</td><td class="mdescRight">for OnGotoFunction(), search backward  <a href="#lm-GetLastNonWhitespaceChar">More...</a><br /></td></tr>
 <tr class="separator:lm-GetLastNonWhitespaceChar"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:xs-GetNextNonWhitespaceChar"><td class="memItemLeft" align="right" valign="top">wxChar&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceCodeCompletionHelper#xs-GetNextNonWhitespaceChar">GetNextNonWhitespaceChar</a> (<a class="el" href="classcbStyledTextCtrl">cbStyledTextCtrl</a> *control, int position)</td></tr>
-<tr class="separator:xs-GetNextNonWhitespaceChar"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:q4-GetNextNonWhitespaceChar"><td class="memItemLeft" align="right" valign="top">xxxxx **begin result *wxChar&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceCodeCompletionHelper#q4-GetNextNonWhitespaceChar">GetNextNonWhitespaceChar</a> (<a class="el" href="classcbStyledTextCtrl">cbStyledTextCtrl</a> *control, int position)</td></tr>
+<tr class="memdesc:q4-GetNextNonWhitespaceChar"><td class="mdescLeft">&#160;</td><td class="mdescRight">for OnGotoFunction(), search forward /* yyy  <a href="#q4-GetNextNonWhitespaceChar">More...</a><br /></td></tr>
+<tr class="separator:q4-GetNextNonWhitespaceChar"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gw-CompareStringLen"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceCodeCompletionHelper#gw-CompareStringLen">CompareStringLen</a> (const wxString &amp;first, const wxString &amp;second)</td></tr>
+<tr class="memdesc:gw-CompareStringLen"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sorting in GetLocalIncludeDirs()  <a href="#gw-CompareStringLen">More...</a><br /></td></tr>
 <tr class="separator:gw-CompareStringLen"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:l0-TestIncludeLine"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceCodeCompletionHelper#l0-TestIncludeLine">TestIncludeLine</a> (wxString const &amp;line)</td></tr>
+<tr class="memdesc:l0-TestIncludeLine"><td class="mdescLeft">&#160;</td><td class="mdescRight">for CodeCompleteIncludes() a line has some pattern like below  <a href="#l0-TestIncludeLine">More...</a><br /></td></tr>
 <tr class="separator:l0-TestIncludeLine"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gy-EditorHasNameUnderCursor"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceCodeCompletionHelper#gy-EditorHasNameUnderCursor">EditorHasNameUnderCursor</a> (wxString &amp;NameUnderCursor, bool &amp;IsInclude)</td></tr>
 <tr class="memdesc:gy-EditorHasNameUnderCursor"><td class="mdescLeft">&#160;</td><td class="mdescRight">return identifier like token string under the current cursor pointer  <a href="#gy-EditorHasNameUnderCursor">More...</a><br /></td></tr>
@@ -96,8 +101,7 @@ Functions</h2></td></tr>
 </div><div class="dynheader">
 Collaboration diagram for CodeCompletionHelper::GotoDeclarationItem:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="structCodeCompletionHelper_1_1GotoDeclarationItem__coll__graph.svg" width="166" height="118"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="structCodeCompletionHelper_1_1GotoDeclarationItem__coll__graph.svg" width="166" height="118"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <table class="fieldtable">
 <tr><th colspan="3">Class Members</th></tr>
@@ -185,6 +189,8 @@ line</td>
 </table>
 </div><div class="memdoc">
 
+<p>Sorting in GetLocalIncludeDirs() </p>
+
 </div>
 </div>
 <a class="anchor" id="gy-EditorHasNameUnderCursor"></a>
@@ -222,8 +228,8 @@ line</td>
 <p>return identifier like token string under the current cursor pointer </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">NameUnderCursor</td><td>the identifier like token string </td></tr>
-    <tr><td class="paramname">IsInclude</td><td>true if it is a #include command </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">NameUnderCursor</td><td>the identifier like token string </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">IsInclude</td><td>true if it is a #include command </td></tr>
   </table>
   </dd>
 </dl>
@@ -341,13 +347,18 @@ line</td>
 </table>
 </div><div class="memdoc">
 
+<p>for OnGotoFunction(), search backward </p>
+<div class="fragment"><div class="line">xxxxx  <span class="comment">/* yyy */</span></div>
+<div class="line">    ^             ^</div>
+<div class="line">    result        begin</div>
+</div><!-- fragment --> 
 <p>References <a class="el" href="classwxScintilla#yd-GetCharAt">wxScintilla::GetCharAt()</a>, <a class="el" href="classwxScintilla#xv-GetStyleAt">wxScintilla::GetStyleAt()</a>, and <a class="el" href="classcbStyledTextCtrl#k3-IsComment">cbStyledTextCtrl::IsComment()</a>.</p>
 
 <p>Referenced by <a class="el" href="classCodeCompletion#k5-OnGotoDeclaration">CodeCompletion::OnGotoDeclaration()</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="xs-GetNextNonWhitespaceChar"></a>
+<a class="anchor" id="q4-GetNextNonWhitespaceChar"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -355,7 +366,7 @@ line</td>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">wxChar CodeCompletionHelper::GetNextNonWhitespaceChar </td>
+          <td class="memname">xxxxx* * begin result* wxChar CodeCompletionHelper::GetNextNonWhitespaceChar </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classcbStyledTextCtrl">cbStyledTextCtrl</a> *&#160;</td>
           <td class="paramname"><em>control</em>, </td>
@@ -378,6 +389,8 @@ line</td>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>for OnGotoFunction(), search forward /* yyy </p>
 
 <p>References <a class="el" href="classwxScintilla#yd-GetCharAt">wxScintilla::GetCharAt()</a>, <a class="el" href="classwxScintilla#ej-GetLength">wxScintilla::GetLength()</a>, <a class="el" href="classwxScintilla#xv-GetStyleAt">wxScintilla::GetStyleAt()</a>, and <a class="el" href="classcbStyledTextCtrl#k3-IsComment">cbStyledTextCtrl::IsComment()</a>.</p>
 
@@ -483,6 +496,9 @@ line</td>
 </table>
 </div><div class="memdoc">
 
+<p>for CodeCompleteIncludes() a line has some pattern like below </p>
+<div class="fragment"><div class="line"><span class="preprocessor"># [space or tab] include</span></div>
+</div><!-- fragment --> 
 <p>Referenced by <a class="el" href="classCodeCompletion#jd-DoCodeCompleteIncludes">CodeCompletion::DoCodeCompleteIncludes()</a>.</p>
 
 </div>

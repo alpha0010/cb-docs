@@ -18,7 +18,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">Code::Blocks
-   &#160;<span id="projectnumber">SVN r10603</span>
+   &#160;<span id="projectnumber">SVN r10885</span>
    </div>
   </td>
  </tr>
@@ -30,6 +30,7 @@
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="index"><span>Main&#160;Page</span></a></li>
+      <li><a href="pages"><span>Related&#160;Pages</span></a></li>
       <li><a href="namespaces"><span>Namespaces</span></a></li>
       <li><a href="annotated"><span>Classes</span></a></li>
       <li class="current"><a href="files"><span>Files</span></a></li>
@@ -50,8 +51,7 @@
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#typedef-members">Typedefs</a> &#124;
-<a href="#enum-members">Enumerations</a> &#124;
-<a href="#func-members">Functions</a>  </div>
+<a href="#enum-members">Enumerations</a>  </div>
   <div class="headertitle">
 <div class="title">compiler.h File Reference</div>  </div>
 </div><!--header-->
@@ -67,14 +67,12 @@
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for compiler.h:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="compiler_8h__incl.svg" width="1051" height="262"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="compiler_8h__incl.svg" width="1051" height="262"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div><div class="textblock"><div class="dynheader">
 This graph shows which files directly or indirectly include this file:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="compiler_8h__dep__incl.svg" width="5850" height="262"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="compiler_8h__dep__incl.svg" width="16607" height="276"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 <p><a href="compiler_8h_source">Go to the source code of this file.</a></p>
@@ -100,6 +98,8 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
 Typedefs</h2></td></tr>
+<tr class="memitem:jf-RegExArray"><td class="memItemLeft" align="right" valign="top">typedef std::vector&lt; <a class="el" href="structRegExStruct">RegExStruct</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="compiler_8h#jf-RegExArray">RegExArray</a></td></tr>
+<tr class="separator:jf-RegExArray"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:vz-CompilerToolsVector"><td class="memItemLeft" align="right" valign="top">typedef std::vector&lt; <a class="el" href="structCompilerTool">CompilerTool</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="compiler_8h#vz-CompilerToolsVector">CompilerToolsVector</a></td></tr>
 <tr class="separator:vz-CompilerToolsVector"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -138,11 +138,6 @@ Enumerations</h2></td></tr>
 <a class="el" href="compiler_8h#ka-AutoDetectResult:adrGuessed">adrGuessed</a>
  }<tr class="separator:ka-AutoDetectResult"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
-Functions</h2></td></tr>
-<tr class="memitem:cg-WX_DECLARE_OBJARRAY"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="compiler_8h#cg-WX_DECLARE_OBJARRAY">WX_DECLARE_OBJARRAY</a> (<a class="el" href="structRegExStruct">RegExStruct</a>, RegExArray)</td></tr>
-<tr class="separator:cg-WX_DECLARE_OBJARRAY"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <hr/><h2 class="groupheader">Class Documentation</h2>
 <a name="structCompilerPrograms" id="structCompilerPrograms"></a>
@@ -158,8 +153,7 @@ Functions</h2></td></tr>
 </div><div class="dynheader">
 Collaboration diagram for CompilerPrograms:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="structCompilerPrograms__coll__graph.svg" width="139" height="176"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="structCompilerPrograms__coll__graph.svg" width="139" height="176"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <table class="fieldtable">
 <tr><th colspan="3">Class Members</th></tr>
@@ -221,8 +215,7 @@ WINDRES</td>
 <div class="textblock"></div><div class="dynheader">
 Collaboration diagram for Compiler::MirrorSettings:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="structCompiler_1_1MirrorSettings__coll__graph.svg" width="694" height="691"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="structCompiler_1_1MirrorSettings__coll__graph.svg" width="694" height="691"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <table class="fieldtable">
 <tr><th colspan="3">Class Members</th></tr>
@@ -305,7 +298,7 @@ Programs</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a class="anchor" id="tl-RegExes"></a>RegExArray</td>
+<a class="anchor" id="tl-RegExes"></a><a class="el" href="compiler_8h#jf-RegExArray">RegExArray</a></td>
 <td class="fieldname">
 RegExes</td>
 <td class="fielddoc">
@@ -314,6 +307,12 @@ RegExes</td>
 <a class="anchor" id="mf-ResIncludeDirs"></a>wxArrayString</td>
 <td class="fieldname">
 ResIncludeDirs</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a class="anchor" id="an-ResourceCompilerOptions"></a>wxArrayString</td>
+<td class="fieldname">
+ResourceCompilerOptions</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
@@ -339,6 +338,18 @@ Switches</td>
       <table class="memname">
         <tr>
           <td class="memname">typedef std::vector&lt;<a class="el" href="structCompilerTool">CompilerTool</a>&gt; <a class="el" href="compiler_8h#vz-CompilerToolsVector">CompilerToolsVector</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="jf-RegExArray"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef std::vector&lt;<a class="el" href="structRegExStruct">RegExStruct</a>&gt; <a class="el" href="compiler_8h#jf-RegExArray">RegExArray</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -450,33 +461,6 @@ Switches</td>
 <tr><td class="fieldname"><a class="anchor" id="pm-CompilerLoggingType:clogNone"></a>clogNone&#160;</td><td class="fielddoc">
 </td></tr>
 </table>
-
-</div>
-</div>
-<h2 class="groupheader">Function Documentation</h2>
-<a class="anchor" id="cg-WX_DECLARE_OBJARRAY"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">WX_DECLARE_OBJARRAY </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="structRegExStruct">RegExStruct</a>&#160;</td>
-          <td class="paramname">, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">RegExArray&#160;</td>
-          <td class="paramname">&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
 
 </div>
 </div>

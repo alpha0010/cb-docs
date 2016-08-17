@@ -18,7 +18,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">Code::Blocks
-   &#160;<span id="projectnumber">SVN r10603</span>
+   &#160;<span id="projectnumber">SVN r10885</span>
    </div>
   </td>
  </tr>
@@ -30,6 +30,7 @@
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="index"><span>Main&#160;Page</span></a></li>
+      <li><a href="pages"><span>Related&#160;Pages</span></a></li>
       <li><a href="namespaces"><span>Namespaces</span></a></li>
       <li class="current"><a href="annotated"><span>Classes</span></a></li>
       <li><a href="files"><span>Files</span></a></li>
@@ -64,14 +65,12 @@
 <div class="dynheader">
 Inheritance diagram for EditorBase:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classEditorBase__inherit__graph.svg" width="398" height="1175"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classEditorBase__inherit__graph.svg" width="398" height="1175"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <div class="dynheader">
 Collaboration diagram for EditorBase:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classEditorBase__coll__graph.svg" width="211" height="692"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classEditorBase__coll__graph.svg" width="211" height="692"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
@@ -134,39 +133,6 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aq-GotoLine"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEditorBase#aq-GotoLine">GotoLine</a> (int, bool=true)</td></tr>
 <tr class="memdesc:aq-GotoLine"><td class="mdescLeft">&#160;</td><td class="mdescRight">Move the caret at the specified line.  <a href="#aq-GotoLine">More...</a><br /></td></tr>
 <tr class="separator:aq-GotoLine"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:l5-ToggleBreakpoint"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEditorBase#l5-ToggleBreakpoint">ToggleBreakpoint</a> (int=-1, bool=true)</td></tr>
-<tr class="memdesc:l5-ToggleBreakpoint"><td class="mdescLeft">&#160;</td><td class="mdescRight">Toggle breakpoint at specified line.  <a href="#l5-ToggleBreakpoint">More...</a><br /></td></tr>
-<tr class="separator:l5-ToggleBreakpoint"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:cc-HasBreakpoint"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEditorBase#cc-HasBreakpoint">HasBreakpoint</a> (cb_optional int line) const </td></tr>
-<tr class="memdesc:cc-HasBreakpoint"><td class="mdescLeft">&#160;</td><td class="mdescRight">Does <code>line</code> has breakpoint?  <a href="#cc-HasBreakpoint">More...</a><br /></td></tr>
-<tr class="separator:cc-HasBreakpoint"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:cx-GotoNextBreakpoint"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEditorBase#cx-GotoNextBreakpoint">GotoNextBreakpoint</a> ()</td></tr>
-<tr class="memdesc:cx-GotoNextBreakpoint"><td class="mdescLeft">&#160;</td><td class="mdescRight">Go to next breakpoint.  <a href="#cx-GotoNextBreakpoint">More...</a><br /></td></tr>
-<tr class="separator:cx-GotoNextBreakpoint"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:e0-GotoPreviousBreakpoint"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEditorBase#e0-GotoPreviousBreakpoint">GotoPreviousBreakpoint</a> ()</td></tr>
-<tr class="memdesc:e0-GotoPreviousBreakpoint"><td class="mdescLeft">&#160;</td><td class="mdescRight">Go to previous breakpoint.  <a href="#e0-GotoPreviousBreakpoint">More...</a><br /></td></tr>
-<tr class="separator:e0-GotoPreviousBreakpoint"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:pa-RefreshBreakpointMarkers"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEditorBase#pa-RefreshBreakpointMarkers">RefreshBreakpointMarkers</a> ()</td></tr>
-<tr class="memdesc:pa-RefreshBreakpointMarkers"><td class="mdescLeft">&#160;</td><td class="mdescRight">Refresh all markers for the breakpoints (only the markers for the current debugger will be shown)  <a href="#pa-RefreshBreakpointMarkers">More...</a><br /></td></tr>
-<tr class="separator:pa-RefreshBreakpointMarkers"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:f2-ToggleBookmark"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEditorBase#f2-ToggleBookmark">ToggleBookmark</a> (int=-1)</td></tr>
-<tr class="memdesc:f2-ToggleBookmark"><td class="mdescLeft">&#160;</td><td class="mdescRight">Toggle bookmark at specified line.  <a href="#f2-ToggleBookmark">More...</a><br /></td></tr>
-<tr class="separator:f2-ToggleBookmark"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:o0-HasBookmark"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEditorBase#o0-HasBookmark">HasBookmark</a> (cb_optional int line) const </td></tr>
-<tr class="memdesc:o0-HasBookmark"><td class="mdescLeft">&#160;</td><td class="mdescRight">Does <code>line</code> has bookmark?  <a href="#o0-HasBookmark">More...</a><br /></td></tr>
-<tr class="separator:o0-HasBookmark"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:uy-GotoNextBookmark"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEditorBase#uy-GotoNextBookmark">GotoNextBookmark</a> ()</td></tr>
-<tr class="memdesc:uy-GotoNextBookmark"><td class="mdescLeft">&#160;</td><td class="mdescRight">Go to next bookmark.  <a href="#uy-GotoNextBookmark">More...</a><br /></td></tr>
-<tr class="separator:uy-GotoNextBookmark"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:wn-GotoPreviousBookmark"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEditorBase#wn-GotoPreviousBookmark">GotoPreviousBookmark</a> ()</td></tr>
-<tr class="memdesc:wn-GotoPreviousBookmark"><td class="mdescLeft">&#160;</td><td class="mdescRight">Go to previous bookmark.  <a href="#wn-GotoPreviousBookmark">More...</a><br /></td></tr>
-<tr class="separator:wn-GotoPreviousBookmark"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:h4-SetDebugLine"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEditorBase#h4-SetDebugLine">SetDebugLine</a> (cb_optional int line)</td></tr>
-<tr class="memdesc:h4-SetDebugLine"><td class="mdescLeft">&#160;</td><td class="mdescRight">Mark the debugger's active line.  <a href="#h4-SetDebugLine">More...</a><br /></td></tr>
-<tr class="separator:h4-SetDebugLine"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:xu-SetErrorLine"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEditorBase#xu-SetErrorLine">SetErrorLine</a> (cb_optional int line)</td></tr>
-<tr class="memdesc:xu-SetErrorLine"><td class="mdescLeft">&#160;</td><td class="mdescRight">Mark line as error.  <a href="#xu-SetErrorLine">More...</a><br /></td></tr>
-<tr class="separator:xu-SetErrorLine"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:us-Undo"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEditorBase#us-Undo">Undo</a> ()</td></tr>
 <tr class="memdesc:us-Undo"><td class="mdescLeft">&#160;</td><td class="mdescRight">Undo changes.  <a href="#us-Undo">More...</a><br /></td></tr>
 <tr class="separator:us-Undo"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -988,64 +954,6 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="uy-GotoNextBookmark"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual void EditorBase::GotoNextBookmark </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Go to next bookmark. </p>
-
-<p>Reimplemented in <a class="el" href="classcbEditor#mq-GotoNextBookmark">cbEditor</a>.</p>
-
-<p>Referenced by <a class="el" href="classMainFrame#zk-OnEditBookmarksNext">MainFrame::OnEditBookmarksNext()</a>, and <a class="el" href="namespaceScriptBindings#yj-RegisterBindings">ScriptBindings::RegisterBindings()</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="cx-GotoNextBreakpoint"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual void EditorBase::GotoNextBreakpoint </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Go to next breakpoint. </p>
-
-<p>Reimplemented in <a class="el" href="classcbEditor#ux-GotoNextBreakpoint">cbEditor</a>.</p>
-
-<p>Referenced by <a class="el" href="namespaceScriptBindings#yj-RegisterBindings">ScriptBindings::RegisterBindings()</a>.</p>
-
-</div>
-</div>
 <a class="anchor" id="p5-GotoNextChanged"></a>
 <div class="memitem">
 <div class="memproto">
@@ -1073,64 +981,6 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="wn-GotoPreviousBookmark"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual void EditorBase::GotoPreviousBookmark </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Go to previous bookmark. </p>
-
-<p>Reimplemented in <a class="el" href="classcbEditor#iv-GotoPreviousBookmark">cbEditor</a>.</p>
-
-<p>Referenced by <a class="el" href="classMainFrame#jp-OnEditBookmarksPrevious">MainFrame::OnEditBookmarksPrevious()</a>, and <a class="el" href="namespaceScriptBindings#yj-RegisterBindings">ScriptBindings::RegisterBindings()</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="e0-GotoPreviousBreakpoint"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual void EditorBase::GotoPreviousBreakpoint </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Go to previous breakpoint. </p>
-
-<p>Reimplemented in <a class="el" href="classcbEditor#t4-GotoPreviousBreakpoint">cbEditor</a>.</p>
-
-<p>Referenced by <a class="el" href="namespaceScriptBindings#yj-RegisterBindings">ScriptBindings::RegisterBindings()</a>.</p>
-
-</div>
-</div>
 <a class="anchor" id="fg-GotoPreviousChanged"></a>
 <div class="memitem">
 <div class="memproto">
@@ -1155,76 +1005,6 @@ Private Attributes</h2></td></tr>
 <p>Goto previous changed line. </p>
 
 <p>Reimplemented in <a class="el" href="classcbEditor#a5-GotoPreviousChanged">cbEditor</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="o0-HasBookmark"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual bool EditorBase::HasBookmark </td>
-          <td>(</td>
-          <td class="paramtype">cb_optional int&#160;</td>
-          <td class="paramname"><em>line</em></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Does <code>line</code> has bookmark? </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">line</td><td>The line to check for bookmark existence. </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>True if there is a bookmark on this line, false if not. </dd></dl>
-
-<p>Referenced by <a class="el" href="namespaceScriptBindings#yj-RegisterBindings">ScriptBindings::RegisterBindings()</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="cc-HasBreakpoint"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual bool EditorBase::HasBreakpoint </td>
-          <td>(</td>
-          <td class="paramtype">cb_optional int&#160;</td>
-          <td class="paramname"><em>line</em></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Does <code>line</code> has breakpoint? </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">line</td><td>The line to check for breakpoint existence. </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>True if there is a breakpoint on this line, false if not. </dd></dl>
-
-<p>Referenced by <a class="el" href="namespaceScriptBindings#yj-RegisterBindings">ScriptBindings::RegisterBindings()</a>.</p>
 
 </div>
 </div>
@@ -1320,7 +1100,7 @@ Private Attributes</h2></td></tr>
 
 <p>References <a class="el" href="classEditorBase#vk-m_IsBuiltinEditor">m_IsBuiltinEditor</a>.</p>
 
-<p>Referenced by <a class="el" href="classProjectManagerUI#i7-DoOpenFile">ProjectManagerUI::DoOpenFile()</a>, <a class="el" href="classMainFrame#ec-DoUpdateAppTitle">MainFrame::DoUpdateAppTitle()</a>, <a class="el" href="classEditorManager#rw-GetBuiltinEditor">EditorManager::GetBuiltinEditor()</a>, <a class="el" href="classMainFrame#jg-GetEditorDescription">MainFrame::GetEditorDescription()</a>, <a class="el" href="classEditorManager#si-InternalGetBuiltinEditor">EditorManager::InternalGetBuiltinEditor()</a>, <a class="el" href="classcbSmartIndentPlugin#xd-OnCCDoneEvent">cbSmartIndentPlugin::OnCCDoneEvent()</a>, <a class="el" href="classMainFrame#jz-OnEditorActivated">MainFrame::OnEditorActivated()</a>, <a class="el" href="classCodeCompletion#yj-OnEditorClosed">CodeCompletion::OnEditorClosed()</a>, <a class="el" href="classCCManager#s5-OnEditorTooltip">CCManager::OnEditorTooltip()</a>, <a class="el" href="classMainFrame#ua-OnEditSelectNext">MainFrame::OnEditSelectNext()</a>, <a class="el" href="classMainFrame#a2-OnEditSelectNextSkip">MainFrame::OnEditSelectNextSkip()</a>, <a class="el" href="classEditorManager#r8-Open">EditorManager::Open()</a>, <a class="el" href="classcbDebuggerPlugin#r9-ProcessValueTooltip">cbDebuggerPlugin::ProcessValueTooltip()</a>, <a class="el" href="classMacrosManager#ee-RecalcVars">MacrosManager::RecalcVars()</a>, <a class="el" href="debuggermanager_8cpp#sx-RefreshBreakpoints">RefreshBreakpoints()</a>, <a class="el" href="namespaceScriptBindings#yj-RegisterBindings">ScriptBindings::RegisterBindings()</a>, <a class="el" href="classEditorManager#qh-SetActiveEditor">EditorManager::SetActiveEditor()</a>, and <a class="el" href="classDebugInterfaceFactory#x5-ShowValueTooltip">DebugInterfaceFactory::ShowValueTooltip()</a>.</p>
+<p>Referenced by <a class="el" href="classProjectManagerUI#i7-DoOpenFile">ProjectManagerUI::DoOpenFile()</a>, <a class="el" href="classMainFrame#ec-DoUpdateAppTitle">MainFrame::DoUpdateAppTitle()</a>, <a class="el" href="classEditorManager#rw-GetBuiltinEditor">EditorManager::GetBuiltinEditor()</a>, <a class="el" href="classMainFrame#jg-GetEditorDescription">MainFrame::GetEditorDescription()</a>, <a class="el" href="classEditorManager#si-InternalGetBuiltinEditor">EditorManager::InternalGetBuiltinEditor()</a>, <a class="el" href="classBreakpointsDlg#kl-OnBreakpointEdit">BreakpointsDlg::OnBreakpointEdit()</a>, <a class="el" href="classcbSmartIndentPlugin#xd-OnCCDoneEvent">cbSmartIndentPlugin::OnCCDoneEvent()</a>, <a class="el" href="classMainFrame#i1-OnEditBookmarksClearAll">MainFrame::OnEditBookmarksClearAll()</a>, <a class="el" href="classMainFrame#zk-OnEditBookmarksNext">MainFrame::OnEditBookmarksNext()</a>, <a class="el" href="classMainFrame#jp-OnEditBookmarksPrevious">MainFrame::OnEditBookmarksPrevious()</a>, <a class="el" href="classMainFrame#w9-OnEditBookmarksToggle">MainFrame::OnEditBookmarksToggle()</a>, <a class="el" href="classMainFrame#jz-OnEditorActivated">MainFrame::OnEditorActivated()</a>, <a class="el" href="classCodeCompletion#yj-OnEditorClosed">CodeCompletion::OnEditorClosed()</a>, <a class="el" href="classcbDebuggerPlugin#dq-OnEditorOpened">cbDebuggerPlugin::OnEditorOpened()</a>, <a class="el" href="classCCManager#s5-OnEditorTooltip">CCManager::OnEditorTooltip()</a>, <a class="el" href="classMainFrame#ua-OnEditSelectNext">MainFrame::OnEditSelectNext()</a>, <a class="el" href="classMainFrame#a2-OnEditSelectNextSkip">MainFrame::OnEditSelectNextSkip()</a>, <a class="el" href="classEditorManager#r8-Open">EditorManager::Open()</a>, <a class="el" href="classcbDebuggerPlugin#r9-ProcessValueTooltip">cbDebuggerPlugin::ProcessValueTooltip()</a>, <a class="el" href="classMacrosManager#ee-RecalcVars">MacrosManager::RecalcVars()</a>, <a class="el" href="debuggermanager_8cpp#sx-RefreshBreakpoints">RefreshBreakpoints()</a>, <a class="el" href="namespaceScriptBindings#yj-RegisterBindings">ScriptBindings::RegisterBindings()</a>, <a class="el" href="classWiz#xz-RunFilesWizard">Wiz::RunFilesWizard()</a>, <a class="el" href="classEditorManager#qh-SetActiveEditor">EditorManager::SetActiveEditor()</a>, and <a class="el" href="classDebugInterfaceFactory#x5-ShowValueTooltip">DebugInterfaceFactory::ShowValueTooltip()</a>.</p>
 
 </div>
 </div>
@@ -1609,35 +1389,6 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="pa-RefreshBreakpointMarkers"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual void EditorBase::RefreshBreakpointMarkers </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Refresh all markers for the breakpoints (only the markers for the current debugger will be shown) </p>
-
-<p>Reimplemented in <a class="el" href="classcbEditor#zz-RefreshBreakpointMarkers">cbEditor</a>.</p>
-
-<p>Referenced by <a class="el" href="classBreakpointsDlg#kl-OnBreakpointEdit">BreakpointsDlg::OnBreakpointEdit()</a>, <a class="el" href="classcbDebuggerPlugin#dq-OnEditorOpened">cbDebuggerPlugin::OnEditorOpened()</a>, and <a class="el" href="debuggermanager_8cpp#sx-RefreshBreakpoints">RefreshBreakpoints()</a>.</p>
-
-</div>
-</div>
 <a class="anchor" id="hv-Save"></a>
 <div class="memitem">
 <div class="memproto">
@@ -1750,72 +1501,6 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Enable or disable changebar. </p>
-
-</div>
-</div>
-<a class="anchor" id="h4-SetDebugLine"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual void EditorBase::SetDebugLine </td>
-          <td>(</td>
-          <td class="paramtype">cb_optional int&#160;</td>
-          <td class="paramname"><em>line</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Mark the debugger's active line. </p>
-<p>Highlight the line the debugger will execute next. </p><dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">line</td><td>The line in question. </td></tr>
-  </table>
-  </dd>
-</dl>
-
-<p>Referenced by <a class="el" href="classcbDebuggerPlugin#dq-OnEditorOpened">cbDebuggerPlugin::OnEditorOpened()</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="xu-SetErrorLine"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual void EditorBase::SetErrorLine </td>
-          <td>(</td>
-          <td class="paramtype">cb_optional int&#160;</td>
-          <td class="paramname"><em>line</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Mark line as error. </p>
-<p>Highlight the specified line as compiler error. </p><dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">line</td><td>The line in question. </td></tr>
-  </table>
-  </dd>
-</dl>
 
 </div>
 </div>
@@ -1986,89 +1671,6 @@ Private Attributes</h2></td></tr>
 <p>References <a class="el" href="classManager#rz-Get">Manager::Get()</a>.</p>
 
 <p>Referenced by <a class="el" href="classEditorBase#b1-BasicAddToContextMenu">BasicAddToContextMenu()</a>, and <a class="el" href="namespaceScriptBindings#yj-RegisterBindings">ScriptBindings::RegisterBindings()</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="f2-ToggleBookmark"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual void EditorBase::ToggleBookmark </td>
-          <td>(</td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"> = <code>-1</code></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Toggle bookmark at specified line. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">line</td><td>The line to toggle the bookmark on. If <code>line</code> is -1, use current line. </td></tr>
-  </table>
-  </dd>
-</dl>
-
-<p>Reimplemented in <a class="el" href="classcbEditor#q1-ToggleBookmark">cbEditor</a>.</p>
-
-<p>Referenced by <a class="el" href="classMainFrame#w9-OnEditBookmarksToggle">MainFrame::OnEditBookmarksToggle()</a>, and <a class="el" href="namespaceScriptBindings#yj-RegisterBindings">ScriptBindings::RegisterBindings()</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="l5-ToggleBreakpoint"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual void EditorBase::ToggleBreakpoint </td>
-          <td>(</td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"> = <code>-1</code>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">bool&#160;</td>
-          <td class="paramname"> = <code>true</code>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Toggle breakpoint at specified line. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">line</td><td>The line to toggle the breakpoint on. If <code>line</code> is -1, use current line. </td></tr>
-    <tr><td class="paramname">notifyDebugger</td><td>If true (and a debugger plugin is loaded), tell the debugger about this breakpoint. </td></tr>
-  </table>
-  </dd>
-</dl>
-
-<p>Reimplemented in <a class="el" href="classcbEditor#mw-ToggleBreakpoint">cbEditor</a>.</p>
-
-<p>Referenced by <a class="el" href="namespaceScriptBindings#yj-RegisterBindings">ScriptBindings::RegisterBindings()</a>.</p>
 
 </div>
 </div>

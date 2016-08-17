@@ -8,7 +8,6 @@
  viewBox="0.00 0.00 163.00 826.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 822)">
 <title>ProjectBuildTarget</title>
-<polygon fill="white" stroke="none" points="-4,4 -4,-822 159,-822 159,4 -4,4"/>
 <!-- Node1 -->
 <g id="node1" class="node"><title>Node1</title>
 <polygon fill="#bfbfbf" stroke="black" points="8,-0.5 8,-244.5 147,-244.5 147,-0.5 8,-0.5"/>
@@ -38,7 +37,7 @@
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
 <g id="a_node2"><a xlink:href="classCompileTargetBase" target="_top" xlink:title="Base class for build target classes Each Code::Blocks project consists of at least one target...">
-<polygon fill="white" stroke="black" points="0,-281.5 0,-547.5 155,-547.5 155,-281.5 0,-281.5"/>
+<polygon fill="none" stroke="black" points="0,-281.5 0,-547.5 155,-547.5 155,-281.5 0,-281.5"/>
 <text text-anchor="middle" x="77.5" y="-535.5" font-family="FreeSans" font-size="10.00">CompileTargetBase</text>
 <polyline fill="none" stroke="black" points="0,-528.5 155,-528.5 "/>
 <text text-anchor="start" x="8" y="-516.5" font-family="FreeSans" font-size="10.00"># m_Filename</text>
@@ -74,7 +73,7 @@
 <!-- Node3 -->
 <g id="node3" class="node"><title>Node3</title>
 <g id="a_node3"><a xlink:href="classCompileOptionsBase" target="_top" xlink:title="This is a base class for all classes needing compilation parameters. ">
-<polygon fill="white" stroke="black" points="3,-584.5 3,-817.5 152,-817.5 152,-584.5 3,-584.5"/>
+<polygon fill="none" stroke="black" points="3,-584.5 3,-817.5 152,-817.5 152,-584.5 3,-584.5"/>
 <text text-anchor="middle" x="77.5" y="-805.5" font-family="FreeSans" font-size="10.00">CompileOptionsBase</text>
 <polyline fill="none" stroke="black" points="3,-798.5 152,-798.5 "/>
 <text text-anchor="start" x="11" y="-786.5" font-family="FreeSans" font-size="10.00"># m_Platform</text>

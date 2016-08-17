@@ -18,7 +18,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">Code::Blocks
-   &#160;<span id="projectnumber">SVN r10603</span>
+   &#160;<span id="projectnumber">SVN r10885</span>
    </div>
   </td>
  </tr>
@@ -30,6 +30,7 @@
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="index"><span>Main&#160;Page</span></a></li>
+      <li><a href="pages"><span>Related&#160;Pages</span></a></li>
       <li><a href="namespaces"><span>Namespaces</span></a></li>
       <li class="current"><a href="annotated"><span>Classes</span></a></li>
       <li><a href="files"><span>Files</span></a></li>
@@ -59,14 +60,12 @@
 <div class="dynheader">
 Inheritance diagram for ProjectManagerUI:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classProjectManagerUI__inherit__graph.svg" width="302" height="712"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classProjectManagerUI__inherit__graph.svg" width="302" height="712"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <div class="dynheader">
 Collaboration diagram for ProjectManagerUI:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classProjectManagerUI__coll__graph.svg" width="715" height="1235"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classProjectManagerUI__coll__graph.svg" width="715" height="1235"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
@@ -231,6 +230,8 @@ Private Member Functions</h2></td></tr>
 <tr class="separator:d4-OnAddVirtualFolder"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:g0-OnDeleteVirtualFolder"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classProjectManagerUI#g0-OnDeleteVirtualFolder">OnDeleteVirtualFolder</a> (wxCommandEvent &amp;event)</td></tr>
 <tr class="separator:g0-OnDeleteVirtualFolder"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:oa-OnRenameVirtualFolder"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classProjectManagerUI#oa-OnRenameVirtualFolder">OnRenameVirtualFolder</a> (wxCommandEvent &amp;event)</td></tr>
+<tr class="separator:oa-OnRenameVirtualFolder"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ti-OnUpdateUI"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classProjectManagerUI#ti-OnUpdateUI">OnUpdateUI</a> (wxUpdateUIEvent &amp;event)</td></tr>
 <tr class="separator:ti-OnUpdateUI"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:mj-OnIdle"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classProjectManagerUI#mj-OnIdle">OnIdle</a> (wxIdleEvent &amp;event)</td></tr>
@@ -337,7 +338,7 @@ Private Attributes</h2></td></tr>
 
 <p>Implements <a class="el" href="classcbProjectManagerUI#id-AskForBuildTargetIndex">cbProjectManagerUI</a>.</p>
 
-<p>References <a class="el" href="classManager#rz-Get">Manager::Get()</a>, <a class="el" href="classProjectManager#qe-GetActiveProject">ProjectManager::GetActiveProject()</a>, <a class="el" href="classcbProject#fh-GetBuildTarget">cbProject::GetBuildTarget()</a>, <a class="el" href="classcbProject#oa-GetBuildTargetsCount">cbProject::GetBuildTargetsCount()</a>, <a class="el" href="classManager#z6-GetProjectManager">Manager::GetProjectManager()</a>, and <a class="el" href="classCompileTargetBase#fk-GetTitle">CompileTargetBase::GetTitle()</a>.</p>
+<p>References <a class="el" href="globals_8h#ym-cbGetSingleChoiceIndex">cbGetSingleChoiceIndex()</a>, <a class="el" href="classManager#rz-Get">Manager::Get()</a>, <a class="el" href="classProjectManager#qe-GetActiveProject">ProjectManager::GetActiveProject()</a>, <a class="el" href="classcbProject#fh-GetBuildTarget">cbProject::GetBuildTarget()</a>, <a class="el" href="classcbProject#oa-GetBuildTargetsCount">cbProject::GetBuildTargetsCount()</a>, <a class="el" href="classManager#z6-GetProjectManager">Manager::GetProjectManager()</a>, <a class="el" href="classCompileTargetBase#fk-GetTitle">CompileTargetBase::GetTitle()</a>, and <a class="el" href="classProjectManagerUI#qv-m_pTree">m_pTree</a>.</p>
 
 </div>
 </div>
@@ -512,9 +513,7 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>References <a class="el" href="confirmreplacedlg_8h#c7-ConfirmResponse:crAll">crAll</a>, <a class="el" href="confirmreplacedlg_8h#c7-ConfirmResponse:crCancel">crCancel</a>, <a class="el" href="confirmreplacedlg_8h#c7-ConfirmResponse:crNo">crNo</a>, <a class="el" href="confirmreplacedlg_8h#c7-ConfirmResponse:crYes">crYes</a>, <a class="el" href="classManager#rz-Get">Manager::Get()</a>, <a class="el" href="classCompileTargetBase#ip-GetFilename">CompileTargetBase::GetFilename()</a>, <a class="el" href="classcbProject#na-GetLastModificationTime">cbProject::GetLastModificationTime()</a>, <a class="el" href="classManager#be-GetLogManager">Manager::GetLogManager()</a>, <a class="el" href="classManager#z6-GetProjectManager">Manager::GetProjectManager()</a>, <a class="el" href="classProjectManager#ev-GetProjects">ProjectManager::GetProjects()</a>, <a class="el" href="classManager#rj-IsBatchBuild">Manager::IsBatchBuild()</a>, <a class="el" href="classLogManager#gt-Log">LogManager::Log()</a>, <a class="el" href="classProjectManagerUI#b5-m_isCheckingForExternallyModi">m_isCheckingForExternallyModifiedProjects</a>, <a class="el" href="globals_8h#bq-PlaceWindow">PlaceWindow()</a>, <a class="el" href="classProjectManager#yo-ReloadProject">ProjectManager::ReloadProject()</a>, <a class="el" href="classwxScrollingDialog#ik-ShowModal">wxScrollingDialog::ShowModal()</a>, and <a class="el" href="classcbProject#br-Touch">cbProject::Touch()</a>.</p>
-
-<p>Referenced by <a class="el" href="classCodeBlocksApp#f3-OnAppActivate">CodeBlocksApp::OnAppActivate()</a>.</p>
+<p>References <a class="el" href="confirmreplacedlg_8h#c7-ConfirmResponse:crAll">crAll</a>, <a class="el" href="confirmreplacedlg_8h#c7-ConfirmResponse:crCancel">crCancel</a>, <a class="el" href="confirmreplacedlg_8h#c7-ConfirmResponse:crNo">crNo</a>, <a class="el" href="confirmreplacedlg_8h#c7-ConfirmResponse:crYes">crYes</a>, <a class="el" href="classManager#rz-Get">Manager::Get()</a>, <a class="el" href="classCompileTargetBase#ip-GetFilename">CompileTargetBase::GetFilename()</a>, <a class="el" href="classcbProject#na-GetLastModificationTime">cbProject::GetLastModificationTime()</a>, <a class="el" href="classManager#be-GetLogManager">Manager::GetLogManager()</a>, <a class="el" href="classManager#z6-GetProjectManager">Manager::GetProjectManager()</a>, <a class="el" href="classProjectManager#ev-GetProjects">ProjectManager::GetProjects()</a>, <a class="el" href="classLogManager#gt-Log">LogManager::Log()</a>, <a class="el" href="classProjectManagerUI#b5-m_isCheckingForExternallyModi">m_isCheckingForExternallyModifiedProjects</a>, <a class="el" href="globals_8h#bq-PlaceWindow">PlaceWindow()</a>, <a class="el" href="classProjectManager#yo-ReloadProject">ProjectManager::ReloadProject()</a>, <a class="el" href="classwxScrollingDialog#ik-ShowModal">wxScrollingDialog::ShowModal()</a>, and <a class="el" href="classcbProject#br-Touch">cbProject::Touch()</a>.</p>
 
 </div>
 </div>
@@ -597,8 +596,6 @@ Private Attributes</h2></td></tr>
 
 <p>References <a class="el" href="classProjectManagerUI#sx-CreateMenuTreeProps">CreateMenuTreeProps()</a>, and <a class="el" href="compilergcc_8cpp#za-idMenuProjectProperties">idMenuProjectProperties</a>.</p>
 
-<p>Referenced by <a class="el" href="classMainFrame#s2-CreateMenubar">MainFrame::CreateMenubar()</a>.</p>
-
 </div>
 </div>
 <a class="anchor" id="sx-CreateMenuTreeProps"></a>
@@ -671,7 +668,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>References <a class="el" href="classEditorBase#t3-Activate">EditorBase::Activate()</a>, <a class="el" href="globals_8h#f6-cbMessageBox">cbMessageBox()</a>, <a class="el" href="globals_8h#fu-FileTypeOf">FileTypeOf()</a>, <a class="el" href="globals_8h#k1-FileType:ftHeader">ftHeader</a>, <a class="el" href="globals_8h#k1-FileType:ftSource">ftSource</a>, <a class="el" href="globals_8h#k9-FileVisualState:fvsMissing">fvsMissing</a>, <a class="el" href="classManager#rz-Get">Manager::Get()</a>, <a class="el" href="classManager#wg-GetEditorManager">Manager::GetEditorManager()</a>, <a class="el" href="classManager#be-GetLogManager">Manager::GetLogManager()</a>, <a class="el" href="classPluginManager#n3-GetMIMEHandlerForFile">PluginManager::GetMIMEHandlerForFile()</a>, <a class="el" href="classPluginManager#wt-GetPluginInfo">PluginManager::GetPluginInfo()</a>, <a class="el" href="classManager#ij-GetPluginManager">Manager::GetPluginManager()</a>, <a class="el" href="classEditorBase#mh-IsBuiltinEditor">EditorBase::IsBuiltinEditor()</a>, <a class="el" href="classEditorManager#sv-IsOpen">EditorManager::IsOpen()</a>, <a class="el" href="classLogManager#wa-LogError">LogManager::LogError()</a>, <a class="el" href="classcbMimePlugin#vw-OpenFile">cbMimePlugin::OpenFile()</a>, <a class="el" href="classProjectFile#io-SetFileState">ProjectFile::SetFileState()</a>, and <a class="el" href="pluginmanager_8h#dv-title">PluginInfo::title</a>.</p>
+<p>References <a class="el" href="classEditorBase#t3-Activate">EditorBase::Activate()</a>, <a class="el" href="globals_8h#f6-cbMessageBox">cbMessageBox()</a>, <a class="el" href="globals_8h#fu-FileTypeOf">FileTypeOf()</a>, <a class="el" href="globals_8h#k1-FileType:ftHeader">ftHeader</a>, <a class="el" href="globals_8h#k1-FileType:ftSource">ftSource</a>, <a class="el" href="globals_8h#k1-FileType:ftTemplateSource">ftTemplateSource</a>, <a class="el" href="globals_8h#k9-FileVisualState:fvsMissing">fvsMissing</a>, <a class="el" href="classManager#rz-Get">Manager::Get()</a>, <a class="el" href="classManager#wg-GetEditorManager">Manager::GetEditorManager()</a>, <a class="el" href="classManager#be-GetLogManager">Manager::GetLogManager()</a>, <a class="el" href="classPluginManager#n3-GetMIMEHandlerForFile">PluginManager::GetMIMEHandlerForFile()</a>, <a class="el" href="classPluginManager#wt-GetPluginInfo">PluginManager::GetPluginInfo()</a>, <a class="el" href="classManager#ij-GetPluginManager">Manager::GetPluginManager()</a>, <a class="el" href="classEditorBase#mh-IsBuiltinEditor">EditorBase::IsBuiltinEditor()</a>, <a class="el" href="classEditorManager#sv-IsOpen">EditorManager::IsOpen()</a>, <a class="el" href="classLogManager#wa-LogError">LogManager::LogError()</a>, <a class="el" href="classcbMimePlugin#vw-OpenFile">cbMimePlugin::OpenFile()</a>, <a class="el" href="classProjectFile#io-SetFileState">ProjectFile::SetFileState()</a>, and <a class="el" href="pluginmanager_8h#dv-title">PluginInfo::title</a>.</p>
 
 <p>Referenced by <a class="el" href="classProjectManagerUI#xg-DoOpenSelectedFile">DoOpenSelectedFile()</a>, <a class="el" href="classProjectManagerUI#sk-OnFindFile">OnFindFile()</a>, <a class="el" href="classProjectManagerUI#kx-OnGotoFile">OnGotoFile()</a>, and <a class="el" href="classProjectManagerUI#xx-OpenFilesRecursively">OpenFilesRecursively()</a>.</p>
 
@@ -833,8 +830,6 @@ Private Attributes</h2></td></tr>
 
 <p>References <a class="el" href="classProjectManagerUI#o4-m_pNotebook">m_pNotebook</a>.</p>
 
-<p>Referenced by <a class="el" href="classMainFrame#y7-CreateIDE">MainFrame::CreateIDE()</a>, <a class="el" href="classMainFrame#nk-DoUpdateEditorStyle">MainFrame::DoUpdateEditorStyle()</a>, <a class="el" href="classMainFrame#pd-LoadWindowState">MainFrame::LoadWindowState()</a>, <a class="el" href="classMainFrame#s1-OnApplicationClose">MainFrame::OnApplicationClose()</a>, <a class="el" href="classMainFrame#jl-OnFocusManagement">MainFrame::OnFocusManagement()</a>, <a class="el" href="classMainFrame#k2-OnToggleBar">MainFrame::OnToggleBar()</a>, <a class="el" href="classMainFrame#ey-OnViewMenuUpdateUI">MainFrame::OnViewMenuUpdateUI()</a>, and <a class="el" href="classMainFrame#az-SaveWindowState">MainFrame::SaveWindowState()</a>.</p>
-
 </div>
 </div>
 <a class="anchor" id="hj-GetTree"></a>
@@ -895,7 +890,7 @@ Private Attributes</h2></td></tr>
 
 <p>References <a class="el" href="classProjectManagerUI#qv-m_pTree">m_pTree</a>, and <a class="el" href="classProjectManagerUI#bv-m_RightClickItem">m_RightClickItem</a>.</p>
 
-<p>Referenced by <a class="el" href="classProjectManagerUI#xg-DoOpenSelectedFile">DoOpenSelectedFile()</a>, <a class="el" href="classProjectManagerUI#rc-OnAddFilesToProjectRecursivel">OnAddFilesToProjectRecursively()</a>, <a class="el" href="classProjectManagerUI#lk-OnAddFileToProject">OnAddFileToProject()</a>, <a class="el" href="classProjectManagerUI#d4-OnAddVirtualFolder">OnAddVirtualFolder()</a>, <a class="el" href="classProjectManagerUI#rr-OnCloseFile">OnCloseFile()</a>, <a class="el" href="classProjectManagerUI#g0-OnDeleteVirtualFolder">OnDeleteVirtualFolder()</a>, <a class="el" href="classProjectManagerUI#sk-OnFindFile">OnFindFile()</a>, <a class="el" href="classProjectManagerUI#vt-OnOpenFolderFiles">OnOpenFolderFiles()</a>, <a class="el" href="classProjectManagerUI#s9-OnOpenWith">OnOpenWith()</a>, <a class="el" href="classProjectManagerUI#sh-OnProperties">OnProperties()</a>, <a class="el" href="classProjectManagerUI#y4-OnRemoveFileFromProject">OnRemoveFileFromProject()</a>, <a class="el" href="classProjectManagerUI#c7-OnRenameFile">OnRenameFile()</a>, <a class="el" href="classProjectManagerUI#ot-OnSaveFile">OnSaveFile()</a>, <a class="el" href="classProjectManagerUI#kw-OnSaveProject">OnSaveProject()</a>, and <a class="el" href="classProjectManagerUI#nt-OnSetActiveProject">OnSetActiveProject()</a>.</p>
+<p>Referenced by <a class="el" href="classProjectManagerUI#xg-DoOpenSelectedFile">DoOpenSelectedFile()</a>, <a class="el" href="classProjectManagerUI#rc-OnAddFilesToProjectRecursivel">OnAddFilesToProjectRecursively()</a>, <a class="el" href="classProjectManagerUI#lk-OnAddFileToProject">OnAddFileToProject()</a>, <a class="el" href="classProjectManagerUI#d4-OnAddVirtualFolder">OnAddVirtualFolder()</a>, <a class="el" href="classProjectManagerUI#rr-OnCloseFile">OnCloseFile()</a>, <a class="el" href="classProjectManagerUI#g0-OnDeleteVirtualFolder">OnDeleteVirtualFolder()</a>, <a class="el" href="classProjectManagerUI#sk-OnFindFile">OnFindFile()</a>, <a class="el" href="classProjectManagerUI#vt-OnOpenFolderFiles">OnOpenFolderFiles()</a>, <a class="el" href="classProjectManagerUI#s9-OnOpenWith">OnOpenWith()</a>, <a class="el" href="classProjectManagerUI#sh-OnProperties">OnProperties()</a>, <a class="el" href="classProjectManagerUI#y4-OnRemoveFileFromProject">OnRemoveFileFromProject()</a>, <a class="el" href="classProjectManagerUI#c7-OnRenameFile">OnRenameFile()</a>, <a class="el" href="classProjectManagerUI#oa-OnRenameVirtualFolder">OnRenameVirtualFolder()</a>, <a class="el" href="classProjectManagerUI#ot-OnSaveFile">OnSaveFile()</a>, <a class="el" href="classProjectManagerUI#kw-OnSaveProject">OnSaveProject()</a>, and <a class="el" href="classProjectManagerUI#nt-OnSetActiveProject">OnSetActiveProject()</a>.</p>
 
 </div>
 </div>
@@ -1120,7 +1115,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>References <a class="el" href="classFileTreeData#es-GetProject">FileTreeData::GetProject()</a>, <a class="el" href="classProjectManagerUI#w1-GetTreeSelection">GetTreeSelection()</a>, and <a class="el" href="classProjectManagerUI#qv-m_pTree">m_pTree</a>.</p>
+<p>References <a class="el" href="globals_8h#k0-cbGetTextFromUser">cbGetTextFromUser()</a>, <a class="el" href="classFileTreeData#es-GetProject">FileTreeData::GetProject()</a>, <a class="el" href="classProjectManagerUI#w1-GetTreeSelection">GetTreeSelection()</a>, and <a class="el" href="classProjectManagerUI#qv-m_pTree">m_pTree</a>.</p>
 
 </div>
 </div>
@@ -1644,6 +1639,32 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="oa-OnRenameVirtualFolder"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ProjectManagerUI::OnRenameVirtualFolder </td>
+          <td>(</td>
+          <td class="paramtype">wxCommandEvent &amp;&#160;</td>
+          <td class="paramname"><em>event</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>References <a class="el" href="classManager#rz-Get">Manager::Get()</a>, <a class="el" href="classFileTreeData#wj-GetFolder">FileTreeData::GetFolder()</a>, <a class="el" href="classFileTreeData#es-GetProject">FileTreeData::GetProject()</a>, <a class="el" href="classProjectManagerUI#w1-GetTreeSelection">GetTreeSelection()</a>, <a class="el" href="classProjectManagerUI#qv-m_pTree">m_pTree</a>, and <a class="el" href="classProjectManagerUI#s2-RebuildTree">RebuildTree()</a>.</p>
+
+</div>
+</div>
 <a class="anchor" id="kq-OnRenameWorkspace"></a>
 <div class="memitem">
 <div class="memproto">
@@ -1666,7 +1687,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>References <a class="el" href="classManager#rz-Get">Manager::Get()</a>, <a class="el" href="classManager#z6-GetProjectManager">Manager::GetProjectManager()</a>, <a class="el" href="classcbWorkspace#pi-GetTitle">cbWorkspace::GetTitle()</a>, <a class="el" href="classProjectManager#lt-GetWorkspace">ProjectManager::GetWorkspace()</a>, <a class="el" href="classProjectManagerUI#qv-m_pTree">m_pTree</a>, <a class="el" href="classProjectManagerUI#n7-m_TreeRoot">m_TreeRoot</a>, and <a class="el" href="classcbWorkspace#a9-SetTitle">cbWorkspace::SetTitle()</a>.</p>
+<p>References <a class="el" href="globals_8h#k0-cbGetTextFromUser">cbGetTextFromUser()</a>, <a class="el" href="classManager#rz-Get">Manager::Get()</a>, <a class="el" href="classManager#z6-GetProjectManager">Manager::GetProjectManager()</a>, <a class="el" href="classcbWorkspace#pi-GetTitle">cbWorkspace::GetTitle()</a>, <a class="el" href="classProjectManager#lt-GetWorkspace">ProjectManager::GetWorkspace()</a>, <a class="el" href="classProjectManagerUI#qv-m_pTree">m_pTree</a>, <a class="el" href="classProjectManagerUI#n7-m_TreeRoot">m_TreeRoot</a>, and <a class="el" href="classcbWorkspace#a9-SetTitle">cbWorkspace::SetTitle()</a>.</p>
 
 </div>
 </div>
@@ -2244,9 +2265,9 @@ Private Attributes</h2></td></tr>
 
 <p>Implements <a class="el" href="classcbProjectManagerUI#n3-RebuildTree">cbProjectManagerUI</a>.</p>
 
-<p>References <a class="el" href="classProjectManagerUI#ow-BuildProjectTree">BuildProjectTree()</a>, <a class="el" href="classProjectManagerUI#to-FreezeTree">FreezeTree()</a>, <a class="el" href="classManager#rz-Get">Manager::Get()</a>, <a class="el" href="classProjectManager#qe-GetActiveProject">ProjectManager::GetActiveProject()</a>, <a class="el" href="classcbWorkspace#gs-GetFilename">cbWorkspace::GetFilename()</a>, <a class="el" href="classProjectManager#lp-GetFilesGroupsAndMasks">ProjectManager::GetFilesGroupsAndMasks()</a>, <a class="el" href="classManager#z6-GetProjectManager">Manager::GetProjectManager()</a>, <a class="el" href="classProjectManager#ev-GetProjects">ProjectManager::GetProjects()</a>, <a class="el" href="classcbWorkspace#pi-GetTitle">cbWorkspace::GetTitle()</a>, <a class="el" href="classProjectManager#lt-GetWorkspace">ProjectManager::GetWorkspace()</a>, <a class="el" href="classManager#li-IsAppShuttingDown">Manager::IsAppShuttingDown()</a>, <a class="el" href="classManager#rj-IsBatchBuild">Manager::IsBatchBuild()</a>, <a class="el" href="classProjectManagerUI#qv-m_pTree">m_pTree</a>, <a class="el" href="classProjectManagerUI#n7-m_TreeRoot">m_TreeRoot</a>, <a class="el" href="classProjectManagerUI#dp-m_TreeVisualState">m_TreeVisualState</a>, <a class="el" href="classProjectManagerUI#uw-UnfreezeTree">UnfreezeTree()</a>, and <a class="el" href="classcbProjectTreeImages#cn-WorkspaceIconIndex">cbProjectTreeImages::WorkspaceIconIndex()</a>.</p>
+<p>References <a class="el" href="classProjectManagerUI#ow-BuildProjectTree">BuildProjectTree()</a>, <a class="el" href="classProjectManagerUI#to-FreezeTree">FreezeTree()</a>, <a class="el" href="classManager#rz-Get">Manager::Get()</a>, <a class="el" href="classProjectManager#qe-GetActiveProject">ProjectManager::GetActiveProject()</a>, <a class="el" href="classcbWorkspace#gs-GetFilename">cbWorkspace::GetFilename()</a>, <a class="el" href="classProjectManager#lp-GetFilesGroupsAndMasks">ProjectManager::GetFilesGroupsAndMasks()</a>, <a class="el" href="classManager#z6-GetProjectManager">Manager::GetProjectManager()</a>, <a class="el" href="classProjectManager#ev-GetProjects">ProjectManager::GetProjects()</a>, <a class="el" href="classcbWorkspace#pi-GetTitle">cbWorkspace::GetTitle()</a>, <a class="el" href="classProjectManager#lt-GetWorkspace">ProjectManager::GetWorkspace()</a>, <a class="el" href="classManager#li-IsAppShuttingDown">Manager::IsAppShuttingDown()</a>, <a class="el" href="classProjectManagerUI#qv-m_pTree">m_pTree</a>, <a class="el" href="classProjectManagerUI#n7-m_TreeRoot">m_TreeRoot</a>, <a class="el" href="classProjectManagerUI#dp-m_TreeVisualState">m_TreeVisualState</a>, <a class="el" href="classProjectManagerUI#uw-UnfreezeTree">UnfreezeTree()</a>, and <a class="el" href="classcbProjectTreeImages#cn-WorkspaceIconIndex">cbProjectTreeImages::WorkspaceIconIndex()</a>.</p>
 
-<p>Referenced by <a class="el" href="classProjectManagerUI#w1-CloseWorkspace">CloseWorkspace()</a>, <a class="el" href="classProjectManagerUI#an-FinishLoadingProject">FinishLoadingProject()</a>, <a class="el" href="classProjectManagerUI#mh-FinishLoadingWorkspace">FinishLoadingWorkspace()</a>, <a class="el" href="classProjectManagerUI#pb-MoveProjectDown">MoveProjectDown()</a>, <a class="el" href="classProjectManagerUI#rv-MoveProjectUp">MoveProjectUp()</a>, <a class="el" href="classProjectManagerUI#rc-OnAddFilesToProjectRecursivel">OnAddFilesToProjectRecursively()</a>, <a class="el" href="classProjectManagerUI#lk-OnAddFileToProject">OnAddFileToProject()</a>, <a class="el" href="classProjectManagerUI#g0-OnDeleteVirtualFolder">OnDeleteVirtualFolder()</a>, <a class="el" href="classMainFrame#nk-OnFileNewWhat">MainFrame::OnFileNewWhat()</a>, <a class="el" href="classProjectManagerUI#dl-OnFileOptions">OnFileOptions()</a>, <a class="el" href="classProjectManagerUI#y4-OnRemoveFileFromProject">OnRemoveFileFromProject()</a>, <a class="el" href="classProjectManagerUI#c7-OnRenameFile">OnRenameFile()</a>, <a class="el" href="classMainFrame#e0-OnSettingsEnvironment">MainFrame::OnSettingsEnvironment()</a>, <a class="el" href="classProjectManagerUI#ax-OnViewCategorize">OnViewCategorize()</a>, <a class="el" href="classProjectManagerUI#vz-OnViewFileMasks">OnViewFileMasks()</a>, <a class="el" href="classProjectManagerUI#an-OnViewHideFolderName">OnViewHideFolderName()</a>, <a class="el" href="classProjectManagerUI#el-OnViewUseFolders">OnViewUseFolders()</a>, and <a class="el" href="classProjectManagerUI#v7-UpdateActiveProject">UpdateActiveProject()</a>.</p>
+<p>Referenced by <a class="el" href="classProjectManagerUI#w1-CloseWorkspace">CloseWorkspace()</a>, <a class="el" href="classProjectManagerUI#an-FinishLoadingProject">FinishLoadingProject()</a>, <a class="el" href="classProjectManagerUI#mh-FinishLoadingWorkspace">FinishLoadingWorkspace()</a>, <a class="el" href="classProjectManagerUI#pb-MoveProjectDown">MoveProjectDown()</a>, <a class="el" href="classProjectManagerUI#rv-MoveProjectUp">MoveProjectUp()</a>, <a class="el" href="classProjectManagerUI#rc-OnAddFilesToProjectRecursivel">OnAddFilesToProjectRecursively()</a>, <a class="el" href="classProjectManagerUI#lk-OnAddFileToProject">OnAddFileToProject()</a>, <a class="el" href="classProjectManagerUI#g0-OnDeleteVirtualFolder">OnDeleteVirtualFolder()</a>, <a class="el" href="classProjectManagerUI#dl-OnFileOptions">OnFileOptions()</a>, <a class="el" href="classProjectManagerUI#y4-OnRemoveFileFromProject">OnRemoveFileFromProject()</a>, <a class="el" href="classProjectManagerUI#c7-OnRenameFile">OnRenameFile()</a>, <a class="el" href="classProjectManagerUI#oa-OnRenameVirtualFolder">OnRenameVirtualFolder()</a>, <a class="el" href="classProjectManagerUI#ax-OnViewCategorize">OnViewCategorize()</a>, <a class="el" href="classProjectManagerUI#vz-OnViewFileMasks">OnViewFileMasks()</a>, <a class="el" href="classProjectManagerUI#an-OnViewHideFolderName">OnViewHideFolderName()</a>, <a class="el" href="classProjectManagerUI#el-OnViewUseFolders">OnViewUseFolders()</a>, and <a class="el" href="classProjectManagerUI#v7-UpdateActiveProject">UpdateActiveProject()</a>.</p>
 
 </div>
 </div>
@@ -2332,8 +2353,6 @@ Private Attributes</h2></td></tr>
 
 <p>References <a class="el" href="classProjectFile#nl-GetTreeItemId">ProjectFile::GetTreeItemId()</a>, and <a class="el" href="classProjectManagerUI#qv-m_pTree">m_pTree</a>.</p>
 
-<p>Referenced by <a class="el" href="classMainFrame#jz-OnEditorActivated">MainFrame::OnEditorActivated()</a>.</p>
-
 </div>
 </div>
 <a class="anchor" id="mq-ShowMenu"></a>
@@ -2399,7 +2418,7 @@ Private Attributes</h2></td></tr>
 
 <p>Implements <a class="el" href="classcbProjectManagerUI#qj-SwitchToProjectsPage">cbProjectManagerUI</a>.</p>
 
-<p>References <a class="el" href="classProjectManagerUI#o4-m_pNotebook">m_pNotebook</a>, and <a class="el" href="classProjectManagerUI#qv-m_pTree">m_pTree</a>.</p>
+<p>References <a class="el" href="sdk__events_8h#x6-cbEVT_SHOW_DOCK_WINDOW">cbEVT_SHOW_DOCK_WINDOW</a>, <a class="el" href="classManager#rz-Get">Manager::Get()</a>, <a class="el" href="classProjectManagerUI#o4-m_pNotebook">m_pNotebook</a>, <a class="el" href="classProjectManagerUI#qv-m_pTree">m_pTree</a>, <a class="el" href="classManager#qc-ProcessEvent">Manager::ProcessEvent()</a>, and <a class="el" href="classCodeBlocksDockEvent#f0-pWindow">CodeBlocksDockEvent::pWindow</a>.</p>
 
 </div>
 </div>
@@ -2593,7 +2612,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Referenced by <a class="el" href="classProjectManagerUI#g4-BeginLoadingWorkspace">BeginLoadingWorkspace()</a>, <a class="el" href="classProjectManagerUI#xk-BuildTree">BuildTree()</a>, <a class="el" href="classProjectManagerUI#w1-CloseWorkspace">CloseWorkspace()</a>, <a class="el" href="classProjectManagerUI#xg-DoOpenSelectedFile">DoOpenSelectedFile()</a>, <a class="el" href="classProjectManagerUI#an-FinishLoadingProject">FinishLoadingProject()</a>, <a class="el" href="classProjectManagerUI#mh-FinishLoadingWorkspace">FinishLoadingWorkspace()</a>, <a class="el" href="classProjectManagerUI#to-FreezeTree">FreezeTree()</a>, <a class="el" href="classProjectManagerUI#hj-GetTree">GetTree()</a>, <a class="el" href="classProjectManagerUI#w1-GetTreeSelection">GetTreeSelection()</a>, <a class="el" href="classProjectManagerUI#uk-InitPane">InitPane()</a>, <a class="el" href="classProjectManagerUI#ap-ListNodes">ListNodes()</a>, <a class="el" href="classProjectManagerUI#pb-MoveProjectDown">MoveProjectDown()</a>, <a class="el" href="classProjectManagerUI#rv-MoveProjectUp">MoveProjectUp()</a>, <a class="el" href="classProjectManagerUI#rc-OnAddFilesToProjectRecursivel">OnAddFilesToProjectRecursively()</a>, <a class="el" href="classProjectManagerUI#lk-OnAddFileToProject">OnAddFileToProject()</a>, <a class="el" href="classProjectManagerUI#d4-OnAddVirtualFolder">OnAddVirtualFolder()</a>, <a class="el" href="classProjectManagerUI#fe-OnBeginEditNode">OnBeginEditNode()</a>, <a class="el" href="classProjectManagerUI#rr-OnCloseFile">OnCloseFile()</a>, <a class="el" href="classProjectManagerUI#mf-OnCloseProject">OnCloseProject()</a>, <a class="el" href="classProjectManagerUI#g0-OnDeleteVirtualFolder">OnDeleteVirtualFolder()</a>, <a class="el" href="classProjectManagerUI#gb-OnEndEditNode">OnEndEditNode()</a>, <a class="el" href="classProjectManagerUI#dl-OnFileOptions">OnFileOptions()</a>, <a class="el" href="classProjectManagerUI#sk-OnFindFile">OnFindFile()</a>, <a class="el" href="classProjectManagerUI#vt-OnOpenFolderFiles">OnOpenFolderFiles()</a>, <a class="el" href="classProjectManagerUI#s9-OnOpenWith">OnOpenWith()</a>, <a class="el" href="classProjectManagerUI#g9-OnProjectFileActivated">OnProjectFileActivated()</a>, <a class="el" href="classProjectManagerUI#sh-OnProperties">OnProperties()</a>, <a class="el" href="classProjectManagerUI#y4-OnRemoveFileFromProject">OnRemoveFileFromProject()</a>, <a class="el" href="classProjectManagerUI#c7-OnRenameFile">OnRenameFile()</a>, <a class="el" href="classProjectManagerUI#kq-OnRenameWorkspace">OnRenameWorkspace()</a>, <a class="el" href="classProjectManagerUI#zb-OnRightClick">OnRightClick()</a>, <a class="el" href="classProjectManagerUI#ot-OnSaveFile">OnSaveFile()</a>, <a class="el" href="classProjectManagerUI#kw-OnSaveProject">OnSaveProject()</a>, <a class="el" href="classProjectManagerUI#nt-OnSetActiveProject">OnSetActiveProject()</a>, <a class="el" href="classProjectManagerUI#cv-OnTreeBeginDrag">OnTreeBeginDrag()</a>, <a class="el" href="classProjectManagerUI#z2-OnTreeEndDrag">OnTreeEndDrag()</a>, <a class="el" href="classProjectManagerUI#wh-OnTreeItemRightClick">OnTreeItemRightClick()</a>, <a class="el" href="classProjectManagerUI#xx-OpenFilesRecursively">OpenFilesRecursively()</a>, <a class="el" href="classProjectManagerUI#s2-RebuildTree">RebuildTree()</a>, <a class="el" href="classProjectManagerUI#tl-RemoveFilesRecursively">RemoveFilesRecursively()</a>, <a class="el" href="classProjectManagerUI#sp-RemoveProject">RemoveProject()</a>, <a class="el" href="classProjectManagerUI#gn-ShowFileInTree">ShowFileInTree()</a>, <a class="el" href="classProjectManagerUI#mq-ShowMenu">ShowMenu()</a>, <a class="el" href="classProjectManagerUI#zg-SwitchToProjectsPage">SwitchToProjectsPage()</a>, <a class="el" href="classProjectManagerUI#uw-UnfreezeTree">UnfreezeTree()</a>, and <a class="el" href="classProjectManagerUI#v7-UpdateActiveProject">UpdateActiveProject()</a>.</p>
+<p>Referenced by <a class="el" href="classProjectManagerUI#n9-AskForBuildTargetIndex">AskForBuildTargetIndex()</a>, <a class="el" href="classProjectManagerUI#g4-BeginLoadingWorkspace">BeginLoadingWorkspace()</a>, <a class="el" href="classProjectManagerUI#xk-BuildTree">BuildTree()</a>, <a class="el" href="classProjectManagerUI#w1-CloseWorkspace">CloseWorkspace()</a>, <a class="el" href="classProjectManagerUI#xg-DoOpenSelectedFile">DoOpenSelectedFile()</a>, <a class="el" href="classProjectManagerUI#an-FinishLoadingProject">FinishLoadingProject()</a>, <a class="el" href="classProjectManagerUI#mh-FinishLoadingWorkspace">FinishLoadingWorkspace()</a>, <a class="el" href="classProjectManagerUI#to-FreezeTree">FreezeTree()</a>, <a class="el" href="classProjectManagerUI#hj-GetTree">GetTree()</a>, <a class="el" href="classProjectManagerUI#w1-GetTreeSelection">GetTreeSelection()</a>, <a class="el" href="classProjectManagerUI#uk-InitPane">InitPane()</a>, <a class="el" href="classProjectManagerUI#ap-ListNodes">ListNodes()</a>, <a class="el" href="classProjectManagerUI#pb-MoveProjectDown">MoveProjectDown()</a>, <a class="el" href="classProjectManagerUI#rv-MoveProjectUp">MoveProjectUp()</a>, <a class="el" href="classProjectManagerUI#rc-OnAddFilesToProjectRecursivel">OnAddFilesToProjectRecursively()</a>, <a class="el" href="classProjectManagerUI#lk-OnAddFileToProject">OnAddFileToProject()</a>, <a class="el" href="classProjectManagerUI#d4-OnAddVirtualFolder">OnAddVirtualFolder()</a>, <a class="el" href="classProjectManagerUI#fe-OnBeginEditNode">OnBeginEditNode()</a>, <a class="el" href="classProjectManagerUI#rr-OnCloseFile">OnCloseFile()</a>, <a class="el" href="classProjectManagerUI#mf-OnCloseProject">OnCloseProject()</a>, <a class="el" href="classProjectManagerUI#g0-OnDeleteVirtualFolder">OnDeleteVirtualFolder()</a>, <a class="el" href="classProjectManagerUI#gb-OnEndEditNode">OnEndEditNode()</a>, <a class="el" href="classProjectManagerUI#dl-OnFileOptions">OnFileOptions()</a>, <a class="el" href="classProjectManagerUI#sk-OnFindFile">OnFindFile()</a>, <a class="el" href="classProjectManagerUI#vt-OnOpenFolderFiles">OnOpenFolderFiles()</a>, <a class="el" href="classProjectManagerUI#s9-OnOpenWith">OnOpenWith()</a>, <a class="el" href="classProjectManagerUI#g9-OnProjectFileActivated">OnProjectFileActivated()</a>, <a class="el" href="classProjectManagerUI#sh-OnProperties">OnProperties()</a>, <a class="el" href="classProjectManagerUI#y4-OnRemoveFileFromProject">OnRemoveFileFromProject()</a>, <a class="el" href="classProjectManagerUI#c7-OnRenameFile">OnRenameFile()</a>, <a class="el" href="classProjectManagerUI#oa-OnRenameVirtualFolder">OnRenameVirtualFolder()</a>, <a class="el" href="classProjectManagerUI#kq-OnRenameWorkspace">OnRenameWorkspace()</a>, <a class="el" href="classProjectManagerUI#zb-OnRightClick">OnRightClick()</a>, <a class="el" href="classProjectManagerUI#ot-OnSaveFile">OnSaveFile()</a>, <a class="el" href="classProjectManagerUI#kw-OnSaveProject">OnSaveProject()</a>, <a class="el" href="classProjectManagerUI#nt-OnSetActiveProject">OnSetActiveProject()</a>, <a class="el" href="classProjectManagerUI#cv-OnTreeBeginDrag">OnTreeBeginDrag()</a>, <a class="el" href="classProjectManagerUI#z2-OnTreeEndDrag">OnTreeEndDrag()</a>, <a class="el" href="classProjectManagerUI#wh-OnTreeItemRightClick">OnTreeItemRightClick()</a>, <a class="el" href="classProjectManagerUI#xx-OpenFilesRecursively">OpenFilesRecursively()</a>, <a class="el" href="classProjectManagerUI#s2-RebuildTree">RebuildTree()</a>, <a class="el" href="classProjectManagerUI#tl-RemoveFilesRecursively">RemoveFilesRecursively()</a>, <a class="el" href="classProjectManagerUI#sp-RemoveProject">RemoveProject()</a>, <a class="el" href="classProjectManagerUI#gn-ShowFileInTree">ShowFileInTree()</a>, <a class="el" href="classProjectManagerUI#mq-ShowMenu">ShowMenu()</a>, <a class="el" href="classProjectManagerUI#zg-SwitchToProjectsPage">SwitchToProjectsPage()</a>, <a class="el" href="classProjectManagerUI#uw-UnfreezeTree">UnfreezeTree()</a>, and <a class="el" href="classProjectManagerUI#v7-UpdateActiveProject">UpdateActiveProject()</a>.</p>
 
 </div>
 </div>

@@ -18,7 +18,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">Code::Blocks
-   &#160;<span id="projectnumber">SVN r10603</span>
+   &#160;<span id="projectnumber">SVN r10885</span>
    </div>
   </td>
  </tr>
@@ -30,6 +30,7 @@
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="index"><span>Main&#160;Page</span></a></li>
+      <li><a href="pages"><span>Related&#160;Pages</span></a></li>
       <li><a href="namespaces"><span>Namespaces</span></a></li>
       <li class="current"><a href="annotated"><span>Classes</span></a></li>
       <li><a href="files"><span>Files</span></a></li>
@@ -66,14 +67,12 @@
 <div class="dynheader">
 Inheritance diagram for cbDebuggerPlugin:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classcbDebuggerPlugin__inherit__graph.svg" width="222" height="1755"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classcbDebuggerPlugin__inherit__graph.svg" width="222" height="1740"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <div class="dynheader">
 Collaboration diagram for cbDebuggerPlugin:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classcbDebuggerPlugin__coll__graph.svg" width="282" height="1362"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classcbDebuggerPlugin__coll__graph.svg" width="282" height="1347"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
@@ -314,9 +313,6 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:tx-GetToolBarPriority inherit pub_methods_classcbPlugin"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcbPlugin#tx-GetToolBarPriority">GetToolBarPriority</a> ()</td></tr>
 <tr class="memdesc:tx-GetToolBarPriority inherit pub_methods_classcbPlugin"><td class="mdescLeft">&#160;</td><td class="mdescRight">This method return the priority of the plugin's toolbar, the less value indicates a more preceding position when C::B starts with no configuration file.  <a href="#tx-GetToolBarPriority">More...</a><br /></td></tr>
 <tr class="separator:tx-GetToolBarPriority inherit pub_methods_classcbPlugin"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aw-CreateStatusField inherit pub_methods_classcbPlugin"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcbPlugin#aw-CreateStatusField">CreateStatusField</a> (<a class="el" href="classcbStatusBar">cbStatusBar</a> *statusBar)</td></tr>
-<tr class="memdesc:aw-CreateStatusField inherit pub_methods_classcbPlugin"><td class="mdescLeft">&#160;</td><td class="mdescRight">This method is called by Code::Blocks and is used by the plugin to add a field on Code::Blocks's statusbar.  <a href="#aw-CreateStatusField">More...</a><br /></td></tr>
-<tr class="separator:aw-CreateStatusField inherit pub_methods_classcbPlugin"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ln-IsAttached inherit pub_methods_classcbPlugin"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcbPlugin#ln-IsAttached">IsAttached</a> () const </td></tr>
 <tr class="memdesc:ln-IsAttached inherit pub_methods_classcbPlugin"><td class="mdescLeft">&#160;</td><td class="mdescRight">See whether this plugin is attached or not.  <a href="#ln-IsAttached">More...</a><br /></td></tr>
 <tr class="separator:ln-IsAttached inherit pub_methods_classcbPlugin"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -388,8 +384,6 @@ Private Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
-<tr class="memitem:bl-m_toolbar"><td class="memItemLeft" align="right" valign="top">wxToolBar *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcbDebuggerPlugin#bl-m_toolbar">m_toolbar</a></td></tr>
-<tr class="separator:bl-m_toolbar"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:bz-m_PreviousLayout"><td class="memItemLeft" align="right" valign="top">wxString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcbDebuggerPlugin#bz-m_PreviousLayout">m_PreviousLayout</a></td></tr>
 <tr class="separator:bz-m_PreviousLayout"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:yk-m_pCompiler"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classcbCompilerPlugin">cbCompilerPlugin</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcbDebuggerPlugin#yk-m_pCompiler">m_pCompiler</a></td></tr>
@@ -439,8 +433,7 @@ Additional Inherited Members</h2></td></tr>
 <div class="textblock"></div><div class="dynheader">
 Collaboration diagram for cbDebuggerPlugin::WatchesDisabledMenuItems:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="structcbDebuggerPlugin_1_1WatchesDisabledMenuItems__coll__graph.svg" width="194" height="103"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="structcbDebuggerPlugin_1_1WatchesDisabledMenuItems__coll__graph.svg" width="194" height="103"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <table class="fieldtable">
 <tr><th colspan="3">Class Members</th></tr>
@@ -2363,7 +2356,7 @@ Think of this method as the actual constructor... </p>
 </table>
 </div><div class="memdoc">
 
-<p>References <a class="el" href="classcbDebuggerPlugin#r5-GetCurrentPosition">GetCurrentPosition()</a>, <a class="el" href="classEditorBase#e0-GetFilename">EditorBase::GetFilename()</a>, <a class="el" href="classcbDebuggerPlugin#op-IsRunning">IsRunning()</a>, <a class="el" href="classEditorBase#pa-RefreshBreakpointMarkers">EditorBase::RefreshBreakpointMarkers()</a>, and <a class="el" href="classEditorBase#h4-SetDebugLine">EditorBase::SetDebugLine()</a>.</p>
+<p>References <a class="el" href="classcbDebuggerPlugin#r5-GetCurrentPosition">GetCurrentPosition()</a>, <a class="el" href="classEditorBase#e0-GetFilename">EditorBase::GetFilename()</a>, <a class="el" href="classEditorBase#mh-IsBuiltinEditor">EditorBase::IsBuiltinEditor()</a>, <a class="el" href="classcbDebuggerPlugin#op-IsRunning">IsRunning()</a>, <a class="el" href="classcbEditor#zz-RefreshBreakpointMarkers">cbEditor::RefreshBreakpointMarkers()</a>, and <a class="el" href="classcbEditor#i6-SetDebugLine">cbEditor::SetDebugLine()</a>.</p>
 
 <p>Referenced by <a class="el" href="classcbDebuggerPlugin#cg-OnAttach">OnAttach()</a>.</p>
 
@@ -3339,7 +3332,7 @@ Think of this method as the actual constructor... </p>
       </table>
 </div><div class="memdoc">
 
-<p>References <a class="el" href="classInfoWindow#wj-Display">InfoWindow::Display()</a>, <a class="el" href="classLogger#nc-level:error">Logger::error</a>, <a class="el" href="globals_8h#fu-FileTypeOf">FileTypeOf()</a>, <a class="el" href="globals_8h#k1-FileType:ftHeader">ftHeader</a>, <a class="el" href="globals_8h#k1-FileType:ftOther">ftOther</a>, <a class="el" href="globals_8h#k1-FileType:ftResource">ftResource</a>, <a class="el" href="globals_8h#k1-FileType:ftSource">ftSource</a>, <a class="el" href="classManager#rz-Get">Manager::Get()</a>, <a class="el" href="classProjectManager#qe-GetActiveProject">ProjectManager::GetActiveProject()</a>, <a class="el" href="classCompileTargetBase#qh-GetBasePath">CompileTargetBase::GetBasePath()</a>, <a class="el" href="classEditorManager#rw-GetBuiltinEditor">EditorManager::GetBuiltinEditor()</a>, <a class="el" href="classManager#wg-GetEditorManager">Manager::GetEditorManager()</a>, <a class="el" href="classEditorManager#hm-GetEditorsCount">EditorManager::GetEditorsCount()</a>, <a class="el" href="classcbProject#j4-GetFileByFilename">cbProject::GetFileByFilename()</a>, <a class="el" href="classcbEditor#l2-GetProjectFile">cbEditor::GetProjectFile()</a>, <a class="el" href="classManager#z6-GetProjectManager">Manager::GetProjectManager()</a>, <a class="el" href="classcbEditor#ln-GotoLine">cbEditor::GotoLine()</a>, <a class="el" href="classcbDebuggerPlugin#mf-Log">Log()</a>, <a class="el" href="classEditorManager#ua-Open">EditorManager::Open()</a>, <a class="el" href="classcbEditor#i6-SetDebugLine">cbEditor::SetDebugLine()</a>, <a class="el" href="classcbEditor#b5-SetProjectFile">cbEditor::SetProjectFile()</a>, <a class="el" href="classcbDebuggerPlugin#wy-ShowLog">ShowLog()</a>, <a class="el" href="classcbDebuggerPlugin#m7-SyncEditorResult:SyncFileNotFound">SyncFileNotFound</a>, <a class="el" href="classcbDebuggerPlugin#m7-SyncEditorResult:SyncFileUnknown">SyncFileUnknown</a>, <a class="el" href="classcbDebuggerPlugin#m7-SyncEditorResult:SyncOk">SyncOk</a>, and <a class="el" href="globals_8h#xy-UnixFilename">UnixFilename()</a>.</p>
+<p>References <a class="el" href="classInfoWindow#wj-Display">InfoWindow::Display()</a>, <a class="el" href="classLogger#nc-level:error">Logger::error</a>, <a class="el" href="globals_8h#fu-FileTypeOf">FileTypeOf()</a>, <a class="el" href="globals_8h#k1-FileType:ftHeader">ftHeader</a>, <a class="el" href="globals_8h#k1-FileType:ftOther">ftOther</a>, <a class="el" href="globals_8h#k1-FileType:ftResource">ftResource</a>, <a class="el" href="globals_8h#k1-FileType:ftSource">ftSource</a>, <a class="el" href="globals_8h#k1-FileType:ftTemplateSource">ftTemplateSource</a>, <a class="el" href="classManager#rz-Get">Manager::Get()</a>, <a class="el" href="classProjectManager#qe-GetActiveProject">ProjectManager::GetActiveProject()</a>, <a class="el" href="classCompileTargetBase#qh-GetBasePath">CompileTargetBase::GetBasePath()</a>, <a class="el" href="classEditorManager#rw-GetBuiltinEditor">EditorManager::GetBuiltinEditor()</a>, <a class="el" href="classManager#wg-GetEditorManager">Manager::GetEditorManager()</a>, <a class="el" href="classEditorManager#hm-GetEditorsCount">EditorManager::GetEditorsCount()</a>, <a class="el" href="classcbProject#j4-GetFileByFilename">cbProject::GetFileByFilename()</a>, <a class="el" href="classcbEditor#l2-GetProjectFile">cbEditor::GetProjectFile()</a>, <a class="el" href="classManager#z6-GetProjectManager">Manager::GetProjectManager()</a>, <a class="el" href="classcbEditor#ln-GotoLine">cbEditor::GotoLine()</a>, <a class="el" href="classcbDebuggerPlugin#mf-Log">Log()</a>, <a class="el" href="classEditorManager#ua-Open">EditorManager::Open()</a>, <a class="el" href="classcbEditor#i6-SetDebugLine">cbEditor::SetDebugLine()</a>, <a class="el" href="classcbEditor#b5-SetProjectFile">cbEditor::SetProjectFile()</a>, <a class="el" href="classcbDebuggerPlugin#wy-ShowLog">ShowLog()</a>, <a class="el" href="classcbDebuggerPlugin#m7-SyncEditorResult:SyncFileNotFound">SyncFileNotFound</a>, <a class="el" href="classcbDebuggerPlugin#m7-SyncEditorResult:SyncFileUnknown">SyncFileUnknown</a>, <a class="el" href="classcbDebuggerPlugin#m7-SyncEditorResult:SyncOk">SyncOk</a>, and <a class="el" href="globals_8h#xy-UnixFilename">UnixFilename()</a>.</p>
 
 <p>Referenced by <a class="el" href="classDebuggerGDB#fx-OnCursorChanged">DebuggerGDB::OnCursorChanged()</a>, <a class="el" href="classBacktraceDlg#we-OnJump">BacktraceDlg::OnJump()</a>, and <a class="el" href="classDebuggerGDB#hk-OnShowFile">DebuggerGDB::OnShowFile()</a>.</p>
 
@@ -3667,26 +3660,6 @@ Think of this method as the actual constructor... </p>
 </div><div class="memdoc">
 
 <p>Referenced by <a class="el" href="classcbDebuggerPlugin#go-EnsureBuildUpToDate">EnsureBuildUpToDate()</a>, <a class="el" href="classcbDebuggerPlugin#cg-OnAttach">OnAttach()</a>, and <a class="el" href="classcbDebuggerPlugin#m0-OnCompilerFinished">OnCompilerFinished()</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="bl-m_toolbar"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">wxToolBar* cbDebuggerPlugin::m_toolbar</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
 
 </div>
 </div>

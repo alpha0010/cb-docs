@@ -18,7 +18,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">Code::Blocks
-   &#160;<span id="projectnumber">SVN r10603</span>
+   &#160;<span id="projectnumber">SVN r10885</span>
    </div>
   </td>
  </tr>
@@ -30,6 +30,7 @@
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="index"><span>Main&#160;Page</span></a></li>
+      <li><a href="pages"><span>Related&#160;Pages</span></a></li>
       <li><a href="namespaces"><span>Namespaces</span></a></li>
       <li class="current"><a href="annotated"><span>Classes</span></a></li>
       <li><a href="files"><span>Files</span></a></li>
@@ -62,14 +63,12 @@
 <div class="dynheader">
 Inheritance diagram for ClassBrowser:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classClassBrowser__inherit__graph.svg" width="215" height="536"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classClassBrowser__inherit__graph.svg" width="215" height="522"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <div class="dynheader">
 Collaboration diagram for ClassBrowser:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classClassBrowser__coll__graph.svg" width="2718" height="4642"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classClassBrowser__coll__graph.svg" width="2820" height="4811"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
@@ -80,9 +79,6 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:i6-ClassBrowser"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClassBrowser#i6-ClassBrowser">~ClassBrowser</a> ()</td></tr>
 <tr class="memdesc:i6-ClassBrowser"><td class="mdescLeft">&#160;</td><td class="mdescRight">class destructor  <a href="#i6-ClassBrowser">More...</a><br /></td></tr>
 <tr class="separator:i6-ClassBrowser"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ya-GetCCTreeCtrl"><td class="memItemLeft" align="right" valign="top">const wxTreeCtrl *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClassBrowser#ya-GetCCTreeCtrl">GetCCTreeCtrl</a> ()</td></tr>
-<tr class="memdesc:ya-GetCCTreeCtrl"><td class="mdescLeft">&#160;</td><td class="mdescRight">return a pointer to the top tree control  <a href="#ya-GetCCTreeCtrl">More...</a><br /></td></tr>
-<tr class="separator:ya-GetCCTreeCtrl"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:tr-SetParser"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClassBrowser#tr-SetParser">SetParser</a> (<a class="el" href="classParserBase">ParserBase</a> *parser)</td></tr>
 <tr class="memdesc:tr-SetParser"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the <a class="el" href="classParser" title="Parser class holds all the tokens of a C::B project. ">Parser</a> object associated with the class browser.  <a href="#tr-SetParser">More...</a><br /></td></tr>
 <tr class="separator:tr-SetParser"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -90,7 +86,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:pg-UpdateClassBrowserView"><td class="mdescLeft">&#160;</td><td class="mdescRight">update or refresh the symbol browser trees  <a href="#pg-UpdateClassBrowserView">More...</a><br /></td></tr>
 <tr class="separator:pg-UpdateClassBrowserView"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:cl-UpdateSash"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClassBrowser#cl-UpdateSash">UpdateSash</a> ()</td></tr>
-<tr class="memdesc:cl-UpdateSash"><td class="mdescLeft">&#160;</td><td class="mdescRight">update the position sash bar between top tree and the bottom tree, the position (percentage) of the two trees are saved in the configuration files.  <a href="#cl-UpdateSash">More...</a><br /></td></tr>
+<tr class="memdesc:cl-UpdateSash"><td class="mdescLeft">&#160;</td><td class="mdescRight">update the position sash bar between top tree and the bottom tree, the position (percentage) of the two trees are saved in the C::B's configuration file.  <a href="#cl-UpdateSash">More...</a><br /></td></tr>
 <tr class="separator:cl-UpdateSash"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
@@ -111,13 +107,13 @@ Private Member Functions</h2></td></tr>
 <tr class="memdesc:vh-OnForceReparse"><td class="mdescLeft">&#160;</td><td class="mdescRight">reparse the current project  <a href="#vh-OnForceReparse">More...</a><br /></td></tr>
 <tr class="separator:vh-OnForceReparse"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:qa-OnCBViewMode"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClassBrowser#qa-OnCBViewMode">OnCBViewMode</a> (wxCommandEvent &amp;event)</td></tr>
-<tr class="memdesc:qa-OnCBViewMode"><td class="mdescLeft">&#160;</td><td class="mdescRight">user change the view mode (inherent or bottom tree)  <a href="#qa-OnCBViewMode">More...</a><br /></td></tr>
+<tr class="memdesc:qa-OnCBViewMode"><td class="mdescLeft">&#160;</td><td class="mdescRight">user change the view mode (View Inheritance or View the bottom tree)  <a href="#qa-OnCBViewMode">More...</a><br /></td></tr>
 <tr class="separator:qa-OnCBViewMode"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:l2-OnCBExpandNS"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClassBrowser#l2-OnCBExpandNS">OnCBExpandNS</a> (wxCommandEvent &amp;event)</td></tr>
 <tr class="memdesc:l2-OnCBExpandNS"><td class="mdescLeft">&#160;</td><td class="mdescRight">whether automatically expand the namespace option switch  <a href="#l2-OnCBExpandNS">More...</a><br /></td></tr>
 <tr class="separator:l2-OnCBExpandNS"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:g1-OnViewScope"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClassBrowser#g1-OnViewScope">OnViewScope</a> (wxCommandEvent &amp;event)</td></tr>
-<tr class="memdesc:g1-OnViewScope"><td class="mdescLeft">&#160;</td><td class="mdescRight">the view scope choice has changed  <a href="#g1-OnViewScope">More...</a><br /></td></tr>
+<tr class="memdesc:g1-OnViewScope"><td class="mdescLeft">&#160;</td><td class="mdescRight">the view scope choice has changed, user can switch between view everything, view a single file, or view the project  <a href="#g1-OnViewScope">More...</a><br /></td></tr>
 <tr class="separator:g1-OnViewScope"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:fs-OnDebugSmartSense"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClassBrowser#fs-OnDebugSmartSense">OnDebugSmartSense</a> (wxCommandEvent &amp;event)</td></tr>
 <tr class="memdesc:fs-OnDebugSmartSense"><td class="mdescLeft">&#160;</td><td class="mdescRight">whether print the debug log message  <a href="#fs-OnDebugSmartSense">More...</a><br /></td></tr>
@@ -141,24 +137,28 @@ Private Member Functions</h2></td></tr>
 <tr class="memdesc:xr-RecursiveSearch"><td class="mdescLeft">&#160;</td><td class="mdescRight">find an item whose item name matches the "search" key string in the sub-tree  <a href="#xr-RecursiveSearch">More...</a><br /></td></tr>
 <tr class="separator:xr-RecursiveSearch"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:qp-ShowMenu"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClassBrowser#qp-ShowMenu">ShowMenu</a> (wxTreeCtrl *tree, wxTreeItemId id, const wxPoint &amp;pt)</td></tr>
-<tr class="memdesc:qp-ShowMenu"><td class="mdescLeft">&#160;</td><td class="mdescRight">build and show a context menu when user click on the tree item "id"  <a href="#qp-ShowMenu">More...</a><br /></td></tr>
+<tr class="memdesc:qp-ShowMenu"><td class="mdescLeft">&#160;</td><td class="mdescRight">build and show a context menu when user right click on the tree item "id"  <a href="#qp-ShowMenu">More...</a><br /></td></tr>
 <tr class="separator:qp-ShowMenu"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:qn-ThreadedBuildTree"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClassBrowser#qn-ThreadedBuildTree">ThreadedBuildTree</a> (<a class="el" href="classcbProject">cbProject</a> *activeProject)</td></tr>
 <tr class="memdesc:qn-ThreadedBuildTree"><td class="mdescLeft">&#160;</td><td class="mdescRight">create a thread to update the symbol tree, if the thread is already created, just pause and resume the thread.  <a href="#qn-ThreadedBuildTree">More...</a><br /></td></tr>
 <tr class="separator:qn-ThreadedBuildTree"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:wr-OnTreeItemExpanding"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClassBrowser#wr-OnTreeItemExpanding">OnTreeItemExpanding</a> (wxTreeEvent &amp;event)</td></tr>
+<tr class="memdesc:wr-OnTreeItemExpanding"><td class="mdescLeft">&#160;</td><td class="mdescRight">expanding one node of top tree  <a href="#wr-OnTreeItemExpanding">More...</a><br /></td></tr>
 <tr class="separator:wr-OnTreeItemExpanding"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:xp-OnTreeItemCollapsing"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClassBrowser#xp-OnTreeItemCollapsing">OnTreeItemCollapsing</a> (wxTreeEvent &amp;event)</td></tr>
+<tr class="memdesc:xp-OnTreeItemCollapsing"><td class="mdescLeft">&#160;</td><td class="mdescRight">collapse one node of the top tree  <a href="#xp-OnTreeItemCollapsing">More...</a><br /></td></tr>
 <tr class="separator:xp-OnTreeItemCollapsing"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:up-OnTreeSelChanged"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClassBrowser#up-OnTreeSelChanged">OnTreeSelChanged</a> (wxTreeEvent &amp;event)</td></tr>
+<tr class="memdesc:up-OnTreeSelChanged"><td class="mdescLeft">&#160;</td><td class="mdescRight">item selection changed in the top tree  <a href="#up-OnTreeSelChanged">More...</a><br /></td></tr>
 <tr class="separator:up-OnTreeSelChanged"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ur-OnThreadEvent"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClassBrowser#ur-OnThreadEvent">OnThreadEvent</a> (wxCommandEvent &amp;event)</td></tr>
-<tr class="memdesc:ur-OnThreadEvent"><td class="mdescLeft">&#160;</td><td class="mdescRight">class browser builder thread will send notification event to the parent, this is the event handler function  <a href="#ur-OnThreadEvent">More...</a><br /></td></tr>
+<tr class="memdesc:ur-OnThreadEvent"><td class="mdescLeft">&#160;</td><td class="mdescRight">class browser builder thread will send notification event to the parent, this is the event handler function currently, there are three kinds of events send from the builder thread  <a href="#ur-OnThreadEvent">More...</a><br /></td></tr>
 <tr class="separator:ur-OnThreadEvent"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
 <tr class="memitem:cn-m_NativeParser"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classNativeParser">NativeParser</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClassBrowser#cn-m_NativeParser">m_NativeParser</a></td></tr>
+<tr class="memdesc:cn-m_NativeParser"><td class="mdescLeft">&#160;</td><td class="mdescRight">the pointer to parser manager object  <a href="#cn-m_NativeParser">More...</a><br /></td></tr>
 <tr class="separator:cn-m_NativeParser"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gn-m_CCTreeCtrl"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classCCTreeCtrl">CCTreeCtrl</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClassBrowser#gn-m_CCTreeCtrl">m_CCTreeCtrl</a></td></tr>
 <tr class="memdesc:gn-m_CCTreeCtrl"><td class="mdescLeft">&#160;</td><td class="mdescRight">the top(main) level tree control, see above diagram for details  <a href="#gn-m_CCTreeCtrl">More...</a><br /></td></tr>
@@ -170,8 +170,10 @@ Private Attributes</h2></td></tr>
 <tr class="memdesc:mg-m_TreeForPopupMenu"><td class="mdescLeft">&#160;</td><td class="mdescRight">remember the context menu is created from which tree control, the upper or the bottom  <a href="#mg-m_TreeForPopupMenu">More...</a><br /></td></tr>
 <tr class="separator:mg-m_TreeForPopupMenu"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:z8-m_Search"><td class="memItemLeft" align="right" valign="top">wxComboBox *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClassBrowser#z8-m_Search">m_Search</a></td></tr>
+<tr class="memdesc:z8-m_Search"><td class="mdescLeft">&#160;</td><td class="mdescRight">the search combobox in the header of the window  <a href="#z8-m_Search">More...</a><br /></td></tr>
 <tr class="separator:z8-m_Search"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:f0-m_Parser"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classParserBase">ParserBase</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClassBrowser#f0-m_Parser">m_Parser</a></td></tr>
+<tr class="memdesc:f0-m_Parser"><td class="mdescLeft">&#160;</td><td class="mdescRight">a pointer to the associated parser object  <a href="#f0-m_Parser">More...</a><br /></td></tr>
 <tr class="separator:f0-m_Parser"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:h5-m_ActiveFilename"><td class="memItemLeft" align="right" valign="top">wxString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClassBrowser#h5-m_ActiveFilename">m_ActiveFilename</a></td></tr>
 <tr class="memdesc:h5-m_ActiveFilename"><td class="mdescLeft">&#160;</td><td class="mdescRight">source file name of active editor, used for filtering(if view option is Current file's symbols)  <a href="#h5-m_ActiveFilename">More...</a><br /></td></tr>
@@ -366,7 +368,12 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>get the next item of the "start" item, if no next item in the current level, go up one level </p>
-<dl class="section note"><dt>Note</dt><dd>it looks like the "search" parameter is not used in this function </dd></dl>
+<dl class="section note"><dt>Note</dt><dd>it looks like the "search" parameter is not used in this function <div class="fragment"><div class="line">--node1</div>
+<div class="line">  |--start item</div>
+<div class="line">  |--returned item(a)</div>
+<div class="line">--node2</div>
+<div class="line">  |--returned item(b)</div>
+</div><!-- fragment --> return the item(a) in the same level, if there is no such item, then return item(b) </dd></dl>
 
 <p>Referenced by <a class="el" href="classClassBrowser#xr-RecursiveSearch">RecursiveSearch()</a>.</p>
 
@@ -411,38 +418,19 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>string compare between the search and the token's name associated with item </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">search</td><td>the search key </td></tr>
+    <tr><td class="paramname">tree</td><td>tree control </td></tr>
+    <tr><td class="paramname">item</td><td>the item id of the tree </td></tr>
+  </table>
+  </dd>
+</dl>
 <dl class="section return"><dt>Returns</dt><dd>true if their name matches </dd></dl>
 
 <p>References <a class="el" href="classClassTreeData#iw-GetToken">ClassTreeData::GetToken()</a>, and <a class="el" href="classToken#el-m_Name">Token::m_Name</a>.</p>
 
 <p>Referenced by <a class="el" href="classClassBrowser#xr-RecursiveSearch">RecursiveSearch()</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="ya-GetCCTreeCtrl"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">const wxTreeCtrl* ClassBrowser::GetCCTreeCtrl </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>return a pointer to the top tree control </p>
-
-<p>References <a class="el" href="classClassBrowser#gn-m_CCTreeCtrl">m_CCTreeCtrl</a>.</p>
 
 </div>
 </div>
@@ -496,7 +484,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>user change the view mode (inherent or bottom tree) </p>
+<p>user change the view mode (View Inheritance or View the bottom tree) </p>
 
 <p>References <a class="el" href="classParserBase#tq-ClassBrowserOptions">ParserBase::ClassBrowserOptions()</a>, <a class="el" href="structBrowserOptions#e3-expandNS">BrowserOptions::expandNS</a>, <a class="el" href="classbrowser_8cpp#j8-idCBBottomTree">idCBBottomTree</a>, <a class="el" href="classbrowser_8cpp#bg-idCBExpandNS">idCBExpandNS</a>, <a class="el" href="classbrowser_8cpp#wh-idCBViewInheritance">idCBViewInheritance</a>, <a class="el" href="classClassBrowser#f0-m_Parser">m_Parser</a>, <a class="el" href="structBrowserOptions#ww-showInheritance">BrowserOptions::showInheritance</a>, <a class="el" href="structBrowserOptions#le-treeMembers">BrowserOptions::treeMembers</a>, <a class="el" href="classClassBrowser#pg-UpdateClassBrowserView">UpdateClassBrowserView()</a>, and <a class="el" href="classParserBase#pl-WriteOptions">ParserBase::WriteOptions()</a>.</p>
 
@@ -638,7 +626,7 @@ Private Attributes</h2></td></tr>
 
 <p>when user try to search a word in the symbols tree </p>
 
-<p>References <a class="el" href="classTokenTree#z7-at">TokenTree::at()</a>, <a class="el" href="globals_8h#f6-cbMessageBox">cbMessageBox()</a>, <a class="el" href="cclogger_8h#ap-CC_LOCKER_TRACK_TT_MTX_LOCK">CC_LOCKER_TRACK_TT_MTX_LOCK</a>, <a class="el" href="cclogger_8h#al-CC_LOCKER_TRACK_TT_MTX_UNLOCK">CC_LOCKER_TRACK_TT_MTX_UNLOCK</a>, <a class="el" href="classToken#a0-DisplayName">Token::DisplayName()</a>, <a class="el" href="classClassBrowser#sm-FindChild">FindChild()</a>, <a class="el" href="classTokenTree#tb-FindMatches">TokenTree::FindMatches()</a>, <a class="el" href="classToken#ww-GetNamespace">Token::GetNamespace()</a>, <a class="el" href="classParserBase#kx-GetTokenTree">ParserBase::GetTokenTree()</a>, <a class="el" href="classClassBrowser#gn-m_CCTreeCtrl">m_CCTreeCtrl</a>, <a class="el" href="classClassBrowser#jm-m_CCTreeCtrlBottom">m_CCTreeCtrlBottom</a>, <a class="el" href="classToken#el-m_Name">Token::m_Name</a>, <a class="el" href="classToken#wc-m_ParentIndex">Token::m_ParentIndex</a>, <a class="el" href="classClassBrowser#f0-m_Parser">m_Parser</a>, <a class="el" href="classClassBrowser#z8-m_Search">m_Search</a>, <a class="el" href="classCCTreeCtrlData#vr-m_SpecialFolder">CCTreeCtrlData::m_SpecialFolder</a>, <a class="el" href="classToken#ky-m_TokenKind">Token::m_TokenKind</a>, <a class="el" href="tokentree_8cpp#ko-s_TokenTreeMutex">s_TokenTreeMutex</a>, <a class="el" href="cctreectrl_8h#ah-SpecialFolder:sfGFuncs">sfGFuncs</a>, <a class="el" href="cctreectrl_8h#ah-SpecialFolder:sfGVars">sfGVars</a>, <a class="el" href="cctreectrl_8h#ah-SpecialFolder:sfPreproc">sfPreproc</a>, <a class="el" href="cctreectrl_8h#ah-SpecialFolder:sfTypedef">sfTypedef</a>, and <a class="el" href="token_8h#uj-TokenKind:tkAnyContainer">tkAnyContainer</a>.</p>
+<p>References <a class="el" href="classTokenTree#z7-at">TokenTree::at()</a>, <a class="el" href="globals_8h#ym-cbGetSingleChoiceIndex">cbGetSingleChoiceIndex()</a>, <a class="el" href="globals_8h#f6-cbMessageBox">cbMessageBox()</a>, <a class="el" href="cclogger_8h#ap-CC_LOCKER_TRACK_TT_MTX_LOCK">CC_LOCKER_TRACK_TT_MTX_LOCK</a>, <a class="el" href="cclogger_8h#al-CC_LOCKER_TRACK_TT_MTX_UNLOCK">CC_LOCKER_TRACK_TT_MTX_UNLOCK</a>, <a class="el" href="classToken#a0-DisplayName">Token::DisplayName()</a>, <a class="el" href="classClassBrowser#sm-FindChild">FindChild()</a>, <a class="el" href="classTokenTree#tb-FindMatches">TokenTree::FindMatches()</a>, <a class="el" href="classManager#rz-Get">Manager::Get()</a>, <a class="el" href="classToken#ww-GetNamespace">Token::GetNamespace()</a>, <a class="el" href="classParserBase#kx-GetTokenTree">ParserBase::GetTokenTree()</a>, <a class="el" href="classClassBrowser#gn-m_CCTreeCtrl">m_CCTreeCtrl</a>, <a class="el" href="classClassBrowser#jm-m_CCTreeCtrlBottom">m_CCTreeCtrlBottom</a>, <a class="el" href="classToken#el-m_Name">Token::m_Name</a>, <a class="el" href="classToken#wc-m_ParentIndex">Token::m_ParentIndex</a>, <a class="el" href="classClassBrowser#f0-m_Parser">m_Parser</a>, <a class="el" href="classClassBrowser#z8-m_Search">m_Search</a>, <a class="el" href="classCCTreeCtrlData#vr-m_SpecialFolder">CCTreeCtrlData::m_SpecialFolder</a>, <a class="el" href="classToken#ky-m_TokenKind">Token::m_TokenKind</a>, <a class="el" href="tokentree_8cpp#ko-s_TokenTreeMutex">s_TokenTreeMutex</a>, <a class="el" href="cctreectrl_8h#ah-SpecialFolder:sfGFuncs">sfGFuncs</a>, <a class="el" href="cctreectrl_8h#ah-SpecialFolder:sfGVars">sfGVars</a>, <a class="el" href="cctreectrl_8h#ah-SpecialFolder:sfPreproc">sfPreproc</a>, <a class="el" href="cctreectrl_8h#ah-SpecialFolder:sfTypedef">sfTypedef</a>, and <a class="el" href="token_8h#uj-TokenKind:tkAnyContainer">tkAnyContainer</a>.</p>
 
 </div>
 </div>
@@ -692,7 +680,8 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>class browser builder thread will send notification event to the parent, this is the event handler function </p>
+<p>class browser builder thread will send notification event to the parent, this is the event handler function currently, there are three kinds of events send from the builder thread </p>
+<dl class="section see"><dt>See also</dt><dd>EThreadEvent for details. </dd></dl>
 
 <p>References <a class="el" href="classClassBrowserBuilderThread#to-EThreadEvent:buildTreeEnd">ClassBrowserBuilderThread::buildTreeEnd</a>, <a class="el" href="classClassBrowserBuilderThread#to-EThreadEvent:buildTreeStart">ClassBrowserBuilderThread::buildTreeStart</a>, <a class="el" href="classParserBase#tq-ClassBrowserOptions">ParserBase::ClassBrowserOptions()</a>, <a class="el" href="classCCLogger#ux-DebugLog">CCLogger::DebugLog()</a>, <a class="el" href="classCCLogger#ma-Get">CCLogger::Get()</a>, <a class="el" href="classClassBrowser#yh-m_ClassBrowserBuilderThread">m_ClassBrowserBuilderThread</a>, <a class="el" href="classClassBrowser#f0-m_Parser">m_Parser</a>, <a class="el" href="classClassBrowserBuilderThread#to-EThreadEvent:selectItemRequired">ClassBrowserBuilderThread::selectItemRequired</a>, <a class="el" href="classClassBrowserBuilderThread#zj-SelectItemRequired">ClassBrowserBuilderThread::SelectItemRequired()</a>, and <a class="el" href="structBrowserOptions#le-treeMembers">BrowserOptions::treeMembers</a>.</p>
 
@@ -719,6 +708,8 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>collapse one node of the top tree </p>
 
 <p>References <a class="el" href="classClassBrowserBuilderThread#k5-CollapseItem">ClassBrowserBuilderThread::CollapseItem()</a>, and <a class="el" href="classClassBrowser#yh-m_ClassBrowserBuilderThread">m_ClassBrowserBuilderThread</a>.</p>
 
@@ -774,6 +765,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>expanding one node of top tree </p>
+<dl class="section note"><dt>Note</dt><dd>that the bottom tree do not actually show a tree structure, it just list the members of the selected node in the top tree </dd></dl>
+
 <p>References <a class="el" href="classClassBrowserBuilderThread#jh-ExpandItem">ClassBrowserBuilderThread::ExpandItem()</a>, and <a class="el" href="classClassBrowser#yh-m_ClassBrowserBuilderThread">m_ClassBrowserBuilderThread</a>.</p>
 
 </div>
@@ -828,6 +822,8 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>item selection changed in the top tree </p>
+
 <p>References <a class="el" href="classParserBase#tq-ClassBrowserOptions">ParserBase::ClassBrowserOptions()</a>, <a class="el" href="classClassBrowser#yh-m_ClassBrowserBuilderThread">m_ClassBrowserBuilderThread</a>, <a class="el" href="classClassBrowser#f0-m_Parser">m_Parser</a>, <a class="el" href="classClassBrowserBuilderThread#yz-SelectItem">ClassBrowserBuilderThread::SelectItem()</a>, and <a class="el" href="structBrowserOptions#le-treeMembers">BrowserOptions::treeMembers</a>.</p>
 
 </div>
@@ -854,7 +850,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>the view scope choice has changed </p>
+<p>the view scope choice has changed, user can switch between view everything, view a single file, or view the project </p>
 
 <p>References <a class="el" href="parser__base_8h#s6-BrowserDisplayFilter:bdfProject">bdfProject</a>, <a class="el" href="parser__base_8h#s6-BrowserDisplayFilter:bdfWorkspace">bdfWorkspace</a>, <a class="el" href="globals_8h#f6-cbMessageBox">cbMessageBox()</a>, <a class="el" href="classParserBase#tq-ClassBrowserOptions">ParserBase::ClassBrowserOptions()</a>, <a class="el" href="classCCLogger#ux-DebugLog">CCLogger::DebugLog()</a>, <a class="el" href="structBrowserOptions#ee-displayFilter">BrowserOptions::displayFilter</a>, <a class="el" href="classCCLogger#ma-Get">CCLogger::Get()</a>, <a class="el" href="classManager#rz-Get">Manager::Get()</a>, <a class="el" href="classManager#hd-GetConfigManager">Manager::GetConfigManager()</a>, <a class="el" href="classNativeParser#to-IsParserPerWorkspace">NativeParser::IsParserPerWorkspace()</a>, <a class="el" href="classClassBrowser#cn-m_NativeParser">m_NativeParser</a>, <a class="el" href="classClassBrowser#f0-m_Parser">m_Parser</a>, <a class="el" href="classClassBrowser#pg-UpdateClassBrowserView">UpdateClassBrowserView()</a>, <a class="el" href="classConfigManager#ls-Write">ConfigManager::Write()</a>, and <a class="el" href="classParserBase#pl-WriteOptions">ParserBase::WriteOptions()</a>.</p>
 
@@ -982,7 +978,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>build and show a context menu when user click on the tree item "id" </p>
+<p>build and show a context menu when user right click on the tree item "id" </p>
 
 <p>References <a class="el" href="parser__base_8h#gj-BrowserSortType:bstAlphabet">bstAlphabet</a>, <a class="el" href="parser__base_8h#gj-BrowserSortType:bstKind">bstKind</a>, <a class="el" href="parser__base_8h#gj-BrowserSortType:bstLine">bstLine</a>, <a class="el" href="parser__base_8h#gj-BrowserSortType:bstNone">bstNone</a>, <a class="el" href="parser__base_8h#gj-BrowserSortType:bstScope">bstScope</a>, <a class="el" href="classParserBase#tq-ClassBrowserOptions">ParserBase::ClassBrowserOptions()</a>, <a class="el" href="structBrowserOptions#e3-expandNS">BrowserOptions::expandNS</a>, <a class="el" href="classToken#ls-GetImplFilename">Token::GetImplFilename()</a>, <a class="el" href="classbrowser_8cpp#j8-idCBBottomTree">idCBBottomTree</a>, <a class="el" href="classbrowser_8cpp#bg-idCBExpandNS">idCBExpandNS</a>, <a class="el" href="classbrowser_8cpp#ub-idCBNoSort">idCBNoSort</a>, <a class="el" href="classbrowser_8cpp#xn-idCBSortByAlpabet">idCBSortByAlpabet</a>, <a class="el" href="classbrowser_8cpp#lh-idCBSortByKind">idCBSortByKind</a>, <a class="el" href="classbrowser_8cpp#e2-idCBSortByLine">idCBSortByLine</a>, <a class="el" href="classbrowser_8cpp#jr-idCBSortByScope">idCBSortByScope</a>, <a class="el" href="classbrowser_8cpp#wh-idCBViewInheritance">idCBViewInheritance</a>, <a class="el" href="classbrowser_8cpp#lu-idMenuDebugSmartSense">idMenuDebugSmartSense</a>, <a class="el" href="classbrowser_8cpp#qn-idMenuForceReparse">idMenuForceReparse</a>, <a class="el" href="classbrowser_8cpp#if-idMenuJumpToDeclaration">idMenuJumpToDeclaration</a>, <a class="el" href="classbrowser_8cpp#kq-idMenuJumpToImplementation">idMenuJumpToImplementation</a>, <a class="el" href="classbrowser_8cpp#ii-idMenuRefreshTree">idMenuRefreshTree</a>, <a class="el" href="classClassBrowser#gn-m_CCTreeCtrl">m_CCTreeCtrl</a>, <a class="el" href="classToken#ur-m_ImplLine">Token::m_ImplLine</a>, <a class="el" href="classClassBrowser#f0-m_Parser">m_Parser</a>, <a class="el" href="classCCTreeCtrlData#a3-m_Token">CCTreeCtrlData::m_Token</a>, <a class="el" href="classToken#ky-m_TokenKind">Token::m_TokenKind</a>, <a class="el" href="classClassBrowser#mg-m_TreeForPopupMenu">m_TreeForPopupMenu</a>, <a class="el" href="nativeparser_8cpp#oc-s_DebugSmartSense">s_DebugSmartSense</a>, <a class="el" href="structBrowserOptions#ww-showInheritance">BrowserOptions::showInheritance</a>, <a class="el" href="structBrowserOptions#b7-sortType">BrowserOptions::sortType</a>, <a class="el" href="token_8h#uj-TokenKind:tkAnyContainer">tkAnyContainer</a>, <a class="el" href="token_8h#uj-TokenKind:tkAnyFunction">tkAnyFunction</a>, <a class="el" href="token_8h#uj-TokenKind:tkClass">tkClass</a>, <a class="el" href="token_8h#uj-TokenKind:tkConstructor">tkConstructor</a>, <a class="el" href="token_8h#uj-TokenKind:tkDestructor">tkDestructor</a>, <a class="el" href="token_8h#uj-TokenKind:tkEnum">tkEnum</a>, <a class="el" href="token_8h#uj-TokenKind:tkEnumerator">tkEnumerator</a>, <a class="el" href="token_8h#uj-TokenKind:tkFunction">tkFunction</a>, <a class="el" href="token_8h#uj-TokenKind:tkMacroDef">tkMacroDef</a>, <a class="el" href="token_8h#uj-TokenKind:tkMacroUse">tkMacroUse</a>, <a class="el" href="token_8h#uj-TokenKind:tkNamespace">tkNamespace</a>, <a class="el" href="token_8h#uj-TokenKind:tkTypedef">tkTypedef</a>, <a class="el" href="token_8h#uj-TokenKind:tkUndefined">tkUndefined</a>, <a class="el" href="token_8h#uj-TokenKind:tkVariable">tkVariable</a>, and <a class="el" href="structBrowserOptions#le-treeMembers">BrowserOptions::treeMembers</a>.</p>
 
@@ -1061,7 +1057,7 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>update the position sash bar between top tree and the bottom tree, the position (percentage) of the two trees are saved in the configuration files. </p>
+<p>update the position sash bar between top tree and the bottom tree, the position (percentage) of the two trees are saved in the C::B's configuration file. </p>
 
 <p>References <a class="el" href="classManager#rz-Get">Manager::Get()</a>, <a class="el" href="classManager#hd-GetConfigManager">Manager::GetConfigManager()</a>, and <a class="el" href="classConfigManager#kb-ReadInt">ConfigManager::ReadInt()</a>.</p>
 
@@ -1114,7 +1110,7 @@ Private Attributes</h2></td></tr>
 
 <p>the top(main) level tree control, see above diagram for details </p>
 
-<p>Referenced by <a class="el" href="classClassBrowser#sm-FindChild">FindChild()</a>, <a class="el" href="classClassBrowser#ya-GetCCTreeCtrl">GetCCTreeCtrl()</a>, <a class="el" href="classClassBrowser#aw-OnSearch">OnSearch()</a>, <a class="el" href="classClassBrowser#qp-ShowMenu">ShowMenu()</a>, <a class="el" href="classClassBrowser#qn-ThreadedBuildTree">ThreadedBuildTree()</a>, and <a class="el" href="classClassBrowser#pg-UpdateClassBrowserView">UpdateClassBrowserView()</a>.</p>
+<p>Referenced by <a class="el" href="classClassBrowser#sm-FindChild">FindChild()</a>, <a class="el" href="classClassBrowser#aw-OnSearch">OnSearch()</a>, <a class="el" href="classClassBrowser#qp-ShowMenu">ShowMenu()</a>, <a class="el" href="classClassBrowser#qn-ThreadedBuildTree">ThreadedBuildTree()</a>, and <a class="el" href="classClassBrowser#pg-UpdateClassBrowserView">UpdateClassBrowserView()</a>.</p>
 
 </div>
 </div>
@@ -1208,6 +1204,8 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>the pointer to parser manager object </p>
+
 <p>Referenced by <a class="el" href="classClassBrowser#vh-OnForceReparse">OnForceReparse()</a>, <a class="el" href="classClassBrowser#uh-OnJumpTo">OnJumpTo()</a>, <a class="el" href="classClassBrowser#rf-OnTreeItemDoubleClick">OnTreeItemDoubleClick()</a>, <a class="el" href="classClassBrowser#g1-OnViewScope">OnViewScope()</a>, <a class="el" href="classClassBrowser#tr-SetParser">SetParser()</a>, <a class="el" href="classClassBrowser#qn-ThreadedBuildTree">ThreadedBuildTree()</a>, and <a class="el" href="classClassBrowser#pg-UpdateClassBrowserView">UpdateClassBrowserView()</a>.</p>
 
 </div>
@@ -1230,6 +1228,8 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>a pointer to the associated parser object </p>
+
 <p>Referenced by <a class="el" href="classClassBrowser#l2-OnCBExpandNS">OnCBExpandNS()</a>, <a class="el" href="classClassBrowser#qa-OnCBViewMode">OnCBViewMode()</a>, <a class="el" href="classClassBrowser#uh-OnJumpTo">OnJumpTo()</a>, <a class="el" href="classClassBrowser#aw-OnSearch">OnSearch()</a>, <a class="el" href="classClassBrowser#zt-OnSetSortType">OnSetSortType()</a>, <a class="el" href="classClassBrowser#ur-OnThreadEvent">OnThreadEvent()</a>, <a class="el" href="classClassBrowser#rf-OnTreeItemDoubleClick">OnTreeItemDoubleClick()</a>, <a class="el" href="classClassBrowser#up-OnTreeSelChanged">OnTreeSelChanged()</a>, <a class="el" href="classClassBrowser#g1-OnViewScope">OnViewScope()</a>, <a class="el" href="classClassBrowser#tr-SetParser">SetParser()</a>, <a class="el" href="classClassBrowser#qp-ShowMenu">ShowMenu()</a>, <a class="el" href="classClassBrowser#qn-ThreadedBuildTree">ThreadedBuildTree()</a>, and <a class="el" href="classClassBrowser#pg-UpdateClassBrowserView">UpdateClassBrowserView()</a>.</p>
 
 </div>
@@ -1251,6 +1251,8 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>the search combobox in the header of the window </p>
 
 <p>Referenced by <a class="el" href="classClassBrowser#aw-OnSearch">OnSearch()</a>.</p>
 
