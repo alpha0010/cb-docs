@@ -8,8 +8,8 @@
  viewBox="0.00 0.00 176.00 876.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 872)">
 <title>cbCodeCompletionPlugin</title>
-<!-- Node1 -->
-<g id="node1" class="node"><title>Node1</title>
+<!-- Node0 -->
+<g id="node1" class="node"><title>Node0</title>
 <polygon fill="#bfbfbf" stroke="black" points="14,-369.5 14,-525.5 154,-525.5 154,-369.5 14,-369.5"/>
 <text text-anchor="middle" x="84" y="-513.5" font-family="FreeSans" font-size="10.00">cbCodeCompletionPlugin</text>
 <polyline fill="none" stroke="black" points="14,-506.5 154,-506.5 "/>
@@ -26,8 +26,8 @@
 <text text-anchor="start" x="22" y="-387.5" font-family="FreeSans" font-size="10.00">+ DoAutocomplete()</text>
 <text text-anchor="start" x="22" y="-376.5" font-family="FreeSans" font-size="10.00"># IsProviderFor()</text>
 </g>
-<!-- Node4 -->
-<g id="node4" class="node"><title>Node4</title>
+<!-- Node3 -->
+<g id="node4" class="node"><title>Node3</title>
 <g id="a_node4"><a xlink:href="classCodeCompletion" target="_top" xlink:title="Code completion plugin has those features: show tool&#45;tip when the mouse hover over the variables/func...">
 <polygon fill="none" stroke="black" points="-1.42109e-14,-0.5 -1.42109e-14,-332.5 168,-332.5 168,-0.5 -1.42109e-14,-0.5"/>
 <text text-anchor="middle" x="84" y="-320.5" font-family="FreeSans" font-size="10.00">CodeCompletion</text>
@@ -63,13 +63,13 @@
 </a>
 </g>
 </g>
-<!-- Node1&#45;&gt;Node4 -->
-<g id="edge3" class="edge"><title>Node1&#45;&gt;Node4</title>
+<!-- Node0&#45;&gt;Node3 -->
+<g id="edge3" class="edge"><title>Node0&#45;&gt;Node3</title>
 <path fill="none" stroke="midnightblue" d="M84,-358.914C84,-350.388 84,-341.56 84,-332.586"/>
 <polygon fill="none" stroke="midnightblue" points="80.5001,-359.153 84,-369.153 87.5001,-359.153 80.5001,-359.153"/>
 </g>
-<!-- Node2 -->
-<g id="node2" class="node"><title>Node2</title>
+<!-- Node1 -->
+<g id="node2" class="node"><title>Node1</title>
 <g id="a_node2"><a xlink:href="classcbPlugin" target="_top" xlink:title="Base class for plugins This is the most basic class a plugin must descend from. ">
 <polygon fill="none" stroke="black" points="5,-562.5 5,-773.5 163,-773.5 163,-562.5 5,-562.5"/>
 <text text-anchor="middle" x="84" y="-761.5" font-family="FreeSans" font-size="10.00">cbPlugin</text>
@@ -94,13 +94,13 @@
 </a>
 </g>
 </g>
-<!-- Node2&#45;&gt;Node1 -->
-<g id="edge1" class="edge"><title>Node2&#45;&gt;Node1</title>
+<!-- Node1&#45;&gt;Node0 -->
+<g id="edge1" class="edge"><title>Node1&#45;&gt;Node0</title>
 <path fill="none" stroke="midnightblue" d="M84,-552.073C84,-543.085 84,-534.148 84,-525.507"/>
 <polygon fill="none" stroke="midnightblue" points="80.5001,-552.23 84,-562.23 87.5001,-552.23 80.5001,-552.23"/>
 </g>
-<!-- Node3 -->
-<g id="node3" class="node"><title>Node3</title>
+<!-- Node2 -->
+<g id="node3" class="node"><title>Node2</title>
 <polygon fill="none" stroke="#bfbfbf" points="47,-810.5 47,-867.5 121,-867.5 121,-810.5 47,-810.5"/>
 <text text-anchor="middle" x="84" y="-855.5" font-family="FreeSans" font-size="10.00">wxEvtHandler</text>
 <polyline fill="none" stroke="#bfbfbf" points="47,-848.5 121,-848.5 "/>
@@ -108,8 +108,8 @@
 <polyline fill="none" stroke="#bfbfbf" points="47,-829.5 121,-829.5 "/>
 <text text-anchor="middle" x="84" y="-817.5" font-family="FreeSans" font-size="10.00"> </text>
 </g>
-<!-- Node3&#45;&gt;Node2 -->
-<g id="edge2" class="edge"><title>Node3&#45;&gt;Node2</title>
+<!-- Node2&#45;&gt;Node1 -->
+<g id="edge2" class="edge"><title>Node2&#45;&gt;Node1</title>
 <path fill="none" stroke="midnightblue" d="M84,-800.233C84,-792.038 84,-782.987 84,-773.584"/>
 <polygon fill="none" stroke="midnightblue" points="80.5001,-800.471 84,-810.471 87.5001,-800.471 80.5001,-800.471"/>
 </g>

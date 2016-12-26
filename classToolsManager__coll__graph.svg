@@ -8,8 +8,8 @@
  viewBox="0.00 0.00 418.50 756.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 752)">
 <title>ToolsManager</title>
-<!-- Node1 -->
-<g id="node1" class="node"><title>Node1</title>
+<!-- Node3 -->
+<g id="node1" class="node"><title>Node3</title>
 <polygon fill="#bfbfbf" stroke="black" points="87.5,-171.5 87.5,-415.5 206.5,-415.5 206.5,-171.5 87.5,-171.5"/>
 <text text-anchor="middle" x="147" y="-403.5" font-family="FreeSans" font-size="10.00">ToolsManager</text>
 <polyline fill="none" stroke="black" points="87.5,-396.5 206.5,-396.5 "/>
@@ -34,8 +34,8 @@
 <text text-anchor="start" x="95.5" y="-189.5" font-family="FreeSans" font-size="10.00">&#45; LoadTools()</text>
 <text text-anchor="start" x="95.5" y="-178.5" font-family="FreeSans" font-size="10.00">&#45; SaveTools()</text>
 </g>
-<!-- Node2 -->
-<g id="node2" class="node"><title>Node2</title>
+<!-- Node4 -->
+<g id="node2" class="node"><title>Node4</title>
 <g id="a_node2"><a xlink:href="classMgr" target="_top" xlink:title="{Mgr\&lt; ToolsManager \&gt;\n|&#45; isShutdown\l|+ Valid()\l+ Get()\l+ Free()\l# Mgr()\l# ~Mgr()\l&#45; Mgr()\l&#45; operator=()\l}">
 <polygon fill="none" stroke="black" points="92,-0.5 92,-123.5 202,-123.5 202,-0.5 92,-0.5"/>
 <text text-anchor="middle" x="147" y="-111.5" font-family="FreeSans" font-size="10.00">Mgr&lt; ToolsManager &gt;</text>
@@ -52,19 +52,19 @@
 </a>
 </g>
 </g>
-<!-- Node1&#45;&gt;Node2 -->
-<g id="edge2" class="edge"><title>Node1&#45;&gt;Node2</title>
+<!-- Node3&#45;&gt;Node4 -->
+<g id="edge2" class="edge"><title>Node3&#45;&gt;Node4</title>
 <path fill="none" stroke="#404040" d="M113.719,-171.407C113.526,-161.466 114.19,-151.567 116,-142 116.413,-139.815 116.886,-137.613 117.409,-135.403"/>
 <polygon fill="none" stroke="#404040" points="117.479,-135.148 115.201,-128.306 120.641,-123.572 122.918,-130.414 117.479,-135.148"/>
 <text text-anchor="middle" x="137" y="-145" font-family="FreeSans" font-size="10.00"> &#45;instance</text>
 </g>
-<!-- Node2&#45;&gt;Node1 -->
-<g id="edge1" class="edge"><title>Node2&#45;&gt;Node1</title>
+<!-- Node4&#45;&gt;Node3 -->
+<g id="edge1" class="edge"><title>Node4&#45;&gt;Node3</title>
 <path fill="none" stroke="midnightblue" d="M161.1,-133.762C161.442,-136.538 161.745,-139.292 162,-142 162.898,-151.542 163.235,-161.422 163.152,-171.351"/>
 <polygon fill="none" stroke="midnightblue" points="164.539,-133.078 159.705,-123.65 157.605,-134.035 164.539,-133.078"/>
 </g>
-<!-- Node3 -->
-<g id="node3" class="node"><title>Node3</title>
+<!-- Node5 -->
+<g id="node3" class="node"><title>Node5</title>
 <polygon fill="none" stroke="#bfbfbf" points="0,-529.5 0,-586.5 74,-586.5 74,-529.5 0,-529.5"/>
 <text text-anchor="middle" x="37" y="-574.5" font-family="FreeSans" font-size="10.00">wxEvtHandler</text>
 <polyline fill="none" stroke="#bfbfbf" points="0,-567.5 74,-567.5 "/>
@@ -72,13 +72,13 @@
 <polyline fill="none" stroke="#bfbfbf" points="0,-548.5 74,-548.5 "/>
 <text text-anchor="middle" x="37" y="-536.5" font-family="FreeSans" font-size="10.00"> </text>
 </g>
-<!-- Node3&#45;&gt;Node1 -->
-<g id="edge3" class="edge"><title>Node3&#45;&gt;Node1</title>
+<!-- Node5&#45;&gt;Node3 -->
+<g id="edge3" class="edge"><title>Node5&#45;&gt;Node3</title>
 <path fill="none" stroke="midnightblue" d="M52.5674,-519.851C64.0546,-492.438 80.3815,-453.476 96.2361,-415.641"/>
 <polygon fill="none" stroke="midnightblue" points="49.2009,-518.828 48.564,-529.404 55.657,-521.534 49.2009,-518.828"/>
 </g>
-<!-- Node4 -->
-<g id="node4" class="node"><title>Node4</title>
+<!-- Node6 -->
+<g id="node4" class="node"><title>Node6</title>
 <g id="a_node4"><a xlink:href="classPipedProcess" target="_top" xlink:title="{PipedProcess\n|# m_Parent\l# m_Id\l# m_Pid\l# m_timerPollProcess\l|+ PipedProcess()\l+ ~PipedProcess()\l+ Launch()\l+ SendString()\l+ HasInput()\l+ GetPid()\l+ ForfeitStreams()\l# OnTerminate()\l# OnTimer()\l# OnIdle()\l}">
 <polygon fill="none" stroke="black" points="92,-463.5 92,-652.5 202,-652.5 202,-463.5 92,-463.5"/>
 <text text-anchor="middle" x="147" y="-640.5" font-family="FreeSans" font-size="10.00">PipedProcess</text>
@@ -101,20 +101,20 @@
 </a>
 </g>
 </g>
-<!-- Node4&#45;&gt;Node1 -->
-<g id="edge4" class="edge"><title>Node4&#45;&gt;Node1</title>
+<!-- Node6&#45;&gt;Node3 -->
+<g id="edge4" class="edge"><title>Node6&#45;&gt;Node3</title>
 <path fill="none" stroke="#404040" d="M147,-463.343C147,-451.748 147,-439.726 147,-427.681"/>
 <polygon fill="none" stroke="#404040" points="147,-427.645 143,-421.645 147,-415.645 151,-421.645 147,-427.645"/>
 <text text-anchor="middle" x="176.5" y="-437" font-family="FreeSans" font-size="10.00"> &#45;m_pProcess</text>
 </g>
-<!-- Node4&#45;&gt;Node4 -->
-<g id="edge6" class="edge"><title>Node4&#45;&gt;Node4</title>
+<!-- Node6&#45;&gt;Node6 -->
+<g id="edge6" class="edge"><title>Node6&#45;&gt;Node6</title>
 <path fill="none" stroke="#404040" d="M202.073,-577.995C212.574,-575.603 220,-568.938 220,-558 220,-551.506 217.382,-546.518 213.057,-543.036"/>
 <polygon fill="none" stroke="#404040" points="212.983,-543.002 205.862,-544.14 202.073,-538.005 209.194,-536.867 212.983,-543.002"/>
 <text text-anchor="middle" x="243.5" y="-555.5" font-family="FreeSans" font-size="10.00"> &#45;m_pvThis</text>
 </g>
-<!-- Node5 -->
-<g id="node5" class="node"><title>Node5</title>
+<!-- Node7 -->
+<g id="node5" class="node"><title>Node7</title>
 <polygon fill="none" stroke="#bfbfbf" points="116,-690.5 116,-747.5 178,-747.5 178,-690.5 116,-690.5"/>
 <text text-anchor="middle" x="147" y="-735.5" font-family="FreeSans" font-size="10.00">wxProcess</text>
 <polyline fill="none" stroke="#bfbfbf" points="116,-728.5 178,-728.5 "/>
@@ -122,13 +122,13 @@
 <polyline fill="none" stroke="#bfbfbf" points="116,-709.5 178,-709.5 "/>
 <text text-anchor="middle" x="147" y="-697.5" font-family="FreeSans" font-size="10.00"> </text>
 </g>
-<!-- Node5&#45;&gt;Node4 -->
-<g id="edge5" class="edge"><title>Node5&#45;&gt;Node4</title>
+<!-- Node7&#45;&gt;Node6 -->
+<g id="edge5" class="edge"><title>Node7&#45;&gt;Node6</title>
 <path fill="none" stroke="midnightblue" d="M147,-680.078C147,-671.598 147,-662.241 147,-652.597"/>
 <polygon fill="none" stroke="midnightblue" points="143.5,-680.304 147,-690.304 150.5,-680.304 143.5,-680.304"/>
 </g>
-<!-- Node6 -->
-<g id="node6" class="node"><title>Node6</title>
+<!-- Node8 -->
+<g id="node6" class="node"><title>Node8</title>
 <g id="a_node6"><a xlink:href="classMenuItemsManager" target="_top" xlink:title="Manager for wxMenuItem pointers. ">
 <polygon fill="none" stroke="black" points="285.5,-496.5 285.5,-619.5 410.5,-619.5 410.5,-496.5 285.5,-496.5"/>
 <text text-anchor="middle" x="348" y="-607.5" font-family="FreeSans" font-size="10.00">MenuItemsManager</text>
@@ -145,8 +145,8 @@
 </a>
 </g>
 </g>
-<!-- Node6&#45;&gt;Node1 -->
-<g id="edge7" class="edge"><title>Node6&#45;&gt;Node1</title>
+<!-- Node8&#45;&gt;Node3 -->
+<g id="edge7" class="edge"><title>Node8&#45;&gt;Node3</title>
 <path fill="none" stroke="#404040" d="M301.634,-496.448C275.772,-462.673 243.094,-419.995 214.447,-382.583"/>
 <polygon fill="none" stroke="#404040" points="214.167,-382.218 207.343,-379.886 206.871,-372.69 213.695,-375.022 214.167,-382.218"/>
 <text text-anchor="middle" x="300.5" y="-437" font-family="FreeSans" font-size="10.00"> &#45;m_ItemsManager</text>

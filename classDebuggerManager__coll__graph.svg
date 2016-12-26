@@ -8,8 +8,8 @@
  viewBox="0.00 0.00 1689.00 1862.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 1858)">
 <title>DebuggerManager</title>
-<!-- Node1 -->
-<g id="node1" class="node"><title>Node1</title>
+<!-- Node2 -->
+<g id="node1" class="node"><title>Node2</title>
 <polygon fill="#bfbfbf" stroke="black" points="742,-171.5 742,-459.5 887,-459.5 887,-171.5 742,-171.5"/>
 <text text-anchor="middle" x="814.5" y="-447.5" font-family="FreeSans" font-size="10.00">DebuggerManager</text>
 <polyline fill="none" stroke="black" points="742,-440.5 887,-440.5 "/>
@@ -38,8 +38,8 @@
 <text text-anchor="start" x="750" y="-189.5" font-family="FreeSans" font-size="10.00">&#45; OnSettingsChanged()</text>
 <text text-anchor="start" x="750" y="-178.5" font-family="FreeSans" font-size="10.00">&#45; OnPluginLoadingComplete()</text>
 </g>
-<!-- Node2 -->
-<g id="node2" class="node"><title>Node2</title>
+<!-- Node3 -->
+<g id="node2" class="node"><title>Node3</title>
 <g id="a_node2"><a xlink:href="classMgr" target="_top" xlink:title="{Mgr\&lt; DebuggerManager \&gt;\n|&#45; isShutdown\l|+ Valid()\l+ Get()\l+ Free()\l# Mgr()\l# ~Mgr()\l&#45; Mgr()\l&#45; operator=()\l}">
 <polygon fill="none" stroke="black" points="750.5,-0.5 750.5,-123.5 878.5,-123.5 878.5,-0.5 750.5,-0.5"/>
 <text text-anchor="middle" x="814.5" y="-111.5" font-family="FreeSans" font-size="10.00">Mgr&lt; DebuggerManager &gt;</text>
@@ -56,19 +56,19 @@
 </a>
 </g>
 </g>
-<!-- Node1&#45;&gt;Node2 -->
-<g id="edge2" class="edge"><title>Node1&#45;&gt;Node2</title>
+<!-- Node2&#45;&gt;Node3 -->
+<g id="edge2" class="edge"><title>Node2&#45;&gt;Node3</title>
 <path fill="none" stroke="#404040" d="M780.675,-171.387C780.817,-161.438 781.69,-151.567 783.5,-142 783.913,-139.815 784.386,-137.613 784.909,-135.403"/>
 <polygon fill="none" stroke="#404040" points="784.979,-135.148 782.701,-128.306 788.141,-123.572 790.418,-130.414 784.979,-135.148"/>
 <text text-anchor="middle" x="804.5" y="-145" font-family="FreeSans" font-size="10.00"> &#45;instance</text>
 </g>
-<!-- Node2&#45;&gt;Node1 -->
-<g id="edge1" class="edge"><title>Node2&#45;&gt;Node1</title>
+<!-- Node3&#45;&gt;Node2 -->
+<g id="edge1" class="edge"><title>Node3&#45;&gt;Node2</title>
 <path fill="none" stroke="midnightblue" d="M828.6,-133.762C828.942,-136.538 829.245,-139.292 829.5,-142 830.401,-151.577 830.843,-161.455 830.925,-171.41"/>
 <polygon fill="none" stroke="midnightblue" points="832.039,-133.078 827.205,-123.65 825.105,-134.035 832.039,-133.078"/>
 </g>
-<!-- Node3 -->
-<g id="node3" class="node"><title>Node3</title>
+<!-- Node4 -->
+<g id="node3" class="node"><title>Node4</title>
 <g id="a_node3"><a xlink:href="classcbThreadsDlg" target="_top" xlink:title="{cbThreadsDlg\n||+ ~cbThreadsDlg()\l+ GetWindow()\l+ Reload()\l+ EnableWindow()\l}">
 <polygon fill="none" stroke="black" points="0,-551.5 0,-641.5 95,-641.5 95,-551.5 0,-551.5"/>
 <text text-anchor="middle" x="47.5" y="-629.5" font-family="FreeSans" font-size="10.00">cbThreadsDlg</text>
@@ -82,14 +82,14 @@
 </a>
 </g>
 </g>
-<!-- Node3&#45;&gt;Node1 -->
-<g id="edge3" class="edge"><title>Node3&#45;&gt;Node1</title>
+<!-- Node4&#45;&gt;Node2 -->
+<g id="edge3" class="edge"><title>Node4&#45;&gt;Node2</title>
 <path fill="none" stroke="#404040" d="M67.4347,-551.149C76.4635,-535.302 88.5153,-518.534 103.5,-507 137.474,-480.85 154.301,-489.86 195.5,-478 385.36,-423.346 610.252,-366.666 729.813,-337.166"/>
 <polygon fill="none" stroke="#404040" points="730.101,-337.095 734.97,-331.775 741.753,-334.224 736.884,-339.543 730.101,-337.095"/>
 <text text-anchor="middle" x="234.5" y="-481" font-family="FreeSans" font-size="10.00"> &#45;m_threadsDialog</text>
 </g>
-<!-- Node4 -->
-<g id="node4" class="node"><title>Node4</title>
+<!-- Node5 -->
+<g id="node4" class="node"><title>Node5</title>
 <g id="a_node4"><a xlink:href="classcbDebuggerMenuHandler" target="_top" xlink:title="{cbDebuggerMenuHandler\n||+ ~cbDebuggerMenuHandler()\l+ SetActiveDebugger()\l+ MarkActiveTargetAsValid()\l+ RebuildMenus()\l+ BuildContextMenu()\l+ RegisterWindowMenu()\l+ UnregisterWindowMenu()\l}">
 <polygon fill="none" stroke="black" points="113,-535 113,-658 258,-658 258,-535 113,-535"/>
 <text text-anchor="middle" x="185.5" y="-646" font-family="FreeSans" font-size="10.00">cbDebuggerMenuHandler</text>
@@ -106,14 +106,14 @@
 </a>
 </g>
 </g>
-<!-- Node4&#45;&gt;Node1 -->
-<g id="edge4" class="edge"><title>Node4&#45;&gt;Node1</title>
+<!-- Node5&#45;&gt;Node2 -->
+<g id="edge4" class="edge"><title>Node5&#45;&gt;Node2</title>
 <path fill="none" stroke="#404040" d="M228.785,-534.841C245.991,-514.352 267.241,-492.916 290.5,-478 429.719,-388.717 621.317,-346.236 730.078,-328.154"/>
 <polygon fill="none" stroke="#404040" points="730.108,-328.149 735.388,-323.237 741.953,-326.222 736.673,-331.133 730.108,-328.149"/>
 <text text-anchor="middle" x="328.5" y="-481" font-family="FreeSans" font-size="10.00"> &#45;m_menuHandler</text>
 </g>
-<!-- Node5 -->
-<g id="node5" class="node"><title>Node5</title>
+<!-- Node6 -->
+<g id="node5" class="node"><title>Node6</title>
 <g id="a_node5"><a xlink:href="classcbDebuggerPlugin" target="_top" xlink:title="Base class for debugger plugins. ">
 <polygon fill="none" stroke="black" points="374,-733.5 374,-1197.5 531,-1197.5 531,-733.5 374,-733.5"/>
 <text text-anchor="middle" x="452.5" y="-1185.5" font-family="FreeSans" font-size="10.00">cbDebuggerPlugin</text>
@@ -161,14 +161,14 @@
 </a>
 </g>
 </g>
-<!-- Node5&#45;&gt;Node1 -->
-<g id="edge5" class="edge"><title>Node5&#45;&gt;Node1</title>
+<!-- Node6&#45;&gt;Node2 -->
+<g id="edge5" class="edge"><title>Node6&#45;&gt;Node2</title>
 <path fill="none" stroke="#404040" d="M435.951,-733.437C433.572,-640.192 437.968,-545.571 461.5,-507 520.214,-410.76 645.831,-360.059 730.257,-335.788"/>
 <polygon fill="none" stroke="#404040" points="730.329,-335.768 735.03,-330.3 741.885,-332.537 737.184,-338.005 730.329,-335.768"/>
 <text text-anchor="middle" x="504.5" y="-594" font-family="FreeSans" font-size="10.00"> &#45;m_activeDebugger</text>
 </g>
-<!-- Node9 -->
-<g id="node9" class="node"><title>Node9</title>
+<!-- Node10 -->
+<g id="node9" class="node"><title>Node10</title>
 <polygon fill="none" stroke="#bfbfbf" points="276.5,-562.5 276.5,-630.5 416.5,-630.5 416.5,-562.5 276.5,-562.5"/>
 <text text-anchor="start" x="284.5" y="-618.5" font-family="FreeSans" font-size="10.00">std::map&lt; cbDebuggerPlugin</text>
 <text text-anchor="middle" x="346.5" y="-607.5" font-family="FreeSans" font-size="10.00"> *, PluginData &gt;</text>
@@ -177,14 +177,14 @@
 <polyline fill="none" stroke="#bfbfbf" points="276.5,-581.5 416.5,-581.5 "/>
 <text text-anchor="middle" x="346.5" y="-569.5" font-family="FreeSans" font-size="10.00"> </text>
 </g>
-<!-- Node5&#45;&gt;Node9 -->
-<g id="edge15" class="edge"><title>Node5&#45;&gt;Node9</title>
+<!-- Node6&#45;&gt;Node10 -->
+<g id="edge15" class="edge"><title>Node6&#45;&gt;Node10</title>
 <path fill="none" stroke="#404040" d="M385.745,-733.375C375.756,-698.792 366.467,-666.633 359.437,-642.291"/>
 <polygon fill="none" stroke="#404040" points="359.404,-642.178 353.897,-637.524 356.075,-630.649 361.582,-635.304 359.404,-642.178"/>
 <text text-anchor="middle" x="392.5" y="-707" font-family="FreeSans" font-size="10.00"> +keys</text>
 </g>
-<!-- Node6 -->
-<g id="node6" class="node"><title>Node6</title>
+<!-- Node7 -->
+<g id="node6" class="node"><title>Node7</title>
 <g id="a_node6"><a xlink:href="classcbPlugin" target="_top" xlink:title="Base class for plugins This is the most basic class a plugin must descend from. ">
 <polygon fill="none" stroke="black" points="381.5,-1438.5 381.5,-1649.5 539.5,-1649.5 539.5,-1438.5 381.5,-1438.5"/>
 <text text-anchor="middle" x="460.5" y="-1637.5" font-family="FreeSans" font-size="10.00">cbPlugin</text>
@@ -209,13 +209,13 @@
 </a>
 </g>
 </g>
-<!-- Node6&#45;&gt;Node5 -->
-<g id="edge6" class="edge"><title>Node6&#45;&gt;Node5</title>
+<!-- Node7&#45;&gt;Node6 -->
+<g id="edge6" class="edge"><title>Node7&#45;&gt;Node6</title>
 <path fill="none" stroke="midnightblue" d="M458.908,-1428.26C457.992,-1362.3 456.809,-1277.02 455.709,-1197.74"/>
 <polygon fill="none" stroke="midnightblue" points="455.408,-1428.32 459.047,-1438.27 462.407,-1428.22 455.408,-1428.32"/>
 </g>
-<!-- Node8 -->
-<g id="node8" class="node"><title>Node8</title>
+<!-- Node9 -->
+<g id="node8" class="node"><title>Node9</title>
 <g id="a_node8"><a xlink:href="classcbCompilerPlugin" target="_top" xlink:title="Base class for compiler plugins. ">
 <polygon fill="none" stroke="black" points="471,-1245.5 471,-1390.5 578,-1390.5 578,-1245.5 471,-1245.5"/>
 <text text-anchor="middle" x="524.5" y="-1378.5" font-family="FreeSans" font-size="10.00">cbCompilerPlugin</text>
@@ -234,13 +234,13 @@
 </a>
 </g>
 </g>
-<!-- Node6&#45;&gt;Node8 -->
-<g id="edge9" class="edge"><title>Node6&#45;&gt;Node8</title>
+<!-- Node7&#45;&gt;Node9 -->
+<g id="edge9" class="edge"><title>Node7&#45;&gt;Node9</title>
 <path fill="none" stroke="midnightblue" d="M493.238,-1428.42C496.899,-1415.6 500.547,-1402.83 503.991,-1390.78"/>
 <polygon fill="none" stroke="midnightblue" points="489.821,-1427.64 490.439,-1438.21 496.551,-1429.56 489.821,-1427.64"/>
 </g>
-<!-- Node7 -->
-<g id="node7" class="node"><title>Node7</title>
+<!-- Node8 -->
+<g id="node7" class="node"><title>Node8</title>
 <polygon fill="none" stroke="#bfbfbf" points="423.5,-1747 423.5,-1804 497.5,-1804 497.5,-1747 423.5,-1747"/>
 <text text-anchor="middle" x="460.5" y="-1792" font-family="FreeSans" font-size="10.00">wxEvtHandler</text>
 <polyline fill="none" stroke="#bfbfbf" points="423.5,-1785 497.5,-1785 "/>
@@ -248,25 +248,25 @@
 <polyline fill="none" stroke="#bfbfbf" points="423.5,-1766 497.5,-1766 "/>
 <text text-anchor="middle" x="460.5" y="-1754" font-family="FreeSans" font-size="10.00"> </text>
 </g>
-<!-- Node7&#45;&gt;Node6 -->
-<g id="edge7" class="edge"><title>Node7&#45;&gt;Node6</title>
+<!-- Node8&#45;&gt;Node7 -->
+<g id="edge7" class="edge"><title>Node8&#45;&gt;Node7</title>
 <path fill="none" stroke="midnightblue" d="M460.5,-1736.78C460.5,-1712.89 460.5,-1680.72 460.5,-1649.57"/>
 <polygon fill="none" stroke="midnightblue" points="457,-1736.82 460.5,-1746.82 464,-1736.82 457,-1736.82"/>
 </g>
-<!-- Node8&#45;&gt;Node5 -->
-<g id="edge8" class="edge"><title>Node8&#45;&gt;Node5</title>
+<!-- Node9&#45;&gt;Node6 -->
+<g id="edge8" class="edge"><title>Node9&#45;&gt;Node6</title>
 <path fill="none" stroke="#404040" d="M509.756,-1245.23C507.48,-1234.15 505.027,-1222.21 502.463,-1209.72"/>
 <polygon fill="none" stroke="#404040" points="502.387,-1209.35 497.261,-1204.28 499.972,-1197.6 505.098,-1202.67 502.387,-1209.35"/>
 <text text-anchor="middle" x="537" y="-1219" font-family="FreeSans" font-size="10.00"> &#45;m_pCompiler</text>
 </g>
-<!-- Node9&#45;&gt;Node1 -->
-<g id="edge10" class="edge"><title>Node9&#45;&gt;Node1</title>
+<!-- Node10&#45;&gt;Node2 -->
+<g id="edge10" class="edge"><title>Node10&#45;&gt;Node2</title>
 <path fill="none" stroke="#404040" d="M347.21,-562.485C349.474,-536.533 356.578,-501.035 377.5,-478 469.51,-376.7 630.782,-338.757 729.574,-324.672"/>
 <polygon fill="none" stroke="#404040" points="729.71,-324.654 735.114,-319.879 741.6,-323.031 736.196,-327.806 729.71,-324.654"/>
 <text text-anchor="middle" x="408" y="-481" font-family="FreeSans" font-size="10.00"> &#45;m_registered</text>
 </g>
-<!-- Node10 -->
-<g id="node10" class="node"><title>Node10</title>
+<!-- Node11 -->
+<g id="node10" class="node"><title>Node11</title>
 <g id="a_node10"><a xlink:href="structDebuggerManager_1_1PluginData" target="_top" xlink:title="{DebuggerManager::PluginData\n|&#45; m_lastConfigID\l|+ PluginData()\l+ GetConfigurations()\l+ GetConfigurations()\l+ GetConfiguration()\l+ ClearConfigurations()\l}">
 <polygon fill="none" stroke="black" points="209,-915 209,-1016 356,-1016 356,-915 209,-915"/>
 <text text-anchor="middle" x="282.5" y="-1004" font-family="FreeSans" font-size="10.00">DebuggerManager::PluginData</text>
@@ -281,14 +281,14 @@
 </a>
 </g>
 </g>
-<!-- Node10&#45;&gt;Node9 -->
-<g id="edge11" class="edge"><title>Node10&#45;&gt;Node9</title>
+<!-- Node11&#45;&gt;Node10 -->
+<g id="edge11" class="edge"><title>Node11&#45;&gt;Node10</title>
 <path fill="none" stroke="#404040" d="M284.99,-914.55C288.334,-861.743 295.782,-776.256 311.5,-704 316.001,-683.309 322.998,-660.97 329.556,-642.12"/>
 <polygon fill="none" stroke="#404040" points="329.638,-641.89 327.882,-634.896 333.664,-630.586 335.419,-637.58 329.638,-641.89"/>
 <text text-anchor="middle" x="335.5" y="-707" font-family="FreeSans" font-size="10.00"> +elements</text>
 </g>
-<!-- Node11 -->
-<g id="node11" class="node"><title>Node11</title>
+<!-- Node12 -->
+<g id="node11" class="node"><title>Node12</title>
 <polygon fill="none" stroke="#bfbfbf" points="187,-1289.5 187,-1346.5 378,-1346.5 378,-1289.5 187,-1289.5"/>
 <text text-anchor="middle" x="282.5" y="-1334.5" font-family="FreeSans" font-size="10.00">std::vector&lt; cbDebuggerConfiguration * &gt;</text>
 <polyline fill="none" stroke="#bfbfbf" points="187,-1327.5 378,-1327.5 "/>
@@ -296,14 +296,14 @@
 <polyline fill="none" stroke="#bfbfbf" points="187,-1308.5 378,-1308.5 "/>
 <text text-anchor="middle" x="282.5" y="-1296.5" font-family="FreeSans" font-size="10.00"> </text>
 </g>
-<!-- Node11&#45;&gt;Node10 -->
-<g id="edge12" class="edge"><title>Node11&#45;&gt;Node10</title>
+<!-- Node12&#45;&gt;Node11 -->
+<g id="edge12" class="edge"><title>Node12&#45;&gt;Node11</title>
 <path fill="none" stroke="#404040" d="M282.5,-1289.5C282.5,-1233.62 282.5,-1105.62 282.5,-1028.58"/>
 <polygon fill="none" stroke="#404040" points="282.5,-1028.21 278.5,-1022.21 282.5,-1016.21 286.5,-1022.21 282.5,-1028.21"/>
 <text text-anchor="middle" x="322" y="-1219" font-family="FreeSans" font-size="10.00"> &#45;m_configurations</text>
 </g>
-<!-- Node12 -->
-<g id="node12" class="node"><title>Node12</title>
+<!-- Node13 -->
+<g id="node12" class="node"><title>Node13</title>
 <g id="a_node12"><a xlink:href="classcbDebuggerConfiguration" target="_top" xlink:title="{cbDebuggerConfiguration\n|&#45; m_name\l&#45; m_menuId\l|+ cbDebuggerConfiguration()\l+ ~cbDebuggerConfiguration()\l+ Clone()\l+ MakePanel()\l+ SaveChanges()\l+ SetName()\l+ GetName()\l+ GetConfig()\l+ SetConfig()\l+ SetMenuId()\l+ GetMenuId()\l# cbDebuggerConfiguration()\l# operator=()\l}">
 <polygon fill="none" stroke="black" points="210.5,-1444 210.5,-1644 354.5,-1644 354.5,-1444 210.5,-1444"/>
 <text text-anchor="middle" x="282.5" y="-1632" font-family="FreeSans" font-size="10.00">cbDebuggerConfiguration</text>
@@ -327,14 +327,14 @@
 </a>
 </g>
 </g>
-<!-- Node12&#45;&gt;Node11 -->
-<g id="edge13" class="edge"><title>Node12&#45;&gt;Node11</title>
+<!-- Node13&#45;&gt;Node12 -->
+<g id="edge13" class="edge"><title>Node13&#45;&gt;Node12</title>
 <path fill="none" stroke="#404040" d="M282.5,-1443.77C282.5,-1413.82 282.5,-1382.62 282.5,-1358.92"/>
 <polygon fill="none" stroke="#404040" points="282.5,-1358.92 278.5,-1352.92 282.5,-1346.92 286.5,-1352.92 282.5,-1358.92"/>
 <text text-anchor="middle" x="306.5" y="-1412" font-family="FreeSans" font-size="10.00"> +elements</text>
 </g>
-<!-- Node13 -->
-<g id="node13" class="node"><title>Node13</title>
+<!-- Node14 -->
+<g id="node13" class="node"><title>Node14</title>
 <g id="a_node13"><a xlink:href="classConfigManagerWrapper" target="_top" xlink:title="Wrapper class for reading or writing config values, without the need for the full path...">
 <polygon fill="none" stroke="black" points="217,-1697.5 217,-1853.5 348,-1853.5 348,-1697.5 217,-1697.5"/>
 <text text-anchor="middle" x="282.5" y="-1841.5" font-family="FreeSans" font-size="10.00">ConfigManagerWrapper</text>
@@ -354,14 +354,14 @@
 </a>
 </g>
 </g>
-<!-- Node13&#45;&gt;Node12 -->
-<g id="edge14" class="edge"><title>Node13&#45;&gt;Node12</title>
+<!-- Node14&#45;&gt;Node13 -->
+<g id="edge14" class="edge"><title>Node14&#45;&gt;Node13</title>
 <path fill="none" stroke="#404040" d="M282.5,-1697.44C282.5,-1684.25 282.5,-1670.31 282.5,-1656.43"/>
 <polygon fill="none" stroke="#404040" points="282.5,-1656.27 278.5,-1650.27 282.5,-1644.27 286.5,-1650.27 282.5,-1656.27"/>
 <text text-anchor="middle" x="306" y="-1671" font-family="FreeSans" font-size="10.00"> #m_config</text>
 </g>
-<!-- Node14 -->
-<g id="node14" class="node"><title>Node14</title>
+<!-- Node15 -->
+<g id="node14" class="node"><title>Node15</title>
 <g id="a_node14"><a xlink:href="classcbDisassemblyDlg" target="_top" xlink:title="{cbDisassemblyDlg\n||+ ~cbDisassemblyDlg()\l+ GetWindow()\l+ Clear()\l+ AddAssemblerLine()\l+ AddSourceLine()\l+ SetActiveAddress()\l+ CenterLine()\l+ CenterCurrentLine()\l+ HasActiveAddr()\l+ EnableWindow()\l}">
 <polygon fill="none" stroke="black" points="556.5,-518.5 556.5,-674.5 670.5,-674.5 670.5,-518.5 556.5,-518.5"/>
 <text text-anchor="middle" x="613.5" y="-662.5" font-family="FreeSans" font-size="10.00">cbDisassemblyDlg</text>
@@ -381,14 +381,14 @@
 </a>
 </g>
 </g>
-<!-- Node14&#45;&gt;Node1 -->
-<g id="edge16" class="edge"><title>Node14&#45;&gt;Node1</title>
+<!-- Node15&#45;&gt;Node2 -->
+<g id="edge16" class="edge"><title>Node15&#45;&gt;Node2</title>
 <path fill="none" stroke="#404040" d="M647.172,-518.263C654.236,-504.478 662.112,-490.529 670.5,-478 688.845,-450.597 711.541,-422.997 733.447,-398.558"/>
 <polygon fill="none" stroke="#404040" points="733.733,-398.242 734.8,-391.111 741.793,-389.353 740.726,-396.484 733.733,-398.242"/>
 <text text-anchor="middle" x="719.5" y="-481" font-family="FreeSans" font-size="10.00"> &#45;m_disassemblyDialog</text>
 </g>
-<!-- Node15 -->
-<g id="node15" class="node"><title>Node15</title>
+<!-- Node16 -->
+<g id="node15" class="node"><title>Node16</title>
 <g id="a_node15"><a xlink:href="classcbWatchesDlg" target="_top" xlink:title="{cbWatchesDlg\n||+ ~cbWatchesDlg()\l+ GetWindow()\l+ UpdateWatches()\l+ AddWatch()\l+ AddSpecialWatch()\l+ RemoveWatch()\l+ RenameWatch()\l+ RefreshUI()\l}">
 <polygon fill="none" stroke="black" points="688.5,-529.5 688.5,-663.5 796.5,-663.5 796.5,-529.5 688.5,-529.5"/>
 <text text-anchor="middle" x="742.5" y="-651.5" font-family="FreeSans" font-size="10.00">cbWatchesDlg</text>
@@ -406,14 +406,14 @@
 </a>
 </g>
 </g>
-<!-- Node15&#45;&gt;Node1 -->
-<g id="edge17" class="edge"><title>Node15&#45;&gt;Node1</title>
+<!-- Node16&#45;&gt;Node2 -->
+<g id="edge17" class="edge"><title>Node16&#45;&gt;Node2</title>
 <path fill="none" stroke="#404040" d="M759.563,-529.381C764.138,-511.652 769.284,-491.713 774.543,-471.332"/>
 <polygon fill="none" stroke="#404040" points="774.563,-471.256 772.189,-464.446 777.562,-459.636 779.935,-466.446 774.563,-471.256"/>
 <text text-anchor="middle" x="813.5" y="-481" font-family="FreeSans" font-size="10.00"> &#45;m_watchesDialog</text>
 </g>
-<!-- Node16 -->
-<g id="node16" class="node"><title>Node16</title>
+<!-- Node17 -->
+<g id="node16" class="node"><title>Node17</title>
 <g id="a_node16"><a xlink:href="classcbDebugInterfaceFactory" target="_top" xlink:title="{cbDebugInterfaceFactory\n||+ cbDebugInterfaceFactory()\l+ ~cbDebugInterfaceFactory()\l+ CreateBacktrace()\l+ DeleteBacktrace()\l+ CreateBreapoints()\l+ DeleteBreakpoints()\l+ CreateCPURegisters()\l+ DeleteCPURegisters()\land 12 more...\l&#45; cbDebugInterfaceFactory()\l&#45; operator=()\l}">
 <polygon fill="none" stroke="black" points="815,-513 815,-680 960,-680 960,-513 815,-513"/>
 <text text-anchor="middle" x="887.5" y="-668" font-family="FreeSans" font-size="10.00">cbDebugInterfaceFactory</text>
@@ -434,14 +434,14 @@
 </a>
 </g>
 </g>
-<!-- Node16&#45;&gt;Node1 -->
-<g id="edge18" class="edge"><title>Node16&#45;&gt;Node1</title>
+<!-- Node17&#45;&gt;Node2 -->
+<g id="edge18" class="edge"><title>Node17&#45;&gt;Node2</title>
 <path fill="none" stroke="#404040" d="M867.39,-512.944C864.453,-501.203 861.43,-489.287 858.5,-478 857.936,-475.827 857.366,-473.637 856.79,-471.435"/>
 <polygon fill="none" stroke="#404040" points="856.717,-471.157 851.325,-466.37 853.669,-459.551 859.062,-464.338 856.717,-471.157"/>
 <text text-anchor="middle" x="906" y="-481" font-family="FreeSans" font-size="10.00"> &#45;m_interfaceFactory</text>
 </g>
-<!-- Node17 -->
-<g id="node17" class="node"><title>Node17</title>
+<!-- Node18 -->
+<g id="node17" class="node"><title>Node18</title>
 <g id="a_node17"><a xlink:href="classTextCtrlLogger" target="_top" xlink:title="a logger which prints messages to a wxTextCtrl ">
 <polygon fill="none" stroke="black" points="978,-507.5 978,-685.5 1121,-685.5 1121,-507.5 978,-507.5"/>
 <text text-anchor="middle" x="1049.5" y="-673.5" font-family="FreeSans" font-size="10.00">TextCtrlLogger</text>
@@ -463,14 +463,14 @@
 </a>
 </g>
 </g>
-<!-- Node17&#45;&gt;Node1 -->
-<g id="edge19" class="edge"><title>Node17&#45;&gt;Node1</title>
+<!-- Node18&#45;&gt;Node2 -->
+<g id="edge19" class="edge"><title>Node18&#45;&gt;Node2</title>
 <path fill="none" stroke="#404040" d="M978.757,-507.33C970.626,-497.396 962.415,-487.453 954.5,-478 935.552,-455.37 914.864,-431.211 895.345,-408.659"/>
 <polygon fill="none" stroke="#404040" points="895.211,-408.505 888.259,-406.591 887.351,-399.437 894.304,-401.351 895.211,-408.505"/>
 <text text-anchor="middle" x="985.5" y="-481" font-family="FreeSans" font-size="10.00"> &#45;m_logger</text>
 </g>
-<!-- Node18 -->
-<g id="node18" class="node"><title>Node18</title>
+<!-- Node19 -->
+<g id="node18" class="node"><title>Node19</title>
 <g id="a_node18"><a xlink:href="classLogger" target="_top" xlink:title="The base class for all kinds of loggers, see loggers.h for its derived classes. ">
 <polygon fill="none" stroke="black" points="972,-887.5 972,-1043.5 1127,-1043.5 1127,-887.5 972,-887.5"/>
 <text text-anchor="middle" x="1049.5" y="-1031.5" font-family="FreeSans" font-size="10.00">Logger</text>
@@ -490,13 +490,13 @@
 </a>
 </g>
 </g>
-<!-- Node18&#45;&gt;Node17 -->
-<g id="edge20" class="edge"><title>Node18&#45;&gt;Node17</title>
+<!-- Node19&#45;&gt;Node18 -->
+<g id="edge20" class="edge"><title>Node19&#45;&gt;Node18</title>
 <path fill="none" stroke="midnightblue" d="M1049.5,-876.905C1049.5,-819.11 1049.5,-743.659 1049.5,-685.734"/>
 <polygon fill="none" stroke="midnightblue" points="1046,-877.117 1049.5,-887.117 1053,-877.117 1046,-877.117"/>
 </g>
-<!-- Node19 -->
-<g id="node19" class="node"><title>Node19</title>
+<!-- Node20 -->
+<g id="node19" class="node"><title>Node20</title>
 <g id="a_node19"><a xlink:href="classcbCPURegistersDlg" target="_top" xlink:title="{cbCPURegistersDlg\n||+ ~cbCPURegistersDlg()\l+ GetWindow()\l+ Clear()\l+ SetRegisterValue()\l+ EnableWindow()\l}">
 <polygon fill="none" stroke="black" points="1139,-546 1139,-647 1260,-647 1260,-546 1139,-546"/>
 <text text-anchor="middle" x="1199.5" y="-635" font-family="FreeSans" font-size="10.00">cbCPURegistersDlg</text>
@@ -511,14 +511,14 @@
 </a>
 </g>
 </g>
-<!-- Node19&#45;&gt;Node1 -->
-<g id="edge21" class="edge"><title>Node19&#45;&gt;Node1</title>
+<!-- Node20&#45;&gt;Node2 -->
+<g id="edge21" class="edge"><title>Node20&#45;&gt;Node2</title>
 <path fill="none" stroke="#404040" d="M1165.33,-545.915C1154.74,-532.424 1142.43,-518.403 1129.5,-507 1058.78,-444.631 964.953,-390.878 898.138,-356.525"/>
 <polygon fill="none" stroke="#404040" points="897.931,-356.419 890.768,-357.258 887.239,-350.97 894.401,-350.131 897.931,-356.419"/>
 <text text-anchor="middle" x="1158.5" y="-481" font-family="FreeSans" font-size="10.00"> &#45;m_cpuRegistersDialog</text>
 </g>
-<!-- Node20 -->
-<g id="node20" class="node"><title>Node20</title>
+<!-- Node21 -->
+<g id="node20" class="node"><title>Node21</title>
 <g id="a_node20"><a xlink:href="classcbBreakpointsDlg" target="_top" xlink:title="{cbBreakpointsDlg\n||+ ~cbBreakpointsDlg()\l+ GetWindow()\l+ AddBreakpoint()\l+ RemoveBreakpoint()\l+ RemoveAllBreakpoints()\l+ EditBreakpoint()\l+ EnableBreakpoint()\l+ Reload()\l}">
 <polygon fill="none" stroke="black" points="1278.5,-529.5 1278.5,-663.5 1406.5,-663.5 1406.5,-529.5 1278.5,-529.5"/>
 <text text-anchor="middle" x="1342.5" y="-651.5" font-family="FreeSans" font-size="10.00">cbBreakpointsDlg</text>
@@ -536,14 +536,14 @@
 </a>
 </g>
 </g>
-<!-- Node20&#45;&gt;Node1 -->
-<g id="edge22" class="edge"><title>Node20&#45;&gt;Node1</title>
+<!-- Node21&#45;&gt;Node2 -->
+<g id="edge22" class="edge"><title>Node21&#45;&gt;Node2</title>
 <path fill="none" stroke="#404040" d="M1292.27,-529.397C1284.76,-521.376 1276.76,-513.673 1268.5,-507 1156.83,-416.729 996.213,-362.899 898.98,-336.557"/>
 <polygon fill="none" stroke="#404040" points="898.748,-336.495 891.92,-338.814 887.153,-333.403 893.981,-331.084 898.748,-336.495"/>
 <text text-anchor="middle" x="1286" y="-481" font-family="FreeSans" font-size="10.00"> &#45;m_breakPointsDialog</text>
 </g>
-<!-- Node21 -->
-<g id="node21" class="node"><title>Node21</title>
+<!-- Node22 -->
+<g id="node21" class="node"><title>Node22</title>
 <g id="a_node21"><a xlink:href="classcbExamineMemoryDlg" target="_top" xlink:title="{cbExamineMemoryDlg\n||+ ~cbExamineMemoryDlg()\l+ GetWindow()\l+ Begin()\l+ End()\l+ Clear()\l+ GetBaseAddress()\l+ GetBytes()\l+ AddError()\l+ AddHexByte()\l+ EnableWindow()\l}">
 <polygon fill="none" stroke="black" points="1424.5,-518.5 1424.5,-674.5 1556.5,-674.5 1556.5,-518.5 1424.5,-518.5"/>
 <text text-anchor="middle" x="1490.5" y="-662.5" font-family="FreeSans" font-size="10.00">cbExamineMemoryDlg</text>
@@ -563,14 +563,14 @@
 </a>
 </g>
 </g>
-<!-- Node21&#45;&gt;Node1 -->
-<g id="edge23" class="edge"><title>Node21&#45;&gt;Node1</title>
+<!-- Node22&#45;&gt;Node2 -->
+<g id="edge23" class="edge"><title>Node22&#45;&gt;Node2</title>
 <path fill="none" stroke="#404040" d="M1429.89,-518.5C1425.25,-514.361 1420.44,-510.481 1415.5,-507 1385.61,-485.932 1373.1,-489.835 1338.5,-478 1184.77,-425.417 1003.12,-371.164 899.101,-340.84"/>
 <polygon fill="none" stroke="#404040" points="898.948,-340.796 892.07,-342.96 887.427,-337.442 894.305,-335.278 898.948,-340.796"/>
 <text text-anchor="middle" x="1436" y="-481" font-family="FreeSans" font-size="10.00"> &#45;m_examineMemoryDialog</text>
 </g>
-<!-- Node22 -->
-<g id="node22" class="node"><title>Node22</title>
+<!-- Node23 -->
+<g id="node22" class="node"><title>Node23</title>
 <g id="a_node22"><a xlink:href="classcbBacktraceDlg" target="_top" xlink:title="{cbBacktraceDlg\n||+ ~cbBacktraceDlg()\l+ GetWindow()\l+ Reload()\l+ EnableWindow()\l}">
 <polygon fill="none" stroke="black" points="1576,-551.5 1576,-641.5 1681,-641.5 1681,-551.5 1576,-551.5"/>
 <text text-anchor="middle" x="1628.5" y="-629.5" font-family="FreeSans" font-size="10.00">cbBacktraceDlg</text>
@@ -584,8 +584,8 @@
 </a>
 </g>
 </g>
-<!-- Node22&#45;&gt;Node1 -->
-<g id="edge24" class="edge"><title>Node22&#45;&gt;Node1</title>
+<!-- Node23&#45;&gt;Node2 -->
+<g id="edge24" class="edge"><title>Node23&#45;&gt;Node2</title>
 <path fill="none" stroke="#404040" d="M1603.77,-551.09C1593.49,-535.609 1580.45,-519.101 1565.5,-507 1540.28,-486.589 1529.3,-488.212 1498.5,-478 1287.08,-407.896 1029.37,-355.651 898.896,-331.442"/>
 <polygon fill="none" stroke="#404040" points="898.854,-331.434 892.228,-334.279 887.053,-329.257 893.679,-326.412 898.854,-331.434"/>
 <text text-anchor="middle" x="1579" y="-481" font-family="FreeSans" font-size="10.00"> &#45;m_backtraceDialog</text>

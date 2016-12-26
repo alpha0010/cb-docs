@@ -8,8 +8,8 @@
  viewBox="0.00 0.00 193.50 490.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 486)">
 <title>DisassemblyDlg</title>
-<!-- Node1 -->
-<g id="node1" class="node"><title>Node1</title>
+<!-- Node0 -->
+<g id="node1" class="node"><title>Node0</title>
 <polygon fill="#bfbfbf" stroke="black" points="5.5,-0.5 5.5,-288.5 149.5,-288.5 149.5,-0.5 5.5,-0.5"/>
 <text text-anchor="middle" x="77.5" y="-276.5" font-family="FreeSans" font-size="10.00">DisassemblyDlg</text>
 <polyline fill="none" stroke="black" points="5.5,-269.5 149.5,-269.5 "/>
@@ -38,8 +38,8 @@
 <text text-anchor="start" x="13.5" y="-18.5" font-family="FreeSans" font-size="10.00"># OnAdjustLine()</text>
 <text text-anchor="start" x="13.5" y="-7.5" font-family="FreeSans" font-size="10.00">&#45; DECLARE_EVENT_TABLE()</text>
 </g>
-<!-- Node2 -->
-<g id="node2" class="node"><title>Node2</title>
+<!-- Node1 -->
+<g id="node2" class="node"><title>Node1</title>
 <polygon fill="none" stroke="#bfbfbf" points="0,-375 0,-432 53,-432 53,-375 0,-375"/>
 <text text-anchor="middle" x="26.5" y="-420" font-family="FreeSans" font-size="10.00">wxPanel</text>
 <polyline fill="none" stroke="#bfbfbf" points="0,-413 53,-413 "/>
@@ -47,13 +47,13 @@
 <polyline fill="none" stroke="#bfbfbf" points="0,-394 53,-394 "/>
 <text text-anchor="middle" x="26.5" y="-382" font-family="FreeSans" font-size="10.00"> </text>
 </g>
-<!-- Node2&#45;&gt;Node1 -->
-<g id="edge1" class="edge"><title>Node2&#45;&gt;Node1</title>
+<!-- Node1&#45;&gt;Node0 -->
+<g id="edge1" class="edge"><title>Node1&#45;&gt;Node0</title>
 <path fill="none" stroke="midnightblue" d="M33.9351,-365.033C38.0663,-344.215 43.498,-316.844 49.1188,-288.519"/>
 <polygon fill="none" stroke="midnightblue" points="30.4714,-364.506 31.9579,-374.996 37.3375,-365.869 30.4714,-364.506"/>
 </g>
-<!-- Node3 -->
-<g id="node3" class="node"><title>Node3</title>
+<!-- Node2 -->
+<g id="node3" class="node"><title>Node2</title>
 <g id="a_node3"><a xlink:href="classcbDisassemblyDlg" target="_top" xlink:title="{cbDisassemblyDlg\n||+ ~cbDisassemblyDlg()\l+ GetWindow()\l+ Clear()\l+ AddAssemblerLine()\l+ AddSourceLine()\l+ SetActiveAddress()\l+ CenterLine()\l+ CenterCurrentLine()\l+ HasActiveAddr()\l+ EnableWindow()\l}">
 <polygon fill="none" stroke="black" points="71.5,-325.5 71.5,-481.5 185.5,-481.5 185.5,-325.5 71.5,-325.5"/>
 <text text-anchor="middle" x="128.5" y="-469.5" font-family="FreeSans" font-size="10.00">cbDisassemblyDlg</text>
@@ -73,8 +73,8 @@
 </a>
 </g>
 </g>
-<!-- Node3&#45;&gt;Node1 -->
-<g id="edge2" class="edge"><title>Node3&#45;&gt;Node1</title>
+<!-- Node2&#45;&gt;Node0 -->
+<g id="edge2" class="edge"><title>Node2&#45;&gt;Node0</title>
 <path fill="none" stroke="midnightblue" d="M111.213,-315.386C109.498,-306.744 107.727,-297.823 105.938,-288.803"/>
 <polygon fill="none" stroke="midnightblue" points="107.819,-316.264 113.198,-325.392 114.685,-314.901 107.819,-316.264"/>
 </g>

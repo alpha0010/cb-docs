@@ -8,8 +8,8 @@
  viewBox="0.00 0.00 224.00 320.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 316)">
 <title>SystemHeadersThread</title>
-<!-- Node1 -->
-<g id="node1" class="node"><title>Node1</title>
+<!-- Node2 -->
+<g id="node1" class="node"><title>Node2</title>
 <polygon fill="#bfbfbf" stroke="black" points="0,-0.5 0,-101.5 146,-101.5 146,-0.5 0,-0.5"/>
 <text text-anchor="middle" x="73" y="-89.5" font-family="FreeSans" font-size="10.00">SystemHeadersThread</text>
 <polyline fill="none" stroke="black" points="0,-82.5 146,-82.5 "/>
@@ -21,8 +21,8 @@
 <text text-anchor="start" x="8" y="-18.5" font-family="FreeSans" font-size="10.00">+ ~SystemHeadersThread()</text>
 <text text-anchor="start" x="8" y="-7.5" font-family="FreeSans" font-size="10.00">+ Entry()</text>
 </g>
-<!-- Node2 -->
-<g id="node2" class="node"><title>Node2</title>
+<!-- Node3 -->
+<g id="node2" class="node"><title>Node3</title>
 <polygon fill="none" stroke="#bfbfbf" points="13,-149.5 13,-206.5 71,-206.5 71,-149.5 13,-149.5"/>
 <text text-anchor="middle" x="42" y="-194.5" font-family="FreeSans" font-size="10.00">wxThread</text>
 <polyline fill="none" stroke="#bfbfbf" points="13,-187.5 71,-187.5 "/>
@@ -30,13 +30,13 @@
 <polyline fill="none" stroke="#bfbfbf" points="13,-168.5 71,-168.5 "/>
 <text text-anchor="middle" x="42" y="-156.5" font-family="FreeSans" font-size="10.00"> </text>
 </g>
-<!-- Node2&#45;&gt;Node1 -->
-<g id="edge1" class="edge"><title>Node2&#45;&gt;Node1</title>
+<!-- Node3&#45;&gt;Node2 -->
+<g id="edge1" class="edge"><title>Node3&#45;&gt;Node2</title>
 <path fill="none" stroke="midnightblue" d="M51.3482,-139.306C54.2742,-127.507 57.5494,-114.301 60.6492,-101.802"/>
 <polygon fill="none" stroke="midnightblue" points="47.89,-138.71 48.8799,-149.258 54.6842,-140.395 47.89,-138.71"/>
 </g>
-<!-- Node3 -->
-<g id="node3" class="node"><title>Node3</title>
+<!-- Node4 -->
+<g id="node3" class="node"><title>Node4</title>
 <g id="a_node3"><a xlink:title="STL class. ">
 <polygon fill="none" stroke="#bfbfbf" points="89.5,-149.5 89.5,-206.5 176.5,-206.5 176.5,-149.5 89.5,-149.5"/>
 <text text-anchor="middle" x="133" y="-194.5" font-family="FreeSans" font-size="10.00">std::map&lt; K, T &gt;</text>
@@ -47,14 +47,14 @@
 </a>
 </g>
 </g>
-<!-- Node3&#45;&gt;Node1 -->
-<g id="edge2" class="edge"><title>Node3&#45;&gt;Node1</title>
+<!-- Node4&#45;&gt;Node2 -->
+<g id="edge2" class="edge"><title>Node4&#45;&gt;Node2</title>
 <path fill="none" stroke="#404040" d="M119.684,-149.258C114.504,-138.466 108.35,-125.647 102.239,-112.915"/>
 <polygon fill="none" stroke="#404040" points="102.098,-112.62 95.8952,-108.942 96.9049,-101.802 103.107,-105.48 102.098,-112.62"/>
 <text text-anchor="middle" x="163" y="-123" font-family="FreeSans" font-size="10.00"> &#45;m_SystemHeadersMap</text>
 </g>
-<!-- Node4 -->
-<g id="node4" class="node"><title>Node4</title>
+<!-- Node5 -->
+<g id="node4" class="node"><title>Node5</title>
 <polygon fill="none" stroke="#bfbfbf" points="92.5,-254.5 92.5,-311.5 121.5,-311.5 121.5,-254.5 92.5,-254.5"/>
 <text text-anchor="middle" x="107" y="-299.5" font-family="FreeSans" font-size="10.00">K</text>
 <polyline fill="none" stroke="#bfbfbf" points="92.5,-292.5 121.5,-292.5 "/>
@@ -62,14 +62,14 @@
 <polyline fill="none" stroke="#bfbfbf" points="92.5,-273.5 121.5,-273.5 "/>
 <text text-anchor="middle" x="107" y="-261.5" font-family="FreeSans" font-size="10.00"> </text>
 </g>
-<!-- Node4&#45;&gt;Node3 -->
-<g id="edge3" class="edge"><title>Node4&#45;&gt;Node3</title>
+<!-- Node5&#45;&gt;Node4 -->
+<g id="edge3" class="edge"><title>Node5&#45;&gt;Node4</title>
 <path fill="none" stroke="#404040" d="M107.526,-254.421C108.203,-244.973 109.517,-234.413 112,-225 112.605,-222.708 113.315,-220.388 114.103,-218.071"/>
 <polygon fill="none" stroke="#404040" points="114.192,-217.84 112.643,-210.798 118.547,-206.659 120.097,-213.701 114.192,-217.84"/>
 <text text-anchor="middle" x="126" y="-228" font-family="FreeSans" font-size="10.00"> +keys</text>
 </g>
-<!-- Node5 -->
-<g id="node5" class="node"><title>Node5</title>
+<!-- Node6 -->
+<g id="node5" class="node"><title>Node6</title>
 <polygon fill="none" stroke="#bfbfbf" points="143.5,-254.5 143.5,-311.5 172.5,-311.5 172.5,-254.5 143.5,-254.5"/>
 <text text-anchor="middle" x="158" y="-299.5" font-family="FreeSans" font-size="10.00">T</text>
 <polyline fill="none" stroke="#bfbfbf" points="143.5,-292.5 172.5,-292.5 "/>
@@ -77,8 +77,8 @@
 <polyline fill="none" stroke="#bfbfbf" points="143.5,-273.5 172.5,-273.5 "/>
 <text text-anchor="middle" x="158" y="-261.5" font-family="FreeSans" font-size="10.00"> </text>
 </g>
-<!-- Node5&#45;&gt;Node3 -->
-<g id="edge4" class="edge"><title>Node5&#45;&gt;Node3</title>
+<!-- Node6&#45;&gt;Node4 -->
+<g id="edge4" class="edge"><title>Node6&#45;&gt;Node4</title>
 <path fill="none" stroke="#404040" d="M151.3,-254.398C148.638,-243.43 145.525,-230.603 142.629,-218.672"/>
 <polygon fill="none" stroke="#404040" points="142.549,-218.34 137.246,-213.453 139.718,-206.678 145.02,-211.566 142.549,-218.34"/>
 <text text-anchor="middle" x="170" y="-228" font-family="FreeSans" font-size="10.00"> +elements</text>

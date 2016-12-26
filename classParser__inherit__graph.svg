@@ -8,8 +8,8 @@
  viewBox="0.00 0.00 145.00 815.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 811)">
 <title>Parser</title>
-<!-- Node1 -->
-<g id="node1" class="node"><title>Node1</title>
+<!-- Node0 -->
+<g id="node1" class="node"><title>Node0</title>
 <polygon fill="#bfbfbf" stroke="black" points="3,-0.5 3,-453.5 134,-453.5 134,-0.5 3,-0.5"/>
 <text text-anchor="middle" x="68.5" y="-441.5" font-family="FreeSans" font-size="10.00">Parser</text>
 <polyline fill="none" stroke="black" points="3,-434.5 134,-434.5 "/>
@@ -53,8 +53,8 @@
 <text text-anchor="start" x="11" y="-18.5" font-family="FreeSans" font-size="10.00">&#45; RemoveParserThread()</text>
 <text text-anchor="start" x="11" y="-7.5" font-family="FreeSans" font-size="10.00">&#45; AbortParserThreads()</text>
 </g>
-<!-- Node2 -->
-<g id="node2" class="node"><title>Node2</title>
+<!-- Node1 -->
+<g id="node2" class="node"><title>Node1</title>
 <g id="a_node2"><a xlink:href="classParserBase" target="_top" xlink:title="{ParserBase\n|# m_TokenTree\l# m_TempTokenTree\l# m_Options\l# m_BrowserOptions\l&#45; m_GlobalIncludes\l&#45; m_IncludeDirs\l|+ ParserBase()\l+ ~ParserBase()\l+ AddBatchParse()\l+ AddParse()\l+ AddPredefinedMacros()\l+ UpdateParsingProject()\l+ ParseBuffer()\l+ ParseBufferForFunctions()\land 20 more...\l&#45; ParseFile()\l&#45; FindFirstFileInIncludeDirs()\l}">
 <polygon fill="none" stroke="black" points="0,-490.5 0,-712.5 137,-712.5 137,-490.5 0,-490.5"/>
 <text text-anchor="middle" x="68.5" y="-700.5" font-family="FreeSans" font-size="10.00">ParserBase</text>
@@ -80,13 +80,13 @@
 </a>
 </g>
 </g>
-<!-- Node2&#45;&gt;Node1 -->
-<g id="edge1" class="edge"><title>Node2&#45;&gt;Node1</title>
+<!-- Node1&#45;&gt;Node0 -->
+<g id="edge1" class="edge"><title>Node1&#45;&gt;Node0</title>
 <path fill="none" stroke="midnightblue" d="M68.5,-480.183C68.5,-471.517 68.5,-462.633 68.5,-453.62"/>
 <polygon fill="none" stroke="midnightblue" points="65.0001,-480.25 68.5,-490.25 72.0001,-480.25 65.0001,-480.25"/>
 </g>
-<!-- Node3 -->
-<g id="node3" class="node"><title>Node3</title>
+<!-- Node2 -->
+<g id="node3" class="node"><title>Node2</title>
 <polygon fill="none" stroke="#bfbfbf" points="31.5,-749.5 31.5,-806.5 105.5,-806.5 105.5,-749.5 31.5,-749.5"/>
 <text text-anchor="middle" x="68.5" y="-794.5" font-family="FreeSans" font-size="10.00">wxEvtHandler</text>
 <polyline fill="none" stroke="#bfbfbf" points="31.5,-787.5 105.5,-787.5 "/>
@@ -94,8 +94,8 @@
 <polyline fill="none" stroke="#bfbfbf" points="31.5,-768.5 105.5,-768.5 "/>
 <text text-anchor="middle" x="68.5" y="-756.5" font-family="FreeSans" font-size="10.00"> </text>
 </g>
-<!-- Node3&#45;&gt;Node2 -->
-<g id="edge2" class="edge"><title>Node3&#45;&gt;Node2</title>
+<!-- Node2&#45;&gt;Node1 -->
+<g id="edge2" class="edge"><title>Node2&#45;&gt;Node1</title>
 <path fill="none" stroke="midnightblue" d="M68.5,-739.203C68.5,-731.081 68.5,-722.104 68.5,-712.748"/>
 <polygon fill="none" stroke="midnightblue" points="65.0001,-739.35 68.5,-749.35 72.0001,-739.35 65.0001,-739.35"/>
 </g>

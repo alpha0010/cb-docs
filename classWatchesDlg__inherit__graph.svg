@@ -8,8 +8,8 @@
  viewBox="0.00 0.00 187.50 435.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 431)">
 <title>WatchesDlg</title>
-<!-- Node1 -->
-<g id="node1" class="node"><title>Node1</title>
+<!-- Node0 -->
+<g id="node1" class="node"><title>Node0</title>
 <polygon fill="#bfbfbf" stroke="black" points="5,-0.5 5,-255.5 146,-255.5 146,-0.5 5,-0.5"/>
 <text text-anchor="middle" x="75.5" y="-243.5" font-family="FreeSans" font-size="10.00">WatchesDlg</text>
 <polyline fill="none" stroke="black" points="5,-236.5 146,-236.5 "/>
@@ -35,8 +35,8 @@
 <text text-anchor="start" x="13" y="-18.5" font-family="FreeSans" font-size="10.00">&#45; OnPropertyRightClick()</text>
 <text text-anchor="start" x="13" y="-7.5" font-family="FreeSans" font-size="10.00">and 10 more...</text>
 </g>
-<!-- Node2 -->
-<g id="node2" class="node"><title>Node2</title>
+<!-- Node1 -->
+<g id="node2" class="node"><title>Node1</title>
 <polygon fill="none" stroke="#bfbfbf" points="0,-331 0,-388 53,-388 53,-331 0,-331"/>
 <text text-anchor="middle" x="26.5" y="-376" font-family="FreeSans" font-size="10.00">wxPanel</text>
 <polyline fill="none" stroke="#bfbfbf" points="0,-369 53,-369 "/>
@@ -44,13 +44,13 @@
 <polyline fill="none" stroke="#bfbfbf" points="0,-350 53,-350 "/>
 <text text-anchor="middle" x="26.5" y="-338" font-family="FreeSans" font-size="10.00"> </text>
 </g>
-<!-- Node2&#45;&gt;Node1 -->
-<g id="edge1" class="edge"><title>Node2&#45;&gt;Node1</title>
+<!-- Node1&#45;&gt;Node0 -->
+<g id="edge1" class="edge"><title>Node1&#45;&gt;Node0</title>
 <path fill="none" stroke="midnightblue" d="M34.5237,-320.92C38.4264,-302.641 43.3687,-279.492 48.4589,-255.652"/>
 <polygon fill="none" stroke="midnightblue" points="31.0758,-320.307 32.4105,-330.817 37.9215,-321.768 31.0758,-320.307"/>
 </g>
-<!-- Node3 -->
-<g id="node3" class="node"><title>Node3</title>
+<!-- Node2 -->
+<g id="node3" class="node"><title>Node2</title>
 <g id="a_node3"><a xlink:href="classcbWatchesDlg" target="_top" xlink:title="{cbWatchesDlg\n||+ ~cbWatchesDlg()\l+ GetWindow()\l+ UpdateWatches()\l+ AddWatch()\l+ AddSpecialWatch()\l+ RemoveWatch()\l+ RenameWatch()\l+ RefreshUI()\l}">
 <polygon fill="none" stroke="black" points="71.5,-292.5 71.5,-426.5 179.5,-426.5 179.5,-292.5 71.5,-292.5"/>
 <text text-anchor="middle" x="125.5" y="-414.5" font-family="FreeSans" font-size="10.00">cbWatchesDlg</text>
@@ -68,8 +68,8 @@
 </a>
 </g>
 </g>
-<!-- Node3&#45;&gt;Node1 -->
-<g id="edge2" class="edge"><title>Node3&#45;&gt;Node1</title>
+<!-- Node2&#45;&gt;Node0 -->
+<g id="edge2" class="edge"><title>Node2&#45;&gt;Node0</title>
 <path fill="none" stroke="midnightblue" d="M108.923,-282.414C107.034,-273.741 105.072,-264.736 103.088,-255.629"/>
 <polygon fill="none" stroke="midnightblue" points="105.556,-283.401 111.105,-292.427 112.396,-281.911 105.556,-283.401"/>
 </g>

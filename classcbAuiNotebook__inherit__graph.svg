@@ -8,8 +8,8 @@
  viewBox="0.00 0.00 160.00 859.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 855)">
 <title>cbAuiNotebook</title>
-<!-- Node1 -->
-<g id="node1" class="node"><title>Node1</title>
+<!-- Node0 -->
+<g id="node1" class="node"><title>Node0</title>
 <polygon fill="#bfbfbf" stroke="black" points="0,-303.5 0,-756.5 152,-756.5 152,-303.5 0,-303.5"/>
 <text text-anchor="middle" x="76" y="-744.5" font-family="FreeSans" font-size="10.00">cbAuiNotebook</text>
 <polyline fill="none" stroke="black" points="0,-737.5 152,-737.5 "/>
@@ -53,8 +53,8 @@
 <text text-anchor="start" x="8" y="-321.5" font-family="FreeSans" font-size="10.00"># OnResize()</text>
 <text text-anchor="start" x="8" y="-310.5" font-family="FreeSans" font-size="10.00">and 9 more...</text>
 </g>
-<!-- Node3 -->
-<g id="node3" class="node"><title>Node3</title>
+<!-- Node2 -->
+<g id="node3" class="node"><title>Node2</title>
 <g id="a_node3"><a xlink:href="classInfoPane" target="_top" xlink:title="{InfoPane\n|&#45; m_DefaultBitmap\l&#45; m_Pages\l|+ InfoPane()\l+ ~InfoPane()\l+ Show()\l+ Show()\l+ Hide()\l+ ShowNonLogger()\l+ HideNonLogger()\l+ GetPageIndexByWindow()\land 11 more...\l&#45; ReorderTabs()\l&#45; WX_DEFINE_ARRAY()\l&#45; Toggle()\l&#45; Hide()\l&#45; OnMenu()\l&#45; OnCopy()\l&#45; OnWrapMode()\l&#45; OnClear()\land 7 more...\l&#45; CompareIndexes()\l}">
 <polygon fill="none" stroke="black" points="7.5,-0.5 7.5,-266.5 144.5,-266.5 144.5,-0.5 7.5,-0.5"/>
 <text text-anchor="middle" x="76" y="-254.5" font-family="FreeSans" font-size="10.00">InfoPane</text>
@@ -84,13 +84,13 @@
 </a>
 </g>
 </g>
-<!-- Node1&#45;&gt;Node3 -->
-<g id="edge2" class="edge"><title>Node1&#45;&gt;Node3</title>
+<!-- Node0&#45;&gt;Node2 -->
+<g id="edge2" class="edge"><title>Node0&#45;&gt;Node2</title>
 <path fill="none" stroke="midnightblue" d="M76,-293.092C76,-284.146 76,-275.311 76,-266.664"/>
 <polygon fill="none" stroke="midnightblue" points="72.5001,-293.234 76,-303.234 79.5001,-293.234 72.5001,-293.234"/>
 </g>
-<!-- Node2 -->
-<g id="node2" class="node"><title>Node2</title>
+<!-- Node1 -->
+<g id="node2" class="node"><title>Node1</title>
 <polygon fill="none" stroke="#bfbfbf" points="34.5,-793.5 34.5,-850.5 117.5,-850.5 117.5,-793.5 34.5,-793.5"/>
 <text text-anchor="middle" x="76" y="-838.5" font-family="FreeSans" font-size="10.00">wxAuiNotebook</text>
 <polyline fill="none" stroke="#bfbfbf" points="34.5,-831.5 117.5,-831.5 "/>
@@ -98,8 +98,8 @@
 <polyline fill="none" stroke="#bfbfbf" points="34.5,-812.5 117.5,-812.5 "/>
 <text text-anchor="middle" x="76" y="-800.5" font-family="FreeSans" font-size="10.00"> </text>
 </g>
-<!-- Node2&#45;&gt;Node1 -->
-<g id="edge1" class="edge"><title>Node2&#45;&gt;Node1</title>
+<!-- Node1&#45;&gt;Node0 -->
+<g id="edge1" class="edge"><title>Node1&#45;&gt;Node0</title>
 <path fill="none" stroke="midnightblue" d="M76,-783.257C76,-775.316 76,-766.401 76,-756.791"/>
 <polygon fill="none" stroke="midnightblue" points="72.5001,-783.456 76,-793.456 79.5001,-783.456 72.5001,-783.456"/>
 </g>

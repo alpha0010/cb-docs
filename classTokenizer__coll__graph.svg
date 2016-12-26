@@ -53,36 +53,36 @@
 </g>
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
-<polygon fill="none" stroke="#bfbfbf" points="56,-545.5 56,-602.5 148,-602.5 148,-545.5 56,-545.5"/>
-<text text-anchor="middle" x="102" y="-590.5" font-family="FreeSans" font-size="10.00">std::stack&lt; bool &gt;</text>
-<polyline fill="none" stroke="#bfbfbf" points="56,-583.5 148,-583.5 "/>
-<text text-anchor="start" x="64" y="-571.5" font-family="FreeSans" font-size="10.00">+ elements</text>
-<polyline fill="none" stroke="#bfbfbf" points="56,-564.5 148,-564.5 "/>
-<text text-anchor="middle" x="102" y="-552.5" font-family="FreeSans" font-size="10.00"> </text>
+<polygon fill="none" stroke="#bfbfbf" points="55,-545.5 55,-602.5 147,-602.5 147,-545.5 55,-545.5"/>
+<text text-anchor="middle" x="101" y="-590.5" font-family="FreeSans" font-size="10.00">std::stack&lt; bool &gt;</text>
+<polyline fill="none" stroke="#bfbfbf" points="55,-583.5 147,-583.5 "/>
+<text text-anchor="start" x="63" y="-571.5" font-family="FreeSans" font-size="10.00">+ elements</text>
+<polyline fill="none" stroke="#bfbfbf" points="55,-564.5 147,-564.5 "/>
+<text text-anchor="middle" x="101" y="-552.5" font-family="FreeSans" font-size="10.00"> </text>
 </g>
 <!-- Node2&#45;&gt;Node1 -->
 <g id="edge1" class="edge"><title>Node2&#45;&gt;Node1</title>
-<path fill="none" stroke="#404040" d="M108.846,-545.411C115.923,-519.659 128.415,-480.7 146,-450 173.246,-402.435 210.504,-355.092 245.157,-315.629"/>
-<polygon fill="none" stroke="#404040" points="245.473,-315.273 246.461,-308.13 253.434,-306.294 252.446,-313.437 245.473,-315.273"/>
+<path fill="none" stroke="#404040" d="M108.113,-545.419C115.429,-519.672 128.258,-480.716 146,-450 173.356,-402.639 210.541,-355.42 245.106,-315.997"/>
+<polygon fill="none" stroke="#404040" points="245.409,-315.655 246.39,-308.511 253.362,-306.67 252.381,-313.814 245.409,-315.655"/>
 <text text-anchor="middle" x="192" y="-453" font-family="FreeSans" font-size="10.00"> &#45;m_ExpressionResult</text>
 </g>
 <!-- Node3 -->
 <g id="node3" class="node"><title>Node3</title>
 <g id="a_node3"><a xlink:href="tokenizer_8h#structTokenizerOptions" target="_top" xlink:title="Whether we need to handle C&#45;preprocessor directives. ">
-<polygon fill="none" stroke="black" points="166.5,-540 166.5,-608 277.5,-608 277.5,-540 166.5,-540"/>
-<text text-anchor="middle" x="222" y="-596" font-family="FreeSans" font-size="10.00">TokenizerOptions</text>
-<polyline fill="none" stroke="black" points="166.5,-589 277.5,-589 "/>
-<text text-anchor="start" x="174.5" y="-577" font-family="FreeSans" font-size="10.00">+ wantPreprocessor</text>
-<text text-anchor="start" x="174.5" y="-566" font-family="FreeSans" font-size="10.00">+ storeDocumentation</text>
-<polyline fill="none" stroke="black" points="166.5,-559 277.5,-559 "/>
-<text text-anchor="middle" x="222" y="-547" font-family="FreeSans" font-size="10.00"> </text>
+<polygon fill="none" stroke="black" points="165.5,-540 165.5,-608 276.5,-608 276.5,-540 165.5,-540"/>
+<text text-anchor="middle" x="221" y="-596" font-family="FreeSans" font-size="10.00">TokenizerOptions</text>
+<polyline fill="none" stroke="black" points="165.5,-589 276.5,-589 "/>
+<text text-anchor="start" x="173.5" y="-577" font-family="FreeSans" font-size="10.00">+ wantPreprocessor</text>
+<text text-anchor="start" x="173.5" y="-566" font-family="FreeSans" font-size="10.00">+ storeDocumentation</text>
+<polyline fill="none" stroke="black" points="165.5,-559 276.5,-559 "/>
+<text text-anchor="middle" x="221" y="-547" font-family="FreeSans" font-size="10.00"> </text>
 </a>
 </g>
 </g>
 <!-- Node3&#45;&gt;Node1 -->
 <g id="edge2" class="edge"><title>Node3&#45;&gt;Node1</title>
-<path fill="none" stroke="#404040" d="M225.928,-539.92C229.375,-514.899 235.226,-479.867 244,-450 245.769,-443.98 247.643,-437.904 249.605,-431.798"/>
-<polygon fill="none" stroke="#404040" points="249.729,-431.421 247.808,-424.471 253.484,-420.024 255.406,-426.974 249.729,-431.421"/>
+<path fill="none" stroke="#404040" d="M225.262,-539.925C228.947,-514.906 235.095,-479.876 244,-450 245.773,-444.051 247.647,-438.046 249.606,-432.011"/>
+<polygon fill="none" stroke="#404040" points="249.688,-431.761 247.784,-424.806 253.471,-420.373 255.376,-427.328 249.688,-431.761"/>
 <text text-anchor="middle" x="291" y="-453" font-family="FreeSans" font-size="10.00"> &#45;m_TokenizerOptions</text>
 </g>
 <!-- Node4 -->
@@ -598,9 +598,9 @@
 </g>
 <!-- Node26&#45;&gt;Node25 -->
 <g id="edge30" class="edge"><title>Node26&#45;&gt;Node25</title>
-<path fill="none" stroke="#404040" d="M246.281,-721.738C258.797,-706.043 273.578,-686.873 286,-669 297.115,-653.007 308.539,-634.909 318.278,-618.893"/>
-<polygon fill="none" stroke="#404040" points="318.534,-618.468 318.204,-611.265 324.727,-608.189 325.057,-615.393 318.534,-618.468"/>
-<text text-anchor="middle" x="297" y="-690" font-family="FreeSans" font-size="10.00"> +elements</text>
+<path fill="none" stroke="#404040" d="M245.766,-721.644C258.071,-705.93 272.645,-686.771 285,-669 296.278,-652.778 307.987,-634.471 317.973,-618.351"/>
+<polygon fill="none" stroke="#404040" points="317.979,-618.34 317.714,-611.134 324.264,-608.118 324.529,-615.324 317.979,-618.34"/>
+<text text-anchor="middle" x="296" y="-690" font-family="FreeSans" font-size="10.00"> +elements</text>
 </g>
 </g>
 </svg>

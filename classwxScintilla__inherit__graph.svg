@@ -8,8 +8,8 @@
  viewBox="0.00 0.00 160.00 859.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 855)">
 <title>wxScintilla</title>
-<!-- Node1 -->
-<g id="node1" class="node"><title>Node1</title>
+<!-- Node0 -->
+<g id="node1" class="node"><title>Node0</title>
 <polygon fill="#bfbfbf" stroke="black" points="6.5,-468.5 6.5,-756.5 145.5,-756.5 145.5,-468.5 6.5,-468.5"/>
 <text text-anchor="middle" x="76" y="-744.5" font-family="FreeSans" font-size="10.00">wxScintilla</text>
 <polyline fill="none" stroke="black" points="6.5,-737.5 145.5,-737.5 "/>
@@ -38,8 +38,8 @@
 <text text-anchor="start" x="14.5" y="-486.5" font-family="FreeSans" font-size="10.00"># OnPaint()</text>
 <text text-anchor="start" x="14.5" y="-475.5" font-family="FreeSans" font-size="10.00">and 26 more...</text>
 </g>
-<!-- Node3 -->
-<g id="node3" class="node"><title>Node3</title>
+<!-- Node2 -->
+<g id="node3" class="node"><title>Node2</title>
 <g id="a_node3"><a xlink:href="classcbStyledTextCtrl" target="_top" xlink:title="{cbStyledTextCtrl\n|&#45; m_pParent\l&#45; m_lastFocusTime\l&#45; m_bracePosition\l&#45; m_lastPosition\l&#45; m_middleClickPos\l&#45; m_tabSmartJump\l&#45; m_lastSelectedText\l&#45; m_braceShortcutState\l&#45; CharacterLexerStyles\l&#45; StringLexerStyles\l&#45; PreprocessorLexerStyles\l&#45; CommentLexerStyles\l|+ cbStyledTextCtrl()\l+ ~cbStyledTextCtrl()\l+ operator=()\l+ GetLastFocusTime()\l+ GetLastSelectedText()\l+ EnableTabSmartJump()\l+ IsCharacter()\l+ IsString()\land 7 more...\l+ GetCharacterLexerStyles()\l+ GetStringLexerStyles()\l+ GetPreprocessorLexerStyles()\l+ GetCommentLexerStyles()\l&#45; OnContextMenu()\l&#45; OnKillFocus()\l&#45; OnSetFocus()\l&#45; OnMouseMiddleDown()\l&#45; OnMouseMiddleClick()\l&#45; OnKeyDown()\l&#45; OnKeyUp()\l&#45; OnMouseLeftUp()\l&#45; AllowTabSmartJump()\l&#45; HighlightRightBrace()\l&#45; EmulateDwellStart()\l}">
 <polygon fill="none" stroke="black" points="0,-0.5 0,-431.5 152,-431.5 152,-0.5 0,-0.5"/>
 <text text-anchor="middle" x="76" y="-419.5" font-family="FreeSans" font-size="10.00">cbStyledTextCtrl</text>
@@ -84,13 +84,13 @@
 </a>
 </g>
 </g>
-<!-- Node1&#45;&gt;Node3 -->
-<g id="edge2" class="edge"><title>Node1&#45;&gt;Node3</title>
+<!-- Node0&#45;&gt;Node2 -->
+<g id="edge2" class="edge"><title>Node0&#45;&gt;Node2</title>
 <path fill="none" stroke="midnightblue" d="M76,-458.04C76,-449.301 76,-440.44 76,-431.533"/>
 <polygon fill="none" stroke="midnightblue" points="72.5001,-458.24 76,-468.24 79.5001,-458.24 72.5001,-458.24"/>
 </g>
-<!-- Node2 -->
-<g id="node2" class="node"><title>Node2</title>
+<!-- Node1 -->
+<g id="node2" class="node"><title>Node1</title>
 <polygon fill="none" stroke="#bfbfbf" points="46.5,-793.5 46.5,-850.5 105.5,-850.5 105.5,-793.5 46.5,-793.5"/>
 <text text-anchor="middle" x="76" y="-838.5" font-family="FreeSans" font-size="10.00">wxControl</text>
 <polyline fill="none" stroke="#bfbfbf" points="46.5,-831.5 105.5,-831.5 "/>
@@ -98,8 +98,8 @@
 <polyline fill="none" stroke="#bfbfbf" points="46.5,-812.5 105.5,-812.5 "/>
 <text text-anchor="middle" x="76" y="-800.5" font-family="FreeSans" font-size="10.00"> </text>
 </g>
-<!-- Node2&#45;&gt;Node1 -->
-<g id="edge1" class="edge"><title>Node2&#45;&gt;Node1</title>
+<!-- Node1&#45;&gt;Node0 -->
+<g id="edge1" class="edge"><title>Node1&#45;&gt;Node0</title>
 <path fill="none" stroke="midnightblue" d="M76,-783.377C76,-775.29 76,-766.284 76,-756.756"/>
 <polygon fill="none" stroke="midnightblue" points="72.5001,-783.446 76,-793.446 79.5001,-783.446 72.5001,-783.446"/>
 </g>

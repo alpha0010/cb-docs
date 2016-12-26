@@ -8,8 +8,8 @@
  viewBox="0.00 0.00 110.00 171.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 167)">
 <title>WatchesDropTarget</title>
-<!-- Node1 -->
-<g id="node1" class="node"><title>Node1</title>
+<!-- Node2 -->
+<g id="node1" class="node"><title>Node2</title>
 <polygon fill="#bfbfbf" stroke="black" points="-7.10543e-15,-0.5 -7.10543e-15,-68.5 102,-68.5 102,-0.5 -7.10543e-15,-0.5"/>
 <text text-anchor="middle" x="51" y="-56.5" font-family="FreeSans" font-size="10.00">WatchesDropTarget</text>
 <polyline fill="none" stroke="black" points="-7.10543e-15,-49.5 102,-49.5 "/>
@@ -18,8 +18,8 @@
 <text text-anchor="start" x="8" y="-18.5" font-family="FreeSans" font-size="10.00">+ OnDropText()</text>
 <text text-anchor="start" x="8" y="-7.5" font-family="FreeSans" font-size="10.00">+ OnDragOver()</text>
 </g>
-<!-- Node2 -->
-<g id="node2" class="node"><title>Node2</title>
+<!-- Node3 -->
+<g id="node2" class="node"><title>Node3</title>
 <polygon fill="none" stroke="#bfbfbf" points="3.5,-105.5 3.5,-162.5 98.5,-162.5 98.5,-105.5 3.5,-105.5"/>
 <text text-anchor="middle" x="51" y="-150.5" font-family="FreeSans" font-size="10.00">wxTextDropTarget</text>
 <polyline fill="none" stroke="#bfbfbf" points="3.5,-143.5 98.5,-143.5 "/>
@@ -27,8 +27,8 @@
 <polyline fill="none" stroke="#bfbfbf" points="3.5,-124.5 98.5,-124.5 "/>
 <text text-anchor="middle" x="51" y="-112.5" font-family="FreeSans" font-size="10.00"> </text>
 </g>
-<!-- Node2&#45;&gt;Node1 -->
-<g id="edge1" class="edge"><title>Node2&#45;&gt;Node1</title>
+<!-- Node3&#45;&gt;Node2 -->
+<g id="edge1" class="edge"><title>Node3&#45;&gt;Node2</title>
 <path fill="none" stroke="midnightblue" d="M51,-95.0631C51,-86.3933 51,-77.2431 51,-68.7855"/>
 <polygon fill="none" stroke="midnightblue" points="47.5001,-95.3212 51,-105.321 54.5001,-95.3212 47.5001,-95.3212"/>
 </g>

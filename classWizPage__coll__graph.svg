@@ -8,8 +8,8 @@
  viewBox="0.00 0.00 241.00 503.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 499)">
 <title>WizPage</title>
-<!-- Node1 -->
-<g id="node1" class="node"><title>Node1</title>
+<!-- Node3 -->
+<g id="node1" class="node"><title>Node3</title>
 <polygon fill="#bfbfbf" stroke="black" points="55,-0.5 55,-79.5 129,-79.5 129,-0.5 55,-0.5"/>
 <text text-anchor="middle" x="92" y="-67.5" font-family="FreeSans" font-size="10.00">WizPage</text>
 <polyline fill="none" stroke="black" points="55,-60.5 129,-60.5 "/>
@@ -19,8 +19,8 @@
 <text text-anchor="start" x="63" y="-18.5" font-family="FreeSans" font-size="10.00">+ ~WizPage()</text>
 <text text-anchor="start" x="63" y="-7.5" font-family="FreeSans" font-size="10.00">+ OnButton()</text>
 </g>
-<!-- Node2 -->
-<g id="node2" class="node"><title>Node2</title>
+<!-- Node4 -->
+<g id="node2" class="node"><title>Node4</title>
 <g id="a_node2"><a xlink:href="classWizPageBase" target="_top" xlink:title="{WizPageBase\n|&#45; m_PageName\l&#45; m_SkipPage\l|+ WizPageBase()\l+ ~WizPageBase()\l+ SkipPage()\l+ OnPageChanging()\l+ OnPageChanged()\l+ GetPrev()\l+ GetNext()\l+ GetPageName()\l+ GetSkipPage()\l+ SetSkipPage()\l}">
 <polygon fill="none" stroke="black" points="38.5,-117.5 38.5,-284.5 145.5,-284.5 145.5,-117.5 38.5,-117.5"/>
 <text text-anchor="middle" x="92" y="-272.5" font-family="FreeSans" font-size="10.00">WizPageBase</text>
@@ -41,13 +41,13 @@
 </a>
 </g>
 </g>
-<!-- Node2&#45;&gt;Node1 -->
-<g id="edge1" class="edge"><title>Node2&#45;&gt;Node1</title>
+<!-- Node4&#45;&gt;Node3 -->
+<g id="edge1" class="edge"><title>Node4&#45;&gt;Node3</title>
 <path fill="none" stroke="midnightblue" d="M92,-107.133C92,-97.5051 92,-88.1461 92,-79.6433"/>
 <polygon fill="none" stroke="midnightblue" points="88.5001,-107.24 92,-117.24 95.5001,-107.24 88.5001,-107.24"/>
 </g>
-<!-- Node3 -->
-<g id="node3" class="node"><title>Node3</title>
+<!-- Node5 -->
+<g id="node3" class="node"><title>Node5</title>
 <polygon fill="none" stroke="#bfbfbf" points="0,-332.5 0,-389.5 110,-389.5 110,-332.5 0,-332.5"/>
 <text text-anchor="middle" x="55" y="-377.5" font-family="FreeSans" font-size="10.00">wxWizardPageSimple</text>
 <polyline fill="none" stroke="#bfbfbf" points="0,-370.5 110,-370.5 "/>
@@ -55,13 +55,13 @@
 <polyline fill="none" stroke="#bfbfbf" points="0,-351.5 110,-351.5 "/>
 <text text-anchor="middle" x="55" y="-339.5" font-family="FreeSans" font-size="10.00"> </text>
 </g>
-<!-- Node3&#45;&gt;Node2 -->
-<g id="edge2" class="edge"><title>Node3&#45;&gt;Node2</title>
+<!-- Node5&#45;&gt;Node4 -->
+<g id="edge2" class="edge"><title>Node5&#45;&gt;Node4</title>
 <path fill="none" stroke="midnightblue" d="M63.7998,-322.422C66.4921,-310.926 69.5665,-297.797 72.672,-284.536"/>
 <polygon fill="none" stroke="midnightblue" points="60.3173,-321.944 61.4449,-332.479 67.1329,-323.54 60.3173,-321.944"/>
 </g>
-<!-- Node4 -->
-<g id="node4" class="node"><title>Node4</title>
+<!-- Node6 -->
+<g id="node4" class="node"><title>Node6</title>
 <g id="a_node4"><a xlink:title="STL class. ">
 <polygon fill="none" stroke="#bfbfbf" points="128.5,-332.5 128.5,-389.5 215.5,-389.5 215.5,-332.5 128.5,-332.5"/>
 <text text-anchor="middle" x="172" y="-377.5" font-family="FreeSans" font-size="10.00">std::map&lt; K, T &gt;</text>
@@ -72,14 +72,14 @@
 </a>
 </g>
 </g>
-<!-- Node4&#45;&gt;Node2 -->
-<g id="edge3" class="edge"><title>Node4&#45;&gt;Node2</title>
+<!-- Node6&#45;&gt;Node4 -->
+<g id="edge3" class="edge"><title>Node6&#45;&gt;Node4</title>
 <path fill="none" stroke="#404040" d="M158.065,-332.479C152.661,-321.805 146.132,-308.91 139.309,-295.435"/>
 <polygon fill="none" stroke="#404040" points="139.211,-295.242 132.932,-291.696 133.79,-284.536 140.069,-288.082 139.211,-295.242"/>
 <text text-anchor="middle" x="187.5" y="-306" font-family="FreeSans" font-size="10.00"> &#45;s_PagesByName</text>
 </g>
-<!-- Node5 -->
-<g id="node5" class="node"><title>Node5</title>
+<!-- Node7 -->
+<g id="node5" class="node"><title>Node7</title>
 <polygon fill="none" stroke="#bfbfbf" points="131.5,-437.5 131.5,-494.5 160.5,-494.5 160.5,-437.5 131.5,-437.5"/>
 <text text-anchor="middle" x="146" y="-482.5" font-family="FreeSans" font-size="10.00">K</text>
 <polyline fill="none" stroke="#bfbfbf" points="131.5,-475.5 160.5,-475.5 "/>
@@ -87,14 +87,14 @@
 <polyline fill="none" stroke="#bfbfbf" points="131.5,-456.5 160.5,-456.5 "/>
 <text text-anchor="middle" x="146" y="-444.5" font-family="FreeSans" font-size="10.00"> </text>
 </g>
-<!-- Node5&#45;&gt;Node4 -->
-<g id="edge4" class="edge"><title>Node5&#45;&gt;Node4</title>
+<!-- Node7&#45;&gt;Node6 -->
+<g id="edge4" class="edge"><title>Node7&#45;&gt;Node6</title>
 <path fill="none" stroke="#404040" d="M146.526,-437.421C147.203,-427.973 148.517,-417.413 151,-408 151.605,-405.708 152.315,-403.388 153.103,-401.071"/>
 <polygon fill="none" stroke="#404040" points="153.192,-400.84 151.643,-393.798 157.547,-389.659 159.097,-396.701 153.192,-400.84"/>
 <text text-anchor="middle" x="165" y="-411" font-family="FreeSans" font-size="10.00"> +keys</text>
 </g>
-<!-- Node6 -->
-<g id="node6" class="node"><title>Node6</title>
+<!-- Node8 -->
+<g id="node6" class="node"><title>Node8</title>
 <polygon fill="none" stroke="#bfbfbf" points="182.5,-437.5 182.5,-494.5 211.5,-494.5 211.5,-437.5 182.5,-437.5"/>
 <text text-anchor="middle" x="197" y="-482.5" font-family="FreeSans" font-size="10.00">T</text>
 <polyline fill="none" stroke="#bfbfbf" points="182.5,-475.5 211.5,-475.5 "/>
@@ -102,8 +102,8 @@
 <polyline fill="none" stroke="#bfbfbf" points="182.5,-456.5 211.5,-456.5 "/>
 <text text-anchor="middle" x="197" y="-444.5" font-family="FreeSans" font-size="10.00"> </text>
 </g>
-<!-- Node6&#45;&gt;Node4 -->
-<g id="edge5" class="edge"><title>Node6&#45;&gt;Node4</title>
+<!-- Node8&#45;&gt;Node6 -->
+<g id="edge5" class="edge"><title>Node8&#45;&gt;Node6</title>
 <path fill="none" stroke="#404040" d="M190.3,-437.398C187.638,-426.43 184.525,-413.603 181.629,-401.672"/>
 <polygon fill="none" stroke="#404040" points="181.549,-401.34 176.246,-396.453 178.718,-389.678 184.02,-394.566 181.549,-401.34"/>
 <text text-anchor="middle" x="209" y="-411" font-family="FreeSans" font-size="10.00"> +elements</text>

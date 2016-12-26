@@ -8,8 +8,8 @@
  viewBox="0.00 0.00 136.00 435.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 431)">
 <title>cbBreakpointsDlg</title>
-<!-- Node1 -->
-<g id="node1" class="node"><title>Node1</title>
+<!-- Node0 -->
+<g id="node1" class="node"><title>Node0</title>
 <polygon fill="#bfbfbf" stroke="black" points="0,-292.5 0,-426.5 128,-426.5 128,-292.5 0,-292.5"/>
 <text text-anchor="middle" x="64" y="-414.5" font-family="FreeSans" font-size="10.00">cbBreakpointsDlg</text>
 <polyline fill="none" stroke="black" points="0,-407.5 128,-407.5 "/>
@@ -24,8 +24,8 @@
 <text text-anchor="start" x="8" y="-310.5" font-family="FreeSans" font-size="10.00">+ EnableBreakpoint()</text>
 <text text-anchor="start" x="8" y="-299.5" font-family="FreeSans" font-size="10.00">+ Reload()</text>
 </g>
-<!-- Node2 -->
-<g id="node2" class="node"><title>Node2</title>
+<!-- Node1 -->
+<g id="node2" class="node"><title>Node1</title>
 <g id="a_node2"><a xlink:href="classBreakpointsDlg" target="_top" xlink:title="{BreakpointsDlg\n|&#45; m_pList\l&#45; m_breakpoints\l&#45; m_icons\l|+ BreakpointsDlg()\l+ GetWindow()\l+ AddBreakpoint()\l+ RemoveBreakpoint()\l+ RemoveAllBreakpoints()\l+ EditBreakpoint()\l+ EnableBreakpoint()\l+ Reload()\l&#45; OnRemove()\l&#45; OnRemoveAll()\l&#45; OnProperties()\l&#45; OnOpen()\l&#45; OnEnable()\l&#45; OnShowTemp()\l&#45; OnRightClick()\l&#45; OnDoubleClick()\land 6 more...\l}">
 <polygon fill="none" stroke="black" points="0,-0.5 0,-255.5 128,-255.5 128,-0.5 0,-0.5"/>
 <text text-anchor="middle" x="64" y="-243.5" font-family="FreeSans" font-size="10.00">BreakpointsDlg</text>
@@ -54,8 +54,8 @@
 </a>
 </g>
 </g>
-<!-- Node1&#45;&gt;Node2 -->
-<g id="edge1" class="edge"><title>Node1&#45;&gt;Node2</title>
+<!-- Node0&#45;&gt;Node1 -->
+<g id="edge1" class="edge"><title>Node0&#45;&gt;Node1</title>
 <path fill="none" stroke="midnightblue" d="M64,-282.414C64,-273.741 64,-264.736 64,-255.629"/>
 <polygon fill="none" stroke="midnightblue" points="60.5001,-282.427 64,-292.427 67.5001,-282.427 60.5001,-282.427"/>
 </g>

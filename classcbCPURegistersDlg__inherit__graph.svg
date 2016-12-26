@@ -8,8 +8,8 @@
  viewBox="0.00 0.00 152.00 281.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 277)">
 <title>cbCPURegistersDlg</title>
-<!-- Node1 -->
-<g id="node1" class="node"><title>Node1</title>
+<!-- Node0 -->
+<g id="node1" class="node"><title>Node0</title>
 <polygon fill="#bfbfbf" stroke="black" points="11.5,-171.5 11.5,-272.5 132.5,-272.5 132.5,-171.5 11.5,-171.5"/>
 <text text-anchor="middle" x="72" y="-260.5" font-family="FreeSans" font-size="10.00">cbCPURegistersDlg</text>
 <polyline fill="none" stroke="black" points="11.5,-253.5 132.5,-253.5 "/>
@@ -21,8 +21,8 @@
 <text text-anchor="start" x="19.5" y="-189.5" font-family="FreeSans" font-size="10.00">+ SetRegisterValue()</text>
 <text text-anchor="start" x="19.5" y="-178.5" font-family="FreeSans" font-size="10.00">+ EnableWindow()</text>
 </g>
-<!-- Node2 -->
-<g id="node2" class="node"><title>Node2</title>
+<!-- Node1 -->
+<g id="node2" class="node"><title>Node1</title>
 <g id="a_node2"><a xlink:href="classCPURegistersDlg" target="_top" xlink:title="{CPURegistersDlg\n|&#45; m_pList\l|+ CPURegistersDlg()\l+ GetWindow()\l+ Clear()\l+ SetRegisterValue()\l+ EnableWindow()\l# RegisterIndex()\l# OnRefresh()\l&#45; DECLARE_EVENT_TABLE()\l}">
 <polygon fill="none" stroke="black" points="0,-0.5 0,-134.5 144,-134.5 144,-0.5 0,-0.5"/>
 <text text-anchor="middle" x="72" y="-122.5" font-family="FreeSans" font-size="10.00">CPURegistersDlg</text>
@@ -40,8 +40,8 @@
 </a>
 </g>
 </g>
-<!-- Node1&#45;&gt;Node2 -->
-<g id="edge1" class="edge"><title>Node1&#45;&gt;Node2</title>
+<!-- Node0&#45;&gt;Node1 -->
+<g id="edge1" class="edge"><title>Node0&#45;&gt;Node1</title>
 <path fill="none" stroke="midnightblue" d="M72,-161.381C72,-152.626 72,-143.563 72,-134.686"/>
 <polygon fill="none" stroke="midnightblue" points="68.5001,-161.488 72,-171.488 75.5001,-161.488 68.5001,-161.488"/>
 </g>

@@ -8,8 +8,8 @@
  viewBox="0.00 0.00 157.00 457.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 453)">
 <title>CompilerPanel</title>
-<!-- Node1 -->
-<g id="node1" class="node"><title>Node1</title>
+<!-- Node2 -->
+<g id="node1" class="node"><title>Node2</title>
 <polygon fill="#bfbfbf" stroke="black" points="-1.42109e-14,-0.5 -1.42109e-14,-354.5 149,-354.5 149,-0.5 -1.42109e-14,-0.5"/>
 <text text-anchor="middle" x="74.5" y="-342.5" font-family="FreeSans" font-size="10.00">CompilerPanel</text>
 <polyline fill="none" stroke="black" points="-1.42109e-14,-335.5 149,-335.5 "/>
@@ -44,8 +44,8 @@
 <text text-anchor="start" x="8" y="-18.5" font-family="FreeSans" font-size="10.00">&#45; OnDebugChange()</text>
 <text text-anchor="start" x="8" y="-7.5" font-family="FreeSans" font-size="10.00">&#45; OnReleaseChange()</text>
 </g>
-<!-- Node2 -->
-<g id="node2" class="node"><title>Node2</title>
+<!-- Node3 -->
+<g id="node2" class="node"><title>Node3</title>
 <polygon fill="none" stroke="#bfbfbf" points="48,-391.5 48,-448.5 101,-448.5 101,-391.5 48,-391.5"/>
 <text text-anchor="middle" x="74.5" y="-436.5" font-family="FreeSans" font-size="10.00">wxPanel</text>
 <polyline fill="none" stroke="#bfbfbf" points="48,-429.5 101,-429.5 "/>
@@ -53,8 +53,8 @@
 <polyline fill="none" stroke="#bfbfbf" points="48,-410.5 101,-410.5 "/>
 <text text-anchor="middle" x="74.5" y="-398.5" font-family="FreeSans" font-size="10.00"> </text>
 </g>
-<!-- Node2&#45;&gt;Node1 -->
-<g id="edge1" class="edge"><title>Node2&#45;&gt;Node1</title>
+<!-- Node3&#45;&gt;Node2 -->
+<g id="edge1" class="edge"><title>Node3&#45;&gt;Node2</title>
 <path fill="none" stroke="midnightblue" d="M74.5,-381.175C74.5,-373.225 74.5,-364.348 74.5,-354.871"/>
 <polygon fill="none" stroke="midnightblue" points="71.0001,-381.412 74.5,-391.412 78.0001,-381.412 71.0001,-381.412"/>
 </g>

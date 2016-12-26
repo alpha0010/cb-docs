@@ -8,8 +8,8 @@
  viewBox="0.00 0.00 464.00 706.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 702)">
 <title>DisassemblyDlg</title>
-<!-- Node1 -->
-<g id="node1" class="node"><title>Node1</title>
+<!-- Node3 -->
+<g id="node1" class="node"><title>Node3</title>
 <polygon fill="#bfbfbf" stroke="black" points="117.5,-0.5 117.5,-266.5 261.5,-266.5 261.5,-0.5 117.5,-0.5"/>
 <text text-anchor="middle" x="189.5" y="-254.5" font-family="FreeSans" font-size="10.00">DisassemblyDlg</text>
 <polyline fill="none" stroke="black" points="117.5,-247.5 261.5,-247.5 "/>
@@ -36,8 +36,8 @@
 <text text-anchor="start" x="125.5" y="-18.5" font-family="FreeSans" font-size="10.00"># OnAdjustLine()</text>
 <text text-anchor="start" x="125.5" y="-7.5" font-family="FreeSans" font-size="10.00">&#45; DECLARE_EVENT_TABLE()</text>
 </g>
-<!-- Node2 -->
-<g id="node2" class="node"><title>Node2</title>
+<!-- Node4 -->
+<g id="node2" class="node"><title>Node4</title>
 <polygon fill="none" stroke="#bfbfbf" points="0,-430 0,-487 53,-487 53,-430 0,-430"/>
 <text text-anchor="middle" x="26.5" y="-475" font-family="FreeSans" font-size="10.00">wxPanel</text>
 <polyline fill="none" stroke="#bfbfbf" points="0,-468 53,-468 "/>
@@ -45,13 +45,13 @@
 <polyline fill="none" stroke="#bfbfbf" points="0,-449 53,-449 "/>
 <text text-anchor="middle" x="26.5" y="-437" font-family="FreeSans" font-size="10.00"> </text>
 </g>
-<!-- Node2&#45;&gt;Node1 -->
-<g id="edge1" class="edge"><title>Node2&#45;&gt;Node1</title>
+<!-- Node4&#45;&gt;Node3 -->
+<g id="edge1" class="edge"><title>Node4&#45;&gt;Node3</title>
 <path fill="none" stroke="midnightblue" d="M32.0268,-419.815C37.3003,-390.104 46.8133,-348.134 62.5,-314 77.0061,-282.435 97.2467,-250.629 117.312,-222.743"/>
 <polygon fill="none" stroke="midnightblue" points="28.5583,-419.335 30.3352,-429.78 35.4596,-420.506 28.5583,-419.335"/>
 </g>
-<!-- Node3 -->
-<g id="node3" class="node"><title>Node3</title>
+<!-- Node5 -->
+<g id="node3" class="node"><title>Node5</title>
 <g id="a_node3"><a xlink:href="classcbDisassemblyDlg" target="_top" xlink:title="{cbDisassemblyDlg\n||+ ~cbDisassemblyDlg()\l+ GetWindow()\l+ Clear()\l+ AddAssemblerLine()\l+ AddSourceLine()\l+ SetActiveAddress()\l+ CenterLine()\l+ CenterCurrentLine()\l+ HasActiveAddr()\l+ EnableWindow()\l}">
 <polygon fill="none" stroke="black" points="71.5,-380.5 71.5,-536.5 185.5,-536.5 185.5,-380.5 71.5,-380.5"/>
 <text text-anchor="middle" x="128.5" y="-524.5" font-family="FreeSans" font-size="10.00">cbDisassemblyDlg</text>
@@ -71,13 +71,13 @@
 </a>
 </g>
 </g>
-<!-- Node3&#45;&gt;Node1 -->
-<g id="edge2" class="edge"><title>Node3&#45;&gt;Node1</title>
+<!-- Node5&#45;&gt;Node3 -->
+<g id="edge2" class="edge"><title>Node5&#45;&gt;Node3</title>
 <path fill="none" stroke="midnightblue" d="M145.026,-369.994C151.029,-338.208 157.953,-301.544 164.523,-266.754"/>
 <polygon fill="none" stroke="midnightblue" points="141.528,-369.658 143.111,-380.133 148.406,-370.957 141.528,-369.658"/>
 </g>
-<!-- Node4 -->
-<g id="node4" class="node"><title>Node4</title>
+<!-- Node6 -->
+<g id="node4" class="node"><title>Node6</title>
 <polygon fill="none" stroke="#bfbfbf" points="204,-430 204,-487 299,-487 299,-430 204,-430"/>
 <text text-anchor="middle" x="251.5" y="-475" font-family="FreeSans" font-size="10.00">std::vector&lt; char &gt;</text>
 <polyline fill="none" stroke="#bfbfbf" points="204,-468 299,-468 "/>
@@ -85,14 +85,14 @@
 <polyline fill="none" stroke="#bfbfbf" points="204,-449 299,-449 "/>
 <text text-anchor="middle" x="251.5" y="-437" font-family="FreeSans" font-size="10.00"> </text>
 </g>
-<!-- Node4&#45;&gt;Node1 -->
-<g id="edge3" class="edge"><title>Node4&#45;&gt;Node1</title>
+<!-- Node6&#45;&gt;Node3 -->
+<g id="edge3" class="edge"><title>Node6&#45;&gt;Node3</title>
 <path fill="none" stroke="#404040" d="M246.214,-429.961C239.694,-395.992 228.118,-335.69 217.118,-278.382"/>
 <polygon fill="none" stroke="#404040" points="217.117,-278.375 212.058,-273.236 214.855,-266.59 219.914,-271.728 217.117,-278.375"/>
 <text text-anchor="middle" x="253" y="-288" font-family="FreeSans" font-size="10.00"> #m_LineTypes</text>
 </g>
-<!-- Node5 -->
-<g id="node5" class="node"><title>Node5</title>
+<!-- Node7 -->
+<g id="node5" class="node"><title>Node7</title>
 <g id="a_node5"><a xlink:href="classwxScintilla" target="_top" xlink:title="{wxScintilla\n|# m_swx\l# m_stopWatch\l# m_vScrollBar\l# m_hScrollBar\l# m_lastKeyDownConsumed\l|+ wxScintilla()\l+ wxScintilla()\l+ ~wxScintilla()\l+ Create()\l+ AddText()\l+ AddText()\l+ AddStyledText()\l+ InsertText()\land 703 more...\l# GetValue()\l# SetValue()\l# DoSetValue()\l# DoGetValue()\l# GetEditableWindow()\l# DoLoadFile()\l# DoSaveFile()\l# OnPaint()\land 26 more...\l}">
 <polygon fill="none" stroke="black" points="317,-314.5 317,-602.5 456,-602.5 456,-314.5 317,-314.5"/>
 <text text-anchor="middle" x="386.5" y="-590.5" font-family="FreeSans" font-size="10.00">wxScintilla</text>
@@ -124,14 +124,14 @@
 </a>
 </g>
 </g>
-<!-- Node5&#45;&gt;Node1 -->
-<g id="edge4" class="edge"><title>Node5&#45;&gt;Node1</title>
+<!-- Node7&#45;&gt;Node3 -->
+<g id="edge4" class="edge"><title>Node7&#45;&gt;Node3</title>
 <path fill="none" stroke="#404040" d="M316.835,-328.143C314.049,-323.352 311.265,-318.624 308.5,-314 295.967,-293.042 282.083,-271.094 268.354,-250.025"/>
 <polygon fill="none" stroke="#404040" points="268.207,-249.801 261.574,-246.972 261.633,-239.761 268.266,-242.59 268.207,-249.801"/>
 <text text-anchor="middle" x="320" y="-288" font-family="FreeSans" font-size="10.00"> #m_pCode</text>
 </g>
-<!-- Node6 -->
-<g id="node6" class="node"><title>Node6</title>
+<!-- Node8 -->
+<g id="node6" class="node"><title>Node8</title>
 <polygon fill="none" stroke="#bfbfbf" points="357,-640.5 357,-697.5 416,-697.5 416,-640.5 357,-640.5"/>
 <text text-anchor="middle" x="386.5" y="-685.5" font-family="FreeSans" font-size="10.00">wxControl</text>
 <polyline fill="none" stroke="#bfbfbf" points="357,-678.5 416,-678.5 "/>
@@ -139,8 +139,8 @@
 <polyline fill="none" stroke="#bfbfbf" points="357,-659.5 416,-659.5 "/>
 <text text-anchor="middle" x="386.5" y="-647.5" font-family="FreeSans" font-size="10.00"> </text>
 </g>
-<!-- Node6&#45;&gt;Node5 -->
-<g id="edge5" class="edge"><title>Node6&#45;&gt;Node5</title>
+<!-- Node8&#45;&gt;Node7 -->
+<g id="edge5" class="edge"><title>Node8&#45;&gt;Node7</title>
 <path fill="none" stroke="midnightblue" d="M386.5,-630.248C386.5,-621.86 386.5,-612.487 386.5,-602.566"/>
 <polygon fill="none" stroke="midnightblue" points="383,-630.313 386.5,-640.313 390,-630.313 383,-630.313"/>
 </g>

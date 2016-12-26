@@ -8,8 +8,8 @@
  viewBox="0.00 0.00 207.50 435.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 431)">
 <title>BreakpointsDlg</title>
-<!-- Node1 -->
-<g id="node1" class="node"><title>Node1</title>
+<!-- Node0 -->
+<g id="node1" class="node"><title>Node0</title>
 <polygon fill="#bfbfbf" stroke="black" points="16.5,-0.5 16.5,-255.5 144.5,-255.5 144.5,-0.5 16.5,-0.5"/>
 <text text-anchor="middle" x="80.5" y="-243.5" font-family="FreeSans" font-size="10.00">BreakpointsDlg</text>
 <polyline fill="none" stroke="black" points="16.5,-236.5 144.5,-236.5 "/>
@@ -35,8 +35,8 @@
 <text text-anchor="start" x="24.5" y="-18.5" font-family="FreeSans" font-size="10.00">&#45; OnDoubleClick()</text>
 <text text-anchor="start" x="24.5" y="-7.5" font-family="FreeSans" font-size="10.00">and 6 more...</text>
 </g>
-<!-- Node2 -->
-<g id="node2" class="node"><title>Node2</title>
+<!-- Node1 -->
+<g id="node2" class="node"><title>Node1</title>
 <polygon fill="none" stroke="#bfbfbf" points="0,-331 0,-388 53,-388 53,-331 0,-331"/>
 <text text-anchor="middle" x="26.5" y="-376" font-family="FreeSans" font-size="10.00">wxPanel</text>
 <polyline fill="none" stroke="#bfbfbf" points="0,-369 53,-369 "/>
@@ -44,13 +44,13 @@
 <polyline fill="none" stroke="#bfbfbf" points="0,-350 53,-350 "/>
 <text text-anchor="middle" x="26.5" y="-338" font-family="FreeSans" font-size="10.00"> </text>
 </g>
-<!-- Node2&#45;&gt;Node1 -->
-<g id="edge1" class="edge"><title>Node2&#45;&gt;Node1</title>
+<!-- Node1&#45;&gt;Node0 -->
+<g id="edge1" class="edge"><title>Node1&#45;&gt;Node0</title>
 <path fill="none" stroke="midnightblue" d="M35.3424,-320.92C39.6434,-302.641 45.09,-279.492 50.6996,-255.652"/>
 <polygon fill="none" stroke="midnightblue" points="31.8972,-320.281 33.0137,-330.817 38.7111,-321.884 31.8972,-320.281"/>
 </g>
-<!-- Node3 -->
-<g id="node3" class="node"><title>Node3</title>
+<!-- Node2 -->
+<g id="node3" class="node"><title>Node2</title>
 <g id="a_node3"><a xlink:href="classcbBreakpointsDlg" target="_top" xlink:title="{cbBreakpointsDlg\n||+ ~cbBreakpointsDlg()\l+ GetWindow()\l+ AddBreakpoint()\l+ RemoveBreakpoint()\l+ RemoveAllBreakpoints()\l+ EditBreakpoint()\l+ EnableBreakpoint()\l+ Reload()\l}">
 <polygon fill="none" stroke="black" points="71.5,-292.5 71.5,-426.5 199.5,-426.5 199.5,-292.5 71.5,-292.5"/>
 <text text-anchor="middle" x="135.5" y="-414.5" font-family="FreeSans" font-size="10.00">cbBreakpointsDlg</text>
@@ -68,8 +68,8 @@
 </a>
 </g>
 </g>
-<!-- Node3&#45;&gt;Node1 -->
-<g id="edge2" class="edge"><title>Node3&#45;&gt;Node1</title>
+<!-- Node2&#45;&gt;Node0 -->
+<g id="edge2" class="edge"><title>Node2&#45;&gt;Node0</title>
 <path fill="none" stroke="midnightblue" d="M117.334,-282.696C115.234,-273.937 113.053,-264.834 110.847,-255.629"/>
 <polygon fill="none" stroke="midnightblue" points="113.931,-283.518 119.666,-292.427 120.739,-281.887 113.931,-283.518"/>
 </g>

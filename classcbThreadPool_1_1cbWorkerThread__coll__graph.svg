@@ -8,8 +8,8 @@
  viewBox="0.00 0.00 478.00 799.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 795)">
 <title>cbThreadPool::cbWorkerThread</title>
-<!-- Node1 -->
-<g id="node1" class="node"><title>Node1</title>
+<!-- Node2 -->
+<g id="node1" class="node"><title>Node2</title>
 <polygon fill="#bfbfbf" stroke="black" points="151,-485.5 151,-597.5 303,-597.5 303,-485.5 151,-485.5"/>
 <text text-anchor="middle" x="227" y="-585.5" font-family="FreeSans" font-size="10.00">cbThreadPool::cbWorkerThread</text>
 <polyline fill="none" stroke="black" points="151,-578.5 303,-578.5 "/>
@@ -22,8 +22,8 @@
 <text text-anchor="start" x="159" y="-503.5" font-family="FreeSans" font-size="10.00">+ Aborted()</text>
 <text text-anchor="start" x="159" y="-492.5" font-family="FreeSans" font-size="10.00">+ AbortTask()</text>
 </g>
-<!-- Node8 -->
-<g id="node8" class="node"><title>Node8</title>
+<!-- Node9 -->
+<g id="node8" class="node"><title>Node9</title>
 <polygon fill="none" stroke="#bfbfbf" points="92,-375 92,-432 246,-432 246,-375 92,-375"/>
 <text text-anchor="middle" x="169" y="-420" font-family="FreeSans" font-size="10.00">std::vector&lt; cbWorkerThread * &gt;</text>
 <polyline fill="none" stroke="#bfbfbf" points="92,-413 246,-413 "/>
@@ -31,14 +31,14 @@
 <polyline fill="none" stroke="#bfbfbf" points="92,-394 246,-394 "/>
 <text text-anchor="middle" x="169" y="-382" font-family="FreeSans" font-size="10.00"> </text>
 </g>
-<!-- Node1&#45;&gt;Node8 -->
-<g id="edge10" class="edge"><title>Node1&#45;&gt;Node8</title>
+<!-- Node2&#45;&gt;Node9 -->
+<g id="edge10" class="edge"><title>Node2&#45;&gt;Node9</title>
 <path fill="none" stroke="#404040" d="M203.409,-485.184C197.454,-471.22 191.184,-456.517 185.651,-443.543"/>
 <polygon fill="none" stroke="#404040" points="185.515,-443.224 179.481,-439.274 180.807,-432.186 186.84,-436.135 185.515,-443.224"/>
 <text text-anchor="middle" x="218" y="-459" font-family="FreeSans" font-size="10.00"> +elements</text>
 </g>
-<!-- Node2 -->
-<g id="node2" class="node"><title>Node2</title>
+<!-- Node3 -->
+<g id="node2" class="node"><title>Node3</title>
 <polygon fill="none" stroke="#bfbfbf" points="198,-689.5 198,-746.5 256,-746.5 256,-689.5 198,-689.5"/>
 <text text-anchor="middle" x="227" y="-734.5" font-family="FreeSans" font-size="10.00">wxThread</text>
 <polyline fill="none" stroke="#bfbfbf" points="198,-727.5 256,-727.5 "/>
@@ -46,13 +46,13 @@
 <polyline fill="none" stroke="#bfbfbf" points="198,-708.5 256,-708.5 "/>
 <text text-anchor="middle" x="227" y="-696.5" font-family="FreeSans" font-size="10.00"> </text>
 </g>
-<!-- Node2&#45;&gt;Node1 -->
-<g id="edge1" class="edge"><title>Node2&#45;&gt;Node1</title>
+<!-- Node3&#45;&gt;Node2 -->
+<g id="edge1" class="edge"><title>Node3&#45;&gt;Node2</title>
 <path fill="none" stroke="midnightblue" d="M227,-679.313C227,-655.528 227,-624.392 227,-597.832"/>
 <polygon fill="none" stroke="midnightblue" points="223.5,-679.35 227,-689.35 230.5,-679.35 223.5,-679.35"/>
 </g>
-<!-- Node3 -->
-<g id="node3" class="node"><title>Node3</title>
+<!-- Node4 -->
+<g id="node3" class="node"><title>Node4</title>
 <g id="a_node3"><a xlink:href="classcbThreadPool_1_1CountedPtr" target="_top" xlink:title="{cbThreadPool::CountedPtr\l\&lt; wxSemaphore \&gt;\n|&#45; ptr\l&#45; count\l|+ CountedPtr()\l+ CountedPtr()\l+ ~CountedPtr()\l+ operator=()\l+ operator*()\l+ operator&#45;\&gt;()\l&#45; dispose()\l}">
 <polygon fill="none" stroke="black" points="0,-645.5 0,-790.5 130,-790.5 130,-645.5 0,-645.5"/>
 <text text-anchor="start" x="8" y="-778.5" font-family="FreeSans" font-size="10.00">cbThreadPool::CountedPtr</text>
@@ -71,14 +71,14 @@
 </a>
 </g>
 </g>
-<!-- Node3&#45;&gt;Node1 -->
-<g id="edge2" class="edge"><title>Node3&#45;&gt;Node1</title>
+<!-- Node4&#45;&gt;Node2 -->
+<g id="edge2" class="edge"><title>Node4&#45;&gt;Node2</title>
 <path fill="none" stroke="#404040" d="M129.074,-645.265C138.062,-635.384 147.225,-625.405 156,-616 158.871,-612.923 161.819,-609.785 164.806,-606.625"/>
 <polygon fill="none" stroke="#404040" points="165.029,-606.389 166.26,-599.283 173.292,-597.687 172.062,-604.792 165.029,-606.389"/>
 <text text-anchor="middle" x="189.5" y="-619" font-family="FreeSans" font-size="10.00"> &#45;m_semaphore</text>
 </g>
-<!-- Node5 -->
-<g id="node5" class="node"><title>Node5</title>
+<!-- Node6 -->
+<g id="node5" class="node"><title>Node6</title>
 <g id="a_node5"><a xlink:href="classcbThreadPool" target="_top" xlink:title="A Thread Pool implementation. ">
 <polygon fill="none" stroke="black" points="159,-0.5 159,-321.5 315,-321.5 315,-0.5 159,-0.5"/>
 <text text-anchor="middle" x="237" y="-309.5" font-family="FreeSans" font-size="10.00">cbThreadPool</text>
@@ -113,14 +113,14 @@
 </a>
 </g>
 </g>
-<!-- Node3&#45;&gt;Node5 -->
-<g id="edge8" class="edge"><title>Node3&#45;&gt;Node5</title>
+<!-- Node4&#45;&gt;Node6 -->
+<g id="edge8" class="edge"><title>Node4&#45;&gt;Node6</title>
 <path fill="none" stroke="#404040" d="M56.8598,-645.311C51.3722,-573.241 50.2046,-460.071 83,-369 98.0509,-327.205 124.553,-286.726 151.375,-252.816"/>
 <polygon fill="none" stroke="#404040" points="151.409,-252.773 152.06,-245.592 158.939,-243.43 158.289,-250.612 151.409,-252.773"/>
 <text text-anchor="middle" x="95.5" y="-459" font-family="FreeSans" font-size="10.00"> &#45;m_semaphore</text>
 </g>
-<!-- Node4 -->
-<g id="node4" class="node"><title>Node4</title>
+<!-- Node5 -->
+<g id="node4" class="node"><title>Node5</title>
 <g id="a_node4"><a xlink:href="classcbThreadedTask" target="_top" xlink:title="This is what you have to use instead of wxThread to add tasks to the Thread Pool. ...">
 <polygon fill="none" stroke="black" points="274,-662 274,-774 382,-774 382,-662 274,-662"/>
 <text text-anchor="middle" x="328" y="-762" font-family="FreeSans" font-size="10.00">cbThreadedTask</text>
@@ -136,14 +136,14 @@
 </a>
 </g>
 </g>
-<!-- Node4&#45;&gt;Node1 -->
-<g id="edge3" class="edge"><title>Node4&#45;&gt;Node1</title>
+<!-- Node5&#45;&gt;Node2 -->
+<g id="edge3" class="edge"><title>Node5&#45;&gt;Node2</title>
 <path fill="none" stroke="#404040" d="M296.043,-661.787C286.232,-644.836 275.336,-626.012 265.154,-608.419"/>
 <polygon fill="none" stroke="#404040" points="264.934,-608.039 258.466,-604.85 258.922,-597.653 265.39,-600.842 264.934,-608.039"/>
 <text text-anchor="middle" x="297" y="-619" font-family="FreeSans" font-size="10.00"> &#45;m_pTask</text>
 </g>
-<!-- Node7 -->
-<g id="node7" class="node"><title>Node7</title>
+<!-- Node8 -->
+<g id="node7" class="node"><title>Node8</title>
 <g id="a_node7"><a xlink:href="structcbThreadPool_1_1cbThreadedTaskElement" target="_top" xlink:title="All tasks are added to one of these. It&#39;ll also save the autodelete value. ">
 <polygon fill="none" stroke="black" points="329,-502 329,-581 467,-581 467,-502 329,-502"/>
 <text text-anchor="start" x="337" y="-569" font-family="FreeSans" font-size="10.00">cbThreadPool::cbThreaded</text>
@@ -156,20 +156,20 @@
 </a>
 </g>
 </g>
-<!-- Node4&#45;&gt;Node7 -->
-<g id="edge7" class="edge"><title>Node4&#45;&gt;Node7</title>
+<!-- Node5&#45;&gt;Node8 -->
+<g id="edge7" class="edge"><title>Node5&#45;&gt;Node8</title>
 <path fill="none" stroke="#404040" d="M350.148,-661.787C359.078,-639.527 369.303,-614.037 378.003,-592.349"/>
 <polygon fill="none" stroke="#404040" points="378.062,-592.202 376.584,-585.144 382.53,-581.065 384.008,-588.123 378.062,-592.202"/>
 <text text-anchor="middle" x="380.5" y="-619" font-family="FreeSans" font-size="10.00"> +task</text>
 </g>
-<!-- Node5&#45;&gt;Node1 -->
-<g id="edge4" class="edge"><title>Node5&#45;&gt;Node1</title>
+<!-- Node6&#45;&gt;Node2 -->
+<g id="edge4" class="edge"><title>Node6&#45;&gt;Node2</title>
 <path fill="none" stroke="#404040" d="M258.168,-321.815C260.258,-359.983 260.027,-400.521 255,-438 253.427,-449.724 250.886,-462.006 247.959,-473.831"/>
 <polygon fill="none" stroke="#404040" points="247.954,-473.854 250.311,-480.669 244.926,-485.466 242.569,-478.65 247.954,-473.854"/>
 <text text-anchor="middle" x="281" y="-401" font-family="FreeSans" font-size="10.00"> &#45;m_pPool</text>
 </g>
-<!-- Node6 -->
-<g id="node6" class="node"><title>Node6</title>
+<!-- Node7 -->
+<g id="node6" class="node"><title>Node7</title>
 <polygon fill="none" stroke="#bfbfbf" points="344,-369.5 344,-437.5 470,-437.5 470,-369.5 344,-369.5"/>
 <text text-anchor="start" x="352" y="-425.5" font-family="FreeSans" font-size="10.00">std::list&lt; cbThreadedTask</text>
 <text text-anchor="middle" x="407" y="-414.5" font-family="FreeSans" font-size="10.00">Element &gt;</text>
@@ -178,20 +178,20 @@
 <polyline fill="none" stroke="#bfbfbf" points="344,-388.5 470,-388.5 "/>
 <text text-anchor="middle" x="407" y="-376.5" font-family="FreeSans" font-size="10.00"> </text>
 </g>
-<!-- Node6&#45;&gt;Node5 -->
-<g id="edge5" class="edge"><title>Node6&#45;&gt;Node5</title>
+<!-- Node7&#45;&gt;Node6 -->
+<g id="edge5" class="edge"><title>Node7&#45;&gt;Node6</title>
 <path fill="none" stroke="#404040" d="M383.541,-369.312C367.362,-346.424 344.771,-314.465 322.166,-282.484"/>
 <polygon fill="none" stroke="#404040" points="322.083,-282.368 315.353,-279.777 315.157,-272.568 321.886,-275.159 322.083,-282.368"/>
 <text text-anchor="middle" x="405" y="-343" font-family="FreeSans" font-size="10.00"> &#45;m_tasksQueue</text>
 </g>
-<!-- Node7&#45;&gt;Node6 -->
-<g id="edge6" class="edge"><title>Node7&#45;&gt;Node6</title>
+<!-- Node8&#45;&gt;Node7 -->
+<g id="edge6" class="edge"><title>Node8&#45;&gt;Node7</title>
 <path fill="none" stroke="#404040" d="M400.555,-501.892C401.623,-485.746 402.873,-466.864 403.986,-450.045"/>
 <polygon fill="none" stroke="#404040" points="404.013,-449.64 400.418,-443.389 404.805,-437.666 408.4,-443.917 404.013,-449.64"/>
 <text text-anchor="middle" x="427" y="-459" font-family="FreeSans" font-size="10.00"> +elements</text>
 </g>
-<!-- Node8&#45;&gt;Node5 -->
-<g id="edge9" class="edge"><title>Node8&#45;&gt;Node5</title>
+<!-- Node9&#45;&gt;Node6 -->
+<g id="edge9" class="edge"><title>Node9&#45;&gt;Node6</title>
 <path fill="none" stroke="#404040" d="M176.8,-374.912C180.043,-363.444 184.092,-349.124 188.547,-333.365"/>
 <polygon fill="none" stroke="#404040" points="188.593,-333.204 186.376,-326.342 191.858,-321.656 194.075,-328.518 188.593,-333.204"/>
 <text text-anchor="middle" x="210.5" y="-343" font-family="FreeSans" font-size="10.00"> &#45;m_threads</text>

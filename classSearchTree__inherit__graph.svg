@@ -8,8 +8,8 @@
  viewBox="0.00 0.00 118.00 468.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 464)">
 <title>SearchTree&lt; T &gt;</title>
-<!-- Node1 -->
-<g id="node1" class="node"><title>Node1</title>
+<!-- Node0 -->
+<g id="node1" class="node"><title>Node0</title>
 <polygon fill="#bfbfbf" stroke="black" points="4,-0.5 4,-167.5 106,-167.5 106,-0.5 4,-0.5"/>
 <text text-anchor="middle" x="55" y="-155.5" font-family="FreeSans" font-size="10.00">SearchTree&lt; T &gt;</text>
 <polyline fill="none" stroke="black" points="4,-148.5 106,-148.5 "/>
@@ -27,8 +27,8 @@
 <text text-anchor="start" x="12" y="-18.5" font-family="FreeSans" font-size="10.00"># ClearItems()</text>
 <text text-anchor="start" x="12" y="-7.5" font-family="FreeSans" font-size="10.00"># AddFirstNullItem()</text>
 </g>
-<!-- Node2 -->
-<g id="node2" class="node"><title>Node2</title>
+<!-- Node1 -->
+<g id="node2" class="node"><title>Node1</title>
 <g id="a_node2"><a xlink:href="classBasicSearchTree" target="_top" xlink:title="This class is generally a string &#45;&gt; size_t map, the tree details (graph) is already show in the decla...">
 <polygon fill="none" stroke="black" points="0,-204.5 0,-459.5 110,-459.5 110,-204.5 0,-204.5"/>
 <text text-anchor="middle" x="55" y="-447.5" font-family="FreeSans" font-size="10.00">BasicSearchTree</text>
@@ -57,8 +57,8 @@
 </a>
 </g>
 </g>
-<!-- Node2&#45;&gt;Node1 -->
-<g id="edge1" class="edge"><title>Node2&#45;&gt;Node1</title>
+<!-- Node1&#45;&gt;Node0 -->
+<g id="edge1" class="edge"><title>Node1&#45;&gt;Node0</title>
 <path fill="none" stroke="midnightblue" d="M55,-194.182C55,-185.163 55,-176.244 55,-167.623"/>
 <polygon fill="none" stroke="midnightblue" points="51.5001,-194.397 55,-204.397 58.5001,-194.397 51.5001,-194.397"/>
 </g>

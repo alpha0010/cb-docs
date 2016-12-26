@@ -8,8 +8,8 @@
  viewBox="0.00 0.00 358.50 799.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 795)">
 <title>WizCompilerPanel</title>
-<!-- Node1 -->
-<g id="node1" class="node"><title>Node1</title>
+<!-- Node3 -->
+<g id="node1" class="node"><title>Node3</title>
 <polygon fill="#bfbfbf" stroke="black" points="140.5,-0.5 140.5,-178.5 291.5,-178.5 291.5,-0.5 140.5,-0.5"/>
 <text text-anchor="middle" x="216" y="-166.5" font-family="FreeSans" font-size="10.00">WizCompilerPanel</text>
 <polyline fill="none" stroke="black" points="140.5,-159.5 291.5,-159.5 "/>
@@ -28,8 +28,8 @@
 <text text-anchor="start" x="148.5" y="-18.5" font-family="FreeSans" font-size="10.00">+ GetReleaseObjectOutputDir()</text>
 <text text-anchor="start" x="148.5" y="-7.5" font-family="FreeSans" font-size="10.00">+ OnPageChanging()</text>
 </g>
-<!-- Node2 -->
-<g id="node2" class="node"><title>Node2</title>
+<!-- Node4 -->
+<g id="node2" class="node"><title>Node4</title>
 <g id="a_node2"><a xlink:href="classWizPageBase" target="_top" xlink:title="{WizPageBase\n|&#45; m_PageName\l&#45; m_SkipPage\l|+ WizPageBase()\l+ ~WizPageBase()\l+ SkipPage()\l+ OnPageChanging()\l+ OnPageChanged()\l+ GetPrev()\l+ GetNext()\l+ GetPageName()\l+ GetSkipPage()\l+ SetSkipPage()\l}">
 <polygon fill="none" stroke="black" points="76.5,-320 76.5,-487 183.5,-487 183.5,-320 76.5,-320"/>
 <text text-anchor="middle" x="130" y="-475" font-family="FreeSans" font-size="10.00">WizPageBase</text>
@@ -50,13 +50,13 @@
 </a>
 </g>
 </g>
-<!-- Node2&#45;&gt;Node1 -->
-<g id="edge1" class="edge"><title>Node2&#45;&gt;Node1</title>
+<!-- Node4&#45;&gt;Node3 -->
+<g id="edge1" class="edge"><title>Node4&#45;&gt;Node3</title>
 <path fill="none" stroke="midnightblue" d="M155.533,-309.867C166.982,-268.334 180.42,-219.582 191.716,-178.599"/>
 <polygon fill="none" stroke="midnightblue" points="152.104,-309.138 152.821,-319.709 158.852,-310.998 152.104,-309.138"/>
 </g>
-<!-- Node3 -->
-<g id="node3" class="node"><title>Node3</title>
+<!-- Node5 -->
+<g id="node3" class="node"><title>Node5</title>
 <polygon fill="none" stroke="#bfbfbf" points="0,-628.5 0,-685.5 110,-685.5 110,-628.5 0,-628.5"/>
 <text text-anchor="middle" x="55" y="-673.5" font-family="FreeSans" font-size="10.00">wxWizardPageSimple</text>
 <polyline fill="none" stroke="#bfbfbf" points="0,-666.5 110,-666.5 "/>
@@ -64,13 +64,13 @@
 <polyline fill="none" stroke="#bfbfbf" points="0,-647.5 110,-647.5 "/>
 <text text-anchor="middle" x="55" y="-635.5" font-family="FreeSans" font-size="10.00"> </text>
 </g>
-<!-- Node3&#45;&gt;Node2 -->
-<g id="edge2" class="edge"><title>Node3&#45;&gt;Node2</title>
+<!-- Node5&#45;&gt;Node4 -->
+<g id="edge2" class="edge"><title>Node5&#45;&gt;Node4</title>
 <path fill="none" stroke="midnightblue" d="M66.2029,-618.433C76.5147,-583.854 92.168,-531.363 105.388,-487.031"/>
 <polygon fill="none" stroke="midnightblue" points="62.8166,-617.541 63.3129,-628.124 69.5247,-619.541 62.8166,-617.541"/>
 </g>
-<!-- Node4 -->
-<g id="node4" class="node"><title>Node4</title>
+<!-- Node6 -->
+<g id="node4" class="node"><title>Node6</title>
 <g id="a_node4"><a xlink:title="STL class. ">
 <polygon fill="none" stroke="#bfbfbf" points="128.5,-628.5 128.5,-685.5 215.5,-685.5 215.5,-628.5 128.5,-628.5"/>
 <text text-anchor="middle" x="172" y="-673.5" font-family="FreeSans" font-size="10.00">std::map&lt; K, T &gt;</text>
@@ -81,14 +81,14 @@
 </a>
 </g>
 </g>
-<!-- Node4&#45;&gt;Node2 -->
-<g id="edge3" class="edge"><title>Node4&#45;&gt;Node2</title>
+<!-- Node6&#45;&gt;Node4 -->
+<g id="edge3" class="edge"><title>Node6&#45;&gt;Node4</title>
 <path fill="none" stroke="#404040" d="M167.345,-628.124C162.148,-597.005 153.456,-544.959 145.765,-498.905"/>
 <polygon fill="none" stroke="#404040" points="145.759,-498.868 140.826,-493.608 143.783,-487.031 148.716,-492.291 145.759,-498.868"/>
 <text text-anchor="middle" x="203.5" y="-602" font-family="FreeSans" font-size="10.00"> &#45;s_PagesByName</text>
 </g>
-<!-- Node5 -->
-<g id="node5" class="node"><title>Node5</title>
+<!-- Node7 -->
+<g id="node5" class="node"><title>Node7</title>
 <polygon fill="none" stroke="#bfbfbf" points="132.5,-733.5 132.5,-790.5 161.5,-790.5 161.5,-733.5 132.5,-733.5"/>
 <text text-anchor="middle" x="147" y="-778.5" font-family="FreeSans" font-size="10.00">K</text>
 <polyline fill="none" stroke="#bfbfbf" points="132.5,-771.5 161.5,-771.5 "/>
@@ -96,14 +96,14 @@
 <polyline fill="none" stroke="#bfbfbf" points="132.5,-752.5 161.5,-752.5 "/>
 <text text-anchor="middle" x="147" y="-740.5" font-family="FreeSans" font-size="10.00"> </text>
 </g>
-<!-- Node5&#45;&gt;Node4 -->
-<g id="edge4" class="edge"><title>Node5&#45;&gt;Node4</title>
+<!-- Node7&#45;&gt;Node6 -->
+<g id="edge4" class="edge"><title>Node7&#45;&gt;Node6</title>
 <path fill="none" stroke="#404040" d="M144.939,-733.406C144.9,-723.956 145.608,-713.4 148,-704 148.583,-701.709 149.299,-699.403 150.114,-697.111"/>
 <polygon fill="none" stroke="#404040" points="150.188,-696.937 148.843,-689.852 154.865,-685.886 156.21,-692.97 150.188,-696.937"/>
 <text text-anchor="middle" x="162" y="-707" font-family="FreeSans" font-size="10.00"> +keys</text>
 </g>
-<!-- Node6 -->
-<g id="node6" class="node"><title>Node6</title>
+<!-- Node8 -->
+<g id="node6" class="node"><title>Node8</title>
 <polygon fill="none" stroke="#bfbfbf" points="183.5,-733.5 183.5,-790.5 212.5,-790.5 212.5,-733.5 183.5,-733.5"/>
 <text text-anchor="middle" x="198" y="-778.5" font-family="FreeSans" font-size="10.00">T</text>
 <polyline fill="none" stroke="#bfbfbf" points="183.5,-771.5 212.5,-771.5 "/>
@@ -111,14 +111,14 @@
 <polyline fill="none" stroke="#bfbfbf" points="183.5,-752.5 212.5,-752.5 "/>
 <text text-anchor="middle" x="198" y="-740.5" font-family="FreeSans" font-size="10.00"> </text>
 </g>
-<!-- Node6&#45;&gt;Node4 -->
-<g id="edge5" class="edge"><title>Node6&#45;&gt;Node4</title>
+<!-- Node8&#45;&gt;Node6 -->
+<g id="edge5" class="edge"><title>Node8&#45;&gt;Node6</title>
 <path fill="none" stroke="#404040" d="M191.032,-733.398C188.264,-722.43 185.026,-709.603 182.014,-697.672"/>
 <polygon fill="none" stroke="#404040" points="181.924,-697.313 176.577,-692.475 178.987,-685.678 184.334,-690.517 181.924,-697.313"/>
 <text text-anchor="middle" x="210" y="-707" font-family="FreeSans" font-size="10.00"> +elements</text>
 </g>
-<!-- Node7 -->
-<g id="node7" class="node"><title>Node7</title>
+<!-- Node9 -->
+<g id="node7" class="node"><title>Node9</title>
 <g id="a_node7"><a xlink:href="classCompilerPanel" target="_top" xlink:title="{CompilerPanel\n|+ ID_STATICTEXT1\l+ ID_STATICTEXT2\l+ ID_COMBOBOX1\l+ ID_CHECKBOX1\l+ ID_TEXTCTRL3\l+ ID_STATICTEXT3\l+ ID_TEXTCTRL1\l+ ID_STATICTEXT4\land 7 more...\l&#45; StaticBoxSizer2\l&#45; txtDbgObjOut\l&#45; cmbCompiler\l&#45; txtRelName\l&#45; StaticText1\l&#45; BoxSizer4\l&#45; chkConfRelease\l&#45; txtDbgName\land 7 more...\l|+ CompilerPanel()\l+ ~CompilerPanel()\l+ GetCompilerCombo()\l+ EnableConfigurationTargets()\l+ SetWantDebug()\l+ GetWantDebug()\l+ SetDebugName()\l+ GetDebugName()\land 12 more...\l&#45; OnDebugChange()\l&#45; OnReleaseChange()\l}">
 <polygon fill="none" stroke="black" points="201.5,-226.5 201.5,-580.5 350.5,-580.5 350.5,-226.5 201.5,-226.5"/>
 <text text-anchor="middle" x="276" y="-568.5" font-family="FreeSans" font-size="10.00">CompilerPanel</text>
@@ -156,14 +156,14 @@
 </a>
 </g>
 </g>
-<!-- Node7&#45;&gt;Node1 -->
-<g id="edge6" class="edge"><title>Node7&#45;&gt;Node1</title>
+<!-- Node9&#45;&gt;Node3 -->
+<g id="edge6" class="edge"><title>Node9&#45;&gt;Node3</title>
 <path fill="none" stroke="#404040" d="M242.142,-226.44C239.795,-214.232 237.479,-202.191 235.254,-190.622"/>
 <polygon fill="none" stroke="#404040" points="235.237,-190.534 230.176,-185.397 232.971,-178.75 238.032,-183.887 235.237,-190.534"/>
 <text text-anchor="middle" x="282" y="-200" font-family="FreeSans" font-size="10.00"> &#45;m_pCompilerPanel</text>
 </g>
-<!-- Node8 -->
-<g id="node8" class="node"><title>Node8</title>
+<!-- Node10 -->
+<g id="node8" class="node"><title>Node10</title>
 <polygon fill="none" stroke="#bfbfbf" points="249.5,-628.5 249.5,-685.5 302.5,-685.5 302.5,-628.5 249.5,-628.5"/>
 <text text-anchor="middle" x="276" y="-673.5" font-family="FreeSans" font-size="10.00">wxPanel</text>
 <polyline fill="none" stroke="#bfbfbf" points="249.5,-666.5 302.5,-666.5 "/>
@@ -171,8 +171,8 @@
 <polyline fill="none" stroke="#bfbfbf" points="249.5,-647.5 302.5,-647.5 "/>
 <text text-anchor="middle" x="276" y="-635.5" font-family="FreeSans" font-size="10.00"> </text>
 </g>
-<!-- Node8&#45;&gt;Node7 -->
-<g id="edge7" class="edge"><title>Node8&#45;&gt;Node7</title>
+<!-- Node10&#45;&gt;Node9 -->
+<g id="edge7" class="edge"><title>Node10&#45;&gt;Node9</title>
 <path fill="none" stroke="midnightblue" d="M276,-617.844C276,-606.955 276,-594.323 276,-580.751"/>
 <polygon fill="none" stroke="midnightblue" points="272.5,-618.124 276,-628.124 279.5,-618.124 272.5,-618.124"/>
 </g>

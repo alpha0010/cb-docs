@@ -8,8 +8,8 @@
  viewBox="0.00 0.00 321.00 397.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 393)">
 <title>HeaderDirTraverser</title>
-<!-- Node1 -->
-<g id="node1" class="node"><title>Node1</title>
+<!-- Node2 -->
+<g id="node1" class="node"><title>Node2</title>
 <polygon fill="#bfbfbf" stroke="black" points="60,-0.5 60,-167.5 206,-167.5 206,-0.5 60,-0.5"/>
 <text text-anchor="middle" x="133" y="-155.5" font-family="FreeSans" font-size="10.00">HeaderDirTraverser</text>
 <polyline fill="none" stroke="black" points="60,-148.5 206,-148.5 "/>
@@ -27,8 +27,8 @@
 <text text-anchor="start" x="68" y="-18.5" font-family="FreeSans" font-size="10.00">&#45; AddLock()</text>
 <text text-anchor="start" x="68" y="-7.5" font-family="FreeSans" font-size="10.00">&#45; GetStatus()</text>
 </g>
-<!-- Node2 -->
-<g id="node2" class="node"><title>Node2</title>
+<!-- Node3 -->
+<g id="node2" class="node"><title>Node3</title>
 <polygon fill="none" stroke="#bfbfbf" points="0,-226.5 0,-283.5 80,-283.5 80,-226.5 0,-226.5"/>
 <text text-anchor="middle" x="40" y="-271.5" font-family="FreeSans" font-size="10.00">wxDirTraverser</text>
 <polyline fill="none" stroke="#bfbfbf" points="0,-264.5 80,-264.5 "/>
@@ -36,13 +36,13 @@
 <polyline fill="none" stroke="#bfbfbf" points="0,-245.5 80,-245.5 "/>
 <text text-anchor="middle" x="40" y="-233.5" font-family="FreeSans" font-size="10.00"> </text>
 </g>
-<!-- Node2&#45;&gt;Node1 -->
-<g id="edge1" class="edge"><title>Node2&#45;&gt;Node1</title>
+<!-- Node3&#45;&gt;Node2 -->
+<g id="edge1" class="edge"><title>Node3&#45;&gt;Node2</title>
 <path fill="none" stroke="midnightblue" d="M59.9797,-217.693C68.0985,-202.939 77.8377,-185.241 87.5179,-167.65"/>
 <polygon fill="none" stroke="midnightblue" points="56.9039,-216.023 55.149,-226.471 63.0366,-219.397 56.9039,-216.023"/>
 </g>
-<!-- Node3 -->
-<g id="node3" class="node"><title>Node3</title>
+<!-- Node4 -->
+<g id="node3" class="node"><title>Node4</title>
 <g id="a_node3"><a xlink:title="STL class. ">
 <polygon fill="none" stroke="#bfbfbf" points="98.5,-226.5 98.5,-283.5 185.5,-283.5 185.5,-226.5 98.5,-226.5"/>
 <text text-anchor="middle" x="142" y="-271.5" font-family="FreeSans" font-size="10.00">std::map&lt; K, T &gt;</text>
@@ -53,14 +53,14 @@
 </a>
 </g>
 </g>
-<!-- Node3&#45;&gt;Node1 -->
-<g id="edge2" class="edge"><title>Node3&#45;&gt;Node1</title>
+<!-- Node4&#45;&gt;Node2 -->
+<g id="edge2" class="edge"><title>Node4&#45;&gt;Node2</title>
 <path fill="none" stroke="#404040" d="M136.438,-226.367C135.436,-220.338 134.54,-213.974 134,-208 133.175,-198.878 132.599,-189.36 132.211,-179.835"/>
 <polygon fill="none" stroke="#404040" points="132.209,-179.788 128.014,-173.923 131.815,-167.795 136.01,-173.66 132.209,-179.788"/>
 <text text-anchor="middle" x="187" y="-194.5" font-family="FreeSans" font-size="10.00"> &#45;m_SystemHeadersMap</text>
 </g>
-<!-- Node4 -->
-<g id="node4" class="node"><title>Node4</title>
+<!-- Node5 -->
+<g id="node4" class="node"><title>Node5</title>
 <polygon fill="none" stroke="#bfbfbf" points="102.5,-331.5 102.5,-388.5 131.5,-388.5 131.5,-331.5 102.5,-331.5"/>
 <text text-anchor="middle" x="117" y="-376.5" font-family="FreeSans" font-size="10.00">K</text>
 <polyline fill="none" stroke="#bfbfbf" points="102.5,-369.5 131.5,-369.5 "/>
@@ -68,14 +68,14 @@
 <polyline fill="none" stroke="#bfbfbf" points="102.5,-350.5 131.5,-350.5 "/>
 <text text-anchor="middle" x="117" y="-338.5" font-family="FreeSans" font-size="10.00"> </text>
 </g>
-<!-- Node4&#45;&gt;Node3 -->
-<g id="edge3" class="edge"><title>Node4&#45;&gt;Node3</title>
+<!-- Node5&#45;&gt;Node4 -->
+<g id="edge3" class="edge"><title>Node5&#45;&gt;Node4</title>
 <path fill="none" stroke="#404040" d="M114.939,-331.406C114.9,-321.956 115.608,-311.4 118,-302 118.583,-299.709 119.299,-297.403 120.114,-295.111"/>
 <polygon fill="none" stroke="#404040" points="120.188,-294.937 118.843,-287.852 124.865,-283.886 126.21,-290.97 120.188,-294.937"/>
 <text text-anchor="middle" x="132" y="-305" font-family="FreeSans" font-size="10.00"> +keys</text>
 </g>
-<!-- Node5 -->
-<g id="node5" class="node"><title>Node5</title>
+<!-- Node6 -->
+<g id="node5" class="node"><title>Node6</title>
 <polygon fill="none" stroke="#bfbfbf" points="153.5,-331.5 153.5,-388.5 182.5,-388.5 182.5,-331.5 153.5,-331.5"/>
 <text text-anchor="middle" x="168" y="-376.5" font-family="FreeSans" font-size="10.00">T</text>
 <polyline fill="none" stroke="#bfbfbf" points="153.5,-369.5 182.5,-369.5 "/>
@@ -83,14 +83,14 @@
 <polyline fill="none" stroke="#bfbfbf" points="153.5,-350.5 182.5,-350.5 "/>
 <text text-anchor="middle" x="168" y="-338.5" font-family="FreeSans" font-size="10.00"> </text>
 </g>
-<!-- Node5&#45;&gt;Node3 -->
-<g id="edge4" class="edge"><title>Node5&#45;&gt;Node3</title>
+<!-- Node6&#45;&gt;Node4 -->
+<g id="edge4" class="edge"><title>Node6&#45;&gt;Node4</title>
 <path fill="none" stroke="#404040" d="M161.032,-331.398C158.264,-320.43 155.026,-307.603 152.014,-295.672"/>
 <polygon fill="none" stroke="#404040" points="151.924,-295.313 146.577,-290.475 148.987,-283.678 154.334,-288.517 151.924,-295.313"/>
 <text text-anchor="middle" x="180" y="-305" font-family="FreeSans" font-size="10.00"> +elements</text>
 </g>
-<!-- Node6 -->
-<g id="node6" class="node"><title>Node6</title>
+<!-- Node7 -->
+<g id="node6" class="node"><title>Node7</title>
 <polygon fill="none" stroke="#bfbfbf" points="212,-226.5 212,-283.5 312,-283.5 312,-226.5 212,-226.5"/>
 <text text-anchor="middle" x="262" y="-271.5" font-family="FreeSans" font-size="10.00">std::set&lt; wxString &gt;</text>
 <polyline fill="none" stroke="#bfbfbf" points="212,-264.5 312,-264.5 "/>
@@ -98,8 +98,8 @@
 <polyline fill="none" stroke="#bfbfbf" points="212,-245.5 312,-245.5 "/>
 <text text-anchor="middle" x="262" y="-233.5" font-family="FreeSans" font-size="10.00"> </text>
 </g>
-<!-- Node6&#45;&gt;Node1 -->
-<g id="edge5" class="edge"><title>Node6&#45;&gt;Node1</title>
+<!-- Node7&#45;&gt;Node2 -->
+<g id="edge5" class="edge"><title>Node7&#45;&gt;Node2</title>
 <path fill="none" stroke="#404040" d="M256.445,-226.482C253.017,-213.531 247.755,-198.272 240,-186 232.77,-174.559 223.95,-163.528 214.507,-153.227"/>
 <polygon fill="none" stroke="#404040" points="214.349,-153.06 207.314,-151.474 206.073,-144.37 213.108,-145.957 214.349,-153.06"/>
 <text text-anchor="middle" x="282" y="-200" font-family="FreeSans" font-size="10.00"> &#45;m_Headers</text>

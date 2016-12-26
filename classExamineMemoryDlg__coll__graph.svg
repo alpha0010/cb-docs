@@ -8,8 +8,8 @@
  viewBox="0.00 0.00 211.50 402.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 398)">
 <title>ExamineMemoryDlg</title>
-<!-- Node1 -->
-<g id="node1" class="node"><title>Node1</title>
+<!-- Node3 -->
+<g id="node1" class="node"><title>Node3</title>
 <polygon fill="#bfbfbf" stroke="black" points="11.5,-0.5 11.5,-200.5 151.5,-200.5 151.5,-0.5 11.5,-0.5"/>
 <text text-anchor="middle" x="81.5" y="-188.5" font-family="FreeSans" font-size="10.00">ExamineMemoryDlg</text>
 <polyline fill="none" stroke="black" points="11.5,-181.5 151.5,-181.5 "/>
@@ -30,8 +30,8 @@
 <text text-anchor="start" x="19.5" y="-18.5" font-family="FreeSans" font-size="10.00">+ EnableWindow()</text>
 <text text-anchor="start" x="19.5" y="-7.5" font-family="FreeSans" font-size="10.00"># OnGo()</text>
 </g>
-<!-- Node2 -->
-<g id="node2" class="node"><title>Node2</title>
+<!-- Node4 -->
+<g id="node2" class="node"><title>Node4</title>
 <polygon fill="none" stroke="#bfbfbf" points="0,-287 0,-344 53,-344 53,-287 0,-287"/>
 <text text-anchor="middle" x="26.5" y="-332" font-family="FreeSans" font-size="10.00">wxPanel</text>
 <polyline fill="none" stroke="#bfbfbf" points="0,-325 53,-325 "/>
@@ -39,13 +39,13 @@
 <polyline fill="none" stroke="#bfbfbf" points="0,-306 53,-306 "/>
 <text text-anchor="middle" x="26.5" y="-294" font-family="FreeSans" font-size="10.00"> </text>
 </g>
-<!-- Node2&#45;&gt;Node1 -->
-<g id="edge1" class="edge"><title>Node2&#45;&gt;Node1</title>
+<!-- Node4&#45;&gt;Node3 -->
+<g id="edge1" class="edge"><title>Node4&#45;&gt;Node3</title>
 <path fill="none" stroke="midnightblue" d="M36.2465,-276.755C41.7398,-255.48 48.884,-227.813 55.8669,-200.77"/>
 <polygon fill="none" stroke="midnightblue" points="32.8017,-276.096 33.6903,-286.654 39.5794,-277.847 32.8017,-276.096"/>
 </g>
-<!-- Node3 -->
-<g id="node3" class="node"><title>Node3</title>
+<!-- Node5 -->
+<g id="node3" class="node"><title>Node5</title>
 <g id="a_node3"><a xlink:href="classcbExamineMemoryDlg" target="_top" xlink:title="{cbExamineMemoryDlg\n||+ ~cbExamineMemoryDlg()\l+ GetWindow()\l+ Begin()\l+ End()\l+ Clear()\l+ GetBaseAddress()\l+ GetBytes()\l+ AddError()\l+ AddHexByte()\l+ EnableWindow()\l}">
 <polygon fill="none" stroke="black" points="71.5,-237.5 71.5,-393.5 203.5,-393.5 203.5,-237.5 71.5,-237.5"/>
 <text text-anchor="middle" x="137.5" y="-381.5" font-family="FreeSans" font-size="10.00">cbExamineMemoryDlg</text>
@@ -65,8 +65,8 @@
 </a>
 </g>
 </g>
-<!-- Node3&#45;&gt;Node1 -->
-<g id="edge2" class="edge"><title>Node3&#45;&gt;Node1</title>
+<!-- Node5&#45;&gt;Node3 -->
+<g id="edge2" class="edge"><title>Node5&#45;&gt;Node3</title>
 <path fill="none" stroke="midnightblue" d="M114.608,-227.429C112.288,-218.605 109.919,-209.596 107.569,-200.656"/>
 <polygon fill="none" stroke="midnightblue" points="111.276,-228.52 117.204,-237.301 118.046,-226.74 111.276,-228.52"/>
 </g>

@@ -8,8 +8,8 @@
  viewBox="0.00 0.00 149.00 435.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 431)">
 <title>cbWatchesDlg</title>
-<!-- Node1 -->
-<g id="node1" class="node"><title>Node1</title>
+<!-- Node0 -->
+<g id="node1" class="node"><title>Node0</title>
 <polygon fill="#bfbfbf" stroke="black" points="16.5,-292.5 16.5,-426.5 124.5,-426.5 124.5,-292.5 16.5,-292.5"/>
 <text text-anchor="middle" x="70.5" y="-414.5" font-family="FreeSans" font-size="10.00">cbWatchesDlg</text>
 <polyline fill="none" stroke="black" points="16.5,-407.5 124.5,-407.5 "/>
@@ -24,8 +24,8 @@
 <text text-anchor="start" x="24.5" y="-310.5" font-family="FreeSans" font-size="10.00">+ RenameWatch()</text>
 <text text-anchor="start" x="24.5" y="-299.5" font-family="FreeSans" font-size="10.00">+ RefreshUI()</text>
 </g>
-<!-- Node2 -->
-<g id="node2" class="node"><title>Node2</title>
+<!-- Node1 -->
+<g id="node2" class="node"><title>Node1</title>
 <g id="a_node2"><a xlink:href="classWatchesDlg" target="_top" xlink:title="{WatchesDlg\n|&#45; m_grid\l&#45; m_watches\l&#45; m_append_empty_watch\l|+ WatchesDlg()\l+ GetWindow()\l+ UpdateWatches()\l+ AddWatch()\l+ AddSpecialWatch()\l+ RemoveWatch()\l+ RenameWatch()\l+ RefreshUI()\l&#45; OnExpand()\l&#45; OnCollapse()\l&#45; OnPropertySelected()\l&#45; OnPropertyChanged()\l&#45; OnPropertyChanging()\l&#45; OnPropertyLableEditBegin()\l&#45; OnPropertyLableEditEnd()\l&#45; OnPropertyRightClick()\land 10 more...\l}">
 <polygon fill="none" stroke="black" points="0,-0.5 0,-255.5 141,-255.5 141,-0.5 0,-0.5"/>
 <text text-anchor="middle" x="70.5" y="-243.5" font-family="FreeSans" font-size="10.00">WatchesDlg</text>
@@ -54,8 +54,8 @@
 </a>
 </g>
 </g>
-<!-- Node1&#45;&gt;Node2 -->
-<g id="edge1" class="edge"><title>Node1&#45;&gt;Node2</title>
+<!-- Node0&#45;&gt;Node1 -->
+<g id="edge1" class="edge"><title>Node0&#45;&gt;Node1</title>
 <path fill="none" stroke="midnightblue" d="M70.5,-282.414C70.5,-273.741 70.5,-264.736 70.5,-255.629"/>
 <polygon fill="none" stroke="midnightblue" points="67.0001,-282.427 70.5,-292.427 74.0001,-282.427 67.0001,-282.427"/>
 </g>

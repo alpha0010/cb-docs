@@ -8,8 +8,8 @@
  viewBox="0.00 0.00 113.00 226.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 222)">
 <title>InfoPanel</title>
-<!-- Node1 -->
-<g id="node1" class="node"><title>Node1</title>
+<!-- Node0 -->
+<g id="node1" class="node"><title>Node0</title>
 <polygon fill="#bfbfbf" stroke="black" points="0,-0.5 0,-123.5 105,-123.5 105,-0.5 0,-0.5"/>
 <text text-anchor="middle" x="52.5" y="-111.5" font-family="FreeSans" font-size="10.00">InfoPanel</text>
 <polyline fill="none" stroke="black" points="0,-104.5 105,-104.5 "/>
@@ -23,8 +23,8 @@
 <text text-anchor="start" x="8" y="-18.5" font-family="FreeSans" font-size="10.00">+ ~InfoPanel()</text>
 <text text-anchor="start" x="8" y="-7.5" font-family="FreeSans" font-size="10.00">+ SetIntroText()</text>
 </g>
-<!-- Node2 -->
-<g id="node2" class="node"><title>Node2</title>
+<!-- Node1 -->
+<g id="node2" class="node"><title>Node1</title>
 <polygon fill="none" stroke="#bfbfbf" points="26,-160.5 26,-217.5 79,-217.5 79,-160.5 26,-160.5"/>
 <text text-anchor="middle" x="52.5" y="-205.5" font-family="FreeSans" font-size="10.00">wxPanel</text>
 <polyline fill="none" stroke="#bfbfbf" points="26,-198.5 79,-198.5 "/>
@@ -32,8 +32,8 @@
 <polyline fill="none" stroke="#bfbfbf" points="26,-179.5 79,-179.5 "/>
 <text text-anchor="middle" x="52.5" y="-167.5" font-family="FreeSans" font-size="10.00"> </text>
 </g>
-<!-- Node2&#45;&gt;Node1 -->
-<g id="edge1" class="edge"><title>Node2&#45;&gt;Node1</title>
+<!-- Node1&#45;&gt;Node0 -->
+<g id="edge1" class="edge"><title>Node1&#45;&gt;Node0</title>
 <path fill="none" stroke="midnightblue" d="M52.5,-150.099C52.5,-141.739 52.5,-132.68 52.5,-123.672"/>
 <polygon fill="none" stroke="midnightblue" points="49.0001,-150.258 52.5,-160.258 56.0001,-150.258 49.0001,-150.258"/>
 </g>

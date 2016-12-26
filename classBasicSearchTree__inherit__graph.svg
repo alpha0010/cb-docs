@@ -8,8 +8,8 @@
  viewBox="0.00 0.00 404.00 468.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 464)">
 <title>BasicSearchTree</title>
-<!-- Node1 -->
-<g id="node1" class="node"><title>Node1</title>
+<!-- Node0 -->
+<g id="node1" class="node"><title>Node0</title>
 <polygon fill="#bfbfbf" stroke="black" points="134,-204.5 134,-459.5 244,-459.5 244,-204.5 134,-204.5"/>
 <text text-anchor="middle" x="189" y="-447.5" font-family="FreeSans" font-size="10.00">BasicSearchTree</text>
 <polyline fill="none" stroke="black" points="134,-440.5 244,-440.5 "/>
@@ -35,8 +35,8 @@
 <text text-anchor="start" x="142" y="-222.5" font-family="FreeSans" font-size="10.00">&#45; CreateRootNode()</text>
 <text text-anchor="start" x="142" y="-211.5" font-family="FreeSans" font-size="10.00">&#45; SplitBranch()</text>
 </g>
-<!-- Node2 -->
-<g id="node2" class="node"><title>Node2</title>
+<!-- Node1 -->
+<g id="node2" class="node"><title>Node1</title>
 <g id="a_node2"><a xlink:href="classSearchTree" target="_top" xlink:title="this is a class template derived from BasicSearchTree class, the type T was stored in a vector...">
 <polygon fill="none" stroke="black" points="0,-0.5 0,-167.5 102,-167.5 102,-0.5 0,-0.5"/>
 <text text-anchor="middle" x="51" y="-155.5" font-family="FreeSans" font-size="10.00">SearchTree&lt; T &gt;</text>
@@ -57,13 +57,13 @@
 </a>
 </g>
 </g>
-<!-- Node1&#45;&gt;Node2 -->
-<g id="edge1" class="edge"><title>Node1&#45;&gt;Node2</title>
+<!-- Node0&#45;&gt;Node1 -->
+<g id="edge1" class="edge"><title>Node0&#45;&gt;Node1</title>
 <path fill="none" stroke="midnightblue" d="M128.877,-223.824C118.328,-205.02 107.498,-185.713 97.3941,-167.702"/>
 <polygon fill="none" stroke="midnightblue" points="125.919,-225.705 133.864,-232.714 132.024,-222.28 125.919,-225.705"/>
 </g>
-<!-- Node3 -->
-<g id="node3" class="node"><title>Node3</title>
+<!-- Node2 -->
+<g id="node3" class="node"><title>Node2</title>
 <g id="a_node3"><a xlink:href="classSearchTree" target="_top" xlink:title="{SearchTree\&lt; TokenIdxSet \&gt;\n|# m_Items\l|+ SearchTree()\l+ ~SearchTree()\l+ clear()\l+ GetCount()\l+ size()\l+ SaveCacheTo()\l+ LoadCacheFrom()\l+ Serialize()\land 8 more...\l# ClearItems()\l# AddFirstNullItem()\l}">
 <polygon fill="none" stroke="black" points="120,-0.5 120,-167.5 258,-167.5 258,-0.5 120,-0.5"/>
 <text text-anchor="middle" x="189" y="-155.5" font-family="FreeSans" font-size="10.00">SearchTree&lt; TokenIdxSet &gt;</text>
@@ -84,13 +84,13 @@
 </a>
 </g>
 </g>
-<!-- Node1&#45;&gt;Node3 -->
-<g id="edge2" class="edge"><title>Node1&#45;&gt;Node3</title>
+<!-- Node0&#45;&gt;Node2 -->
+<g id="edge2" class="edge"><title>Node0&#45;&gt;Node2</title>
 <path fill="none" stroke="midnightblue" d="M189,-194.182C189,-185.163 189,-176.244 189,-167.623"/>
 <polygon fill="none" stroke="midnightblue" points="185.5,-194.397 189,-204.397 192.5,-194.397 185.5,-194.397"/>
 </g>
-<!-- Node4 -->
-<g id="node4" class="node"><title>Node4</title>
+<!-- Node3 -->
+<g id="node4" class="node"><title>Node3</title>
 <g id="a_node4"><a xlink:href="classSearchTree" target="_top" xlink:title="{SearchTree\&lt; wxString \&gt;\n|# m_Items\l|+ SearchTree()\l+ ~SearchTree()\l+ clear()\l+ GetCount()\l+ size()\l+ SaveCacheTo()\l+ LoadCacheFrom()\l+ Serialize()\land 8 more...\l# ClearItems()\l# AddFirstNullItem()\l}">
 <polygon fill="none" stroke="black" points="276,-0.5 276,-167.5 396,-167.5 396,-0.5 276,-0.5"/>
 <text text-anchor="middle" x="336" y="-155.5" font-family="FreeSans" font-size="10.00">SearchTree&lt; wxString &gt;</text>
@@ -111,8 +111,8 @@
 </a>
 </g>
 </g>
-<!-- Node1&#45;&gt;Node4 -->
-<g id="edge3" class="edge"><title>Node1&#45;&gt;Node4</title>
+<!-- Node0&#45;&gt;Node3 -->
+<g id="edge3" class="edge"><title>Node0&#45;&gt;Node3</title>
 <path fill="none" stroke="midnightblue" d="M249.42,-229.89C261.785,-209.197 274.661,-187.65 286.585,-167.694"/>
 <polygon fill="none" stroke="midnightblue" points="246.281,-228.319 244.156,-238.699 252.29,-231.91 246.281,-228.319"/>
 </g>

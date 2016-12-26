@@ -8,8 +8,8 @@
  viewBox="0.00 0.00 871.00 672.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 668)">
 <title>Logger</title>
-<!-- Node1 -->
-<g id="node1" class="node"><title>Node1</title>
+<!-- Node0 -->
+<g id="node1" class="node"><title>Node0</title>
 <polygon fill="#bfbfbf" stroke="black" points="261.5,-507.5 261.5,-663.5 416.5,-663.5 416.5,-507.5 261.5,-507.5"/>
 <text text-anchor="middle" x="339" y="-651.5" font-family="FreeSans" font-size="10.00">Logger</text>
 <polyline fill="none" stroke="black" points="261.5,-644.5 416.5,-644.5 "/>
@@ -26,8 +26,8 @@
 <text text-anchor="start" x="269.5" y="-525.5" font-family="FreeSans" font-size="10.00">+ HasFeature()</text>
 <text text-anchor="start" x="269.5" y="-514.5" font-family="FreeSans" font-size="10.00">+ AppendAdditionalMenuItems()</text>
 </g>
-<!-- Node2 -->
-<g id="node2" class="node"><title>Node2</title>
+<!-- Node1 -->
+<g id="node2" class="node"><title>Node1</title>
 <g id="a_node2"><a xlink:href="classFileLogger" target="_top" xlink:title="a logger which prints messages to a file ">
 <polygon fill="none" stroke="black" points="15,-309 15,-410 91,-410 91,-309 15,-309"/>
 <text text-anchor="middle" x="53" y="-398" font-family="FreeSans" font-size="10.00">FileLogger</text>
@@ -42,13 +42,13 @@
 </a>
 </g>
 </g>
-<!-- Node1&#45;&gt;Node2 -->
-<g id="edge1" class="edge"><title>Node1&#45;&gt;Node2</title>
+<!-- Node0&#45;&gt;Node1 -->
+<g id="edge1" class="edge"><title>Node0&#45;&gt;Node1</title>
 <path fill="none" stroke="midnightblue" d="M252.312,-546.133C214.25,-526.841 170.481,-501.132 136,-471 116.036,-453.554 97.8429,-430.581 83.611,-410.103"/>
 <polygon fill="none" stroke="midnightblue" points="250.838,-549.309 261.348,-550.648 253.967,-543.047 250.838,-549.309"/>
 </g>
-<!-- Node4 -->
-<g id="node4" class="node"><title>Node4</title>
+<!-- Node3 -->
+<g id="node4" class="node"><title>Node3</title>
 <g id="a_node4"><a xlink:href="classListCtrlLogger" target="_top" xlink:title="a logger which prints messages to a wxListCtrl ">
 <polygon fill="none" stroke="black" points="145.5,-248.5 145.5,-470.5 288.5,-470.5 288.5,-248.5 145.5,-248.5"/>
 <text text-anchor="middle" x="217" y="-458.5" font-family="FreeSans" font-size="10.00">ListCtrlLogger</text>
@@ -74,13 +74,13 @@
 </a>
 </g>
 </g>
-<!-- Node1&#45;&gt;Node4 -->
-<g id="edge3" class="edge"><title>Node1&#45;&gt;Node4</title>
+<!-- Node0&#45;&gt;Node3 -->
+<g id="edge3" class="edge"><title>Node0&#45;&gt;Node3</title>
 <path fill="none" stroke="midnightblue" d="M292.101,-498.39C287.138,-489.278 282.043,-479.924 276.958,-470.588"/>
 <polygon fill="none" stroke="midnightblue" points="289.158,-500.304 297.015,-507.412 295.305,-496.956 289.158,-500.304"/>
 </g>
-<!-- Node7 -->
-<g id="node7" class="node"><title>Node7</title>
+<!-- Node6 -->
+<g id="node7" class="node"><title>Node6</title>
 <g id="a_node7"><a xlink:href="classNullLogger" target="_top" xlink:title="a logger simply does nothing ">
 <polygon fill="none" stroke="black" points="307,-331 307,-388 371,-388 371,-331 307,-331"/>
 <text text-anchor="middle" x="339" y="-376" font-family="FreeSans" font-size="10.00">NullLogger</text>
@@ -91,13 +91,13 @@
 </a>
 </g>
 </g>
-<!-- Node1&#45;&gt;Node7 -->
-<g id="edge6" class="edge"><title>Node1&#45;&gt;Node7</title>
+<!-- Node0&#45;&gt;Node6 -->
+<g id="edge6" class="edge"><title>Node0&#45;&gt;Node6</title>
 <path fill="none" stroke="midnightblue" d="M339,-497.131C339,-458.36 339,-415.446 339,-388.244"/>
 <polygon fill="none" stroke="midnightblue" points="335.5,-497.412 339,-507.412 342.5,-497.412 335.5,-497.412"/>
 </g>
-<!-- Node8 -->
-<g id="node8" class="node"><title>Node8</title>
+<!-- Node7 -->
+<g id="node8" class="node"><title>Node7</title>
 <g id="a_node8"><a xlink:href="classStdoutLogger" target="_top" xlink:title="a logger which prints messages to the standard console IO ">
 <polygon fill="none" stroke="black" points="389,-331 389,-388 463,-388 463,-331 389,-331"/>
 <text text-anchor="middle" x="426" y="-376" font-family="FreeSans" font-size="10.00">StdoutLogger</text>
@@ -108,13 +108,13 @@
 </a>
 </g>
 </g>
-<!-- Node1&#45;&gt;Node8 -->
-<g id="edge7" class="edge"><title>Node1&#45;&gt;Node8</title>
+<!-- Node0&#45;&gt;Node7 -->
+<g id="edge7" class="edge"><title>Node0&#45;&gt;Node7</title>
 <path fill="none" stroke="midnightblue" d="M372.741,-497.626C387.85,-458.726 404.614,-415.562 415.224,-388.244"/>
 <polygon fill="none" stroke="midnightblue" points="369.298,-496.823 368.94,-507.412 375.824,-499.357 369.298,-496.823"/>
 </g>
-<!-- Node9 -->
-<g id="node9" class="node"><title>Node9</title>
+<!-- Node8 -->
+<g id="node9" class="node"><title>Node8</title>
 <g id="a_node9"><a xlink:href="classTextCtrlLogger" target="_top" xlink:title="a logger which prints messages to a wxTextCtrl ">
 <polygon fill="none" stroke="black" points="549.5,-270.5 549.5,-448.5 692.5,-448.5 692.5,-270.5 549.5,-270.5"/>
 <text text-anchor="middle" x="621" y="-436.5" font-family="FreeSans" font-size="10.00">TextCtrlLogger</text>
@@ -136,13 +136,13 @@
 </a>
 </g>
 </g>
-<!-- Node1&#45;&gt;Node9 -->
-<g id="edge8" class="edge"><title>Node1&#45;&gt;Node9</title>
+<!-- Node0&#45;&gt;Node8 -->
+<g id="edge8" class="edge"><title>Node0&#45;&gt;Node8</title>
 <path fill="none" stroke="midnightblue" d="M424.671,-516.449C464.496,-484.815 511.32,-447.622 549.25,-417.493"/>
 <polygon fill="none" stroke="midnightblue" points="422.458,-513.738 416.804,-522.698 426.812,-519.219 422.458,-513.738"/>
 </g>
-<!-- Node3 -->
-<g id="node3" class="node"><title>Node3</title>
+<!-- Node2 -->
+<g id="node3" class="node"><title>Node2</title>
 <g id="a_node3"><a xlink:href="classHTMLFileLogger" target="_top" xlink:title="a logger which prints messages to an HTML file ">
 <polygon fill="none" stroke="black" points="0,-55.5 0,-156.5 102,-156.5 102,-55.5 0,-55.5"/>
 <text text-anchor="middle" x="51" y="-144.5" font-family="FreeSans" font-size="10.00">HTMLFileLogger</text>
@@ -157,13 +157,13 @@
 </a>
 </g>
 </g>
-<!-- Node2&#45;&gt;Node3 -->
-<g id="edge2" class="edge"><title>Node2&#45;&gt;Node3</title>
+<!-- Node1&#45;&gt;Node2 -->
+<g id="edge2" class="edge"><title>Node1&#45;&gt;Node2</title>
 <path fill="none" stroke="midnightblue" d="M52.5243,-298.681C52.1795,-255.319 51.7187,-197.375 51.3943,-156.585"/>
 <polygon fill="none" stroke="midnightblue" points="49.0254,-298.84 52.6049,-308.812 56.0251,-298.784 49.0254,-298.84"/>
 </g>
-<!-- Node5 -->
-<g id="node5" class="node"><title>Node5</title>
+<!-- Node4 -->
+<g id="node5" class="node"><title>Node4</title>
 <g id="a_node5"><a xlink:href="classcbSearchResultsLog" target="_top" xlink:title="{cbSearchResultsLog\n|# m_Base\l|+ cbSearchResultsLog()\l+ ~cbSearchResultsLog()\l+ FocusEntry()\l+ SetBasePath()\l+ CreateControl()\l# OnDoubleClick()\l# SyncEditor()\l}">
 <polygon fill="none" stroke="black" points="120.5,-44.5 120.5,-167.5 245.5,-167.5 245.5,-44.5 120.5,-44.5"/>
 <text text-anchor="middle" x="183" y="-155.5" font-family="FreeSans" font-size="10.00">cbSearchResultsLog</text>
@@ -180,13 +180,13 @@
 </a>
 </g>
 </g>
-<!-- Node4&#45;&gt;Node5 -->
-<g id="edge4" class="edge"><title>Node4&#45;&gt;Node5</title>
+<!-- Node3&#45;&gt;Node4 -->
+<g id="edge4" class="edge"><title>Node3&#45;&gt;Node4</title>
 <path fill="none" stroke="midnightblue" d="M200.728,-238.133C197.431,-213.745 194.097,-189.086 191.224,-167.835"/>
 <polygon fill="none" stroke="midnightblue" points="197.279,-238.748 202.087,-248.188 204.216,-237.81 197.279,-238.748"/>
 </g>
-<!-- Node6 -->
-<g id="node6" class="node"><title>Node6</title>
+<!-- Node5 -->
+<g id="node6" class="node"><title>Node5</title>
 <g id="a_node6"><a xlink:href="classCompilerMessages" target="_top" xlink:title="{CompilerMessages\n|&#45; m_pErrors\l&#45; m_autoFit\l|+ CompilerMessages()\l+ ~CompilerMessages()\l+ SetCompilerErrors()\l+ FocusError()\l+ AutoFitColumns()\l+ CreateControl()\l+ DestroyControls()\l+ HasFeature()\l+ AppendAdditionalMenuItems()\l&#45; OnClick()\l&#45; OnDoubleClick()\l&#45; OnFit()\l&#45; OnAutoFit()\l&#45; FitColumns()\l}">
 <polygon fill="none" stroke="black" points="263.5,-0.5 263.5,-211.5 418.5,-211.5 418.5,-0.5 263.5,-0.5"/>
 <text text-anchor="middle" x="341" y="-199.5" font-family="FreeSans" font-size="10.00">CompilerMessages</text>
@@ -211,13 +211,13 @@
 </a>
 </g>
 </g>
-<!-- Node4&#45;&gt;Node6 -->
-<g id="edge5" class="edge"><title>Node4&#45;&gt;Node6</title>
+<!-- Node3&#45;&gt;Node5 -->
+<g id="edge5" class="edge"><title>Node3&#45;&gt;Node5</title>
 <path fill="none" stroke="midnightblue" d="M275.893,-239.052C280.408,-229.894 284.946,-220.691 289.409,-211.639"/>
 <polygon fill="none" stroke="midnightblue" points="272.671,-237.672 271.388,-248.188 278.95,-240.767 272.671,-237.672"/>
 </g>
-<!-- Node10 -->
-<g id="node10" class="node"><title>Node10</title>
+<!-- Node9 -->
+<g id="node10" class="node"><title>Node9</title>
 <g id="a_node10"><a xlink:href="classBuildLogger" target="_top" xlink:title="{BuildLogger\n|+ progress\l&#45; panel\l&#45; sizer\l|+ BuildLogger()\l+ UpdateSettings()\l+ CreateControl()\l+ AddBuildProgressBar()\l+ RemoveBuildProgressBar()\l+ OpenLink()\l}">
 <polygon fill="none" stroke="black" points="437,-39 437,-173 577,-173 577,-39 437,-39"/>
 <text text-anchor="middle" x="507" y="-161" font-family="FreeSans" font-size="10.00">BuildLogger</text>
@@ -235,13 +235,13 @@
 </a>
 </g>
 </g>
-<!-- Node9&#45;&gt;Node10 -->
-<g id="edge9" class="edge"><title>Node9&#45;&gt;Node10</title>
+<!-- Node8&#45;&gt;Node9 -->
+<g id="edge9" class="edge"><title>Node8&#45;&gt;Node9</title>
 <path fill="none" stroke="midnightblue" d="M576.697,-260.762C563.426,-231.485 549.188,-200.073 537.062,-173.321"/>
 <polygon fill="none" stroke="midnightblue" points="573.652,-262.521 580.968,-270.184 580.027,-259.631 573.652,-262.521"/>
 </g>
-<!-- Node11 -->
-<g id="node11" class="node"><title>Node11</title>
+<!-- Node10 -->
+<g id="node11" class="node"><title>Node10</title>
 <g id="a_node11"><a xlink:href="classDebugTextCtrlLogger" target="_top" xlink:title="{DebugTextCtrlLogger\n|&#45; m_panel\l&#45; m_debugLog\l|+ DebugTextCtrlLogger()\l+ CreateTextCtrl()\l+ CreateControl()\l}">
 <polygon fill="none" stroke="black" points="595,-61 595,-151 717,-151 717,-61 595,-61"/>
 <text text-anchor="middle" x="656" y="-139" font-family="FreeSans" font-size="10.00">DebugTextCtrlLogger</text>
@@ -255,13 +255,13 @@
 </a>
 </g>
 </g>
-<!-- Node9&#45;&gt;Node11 -->
-<g id="edge10" class="edge"><title>Node9&#45;&gt;Node11</title>
+<!-- Node8&#45;&gt;Node10 -->
+<g id="edge10" class="edge"><title>Node8&#45;&gt;Node10</title>
 <path fill="none" stroke="midnightblue" d="M634.681,-260.189C639.918,-222.559 645.635,-181.483 649.829,-151.346"/>
 <polygon fill="none" stroke="midnightblue" points="631.202,-259.797 633.29,-270.184 638.136,-260.762 631.202,-259.797"/>
 </g>
-<!-- Node12 -->
-<g id="node12" class="node"><title>Node12</title>
+<!-- Node11 -->
+<g id="node12" class="node"><title>Node11</title>
 <g id="a_node12"><a xlink:href="classTimestampTextCtrlLogger" target="_top" xlink:title="an extended logger from TextCtrlLogger, since it add time stamps for each log message ...">
 <polygon fill="none" stroke="black" points="735,-77.5 735,-134.5 863,-134.5 863,-77.5 735,-77.5"/>
 <text text-anchor="middle" x="799" y="-122.5" font-family="FreeSans" font-size="10.00">TimestampTextCtrlLogger</text>
@@ -272,8 +272,8 @@
 </a>
 </g>
 </g>
-<!-- Node9&#45;&gt;Node12 -->
-<g id="edge11" class="edge"><title>Node9&#45;&gt;Node12</title>
+<!-- Node8&#45;&gt;Node11 -->
+<g id="edge11" class="edge"><title>Node8&#45;&gt;Node11</title>
 <path fill="none" stroke="midnightblue" d="M690.332,-262.18C702.27,-245.478 714.524,-228.257 726,-212 744.438,-185.882 765.231,-155.924 779.895,-134.71"/>
 <polygon fill="none" stroke="midnightblue" points="687.473,-260.161 684.503,-270.331 693.167,-264.233 687.473,-260.161"/>
 </g>

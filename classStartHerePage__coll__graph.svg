@@ -8,8 +8,8 @@
  viewBox="0.00 0.00 337.50 607.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 603)">
 <title>StartHerePage</title>
-<!-- Node1 -->
-<g id="node1" class="node"><title>Node1</title>
+<!-- Node3 -->
+<g id="node1" class="node"><title>Node3</title>
 <polygon fill="#bfbfbf" stroke="black" points="169.5,-0.5 169.5,-145.5 296.5,-145.5 296.5,-0.5 169.5,-0.5"/>
 <text text-anchor="middle" x="233" y="-133.5" font-family="FreeSans" font-size="10.00">StartHerePage</text>
 <polyline fill="none" stroke="black" points="169.5,-126.5 296.5,-126.5 "/>
@@ -25,8 +25,8 @@
 <text text-anchor="start" x="177.5" y="-18.5" font-family="FreeSans" font-size="10.00">+ Reload()</text>
 <text text-anchor="start" x="177.5" y="-7.5" font-family="FreeSans" font-size="10.00">&#45; RegisterColours()</text>
 </g>
-<!-- Node2 -->
-<g id="node2" class="node"><title>Node2</title>
+<!-- Node4 -->
+<g id="node2" class="node"><title>Node4</title>
 <g id="a_node2"><a xlink:href="classEditorBase" target="_top" xlink:title="Base class that all &quot;editors&quot; should inherit from. ">
 <polygon fill="none" stroke="black" points="0,-204.5 0,-503.5 150,-503.5 150,-204.5 0,-204.5"/>
 <text text-anchor="middle" x="75" y="-491.5" font-family="FreeSans" font-size="10.00">EditorBase</text>
@@ -59,13 +59,13 @@
 </a>
 </g>
 </g>
-<!-- Node2&#45;&gt;Node1 -->
-<g id="edge1" class="edge"><title>Node2&#45;&gt;Node1</title>
+<!-- Node4&#45;&gt;Node3 -->
+<g id="edge1" class="edge"><title>Node4&#45;&gt;Node3</title>
 <path fill="none" stroke="midnightblue" d="M155.128,-210.837C156.428,-208.541 157.719,-206.261 159,-204 169.688,-185.132 181.277,-164.742 192.041,-145.831"/>
 <polygon fill="none" stroke="midnightblue" points="151.957,-209.334 150.078,-219.761 158.049,-212.782 151.957,-209.334"/>
 </g>
-<!-- Node4 -->
-<g id="node4" class="node"><title>Node4</title>
+<!-- Node6 -->
+<g id="node4" class="node"><title>Node6</title>
 <g id="a_node4"><a xlink:href="structEditorBaseInternalData" target="_top" xlink:title="{EditorBaseInternalData\n|+ m_DisplayingPopupMenu\l+ m_CloseMe\l|+ EditorBaseInternalData()\l}">
 <polygon fill="none" stroke="black" points="1,-39 1,-107 135,-107 135,-39 1,-39"/>
 <text text-anchor="middle" x="68" y="-95" font-family="FreeSans" font-size="10.00">EditorBaseInternalData</text>
@@ -77,14 +77,14 @@
 </a>
 </g>
 </g>
-<!-- Node2&#45;&gt;Node4 -->
-<g id="edge4" class="edge"><title>Node2&#45;&gt;Node4</title>
+<!-- Node4&#45;&gt;Node6 -->
+<g id="edge4" class="edge"><title>Node4&#45;&gt;Node6</title>
 <path fill="none" stroke="#404040" d="M30.4496,-204.367C29.8505,-190.743 30.5364,-177.132 33,-164 35.8497,-148.81 41.1857,-132.889 46.8478,-118.733"/>
 <polygon fill="none" stroke="#404040" points="46.9957,-118.38 45.6252,-111.301 51.6333,-107.313 53.0037,-114.392 46.9957,-118.38"/>
 <text text-anchor="middle" x="60.5" y="-172.5" font-family="FreeSans" font-size="10.00"> +m_pOwner</text>
 </g>
-<!-- Node3 -->
-<g id="node3" class="node"><title>Node3</title>
+<!-- Node5 -->
+<g id="node3" class="node"><title>Node5</title>
 <polygon fill="none" stroke="#bfbfbf" points="48.5,-541.5 48.5,-598.5 101.5,-598.5 101.5,-541.5 48.5,-541.5"/>
 <text text-anchor="middle" x="75" y="-586.5" font-family="FreeSans" font-size="10.00">wxPanel</text>
 <polyline fill="none" stroke="#bfbfbf" points="48.5,-579.5 101.5,-579.5 "/>
@@ -92,19 +92,19 @@
 <polyline fill="none" stroke="#bfbfbf" points="48.5,-560.5 101.5,-560.5 "/>
 <text text-anchor="middle" x="75" y="-548.5" font-family="FreeSans" font-size="10.00"> </text>
 </g>
-<!-- Node3&#45;&gt;Node2 -->
-<g id="edge2" class="edge"><title>Node3&#45;&gt;Node2</title>
+<!-- Node5&#45;&gt;Node4 -->
+<g id="edge2" class="edge"><title>Node5&#45;&gt;Node4</title>
 <path fill="none" stroke="midnightblue" d="M75,-531.411C75,-523.03 75,-513.648 75,-503.696"/>
 <polygon fill="none" stroke="midnightblue" points="71.5001,-531.461 75,-541.461 78.5001,-531.461 71.5001,-531.461"/>
 </g>
-<!-- Node4&#45;&gt;Node2 -->
-<g id="edge3" class="edge"><title>Node4&#45;&gt;Node2</title>
+<!-- Node6&#45;&gt;Node4 -->
+<g id="edge3" class="edge"><title>Node6&#45;&gt;Node4</title>
 <path fill="none" stroke="#404040" d="M79.1153,-107.345C84.1379,-124.131 89.4996,-144.92 92,-164 93.2039,-173.187 93.9381,-182.637 94.2913,-192.181"/>
 <polygon fill="none" stroke="#404040" points="94.2939,-192.31 98.4168,-198.226 94.5415,-204.307 90.4185,-198.391 94.2939,-192.31"/>
 <text text-anchor="middle" x="117.5" y="-172.5" font-family="FreeSans" font-size="10.00"> #m_pData</text>
 </g>
-<!-- Node5 -->
-<g id="node5" class="node"><title>Node5</title>
+<!-- Node7 -->
+<g id="node5" class="node"><title>Node7</title>
 <g id="a_node5"><a xlink:href="classRecentItemsList" target="_top" xlink:title="{RecentItemsList\n|&#45; m_list\l&#45; m_menuName\l&#45; m_configPath\l&#45; m_menuID\l&#45; m_firstMenuItemID\l|+ RecentItemsList()\l+ AddToHistory()\l+ AskToRemoveFileFromHistory()\l+ GetHistoryFile()\l+ ClearHistory()\l+ Initialize()\l+ TerminateHistory()\l+ GetFileHistory()\l+ Empty()\l&#45; BuildMenu()\l&#45; ClearMenu()\l&#45; GetMenu()\l&#45; RefreshStartHerePage()\l}">
 <polygon fill="none" stroke="black" points="168.5,-237.5 168.5,-470.5 329.5,-470.5 329.5,-237.5 168.5,-237.5"/>
 <text text-anchor="middle" x="249" y="-458.5" font-family="FreeSans" font-size="10.00">RecentItemsList</text>
@@ -131,8 +131,8 @@
 </a>
 </g>
 </g>
-<!-- Node5&#45;&gt;Node1 -->
-<g id="edge5" class="edge"><title>Node5&#45;&gt;Node1</title>
+<!-- Node7&#45;&gt;Node3 -->
+<g id="edge5" class="edge"><title>Node7&#45;&gt;Node3</title>
 <path fill="none" stroke="#404040" d="M242.354,-237.103C240.826,-210.47 239.231,-182.654 237.8,-157.693"/>
 <polygon fill="none" stroke="#404040" points="237.798,-157.667 233.461,-151.906 237.111,-145.687 241.448,-151.448 237.798,-157.667"/>
 <text text-anchor="middle" x="267.5" y="-178" font-family="FreeSans" font-size="10.00"> #m_projects</text>

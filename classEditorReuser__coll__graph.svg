@@ -8,8 +8,8 @@
  viewBox="0.00 0.00 96.00 419.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 415)">
 <title>EditorReuser</title>
-<!-- Node1 -->
-<g id="node1" class="node"><title>Node1</title>
+<!-- Node3 -->
+<g id="node1" class="node"><title>Node3</title>
 <polygon fill="#bfbfbf" stroke="black" points="1,-0.5 1,-68.5 87,-68.5 87,-0.5 1,-0.5"/>
 <text text-anchor="middle" x="44" y="-56.5" font-family="FreeSans" font-size="10.00">EditorReuser</text>
 <polyline fill="none" stroke="black" points="1,-49.5 87,-49.5 "/>
@@ -18,8 +18,8 @@
 <text text-anchor="start" x="9" y="-18.5" font-family="FreeSans" font-size="10.00">+ EditorReuser()</text>
 <text text-anchor="start" x="9" y="-7.5" font-family="FreeSans" font-size="10.00">+ operator()()</text>
 </g>
-<!-- Node2 -->
-<g id="node2" class="node"><title>Node2</title>
+<!-- Node4 -->
+<g id="node2" class="node"><title>Node4</title>
 <g id="a_node2"><a xlink:href="classLoaderBase" target="_top" xlink:title="{LoaderBase\n|# fileName\l# data\l# len\l&#45; sem\l&#45; wait\l|+ LoaderBase()\l+ ~LoaderBase()\l+ operator()()\l+ FileName()\l+ Sync()\l+ GetData()\l+ GetLength()\l# Ready()\l&#45; WaitReady()\l}">
 <polygon fill="none" stroke="black" points="0.5,-105.5 0.5,-294.5 87.5,-294.5 87.5,-105.5 0.5,-105.5"/>
 <text text-anchor="middle" x="44" y="-282.5" font-family="FreeSans" font-size="10.00">LoaderBase</text>
@@ -42,13 +42,13 @@
 </a>
 </g>
 </g>
-<!-- Node2&#45;&gt;Node1 -->
-<g id="edge1" class="edge"><title>Node2&#45;&gt;Node1</title>
+<!-- Node4&#45;&gt;Node3 -->
+<g id="edge1" class="edge"><title>Node4&#45;&gt;Node3</title>
 <path fill="none" stroke="midnightblue" d="M44,-95.2665C44,-85.752 44,-76.6668 44,-68.5805"/>
 <polygon fill="none" stroke="midnightblue" points="40.5001,-95.3129 44,-105.313 47.5001,-95.313 40.5001,-95.3129"/>
 </g>
-<!-- Node3 -->
-<g id="node3" class="node"><title>Node3</title>
+<!-- Node5 -->
+<g id="node3" class="node"><title>Node5</title>
 <g id="a_node3"><a xlink:href="classAbstractJob" target="_top" xlink:title="{AbstractJob\n||+ AbstractJob()\l+ ~AbstractJob()\l+ operator()()\l}">
 <polygon fill="none" stroke="black" points="-7.10543e-15,-331.5 -7.10543e-15,-410.5 88,-410.5 88,-331.5 -7.10543e-15,-331.5"/>
 <text text-anchor="middle" x="44" y="-398.5" font-family="FreeSans" font-size="10.00">AbstractJob</text>
@@ -61,8 +61,8 @@
 </a>
 </g>
 </g>
-<!-- Node3&#45;&gt;Node2 -->
-<g id="edge2" class="edge"><title>Node3&#45;&gt;Node2</title>
+<!-- Node5&#45;&gt;Node4 -->
+<g id="edge2" class="edge"><title>Node5&#45;&gt;Node4</title>
 <path fill="none" stroke="midnightblue" d="M44,-320.967C44,-312.601 44,-303.669 44,-294.596"/>
 <polygon fill="none" stroke="midnightblue" points="40.5001,-321.228 44,-331.228 47.5001,-321.228 40.5001,-321.228"/>
 </g>

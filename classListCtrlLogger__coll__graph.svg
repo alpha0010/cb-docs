@@ -8,8 +8,8 @@
  viewBox="0.00 0.00 303.50 424.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 420)">
 <title>ListCtrlLogger</title>
-<!-- Node1 -->
-<g id="node1" class="node"><title>Node1</title>
+<!-- Node4 -->
+<g id="node1" class="node"><title>Node4</title>
 <polygon fill="#bfbfbf" stroke="black" points="84,-0.5 84,-211.5 227,-211.5 227,-0.5 84,-0.5"/>
 <text text-anchor="middle" x="155.5" y="-199.5" font-family="FreeSans" font-size="10.00">ListCtrlLogger</text>
 <polyline fill="none" stroke="black" points="84,-192.5 227,-192.5 "/>
@@ -31,8 +31,8 @@
 <text text-anchor="start" x="92" y="-18.5" font-family="FreeSans" font-size="10.00">+ AutoFitColumns()</text>
 <text text-anchor="start" x="92" y="-7.5" font-family="FreeSans" font-size="10.00"># GetItemAsText()</text>
 </g>
-<!-- Node2 -->
-<g id="node2" class="node"><title>Node2</title>
+<!-- Node5 -->
+<g id="node2" class="node"><title>Node5</title>
 <g id="a_node2"><a xlink:href="classLogger" target="_top" xlink:title="The base class for all kinds of loggers, see loggers.h for its derived classes. ">
 <polygon fill="none" stroke="black" points="0,-259.5 0,-415.5 155,-415.5 155,-259.5 0,-259.5"/>
 <text text-anchor="middle" x="77.5" y="-403.5" font-family="FreeSans" font-size="10.00">Logger</text>
@@ -52,13 +52,13 @@
 </a>
 </g>
 </g>
-<!-- Node2&#45;&gt;Node1 -->
-<g id="edge1" class="edge"><title>Node2&#45;&gt;Node1</title>
+<!-- Node5&#45;&gt;Node4 -->
+<g id="edge1" class="edge"><title>Node5&#45;&gt;Node4</title>
 <path fill="none" stroke="midnightblue" d="M106.911,-249.963C111.17,-237.432 115.592,-224.423 119.955,-211.584"/>
 <polygon fill="none" stroke="midnightblue" points="103.594,-248.847 103.69,-259.441 110.222,-251.1 103.594,-248.847"/>
 </g>
-<!-- Node3 -->
-<g id="node3" class="node"><title>Node3</title>
+<!-- Node6 -->
+<g id="node3" class="node"><title>Node6</title>
 <g id="a_node3"><a xlink:href="classListCtrlLogger#structListCtrlLogger_1_1ListStyles" target="_top" xlink:title="{ListCtrlLogger::ListStyles\n|+ font\l+ colour\l|}">
 <polygon fill="none" stroke="black" points="173.5,-303.5 173.5,-371.5 295.5,-371.5 295.5,-303.5 173.5,-303.5"/>
 <text text-anchor="middle" x="234.5" y="-359.5" font-family="FreeSans" font-size="10.00">ListCtrlLogger::ListStyles</text>
@@ -70,8 +70,8 @@
 </a>
 </g>
 </g>
-<!-- Node3&#45;&gt;Node1 -->
-<g id="edge2" class="edge"><title>Node3&#45;&gt;Node1</title>
+<!-- Node6&#45;&gt;Node4 -->
+<g id="edge2" class="edge"><title>Node6&#45;&gt;Node4</title>
 <path fill="none" stroke="#404040" d="M223.013,-303.129C215.646,-281.727 205.601,-252.545 195.511,-223.234"/>
 <polygon fill="none" stroke="#404040" points="195.403,-222.919 189.667,-218.548 191.497,-211.573 197.232,-215.944 195.403,-222.919"/>
 <text text-anchor="middle" x="214.5" y="-233" font-family="FreeSans" font-size="10.00"> #style</text>

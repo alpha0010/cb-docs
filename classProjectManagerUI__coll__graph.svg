@@ -8,8 +8,8 @@
  viewBox="0.00 0.00 536.00 926.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 922)">
 <title>ProjectManagerUI</title>
-<!-- Node1 -->
-<g id="node1" class="node"><title>Node1</title>
+<!-- Node3 -->
+<g id="node1" class="node"><title>Node3</title>
 <polygon fill="#bfbfbf" stroke="black" points="133,-0.5 133,-321.5 271,-321.5 271,-0.5 133,-0.5"/>
 <text text-anchor="middle" x="202" y="-309.5" font-family="FreeSans" font-size="10.00">ProjectManagerUI</text>
 <polyline fill="none" stroke="black" points="133,-302.5 271,-302.5 "/>
@@ -41,8 +41,8 @@
 <text text-anchor="start" x="141" y="-18.5" font-family="FreeSans" font-size="10.00">&#45; RemoveFilesRecursively()</text>
 <text text-anchor="start" x="141" y="-7.5" font-family="FreeSans" font-size="10.00">and 46 more...</text>
 </g>
-<!-- Node2 -->
-<g id="node2" class="node"><title>Node2</title>
+<!-- Node4 -->
+<g id="node2" class="node"><title>Node4</title>
 <polygon fill="none" stroke="#bfbfbf" points="0,-567.5 0,-624.5 74,-624.5 74,-567.5 0,-567.5"/>
 <text text-anchor="middle" x="37" y="-612.5" font-family="FreeSans" font-size="10.00">wxEvtHandler</text>
 <polyline fill="none" stroke="#bfbfbf" points="0,-605.5 74,-605.5 "/>
@@ -50,13 +50,13 @@
 <polyline fill="none" stroke="#bfbfbf" points="0,-586.5 74,-586.5 "/>
 <text text-anchor="middle" x="37" y="-574.5" font-family="FreeSans" font-size="10.00"> </text>
 </g>
-<!-- Node2&#45;&gt;Node1 -->
-<g id="edge1" class="edge"><title>Node2&#45;&gt;Node1</title>
+<!-- Node4&#45;&gt;Node3 -->
+<g id="edge1" class="edge"><title>Node4&#45;&gt;Node3</title>
 <path fill="none" stroke="midnightblue" d="M40.9166,-557.372C46.5149,-511.665 58.9063,-432.765 83,-369 96.0769,-334.392 114.5,-298.755 132.951,-267.013"/>
 <polygon fill="none" stroke="midnightblue" points="37.4263,-557.085 39.7296,-567.426 44.378,-557.905 37.4263,-557.085"/>
 </g>
-<!-- Node3 -->
-<g id="node3" class="node"><title>Node3</title>
+<!-- Node5 -->
+<g id="node3" class="node"><title>Node5</title>
 <g id="a_node3"><a xlink:href="classcbProjectManagerUI" target="_top" xlink:title="{cbProjectManagerUI\n||+ ~cbProjectManagerUI()\l+ GetNotebook()\l+ GetTree()\l+ RebuildTree()\l+ FreezeTree()\l+ UnfreezeTree()\l+ GetTreeSelection()\l+ ShowFileInTree()\land 13 more...\l}">
 <polygon fill="none" stroke="black" points="92.5,-523.5 92.5,-668.5 217.5,-668.5 217.5,-523.5 92.5,-523.5"/>
 <text text-anchor="middle" x="155" y="-656.5" font-family="FreeSans" font-size="10.00">cbProjectManagerUI</text>
@@ -75,13 +75,13 @@
 </a>
 </g>
 </g>
-<!-- Node3&#45;&gt;Node1 -->
-<g id="edge2" class="edge"><title>Node3&#45;&gt;Node1</title>
+<!-- Node5&#45;&gt;Node3 -->
+<g id="edge2" class="edge"><title>Node5&#45;&gt;Node3</title>
 <path fill="none" stroke="midnightblue" d="M163.867,-513.306C169.723,-459.357 177.593,-386.859 184.662,-321.734"/>
 <polygon fill="none" stroke="midnightblue" points="160.361,-513.18 162.761,-523.499 167.32,-513.935 160.361,-513.18"/>
 </g>
-<!-- Node4 -->
-<g id="node4" class="node"><title>Node4</title>
+<!-- Node6 -->
+<g id="node4" class="node"><title>Node6</title>
 <g id="a_node4"><a xlink:href="classcbAuiNotebook" target="_top" xlink:title="A notebook class This class is derived from wxAuiNotebook, to enhance its abilities. ">
 <polygon fill="none" stroke="black" points="236,-369.5 236,-822.5 388,-822.5 388,-369.5 236,-369.5"/>
 <text text-anchor="middle" x="312" y="-810.5" font-family="FreeSans" font-size="10.00">cbAuiNotebook</text>
@@ -128,14 +128,14 @@
 </a>
 </g>
 </g>
-<!-- Node4&#45;&gt;Node1 -->
-<g id="edge3" class="edge"><title>Node4&#45;&gt;Node1</title>
+<!-- Node6&#45;&gt;Node3 -->
+<g id="edge3" class="edge"><title>Node6&#45;&gt;Node3</title>
 <path fill="none" stroke="#404040" d="M254.664,-369.305C251.594,-357.22 248.533,-345.173 245.521,-333.315"/>
 <polygon fill="none" stroke="#404040" points="245.481,-333.156 240.127,-328.326 242.526,-321.526 247.88,-326.356 245.481,-333.156"/>
 <text text-anchor="middle" x="282" y="-343" font-family="FreeSans" font-size="10.00"> &#45;m_pNotebook</text>
 </g>
-<!-- Node5 -->
-<g id="node5" class="node"><title>Node5</title>
+<!-- Node7 -->
+<g id="node5" class="node"><title>Node7</title>
 <polygon fill="none" stroke="#bfbfbf" points="270.5,-860.5 270.5,-917.5 353.5,-917.5 353.5,-860.5 270.5,-860.5"/>
 <text text-anchor="middle" x="312" y="-905.5" font-family="FreeSans" font-size="10.00">wxAuiNotebook</text>
 <polyline fill="none" stroke="#bfbfbf" points="270.5,-898.5 353.5,-898.5 "/>
@@ -143,13 +143,13 @@
 <polyline fill="none" stroke="#bfbfbf" points="270.5,-879.5 353.5,-879.5 "/>
 <text text-anchor="middle" x="312" y="-867.5" font-family="FreeSans" font-size="10.00"> </text>
 </g>
-<!-- Node5&#45;&gt;Node4 -->
-<g id="edge4" class="edge"><title>Node5&#45;&gt;Node4</title>
+<!-- Node7&#45;&gt;Node6 -->
+<g id="edge4" class="edge"><title>Node7&#45;&gt;Node6</title>
 <path fill="none" stroke="midnightblue" d="M312,-850.178C312,-841.955 312,-832.691 312,-822.691"/>
 <polygon fill="none" stroke="midnightblue" points="308.5,-850.361 312,-860.361 315.5,-850.361 308.5,-850.361"/>
 </g>
-<!-- Node6 -->
-<g id="node6" class="node"><title>Node6</title>
+<!-- Node8 -->
+<g id="node6" class="node"><title>Node8</title>
 <g id="a_node6"><a xlink:href="classcbTreeCtrl" target="_top" xlink:title="{cbTreeCtrl\n|# Compare\l|+ cbTreeCtrl()\l+ cbTreeCtrl()\l+ SetCompareFunction()\l+ GetPrevVisible()\l# OnKeyDown()\l# OnCompareItems()\l# filesSort()\l# filesSortNameOnly()\l}">
 <polygon fill="none" stroke="black" points="406,-529 406,-663 528,-663 528,-529 406,-529"/>
 <text text-anchor="middle" x="467" y="-651" font-family="FreeSans" font-size="10.00">cbTreeCtrl</text>
@@ -167,14 +167,14 @@
 </a>
 </g>
 </g>
-<!-- Node6&#45;&gt;Node1 -->
-<g id="edge5" class="edge"><title>Node6&#45;&gt;Node1</title>
+<!-- Node8&#45;&gt;Node3 -->
+<g id="edge5" class="edge"><title>Node8&#45;&gt;Node3</title>
 <path fill="none" stroke="#404040" d="M454.865,-528.943C444.319,-482.058 426.073,-418.852 397,-369 366.361,-316.463 320.058,-266.557 280.26,-228.915"/>
 <polygon fill="none" stroke="#404040" points="280.118,-228.783 273.003,-227.608 271.351,-220.589 278.466,-221.763 280.118,-228.783"/>
 <text text-anchor="middle" x="407" y="-343" font-family="FreeSans" font-size="10.00"> &#45;m_pTree</text>
 </g>
-<!-- Node7 -->
-<g id="node7" class="node"><title>Node7</title>
+<!-- Node9 -->
+<g id="node7" class="node"><title>Node9</title>
 <polygon fill="none" stroke="#bfbfbf" points="436,-860.5 436,-917.5 498,-917.5 498,-860.5 436,-860.5"/>
 <text text-anchor="middle" x="467" y="-905.5" font-family="FreeSans" font-size="10.00">wxTreeCtrl</text>
 <polyline fill="none" stroke="#bfbfbf" points="436,-898.5 498,-898.5 "/>
@@ -182,8 +182,8 @@
 <polyline fill="none" stroke="#bfbfbf" points="436,-879.5 498,-879.5 "/>
 <text text-anchor="middle" x="467" y="-867.5" font-family="FreeSans" font-size="10.00"> </text>
 </g>
-<!-- Node7&#45;&gt;Node6 -->
-<g id="edge6" class="edge"><title>Node7&#45;&gt;Node6</title>
+<!-- Node9&#45;&gt;Node8 -->
+<g id="edge6" class="edge"><title>Node9&#45;&gt;Node8</title>
 <path fill="none" stroke="midnightblue" d="M467,-850.246C467,-802.936 467,-721.059 467,-663.23"/>
 <polygon fill="none" stroke="midnightblue" points="463.5,-850.361 467,-860.361 470.5,-850.361 463.5,-850.361"/>
 </g>

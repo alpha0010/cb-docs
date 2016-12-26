@@ -8,8 +8,8 @@
  viewBox="0.00 0.00 166.00 1305.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 1301)">
 <title>cbDebuggerPlugin</title>
-<!-- Node1 -->
-<g id="node1" class="node"><title>Node1</title>
+<!-- Node0 -->
+<g id="node1" class="node"><title>Node0</title>
 <polygon fill="#bfbfbf" stroke="black" points="0.5,-479.5 0.5,-954.5 157.5,-954.5 157.5,-479.5 0.5,-479.5"/>
 <text text-anchor="middle" x="79" y="-942.5" font-family="FreeSans" font-size="10.00">cbDebuggerPlugin</text>
 <polyline fill="none" stroke="black" points="0.5,-935.5 157.5,-935.5 "/>
@@ -55,8 +55,8 @@
 <text text-anchor="start" x="8.5" y="-497.5" font-family="FreeSans" font-size="10.00">&#45; OnCompilerFinished()</text>
 <text text-anchor="start" x="8.5" y="-486.5" font-family="FreeSans" font-size="10.00">&#45; OnEditorHook()</text>
 </g>
-<!-- Node4 -->
-<g id="node4" class="node"><title>Node4</title>
+<!-- Node3 -->
+<g id="node4" class="node"><title>Node3</title>
 <g id="a_node4"><a xlink:href="classDebuggerGDB" target="_top" xlink:title="{DebuggerGDB\n|&#45; m_State\l&#45; m_pProcess\l&#45; m_LastExitCode\l&#45; m_Pid\l&#45; m_PidToAttach\l&#45; m_EvalRect\l&#45; m_TimerPollDebugger\l&#45; m_NoDebugInfo\land 17 more...\l|+ DebuggerGDB()\l+ ~DebuggerGDB()\l+ GetProjectConfigurationPanel()\l+ OnAttachReal()\l+ OnReleaseReal()\l+ SupportsFeature()\l+ LoadConfig()\l+ GetActiveConfigEx()\land 60 more...\l+ ConvertToGDBFriendly()\l+ ConvertToGDBFile()\l+ ConvertToGDBDirectory()\l+ StripQuotes()\l# GetProject()\l# ResetProject()\l# ConvertDirectory()\l# CleanupWhenProjectClosed()\l# CompilerFinished()\l# AddSourceDir()\l&#45; ParseOutput()\l&#45; DoWatches()\l&#45; MarkAllWatchesAsUnchanged()\l&#45; LaunchProcess()\l&#45; DoDebug()\l&#45; DoBreak()\l&#45; OnAddSymbolFile()\l&#45; DeleteAllProjectBreakpoints()\land 21 more...\l}">
 <polygon fill="none" stroke="black" points="-1.42109e-14,-0.5 -1.42109e-14,-442.5 158,-442.5 158,-0.5 -1.42109e-14,-0.5"/>
 <text text-anchor="middle" x="79" y="-430.5" font-family="FreeSans" font-size="10.00">DebuggerGDB</text>
@@ -102,13 +102,13 @@
 </a>
 </g>
 </g>
-<!-- Node1&#45;&gt;Node4 -->
-<g id="edge3" class="edge"><title>Node1&#45;&gt;Node4</title>
+<!-- Node0&#45;&gt;Node3 -->
+<g id="edge3" class="edge"><title>Node0&#45;&gt;Node3</title>
 <path fill="none" stroke="midnightblue" d="M79,-469.318C79,-460.415 79,-451.512 79,-442.655"/>
 <polygon fill="none" stroke="midnightblue" points="75.5001,-469.368 79,-479.368 82.5001,-469.368 75.5001,-469.368"/>
 </g>
-<!-- Node2 -->
-<g id="node2" class="node"><title>Node2</title>
+<!-- Node1 -->
+<g id="node2" class="node"><title>Node1</title>
 <g id="a_node2"><a xlink:href="classcbPlugin" target="_top" xlink:title="Base class for plugins This is the most basic class a plugin must descend from. ">
 <polygon fill="none" stroke="black" points="-1.42109e-14,-991.5 -1.42109e-14,-1202.5 158,-1202.5 158,-991.5 -1.42109e-14,-991.5"/>
 <text text-anchor="middle" x="79" y="-1190.5" font-family="FreeSans" font-size="10.00">cbPlugin</text>
@@ -133,13 +133,13 @@
 </a>
 </g>
 </g>
-<!-- Node2&#45;&gt;Node1 -->
-<g id="edge1" class="edge"><title>Node2&#45;&gt;Node1</title>
+<!-- Node1&#45;&gt;Node0 -->
+<g id="edge1" class="edge"><title>Node1&#45;&gt;Node0</title>
 <path fill="none" stroke="midnightblue" d="M79,-981.377C79,-972.687 79,-963.747 79,-954.649"/>
 <polygon fill="none" stroke="midnightblue" points="75.5001,-981.459 79,-991.459 82.5001,-981.459 75.5001,-981.459"/>
 </g>
-<!-- Node3 -->
-<g id="node3" class="node"><title>Node3</title>
+<!-- Node2 -->
+<g id="node3" class="node"><title>Node2</title>
 <polygon fill="none" stroke="#bfbfbf" points="42,-1239.5 42,-1296.5 116,-1296.5 116,-1239.5 42,-1239.5"/>
 <text text-anchor="middle" x="79" y="-1284.5" font-family="FreeSans" font-size="10.00">wxEvtHandler</text>
 <polyline fill="none" stroke="#bfbfbf" points="42,-1277.5 116,-1277.5 "/>
@@ -147,8 +147,8 @@
 <polyline fill="none" stroke="#bfbfbf" points="42,-1258.5 116,-1258.5 "/>
 <text text-anchor="middle" x="79" y="-1246.5" font-family="FreeSans" font-size="10.00"> </text>
 </g>
-<!-- Node3&#45;&gt;Node2 -->
-<g id="edge2" class="edge"><title>Node3&#45;&gt;Node2</title>
+<!-- Node2&#45;&gt;Node1 -->
+<g id="edge2" class="edge"><title>Node2&#45;&gt;Node1</title>
 <path fill="none" stroke="midnightblue" d="M79,-1229.23C79,-1221.04 79,-1211.99 79,-1202.58"/>
 <polygon fill="none" stroke="midnightblue" points="75.5001,-1229.47 79,-1239.47 82.5001,-1229.47 75.5001,-1229.47"/>
 </g>

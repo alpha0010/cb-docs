@@ -8,8 +8,8 @@
  viewBox="0.00 0.00 219.50 574.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 570)">
 <title>wxMultiColumnListCtrl</title>
-<!-- Node1 -->
-<g id="node1" class="node"><title>Node1</title>
+<!-- Node2 -->
+<g id="node1" class="node"><title>Node2</title>
 <polygon fill="#bfbfbf" stroke="black" points="1.5,-0.5 1.5,-178.5 131.5,-178.5 131.5,-0.5 1.5,-0.5"/>
 <text text-anchor="middle" x="66.5" y="-166.5" font-family="FreeSans" font-size="10.00">wxMultiColumnListCtrl</text>
 <polyline fill="none" stroke="black" points="1.5,-159.5 131.5,-159.5 "/>
@@ -28,8 +28,8 @@
 <text text-anchor="start" x="9.5" y="-18.5" font-family="FreeSans" font-size="10.00">+ GetExtraNavigationKey()</text>
 <text text-anchor="start" x="9.5" y="-7.5" font-family="FreeSans" font-size="10.00">and 15 more...</text>
 </g>
-<!-- Node2 -->
-<g id="node2" class="node"><title>Node2</title>
+<!-- Node3 -->
+<g id="node2" class="node"><title>Node3</title>
 <polygon fill="none" stroke="#bfbfbf" points="0,-320 0,-377 59,-377 59,-320 0,-320"/>
 <text text-anchor="middle" x="29.5" y="-365" font-family="FreeSans" font-size="10.00">wxControl</text>
 <polyline fill="none" stroke="#bfbfbf" points="0,-358 59,-358 "/>
@@ -37,13 +37,13 @@
 <polyline fill="none" stroke="#bfbfbf" points="0,-339 59,-339 "/>
 <text text-anchor="middle" x="29.5" y="-327" font-family="FreeSans" font-size="10.00"> </text>
 </g>
-<!-- Node2&#45;&gt;Node1 -->
-<g id="edge1" class="edge"><title>Node2&#45;&gt;Node1</title>
+<!-- Node3&#45;&gt;Node2 -->
+<g id="edge1" class="edge"><title>Node3&#45;&gt;Node2</title>
 <path fill="none" stroke="midnightblue" d="M34.9078,-309.938C39.8515,-275.599 47.3539,-223.488 53.8071,-178.664"/>
 <polygon fill="none" stroke="midnightblue" points="31.4204,-309.6 33.4596,-319.996 38.349,-310.597 31.4204,-309.6"/>
 </g>
-<!-- Node3 -->
-<g id="node3" class="node"><title>Node3</title>
+<!-- Node4 -->
+<g id="node3" class="node"><title>Node4</title>
 <g id="a_node3"><a xlink:href="classwxSwitcherItems" target="_top" xlink:title="{wxSwitcherItems\n|# m_items\l# m_selection\l# m_rowCount\l# m_columnCount\l# m_backgroundColour\l# m_textColour\l# m_selectionColour\l# m_selectionOutlineColour\l# m_selectionTextColour\l# m_itemFont\l|+ wxSwitcherItems()\l+ wxSwitcherItems()\l+ operator==()\l+ operator=()\l+ Init()\l+ Copy()\l+ AddItem()\l+ AddItem()\land 31 more...\l}">
 <polygon fill="none" stroke="black" points="77.5,-226.5 77.5,-470.5 211.5,-470.5 211.5,-226.5 77.5,-226.5"/>
 <text text-anchor="middle" x="144.5" y="-458.5" font-family="FreeSans" font-size="10.00">wxSwitcherItems</text>
@@ -71,14 +71,14 @@
 </a>
 </g>
 </g>
-<!-- Node3&#45;&gt;Node1 -->
-<g id="edge2" class="edge"><title>Node3&#45;&gt;Node1</title>
+<!-- Node4&#45;&gt;Node2 -->
+<g id="edge2" class="edge"><title>Node4&#45;&gt;Node2</title>
 <path fill="none" stroke="#404040" d="M107.67,-226.15C104.031,-214.16 100.367,-202.088 96.805,-190.351"/>
 <polygon fill="none" stroke="#404040" points="96.7667,-190.225 91.1965,-185.645 93.2816,-178.742 98.8517,-183.322 96.7667,-190.225"/>
 <text text-anchor="middle" x="123" y="-200" font-family="FreeSans" font-size="10.00"> #m_items</text>
 </g>
-<!-- Node4 -->
-<g id="node4" class="node"><title>Node4</title>
+<!-- Node5 -->
+<g id="node4" class="node"><title>Node5</title>
 <polygon fill="none" stroke="#bfbfbf" points="116.5,-508.5 116.5,-565.5 172.5,-565.5 172.5,-508.5 116.5,-508.5"/>
 <text text-anchor="middle" x="144.5" y="-553.5" font-family="FreeSans" font-size="10.00">wxObject</text>
 <polyline fill="none" stroke="#bfbfbf" points="116.5,-546.5 172.5,-546.5 "/>
@@ -86,8 +86,8 @@
 <polyline fill="none" stroke="#bfbfbf" points="116.5,-527.5 172.5,-527.5 "/>
 <text text-anchor="middle" x="144.5" y="-515.5" font-family="FreeSans" font-size="10.00"> </text>
 </g>
-<!-- Node4&#45;&gt;Node3 -->
-<g id="edge3" class="edge"><title>Node4&#45;&gt;Node3</title>
+<!-- Node5&#45;&gt;Node4 -->
+<g id="edge3" class="edge"><title>Node5&#45;&gt;Node4</title>
 <path fill="none" stroke="midnightblue" d="M144.5,-498.327C144.5,-489.877 144.5,-480.467 144.5,-470.599"/>
 <polygon fill="none" stroke="midnightblue" points="141,-498.481 144.5,-508.481 148,-498.481 141,-498.481"/>
 </g>

@@ -8,8 +8,8 @@
  viewBox="0.00 0.00 124.00 457.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 453)">
 <title>BuildTargetPanel</title>
-<!-- Node1 -->
-<g id="node1" class="node"><title>Node1</title>
+<!-- Node0 -->
+<g id="node1" class="node"><title>Node0</title>
 <polygon fill="#bfbfbf" stroke="black" points="-7.10543e-15,-0.5 -7.10543e-15,-354.5 116,-354.5 116,-0.5 -7.10543e-15,-0.5"/>
 <text text-anchor="middle" x="58" y="-342.5" font-family="FreeSans" font-size="10.00">BuildTargetPanel</text>
 <polyline fill="none" stroke="black" points="-7.10543e-15,-335.5 116,-335.5 "/>
@@ -44,8 +44,8 @@
 <text text-anchor="start" x="8" y="-18.5" font-family="FreeSans" font-size="10.00">+ GetObjectOutputDir()</text>
 <text text-anchor="start" x="8" y="-7.5" font-family="FreeSans" font-size="10.00">&#45; OntxtNameText()</text>
 </g>
-<!-- Node2 -->
-<g id="node2" class="node"><title>Node2</title>
+<!-- Node1 -->
+<g id="node2" class="node"><title>Node1</title>
 <polygon fill="none" stroke="#bfbfbf" points="31.5,-391.5 31.5,-448.5 84.5,-448.5 84.5,-391.5 31.5,-391.5"/>
 <text text-anchor="middle" x="58" y="-436.5" font-family="FreeSans" font-size="10.00">wxPanel</text>
 <polyline fill="none" stroke="#bfbfbf" points="31.5,-429.5 84.5,-429.5 "/>
@@ -53,8 +53,8 @@
 <polyline fill="none" stroke="#bfbfbf" points="31.5,-410.5 84.5,-410.5 "/>
 <text text-anchor="middle" x="58" y="-398.5" font-family="FreeSans" font-size="10.00"> </text>
 </g>
-<!-- Node2&#45;&gt;Node1 -->
-<g id="edge1" class="edge"><title>Node2&#45;&gt;Node1</title>
+<!-- Node1&#45;&gt;Node0 -->
+<g id="edge1" class="edge"><title>Node1&#45;&gt;Node0</title>
 <path fill="none" stroke="midnightblue" d="M58,-381.175C58,-373.225 58,-364.348 58,-354.871"/>
 <polygon fill="none" stroke="midnightblue" points="54.5001,-381.412 58,-391.412 61.5001,-381.412 54.5001,-381.412"/>
 </g>

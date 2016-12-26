@@ -8,8 +8,8 @@
  viewBox="0.00 0.00 183.00 293.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 289)">
 <title>PipedProcess</title>
-<!-- Node1 -->
-<g id="node1" class="node"><title>Node1</title>
+<!-- Node2 -->
+<g id="node1" class="node"><title>Node2</title>
 <polygon fill="#bfbfbf" stroke="black" points="0,-0.5 0,-189.5 110,-189.5 110,-0.5 0,-0.5"/>
 <text text-anchor="middle" x="55" y="-177.5" font-family="FreeSans" font-size="10.00">PipedProcess</text>
 <polyline fill="none" stroke="black" points="0,-170.5 110,-170.5 "/>
@@ -29,14 +29,14 @@
 <text text-anchor="start" x="8" y="-18.5" font-family="FreeSans" font-size="10.00"># OnTimer()</text>
 <text text-anchor="start" x="8" y="-7.5" font-family="FreeSans" font-size="10.00"># OnIdle()</text>
 </g>
-<!-- Node1&#45;&gt;Node1 -->
-<g id="edge2" class="edge"><title>Node1&#45;&gt;Node1</title>
+<!-- Node2&#45;&gt;Node2 -->
+<g id="edge2" class="edge"><title>Node2&#45;&gt;Node2</title>
 <path fill="none" stroke="#404040" d="M110.073,-114.995C120.574,-112.603 128,-105.938 128,-95 128,-88.5059 125.382,-83.5179 121.057,-80.0362"/>
 <polygon fill="none" stroke="#404040" points="120.983,-80.0025 113.862,-81.1403 110.073,-75.0049 117.194,-73.867 120.983,-80.0025"/>
 <text text-anchor="middle" x="151.5" y="-92.5" font-family="FreeSans" font-size="10.00"> &#45;m_pvThis</text>
 </g>
-<!-- Node2 -->
-<g id="node2" class="node"><title>Node2</title>
+<!-- Node3 -->
+<g id="node2" class="node"><title>Node3</title>
 <polygon fill="none" stroke="#bfbfbf" points="24,-227.5 24,-284.5 86,-284.5 86,-227.5 24,-227.5"/>
 <text text-anchor="middle" x="55" y="-272.5" font-family="FreeSans" font-size="10.00">wxProcess</text>
 <polyline fill="none" stroke="#bfbfbf" points="24,-265.5 86,-265.5 "/>
@@ -44,8 +44,8 @@
 <polyline fill="none" stroke="#bfbfbf" points="24,-246.5 86,-246.5 "/>
 <text text-anchor="middle" x="55" y="-234.5" font-family="FreeSans" font-size="10.00"> </text>
 </g>
-<!-- Node2&#45;&gt;Node1 -->
-<g id="edge1" class="edge"><title>Node2&#45;&gt;Node1</title>
+<!-- Node3&#45;&gt;Node2 -->
+<g id="edge1" class="edge"><title>Node3&#45;&gt;Node2</title>
 <path fill="none" stroke="midnightblue" d="M55,-217.078C55,-208.598 55,-199.241 55,-189.597"/>
 <polygon fill="none" stroke="midnightblue" points="51.5001,-217.304 55,-227.304 58.5001,-217.304 51.5001,-217.304"/>
 </g>

@@ -8,8 +8,8 @@
  viewBox="0.00 0.00 130.00 358.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 354)">
 <title>ScriptConsole</title>
-<!-- Node1 -->
-<g id="node1" class="node"><title>Node1</title>
+<!-- Node2 -->
+<g id="node1" class="node"><title>Node2</title>
 <polygon fill="#bfbfbf" stroke="black" points="0,-0.5 0,-255.5 122,-255.5 122,-0.5 0,-0.5"/>
 <text text-anchor="middle" x="61" y="-243.5" font-family="FreeSans" font-size="10.00">ScriptConsole</text>
 <polyline fill="none" stroke="black" points="0,-236.5 122,-236.5 "/>
@@ -35,8 +35,8 @@
 <text text-anchor="start" x="8" y="-18.5" font-family="FreeSans" font-size="10.00"># OnbtnLoadClick()</text>
 <text text-anchor="start" x="8" y="-7.5" font-family="FreeSans" font-size="10.00"># OnbtnClearClick()</text>
 </g>
-<!-- Node2 -->
-<g id="node2" class="node"><title>Node2</title>
+<!-- Node3 -->
+<g id="node2" class="node"><title>Node3</title>
 <polygon fill="none" stroke="#bfbfbf" points="34.5,-292.5 34.5,-349.5 87.5,-349.5 87.5,-292.5 34.5,-292.5"/>
 <text text-anchor="middle" x="61" y="-337.5" font-family="FreeSans" font-size="10.00">wxPanel</text>
 <polyline fill="none" stroke="#bfbfbf" points="34.5,-330.5 87.5,-330.5 "/>
@@ -44,8 +44,8 @@
 <polyline fill="none" stroke="#bfbfbf" points="34.5,-311.5 87.5,-311.5 "/>
 <text text-anchor="middle" x="61" y="-299.5" font-family="FreeSans" font-size="10.00"> </text>
 </g>
-<!-- Node2&#45;&gt;Node1 -->
-<g id="edge1" class="edge"><title>Node2&#45;&gt;Node1</title>
+<!-- Node3&#45;&gt;Node2 -->
+<g id="edge1" class="edge"><title>Node3&#45;&gt;Node2</title>
 <path fill="none" stroke="midnightblue" d="M61,-282.196C61,-274.157 61,-265.246 61,-255.881"/>
 <polygon fill="none" stroke="midnightblue" points="57.5001,-282.227 61,-292.227 64.5001,-282.227 57.5001,-282.227"/>
 </g>

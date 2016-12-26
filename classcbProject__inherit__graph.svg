@@ -8,8 +8,8 @@
  viewBox="0.00 0.00 178.00 892.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 888)">
 <title>cbProject</title>
-<!-- Node1 -->
-<g id="node1" class="node"><title>Node1</title>
+<!-- Node0 -->
+<g id="node1" class="node"><title>Node0</title>
 <polygon fill="#bfbfbf" stroke="black" points="0,-0.5 0,-310.5 170,-310.5 170,-0.5 0,-0.5"/>
 <text text-anchor="middle" x="85" y="-298.5" font-family="FreeSans" font-size="10.00">cbProject</text>
 <polyline fill="none" stroke="black" points="0,-291.5 170,-291.5 "/>
@@ -40,8 +40,8 @@
 <text text-anchor="start" x="8" y="-18.5" font-family="FreeSans" font-size="10.00">&#45; CreateUniqueFilename()</text>
 <text text-anchor="start" x="8" y="-7.5" font-family="FreeSans" font-size="10.00">&#45; NotifyPlugins()</text>
 </g>
-<!-- Node2 -->
-<g id="node2" class="node"><title>Node2</title>
+<!-- Node1 -->
+<g id="node2" class="node"><title>Node1</title>
 <g id="a_node2"><a xlink:href="classCompileTargetBase" target="_top" xlink:title="Base class for build target classes Each Code::Blocks project consists of at least one target...">
 <polygon fill="none" stroke="black" points="7.5,-347.5 7.5,-613.5 162.5,-613.5 162.5,-347.5 7.5,-347.5"/>
 <text text-anchor="middle" x="85" y="-601.5" font-family="FreeSans" font-size="10.00">CompileTargetBase</text>
@@ -71,13 +71,13 @@
 </a>
 </g>
 </g>
-<!-- Node2&#45;&gt;Node1 -->
-<g id="edge1" class="edge"><title>Node2&#45;&gt;Node1</title>
+<!-- Node1&#45;&gt;Node0 -->
+<g id="edge1" class="edge"><title>Node1&#45;&gt;Node0</title>
 <path fill="none" stroke="midnightblue" d="M85,-337.002C85,-328.287 85,-319.498 85,-310.737"/>
 <polygon fill="none" stroke="midnightblue" points="81.5001,-337.192 85,-347.192 88.5001,-337.192 81.5001,-337.192"/>
 </g>
-<!-- Node3 -->
-<g id="node3" class="node"><title>Node3</title>
+<!-- Node2 -->
+<g id="node3" class="node"><title>Node2</title>
 <g id="a_node3"><a xlink:href="classCompileOptionsBase" target="_top" xlink:title="This is a base class for all classes needing compilation parameters. ">
 <polygon fill="none" stroke="black" points="10.5,-650.5 10.5,-883.5 159.5,-883.5 159.5,-650.5 10.5,-650.5"/>
 <text text-anchor="middle" x="85" y="-871.5" font-family="FreeSans" font-size="10.00">CompileOptionsBase</text>
@@ -104,8 +104,8 @@
 </a>
 </g>
 </g>
-<!-- Node3&#45;&gt;Node2 -->
-<g id="edge2" class="edge"><title>Node3&#45;&gt;Node2</title>
+<!-- Node2&#45;&gt;Node1 -->
+<g id="edge2" class="edge"><title>Node2&#45;&gt;Node1</title>
 <path fill="none" stroke="midnightblue" d="M85,-640.104C85,-631.395 85,-622.602 85,-613.859"/>
 <polygon fill="none" stroke="midnightblue" points="81.5001,-640.283 85,-650.283 88.5001,-640.283 81.5001,-640.283"/>
 </g>

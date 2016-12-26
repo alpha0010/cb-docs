@@ -8,8 +8,8 @@
  viewBox="0.00 0.00 124.00 452.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 448)">
 <title>MiscTreeItemData</title>
-<!-- Node1 -->
-<g id="node1" class="node"><title>Node1</title>
+<!-- Node0 -->
+<g id="node1" class="node"><title>Node0</title>
 <polygon fill="#bfbfbf" stroke="black" points="-7.10543e-15,-248.5 -7.10543e-15,-349.5 116,-349.5 116,-248.5 -7.10543e-15,-248.5"/>
 <text text-anchor="middle" x="58" y="-337.5" font-family="FreeSans" font-size="10.00">MiscTreeItemData</text>
 <polyline fill="none" stroke="black" points="-7.10543e-15,-330.5 116,-330.5 "/>
@@ -21,8 +21,8 @@
 <text text-anchor="start" x="8" y="-266.5" font-family="FreeSans" font-size="10.00">+ OwnerCheck()</text>
 <text text-anchor="start" x="8" y="-255.5" font-family="FreeSans" font-size="10.00"># SetOwner()</text>
 </g>
-<!-- Node3 -->
-<g id="node3" class="node"><title>Node3</title>
+<!-- Node2 -->
+<g id="node3" class="node"><title>Node2</title>
 <g id="a_node3"><a xlink:href="classFileTreeData" target="_top" xlink:title="{FileTreeData\n|&#45; m_Index\l&#45; m_Project\l&#45; m_file\l&#45; m_folder\l&#45; m_kind\l|+ FileTreeData()\l+ GetKind()\l+ GetProject()\l+ GetFileIndex()\l+ GetProjectFile()\l+ GetFolder()\l+ SetKind()\l+ SetProject()\l+ SetFileIndex()\l+ SetProjectFile()\l+ SetFolder()\l}">
 <polygon fill="none" stroke="black" points="11.5,-0.5 11.5,-211.5 104.5,-211.5 104.5,-0.5 11.5,-0.5"/>
 <text text-anchor="middle" x="58" y="-199.5" font-family="FreeSans" font-size="10.00">FileTreeData</text>
@@ -47,13 +47,13 @@
 </a>
 </g>
 </g>
-<!-- Node1&#45;&gt;Node3 -->
-<g id="edge2" class="edge"><title>Node1&#45;&gt;Node3</title>
+<!-- Node0&#45;&gt;Node2 -->
+<g id="edge2" class="edge"><title>Node0&#45;&gt;Node2</title>
 <path fill="none" stroke="midnightblue" d="M58,-238.18C58,-229.672 58,-220.724 58,-211.665"/>
 <polygon fill="none" stroke="midnightblue" points="54.5001,-238.316 58,-248.316 61.5001,-238.316 54.5001,-238.316"/>
 </g>
-<!-- Node2 -->
-<g id="node2" class="node"><title>Node2</title>
+<!-- Node1 -->
+<g id="node2" class="node"><title>Node1</title>
 <polygon fill="none" stroke="#bfbfbf" points="14.5,-386.5 14.5,-443.5 101.5,-443.5 101.5,-386.5 14.5,-386.5"/>
 <text text-anchor="middle" x="58" y="-431.5" font-family="FreeSans" font-size="10.00">wxTreeItemData</text>
 <polyline fill="none" stroke="#bfbfbf" points="14.5,-424.5 101.5,-424.5 "/>
@@ -61,8 +61,8 @@
 <polyline fill="none" stroke="#bfbfbf" points="14.5,-405.5 101.5,-405.5 "/>
 <text text-anchor="middle" x="58" y="-393.5" font-family="FreeSans" font-size="10.00"> </text>
 </g>
-<!-- Node2&#45;&gt;Node1 -->
-<g id="edge1" class="edge"><title>Node2&#45;&gt;Node1</title>
+<!-- Node1&#45;&gt;Node0 -->
+<g id="edge1" class="edge"><title>Node1&#45;&gt;Node0</title>
 <path fill="none" stroke="midnightblue" d="M58,-376.354C58,-367.796 58,-358.578 58,-349.608"/>
 <polygon fill="none" stroke="midnightblue" points="54.5001,-376.404 58,-386.404 61.5001,-376.404 54.5001,-376.404"/>
 </g>

@@ -8,8 +8,8 @@
  viewBox="0.00 0.00 141.00 512.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 508)">
 <title>CodeBlocksApp</title>
-<!-- Node1 -->
-<g id="node1" class="node"><title>Node1</title>
+<!-- Node0 -->
+<g id="node1" class="node"><title>Node0</title>
 <polygon fill="#bfbfbf" stroke="black" points="0,-0.5 0,-409.5 133,-409.5 133,-0.5 0,-0.5"/>
 <text text-anchor="middle" x="66.5" y="-397.5" font-family="FreeSans" font-size="10.00">CodeBlocksApp</text>
 <polyline fill="none" stroke="black" points="0,-390.5 133,-390.5 "/>
@@ -49,8 +49,8 @@
 <text text-anchor="start" x="8" y="-18.5" font-family="FreeSans" font-size="10.00">&#45; SetupPersonality()</text>
 <text text-anchor="start" x="8" y="-7.5" font-family="FreeSans" font-size="10.00">&#45; InitAssociations()</text>
 </g>
-<!-- Node2 -->
-<g id="node2" class="node"><title>Node2</title>
+<!-- Node1 -->
+<g id="node2" class="node"><title>Node1</title>
 <polygon fill="none" stroke="#bfbfbf" points="44,-446.5 44,-503.5 89,-503.5 89,-446.5 44,-446.5"/>
 <text text-anchor="middle" x="66.5" y="-491.5" font-family="FreeSans" font-size="10.00">wxApp</text>
 <polyline fill="none" stroke="#bfbfbf" points="44,-484.5 89,-484.5 "/>
@@ -58,8 +58,8 @@
 <polyline fill="none" stroke="#bfbfbf" points="44,-465.5 89,-465.5 "/>
 <text text-anchor="middle" x="66.5" y="-453.5" font-family="FreeSans" font-size="10.00"> </text>
 </g>
-<!-- Node2&#45;&gt;Node1 -->
-<g id="edge1" class="edge"><title>Node2&#45;&gt;Node1</title>
+<!-- Node1&#45;&gt;Node0 -->
+<g id="edge1" class="edge"><title>Node1&#45;&gt;Node0</title>
 <path fill="none" stroke="midnightblue" d="M66.5,-436.089C66.5,-428.125 66.5,-419.206 66.5,-409.63"/>
 <polygon fill="none" stroke="midnightblue" points="63.0001,-436.329 66.5,-446.329 70.0001,-436.329 63.0001,-436.329"/>
 </g>

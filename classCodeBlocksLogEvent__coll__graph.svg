@@ -8,8 +8,8 @@
  viewBox="0.00 0.00 233.50 347.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 343)">
 <title>CodeBlocksLogEvent</title>
-<!-- Node1 -->
-<g id="node1" class="node"><title>Node1</title>
+<!-- Node2 -->
+<g id="node1" class="node"><title>Node2</title>
 <polygon fill="#bfbfbf" stroke="black" points="26,-0.5 26,-134.5 148,-134.5 148,-0.5 26,-0.5"/>
 <text text-anchor="middle" x="87" y="-122.5" font-family="FreeSans" font-size="10.00">CodeBlocksLogEvent</text>
 <polyline fill="none" stroke="black" points="26,-115.5 148,-115.5 "/>
@@ -24,8 +24,8 @@
 <text text-anchor="start" x="34" y="-18.5" font-family="FreeSans" font-size="10.00">+ CodeBlocksLogEvent()</text>
 <text text-anchor="start" x="34" y="-7.5" font-family="FreeSans" font-size="10.00">+ Clone()</text>
 </g>
-<!-- Node2 -->
-<g id="node2" class="node"><title>Node2</title>
+<!-- Node3 -->
+<g id="node2" class="node"><title>Node3</title>
 <polygon fill="none" stroke="#bfbfbf" points="0,-232 0,-289 52,-289 52,-232 0,-232"/>
 <text text-anchor="middle" x="26" y="-277" font-family="FreeSans" font-size="10.00">wxEvent</text>
 <polyline fill="none" stroke="#bfbfbf" points="0,-270 52,-270 "/>
@@ -33,13 +33,13 @@
 <polyline fill="none" stroke="#bfbfbf" points="0,-251 52,-251 "/>
 <text text-anchor="middle" x="26" y="-239" font-family="FreeSans" font-size="10.00"> </text>
 </g>
-<!-- Node2&#45;&gt;Node1 -->
-<g id="edge1" class="edge"><title>Node2&#45;&gt;Node1</title>
+<!-- Node3&#45;&gt;Node2 -->
+<g id="edge1" class="edge"><title>Node3&#45;&gt;Node2</title>
 <path fill="none" stroke="midnightblue" d="M37.9848,-221.974C45.9161,-197.14 56.5349,-163.891 65.8607,-134.69"/>
 <polygon fill="none" stroke="midnightblue" points="34.5782,-221.136 34.8699,-231.727 41.2464,-223.266 34.5782,-221.136"/>
 </g>
-<!-- Node3 -->
-<g id="node3" class="node"><title>Node3</title>
+<!-- Node4 -->
+<g id="node3" class="node"><title>Node4</title>
 <g id="a_node3"><a xlink:href="classLogger" target="_top" xlink:title="The base class for all kinds of loggers, see loggers.h for its derived classes. ">
 <polygon fill="none" stroke="black" points="70.5,-182.5 70.5,-338.5 225.5,-338.5 225.5,-182.5 70.5,-182.5"/>
 <text text-anchor="middle" x="148" y="-326.5" font-family="FreeSans" font-size="10.00">Logger</text>
@@ -59,8 +59,8 @@
 </a>
 </g>
 </g>
-<!-- Node3&#45;&gt;Node1 -->
-<g id="edge2" class="edge"><title>Node3&#45;&gt;Node1</title>
+<!-- Node4&#45;&gt;Node2 -->
+<g id="edge2" class="edge"><title>Node4&#45;&gt;Node2</title>
 <path fill="none" stroke="#404040" d="M123.365,-182.364C119.57,-170.483 115.65,-158.208 111.851,-146.313"/>
 <polygon fill="none" stroke="#404040" points="111.753,-146.004 106.117,-141.506 108.102,-134.573 113.738,-139.072 111.753,-146.004"/>
 <text text-anchor="middle" x="135.5" y="-156" font-family="FreeSans" font-size="10.00"> +logger</text>

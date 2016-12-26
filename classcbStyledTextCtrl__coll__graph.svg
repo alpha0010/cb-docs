@@ -8,8 +8,8 @@
  viewBox="0.00 0.00 296.50 870.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 866)">
 <title>cbStyledTextCtrl</title>
-<!-- Node1 -->
-<g id="node1" class="node"><title>Node1</title>
+<!-- Node3 -->
+<g id="node1" class="node"><title>Node3</title>
 <polygon fill="#bfbfbf" stroke="black" points="71.5,-0.5 71.5,-387.5 223.5,-387.5 223.5,-0.5 71.5,-0.5"/>
 <text text-anchor="middle" x="147.5" y="-375.5" font-family="FreeSans" font-size="10.00">cbStyledTextCtrl</text>
 <polyline fill="none" stroke="black" points="71.5,-368.5 223.5,-368.5 "/>
@@ -47,8 +47,8 @@
 <text text-anchor="start" x="79.5" y="-18.5" font-family="FreeSans" font-size="10.00">&#45; HighlightRightBrace()</text>
 <text text-anchor="start" x="79.5" y="-7.5" font-family="FreeSans" font-size="10.00">&#45; EmulateDwellStart()</text>
 </g>
-<!-- Node2 -->
-<g id="node2" class="node"><title>Node2</title>
+<!-- Node4 -->
+<g id="node2" class="node"><title>Node4</title>
 <g id="a_node2"><a xlink:href="classwxScintilla" target="_top" xlink:title="{wxScintilla\n|# m_swx\l# m_stopWatch\l# m_vScrollBar\l# m_hScrollBar\l# m_lastKeyDownConsumed\l|+ wxScintilla()\l+ wxScintilla()\l+ ~wxScintilla()\l+ Create()\l+ AddText()\l+ AddText()\l+ AddStyledText()\l+ InsertText()\land 703 more...\l# GetValue()\l# SetValue()\l# DoSetValue()\l# DoGetValue()\l# GetEditableWindow()\l# DoLoadFile()\l# DoSaveFile()\l# OnPaint()\land 26 more...\l}">
 <polygon fill="none" stroke="black" points="0,-468.5 0,-756.5 139,-756.5 139,-468.5 0,-468.5"/>
 <text text-anchor="middle" x="69.5" y="-744.5" font-family="FreeSans" font-size="10.00">wxScintilla</text>
@@ -80,13 +80,13 @@
 </a>
 </g>
 </g>
-<!-- Node2&#45;&gt;Node1 -->
-<g id="edge1" class="edge"><title>Node2&#45;&gt;Node1</title>
+<!-- Node4&#45;&gt;Node3 -->
+<g id="edge1" class="edge"><title>Node4&#45;&gt;Node3</title>
 <path fill="none" stroke="midnightblue" d="M98.1858,-458.325C102.488,-435.355 106.97,-411.421 111.402,-387.756"/>
 <polygon fill="none" stroke="midnightblue" points="94.6892,-457.982 96.2886,-468.456 101.57,-459.271 94.6892,-457.982"/>
 </g>
-<!-- Node3 -->
-<g id="node3" class="node"><title>Node3</title>
+<!-- Node5 -->
+<g id="node3" class="node"><title>Node5</title>
 <polygon fill="none" stroke="#bfbfbf" points="40,-804.5 40,-861.5 99,-861.5 99,-804.5 40,-804.5"/>
 <text text-anchor="middle" x="69.5" y="-849.5" font-family="FreeSans" font-size="10.00">wxControl</text>
 <polyline fill="none" stroke="#bfbfbf" points="40,-842.5 99,-842.5 "/>
@@ -94,13 +94,13 @@
 <polyline fill="none" stroke="#bfbfbf" points="40,-823.5 99,-823.5 "/>
 <text text-anchor="middle" x="69.5" y="-811.5" font-family="FreeSans" font-size="10.00"> </text>
 </g>
-<!-- Node3&#45;&gt;Node2 -->
-<g id="edge2" class="edge"><title>Node3&#45;&gt;Node2</title>
+<!-- Node5&#45;&gt;Node4 -->
+<g id="edge2" class="edge"><title>Node5&#45;&gt;Node4</title>
 <path fill="none" stroke="midnightblue" d="M69.5,-794.302C69.5,-783.257 69.5,-770.471 69.5,-756.903"/>
 <polygon fill="none" stroke="midnightblue" points="66.0001,-794.327 69.5,-804.327 73.0001,-794.327 66.0001,-794.327"/>
 </g>
-<!-- Node4 -->
-<g id="node4" class="node"><title>Node4</title>
+<!-- Node6 -->
+<g id="node4" class="node"><title>Node6</title>
 <polygon fill="none" stroke="#bfbfbf" points="157,-578.5 157,-646.5 246,-646.5 246,-578.5 157,-578.5"/>
 <text text-anchor="start" x="165" y="-634.5" font-family="FreeSans" font-size="10.00">std::map&lt; int, std</text>
 <text text-anchor="middle" x="201.5" y="-623.5" font-family="FreeSans" font-size="10.00">::set&lt; int &gt; &gt;</text>
@@ -109,8 +109,8 @@
 <polyline fill="none" stroke="#bfbfbf" points="157,-597.5 246,-597.5 "/>
 <text text-anchor="middle" x="201.5" y="-585.5" font-family="FreeSans" font-size="10.00"> </text>
 </g>
-<!-- Node4&#45;&gt;Node1 -->
-<g id="edge3" class="edge"><title>Node4&#45;&gt;Node1</title>
+<!-- Node6&#45;&gt;Node3 -->
+<g id="edge3" class="edge"><title>Node6&#45;&gt;Node3</title>
 <path fill="none" stroke="#404040" d="M197.218,-578.47C192.077,-538.819 183.02,-468.964 174.032,-399.642"/>
 <polygon fill="none" stroke="#404040" points="174.017,-399.522 169.278,-394.086 172.474,-387.622 177.212,-393.058 174.017,-399.522"/>
 <text text-anchor="middle" x="234" y="-442" font-family="FreeSans" font-size="10.00"> &#45;CharacterLexerStyles</text>
@@ -118,8 +118,8 @@
 <text text-anchor="middle" x="234" y="-420" font-family="FreeSans" font-size="10.00">&#45;StringLexerStyles</text>
 <text text-anchor="middle" x="234" y="-409" font-family="FreeSans" font-size="10.00">&#45;CommentLexerStyles</text>
 </g>
-<!-- Node5 -->
-<g id="node5" class="node"><title>Node5</title>
+<!-- Node7 -->
+<g id="node5" class="node"><title>Node7</title>
 <polygon fill="none" stroke="#bfbfbf" points="164.5,-804.5 164.5,-861.5 238.5,-861.5 238.5,-804.5 164.5,-804.5"/>
 <text text-anchor="middle" x="201.5" y="-849.5" font-family="FreeSans" font-size="10.00">std::set&lt; int &gt;</text>
 <polyline fill="none" stroke="#bfbfbf" points="164.5,-842.5 238.5,-842.5 "/>
@@ -127,8 +127,8 @@
 <polyline fill="none" stroke="#bfbfbf" points="164.5,-823.5 238.5,-823.5 "/>
 <text text-anchor="middle" x="201.5" y="-811.5" font-family="FreeSans" font-size="10.00"> </text>
 </g>
-<!-- Node5&#45;&gt;Node4 -->
-<g id="edge4" class="edge"><title>Node5&#45;&gt;Node4</title>
+<!-- Node7&#45;&gt;Node6 -->
+<g id="edge4" class="edge"><title>Node7&#45;&gt;Node6</title>
 <path fill="none" stroke="#404040" d="M201.5,-804.327C201.5,-767.667 201.5,-702.536 201.5,-658.69"/>
 <polygon fill="none" stroke="#404040" points="201.5,-658.652 197.5,-652.652 201.5,-646.652 205.5,-652.652 201.5,-658.652"/>
 <text text-anchor="middle" x="225.5" y="-778" font-family="FreeSans" font-size="10.00"> +elements</text>

@@ -8,9 +8,8 @@
  viewBox="0.00 0.00 166.00 442.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 438)">
 <title>cbStatusBar::cbStatusBarElement</title>
-<polygon fill="white" stroke="none" points="-4,4 -4,-438 162,-438 162,4 -4,4"/>
-<!-- Node1 -->
-<g id="node1" class="node"><title>Node1</title>
+<!-- Node10 -->
+<g id="node1" class="node"><title>Node10</title>
 <polygon fill="#bfbfbf" stroke="black" points="15,-0.5 15,-79.5 143,-79.5 143,-0.5 15,-0.5"/>
 <text text-anchor="start" x="23" y="-67.5" font-family="FreeSans" font-size="10.00">cbStatusBar::cbStatusBar</text>
 <text text-anchor="middle" x="79" y="-56.5" font-family="FreeSans" font-size="10.00">Element</text>
@@ -20,10 +19,10 @@
 <polyline fill="none" stroke="black" points="15,-19.5 143,-19.5 "/>
 <text text-anchor="middle" x="79" y="-7.5" font-family="FreeSans" font-size="10.00"> </text>
 </g>
-<!-- Node2 -->
-<g id="node2" class="node"><title>Node2</title>
-<g id="a_node2"><a xlink:href="classcbPlugin" target="_top" target="_top" xlink:title="Base class for plugins This is the most basic class a plugin must descend from. ">
-<polygon fill="white" stroke="black" points="-1.42109e-14,-127.5 -1.42109e-14,-338.5 158,-338.5 158,-127.5 -1.42109e-14,-127.5"/>
+<!-- Node11 -->
+<g id="node2" class="node"><title>Node11</title>
+<g id="a_node2"><a xlink:href="classcbPlugin" target="_top" xlink:title="Base class for plugins This is the most basic class a plugin must descend from. ">
+<polygon fill="none" stroke="black" points="-1.42109e-14,-127.5 -1.42109e-14,-338.5 158,-338.5 158,-127.5 -1.42109e-14,-127.5"/>
 <text text-anchor="middle" x="79" y="-326.5" font-family="FreeSans" font-size="10.00">cbPlugin</text>
 <polyline fill="none" stroke="black" points="-1.42109e-14,-319.5 158,-319.5 "/>
 <text text-anchor="start" x="8" y="-307.5" font-family="FreeSans" font-size="10.00"># m_Type</text>
@@ -37,7 +36,7 @@
 <text text-anchor="start" x="8" y="-222.5" font-family="FreeSans" font-size="10.00">+ GetConfigurationPanel()</text>
 <text text-anchor="start" x="8" y="-211.5" font-family="FreeSans" font-size="10.00">+ GetProjectConfigurationPanel()</text>
 <text text-anchor="start" x="8" y="-200.5" font-family="FreeSans" font-size="10.00">+ BuildMenu()</text>
-<text text-anchor="start" x="8" y="-189.5" font-family="FreeSans" font-size="10.00">and 6 more...</text>
+<text text-anchor="start" x="8" y="-189.5" font-family="FreeSans" font-size="10.00">and 5 more...</text>
 <text text-anchor="start" x="8" y="-178.5" font-family="FreeSans" font-size="10.00"># OnAttach()</text>
 <text text-anchor="start" x="8" y="-167.5" font-family="FreeSans" font-size="10.00"># OnRelease()</text>
 <text text-anchor="start" x="8" y="-156.5" font-family="FreeSans" font-size="10.00"># NotImplemented()</text>
@@ -46,23 +45,23 @@
 </a>
 </g>
 </g>
-<!-- Node2&#45;&gt;Node1 -->
-<g id="edge1" class="edge"><title>Node2&#45;&gt;Node1</title>
+<!-- Node11&#45;&gt;Node10 -->
+<g id="edge1" class="edge"><title>Node11&#45;&gt;Node10</title>
 <path fill="none" stroke="#404040" d="M79,-127.28C79,-114.906 79,-102.741 79,-91.626"/>
 <polygon fill="none" stroke="#404040" points="79.0001,-91.5673 75,-85.5673 79,-79.5673 83,-85.5672 79.0001,-91.5673"/>
 <text text-anchor="middle" x="96" y="-101" font-family="FreeSans" font-size="10.00"> +plugin</text>
 </g>
-<!-- Node3 -->
-<g id="node3" class="node"><title>Node3</title>
-<polygon fill="white" stroke="#bfbfbf" points="42,-376.5 42,-433.5 116,-433.5 116,-376.5 42,-376.5"/>
+<!-- Node12 -->
+<g id="node3" class="node"><title>Node12</title>
+<polygon fill="none" stroke="#bfbfbf" points="42,-376.5 42,-433.5 116,-433.5 116,-376.5 42,-376.5"/>
 <text text-anchor="middle" x="79" y="-421.5" font-family="FreeSans" font-size="10.00">wxEvtHandler</text>
 <polyline fill="none" stroke="#bfbfbf" points="42,-414.5 116,-414.5 "/>
 <text text-anchor="middle" x="79" y="-402.5" font-family="FreeSans" font-size="10.00"> </text>
 <polyline fill="none" stroke="#bfbfbf" points="42,-395.5 116,-395.5 "/>
 <text text-anchor="middle" x="79" y="-383.5" font-family="FreeSans" font-size="10.00"> </text>
 </g>
-<!-- Node3&#45;&gt;Node2 -->
-<g id="edge2" class="edge"><title>Node3&#45;&gt;Node2</title>
+<!-- Node12&#45;&gt;Node11 -->
+<g id="edge2" class="edge"><title>Node12&#45;&gt;Node11</title>
 <path fill="none" stroke="midnightblue" d="M79,-366.194C79,-357.797 79,-348.5 79,-338.841"/>
 <polygon fill="none" stroke="midnightblue" points="75.5001,-366.308 79,-376.308 82.5001,-366.308 75.5001,-366.308"/>
 </g>

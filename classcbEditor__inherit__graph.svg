@@ -8,8 +8,8 @@
  viewBox="0.00 0.00 158.00 881.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 877)">
 <title>cbEditor</title>
-<!-- Node1 -->
-<g id="node1" class="node"><title>Node1</title>
+<!-- Node0 -->
+<g id="node1" class="node"><title>Node0</title>
 <polygon fill="#bfbfbf" stroke="black" points="3,-0.5 3,-431.5 147,-431.5 147,-0.5 3,-0.5"/>
 <text text-anchor="middle" x="75" y="-419.5" font-family="FreeSans" font-size="10.00">cbEditor</text>
 <polyline fill="none" stroke="black" points="3,-412.5 147,-412.5 "/>
@@ -51,8 +51,8 @@
 <text text-anchor="start" x="11" y="-18.5" font-family="FreeSans" font-size="10.00">FileOpen()</text>
 <text text-anchor="start" x="11" y="-7.5" font-family="FreeSans" font-size="10.00">&#45; GetOptionColour()</text>
 </g>
-<!-- Node2 -->
-<g id="node2" class="node"><title>Node2</title>
+<!-- Node1 -->
+<g id="node2" class="node"><title>Node1</title>
 <g id="a_node2"><a xlink:href="classEditorBase" target="_top" xlink:title="Base class that all &quot;editors&quot; should inherit from. ">
 <polygon fill="none" stroke="black" points="-1.42109e-14,-468.5 -1.42109e-14,-778.5 150,-778.5 150,-468.5 -1.42109e-14,-468.5"/>
 <text text-anchor="middle" x="75" y="-766.5" font-family="FreeSans" font-size="10.00">EditorBase</text>
@@ -86,13 +86,13 @@
 </a>
 </g>
 </g>
-<!-- Node2&#45;&gt;Node1 -->
-<g id="edge1" class="edge"><title>Node2&#45;&gt;Node1</title>
+<!-- Node1&#45;&gt;Node0 -->
+<g id="edge1" class="edge"><title>Node1&#45;&gt;Node0</title>
 <path fill="none" stroke="midnightblue" d="M75,-458.073C75,-449.294 75,-440.414 75,-431.505"/>
 <polygon fill="none" stroke="midnightblue" points="71.5001,-458.33 75,-468.33 78.5001,-458.33 71.5001,-458.33"/>
 </g>
-<!-- Node3 -->
-<g id="node3" class="node"><title>Node3</title>
+<!-- Node2 -->
+<g id="node3" class="node"><title>Node2</title>
 <polygon fill="none" stroke="#bfbfbf" points="48.5,-815.5 48.5,-872.5 101.5,-872.5 101.5,-815.5 48.5,-815.5"/>
 <text text-anchor="middle" x="75" y="-860.5" font-family="FreeSans" font-size="10.00">wxPanel</text>
 <polyline fill="none" stroke="#bfbfbf" points="48.5,-853.5 101.5,-853.5 "/>
@@ -100,8 +100,8 @@
 <polyline fill="none" stroke="#bfbfbf" points="48.5,-834.5 101.5,-834.5 "/>
 <text text-anchor="middle" x="75" y="-822.5" font-family="FreeSans" font-size="10.00"> </text>
 </g>
-<!-- Node3&#45;&gt;Node2 -->
-<g id="edge2" class="edge"><title>Node3&#45;&gt;Node2</title>
+<!-- Node2&#45;&gt;Node1 -->
+<g id="edge2" class="edge"><title>Node2&#45;&gt;Node1</title>
 <path fill="none" stroke="midnightblue" d="M75,-805.281C75,-797.208 75,-788.205 75,-778.648"/>
 <polygon fill="none" stroke="midnightblue" points="71.5001,-805.327 75,-815.327 78.5001,-805.327 71.5001,-805.327"/>
 </g>

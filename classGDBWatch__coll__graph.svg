@@ -8,8 +8,8 @@
  viewBox="0.00 0.00 124.00 640.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 636)">
 <title>GDBWatch</title>
-<!-- Node1 -->
-<g id="node1" class="node"><title>Node1</title>
+<!-- Node2 -->
+<g id="node1" class="node"><title>Node2</title>
 <polygon fill="#bfbfbf" stroke="black" points="-7.10543e-15,-0.5 -7.10543e-15,-244.5 116,-244.5 116,-0.5 -7.10543e-15,-0.5"/>
 <text text-anchor="middle" x="58" y="-232.5" font-family="FreeSans" font-size="10.00">GDBWatch</text>
 <polyline fill="none" stroke="black" points="-7.10543e-15,-225.5 116,-225.5 "/>
@@ -34,8 +34,8 @@
 <text text-anchor="start" x="8" y="-18.5" font-family="FreeSans" font-size="10.00">and 12 more...</text>
 <text text-anchor="start" x="8" y="-7.5" font-family="FreeSans" font-size="10.00"># DoDestroy()</text>
 </g>
-<!-- Node2 -->
-<g id="node2" class="node"><title>Node2</title>
+<!-- Node3 -->
+<g id="node2" class="node"><title>Node3</title>
 <g id="a_node2"><a xlink:href="classcbWatch" target="_top" xlink:title="{cbWatch\n|&#45; m_parent\l&#45; m_changed\l&#45; m_removed\l&#45; m_expanded\l&#45; m_autoUpdate\l|+ cbWatch()\l+ GetSymbol()\l+ GetValue()\l+ SetValue()\l+ GetFullWatchString()\l+ GetType()\l+ SetType()\l+ GetDebugString()\land 20 more...\l+ AddChild()\l# ~cbWatch()\l&#45; operator=()\l&#45; cbWatch()\l}">
 <polygon fill="none" stroke="black" points="-7.10543e-15,-282.5 -7.10543e-15,-515.5 116,-515.5 116,-282.5 -7.10543e-15,-282.5"/>
 <text text-anchor="middle" x="58" y="-503.5" font-family="FreeSans" font-size="10.00">cbWatch</text>
@@ -62,13 +62,13 @@
 </a>
 </g>
 </g>
-<!-- Node2&#45;&gt;Node1 -->
-<g id="edge1" class="edge"><title>Node2&#45;&gt;Node1</title>
+<!-- Node3&#45;&gt;Node2 -->
+<g id="edge1" class="edge"><title>Node3&#45;&gt;Node2</title>
 <path fill="none" stroke="midnightblue" d="M58,-272.12C58,-262.998 58,-253.808 58,-244.713"/>
 <polygon fill="none" stroke="midnightblue" points="54.5001,-272.383 58,-282.383 61.5001,-272.383 54.5001,-272.383"/>
 </g>
-<!-- Node3 -->
-<g id="node3" class="node"><title>Node3</title>
+<!-- Node4 -->
+<g id="node3" class="node"><title>Node4</title>
 <polygon fill="none" stroke="#bfbfbf" points="2,-563.5 2,-631.5 114,-631.5 114,-563.5 2,-563.5"/>
 <text text-anchor="start" x="10" y="-619.5" font-family="FreeSans" font-size="10.00">std::vector&lt; cb::shared</text>
 <text text-anchor="middle" x="58" y="-608.5" font-family="FreeSans" font-size="10.00">_ptr&lt; cbWatch &gt; &gt;</text>
@@ -77,8 +77,8 @@
 <polyline fill="none" stroke="#bfbfbf" points="2,-582.5 114,-582.5 "/>
 <text text-anchor="middle" x="58" y="-570.5" font-family="FreeSans" font-size="10.00"> </text>
 </g>
-<!-- Node3&#45;&gt;Node2 -->
-<g id="edge2" class="edge"><title>Node3&#45;&gt;Node2</title>
+<!-- Node4&#45;&gt;Node3 -->
+<g id="edge2" class="edge"><title>Node4&#45;&gt;Node3</title>
 <path fill="none" stroke="#404040" d="M58,-563.166C58,-552.771 58,-540.621 58,-527.724"/>
 <polygon fill="none" stroke="#404040" points="58.0001,-527.699 54,-521.699 58,-515.699 62,-521.699 58.0001,-527.699"/>
 <text text-anchor="middle" x="84.5" y="-537" font-family="FreeSans" font-size="10.00"> &#45;m_children</text>

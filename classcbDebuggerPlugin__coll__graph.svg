@@ -8,8 +8,8 @@
  viewBox="0.00 0.00 210.50 1010.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 1006)">
 <title>cbDebuggerPlugin</title>
-<!-- Node1 -->
-<g id="node1" class="node"><title>Node1</title>
+<!-- Node4 -->
+<g id="node1" class="node"><title>Node4</title>
 <polygon fill="#bfbfbf" stroke="black" points="16.5,-0.5 16.5,-464.5 173.5,-464.5 173.5,-0.5 16.5,-0.5"/>
 <text text-anchor="middle" x="95" y="-452.5" font-family="FreeSans" font-size="10.00">cbDebuggerPlugin</text>
 <polyline fill="none" stroke="black" points="16.5,-445.5 173.5,-445.5 "/>
@@ -54,8 +54,8 @@
 <text text-anchor="start" x="24.5" y="-18.5" font-family="FreeSans" font-size="10.00">&#45; OnCompilerFinished()</text>
 <text text-anchor="start" x="24.5" y="-7.5" font-family="FreeSans" font-size="10.00">&#45; OnEditorHook()</text>
 </g>
-<!-- Node2 -->
-<g id="node2" class="node"><title>Node2</title>
+<!-- Node5 -->
+<g id="node2" class="node"><title>Node5</title>
 <g id="a_node2"><a xlink:href="classcbPlugin" target="_top" xlink:title="Base class for plugins This is the most basic class a plugin must descend from. ">
 <polygon fill="none" stroke="black" points="-1.42109e-14,-695.5 -1.42109e-14,-906.5 158,-906.5 158,-695.5 -1.42109e-14,-695.5"/>
 <text text-anchor="middle" x="79" y="-894.5" font-family="FreeSans" font-size="10.00">cbPlugin</text>
@@ -80,13 +80,13 @@
 </a>
 </g>
 </g>
-<!-- Node2&#45;&gt;Node1 -->
-<g id="edge1" class="edge"><title>Node2&#45;&gt;Node1</title>
+<!-- Node5&#45;&gt;Node4 -->
+<g id="edge1" class="edge"><title>Node5&#45;&gt;Node4</title>
 <path fill="none" stroke="midnightblue" d="M82.1617,-685.281C83.6227,-632.504 85.3877,-569.071 87,-512 87.4337,-496.648 87.8829,-480.821 88.337,-464.872"/>
 <polygon fill="none" stroke="midnightblue" points="78.6612,-685.254 81.8832,-695.347 85.6585,-685.448 78.6612,-685.254"/>
 </g>
-<!-- Node4 -->
-<g id="node4" class="node"><title>Node4</title>
+<!-- Node7 -->
+<g id="node4" class="node"><title>Node7</title>
 <g id="a_node4"><a xlink:href="classcbCompilerPlugin" target="_top" xlink:title="Base class for compiler plugins. ">
 <polygon fill="none" stroke="black" points="95.5,-512.5 95.5,-657.5 202.5,-657.5 202.5,-512.5 95.5,-512.5"/>
 <text text-anchor="middle" x="149" y="-645.5" font-family="FreeSans" font-size="10.00">cbCompilerPlugin</text>
@@ -105,13 +105,13 @@
 </a>
 </g>
 </g>
-<!-- Node2&#45;&gt;Node4 -->
-<g id="edge4" class="edge"><title>Node2&#45;&gt;Node4</title>
+<!-- Node5&#45;&gt;Node7 -->
+<g id="edge4" class="edge"><title>Node5&#45;&gt;Node7</title>
 <path fill="none" stroke="midnightblue" d="M116.399,-685.667C119.51,-676.154 122.597,-666.718 125.559,-657.663"/>
 <polygon fill="none" stroke="midnightblue" points="113.065,-684.602 113.282,-695.194 119.718,-686.778 113.065,-684.602"/>
 </g>
-<!-- Node3 -->
-<g id="node3" class="node"><title>Node3</title>
+<!-- Node6 -->
+<g id="node3" class="node"><title>Node6</title>
 <polygon fill="none" stroke="#bfbfbf" points="42,-944.5 42,-1001.5 116,-1001.5 116,-944.5 42,-944.5"/>
 <text text-anchor="middle" x="79" y="-989.5" font-family="FreeSans" font-size="10.00">wxEvtHandler</text>
 <polyline fill="none" stroke="#bfbfbf" points="42,-982.5 116,-982.5 "/>
@@ -119,13 +119,13 @@
 <polyline fill="none" stroke="#bfbfbf" points="42,-963.5 116,-963.5 "/>
 <text text-anchor="middle" x="79" y="-951.5" font-family="FreeSans" font-size="10.00"> </text>
 </g>
-<!-- Node3&#45;&gt;Node2 -->
-<g id="edge2" class="edge"><title>Node3&#45;&gt;Node2</title>
+<!-- Node6&#45;&gt;Node5 -->
+<g id="edge2" class="edge"><title>Node6&#45;&gt;Node5</title>
 <path fill="none" stroke="midnightblue" d="M79,-934.194C79,-925.797 79,-916.5 79,-906.841"/>
 <polygon fill="none" stroke="midnightblue" points="75.5001,-934.308 79,-944.308 82.5001,-934.308 75.5001,-934.308"/>
 </g>
-<!-- Node4&#45;&gt;Node1 -->
-<g id="edge3" class="edge"><title>Node4&#45;&gt;Node1</title>
+<!-- Node7&#45;&gt;Node4 -->
+<g id="edge3" class="edge"><title>Node7&#45;&gt;Node4</title>
 <path fill="none" stroke="#404040" d="M137.942,-512.225C136.235,-501.146 134.396,-489.207 132.472,-476.723"/>
 <polygon fill="none" stroke="#404040" points="132.431,-476.457 127.564,-471.136 130.604,-464.597 135.471,-469.918 132.431,-476.457"/>
 <text text-anchor="middle" x="165.5" y="-486" font-family="FreeSans" font-size="10.00"> &#45;m_pCompiler</text>

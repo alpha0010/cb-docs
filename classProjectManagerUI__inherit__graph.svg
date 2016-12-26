@@ -8,8 +8,8 @@
  viewBox="0.00 0.00 225.50 534.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 530)">
 <title>ProjectManagerUI</title>
-<!-- Node1 -->
-<g id="node1" class="node"><title>Node1</title>
+<!-- Node0 -->
+<g id="node1" class="node"><title>Node0</title>
 <polygon fill="#bfbfbf" stroke="black" points="27,-0.5 27,-343.5 165,-343.5 165,-0.5 27,-0.5"/>
 <text text-anchor="middle" x="96" y="-331.5" font-family="FreeSans" font-size="10.00">ProjectManagerUI</text>
 <polyline fill="none" stroke="black" points="27,-324.5 165,-324.5 "/>
@@ -43,8 +43,8 @@
 <text text-anchor="start" x="35" y="-18.5" font-family="FreeSans" font-size="10.00">&#45; RemoveFilesRecursively()</text>
 <text text-anchor="start" x="35" y="-7.5" font-family="FreeSans" font-size="10.00">and 46 more...</text>
 </g>
-<!-- Node2 -->
-<g id="node2" class="node"><title>Node2</title>
+<!-- Node1 -->
+<g id="node2" class="node"><title>Node1</title>
 <polygon fill="none" stroke="#bfbfbf" points="0,-424.5 0,-481.5 74,-481.5 74,-424.5 0,-424.5"/>
 <text text-anchor="middle" x="37" y="-469.5" font-family="FreeSans" font-size="10.00">wxEvtHandler</text>
 <polyline fill="none" stroke="#bfbfbf" points="0,-462.5 74,-462.5 "/>
@@ -52,13 +52,13 @@
 <polyline fill="none" stroke="#bfbfbf" points="0,-443.5 74,-443.5 "/>
 <text text-anchor="middle" x="37" y="-431.5" font-family="FreeSans" font-size="10.00"> </text>
 </g>
-<!-- Node2&#45;&gt;Node1 -->
-<g id="edge1" class="edge"><title>Node2&#45;&gt;Node1</title>
+<!-- Node1&#45;&gt;Node0 -->
+<g id="edge1" class="edge"><title>Node1&#45;&gt;Node0</title>
 <path fill="none" stroke="midnightblue" d="M44.8935,-414.673C48.9703,-395.395 54.2661,-370.352 59.9004,-343.708"/>
 <polygon fill="none" stroke="midnightblue" points="41.4634,-413.977 42.8186,-424.485 48.3119,-415.425 41.4634,-413.977"/>
 </g>
-<!-- Node3 -->
-<g id="node3" class="node"><title>Node3</title>
+<!-- Node2 -->
+<g id="node3" class="node"><title>Node2</title>
 <g id="a_node3"><a xlink:href="classcbProjectManagerUI" target="_top" xlink:title="{cbProjectManagerUI\n||+ ~cbProjectManagerUI()\l+ GetNotebook()\l+ GetTree()\l+ RebuildTree()\l+ FreezeTree()\l+ UnfreezeTree()\l+ GetTreeSelection()\l+ ShowFileInTree()\land 13 more...\l}">
 <polygon fill="none" stroke="black" points="92.5,-380.5 92.5,-525.5 217.5,-525.5 217.5,-380.5 92.5,-380.5"/>
 <text text-anchor="middle" x="155" y="-513.5" font-family="FreeSans" font-size="10.00">cbProjectManagerUI</text>
@@ -77,8 +77,8 @@
 </a>
 </g>
 </g>
-<!-- Node3&#45;&gt;Node1 -->
-<g id="edge2" class="edge"><title>Node3&#45;&gt;Node1</title>
+<!-- Node2&#45;&gt;Node0 -->
+<g id="edge2" class="edge"><title>Node2&#45;&gt;Node0</title>
 <path fill="none" stroke="midnightblue" d="M137.707,-370.227C135.889,-361.625 133.994,-352.669 132.061,-343.524"/>
 <polygon fill="none" stroke="midnightblue" points="134.313,-371.091 139.806,-380.151 141.161,-369.643 134.313,-371.091"/>
 </g>

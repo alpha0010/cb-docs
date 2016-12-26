@@ -8,8 +8,8 @@
  viewBox="0.00 0.00 263.50 519.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 515)">
 <title>DebugInterfaceFactory</title>
-<!-- Node1 -->
-<g id="node1" class="node"><title>Node1</title>
+<!-- Node2 -->
+<g id="node1" class="node"><title>Node2</title>
 <polygon fill="#bfbfbf" stroke="black" points="47.5,-0.5 47.5,-156.5 181.5,-156.5 181.5,-0.5 47.5,-0.5"/>
 <text text-anchor="middle" x="114.5" y="-144.5" font-family="FreeSans" font-size="10.00">DebugInterfaceFactory</text>
 <polyline fill="none" stroke="black" points="47.5,-137.5 181.5,-137.5 "/>
@@ -26,8 +26,8 @@
 <text text-anchor="start" x="55.5" y="-18.5" font-family="FreeSans" font-size="10.00">and 12 more...</text>
 <text text-anchor="start" x="55.5" y="-7.5" font-family="FreeSans" font-size="10.00">&#45; OnEditorDeactivate()</text>
 </g>
-<!-- Node2 -->
-<g id="node2" class="node"><title>Node2</title>
+<!-- Node3 -->
+<g id="node2" class="node"><title>Node3</title>
 <g id="a_node2"><a xlink:href="classcbDebugInterfaceFactory" target="_top" xlink:title="{cbDebugInterfaceFactory\n||+ cbDebugInterfaceFactory()\l+ ~cbDebugInterfaceFactory()\l+ CreateBacktrace()\l+ DeleteBacktrace()\l+ CreateBreapoints()\l+ DeleteBreakpoints()\l+ CreateCPURegisters()\l+ DeleteCPURegisters()\land 12 more...\l&#45; cbDebugInterfaceFactory()\l&#45; operator=()\l}">
 <polygon fill="none" stroke="black" points="0,-226.5 0,-393.5 145,-393.5 145,-226.5 0,-226.5"/>
 <text text-anchor="middle" x="72.5" y="-381.5" font-family="FreeSans" font-size="10.00">cbDebugInterfaceFactory</text>
@@ -48,13 +48,13 @@
 </a>
 </g>
 </g>
-<!-- Node2&#45;&gt;Node1 -->
-<g id="edge1" class="edge"><title>Node2&#45;&gt;Node1</title>
+<!-- Node3&#45;&gt;Node2 -->
+<g id="edge1" class="edge"><title>Node3&#45;&gt;Node2</title>
 <path fill="none" stroke="midnightblue" d="M89.4274,-216.504C93.0585,-196.663 96.8585,-175.898 100.37,-156.708"/>
 <polygon fill="none" stroke="midnightblue" points="85.9611,-216.003 87.6036,-226.469 92.8467,-217.263 85.9611,-216.003"/>
 </g>
-<!-- Node3 -->
-<g id="node3" class="node"><title>Node3</title>
+<!-- Node4 -->
+<g id="node3" class="node"><title>Node4</title>
 <g id="a_node3"><a xlink:href="classValueTooltip" target="_top" xlink:title="{ValueTooltip\n|&#45; m_grid\l&#45; m_sizer\l&#45; m_panel\l&#45; m_timer\l&#45; m_outsideCount\l&#45; m_watch\l|+ ValueTooltip()\l+ ~ValueTooltip()\l+ Dismiss()\l+ UpdateWatch()\l# OnDismiss()\l&#45; Fit()\l&#45; ClearWatch()\l&#45; OnCollapse()\l&#45; OnExpand()\l&#45; OnTimer()\l}">
 <polygon fill="none" stroke="black" points="163.5,-204.5 163.5,-415.5 255.5,-415.5 255.5,-204.5 163.5,-204.5"/>
 <text text-anchor="middle" x="209.5" y="-403.5" font-family="FreeSans" font-size="10.00">ValueTooltip</text>
@@ -79,14 +79,14 @@
 </a>
 </g>
 </g>
-<!-- Node3&#45;&gt;Node1 -->
-<g id="edge2" class="edge"><title>Node3&#45;&gt;Node1</title>
+<!-- Node4&#45;&gt;Node2 -->
+<g id="edge2" class="edge"><title>Node4&#45;&gt;Node2</title>
 <path fill="none" stroke="#404040" d="M166.17,-204.324C161.127,-192.14 156.02,-179.803 151.08,-167.869"/>
 <polygon fill="none" stroke="#404040" points="150.992,-167.656 145.001,-163.642 146.402,-156.569 152.393,-160.583 150.992,-167.656"/>
 <text text-anchor="middle" x="178.5" y="-178" font-family="FreeSans" font-size="10.00"> &#45;m_tooltip</text>
 </g>
-<!-- Node4 -->
-<g id="node4" class="node"><title>Node4</title>
+<!-- Node5 -->
+<g id="node4" class="node"><title>Node5</title>
 <polygon fill="none" stroke="#bfbfbf" points="165,-453.5 165,-510.5 254,-510.5 254,-453.5 165,-453.5"/>
 <text text-anchor="middle" x="209.5" y="-498.5" font-family="FreeSans" font-size="10.00">wxPopupWindow</text>
 <polyline fill="none" stroke="#bfbfbf" points="165,-491.5 254,-491.5 "/>
@@ -94,8 +94,8 @@
 <polyline fill="none" stroke="#bfbfbf" points="165,-472.5 254,-472.5 "/>
 <text text-anchor="middle" x="209.5" y="-460.5" font-family="FreeSans" font-size="10.00"> </text>
 </g>
-<!-- Node4&#45;&gt;Node3 -->
-<g id="edge3" class="edge"><title>Node4&#45;&gt;Node3</title>
+<!-- Node5&#45;&gt;Node4 -->
+<g id="edge3" class="edge"><title>Node5&#45;&gt;Node4</title>
 <path fill="none" stroke="midnightblue" d="M209.5,-443.194C209.5,-434.797 209.5,-425.5 209.5,-415.841"/>
 <polygon fill="none" stroke="midnightblue" points="206,-443.308 209.5,-453.308 213,-443.308 206,-443.308"/>
 </g>

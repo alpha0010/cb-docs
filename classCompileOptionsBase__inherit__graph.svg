@@ -8,8 +8,8 @@
  viewBox="0.00 0.00 2519.50 1184.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 1180)">
 <title>CompileOptionsBase</title>
-<!-- Node1 -->
-<g id="node1" class="node"><title>Node1</title>
+<!-- Node0 -->
+<g id="node1" class="node"><title>Node0</title>
 <polygon fill="#bfbfbf" stroke="black" points="1640.5,-942.5 1640.5,-1175.5 1789.5,-1175.5 1789.5,-942.5 1640.5,-942.5"/>
 <text text-anchor="middle" x="1715" y="-1163.5" font-family="FreeSans" font-size="10.00">CompileOptionsBase</text>
 <polyline fill="none" stroke="black" points="1640.5,-1156.5 1789.5,-1156.5 "/>
@@ -33,8 +33,8 @@
 <text text-anchor="start" x="1648.5" y="-960.5" font-family="FreeSans" font-size="10.00">+ SetLinkerOptions()</text>
 <text text-anchor="start" x="1648.5" y="-949.5" font-family="FreeSans" font-size="10.00">and 56 more...</text>
 </g>
-<!-- Node2 -->
-<g id="node2" class="node"><title>Node2</title>
+<!-- Node1 -->
+<g id="node2" class="node"><title>Node1</title>
 <g id="a_node2"><a xlink:href="classCompiler" target="_top" xlink:title="Abstract base class for compilers. ">
 <polygon fill="none" stroke="black" points="1083.5,-474.5 1083.5,-905.5 1238.5,-905.5 1238.5,-474.5 1083.5,-474.5"/>
 <text text-anchor="middle" x="1161" y="-893.5" font-family="FreeSans" font-size="10.00">Compiler</text>
@@ -79,13 +79,13 @@
 </a>
 </g>
 </g>
-<!-- Node1&#45;&gt;Node2 -->
-<g id="edge1" class="edge"><title>Node1&#45;&gt;Node2</title>
+<!-- Node0&#45;&gt;Node1 -->
+<g id="edge1" class="edge"><title>Node0&#45;&gt;Node1</title>
 <path fill="none" stroke="midnightblue" d="M1631.8,-1002.89C1525.31,-932.342 1342.23,-811.054 1238.53,-742.363"/>
 <polygon fill="none" stroke="midnightblue" points="1630.02,-1005.9 1640.29,-1008.5 1633.88,-1000.06 1630.02,-1005.9"/>
 </g>
-<!-- Node19 -->
-<g id="node19" class="node"><title>Node19</title>
+<!-- Node18 -->
+<g id="node19" class="node"><title>Node18</title>
 <g id="a_node19"><a xlink:href="classCompileTargetBase" target="_top" xlink:title="Base class for build target classes Each Code::Blocks project consists of at least one target...">
 <polygon fill="none" stroke="black" points="2191.5,-557 2191.5,-823 2346.5,-823 2346.5,-557 2191.5,-557"/>
 <text text-anchor="middle" x="2269" y="-811" font-family="FreeSans" font-size="10.00">CompileTargetBase</text>
@@ -115,13 +115,13 @@
 </a>
 </g>
 </g>
-<!-- Node1&#45;&gt;Node19 -->
-<g id="edge18" class="edge"><title>Node1&#45;&gt;Node19</title>
+<!-- Node0&#45;&gt;Node18 -->
+<g id="edge18" class="edge"><title>Node0&#45;&gt;Node18</title>
 <path fill="none" stroke="midnightblue" d="M1798.2,-1002.89C1904.69,-932.342 2087.77,-811.054 2191.47,-742.363"/>
 <polygon fill="none" stroke="midnightblue" points="1796.12,-1000.06 1789.71,-1008.5 1799.98,-1005.9 1796.12,-1000.06"/>
 </g>
-<!-- Node3 -->
-<g id="node3" class="node"><title>Node3</title>
+<!-- Node2 -->
+<g id="node3" class="node"><title>Node2</title>
 <g id="a_node3"><a xlink:href="classCompilerG95" target="_top" xlink:title="{CompilerG95\n||+ CompilerG95()\l+ ~CompilerG95()\l+ AutoDetectInstallationDir()\l# CreateCopy()\l}">
 <polygon fill="none" stroke="black" points="0,-237.5 0,-327.5 138,-327.5 138,-237.5 0,-237.5"/>
 <text text-anchor="middle" x="69" y="-315.5" font-family="FreeSans" font-size="10.00">CompilerG95</text>
@@ -135,13 +135,13 @@
 </a>
 </g>
 </g>
-<!-- Node2&#45;&gt;Node3 -->
-<g id="edge2" class="edge"><title>Node2&#45;&gt;Node3</title>
+<!-- Node1&#45;&gt;Node2 -->
+<g id="edge2" class="edge"><title>Node1&#45;&gt;Node2</title>
 <path fill="none" stroke="midnightblue" d="M1073.2,-676.82C854.448,-645.006 292.271,-553.794 147,-438 112.108,-410.188 91.4498,-362.654 80.2529,-327.638"/>
 <polygon fill="none" stroke="midnightblue" points="1072.96,-680.321 1083.36,-678.29 1073.96,-673.394 1072.96,-680.321"/>
 </g>
-<!-- Node4 -->
-<g id="node4" class="node"><title>Node4</title>
+<!-- Node3 -->
+<g id="node4" class="node"><title>Node3</title>
 <g id="a_node4"><a xlink:href="classCompilerGDC" target="_top" xlink:title="{CompilerGDC\n||+ CompilerGDC()\l+ ~CompilerGDC()\l+ AutoDetectInstallationDir()\l# CreateCopy()\l}">
 <polygon fill="none" stroke="black" points="156,-237.5 156,-327.5 294,-327.5 294,-237.5 156,-237.5"/>
 <text text-anchor="middle" x="225" y="-315.5" font-family="FreeSans" font-size="10.00">CompilerGDC</text>
@@ -155,13 +155,13 @@
 </a>
 </g>
 </g>
-<!-- Node2&#45;&gt;Node4 -->
-<g id="edge3" class="edge"><title>Node2&#45;&gt;Node4</title>
+<!-- Node1&#45;&gt;Node3 -->
+<g id="edge3" class="edge"><title>Node1&#45;&gt;Node3</title>
 <path fill="none" stroke="midnightblue" d="M1073.31,-685.735C905.157,-675.094 533.625,-629.874 303,-438 268.814,-409.558 248.086,-362.364 236.681,-327.606"/>
 <polygon fill="none" stroke="midnightblue" points="1073.17,-689.233 1083.36,-686.345 1073.59,-682.245 1073.17,-689.233"/>
 </g>
-<!-- Node5 -->
-<g id="node5" class="node"><title>Node5</title>
+<!-- Node4 -->
+<g id="node5" class="node"><title>Node4</title>
 <g id="a_node5"><a xlink:href="classCompilerGNUARM" target="_top" xlink:title="{CompilerGNUARM\n||+ CompilerGNUARM()\l+ ~CompilerGNUARM()\l+ AutoDetectInstallationDir()\l# CreateCopy()\l}">
 <polygon fill="none" stroke="black" points="312,-237.5 312,-327.5 450,-327.5 450,-237.5 312,-237.5"/>
 <text text-anchor="middle" x="381" y="-315.5" font-family="FreeSans" font-size="10.00">CompilerGNUARM</text>
@@ -175,13 +175,13 @@
 </a>
 </g>
 </g>
-<!-- Node2&#45;&gt;Node5 -->
-<g id="edge4" class="edge"><title>Node2&#45;&gt;Node5</title>
+<!-- Node1&#45;&gt;Node4 -->
+<g id="edge4" class="edge"><title>Node1&#45;&gt;Node4</title>
 <path fill="none" stroke="midnightblue" d="M1073.09,-678.757C928.759,-657.744 639.614,-597.478 459,-438 425.89,-408.765 405.086,-362.162 393.373,-327.776"/>
 <polygon fill="none" stroke="midnightblue" points="1072.83,-682.256 1083.22,-680.203 1073.82,-675.326 1072.83,-682.256"/>
 </g>
-<!-- Node6 -->
-<g id="node6" class="node"><title>Node6</title>
+<!-- Node5 -->
+<g id="node6" class="node"><title>Node5</title>
 <g id="a_node6"><a xlink:href="classCompilerGNUFortran" target="_top" xlink:title="{CompilerGNUFortran\n||+ CompilerGNUFortran()\l+ ~CompilerGNUFortran()\l+ AutoDetectInstallationDir()\l# CreateCopy()\l}">
 <polygon fill="none" stroke="black" points="468,-237.5 468,-327.5 606,-327.5 606,-237.5 468,-237.5"/>
 <text text-anchor="middle" x="537" y="-315.5" font-family="FreeSans" font-size="10.00">CompilerGNUFortran</text>
@@ -195,13 +195,13 @@
 </a>
 </g>
 </g>
-<!-- Node2&#45;&gt;Node6 -->
-<g id="edge5" class="edge"><title>Node2&#45;&gt;Node6</title>
+<!-- Node1&#45;&gt;Node5 -->
+<g id="edge5" class="edge"><title>Node1&#45;&gt;Node5</title>
 <path fill="none" stroke="midnightblue" d="M1073.68,-668.279C956.388,-636.522 747.414,-565.651 615,-438 583.417,-407.553 562.488,-361.583 550.334,-327.698"/>
 <polygon fill="none" stroke="midnightblue" points="1072.79,-671.663 1083.35,-670.865 1074.59,-664.901 1072.79,-671.663"/>
 </g>
-<!-- Node7 -->
-<g id="node7" class="node"><title>Node7</title>
+<!-- Node6 -->
+<g id="node7" class="node"><title>Node6</title>
 <g id="a_node7"><a xlink:href="classCompilerIAR" target="_top" xlink:title="{CompilerIAR\n|# m_Arch\l|+ CompilerIAR()\l+ ~CompilerIAR()\l+ AutoDetectInstallationDir()\l# CreateCopy()\l}">
 <polygon fill="none" stroke="black" points="624,-237.5 624,-327.5 762,-327.5 762,-237.5 624,-237.5"/>
 <text text-anchor="middle" x="693" y="-315.5" font-family="FreeSans" font-size="10.00">CompilerIAR</text>
@@ -215,13 +215,13 @@
 </a>
 </g>
 </g>
-<!-- Node2&#45;&gt;Node7 -->
-<g id="edge6" class="edge"><title>Node2&#45;&gt;Node7</title>
+<!-- Node1&#45;&gt;Node6 -->
+<g id="edge6" class="edge"><title>Node1&#45;&gt;Node6</title>
 <path fill="none" stroke="midnightblue" d="M1074.24,-650.095C988.279,-607.991 857.311,-533.821 771,-438 741.941,-405.739 720.836,-360.673 707.963,-327.536"/>
 <polygon fill="none" stroke="midnightblue" points="1072.93,-653.349 1083.45,-654.569 1075.99,-647.052 1072.93,-653.349"/>
 </g>
-<!-- Node8 -->
-<g id="node8" class="node"><title>Node8</title>
+<!-- Node7 -->
+<g id="node8" class="node"><title>Node7</title>
 <g id="a_node8"><a xlink:href="classCompilerICC" target="_top" xlink:title="{CompilerICC\n||+ CompilerICC()\l+ ~CompilerICC()\l+ AutoDetectInstallationDir()\l# CreateCopy()\l}">
 <polygon fill="none" stroke="black" points="780,-237.5 780,-327.5 918,-327.5 918,-237.5 780,-237.5"/>
 <text text-anchor="middle" x="849" y="-315.5" font-family="FreeSans" font-size="10.00">CompilerICC</text>
@@ -235,13 +235,13 @@
 </a>
 </g>
 </g>
-<!-- Node2&#45;&gt;Node8 -->
-<g id="edge7" class="edge"><title>Node2&#45;&gt;Node8</title>
+<!-- Node1&#45;&gt;Node7 -->
+<g id="edge7" class="edge"><title>Node1&#45;&gt;Node7</title>
 <path fill="none" stroke="midnightblue" d="M1076.11,-609.812C1028.62,-562.768 970.434,-500.285 927,-438 902.68,-403.125 881.415,-359.601 867.258,-327.644"/>
 <polygon fill="none" stroke="midnightblue" points="1073.75,-612.406 1083.33,-616.933 1078.67,-607.421 1073.75,-612.406"/>
 </g>
-<!-- Node9 -->
-<g id="node9" class="node"><title>Node9</title>
+<!-- Node8 -->
+<g id="node9" class="node"><title>Node8</title>
 <g id="a_node9"><a xlink:href="classCompilerKeilC51" target="_top" xlink:title="{CompilerKeilC51\n||+ CompilerKeilC51()\l+ ~CompilerKeilC51()\l+ AutoDetectInstallationDir()\l# CompilerKeilC51()\l# CreateCopy()\l# AutoDetectInstallationDir()\l}">
 <polygon fill="none" stroke="black" points="936,-226.5 936,-338.5 1074,-338.5 1074,-226.5 936,-226.5"/>
 <text text-anchor="middle" x="1005" y="-326.5" font-family="FreeSans" font-size="10.00">CompilerKeilC51</text>
@@ -257,13 +257,13 @@
 </a>
 </g>
 </g>
-<!-- Node2&#45;&gt;Node9 -->
-<g id="edge8" class="edge"><title>Node2&#45;&gt;Node9</title>
+<!-- Node1&#45;&gt;Node8 -->
+<g id="edge8" class="edge"><title>Node1&#45;&gt;Node8</title>
 <path fill="none" stroke="midnightblue" d="M1079.75,-477.797C1059.89,-426.19 1040.32,-375.315 1026.19,-338.577"/>
 <polygon fill="none" stroke="midnightblue" points="1076.6,-479.362 1083.46,-487.438 1083.13,-476.848 1076.6,-479.362"/>
 </g>
-<!-- Node11 -->
-<g id="node11" class="node"><title>Node11</title>
+<!-- Node10 -->
+<g id="node11" class="node"><title>Node10</title>
 <g id="a_node11"><a xlink:href="classCompilerLCC" target="_top" xlink:title="{CompilerLCC\n|&#45; m_RegistryUpdated\l|+ CompilerLCC()\l+ ~CompilerLCC()\l+ IsValid()\l+ Reset()\l+ AutoDetectInstallationDir()\l# CreateCopy()\l}">
 <polygon fill="none" stroke="black" points="1092,-226.5 1092,-338.5 1230,-338.5 1230,-226.5 1092,-226.5"/>
 <text text-anchor="middle" x="1161" y="-326.5" font-family="FreeSans" font-size="10.00">CompilerLCC</text>
@@ -279,13 +279,13 @@
 </a>
 </g>
 </g>
-<!-- Node2&#45;&gt;Node11 -->
-<g id="edge10" class="edge"><title>Node2&#45;&gt;Node11</title>
+<!-- Node1&#45;&gt;Node10 -->
+<g id="edge10" class="edge"><title>Node1&#45;&gt;Node10</title>
 <path fill="none" stroke="midnightblue" d="M1161,-464.364C1161,-417.536 1161,-372.285 1161,-338.758"/>
 <polygon fill="none" stroke="midnightblue" points="1157.5,-464.376 1161,-474.376 1164.5,-464.376 1157.5,-464.376"/>
 </g>
-<!-- Node12 -->
-<g id="node12" class="node"><title>Node12</title>
+<!-- Node11 -->
+<g id="node12" class="node"><title>Node11</title>
 <g id="a_node12"><a xlink:href="classCompilerMINGW" target="_top" xlink:title="{CompilerMINGW\n||+ CompilerMINGW()\l+ ~CompilerMINGW()\l+ AutoDetectInstallationDir()\l+ GetCommandGenerator()\l# CreateCopy()\l# SetVersionString()\l}">
 <polygon fill="none" stroke="black" points="1248,-226.5 1248,-338.5 1386,-338.5 1386,-226.5 1248,-226.5"/>
 <text text-anchor="middle" x="1317" y="-326.5" font-family="FreeSans" font-size="10.00">CompilerMINGW</text>
@@ -301,13 +301,13 @@
 </a>
 </g>
 </g>
-<!-- Node2&#45;&gt;Node12 -->
-<g id="edge11" class="edge"><title>Node2&#45;&gt;Node12</title>
+<!-- Node1&#45;&gt;Node11 -->
+<g id="edge11" class="edge"><title>Node1&#45;&gt;Node11</title>
 <path fill="none" stroke="midnightblue" d="M1242.25,-477.797C1262.11,-426.19 1281.68,-375.315 1295.81,-338.577"/>
 <polygon fill="none" stroke="midnightblue" points="1238.87,-476.848 1238.54,-487.438 1245.4,-479.362 1238.87,-476.848"/>
 </g>
-<!-- Node14 -->
-<g id="node14" class="node"><title>Node14</title>
+<!-- Node13 -->
+<g id="node14" class="node"><title>Node13</title>
 <g id="a_node14"><a xlink:href="classCompilerMSVC" target="_top" xlink:title="{CompilerMSVC\n||+ CompilerMSVC()\l+ ~CompilerMSVC()\l+ AutoDetectInstallationDir()\l# CreateCopy()\l}">
 <polygon fill="none" stroke="black" points="1404,-237.5 1404,-327.5 1542,-327.5 1542,-237.5 1404,-237.5"/>
 <text text-anchor="middle" x="1473" y="-315.5" font-family="FreeSans" font-size="10.00">CompilerMSVC</text>
@@ -321,13 +321,13 @@
 </a>
 </g>
 </g>
-<!-- Node2&#45;&gt;Node14 -->
-<g id="edge13" class="edge"><title>Node2&#45;&gt;Node14</title>
+<!-- Node1&#45;&gt;Node13 -->
+<g id="edge13" class="edge"><title>Node1&#45;&gt;Node13</title>
 <path fill="none" stroke="midnightblue" d="M1245.89,-609.812C1293.38,-562.768 1351.57,-500.285 1395,-438 1419.32,-403.125 1440.58,-359.601 1454.74,-327.644"/>
 <polygon fill="none" stroke="midnightblue" points="1243.33,-607.421 1238.67,-616.933 1248.25,-612.406 1243.33,-607.421"/>
 </g>
-<!-- Node15 -->
-<g id="node15" class="node"><title>Node15</title>
+<!-- Node14 -->
+<g id="node15" class="node"><title>Node14</title>
 <g id="a_node15"><a xlink:href="classCompilerMSVC10" target="_top" xlink:title="{CompilerMSVC10\n||+ CompilerMSVC10()\l+ ~CompilerMSVC10()\l+ AutoDetectInstallationDir()\l# CreateCopy()\l}">
 <polygon fill="none" stroke="black" points="1560,-237.5 1560,-327.5 1698,-327.5 1698,-237.5 1560,-237.5"/>
 <text text-anchor="middle" x="1629" y="-315.5" font-family="FreeSans" font-size="10.00">CompilerMSVC10</text>
@@ -341,13 +341,13 @@
 </a>
 </g>
 </g>
-<!-- Node2&#45;&gt;Node15 -->
-<g id="edge14" class="edge"><title>Node2&#45;&gt;Node15</title>
+<!-- Node1&#45;&gt;Node14 -->
+<g id="edge14" class="edge"><title>Node1&#45;&gt;Node14</title>
 <path fill="none" stroke="midnightblue" d="M1247.76,-650.095C1333.72,-607.991 1464.69,-533.821 1551,-438 1580.06,-405.739 1601.16,-360.673 1614.04,-327.536"/>
 <polygon fill="none" stroke="midnightblue" points="1246.01,-647.052 1238.55,-654.569 1249.07,-653.349 1246.01,-647.052"/>
 </g>
-<!-- Node16 -->
-<g id="node16" class="node"><title>Node16</title>
+<!-- Node15 -->
+<g id="node16" class="node"><title>Node15</title>
 <g id="a_node16"><a xlink:href="classCompilerMSVC8" target="_top" xlink:title="{CompilerMSVC8\n||+ CompilerMSVC8()\l+ ~CompilerMSVC8()\l+ AutoDetectInstallationDir()\l# CreateCopy()\l}">
 <polygon fill="none" stroke="black" points="1716,-237.5 1716,-327.5 1854,-327.5 1854,-237.5 1716,-237.5"/>
 <text text-anchor="middle" x="1785" y="-315.5" font-family="FreeSans" font-size="10.00">CompilerMSVC8</text>
@@ -361,13 +361,13 @@
 </a>
 </g>
 </g>
-<!-- Node2&#45;&gt;Node16 -->
-<g id="edge15" class="edge"><title>Node2&#45;&gt;Node16</title>
+<!-- Node1&#45;&gt;Node15 -->
+<g id="edge15" class="edge"><title>Node1&#45;&gt;Node15</title>
 <path fill="none" stroke="midnightblue" d="M1248.32,-668.279C1365.61,-636.522 1574.59,-565.651 1707,-438 1738.58,-407.553 1759.51,-361.583 1771.67,-327.698"/>
 <polygon fill="none" stroke="midnightblue" points="1247.41,-664.901 1238.65,-670.865 1249.21,-671.663 1247.41,-664.901"/>
 </g>
-<!-- Node17 -->
-<g id="node17" class="node"><title>Node17</title>
+<!-- Node16 -->
+<g id="node17" class="node"><title>Node16</title>
 <g id="a_node17"><a xlink:href="classCompilerOW" target="_top" xlink:title="{CompilerOW\n||+ CompilerOW()\l+ ~CompilerOW()\l+ AutoDetectInstallationDir()\l+ LoadSettings()\l+ SetMasterPath()\l+ GetCommandGenerator()\l# CreateCopy()\l}">
 <polygon fill="none" stroke="black" points="1872,-221 1872,-344 2010,-344 2010,-221 1872,-221"/>
 <text text-anchor="middle" x="1941" y="-332" font-family="FreeSans" font-size="10.00">CompilerOW</text>
@@ -384,13 +384,13 @@
 </a>
 </g>
 </g>
-<!-- Node2&#45;&gt;Node17 -->
-<g id="edge16" class="edge"><title>Node2&#45;&gt;Node17</title>
+<!-- Node1&#45;&gt;Node16 -->
+<g id="edge16" class="edge"><title>Node1&#45;&gt;Node16</title>
 <path fill="none" stroke="midnightblue" d="M1248.91,-678.757C1393.24,-657.744 1682.39,-597.478 1863,-438 1891.04,-413.24 1910.26,-376.021 1922.6,-344.318"/>
 <polygon fill="none" stroke="midnightblue" points="1248.18,-675.326 1238.78,-680.203 1249.17,-682.256 1248.18,-675.326"/>
 </g>
-<!-- Node18 -->
-<g id="node18" class="node"><title>Node18</title>
+<!-- Node17 -->
+<g id="node18" class="node"><title>Node17</title>
 <g id="a_node18"><a xlink:href="classCompilerXML" target="_top" xlink:title="{CompilerXML\n|&#45; m_fileName\l|+ CompilerXML()\l+ ~CompilerXML()\l+ AutoDetectInstallationDir()\l# CreateCopy()\l&#45; AddPath()\l}">
 <polygon fill="none" stroke="black" points="2028,-232 2028,-333 2166,-333 2166,-232 2028,-232"/>
 <text text-anchor="middle" x="2097" y="-321" font-family="FreeSans" font-size="10.00">CompilerXML</text>
@@ -405,13 +405,13 @@
 </a>
 </g>
 </g>
-<!-- Node2&#45;&gt;Node18 -->
-<g id="edge17" class="edge"><title>Node2&#45;&gt;Node18</title>
+<!-- Node1&#45;&gt;Node17 -->
+<g id="edge17" class="edge"><title>Node1&#45;&gt;Node17</title>
 <path fill="none" stroke="midnightblue" d="M1248.69,-685.735C1416.84,-675.094 1788.37,-629.874 2019,-438 2051.34,-411.096 2071.63,-367.411 2083.39,-333.346"/>
 <polygon fill="none" stroke="midnightblue" points="1248.41,-682.245 1238.64,-686.345 1248.83,-689.233 1248.41,-682.245"/>
 </g>
-<!-- Node10 -->
-<g id="node10" class="node"><title>Node10</title>
+<!-- Node9 -->
+<g id="node10" class="node"><title>Node9</title>
 <g id="a_node10"><a xlink:href="classCompilerKeilCX51" target="_top" xlink:title="{CompilerKeilCX51\n||+ CompilerKeilCX51()\l+ ~CompilerKeilCX51()\l# CreateCopy()\l}">
 <polygon fill="none" stroke="black" points="947.5,-6 947.5,-85 1062.5,-85 1062.5,-6 947.5,-6"/>
 <text text-anchor="middle" x="1005" y="-73" font-family="FreeSans" font-size="10.00">CompilerKeilCX51</text>
@@ -424,13 +424,13 @@
 </a>
 </g>
 </g>
-<!-- Node9&#45;&gt;Node10 -->
-<g id="edge9" class="edge"><title>Node9&#45;&gt;Node10</title>
+<!-- Node8&#45;&gt;Node9 -->
+<g id="edge9" class="edge"><title>Node8&#45;&gt;Node9</title>
 <path fill="none" stroke="midnightblue" d="M1005,-216.22C1005,-174.06 1005,-120.64 1005,-85.108"/>
 <polygon fill="none" stroke="midnightblue" points="1001.5,-216.403 1005,-226.403 1008.5,-216.403 1001.5,-216.403"/>
 </g>
-<!-- Node13 -->
-<g id="node13" class="node"><title>Node13</title>
+<!-- Node12 -->
+<g id="node13" class="node"><title>Node12</title>
 <g id="a_node13"><a xlink:href="classCompilerCYGWIN" target="_top" xlink:title="{CompilerCYGWIN\n||+ CompilerCYGWIN()\l+ ~CompilerCYGWIN()\l+ AutoDetectInstallationDir()\l# CreateCopy()\l}">
 <polygon fill="none" stroke="black" points="1248,-0.5 1248,-90.5 1386,-90.5 1386,-0.5 1248,-0.5"/>
 <text text-anchor="middle" x="1317" y="-78.5" font-family="FreeSans" font-size="10.00">CompilerCYGWIN</text>
@@ -444,13 +444,13 @@
 </a>
 </g>
 </g>
-<!-- Node12&#45;&gt;Node13 -->
-<g id="edge12" class="edge"><title>Node12&#45;&gt;Node13</title>
+<!-- Node11&#45;&gt;Node12 -->
+<g id="edge12" class="edge"><title>Node11&#45;&gt;Node12</title>
 <path fill="none" stroke="midnightblue" d="M1317,-216.199C1317,-176.182 1317,-126.026 1317,-90.651"/>
 <polygon fill="none" stroke="midnightblue" points="1313.5,-216.403 1317,-226.403 1320.5,-216.403 1313.5,-216.403"/>
 </g>
-<!-- Node20 -->
-<g id="node20" class="node"><title>Node20</title>
+<!-- Node19 -->
+<g id="node20" class="node"><title>Node19</title>
 <g id="a_node20"><a xlink:href="classcbProject" target="_top" xlink:title="Represents a Code::Blocks project. ">
 <polygon fill="none" stroke="black" points="2184,-127.5 2184,-437.5 2354,-437.5 2354,-127.5 2184,-127.5"/>
 <text text-anchor="middle" x="2269" y="-425.5" font-family="FreeSans" font-size="10.00">cbProject</text>
@@ -484,13 +484,13 @@
 </a>
 </g>
 </g>
-<!-- Node19&#45;&gt;Node20 -->
-<g id="edge19" class="edge"><title>Node19&#45;&gt;Node20</title>
+<!-- Node18&#45;&gt;Node19 -->
+<g id="edge19" class="edge"><title>Node18&#45;&gt;Node19</title>
 <path fill="none" stroke="midnightblue" d="M2269,-546.451C2269,-511.276 2269,-473.443 2269,-437.741"/>
 <polygon fill="none" stroke="midnightblue" points="2265.5,-546.785 2269,-556.785 2272.5,-546.785 2265.5,-546.785"/>
 </g>
-<!-- Node21 -->
-<g id="node21" class="node"><title>Node21</title>
+<!-- Node20 -->
+<g id="node21" class="node"><title>Node20</title>
 <g id="a_node21"><a xlink:href="classProjectBuildTarget" target="_top" xlink:title="Represents a Code::Blocks project build target. ">
 <polygon fill="none" stroke="black" points="2372.5,-160.5 2372.5,-404.5 2511.5,-404.5 2511.5,-160.5 2372.5,-160.5"/>
 <text text-anchor="middle" x="2442" y="-392.5" font-family="FreeSans" font-size="10.00">ProjectBuildTarget</text>
@@ -518,8 +518,8 @@
 </a>
 </g>
 </g>
-<!-- Node19&#45;&gt;Node21 -->
-<g id="edge20" class="edge"><title>Node19&#45;&gt;Node21</title>
+<!-- Node18&#45;&gt;Node20 -->
+<g id="edge20" class="edge"><title>Node18&#45;&gt;Node20</title>
 <path fill="none" stroke="midnightblue" d="M2329.36,-547.528C2349.25,-500.907 2371.17,-449.515 2390.35,-404.558"/>
 <polygon fill="none" stroke="midnightblue" points="2326.11,-546.214 2325.41,-556.785 2332.55,-548.961 2326.11,-546.214"/>
 </g>

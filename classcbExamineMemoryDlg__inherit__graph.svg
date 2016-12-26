@@ -8,8 +8,8 @@
  viewBox="0.00 0.00 148.00 402.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 398)">
 <title>cbExamineMemoryDlg</title>
-<!-- Node1 -->
-<g id="node1" class="node"><title>Node1</title>
+<!-- Node0 -->
+<g id="node1" class="node"><title>Node0</title>
 <polygon fill="#bfbfbf" stroke="black" points="4,-237.5 4,-393.5 136,-393.5 136,-237.5 4,-237.5"/>
 <text text-anchor="middle" x="70" y="-381.5" font-family="FreeSans" font-size="10.00">cbExamineMemoryDlg</text>
 <polyline fill="none" stroke="black" points="4,-374.5 136,-374.5 "/>
@@ -26,8 +26,8 @@
 <text text-anchor="start" x="12" y="-255.5" font-family="FreeSans" font-size="10.00">+ AddHexByte()</text>
 <text text-anchor="start" x="12" y="-244.5" font-family="FreeSans" font-size="10.00">+ EnableWindow()</text>
 </g>
-<!-- Node2 -->
-<g id="node2" class="node"><title>Node2</title>
+<!-- Node1 -->
+<g id="node2" class="node"><title>Node1</title>
 <g id="a_node2"><a xlink:href="classExamineMemoryDlg" target="_top" xlink:title="{ExamineMemoryDlg\n|&#45; m_pText\l&#45; m_ByteCounter\l&#45; m_LineText\l&#45; m_LastRowStartingAddress\l|+ ExamineMemoryDlg()\l+ GetWindow()\l+ Begin()\l+ End()\l+ Clear()\l+ GetBaseAddress()\l+ GetBytes()\l+ AddError()\l+ AddHexByte()\l+ EnableWindow()\l# OnGo()\l}">
 <polygon fill="none" stroke="black" points="0,-0.5 0,-200.5 140,-200.5 140,-0.5 0,-0.5"/>
 <text text-anchor="middle" x="70" y="-188.5" font-family="FreeSans" font-size="10.00">ExamineMemoryDlg</text>
@@ -51,8 +51,8 @@
 </a>
 </g>
 </g>
-<!-- Node1&#45;&gt;Node2 -->
-<g id="edge1" class="edge"><title>Node1&#45;&gt;Node2</title>
+<!-- Node0&#45;&gt;Node1 -->
+<g id="edge1" class="edge"><title>Node0&#45;&gt;Node1</title>
 <path fill="none" stroke="midnightblue" d="M70,-227.145C70,-218.411 70,-209.499 70,-200.656"/>
 <polygon fill="none" stroke="midnightblue" points="66.5001,-227.301 70,-237.301 73.5001,-227.301 66.5001,-227.301"/>
 </g>

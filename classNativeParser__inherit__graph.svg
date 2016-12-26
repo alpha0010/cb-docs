@@ -8,8 +8,8 @@
  viewBox="0.00 0.00 260.00 875.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 871)">
 <title>NativeParser</title>
-<!-- Node1 -->
-<g id="node1" class="node"><title>Node1</title>
+<!-- Node0 -->
+<g id="node1" class="node"><title>Node0</title>
 <polygon fill="#bfbfbf" stroke="black" points="20.5,-0.5 20.5,-453.5 187.5,-453.5 187.5,-0.5 20.5,-0.5"/>
 <text text-anchor="middle" x="104" y="-441.5" font-family="FreeSans" font-size="10.00">NativeParser</text>
 <polyline fill="none" stroke="black" points="20.5,-434.5 187.5,-434.5 "/>
@@ -53,8 +53,8 @@
 <text text-anchor="start" x="28.5" y="-18.5" font-family="FreeSans" font-size="10.00">&#45; ParseBufferForUsingNamespace()</text>
 <text text-anchor="start" x="28.5" y="-7.5" font-family="FreeSans" font-size="10.00">and 21 more...</text>
 </g>
-<!-- Node2 -->
-<g id="node2" class="node"><title>Node2</title>
+<!-- Node1 -->
+<g id="node2" class="node"><title>Node1</title>
 <polygon fill="none" stroke="#bfbfbf" points="0,-650 0,-707 74,-707 74,-650 0,-650"/>
 <text text-anchor="middle" x="37" y="-695" font-family="FreeSans" font-size="10.00">wxEvtHandler</text>
 <polyline fill="none" stroke="#bfbfbf" points="0,-688 74,-688 "/>
@@ -62,13 +62,13 @@
 <polyline fill="none" stroke="#bfbfbf" points="0,-669 74,-669 "/>
 <text text-anchor="middle" x="37" y="-657" font-family="FreeSans" font-size="10.00"> </text>
 </g>
-<!-- Node2&#45;&gt;Node1 -->
-<g id="edge1" class="edge"><title>Node2&#45;&gt;Node1</title>
+<!-- Node1&#45;&gt;Node0 -->
+<g id="edge1" class="edge"><title>Node1&#45;&gt;Node0</title>
 <path fill="none" stroke="midnightblue" d="M42.6419,-639.648C48.9319,-597.449 59.6366,-525.632 70.3604,-453.687"/>
 <polygon fill="none" stroke="midnightblue" points="39.1532,-639.314 41.1406,-649.721 46.0767,-640.346 39.1532,-639.314"/>
 </g>
-<!-- Node3 -->
-<g id="node3" class="node"><title>Node3</title>
+<!-- Node2 -->
+<g id="node3" class="node"><title>Node2</title>
 <g id="a_node3"><a xlink:href="classNativeParserBase" target="_top" xlink:title="{NativeParserBase\n|&#45; m_LastComponent\l&#45; m_TemplateMap\l|+ NativeParserBase()\l+ ~NativeParserBase()\l# Reset()\l# FindAIMatches()\l# FindCurrentFunctionScope()\l# CleanupSearchScope()\l# GetCallTipHighlight()\l# FindFunctionOpenParenthesis()\l# GetCCToken()\l# FindCCTokenStart()\land 16 more...\l# CountCommas()\l# InsideToken()\l# BeginOfToken()\l# BeforeToken()\l# IsOperatorEnd()\l# IsOperatorPointer()\l# IsOperatorBegin()\l# IsOperatorDot()\l# BeforeWhitespace()\l# AfterWhitespace()\l# IsOpeningBracket()\l# IsClosingBracket()\l&#45; AddChildrenOfUnnamed()\l&#45; AddChildrenOfEnum()\l&#45; IsChildOfUnnamedOrEnum()\l&#45; AddConstructors()\l&#45; MatchText()\l&#45; MatchType()\l}">
 <polygon fill="none" stroke="black" points="92,-490.5 92,-866.5 252,-866.5 252,-490.5 92,-490.5"/>
 <text text-anchor="middle" x="172" y="-854.5" font-family="FreeSans" font-size="10.00">NativeParserBase</text>
@@ -108,8 +108,8 @@
 </a>
 </g>
 </g>
-<!-- Node3&#45;&gt;Node1 -->
-<g id="edge2" class="edge"><title>Node3&#45;&gt;Node1</title>
+<!-- Node2&#45;&gt;Node0 -->
+<g id="edge2" class="edge"><title>Node2&#45;&gt;Node0</title>
 <path fill="none" stroke="#8b1a1a" d="M142.188,-480.435C140.842,-471.538 139.487,-462.582 138.132,-453.625"/>
 <polygon fill="none" stroke="#8b1a1a" points="138.747,-481.088 143.703,-490.452 145.668,-480.04 138.747,-481.088"/>
 </g>

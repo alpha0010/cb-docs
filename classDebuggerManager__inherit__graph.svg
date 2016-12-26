@@ -8,8 +8,8 @@
  viewBox="0.00 0.00 151.00 534.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 530)">
 <title>DebuggerManager</title>
-<!-- Node1 -->
-<g id="node1" class="node"><title>Node1</title>
+<!-- Node0 -->
+<g id="node1" class="node"><title>Node0</title>
 <polygon fill="#bfbfbf" stroke="black" points="0,-0.5 0,-354.5 143,-354.5 143,-0.5 0,-0.5"/>
 <text text-anchor="middle" x="71.5" y="-342.5" font-family="FreeSans" font-size="10.00">DebuggerManager</text>
 <polyline fill="none" stroke="black" points="0,-335.5 143,-335.5 "/>
@@ -44,8 +44,8 @@
 <text text-anchor="start" x="8" y="-18.5" font-family="FreeSans" font-size="10.00">&#45; OnSettingsChanged()</text>
 <text text-anchor="start" x="8" y="-7.5" font-family="FreeSans" font-size="10.00">&#45; OnPluginLoadingComplete()</text>
 </g>
-<!-- Node2 -->
-<g id="node2" class="node"><title>Node2</title>
+<!-- Node1 -->
+<g id="node2" class="node"><title>Node1</title>
 <g id="a_node2"><a xlink:href="classMgr" target="_top" xlink:title="{Mgr\&lt; DebuggerManager \&gt;\n|&#45; instance\l&#45; isShutdown\l|+ Valid()\l+ Get()\l+ Free()\l# Mgr()\l# ~Mgr()\l&#45; Mgr()\l&#45; operator=()\l}">
 <polygon fill="none" stroke="black" points="7.5,-391.5 7.5,-525.5 135.5,-525.5 135.5,-391.5 7.5,-391.5"/>
 <text text-anchor="middle" x="71.5" y="-513.5" font-family="FreeSans" font-size="10.00">Mgr&lt; DebuggerManager &gt;</text>
@@ -63,8 +63,8 @@
 </a>
 </g>
 </g>
-<!-- Node2&#45;&gt;Node1 -->
-<g id="edge1" class="edge"><title>Node2&#45;&gt;Node1</title>
+<!-- Node1&#45;&gt;Node0 -->
+<g id="edge1" class="edge"><title>Node1&#45;&gt;Node0</title>
 <path fill="none" stroke="midnightblue" d="M71.5,-381.167C71.5,-372.621 71.5,-363.674 71.5,-354.501"/>
 <polygon fill="none" stroke="midnightblue" points="68.0001,-381.381 71.5,-391.381 75.0001,-381.381 68.0001,-381.381"/>
 </g>

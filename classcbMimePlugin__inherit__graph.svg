@@ -8,8 +8,8 @@
  viewBox="0.00 0.00 166.00 496.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 492)">
 <title>cbMimePlugin</title>
-<!-- Node1 -->
-<g id="node1" class="node"><title>Node1</title>
+<!-- Node0 -->
+<g id="node1" class="node"><title>Node0</title>
 <polygon fill="#bfbfbf" stroke="black" points="24,-0.5 24,-145.5 134,-145.5 134,-0.5 24,-0.5"/>
 <text text-anchor="middle" x="79" y="-133.5" font-family="FreeSans" font-size="10.00">cbMimePlugin</text>
 <polyline fill="none" stroke="black" points="24,-126.5 134,-126.5 "/>
@@ -25,8 +25,8 @@
 <text text-anchor="start" x="32" y="-18.5" font-family="FreeSans" font-size="10.00">&#45; BuildToolBar()</text>
 <text text-anchor="start" x="32" y="-7.5" font-family="FreeSans" font-size="10.00">&#45; RemoveToolBar()</text>
 </g>
-<!-- Node2 -->
-<g id="node2" class="node"><title>Node2</title>
+<!-- Node1 -->
+<g id="node2" class="node"><title>Node1</title>
 <g id="a_node2"><a xlink:href="classcbPlugin" target="_top" xlink:title="Base class for plugins This is the most basic class a plugin must descend from. ">
 <polygon fill="none" stroke="black" points="-1.42109e-14,-182.5 -1.42109e-14,-393.5 158,-393.5 158,-182.5 -1.42109e-14,-182.5"/>
 <text text-anchor="middle" x="79" y="-381.5" font-family="FreeSans" font-size="10.00">cbPlugin</text>
@@ -51,13 +51,13 @@
 </a>
 </g>
 </g>
-<!-- Node2&#45;&gt;Node1 -->
-<g id="edge1" class="edge"><title>Node2&#45;&gt;Node1</title>
+<!-- Node1&#45;&gt;Node0 -->
+<g id="edge1" class="edge"><title>Node1&#45;&gt;Node0</title>
 <path fill="none" stroke="midnightblue" d="M79,-172.194C79,-163.198 79,-154.28 79,-145.702"/>
 <polygon fill="none" stroke="midnightblue" points="75.5001,-172.372 79,-182.372 82.5001,-172.372 75.5001,-172.372"/>
 </g>
-<!-- Node3 -->
-<g id="node3" class="node"><title>Node3</title>
+<!-- Node2 -->
+<g id="node3" class="node"><title>Node2</title>
 <polygon fill="none" stroke="#bfbfbf" points="42,-430.5 42,-487.5 116,-487.5 116,-430.5 42,-430.5"/>
 <text text-anchor="middle" x="79" y="-475.5" font-family="FreeSans" font-size="10.00">wxEvtHandler</text>
 <polyline fill="none" stroke="#bfbfbf" points="42,-468.5 116,-468.5 "/>
@@ -65,8 +65,8 @@
 <polyline fill="none" stroke="#bfbfbf" points="42,-449.5 116,-449.5 "/>
 <text text-anchor="middle" x="79" y="-437.5" font-family="FreeSans" font-size="10.00"> </text>
 </g>
-<!-- Node3&#45;&gt;Node2 -->
-<g id="edge2" class="edge"><title>Node3&#45;&gt;Node2</title>
+<!-- Node2&#45;&gt;Node1 -->
+<g id="edge2" class="edge"><title>Node2&#45;&gt;Node1</title>
 <path fill="none" stroke="midnightblue" d="M79,-420.233C79,-412.038 79,-402.987 79,-393.584"/>
 <polygon fill="none" stroke="midnightblue" points="75.5001,-420.471 79,-430.471 82.5001,-420.471 75.5001,-420.471"/>
 </g>

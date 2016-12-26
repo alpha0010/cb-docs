@@ -8,8 +8,8 @@
  viewBox="0.00 0.00 333.00 746.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 742)">
 <title>EditorHooks::cbSmartIndentEditorHookFunctor</title>
-<!-- Node1 -->
-<g id="node1" class="node"><title>Node1</title>
+<!-- Node2 -->
+<g id="node1" class="node"><title>Node2</title>
 <polygon fill="#bfbfbf" stroke="black" points="38.5,-0.5 38.5,-101.5 213.5,-101.5 213.5,-0.5 38.5,-0.5"/>
 <text text-anchor="start" x="46.5" y="-89.5" font-family="FreeSans" font-size="10.00">EditorHooks::cbSmartIndent</text>
 <text text-anchor="middle" x="126" y="-78.5" font-family="FreeSans" font-size="10.00">EditorHookFunctor</text>
@@ -21,8 +21,8 @@
 <text text-anchor="start" x="46.5" y="-18.5" font-family="FreeSans" font-size="10.00">Functor()</text>
 <text text-anchor="start" x="46.5" y="-7.5" font-family="FreeSans" font-size="10.00">+ Call()</text>
 </g>
-<!-- Node2 -->
-<g id="node2" class="node"><title>Node2</title>
+<!-- Node3 -->
+<g id="node2" class="node"><title>Node3</title>
 <g id="a_node2"><a xlink:href="classEditorHooks_1_1HookFunctorBase" target="_top" xlink:title="Abstract base hook functor interface. ">
 <polygon fill="none" stroke="black" points="-1.42109e-14,-237.5 -1.42109e-14,-305.5 150,-305.5 150,-237.5 -1.42109e-14,-237.5"/>
 <text text-anchor="middle" x="75" y="-293.5" font-family="FreeSans" font-size="10.00">EditorHooks::HookFunctorBase</text>
@@ -34,13 +34,13 @@
 </a>
 </g>
 </g>
-<!-- Node2&#45;&gt;Node1 -->
-<g id="edge1" class="edge"><title>Node2&#45;&gt;Node1</title>
+<!-- Node3&#45;&gt;Node2 -->
+<g id="edge1" class="edge"><title>Node3&#45;&gt;Node2</title>
 <path fill="none" stroke="midnightblue" d="M85.0232,-227.558C93.4594,-191.414 105.53,-139.698 114.386,-101.756"/>
 <polygon fill="none" stroke="midnightblue" points="81.6105,-226.781 82.7458,-237.315 88.4273,-228.372 81.6105,-226.781"/>
 </g>
-<!-- Node3 -->
-<g id="node3" class="node"><title>Node3</title>
+<!-- Node4 -->
+<g id="node3" class="node"><title>Node4</title>
 <g id="a_node3"><a xlink:href="classcbSmartIndentPlugin" target="_top" xlink:title="{cbSmartIndentPlugin\n|&#45; m_FunctorId\l|+ cbSmartIndentPlugin()\l+ OnEditorHook()\l+ OnCCDone()\l# OnAttach()\l# OnRelease()\l# GetLastNonCommentWord()\l# GetLastNonWhitespaceChars()\l# GetLastNonWhitespaceChar()\l# GetNextNonWhitespaceChar\lOnLine()\l# FindBlockStart()\l# FindBlockStart()\land 10 more...\l&#45; BuildMenu()\l&#45; RemoveMenu()\l&#45; BuildModuleMenu()\l&#45; BuildToolBar()\l&#45; RemoveToolBar()\l}">
 <polygon fill="none" stroke="black" points="168,-149.5 168,-393.5 324,-393.5 324,-149.5 168,-149.5"/>
 <text text-anchor="middle" x="246" y="-381.5" font-family="FreeSans" font-size="10.00">cbSmartIndentPlugin</text>
@@ -68,14 +68,14 @@
 </a>
 </g>
 </g>
-<!-- Node3&#45;&gt;Node1 -->
-<g id="edge2" class="edge"><title>Node3&#45;&gt;Node1</title>
+<!-- Node4&#45;&gt;Node2 -->
+<g id="edge2" class="edge"><title>Node4&#45;&gt;Node2</title>
 <path fill="none" stroke="#404040" d="M179.507,-149.428C172.5,-136.669 165.612,-124.127 159.232,-112.51"/>
 <polygon fill="none" stroke="#404040" points="159.06,-112.197 152.666,-108.863 153.283,-101.679 159.678,-105.012 159.06,-112.197"/>
 <text text-anchor="middle" x="190.5" y="-123" font-family="FreeSans" font-size="10.00"> &#45;m_plugin</text>
 </g>
-<!-- Node4 -->
-<g id="node4" class="node"><title>Node4</title>
+<!-- Node5 -->
+<g id="node4" class="node"><title>Node5</title>
 <g id="a_node4"><a xlink:href="classcbPlugin" target="_top" xlink:title="Base class for plugins This is the most basic class a plugin must descend from. ">
 <polygon fill="none" stroke="black" points="167,-431.5 167,-642.5 325,-642.5 325,-431.5 167,-431.5"/>
 <text text-anchor="middle" x="246" y="-630.5" font-family="FreeSans" font-size="10.00">cbPlugin</text>
@@ -100,13 +100,13 @@
 </a>
 </g>
 </g>
-<!-- Node4&#45;&gt;Node3 -->
-<g id="edge3" class="edge"><title>Node4&#45;&gt;Node3</title>
+<!-- Node5&#45;&gt;Node4 -->
+<g id="edge3" class="edge"><title>Node5&#45;&gt;Node4</title>
 <path fill="none" stroke="midnightblue" d="M246,-421.277C246,-412.191 246,-402.995 246,-393.867"/>
 <polygon fill="none" stroke="midnightblue" points="242.5,-421.479 246,-431.479 249.5,-421.479 242.5,-421.479"/>
 </g>
-<!-- Node5 -->
-<g id="node5" class="node"><title>Node5</title>
+<!-- Node6 -->
+<g id="node5" class="node"><title>Node6</title>
 <polygon fill="none" stroke="#bfbfbf" points="209,-680.5 209,-737.5 283,-737.5 283,-680.5 209,-680.5"/>
 <text text-anchor="middle" x="246" y="-725.5" font-family="FreeSans" font-size="10.00">wxEvtHandler</text>
 <polyline fill="none" stroke="#bfbfbf" points="209,-718.5 283,-718.5 "/>
@@ -114,8 +114,8 @@
 <polyline fill="none" stroke="#bfbfbf" points="209,-699.5 283,-699.5 "/>
 <text text-anchor="middle" x="246" y="-687.5" font-family="FreeSans" font-size="10.00"> </text>
 </g>
-<!-- Node5&#45;&gt;Node4 -->
-<g id="edge4" class="edge"><title>Node5&#45;&gt;Node4</title>
+<!-- Node6&#45;&gt;Node5 -->
+<g id="edge4" class="edge"><title>Node6&#45;&gt;Node5</title>
 <path fill="none" stroke="midnightblue" d="M246,-670.194C246,-661.797 246,-652.5 246,-642.841"/>
 <polygon fill="none" stroke="midnightblue" points="242.5,-670.308 246,-680.308 249.5,-670.308 242.5,-670.308"/>
 </g>

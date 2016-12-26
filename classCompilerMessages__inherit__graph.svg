@@ -8,8 +8,8 @@
  viewBox="0.00 0.00 249.50 672.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 668)">
 <title>CompilerMessages</title>
-<!-- Node1 -->
-<g id="node1" class="node"><title>Node1</title>
+<!-- Node0 -->
+<g id="node1" class="node"><title>Node0</title>
 <polygon fill="#bfbfbf" stroke="black" points="22.5,-0.5 22.5,-211.5 177.5,-211.5 177.5,-0.5 22.5,-0.5"/>
 <text text-anchor="middle" x="100" y="-199.5" font-family="FreeSans" font-size="10.00">CompilerMessages</text>
 <polyline fill="none" stroke="black" points="22.5,-192.5 177.5,-192.5 "/>
@@ -31,8 +31,8 @@
 <text text-anchor="start" x="30.5" y="-18.5" font-family="FreeSans" font-size="10.00">&#45; OnAutoFit()</text>
 <text text-anchor="start" x="30.5" y="-7.5" font-family="FreeSans" font-size="10.00">&#45; FitColumns()</text>
 </g>
-<!-- Node2 -->
-<g id="node2" class="node"><title>Node2</title>
+<!-- Node1 -->
+<g id="node2" class="node"><title>Node1</title>
 <polygon fill="none" stroke="#bfbfbf" points="0,-331 0,-388 74,-388 74,-331 0,-331"/>
 <text text-anchor="middle" x="37" y="-376" font-family="FreeSans" font-size="10.00">wxEvtHandler</text>
 <polyline fill="none" stroke="#bfbfbf" points="0,-369 74,-369 "/>
@@ -40,13 +40,13 @@
 <polyline fill="none" stroke="#bfbfbf" points="0,-350 74,-350 "/>
 <text text-anchor="middle" x="37" y="-338" font-family="FreeSans" font-size="10.00"> </text>
 </g>
-<!-- Node2&#45;&gt;Node1 -->
-<g id="edge1" class="edge"><title>Node2&#45;&gt;Node1</title>
+<!-- Node1&#45;&gt;Node0 -->
+<g id="edge1" class="edge"><title>Node1&#45;&gt;Node0</title>
 <path fill="none" stroke="midnightblue" d="M46.5078,-320.544C53.762,-291.585 64.1219,-250.227 73.7958,-211.609"/>
 <polygon fill="none" stroke="midnightblue" points="43.0177,-320.073 43.9828,-330.624 49.8079,-321.774 43.0177,-320.073"/>
 </g>
-<!-- Node3 -->
-<g id="node3" class="node"><title>Node3</title>
+<!-- Node2 -->
+<g id="node3" class="node"><title>Node2</title>
 <g id="a_node3"><a xlink:href="classListCtrlLogger" target="_top" xlink:title="a logger which prints messages to a wxListCtrl ">
 <polygon fill="none" stroke="black" points="92.5,-248.5 92.5,-470.5 235.5,-470.5 235.5,-248.5 92.5,-248.5"/>
 <text text-anchor="middle" x="164" y="-458.5" font-family="FreeSans" font-size="10.00">ListCtrlLogger</text>
@@ -72,13 +72,13 @@
 </a>
 </g>
 </g>
-<!-- Node3&#45;&gt;Node1 -->
-<g id="edge2" class="edge"><title>Node3&#45;&gt;Node1</title>
+<!-- Node2&#45;&gt;Node0 -->
+<g id="edge2" class="edge"><title>Node2&#45;&gt;Node0</title>
 <path fill="none" stroke="midnightblue" d="M133.458,-238.48C131.176,-229.511 128.883,-220.503 126.628,-211.639"/>
 <polygon fill="none" stroke="midnightblue" points="130.071,-239.36 135.929,-248.188 136.854,-237.634 130.071,-239.36"/>
 </g>
-<!-- Node4 -->
-<g id="node4" class="node"><title>Node4</title>
+<!-- Node3 -->
+<g id="node4" class="node"><title>Node3</title>
 <g id="a_node4"><a xlink:href="classLogger" target="_top" xlink:title="The base class for all kinds of loggers, see loggers.h for its derived classes. ">
 <polygon fill="none" stroke="black" points="86.5,-507.5 86.5,-663.5 241.5,-663.5 241.5,-507.5 86.5,-507.5"/>
 <text text-anchor="middle" x="164" y="-651.5" font-family="FreeSans" font-size="10.00">Logger</text>
@@ -98,8 +98,8 @@
 </a>
 </g>
 </g>
-<!-- Node4&#45;&gt;Node3 -->
-<g id="edge3" class="edge"><title>Node4&#45;&gt;Node3</title>
+<!-- Node3&#45;&gt;Node2 -->
+<g id="edge3" class="edge"><title>Node3&#45;&gt;Node2</title>
 <path fill="none" stroke="midnightblue" d="M164,-497.25C164,-488.498 164,-479.535 164,-470.588"/>
 <polygon fill="none" stroke="midnightblue" points="160.5,-497.412 164,-507.412 167.5,-497.412 160.5,-497.412"/>
 </g>

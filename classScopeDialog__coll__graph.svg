@@ -8,8 +8,8 @@
  viewBox="0.00 0.00 125.00 226.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 222)">
 <title>ScopeDialog</title>
-<!-- Node1 -->
-<g id="node1" class="node"><title>Node1</title>
+<!-- Node2 -->
+<g id="node1" class="node"><title>Node2</title>
 <polygon fill="#bfbfbf" stroke="black" points="0,-0.5 0,-123.5 117,-123.5 117,-0.5 0,-0.5"/>
 <text text-anchor="middle" x="58.5" y="-111.5" font-family="FreeSans" font-size="10.00">ScopeDialog</text>
 <polyline fill="none" stroke="black" points="0,-104.5 117,-104.5 "/>
@@ -23,8 +23,8 @@
 <text text-anchor="start" x="8" y="-18.5" font-family="FreeSans" font-size="10.00">&#45; OnOpenFilesClick()</text>
 <text text-anchor="start" x="8" y="-7.5" font-family="FreeSans" font-size="10.00">&#45; OnProjectFilesClick()</text>
 </g>
-<!-- Node2 -->
-<g id="node2" class="node"><title>Node2</title>
+<!-- Node3 -->
+<g id="node2" class="node"><title>Node3</title>
 <polygon fill="none" stroke="#bfbfbf" points="31,-160.5 31,-217.5 86,-217.5 86,-160.5 31,-160.5"/>
 <text text-anchor="middle" x="58.5" y="-205.5" font-family="FreeSans" font-size="10.00">wxDialog</text>
 <polyline fill="none" stroke="#bfbfbf" points="31,-198.5 86,-198.5 "/>
@@ -32,8 +32,8 @@
 <polyline fill="none" stroke="#bfbfbf" points="31,-179.5 86,-179.5 "/>
 <text text-anchor="middle" x="58.5" y="-167.5" font-family="FreeSans" font-size="10.00"> </text>
 </g>
-<!-- Node2&#45;&gt;Node1 -->
-<g id="edge1" class="edge"><title>Node2&#45;&gt;Node1</title>
+<!-- Node3&#45;&gt;Node2 -->
+<g id="edge1" class="edge"><title>Node3&#45;&gt;Node2</title>
 <path fill="none" stroke="midnightblue" d="M58.5,-150.099C58.5,-141.739 58.5,-132.68 58.5,-123.672"/>
 <polygon fill="none" stroke="midnightblue" points="55.0001,-150.258 58.5,-160.258 62.0001,-150.258 55.0001,-150.258"/>
 </g>

@@ -8,8 +8,8 @@
  viewBox="0.00 0.00 264.00 1302.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 1298)">
 <title>UsrGlblMgrEditDialog</title>
-<!-- Node1 -->
-<g id="node1" class="node"><title>Node1</title>
+<!-- Node4 -->
+<g id="node1" class="node"><title>Node4</title>
 <polygon fill="#bfbfbf" stroke="black" points="94.5,-0.5 94.5,-277.5 216.5,-277.5 216.5,-0.5 94.5,-0.5"/>
 <text text-anchor="middle" x="155.5" y="-265.5" font-family="FreeSans" font-size="10.00">UsrGlblMgrEditDialog</text>
 <polyline fill="none" stroke="black" points="94.5,-258.5 216.5,-258.5 "/>
@@ -37,8 +37,8 @@
 <text text-anchor="start" x="102.5" y="-18.5" font-family="FreeSans" font-size="10.00">&#45; NewVar()</text>
 <text text-anchor="start" x="102.5" y="-7.5" font-family="FreeSans" font-size="10.00">and 11 more...</text>
 </g>
-<!-- Node2 -->
-<g id="node2" class="node"><title>Node2</title>
+<!-- Node5 -->
+<g id="node2" class="node"><title>Node5</title>
 <g id="a_node2"><a xlink:href="classwxScrollingDialog" target="_top" xlink:title="{wxScrollingDialog\n||+ wxScrollingDialog()\l+ wxScrollingDialog()\l+ Create()\l+ Init()\l+ Show()\l+ ShowModal()\l}">
 <polygon fill="none" stroke="black" points="0,-507 0,-619 107,-619 107,-507 0,-507"/>
 <text text-anchor="middle" x="53.5" y="-607" font-family="FreeSans" font-size="10.00">wxScrollingDialog</text>
@@ -54,13 +54,13 @@
 </a>
 </g>
 </g>
-<!-- Node2&#45;&gt;Node1 -->
-<g id="edge1" class="edge"><title>Node2&#45;&gt;Node1</title>
+<!-- Node5&#45;&gt;Node4 -->
+<g id="edge1" class="edge"><title>Node5&#45;&gt;Node4</title>
 <path fill="none" stroke="midnightblue" d="M69.2039,-497.029C83.2735,-438.819 104.377,-351.511 122.192,-277.804"/>
 <polygon fill="none" stroke="midnightblue" points="65.7822,-496.288 66.8347,-506.831 72.5862,-497.933 65.7822,-496.288"/>
 </g>
-<!-- Node3 -->
-<g id="node3" class="node"><title>Node3</title>
+<!-- Node6 -->
+<g id="node3" class="node"><title>Node6</title>
 <polygon fill="none" stroke="#bfbfbf" points="14,-926.5 14,-983.5 69,-983.5 69,-926.5 14,-926.5"/>
 <text text-anchor="middle" x="41.5" y="-971.5" font-family="FreeSans" font-size="10.00">wxDialog</text>
 <polyline fill="none" stroke="#bfbfbf" points="14,-964.5 69,-964.5 "/>
@@ -68,13 +68,13 @@
 <polyline fill="none" stroke="#bfbfbf" points="14,-945.5 69,-945.5 "/>
 <text text-anchor="middle" x="41.5" y="-933.5" font-family="FreeSans" font-size="10.00"> </text>
 </g>
-<!-- Node3&#45;&gt;Node2 -->
-<g id="edge2" class="edge"><title>Node3&#45;&gt;Node2</title>
+<!-- Node6&#45;&gt;Node5 -->
+<g id="edge2" class="edge"><title>Node6&#45;&gt;Node5</title>
 <path fill="none" stroke="midnightblue" d="M42.6615,-916.253C44.7892,-847.102 49.3207,-699.828 51.7972,-619.341"/>
 <polygon fill="none" stroke="midnightblue" points="39.1627,-916.162 42.3534,-926.265 46.1594,-916.377 39.1627,-916.162"/>
 </g>
-<!-- Node4 -->
-<g id="node4" class="node"><title>Node4</title>
+<!-- Node7 -->
+<g id="node4" class="node"><title>Node7</title>
 <g id="a_node4"><a xlink:href="classwxDialogHelper" target="_top" xlink:title="{wxDialogHelper\n|# m_dialog\l# m_layoutLayoutAdaptationDone\l# m_buttonIds\l# m_layoutAdaptationLevel\l# sm_layoutAdaptation\l|+ wxDialogHelper()\l+ ~wxDialogHelper()\l+ Init()\l+ SetDialog()\l+ GetDialog()\l+ DoLayoutAdaptation()\l+ CanDoLayoutAdaptation()\l+ GetContentWindow()\land 7 more...\l+ SetLayoutAdapter()\l+ GetLayoutAdapter()\l+ GetLayoutAdaptation()\l+ SetLayoutAdaptation()\l}">
 <polygon fill="none" stroke="black" points="87,-838.5 87,-1071.5 248,-1071.5 248,-838.5 87,-838.5"/>
 <text text-anchor="middle" x="167.5" y="-1059.5" font-family="FreeSans" font-size="10.00">wxDialogHelper</text>
@@ -101,13 +101,13 @@
 </a>
 </g>
 </g>
-<!-- Node4&#45;&gt;Node2 -->
-<g id="edge3" class="edge"><title>Node4&#45;&gt;Node2</title>
+<!-- Node7&#45;&gt;Node5 -->
+<g id="edge3" class="edge"><title>Node7&#45;&gt;Node5</title>
 <path fill="none" stroke="midnightblue" d="M124.037,-828.488C121.072,-819.21 118.195,-809.974 115.5,-801 96.9673,-739.289 78.6559,-667.616 66.7945,-619.384"/>
 <polygon fill="none" stroke="midnightblue" points="120.756,-829.719 127.156,-838.163 127.419,-827.571 120.756,-829.719"/>
 </g>
-<!-- Node5 -->
-<g id="node5" class="node"><title>Node5</title>
+<!-- Node8 -->
+<g id="node5" class="node"><title>Node8</title>
 <g id="a_node5"><a xlink:href="classwxDialogLayoutAdapter" target="_top" xlink:title="{wxDialogLayoutAdapter\n||+ wxDialogLayoutAdapter()\l+ CanDoLayoutAdaptation()\l+ DoLayoutAdaptation()\l}">
 <polygon fill="none" stroke="black" points="100,-1119.5 100,-1198.5 235,-1198.5 235,-1119.5 100,-1119.5"/>
 <text text-anchor="middle" x="167.5" y="-1186.5" font-family="FreeSans" font-size="10.00">wxDialogLayoutAdapter</text>
@@ -120,14 +120,14 @@
 </a>
 </g>
 </g>
-<!-- Node5&#45;&gt;Node4 -->
-<g id="edge4" class="edge"><title>Node5&#45;&gt;Node4</title>
+<!-- Node8&#45;&gt;Node7 -->
+<g id="edge4" class="edge"><title>Node8&#45;&gt;Node7</title>
 <path fill="none" stroke="#404040" d="M167.5,-1119.05C167.5,-1108.54 167.5,-1096.56 167.5,-1083.98"/>
 <polygon fill="none" stroke="#404040" points="167.5,-1083.77 163.5,-1077.77 167.5,-1071.77 171.5,-1077.77 167.5,-1083.77"/>
 <text text-anchor="middle" x="210" y="-1093" font-family="FreeSans" font-size="10.00"> #sm_layoutAdapter</text>
 </g>
-<!-- Node6 -->
-<g id="node6" class="node"><title>Node6</title>
+<!-- Node9 -->
+<g id="node6" class="node"><title>Node9</title>
 <polygon fill="none" stroke="#bfbfbf" points="139.5,-1236.5 139.5,-1293.5 195.5,-1293.5 195.5,-1236.5 139.5,-1236.5"/>
 <text text-anchor="middle" x="167.5" y="-1281.5" font-family="FreeSans" font-size="10.00">wxObject</text>
 <polyline fill="none" stroke="#bfbfbf" points="139.5,-1274.5 195.5,-1274.5 "/>
@@ -135,13 +135,13 @@
 <polyline fill="none" stroke="#bfbfbf" points="139.5,-1255.5 195.5,-1255.5 "/>
 <text text-anchor="middle" x="167.5" y="-1243.5" font-family="FreeSans" font-size="10.00"> </text>
 </g>
-<!-- Node6&#45;&gt;Node5 -->
-<g id="edge5" class="edge"><title>Node6&#45;&gt;Node5</title>
+<!-- Node9&#45;&gt;Node8 -->
+<g id="edge5" class="edge"><title>Node9&#45;&gt;Node8</title>
 <path fill="none" stroke="midnightblue" d="M167.5,-1226.23C167.5,-1217.27 167.5,-1207.69 167.5,-1198.69"/>
 <polygon fill="none" stroke="midnightblue" points="164,-1226.4 167.5,-1236.4 171,-1226.4 164,-1226.4"/>
 </g>
-<!-- Node7 -->
-<g id="node7" class="node"><title>Node7</title>
+<!-- Node10 -->
+<g id="node7" class="node"><title>Node10</title>
 <g id="a_node7"><a xlink:href="classConfigManager" target="_top" xlink:title="{ConfigManager\n|&#45; doc\l&#45; root\l&#45; pathNode\l&#45; config_folder\l&#45; home_folder\l&#45; data_path_user\l&#45; data_path_global\l&#45; app_path\l&#45; temp_folder\l&#45; alternate_user_data_path\l&#45; has_alternate_user\l_data_path\l|+ GetPath()\l+ SetPath()\l+ EnumerateSubPaths()\l+ EnumerateKeys()\l+ DeleteSubPath()\l+ Clear()\l+ Delete()\l+ DeleteAll()\land 39 more...\l+ LocateDataFile()\l+ GetFolder()\l+ GetHomeFolder()\l+ GetConfigFolder()\l+ GetPluginsFolder()\l+ GetScriptsFolder()\l+ GetDataFolder()\l+ GetExecutableFolder()\land 7 more...\l# SetUserDataFolder()\l# GetUserDataFolder()\l&#45; ConfigManager()\l&#45; AssertPath()\l&#45; GetUniqElement()\l&#45; SetNodeText()\l&#45; Collapse()\l&#45; InvalidNameMessage()\l&#45; InitPaths()\l&#45; MigrateFolders()\l}">
 <polygon fill="none" stroke="black" points="125,-325.5 125,-800.5 256,-800.5 256,-325.5 125,-325.5"/>
 <text text-anchor="middle" x="190.5" y="-788.5" font-family="FreeSans" font-size="10.00">ConfigManager</text>
@@ -190,8 +190,8 @@
 </a>
 </g>
 </g>
-<!-- Node7&#45;&gt;Node1 -->
-<g id="edge6" class="edge"><title>Node7&#45;&gt;Node1</title>
+<!-- Node10&#45;&gt;Node4 -->
+<g id="edge6" class="edge"><title>Node10&#45;&gt;Node4</title>
 <path fill="none" stroke="#404040" d="M170.877,-325.402C169.875,-313.326 168.883,-301.363 167.914,-289.675"/>
 <polygon fill="none" stroke="#404040" points="167.904,-289.56 163.422,-283.911 166.912,-277.601 171.395,-283.25 167.904,-289.56"/>
 <text text-anchor="middle" x="196" y="-299" font-family="FreeSans" font-size="10.00"> &#45;m_CfgMan</text>

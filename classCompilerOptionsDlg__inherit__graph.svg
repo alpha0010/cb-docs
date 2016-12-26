@@ -8,8 +8,8 @@
  viewBox="0.00 0.00 181.00 595.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 591)">
 <title>CompilerOptionsDlg</title>
-<!-- Node1 -->
-<g id="node1" class="node"><title>Node1</title>
+<!-- Node0 -->
+<g id="node1" class="node"><title>Node0</title>
 <polygon fill="#bfbfbf" stroke="black" points="0,-0.5 0,-310.5 173,-310.5 173,-0.5 0,-0.5"/>
 <text text-anchor="middle" x="86.5" y="-298.5" font-family="FreeSans" font-size="10.00">CompilerOptionsDlg</text>
 <polyline fill="none" stroke="black" points="0,-291.5 173,-291.5 "/>
@@ -40,8 +40,8 @@
 <text text-anchor="start" x="8" y="-18.5" font-family="FreeSans" font-size="10.00">&#45; DoFillCompilerDependentSettings()</text>
 <text text-anchor="start" x="8" y="-7.5" font-family="FreeSans" font-size="10.00">and 58 more...</text>
 </g>
-<!-- Node2 -->
-<g id="node2" class="node"><title>Node2</title>
+<!-- Node1 -->
+<g id="node2" class="node"><title>Node1</title>
 <g id="a_node2"><a xlink:href="classcbConfigurationPanel" target="_top" xlink:title="Base class for plugin configuration panels. ">
 <polygon fill="none" stroke="black" points="22.5,-347.5 22.5,-492.5 150.5,-492.5 150.5,-347.5 22.5,-347.5"/>
 <text text-anchor="middle" x="86.5" y="-480.5" font-family="FreeSans" font-size="10.00">cbConfigurationPanel</text>
@@ -60,13 +60,13 @@
 </a>
 </g>
 </g>
-<!-- Node2&#45;&gt;Node1 -->
-<g id="edge1" class="edge"><title>Node2&#45;&gt;Node1</title>
+<!-- Node1&#45;&gt;Node0 -->
+<g id="edge1" class="edge"><title>Node1&#45;&gt;Node0</title>
 <path fill="none" stroke="midnightblue" d="M86.5,-337.083C86.5,-328.59 86.5,-319.774 86.5,-310.81"/>
 <polygon fill="none" stroke="midnightblue" points="83.0001,-337.271 86.5,-347.271 90.0001,-337.271 83.0001,-337.271"/>
 </g>
-<!-- Node3 -->
-<g id="node3" class="node"><title>Node3</title>
+<!-- Node2 -->
+<g id="node3" class="node"><title>Node2</title>
 <polygon fill="none" stroke="#bfbfbf" points="60,-529.5 60,-586.5 113,-586.5 113,-529.5 60,-529.5"/>
 <text text-anchor="middle" x="86.5" y="-574.5" font-family="FreeSans" font-size="10.00">wxPanel</text>
 <polyline fill="none" stroke="#bfbfbf" points="60,-567.5 113,-567.5 "/>
@@ -74,8 +74,8 @@
 <polyline fill="none" stroke="#bfbfbf" points="60,-548.5 113,-548.5 "/>
 <text text-anchor="middle" x="86.5" y="-536.5" font-family="FreeSans" font-size="10.00"> </text>
 </g>
-<!-- Node3&#45;&gt;Node2 -->
-<g id="edge2" class="edge"><title>Node3&#45;&gt;Node2</title>
+<!-- Node2&#45;&gt;Node1 -->
+<g id="edge2" class="edge"><title>Node2&#45;&gt;Node1</title>
 <path fill="none" stroke="midnightblue" d="M86.5,-519.356C86.5,-510.999 86.5,-501.872 86.5,-492.656"/>
 <polygon fill="none" stroke="midnightblue" points="83.0001,-519.478 86.5,-529.478 90.0001,-519.478 83.0001,-519.478"/>
 </g>

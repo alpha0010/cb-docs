@@ -8,8 +8,8 @@
  viewBox="0.00 0.00 434.00 551.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 547)">
 <title>TextCtrlLogger</title>
-<!-- Node1 -->
-<g id="node1" class="node"><title>Node1</title>
+<!-- Node0 -->
+<g id="node1" class="node"><title>Node0</title>
 <polygon fill="#bfbfbf" stroke="black" points="147.5,-171.5 147.5,-349.5 290.5,-349.5 290.5,-171.5 147.5,-171.5"/>
 <text text-anchor="middle" x="219" y="-337.5" font-family="FreeSans" font-size="10.00">TextCtrlLogger</text>
 <polyline fill="none" stroke="black" points="147.5,-330.5 290.5,-330.5 "/>
@@ -28,8 +28,8 @@
 <text text-anchor="start" x="155.5" y="-189.5" font-family="FreeSans" font-size="10.00">+ ToggleWrapMode()</text>
 <text text-anchor="start" x="155.5" y="-178.5" font-family="FreeSans" font-size="10.00">+ HasFeature()</text>
 </g>
-<!-- Node3 -->
-<g id="node3" class="node"><title>Node3</title>
+<!-- Node2 -->
+<g id="node3" class="node"><title>Node2</title>
 <g id="a_node3"><a xlink:href="classBuildLogger" target="_top" xlink:title="{BuildLogger\n|+ progress\l&#45; panel\l&#45; sizer\l|+ BuildLogger()\l+ UpdateSettings()\l+ CreateControl()\l+ AddBuildProgressBar()\l+ RemoveBuildProgressBar()\l+ OpenLink()\l}">
 <polygon fill="none" stroke="black" points="0,-0.5 0,-134.5 140,-134.5 140,-0.5 0,-0.5"/>
 <text text-anchor="middle" x="70" y="-122.5" font-family="FreeSans" font-size="10.00">BuildLogger</text>
@@ -47,13 +47,13 @@
 </a>
 </g>
 </g>
-<!-- Node1&#45;&gt;Node3 -->
-<g id="edge2" class="edge"><title>Node1&#45;&gt;Node3</title>
+<!-- Node0&#45;&gt;Node2 -->
+<g id="edge2" class="edge"><title>Node0&#45;&gt;Node2</title>
 <path fill="none" stroke="midnightblue" d="M143.853,-163.171C136.328,-153.525 128.812,-143.89 121.612,-134.66"/>
 <polygon fill="none" stroke="midnightblue" points="141.259,-165.536 150.17,-171.268 146.779,-161.231 141.259,-165.536"/>
 </g>
-<!-- Node4 -->
-<g id="node4" class="node"><title>Node4</title>
+<!-- Node3 -->
+<g id="node4" class="node"><title>Node3</title>
 <g id="a_node4"><a xlink:href="classDebugTextCtrlLogger" target="_top" xlink:title="{DebugTextCtrlLogger\n|&#45; m_panel\l&#45; m_debugLog\l|+ DebugTextCtrlLogger()\l+ CreateTextCtrl()\l+ CreateControl()\l}">
 <polygon fill="none" stroke="black" points="158,-22.5 158,-112.5 280,-112.5 280,-22.5 158,-22.5"/>
 <text text-anchor="middle" x="219" y="-100.5" font-family="FreeSans" font-size="10.00">DebugTextCtrlLogger</text>
@@ -67,13 +67,13 @@
 </a>
 </g>
 </g>
-<!-- Node1&#45;&gt;Node4 -->
-<g id="edge3" class="edge"><title>Node1&#45;&gt;Node4</title>
+<!-- Node0&#45;&gt;Node3 -->
+<g id="edge3" class="edge"><title>Node0&#45;&gt;Node3</title>
 <path fill="none" stroke="midnightblue" d="M219,-161.242C219,-144.209 219,-127.293 219,-112.664"/>
 <polygon fill="none" stroke="midnightblue" points="215.5,-161.268 219,-171.268 222.5,-161.268 215.5,-161.268"/>
 </g>
-<!-- Node5 -->
-<g id="node5" class="node"><title>Node5</title>
+<!-- Node4 -->
+<g id="node5" class="node"><title>Node4</title>
 <g id="a_node5"><a xlink:href="classTimestampTextCtrlLogger" target="_top" xlink:title="an extended logger from TextCtrlLogger, since it add time stamps for each log message ...">
 <polygon fill="none" stroke="black" points="298,-39 298,-96 426,-96 426,-39 298,-39"/>
 <text text-anchor="middle" x="362" y="-84" font-family="FreeSans" font-size="10.00">TimestampTextCtrlLogger</text>
@@ -84,13 +84,13 @@
 </a>
 </g>
 </g>
-<!-- Node1&#45;&gt;Node5 -->
-<g id="edge4" class="edge"><title>Node1&#45;&gt;Node5</title>
+<!-- Node0&#45;&gt;Node4 -->
+<g id="edge4" class="edge"><title>Node0&#45;&gt;Node4</title>
 <path fill="none" stroke="midnightblue" d="M291.268,-162.974C309.593,-138.499 327.85,-114.113 341.224,-96.2491"/>
 <polygon fill="none" stroke="midnightblue" points="288.25,-161.165 285.058,-171.268 293.853,-165.361 288.25,-161.165"/>
 </g>
-<!-- Node2 -->
-<g id="node2" class="node"><title>Node2</title>
+<!-- Node1 -->
+<g id="node2" class="node"><title>Node1</title>
 <g id="a_node2"><a xlink:href="classLogger" target="_top" xlink:title="The base class for all kinds of loggers, see loggers.h for its derived classes. ">
 <polygon fill="none" stroke="black" points="141.5,-386.5 141.5,-542.5 296.5,-542.5 296.5,-386.5 141.5,-386.5"/>
 <text text-anchor="middle" x="219" y="-530.5" font-family="FreeSans" font-size="10.00">Logger</text>
@@ -110,8 +110,8 @@
 </a>
 </g>
 </g>
-<!-- Node2&#45;&gt;Node1 -->
-<g id="edge1" class="edge"><title>Node2&#45;&gt;Node1</title>
+<!-- Node1&#45;&gt;Node0 -->
+<g id="edge1" class="edge"><title>Node1&#45;&gt;Node0</title>
 <path fill="none" stroke="midnightblue" d="M219,-376.117C219,-367.403 219,-358.551 219,-349.828"/>
 <polygon fill="none" stroke="midnightblue" points="215.5,-376.268 219,-386.268 222.5,-376.268 215.5,-376.268"/>
 </g>

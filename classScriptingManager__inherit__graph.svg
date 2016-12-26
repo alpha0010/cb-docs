@@ -8,8 +8,8 @@
  viewBox="0.00 0.00 225.50 457.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 453)">
 <title>ScriptingManager</title>
-<!-- Node1 -->
-<g id="node1" class="node"><title>Node1</title>
+<!-- Node0 -->
+<g id="node1" class="node"><title>Node0</title>
 <polygon fill="#bfbfbf" stroke="black" points="46.5,-0.5 46.5,-277.5 196.5,-277.5 196.5,-0.5 46.5,-0.5"/>
 <text text-anchor="middle" x="121.5" y="-265.5" font-family="FreeSans" font-size="10.00">ScriptingManager</text>
 <polyline fill="none" stroke="black" points="46.5,-258.5 196.5,-258.5 "/>
@@ -37,8 +37,8 @@
 <text text-anchor="start" x="54.5" y="-18.5" font-family="FreeSans" font-size="10.00">&#45; ScriptingManager()</text>
 <text text-anchor="start" x="54.5" y="-7.5" font-family="FreeSans" font-size="10.00">&#45; ~ScriptingManager()</text>
 </g>
-<!-- Node2 -->
-<g id="node2" class="node"><title>Node2</title>
+<!-- Node1 -->
+<g id="node2" class="node"><title>Node1</title>
 <g id="a_node2"><a xlink:href="classMgr" target="_top" xlink:title="{Mgr\&lt; ScriptingManager \&gt;\n|&#45; instance\l&#45; isShutdown\l|+ Valid()\l+ Get()\l+ Free()\l# Mgr()\l# ~Mgr()\l&#45; Mgr()\l&#45; operator=()\l}">
 <polygon fill="none" stroke="black" points="0,-314.5 0,-448.5 125,-448.5 125,-314.5 0,-314.5"/>
 <text text-anchor="middle" x="62.5" y="-436.5" font-family="FreeSans" font-size="10.00">Mgr&lt; ScriptingManager &gt;</text>
@@ -56,13 +56,13 @@
 </a>
 </g>
 </g>
-<!-- Node2&#45;&gt;Node1 -->
-<g id="edge1" class="edge"><title>Node2&#45;&gt;Node1</title>
+<!-- Node1&#45;&gt;Node0 -->
+<g id="edge1" class="edge"><title>Node1&#45;&gt;Node0</title>
 <path fill="none" stroke="midnightblue" d="M81.135,-304.539C83.2457,-295.935 85.4426,-286.98 87.6732,-277.887"/>
 <polygon fill="none" stroke="midnightblue" points="77.6835,-303.918 78.7,-314.464 84.4819,-305.586 77.6835,-303.918"/>
 </g>
-<!-- Node3 -->
-<g id="node3" class="node"><title>Node3</title>
+<!-- Node2 -->
+<g id="node3" class="node"><title>Node2</title>
 <polygon fill="none" stroke="#bfbfbf" points="143.5,-353 143.5,-410 217.5,-410 217.5,-353 143.5,-353"/>
 <text text-anchor="middle" x="180.5" y="-398" font-family="FreeSans" font-size="10.00">wxEvtHandler</text>
 <polyline fill="none" stroke="#bfbfbf" points="143.5,-391 217.5,-391 "/>
@@ -70,8 +70,8 @@
 <polyline fill="none" stroke="#bfbfbf" points="143.5,-372 217.5,-372 "/>
 <text text-anchor="middle" x="180.5" y="-360" font-family="FreeSans" font-size="10.00"> </text>
 </g>
-<!-- Node3&#45;&gt;Node1 -->
-<g id="edge2" class="edge"><title>Node3&#45;&gt;Node1</title>
+<!-- Node2&#45;&gt;Node0 -->
+<g id="edge2" class="edge"><title>Node2&#45;&gt;Node0</title>
 <path fill="none" stroke="midnightblue" d="M171.318,-343.073C166.858,-324.89 161.192,-301.794 155.292,-277.743"/>
 <polygon fill="none" stroke="midnightblue" points="167.95,-344.033 173.732,-352.912 174.749,-342.366 167.95,-344.033"/>
 </g>

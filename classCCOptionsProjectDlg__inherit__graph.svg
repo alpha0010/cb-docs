@@ -8,8 +8,8 @@
  viewBox="0.00 0.00 136.00 474.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 470)">
 <title>CCOptionsProjectDlg</title>
-<!-- Node1 -->
-<g id="node1" class="node"><title>Node1</title>
+<!-- Node0 -->
+<g id="node1" class="node"><title>Node0</title>
 <polygon fill="#bfbfbf" stroke="black" points="0,-0.5 0,-189.5 128,-189.5 128,-0.5 0,-0.5"/>
 <text text-anchor="middle" x="64" y="-177.5" font-family="FreeSans" font-size="10.00">CCOptionsProjectDlg</text>
 <polyline fill="none" stroke="black" points="0,-170.5 128,-170.5 "/>
@@ -29,8 +29,8 @@
 <text text-anchor="start" x="8" y="-18.5" font-family="FreeSans" font-size="10.00"># OnDelete()</text>
 <text text-anchor="start" x="8" y="-7.5" font-family="FreeSans" font-size="10.00"># OnUpdateUI()</text>
 </g>
-<!-- Node2 -->
-<g id="node2" class="node"><title>Node2</title>
+<!-- Node1 -->
+<g id="node2" class="node"><title>Node1</title>
 <g id="a_node2"><a xlink:href="classcbConfigurationPanel" target="_top" xlink:title="Base class for plugin configuration panels. ">
 <polygon fill="none" stroke="black" points="0,-226.5 0,-371.5 128,-371.5 128,-226.5 0,-226.5"/>
 <text text-anchor="middle" x="64" y="-359.5" font-family="FreeSans" font-size="10.00">cbConfigurationPanel</text>
@@ -49,13 +49,13 @@
 </a>
 </g>
 </g>
-<!-- Node2&#45;&gt;Node1 -->
-<g id="edge1" class="edge"><title>Node2&#45;&gt;Node1</title>
+<!-- Node1&#45;&gt;Node0 -->
+<g id="edge1" class="edge"><title>Node1&#45;&gt;Node0</title>
 <path fill="none" stroke="midnightblue" d="M64,-216.317C64,-207.552 64,-198.584 64,-189.693"/>
 <polygon fill="none" stroke="midnightblue" points="60.5001,-216.498 64,-226.498 67.5001,-216.498 60.5001,-216.498"/>
 </g>
-<!-- Node3 -->
-<g id="node3" class="node"><title>Node3</title>
+<!-- Node2 -->
+<g id="node3" class="node"><title>Node2</title>
 <polygon fill="none" stroke="#bfbfbf" points="37.5,-408.5 37.5,-465.5 90.5,-465.5 90.5,-408.5 37.5,-408.5"/>
 <text text-anchor="middle" x="64" y="-453.5" font-family="FreeSans" font-size="10.00">wxPanel</text>
 <polyline fill="none" stroke="#bfbfbf" points="37.5,-446.5 90.5,-446.5 "/>
@@ -63,8 +63,8 @@
 <polyline fill="none" stroke="#bfbfbf" points="37.5,-427.5 90.5,-427.5 "/>
 <text text-anchor="middle" x="64" y="-415.5" font-family="FreeSans" font-size="10.00"> </text>
 </g>
-<!-- Node3&#45;&gt;Node2 -->
-<g id="edge2" class="edge"><title>Node3&#45;&gt;Node2</title>
+<!-- Node2&#45;&gt;Node1 -->
+<g id="edge2" class="edge"><title>Node2&#45;&gt;Node1</title>
 <path fill="none" stroke="midnightblue" d="M64,-398.356C64,-389.999 64,-380.872 64,-371.656"/>
 <polygon fill="none" stroke="midnightblue" points="60.5001,-398.478 64,-408.478 67.5001,-398.478 60.5001,-398.478"/>
 </g>

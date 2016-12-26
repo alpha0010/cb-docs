@@ -8,8 +8,8 @@
  viewBox="0.00 0.00 1550.00 1860.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 1856)">
 <title>InsertClassMethodDlg</title>
-<!-- Node1 -->
-<g id="node1" class="node"><title>Node1</title>
+<!-- Node4 -->
+<g id="node1" class="node"><title>Node4</title>
 <polygon fill="#bfbfbf" stroke="black" points="262.5,-0.5 262.5,-156.5 406.5,-156.5 406.5,-0.5 262.5,-0.5"/>
 <text text-anchor="middle" x="334.5" y="-144.5" font-family="FreeSans" font-size="10.00">InsertClassMethodDlg</text>
 <polyline fill="none" stroke="black" points="262.5,-137.5 406.5,-137.5 "/>
@@ -26,8 +26,8 @@
 <text text-anchor="start" x="270.5" y="-18.5" font-family="FreeSans" font-size="10.00">&#45; OnFilterChange()</text>
 <text text-anchor="start" x="270.5" y="-7.5" font-family="FreeSans" font-size="10.00">&#45; DECLARE_EVENT_TABLE()</text>
 </g>
-<!-- Node2 -->
-<g id="node2" class="node"><title>Node2</title>
+<!-- Node5 -->
+<g id="node2" class="node"><title>Node5</title>
 <g id="a_node2"><a xlink:href="classwxScrollingDialog" target="_top" xlink:title="{wxScrollingDialog\n||+ wxScrollingDialog()\l+ wxScrollingDialog()\l+ Create()\l+ Init()\l+ Show()\l+ ShowModal()\l}">
 <polygon fill="none" stroke="black" points="153,-270.5 153,-382.5 260,-382.5 260,-270.5 153,-270.5"/>
 <text text-anchor="middle" x="206.5" y="-370.5" font-family="FreeSans" font-size="10.00">wxScrollingDialog</text>
@@ -43,13 +43,13 @@
 </a>
 </g>
 </g>
-<!-- Node2&#45;&gt;Node1 -->
-<g id="edge1" class="edge"><title>Node2&#45;&gt;Node1</title>
+<!-- Node5&#45;&gt;Node4 -->
+<g id="edge1" class="edge"><title>Node5&#45;&gt;Node4</title>
 <path fill="none" stroke="midnightblue" d="M240.031,-261.058C256.628,-229.159 276.793,-190.407 294.222,-156.909"/>
 <polygon fill="none" stroke="midnightblue" points="236.737,-259.806 235.226,-270.293 242.946,-263.037 236.737,-259.806"/>
 </g>
-<!-- Node3 -->
-<g id="node3" class="node"><title>Node3</title>
+<!-- Node6 -->
+<g id="node3" class="node"><title>Node6</title>
 <polygon fill="none" stroke="#bfbfbf" points="179,-601 179,-658 234,-658 234,-601 179,-601"/>
 <text text-anchor="middle" x="206.5" y="-646" font-family="FreeSans" font-size="10.00">wxDialog</text>
 <polyline fill="none" stroke="#bfbfbf" points="179,-639 234,-639 "/>
@@ -57,13 +57,13 @@
 <polyline fill="none" stroke="#bfbfbf" points="179,-620 234,-620 "/>
 <text text-anchor="middle" x="206.5" y="-608" font-family="FreeSans" font-size="10.00"> </text>
 </g>
-<!-- Node3&#45;&gt;Node2 -->
-<g id="edge2" class="edge"><title>Node3&#45;&gt;Node2</title>
+<!-- Node6&#45;&gt;Node5 -->
+<g id="edge2" class="edge"><title>Node6&#45;&gt;Node5</title>
 <path fill="none" stroke="midnightblue" d="M206.5,-590.788C206.5,-538.353 206.5,-443.072 206.5,-382.651"/>
 <polygon fill="none" stroke="midnightblue" points="203,-590.99 206.5,-600.99 210,-590.99 203,-590.99"/>
 </g>
-<!-- Node4 -->
-<g id="node4" class="node"><title>Node4</title>
+<!-- Node7 -->
+<g id="node4" class="node"><title>Node7</title>
 <g id="a_node4"><a xlink:href="classwxDialogHelper" target="_top" xlink:title="{wxDialogHelper\n|# m_dialog\l# m_layoutLayoutAdaptationDone\l# m_buttonIds\l# m_layoutAdaptationLevel\l# sm_layoutAdaptation\l|+ wxDialogHelper()\l+ ~wxDialogHelper()\l+ Init()\l+ SetDialog()\l+ GetDialog()\l+ DoLayoutAdaptation()\l+ CanDoLayoutAdaptation()\l+ GetContentWindow()\land 7 more...\l+ SetLayoutAdapter()\l+ GetLayoutAdapter()\l+ GetLayoutAdaptation()\l+ SetLayoutAdaptation()\l}">
 <polygon fill="none" stroke="black" points="0,-513 0,-746 161,-746 161,-513 0,-513"/>
 <text text-anchor="middle" x="80.5" y="-734" font-family="FreeSans" font-size="10.00">wxDialogHelper</text>
@@ -90,13 +90,13 @@
 </a>
 </g>
 </g>
-<!-- Node4&#45;&gt;Node2 -->
-<g id="edge3" class="edge"><title>Node4&#45;&gt;Node2</title>
+<!-- Node7&#45;&gt;Node5 -->
+<g id="edge3" class="edge"><title>Node7&#45;&gt;Node5</title>
 <path fill="none" stroke="midnightblue" d="M132.721,-503.751C150.38,-461.565 169.203,-416.598 183.417,-382.642"/>
 <polygon fill="none" stroke="midnightblue" points="129.487,-502.41 128.855,-512.986 135.945,-505.113 129.487,-502.41"/>
 </g>
-<!-- Node5 -->
-<g id="node5" class="node"><title>Node5</title>
+<!-- Node8 -->
+<g id="node5" class="node"><title>Node8</title>
 <g id="a_node5"><a xlink:href="classwxDialogLayoutAdapter" target="_top" xlink:title="{wxDialogLayoutAdapter\n||+ wxDialogLayoutAdapter()\l+ CanDoLayoutAdaptation()\l+ DoLayoutAdaptation()\l}">
 <polygon fill="none" stroke="black" points="13,-843.5 13,-922.5 148,-922.5 148,-843.5 13,-843.5"/>
 <text text-anchor="middle" x="80.5" y="-910.5" font-family="FreeSans" font-size="10.00">wxDialogLayoutAdapter</text>
@@ -109,14 +109,14 @@
 </a>
 </g>
 </g>
-<!-- Node5&#45;&gt;Node4 -->
-<g id="edge4" class="edge"><title>Node5&#45;&gt;Node4</title>
+<!-- Node8&#45;&gt;Node7 -->
+<g id="edge4" class="edge"><title>Node8&#45;&gt;Node7</title>
 <path fill="none" stroke="#404040" d="M80.5,-843.254C80.5,-820.142 80.5,-789.34 80.5,-758.366"/>
 <polygon fill="none" stroke="#404040" points="80.5001,-758.04 76.5,-752.04 80.5,-746.04 84.5,-752.04 80.5001,-758.04"/>
 <text text-anchor="middle" x="123" y="-773" font-family="FreeSans" font-size="10.00"> #sm_layoutAdapter</text>
 </g>
-<!-- Node6 -->
-<g id="node6" class="node"><title>Node6</title>
+<!-- Node9 -->
+<g id="node6" class="node"><title>Node9</title>
 <polygon fill="none" stroke="#bfbfbf" points="52.5,-1160.5 52.5,-1217.5 108.5,-1217.5 108.5,-1160.5 52.5,-1160.5"/>
 <text text-anchor="middle" x="80.5" y="-1205.5" font-family="FreeSans" font-size="10.00">wxObject</text>
 <polyline fill="none" stroke="#bfbfbf" points="52.5,-1198.5 108.5,-1198.5 "/>
@@ -124,13 +124,13 @@
 <polyline fill="none" stroke="#bfbfbf" points="52.5,-1179.5 108.5,-1179.5 "/>
 <text text-anchor="middle" x="80.5" y="-1167.5" font-family="FreeSans" font-size="10.00"> </text>
 </g>
-<!-- Node6&#45;&gt;Node5 -->
-<g id="edge5" class="edge"><title>Node6&#45;&gt;Node5</title>
+<!-- Node9&#45;&gt;Node8 -->
+<g id="edge5" class="edge"><title>Node9&#45;&gt;Node8</title>
 <path fill="none" stroke="midnightblue" d="M80.5,-1150.26C80.5,-1092.1 80.5,-981.148 80.5,-922.516"/>
 <polygon fill="none" stroke="midnightblue" points="77.0001,-1150.49 80.5,-1160.49 84.0001,-1150.49 77.0001,-1150.49"/>
 </g>
-<!-- Node7 -->
-<g id="node7" class="node"><title>Node7</title>
+<!-- Node10 -->
+<g id="node7" class="node"><title>Node10</title>
 <g id="a_node7"><a xlink:href="classParserBase" target="_top" xlink:title="{ParserBase\n|&#45; m_IncludeDirs\l|+ ParserBase()\l+ ~ParserBase()\l+ AddBatchParse()\l+ AddParse()\l+ AddPredefinedMacros()\l+ UpdateParsingProject()\l+ ParseBuffer()\l+ ParseBufferForFunctions()\land 20 more...\l&#45; ParseFile()\l&#45; FindFirstFileInIncludeDirs()\l}">
 <polygon fill="none" stroke="black" points="393,-243 393,-410 530,-410 530,-243 393,-243"/>
 <text text-anchor="middle" x="461.5" y="-398" font-family="FreeSans" font-size="10.00">ParserBase</text>
@@ -151,14 +151,14 @@
 </a>
 </g>
 </g>
-<!-- Node7&#45;&gt;Node1 -->
-<g id="edge6" class="edge"><title>Node7&#45;&gt;Node1</title>
+<!-- Node10&#45;&gt;Node4 -->
+<g id="edge6" class="edge"><title>Node10&#45;&gt;Node4</title>
 <path fill="none" stroke="#404040" d="M418.858,-242.901C406.366,-218.705 392.663,-192.163 380.001,-167.636"/>
 <polygon fill="none" stroke="#404040" points="379.96,-167.557 373.654,-164.061 374.456,-156.894 380.762,-160.391 379.96,-167.557"/>
 <text text-anchor="middle" x="411" y="-178" font-family="FreeSans" font-size="10.00"> &#45;m_Parser</text>
 </g>
-<!-- Node8 -->
-<g id="node8" class="node"><title>Node8</title>
+<!-- Node11 -->
+<g id="node8" class="node"><title>Node11</title>
 <polygon fill="none" stroke="#bfbfbf" points="387.5,-601 387.5,-658 461.5,-658 461.5,-601 387.5,-601"/>
 <text text-anchor="middle" x="424.5" y="-646" font-family="FreeSans" font-size="10.00">wxEvtHandler</text>
 <polyline fill="none" stroke="#bfbfbf" points="387.5,-639 461.5,-639 "/>
@@ -166,13 +166,13 @@
 <polyline fill="none" stroke="#bfbfbf" points="387.5,-620 461.5,-620 "/>
 <text text-anchor="middle" x="424.5" y="-608" font-family="FreeSans" font-size="10.00"> </text>
 </g>
-<!-- Node8&#45;&gt;Node7 -->
-<g id="edge7" class="edge"><title>Node8&#45;&gt;Node7</title>
+<!-- Node11&#45;&gt;Node10 -->
+<g id="edge7" class="edge"><title>Node11&#45;&gt;Node10</title>
 <path fill="none" stroke="midnightblue" d="M429.134,-590.798C434.668,-545.782 444.085,-469.177 451.338,-410.167"/>
 <polygon fill="none" stroke="midnightblue" points="425.628,-590.638 427.882,-600.99 432.576,-591.492 425.628,-590.638"/>
 </g>
-<!-- Node9 -->
-<g id="node9" class="node"><title>Node9</title>
+<!-- Node12 -->
+<g id="node9" class="node"><title>Node12</title>
 <g id="a_node9"><a xlink:href="classSearchTree" target="_top" xlink:title="{SearchTree\&lt; wxString \&gt;\n||+ SearchTree()\l+ ~SearchTree()\l+ clear()\l+ GetCount()\l+ size()\l+ SaveCacheTo()\l+ LoadCacheFrom()\l+ Serialize()\land 8 more...\l# ClearItems()\l# AddFirstNullItem()\l}">
 <polygon fill="none" stroke="black" points="401.5,-799.5 401.5,-966.5 521.5,-966.5 521.5,-799.5 401.5,-799.5"/>
 <text text-anchor="middle" x="461.5" y="-954.5" font-family="FreeSans" font-size="10.00">SearchTree&lt; wxString &gt;</text>
@@ -193,14 +193,14 @@
 </a>
 </g>
 </g>
-<!-- Node9&#45;&gt;Node7 -->
-<g id="edge8" class="edge"><title>Node9&#45;&gt;Node7</title>
+<!-- Node12&#45;&gt;Node10 -->
+<g id="edge8" class="edge"><title>Node12&#45;&gt;Node10</title>
 <path fill="none" stroke="#404040" d="M468.095,-799.172C469.097,-783.513 469.972,-767.262 470.5,-752 474.262,-643.176 473.227,-615.855 470.5,-507 469.812,-479.544 468.533,-449.749 467.151,-422.468"/>
 <polygon fill="none" stroke="#404040" points="467.133,-422.112 462.827,-416.328 466.511,-410.128 470.816,-415.913 467.133,-422.112"/>
 <text text-anchor="middle" x="515" y="-627" font-family="FreeSans" font-size="10.00"> &#45;m_GlobalIncludes</text>
 </g>
-<!-- Node10 -->
-<g id="node10" class="node"><title>Node10</title>
+<!-- Node13 -->
+<g id="node10" class="node"><title>Node13</title>
 <g id="a_node10"><a xlink:href="classBasicSearchTree" target="_top" xlink:title="This class is generally a string &#45;&gt; size_t map, the tree details (graph) is already show in the decla...">
 <polygon fill="none" stroke="black" points="518.5,-1072.5 518.5,-1305.5 628.5,-1305.5 628.5,-1072.5 518.5,-1072.5"/>
 <text text-anchor="middle" x="573.5" y="-1293.5" font-family="FreeSans" font-size="10.00">BasicSearchTree</text>
@@ -227,13 +227,13 @@
 </a>
 </g>
 </g>
-<!-- Node10&#45;&gt;Node9 -->
-<g id="edge9" class="edge"><title>Node10&#45;&gt;Node9</title>
+<!-- Node13&#45;&gt;Node12 -->
+<g id="edge9" class="edge"><title>Node13&#45;&gt;Node12</title>
 <path fill="none" stroke="midnightblue" d="M527.334,-1062.69C515.432,-1030.39 502.918,-996.42 492.035,-966.879"/>
 <polygon fill="none" stroke="midnightblue" points="524.097,-1064.03 530.838,-1072.2 530.665,-1061.61 524.097,-1064.03"/>
 </g>
-<!-- Node19 -->
-<g id="node19" class="node"><title>Node19</title>
+<!-- Node22 -->
+<g id="node19" class="node"><title>Node22</title>
 <g id="a_node19"><a xlink:href="classTokenTree" target="_top" xlink:title="a container class to hold all the Tokens getting from parsing stage ">
 <polygon fill="none" stroke="black" points="917.5,-507.5 917.5,-751.5 1047.5,-751.5 1047.5,-507.5 917.5,-507.5"/>
 <text text-anchor="middle" x="982.5" y="-739.5" font-family="FreeSans" font-size="10.00">TokenTree</text>
@@ -261,14 +261,14 @@
 </a>
 </g>
 </g>
-<!-- Node10&#45;&gt;Node19 -->
-<g id="edge35" class="edge"><title>Node10&#45;&gt;Node19</title>
+<!-- Node13&#45;&gt;Node22 -->
+<g id="edge35" class="edge"><title>Node13&#45;&gt;Node22</title>
 <path fill="none" stroke="#404040" d="M556.612,-1072.07C544.872,-973.445 536.18,-841.258 566.5,-799 604.517,-746.014 644.693,-775.565 705.5,-752 774.328,-725.327 851.085,-691.314 906.313,-666.063"/>
 <polygon fill="none" stroke="#404040" points="906.503,-665.976 910.29,-659.839 917.411,-660.974 913.624,-667.111 906.503,-665.976"/>
 <text text-anchor="middle" x="606.5" y="-880.5" font-family="FreeSans" font-size="10.00"> #m_FilenameMap</text>
 </g>
-<!-- Node24 -->
-<g id="node24" class="node"><title>Node24</title>
+<!-- Node27 -->
+<g id="node24" class="node"><title>Node27</title>
 <g id="a_node24"><a xlink:href="classSearchTree" target="_top" xlink:title="{SearchTree\&lt; TokenIdxSet \&gt;\n||+ SearchTree()\l+ ~SearchTree()\l+ clear()\l+ GetCount()\l+ size()\l+ SaveCacheTo()\l+ LoadCacheFrom()\l+ Serialize()\land 8 more...\l# ClearItems()\l# AddFirstNullItem()\l}">
 <polygon fill="none" stroke="black" points="1127.5,-799.5 1127.5,-966.5 1265.5,-966.5 1265.5,-799.5 1127.5,-799.5"/>
 <text text-anchor="middle" x="1196.5" y="-954.5" font-family="FreeSans" font-size="10.00">SearchTree&lt; TokenIdxSet &gt;</text>
@@ -289,13 +289,13 @@
 </a>
 </g>
 </g>
-<!-- Node10&#45;&gt;Node24 -->
-<g id="edge26" class="edge"><title>Node10&#45;&gt;Node24</title>
+<!-- Node13&#45;&gt;Node27 -->
+<g id="edge26" class="edge"><title>Node13&#45;&gt;Node27</title>
 <path fill="none" stroke="midnightblue" d="M636.427,-1131.01C693.879,-1082.75 783.488,-1016.53 874.5,-985 977.248,-949.405 1020.35,-1013.81 1118.5,-967 1121.53,-965.553 1124.51,-963.932 1127.42,-962.167"/>
 <polygon fill="none" stroke="midnightblue" points="633.904,-1128.56 628.537,-1137.7 638.429,-1133.9 633.904,-1128.56"/>
 </g>
-<!-- Node11 -->
-<g id="node11" class="node"><title>Node11</title>
+<!-- Node14 -->
+<g id="node11" class="node"><title>Node14</title>
 <polygon fill="none" stroke="#bfbfbf" points="689,-1359 689,-1416 838,-1416 838,-1359 689,-1359"/>
 <text text-anchor="middle" x="763.5" y="-1404" font-family="FreeSans" font-size="10.00">std::vector&lt; SearchTreePoint &gt;</text>
 <polyline fill="none" stroke="#bfbfbf" points="689,-1397 838,-1397 "/>
@@ -303,14 +303,14 @@
 <polyline fill="none" stroke="#bfbfbf" points="689,-1378 838,-1378 "/>
 <text text-anchor="middle" x="763.5" y="-1366" font-family="FreeSans" font-size="10.00"> </text>
 </g>
-<!-- Node11&#45;&gt;Node10 -->
-<g id="edge10" class="edge"><title>Node11&#45;&gt;Node10</title>
+<!-- Node14&#45;&gt;Node13 -->
+<g id="edge10" class="edge"><title>Node14&#45;&gt;Node13</title>
 <path fill="none" stroke="#404040" d="M736.681,-1358.76C710.937,-1332.14 671.074,-1290.91 637.193,-1255.87"/>
 <polygon fill="none" stroke="#404040" points="637.062,-1255.74 630.015,-1254.2 628.72,-1247.11 635.766,-1248.64 637.062,-1255.74"/>
 <text text-anchor="middle" x="738" y="-1327" font-family="FreeSans" font-size="10.00"> #m_Points</text>
 </g>
-<!-- Node12 -->
-<g id="node12" class="node"><title>Node12</title>
+<!-- Node15 -->
+<g id="node12" class="node"><title>Node15</title>
 <g id="a_node12"><a xlink:href="classSearchTreePoint" target="_top" xlink:title="This class is used to access items of the tree, each node may contains a lot of items, E.g. ">
 <polygon fill="none" stroke="black" points="711.5,-1557.5 711.5,-1636.5 815.5,-1636.5 815.5,-1557.5 711.5,-1557.5"/>
 <text text-anchor="middle" x="763.5" y="-1624.5" font-family="FreeSans" font-size="10.00">SearchTreePoint</text>
@@ -323,14 +323,14 @@
 </a>
 </g>
 </g>
-<!-- Node12&#45;&gt;Node11 -->
-<g id="edge11" class="edge"><title>Node12&#45;&gt;Node11</title>
+<!-- Node15&#45;&gt;Node14 -->
+<g id="edge11" class="edge"><title>Node15&#45;&gt;Node14</title>
 <path fill="none" stroke="#404040" d="M763.5,-1557.46C763.5,-1520.76 763.5,-1465.77 763.5,-1428.57"/>
 <polygon fill="none" stroke="#404040" points="763.5,-1428.22 759.5,-1422.22 763.5,-1416.22 767.5,-1422.22 763.5,-1428.22"/>
 <text text-anchor="middle" x="787.5" y="-1443" font-family="FreeSans" font-size="10.00"> +elements</text>
 </g>
-<!-- Node13 -->
-<g id="node13" class="node"><title>Node13</title>
+<!-- Node16 -->
+<g id="node13" class="node"><title>Node16</title>
 <polygon fill="none" stroke="#bfbfbf" points="385,-1359 385,-1416 498,-1416 498,-1359 385,-1359"/>
 <text text-anchor="middle" x="441.5" y="-1404" font-family="FreeSans" font-size="10.00">std::vector&lt; wxString &gt;</text>
 <polyline fill="none" stroke="#bfbfbf" points="385,-1397 498,-1397 "/>
@@ -338,20 +338,20 @@
 <polyline fill="none" stroke="#bfbfbf" points="385,-1378 498,-1378 "/>
 <text text-anchor="middle" x="441.5" y="-1366" font-family="FreeSans" font-size="10.00"> </text>
 </g>
-<!-- Node13&#45;&gt;Node9 -->
-<g id="edge17" class="edge"><title>Node13&#45;&gt;Node9</title>
+<!-- Node16&#45;&gt;Node12 -->
+<g id="edge17" class="edge"><title>Node16&#45;&gt;Node12</title>
 <path fill="none" stroke="#404040" d="M442.604,-1358.77C445.439,-1287.53 453.081,-1095.52 457.732,-978.659"/>
 <polygon fill="none" stroke="#404040" points="457.737,-978.534 453.979,-972.38 458.215,-966.543 461.973,-972.698 457.737,-978.534"/>
 <text text-anchor="middle" x="477.5" y="-1186.5" font-family="FreeSans" font-size="10.00"> #m_Items</text>
 </g>
-<!-- Node13&#45;&gt;Node10 -->
-<g id="edge12" class="edge"><title>Node13&#45;&gt;Node10</title>
+<!-- Node16&#45;&gt;Node13 -->
+<g id="edge12" class="edge"><title>Node16&#45;&gt;Node13</title>
 <path fill="none" stroke="#404040" d="M462.023,-1358.83C473.3,-1343.43 487.412,-1323.82 499.5,-1306 503.495,-1300.11 507.562,-1294.02 511.631,-1287.86"/>
 <polygon fill="none" stroke="#404040" points="511.884,-1287.47 511.831,-1280.26 518.467,-1277.44 518.52,-1284.65 511.884,-1287.47"/>
 <text text-anchor="middle" x="511" y="-1327" font-family="FreeSans" font-size="10.00"> #m_Labels</text>
 </g>
-<!-- Node14 -->
-<g id="node14" class="node"><title>Node14</title>
+<!-- Node17 -->
+<g id="node14" class="node"><title>Node17</title>
 <polygon fill="none" stroke="#bfbfbf" points="516,-1359 516,-1416 671,-1416 671,-1359 516,-1359"/>
 <text text-anchor="middle" x="593.5" y="-1404" font-family="FreeSans" font-size="10.00">std::vector&lt; SearchTreeNode * &gt;</text>
 <polyline fill="none" stroke="#bfbfbf" points="516,-1397 671,-1397 "/>
@@ -359,14 +359,14 @@
 <polyline fill="none" stroke="#bfbfbf" points="516,-1378 671,-1378 "/>
 <text text-anchor="middle" x="593.5" y="-1366" font-family="FreeSans" font-size="10.00"> </text>
 </g>
-<!-- Node14&#45;&gt;Node10 -->
-<g id="edge13" class="edge"><title>Node14&#45;&gt;Node10</title>
+<!-- Node17&#45;&gt;Node13 -->
+<g id="edge13" class="edge"><title>Node17&#45;&gt;Node13</title>
 <path fill="none" stroke="#404040" d="M590.677,-1358.76C589.513,-1347.33 588.075,-1333.2 586.53,-1318.02"/>
 <polygon fill="none" stroke="#404040" points="586.487,-1317.59 581.9,-1312.03 585.272,-1305.66 589.859,-1311.22 586.487,-1317.59"/>
 <text text-anchor="middle" x="613" y="-1327" font-family="FreeSans" font-size="10.00"> #m_Nodes</text>
 </g>
-<!-- Node15 -->
-<g id="node15" class="node"><title>Node15</title>
+<!-- Node18 -->
+<g id="node15" class="node"><title>Node18</title>
 <g id="a_node15"><a xlink:href="classSearchTreeNode" target="_top" xlink:title="This class represents a node of the tree, we still take an example E.g. ">
 <polygon fill="none" stroke="black" points="539,-1469.5 539,-1724.5 648,-1724.5 648,-1469.5 539,-1469.5"/>
 <text text-anchor="middle" x="593.5" y="-1712.5" font-family="FreeSans" font-size="10.00">SearchTreeNode</text>
@@ -395,14 +395,14 @@
 </a>
 </g>
 </g>
-<!-- Node15&#45;&gt;Node14 -->
-<g id="edge14" class="edge"><title>Node15&#45;&gt;Node14</title>
+<!-- Node18&#45;&gt;Node17 -->
+<g id="edge14" class="edge"><title>Node18&#45;&gt;Node17</title>
 <path fill="none" stroke="#404040" d="M593.5,-1469.32C593.5,-1454.7 593.5,-1440.71 593.5,-1428.61"/>
 <polygon fill="none" stroke="#404040" points="593.5,-1428.28 589.5,-1422.28 593.5,-1416.28 597.5,-1422.28 593.5,-1428.28"/>
 <text text-anchor="middle" x="617.5" y="-1443" font-family="FreeSans" font-size="10.00"> +elements</text>
 </g>
-<!-- Node16 -->
-<g id="node16" class="node"><title>Node16</title>
+<!-- Node19 -->
+<g id="node16" class="node"><title>Node19</title>
 <polygon fill="none" stroke="#bfbfbf" points="440.5,-1772.5 440.5,-1851.5 594.5,-1851.5 594.5,-1772.5 440.5,-1772.5"/>
 <text text-anchor="start" x="448.5" y="-1839.5" font-family="FreeSans" font-size="10.00">std::map&lt; wxChar, nSearch</text>
 <text text-anchor="middle" x="517.5" y="-1828.5" font-family="FreeSans" font-size="10.00">TreeNode, std::less&lt; wxChar &gt; &gt;</text>
@@ -412,14 +412,14 @@
 <polyline fill="none" stroke="#bfbfbf" points="440.5,-1791.5 594.5,-1791.5 "/>
 <text text-anchor="middle" x="517.5" y="-1779.5" font-family="FreeSans" font-size="10.00"> </text>
 </g>
-<!-- Node16&#45;&gt;Node15 -->
-<g id="edge15" class="edge"><title>Node16&#45;&gt;Node15</title>
+<!-- Node19&#45;&gt;Node18 -->
+<g id="edge15" class="edge"><title>Node19&#45;&gt;Node18</title>
 <path fill="none" stroke="#404040" d="M531.263,-1772.43C535.101,-1761.67 539.505,-1749.33 544.158,-1736.29"/>
 <polygon fill="none" stroke="#404040" points="544.272,-1735.97 542.521,-1728.97 548.304,-1724.67 550.055,-1731.66 544.272,-1735.97"/>
 <text text-anchor="middle" x="569" y="-1746" font-family="FreeSans" font-size="10.00"> #m_Children</text>
 </g>
-<!-- Node17 -->
-<g id="node17" class="node"><title>Node17</title>
+<!-- Node20 -->
+<g id="node17" class="node"><title>Node20</title>
 <polygon fill="none" stroke="#bfbfbf" points="613,-1772.5 613,-1851.5 726,-1851.5 726,-1772.5 613,-1772.5"/>
 <text text-anchor="start" x="621" y="-1839.5" font-family="FreeSans" font-size="10.00">std::map&lt; size_t, size</text>
 <text text-anchor="middle" x="669.5" y="-1828.5" font-family="FreeSans" font-size="10.00">_t, std::less&lt; size_t &gt; &gt;</text>
@@ -429,14 +429,14 @@
 <polyline fill="none" stroke="#bfbfbf" points="613,-1791.5 726,-1791.5 "/>
 <text text-anchor="middle" x="669.5" y="-1779.5" font-family="FreeSans" font-size="10.00"> </text>
 </g>
-<!-- Node17&#45;&gt;Node15 -->
-<g id="edge16" class="edge"><title>Node17&#45;&gt;Node15</title>
+<!-- Node20&#45;&gt;Node18 -->
+<g id="edge16" class="edge"><title>Node20&#45;&gt;Node18</title>
 <path fill="none" stroke="#404040" d="M655.737,-1772.43C651.899,-1761.67 647.495,-1749.33 642.842,-1736.29"/>
 <polygon fill="none" stroke="#404040" points="642.728,-1735.97 636.945,-1731.66 638.696,-1724.67 644.479,-1728.97 642.728,-1735.97"/>
 <text text-anchor="middle" x="672.5" y="-1746" font-family="FreeSans" font-size="10.00"> #m_Items</text>
 </g>
-<!-- Node18 -->
-<g id="node18" class="node"><title>Node18</title>
+<!-- Node21 -->
+<g id="node18" class="node"><title>Node21</title>
 <g id="a_node18"><a xlink:href="structBrowserOptions" target="_top" xlink:title="{BrowserOptions\n|+ showInheritance\l+ expandNS\l+ treeMembers\l+ displayFilter\l+ sortType\l|+ BrowserOptions()\l}">
 <polygon fill="none" stroke="black" points="598.5,-579 598.5,-680 696.5,-680 696.5,-579 598.5,-579"/>
 <text text-anchor="middle" x="647.5" y="-668" font-family="FreeSans" font-size="10.00">BrowserOptions</text>
@@ -451,21 +451,21 @@
 </a>
 </g>
 </g>
-<!-- Node18&#45;&gt;Node7 -->
-<g id="edge18" class="edge"><title>Node18&#45;&gt;Node7</title>
+<!-- Node21&#45;&gt;Node10 -->
+<g id="edge18" class="edge"><title>Node21&#45;&gt;Node10</title>
 <path fill="none" stroke="#404040" d="M623.549,-578.979C612.308,-556.641 598.355,-530.137 584.5,-507 567.215,-478.134 547.069,-447.627 528.146,-420.115"/>
 <polygon fill="none" stroke="#404040" points="528.062,-419.994 521.359,-417.333 521.237,-410.123 527.939,-412.784 528.062,-419.994"/>
 <text text-anchor="middle" x="617" y="-475.5" font-family="FreeSans" font-size="10.00"> #m_BrowserOptions</text>
 </g>
-<!-- Node19&#45;&gt;Node7 -->
-<g id="edge19" class="edge"><title>Node19&#45;&gt;Node7</title>
+<!-- Node22&#45;&gt;Node10 -->
+<g id="edge19" class="edge"><title>Node22&#45;&gt;Node10</title>
 <path fill="none" stroke="#404040" d="M917.306,-590.835C821.711,-535.607 643.722,-432.776 540.721,-373.269"/>
 <polygon fill="none" stroke="#404040" points="540.465,-373.121 533.269,-373.583 530.074,-367.118 537.271,-366.656 540.465,-373.121"/>
 <text text-anchor="middle" x="785" y="-481" font-family="FreeSans" font-size="10.00"> #m_TempTokenTree</text>
 <text text-anchor="middle" x="785" y="-470" font-family="FreeSans" font-size="10.00">#m_TokenTree</text>
 </g>
-<!-- Node21 -->
-<g id="node21" class="node"><title>Node21</title>
+<!-- Node24 -->
+<g id="node21" class="node"><title>Node24</title>
 <g id="a_node21"><a xlink:href="classToken" target="_top" xlink:title="a symbol found in the parsed files, it can be many kinds, such as a variable, a class and so on...">
 <polygon fill="none" stroke="black" points="1316,-204.5 1316,-448.5 1423,-448.5 1423,-204.5 1316,-204.5"/>
 <text text-anchor="middle" x="1369.5" y="-436.5" font-family="FreeSans" font-size="10.00">Token</text>
@@ -493,14 +493,14 @@
 </a>
 </g>
 </g>
-<!-- Node19&#45;&gt;Node21 -->
-<g id="edge24" class="edge"><title>Node19&#45;&gt;Node21</title>
+<!-- Node22&#45;&gt;Node24 -->
+<g id="edge24" class="edge"><title>Node22&#45;&gt;Node24</title>
 <path fill="none" stroke="#404040" d="M1047.71,-577.78C1119.72,-521.774 1234.87,-432.215 1306.13,-376.788"/>
 <polygon fill="none" stroke="#404040" points="1306.41,-376.568 1308.69,-369.727 1315.88,-369.201 1313.6,-376.042 1306.41,-376.568"/>
 <text text-anchor="middle" x="1221.5" y="-475.5" font-family="FreeSans" font-size="10.00"> #m_TokenTree</text>
 </g>
-<!-- Node20 -->
-<g id="node20" class="node"><title>Node20</title>
+<!-- Node23 -->
+<g id="node20" class="node"><title>Node23</title>
 <polygon fill="none" stroke="#bfbfbf" points="1082.5,-50 1082.5,-107 1192.5,-107 1192.5,-50 1082.5,-50"/>
 <text text-anchor="middle" x="1137.5" y="-95" font-family="FreeSans" font-size="10.00">std::vector&lt; Token * &gt;</text>
 <polyline fill="none" stroke="#bfbfbf" points="1082.5,-88 1192.5,-88 "/>
@@ -508,20 +508,20 @@
 <polyline fill="none" stroke="#bfbfbf" points="1082.5,-69 1192.5,-69 "/>
 <text text-anchor="middle" x="1137.5" y="-57" font-family="FreeSans" font-size="10.00"> </text>
 </g>
-<!-- Node20&#45;&gt;Node19 -->
-<g id="edge20" class="edge"><title>Node20&#45;&gt;Node19</title>
+<!-- Node23&#45;&gt;Node22 -->
+<g id="edge20" class="edge"><title>Node23&#45;&gt;Node22</title>
 <path fill="none" stroke="#404040" d="M1129.68,-107.199C1109.87,-177.367 1056.68,-365.763 1019.98,-495.736"/>
 <polygon fill="none" stroke="#404040" points="1019.97,-495.791 1022.19,-502.653 1016.71,-507.34 1014.49,-500.479 1019.97,-495.791"/>
 <text text-anchor="middle" x="1128" y="-324" font-family="FreeSans" font-size="10.00"> #m_Tokens</text>
 </g>
-<!-- Node21&#45;&gt;Node20 -->
-<g id="edge21" class="edge"><title>Node21&#45;&gt;Node20</title>
+<!-- Node24&#45;&gt;Node23 -->
+<g id="edge21" class="edge"><title>Node24&#45;&gt;Node23</title>
 <path fill="none" stroke="#404040" d="M1315.98,-268.754C1271.66,-221.758 1210,-156.37 1171.97,-116.05"/>
 <polygon fill="none" stroke="#404040" points="1171.77,-115.835 1164.74,-114.214 1163.53,-107.105 1170.56,-108.726 1171.77,-115.835"/>
 <text text-anchor="middle" x="1256.5" y="-178" font-family="FreeSans" font-size="10.00"> +elements</text>
 </g>
-<!-- Node22 -->
-<g id="node22" class="node"><title>Node22</title>
+<!-- Node25 -->
+<g id="node22" class="node"><title>Node25</title>
 <polygon fill="none" stroke="#bfbfbf" points="1441,-590 1441,-669 1542,-669 1542,-590 1441,-590"/>
 <text text-anchor="start" x="1449" y="-657" font-family="FreeSans" font-size="10.00">std::map&lt; wxString,</text>
 <text text-anchor="middle" x="1491.5" y="-646" font-family="FreeSans" font-size="10.00"> wxString &gt;</text>
@@ -531,14 +531,14 @@
 <polyline fill="none" stroke="#bfbfbf" points="1441,-609 1542,-609 "/>
 <text text-anchor="middle" x="1491.5" y="-597" font-family="FreeSans" font-size="10.00"> </text>
 </g>
-<!-- Node22&#45;&gt;Node21 -->
-<g id="edge22" class="edge"><title>Node22&#45;&gt;Node21</title>
+<!-- Node25&#45;&gt;Node24 -->
+<g id="edge22" class="edge"><title>Node25&#45;&gt;Node24</title>
 <path fill="none" stroke="#404040" d="M1476.06,-589.972C1462.93,-557.238 1443.54,-509.013 1426.5,-467 1425.56,-464.68 1424.61,-462.338 1423.65,-459.98"/>
 <polygon fill="none" stroke="#404040" points="1423.64,-459.956 1417.68,-455.904 1419.12,-448.839 1425.09,-452.892 1423.64,-459.956"/>
 <text text-anchor="middle" x="1475.5" y="-475.5" font-family="FreeSans" font-size="10.00"> +m_TemplateMap</text>
 </g>
-<!-- Node23 -->
-<g id="node23" class="node"><title>Node23</title>
+<!-- Node26 -->
+<g id="node23" class="node"><title>Node26</title>
 <polygon fill="none" stroke="#bfbfbf" points="1219,-1353.5 1219,-1421.5 1302,-1421.5 1302,-1353.5 1219,-1353.5"/>
 <text text-anchor="start" x="1227" y="-1409.5" font-family="FreeSans" font-size="10.00">std::set&lt; int, std</text>
 <text text-anchor="middle" x="1260.5" y="-1398.5" font-family="FreeSans" font-size="10.00">::less&lt; int &gt; &gt;</text>
@@ -547,15 +547,15 @@
 <polyline fill="none" stroke="#bfbfbf" points="1219,-1372.5 1302,-1372.5 "/>
 <text text-anchor="middle" x="1260.5" y="-1360.5" font-family="FreeSans" font-size="10.00"> </text>
 </g>
-<!-- Node23&#45;&gt;Node19 -->
-<g id="edge30" class="edge"><title>Node23&#45;&gt;Node19</title>
+<!-- Node26&#45;&gt;Node22 -->
+<g id="edge30" class="edge"><title>Node26&#45;&gt;Node22</title>
 <path fill="none" stroke="#404040" d="M1273.89,-1353.41C1275.8,-1347.38 1277.47,-1341.07 1278.5,-1335 1279.32,-1330.18 1278.52,-1328.89 1278.5,-1324 1278.28,-1265.67 1303.87,-849.405 1274.5,-799 1228.34,-719.76 1129.3,-674.396 1059.4,-651.125"/>
 <polygon fill="none" stroke="#404040" points="1059,-650.995 1052.06,-652.957 1047.58,-647.306 1054.52,-645.344 1059,-650.995"/>
 <text text-anchor="middle" x="1341" y="-1022.5" font-family="FreeSans" font-size="10.00"> #m_TopNameSpaces</text>
 <text text-anchor="middle" x="1341" y="-1011.5" font-family="FreeSans" font-size="10.00">#m_GlobalNameSpaces</text>
 </g>
-<!-- Node23&#45;&gt;Node21 -->
-<g id="edge23" class="edge"><title>Node23&#45;&gt;Node21</title>
+<!-- Node26&#45;&gt;Node24 -->
+<g id="edge23" class="edge"><title>Node26&#45;&gt;Node24</title>
 <path fill="none" stroke="#404040" d="M1302.03,-1358.49C1347.04,-1324.44 1412.5,-1262.46 1412.5,-1190 1412.5,-1190 1412.5,-1190 1412.5,-628.5 1412.5,-573.283 1405.32,-512.936 1396.83,-460.87"/>
 <polygon fill="none" stroke="#404040" points="1396.8,-460.696 1391.87,-455.437 1394.82,-448.86 1399.76,-454.119 1396.8,-460.696"/>
 <text text-anchor="middle" x="1456.5" y="-897" font-family="FreeSans" font-size="10.00"> +m_Descendants</text>
@@ -563,8 +563,8 @@
 <text text-anchor="middle" x="1456.5" y="-875" font-family="FreeSans" font-size="10.00">+m_Ancestors</text>
 <text text-anchor="middle" x="1456.5" y="-864" font-family="FreeSans" font-size="10.00">+m_Children</text>
 </g>
-<!-- Node25 -->
-<g id="node25" class="node"><title>Node25</title>
+<!-- Node28 -->
+<g id="node25" class="node"><title>Node28</title>
 <polygon fill="none" stroke="#bfbfbf" points="1133,-1160.5 1133,-1217.5 1264,-1217.5 1264,-1160.5 1133,-1160.5"/>
 <text text-anchor="middle" x="1198.5" y="-1205.5" font-family="FreeSans" font-size="10.00">std::vector&lt; TokenIdxSet &gt;</text>
 <polyline fill="none" stroke="#bfbfbf" points="1133,-1198.5 1264,-1198.5 "/>
@@ -572,14 +572,14 @@
 <polyline fill="none" stroke="#bfbfbf" points="1133,-1179.5 1264,-1179.5 "/>
 <text text-anchor="middle" x="1198.5" y="-1167.5" font-family="FreeSans" font-size="10.00"> </text>
 </g>
-<!-- Node23&#45;&gt;Node25 -->
-<g id="edge28" class="edge"><title>Node23&#45;&gt;Node25</title>
+<!-- Node26&#45;&gt;Node28 -->
+<g id="edge28" class="edge"><title>Node26&#45;&gt;Node28</title>
 <path fill="none" stroke="#404040" d="M1239.25,-1353.46C1235.99,-1347.47 1232.91,-1341.17 1230.5,-1335 1217.08,-1300.65 1208.67,-1259.41 1203.86,-1229.7"/>
 <polygon fill="none" stroke="#404040" points="1203.84,-1229.59 1198.97,-1224.27 1202.01,-1217.73 1206.88,-1223.05 1203.84,-1229.59"/>
 <text text-anchor="middle" x="1254.5" y="-1327" font-family="FreeSans" font-size="10.00"> +elements</text>
 </g>
-<!-- Node28 -->
-<g id="node28" class="node"><title>Node28</title>
+<!-- Node31 -->
+<g id="node28" class="node"><title>Node31</title>
 <polygon fill="none" stroke="#bfbfbf" points="883,-985.5 883,-1053.5 1014,-1053.5 1014,-985.5 883,-985.5"/>
 <text text-anchor="start" x="891" y="-1041.5" font-family="FreeSans" font-size="10.00">std::map&lt; size_t, TokenIdx</text>
 <text text-anchor="middle" x="948.5" y="-1030.5" font-family="FreeSans" font-size="10.00">Set, std::less&lt; size_t &gt; &gt;</text>
@@ -588,26 +588,26 @@
 <polyline fill="none" stroke="#bfbfbf" points="883,-1004.5 1014,-1004.5 "/>
 <text text-anchor="middle" x="948.5" y="-992.5" font-family="FreeSans" font-size="10.00"> </text>
 </g>
-<!-- Node23&#45;&gt;Node28 -->
-<g id="edge33" class="edge"><title>Node23&#45;&gt;Node28</title>
+<!-- Node26&#45;&gt;Node31 -->
+<g id="edge33" class="edge"><title>Node26&#45;&gt;Node31</title>
 <path fill="none" stroke="#404040" d="M1218.91,-1368.47C1190.01,-1354.47 1151.9,-1332.92 1124.5,-1306 1050.94,-1233.75 994.929,-1124.84 967.39,-1064.56"/>
 <polygon fill="none" stroke="#404040" points="967.352,-1064.48 961.241,-1060.65 962.423,-1053.54 968.535,-1057.37 967.352,-1064.48"/>
 <text text-anchor="middle" x="1181.5" y="-1327" font-family="FreeSans" font-size="10.00"> +elements</text>
 </g>
-<!-- Node24&#45;&gt;Node19 -->
-<g id="edge25" class="edge"><title>Node24&#45;&gt;Node19</title>
+<!-- Node27&#45;&gt;Node22 -->
+<g id="edge25" class="edge"><title>Node27&#45;&gt;Node22</title>
 <path fill="none" stroke="#404040" d="M1128.14,-799.259C1119.87,-789.373 1111.51,-779.442 1103.5,-770 1088.15,-751.912 1071.56,-732.626 1055.74,-714.345"/>
 <polygon fill="none" stroke="#404040" points="1055.65,-714.244 1048.7,-712.329 1047.79,-705.176 1054.74,-707.09 1055.65,-714.244"/>
 <text text-anchor="middle" x="1131" y="-773" font-family="FreeSans" font-size="10.00"> #m_Tree</text>
 </g>
-<!-- Node25&#45;&gt;Node24 -->
-<g id="edge27" class="edge"><title>Node25&#45;&gt;Node24</title>
+<!-- Node28&#45;&gt;Node27 -->
+<g id="edge27" class="edge"><title>Node28&#45;&gt;Node27</title>
 <path fill="none" stroke="#404040" d="M1198.32,-1160.49C1198.05,-1119.86 1197.54,-1041.85 1197.13,-979.027"/>
 <polygon fill="none" stroke="#404040" points="1197.12,-978.679 1193.08,-972.706 1197.04,-966.68 1201.08,-972.653 1197.12,-978.679"/>
 <text text-anchor="middle" x="1220.5" y="-1017" font-family="FreeSans" font-size="10.00"> #m_Items</text>
 </g>
-<!-- Node26 -->
-<g id="node26" class="node"><title>Node26</title>
+<!-- Node29 -->
+<g id="node26" class="node"><title>Node29</title>
 <polygon fill="none" stroke="#bfbfbf" points="656,-854.5 656,-911.5 743,-911.5 743,-854.5 656,-854.5"/>
 <text text-anchor="middle" x="699.5" y="-899.5" font-family="FreeSans" font-size="10.00">std::deque&lt; int &gt;</text>
 <polyline fill="none" stroke="#bfbfbf" points="656,-892.5 743,-892.5 "/>
@@ -615,14 +615,14 @@
 <polyline fill="none" stroke="#bfbfbf" points="656,-873.5 743,-873.5 "/>
 <text text-anchor="middle" x="699.5" y="-861.5" font-family="FreeSans" font-size="10.00"> </text>
 </g>
-<!-- Node26&#45;&gt;Node19 -->
-<g id="edge29" class="edge"><title>Node26&#45;&gt;Node19</title>
+<!-- Node29&#45;&gt;Node22 -->
+<g id="edge29" class="edge"><title>Node29&#45;&gt;Node22</title>
 <path fill="none" stroke="#404040" d="M699.431,-854.484C700.708,-830.033 705.996,-794.474 724.5,-770 769.484,-710.502 847.462,-673.419 905.947,-652.58"/>
 <polygon fill="none" stroke="#404040" points="906.028,-652.552 910.39,-646.809 917.368,-648.627 913.006,-654.369 906.028,-652.552"/>
 <text text-anchor="middle" x="761" y="-773" font-family="FreeSans" font-size="10.00"> #m_FreeTokens</text>
 </g>
-<!-- Node27 -->
-<g id="node27" class="node"><title>Node27</title>
+<!-- Node30 -->
+<g id="node27" class="node"><title>Node30</title>
 <polygon fill="none" stroke="#bfbfbf" points="761.5,-849 761.5,-917 859.5,-917 859.5,-849 761.5,-849"/>
 <text text-anchor="start" x="769.5" y="-905" font-family="FreeSans" font-size="10.00">std::set&lt; size_t, std</text>
 <text text-anchor="middle" x="810.5" y="-894" font-family="FreeSans" font-size="10.00">::less&lt; size_t &gt; &gt;</text>
@@ -631,20 +631,20 @@
 <polyline fill="none" stroke="#bfbfbf" points="761.5,-868 859.5,-868 "/>
 <text text-anchor="middle" x="810.5" y="-856" font-family="FreeSans" font-size="10.00"> </text>
 </g>
-<!-- Node27&#45;&gt;Node19 -->
-<g id="edge31" class="edge"><title>Node27&#45;&gt;Node19</title>
+<!-- Node30&#45;&gt;Node22 -->
+<g id="edge31" class="edge"><title>Node30&#45;&gt;Node22</title>
 <path fill="none" stroke="#404040" d="M800.571,-848.95C795.481,-825.709 792.568,-794.511 804.5,-770 825.863,-726.116 868.451,-691.957 906.614,-668.426"/>
 <polygon fill="none" stroke="#404040" points="906.94,-668.231 910.036,-661.719 917.239,-662.072 914.143,-668.585 906.94,-668.231"/>
 <text text-anchor="middle" x="857.5" y="-773" font-family="FreeSans" font-size="10.00"> #m_FilesToBeReparsed</text>
 </g>
-<!-- Node28&#45;&gt;Node19 -->
-<g id="edge32" class="edge"><title>Node28&#45;&gt;Node19</title>
+<!-- Node31&#45;&gt;Node22 -->
+<g id="edge32" class="edge"><title>Node31&#45;&gt;Node22</title>
 <path fill="none" stroke="#404040" d="M915.461,-985.423C911.389,-979.679 907.843,-973.461 905.5,-967 880.048,-896.805 889.62,-871.958 905.5,-799 907.399,-790.275 912.096,-777.409 918.289,-762.607"/>
 <polygon fill="none" stroke="#404040" points="918.314,-762.548 917.003,-755.457 923.044,-751.52 924.355,-758.61 918.314,-762.548"/>
 <text text-anchor="middle" x="933.5" y="-880.5" font-family="FreeSans" font-size="10.00"> #m_FileMap</text>
 </g>
-<!-- Node29 -->
-<g id="node29" class="node"><title>Node29</title>
+<!-- Node32 -->
+<g id="node29" class="node"><title>Node32</title>
 <polygon fill="none" stroke="#bfbfbf" points="970,-843.5 970,-922.5 1109,-922.5 1109,-843.5 970,-843.5"/>
 <text text-anchor="start" x="978" y="-910.5" font-family="FreeSans" font-size="10.00">std::map&lt; size_t, FileParsing</text>
 <text text-anchor="middle" x="1039.5" y="-899.5" font-family="FreeSans" font-size="10.00">Status, std::less&lt; size_t &gt; &gt;</text>
@@ -654,14 +654,14 @@
 <polyline fill="none" stroke="#bfbfbf" points="970,-862.5 1109,-862.5 "/>
 <text text-anchor="middle" x="1039.5" y="-850.5" font-family="FreeSans" font-size="10.00"> </text>
 </g>
-<!-- Node29&#45;&gt;Node19 -->
-<g id="edge34" class="edge"><title>Node29&#45;&gt;Node19</title>
+<!-- Node32&#45;&gt;Node22 -->
+<g id="edge34" class="edge"><title>Node32&#45;&gt;Node22</title>
 <path fill="none" stroke="#404040" d="M1030.72,-843.254C1025.78,-821.456 1019.29,-792.815 1012.68,-763.643"/>
 <polygon fill="none" stroke="#404040" points="1012.59,-763.274 1007.36,-758.307 1009.94,-751.571 1015.17,-756.538 1012.59,-763.274"/>
 <text text-anchor="middle" x="1057.5" y="-773" font-family="FreeSans" font-size="10.00"> #m_FileStatusMap</text>
 </g>
-<!-- Node30 -->
-<g id="node30" class="node"><title>Node30</title>
+<!-- Node33 -->
+<g id="node30" class="node"><title>Node33</title>
 <g id="a_node30"><a xlink:href="structParserOptions" target="_top" xlink:title="Setting of the Parser, some of them will be passed down to ParserThreadOptions. ">
 <polygon fill="none" stroke="black" points="252,-557 252,-702 369,-702 369,-557 252,-557"/>
 <text text-anchor="middle" x="310.5" y="-690" font-family="FreeSans" font-size="10.00">ParserOptions</text>
@@ -680,8 +680,8 @@
 </a>
 </g>
 </g>
-<!-- Node30&#45;&gt;Node7 -->
-<g id="edge36" class="edge"><title>Node30&#45;&gt;Node7</title>
+<!-- Node33&#45;&gt;Node10 -->
+<g id="edge36" class="edge"><title>Node33&#45;&gt;Node10</title>
 <path fill="none" stroke="#404040" d="M341.366,-556.729C353.912,-528.506 368.88,-495.983 383.5,-467 391.115,-451.903 399.525,-436.089 407.919,-420.755"/>
 <polygon fill="none" stroke="#404040" points="407.926,-420.741 407.318,-413.555 413.717,-410.231 414.325,-417.416 407.926,-420.741"/>
 <text text-anchor="middle" x="411" y="-475.5" font-family="FreeSans" font-size="10.00"> #m_Options</text>

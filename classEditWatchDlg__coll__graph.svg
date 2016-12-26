@@ -8,8 +8,8 @@
  viewBox="0.00 0.00 246.50 731.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 727)">
 <title>EditWatchDlg</title>
-<!-- Node1 -->
-<g id="node1" class="node"><title>Node1</title>
+<!-- Node4 -->
+<g id="node1" class="node"><title>Node4</title>
 <polygon fill="#bfbfbf" stroke="black" points="17,-0.5 17,-79.5 112,-79.5 112,-0.5 17,-0.5"/>
 <text text-anchor="middle" x="64.5" y="-67.5" font-family="FreeSans" font-size="10.00">EditWatchDlg</text>
 <polyline fill="none" stroke="black" points="17,-60.5 112,-60.5 "/>
@@ -19,8 +19,8 @@
 <text text-anchor="start" x="25" y="-18.5" font-family="FreeSans" font-size="10.00">+ ~EditWatchDlg()</text>
 <text text-anchor="start" x="25" y="-7.5" font-family="FreeSans" font-size="10.00"># EndModal()</text>
 </g>
-<!-- Node2 -->
-<g id="node2" class="node"><title>Node2</title>
+<!-- Node5 -->
+<g id="node2" class="node"><title>Node5</title>
 <g id="a_node2"><a xlink:href="classwxScrollingDialog" target="_top" xlink:title="{wxScrollingDialog\n||+ wxScrollingDialog()\l+ wxScrollingDialog()\l+ Create()\l+ Init()\l+ Show()\l+ ShowModal()\l}">
 <polygon fill="none" stroke="black" points="11,-117.5 11,-229.5 118,-229.5 118,-117.5 11,-117.5"/>
 <text text-anchor="middle" x="64.5" y="-217.5" font-family="FreeSans" font-size="10.00">wxScrollingDialog</text>
@@ -36,13 +36,13 @@
 </a>
 </g>
 </g>
-<!-- Node2&#45;&gt;Node1 -->
-<g id="edge1" class="edge"><title>Node2&#45;&gt;Node1</title>
+<!-- Node5&#45;&gt;Node4 -->
+<g id="edge1" class="edge"><title>Node5&#45;&gt;Node4</title>
 <path fill="none" stroke="midnightblue" d="M64.5,-107.32C64.5,-97.9041 64.5,-88.4729 64.5,-79.7985"/>
 <polygon fill="none" stroke="midnightblue" points="61.0001,-107.494 64.5,-117.494 68.0001,-107.494 61.0001,-107.494"/>
 </g>
-<!-- Node3 -->
-<g id="node3" class="node"><title>Node3</title>
+<!-- Node6 -->
+<g id="node3" class="node"><title>Node6</title>
 <polygon fill="none" stroke="#bfbfbf" points="0,-355.5 0,-412.5 55,-412.5 55,-355.5 0,-355.5"/>
 <text text-anchor="middle" x="27.5" y="-400.5" font-family="FreeSans" font-size="10.00">wxDialog</text>
 <polyline fill="none" stroke="#bfbfbf" points="0,-393.5 55,-393.5 "/>
@@ -50,13 +50,13 @@
 <polyline fill="none" stroke="#bfbfbf" points="0,-374.5 55,-374.5 "/>
 <text text-anchor="middle" x="27.5" y="-362.5" font-family="FreeSans" font-size="10.00"> </text>
 </g>
-<!-- Node3&#45;&gt;Node2 -->
-<g id="edge2" class="edge"><title>Node3&#45;&gt;Node2</title>
+<!-- Node6&#45;&gt;Node5 -->
+<g id="edge2" class="edge"><title>Node6&#45;&gt;Node5</title>
 <path fill="none" stroke="midnightblue" d="M34.1745,-345.388C39.8978,-313.137 48.2207,-266.236 54.7,-229.724"/>
 <polygon fill="none" stroke="midnightblue" points="30.7145,-344.855 32.4133,-355.313 37.6068,-346.078 30.7145,-344.855"/>
 </g>
-<!-- Node4 -->
-<g id="node4" class="node"><title>Node4</title>
+<!-- Node7 -->
+<g id="node4" class="node"><title>Node7</title>
 <g id="a_node4"><a xlink:href="classwxDialogHelper" target="_top" xlink:title="{wxDialogHelper\n|# m_dialog\l# m_layoutLayoutAdaptationDone\l# m_buttonIds\l# m_layoutAdaptationLevel\l# sm_layoutAdaptation\l|+ wxDialogHelper()\l+ ~wxDialogHelper()\l+ Init()\l+ SetDialog()\l+ GetDialog()\l+ DoLayoutAdaptation()\l+ CanDoLayoutAdaptation()\l+ GetContentWindow()\land 7 more...\l+ SetLayoutAdapter()\l+ GetLayoutAdapter()\l+ GetLayoutAdaptation()\l+ SetLayoutAdaptation()\l}">
 <polygon fill="none" stroke="black" points="73,-267.5 73,-500.5 234,-500.5 234,-267.5 73,-267.5"/>
 <text text-anchor="middle" x="153.5" y="-488.5" font-family="FreeSans" font-size="10.00">wxDialogHelper</text>
@@ -83,13 +83,13 @@
 </a>
 </g>
 </g>
-<!-- Node4&#45;&gt;Node2 -->
-<g id="edge3" class="edge"><title>Node4&#45;&gt;Node2</title>
+<!-- Node7&#45;&gt;Node5 -->
+<g id="edge3" class="edge"><title>Node7&#45;&gt;Node5</title>
 <path fill="none" stroke="midnightblue" d="M100.258,-258.271C96.012,-248.323 91.8761,-238.634 88.0138,-229.586"/>
 <polygon fill="none" stroke="midnightblue" points="97.0397,-259.646 104.185,-267.469 103.478,-256.898 97.0397,-259.646"/>
 </g>
-<!-- Node5 -->
-<g id="node5" class="node"><title>Node5</title>
+<!-- Node8 -->
+<g id="node5" class="node"><title>Node8</title>
 <g id="a_node5"><a xlink:href="classwxDialogLayoutAdapter" target="_top" xlink:title="{wxDialogLayoutAdapter\n||+ wxDialogLayoutAdapter()\l+ CanDoLayoutAdaptation()\l+ DoLayoutAdaptation()\l}">
 <polygon fill="none" stroke="black" points="86,-548.5 86,-627.5 221,-627.5 221,-548.5 86,-548.5"/>
 <text text-anchor="middle" x="153.5" y="-615.5" font-family="FreeSans" font-size="10.00">wxDialogLayoutAdapter</text>
@@ -102,14 +102,14 @@
 </a>
 </g>
 </g>
-<!-- Node5&#45;&gt;Node4 -->
-<g id="edge4" class="edge"><title>Node5&#45;&gt;Node4</title>
+<!-- Node8&#45;&gt;Node7 -->
+<g id="edge4" class="edge"><title>Node8&#45;&gt;Node7</title>
 <path fill="none" stroke="#404040" d="M153.5,-548.052C153.5,-537.54 153.5,-525.563 153.5,-512.983"/>
 <polygon fill="none" stroke="#404040" points="153.5,-512.766 149.5,-506.766 153.5,-500.766 157.5,-506.766 153.5,-512.766"/>
 <text text-anchor="middle" x="196" y="-522" font-family="FreeSans" font-size="10.00"> #sm_layoutAdapter</text>
 </g>
-<!-- Node6 -->
-<g id="node6" class="node"><title>Node6</title>
+<!-- Node9 -->
+<g id="node6" class="node"><title>Node9</title>
 <polygon fill="none" stroke="#bfbfbf" points="125.5,-665.5 125.5,-722.5 181.5,-722.5 181.5,-665.5 125.5,-665.5"/>
 <text text-anchor="middle" x="153.5" y="-710.5" font-family="FreeSans" font-size="10.00">wxObject</text>
 <polyline fill="none" stroke="#bfbfbf" points="125.5,-703.5 181.5,-703.5 "/>
@@ -117,8 +117,8 @@
 <polyline fill="none" stroke="#bfbfbf" points="125.5,-684.5 181.5,-684.5 "/>
 <text text-anchor="middle" x="153.5" y="-672.5" font-family="FreeSans" font-size="10.00"> </text>
 </g>
-<!-- Node6&#45;&gt;Node5 -->
-<g id="edge5" class="edge"><title>Node6&#45;&gt;Node5</title>
+<!-- Node9&#45;&gt;Node8 -->
+<g id="edge5" class="edge"><title>Node9&#45;&gt;Node8</title>
 <path fill="none" stroke="midnightblue" d="M153.5,-655.232C153.5,-646.268 153.5,-636.693 153.5,-627.689"/>
 <polygon fill="none" stroke="midnightblue" points="150,-655.403 153.5,-665.403 157,-655.403 150,-655.403"/>
 </g>

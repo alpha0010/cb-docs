@@ -8,8 +8,8 @@
  viewBox="0.00 0.00 583.00 1130.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 1126)">
 <title>EditorManager</title>
-<!-- Node1 -->
-<g id="node1" class="node"><title>Node1</title>
+<!-- Node3 -->
+<g id="node1" class="node"><title>Node3</title>
 <polygon fill="#bfbfbf" stroke="black" points="206,-171.5 206,-514.5 370,-514.5 370,-171.5 206,-171.5"/>
 <text text-anchor="middle" x="288" y="-502.5" font-family="FreeSans" font-size="10.00">EditorManager</text>
 <polyline fill="none" stroke="black" points="206,-495.5 370,-495.5 "/>
@@ -43,8 +43,8 @@
 <text text-anchor="start" x="214" y="-189.5" font-family="FreeSans" font-size="10.00">&#45; OnCloseAllOthers()</text>
 <text text-anchor="start" x="214" y="-178.5" font-family="FreeSans" font-size="10.00">and 25 more...</text>
 </g>
-<!-- Node2 -->
-<g id="node2" class="node"><title>Node2</title>
+<!-- Node4 -->
+<g id="node2" class="node"><title>Node4</title>
 <g id="a_node2"><a xlink:href="classMgr" target="_top" xlink:title="{Mgr\&lt; EditorManager \&gt;\n|&#45; isShutdown\l|+ Valid()\l+ Get()\l+ Free()\l# Mgr()\l# ~Mgr()\l&#45; Mgr()\l&#45; operator=()\l}">
 <polygon fill="none" stroke="black" points="169,-0.5 169,-123.5 281,-123.5 281,-0.5 169,-0.5"/>
 <text text-anchor="middle" x="225" y="-111.5" font-family="FreeSans" font-size="10.00">Mgr&lt; EditorManager &gt;</text>
@@ -61,14 +61,14 @@
 </a>
 </g>
 </g>
-<!-- Node1&#45;&gt;Node2 -->
-<g id="edge2" class="edge"><title>Node1&#45;&gt;Node2</title>
+<!-- Node3&#45;&gt;Node4 -->
+<g id="edge2" class="edge"><title>Node3&#45;&gt;Node4</title>
 <path fill="none" stroke="#404040" d="M216.079,-171.351C214.546,-165.205 213.176,-159.076 212,-153 210.914,-147.386 210.395,-141.559 210.305,-135.692"/>
 <polygon fill="none" stroke="#404040" points="210.306,-135.642 206.494,-129.521 210.678,-123.648 214.49,-129.769 210.306,-135.642"/>
 <text text-anchor="middle" x="233" y="-145" font-family="FreeSans" font-size="10.00"> &#45;instance</text>
 </g>
-<!-- Node7 -->
-<g id="node7" class="node"><title>Node7</title>
+<!-- Node9 -->
+<g id="node7" class="node"><title>Node9</title>
 <g id="a_node7"><a xlink:href="structEditorManagerInternalData" target="_top" xlink:title=" struct EditorManagerInternalData * This is the private data holder for the EditorManager * All data ...">
 <polygon fill="none" stroke="black" points="304,-28 304,-96 450,-96 450,-28 304,-28"/>
 <text text-anchor="middle" x="377" y="-84" font-family="FreeSans" font-size="10.00">EditorManagerInternalData</text>
@@ -80,19 +80,19 @@
 </a>
 </g>
 </g>
-<!-- Node1&#45;&gt;Node7 -->
-<g id="edge8" class="edge"><title>Node1&#45;&gt;Node7</title>
+<!-- Node3&#45;&gt;Node9 -->
+<g id="edge8" class="edge"><title>Node3&#45;&gt;Node9</title>
 <path fill="none" stroke="#404040" d="M291.77,-171.426C294.494,-161.286 297.863,-151.398 302,-142 307.893,-128.613 317.071,-116.103 327.011,-105.164"/>
 <polygon fill="none" stroke="#404040" points="327.164,-105.005 328.442,-97.9085 335.485,-96.359 334.206,-103.456 327.164,-105.005"/>
 <text text-anchor="middle" x="329.5" y="-145" font-family="FreeSans" font-size="10.00"> +m_pOwner</text>
 </g>
-<!-- Node2&#45;&gt;Node1 -->
-<g id="edge1" class="edge"><title>Node2&#45;&gt;Node1</title>
+<!-- Node4&#45;&gt;Node3 -->
+<g id="edge1" class="edge"><title>Node4&#45;&gt;Node3</title>
 <path fill="none" stroke="midnightblue" d="M255.341,-133.179C256.294,-136.139 257.187,-139.088 258,-142 260.668,-151.553 263.112,-161.434 265.349,-171.453"/>
 <polygon fill="none" stroke="midnightblue" points="258.652,-132.045 252.107,-123.713 252.028,-134.308 258.652,-132.045"/>
 </g>
-<!-- Node3 -->
-<g id="node3" class="node"><title>Node3</title>
+<!-- Node5 -->
+<g id="node3" class="node"><title>Node5</title>
 <polygon fill="none" stroke="#bfbfbf" points="0,-771.5 0,-828.5 74,-828.5 74,-771.5 0,-771.5"/>
 <text text-anchor="middle" x="37" y="-816.5" font-family="FreeSans" font-size="10.00">wxEvtHandler</text>
 <polyline fill="none" stroke="#bfbfbf" points="0,-809.5 74,-809.5 "/>
@@ -100,13 +100,13 @@
 <polyline fill="none" stroke="#bfbfbf" points="0,-790.5 74,-790.5 "/>
 <text text-anchor="middle" x="37" y="-778.5" font-family="FreeSans" font-size="10.00"> </text>
 </g>
-<!-- Node3&#45;&gt;Node1 -->
-<g id="edge3" class="edge"><title>Node3&#45;&gt;Node1</title>
+<!-- Node5&#45;&gt;Node3 -->
+<g id="edge3" class="edge"><title>Node5&#45;&gt;Node3</title>
 <path fill="none" stroke="midnightblue" d="M38.672,-761.172C42.0475,-714.625 52.2376,-634.245 83,-573 113.058,-513.158 162.913,-456.954 205.93,-415.202"/>
 <polygon fill="none" stroke="midnightblue" points="35.1627,-761.2 38.0007,-771.408 42.1477,-761.659 35.1627,-761.2"/>
 </g>
-<!-- Node4 -->
-<g id="node4" class="node"><title>Node4</title>
+<!-- Node6 -->
+<g id="node4" class="node"><title>Node6</title>
 <g id="a_node4"><a xlink:href="classcbAuiNotebook" target="_top" xlink:title="A notebook class This class is derived from wxAuiNotebook, to enhance its abilities. ">
 <polygon fill="none" stroke="black" points="92,-573.5 92,-1026.5 244,-1026.5 244,-573.5 92,-573.5"/>
 <text text-anchor="middle" x="168" y="-1014.5" font-family="FreeSans" font-size="10.00">cbAuiNotebook</text>
@@ -153,14 +153,14 @@
 </a>
 </g>
 </g>
-<!-- Node4&#45;&gt;Node1 -->
-<g id="edge4" class="edge"><title>Node4&#45;&gt;Node1</title>
+<!-- Node6&#45;&gt;Node3 -->
+<g id="edge4" class="edge"><title>Node6&#45;&gt;Node3</title>
 <path fill="none" stroke="#404040" d="M227.364,-573.333C230.961,-559.685 234.528,-546.159 238,-533 238.601,-530.723 239.206,-528.431 239.814,-526.126"/>
 <polygon fill="none" stroke="#404040" points="239.819,-526.107 237.483,-519.285 242.882,-514.505 245.218,-521.327 239.819,-526.107"/>
 <text text-anchor="middle" x="271" y="-541.5" font-family="FreeSans" font-size="10.00"> &#45;m_pNotebook</text>
 </g>
-<!-- Node5 -->
-<g id="node5" class="node"><title>Node5</title>
+<!-- Node7 -->
+<g id="node5" class="node"><title>Node7</title>
 <polygon fill="none" stroke="#bfbfbf" points="126.5,-1064.5 126.5,-1121.5 209.5,-1121.5 209.5,-1064.5 126.5,-1064.5"/>
 <text text-anchor="middle" x="168" y="-1109.5" font-family="FreeSans" font-size="10.00">wxAuiNotebook</text>
 <polyline fill="none" stroke="#bfbfbf" points="126.5,-1102.5 209.5,-1102.5 "/>
@@ -168,13 +168,13 @@
 <polyline fill="none" stroke="#bfbfbf" points="126.5,-1083.5 209.5,-1083.5 "/>
 <text text-anchor="middle" x="168" y="-1071.5" font-family="FreeSans" font-size="10.00"> </text>
 </g>
-<!-- Node5&#45;&gt;Node4 -->
-<g id="edge5" class="edge"><title>Node5&#45;&gt;Node4</title>
+<!-- Node7&#45;&gt;Node6 -->
+<g id="edge5" class="edge"><title>Node7&#45;&gt;Node6</title>
 <path fill="none" stroke="midnightblue" d="M168,-1054.18C168,-1045.96 168,-1036.69 168,-1026.69"/>
 <polygon fill="none" stroke="midnightblue" points="164.5,-1054.36 168,-1064.36 171.5,-1054.36 164.5,-1054.36"/>
 </g>
-<!-- Node6 -->
-<g id="node6" class="node"><title>Node6</title>
+<!-- Node8 -->
+<g id="node6" class="node"><title>Node8</title>
 <g id="a_node6"><a xlink:href="classEditorColourSet" target="_top" xlink:title="{EditorColourSet\n|&#45; m_Name\l&#45; m_Sets\l|+ EditorColourSet()\l+ EditorColourSet()\l+ ~EditorColourSet()\l+ AddHighlightLanguage()\l+ GetHighlightLanguage()\l+ GetHighlightLanguage()\l+ GetAllHighlightLanguages()\l+ AddOption()\land 28 more...\l&#45; DoApplyStyle()\l&#45; LoadAvailableSets()\l&#45; Load()\l&#45; ClearAllOptionColours()\l&#45; GetDefaultOption()\l}">
 <polygon fill="none" stroke="black" points="262,-694.5 262,-905.5 404,-905.5 404,-694.5 262,-694.5"/>
 <text text-anchor="middle" x="333" y="-893.5" font-family="FreeSans" font-size="10.00">EditorColourSet</text>
@@ -199,20 +199,20 @@
 </a>
 </g>
 </g>
-<!-- Node6&#45;&gt;Node1 -->
-<g id="edge6" class="edge"><title>Node6&#45;&gt;Node1</title>
+<!-- Node8&#45;&gt;Node3 -->
+<g id="edge6" class="edge"><title>Node8&#45;&gt;Node3</title>
 <path fill="none" stroke="#404040" d="M322.648,-694.328C317.729,-644.597 311.705,-583.682 306.067,-526.677"/>
 <polygon fill="none" stroke="#404040" points="306.051,-526.519 301.48,-520.942 304.87,-514.577 309.441,-520.155 306.051,-526.519"/>
 <text text-anchor="middle" x="332.5" y="-541.5" font-family="FreeSans" font-size="10.00"> &#45;m_Theme</text>
 </g>
-<!-- Node7&#45;&gt;Node1 -->
-<g id="edge7" class="edge"><title>Node7&#45;&gt;Node1</title>
+<!-- Node9&#45;&gt;Node3 -->
+<g id="edge7" class="edge"><title>Node9&#45;&gt;Node3</title>
 <path fill="none" stroke="#404040" d="M372.652,-96.2575C370.021,-113.387 366.164,-134.505 361,-153 360.362,-155.287 359.706,-157.585 359.035,-159.891"/>
 <polygon fill="none" stroke="#404040" points="359.005,-159.991 361.11,-166.888 355.553,-171.484 353.448,-164.587 359.005,-159.991"/>
 <text text-anchor="middle" x="386.5" y="-145" font-family="FreeSans" font-size="10.00"> &#45;m_pData</text>
 </g>
-<!-- Node8 -->
-<g id="node8" class="node"><title>Node8</title>
+<!-- Node10 -->
+<g id="node8" class="node"><title>Node10</title>
 <g id="a_node8"><a xlink:href="structcbNotebookStack" target="_top" xlink:title="{cbNotebookStack\n|+ window\l|+ cbNotebookStack()\l}">
 <polygon fill="none" stroke="black" points="422,-771.5 422,-828.5 530,-828.5 530,-771.5 422,-771.5"/>
 <text text-anchor="middle" x="476" y="-816.5" font-family="FreeSans" font-size="10.00">cbNotebookStack</text>
@@ -223,15 +223,15 @@
 </a>
 </g>
 </g>
-<!-- Node8&#45;&gt;Node1 -->
-<g id="edge9" class="edge"><title>Node8&#45;&gt;Node1</title>
+<!-- Node10&#45;&gt;Node3 -->
+<g id="edge9" class="edge"><title>Node10&#45;&gt;Node3</title>
 <path fill="none" stroke="#404040" d="M470.395,-771.197C461.188,-727.873 441.046,-642.062 413,-573 402.253,-546.536 389.215,-519.214 375.668,-493.063"/>
 <polygon fill="none" stroke="#404040" points="375.612,-492.955 369.285,-489.496 370.044,-482.325 376.372,-485.784 375.612,-492.955"/>
 <text text-anchor="middle" x="461" y="-547" font-family="FreeSans" font-size="10.00"> &#45;m_pNotebookStackHead</text>
 <text text-anchor="middle" x="461" y="-536" font-family="FreeSans" font-size="10.00">&#45;m_pNotebookStackTail</text>
 </g>
-<!-- Node8&#45;&gt;Node8 -->
-<g id="edge10" class="edge"><title>Node8&#45;&gt;Node8</title>
+<!-- Node10&#45;&gt;Node10 -->
+<g id="edge10" class="edge"><title>Node10&#45;&gt;Node10</title>
 <path fill="none" stroke="#404040" d="M492.273,-828.761C516.919,-858.673 548,-849.086 548,-800 548,-756.475 523.562,-744.006 500.842,-762.594"/>
 <polygon fill="none" stroke="#404040" points="500.721,-762.716 499.337,-769.793 492.273,-771.239 493.656,-764.161 500.721,-762.716"/>
 <text text-anchor="middle" x="561.5" y="-797.5" font-family="FreeSans" font-size="10.00"> +next</text>

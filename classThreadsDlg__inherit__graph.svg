@@ -8,8 +8,8 @@
  viewBox="0.00 0.00 174.00 270.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 266)">
 <title>ThreadsDlg</title>
-<!-- Node1 -->
-<g id="node1" class="node"><title>Node1</title>
+<!-- Node0 -->
+<g id="node1" class="node"><title>Node0</title>
 <polygon fill="#bfbfbf" stroke="black" points="0.5,-0.5 0.5,-134.5 144.5,-134.5 144.5,-0.5 0.5,-0.5"/>
 <text text-anchor="middle" x="72.5" y="-122.5" font-family="FreeSans" font-size="10.00">ThreadsDlg</text>
 <polyline fill="none" stroke="black" points="0.5,-115.5 144.5,-115.5 "/>
@@ -24,8 +24,8 @@
 <text text-anchor="start" x="8.5" y="-18.5" font-family="FreeSans" font-size="10.00"># OnSwitchThread()</text>
 <text text-anchor="start" x="8.5" y="-7.5" font-family="FreeSans" font-size="10.00">&#45; DECLARE_EVENT_TABLE()</text>
 </g>
-<!-- Node2 -->
-<g id="node2" class="node"><title>Node2</title>
+<!-- Node1 -->
+<g id="node2" class="node"><title>Node1</title>
 <polygon fill="none" stroke="#bfbfbf" points="0,-188 0,-245 53,-245 53,-188 0,-188"/>
 <text text-anchor="middle" x="26.5" y="-233" font-family="FreeSans" font-size="10.00">wxPanel</text>
 <polyline fill="none" stroke="#bfbfbf" points="0,-226 53,-226 "/>
@@ -33,13 +33,13 @@
 <polyline fill="none" stroke="#bfbfbf" points="0,-207 53,-207 "/>
 <text text-anchor="middle" x="26.5" y="-195" font-family="FreeSans" font-size="10.00"> </text>
 </g>
-<!-- Node2&#45;&gt;Node1 -->
-<g id="edge1" class="edge"><title>Node2&#45;&gt;Node1</title>
+<!-- Node1&#45;&gt;Node0 -->
+<g id="edge1" class="edge"><title>Node1&#45;&gt;Node0</title>
 <path fill="none" stroke="midnightblue" d="M38.1754,-178.189C42.3116,-164.972 47.0988,-149.673 51.7609,-134.775"/>
 <polygon fill="none" stroke="midnightblue" points="34.7985,-177.261 35.1522,-187.85 41.479,-179.352 34.7985,-177.261"/>
 </g>
-<!-- Node3 -->
-<g id="node3" class="node"><title>Node3</title>
+<!-- Node2 -->
+<g id="node3" class="node"><title>Node2</title>
 <g id="a_node3"><a xlink:href="classcbThreadsDlg" target="_top" xlink:title="{cbThreadsDlg\n||+ ~cbThreadsDlg()\l+ GetWindow()\l+ Reload()\l+ EnableWindow()\l}">
 <polygon fill="none" stroke="black" points="71,-171.5 71,-261.5 166,-261.5 166,-171.5 71,-171.5"/>
 <text text-anchor="middle" x="118.5" y="-249.5" font-family="FreeSans" font-size="10.00">cbThreadsDlg</text>
@@ -53,8 +53,8 @@
 </a>
 </g>
 </g>
-<!-- Node3&#45;&gt;Node1 -->
-<g id="edge2" class="edge"><title>Node3&#45;&gt;Node1</title>
+<!-- Node2&#45;&gt;Node0 -->
+<g id="edge2" class="edge"><title>Node2&#45;&gt;Node0</title>
 <path fill="none" stroke="midnightblue" d="M101.652,-161.659C98.8972,-152.856 96.0156,-143.648 93.1814,-134.591"/>
 <polygon fill="none" stroke="midnightblue" points="98.3717,-162.897 104.698,-171.395 105.052,-160.806 98.3717,-162.897"/>
 </g>

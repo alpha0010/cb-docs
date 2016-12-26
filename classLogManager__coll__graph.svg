@@ -8,8 +8,8 @@
  viewBox="0.00 0.00 325.50 744.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 740)">
 <title>LogManager</title>
-<!-- Node1 -->
-<g id="node1" class="node"><title>Node1</title>
+<!-- Node2 -->
+<g id="node1" class="node"><title>Node2</title>
 <polygon fill="#bfbfbf" stroke="black" points="116,-171.5 116,-360.5 214,-360.5 214,-171.5 116,-171.5"/>
 <text text-anchor="middle" x="165" y="-348.5" font-family="FreeSans" font-size="10.00">LogManager</text>
 <polyline fill="none" stroke="black" points="116,-341.5 214,-341.5 "/>
@@ -29,8 +29,8 @@
 <text text-anchor="start" x="124" y="-189.5" font-family="FreeSans" font-size="10.00">&#45; ClearLogInternal()</text>
 <text text-anchor="start" x="124" y="-178.5" font-family="FreeSans" font-size="10.00">&#45; LogInternal()</text>
 </g>
-<!-- Node2 -->
-<g id="node2" class="node"><title>Node2</title>
+<!-- Node3 -->
+<g id="node2" class="node"><title>Node3</title>
 <g id="a_node2"><a xlink:href="classMgr" target="_top" xlink:title="{Mgr\&lt; LogManager \&gt;\n|&#45; isShutdown\l|+ Valid()\l+ Get()\l+ Free()\l# Mgr()\l# ~Mgr()\l&#45; Mgr()\l&#45; operator=()\l}">
 <polygon fill="none" stroke="black" points="113.5,-0.5 113.5,-123.5 216.5,-123.5 216.5,-0.5 113.5,-0.5"/>
 <text text-anchor="middle" x="165" y="-111.5" font-family="FreeSans" font-size="10.00">Mgr&lt; LogManager &gt;</text>
@@ -47,19 +47,19 @@
 </a>
 </g>
 </g>
-<!-- Node1&#45;&gt;Node2 -->
-<g id="edge2" class="edge"><title>Node1&#45;&gt;Node2</title>
+<!-- Node2&#45;&gt;Node3 -->
+<g id="edge2" class="edge"><title>Node2&#45;&gt;Node3</title>
 <path fill="none" stroke="#404040" d="M132.727,-171.239C131.933,-161.402 132.199,-151.521 134,-142 134.413,-139.815 134.886,-137.613 135.409,-135.403"/>
 <polygon fill="none" stroke="#404040" points="135.479,-135.148 133.201,-128.306 138.641,-123.572 140.918,-130.414 135.479,-135.148"/>
 <text text-anchor="middle" x="155" y="-145" font-family="FreeSans" font-size="10.00"> &#45;instance</text>
 </g>
-<!-- Node2&#45;&gt;Node1 -->
-<g id="edge1" class="edge"><title>Node2&#45;&gt;Node1</title>
+<!-- Node3&#45;&gt;Node2 -->
+<g id="edge1" class="edge"><title>Node3&#45;&gt;Node2</title>
 <path fill="none" stroke="midnightblue" d="M179.1,-133.762C179.442,-136.538 179.745,-139.292 180,-142 180.897,-151.531 181.029,-161.465 180.634,-171.374"/>
 <polygon fill="none" stroke="midnightblue" points="182.539,-133.078 177.705,-123.65 175.605,-134.035 182.539,-133.078"/>
 </g>
-<!-- Node3 -->
-<g id="node3" class="node"><title>Node3</title>
+<!-- Node4 -->
+<g id="node3" class="node"><title>Node4</title>
 <polygon fill="none" stroke="#bfbfbf" points="35.5,-436 35.5,-504 138.5,-504 138.5,-436 35.5,-436"/>
 <text text-anchor="start" x="43.5" y="-492" font-family="FreeSans" font-size="10.00">std::map&lt; wxString,</text>
 <text text-anchor="middle" x="87" y="-481" font-family="FreeSans" font-size="10.00"> InstantiatorBase * &gt;</text>
@@ -68,14 +68,14 @@
 <polyline fill="none" stroke="#bfbfbf" points="35.5,-455 138.5,-455 "/>
 <text text-anchor="middle" x="87" y="-443" font-family="FreeSans" font-size="10.00"> </text>
 </g>
-<!-- Node3&#45;&gt;Node1 -->
-<g id="edge3" class="edge"><title>Node3&#45;&gt;Node1</title>
+<!-- Node4&#45;&gt;Node2 -->
+<g id="edge3" class="edge"><title>Node4&#45;&gt;Node2</title>
 <path fill="none" stroke="#404040" d="M99.8801,-435.644C106.722,-417.925 115.549,-395.065 124.483,-371.93"/>
 <polygon fill="none" stroke="#404040" points="124.546,-371.766 122.976,-364.728 128.868,-360.572 130.439,-367.61 124.546,-371.766"/>
 <text text-anchor="middle" x="142" y="-382" font-family="FreeSans" font-size="10.00"> &#45;instMap</text>
 </g>
-<!-- Node4 -->
-<g id="node4" class="node"><title>Node4</title>
+<!-- Node5 -->
+<g id="node4" class="node"><title>Node5</title>
 <g id="a_node4"><a xlink:href="structLogManager_1_1InstantiatorBase" target="_top" xlink:title="{LogManager::InstantiatorBase\n||+ New()\l+ RequiresFilename()\l+ ~InstantiatorBase()\l}">
 <polygon fill="none" stroke="black" points="0,-618 0,-697 144,-697 144,-618 0,-618"/>
 <text text-anchor="middle" x="72" y="-685" font-family="FreeSans" font-size="10.00">LogManager::InstantiatorBase</text>
@@ -88,14 +88,14 @@
 </a>
 </g>
 </g>
-<!-- Node4&#45;&gt;Node3 -->
-<g id="edge4" class="edge"><title>Node4&#45;&gt;Node3</title>
+<!-- Node5&#45;&gt;Node4 -->
+<g id="edge4" class="edge"><title>Node5&#45;&gt;Node4</title>
 <path fill="none" stroke="#404040" d="M75.1445,-617.613C77.5304,-588.107 80.8164,-547.471 83.3238,-516.462"/>
 <polygon fill="none" stroke="#404040" points="83.3443,-516.208 79.8409,-509.905 84.3115,-504.247 87.8149,-510.55 83.3443,-516.208"/>
 <text text-anchor="middle" x="105" y="-553" font-family="FreeSans" font-size="10.00"> +elements</text>
 </g>
-<!-- Node5 -->
-<g id="node5" class="node"><title>Node5</title>
+<!-- Node6 -->
+<g id="node5" class="node"><title>Node6</title>
 <g id="a_node5"><a xlink:href="structLogSlot" target="_top" xlink:title="{LogSlot\n|+ index\l+ icon\l+ title\l|+ LogSlot()\l+ ~LogSlot()\l+ Index()\l+ SetLogger()\l+ GetLogger()\l}">
 <polygon fill="none" stroke="black" points="187,-408.5 187,-531.5 263,-531.5 263,-408.5 187,-408.5"/>
 <text text-anchor="middle" x="225" y="-519.5" font-family="FreeSans" font-size="10.00">LogSlot</text>
@@ -112,14 +112,14 @@
 </a>
 </g>
 </g>
-<!-- Node5&#45;&gt;Node1 -->
-<g id="edge5" class="edge"><title>Node5&#45;&gt;Node1</title>
+<!-- Node6&#45;&gt;Node2 -->
+<g id="edge5" class="edge"><title>Node6&#45;&gt;Node2</title>
 <path fill="none" stroke="#404040" d="M206.998,-408.393C203.624,-397.033 200.007,-384.856 196.363,-372.588"/>
 <polygon fill="none" stroke="#404040" points="196.285,-372.326 190.742,-367.714 192.868,-360.823 198.411,-365.436 196.285,-372.326"/>
 <text text-anchor="middle" x="211.5" y="-382" font-family="FreeSans" font-size="10.00"> &#45;slot</text>
 </g>
-<!-- Node6 -->
-<g id="node6" class="node"><title>Node6</title>
+<!-- Node7 -->
+<g id="node6" class="node"><title>Node7</title>
 <g id="a_node6"><a xlink:href="classLogger" target="_top" xlink:title="The base class for all kinds of loggers, see loggers.h for its derived classes. ">
 <polygon fill="none" stroke="black" points="162.5,-579.5 162.5,-735.5 317.5,-735.5 317.5,-579.5 162.5,-579.5"/>
 <text text-anchor="middle" x="240" y="-723.5" font-family="FreeSans" font-size="10.00">Logger</text>
@@ -139,8 +139,8 @@
 </a>
 </g>
 </g>
-<!-- Node6&#45;&gt;Node5 -->
-<g id="edge6" class="edge"><title>Node6&#45;&gt;Node5</title>
+<!-- Node7&#45;&gt;Node6 -->
+<g id="edge6" class="edge"><title>Node7&#45;&gt;Node6</title>
 <path fill="none" stroke="#404040" d="M233.769,-579.443C232.813,-567.622 231.829,-555.451 230.881,-543.728"/>
 <polygon fill="none" stroke="#404040" points="230.876,-543.668 226.406,-538.01 229.909,-531.708 234.38,-537.366 230.876,-543.668"/>
 <text text-anchor="middle" x="244" y="-553" font-family="FreeSans" font-size="10.00"> +log</text>

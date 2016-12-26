@@ -8,8 +8,8 @@
  viewBox="0.00 0.00 163.00 986.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 982)">
 <title>CompilerMINGW</title>
-<!-- Node1 -->
-<g id="node1" class="node"><title>Node1</title>
+<!-- Node0 -->
+<g id="node1" class="node"><title>Node0</title>
 <polygon fill="#bfbfbf" stroke="black" points="8.5,-127.5 8.5,-239.5 146.5,-239.5 146.5,-127.5 8.5,-127.5"/>
 <text text-anchor="middle" x="77.5" y="-227.5" font-family="FreeSans" font-size="10.00">CompilerMINGW</text>
 <polyline fill="none" stroke="black" points="8.5,-220.5 146.5,-220.5 "/>
@@ -22,8 +22,8 @@
 <text text-anchor="start" x="16.5" y="-145.5" font-family="FreeSans" font-size="10.00"># CreateCopy()</text>
 <text text-anchor="start" x="16.5" y="-134.5" font-family="FreeSans" font-size="10.00"># SetVersionString()</text>
 </g>
-<!-- Node4 -->
-<g id="node4" class="node"><title>Node4</title>
+<!-- Node3 -->
+<g id="node4" class="node"><title>Node3</title>
 <g id="a_node4"><a xlink:href="classCompilerCYGWIN" target="_top" xlink:title="{CompilerCYGWIN\n||+ CompilerCYGWIN()\l+ ~CompilerCYGWIN()\l+ AutoDetectInstallationDir()\l# CreateCopy()\l}">
 <polygon fill="none" stroke="black" points="8.5,-0.5 8.5,-90.5 146.5,-90.5 146.5,-0.5 8.5,-0.5"/>
 <text text-anchor="middle" x="77.5" y="-78.5" font-family="FreeSans" font-size="10.00">CompilerCYGWIN</text>
@@ -37,13 +37,13 @@
 </a>
 </g>
 </g>
-<!-- Node1&#45;&gt;Node4 -->
-<g id="edge3" class="edge"><title>Node1&#45;&gt;Node4</title>
+<!-- Node0&#45;&gt;Node3 -->
+<g id="edge3" class="edge"><title>Node0&#45;&gt;Node3</title>
 <path fill="none" stroke="midnightblue" d="M77.5,-117.076C77.5,-108.072 77.5,-99.0069 77.5,-90.5144"/>
 <polygon fill="none" stroke="midnightblue" points="74.0001,-117.184 77.5,-127.184 81.0001,-117.184 74.0001,-117.184"/>
 </g>
-<!-- Node2 -->
-<g id="node2" class="node"><title>Node2</title>
+<!-- Node1 -->
+<g id="node2" class="node"><title>Node1</title>
 <g id="a_node2"><a xlink:href="classCompiler" target="_top" xlink:title="Abstract base class for compilers. ">
 <polygon fill="none" stroke="black" points="0,-276.5 0,-707.5 155,-707.5 155,-276.5 0,-276.5"/>
 <text text-anchor="middle" x="77.5" y="-695.5" font-family="FreeSans" font-size="10.00">Compiler</text>
@@ -88,13 +88,13 @@
 </a>
 </g>
 </g>
-<!-- Node2&#45;&gt;Node1 -->
-<g id="edge1" class="edge"><title>Node2&#45;&gt;Node1</title>
+<!-- Node1&#45;&gt;Node0 -->
+<g id="edge1" class="edge"><title>Node1&#45;&gt;Node0</title>
 <path fill="none" stroke="midnightblue" d="M77.5,-266.419C77.5,-256.939 77.5,-247.928 77.5,-239.586"/>
 <polygon fill="none" stroke="midnightblue" points="74.0001,-266.46 77.5,-276.46 81.0001,-266.46 74.0001,-266.46"/>
 </g>
-<!-- Node3 -->
-<g id="node3" class="node"><title>Node3</title>
+<!-- Node2 -->
+<g id="node3" class="node"><title>Node2</title>
 <g id="a_node3"><a xlink:href="classCompileOptionsBase" target="_top" xlink:title="This is a base class for all classes needing compilation parameters. ">
 <polygon fill="none" stroke="black" points="3,-744.5 3,-977.5 152,-977.5 152,-744.5 3,-744.5"/>
 <text text-anchor="middle" x="77.5" y="-965.5" font-family="FreeSans" font-size="10.00">CompileOptionsBase</text>
@@ -121,8 +121,8 @@
 </a>
 </g>
 </g>
-<!-- Node3&#45;&gt;Node2 -->
-<g id="edge2" class="edge"><title>Node3&#45;&gt;Node2</title>
+<!-- Node2&#45;&gt;Node1 -->
+<g id="edge2" class="edge"><title>Node2&#45;&gt;Node1</title>
 <path fill="none" stroke="midnightblue" d="M77.5,-734.267C77.5,-725.57 77.5,-716.68 77.5,-707.688"/>
 <polygon fill="none" stroke="midnightblue" points="74.0001,-734.383 77.5,-744.383 81.0001,-734.383 74.0001,-734.383"/>
 </g>

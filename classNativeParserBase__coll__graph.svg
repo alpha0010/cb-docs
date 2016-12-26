@@ -8,8 +8,8 @@
  viewBox="0.00 0.00 258.50 523.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 519)">
 <title>NativeParserBase</title>
-<!-- Node1 -->
-<g id="node1" class="node"><title>Node1</title>
+<!-- Node2 -->
+<g id="node1" class="node"><title>Node2</title>
 <polygon fill="#bfbfbf" stroke="black" points="35.5,-0.5 35.5,-365.5 195.5,-365.5 195.5,-0.5 35.5,-0.5"/>
 <text text-anchor="middle" x="115.5" y="-353.5" font-family="FreeSans" font-size="10.00">NativeParserBase</text>
 <polyline fill="none" stroke="black" points="35.5,-346.5 195.5,-346.5 "/>
@@ -45,8 +45,8 @@
 <text text-anchor="start" x="43.5" y="-18.5" font-family="FreeSans" font-size="10.00">&#45; MatchText()</text>
 <text text-anchor="start" x="43.5" y="-7.5" font-family="FreeSans" font-size="10.00">&#45; MatchType()</text>
 </g>
-<!-- Node2 -->
-<g id="node2" class="node"><title>Node2</title>
+<!-- Node3 -->
+<g id="node2" class="node"><title>Node3</title>
 <polygon fill="none" stroke="#bfbfbf" points="0,-424.5 0,-503.5 101,-503.5 101,-424.5 0,-424.5"/>
 <text text-anchor="start" x="8" y="-491.5" font-family="FreeSans" font-size="10.00">std::map&lt; wxString,</text>
 <text text-anchor="middle" x="50.5" y="-480.5" font-family="FreeSans" font-size="10.00"> wxString &gt;</text>
@@ -56,14 +56,14 @@
 <polyline fill="none" stroke="#bfbfbf" points="0,-443.5 101,-443.5 "/>
 <text text-anchor="middle" x="50.5" y="-431.5" font-family="FreeSans" font-size="10.00"> </text>
 </g>
-<!-- Node2&#45;&gt;Node1 -->
-<g id="edge1" class="edge"><title>Node2&#45;&gt;Node1</title>
+<!-- Node3&#45;&gt;Node2 -->
+<g id="edge1" class="edge"><title>Node3&#45;&gt;Node2</title>
 <path fill="none" stroke="#404040" d="M59.4697,-424.499C62.6123,-411.01 66.3875,-394.806 70.4747,-377.263"/>
 <polygon fill="none" stroke="#404040" points="70.4793,-377.243 67.945,-370.491 73.2021,-365.556 75.7364,-372.307 70.4793,-377.243"/>
 <text text-anchor="middle" x="108" y="-387" font-family="FreeSans" font-size="10.00"> &#45;m_TemplateMap</text>
 </g>
-<!-- Node3 -->
-<g id="node3" class="node"><title>Node3</title>
+<!-- Node4 -->
+<g id="node3" class="node"><title>Node4</title>
 <g id="a_node3"><a xlink:href="structNativeParserBase_1_1ParserComponent" target="_top" xlink:title="a long statement can be divided to a ParserComponent chain. ">
 <polygon fill="none" stroke="black" points="119,-413.5 119,-514.5 244,-514.5 244,-413.5 119,-413.5"/>
 <text text-anchor="start" x="127" y="-502.5" font-family="FreeSans" font-size="10.00">NativeParserBase::Parser</text>
@@ -78,8 +78,8 @@
 </a>
 </g>
 </g>
-<!-- Node3&#45;&gt;Node1 -->
-<g id="edge2" class="edge"><title>Node3&#45;&gt;Node1</title>
+<!-- Node4&#45;&gt;Node2 -->
+<g id="edge2" class="edge"><title>Node4&#45;&gt;Node2</title>
 <path fill="none" stroke="#404040" d="M169.777,-413.442C167.21,-402.592 164.344,-390.477 161.307,-377.637"/>
 <polygon fill="none" stroke="#404040" points="161.235,-377.335 155.961,-372.417 158.473,-365.658 163.747,-370.576 161.235,-377.335"/>
 <text text-anchor="middle" x="207" y="-387" font-family="FreeSans" font-size="10.00"> &#45;m_LastComponent</text>

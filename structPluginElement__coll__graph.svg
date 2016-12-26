@@ -8,8 +8,8 @@
  viewBox="0.00 0.00 270.00 442.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 438)">
 <title>PluginElement</title>
-<!-- Node1 -->
-<g id="node1" class="node"><title>Node1</title>
+<!-- Node3 -->
+<g id="node1" class="node"><title>Node3</title>
 <polygon fill="#bfbfbf" stroke="black" points="50.5,-0.5 50.5,-68.5 129.5,-68.5 129.5,-0.5 50.5,-0.5"/>
 <text text-anchor="middle" x="90" y="-56.5" font-family="FreeSans" font-size="10.00">PluginElement</text>
 <polyline fill="none" stroke="black" points="50.5,-49.5 129.5,-49.5 "/>
@@ -18,8 +18,8 @@
 <polyline fill="none" stroke="black" points="50.5,-19.5 129.5,-19.5 "/>
 <text text-anchor="middle" x="90" y="-7.5" font-family="FreeSans" font-size="10.00"> </text>
 </g>
-<!-- Node2 -->
-<g id="node2" class="node"><title>Node2</title>
+<!-- Node4 -->
+<g id="node2" class="node"><title>Node4</title>
 <g id="a_node2"><a xlink:href="pluginmanager_8h#structPluginInfo" target="_top" xlink:title="Information about the plugin. ">
 <polygon fill="none" stroke="black" points="0,-160.5 0,-305.5 86,-305.5 86,-160.5 0,-160.5"/>
 <text text-anchor="middle" x="43" y="-293.5" font-family="FreeSans" font-size="10.00">PluginInfo</text>
@@ -38,14 +38,14 @@
 </a>
 </g>
 </g>
-<!-- Node2&#45;&gt;Node1 -->
-<g id="edge1" class="edge"><title>Node2&#45;&gt;Node1</title>
+<!-- Node4&#45;&gt;Node3 -->
+<g id="edge1" class="edge"><title>Node4&#45;&gt;Node3</title>
 <path fill="none" stroke="#404040" d="M60.1676,-160.225C66.5541,-133.524 73.6149,-104.003 79.2635,-80.3877"/>
 <polygon fill="none" stroke="#404040" points="79.286,-80.2934 76.7915,-73.5275 82.0775,-68.6226 84.572,-75.3885 79.286,-80.2934"/>
 <text text-anchor="middle" x="89.5" y="-95.5" font-family="FreeSans" font-size="10.00"> +info</text>
 </g>
-<!-- Node3 -->
-<g id="node3" class="node"><title>Node3</title>
+<!-- Node5 -->
+<g id="node3" class="node"><title>Node5</title>
 <g id="a_node3"><a xlink:href="classcbPlugin" target="_top" xlink:title="Base class for plugins This is the most basic class a plugin must descend from. ">
 <polygon fill="none" stroke="black" points="104,-127.5 104,-338.5 262,-338.5 262,-127.5 104,-127.5"/>
 <text text-anchor="middle" x="183" y="-326.5" font-family="FreeSans" font-size="10.00">cbPlugin</text>
@@ -70,15 +70,15 @@
 </a>
 </g>
 </g>
-<!-- Node3&#45;&gt;Node1 -->
-<g id="edge2" class="edge"><title>Node3&#45;&gt;Node1</title>
+<!-- Node5&#45;&gt;Node3 -->
+<g id="edge2" class="edge"><title>Node5&#45;&gt;Node3</title>
 <path fill="none" stroke="#404040" d="M133.505,-127.421C125.564,-110.643 117.74,-94.1113 110.964,-79.7953"/>
 <polygon fill="none" stroke="#404040" points="110.906,-79.6731 104.724,-75.961 105.773,-68.8266 111.955,-72.5387 110.906,-79.6731"/>
 <text text-anchor="middle" x="143.5" y="-101" font-family="FreeSans" font-size="10.00"> +plugin</text>
 <text text-anchor="middle" x="143.5" y="-90" font-family="FreeSans" font-size="10.00">+freeProc</text>
 </g>
-<!-- Node4 -->
-<g id="node4" class="node"><title>Node4</title>
+<!-- Node6 -->
+<g id="node4" class="node"><title>Node6</title>
 <polygon fill="none" stroke="#bfbfbf" points="146,-376.5 146,-433.5 220,-433.5 220,-376.5 146,-376.5"/>
 <text text-anchor="middle" x="183" y="-421.5" font-family="FreeSans" font-size="10.00">wxEvtHandler</text>
 <polyline fill="none" stroke="#bfbfbf" points="146,-414.5 220,-414.5 "/>
@@ -86,8 +86,8 @@
 <polyline fill="none" stroke="#bfbfbf" points="146,-395.5 220,-395.5 "/>
 <text text-anchor="middle" x="183" y="-383.5" font-family="FreeSans" font-size="10.00"> </text>
 </g>
-<!-- Node4&#45;&gt;Node3 -->
-<g id="edge3" class="edge"><title>Node4&#45;&gt;Node3</title>
+<!-- Node6&#45;&gt;Node5 -->
+<g id="edge3" class="edge"><title>Node6&#45;&gt;Node5</title>
 <path fill="none" stroke="midnightblue" d="M183,-366.194C183,-357.797 183,-348.5 183,-338.841"/>
 <polygon fill="none" stroke="midnightblue" points="179.5,-366.308 183,-376.308 186.5,-366.308 179.5,-366.308"/>
 </g>

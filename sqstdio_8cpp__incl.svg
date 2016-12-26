@@ -8,58 +8,58 @@
  viewBox="0.00 0.00 344.00 84.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 80)">
 <title>sqstdio.cpp</title>
-<!-- Node1 -->
-<g id="node1" class="node"><title>Node1</title>
+<!-- Node0 -->
+<g id="node1" class="node"><title>Node0</title>
 <polygon fill="#bfbfbf" stroke="black" points="109.5,-56.5 109.5,-75.5 174.5,-75.5 174.5,-56.5 109.5,-56.5"/>
 <text text-anchor="middle" x="142" y="-63.5" font-family="FreeSans" font-size="10.00">sqstdio.cpp</text>
 </g>
-<!-- Node2 -->
-<g id="node2" class="node"><title>Node2</title>
+<!-- Node1 -->
+<g id="node2" class="node"><title>Node1</title>
 <polygon fill="none" stroke="#bfbfbf" points="0,-0.5 0,-19.5 34,-19.5 34,-0.5 0,-0.5"/>
 <text text-anchor="middle" x="17" y="-7.5" font-family="FreeSans" font-size="10.00">new</text>
 </g>
-<!-- Node1&#45;&gt;Node2 -->
-<g id="edge1" class="edge"><title>Node1&#45;&gt;Node2</title>
+<!-- Node0&#45;&gt;Node1 -->
+<g id="edge1" class="edge"><title>Node0&#45;&gt;Node1</title>
 <path fill="none" stroke="midnightblue" d="M122.193,-56.4435C100.99,-47.2838 67.2301,-32.6994 43.6934,-22.5316"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="44.8667,-19.2258 34.2986,-18.473 42.0906,-25.6518 44.8667,-19.2258"/>
 </g>
-<!-- Node3 -->
-<g id="node3" class="node"><title>Node3</title>
+<!-- Node2 -->
+<g id="node3" class="node"><title>Node2</title>
 <polygon fill="none" stroke="#bfbfbf" points="52,-0.5 52,-19.5 96,-19.5 96,-0.5 52,-0.5"/>
 <text text-anchor="middle" x="74" y="-7.5" font-family="FreeSans" font-size="10.00">stdio.h</text>
 </g>
-<!-- Node1&#45;&gt;Node3 -->
-<g id="edge2" class="edge"><title>Node1&#45;&gt;Node3</title>
+<!-- Node0&#45;&gt;Node2 -->
+<g id="edge2" class="edge"><title>Node0&#45;&gt;Node2</title>
 <path fill="none" stroke="midnightblue" d="M131.075,-56.324C120.825,-48.1849 105.279,-35.8395 92.999,-26.0874"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="95.1319,-23.3119 85.1242,-19.8339 90.7787,-28.7937 95.1319,-23.3119"/>
 </g>
-<!-- Node4 -->
-<g id="node4" class="node"><title>Node4</title>
+<!-- Node3 -->
+<g id="node4" class="node"><title>Node3</title>
 <polygon fill="none" stroke="#bfbfbf" points="114.5,-0.5 114.5,-19.5 169.5,-19.5 169.5,-0.5 114.5,-0.5"/>
 <text text-anchor="middle" x="142" y="-7.5" font-family="FreeSans" font-size="10.00">squirrel.h</text>
 </g>
-<!-- Node1&#45;&gt;Node4 -->
-<g id="edge3" class="edge"><title>Node1&#45;&gt;Node4</title>
+<!-- Node0&#45;&gt;Node3 -->
+<g id="edge3" class="edge"><title>Node0&#45;&gt;Node3</title>
 <path fill="none" stroke="midnightblue" d="M142,-56.083C142,-49.0059 142,-38.8611 142,-29.9865"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="145.5,-29.751 142,-19.7511 138.5,-29.7511 145.5,-29.751"/>
 </g>
-<!-- Node5 -->
-<g id="node5" class="node"><title>Node5</title>
+<!-- Node4 -->
+<g id="node5" class="node"><title>Node4</title>
 <polygon fill="none" stroke="#bfbfbf" points="188,-0.5 188,-19.5 242,-19.5 242,-0.5 188,-0.5"/>
 <text text-anchor="middle" x="215" y="-7.5" font-family="FreeSans" font-size="10.00">sqstdio.h</text>
 </g>
-<!-- Node1&#45;&gt;Node5 -->
-<g id="edge4" class="edge"><title>Node1&#45;&gt;Node5</title>
+<!-- Node0&#45;&gt;Node4 -->
+<g id="edge4" class="edge"><title>Node0&#45;&gt;Node4</title>
 <path fill="none" stroke="midnightblue" d="M153.729,-56.324C164.837,-48.1066 181.742,-35.6017 194.983,-25.8069"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="197.1,-28.5948 203.058,-19.8339 192.937,-22.9671 197.1,-28.5948"/>
 </g>
-<!-- Node6 -->
-<g id="node6" class="node"><title>Node6</title>
+<!-- Node5 -->
+<g id="node6" class="node"><title>Node5</title>
 <polygon fill="none" stroke="#bfbfbf" points="260,-0.5 260,-19.5 336,-19.5 336,-0.5 260,-0.5"/>
 <text text-anchor="middle" x="298" y="-7.5" font-family="FreeSans" font-size="10.00">sqstdstream.h</text>
 </g>
-<!-- Node1&#45;&gt;Node6 -->
-<g id="edge5" class="edge"><title>Node1&#45;&gt;Node6</title>
+<!-- Node0&#45;&gt;Node5 -->
+<g id="edge5" class="edge"><title>Node0&#45;&gt;Node5</title>
 <path fill="none" stroke="midnightblue" d="M166.719,-56.4435C192.848,-47.3986 234.259,-33.064 263.576,-22.9158"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="265.092,-26.0951 273.397,-19.5164 262.802,-19.4801 265.092,-26.0951"/>
 </g>

@@ -8,8 +8,8 @@
  viewBox="0.00 0.00 166.00 408.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 404)">
 <title>WizGenericSelectPathPanel</title>
-<!-- Node1 -->
-<g id="node1" class="node"><title>Node1</title>
+<!-- Node0 -->
+<g id="node1" class="node"><title>Node0</title>
 <polygon fill="#bfbfbf" stroke="black" points="-1.42109e-14,-0.5 -1.42109e-14,-90.5 158,-90.5 158,-0.5 -1.42109e-14,-0.5"/>
 <text text-anchor="middle" x="79" y="-78.5" font-family="FreeSans" font-size="10.00">WizGenericSelectPathPanel</text>
 <polyline fill="none" stroke="black" points="-1.42109e-14,-71.5 158,-71.5 "/>
@@ -20,8 +20,8 @@
 <text text-anchor="start" x="8" y="-18.5" font-family="FreeSans" font-size="10.00">+ OnButton()</text>
 <text text-anchor="start" x="8" y="-7.5" font-family="FreeSans" font-size="10.00">+ OnPageChanging()</text>
 </g>
-<!-- Node2 -->
-<g id="node2" class="node"><title>Node2</title>
+<!-- Node1 -->
+<g id="node2" class="node"><title>Node1</title>
 <g id="a_node2"><a xlink:href="classWizPageBase" target="_top" xlink:title="{WizPageBase\n|&#45; m_PageName\l&#45; m_SkipPage\l&#45; s_PagesByName\l|+ WizPageBase()\l+ ~WizPageBase()\l+ SkipPage()\l+ OnPageChanging()\l+ OnPageChanged()\l+ GetPrev()\l+ GetNext()\l+ GetPageName()\l+ GetSkipPage()\l+ SetSkipPage()\l}">
 <polygon fill="none" stroke="black" points="25.5,-127.5 25.5,-305.5 132.5,-305.5 132.5,-127.5 25.5,-127.5"/>
 <text text-anchor="middle" x="79" y="-293.5" font-family="FreeSans" font-size="10.00">WizPageBase</text>
@@ -43,13 +43,13 @@
 </a>
 </g>
 </g>
-<!-- Node2&#45;&gt;Node1 -->
-<g id="edge1" class="edge"><title>Node2&#45;&gt;Node1</title>
+<!-- Node1&#45;&gt;Node0 -->
+<g id="edge1" class="edge"><title>Node1&#45;&gt;Node0</title>
 <path fill="none" stroke="midnightblue" d="M79,-117.031C79,-107.869 79,-98.9325 79,-90.6682"/>
 <polygon fill="none" stroke="midnightblue" points="75.5001,-117.04 79,-127.04 82.5001,-117.04 75.5001,-117.04"/>
 </g>
-<!-- Node3 -->
-<g id="node3" class="node"><title>Node3</title>
+<!-- Node2 -->
+<g id="node3" class="node"><title>Node2</title>
 <polygon fill="none" stroke="#bfbfbf" points="24,-342.5 24,-399.5 134,-399.5 134,-342.5 24,-342.5"/>
 <text text-anchor="middle" x="79" y="-387.5" font-family="FreeSans" font-size="10.00">wxWizardPageSimple</text>
 <polyline fill="none" stroke="#bfbfbf" points="24,-380.5 134,-380.5 "/>
@@ -57,8 +57,8 @@
 <polyline fill="none" stroke="#bfbfbf" points="24,-361.5 134,-361.5 "/>
 <text text-anchor="middle" x="79" y="-349.5" font-family="FreeSans" font-size="10.00"> </text>
 </g>
-<!-- Node3&#45;&gt;Node2 -->
-<g id="edge2" class="edge"><title>Node3&#45;&gt;Node2</title>
+<!-- Node2&#45;&gt;Node1 -->
+<g id="edge2" class="edge"><title>Node2&#45;&gt;Node1</title>
 <path fill="none" stroke="midnightblue" d="M79,-332.374C79,-324.089 79,-314.977 79,-305.62"/>
 <polygon fill="none" stroke="midnightblue" points="75.5001,-332.383 79,-342.383 82.5001,-332.383 75.5001,-332.383"/>
 </g>

@@ -8,50 +8,50 @@
  viewBox="0.00 0.00 273.00 104.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 100)">
 <title>Graphical Class Hierarchy</title>
-<!-- Node1 -->
-<g id="node1" class="node"><title>Node1</title>
+<!-- Node0 -->
+<g id="node1" class="node"><title>Node0</title>
 <g id="a_node1"><a xlink:href="classBasicSearchTree" target="_top" xlink:title="This class is generally a string &#45;&gt; size_t map, the tree details (graph) is already show in the decla...">
 <polygon fill="none" stroke="black" points="0,-38.5 0,-57.5 91,-57.5 91,-38.5 0,-38.5"/>
 <text text-anchor="middle" x="45.5" y="-45.5" font-family="FreeSans" font-size="10.00">BasicSearchTree</text>
 </a>
 </g>
 </g>
-<!-- Node2 -->
-<g id="node2" class="node"><title>Node2</title>
+<!-- Node1 -->
+<g id="node2" class="node"><title>Node1</title>
 <g id="a_node2"><a xlink:href="classSearchTree" target="_top" xlink:title="this is a class template derived from BasicSearchTree class, the type T was stored in a vector...">
 <polygon fill="none" stroke="black" points="151.5,-76.5 151.5,-95.5 240.5,-95.5 240.5,-76.5 151.5,-76.5"/>
 <text text-anchor="middle" x="196" y="-83.5" font-family="FreeSans" font-size="10.00">SearchTree&lt; T &gt;</text>
 </a>
 </g>
 </g>
-<!-- Node1&#45;&gt;Node2 -->
-<g id="edge1" class="edge"><title>Node1&#45;&gt;Node2</title>
+<!-- Node0&#45;&gt;Node1 -->
+<g id="edge1" class="edge"><title>Node0&#45;&gt;Node1</title>
 <path fill="none" stroke="midnightblue" d="M93.8329,-60.1121C114.515,-65.4044 138.419,-71.5213 157.797,-76.4799"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="94.5284,-56.6774 83.9728,-57.589 92.793,-63.4589 94.5284,-56.6774"/>
 </g>
-<!-- Node3 -->
-<g id="node3" class="node"><title>Node3</title>
+<!-- Node2 -->
+<g id="node3" class="node"><title>Node2</title>
 <g id="a_node3"><a xlink:href="classSearchTree" target="_top" xlink:title="SearchTree\&lt; TokenIdxSet \&gt;">
 <polygon fill="none" stroke="black" points="127,-38.5 127,-57.5 265,-57.5 265,-38.5 127,-38.5"/>
 <text text-anchor="middle" x="196" y="-45.5" font-family="FreeSans" font-size="10.00">SearchTree&lt; TokenIdxSet &gt;</text>
 </a>
 </g>
 </g>
-<!-- Node1&#45;&gt;Node3 -->
-<g id="edge2" class="edge"><title>Node1&#45;&gt;Node3</title>
+<!-- Node0&#45;&gt;Node2 -->
+<g id="edge2" class="edge"><title>Node0&#45;&gt;Node2</title>
 <path fill="none" stroke="midnightblue" d="M101.077,-48C109.466,-48 118.216,-48 126.855,-48"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="101.055,-44.5001 91.0549,-48 101.055,-51.5001 101.055,-44.5001"/>
 </g>
-<!-- Node4 -->
-<g id="node4" class="node"><title>Node4</title>
+<!-- Node3 -->
+<g id="node4" class="node"><title>Node3</title>
 <g id="a_node4"><a xlink:href="classSearchTree" target="_top" xlink:title="SearchTree\&lt; wxString \&gt;">
 <polygon fill="none" stroke="black" points="136,-0.5 136,-19.5 256,-19.5 256,-0.5 136,-0.5"/>
 <text text-anchor="middle" x="196" y="-7.5" font-family="FreeSans" font-size="10.00">SearchTree&lt; wxString &gt;</text>
 </a>
 </g>
 </g>
-<!-- Node1&#45;&gt;Node4 -->
-<g id="edge3" class="edge"><title>Node1&#45;&gt;Node4</title>
+<!-- Node0&#45;&gt;Node3 -->
+<g id="edge3" class="edge"><title>Node0&#45;&gt;Node3</title>
 <path fill="none" stroke="midnightblue" d="M93.8329,-35.8879C114.515,-30.5956 138.419,-24.4787 157.797,-19.5201"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="92.793,-32.5411 83.9728,-38.411 94.5284,-39.3226 92.793,-32.5411"/>
 </g>

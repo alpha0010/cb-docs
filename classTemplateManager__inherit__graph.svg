@@ -8,8 +8,8 @@
  viewBox="0.00 0.00 228.00 358.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 354)">
 <title>TemplateManager</title>
-<!-- Node1 -->
-<g id="node1" class="node"><title>Node1</title>
+<!-- Node0 -->
+<g id="node1" class="node"><title>Node0</title>
 <polygon fill="#bfbfbf" stroke="black" points="42,-0.5 42,-178.5 204,-178.5 204,-0.5 42,-0.5"/>
 <text text-anchor="middle" x="123" y="-166.5" font-family="FreeSans" font-size="10.00">TemplateManager</text>
 <polyline fill="none" stroke="black" points="42,-159.5 204,-159.5 "/>
@@ -28,8 +28,8 @@
 <text text-anchor="start" x="50" y="-18.5" font-family="FreeSans" font-size="10.00">&#45; TemplateManager()</text>
 <text text-anchor="start" x="50" y="-7.5" font-family="FreeSans" font-size="10.00">&#45; ~TemplateManager()</text>
 </g>
-<!-- Node2 -->
-<g id="node2" class="node"><title>Node2</title>
+<!-- Node1 -->
+<g id="node2" class="node"><title>Node1</title>
 <g id="a_node2"><a xlink:href="classMgr" target="_top" xlink:title="{Mgr\&lt; TemplateManager \&gt;\n|&#45; instance\l&#45; isShutdown\l|+ Valid()\l+ Get()\l+ Free()\l# Mgr()\l# ~Mgr()\l&#45; Mgr()\l&#45; operator=()\l}">
 <polygon fill="none" stroke="black" points="0,-215.5 0,-349.5 128,-349.5 128,-215.5 0,-215.5"/>
 <text text-anchor="middle" x="64" y="-337.5" font-family="FreeSans" font-size="10.00">Mgr&lt; TemplateManager &gt;</text>
@@ -47,13 +47,13 @@
 </a>
 </g>
 </g>
-<!-- Node2&#45;&gt;Node1 -->
-<g id="edge1" class="edge"><title>Node2&#45;&gt;Node1</title>
+<!-- Node1&#45;&gt;Node0 -->
+<g id="edge1" class="edge"><title>Node1&#45;&gt;Node0</title>
 <path fill="none" stroke="midnightblue" d="M87.4258,-205.664C90.1812,-196.744 93.0105,-187.585 95.8118,-178.516"/>
 <polygon fill="none" stroke="midnightblue" points="84.0771,-204.646 84.4698,-215.234 90.7653,-206.712 84.0771,-204.646"/>
 </g>
-<!-- Node3 -->
-<g id="node3" class="node"><title>Node3</title>
+<!-- Node2 -->
+<g id="node3" class="node"><title>Node2</title>
 <polygon fill="none" stroke="#bfbfbf" points="146,-254 146,-311 220,-311 220,-254 146,-254"/>
 <text text-anchor="middle" x="183" y="-299" font-family="FreeSans" font-size="10.00">wxEvtHandler</text>
 <polyline fill="none" stroke="#bfbfbf" points="146,-292 220,-292 "/>
@@ -61,8 +61,8 @@
 <polyline fill="none" stroke="#bfbfbf" points="146,-273 220,-273 "/>
 <text text-anchor="middle" x="183" y="-261" font-family="FreeSans" font-size="10.00"> </text>
 </g>
-<!-- Node3&#45;&gt;Node1 -->
-<g id="edge2" class="edge"><title>Node3&#45;&gt;Node1</title>
+<!-- Node2&#45;&gt;Node0 -->
+<g id="edge2" class="edge"><title>Node2&#45;&gt;Node0</title>
 <path fill="none" stroke="midnightblue" d="M171.257,-244.118C165.369,-225.373 157.966,-201.807 150.739,-178.802"/>
 <polygon fill="none" stroke="midnightblue" points="167.939,-245.236 174.275,-253.727 174.618,-243.138 167.939,-245.236"/>
 </g>

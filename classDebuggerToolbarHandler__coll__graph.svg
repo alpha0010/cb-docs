@@ -8,8 +8,8 @@
  viewBox="0.00 0.00 583.00 1484.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 1480)">
 <title>DebuggerToolbarHandler</title>
-<!-- Node1 -->
-<g id="node1" class="node"><title>Node1</title>
+<!-- Node2 -->
+<g id="node1" class="node"><title>Node2</title>
 <polygon fill="#bfbfbf" stroke="black" points="0,-0.5 0,-123.5 144,-123.5 144,-0.5 0,-0.5"/>
 <text text-anchor="middle" x="72" y="-111.5" font-family="FreeSans" font-size="10.00">DebuggerToolbarHandler</text>
 <polyline fill="none" stroke="black" points="0,-104.5 144,-104.5 "/>
@@ -23,8 +23,8 @@
 <text text-anchor="start" x="8" y="-18.5" font-family="FreeSans" font-size="10.00">&#45; OnStop()</text>
 <text text-anchor="start" x="8" y="-7.5" font-family="FreeSans" font-size="10.00">&#45; DECLARE_EVENT_TABLE()</text>
 </g>
-<!-- Node2 -->
-<g id="node2" class="node"><title>Node2</title>
+<!-- Node3 -->
+<g id="node2" class="node"><title>Node3</title>
 <polygon fill="none" stroke="#bfbfbf" points="29,-1418.5 29,-1475.5 103,-1475.5 103,-1418.5 29,-1418.5"/>
 <text text-anchor="middle" x="66" y="-1463.5" font-family="FreeSans" font-size="10.00">wxEvtHandler</text>
 <polyline fill="none" stroke="#bfbfbf" points="29,-1456.5 103,-1456.5 "/>
@@ -32,13 +32,13 @@
 <polyline fill="none" stroke="#bfbfbf" points="29,-1437.5 103,-1437.5 "/>
 <text text-anchor="middle" x="66" y="-1425.5" font-family="FreeSans" font-size="10.00"> </text>
 </g>
-<!-- Node2&#45;&gt;Node1 -->
-<g id="edge1" class="edge"><title>Node2&#45;&gt;Node1</title>
+<!-- Node3&#45;&gt;Node2 -->
+<g id="edge1" class="edge"><title>Node3&#45;&gt;Node2</title>
 <path fill="none" stroke="midnightblue" d="M52.7674,-1408.9C41.7999,-1374.82 28,-1322.66 28,-1276 28,-1276 28,-1276 28,-298 28,-238.022 42.0187,-170.88 54.2303,-123.772"/>
 <polygon fill="none" stroke="midnightblue" points="49.4592,-1410.05 55.9165,-1418.45 56.1066,-1407.85 49.4592,-1410.05"/>
 </g>
-<!-- Node3 -->
-<g id="node3" class="node"><title>Node3</title>
+<!-- Node4 -->
+<g id="node3" class="node"><title>Node4</title>
 <g id="a_node3"><a xlink:href="classDebuggerMenuHandler" target="_top" xlink:title="{DebuggerMenuHandler\n|&#45; m_lastCommand\l&#45; m_disableContinue\l|+ DebuggerMenuHandler()\l+ RegisterDefaultWindowItems()\l+ AppendWindowMenuItems()\l+ SetActiveDebugger()\l+ MarkActiveTargetAsValid()\l+ RebuildMenus()\l+ BuildContextMenu()\l+ RegisterWindowMenu()\l+ UnregisterWindowMenu()\l&#45; OnUpdateUI()\l&#45; OnStart()\l&#45; OnBreak()\l&#45; OnStop()\l&#45; OnContinue()\l&#45; OnNext()\l&#45; OnNextInstr()\l&#45; OnStepIntoInstr()\land 17 more...\l}">
 <polygon fill="none" stroke="black" points="95.5,-171.5 95.5,-426.5 250.5,-426.5 250.5,-171.5 95.5,-171.5"/>
 <text text-anchor="middle" x="173" y="-414.5" font-family="FreeSans" font-size="10.00">DebuggerMenuHandler</text>
@@ -67,13 +67,13 @@
 </a>
 </g>
 </g>
-<!-- Node2&#45;&gt;Node3 -->
-<g id="edge3" class="edge"><title>Node2&#45;&gt;Node3</title>
+<!-- Node3&#45;&gt;Node4 -->
+<g id="edge3" class="edge"><title>Node3&#45;&gt;Node4</title>
 <path fill="none" stroke="midnightblue" d="M66,-1408.23C66,-1373.78 66,-1321.47 66,-1276 66,-1276 66,-1276 66,-705.5 66,-602.265 56.9607,-573.354 85,-474 89.4133,-458.362 95.2654,-442.471 101.862,-426.972"/>
 <polygon fill="none" stroke="midnightblue" points="62.5001,-1408.32 66,-1418.32 69.5001,-1408.32 62.5001,-1408.32"/>
 </g>
-<!-- Node6 -->
-<g id="node6" class="node"><title>Node6</title>
+<!-- Node7 -->
+<g id="node6" class="node"><title>Node7</title>
 <g id="a_node6"><a xlink:href="classcbPlugin" target="_top" xlink:title="Base class for plugins This is the most basic class a plugin must descend from. ">
 <polygon fill="none" stroke="black" points="94,-1169.5 94,-1380.5 252,-1380.5 252,-1169.5 94,-1169.5"/>
 <text text-anchor="middle" x="173" y="-1368.5" font-family="FreeSans" font-size="10.00">cbPlugin</text>
@@ -98,19 +98,19 @@
 </a>
 </g>
 </g>
-<!-- Node2&#45;&gt;Node6 -->
-<g id="edge7" class="edge"><title>Node2&#45;&gt;Node6</title>
+<!-- Node3&#45;&gt;Node7 -->
+<g id="edge7" class="edge"><title>Node3&#45;&gt;Node7</title>
 <path fill="none" stroke="midnightblue" d="M88.9202,-1409.58C94.4315,-1400.83 100.595,-1391.04 107.012,-1380.84"/>
 <polygon fill="none" stroke="midnightblue" points="85.7943,-1407.98 83.4295,-1418.31 91.7185,-1411.71 85.7943,-1407.98"/>
 </g>
-<!-- Node3&#45;&gt;Node1 -->
-<g id="edge2" class="edge"><title>Node3&#45;&gt;Node1</title>
+<!-- Node4&#45;&gt;Node2 -->
+<g id="edge2" class="edge"><title>Node4&#45;&gt;Node2</title>
 <path fill="none" stroke="#404040" d="M118.509,-171.214C113.163,-158.776 107.878,-146.478 102.894,-134.881"/>
 <polygon fill="none" stroke="#404040" points="102.757,-134.564 96.7132,-130.631 98.019,-123.539 104.063,-127.472 102.757,-134.564"/>
 <text text-anchor="middle" x="149" y="-145" font-family="FreeSans" font-size="10.00"> &#45;m_menuHandler</text>
 </g>
-<!-- Node4 -->
-<g id="node4" class="node"><title>Node4</title>
+<!-- Node5 -->
+<g id="node4" class="node"><title>Node5</title>
 <g id="a_node4"><a xlink:href="classcbDebuggerMenuHandler" target="_top" xlink:title="{cbDebuggerMenuHandler\n||+ ~cbDebuggerMenuHandler()\l+ SetActiveDebugger()\l+ MarkActiveTargetAsValid()\l+ RebuildMenus()\l+ BuildContextMenu()\l+ RegisterWindowMenu()\l+ UnregisterWindowMenu()\l}">
 <polygon fill="none" stroke="black" points="269.5,-645 269.5,-768 414.5,-768 414.5,-645 269.5,-645"/>
 <text text-anchor="middle" x="342" y="-756" font-family="FreeSans" font-size="10.00">cbDebuggerMenuHandler</text>
@@ -127,13 +127,13 @@
 </a>
 </g>
 </g>
-<!-- Node4&#45;&gt;Node3 -->
-<g id="edge4" class="edge"><title>Node4&#45;&gt;Node3</title>
+<!-- Node5&#45;&gt;Node4 -->
+<g id="edge4" class="edge"><title>Node5&#45;&gt;Node4</title>
 <path fill="none" stroke="midnightblue" d="M325.989,-635.186C312.558,-581.711 291.065,-507.016 263,-445 259.213,-436.632 255.024,-428.165 250.585,-419.744"/>
 <polygon fill="none" stroke="midnightblue" points="322.598,-636.053 328.403,-644.916 329.392,-634.367 322.598,-636.053"/>
 </g>
-<!-- Node5 -->
-<g id="node5" class="node"><title>Node5</title>
+<!-- Node6 -->
+<g id="node5" class="node"><title>Node6</title>
 <g id="a_node5"><a xlink:href="classcbDebuggerPlugin" target="_top" xlink:title="Base class for debugger plugins. ">
 <polygon fill="none" stroke="black" points="94.5,-474.5 94.5,-938.5 251.5,-938.5 251.5,-474.5 94.5,-474.5"/>
 <text text-anchor="middle" x="173" y="-926.5" font-family="FreeSans" font-size="10.00">cbDebuggerPlugin</text>
@@ -181,19 +181,19 @@
 </a>
 </g>
 </g>
-<!-- Node5&#45;&gt;Node3 -->
-<g id="edge5" class="edge"><title>Node5&#45;&gt;Node3</title>
+<!-- Node6&#45;&gt;Node4 -->
+<g id="edge5" class="edge"><title>Node6&#45;&gt;Node4</title>
 <path fill="none" stroke="#404040" d="M173,-474.322C173,-462.371 173,-450.554 173,-439.042"/>
 <polygon fill="none" stroke="#404040" points="173,-438.678 169,-432.678 173,-426.678 177,-432.678 173,-438.678"/>
 <text text-anchor="middle" x="216" y="-448" font-family="FreeSans" font-size="10.00"> &#45;m_activeDebugger</text>
 </g>
-<!-- Node6&#45;&gt;Node5 -->
-<g id="edge6" class="edge"><title>Node6&#45;&gt;Node5</title>
+<!-- Node7&#45;&gt;Node6 -->
+<g id="edge6" class="edge"><title>Node7&#45;&gt;Node6</title>
 <path fill="none" stroke="midnightblue" d="M171.246,-1159.29C171.147,-1150.06 171.062,-1140.87 171,-1132 170.558,-1069.27 170.631,-1001.32 170.926,-938.554"/>
 <polygon fill="none" stroke="midnightblue" points="167.746,-1159.35 171.359,-1169.31 174.746,-1159.27 167.746,-1159.35"/>
 </g>
-<!-- Node7 -->
-<g id="node7" class="node"><title>Node7</title>
+<!-- Node8 -->
+<g id="node7" class="node"><title>Node8</title>
 <g id="a_node7"><a xlink:href="classcbCompilerPlugin" target="_top" xlink:title="Base class for compiler plugins. ">
 <polygon fill="none" stroke="black" points="180.5,-986.5 180.5,-1131.5 287.5,-1131.5 287.5,-986.5 180.5,-986.5"/>
 <text text-anchor="middle" x="234" y="-1119.5" font-family="FreeSans" font-size="10.00">cbCompilerPlugin</text>
@@ -212,19 +212,19 @@
 </a>
 </g>
 </g>
-<!-- Node6&#45;&gt;Node7 -->
-<g id="edge9" class="edge"><title>Node6&#45;&gt;Node7</title>
+<!-- Node7&#45;&gt;Node8 -->
+<g id="edge9" class="edge"><title>Node7&#45;&gt;Node8</title>
 <path fill="none" stroke="midnightblue" d="M205.675,-1159.37C208.358,-1149.96 211.018,-1140.62 213.573,-1131.66"/>
 <polygon fill="none" stroke="midnightblue" points="202.25,-1158.62 202.875,-1169.19 208.982,-1160.54 202.25,-1158.62"/>
 </g>
-<!-- Node7&#45;&gt;Node5 -->
-<g id="edge8" class="edge"><title>Node7&#45;&gt;Node5</title>
+<!-- Node8&#45;&gt;Node6 -->
+<g id="edge8" class="edge"><title>Node8&#45;&gt;Node6</title>
 <path fill="none" stroke="#404040" d="M221.509,-986.225C219.58,-975.146 217.502,-963.207 215.33,-950.723"/>
 <polygon fill="none" stroke="#404040" points="215.277,-950.419 210.308,-945.194 213.219,-938.597 218.189,-943.822 215.277,-950.419"/>
 <text text-anchor="middle" x="249.5" y="-960" font-family="FreeSans" font-size="10.00"> &#45;m_pCompiler</text>
 </g>
-<!-- Node8 -->
-<g id="node8" class="node"><title>Node8</title>
+<!-- Node9 -->
+<g id="node8" class="node"><title>Node9</title>
 <polygon fill="none" stroke="#bfbfbf" points="433,-672.5 433,-740.5 575,-740.5 575,-672.5 433,-672.5"/>
 <text text-anchor="start" x="441" y="-728.5" font-family="FreeSans" font-size="10.00">std::map&lt; long, WindowMenu</text>
 <text text-anchor="middle" x="504" y="-717.5" font-family="FreeSans" font-size="10.00">Item &gt;</text>
@@ -233,14 +233,14 @@
 <polyline fill="none" stroke="#bfbfbf" points="433,-691.5 575,-691.5 "/>
 <text text-anchor="middle" x="504" y="-679.5" font-family="FreeSans" font-size="10.00"> </text>
 </g>
-<!-- Node8&#45;&gt;Node3 -->
-<g id="edge10" class="edge"><title>Node8&#45;&gt;Node3</title>
+<!-- Node9&#45;&gt;Node4 -->
+<g id="edge10" class="edge"><title>Node9&#45;&gt;Node4</title>
 <path fill="none" stroke="#404040" d="M499.01,-672.142C490.456,-624.189 469.235,-534.861 423,-474 380.415,-417.944 314.515,-373.135 261.064,-343.035"/>
 <polygon fill="none" stroke="#404040" points="261.048,-343.026 253.862,-343.618 250.551,-337.212 257.738,-336.62 261.048,-343.026"/>
 <text text-anchor="middle" x="457.5" y="-448" font-family="FreeSans" font-size="10.00"> &#45;m_windowMenuItems</text>
 </g>
-<!-- Node9 -->
-<g id="node9" class="node"><title>Node9</title>
+<!-- Node10 -->
+<g id="node9" class="node"><title>Node10</title>
 <g id="a_node9"><a xlink:href="classDebuggerMenuHandler#structDebuggerMenuHandler_1_1WindowMenuItem" target="_top" xlink:title="{DebuggerMenuHandler\l::WindowMenuItem\n|+ item\l+ name\l+ help\l|}">
 <polygon fill="none" stroke="black" points="446.5,-1014 446.5,-1104 561.5,-1104 561.5,-1014 446.5,-1014"/>
 <text text-anchor="start" x="454.5" y="-1092" font-family="FreeSans" font-size="10.00">DebuggerMenuHandler</text>
@@ -254,8 +254,8 @@
 </a>
 </g>
 </g>
-<!-- Node9&#45;&gt;Node8 -->
-<g id="edge11" class="edge"><title>Node9&#45;&gt;Node8</title>
+<!-- Node10&#45;&gt;Node9 -->
+<g id="edge11" class="edge"><title>Node10&#45;&gt;Node9</title>
 <path fill="none" stroke="#404040" d="M504,-1013.96C504,-947.118 504,-820.676 504,-752.982"/>
 <polygon fill="none" stroke="#404040" points="504,-752.657 500,-746.657 504,-740.657 508,-746.657 504,-752.657"/>
 <text text-anchor="middle" x="528" y="-960" font-family="FreeSans" font-size="10.00"> +elements</text>

@@ -8,8 +8,8 @@
  viewBox="0.00 0.00 1333.00 1916.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 1912)">
 <title>DebuggerDriver</title>
-<!-- Node1 -->
-<g id="node1" class="node"><title>Node1</title>
+<!-- Node3 -->
+<g id="node1" class="node"><title>Node3</title>
 <polygon fill="#bfbfbf" stroke="black" points="164,-1030 164,-1285 298,-1285 298,-1030 164,-1030"/>
 <text text-anchor="middle" x="231" y="-1273" font-family="FreeSans" font-size="10.00">DebuggerDriver</text>
 <polyline fill="none" stroke="black" points="164,-1266 298,-1266 "/>
@@ -35,8 +35,8 @@
 <text text-anchor="start" x="172" y="-1048" font-family="FreeSans" font-size="10.00">and 62 more...</text>
 <text text-anchor="start" x="172" y="-1037" font-family="FreeSans" font-size="10.00"># ResetCursor()</text>
 </g>
-<!-- Node24 -->
-<g id="node24" class="node"><title>Node24</title>
+<!-- Node26 -->
+<g id="node24" class="node"><title>Node26</title>
 <g id="a_node24"><a xlink:href="classDebuggerState" target="_top" xlink:title="{DebuggerState\n||+ DebuggerState()\l+ ~DebuggerState()\l+ GetBreakpoints()\l+ StartDriver()\l+ StopDriver()\l+ HasDriver()\l+ GetDriver()\l+ GetDriver()\land 15 more...\l# ConvertToValidFilename()\l}">
 <polygon fill="none" stroke="black" points="61.5,-644.5 61.5,-800.5 196.5,-800.5 196.5,-644.5 61.5,-644.5"/>
 <text text-anchor="middle" x="129" y="-788.5" font-family="FreeSans" font-size="10.00">DebuggerState</text>
@@ -56,14 +56,14 @@
 </a>
 </g>
 </g>
-<!-- Node1&#45;&gt;Node24 -->
-<g id="edge30" class="edge"><title>Node1&#45;&gt;Node24</title>
+<!-- Node3&#45;&gt;Node26 -->
+<g id="edge30" class="edge"><title>Node3&#45;&gt;Node26</title>
 <path fill="none" stroke="#404040" d="M194.643,-1029.58C190.564,-1014.26 186.59,-998.803 183,-984 169.245,-927.278 155.912,-863.079 145.936,-812.606"/>
 <polygon fill="none" stroke="#404040" points="145.918,-812.517 140.835,-807.402 143.602,-800.743 148.685,-805.858 145.918,-812.517"/>
 <text text-anchor="middle" x="209" y="-976" font-family="FreeSans" font-size="10.00"> #m_pDriver</text>
 </g>
-<!-- Node2 -->
-<g id="node2" class="node"><title>Node2</title>
+<!-- Node4 -->
+<g id="node2" class="node"><title>Node4</title>
 <g id="a_node2"><a xlink:href="structCursor" target="_top" xlink:title="Debugger cursor info. ">
 <polygon fill="none" stroke="black" points="187,-1443 187,-1544 249,-1544 249,-1443 187,-1443"/>
 <text text-anchor="middle" x="218" y="-1532" font-family="FreeSans" font-size="10.00">Cursor</text>
@@ -78,14 +78,14 @@
 </a>
 </g>
 </g>
-<!-- Node2&#45;&gt;Node1 -->
-<g id="edge1" class="edge"><title>Node2&#45;&gt;Node1</title>
+<!-- Node4&#45;&gt;Node3 -->
+<g id="edge1" class="edge"><title>Node4&#45;&gt;Node3</title>
 <path fill="none" stroke="#404040" d="M219.932,-1442.86C221.432,-1404.33 223.587,-1348.96 225.597,-1297.3"/>
 <polygon fill="none" stroke="#404040" points="225.598,-1297.3 221.834,-1291.15 226.064,-1285.31 229.828,-1291.46 225.598,-1297.3"/>
 <text text-anchor="middle" x="249.5" y="-1334" font-family="FreeSans" font-size="10.00"> #m_Cursor</text>
 </g>
-<!-- Node3 -->
-<g id="node3" class="node"><title>Node3</title>
+<!-- Node5 -->
+<g id="node3" class="node"><title>Node5</title>
 <polygon fill="none" stroke="#bfbfbf" points="267,-1459.5 267,-1527.5 379,-1527.5 379,-1459.5 267,-1459.5"/>
 <text text-anchor="start" x="275" y="-1515.5" font-family="FreeSans" font-size="10.00">std::vector&lt; cb::shared</text>
 <text text-anchor="middle" x="323" y="-1504.5" font-family="FreeSans" font-size="10.00">_ptr&lt; cbThread &gt; &gt;</text>
@@ -94,14 +94,14 @@
 <polyline fill="none" stroke="#bfbfbf" points="267,-1478.5 379,-1478.5 "/>
 <text text-anchor="middle" x="323" y="-1466.5" font-family="FreeSans" font-size="10.00"> </text>
 </g>
-<!-- Node3&#45;&gt;Node1 -->
-<g id="edge2" class="edge"><title>Node3&#45;&gt;Node1</title>
+<!-- Node5&#45;&gt;Node3 -->
+<g id="edge2" class="edge"><title>Node5&#45;&gt;Node3</title>
 <path fill="none" stroke="#404040" d="M313.842,-1459.25C303.382,-1421.28 285.586,-1356.67 269.163,-1297.05"/>
 <polygon fill="none" stroke="#404040" points="269.086,-1296.77 263.636,-1292.05 265.899,-1285.2 271.349,-1289.92 269.086,-1296.77"/>
 <text text-anchor="middle" x="306.5" y="-1334" font-family="FreeSans" font-size="10.00"> #m_threads</text>
 </g>
-<!-- Node4 -->
-<g id="node4" class="node"><title>Node4</title>
+<!-- Node6 -->
+<g id="node4" class="node"><title>Node6</title>
 <polygon fill="none" stroke="#bfbfbf" points="47,-1459.5 47,-1527.5 169,-1527.5 169,-1459.5 47,-1459.5"/>
 <text text-anchor="start" x="55" y="-1515.5" font-family="FreeSans" font-size="10.00">std::vector&lt; cb::shared</text>
 <text text-anchor="middle" x="108" y="-1504.5" font-family="FreeSans" font-size="10.00">_ptr&lt; cbStackFrame &gt; &gt;</text>
@@ -110,14 +110,14 @@
 <polyline fill="none" stroke="#bfbfbf" points="47,-1478.5 169,-1478.5 "/>
 <text text-anchor="middle" x="108" y="-1466.5" font-family="FreeSans" font-size="10.00"> </text>
 </g>
-<!-- Node4&#45;&gt;Node1 -->
-<g id="edge3" class="edge"><title>Node4&#45;&gt;Node1</title>
+<!-- Node6&#45;&gt;Node3 -->
+<g id="edge3" class="edge"><title>Node6&#45;&gt;Node3</title>
 <path fill="none" stroke="#404040" d="M116.895,-1459.36C125.995,-1426.47 141.029,-1374.76 157,-1331 161.148,-1319.63 165.65,-1307.93 170.315,-1296.24"/>
 <polygon fill="none" stroke="#404040" points="170.344,-1296.17 168.879,-1289.11 174.832,-1285.04 176.298,-1292.1 170.344,-1296.17"/>
 <text text-anchor="middle" x="189" y="-1334" font-family="FreeSans" font-size="10.00"> #m_backtrace</text>
 </g>
-<!-- Node5 -->
-<g id="node5" class="node"><title>Node5</title>
+<!-- Node7 -->
+<g id="node5" class="node"><title>Node7</title>
 <g id="a_node5"><a xlink:href="classDebuggerGDB" target="_top" xlink:title="{DebuggerGDB\n|&#45; m_LastExitCode\l&#45; m_Pid\l&#45; m_PidToAttach\l&#45; m_EvalRect\l&#45; m_TimerPollDebugger\l&#45; m_NoDebugInfo\l&#45; m_StoppedOnSignal\l&#45; m_ActiveBuildTarget\land 11 more...\l|+ DebuggerGDB()\l+ ~DebuggerGDB()\l+ GetProjectConfigurationPanel()\l+ OnAttachReal()\l+ OnReleaseReal()\l+ SupportsFeature()\l+ LoadConfig()\l+ GetActiveConfigEx()\land 60 more...\l+ ConvertToGDBFriendly()\l+ ConvertToGDBFile()\l+ ConvertToGDBDirectory()\l+ StripQuotes()\l# GetProject()\l# ResetProject()\l# ConvertDirectory()\l# CleanupWhenProjectClosed()\l# CompilerFinished()\l# AddSourceDir()\l&#45; ParseOutput()\l&#45; DoWatches()\l&#45; MarkAllWatchesAsUnchanged()\l&#45; LaunchProcess()\l&#45; DoDebug()\l&#45; DoBreak()\l&#45; OnAddSymbolFile()\l&#45; DeleteAllProjectBreakpoints()\land 21 more...\l}">
 <polygon fill="none" stroke="black" points="468,-0.5 468,-442.5 626,-442.5 626,-0.5 468,-0.5"/>
 <text text-anchor="middle" x="547" y="-430.5" font-family="FreeSans" font-size="10.00">DebuggerGDB</text>
@@ -163,20 +163,20 @@
 </a>
 </g>
 </g>
-<!-- Node5&#45;&gt;Node1 -->
-<g id="edge4" class="edge"><title>Node5&#45;&gt;Node1</title>
+<!-- Node7&#45;&gt;Node3 -->
+<g id="edge4" class="edge"><title>Node7&#45;&gt;Node3</title>
 <path fill="none" stroke="#404040" d="M467.937,-269.85C398.662,-316.261 302.321,-393.932 258,-490 252.549,-501.815 241.44,-825.701 235.307,-1017.54"/>
 <polygon fill="none" stroke="#404040" points="235.301,-1017.71 239.108,-1023.83 234.919,-1029.7 231.112,-1023.58 235.301,-1017.71"/>
 <text text-anchor="middle" x="282" y="-720" font-family="FreeSans" font-size="10.00"> #m_pDBG</text>
 </g>
-<!-- Node5&#45;&gt;Node24 -->
-<g id="edge29" class="edge"><title>Node5&#45;&gt;Node24</title>
+<!-- Node7&#45;&gt;Node26 -->
+<g id="edge29" class="edge"><title>Node7&#45;&gt;Node26</title>
 <path fill="none" stroke="#404040" d="M467.732,-252.203C382.921,-288.252 251.157,-357.376 181,-461 147.059,-511.132 134.253,-578.349 129.832,-631.947"/>
 <polygon fill="none" stroke="#404040" points="129.811,-632.241 133.368,-638.513 128.946,-644.209 125.389,-637.936 129.811,-632.241"/>
 <text text-anchor="middle" x="208" y="-464" font-family="FreeSans" font-size="10.00"> #m_pPlugin</text>
 </g>
-<!-- Node6 -->
-<g id="node6" class="node"><title>Node6</title>
+<!-- Node8 -->
+<g id="node6" class="node"><title>Node8</title>
 <g id="a_node6"><a xlink:href="classcbDebuggerPlugin" target="_top" xlink:title="Base class for debugger plugins. ">
 <polygon fill="none" stroke="black" points="315.5,-490.5 315.5,-954.5 472.5,-954.5 472.5,-490.5 315.5,-490.5"/>
 <text text-anchor="middle" x="394" y="-942.5" font-family="FreeSans" font-size="10.00">cbDebuggerPlugin</text>
@@ -224,13 +224,13 @@
 </a>
 </g>
 </g>
-<!-- Node6&#45;&gt;Node5 -->
-<g id="edge5" class="edge"><title>Node6&#45;&gt;Node5</title>
+<!-- Node8&#45;&gt;Node7 -->
+<g id="edge5" class="edge"><title>Node8&#45;&gt;Node7</title>
 <path fill="none" stroke="midnightblue" d="M467.858,-480.617C471.727,-467.998 475.605,-455.35 479.453,-442.801"/>
 <polygon fill="none" stroke="midnightblue" points="464.487,-479.673 464.901,-490.259 471.179,-481.725 464.487,-479.673"/>
 </g>
-<!-- Node7 -->
-<g id="node7" class="node"><title>Node7</title>
+<!-- Node9 -->
+<g id="node7" class="node"><title>Node9</title>
 <g id="a_node7"><a xlink:href="classcbPlugin" target="_top" xlink:title="Base class for plugins This is the most basic class a plugin must descend from. ">
 <polygon fill="none" stroke="black" points="397,-1388 397,-1599 555,-1599 555,-1388 397,-1388"/>
 <text text-anchor="middle" x="476" y="-1587" font-family="FreeSans" font-size="10.00">cbPlugin</text>
@@ -255,13 +255,13 @@
 </a>
 </g>
 </g>
-<!-- Node7&#45;&gt;Node6 -->
-<g id="edge6" class="edge"><title>Node7&#45;&gt;Node6</title>
+<!-- Node9&#45;&gt;Node8 -->
+<g id="edge6" class="edge"><title>Node9&#45;&gt;Node8</title>
 <path fill="none" stroke="midnightblue" d="M429.996,-1377.96C423.118,-1356.67 417.001,-1334.4 413,-1313 391.165,-1196.24 385.216,-1064.26 385.241,-954.822"/>
 <polygon fill="none" stroke="midnightblue" points="426.742,-1379.27 433.204,-1387.66 433.388,-1377.07 426.742,-1379.27"/>
 </g>
-<!-- Node9 -->
-<g id="node9" class="node"><title>Node9</title>
+<!-- Node11 -->
+<g id="node9" class="node"><title>Node11</title>
 <g id="a_node9"><a xlink:href="classcbCompilerPlugin" target="_top" xlink:title="Base class for compiler plugins. ">
 <polygon fill="none" stroke="black" points="422.5,-1085 422.5,-1230 529.5,-1230 529.5,-1085 422.5,-1085"/>
 <text text-anchor="middle" x="476" y="-1218" font-family="FreeSans" font-size="10.00">cbCompilerPlugin</text>
@@ -280,13 +280,13 @@
 </a>
 </g>
 </g>
-<!-- Node7&#45;&gt;Node9 -->
-<g id="edge9" class="edge"><title>Node7&#45;&gt;Node9</title>
+<!-- Node9&#45;&gt;Node11 -->
+<g id="edge9" class="edge"><title>Node9&#45;&gt;Node11</title>
 <path fill="none" stroke="midnightblue" d="M476,-1377.72C476,-1328.74 476,-1273.1 476,-1230.13"/>
 <polygon fill="none" stroke="midnightblue" points="472.5,-1377.74 476,-1387.74 479.5,-1377.74 472.5,-1377.74"/>
 </g>
-<!-- Node8 -->
-<g id="node8" class="node"><title>Node8</title>
+<!-- Node10 -->
+<g id="node8" class="node"><title>Node10</title>
 <polygon fill="none" stroke="#bfbfbf" points="439,-1762.5 439,-1819.5 513,-1819.5 513,-1762.5 439,-1762.5"/>
 <text text-anchor="middle" x="476" y="-1807.5" font-family="FreeSans" font-size="10.00">wxEvtHandler</text>
 <polyline fill="none" stroke="#bfbfbf" points="439,-1800.5 513,-1800.5 "/>
@@ -294,19 +294,19 @@
 <polyline fill="none" stroke="#bfbfbf" points="439,-1781.5 513,-1781.5 "/>
 <text text-anchor="middle" x="476" y="-1769.5" font-family="FreeSans" font-size="10.00"> </text>
 </g>
-<!-- Node8&#45;&gt;Node7 -->
-<g id="edge7" class="edge"><title>Node8&#45;&gt;Node7</title>
+<!-- Node10&#45;&gt;Node9 -->
+<g id="edge7" class="edge"><title>Node10&#45;&gt;Node9</title>
 <path fill="none" stroke="midnightblue" d="M476,-1752.26C476,-1713.82 476,-1652.48 476,-1599.28"/>
 <polygon fill="none" stroke="midnightblue" points="472.5,-1752.47 476,-1762.47 479.5,-1752.47 472.5,-1752.47"/>
 </g>
-<!-- Node9&#45;&gt;Node6 -->
-<g id="edge8" class="edge"><title>Node9&#45;&gt;Node6</title>
+<!-- Node11&#45;&gt;Node8 -->
+<g id="edge8" class="edge"><title>Node11&#45;&gt;Node8</title>
 <path fill="none" stroke="#404040" d="M462.459,-1085C456.147,-1051.66 448.226,-1009.84 440.034,-966.582"/>
 <polygon fill="none" stroke="#404040" points="440.008,-966.443 434.961,-961.292 437.775,-954.653 442.821,-959.804 440.008,-966.443"/>
 <text text-anchor="middle" x="474.5" y="-976" font-family="FreeSans" font-size="10.00"> &#45;m_pCompiler</text>
 </g>
-<!-- Node10 -->
-<g id="node10" class="node"><title>Node10</title>
+<!-- Node12 -->
+<g id="node10" class="node"><title>Node12</title>
 <polygon fill="none" stroke="#bfbfbf" points="491,-688.5 491,-756.5 603,-756.5 603,-688.5 491,-688.5"/>
 <text text-anchor="start" x="499" y="-744.5" font-family="FreeSans" font-size="10.00">std::vector&lt; cb::shared</text>
 <text text-anchor="middle" x="547" y="-733.5" font-family="FreeSans" font-size="10.00">_ptr&lt; GDBWatch &gt; &gt;</text>
@@ -315,14 +315,14 @@
 <polyline fill="none" stroke="#bfbfbf" points="491,-707.5 603,-707.5 "/>
 <text text-anchor="middle" x="547" y="-695.5" font-family="FreeSans" font-size="10.00"> </text>
 </g>
-<!-- Node10&#45;&gt;Node5 -->
-<g id="edge10" class="edge"><title>Node10&#45;&gt;Node5</title>
+<!-- Node12&#45;&gt;Node7 -->
+<g id="edge10" class="edge"><title>Node12&#45;&gt;Node7</title>
 <path fill="none" stroke="#404040" d="M547,-688.373C547,-640.042 547,-546.019 547,-455.021"/>
 <polygon fill="none" stroke="#404040" points="547,-454.787 543,-448.787 547,-442.787 551,-448.787 547,-454.787"/>
 <text text-anchor="middle" x="574.5" y="-464" font-family="FreeSans" font-size="10.00"> &#45;m_watches</text>
 </g>
-<!-- Node11 -->
-<g id="node11" class="node"><title>Node11</title>
+<!-- Node13 -->
+<g id="node11" class="node"><title>Node13</title>
 <g id="a_node11"><a xlink:href="classPipedProcess" target="_top" xlink:title="{PipedProcess\n|# m_Parent\l# m_Id\l# m_Pid\l# m_timerPollProcess\l|+ PipedProcess()\l+ ~PipedProcess()\l+ Launch()\l+ SendString()\l+ HasInput()\l+ GetPid()\l+ ForfeitStreams()\l# OnTerminate()\l# OnTimer()\l# OnIdle()\l}">
 <polygon fill="none" stroke="black" points="621,-628 621,-817 731,-817 731,-628 621,-628"/>
 <text text-anchor="middle" x="676" y="-805" font-family="FreeSans" font-size="10.00">PipedProcess</text>
@@ -345,20 +345,20 @@
 </a>
 </g>
 </g>
-<!-- Node11&#45;&gt;Node5 -->
-<g id="edge11" class="edge"><title>Node11&#45;&gt;Node5</title>
+<!-- Node13&#45;&gt;Node7 -->
+<g id="edge11" class="edge"><title>Node13&#45;&gt;Node7</title>
 <path fill="none" stroke="#404040" d="M651.812,-627.935C639.081,-578.689 622.853,-515.915 606.99,-454.556"/>
 <polygon fill="none" stroke="#404040" points="606.932,-454.332 601.558,-449.524 603.929,-442.714 609.303,-447.521 606.932,-454.332"/>
 <text text-anchor="middle" x="641.5" y="-464" font-family="FreeSans" font-size="10.00"> &#45;m_pProcess</text>
 </g>
-<!-- Node11&#45;&gt;Node11 -->
-<g id="edge13" class="edge"><title>Node11&#45;&gt;Node11</title>
+<!-- Node13&#45;&gt;Node13 -->
+<g id="edge13" class="edge"><title>Node13&#45;&gt;Node13</title>
 <path fill="none" stroke="#404040" d="M731.073,-768.203C741.574,-762.734 749,-747.5 749,-722.5 749,-705.508 745.569,-693.027 740.074,-685.058"/>
 <polygon fill="none" stroke="#404040" points="739.914,-684.911 732.789,-683.801 731.073,-676.797 738.198,-677.907 739.914,-684.911"/>
 <text text-anchor="middle" x="772.5" y="-720" font-family="FreeSans" font-size="10.00"> &#45;m_pvThis</text>
 </g>
-<!-- Node12 -->
-<g id="node12" class="node"><title>Node12</title>
+<!-- Node14 -->
+<g id="node12" class="node"><title>Node14</title>
 <polygon fill="none" stroke="#bfbfbf" points="645,-1129 645,-1186 707,-1186 707,-1129 645,-1129"/>
 <text text-anchor="middle" x="676" y="-1174" font-family="FreeSans" font-size="10.00">wxProcess</text>
 <polyline fill="none" stroke="#bfbfbf" points="645,-1167 707,-1167 "/>
@@ -366,13 +366,13 @@
 <polyline fill="none" stroke="#bfbfbf" points="645,-1148 707,-1148 "/>
 <text text-anchor="middle" x="676" y="-1136" font-family="FreeSans" font-size="10.00"> </text>
 </g>
-<!-- Node12&#45;&gt;Node11 -->
-<g id="edge12" class="edge"><title>Node12&#45;&gt;Node11</title>
+<!-- Node14&#45;&gt;Node13 -->
+<g id="edge12" class="edge"><title>Node14&#45;&gt;Node13</title>
 <path fill="none" stroke="midnightblue" d="M676,-1118.7C676,-1052 676,-911.573 676,-817.367"/>
 <polygon fill="none" stroke="midnightblue" points="672.5,-1118.76 676,-1128.76 679.5,-1118.76 672.5,-1118.76"/>
 </g>
-<!-- Node13 -->
-<g id="node13" class="node"><title>Node13</title>
+<!-- Node15 -->
+<g id="node13" class="node"><title>Node15</title>
 <polygon fill="none" stroke="#bfbfbf" points="1071,-688.5 1071,-756.5 1205,-756.5 1205,-688.5 1071,-688.5"/>
 <text text-anchor="start" x="1079" y="-744.5" font-family="FreeSans" font-size="10.00">std::map&lt; cbProject</text>
 <text text-anchor="middle" x="1138" y="-733.5" font-family="FreeSans" font-size="10.00"> *, RemoteDebuggingMap &gt;</text>
@@ -381,14 +381,14 @@
 <polyline fill="none" stroke="#bfbfbf" points="1071,-707.5 1205,-707.5 "/>
 <text text-anchor="middle" x="1138" y="-695.5" font-family="FreeSans" font-size="10.00"> </text>
 </g>
-<!-- Node13&#45;&gt;Node5 -->
-<g id="edge14" class="edge"><title>Node13&#45;&gt;Node5</title>
+<!-- Node15&#45;&gt;Node7 -->
+<g id="edge14" class="edge"><title>Node15&#45;&gt;Node7</title>
 <path fill="none" stroke="#404040" d="M1133.37,-688.321C1125.21,-640.192 1104.44,-550.196 1057,-490 949.45,-353.537 752.901,-279.077 637.745,-245.325"/>
 <polygon fill="none" stroke="#404040" points="637.706,-245.314 630.833,-247.496 626.175,-241.991 633.048,-239.809 637.706,-245.314"/>
 <text text-anchor="middle" x="1086.5" y="-464" font-family="FreeSans" font-size="10.00"> &#45;m_RemoteDebugging</text>
 </g>
-<!-- Node14 -->
-<g id="node14" class="node"><title>Node14</title>
+<!-- Node16 -->
+<g id="node14" class="node"><title>Node16</title>
 <g id="a_node14"><a xlink:title="STL class. ">
 <polygon fill="none" stroke="#bfbfbf" points="1110.5,-1129 1110.5,-1186 1197.5,-1186 1197.5,-1129 1110.5,-1129"/>
 <text text-anchor="middle" x="1154" y="-1174" font-family="FreeSans" font-size="10.00">std::map&lt; K, T &gt;</text>
@@ -399,14 +399,14 @@
 </a>
 </g>
 </g>
-<!-- Node14&#45;&gt;Node13 -->
-<g id="edge15" class="edge"><title>Node14&#45;&gt;Node13</title>
+<!-- Node16&#45;&gt;Node15 -->
+<g id="edge15" class="edge"><title>Node16&#45;&gt;Node15</title>
 <path fill="none" stroke="#404040" d="M1152.97,-1128.76C1150.28,-1055.83 1142.98,-858.216 1139.67,-768.678"/>
 <polygon fill="none" stroke="#404040" points="1139.66,-768.524 1135.44,-762.676 1139.22,-756.532 1143.44,-762.381 1139.66,-768.524"/>
 <text text-anchor="middle" x="1171" y="-976" font-family="FreeSans" font-size="10.00"> +elements</text>
 </g>
-<!-- Node15 -->
-<g id="node15" class="node"><title>Node15</title>
+<!-- Node17 -->
+<g id="node15" class="node"><title>Node17</title>
 <polygon fill="none" stroke="#bfbfbf" points="1206.5,-1465 1206.5,-1522 1235.5,-1522 1235.5,-1465 1206.5,-1465"/>
 <text text-anchor="middle" x="1221" y="-1510" font-family="FreeSans" font-size="10.00">K</text>
 <polyline fill="none" stroke="#bfbfbf" points="1206.5,-1503 1235.5,-1503 "/>
@@ -414,14 +414,14 @@
 <polyline fill="none" stroke="#bfbfbf" points="1206.5,-1484 1235.5,-1484 "/>
 <text text-anchor="middle" x="1221" y="-1472" font-family="FreeSans" font-size="10.00"> </text>
 </g>
-<!-- Node15&#45;&gt;Node14 -->
-<g id="edge16" class="edge"><title>Node15&#45;&gt;Node14</title>
+<!-- Node17&#45;&gt;Node16 -->
+<g id="edge16" class="edge"><title>Node17&#45;&gt;Node16</title>
 <path fill="none" stroke="#404040" d="M1218.26,-1464.9C1214.82,-1432.61 1208.22,-1377.64 1199,-1331 1189.88,-1284.9 1175.75,-1232.79 1165.76,-1198.03"/>
 <polygon fill="none" stroke="#404040" points="1165.62,-1197.57 1160.11,-1192.93 1162.28,-1186.05 1167.79,-1190.7 1165.62,-1197.57"/>
 <text text-anchor="middle" x="1214" y="-1334" font-family="FreeSans" font-size="10.00"> +keys</text>
 </g>
-<!-- Node16 -->
-<g id="node16" class="node"><title>Node16</title>
+<!-- Node18 -->
+<g id="node16" class="node"><title>Node18</title>
 <polygon fill="none" stroke="#bfbfbf" points="1135.5,-1465 1135.5,-1522 1164.5,-1522 1164.5,-1465 1135.5,-1465"/>
 <text text-anchor="middle" x="1150" y="-1510" font-family="FreeSans" font-size="10.00">T</text>
 <polyline fill="none" stroke="#bfbfbf" points="1135.5,-1503 1164.5,-1503 "/>
@@ -429,14 +429,14 @@
 <polyline fill="none" stroke="#bfbfbf" points="1135.5,-1484 1164.5,-1484 "/>
 <text text-anchor="middle" x="1150" y="-1472" font-family="FreeSans" font-size="10.00"> </text>
 </g>
-<!-- Node16&#45;&gt;Node14 -->
-<g id="edge17" class="edge"><title>Node16&#45;&gt;Node14</title>
+<!-- Node18&#45;&gt;Node16 -->
+<g id="edge17" class="edge"><title>Node18&#45;&gt;Node16</title>
 <path fill="none" stroke="#404040" d="M1150.08,-1464.78C1150.19,-1432.61 1150.45,-1377.96 1151,-1331 1151.54,-1285.52 1152.49,-1233.3 1153.18,-1198.34"/>
 <polygon fill="none" stroke="#404040" points="1153.18,-1198.28 1149.3,-1192.2 1153.42,-1186.28 1157.3,-1192.36 1153.18,-1198.28"/>
 <text text-anchor="middle" x="1175" y="-1334" font-family="FreeSans" font-size="10.00"> +elements</text>
 </g>
-<!-- Node17 -->
-<g id="node17" class="node"><title>Node17</title>
+<!-- Node19 -->
+<g id="node17" class="node"><title>Node19</title>
 <g id="a_node17"><a xlink:href="classcbProject" target="_top" xlink:title="Represents a Code::Blocks project. ">
 <polygon fill="none" stroke="black" points="883,-1002.5 883,-1312.5 1053,-1312.5 1053,-1002.5 883,-1002.5"/>
 <text text-anchor="middle" x="968" y="-1300.5" font-family="FreeSans" font-size="10.00">cbProject</text>
@@ -470,20 +470,20 @@
 </a>
 </g>
 </g>
-<!-- Node17&#45;&gt;Node5 -->
-<g id="edge33" class="edge"><title>Node17&#45;&gt;Node5</title>
+<!-- Node19&#45;&gt;Node7 -->
+<g id="edge33" class="edge"><title>Node19&#45;&gt;Node7</title>
 <path fill="none" stroke="#404040" d="M1002.78,-1002.06C1003.62,-995.975 1004.37,-989.939 1005,-984 1010.81,-929.22 991.466,-537.162 963,-490 889.27,-367.843 735.981,-291.564 637.482,-253.073"/>
 <polygon fill="none" stroke="#404040" points="637.25,-252.983 630.214,-254.564 626.049,-248.678 633.084,-247.097 637.25,-252.983"/>
 <text text-anchor="middle" x="1033.5" y="-720" font-family="FreeSans" font-size="10.00"> &#45;m_pProject</text>
 </g>
-<!-- Node17&#45;&gt;Node13 -->
-<g id="edge18" class="edge"><title>Node17&#45;&gt;Node13</title>
+<!-- Node19&#45;&gt;Node15 -->
+<g id="edge18" class="edge"><title>Node19&#45;&gt;Node15</title>
 <path fill="none" stroke="#404040" d="M1037.53,-1002.46C1044.28,-986.504 1050.89,-970.472 1057,-955 1082.33,-890.882 1108.02,-815.269 1123.48,-768.348"/>
 <polygon fill="none" stroke="#404040" points="1123.54,-768.175 1121.61,-761.227 1127.28,-756.773 1129.21,-763.721 1123.54,-768.175"/>
 <text text-anchor="middle" x="1062" y="-976" font-family="FreeSans" font-size="10.00"> +keys</text>
 </g>
-<!-- Node23 -->
-<g id="node23" class="node"><title>Node23</title>
+<!-- Node25 -->
+<g id="node23" class="node"><title>Node25</title>
 <g id="a_node23"><a xlink:href="classProjectBuildTarget" target="_top" xlink:title="Represents a Code::Blocks project build target. ">
 <polygon fill="none" stroke="black" points="814.5,-606 814.5,-839 953.5,-839 953.5,-606 814.5,-606"/>
 <text text-anchor="middle" x="884" y="-827" font-family="FreeSans" font-size="10.00">ProjectBuildTarget</text>
@@ -510,14 +510,14 @@
 </a>
 </g>
 </g>
-<!-- Node17&#45;&gt;Node23 -->
-<g id="edge26" class="edge"><title>Node17&#45;&gt;Node23</title>
+<!-- Node19&#45;&gt;Node25 -->
+<g id="edge26" class="edge"><title>Node19&#45;&gt;Node25</title>
 <path fill="none" stroke="#404040" d="M882.81,-1080.12C857.99,-1052.56 834.054,-1019.45 821,-984 805.349,-941.505 810.705,-893.669 823.356,-850.696"/>
 <polygon fill="none" stroke="#404040" points="823.43,-850.46 821.402,-843.54 827.009,-839.007 829.038,-845.927 823.43,-850.46"/>
 <text text-anchor="middle" x="846" y="-976" font-family="FreeSans" font-size="10.00"> &#45;m_Project</text>
 </g>
-<!-- Node26 -->
-<g id="node26" class="node"><title>Node26</title>
+<!-- Node28 -->
+<g id="node26" class="node"><title>Node28</title>
 <polygon fill="none" stroke="#bfbfbf" points="1223,-688.5 1223,-756.5 1325,-756.5 1325,-688.5 1223,-688.5"/>
 <text text-anchor="start" x="1231" y="-744.5" font-family="FreeSans" font-size="10.00">std::map&lt; cbProject</text>
 <text text-anchor="middle" x="1274" y="-733.5" font-family="FreeSans" font-size="10.00"> *, wxArrayString &gt;</text>
@@ -526,14 +526,14 @@
 <polyline fill="none" stroke="#bfbfbf" points="1223,-707.5 1325,-707.5 "/>
 <text text-anchor="middle" x="1274" y="-695.5" font-family="FreeSans" font-size="10.00"> </text>
 </g>
-<!-- Node17&#45;&gt;Node26 -->
-<g id="edge32" class="edge"><title>Node17&#45;&gt;Node26</title>
+<!-- Node19&#45;&gt;Node28 -->
+<g id="edge32" class="edge"><title>Node19&#45;&gt;Node28</title>
 <path fill="none" stroke="#404040" d="M1053.32,-1025.17C1071.52,-1005.1 1092.21,-986.587 1115,-973 1153.41,-950.098 1181.23,-985.436 1214,-955 1265.43,-907.23 1275.1,-821.593 1275.73,-768.936"/>
 <polygon fill="none" stroke="#404040" points="1275.73,-768.623 1271.73,-762.626 1275.73,-756.623 1279.73,-762.62 1275.73,-768.623"/>
 <text text-anchor="middle" x="1129" y="-976" font-family="FreeSans" font-size="10.00"> +keys</text>
 </g>
-<!-- Node18 -->
-<g id="node18" class="node"><title>Node18</title>
+<!-- Node20 -->
+<g id="node18" class="node"><title>Node20</title>
 <g id="a_node18"><a xlink:href="classCompileTargetBase" target="_top" xlink:title="Base class for build target classes Each Code::Blocks project consists of at least one target...">
 <polygon fill="none" stroke="black" points="695.5,-1360.5 695.5,-1626.5 850.5,-1626.5 850.5,-1360.5 695.5,-1360.5"/>
 <text text-anchor="middle" x="773" y="-1614.5" font-family="FreeSans" font-size="10.00">CompileTargetBase</text>
@@ -563,18 +563,18 @@
 </a>
 </g>
 </g>
-<!-- Node18&#45;&gt;Node17 -->
-<g id="edge19" class="edge"><title>Node18&#45;&gt;Node17</title>
+<!-- Node20&#45;&gt;Node19 -->
+<g id="edge19" class="edge"><title>Node20&#45;&gt;Node19</title>
 <path fill="none" stroke="midnightblue" d="M855.158,-1351.78C864.356,-1336.02 873.74,-1319.95 882.973,-1304.14"/>
 <polygon fill="none" stroke="midnightblue" points="852.089,-1350.09 850.069,-1360.49 858.134,-1353.62 852.089,-1350.09"/>
 </g>
-<!-- Node18&#45;&gt;Node23 -->
-<g id="edge25" class="edge"><title>Node18&#45;&gt;Node23</title>
+<!-- Node20&#45;&gt;Node25 -->
+<g id="edge25" class="edge"><title>Node20&#45;&gt;Node25</title>
 <path fill="none" stroke="midnightblue" d="M776.765,-1350.27C781.346,-1245.33 791.5,-1099.41 814,-973 821.884,-928.708 834.289,-880.948 846.481,-839.188"/>
 <polygon fill="none" stroke="midnightblue" points="773.267,-1350.15 776.339,-1360.29 780.26,-1350.45 773.267,-1350.15"/>
 </g>
-<!-- Node19 -->
-<g id="node19" class="node"><title>Node19</title>
+<!-- Node21 -->
+<g id="node19" class="node"><title>Node21</title>
 <g id="a_node19"><a xlink:href="classCompileOptionsBase" target="_top" xlink:title="This is a base class for all classes needing compilation parameters. ">
 <polygon fill="none" stroke="black" points="698.5,-1674.5 698.5,-1907.5 847.5,-1907.5 847.5,-1674.5 698.5,-1674.5"/>
 <text text-anchor="middle" x="773" y="-1895.5" font-family="FreeSans" font-size="10.00">CompileOptionsBase</text>
@@ -601,13 +601,13 @@
 </a>
 </g>
 </g>
-<!-- Node19&#45;&gt;Node18 -->
-<g id="edge20" class="edge"><title>Node19&#45;&gt;Node18</title>
+<!-- Node21&#45;&gt;Node20 -->
+<g id="edge20" class="edge"><title>Node21&#45;&gt;Node20</title>
 <path fill="none" stroke="midnightblue" d="M773,-1664.11C773,-1651.7 773,-1639.08 773,-1626.6"/>
 <polygon fill="none" stroke="midnightblue" points="769.5,-1664.48 773,-1674.48 776.5,-1664.48 769.5,-1664.48"/>
 </g>
-<!-- Node20 -->
-<g id="node20" class="node"><title>Node20</title>
+<!-- Node22 -->
+<g id="node20" class="node"><title>Node22</title>
 <polygon fill="none" stroke="#bfbfbf" points="881.5,-1454 881.5,-1533 982.5,-1533 982.5,-1454 881.5,-1454"/>
 <text text-anchor="start" x="889.5" y="-1521" font-family="FreeSans" font-size="10.00">std::map&lt; wxString,</text>
 <text text-anchor="middle" x="932" y="-1510" font-family="FreeSans" font-size="10.00"> wxArrayString &gt;</text>
@@ -617,14 +617,14 @@
 <polyline fill="none" stroke="#bfbfbf" points="881.5,-1473 982.5,-1473 "/>
 <text text-anchor="middle" x="932" y="-1461" font-family="FreeSans" font-size="10.00"> </text>
 </g>
-<!-- Node20&#45;&gt;Node17 -->
-<g id="edge21" class="edge"><title>Node20&#45;&gt;Node17</title>
+<!-- Node22&#45;&gt;Node19 -->
+<g id="edge21" class="edge"><title>Node22&#45;&gt;Node19</title>
 <path fill="none" stroke="#404040" d="M934.169,-1453.93C936.178,-1421.17 939.529,-1372.94 944,-1331 944.22,-1328.93 944.446,-1326.85 944.677,-1324.76"/>
 <polygon fill="none" stroke="#404040" points="944.695,-1324.6 941.399,-1318.18 946.051,-1312.67 949.348,-1319.09 944.695,-1324.6"/>
 <text text-anchor="middle" x="983.5" y="-1334" font-family="FreeSans" font-size="10.00"> &#45;m_VirtualTargets</text>
 </g>
-<!-- Node21 -->
-<g id="node21" class="node"><title>Node21</title>
+<!-- Node23 -->
+<g id="node21" class="node"><title>Node23</title>
 <polygon fill="none" stroke="#bfbfbf" points="1001,-1459.5 1001,-1527.5 1111,-1527.5 1111,-1459.5 1001,-1459.5"/>
 <text text-anchor="start" x="1009" y="-1515.5" font-family="FreeSans" font-size="10.00">std::vector&lt; cbProject</text>
 <text text-anchor="middle" x="1056" y="-1504.5" font-family="FreeSans" font-size="10.00">::Glob &gt;</text>
@@ -633,14 +633,14 @@
 <polyline fill="none" stroke="#bfbfbf" points="1001,-1478.5 1111,-1478.5 "/>
 <text text-anchor="middle" x="1056" y="-1466.5" font-family="FreeSans" font-size="10.00"> </text>
 </g>
-<!-- Node21&#45;&gt;Node17 -->
-<g id="edge22" class="edge"><title>Node21&#45;&gt;Node17</title>
+<!-- Node23&#45;&gt;Node19 -->
+<g id="edge22" class="edge"><title>Node23&#45;&gt;Node19</title>
 <path fill="none" stroke="#404040" d="M1050.32,-1459.48C1044.43,-1426.67 1034.48,-1375.03 1023,-1331 1022.44,-1328.87 1021.88,-1326.72 1021.3,-1324.57"/>
 <polygon fill="none" stroke="#404040" points="1021.29,-1324.54 1015.85,-1319.81 1018.13,-1312.96 1023.57,-1317.7 1021.29,-1324.54"/>
 <text text-anchor="middle" x="1047" y="-1334" font-family="FreeSans" font-size="10.00"> &#45;m_Globs</text>
 </g>
-<!-- Node22 -->
-<g id="node22" class="node"><title>Node22</title>
+<!-- Node24 -->
+<g id="node22" class="node"><title>Node24</title>
 <g id="a_node22"><a xlink:href="structcbProject_1_1Glob" target="_top" xlink:title="{cbProject::Glob\n|+ m_Path\l+ m_WildCard\l+ m_Recursive\l|+ Glob()\l}">
 <polygon fill="none" stroke="black" points="1014.5,-1751.5 1014.5,-1830.5 1097.5,-1830.5 1097.5,-1751.5 1014.5,-1751.5"/>
 <text text-anchor="middle" x="1056" y="-1818.5" font-family="FreeSans" font-size="10.00">cbProject::Glob</text>
@@ -653,26 +653,26 @@
 </a>
 </g>
 </g>
-<!-- Node22&#45;&gt;Node21 -->
-<g id="edge23" class="edge"><title>Node22&#45;&gt;Node21</title>
+<!-- Node24&#45;&gt;Node23 -->
+<g id="edge23" class="edge"><title>Node24&#45;&gt;Node23</title>
 <path fill="none" stroke="#404040" d="M1056,-1751.37C1056,-1696.86 1056,-1597.58 1056,-1539.71"/>
 <polygon fill="none" stroke="#404040" points="1056,-1539.67 1052,-1533.67 1056,-1527.67 1060,-1533.67 1056,-1539.67"/>
 <text text-anchor="middle" x="1080" y="-1648" font-family="FreeSans" font-size="10.00"> +elements</text>
 </g>
-<!-- Node23&#45;&gt;Node17 -->
-<g id="edge24" class="edge"><title>Node23&#45;&gt;Node17</title>
+<!-- Node25&#45;&gt;Node19 -->
+<g id="edge24" class="edge"><title>Node25&#45;&gt;Node19</title>
 <path fill="none" stroke="#404040" d="M867.735,-839.053C864.693,-884.786 865.474,-937.449 877,-984 877.704,-986.842 878.464,-989.69 879.276,-992.538"/>
 <polygon fill="none" stroke="#404040" points="879.351,-992.781 884.943,-997.334 882.892,-1004.25 877.3,-999.695 879.351,-992.781"/>
 <text text-anchor="middle" x="941" y="-976" font-family="FreeSans" font-size="10.00"> &#45;m_CurrentlyCompilingTarget</text>
 </g>
-<!-- Node24&#45;&gt;Node5 -->
-<g id="edge27" class="edge"><title>Node24&#45;&gt;Node5</title>
+<!-- Node26&#45;&gt;Node7 -->
+<g id="edge27" class="edge"><title>Node26&#45;&gt;Node7</title>
 <path fill="none" stroke="#404040" d="M103.413,-644.319C90.0852,-589.436 82.5416,-515.996 115,-461 188.479,-336.5 352.792,-272.504 456.264,-243.343"/>
 <polygon fill="none" stroke="#404040" points="456.378,-243.312 461.1,-237.862 467.947,-240.125 463.224,-245.575 456.378,-243.312"/>
 <text text-anchor="middle" x="136.5" y="-464" font-family="FreeSans" font-size="10.00"> &#45;m_State</text>
 </g>
-<!-- Node25 -->
-<g id="node25" class="node"><title>Node25</title>
+<!-- Node27 -->
+<g id="node25" class="node"><title>Node27</title>
 <polygon fill="none" stroke="#bfbfbf" points="0,-1123.5 0,-1191.5 146,-1191.5 146,-1123.5 0,-1123.5"/>
 <text text-anchor="start" x="8" y="-1179.5" font-family="FreeSans" font-size="10.00">std::deque&lt; cb::shared</text>
 <text text-anchor="middle" x="73" y="-1168.5" font-family="FreeSans" font-size="10.00">_ptr&lt; DebuggerBreakpoint &gt; &gt;</text>
@@ -681,14 +681,14 @@
 <polyline fill="none" stroke="#bfbfbf" points="0,-1142.5 146,-1142.5 "/>
 <text text-anchor="middle" x="73" y="-1130.5" font-family="FreeSans" font-size="10.00"> </text>
 </g>
-<!-- Node25&#45;&gt;Node24 -->
-<g id="edge28" class="edge"><title>Node25&#45;&gt;Node24</title>
+<!-- Node27&#45;&gt;Node26 -->
+<g id="edge28" class="edge"><title>Node27&#45;&gt;Node26</title>
 <path fill="none" stroke="#404040" d="M72.9893,-1123.23C73.317,-1086.38 74.8677,-1025.26 81,-973 87.3034,-919.285 98.5794,-859.791 108.619,-812.375"/>
 <polygon fill="none" stroke="#404040" points="108.629,-812.326 105.974,-805.621 111.141,-800.591 113.797,-807.296 108.629,-812.326"/>
 <text text-anchor="middle" x="117.5" y="-976" font-family="FreeSans" font-size="10.00"> #m_Breakpoints</text>
 </g>
-<!-- Node26&#45;&gt;Node5 -->
-<g id="edge31" class="edge"><title>Node26&#45;&gt;Node5</title>
+<!-- Node28&#45;&gt;Node7 -->
+<g id="edge31" class="edge"><title>Node28&#45;&gt;Node7</title>
 <path fill="none" stroke="#404040" d="M1274.36,-688.469C1273.13,-639.297 1263.77,-546.579 1214,-490 1061.96,-317.171 782.629,-254.516 638.452,-232.999"/>
 <polygon fill="none" stroke="#404040" points="638.072,-232.944 631.56,-236.041 626.197,-231.221 632.709,-228.124 638.072,-232.944"/>
 <text text-anchor="middle" x="1220.5" y="-464" font-family="FreeSans" font-size="10.00"> &#45;m_SearchDirs</text>

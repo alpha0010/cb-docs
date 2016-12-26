@@ -8,8 +8,8 @@
  viewBox="0.00 0.00 168.00 865.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 861)">
 <title>cbCompilerPlugin</title>
-<!-- Node1 -->
-<g id="node1" class="node"><title>Node1</title>
+<!-- Node0 -->
+<g id="node1" class="node"><title>Node0</title>
 <polygon fill="#bfbfbf" stroke="black" points="26.5,-369.5 26.5,-514.5 133.5,-514.5 133.5,-369.5 26.5,-369.5"/>
 <text text-anchor="middle" x="80" y="-502.5" font-family="FreeSans" font-size="10.00">cbCompilerPlugin</text>
 <polyline fill="none" stroke="black" points="26.5,-495.5 133.5,-495.5 "/>
@@ -25,8 +25,8 @@
 <text text-anchor="start" x="34.5" y="-387.5" font-family="FreeSans" font-size="10.00">+ Build()</text>
 <text text-anchor="start" x="34.5" y="-376.5" font-family="FreeSans" font-size="10.00">and 11 more...</text>
 </g>
-<!-- Node4 -->
-<g id="node4" class="node"><title>Node4</title>
+<!-- Node3 -->
+<g id="node4" class="node"><title>Node3</title>
 <g id="a_node4"><a xlink:href="classCompilerGCC" target="_top" xlink:title="{CompilerGCC\n|&#45; m_BuildJobTargetsList\l&#45; m_CompilerProcessList\l&#45; m_Targets\l&#45; m_RealTargetsStartIndex\l&#45; m_RealTargetIndex\l&#45; m_CommandQueue\l&#45; m_CompilerId\l&#45; m_PageIndex\land 39 more...\l|+ CompilerGCC()\l+ ~CompilerGCC()\l+ OnAttach()\l+ OnRelease()\l+ BuildMenu()\l+ BuildModuleMenu()\l+ BuildToolBar()\l+ GetToolBarPriority()\land 48 more...\l&#45; Dispatcher()\l&#45; TextURL()\l&#45; StopRunningDebugger()\l&#45; ReAllocProcesses()\l&#45; AllocProcesses()\l&#45; FreeProcesses()\l&#45; IsProcessRunning()\l&#45; GetNextAvailableProcessIndex()\land 66 more...\l}">
 <polygon fill="none" stroke="black" points="0,-0.5 0,-332.5 160,-332.5 160,-0.5 0,-0.5"/>
 <text text-anchor="middle" x="80" y="-320.5" font-family="FreeSans" font-size="10.00">CompilerGCC</text>
@@ -62,13 +62,13 @@
 </a>
 </g>
 </g>
-<!-- Node1&#45;&gt;Node4 -->
-<g id="edge3" class="edge"><title>Node1&#45;&gt;Node4</title>
+<!-- Node0&#45;&gt;Node3 -->
+<g id="edge3" class="edge"><title>Node0&#45;&gt;Node3</title>
 <path fill="none" stroke="midnightblue" d="M80,-359.498C80,-350.831 80,-341.809 80,-332.607"/>
 <polygon fill="none" stroke="midnightblue" points="76.5001,-359.498 80,-369.498 83.5001,-359.498 76.5001,-359.498"/>
 </g>
-<!-- Node2 -->
-<g id="node2" class="node"><title>Node2</title>
+<!-- Node1 -->
+<g id="node2" class="node"><title>Node1</title>
 <g id="a_node2"><a xlink:href="classcbPlugin" target="_top" xlink:title="Base class for plugins This is the most basic class a plugin must descend from. ">
 <polygon fill="none" stroke="black" points="1,-551.5 1,-762.5 159,-762.5 159,-551.5 1,-551.5"/>
 <text text-anchor="middle" x="80" y="-750.5" font-family="FreeSans" font-size="10.00">cbPlugin</text>
@@ -93,13 +93,13 @@
 </a>
 </g>
 </g>
-<!-- Node2&#45;&gt;Node1 -->
-<g id="edge1" class="edge"><title>Node2&#45;&gt;Node1</title>
+<!-- Node1&#45;&gt;Node0 -->
+<g id="edge1" class="edge"><title>Node1&#45;&gt;Node0</title>
 <path fill="none" stroke="midnightblue" d="M80,-541.194C80,-532.198 80,-523.28 80,-514.702"/>
 <polygon fill="none" stroke="midnightblue" points="76.5001,-541.372 80,-551.372 83.5001,-541.372 76.5001,-541.372"/>
 </g>
-<!-- Node3 -->
-<g id="node3" class="node"><title>Node3</title>
+<!-- Node2 -->
+<g id="node3" class="node"><title>Node2</title>
 <polygon fill="none" stroke="#bfbfbf" points="43,-799.5 43,-856.5 117,-856.5 117,-799.5 43,-799.5"/>
 <text text-anchor="middle" x="80" y="-844.5" font-family="FreeSans" font-size="10.00">wxEvtHandler</text>
 <polyline fill="none" stroke="#bfbfbf" points="43,-837.5 117,-837.5 "/>
@@ -107,8 +107,8 @@
 <polyline fill="none" stroke="#bfbfbf" points="43,-818.5 117,-818.5 "/>
 <text text-anchor="middle" x="80" y="-806.5" font-family="FreeSans" font-size="10.00"> </text>
 </g>
-<!-- Node3&#45;&gt;Node2 -->
-<g id="edge2" class="edge"><title>Node3&#45;&gt;Node2</title>
+<!-- Node2&#45;&gt;Node1 -->
+<g id="edge2" class="edge"><title>Node2&#45;&gt;Node1</title>
 <path fill="none" stroke="midnightblue" d="M80,-789.233C80,-781.038 80,-771.987 80,-762.584"/>
 <polygon fill="none" stroke="midnightblue" points="76.5001,-789.471 80,-799.471 83.5001,-789.471 76.5001,-789.471"/>
 </g>

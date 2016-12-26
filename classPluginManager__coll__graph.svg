@@ -8,8 +8,8 @@
  viewBox="0.00 0.00 348.50 1076.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 1072)">
 <title>PluginManager</title>
-<!-- Node1 -->
-<g id="node1" class="node"><title>Node1</title>
+<!-- Node3 -->
+<g id="node1" class="node"><title>Node3</title>
 <polygon fill="#bfbfbf" stroke="black" points="0,-171.5 0,-459.5 167,-459.5 167,-171.5 0,-171.5"/>
 <text text-anchor="middle" x="83.5" y="-447.5" font-family="FreeSans" font-size="10.00">PluginManager</text>
 <polyline fill="none" stroke="black" points="0,-440.5 167,-440.5 "/>
@@ -38,8 +38,8 @@
 <text text-anchor="start" x="8" y="-189.5" font-family="FreeSans" font-size="10.00">&#45; ReadExtraFilesFromManifestFile()</text>
 <text text-anchor="start" x="8" y="-178.5" font-family="FreeSans" font-size="10.00">&#45; ExtractFile()</text>
 </g>
-<!-- Node2 -->
-<g id="node2" class="node"><title>Node2</title>
+<!-- Node4 -->
+<g id="node2" class="node"><title>Node4</title>
 <g id="a_node2"><a xlink:href="classMgr" target="_top" xlink:title="{Mgr\&lt; PluginManager \&gt;\n|&#45; isShutdown\l|+ Valid()\l+ Get()\l+ Free()\l# Mgr()\l# ~Mgr()\l&#45; Mgr()\l&#45; operator=()\l}">
 <polygon fill="none" stroke="black" points="26.5,-0.5 26.5,-123.5 140.5,-123.5 140.5,-0.5 26.5,-0.5"/>
 <text text-anchor="middle" x="83.5" y="-111.5" font-family="FreeSans" font-size="10.00">Mgr&lt; PluginManager &gt;</text>
@@ -56,19 +56,19 @@
 </a>
 </g>
 </g>
-<!-- Node1&#45;&gt;Node2 -->
-<g id="edge2" class="edge"><title>Node1&#45;&gt;Node2</title>
+<!-- Node3&#45;&gt;Node4 -->
+<g id="edge2" class="edge"><title>Node3&#45;&gt;Node4</title>
 <path fill="none" stroke="#404040" d="M49.6749,-171.387C49.817,-161.438 50.6901,-151.567 52.5,-142 52.9134,-139.815 53.3858,-137.613 53.9088,-135.403"/>
 <polygon fill="none" stroke="#404040" points="53.9785,-135.148 51.701,-128.306 57.1408,-123.572 59.4183,-130.414 53.9785,-135.148"/>
 <text text-anchor="middle" x="73.5" y="-145" font-family="FreeSans" font-size="10.00"> &#45;instance</text>
 </g>
-<!-- Node2&#45;&gt;Node1 -->
-<g id="edge1" class="edge"><title>Node2&#45;&gt;Node1</title>
+<!-- Node4&#45;&gt;Node3 -->
+<g id="edge1" class="edge"><title>Node4&#45;&gt;Node3</title>
 <path fill="none" stroke="midnightblue" d="M97.6,-133.762C97.9422,-136.538 98.2452,-139.292 98.5,-142 99.4012,-151.577 99.8427,-161.455 99.9254,-171.41"/>
 <polygon fill="none" stroke="midnightblue" points="101.039,-133.078 96.2046,-123.65 94.1045,-134.035 101.039,-133.078"/>
 </g>
-<!-- Node3 -->
-<g id="node3" class="node"><title>Node3</title>
+<!-- Node5 -->
+<g id="node3" class="node"><title>Node5</title>
 <polygon fill="none" stroke="#bfbfbf" points="46.5,-1010.5 46.5,-1067.5 120.5,-1067.5 120.5,-1010.5 46.5,-1010.5"/>
 <text text-anchor="middle" x="83.5" y="-1055.5" font-family="FreeSans" font-size="10.00">wxEvtHandler</text>
 <polyline fill="none" stroke="#bfbfbf" points="46.5,-1048.5 120.5,-1048.5 "/>
@@ -76,13 +76,13 @@
 <polyline fill="none" stroke="#bfbfbf" points="46.5,-1029.5 120.5,-1029.5 "/>
 <text text-anchor="middle" x="83.5" y="-1017.5" font-family="FreeSans" font-size="10.00"> </text>
 </g>
-<!-- Node3&#45;&gt;Node1 -->
-<g id="edge3" class="edge"><title>Node3&#45;&gt;Node1</title>
+<!-- Node5&#45;&gt;Node3 -->
+<g id="edge3" class="edge"><title>Node5&#45;&gt;Node3</title>
 <path fill="none" stroke="midnightblue" d="M71.8857,-1000.33C62.3815,-966.15 50.5,-914.182 50.5,-868 50.5,-868 50.5,-868 50.5,-540.5 50.5,-514.261 52.7436,-486.477 56.0607,-459.737"/>
 <polygon fill="none" stroke="midnightblue" points="68.6329,-1001.69 74.7432,-1010.34 75.3641,-999.767 68.6329,-1001.69"/>
 </g>
-<!-- Node7 -->
-<g id="node7" class="node"><title>Node7</title>
+<!-- Node9 -->
+<g id="node7" class="node"><title>Node9</title>
 <g id="a_node7"><a xlink:href="classcbPlugin" target="_top" xlink:title="Base class for plugins This is the most basic class a plugin must descend from. ">
 <polygon fill="none" stroke="black" points="78.5,-761.5 78.5,-972.5 236.5,-972.5 236.5,-761.5 78.5,-761.5"/>
 <text text-anchor="middle" x="157.5" y="-960.5" font-family="FreeSans" font-size="10.00">cbPlugin</text>
@@ -107,13 +107,13 @@
 </a>
 </g>
 </g>
-<!-- Node3&#45;&gt;Node7 -->
-<g id="edge8" class="edge"><title>Node3&#45;&gt;Node7</title>
+<!-- Node5&#45;&gt;Node9 -->
+<g id="edge8" class="edge"><title>Node5&#45;&gt;Node9</title>
 <path fill="none" stroke="midnightblue" d="M99.5927,-1001.03C103.342,-992.416 107.519,-982.822 111.863,-972.841"/>
 <polygon fill="none" stroke="midnightblue" points="96.3362,-999.742 95.5541,-1010.31 102.754,-1002.54 96.3362,-999.742"/>
 </g>
-<!-- Node4 -->
-<g id="node4" class="node"><title>Node4</title>
+<!-- Node6 -->
+<g id="node4" class="node"><title>Node6</title>
 <polygon fill="none" stroke="#bfbfbf" points="83,-507.5 83,-575.5 216,-575.5 216,-507.5 83,-507.5"/>
 <text text-anchor="start" x="91" y="-563.5" font-family="FreeSans" font-size="10.00">std::vector&lt; PluginManager</text>
 <text text-anchor="middle" x="149.5" y="-552.5" font-family="FreeSans" font-size="10.00">::PluginRegistration &gt;</text>
@@ -122,14 +122,14 @@
 <polyline fill="none" stroke="#bfbfbf" points="83,-526.5 216,-526.5 "/>
 <text text-anchor="middle" x="149.5" y="-514.5" font-family="FreeSans" font-size="10.00"> </text>
 </g>
-<!-- Node4&#45;&gt;Node1 -->
-<g id="edge4" class="edge"><title>Node4&#45;&gt;Node1</title>
+<!-- Node6&#45;&gt;Node3 -->
+<g id="edge4" class="edge"><title>Node6&#45;&gt;Node3</title>
 <path fill="none" stroke="#404040" d="M139.761,-507.448C136.683,-497 133.055,-484.687 129.149,-471.429"/>
 <polygon fill="none" stroke="#404040" points="129.042,-471.067 123.51,-466.443 125.651,-459.557 131.183,-464.181 129.042,-471.067"/>
 <text text-anchor="middle" x="183" y="-481" font-family="FreeSans" font-size="10.00"> &#45;m_RegisteredPlugins</text>
 </g>
-<!-- Node5 -->
-<g id="node5" class="node"><title>Node5</title>
+<!-- Node7 -->
+<g id="node5" class="node"><title>Node7</title>
 <g id="a_node5"><a xlink:href="structPluginManager_1_1PluginRegistration" target="_top" xlink:title="{PluginManager::PluginRegistration\n|+ name\l+ versionProc\l|+ PluginRegistration()\l+ PluginRegistration()\l}">
 <polygon fill="none" stroke="black" points="78.5,-623.5 78.5,-702.5 242.5,-702.5 242.5,-623.5 78.5,-623.5"/>
 <text text-anchor="middle" x="160.5" y="-690.5" font-family="FreeSans" font-size="10.00">PluginManager::PluginRegistration</text>
@@ -142,14 +142,14 @@
 </a>
 </g>
 </g>
-<!-- Node5&#45;&gt;Node4 -->
-<g id="edge5" class="edge"><title>Node5&#45;&gt;Node4</title>
+<!-- Node7&#45;&gt;Node6 -->
+<g id="edge5" class="edge"><title>Node7&#45;&gt;Node6</title>
 <path fill="none" stroke="#404040" d="M156.929,-623.202C155.897,-611.991 154.761,-599.653 153.695,-588.07"/>
 <polygon fill="none" stroke="#404040" points="153.673,-587.836 149.14,-582.228 152.573,-575.887 157.106,-581.495 153.673,-587.836"/>
 <text text-anchor="middle" x="179.5" y="-597" font-family="FreeSans" font-size="10.00"> +elements</text>
 </g>
-<!-- Node6 -->
-<g id="node6" class="node"><title>Node6</title>
+<!-- Node8 -->
+<g id="node6" class="node"><title>Node8</title>
 <g id="a_node6"><a xlink:href="pluginmanager_8h#structPluginInfo" target="_top" xlink:title="Information about the plugin. ">
 <polygon fill="none" stroke="black" points="254.5,-794.5 254.5,-939.5 340.5,-939.5 340.5,-794.5 254.5,-794.5"/>
 <text text-anchor="middle" x="297.5" y="-927.5" font-family="FreeSans" font-size="10.00">PluginInfo</text>
@@ -168,14 +168,14 @@
 </a>
 </g>
 </g>
-<!-- Node6&#45;&gt;Node5 -->
-<g id="edge6" class="edge"><title>Node6&#45;&gt;Node5</title>
+<!-- Node8&#45;&gt;Node7 -->
+<g id="edge6" class="edge"><title>Node8&#45;&gt;Node7</title>
 <path fill="none" stroke="#404040" d="M266.466,-794.314C254.065,-769.762 238.439,-742.966 220.5,-721 217.876,-717.787 215.08,-714.573 212.185,-711.4"/>
 <polygon fill="none" stroke="#404040" points="212.09,-711.299 205.057,-709.705 203.824,-702.6 210.857,-704.194 212.09,-711.299"/>
 <text text-anchor="middle" x="249" y="-729.5" font-family="FreeSans" font-size="10.00"> +info</text>
 </g>
-<!-- Node7&#45;&gt;Node5 -->
-<g id="edge7" class="edge"><title>Node7&#45;&gt;Node5</title>
+<!-- Node9&#45;&gt;Node7 -->
+<g id="edge7" class="edge"><title>Node9&#45;&gt;Node7</title>
 <path fill="none" stroke="#404040" d="M159.053,-761.45C159.294,-745.218 159.533,-729.109 159.746,-714.802"/>
 <polygon fill="none" stroke="#404040" points="159.746,-714.733 155.836,-708.675 159.925,-702.735 163.835,-708.794 159.746,-714.733"/>
 <text text-anchor="middle" x="188.5" y="-735" font-family="FreeSans" font-size="10.00"> +createProc</text>

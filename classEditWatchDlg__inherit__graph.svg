@@ -8,8 +8,8 @@
  viewBox="0.00 0.00 242.00 518.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 514)">
 <title>EditWatchDlg</title>
-<!-- Node1 -->
-<g id="node1" class="node"><title>Node1</title>
+<!-- Node0 -->
+<g id="node1" class="node"><title>Node0</title>
 <polygon fill="#bfbfbf" stroke="black" points="43,-0.5 43,-79.5 138,-79.5 138,-0.5 43,-0.5"/>
 <text text-anchor="middle" x="90.5" y="-67.5" font-family="FreeSans" font-size="10.00">EditWatchDlg</text>
 <polyline fill="none" stroke="black" points="43,-60.5 138,-60.5 "/>
@@ -19,8 +19,8 @@
 <text text-anchor="start" x="51" y="-18.5" font-family="FreeSans" font-size="10.00">+ ~EditWatchDlg()</text>
 <text text-anchor="start" x="51" y="-7.5" font-family="FreeSans" font-size="10.00"># EndModal()</text>
 </g>
-<!-- Node2 -->
-<g id="node2" class="node"><title>Node2</title>
+<!-- Node1 -->
+<g id="node2" class="node"><title>Node1</title>
 <g id="a_node2"><a xlink:href="classwxScrollingDialog" target="_top" xlink:title="{wxScrollingDialog\n||+ wxScrollingDialog()\l+ wxScrollingDialog()\l+ Create()\l+ Init()\l+ Show()\l+ ShowModal()\l}">
 <polygon fill="none" stroke="black" points="37,-116.5 37,-228.5 144,-228.5 144,-116.5 37,-116.5"/>
 <text text-anchor="middle" x="90.5" y="-216.5" font-family="FreeSans" font-size="10.00">wxScrollingDialog</text>
@@ -36,13 +36,13 @@
 </a>
 </g>
 </g>
-<!-- Node2&#45;&gt;Node1 -->
-<g id="edge1" class="edge"><title>Node2&#45;&gt;Node1</title>
+<!-- Node1&#45;&gt;Node0 -->
+<g id="edge1" class="edge"><title>Node1&#45;&gt;Node0</title>
 <path fill="none" stroke="midnightblue" d="M90.5,-106.056C90.5,-97.0806 90.5,-88.1097 90.5,-79.823"/>
 <polygon fill="none" stroke="midnightblue" points="87.0001,-106.156 90.5,-116.156 94.0001,-106.156 87.0001,-106.156"/>
 </g>
-<!-- Node3 -->
-<g id="node3" class="node"><title>Node3</title>
+<!-- Node2 -->
+<g id="node3" class="node"><title>Node2</title>
 <polygon fill="none" stroke="#bfbfbf" points="0,-359 0,-416 55,-416 55,-359 0,-359"/>
 <text text-anchor="middle" x="27.5" y="-404" font-family="FreeSans" font-size="10.00">wxDialog</text>
 <polyline fill="none" stroke="#bfbfbf" points="0,-397 55,-397 "/>
@@ -50,13 +50,13 @@
 <polyline fill="none" stroke="#bfbfbf" points="0,-378 55,-378 "/>
 <text text-anchor="middle" x="27.5" y="-366" font-family="FreeSans" font-size="10.00"> </text>
 </g>
-<!-- Node3&#45;&gt;Node2 -->
-<g id="edge2" class="edge"><title>Node3&#45;&gt;Node2</title>
+<!-- Node2&#45;&gt;Node1 -->
+<g id="edge2" class="edge"><title>Node2&#45;&gt;Node1</title>
 <path fill="none" stroke="midnightblue" d="M38.6326,-348.861C48.4746,-315.586 62.9603,-266.61 74.1235,-228.868"/>
 <polygon fill="none" stroke="midnightblue" points="35.2162,-348.072 35.7361,-358.654 41.9288,-350.057 35.2162,-348.072"/>
 </g>
-<!-- Node4 -->
-<g id="node4" class="node"><title>Node4</title>
+<!-- Node3 -->
+<g id="node4" class="node"><title>Node3</title>
 <g id="a_node4"><a xlink:href="classwxDialogHelper" target="_top" xlink:title="{wxDialogHelper\n|# m_dialog\l# m_layoutLayoutAdaptationDone\l# m_buttonIds\l# m_layoutAdaptationLevel\l# sm_layoutAdapter\l# sm_layoutAdaptation\l|+ wxDialogHelper()\l+ ~wxDialogHelper()\l+ Init()\l+ SetDialog()\l+ GetDialog()\l+ DoLayoutAdaptation()\l+ CanDoLayoutAdaptation()\l+ GetContentWindow()\land 7 more...\l+ SetLayoutAdapter()\l+ GetLayoutAdapter()\l+ GetLayoutAdaptation()\l+ SetLayoutAdaptation()\l}">
 <polygon fill="none" stroke="black" points="73,-265.5 73,-509.5 234,-509.5 234,-265.5 73,-265.5"/>
 <text text-anchor="middle" x="153.5" y="-497.5" font-family="FreeSans" font-size="10.00">wxDialogHelper</text>
@@ -84,8 +84,8 @@
 </a>
 </g>
 </g>
-<!-- Node4&#45;&gt;Node2 -->
-<g id="edge3" class="edge"><title>Node4&#45;&gt;Node2</title>
+<!-- Node3&#45;&gt;Node1 -->
+<g id="edge3" class="edge"><title>Node3&#45;&gt;Node1</title>
 <path fill="none" stroke="midnightblue" d="M114.76,-255.523C111.987,-246.148 109.294,-237.04 106.771,-228.512"/>
 <polygon fill="none" stroke="midnightblue" points="111.482,-256.78 117.675,-265.377 118.195,-254.795 111.482,-256.78"/>
 </g>

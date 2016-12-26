@@ -8,8 +8,8 @@
  viewBox="0.00 0.00 152.00 490.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 486)">
 <title>cbDisassemblyDlg</title>
-<!-- Node1 -->
-<g id="node1" class="node"><title>Node1</title>
+<!-- Node0 -->
+<g id="node1" class="node"><title>Node0</title>
 <polygon fill="#bfbfbf" stroke="black" points="15,-325.5 15,-481.5 129,-481.5 129,-325.5 15,-325.5"/>
 <text text-anchor="middle" x="72" y="-469.5" font-family="FreeSans" font-size="10.00">cbDisassemblyDlg</text>
 <polyline fill="none" stroke="black" points="15,-462.5 129,-462.5 "/>
@@ -26,8 +26,8 @@
 <text text-anchor="start" x="23" y="-343.5" font-family="FreeSans" font-size="10.00">+ HasActiveAddr()</text>
 <text text-anchor="start" x="23" y="-332.5" font-family="FreeSans" font-size="10.00">+ EnableWindow()</text>
 </g>
-<!-- Node2 -->
-<g id="node2" class="node"><title>Node2</title>
+<!-- Node1 -->
+<g id="node2" class="node"><title>Node1</title>
 <g id="a_node2"><a xlink:href="classDisassemblyDlg" target="_top" xlink:title="{DisassemblyDlg\n|# m_pCode\l# m_LastActiveAddr\l# m_HasActiveAddr\l# m_FrameFunction\l# m_FrameAddress\l# m_ClearFlag\l# m_LineTypes\l&#45; m_MixedModeCB\l|+ DisassemblyDlg()\l+ GetWindow()\l+ Clear()\l+ AddAssemblerLine()\l+ AddSourceLine()\l+ SetActiveAddress()\l+ CenterLine()\l+ CenterCurrentLine()\l+ HasActiveAddr()\l+ EnableWindow()\l# OnSave()\l# OnRefresh()\l# OnMixedModeCB()\l# OnAdjustLine()\l&#45; DECLARE_EVENT_TABLE()\l}">
 <polygon fill="none" stroke="black" points="0,-0.5 0,-288.5 144,-288.5 144,-0.5 0,-0.5"/>
 <text text-anchor="middle" x="72" y="-276.5" font-family="FreeSans" font-size="10.00">DisassemblyDlg</text>
@@ -59,8 +59,8 @@
 </a>
 </g>
 </g>
-<!-- Node1&#45;&gt;Node2 -->
-<g id="edge1" class="edge"><title>Node1&#45;&gt;Node2</title>
+<!-- Node0&#45;&gt;Node1 -->
+<g id="edge1" class="edge"><title>Node0&#45;&gt;Node1</title>
 <path fill="none" stroke="midnightblue" d="M72,-315.386C72,-306.744 72,-297.823 72,-288.803"/>
 <polygon fill="none" stroke="midnightblue" points="68.5001,-315.391 72,-325.392 75.5001,-315.392 68.5001,-315.391"/>
 </g>
