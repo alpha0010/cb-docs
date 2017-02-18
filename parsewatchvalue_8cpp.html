@@ -19,7 +19,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Code::Blocks
-   &#160;<span id="projectnumber">SVN r10947</span>
+   &#160;<span id="projectnumber">SVN r11012</span>
    </div>
   </td>
  </tr>
@@ -44,7 +44,8 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
-<a href="#func-members">Functions</a>  </div>
+<a href="#func-members">Functions</a> &#124;
+<a href="#var-members">Variables</a>  </div>
   <div class="headertitle">
 <div class="title">parsewatchvalue.cpp File Reference</div>  </div>
 </div><!--header-->
@@ -54,7 +55,7 @@ $(function() {
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for parsewatchvalue.cpp:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="parsewatchvalue_8cpp__incl.svg" width="11399" height="635"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="parsewatchvalue_8cpp__incl.svg" width="3048" height="262"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 <p><a href="parsewatchvalue_8cpp_source">Go to the source code of this file.</a></p>
@@ -67,30 +68,33 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:o6-regexRepeatedChars"><td class="memItemLeft" align="right" valign="top">wxRegEx&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="parsewatchvalue_8cpp#o6-regexRepeatedChars">regexRepeatedChars</a> (wxT(&quot;^((\'.{1,6}\')|('.{1,6}'))[ \](&lt;repeats[ \][0-9]+[ \]times&gt;)&quot;), wxRE_ADVANCED)</td></tr>
-<tr class="separator:o6-regexRepeatedChars"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ay-DetectRepeatingSymbols"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="parsewatchvalue_8cpp#ay-DetectRepeatingSymbols">DetectRepeatingSymbols</a> (wxString const &amp;str, int pos)</td></tr>
+<tr class="memitem:ay-DetectRepeatingSymbols"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="parsewatchvalue_8cpp#ay-DetectRepeatingSymbols">DetectRepeatingSymbols</a> (<a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html">wxString</a> const &amp;str, int pos)</td></tr>
 <tr class="separator:ay-DetectRepeatingSymbols"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:yq-GetNextToken"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="parsewatchvalue_8cpp#yq-GetNextToken">GetNextToken</a> (wxString const &amp;str, int pos, <a class="el" href="classToken">Token</a> &amp;token)</td></tr>
+<tr class="memitem:yq-GetNextToken"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="parsewatchvalue_8cpp#yq-GetNextToken">GetNextToken</a> (<a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html">wxString</a> const &amp;str, int pos, <a class="el" href="classToken">Token</a> &amp;token)</td></tr>
 <tr class="separator:yq-GetNextToken"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:qe-AddChild"><td class="memItemLeft" align="right" valign="top">cb::shared_ptr&lt; <a class="el" href="classGDBWatch">GDBWatch</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="parsewatchvalue_8cpp#qe-AddChild">AddChild</a> (cb::shared_ptr&lt; <a class="el" href="classGDBWatch">GDBWatch</a> &gt; parent, wxString const &amp;full_value, <a class="el" href="classToken">Token</a> &amp;name)</td></tr>
+<tr class="memitem:qe-AddChild"><td class="memItemLeft" align="right" valign="top">cb::shared_ptr&lt; <a class="el" href="classGDBWatch">GDBWatch</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="parsewatchvalue_8cpp#qe-AddChild">AddChild</a> (cb::shared_ptr&lt; <a class="el" href="classGDBWatch">GDBWatch</a> &gt; parent, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html">wxString</a> const &amp;full_value, <a class="el" href="classToken">Token</a> &amp;name)</td></tr>
 <tr class="separator:qe-AddChild"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:nd-AddChild"><td class="memItemLeft" align="right" valign="top">cb::shared_ptr&lt; <a class="el" href="classGDBWatch">GDBWatch</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="parsewatchvalue_8cpp#nd-AddChild">AddChild</a> (cb::shared_ptr&lt; <a class="el" href="classGDBWatch">GDBWatch</a> &gt; parent, wxString const &amp;str_name)</td></tr>
+<tr class="memitem:nd-AddChild"><td class="memItemLeft" align="right" valign="top">cb::shared_ptr&lt; <a class="el" href="classGDBWatch">GDBWatch</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="parsewatchvalue_8cpp#nd-AddChild">AddChild</a> (cb::shared_ptr&lt; <a class="el" href="classGDBWatch">GDBWatch</a> &gt; parent, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html">wxString</a> const &amp;str_name)</td></tr>
 <tr class="separator:nd-AddChild"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gb-regexRepeatedChar"><td class="memItemLeft" align="right" valign="top">wxRegEx&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="parsewatchvalue_8cpp#gb-regexRepeatedChar">regexRepeatedChar</a> (wxT(&quot;.+[ \](&lt;repeats[ \][0-9]+[ \]times&gt;)$&quot;))</td></tr>
-<tr class="separator:gb-regexRepeatedChar"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:wp-ParseGDBWatchValue"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="parsewatchvalue_8cpp#wp-ParseGDBWatchValue">ParseGDBWatchValue</a> (cb::shared_ptr&lt; <a class="el" href="classGDBWatch">GDBWatch</a> &gt; watch, wxString const &amp;value, int &amp;start, int length)</td></tr>
+<tr class="memitem:wp-ParseGDBWatchValue"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="parsewatchvalue_8cpp#wp-ParseGDBWatchValue">ParseGDBWatchValue</a> (cb::shared_ptr&lt; <a class="el" href="classGDBWatch">GDBWatch</a> &gt; watch, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html">wxString</a> const &amp;value, int &amp;start, int length)</td></tr>
 <tr class="separator:wp-ParseGDBWatchValue"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:jk-RemoveWarnings"><td class="memItemLeft" align="right" valign="top">wxString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="parsewatchvalue_8cpp#jk-RemoveWarnings">RemoveWarnings</a> (wxString const &amp;input)</td></tr>
+<tr class="memitem:jk-RemoveWarnings"><td class="memItemLeft" align="right" valign="top"><a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html">wxString</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="parsewatchvalue_8cpp#jk-RemoveWarnings">RemoveWarnings</a> (<a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html">wxString</a> const &amp;input)</td></tr>
 <tr class="separator:jk-RemoveWarnings"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ey-RemoveBefore"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="parsewatchvalue_8cpp#ey-RemoveBefore">RemoveBefore</a> (wxString &amp;str, const wxString &amp;s)</td></tr>
+<tr class="memitem:ey-RemoveBefore"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="parsewatchvalue_8cpp#ey-RemoveBefore">RemoveBefore</a> (<a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html">wxString</a> &amp;str, const <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html">wxString</a> &amp;s)</td></tr>
 <tr class="separator:ey-RemoveBefore"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:dk-ParseGDBWatchValue"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="parsewatchvalue_8cpp#dk-ParseGDBWatchValue">ParseGDBWatchValue</a> (cb::shared_ptr&lt; <a class="el" href="classGDBWatch">GDBWatch</a> &gt; watch, wxString const &amp;inputValue)</td></tr>
+<tr class="memitem:dk-ParseGDBWatchValue"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="parsewatchvalue_8cpp#dk-ParseGDBWatchValue">ParseGDBWatchValue</a> (cb::shared_ptr&lt; <a class="el" href="classGDBWatch">GDBWatch</a> &gt; watch, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html">wxString</a> const &amp;inputValue)</td></tr>
 <tr class="separator:dk-ParseGDBWatchValue"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:tb-ParseCDBWatchValue"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="parsewatchvalue_8cpp#tb-ParseCDBWatchValue">ParseCDBWatchValue</a> (cb::shared_ptr&lt; <a class="el" href="classGDBWatch">GDBWatch</a> &gt; watch, wxString const &amp;value)</td></tr>
+<tr class="memitem:tb-ParseCDBWatchValue"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="parsewatchvalue_8cpp#tb-ParseCDBWatchValue">ParseCDBWatchValue</a> (cb::shared_ptr&lt; <a class="el" href="classGDBWatch">GDBWatch</a> &gt; watch, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html">wxString</a> const &amp;value)</td></tr>
 <tr class="separator:tb-ParseCDBWatchValue"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:az-TokenizeGDBLocals"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="parsewatchvalue_8cpp#az-TokenizeGDBLocals">TokenizeGDBLocals</a> (std::vector&lt; <a class="el" href="structGDBLocalVariable">GDBLocalVariable</a> &gt; &amp;results, wxString const &amp;value)</td></tr>
+<tr class="memitem:az-TokenizeGDBLocals"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="parsewatchvalue_8cpp#az-TokenizeGDBLocals">TokenizeGDBLocals</a> (std::vector&lt; <a class="el" href="structGDBLocalVariable">GDBLocalVariable</a> &gt; &amp;results, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html">wxString</a> const &amp;value)</td></tr>
 <tr class="separator:az-TokenizeGDBLocals"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:f7-regexRepeatedChars"><td class="memItemLeft" align="right" valign="top"><a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_reg_ex.html">wxRegEx</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="parsewatchvalue_8cpp#f7-regexRepeatedChars">regexRepeatedChars</a> (<a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga437ea6ba615b75dac8603e96ec864160">wxT</a>(&quot;^((\'.{1,6}\')|('.{1,6}'))[ \](&lt;repeats[ \][0-9]+[ \]times&gt;)&quot;), wxRE_ADVANCED)</td></tr>
+<tr class="separator:f7-regexRepeatedChars"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:y9-regexRepeatedChar"><td class="memItemLeft" align="right" valign="top"><a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_reg_ex.html">wxRegEx</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="parsewatchvalue_8cpp#y9-regexRepeatedChar">regexRepeatedChar</a> (<a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga437ea6ba615b75dac8603e96ec864160">wxT</a>(&quot;.+[ \](&lt;repeats[ \][0-9]+[ \]times&gt;)$&quot;))</td></tr>
+<tr class="separator:y9-regexRepeatedChar"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
 <a id="qe-AddChild"></a>
@@ -111,7 +115,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">wxString const &amp;&#160;</td>
+          <td class="paramtype"><a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html">wxString</a> const &amp;&#160;</td>
           <td class="paramname"><em>full_value</em>, </td>
         </tr>
         <tr>
@@ -159,7 +163,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">wxString const &amp;&#160;</td>
+          <td class="paramtype"><a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html">wxString</a> const &amp;&#160;</td>
           <td class="paramname"><em>str_name</em>&#160;</td>
         </tr>
         <tr>
@@ -177,7 +181,7 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="parsewatchvalue_8cpp_source#l00310">310</a> of file <a class="el" href="parsewatchvalue_8cpp_source">parsewatchvalue.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="debuggermanager_8cpp_source#l00058">cbWatch::AddChild()</a>, and <a class="el" href="parsewatchvalue_8cpp#gb-regexRepeatedChar">regexRepeatedChar()</a>.</p>
+<p class="reference">References <a class="el" href="debuggermanager_8cpp_source#l00058">cbWatch::AddChild()</a>, <a class="el" href="parsewatchvalue_8cpp#y9-regexRepeatedChar">regexRepeatedChar</a>, and <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga437ea6ba615b75dac8603e96ec864160">wxT</a>.</p>
 
 </div>
 </div>
@@ -193,7 +197,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="memname">int DetectRepeatingSymbols </td>
           <td>(</td>
-          <td class="paramtype">wxString const &amp;&#160;</td>
+          <td class="paramtype"><a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html">wxString</a> const &amp;&#160;</td>
           <td class="paramname"><em>str</em>, </td>
         </tr>
         <tr>
@@ -217,7 +221,7 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="parsewatchvalue_8cpp_source#l00077">77</a> of file <a class="el" href="parsewatchvalue_8cpp_source">parsewatchvalue.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="parsewatchvalue_8cpp#o6-regexRepeatedChars">regexRepeatedChars()</a>, and <a class="el" href="parsewatchvalue_8cpp_source#l00065">Token::start</a>.</p>
+<p class="reference">References <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_reg_ex.html#a7b2b15b023a36603084a6b8b9fcf84fd">wxRegEx::GetMatch()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#af63f200410b56436a830550905e20539">wxString::length()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_reg_ex.html#aac3f3acd35f8daf37ab2837473188e6a">wxRegEx::Matches()</a>, <a class="el" href="parsewatchvalue_8cpp#f7-regexRepeatedChars">regexRepeatedChars</a>, <a class="el" href="parsewatchvalue_8cpp_source#l00065">Token::start</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#af7832aeeec723684a92e2beafbd45af1">wxString::substr()</a>, and <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga437ea6ba615b75dac8603e96ec864160">wxT</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="parsewatchvalue_8cpp_source#l00117">GetNextToken()</a>.</p>
 
@@ -235,7 +239,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="memname">bool GetNextToken </td>
           <td>(</td>
-          <td class="paramtype">wxString const &amp;&#160;</td>
+          <td class="paramtype"><a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html">wxString</a> const &amp;&#160;</td>
           <td class="paramname"><em>str</em>, </td>
         </tr>
         <tr>
@@ -265,7 +269,7 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="parsewatchvalue_8cpp_source#l00117">117</a> of file <a class="el" href="parsewatchvalue_8cpp_source">parsewatchvalue.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="parsewatchvalue_8cpp_source#l00024">Token::CloseBrace</a>, <a class="el" href="parsewatchvalue_8cpp_source#l00027">Token::Comma</a>, <a class="el" href="parsewatchvalue_8cpp_source#l00077">DetectRepeatingSymbols()</a>, <a class="el" href="parsewatchvalue_8cpp_source#l00065">Token::end</a>, <a class="el" href="parsewatchvalue_8cpp_source#l00025">Token::Equal</a>, <a class="el" href="parsewatchvalue_8cpp_source#l00067">Token::hasRepeatedChar</a>, <a class="el" href="parsewatchvalue_8cpp_source#l00023">Token::OpenBrace</a>, <a class="el" href="parsewatchvalue_8cpp_source#l00065">Token::start</a>, <a class="el" href="parsewatchvalue_8cpp_source#l00026">Token::String</a>, <a class="el" href="parsewatchvalue_8cpp_source#l00030">Token::Token()</a>, and <a class="el" href="parsewatchvalue_8cpp_source#l00066">Token::type</a>.</p>
+<p class="reference">References <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga7dfc2888539861afe6c4337ef315472b">_T</a>, <a class="el" href="parsewatchvalue_8cpp_source#l00024">Token::CloseBrace</a>, <a class="el" href="parsewatchvalue_8cpp_source#l00027">Token::Comma</a>, <a class="el" href="parsewatchvalue_8cpp_source#l00077">DetectRepeatingSymbols()</a>, <a class="el" href="parsewatchvalue_8cpp_source#l00065">Token::end</a>, <a class="el" href="parsewatchvalue_8cpp_source#l00025">Token::Equal</a>, <a class="el" href="parsewatchvalue_8cpp_source#l00067">Token::hasRepeatedChar</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#af63f200410b56436a830550905e20539">wxString::length()</a>, <a class="el" href="parsewatchvalue_8cpp_source#l00023">Token::OpenBrace</a>, <a class="el" href="parsewatchvalue_8cpp_source#l00065">Token::start</a>, <a class="el" href="parsewatchvalue_8cpp_source#l00026">Token::String</a>, <a class="el" href="parsewatchvalue_8cpp_source#l00030">Token::Token()</a>, <a class="el" href="parsewatchvalue_8cpp_source#l00066">Token::type</a>, and <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga437ea6ba615b75dac8603e96ec864160">wxT</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="parsewatchvalue_8cpp_source#l00327">ParseGDBWatchValue()</a>.</p>
 
@@ -286,7 +290,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">wxString const &amp;&#160;</td>
+          <td class="paramtype"><a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html">wxString</a> const &amp;&#160;</td>
           <td class="paramname"><em>value</em>&#160;</td>
         </tr>
         <tr>
@@ -299,7 +303,7 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="parsewatchvalue_8cpp_source#l00714">714</a> of file <a class="el" href="parsewatchvalue_8cpp_source">parsewatchvalue.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="token_8cpp_source#l00267">Token::AddChild()</a>, <a class="el" href="globals_8cpp_source#l00126">GetArrayFromString()</a>, and <a class="el" href="prefix_8cpp_source#l00059">NULL</a>.</p>
+<p class="reference">References <a class="el" href="token_8cpp_source#l00267">Token::AddChild()</a>, <a class="el" href="globals_8cpp_source#l00126">GetArrayFromString()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_array_string.html#ad2a491f799c8d6539dc64d06f2c37ac6">wxArrayString::GetCount()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_reg_ex.html#a7b2b15b023a36603084a6b8b9fcf84fd">wxRegEx::GetMatch()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_reg_ex.html#ae19a386efd8c012bdcfdd1548dd64dfc">wxRegEx::IsValid()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_reg_ex.html#aac3f3acd35f8daf37ab2837473188e6a">wxRegEx::Matches()</a>, <a class="el" href="prefix_8cpp_source#l00059">NULL</a>, and <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga437ea6ba615b75dac8603e96ec864160">wxT</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="cdb__commands_8h_source#l00334">CdbCmd_Watch::ParseOutput()</a>, and <a class="el" href="debuggergdb__test__parser__cdb_8cpp_source#l00005">SUITE()</a>.</p>
 
@@ -323,7 +327,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">wxString const &amp;&#160;</td>
+          <td class="paramtype"><a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html">wxString</a> const &amp;&#160;</td>
           <td class="paramname"><em>value</em>, </td>
         </tr>
         <tr>
@@ -353,7 +357,7 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="parsewatchvalue_8cpp_source#l00327">327</a> of file <a class="el" href="parsewatchvalue_8cpp_source">parsewatchvalue.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="token_8cpp_source#l00267">Token::AddChild()</a>, <a class="el" href="parsewatchvalue_8cpp_source#l00024">Token::CloseBrace</a>, <a class="el" href="parsewatchvalue_8cpp_source#l00027">Token::Comma</a>, <a class="el" href="parsewatchvalue_8cpp_source#l00065">Token::end</a>, <a class="el" href="parsewatchvalue_8cpp_source#l00025">Token::Equal</a>, <a class="el" href="parsewatchvalue_8cpp_source#l00049">Token::ExtractString()</a>, <a class="el" href="parsewatchvalue_8cpp_source#l00117">GetNextToken()</a>, <a class="el" href="parsewatchvalue_8cpp_source#l00067">Token::hasRepeatedChar</a>, <a class="el" href="parsewatchvalue_8cpp_source#l00023">Token::OpenBrace</a>, <a class="el" href="parsewatchvalue_8cpp_source#l00065">Token::start</a>, <a class="el" href="parsewatchvalue_8cpp_source#l00026">Token::String</a>, <a class="el" href="parsewatchvalue_8cpp_source#l00055">Token::Trim()</a>, <a class="el" href="parsewatchvalue_8cpp_source#l00066">Token::type</a>, and <a class="el" href="parsewatchvalue_8cpp_source#l00022">Token::Undefined</a>.</p>
+<p class="reference">References <a class="el" href="token_8cpp_source#l00267">Token::AddChild()</a>, <a class="el" href="parsewatchvalue_8cpp_source#l00024">Token::CloseBrace</a>, <a class="el" href="parsewatchvalue_8cpp_source#l00027">Token::Comma</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#ac6ae24a8ccc6e4e671f972948fca437c">wxString::empty()</a>, <a class="el" href="parsewatchvalue_8cpp_source#l00065">Token::end</a>, <a class="el" href="parsewatchvalue_8cpp_source#l00025">Token::Equal</a>, <a class="el" href="parsewatchvalue_8cpp_source#l00049">Token::ExtractString()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#a55b90a900c24e9555760265170dc051c">wxString::find()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#a50410c23c851cf0b4ffaad265532cd65">wxString::find_last_of()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#addd9ccfa3ae2b7ab2d66bcbf034d0be0">wxString::Format()</a>, <a class="el" href="parsewatchvalue_8cpp_source#l00117">GetNextToken()</a>, <a class="el" href="parsewatchvalue_8cpp_source#l00067">Token::hasRepeatedChar</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#af63f200410b56436a830550905e20539">wxString::length()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_reg_ex.html#aac3f3acd35f8daf37ab2837473188e6a">wxRegEx::Matches()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#a7f7b5ab972b4be6703f9c779654af247">wxString::npos</a>, <a class="el" href="parsewatchvalue_8cpp_source#l00023">Token::OpenBrace</a>, <a class="el" href="parsewatchvalue_8cpp_source#l00065">Token::start</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#a627b084ee8088734e1b28ee23d67f7bb">wxString::StartsWith()</a>, <a class="el" href="parsewatchvalue_8cpp_source#l00026">Token::String</a>, <a class="el" href="parsewatchvalue_8cpp_source#l00055">Token::Trim()</a>, <a class="el" href="parsewatchvalue_8cpp_source#l00066">Token::type</a>, <a class="el" href="parsewatchvalue_8cpp_source#l00022">Token::Undefined</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/interface_2wx_2string_8h.html#a9a321d587166a30017b608dd2d234033">wxEmptyString</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__crt.html#gaa354b14ed00785078e621932e2cf39b3">wxIsdigit()</a>, and <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga437ea6ba615b75dac8603e96ec864160">wxT</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="parsewatchvalue_8cpp_source#l00640">ParseGDBWatchValue()</a>, <a class="el" href="gdb__commands_8h_source#l00836">GdbCmd_Watch::ParseOutput()</a>, <a class="el" href="gdb__commands_8h_source#l00989">GdbCmd_TooltipEvaluation::ParseOutput()</a>, <a class="el" href="gdb__commands_8h_source#l01148">GdbCmd_LocalsFuncArgs::ParseOutput()</a>, and <a class="el" href="debuggergdb__test__parser_8cpp_source#l00124">SUITE()</a>.</p>
 
@@ -374,7 +378,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">wxString const &amp;&#160;</td>
+          <td class="paramtype"><a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html">wxString</a> const &amp;&#160;</td>
           <td class="paramname"><em>inputValue</em>&#160;</td>
         </tr>
         <tr>
@@ -387,57 +391,7 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="parsewatchvalue_8cpp_source#l00640">640</a> of file <a class="el" href="parsewatchvalue_8cpp_source">parsewatchvalue.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="parsewatchvalue_8cpp_source#l00327">ParseGDBWatchValue()</a>, <a class="el" href="parsewatchvalue_8cpp_source#l00600">RemoveWarnings()</a>, and <a class="el" href="parsewatchvalue_8cpp_source#l00065">Token::start</a>.</p>
-
-</div>
-</div>
-<a id="gb-regexRepeatedChar"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gb-regexRepeatedChar">&#9670;&nbsp;</a></span>regexRepeatedChar()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">wxRegEx regexRepeatedChar </td>
-          <td>(</td>
-          <td class="paramtype">wxT(&quot;.+[ \(&lt;repeats[ \[0-9]+[ \times&gt;)$&quot;)&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="parsewatchvalue_8cpp_source#l00310">AddChild()</a>.</p>
-
-</div>
-</div>
-<a id="o6-regexRepeatedChars"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#o6-regexRepeatedChars">&#9670;&nbsp;</a></span>regexRepeatedChars()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">wxRegEx regexRepeatedChars </td>
-          <td>(</td>
-          <td class="paramtype">wxT(&quot;^((\.{1,6}\)|('.{1,6}'))[ \(&lt;repeats[ \[0-9]+[ \times&gt;)&quot;)&#160;</td>
-          <td class="paramname">, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">wxRE_ADVANCED&#160;</td>
-          <td class="paramname">&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="parsewatchvalue_8cpp_source#l00077">DetectRepeatingSymbols()</a>.</p>
+<p class="reference">References <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#ac6ae24a8ccc6e4e671f972948fca437c">wxString::empty()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#a5799047918ccbed5d3166ab9c03be279">wxString::EndsWith()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#a55b90a900c24e9555760265170dc051c">wxString::find()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#af63f200410b56436a830550905e20539">wxString::length()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#a7f7b5ab972b4be6703f9c779654af247">wxString::npos</a>, <a class="el" href="parsewatchvalue_8cpp_source#l00327">ParseGDBWatchValue()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#aa375e1718cb40fd991e89428e620ba82">wxString::RemoveLast()</a>, <a class="el" href="parsewatchvalue_8cpp_source#l00600">RemoveWarnings()</a>, <a class="el" href="parsewatchvalue_8cpp_source#l00065">Token::start</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#af7832aeeec723684a92e2beafbd45af1">wxString::substr()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#aefd36feb8f3c36edcf3322f84de0bfc4">wxString::Trim()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/interface_2wx_2string_8h.html#a9a321d587166a30017b608dd2d234033">wxEmptyString</a>, and <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga437ea6ba615b75dac8603e96ec864160">wxT</a>.</p>
 
 </div>
 </div>
@@ -453,13 +407,13 @@ Functions</h2></td></tr>
         <tr>
           <td class="memname">void RemoveBefore </td>
           <td>(</td>
-          <td class="paramtype">wxString &amp;&#160;</td>
+          <td class="paramtype"><a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html">wxString</a> &amp;&#160;</td>
           <td class="paramname"><em>str</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const wxString &amp;&#160;</td>
+          <td class="paramtype">const <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html">wxString</a> &amp;&#160;</td>
           <td class="paramname"><em>s</em>&#160;</td>
         </tr>
         <tr>
@@ -477,6 +431,8 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="parsewatchvalue_8cpp_source#l00630">630</a> of file <a class="el" href="parsewatchvalue_8cpp_source">parsewatchvalue.cpp</a>.</p>
 
+<p class="reference">References <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#a55b90a900c24e9555760265170dc051c">wxString::find()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#af63f200410b56436a830550905e20539">wxString::length()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#a7f7b5ab972b4be6703f9c779654af247">wxString::npos</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#a9a83357210198cefd2d7d1411db1838d">wxString::Remove()</a>, and <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#aefd36feb8f3c36edcf3322f84de0bfc4">wxString::Trim()</a>.</p>
+
 </div>
 </div>
 <a id="jk-RemoveWarnings"></a>
@@ -489,9 +445,9 @@ Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">wxString RemoveWarnings </td>
+          <td class="memname"><a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html">wxString</a> RemoveWarnings </td>
           <td>(</td>
-          <td class="paramtype">wxString const &amp;&#160;</td>
+          <td class="paramtype"><a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html">wxString</a> const &amp;&#160;</td>
           <td class="paramname"><em>input</em></td><td>)</td>
           <td></td>
         </tr>
@@ -504,6 +460,8 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="parsewatchvalue_8cpp_source#l00600">600</a> of file <a class="el" href="parsewatchvalue_8cpp_source">parsewatchvalue.cpp</a>.</p>
+
+<p class="reference">References <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#a55b90a900c24e9555760265170dc051c">wxString::find()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#af63f200410b56436a830550905e20539">wxString::length()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#a7f7b5ab972b4be6703f9c779654af247">wxString::npos</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#a627b084ee8088734e1b28ee23d67f7bb">wxString::StartsWith()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#af7832aeeec723684a92e2beafbd45af1">wxString::substr()</a>, and <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga437ea6ba615b75dac8603e96ec864160">wxT</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="parsewatchvalue_8cpp_source#l00640">ParseGDBWatchValue()</a>.</p>
 
@@ -524,7 +482,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">wxString const &amp;&#160;</td>
+          <td class="paramtype"><a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html">wxString</a> const &amp;&#160;</td>
           <td class="paramname"><em>value</em>&#160;</td>
         </tr>
         <tr>
@@ -537,9 +495,42 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="parsewatchvalue_8cpp_source#l00848">848</a> of file <a class="el" href="parsewatchvalue_8cpp_source">parsewatchvalue.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="parsewatchvalue_8cpp_source#l00065">Token::start</a>.</p>
+<p class="reference">References <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#af63f200410b56436a830550905e20539">wxString::length()</a>, <a class="el" href="parsewatchvalue_8cpp_source#l00065">Token::start</a>, and <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga437ea6ba615b75dac8603e96ec864160">wxT</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="gdb__commands_8h_source#l01148">GdbCmd_LocalsFuncArgs::ParseOutput()</a>, and <a class="el" href="debuggergdb__test__parse__locals_8cpp_source#l00015">SUITE()</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Variable Documentation</h2>
+<a id="y9-regexRepeatedChar"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#y9-regexRepeatedChar">&#9670;&nbsp;</a></span>regexRepeatedChar</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_reg_ex.html">wxRegEx</a> regexRepeatedChar(<a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga437ea6ba615b75dac8603e96ec864160">wxT</a>(&quot;.+[ \t](&lt;repeats[ \t][0-9]+[ \t]times&gt;)$&quot;))</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="parsewatchvalue_8cpp_source#l00310">AddChild()</a>.</p>
+
+</div>
+</div>
+<a id="f7-regexRepeatedChars"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#f7-regexRepeatedChars">&#9670;&nbsp;</a></span>regexRepeatedChars</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_reg_ex.html">wxRegEx</a> regexRepeatedChars(<a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga437ea6ba615b75dac8603e96ec864160">wxT</a>(&quot;^((\\'.{1,6}\\')|('.{1,6}'))[ \t](&lt;repeats[ \t][0-9]+[ \t]times&gt;)&quot;), wxRE_ADVANCED)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="parsewatchvalue_8cpp_source#l00077">DetectRepeatingSymbols()</a>.</p>
 
 </div>
 </div>

@@ -19,7 +19,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Code::Blocks
-   &#160;<span id="projectnumber">SVN r10947</span>
+   &#160;<span id="projectnumber">SVN r11012</span>
    </div>
   </td>
  </tr>
@@ -45,7 +45,8 @@ $(function() {
   <div class="summary">
 <a href="#namespaces">Namespaces</a> &#124;
 <a href="#define-members">Macros</a> &#124;
-<a href="#func-members">Functions</a>  </div>
+<a href="#func-members">Functions</a> &#124;
+<a href="#var-members">Variables</a>  </div>
   <div class="headertitle">
 <div class="title">expression.cpp File Reference</div>  </div>
 </div><!--header-->
@@ -53,14 +54,14 @@ $(function() {
 <div class="textblock"><code>#include &lt;<a class="el" href="sdk_8h_source">sdk.h</a>&gt;</code><br />
 <code>#include &lt;stack&gt;</code><br />
 <code>#include &lt;<a class="el" href="logmanager_8h_source">logmanager.h</a>&gt;</code><br />
-<code>#include &lt;<a class="el" href="manager_8h_source">manager.h</a>&gt;</code><br />
+<code>#include &lt;manager.h&gt;</code><br />
 <code>#include &quot;<a class="el" href="cclogger_8h_source">cclogger.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="expression_8h_source">expression.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="token_8h_source">token.h</a>&quot;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for expression.cpp:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="expression_8cpp__incl.svg" width="9340" height="635"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="expression_8cpp__incl.svg" width="2516" height="411"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 <p><a href="expression_8cpp_source">Go to the source code of this file.</a></p>
@@ -81,47 +82,50 @@ Macros</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:rx-Plus"><td class="memItemLeft" align="right" valign="top">const wxString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceExpressionConsts#rx-Plus">ExpressionConsts::Plus</a> (_T(&quot;+&quot;))</td></tr>
-<tr class="separator:rx-Plus"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:sj-Subtract"><td class="memItemLeft" align="right" valign="top">const wxString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceExpressionConsts#sj-Subtract">ExpressionConsts::Subtract</a> (_T(&quot;-&quot;))</td></tr>
-<tr class="separator:sj-Subtract"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:zs-Multiply"><td class="memItemLeft" align="right" valign="top">const wxString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceExpressionConsts#zs-Multiply">ExpressionConsts::Multiply</a> (_T(&quot;*&quot;))</td></tr>
-<tr class="separator:zs-Multiply"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:j3-Divide"><td class="memItemLeft" align="right" valign="top">const wxString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceExpressionConsts#j3-Divide">ExpressionConsts::Divide</a> (_T(&quot;/&quot;))</td></tr>
-<tr class="separator:j3-Divide"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:l9-LParenthesis"><td class="memItemLeft" align="right" valign="top">const wxString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceExpressionConsts#l9-LParenthesis">ExpressionConsts::LParenthesis</a> (_T(&quot;(&quot;))</td></tr>
+<tr class="memitem:l9-LParenthesis"><td class="memItemLeft" align="right" valign="top">const <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html">wxString</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceExpressionConsts#l9-LParenthesis">ExpressionConsts::LParenthesis</a> (<a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga7dfc2888539861afe6c4337ef315472b">_T</a>(&quot;(&quot;))</td></tr>
 <tr class="separator:l9-LParenthesis"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:wv-RParenthesis"><td class="memItemLeft" align="right" valign="top">const wxString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceExpressionConsts#wv-RParenthesis">ExpressionConsts::RParenthesis</a> (_T(&quot;)&quot;))</td></tr>
-<tr class="separator:wv-RParenthesis"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:kf-Mod"><td class="memItemLeft" align="right" valign="top">const wxString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceExpressionConsts#kf-Mod">ExpressionConsts::Mod</a> (_T(&quot;%&quot;))</td></tr>
-<tr class="separator:kf-Mod"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:vi-Power"><td class="memItemLeft" align="right" valign="top">const wxString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceExpressionConsts#vi-Power">ExpressionConsts::Power</a> (_T(&quot;^&quot;))</td></tr>
-<tr class="separator:vi-Power"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:zy-BitwiseAnd"><td class="memItemLeft" align="right" valign="top">const wxString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceExpressionConsts#zy-BitwiseAnd">ExpressionConsts::BitwiseAnd</a> (_T(&quot;&amp;&quot;))</td></tr>
-<tr class="separator:zy-BitwiseAnd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:bw-BitwiseOr"><td class="memItemLeft" align="right" valign="top">const wxString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceExpressionConsts#bw-BitwiseOr">ExpressionConsts::BitwiseOr</a> (_T(&quot;|&quot;))</td></tr>
-<tr class="separator:bw-BitwiseOr"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ug-And"><td class="memItemLeft" align="right" valign="top">const wxString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceExpressionConsts#ug-And">ExpressionConsts::And</a> (_T(&quot;&amp;&amp;&quot;))</td></tr>
-<tr class="separator:ug-And"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:uk-Or"><td class="memItemLeft" align="right" valign="top">const wxString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceExpressionConsts#uk-Or">ExpressionConsts::Or</a> (_T(&quot;||&quot;))</td></tr>
-<tr class="separator:uk-Or"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:u2-Not"><td class="memItemLeft" align="right" valign="top">const wxString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceExpressionConsts#u2-Not">ExpressionConsts::Not</a> (_T(&quot;!&quot;))</td></tr>
-<tr class="separator:u2-Not"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:zl-Equal"><td class="memItemLeft" align="right" valign="top">const wxString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceExpressionConsts#zl-Equal">ExpressionConsts::Equal</a> (_T(&quot;==&quot;))</td></tr>
-<tr class="separator:zl-Equal"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:qo-Unequal"><td class="memItemLeft" align="right" valign="top">const wxString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceExpressionConsts#qo-Unequal">ExpressionConsts::Unequal</a> (_T(&quot;!=&quot;))</td></tr>
-<tr class="separator:qo-Unequal"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:lp-GT"><td class="memItemLeft" align="right" valign="top">const wxString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceExpressionConsts#lp-GT">ExpressionConsts::GT</a> (_T(&quot;&gt;&quot;))</td></tr>
-<tr class="separator:lp-GT"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:l8-LT"><td class="memItemLeft" align="right" valign="top">const wxString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceExpressionConsts#l8-LT">ExpressionConsts::LT</a> (_T(&quot;&lt;&quot;))</td></tr>
-<tr class="separator:l8-LT"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:pq-GTOrEqual"><td class="memItemLeft" align="right" valign="top">const wxString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceExpressionConsts#pq-GTOrEqual">ExpressionConsts::GTOrEqual</a> (_T(&quot;&gt;=&quot;))</td></tr>
-<tr class="separator:pq-GTOrEqual"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:vx-LTOrEqual"><td class="memItemLeft" align="right" valign="top">const wxString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceExpressionConsts#vx-LTOrEqual">ExpressionConsts::LTOrEqual</a> (_T(&quot;&lt;=&quot;))</td></tr>
-<tr class="separator:vx-LTOrEqual"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:w5-LShift"><td class="memItemLeft" align="right" valign="top">const wxString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceExpressionConsts#w5-LShift">ExpressionConsts::LShift</a> (_T(&quot;&lt;&lt;&quot;))</td></tr>
-<tr class="separator:w5-LShift"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ld-RShift"><td class="memItemLeft" align="right" valign="top">const wxString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceExpressionConsts#ld-RShift">ExpressionConsts::RShift</a> (_T(&quot;&gt;&gt;&quot;))</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:lw-Plus"><td class="memItemLeft" align="right" valign="top">const <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html">wxString</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceExpressionConsts#lw-Plus">ExpressionConsts::Plus</a> (<a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga7dfc2888539861afe6c4337ef315472b">_T</a>(&quot;+&quot;))</td></tr>
+<tr class="separator:lw-Plus"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:re-Subtract"><td class="memItemLeft" align="right" valign="top">const <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html">wxString</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceExpressionConsts#re-Subtract">ExpressionConsts::Subtract</a> (<a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga7dfc2888539861afe6c4337ef315472b">_T</a>(&quot;-&quot;))</td></tr>
+<tr class="separator:re-Subtract"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:vn-Multiply"><td class="memItemLeft" align="right" valign="top">const <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html">wxString</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceExpressionConsts#vn-Multiply">ExpressionConsts::Multiply</a> (<a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga7dfc2888539861afe6c4337ef315472b">_T</a>(&quot;*&quot;))</td></tr>
+<tr class="separator:vn-Multiply"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:so-Divide"><td class="memItemLeft" align="right" valign="top">const <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html">wxString</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceExpressionConsts#so-Divide">ExpressionConsts::Divide</a> (<a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga7dfc2888539861afe6c4337ef315472b">_T</a>(&quot;/&quot;))</td></tr>
+<tr class="separator:so-Divide"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:zt-RParenthesis"><td class="memItemLeft" align="right" valign="top">const <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html">wxString</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceExpressionConsts#zt-RParenthesis">ExpressionConsts::RParenthesis</a> (<a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga7dfc2888539861afe6c4337ef315472b">_T</a>(&quot;)&quot;))</td></tr>
+<tr class="separator:zt-RParenthesis"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:hw-Mod"><td class="memItemLeft" align="right" valign="top">const <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html">wxString</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceExpressionConsts#hw-Mod">ExpressionConsts::Mod</a> (<a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga7dfc2888539861afe6c4337ef315472b">_T</a>(&quot;%&quot;))</td></tr>
+<tr class="separator:hw-Mod"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:yh-Power"><td class="memItemLeft" align="right" valign="top">const <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html">wxString</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceExpressionConsts#yh-Power">ExpressionConsts::Power</a> (<a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga7dfc2888539861afe6c4337ef315472b">_T</a>(&quot;^&quot;))</td></tr>
+<tr class="separator:yh-Power"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:eu-BitwiseAnd"><td class="memItemLeft" align="right" valign="top">const <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html">wxString</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceExpressionConsts#eu-BitwiseAnd">ExpressionConsts::BitwiseAnd</a> (<a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga7dfc2888539861afe6c4337ef315472b">_T</a>(&quot;&amp;&quot;))</td></tr>
+<tr class="separator:eu-BitwiseAnd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:cu-BitwiseOr"><td class="memItemLeft" align="right" valign="top">const <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html">wxString</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceExpressionConsts#cu-BitwiseOr">ExpressionConsts::BitwiseOr</a> (<a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga7dfc2888539861afe6c4337ef315472b">_T</a>(&quot;|&quot;))</td></tr>
+<tr class="separator:cu-BitwiseOr"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:jw-And"><td class="memItemLeft" align="right" valign="top">const <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html">wxString</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceExpressionConsts#jw-And">ExpressionConsts::And</a> (<a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga7dfc2888539861afe6c4337ef315472b">_T</a>(&quot;&amp;&amp;&quot;))</td></tr>
+<tr class="separator:jw-And"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:yi-Or"><td class="memItemLeft" align="right" valign="top">const <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html">wxString</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceExpressionConsts#yi-Or">ExpressionConsts::Or</a> (<a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga7dfc2888539861afe6c4337ef315472b">_T</a>(&quot;||&quot;))</td></tr>
+<tr class="separator:yi-Or"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:mf-Not"><td class="memItemLeft" align="right" valign="top">const <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html">wxString</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceExpressionConsts#mf-Not">ExpressionConsts::Not</a> (<a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga7dfc2888539861afe6c4337ef315472b">_T</a>(&quot;!&quot;))</td></tr>
+<tr class="separator:mf-Not"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:op-Equal"><td class="memItemLeft" align="right" valign="top">const <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html">wxString</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceExpressionConsts#op-Equal">ExpressionConsts::Equal</a> (<a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga7dfc2888539861afe6c4337ef315472b">_T</a>(&quot;==&quot;))</td></tr>
+<tr class="separator:op-Equal"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:en-Unequal"><td class="memItemLeft" align="right" valign="top">const <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html">wxString</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceExpressionConsts#en-Unequal">ExpressionConsts::Unequal</a> (<a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga7dfc2888539861afe6c4337ef315472b">_T</a>(&quot;!=&quot;))</td></tr>
+<tr class="separator:en-Unequal"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ca-GT"><td class="memItemLeft" align="right" valign="top">const <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html">wxString</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceExpressionConsts#ca-GT">ExpressionConsts::GT</a> (<a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga7dfc2888539861afe6c4337ef315472b">_T</a>(&quot;&gt;&quot;))</td></tr>
+<tr class="separator:ca-GT"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:en-LT"><td class="memItemLeft" align="right" valign="top">const <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html">wxString</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceExpressionConsts#en-LT">ExpressionConsts::LT</a> (<a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga7dfc2888539861afe6c4337ef315472b">_T</a>(&quot;&lt;&quot;))</td></tr>
+<tr class="separator:en-LT"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gb-GTOrEqual"><td class="memItemLeft" align="right" valign="top">const <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html">wxString</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceExpressionConsts#gb-GTOrEqual">ExpressionConsts::GTOrEqual</a> (<a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga7dfc2888539861afe6c4337ef315472b">_T</a>(&quot;&gt;=&quot;))</td></tr>
+<tr class="separator:gb-GTOrEqual"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:jr-LTOrEqual"><td class="memItemLeft" align="right" valign="top">const <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html">wxString</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceExpressionConsts#jr-LTOrEqual">ExpressionConsts::LTOrEqual</a> (<a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga7dfc2888539861afe6c4337ef315472b">_T</a>(&quot;&lt;=&quot;))</td></tr>
+<tr class="separator:jr-LTOrEqual"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:om-LShift"><td class="memItemLeft" align="right" valign="top">const <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html">wxString</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceExpressionConsts#om-LShift">ExpressionConsts::LShift</a> (<a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga7dfc2888539861afe6c4337ef315472b">_T</a>(&quot;&lt;&lt;&quot;))</td></tr>
+<tr class="separator:om-LShift"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ld-RShift"><td class="memItemLeft" align="right" valign="top">const <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html">wxString</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceExpressionConsts#ld-RShift">ExpressionConsts::RShift</a> (<a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga7dfc2888539861afe6c4337ef315472b">_T</a>(&quot;&gt;&gt;&quot;))</td></tr>
 <tr class="separator:ld-RShift"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>

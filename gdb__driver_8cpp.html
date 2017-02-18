@@ -19,7 +19,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Code::Blocks
-   &#160;<span id="projectnumber">SVN r10947</span>
+   &#160;<span id="projectnumber">SVN r11012</span>
    </div>
   </td>
  </tr>
@@ -45,7 +45,8 @@ $(function() {
   <div class="summary">
 <a href="#define-members">Macros</a> &#124;
 <a href="#enum-members">Enumerations</a> &#124;
-<a href="#func-members">Functions</a>  </div>
+<a href="#func-members">Functions</a> &#124;
+<a href="#var-members">Variables</a>  </div>
   <div class="headertitle">
 <div class="title">gdb_driver.cpp File Reference</div>  </div>
 </div><!--header-->
@@ -56,7 +57,7 @@ $(function() {
 <code>#include &quot;<a class="el" href="debuggeroptionsdlg_8h_source">debuggeroptionsdlg.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="debuggerstate_8h_source">debuggerstate.h</a>&quot;</code><br />
 <code>#include &lt;<a class="el" href="cbdebugger__interfaces_8h_source">cbdebugger_interfaces.h</a>&gt;</code><br />
-<code>#include &lt;<a class="el" href="manager_8h_source">manager.h</a>&gt;</code><br />
+<code>#include &lt;manager.h&gt;</code><br />
 <code>#include &lt;<a class="el" href="macrosmanager_8h_source">macrosmanager.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="configmanager_8h_source">configmanager.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="scriptingmanager_8h_source">scriptingmanager.h</a>&gt;</code><br />
@@ -67,16 +68,16 @@ $(function() {
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for gdb_driver.cpp:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="gdb__driver_8cpp__incl.svg" width="10463" height="724"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="gdb__driver_8cpp__incl.svg" width="2802" height="426"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 <p><a href="gdb__driver_8cpp_source">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
 Macros</h2></td></tr>
-<tr class="memitem:we-GDB_PROMPT"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gdb__driver_8cpp#we-GDB_PROMPT">GDB_PROMPT</a>&#160;&#160;&#160;_T(&quot;cb_gdb:&quot;)</td></tr>
+<tr class="memitem:we-GDB_PROMPT"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gdb__driver_8cpp#we-GDB_PROMPT">GDB_PROMPT</a>&#160;&#160;&#160;<a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga7dfc2888539861afe6c4337ef315472b">_T</a>(&quot;cb_gdb:&quot;)</td></tr>
 <tr class="separator:we-GDB_PROMPT"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gs-FULL_GDB_PROMPT"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gdb__driver_8cpp#gs-FULL_GDB_PROMPT">FULL_GDB_PROMPT</a>&#160;&#160;&#160;_T(&quot;&gt;&gt;&gt;&gt;&gt;&gt;&quot;) <a class="el" href="gdb__driver_8cpp#we-GDB_PROMPT">GDB_PROMPT</a></td></tr>
+<tr class="memitem:gs-FULL_GDB_PROMPT"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gdb__driver_8cpp#gs-FULL_GDB_PROMPT">FULL_GDB_PROMPT</a>&#160;&#160;&#160;<a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga7dfc2888539861afe6c4337ef315472b">_T</a>(&quot;&gt;&gt;&gt;&gt;&gt;&gt;&quot;) <a class="el" href="gdb__driver_8cpp#we-GDB_PROMPT">GDB_PROMPT</a></td></tr>
 <tr class="separator:gs-FULL_GDB_PROMPT"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
@@ -89,38 +90,41 @@ Enumerations</h2></td></tr>
 Functions</h2></td></tr>
 <tr class="memitem:ki-WX_DEFINE_OBJARRAY"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gdb__driver_8cpp#ki-WX_DEFINE_OBJARRAY">WX_DEFINE_OBJARRAY</a> (TypesArray)</td></tr>
 <tr class="separator:ki-WX_DEFINE_OBJARRAY"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:z1-reThreadSwitch"><td class="memItemLeft" align="right" valign="top">static wxRegEx&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gdb__driver_8cpp#z1-reThreadSwitch">reThreadSwitch</a> (_T(&quot;^\Switching to thread .*\#0[ \+(0x[A-Fa-f0-9]+) in (.*) from (.*)&quot;))</td></tr>
-<tr class="separator:z1-reThreadSwitch"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:il-reThreadSwitch2"><td class="memItemLeft" align="right" valign="top">static wxRegEx&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gdb__driver_8cpp#il-reThreadSwitch2">reThreadSwitch2</a> (_T(&quot;^\Switching to thread .*\#0[ \+(0x[A-Fa-f0-9]+) in (.*) from (.*):([0-9]+)&quot;))</td></tr>
-<tr class="separator:il-reThreadSwitch2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:xl-reBreak"><td class="memItemLeft" align="right" valign="top">static wxRegEx&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gdb__driver_8cpp#xl-reBreak">reBreak</a> (_T(&quot;\2*([A-Za-z]*[:]*)([^:]+):([0-9]+):[0-9]+:[begmidl]+:(0x[0-9A-Fa-f]+)&quot;))</td></tr>
-<tr class="separator:xl-reBreak"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:k2-reBreak2"><td class="memItemLeft" align="right" valign="top">static wxRegEx&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gdb__driver_8cpp#k2-reBreak2">reBreak2</a> (_T(&quot;^(0x[A-Fa-f0-9]+) in (.*) from (.*)&quot;))</td></tr>
-<tr class="separator:k2-reBreak2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:sy-reBreak3"><td class="memItemLeft" align="right" valign="top">static wxRegEx&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gdb__driver_8cpp#sy-reBreak3">reBreak3</a> (_T(&quot;^(0x[A-Fa-f0-9]+) in (.*)&quot;))</td></tr>
-<tr class="separator:sy-reBreak3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:h5-reCatchThrow"><td class="memItemLeft" align="right" valign="top">static wxRegEx&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gdb__driver_8cpp#h5-reCatchThrow">reCatchThrow</a> (_T(&quot;^Catchpoint ([0-9]+) \exception thrown\, (0x[0-9a-f]+) in (.+) from (.+)$&quot;))</td></tr>
-<tr class="separator:h5-reCatchThrow"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:iv-reCatchThrowNoFile"><td class="memItemLeft" align="right" valign="top">static wxRegEx&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gdb__driver_8cpp#iv-reCatchThrowNoFile">reCatchThrowNoFile</a> (_T(&quot;^Catchpoint ([0-9]+) \exception thrown\, (0x[0-9a-f]+) in (.+)$&quot;))</td></tr>
-<tr class="separator:iv-reCatchThrowNoFile"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:dn-rePendingFound"><td class="memItemLeft" align="right" valign="top">static wxRegEx&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gdb__driver_8cpp#dn-rePendingFound">rePendingFound</a> (_T(&quot;^Pending[ \+breakpoint[ \+[\+([A-Za-z]:)([^:]+):([0-9]+)\*&quot;))</td></tr>
-<tr class="separator:dn-rePendingFound"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:qo-rePendingFound1"><td class="memItemLeft" align="right" valign="top">static wxRegEx&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gdb__driver_8cpp#qo-rePendingFound1">rePendingFound1</a> (_T(&quot;^Breakpoint[ \+([0-9]+),.*&quot;))</td></tr>
-<tr class="separator:qo-rePendingFound1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:f8-reTempBreakFound"><td class="memItemLeft" align="right" valign="top">static wxRegEx&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gdb__driver_8cpp#f8-reTempBreakFound">reTempBreakFound</a> (wxT(&quot;^[Tt]emporary[ \breakpoint[ \([0-9]+),.*&quot;))</td></tr>
-<tr class="separator:f8-reTempBreakFound"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:w5-reChildPid1"><td class="memItemLeft" align="right" valign="top">static wxRegEx&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gdb__driver_8cpp#w5-reChildPid1">reChildPid1</a> (_T(&quot;Thread[ \+[xA-Fa-f0-9-]+[ \+\LWP ([0-9]+)\]&quot;))</td></tr>
-<tr class="separator:w5-reChildPid1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ou-reChildPid2"><td class="memItemLeft" align="right" valign="top">static wxRegEx&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gdb__driver_8cpp#ou-reChildPid2">reChildPid2</a> (_T(&quot;\New [tT]hread[ \+[0-9]+\[xA-Fa-f0-9-]+\&quot;))</td></tr>
-<tr class="separator:ou-reChildPid2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:pw-reAttachedChildPid"><td class="memItemLeft" align="right" valign="top">static wxRegEx&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gdb__driver_8cpp#pw-reAttachedChildPid">reAttachedChildPid</a> (wxT(&quot;Attaching to process ([0-9]+)&quot;))</td></tr>
-<tr class="separator:pw-reAttachedChildPid"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ge-reInferiorExited"><td class="memItemLeft" align="right" valign="top">static wxRegEx&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gdb__driver_8cpp#ge-reInferiorExited">reInferiorExited</a> (wxT(&quot;^\Inferior[ \].+[ \]exited normally\$&quot;), wxRE_EXTENDED)</td></tr>
-<tr class="separator:ge-reInferiorExited"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:eo-reInferiorExitedWithCode"><td class="memItemLeft" align="right" valign="top">static wxRegEx&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gdb__driver_8cpp#eo-reInferiorExitedWithCode">reInferiorExitedWithCode</a> (wxT(&quot;^\[Ii]nferior[ \].+[ \]exited[ \]with[ \]code[ \]([0-9]+)\$&quot;), wxRE_EXTENDED)</td></tr>
-<tr class="separator:eo-reInferiorExitedWithCode"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:r5-DECLARE_INSTANCE_TYPE"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gdb__driver_8cpp#r5-DECLARE_INSTANCE_TYPE">DECLARE_INSTANCE_TYPE</a> (<a class="el" href="classGDB__driver">GDB_driver</a>)</td></tr>
 <tr class="separator:r5-DECLARE_INSTANCE_TYPE"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:la-reThreadSwitch"><td class="memItemLeft" align="right" valign="top">static <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_reg_ex.html">wxRegEx</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gdb__driver_8cpp#la-reThreadSwitch">reThreadSwitch</a> (<a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga7dfc2888539861afe6c4337ef315472b">_T</a>(&quot;^\Switching to thread .*\#0[ \+(0x[A-Fa-f0-9]+) in (.*) from (.*)&quot;))</td></tr>
+<tr class="separator:la-reThreadSwitch"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:zu-reThreadSwitch2"><td class="memItemLeft" align="right" valign="top">static <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_reg_ex.html">wxRegEx</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gdb__driver_8cpp#zu-reThreadSwitch2">reThreadSwitch2</a> (<a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga7dfc2888539861afe6c4337ef315472b">_T</a>(&quot;^\Switching to thread .*\#0[ \+(0x[A-Fa-f0-9]+) in (.*) from (.*):([0-9]+)&quot;))</td></tr>
+<tr class="separator:zu-reThreadSwitch2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ue-reBreak"><td class="memItemLeft" align="right" valign="top">static <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_reg_ex.html">wxRegEx</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gdb__driver_8cpp#ue-reBreak">reBreak</a> (<a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga7dfc2888539861afe6c4337ef315472b">_T</a>(&quot;\2*([A-Za-z]*[:]*)([^:]+):([0-9]+):[0-9]+:[begmidl]+:(0x[0-9A-Fa-f]+)&quot;))</td></tr>
+<tr class="separator:ue-reBreak"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:mb-reBreak2"><td class="memItemLeft" align="right" valign="top">static <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_reg_ex.html">wxRegEx</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gdb__driver_8cpp#mb-reBreak2">reBreak2</a> (<a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga7dfc2888539861afe6c4337ef315472b">_T</a>(&quot;^(0x[A-Fa-f0-9]+) in (.*) from (.*)&quot;))</td></tr>
+<tr class="separator:mb-reBreak2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:i3-reBreak3"><td class="memItemLeft" align="right" valign="top">static <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_reg_ex.html">wxRegEx</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gdb__driver_8cpp#i3-reBreak3">reBreak3</a> (<a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga7dfc2888539861afe6c4337ef315472b">_T</a>(&quot;^(0x[A-Fa-f0-9]+) in (.*)&quot;))</td></tr>
+<tr class="separator:i3-reBreak3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:j5-reCatchThrow"><td class="memItemLeft" align="right" valign="top">static <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_reg_ex.html">wxRegEx</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gdb__driver_8cpp#j5-reCatchThrow">reCatchThrow</a> (<a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga7dfc2888539861afe6c4337ef315472b">_T</a>(&quot;^Catchpoint ([0-9]+) \exception thrown\, (0x[0-9a-f]+) in (.+) from (.+)$&quot;))</td></tr>
+<tr class="separator:j5-reCatchThrow"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:zx-reCatchThrowNoFile"><td class="memItemLeft" align="right" valign="top">static <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_reg_ex.html">wxRegEx</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gdb__driver_8cpp#zx-reCatchThrowNoFile">reCatchThrowNoFile</a> (<a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga7dfc2888539861afe6c4337ef315472b">_T</a>(&quot;^Catchpoint ([0-9]+) \exception thrown\, (0x[0-9a-f]+) in (.+)$&quot;))</td></tr>
+<tr class="separator:zx-reCatchThrowNoFile"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:p3-rePendingFound"><td class="memItemLeft" align="right" valign="top">static <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_reg_ex.html">wxRegEx</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gdb__driver_8cpp#p3-rePendingFound">rePendingFound</a> (<a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga7dfc2888539861afe6c4337ef315472b">_T</a>(&quot;^Pending[ \+breakpoint[ \+[\+([A-Za-z]:)([^:]+):([0-9]+)\*&quot;))</td></tr>
+<tr class="separator:p3-rePendingFound"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:uj-rePendingFound1"><td class="memItemLeft" align="right" valign="top">static <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_reg_ex.html">wxRegEx</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gdb__driver_8cpp#uj-rePendingFound1">rePendingFound1</a> (<a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga7dfc2888539861afe6c4337ef315472b">_T</a>(&quot;^Breakpoint[ \+([0-9]+),.*&quot;))</td></tr>
+<tr class="separator:uj-rePendingFound1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:i0-reTempBreakFound"><td class="memItemLeft" align="right" valign="top">static <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_reg_ex.html">wxRegEx</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gdb__driver_8cpp#i0-reTempBreakFound">reTempBreakFound</a> (<a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga437ea6ba615b75dac8603e96ec864160">wxT</a>(&quot;^[Tt]emporary[ \breakpoint[ \([0-9]+),.*&quot;))</td></tr>
+<tr class="separator:i0-reTempBreakFound"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:uy-reChildPid1"><td class="memItemLeft" align="right" valign="top">static <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_reg_ex.html">wxRegEx</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gdb__driver_8cpp#uy-reChildPid1">reChildPid1</a> (<a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga7dfc2888539861afe6c4337ef315472b">_T</a>(&quot;Thread[ \+[xA-Fa-f0-9-]+[ \+\LWP ([0-9]+)\]&quot;))</td></tr>
+<tr class="separator:uy-reChildPid1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gx-reChildPid2"><td class="memItemLeft" align="right" valign="top">static <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_reg_ex.html">wxRegEx</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gdb__driver_8cpp#gx-reChildPid2">reChildPid2</a> (<a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga7dfc2888539861afe6c4337ef315472b">_T</a>(&quot;\New [tT]hread[ \+[0-9]+\[xA-Fa-f0-9-]+\&quot;))</td></tr>
+<tr class="separator:gx-reChildPid2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:tz-reAttachedChildPid"><td class="memItemLeft" align="right" valign="top">static <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_reg_ex.html">wxRegEx</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gdb__driver_8cpp#tz-reAttachedChildPid">reAttachedChildPid</a> (<a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga437ea6ba615b75dac8603e96ec864160">wxT</a>(&quot;Attaching to process ([0-9]+)&quot;))</td></tr>
+<tr class="separator:tz-reAttachedChildPid"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:dk-reInferiorExited"><td class="memItemLeft" align="right" valign="top">static <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_reg_ex.html">wxRegEx</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gdb__driver_8cpp#dk-reInferiorExited">reInferiorExited</a> (<a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga437ea6ba615b75dac8603e96ec864160">wxT</a>(&quot;^\Inferior[ \].+[ \]exited normally\$&quot;), wxRE_EXTENDED)</td></tr>
+<tr class="separator:dk-reInferiorExited"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:pe-reInferiorExitedWithCode"><td class="memItemLeft" align="right" valign="top">static <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_reg_ex.html">wxRegEx</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gdb__driver_8cpp#pe-reInferiorExitedWithCode">reInferiorExitedWithCode</a> (<a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga437ea6ba615b75dac8603e96ec864160">wxT</a>(&quot;^\[Ii]nferior[ \].+[ \]exited[ \]with[ \]code[ \]([0-9]+)\$&quot;), wxRE_EXTENDED)</td></tr>
+<tr class="separator:pe-reInferiorExitedWithCode"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
 <a id="gs-FULL_GDB_PROMPT"></a>
@@ -130,7 +134,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define FULL_GDB_PROMPT&#160;&#160;&#160;_T(&quot;&gt;&gt;&gt;&gt;&gt;&gt;&quot;) <a class="el" href="gdb__driver_8cpp#we-GDB_PROMPT">GDB_PROMPT</a></td>
+          <td class="memname">#define FULL_GDB_PROMPT&#160;&#160;&#160;<a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga7dfc2888539861afe6c4337ef315472b">_T</a>(&quot;&gt;&gt;&gt;&gt;&gt;&gt;&quot;) <a class="el" href="gdb__driver_8cpp#we-GDB_PROMPT">GDB_PROMPT</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -148,7 +152,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define GDB_PROMPT&#160;&#160;&#160;_T(&quot;cb_gdb:&quot;)</td>
+          <td class="memname">#define GDB_PROMPT&#160;&#160;&#160;<a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga7dfc2888539861afe6c4337ef315472b">_T</a>(&quot;cb_gdb:&quot;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -198,444 +202,6 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="pw-reAttachedChildPid"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#pw-reAttachedChildPid">&#9670;&nbsp;</a></span>reAttachedChildPid()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static wxRegEx reAttachedChildPid </td>
-          <td>(</td>
-          <td class="paramtype">wxT(&quot;Attaching to process ([0-9]+)&quot;)&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="xl-reBreak"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#xl-reBreak">&#9670;&nbsp;</a></span>reBreak()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static wxRegEx reBreak </td>
-          <td>(</td>
-          <td class="paramtype">_T(&quot;\*([A-Za-z]*[:]*)([^:]+):([0-9]+):[0-9]+:[begmidl]+:(0x[0-9A-Fa-f]+)&quot;)&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="gdb__driver_8h_source#l00093">GDB_driver::AsmFlavour()</a>, and <a class="el" href="gdb__driver_8cpp_source#l00777">GDB_driver::ParseOutput()</a>.</p>
-
-</div>
-</div>
-<a id="k2-reBreak2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#k2-reBreak2">&#9670;&nbsp;</a></span>reBreak2()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static wxRegEx reBreak2 </td>
-          <td>(</td>
-          <td class="paramtype">_T(&quot;^(0x[A-Fa-f0-9]+) in (.*) from (.*)&quot;)&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="gdb__driver_8cpp_source#l00777">GDB_driver::ParseOutput()</a>.</p>
-
-</div>
-</div>
-<a id="sy-reBreak3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#sy-reBreak3">&#9670;&nbsp;</a></span>reBreak3()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static wxRegEx reBreak3 </td>
-          <td>(</td>
-          <td class="paramtype">_T(&quot;^(0x[A-Fa-f0-9]+) in (.*)&quot;)&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="gdb__driver_8cpp_source#l00777">GDB_driver::ParseOutput()</a>.</p>
-
-</div>
-</div>
-<a id="h5-reCatchThrow"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#h5-reCatchThrow">&#9670;&nbsp;</a></span>reCatchThrow()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static wxRegEx reCatchThrow </td>
-          <td>(</td>
-          <td class="paramtype">_T(&quot;^Catchpoint ([0-9]+) \xception thrown\ (0x[0-9a-f]+) in (.+) from (.+)$&quot;)&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="gdb__driver_8cpp_source#l00777">GDB_driver::ParseOutput()</a>.</p>
-
-</div>
-</div>
-<a id="iv-reCatchThrowNoFile"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#iv-reCatchThrowNoFile">&#9670;&nbsp;</a></span>reCatchThrowNoFile()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static wxRegEx reCatchThrowNoFile </td>
-          <td>(</td>
-          <td class="paramtype">_T(&quot;^Catchpoint ([0-9]+) \xception thrown\ (0x[0-9a-f]+) in (.+)$&quot;)&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="gdb__driver_8cpp_source#l00777">GDB_driver::ParseOutput()</a>.</p>
-
-</div>
-</div>
-<a id="w5-reChildPid1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#w5-reChildPid1">&#9670;&nbsp;</a></span>reChildPid1()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static wxRegEx reChildPid1 </td>
-          <td>(</td>
-          <td class="paramtype">_T(&quot;Thread[ \[xA-Fa-f0-9-]+[ \\WP ([0-9]+)\&quot;)&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="gdb__driver_8cpp_source#l00777">GDB_driver::ParseOutput()</a>.</p>
-
-</div>
-</div>
-<a id="ou-reChildPid2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ou-reChildPid2">&#9670;&nbsp;</a></span>reChildPid2()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static wxRegEx reChildPid2 </td>
-          <td>(</td>
-          <td class="paramtype">_T(&quot;\ew [tT]hread[ \[0-9]+\xA-Fa-f0-9-]+\)&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="gdb__driver_8cpp_source#l00777">GDB_driver::ParseOutput()</a>.</p>
-
-</div>
-</div>
-<a id="ge-reInferiorExited"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ge-reInferiorExited">&#9670;&nbsp;</a></span>reInferiorExited()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static wxRegEx reInferiorExited </td>
-          <td>(</td>
-          <td class="paramtype">wxT(&quot;^\nferior[ \.+[ \exited normally\&quot;)&#160;</td>
-          <td class="paramname">, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">wxRE_EXTENDED&#160;</td>
-          <td class="paramname">&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="gdb__driver_8cpp_source#l00777">GDB_driver::ParseOutput()</a>.</p>
-
-</div>
-</div>
-<a id="eo-reInferiorExitedWithCode"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#eo-reInferiorExitedWithCode">&#9670;&nbsp;</a></span>reInferiorExitedWithCode()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static wxRegEx reInferiorExitedWithCode </td>
-          <td>(</td>
-          <td class="paramtype">wxT(&quot;^\Ii]nferior[ \.+[ \exited[ \with[ \code[ \([0-9]+)\&quot;)&#160;</td>
-          <td class="paramname">, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">wxRE_EXTENDED&#160;</td>
-          <td class="paramname">&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="gdb__driver_8cpp_source#l00777">GDB_driver::ParseOutput()</a>.</p>
-
-</div>
-</div>
-<a id="dn-rePendingFound"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#dn-rePendingFound">&#9670;&nbsp;</a></span>rePendingFound()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static wxRegEx rePendingFound </td>
-          <td>(</td>
-          <td class="paramtype">_T(&quot;^Pending[ \breakpoint[ \[\([A-Za-z]:)([^:]+):([0-9]+)\&quot;)&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="gdb__driver_8cpp_source#l00777">GDB_driver::ParseOutput()</a>.</p>
-
-</div>
-</div>
-<a id="qo-rePendingFound1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#qo-rePendingFound1">&#9670;&nbsp;</a></span>rePendingFound1()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static wxRegEx rePendingFound1 </td>
-          <td>(</td>
-          <td class="paramtype">_T(&quot;^Breakpoint[ \([0-9]+),.*&quot;)&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="gdb__driver_8cpp_source#l00777">GDB_driver::ParseOutput()</a>.</p>
-
-</div>
-</div>
-<a id="f8-reTempBreakFound"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#f8-reTempBreakFound">&#9670;&nbsp;</a></span>reTempBreakFound()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static wxRegEx reTempBreakFound </td>
-          <td>(</td>
-          <td class="paramtype">wxT(&quot;^[Tt]emporary[ \reakpoint[ \[0-9]+),.*&quot;)&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="gdb__driver_8cpp_source#l00777">GDB_driver::ParseOutput()</a>.</p>
-
-</div>
-</div>
-<a id="z1-reThreadSwitch"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#z1-reThreadSwitch">&#9670;&nbsp;</a></span>reThreadSwitch()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static wxRegEx reThreadSwitch </td>
-          <td>(</td>
-          <td class="paramtype">_T(&quot;^\witching to thread .*\0[ \(0x[A-Fa-f0-9]+) in (.*) from (.*)&quot;)&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="gdb__driver_8cpp_source#l00777">GDB_driver::ParseOutput()</a>.</p>
-
-</div>
-</div>
-<a id="il-reThreadSwitch2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#il-reThreadSwitch2">&#9670;&nbsp;</a></span>reThreadSwitch2()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static wxRegEx reThreadSwitch2 </td>
-          <td>(</td>
-          <td class="paramtype">_T(&quot;^\witching to thread .*\0[ \(0x[A-Fa-f0-9]+) in (.*) from (.*):([0-9]+)&quot;)&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="gdb__driver_8cpp_source#l00777">GDB_driver::ParseOutput()</a>.</p>
-
-</div>
-</div>
 <a id="ki-WX_DEFINE_OBJARRAY"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ki-WX_DEFINE_OBJARRAY">&#9670;&nbsp;</a></span>WX_DEFINE_OBJARRAY()</h2>
 
@@ -651,6 +217,365 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Variable Documentation</h2>
+<a id="tz-reAttachedChildPid"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#tz-reAttachedChildPid">&#9670;&nbsp;</a></span>reAttachedChildPid</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_reg_ex.html">wxRegEx</a> reAttachedChildPid(<a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga437ea6ba615b75dac8603e96ec864160">wxT</a>(&quot;Attaching to process ([0-9]+)&quot;))</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ue-reBreak"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ue-reBreak">&#9670;&nbsp;</a></span>reBreak</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_reg_ex.html">wxRegEx</a> reBreak(<a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga7dfc2888539861afe6c4337ef315472b">_T</a>(&quot;\32*([A-Za-z]*[:]*)([^:]+):([0-9]+):[0-9]+:[begmidl]+:(0x[0-9A-Fa-f]+)&quot;))</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="gdb__driver_8h_source#l00093">GDB_driver::AsmFlavour()</a>, and <a class="el" href="gdb__driver_8cpp_source#l00777">GDB_driver::ParseOutput()</a>.</p>
+
+</div>
+</div>
+<a id="mb-reBreak2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#mb-reBreak2">&#9670;&nbsp;</a></span>reBreak2</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_reg_ex.html">wxRegEx</a> reBreak2(<a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga7dfc2888539861afe6c4337ef315472b">_T</a>(&quot;^(0x[A-Fa-f0-9]+) in (.*) from (.*)&quot;))</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="gdb__driver_8cpp_source#l00777">GDB_driver::ParseOutput()</a>.</p>
+
+</div>
+</div>
+<a id="i3-reBreak3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#i3-reBreak3">&#9670;&nbsp;</a></span>reBreak3</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_reg_ex.html">wxRegEx</a> reBreak3(<a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga7dfc2888539861afe6c4337ef315472b">_T</a>(&quot;^(0x[A-Fa-f0-9]+) in (.*)&quot;))</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="gdb__driver_8cpp_source#l00777">GDB_driver::ParseOutput()</a>.</p>
+
+</div>
+</div>
+<a id="j5-reCatchThrow"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#j5-reCatchThrow">&#9670;&nbsp;</a></span>reCatchThrow</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_reg_ex.html">wxRegEx</a> reCatchThrow(<a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga7dfc2888539861afe6c4337ef315472b">_T</a>(&quot;^Catchpoint ([0-9]+) \(exception thrown\), (0x[0-9a-f]+) in (.+) from (.+)$&quot;))</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="gdb__driver_8cpp_source#l00777">GDB_driver::ParseOutput()</a>.</p>
+
+</div>
+</div>
+<a id="zx-reCatchThrowNoFile"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#zx-reCatchThrowNoFile">&#9670;&nbsp;</a></span>reCatchThrowNoFile</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_reg_ex.html">wxRegEx</a> reCatchThrowNoFile(<a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga7dfc2888539861afe6c4337ef315472b">_T</a>(&quot;^Catchpoint ([0-9]+) \(exception thrown\), (0x[0-9a-f]+) in (.+)$&quot;))</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="gdb__driver_8cpp_source#l00777">GDB_driver::ParseOutput()</a>.</p>
+
+</div>
+</div>
+<a id="uy-reChildPid1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#uy-reChildPid1">&#9670;&nbsp;</a></span>reChildPid1</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_reg_ex.html">wxRegEx</a> reChildPid1(<a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga7dfc2888539861afe6c4337ef315472b">_T</a>(&quot;Thread[ \]+[xA-Fa-f0-9-]+[ \]+\(LWP ([0-9]+)\)]&quot;))</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="gdb__driver_8cpp_source#l00777">GDB_driver::ParseOutput()</a>.</p>
+
+</div>
+</div>
+<a id="gx-reChildPid2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gx-reChildPid2">&#9670;&nbsp;</a></span>reChildPid2</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_reg_ex.html">wxRegEx</a> reChildPid2(<a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga7dfc2888539861afe6c4337ef315472b">_T</a>(&quot;\[New [tT]hread[ \]+[0-9]+\.[xA-Fa-f0-9-]+\]&quot;))</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="gdb__driver_8cpp_source#l00777">GDB_driver::ParseOutput()</a>.</p>
+
+</div>
+</div>
+<a id="dk-reInferiorExited"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#dk-reInferiorExited">&#9670;&nbsp;</a></span>reInferiorExited</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_reg_ex.html">wxRegEx</a> reInferiorExited(<a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga437ea6ba615b75dac8603e96ec864160">wxT</a>(&quot;^\[Inferior[ \t].+[ \t]exited normally\]$&quot;), wxRE_EXTENDED)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="gdb__driver_8cpp_source#l00777">GDB_driver::ParseOutput()</a>.</p>
+
+</div>
+</div>
+<a id="pe-reInferiorExitedWithCode"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#pe-reInferiorExitedWithCode">&#9670;&nbsp;</a></span>reInferiorExitedWithCode</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_reg_ex.html">wxRegEx</a> reInferiorExitedWithCode(<a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga437ea6ba615b75dac8603e96ec864160">wxT</a>(&quot;^\[[Ii]nferior[ \t].+[ \t]exited[ \t]with[ \t]code[ \t]([0-9]+)\]$&quot;), wxRE_EXTENDED)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="gdb__driver_8cpp_source#l00777">GDB_driver::ParseOutput()</a>.</p>
+
+</div>
+</div>
+<a id="p3-rePendingFound"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#p3-rePendingFound">&#9670;&nbsp;</a></span>rePendingFound</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_reg_ex.html">wxRegEx</a> rePendingFound(<a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga7dfc2888539861afe6c4337ef315472b">_T</a>(&quot;^Pending[ \]+breakpoint[ \]+[\]+([A-Za-z]:)([^:]+):([0-9]+)\.*&quot;))</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="gdb__driver_8cpp_source#l00777">GDB_driver::ParseOutput()</a>.</p>
+
+</div>
+</div>
+<a id="uj-rePendingFound1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#uj-rePendingFound1">&#9670;&nbsp;</a></span>rePendingFound1</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_reg_ex.html">wxRegEx</a> rePendingFound1(<a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga7dfc2888539861afe6c4337ef315472b">_T</a>(&quot;^Breakpoint[ \]+([0-9]+),.*&quot;))</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="gdb__driver_8cpp_source#l00777">GDB_driver::ParseOutput()</a>.</p>
+
+</div>
+</div>
+<a id="i0-reTempBreakFound"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#i0-reTempBreakFound">&#9670;&nbsp;</a></span>reTempBreakFound</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_reg_ex.html">wxRegEx</a> reTempBreakFound(<a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga437ea6ba615b75dac8603e96ec864160">wxT</a>(&quot;^[Tt]emporary[ \]breakpoint[ \]([0-9]+),.*&quot;))</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="gdb__driver_8cpp_source#l00777">GDB_driver::ParseOutput()</a>.</p>
+
+</div>
+</div>
+<a id="la-reThreadSwitch"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#la-reThreadSwitch">&#9670;&nbsp;</a></span>reThreadSwitch</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_reg_ex.html">wxRegEx</a> reThreadSwitch(<a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga7dfc2888539861afe6c4337ef315472b">_T</a>(&quot;^\[Switching to thread .*\]#0[ \]+(0x[A-Fa-f0-9]+) in (.*) from (.*)&quot;))</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="gdb__driver_8cpp_source#l00777">GDB_driver::ParseOutput()</a>.</p>
+
+</div>
+</div>
+<a id="zu-reThreadSwitch2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#zu-reThreadSwitch2">&#9670;&nbsp;</a></span>reThreadSwitch2</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_reg_ex.html">wxRegEx</a> reThreadSwitch2(<a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga7dfc2888539861afe6c4337ef315472b">_T</a>(&quot;^\[Switching to thread .*\]#0[ \]+(0x[A-Fa-f0-9]+) in (.*) from (.*):([0-9]+)&quot;))</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="gdb__driver_8cpp_source#l00777">GDB_driver::ParseOutput()</a>.</p>
 
 </div>
 </div>

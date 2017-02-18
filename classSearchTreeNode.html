@@ -19,7 +19,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Code::Blocks
-   &#160;<span id="projectnumber">SVN r10947</span>
+   &#160;<span id="projectnumber">SVN r11012</span>
    </div>
   </td>
  </tr>
@@ -73,7 +73,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:jk-SetParent"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSearchTreeNode#jk-SetParent">SetParent</a> (<a class="el" href="searchtree_8h#an-nSearchTreeNode">nSearchTreeNode</a> newparent)</td></tr>
 <tr class="memdesc:jk-SetParent"><td class="mdescLeft">&#160;</td><td class="mdescRight">set the parent node index  <a href="#jk-SetParent">More...</a><br /></td></tr>
 <tr class="separator:jk-SetParent"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:s6-GetChild"><td class="memItemLeft" align="right" valign="top"><a class="el" href="searchtree_8h#an-nSearchTreeNode">nSearchTreeNode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSearchTreeNode#s6-GetChild">GetChild</a> (wxChar ch)</td></tr>
+<tr class="memitem:s6-GetChild"><td class="memItemLeft" align="right" valign="top"><a class="el" href="searchtree_8h#an-nSearchTreeNode">nSearchTreeNode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSearchTreeNode#s6-GetChild">GetChild</a> (<a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#gad42f64d8c82f1ce4ae58773a89b2d6a7">wxChar</a> ch)</td></tr>
 <tr class="memdesc:s6-GetChild"><td class="mdescLeft">&#160;</td><td class="mdescRight">This will loop of the link map of the node, and find the child node with its edge beginning with the single character, return the valid node index then, if no such child node exists, it simply return 0.  <a href="#s6-GetChild">More...</a><br /></td></tr>
 <tr class="separator:s6-GetChild"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:g7-GetItemNo"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSearchTreeNode#g7-GetItemNo">GetItemNo</a> (size_t depth)</td></tr>
@@ -85,16 +85,16 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:yz-GetParent"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classSearchTreeNode">SearchTreeNode</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSearchTreeNode#yz-GetParent">GetParent</a> (const <a class="el" href="classBasicSearchTree">BasicSearchTree</a> *tree) const</td></tr>
 <tr class="memdesc:yz-GetParent"><td class="mdescLeft">&#160;</td><td class="mdescRight">get the parent node pointer, this is simply a wrapper function of nSearchTreeNode <a class="el" href="classSearchTreeNode#ud-GetParent" title="return the parent node index ">GetParent()</a>  <a href="#yz-GetParent">More...</a><br /></td></tr>
 <tr class="separator:yz-GetParent"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:os-GetChild"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classSearchTreeNode">SearchTreeNode</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSearchTreeNode#os-GetChild">GetChild</a> (<a class="el" href="classBasicSearchTree">BasicSearchTree</a> *tree, wxChar ch)</td></tr>
+<tr class="memitem:os-GetChild"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classSearchTreeNode">SearchTreeNode</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSearchTreeNode#os-GetChild">GetChild</a> (<a class="el" href="classBasicSearchTree">BasicSearchTree</a> *tree, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#gad42f64d8c82f1ce4ae58773a89b2d6a7">wxChar</a> ch)</td></tr>
 <tr class="memdesc:os-GetChild"><td class="mdescLeft">&#160;</td><td class="mdescRight">return a child node pointer, this is simply a wrapper function of <a class="el" href="classSearchTreeNode#s6-GetChild" title="This will loop of the link map of the node, and find the child node with its edge beginning with the ...">GetChild(wxChar ch)</a>, besides that it use the valid node index to reference a valid node instance address.  <a href="#os-GetChild">More...</a><br /></td></tr>
 <tr class="separator:os-GetChild"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:lr-GetLabel"><td class="memItemLeft" align="right" valign="top">wxString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSearchTreeNode#lr-GetLabel">GetLabel</a> (const <a class="el" href="classBasicSearchTree">BasicSearchTree</a> *tree) const</td></tr>
+<tr class="memitem:lr-GetLabel"><td class="memItemLeft" align="right" valign="top"><a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html">wxString</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSearchTreeNode#lr-GetLabel">GetLabel</a> (const <a class="el" href="classBasicSearchTree">BasicSearchTree</a> *tree) const</td></tr>
 <tr class="memdesc:lr-GetLabel"><td class="mdescLeft">&#160;</td><td class="mdescRight">get the incoming edge string of the node, in the above example, it is "hysi" for node(2)  <a href="#lr-GetLabel">More...</a><br /></td></tr>
 <tr class="separator:lr-GetLabel"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:jw-GetChar"><td class="memItemLeft" align="right" valign="top">wxChar&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSearchTreeNode#jw-GetChar">GetChar</a> (const <a class="el" href="classBasicSearchTree">BasicSearchTree</a> *tree) const</td></tr>
+<tr class="memitem:jw-GetChar"><td class="memItemLeft" align="right" valign="top"><a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#gad42f64d8c82f1ce4ae58773a89b2d6a7">wxChar</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSearchTreeNode#jw-GetChar">GetChar</a> (const <a class="el" href="classBasicSearchTree">BasicSearchTree</a> *tree) const</td></tr>
 <tr class="memdesc:jw-GetChar"><td class="mdescLeft">&#160;</td><td class="mdescRight">get first character of the incoming edge, in the above example, it is 'h' for node(2)  <a href="#jw-GetChar">More...</a><br /></td></tr>
 <tr class="separator:jw-GetChar"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:wh-GetActualLabel"><td class="memItemLeft" align="right" valign="top">const wxString &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSearchTreeNode#wh-GetActualLabel">GetActualLabel</a> (const <a class="el" href="classBasicSearchTree">BasicSearchTree</a> *tree) const</td></tr>
+<tr class="memitem:wh-GetActualLabel"><td class="memItemLeft" align="right" valign="top">const <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html">wxString</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSearchTreeNode#wh-GetActualLabel">GetActualLabel</a> (const <a class="el" href="classBasicSearchTree">BasicSearchTree</a> *tree) const</td></tr>
 <tr class="memdesc:wh-GetActualLabel"><td class="mdescLeft">&#160;</td><td class="mdescRight">get the full label string, note the incoming edge is only a sub string of the full label  <a href="#wh-GetActualLabel">More...</a><br /></td></tr>
 <tr class="separator:wh-GetActualLabel"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:mx-GetLabelNo"><td class="memItemLeft" align="right" valign="top"><a class="el" href="searchtree_8h#ut-nSearchTreeLabel">nSearchTreeLabel</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSearchTreeNode#mx-GetLabelNo">GetLabelNo</a> () const</td></tr>
@@ -124,29 +124,29 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a1-IsLeaf"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSearchTreeNode#a1-IsLeaf">IsLeaf</a> () const</td></tr>
 <tr class="memdesc:a1-IsLeaf"><td class="mdescLeft">&#160;</td><td class="mdescRight">check to see this node is a leaf node.  <a href="#a1-IsLeaf">More...</a><br /></td></tr>
 <tr class="separator:a1-IsLeaf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ok-GetDeepestMatchingPosition"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSearchTreeNode#ok-GetDeepestMatchingPosition">GetDeepestMatchingPosition</a> (<a class="el" href="classBasicSearchTree">BasicSearchTree</a> *tree, const wxString &amp;s, unsigned int StringStartDepth)</td></tr>
+<tr class="memitem:ok-GetDeepestMatchingPosition"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSearchTreeNode#ok-GetDeepestMatchingPosition">GetDeepestMatchingPosition</a> (<a class="el" href="classBasicSearchTree">BasicSearchTree</a> *tree, const <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html">wxString</a> &amp;s, unsigned int StringStartDepth)</td></tr>
 <tr class="memdesc:ok-GetDeepestMatchingPosition"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the deepest position where the string matches the edge's label.  <a href="#ok-GetDeepestMatchingPosition">More...</a><br /></td></tr>
 <tr class="separator:ok-GetDeepestMatchingPosition"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:eg-Serialize"><td class="memItemLeft" align="right" valign="top">wxString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSearchTreeNode#eg-Serialize">Serialize</a> (<a class="el" href="classBasicSearchTree">BasicSearchTree</a> *tree, <a class="el" href="searchtree_8h#an-nSearchTreeNode">nSearchTreeNode</a> node_id, bool withchildren=false)</td></tr>
+<tr class="memitem:eg-Serialize"><td class="memItemLeft" align="right" valign="top"><a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html">wxString</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSearchTreeNode#eg-Serialize">Serialize</a> (<a class="el" href="classBasicSearchTree">BasicSearchTree</a> *tree, <a class="el" href="searchtree_8h#an-nSearchTreeNode">nSearchTreeNode</a> node_id, bool withchildren=false)</td></tr>
 <tr class="memdesc:eg-Serialize"><td class="mdescLeft">&#160;</td><td class="mdescRight">serialize the node information to a string  <a href="#eg-Serialize">More...</a><br /></td></tr>
 <tr class="separator:eg-Serialize"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ak-Dump"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSearchTreeNode#ak-Dump">Dump</a> (<a class="el" href="classBasicSearchTree">BasicSearchTree</a> *tree, <a class="el" href="searchtree_8h#an-nSearchTreeNode">nSearchTreeNode</a> node_id, const wxString &amp;prefix, wxString &amp;result)</td></tr>
+<tr class="memitem:ak-Dump"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSearchTreeNode#ak-Dump">Dump</a> (<a class="el" href="classBasicSearchTree">BasicSearchTree</a> *tree, <a class="el" href="searchtree_8h#an-nSearchTreeNode">nSearchTreeNode</a> node_id, const <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html">wxString</a> &amp;prefix, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html">wxString</a> &amp;result)</td></tr>
 <tr class="memdesc:ak-Dump"><td class="mdescLeft">&#160;</td><td class="mdescRight">pretty print the node to a string, used for debugging  <a href="#ak-Dump">More...</a><br /></td></tr>
 <tr class="separator:ak-Dump"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:bn-SerializeString"><td class="memItemLeft" align="right" valign="top">static wxString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSearchTreeNode#bn-SerializeString">SerializeString</a> (const wxString &amp;s)</td></tr>
+<tr class="memitem:bn-SerializeString"><td class="memItemLeft" align="right" valign="top">static <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html">wxString</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSearchTreeNode#bn-SerializeString">SerializeString</a> (const <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html">wxString</a> &amp;s)</td></tr>
 <tr class="separator:bn-SerializeString"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:g0-U2S"><td class="memItemLeft" align="right" valign="top">static wxString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSearchTreeNode#g0-U2S">U2S</a> (unsigned int u)</td></tr>
+<tr class="memitem:g0-U2S"><td class="memItemLeft" align="right" valign="top">static <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html">wxString</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSearchTreeNode#g0-U2S">U2S</a> (unsigned int u)</td></tr>
 <tr class="separator:g0-U2S"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:fx-I2S"><td class="memItemLeft" align="right" valign="top">static wxString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSearchTreeNode#fx-I2S">I2S</a> (int i)</td></tr>
+<tr class="memitem:fx-I2S"><td class="memItemLeft" align="right" valign="top">static <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html">wxString</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSearchTreeNode#fx-I2S">I2S</a> (int i)</td></tr>
 <tr class="separator:fx-I2S"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:sh-UnSerializeString"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSearchTreeNode#sh-UnSerializeString">UnSerializeString</a> (const wxString &amp;s, wxString &amp;result)</td></tr>
+<tr class="memitem:sh-UnSerializeString"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSearchTreeNode#sh-UnSerializeString">UnSerializeString</a> (const <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html">wxString</a> &amp;s, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html">wxString</a> &amp;result)</td></tr>
 <tr class="separator:sh-UnSerializeString"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aj-S2U"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSearchTreeNode#aj-S2U">S2U</a> (const wxString &amp;s, unsigned int &amp;u)</td></tr>
+<tr class="memitem:aj-S2U"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSearchTreeNode#aj-S2U">S2U</a> (const <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html">wxString</a> &amp;s, unsigned int &amp;u)</td></tr>
 <tr class="separator:aj-S2U"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:kv-S2I"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSearchTreeNode#kv-S2I">S2I</a> (const wxString &amp;s, int &amp;i)</td></tr>
+<tr class="memitem:kv-S2I"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSearchTreeNode#kv-S2I">S2I</a> (const <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html">wxString</a> &amp;s, int &amp;i)</td></tr>
 <tr class="separator:kv-S2I"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
@@ -338,13 +338,13 @@ Friends</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const wxString &amp;&#160;</td>
+          <td class="paramtype">const <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html">wxString</a> &amp;&#160;</td>
           <td class="paramname"><em>prefix</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">wxString &amp;&#160;</td>
+          <td class="paramtype"><a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html">wxString</a> &amp;&#160;</td>
           <td class="paramname"><em>result</em>&#160;</td>
         </tr>
         <tr>
@@ -359,7 +359,7 @@ Friends</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="searchtree_8cpp_source#l00495">495</a> of file <a class="el" href="searchtree_8cpp_source">searchtree.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="searchtree_8cpp_source#l00495">Dump()</a>, <a class="el" href="searchtree_8cpp_source#l00290">GetLabel()</a>, <a class="el" href="searchtree_8cpp_source#l00587">BasicSearchTree::GetNode()</a>, <a class="el" href="searchtree_8h_source#l00268">m_Children</a>, <a class="el" href="searchtree_8cpp_source#l01010">SerializeString()</a>, and <a class="el" href="searchtree_8cpp_source#l00415">U2S()</a>.</p>
+<p class="reference">References <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga7dfc2888539861afe6c4337ef315472b">_T</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#aa07c1e103eea1da6bfd91a6aa33bfa15">wxString::append()</a>, <a class="el" href="searchtree_8cpp_source#l00495">Dump()</a>, <a class="el" href="searchtree_8cpp_source#l00290">GetLabel()</a>, <a class="el" href="searchtree_8cpp_source#l00587">BasicSearchTree::GetNode()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#af63f200410b56436a830550905e20539">wxString::length()</a>, <a class="el" href="searchtree_8h_source#l00268">m_Children</a>, <a class="el" href="searchtree_8cpp_source#l01010">SerializeString()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#af7832aeeec723684a92e2beafbd45af1">wxString::substr()</a>, and <a class="el" href="searchtree_8cpp_source#l00415">U2S()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="searchtree_8cpp_source#l00495">Dump()</a>.</p>
 
@@ -375,7 +375,7 @@ Friends</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const wxString &amp; SearchTreeNode::GetActualLabel </td>
+          <td class="memname">const <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html">wxString</a> &amp; SearchTreeNode::GetActualLabel </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="classBasicSearchTree">BasicSearchTree</a> *&#160;</td>
           <td class="paramname"><em>tree</em></td><td>)</td>
@@ -409,7 +409,7 @@ Friends</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">wxChar SearchTreeNode::GetChar </td>
+          <td class="memname"><a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#gad42f64d8c82f1ce4ae58773a89b2d6a7">wxChar</a> SearchTreeNode::GetChar </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="classBasicSearchTree">BasicSearchTree</a> *&#160;</td>
           <td class="paramname"><em>tree</em></td><td>)</td>
@@ -445,7 +445,7 @@ Friends</h2></td></tr>
         <tr>
           <td class="memname"><a class="el" href="searchtree_8h#an-nSearchTreeNode">nSearchTreeNode</a> SearchTreeNode::GetChild </td>
           <td>(</td>
-          <td class="paramtype">wxChar&#160;</td>
+          <td class="paramtype"><a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#gad42f64d8c82f1ce4ae58773a89b2d6a7">wxChar</a>&#160;</td>
           <td class="paramname"><em>ch</em></td><td>)</td>
           <td></td>
         </tr>
@@ -485,7 +485,7 @@ Friends</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">wxChar&#160;</td>
+          <td class="paramtype"><a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#gad42f64d8c82f1ce4ae58773a89b2d6a7">wxChar</a>&#160;</td>
           <td class="paramname"><em>ch</em>&#160;</td>
         </tr>
         <tr>
@@ -527,7 +527,7 @@ Friends</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const wxString &amp;&#160;</td>
+          <td class="paramtype">const <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html">wxString</a> &amp;&#160;</td>
           <td class="paramname"><em>s</em>, </td>
         </tr>
         <tr>
@@ -562,7 +562,7 @@ Friends</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="searchtree_8cpp_source#l00344">344</a> of file <a class="el" href="searchtree_8cpp_source">searchtree.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="searchtree_8cpp_source#l00305">GetActualLabel()</a>, <a class="el" href="searchtree_8h_source#l00217">GetDepth()</a>, <a class="el" href="searchtree_8cpp_source#l00317">GetLabelStartDepth()</a>, <a class="el" href="searchtree_8h_source#l00265">m_LabelLen</a>, and <a class="el" href="searchtree_8h_source#l00262">m_LabelStart</a>.</p>
+<p class="reference">References <a class="el" href="searchtree_8cpp_source#l00305">GetActualLabel()</a>, <a class="el" href="searchtree_8h_source#l00217">GetDepth()</a>, <a class="el" href="searchtree_8cpp_source#l00317">GetLabelStartDepth()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#af63f200410b56436a830550905e20539">wxString::length()</a>, <a class="el" href="searchtree_8h_source#l00265">m_LabelLen</a>, and <a class="el" href="searchtree_8h_source#l00262">m_LabelStart</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="searchtree_8cpp_source#l00595">BasicSearchTree::FindNode()</a>.</p>
 
@@ -640,7 +640,7 @@ Friends</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">wxString SearchTreeNode::GetLabel </td>
+          <td class="memname"><a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html">wxString</a> SearchTreeNode::GetLabel </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="classBasicSearchTree">BasicSearchTree</a> *&#160;</td>
           <td class="paramname"><em>tree</em></td><td>)</td>
@@ -653,7 +653,7 @@ Friends</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="searchtree_8cpp_source#l00290">290</a> of file <a class="el" href="searchtree_8cpp_source">searchtree.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="searchtree_8h_source#l00253">m_Depth</a>, <a class="el" href="searchtree_8h_source#l00259">m_Label</a>, <a class="el" href="searchtree_8h_source#l00265">m_LabelLen</a>, <a class="el" href="searchtree_8h_source#l00364">BasicSearchTree::m_Labels</a>, and <a class="el" href="searchtree_8h_source#l00262">m_LabelStart</a>.</p>
+<p class="reference">References <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga7dfc2888539861afe6c4337ef315472b">_T</a>, <a class="el" href="searchtree_8h_source#l00253">m_Depth</a>, <a class="el" href="searchtree_8h_source#l00259">m_Label</a>, <a class="el" href="searchtree_8h_source#l00265">m_LabelLen</a>, <a class="el" href="searchtree_8h_source#l00364">BasicSearchTree::m_Labels</a>, and <a class="el" href="searchtree_8h_source#l00262">m_LabelStart</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="searchtree_8cpp_source#l00495">Dump()</a>, <a class="el" href="searchtree_8cpp_source#l00750">BasicSearchTree::FindMatches()</a>, and <a class="el" href="searchtree_8cpp_source#l00563">BasicSearchTree::GetString()</a>.</p>
 
@@ -858,7 +858,7 @@ Friends</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">wxString SearchTreeNode::I2S </td>
+          <td class="memname"><a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html">wxString</a> SearchTreeNode::I2S </td>
           <td>(</td>
           <td class="paramtype">int&#160;</td>
           <td class="paramname"><em>i</em></td><td>)</td>
@@ -874,7 +874,7 @@ Friends</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="searchtree_8cpp_source#l00435">435</a> of file <a class="el" href="searchtree_8cpp_source">searchtree.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="searchtree_8cpp_source#l00415">U2S()</a>.</p>
+<p class="reference">References <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga7dfc2888539861afe6c4337ef315472b">_T</a>, and <a class="el" href="searchtree_8cpp_source#l00415">U2S()</a>.</p>
 
 </div>
 </div>
@@ -956,7 +956,7 @@ Friends</h2></td></tr>
         <tr>
           <td class="memname">bool SearchTreeNode::S2I </td>
           <td>(</td>
-          <td class="paramtype">const wxString &amp;&#160;</td>
+          <td class="paramtype">const <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html">wxString</a> &amp;&#160;</td>
           <td class="paramname"><em>s</em>, </td>
         </tr>
         <tr>
@@ -980,7 +980,7 @@ Friends</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="searchtree_8cpp_source#l00984">984</a> of file <a class="el" href="searchtree_8cpp_source">searchtree.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="searchtree_8cpp_source#l00962">S2U()</a>.</p>
+<p class="reference">References <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga7dfc2888539861afe6c4337ef315472b">_T</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#ace32756bab999f8aae9be0cf981fc449">wxString::IsEmpty()</a>, <a class="el" href="searchtree_8cpp_source#l00962">S2U()</a>, and <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#af7832aeeec723684a92e2beafbd45af1">wxString::substr()</a>.</p>
 
 </div>
 </div>
@@ -996,7 +996,7 @@ Friends</h2></td></tr>
         <tr>
           <td class="memname">bool SearchTreeNode::S2U </td>
           <td>(</td>
-          <td class="paramtype">const wxString &amp;&#160;</td>
+          <td class="paramtype">const <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html">wxString</a> &amp;&#160;</td>
           <td class="paramname"><em>s</em>, </td>
         </tr>
         <tr>
@@ -1020,6 +1020,8 @@ Friends</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="searchtree_8cpp_source#l00962">962</a> of file <a class="el" href="searchtree_8cpp_source">searchtree.cpp</a>.</p>
 
+<p class="reference">References <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga7dfc2888539861afe6c4337ef315472b">_T</a>, and <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#af63f200410b56436a830550905e20539">wxString::length()</a>.</p>
+
 <p class="reference">Referenced by <a class="el" href="searchtree_8cpp_source#l00984">S2I()</a>, and <a class="el" href="searchtree_8cpp_source#l00899">UnSerializeString()</a>.</p>
 
 </div>
@@ -1031,7 +1033,7 @@ Friends</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">wxString SearchTreeNode::Serialize </td>
+          <td class="memname"><a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html">wxString</a> SearchTreeNode::Serialize </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classBasicSearchTree">BasicSearchTree</a> *&#160;</td>
           <td class="paramname"><em>tree</em>, </td>
@@ -1060,7 +1062,7 @@ Friends</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="searchtree_8cpp_source#l00444">444</a> of file <a class="el" href="searchtree_8cpp_source">searchtree.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="searchtree_8cpp_source#l00587">BasicSearchTree::GetNode()</a>, <a class="el" href="searchtree_8h_source#l00268">m_Children</a>, <a class="el" href="searchtree_8h_source#l00253">m_Depth</a>, <a class="el" href="searchtree_8h_source#l00270">m_Items</a>, <a class="el" href="searchtree_8h_source#l00259">m_Label</a>, <a class="el" href="searchtree_8h_source#l00265">m_LabelLen</a>, <a class="el" href="searchtree_8h_source#l00262">m_LabelStart</a>, <a class="el" href="searchtree_8h_source#l00256">m_Parent</a>, <a class="el" href="searchtree_8cpp_source#l00444">Serialize()</a>, <a class="el" href="searchtree_8cpp_source#l01010">SerializeString()</a>, and <a class="el" href="searchtree_8cpp_source#l00415">U2S()</a>.</p>
+<p class="reference">References <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga7dfc2888539861afe6c4337ef315472b">_T</a>, <a class="el" href="searchtree_8cpp_source#l00587">BasicSearchTree::GetNode()</a>, <a class="el" href="searchtree_8h_source#l00268">m_Children</a>, <a class="el" href="searchtree_8h_source#l00253">m_Depth</a>, <a class="el" href="searchtree_8h_source#l00270">m_Items</a>, <a class="el" href="searchtree_8h_source#l00259">m_Label</a>, <a class="el" href="searchtree_8h_source#l00265">m_LabelLen</a>, <a class="el" href="searchtree_8h_source#l00262">m_LabelStart</a>, <a class="el" href="searchtree_8h_source#l00256">m_Parent</a>, <a class="el" href="searchtree_8cpp_source#l00444">Serialize()</a>, <a class="el" href="searchtree_8cpp_source#l01010">SerializeString()</a>, and <a class="el" href="searchtree_8cpp_source#l00415">U2S()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="searchtree_8cpp_source#l00444">Serialize()</a>.</p>
 
@@ -1076,9 +1078,9 @@ Friends</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">wxString SearchTreeNode::SerializeString </td>
+          <td class="memname"><a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html">wxString</a> SearchTreeNode::SerializeString </td>
           <td>(</td>
-          <td class="paramtype">const wxString &amp;&#160;</td>
+          <td class="paramtype">const <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html">wxString</a> &amp;&#160;</td>
           <td class="paramname"><em>s</em></td><td>)</td>
           <td></td>
         </tr>
@@ -1092,7 +1094,7 @@ Friends</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="searchtree_8cpp_source#l01010">1010</a> of file <a class="el" href="searchtree_8cpp_source">searchtree.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="searchtree_8cpp_source#l00415">U2S()</a>.</p>
+<p class="reference">References <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga7dfc2888539861afe6c4337ef315472b">_T</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#af63f200410b56436a830550905e20539">wxString::length()</a>, and <a class="el" href="searchtree_8cpp_source#l00415">U2S()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="searchtree_8cpp_source#l00495">Dump()</a>, <a class="el" href="searchtree_8cpp_source#l00444">Serialize()</a>, and <a class="el" href="searchtree_8cpp_source#l01040">BasicSearchTree::SerializeLabel()</a>.</p>
 
@@ -1190,7 +1192,7 @@ Friends</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">wxString SearchTreeNode::U2S </td>
+          <td class="memname"><a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html">wxString</a> SearchTreeNode::U2S </td>
           <td>(</td>
           <td class="paramtype">unsigned int&#160;</td>
           <td class="paramname"><em>u</em></td><td>)</td>
@@ -1205,6 +1207,8 @@ Friends</h2></td></tr>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="searchtree_8cpp_source#l00415">415</a> of file <a class="el" href="searchtree_8cpp_source">searchtree.cpp</a>.</p>
+
+<p class="reference">References <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga7dfc2888539861afe6c4337ef315472b">_T</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="searchtree_8cpp_source#l00495">Dump()</a>, <a class="el" href="searchtree_8cpp_source#l00435">I2S()</a>, <a class="el" href="searchtree_8cpp_source#l00444">Serialize()</a>, <a class="el" href="searchtree_8cpp_source#l01048">BasicSearchTree::SerializeLabels()</a>, and <a class="el" href="searchtree_8cpp_source#l01010">SerializeString()</a>.</p>
 
@@ -1222,13 +1226,13 @@ Friends</h2></td></tr>
         <tr>
           <td class="memname">bool SearchTreeNode::UnSerializeString </td>
           <td>(</td>
-          <td class="paramtype">const wxString &amp;&#160;</td>
+          <td class="paramtype">const <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html">wxString</a> &amp;&#160;</td>
           <td class="paramname"><em>s</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">wxString &amp;&#160;</td>
+          <td class="paramtype"><a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html">wxString</a> &amp;&#160;</td>
           <td class="paramname"><em>result</em>&#160;</td>
         </tr>
         <tr>
@@ -1246,7 +1250,7 @@ Friends</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="searchtree_8cpp_source#l00899">899</a> of file <a class="el" href="searchtree_8cpp_source">searchtree.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="searchtree_8cpp_source#l00962">S2U()</a>.</p>
+<p class="reference">References <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga7dfc2888539861afe6c4337ef315472b">_T</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#a39f5e308eb0192cac2e338bedb377ee0">wxString::Clear()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#af63f200410b56436a830550905e20539">wxString::length()</a>, <a class="el" href="searchtree_8cpp_source#l00962">S2U()</a>, and <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#af7832aeeec723684a92e2beafbd45af1">wxString::substr()</a>.</p>
 
 </div>
 </div>

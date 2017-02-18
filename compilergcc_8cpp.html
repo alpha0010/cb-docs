@@ -19,7 +19,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Code::Blocks
-   &#160;<span id="projectnumber">SVN r10947</span>
+   &#160;<span id="projectnumber">SVN r11012</span>
    </div>
   </td>
  </tr>
@@ -65,7 +65,7 @@ $(function() {
 <code>#include &lt;wx/uri.h&gt;</code><br />
 <code>#include &lt;wx/xml/xml.h&gt;</code><br />
 <code>#include &lt;<a class="el" href="prep_8h_source">prep.h</a>&gt;</code><br />
-<code>#include &lt;<a class="el" href="manager_8h_source">manager.h</a>&gt;</code><br />
+<code>#include &lt;manager.h&gt;</code><br />
 <code>#include &lt;<a class="el" href="sdk__events_8h_source">sdk_events.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="pipedprocess_8h_source">pipedprocess.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="configmanager_8h_source">configmanager.h</a>&gt;</code><br />
@@ -104,11 +104,6 @@ $(function() {
 <code>#include &quot;<a class="el" href="compilerG95_8h_source">compilerG95.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="compilerXML_8h_source">compilerXML.h</a>&quot;</code><br />
 <code>#include &lt;<a class="el" href="sc__base__types_8h_source">scripting/bindings/sc_base_types.h</a>&gt;</code><br />
-</div><div class="textblock"><div class="dynheader">
-Include dependency graph for compilergcc.cpp:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="compilergcc_8cpp__incl.svg" width="9740" height="650"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
 </div>
 <p><a href="compilergcc_8cpp_source">Go to the source code of this file.</a></p>
 <table class="memberdecls">
@@ -124,48 +119,48 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:pl-gBuildLog"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceScriptBindings#pl-gBuildLog">ScriptBindings::gBuildLog</a> (const wxString &amp;msg)</td></tr>
+<tr class="memitem:pl-gBuildLog"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceScriptBindings#pl-gBuildLog">ScriptBindings::gBuildLog</a> (const <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html">wxString</a> &amp;msg)</td></tr>
 <tr class="separator:pl-gBuildLog"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:qy-getBuildTargetName"><td class="memItemLeft" align="right" valign="top">static wxString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="compilergcc_8cpp#qy-getBuildTargetName">getBuildTargetName</a> (const <a class="el" href="classProjectBuildTarget">ProjectBuildTarget</a> *bt)</td></tr>
+<tr class="memitem:qy-getBuildTargetName"><td class="memItemLeft" align="right" valign="top">static <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html">wxString</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="compilergcc_8cpp#qy-getBuildTargetName">getBuildTargetName</a> (const <a class="el" href="classProjectBuildTarget">ProjectBuildTarget</a> *bt)</td></tr>
 <tr class="separator:qy-getBuildTargetName"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:j6-StateToString"><td class="memItemLeft" align="right" valign="top">wxString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="compilergcc_8cpp#j6-StateToString">StateToString</a> (<a class="el" href="compilergcc_8h#yh-BuildState">BuildState</a> bs)</td></tr>
+<tr class="memitem:j6-StateToString"><td class="memItemLeft" align="right" valign="top"><a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html">wxString</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="compilergcc_8cpp#j6-StateToString">StateToString</a> (<a class="el" href="compilergcc_8h#yh-BuildState">BuildState</a> bs)</td></tr>
 <tr class="separator:j6-StateToString"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
 <tr class="memitem:wf-gBuildLogId"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceScriptBindings#wf-gBuildLogId">ScriptBindings::gBuildLogId</a> = -1</td></tr>
 <tr class="separator:wf-gBuildLogId"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ia-idBuildLog"><td class="memItemLeft" align="right" valign="top">const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="compilergcc_8cpp#ia-idBuildLog">idBuildLog</a> = wxNewId()</td></tr>
+<tr class="memitem:ia-idBuildLog"><td class="memItemLeft" align="right" valign="top">const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="compilergcc_8cpp#ia-idBuildLog">idBuildLog</a> = <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__misc.html#gaa2d93c1680369b4227f7de9de58e5fcb">wxNewId</a>()</td></tr>
 <tr class="separator:ia-idBuildLog"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ff-idTimerPollCompiler"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="compilergcc_8cpp#ff-idTimerPollCompiler">idTimerPollCompiler</a> = XRCID(&quot;idTimerPollCompiler&quot;)</td></tr>
 <tr class="separator:ff-idTimerPollCompiler"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:zt-idMenuCompile"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="compilergcc_8cpp#zt-idMenuCompile">idMenuCompile</a> = XRCID(&quot;idCompilerMenuCompile&quot;)</td></tr>
 <tr class="separator:zt-idMenuCompile"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:qc-idMenuCompileTarget"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="compilergcc_8cpp#qc-idMenuCompileTarget">idMenuCompileTarget</a> = wxNewId()</td></tr>
+<tr class="memitem:qc-idMenuCompileTarget"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="compilergcc_8cpp#qc-idMenuCompileTarget">idMenuCompileTarget</a> = <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__misc.html#gaa2d93c1680369b4227f7de9de58e5fcb">wxNewId</a>()</td></tr>
 <tr class="separator:qc-idMenuCompileTarget"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:kh-idMenuCompileFromProjectManag"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="compilergcc_8cpp#kh-idMenuCompileFromProjectManag">idMenuCompileFromProjectManager</a> = wxNewId()</td></tr>
+<tr class="memitem:kh-idMenuCompileFromProjectManag"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="compilergcc_8cpp#kh-idMenuCompileFromProjectManag">idMenuCompileFromProjectManager</a> = <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__misc.html#gaa2d93c1680369b4227f7de9de58e5fcb">wxNewId</a>()</td></tr>
 <tr class="separator:kh-idMenuCompileFromProjectManag"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:xi-idMenuProjectCompilerOptions"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="compilergcc_8cpp#xi-idMenuProjectCompilerOptions">idMenuProjectCompilerOptions</a> = wxNewId()</td></tr>
+<tr class="memitem:xi-idMenuProjectCompilerOptions"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="compilergcc_8cpp#xi-idMenuProjectCompilerOptions">idMenuProjectCompilerOptions</a> = <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__misc.html#gaa2d93c1680369b4227f7de9de58e5fcb">wxNewId</a>()</td></tr>
 <tr class="separator:xi-idMenuProjectCompilerOptions"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:cf-idMenuProjectCompilerOptionsF"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="compilergcc_8cpp#cf-idMenuProjectCompilerOptionsF">idMenuProjectCompilerOptionsFromProjectManager</a> = wxNewId()</td></tr>
+<tr class="memitem:cf-idMenuProjectCompilerOptionsF"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="compilergcc_8cpp#cf-idMenuProjectCompilerOptionsF">idMenuProjectCompilerOptionsFromProjectManager</a> = <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__misc.html#gaa2d93c1680369b4227f7de9de58e5fcb">wxNewId</a>()</td></tr>
 <tr class="separator:cf-idMenuProjectCompilerOptionsF"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:za-idMenuProjectProperties"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="compilergcc_8cpp#za-idMenuProjectProperties">idMenuProjectProperties</a> = wxNewId()</td></tr>
+<tr class="memitem:za-idMenuProjectProperties"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="compilergcc_8cpp#za-idMenuProjectProperties">idMenuProjectProperties</a> = <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__misc.html#gaa2d93c1680369b4227f7de9de58e5fcb">wxNewId</a>()</td></tr>
 <tr class="separator:za-idMenuProjectProperties"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:y9-idMenuTargetCompilerOptions"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="compilergcc_8cpp#y9-idMenuTargetCompilerOptions">idMenuTargetCompilerOptions</a> = wxNewId()</td></tr>
+<tr class="memitem:y9-idMenuTargetCompilerOptions"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="compilergcc_8cpp#y9-idMenuTargetCompilerOptions">idMenuTargetCompilerOptions</a> = <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__misc.html#gaa2d93c1680369b4227f7de9de58e5fcb">wxNewId</a>()</td></tr>
 <tr class="separator:y9-idMenuTargetCompilerOptions"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:e7-idMenuTargetCompilerOptionsSu"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="compilergcc_8cpp#e7-idMenuTargetCompilerOptionsSu">idMenuTargetCompilerOptionsSub</a> = wxNewId()</td></tr>
+<tr class="memitem:e7-idMenuTargetCompilerOptionsSu"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="compilergcc_8cpp#e7-idMenuTargetCompilerOptionsSu">idMenuTargetCompilerOptionsSub</a> = <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__misc.html#gaa2d93c1680369b4227f7de9de58e5fcb">wxNewId</a>()</td></tr>
 <tr class="separator:e7-idMenuTargetCompilerOptionsSu"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:pi-idMenuCompileFile"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="compilergcc_8cpp#pi-idMenuCompileFile">idMenuCompileFile</a> = XRCID(&quot;idCompilerMenuCompileFile&quot;)</td></tr>
 <tr class="separator:pi-idMenuCompileFile"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:c0-idMenuCompileFileFromProjectM"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="compilergcc_8cpp#c0-idMenuCompileFileFromProjectM">idMenuCompileFileFromProjectManager</a> = wxNewId()</td></tr>
+<tr class="memitem:c0-idMenuCompileFileFromProjectM"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="compilergcc_8cpp#c0-idMenuCompileFileFromProjectM">idMenuCompileFileFromProjectManager</a> = <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__misc.html#gaa2d93c1680369b4227f7de9de58e5fcb">wxNewId</a>()</td></tr>
 <tr class="separator:c0-idMenuCompileFileFromProjectM"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:f3-idMenuCleanFileFromProjectMan"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="compilergcc_8cpp#f3-idMenuCleanFileFromProjectMan">idMenuCleanFileFromProjectManager</a> = wxNewId()</td></tr>
+<tr class="memitem:f3-idMenuCleanFileFromProjectMan"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="compilergcc_8cpp#f3-idMenuCleanFileFromProjectMan">idMenuCleanFileFromProjectManager</a> = <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__misc.html#gaa2d93c1680369b4227f7de9de58e5fcb">wxNewId</a>()</td></tr>
 <tr class="separator:f3-idMenuCleanFileFromProjectMan"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:z4-idMenuRebuild"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="compilergcc_8cpp#z4-idMenuRebuild">idMenuRebuild</a> = XRCID(&quot;idCompilerMenuRebuild&quot;)</td></tr>
 <tr class="separator:z4-idMenuRebuild"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:wj-idMenuRebuildTarget"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="compilergcc_8cpp#wj-idMenuRebuildTarget">idMenuRebuildTarget</a> = wxNewId()</td></tr>
+<tr class="memitem:wj-idMenuRebuildTarget"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="compilergcc_8cpp#wj-idMenuRebuildTarget">idMenuRebuildTarget</a> = <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__misc.html#gaa2d93c1680369b4227f7de9de58e5fcb">wxNewId</a>()</td></tr>
 <tr class="separator:wj-idMenuRebuildTarget"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:rp-idMenuRebuildFromProjectManag"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="compilergcc_8cpp#rp-idMenuRebuildFromProjectManag">idMenuRebuildFromProjectManager</a> = wxNewId()</td></tr>
+<tr class="memitem:rp-idMenuRebuildFromProjectManag"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="compilergcc_8cpp#rp-idMenuRebuildFromProjectManag">idMenuRebuildFromProjectManager</a> = <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__misc.html#gaa2d93c1680369b4227f7de9de58e5fcb">wxNewId</a>()</td></tr>
 <tr class="separator:rp-idMenuRebuildFromProjectManag"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:jt-idMenuClean"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="compilergcc_8cpp#jt-idMenuClean">idMenuClean</a> = XRCID(&quot;idCompilerMenuClean&quot;)</td></tr>
 <tr class="separator:jt-idMenuClean"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -175,9 +170,9 @@ Variables</h2></td></tr>
 <tr class="separator:v4-idMenuRebuildWorkspace"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:j4-idMenuCleanWorkspace"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="compilergcc_8cpp#j4-idMenuCleanWorkspace">idMenuCleanWorkspace</a> = XRCID(&quot;idCompilerMenuCleanWorkspace&quot;)</td></tr>
 <tr class="separator:j4-idMenuCleanWorkspace"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:j1-idMenuCleanTarget"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="compilergcc_8cpp#j1-idMenuCleanTarget">idMenuCleanTarget</a> = wxNewId()</td></tr>
+<tr class="memitem:j1-idMenuCleanTarget"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="compilergcc_8cpp#j1-idMenuCleanTarget">idMenuCleanTarget</a> = <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__misc.html#gaa2d93c1680369b4227f7de9de58e5fcb">wxNewId</a>()</td></tr>
 <tr class="separator:j1-idMenuCleanTarget"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:la-idMenuCleanFromProjectManager"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="compilergcc_8cpp#la-idMenuCleanFromProjectManager">idMenuCleanFromProjectManager</a> = wxNewId()</td></tr>
+<tr class="memitem:la-idMenuCleanFromProjectManager"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="compilergcc_8cpp#la-idMenuCleanFromProjectManager">idMenuCleanFromProjectManager</a> = <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__misc.html#gaa2d93c1680369b4227f7de9de58e5fcb">wxNewId</a>()</td></tr>
 <tr class="separator:la-idMenuCleanFromProjectManager"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:r0-idMenuCompileAndRun"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="compilergcc_8cpp#r0-idMenuCompileAndRun">idMenuCompileAndRun</a> = XRCID(&quot;idCompilerMenuCompileAndRun&quot;)</td></tr>
 <tr class="separator:r0-idMenuCompileAndRun"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -199,37 +194,37 @@ Variables</h2></td></tr>
 <tr class="separator:bp-idMenuSettings"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:el-idToolTarget"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="compilergcc_8cpp#el-idToolTarget">idToolTarget</a> = XRCID(&quot;idToolTarget&quot;)</td></tr>
 <tr class="separator:el-idToolTarget"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:rz-idGCCProcess1"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="compilergcc_8cpp#rz-idGCCProcess1">idGCCProcess1</a> = wxNewId()</td></tr>
+<tr class="memitem:rz-idGCCProcess1"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="compilergcc_8cpp#rz-idGCCProcess1">idGCCProcess1</a> = <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__misc.html#gaa2d93c1680369b4227f7de9de58e5fcb">wxNewId</a>()</td></tr>
 <tr class="separator:rz-idGCCProcess1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:qm-idGCCProcess2"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="compilergcc_8cpp#qm-idGCCProcess2">idGCCProcess2</a> = wxNewId()</td></tr>
+<tr class="memitem:qm-idGCCProcess2"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="compilergcc_8cpp#qm-idGCCProcess2">idGCCProcess2</a> = <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__misc.html#gaa2d93c1680369b4227f7de9de58e5fcb">wxNewId</a>()</td></tr>
 <tr class="separator:qm-idGCCProcess2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ea-idGCCProcess3"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="compilergcc_8cpp#ea-idGCCProcess3">idGCCProcess3</a> = wxNewId()</td></tr>
+<tr class="memitem:ea-idGCCProcess3"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="compilergcc_8cpp#ea-idGCCProcess3">idGCCProcess3</a> = <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__misc.html#gaa2d93c1680369b4227f7de9de58e5fcb">wxNewId</a>()</td></tr>
 <tr class="separator:ea-idGCCProcess3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:jp-idGCCProcess4"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="compilergcc_8cpp#jp-idGCCProcess4">idGCCProcess4</a> = wxNewId()</td></tr>
+<tr class="memitem:jp-idGCCProcess4"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="compilergcc_8cpp#jp-idGCCProcess4">idGCCProcess4</a> = <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__misc.html#gaa2d93c1680369b4227f7de9de58e5fcb">wxNewId</a>()</td></tr>
 <tr class="separator:jp-idGCCProcess4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ke-idGCCProcess5"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="compilergcc_8cpp#ke-idGCCProcess5">idGCCProcess5</a> = wxNewId()</td></tr>
+<tr class="memitem:ke-idGCCProcess5"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="compilergcc_8cpp#ke-idGCCProcess5">idGCCProcess5</a> = <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__misc.html#gaa2d93c1680369b4227f7de9de58e5fcb">wxNewId</a>()</td></tr>
 <tr class="separator:ke-idGCCProcess5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:we-idGCCProcess6"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="compilergcc_8cpp#we-idGCCProcess6">idGCCProcess6</a> = wxNewId()</td></tr>
+<tr class="memitem:we-idGCCProcess6"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="compilergcc_8cpp#we-idGCCProcess6">idGCCProcess6</a> = <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__misc.html#gaa2d93c1680369b4227f7de9de58e5fcb">wxNewId</a>()</td></tr>
 <tr class="separator:we-idGCCProcess6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ui-idGCCProcess7"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="compilergcc_8cpp#ui-idGCCProcess7">idGCCProcess7</a> = wxNewId()</td></tr>
+<tr class="memitem:ui-idGCCProcess7"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="compilergcc_8cpp#ui-idGCCProcess7">idGCCProcess7</a> = <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__misc.html#gaa2d93c1680369b4227f7de9de58e5fcb">wxNewId</a>()</td></tr>
 <tr class="separator:ui-idGCCProcess7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gs-idGCCProcess8"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="compilergcc_8cpp#gs-idGCCProcess8">idGCCProcess8</a> = wxNewId()</td></tr>
+<tr class="memitem:gs-idGCCProcess8"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="compilergcc_8cpp#gs-idGCCProcess8">idGCCProcess8</a> = <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__misc.html#gaa2d93c1680369b4227f7de9de58e5fcb">wxNewId</a>()</td></tr>
 <tr class="separator:gs-idGCCProcess8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:c6-idGCCProcess9"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="compilergcc_8cpp#c6-idGCCProcess9">idGCCProcess9</a> = wxNewId()</td></tr>
+<tr class="memitem:c6-idGCCProcess9"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="compilergcc_8cpp#c6-idGCCProcess9">idGCCProcess9</a> = <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__misc.html#gaa2d93c1680369b4227f7de9de58e5fcb">wxNewId</a>()</td></tr>
 <tr class="separator:c6-idGCCProcess9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ve-idGCCProcess10"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="compilergcc_8cpp#ve-idGCCProcess10">idGCCProcess10</a> = wxNewId()</td></tr>
+<tr class="memitem:ve-idGCCProcess10"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="compilergcc_8cpp#ve-idGCCProcess10">idGCCProcess10</a> = <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__misc.html#gaa2d93c1680369b4227f7de9de58e5fcb">wxNewId</a>()</td></tr>
 <tr class="separator:ve-idGCCProcess10"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:bg-idGCCProcess11"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="compilergcc_8cpp#bg-idGCCProcess11">idGCCProcess11</a> = wxNewId()</td></tr>
+<tr class="memitem:bg-idGCCProcess11"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="compilergcc_8cpp#bg-idGCCProcess11">idGCCProcess11</a> = <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__misc.html#gaa2d93c1680369b4227f7de9de58e5fcb">wxNewId</a>()</td></tr>
 <tr class="separator:bg-idGCCProcess11"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:sq-idGCCProcess12"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="compilergcc_8cpp#sq-idGCCProcess12">idGCCProcess12</a> = wxNewId()</td></tr>
+<tr class="memitem:sq-idGCCProcess12"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="compilergcc_8cpp#sq-idGCCProcess12">idGCCProcess12</a> = <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__misc.html#gaa2d93c1680369b4227f7de9de58e5fcb">wxNewId</a>()</td></tr>
 <tr class="separator:sq-idGCCProcess12"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:qs-idGCCProcess13"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="compilergcc_8cpp#qs-idGCCProcess13">idGCCProcess13</a> = wxNewId()</td></tr>
+<tr class="memitem:qs-idGCCProcess13"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="compilergcc_8cpp#qs-idGCCProcess13">idGCCProcess13</a> = <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__misc.html#gaa2d93c1680369b4227f7de9de58e5fcb">wxNewId</a>()</td></tr>
 <tr class="separator:qs-idGCCProcess13"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ky-idGCCProcess14"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="compilergcc_8cpp#ky-idGCCProcess14">idGCCProcess14</a> = wxNewId()</td></tr>
+<tr class="memitem:ky-idGCCProcess14"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="compilergcc_8cpp#ky-idGCCProcess14">idGCCProcess14</a> = <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__misc.html#gaa2d93c1680369b4227f7de9de58e5fcb">wxNewId</a>()</td></tr>
 <tr class="separator:ky-idGCCProcess14"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:hw-idGCCProcess15"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="compilergcc_8cpp#hw-idGCCProcess15">idGCCProcess15</a> = wxNewId()</td></tr>
+<tr class="memitem:hw-idGCCProcess15"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="compilergcc_8cpp#hw-idGCCProcess15">idGCCProcess15</a> = <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__misc.html#gaa2d93c1680369b4227f7de9de58e5fcb">wxNewId</a>()</td></tr>
 <tr class="separator:hw-idGCCProcess15"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:kh-idGCCProcess16"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="compilergcc_8cpp#kh-idGCCProcess16">idGCCProcess16</a> = wxNewId()</td></tr>
+<tr class="memitem:kh-idGCCProcess16"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="compilergcc_8cpp#kh-idGCCProcess16">idGCCProcess16</a> = <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__misc.html#gaa2d93c1680369b4227f7de9de58e5fcb">wxNewId</a>()</td></tr>
 <tr class="separator:kh-idGCCProcess16"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
@@ -243,7 +238,7 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static wxString getBuildTargetName </td>
+          <td class="memname">static <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html">wxString</a> getBuildTargetName </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="classProjectBuildTarget">ProjectBuildTarget</a> *&#160;</td>
           <td class="paramname"><em>bt</em></td><td>)</td>
@@ -259,7 +254,7 @@ Variables</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="compilergcc_8cpp_source#l02031">2031</a> of file <a class="el" href="compilergcc_8cpp_source">compilergcc.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="compiletargetbase_8cpp_source#l00071">CompileTargetBase::GetTitle()</a>.</p>
+<p class="reference">References <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga8a02b8875a521df57263a9e6f090f2d0">_()</a>, and <a class="el" href="compiletargetbase_8cpp_source#l00071">CompileTargetBase::GetTitle()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="compilergcc_8cpp_source#l02269">CompilerGCC::BuildStateManagement()</a>, and <a class="el" href="compilergcc_8cpp_source#l02036">CompilerGCC::DoCleanWithMake()</a>.</p>
 
@@ -275,7 +270,7 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">wxString StateToString </td>
+          <td class="memname"><a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html">wxString</a> StateToString </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="compilergcc_8h#yh-BuildState">BuildState</a>&#160;</td>
           <td class="paramname"><em>bs</em></td><td>)</td>
@@ -291,7 +286,7 @@ Variables</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="compilergcc_8cpp_source#l02155">2155</a> of file <a class="el" href="compilergcc_8cpp_source">compilergcc.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="compilergcc_8h_source#l00055">bsNone</a>, <a class="el" href="compilergcc_8h_source#l00063">bsProjectDone</a>, <a class="el" href="compilergcc_8h_source#l00062">bsProjectPostBuild</a>, <a class="el" href="compilergcc_8h_source#l00056">bsProjectPreBuild</a>, <a class="el" href="compilergcc_8h_source#l00059">bsTargetBuild</a>, <a class="el" href="compilergcc_8h_source#l00057">bsTargetClean</a>, <a class="el" href="compilergcc_8h_source#l00061">bsTargetDone</a>, <a class="el" href="compilergcc_8h_source#l00060">bsTargetPostBuild</a>, and <a class="el" href="compilergcc_8h_source#l00058">bsTargetPreBuild</a>.</p>
+<p class="reference">References <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga7dfc2888539861afe6c4337ef315472b">_T</a>, <a class="el" href="compilergcc_8h_source#l00055">bsNone</a>, <a class="el" href="compilergcc_8h_source#l00063">bsProjectDone</a>, <a class="el" href="compilergcc_8h_source#l00062">bsProjectPostBuild</a>, <a class="el" href="compilergcc_8h_source#l00056">bsProjectPreBuild</a>, <a class="el" href="compilergcc_8h_source#l00059">bsTargetBuild</a>, <a class="el" href="compilergcc_8h_source#l00057">bsTargetClean</a>, <a class="el" href="compilergcc_8h_source#l00061">bsTargetDone</a>, <a class="el" href="compilergcc_8h_source#l00060">bsTargetPostBuild</a>, and <a class="el" href="compilergcc_8h_source#l00058">bsTargetPreBuild</a>.</p>
 
 </div>
 </div>
@@ -303,7 +298,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const int idBuildLog = wxNewId()</td>
+          <td class="memname">const int idBuildLog = <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__misc.html#gaa2d93c1680369b4227f7de9de58e5fcb">wxNewId</a>()</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -321,7 +316,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">int idGCCProcess1 = wxNewId()</td>
+          <td class="memname">int idGCCProcess1 = <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__misc.html#gaa2d93c1680369b4227f7de9de58e5fcb">wxNewId</a>()</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -339,7 +334,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">int idGCCProcess10 = wxNewId()</td>
+          <td class="memname">int idGCCProcess10 = <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__misc.html#gaa2d93c1680369b4227f7de9de58e5fcb">wxNewId</a>()</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -355,7 +350,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">int idGCCProcess11 = wxNewId()</td>
+          <td class="memname">int idGCCProcess11 = <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__misc.html#gaa2d93c1680369b4227f7de9de58e5fcb">wxNewId</a>()</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -371,7 +366,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">int idGCCProcess12 = wxNewId()</td>
+          <td class="memname">int idGCCProcess12 = <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__misc.html#gaa2d93c1680369b4227f7de9de58e5fcb">wxNewId</a>()</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -387,7 +382,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">int idGCCProcess13 = wxNewId()</td>
+          <td class="memname">int idGCCProcess13 = <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__misc.html#gaa2d93c1680369b4227f7de9de58e5fcb">wxNewId</a>()</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -403,7 +398,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">int idGCCProcess14 = wxNewId()</td>
+          <td class="memname">int idGCCProcess14 = <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__misc.html#gaa2d93c1680369b4227f7de9de58e5fcb">wxNewId</a>()</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -419,7 +414,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">int idGCCProcess15 = wxNewId()</td>
+          <td class="memname">int idGCCProcess15 = <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__misc.html#gaa2d93c1680369b4227f7de9de58e5fcb">wxNewId</a>()</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -435,7 +430,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">int idGCCProcess16 = wxNewId()</td>
+          <td class="memname">int idGCCProcess16 = <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__misc.html#gaa2d93c1680369b4227f7de9de58e5fcb">wxNewId</a>()</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -451,7 +446,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">int idGCCProcess2 = wxNewId()</td>
+          <td class="memname">int idGCCProcess2 = <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__misc.html#gaa2d93c1680369b4227f7de9de58e5fcb">wxNewId</a>()</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -467,7 +462,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">int idGCCProcess3 = wxNewId()</td>
+          <td class="memname">int idGCCProcess3 = <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__misc.html#gaa2d93c1680369b4227f7de9de58e5fcb">wxNewId</a>()</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -483,7 +478,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">int idGCCProcess4 = wxNewId()</td>
+          <td class="memname">int idGCCProcess4 = <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__misc.html#gaa2d93c1680369b4227f7de9de58e5fcb">wxNewId</a>()</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -499,7 +494,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">int idGCCProcess5 = wxNewId()</td>
+          <td class="memname">int idGCCProcess5 = <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__misc.html#gaa2d93c1680369b4227f7de9de58e5fcb">wxNewId</a>()</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -515,7 +510,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">int idGCCProcess6 = wxNewId()</td>
+          <td class="memname">int idGCCProcess6 = <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__misc.html#gaa2d93c1680369b4227f7de9de58e5fcb">wxNewId</a>()</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -531,7 +526,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">int idGCCProcess7 = wxNewId()</td>
+          <td class="memname">int idGCCProcess7 = <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__misc.html#gaa2d93c1680369b4227f7de9de58e5fcb">wxNewId</a>()</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -547,7 +542,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">int idGCCProcess8 = wxNewId()</td>
+          <td class="memname">int idGCCProcess8 = <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__misc.html#gaa2d93c1680369b4227f7de9de58e5fcb">wxNewId</a>()</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -563,7 +558,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">int idGCCProcess9 = wxNewId()</td>
+          <td class="memname">int idGCCProcess9 = <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__misc.html#gaa2d93c1680369b4227f7de9de58e5fcb">wxNewId</a>()</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -615,7 +610,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">int idMenuCleanFileFromProjectManager = wxNewId()</td>
+          <td class="memname">int idMenuCleanFileFromProjectManager = <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__misc.html#gaa2d93c1680369b4227f7de9de58e5fcb">wxNewId</a>()</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -633,7 +628,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">int idMenuCleanFromProjectManager = wxNewId()</td>
+          <td class="memname">int idMenuCleanFromProjectManager = <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__misc.html#gaa2d93c1680369b4227f7de9de58e5fcb">wxNewId</a>()</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -651,7 +646,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">int idMenuCleanTarget = wxNewId()</td>
+          <td class="memname">int idMenuCleanTarget = <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__misc.html#gaa2d93c1680369b4227f7de9de58e5fcb">wxNewId</a>()</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -757,7 +752,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">int idMenuCompileFileFromProjectManager = wxNewId()</td>
+          <td class="memname">int idMenuCompileFileFromProjectManager = <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__misc.html#gaa2d93c1680369b4227f7de9de58e5fcb">wxNewId</a>()</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -775,7 +770,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">int idMenuCompileFromProjectManager = wxNewId()</td>
+          <td class="memname">int idMenuCompileFromProjectManager = <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__misc.html#gaa2d93c1680369b4227f7de9de58e5fcb">wxNewId</a>()</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -793,7 +788,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">int idMenuCompileTarget = wxNewId()</td>
+          <td class="memname">int idMenuCompileTarget = <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__misc.html#gaa2d93c1680369b4227f7de9de58e5fcb">wxNewId</a>()</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -863,7 +858,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">int idMenuProjectCompilerOptions = wxNewId()</td>
+          <td class="memname">int idMenuProjectCompilerOptions = <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__misc.html#gaa2d93c1680369b4227f7de9de58e5fcb">wxNewId</a>()</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -881,7 +876,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">int idMenuProjectCompilerOptionsFromProjectManager = wxNewId()</td>
+          <td class="memname">int idMenuProjectCompilerOptionsFromProjectManager = <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__misc.html#gaa2d93c1680369b4227f7de9de58e5fcb">wxNewId</a>()</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -899,14 +894,14 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">int idMenuProjectProperties = wxNewId()</td>
+          <td class="memname">int idMenuProjectProperties = <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__misc.html#gaa2d93c1680369b4227f7de9de58e5fcb">wxNewId</a>()</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="compilergcc_8cpp_source#l00177">177</a> of file <a class="el" href="compilergcc_8cpp_source">compilergcc.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="compilergcc_8cpp_source#l00497">CompilerGCC::BuildMenu()</a>, <a class="el" href="projectmanagerui_8cpp_source#l00468">ProjectManagerUI::CreateMenu()</a>, <a class="el" href="projectmanagerui_8cpp_source#l01627">ProjectManagerUI::OnProperties()</a>, and <a class="el" href="compilergcc_8cpp_source#l03268">CompilerGCC::OnUpdateUI()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="compilergcc_8cpp_source#l00497">CompilerGCC::BuildMenu()</a>, <a class="el" href="projectmanagerui_8cpp_source#l00472">ProjectManagerUI::CreateMenu()</a>, <a class="el" href="projectmanagerui_8cpp_source#l01631">ProjectManagerUI::OnProperties()</a>, and <a class="el" href="compilergcc_8cpp_source#l03268">CompilerGCC::OnUpdateUI()</a>.</p>
 
 </div>
 </div>
@@ -935,7 +930,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">int idMenuRebuildFromProjectManager = wxNewId()</td>
+          <td class="memname">int idMenuRebuildFromProjectManager = <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__misc.html#gaa2d93c1680369b4227f7de9de58e5fcb">wxNewId</a>()</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -953,7 +948,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">int idMenuRebuildTarget = wxNewId()</td>
+          <td class="memname">int idMenuRebuildTarget = <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__misc.html#gaa2d93c1680369b4227f7de9de58e5fcb">wxNewId</a>()</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1059,7 +1054,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">int idMenuTargetCompilerOptions = wxNewId()</td>
+          <td class="memname">int idMenuTargetCompilerOptions = <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__misc.html#gaa2d93c1680369b4227f7de9de58e5fcb">wxNewId</a>()</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1077,7 +1072,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">int idMenuTargetCompilerOptionsSub = wxNewId()</td>
+          <td class="memname">int idMenuTargetCompilerOptionsSub = <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__misc.html#gaa2d93c1680369b4227f7de9de58e5fcb">wxNewId</a>()</td>
         </tr>
       </table>
 </div><div class="memdoc">

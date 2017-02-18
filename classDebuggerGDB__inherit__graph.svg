@@ -109,7 +109,7 @@
 </g>
 <!-- Node2 -->
 <g id="node3" class="node"><title>Node2</title>
-<g id="a_node3"><a xlink:href="classcbPlugin" target="_top" xlink:title="Base class for plugins This is the most basic class a plugin must descend from. ">
+<g id="a_node3"><a xlink:href="classcbPlugin" target="_top" xlink:title="Base class for plugins. ">
 <polygon fill="none" stroke="black" points="-1.42109e-14,-991.5 -1.42109e-14,-1202.5 158,-1202.5 158,-991.5 -1.42109e-14,-991.5"/>
 <text text-anchor="middle" x="79" y="-1190.5" font-family="FreeSans" font-size="10.00">cbPlugin</text>
 <polyline fill="none" stroke="black" points="-1.42109e-14,-1183.5 158,-1183.5 "/>
@@ -124,7 +124,7 @@
 <text text-anchor="start" x="8" y="-1086.5" font-family="FreeSans" font-size="10.00">+ GetConfigurationPanel()</text>
 <text text-anchor="start" x="8" y="-1075.5" font-family="FreeSans" font-size="10.00">+ GetProjectConfigurationPanel()</text>
 <text text-anchor="start" x="8" y="-1064.5" font-family="FreeSans" font-size="10.00">+ BuildMenu()</text>
-<text text-anchor="start" x="8" y="-1053.5" font-family="FreeSans" font-size="10.00">and 5 more...</text>
+<text text-anchor="start" x="8" y="-1053.5" font-family="FreeSans" font-size="10.00">and 6 more...</text>
 <text text-anchor="start" x="8" y="-1042.5" font-family="FreeSans" font-size="10.00"># OnAttach()</text>
 <text text-anchor="start" x="8" y="-1031.5" font-family="FreeSans" font-size="10.00"># OnRelease()</text>
 <text text-anchor="start" x="8" y="-1020.5" font-family="FreeSans" font-size="10.00"># NotImplemented()</text>
@@ -140,12 +140,15 @@
 </g>
 <!-- Node3 -->
 <g id="node4" class="node"><title>Node3</title>
-<polygon fill="none" stroke="#bfbfbf" points="42,-1239.5 42,-1296.5 116,-1296.5 116,-1239.5 42,-1239.5"/>
+<g id="a_node4"><a doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" xlink:href="http://docs.wxwidgets.org/3.0/classwx_evt_handler.html" target="_top" xlink:title="{wxEvtHandler\n||}">
+<polygon fill="none" stroke="red" points="42,-1239.5 42,-1296.5 116,-1296.5 116,-1239.5 42,-1239.5"/>
 <text text-anchor="middle" x="79" y="-1284.5" font-family="FreeSans" font-size="10.00">wxEvtHandler</text>
-<polyline fill="none" stroke="#bfbfbf" points="42,-1277.5 116,-1277.5 "/>
+<polyline fill="none" stroke="red" points="42,-1277.5 116,-1277.5 "/>
 <text text-anchor="middle" x="79" y="-1265.5" font-family="FreeSans" font-size="10.00"> </text>
-<polyline fill="none" stroke="#bfbfbf" points="42,-1258.5 116,-1258.5 "/>
+<polyline fill="none" stroke="red" points="42,-1258.5 116,-1258.5 "/>
 <text text-anchor="middle" x="79" y="-1246.5" font-family="FreeSans" font-size="10.00"> </text>
+</a>
+</g>
 </g>
 <!-- Node3&#45;&gt;Node2 -->
 <g id="edge3" class="edge"><title>Node3&#45;&gt;Node2</title>

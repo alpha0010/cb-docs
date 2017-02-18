@@ -19,7 +19,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Code::Blocks
-   &#160;<span id="projectnumber">SVN r10947</span>
+   &#160;<span id="projectnumber">SVN r11012</span>
    </div>
   </td>
  </tr>
@@ -58,15 +58,17 @@ $(function() {
 <code>#include &lt;wx/stopwatch.h&gt;</code><br />
 <code>#include &lt;wx/timer.h&gt;</code><br />
 <code>#include &lt;wx/scrolbar.h&gt;</code><br />
+<code>#include &lt;wx/versioninfo.h&gt;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for wxscintilla.h:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="wxscintilla_8h__incl.svg" width="654" height="112"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="wxscintilla_8h__incl.svg" width="790" height="112"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div><div class="textblock"><div class="dynheader">
 This graph shows which files directly or indirectly include this file:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="wxscintilla_8h__dep__incl.svg" width="18916" height="351"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="wxscintilla_8h__dep__incl.svg" width="4072" height="202"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 </div>
 <p><a href="wxscintilla_8h_source">Go to the source code of this file.</a></p>
@@ -80,10 +82,12 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
 Macros</h2></td></tr>
-<tr class="memitem:nc-wxSCINTILLA_VERSION"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wxscintilla_8h#nc-wxSCINTILLA_VERSION">wxSCINTILLA_VERSION</a>&#160;&#160;&#160;_T(&quot;3.53.0&quot;)</td></tr>
+<tr class="memitem:nc-wxSCINTILLA_VERSION"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wxscintilla_8h#nc-wxSCINTILLA_VERSION">wxSCINTILLA_VERSION</a>&#160;&#160;&#160;<a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga7dfc2888539861afe6c4337ef315472b">_T</a>(&quot;3.53.0&quot;)</td></tr>
 <tr class="separator:nc-wxSCINTILLA_VERSION"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:n2-WXDLLIMPEXP_SCI"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wxscintilla_8h#n2-WXDLLIMPEXP_SCI">WXDLLIMPEXP_SCI</a>&#160;&#160;&#160;WXEXPORT</td></tr>
 <tr class="separator:n2-WXDLLIMPEXP_SCI"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:hm-SCI_USE_DND"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wxscintilla_8h#hm-SCI_USE_DND">SCI_USE_DND</a>&#160;&#160;&#160;1</td></tr>
+<tr class="separator:hm-SCI_USE_DND"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:sf-wxSCI_USE_POPUP"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wxscintilla_8h#sf-wxSCI_USE_POPUP">wxSCI_USE_POPUP</a>&#160;&#160;&#160;1</td></tr>
 <tr class="separator:sf-wxSCI_USE_POPUP"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:yt-wxSCI_INVALID_POSITION"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wxscintilla_8h#yt-wxSCI_INVALID_POSITION">wxSCI_INVALID_POSITION</a>&#160;&#160;&#160;-1</td></tr>
@@ -4623,110 +4627,106 @@ Macros</h2></td></tr>
 <tr class="separator:e8-wxSCI_CMD_VCHOMEDISPLAYEXTEND"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:e5-SCI_NAMESPACE_PREFIX"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wxscintilla_8h#e5-SCI_NAMESPACE_PREFIX">SCI_NAMESPACE_PREFIX</a>(x)&#160;&#160;&#160;x</td></tr>
 <tr class="separator:e5-SCI_NAMESPACE_PREFIX"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:yd-wxEVENT_HANDLER_CAST"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wxscintilla_8h#yd-wxEVENT_HANDLER_CAST">wxEVENT_HANDLER_CAST</a>(functype,  func)&#160;&#160;&#160;( wxObjectEventFunction )( wxEventFunction )wxStaticCastEvent( functype, &amp;func )</td></tr>
-<tr class="separator:yd-wxEVENT_HANDLER_CAST"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:xl-wxScintillaEventHandler"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wxscintilla_8h#xl-wxScintillaEventHandler">wxScintillaEventHandler</a>(func)&#160;&#160;&#160;<a class="el" href="wxscintilla_8h#yd-wxEVENT_HANDLER_CAST">wxEVENT_HANDLER_CAST</a>( <a class="el" href="wxscintilla_8h#pp-wxScintillaEventFunction">wxScintillaEventFunction</a>, func )</td></tr>
+<tr class="memitem:xl-wxScintillaEventHandler"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wxscintilla_8h#xl-wxScintillaEventHandler">wxScintillaEventHandler</a>(func)&#160;&#160;&#160;<a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__events.html#gaca944d76c68b31cf44fb62f25642ad00">wxEVENT_HANDLER_CAST</a>( <a class="el" href="wxscintilla_8h#pp-wxScintillaEventFunction">wxScintillaEventFunction</a>, func )</td></tr>
 <tr class="separator:xl-wxScintillaEventHandler"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:y2-EVT_SCI_CHANGE"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wxscintilla_8h#y2-EVT_SCI_CHANGE">EVT_SCI_CHANGE</a>(id,  fn)&#160;&#160;&#160;DECLARE_EVENT_TABLE_ENTRY (wxEVT_SCI_CHANGE,                id, wxID_ANY, <a class="el" href="wxscintilla_8h#xl-wxScintillaEventHandler">wxScintillaEventHandler</a>( fn ), (wxObject *) <a class="el" href="prefix_8cpp#t6-NULL">NULL</a>),</td></tr>
+<tr class="memitem:y2-EVT_SCI_CHANGE"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wxscintilla_8h#y2-EVT_SCI_CHANGE">EVT_SCI_CHANGE</a>(id,  fn)&#160;&#160;&#160;DECLARE_EVENT_TABLE_ENTRY (wxEVT_SCI_CHANGE,                id, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/defs_8h.html#ac66d0a09761e7d86b2ac0b2e0c6a8cbba1f375b01ea03a713bbb7e32a36a2589c">wxID_ANY</a>, <a class="el" href="wxscintilla_8h#xl-wxScintillaEventHandler">wxScintillaEventHandler</a>( fn ), (<a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_object.html">wxObject</a> *) <a class="el" href="prefix_8cpp#t6-NULL">NULL</a>),</td></tr>
 <tr class="separator:y2-EVT_SCI_CHANGE"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:t8-EVT_SCI_STYLENEEDED"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wxscintilla_8h#t8-EVT_SCI_STYLENEEDED">EVT_SCI_STYLENEEDED</a>(id,  fn)&#160;&#160;&#160;DECLARE_EVENT_TABLE_ENTRY (wxEVT_SCI_STYLENEEDED,           id, wxID_ANY, <a class="el" href="wxscintilla_8h#xl-wxScintillaEventHandler">wxScintillaEventHandler</a>( fn ), (wxObject *) <a class="el" href="prefix_8cpp#t6-NULL">NULL</a>),</td></tr>
+<tr class="memitem:t8-EVT_SCI_STYLENEEDED"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wxscintilla_8h#t8-EVT_SCI_STYLENEEDED">EVT_SCI_STYLENEEDED</a>(id,  fn)&#160;&#160;&#160;DECLARE_EVENT_TABLE_ENTRY (wxEVT_SCI_STYLENEEDED,           id, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/defs_8h.html#ac66d0a09761e7d86b2ac0b2e0c6a8cbba1f375b01ea03a713bbb7e32a36a2589c">wxID_ANY</a>, <a class="el" href="wxscintilla_8h#xl-wxScintillaEventHandler">wxScintillaEventHandler</a>( fn ), (<a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_object.html">wxObject</a> *) <a class="el" href="prefix_8cpp#t6-NULL">NULL</a>),</td></tr>
 <tr class="separator:t8-EVT_SCI_STYLENEEDED"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ly-EVT_SCI_CHARADDED"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wxscintilla_8h#ly-EVT_SCI_CHARADDED">EVT_SCI_CHARADDED</a>(id,  fn)&#160;&#160;&#160;DECLARE_EVENT_TABLE_ENTRY (wxEVT_SCI_CHARADDED,             id, wxID_ANY, <a class="el" href="wxscintilla_8h#xl-wxScintillaEventHandler">wxScintillaEventHandler</a>( fn ), (wxObject *) <a class="el" href="prefix_8cpp#t6-NULL">NULL</a>),</td></tr>
+<tr class="memitem:ly-EVT_SCI_CHARADDED"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wxscintilla_8h#ly-EVT_SCI_CHARADDED">EVT_SCI_CHARADDED</a>(id,  fn)&#160;&#160;&#160;DECLARE_EVENT_TABLE_ENTRY (wxEVT_SCI_CHARADDED,             id, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/defs_8h.html#ac66d0a09761e7d86b2ac0b2e0c6a8cbba1f375b01ea03a713bbb7e32a36a2589c">wxID_ANY</a>, <a class="el" href="wxscintilla_8h#xl-wxScintillaEventHandler">wxScintillaEventHandler</a>( fn ), (<a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_object.html">wxObject</a> *) <a class="el" href="prefix_8cpp#t6-NULL">NULL</a>),</td></tr>
 <tr class="separator:ly-EVT_SCI_CHARADDED"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4-EVT_SCI_SAVEPOINTREACHED"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wxscintilla_8h#a4-EVT_SCI_SAVEPOINTREACHED">EVT_SCI_SAVEPOINTREACHED</a>(id,  fn)&#160;&#160;&#160;DECLARE_EVENT_TABLE_ENTRY (wxEVT_SCI_SAVEPOINTREACHED,      id, wxID_ANY, <a class="el" href="wxscintilla_8h#xl-wxScintillaEventHandler">wxScintillaEventHandler</a>( fn ), (wxObject *) <a class="el" href="prefix_8cpp#t6-NULL">NULL</a>),</td></tr>
+<tr class="memitem:a4-EVT_SCI_SAVEPOINTREACHED"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wxscintilla_8h#a4-EVT_SCI_SAVEPOINTREACHED">EVT_SCI_SAVEPOINTREACHED</a>(id,  fn)&#160;&#160;&#160;DECLARE_EVENT_TABLE_ENTRY (wxEVT_SCI_SAVEPOINTREACHED,      id, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/defs_8h.html#ac66d0a09761e7d86b2ac0b2e0c6a8cbba1f375b01ea03a713bbb7e32a36a2589c">wxID_ANY</a>, <a class="el" href="wxscintilla_8h#xl-wxScintillaEventHandler">wxScintillaEventHandler</a>( fn ), (<a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_object.html">wxObject</a> *) <a class="el" href="prefix_8cpp#t6-NULL">NULL</a>),</td></tr>
 <tr class="separator:a4-EVT_SCI_SAVEPOINTREACHED"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:yy-EVT_SCI_SAVEPOINTLEFT"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wxscintilla_8h#yy-EVT_SCI_SAVEPOINTLEFT">EVT_SCI_SAVEPOINTLEFT</a>(id,  fn)&#160;&#160;&#160;DECLARE_EVENT_TABLE_ENTRY (wxEVT_SCI_SAVEPOINTLEFT,         id, wxID_ANY, <a class="el" href="wxscintilla_8h#xl-wxScintillaEventHandler">wxScintillaEventHandler</a>( fn ), (wxObject *) <a class="el" href="prefix_8cpp#t6-NULL">NULL</a>),</td></tr>
+<tr class="memitem:yy-EVT_SCI_SAVEPOINTLEFT"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wxscintilla_8h#yy-EVT_SCI_SAVEPOINTLEFT">EVT_SCI_SAVEPOINTLEFT</a>(id,  fn)&#160;&#160;&#160;DECLARE_EVENT_TABLE_ENTRY (wxEVT_SCI_SAVEPOINTLEFT,         id, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/defs_8h.html#ac66d0a09761e7d86b2ac0b2e0c6a8cbba1f375b01ea03a713bbb7e32a36a2589c">wxID_ANY</a>, <a class="el" href="wxscintilla_8h#xl-wxScintillaEventHandler">wxScintillaEventHandler</a>( fn ), (<a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_object.html">wxObject</a> *) <a class="el" href="prefix_8cpp#t6-NULL">NULL</a>),</td></tr>
 <tr class="separator:yy-EVT_SCI_SAVEPOINTLEFT"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0-EVT_SCI_ROMODIFYATTEMPT"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wxscintilla_8h#a0-EVT_SCI_ROMODIFYATTEMPT">EVT_SCI_ROMODIFYATTEMPT</a>(id,  fn)&#160;&#160;&#160;DECLARE_EVENT_TABLE_ENTRY (wxEVT_SCI_ROMODIFYATTEMPT,       id, wxID_ANY, <a class="el" href="wxscintilla_8h#xl-wxScintillaEventHandler">wxScintillaEventHandler</a>( fn ), (wxObject *) <a class="el" href="prefix_8cpp#t6-NULL">NULL</a>),</td></tr>
+<tr class="memitem:a0-EVT_SCI_ROMODIFYATTEMPT"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wxscintilla_8h#a0-EVT_SCI_ROMODIFYATTEMPT">EVT_SCI_ROMODIFYATTEMPT</a>(id,  fn)&#160;&#160;&#160;DECLARE_EVENT_TABLE_ENTRY (wxEVT_SCI_ROMODIFYATTEMPT,       id, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/defs_8h.html#ac66d0a09761e7d86b2ac0b2e0c6a8cbba1f375b01ea03a713bbb7e32a36a2589c">wxID_ANY</a>, <a class="el" href="wxscintilla_8h#xl-wxScintillaEventHandler">wxScintillaEventHandler</a>( fn ), (<a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_object.html">wxObject</a> *) <a class="el" href="prefix_8cpp#t6-NULL">NULL</a>),</td></tr>
 <tr class="separator:a0-EVT_SCI_ROMODIFYATTEMPT"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:r8-EVT_SCI_KEY"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wxscintilla_8h#r8-EVT_SCI_KEY">EVT_SCI_KEY</a>(id,  fn)&#160;&#160;&#160;DECLARE_EVENT_TABLE_ENTRY (wxEVT_SCI_KEY,                   id, wxID_ANY, <a class="el" href="wxscintilla_8h#xl-wxScintillaEventHandler">wxScintillaEventHandler</a>( fn ), (wxObject *) <a class="el" href="prefix_8cpp#t6-NULL">NULL</a>),</td></tr>
+<tr class="memitem:r8-EVT_SCI_KEY"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wxscintilla_8h#r8-EVT_SCI_KEY">EVT_SCI_KEY</a>(id,  fn)&#160;&#160;&#160;DECLARE_EVENT_TABLE_ENTRY (wxEVT_SCI_KEY,                   id, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/defs_8h.html#ac66d0a09761e7d86b2ac0b2e0c6a8cbba1f375b01ea03a713bbb7e32a36a2589c">wxID_ANY</a>, <a class="el" href="wxscintilla_8h#xl-wxScintillaEventHandler">wxScintillaEventHandler</a>( fn ), (<a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_object.html">wxObject</a> *) <a class="el" href="prefix_8cpp#t6-NULL">NULL</a>),</td></tr>
 <tr class="separator:r8-EVT_SCI_KEY"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:s4-EVT_SCI_DOUBLECLICK"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wxscintilla_8h#s4-EVT_SCI_DOUBLECLICK">EVT_SCI_DOUBLECLICK</a>(id,  fn)&#160;&#160;&#160;DECLARE_EVENT_TABLE_ENTRY (wxEVT_SCI_DOUBLECLICK,           id, wxID_ANY, <a class="el" href="wxscintilla_8h#xl-wxScintillaEventHandler">wxScintillaEventHandler</a>( fn ), (wxObject *) <a class="el" href="prefix_8cpp#t6-NULL">NULL</a>),</td></tr>
+<tr class="memitem:s4-EVT_SCI_DOUBLECLICK"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wxscintilla_8h#s4-EVT_SCI_DOUBLECLICK">EVT_SCI_DOUBLECLICK</a>(id,  fn)&#160;&#160;&#160;DECLARE_EVENT_TABLE_ENTRY (wxEVT_SCI_DOUBLECLICK,           id, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/defs_8h.html#ac66d0a09761e7d86b2ac0b2e0c6a8cbba1f375b01ea03a713bbb7e32a36a2589c">wxID_ANY</a>, <a class="el" href="wxscintilla_8h#xl-wxScintillaEventHandler">wxScintillaEventHandler</a>( fn ), (<a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_object.html">wxObject</a> *) <a class="el" href="prefix_8cpp#t6-NULL">NULL</a>),</td></tr>
 <tr class="separator:s4-EVT_SCI_DOUBLECLICK"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:mp-EVT_SCI_UPDATEUI"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wxscintilla_8h#mp-EVT_SCI_UPDATEUI">EVT_SCI_UPDATEUI</a>(id,  fn)&#160;&#160;&#160;DECLARE_EVENT_TABLE_ENTRY (wxEVT_SCI_UPDATEUI,              id, wxID_ANY, <a class="el" href="wxscintilla_8h#xl-wxScintillaEventHandler">wxScintillaEventHandler</a>( fn ), (wxObject *) <a class="el" href="prefix_8cpp#t6-NULL">NULL</a>),</td></tr>
+<tr class="memitem:mp-EVT_SCI_UPDATEUI"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wxscintilla_8h#mp-EVT_SCI_UPDATEUI">EVT_SCI_UPDATEUI</a>(id,  fn)&#160;&#160;&#160;DECLARE_EVENT_TABLE_ENTRY (wxEVT_SCI_UPDATEUI,              id, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/defs_8h.html#ac66d0a09761e7d86b2ac0b2e0c6a8cbba1f375b01ea03a713bbb7e32a36a2589c">wxID_ANY</a>, <a class="el" href="wxscintilla_8h#xl-wxScintillaEventHandler">wxScintillaEventHandler</a>( fn ), (<a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_object.html">wxObject</a> *) <a class="el" href="prefix_8cpp#t6-NULL">NULL</a>),</td></tr>
 <tr class="separator:mp-EVT_SCI_UPDATEUI"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:m2-EVT_SCI_MODIFIED"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wxscintilla_8h#m2-EVT_SCI_MODIFIED">EVT_SCI_MODIFIED</a>(id,  fn)&#160;&#160;&#160;DECLARE_EVENT_TABLE_ENTRY (wxEVT_SCI_MODIFIED,              id, wxID_ANY, <a class="el" href="wxscintilla_8h#xl-wxScintillaEventHandler">wxScintillaEventHandler</a>( fn ), (wxObject *) <a class="el" href="prefix_8cpp#t6-NULL">NULL</a>),</td></tr>
+<tr class="memitem:m2-EVT_SCI_MODIFIED"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wxscintilla_8h#m2-EVT_SCI_MODIFIED">EVT_SCI_MODIFIED</a>(id,  fn)&#160;&#160;&#160;DECLARE_EVENT_TABLE_ENTRY (wxEVT_SCI_MODIFIED,              id, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/defs_8h.html#ac66d0a09761e7d86b2ac0b2e0c6a8cbba1f375b01ea03a713bbb7e32a36a2589c">wxID_ANY</a>, <a class="el" href="wxscintilla_8h#xl-wxScintillaEventHandler">wxScintillaEventHandler</a>( fn ), (<a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_object.html">wxObject</a> *) <a class="el" href="prefix_8cpp#t6-NULL">NULL</a>),</td></tr>
 <tr class="separator:m2-EVT_SCI_MODIFIED"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:t8-EVT_SCI_MACRORECORD"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wxscintilla_8h#t8-EVT_SCI_MACRORECORD">EVT_SCI_MACRORECORD</a>(id,  fn)&#160;&#160;&#160;DECLARE_EVENT_TABLE_ENTRY (wxEVT_SCI_MACRORECORD,           id, wxID_ANY, <a class="el" href="wxscintilla_8h#xl-wxScintillaEventHandler">wxScintillaEventHandler</a>( fn ), (wxObject *) <a class="el" href="prefix_8cpp#t6-NULL">NULL</a>),</td></tr>
+<tr class="memitem:t8-EVT_SCI_MACRORECORD"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wxscintilla_8h#t8-EVT_SCI_MACRORECORD">EVT_SCI_MACRORECORD</a>(id,  fn)&#160;&#160;&#160;DECLARE_EVENT_TABLE_ENTRY (wxEVT_SCI_MACRORECORD,           id, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/defs_8h.html#ac66d0a09761e7d86b2ac0b2e0c6a8cbba1f375b01ea03a713bbb7e32a36a2589c">wxID_ANY</a>, <a class="el" href="wxscintilla_8h#xl-wxScintillaEventHandler">wxScintillaEventHandler</a>( fn ), (<a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_object.html">wxObject</a> *) <a class="el" href="prefix_8cpp#t6-NULL">NULL</a>),</td></tr>
 <tr class="separator:t8-EVT_SCI_MACRORECORD"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:tg-EVT_SCI_MARGINCLICK"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wxscintilla_8h#tg-EVT_SCI_MARGINCLICK">EVT_SCI_MARGINCLICK</a>(id,  fn)&#160;&#160;&#160;DECLARE_EVENT_TABLE_ENTRY (wxEVT_SCI_MARGINCLICK,           id, wxID_ANY, <a class="el" href="wxscintilla_8h#xl-wxScintillaEventHandler">wxScintillaEventHandler</a>( fn ), (wxObject *) <a class="el" href="prefix_8cpp#t6-NULL">NULL</a>),</td></tr>
+<tr class="memitem:tg-EVT_SCI_MARGINCLICK"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wxscintilla_8h#tg-EVT_SCI_MARGINCLICK">EVT_SCI_MARGINCLICK</a>(id,  fn)&#160;&#160;&#160;DECLARE_EVENT_TABLE_ENTRY (wxEVT_SCI_MARGINCLICK,           id, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/defs_8h.html#ac66d0a09761e7d86b2ac0b2e0c6a8cbba1f375b01ea03a713bbb7e32a36a2589c">wxID_ANY</a>, <a class="el" href="wxscintilla_8h#xl-wxScintillaEventHandler">wxScintillaEventHandler</a>( fn ), (<a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_object.html">wxObject</a> *) <a class="el" href="prefix_8cpp#t6-NULL">NULL</a>),</td></tr>
 <tr class="separator:tg-EVT_SCI_MARGINCLICK"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:kp-EVT_SCI_NEEDSHOWN"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wxscintilla_8h#kp-EVT_SCI_NEEDSHOWN">EVT_SCI_NEEDSHOWN</a>(id,  fn)&#160;&#160;&#160;DECLARE_EVENT_TABLE_ENTRY (wxEVT_SCI_NEEDSHOWN,             id, wxID_ANY, <a class="el" href="wxscintilla_8h#xl-wxScintillaEventHandler">wxScintillaEventHandler</a>( fn ), (wxObject *) <a class="el" href="prefix_8cpp#t6-NULL">NULL</a>),</td></tr>
+<tr class="memitem:kp-EVT_SCI_NEEDSHOWN"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wxscintilla_8h#kp-EVT_SCI_NEEDSHOWN">EVT_SCI_NEEDSHOWN</a>(id,  fn)&#160;&#160;&#160;DECLARE_EVENT_TABLE_ENTRY (wxEVT_SCI_NEEDSHOWN,             id, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/defs_8h.html#ac66d0a09761e7d86b2ac0b2e0c6a8cbba1f375b01ea03a713bbb7e32a36a2589c">wxID_ANY</a>, <a class="el" href="wxscintilla_8h#xl-wxScintillaEventHandler">wxScintillaEventHandler</a>( fn ), (<a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_object.html">wxObject</a> *) <a class="el" href="prefix_8cpp#t6-NULL">NULL</a>),</td></tr>
 <tr class="separator:kp-EVT_SCI_NEEDSHOWN"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:q9-EVT_SCI_PAINTED"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wxscintilla_8h#q9-EVT_SCI_PAINTED">EVT_SCI_PAINTED</a>(id,  fn)&#160;&#160;&#160;DECLARE_EVENT_TABLE_ENTRY (wxEVT_SCI_PAINTED,               id, wxID_ANY, <a class="el" href="wxscintilla_8h#xl-wxScintillaEventHandler">wxScintillaEventHandler</a>( fn ), (wxObject *) <a class="el" href="prefix_8cpp#t6-NULL">NULL</a>),</td></tr>
+<tr class="memitem:q9-EVT_SCI_PAINTED"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wxscintilla_8h#q9-EVT_SCI_PAINTED">EVT_SCI_PAINTED</a>(id,  fn)&#160;&#160;&#160;DECLARE_EVENT_TABLE_ENTRY (wxEVT_SCI_PAINTED,               id, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/defs_8h.html#ac66d0a09761e7d86b2ac0b2e0c6a8cbba1f375b01ea03a713bbb7e32a36a2589c">wxID_ANY</a>, <a class="el" href="wxscintilla_8h#xl-wxScintillaEventHandler">wxScintillaEventHandler</a>( fn ), (<a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_object.html">wxObject</a> *) <a class="el" href="prefix_8cpp#t6-NULL">NULL</a>),</td></tr>
 <tr class="separator:q9-EVT_SCI_PAINTED"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:cd-EVT_SCI_USERLISTSELECTION"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wxscintilla_8h#cd-EVT_SCI_USERLISTSELECTION">EVT_SCI_USERLISTSELECTION</a>(id,  fn)&#160;&#160;&#160;DECLARE_EVENT_TABLE_ENTRY (wxEVT_SCI_USERLISTSELECTION,     id, wxID_ANY, <a class="el" href="wxscintilla_8h#xl-wxScintillaEventHandler">wxScintillaEventHandler</a>( fn ), (wxObject *) <a class="el" href="prefix_8cpp#t6-NULL">NULL</a>),</td></tr>
+<tr class="memitem:cd-EVT_SCI_USERLISTSELECTION"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wxscintilla_8h#cd-EVT_SCI_USERLISTSELECTION">EVT_SCI_USERLISTSELECTION</a>(id,  fn)&#160;&#160;&#160;DECLARE_EVENT_TABLE_ENTRY (wxEVT_SCI_USERLISTSELECTION,     id, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/defs_8h.html#ac66d0a09761e7d86b2ac0b2e0c6a8cbba1f375b01ea03a713bbb7e32a36a2589c">wxID_ANY</a>, <a class="el" href="wxscintilla_8h#xl-wxScintillaEventHandler">wxScintillaEventHandler</a>( fn ), (<a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_object.html">wxObject</a> *) <a class="el" href="prefix_8cpp#t6-NULL">NULL</a>),</td></tr>
 <tr class="separator:cd-EVT_SCI_USERLISTSELECTION"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:yx-EVT_SCI_URIDROPPED"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wxscintilla_8h#yx-EVT_SCI_URIDROPPED">EVT_SCI_URIDROPPED</a>(id,  fn)&#160;&#160;&#160;DECLARE_EVENT_TABLE_ENTRY (wxEVT_SCI_URIDROPPED,            id, wxID_ANY, <a class="el" href="wxscintilla_8h#xl-wxScintillaEventHandler">wxScintillaEventHandler</a>( fn ), (wxObject *) <a class="el" href="prefix_8cpp#t6-NULL">NULL</a>),</td></tr>
+<tr class="memitem:yx-EVT_SCI_URIDROPPED"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wxscintilla_8h#yx-EVT_SCI_URIDROPPED">EVT_SCI_URIDROPPED</a>(id,  fn)&#160;&#160;&#160;DECLARE_EVENT_TABLE_ENTRY (wxEVT_SCI_URIDROPPED,            id, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/defs_8h.html#ac66d0a09761e7d86b2ac0b2e0c6a8cbba1f375b01ea03a713bbb7e32a36a2589c">wxID_ANY</a>, <a class="el" href="wxscintilla_8h#xl-wxScintillaEventHandler">wxScintillaEventHandler</a>( fn ), (<a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_object.html">wxObject</a> *) <a class="el" href="prefix_8cpp#t6-NULL">NULL</a>),</td></tr>
 <tr class="separator:yx-EVT_SCI_URIDROPPED"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:h0-EVT_SCI_DWELLSTART"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wxscintilla_8h#h0-EVT_SCI_DWELLSTART">EVT_SCI_DWELLSTART</a>(id,  fn)&#160;&#160;&#160;DECLARE_EVENT_TABLE_ENTRY (wxEVT_SCI_DWELLSTART,            id, wxID_ANY, <a class="el" href="wxscintilla_8h#xl-wxScintillaEventHandler">wxScintillaEventHandler</a>( fn ), (wxObject *) <a class="el" href="prefix_8cpp#t6-NULL">NULL</a>),</td></tr>
+<tr class="memitem:h0-EVT_SCI_DWELLSTART"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wxscintilla_8h#h0-EVT_SCI_DWELLSTART">EVT_SCI_DWELLSTART</a>(id,  fn)&#160;&#160;&#160;DECLARE_EVENT_TABLE_ENTRY (wxEVT_SCI_DWELLSTART,            id, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/defs_8h.html#ac66d0a09761e7d86b2ac0b2e0c6a8cbba1f375b01ea03a713bbb7e32a36a2589c">wxID_ANY</a>, <a class="el" href="wxscintilla_8h#xl-wxScintillaEventHandler">wxScintillaEventHandler</a>( fn ), (<a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_object.html">wxObject</a> *) <a class="el" href="prefix_8cpp#t6-NULL">NULL</a>),</td></tr>
 <tr class="separator:h0-EVT_SCI_DWELLSTART"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:yz-EVT_SCI_DWELLEND"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wxscintilla_8h#yz-EVT_SCI_DWELLEND">EVT_SCI_DWELLEND</a>(id,  fn)&#160;&#160;&#160;DECLARE_EVENT_TABLE_ENTRY (wxEVT_SCI_DWELLEND,              id, wxID_ANY, <a class="el" href="wxscintilla_8h#xl-wxScintillaEventHandler">wxScintillaEventHandler</a>( fn ), (wxObject *) <a class="el" href="prefix_8cpp#t6-NULL">NULL</a>),</td></tr>
+<tr class="memitem:yz-EVT_SCI_DWELLEND"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wxscintilla_8h#yz-EVT_SCI_DWELLEND">EVT_SCI_DWELLEND</a>(id,  fn)&#160;&#160;&#160;DECLARE_EVENT_TABLE_ENTRY (wxEVT_SCI_DWELLEND,              id, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/defs_8h.html#ac66d0a09761e7d86b2ac0b2e0c6a8cbba1f375b01ea03a713bbb7e32a36a2589c">wxID_ANY</a>, <a class="el" href="wxscintilla_8h#xl-wxScintillaEventHandler">wxScintillaEventHandler</a>( fn ), (<a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_object.html">wxObject</a> *) <a class="el" href="prefix_8cpp#t6-NULL">NULL</a>),</td></tr>
 <tr class="separator:yz-EVT_SCI_DWELLEND"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:sz-EVT_SCI_START_DRAG"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wxscintilla_8h#sz-EVT_SCI_START_DRAG">EVT_SCI_START_DRAG</a>(id,  fn)&#160;&#160;&#160;DECLARE_EVENT_TABLE_ENTRY (wxEVT_SCI_START_DRAG,            id, wxID_ANY, <a class="el" href="wxscintilla_8h#xl-wxScintillaEventHandler">wxScintillaEventHandler</a>( fn ), (wxObject *) <a class="el" href="prefix_8cpp#t6-NULL">NULL</a>),</td></tr>
+<tr class="memitem:sz-EVT_SCI_START_DRAG"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wxscintilla_8h#sz-EVT_SCI_START_DRAG">EVT_SCI_START_DRAG</a>(id,  fn)&#160;&#160;&#160;DECLARE_EVENT_TABLE_ENTRY (wxEVT_SCI_START_DRAG,            id, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/defs_8h.html#ac66d0a09761e7d86b2ac0b2e0c6a8cbba1f375b01ea03a713bbb7e32a36a2589c">wxID_ANY</a>, <a class="el" href="wxscintilla_8h#xl-wxScintillaEventHandler">wxScintillaEventHandler</a>( fn ), (<a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_object.html">wxObject</a> *) <a class="el" href="prefix_8cpp#t6-NULL">NULL</a>),</td></tr>
 <tr class="separator:sz-EVT_SCI_START_DRAG"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:kz-EVT_SCI_DRAG_OVER"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wxscintilla_8h#kz-EVT_SCI_DRAG_OVER">EVT_SCI_DRAG_OVER</a>(id,  fn)&#160;&#160;&#160;DECLARE_EVENT_TABLE_ENTRY (wxEVT_SCI_DRAG_OVER,             id, wxID_ANY, <a class="el" href="wxscintilla_8h#xl-wxScintillaEventHandler">wxScintillaEventHandler</a>( fn ), (wxObject *) <a class="el" href="prefix_8cpp#t6-NULL">NULL</a>),</td></tr>
+<tr class="memitem:kz-EVT_SCI_DRAG_OVER"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wxscintilla_8h#kz-EVT_SCI_DRAG_OVER">EVT_SCI_DRAG_OVER</a>(id,  fn)&#160;&#160;&#160;DECLARE_EVENT_TABLE_ENTRY (wxEVT_SCI_DRAG_OVER,             id, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/defs_8h.html#ac66d0a09761e7d86b2ac0b2e0c6a8cbba1f375b01ea03a713bbb7e32a36a2589c">wxID_ANY</a>, <a class="el" href="wxscintilla_8h#xl-wxScintillaEventHandler">wxScintillaEventHandler</a>( fn ), (<a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_object.html">wxObject</a> *) <a class="el" href="prefix_8cpp#t6-NULL">NULL</a>),</td></tr>
 <tr class="separator:kz-EVT_SCI_DRAG_OVER"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:l6-EVT_SCI_DO_DROP"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wxscintilla_8h#l6-EVT_SCI_DO_DROP">EVT_SCI_DO_DROP</a>(id,  fn)&#160;&#160;&#160;DECLARE_EVENT_TABLE_ENTRY (wxEVT_SCI_DO_DROP,               id, wxID_ANY, <a class="el" href="wxscintilla_8h#xl-wxScintillaEventHandler">wxScintillaEventHandler</a>( fn ), (wxObject *) <a class="el" href="prefix_8cpp#t6-NULL">NULL</a>),</td></tr>
+<tr class="memitem:l6-EVT_SCI_DO_DROP"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wxscintilla_8h#l6-EVT_SCI_DO_DROP">EVT_SCI_DO_DROP</a>(id,  fn)&#160;&#160;&#160;DECLARE_EVENT_TABLE_ENTRY (wxEVT_SCI_DO_DROP,               id, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/defs_8h.html#ac66d0a09761e7d86b2ac0b2e0c6a8cbba1f375b01ea03a713bbb7e32a36a2589c">wxID_ANY</a>, <a class="el" href="wxscintilla_8h#xl-wxScintillaEventHandler">wxScintillaEventHandler</a>( fn ), (<a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_object.html">wxObject</a> *) <a class="el" href="prefix_8cpp#t6-NULL">NULL</a>),</td></tr>
 <tr class="separator:l6-EVT_SCI_DO_DROP"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:h0-EVT_SCI_ZOOM"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wxscintilla_8h#h0-EVT_SCI_ZOOM">EVT_SCI_ZOOM</a>(id,  fn)&#160;&#160;&#160;DECLARE_EVENT_TABLE_ENTRY (wxEVT_SCI_ZOOM,                  id, wxID_ANY, <a class="el" href="wxscintilla_8h#xl-wxScintillaEventHandler">wxScintillaEventHandler</a>( fn ), (wxObject *) <a class="el" href="prefix_8cpp#t6-NULL">NULL</a>),</td></tr>
+<tr class="memitem:h0-EVT_SCI_ZOOM"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wxscintilla_8h#h0-EVT_SCI_ZOOM">EVT_SCI_ZOOM</a>(id,  fn)&#160;&#160;&#160;DECLARE_EVENT_TABLE_ENTRY (wxEVT_SCI_ZOOM,                  id, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/defs_8h.html#ac66d0a09761e7d86b2ac0b2e0c6a8cbba1f375b01ea03a713bbb7e32a36a2589c">wxID_ANY</a>, <a class="el" href="wxscintilla_8h#xl-wxScintillaEventHandler">wxScintillaEventHandler</a>( fn ), (<a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_object.html">wxObject</a> *) <a class="el" href="prefix_8cpp#t6-NULL">NULL</a>),</td></tr>
 <tr class="separator:h0-EVT_SCI_ZOOM"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:sw-EVT_SCI_HOTSPOT_CLICK"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wxscintilla_8h#sw-EVT_SCI_HOTSPOT_CLICK">EVT_SCI_HOTSPOT_CLICK</a>(id,  fn)&#160;&#160;&#160;DECLARE_EVENT_TABLE_ENTRY (wxEVT_SCI_HOTSPOT_CLICK,         id, wxID_ANY, <a class="el" href="wxscintilla_8h#xl-wxScintillaEventHandler">wxScintillaEventHandler</a>( fn ), (wxObject *) <a class="el" href="prefix_8cpp#t6-NULL">NULL</a>),</td></tr>
+<tr class="memitem:sw-EVT_SCI_HOTSPOT_CLICK"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wxscintilla_8h#sw-EVT_SCI_HOTSPOT_CLICK">EVT_SCI_HOTSPOT_CLICK</a>(id,  fn)&#160;&#160;&#160;DECLARE_EVENT_TABLE_ENTRY (wxEVT_SCI_HOTSPOT_CLICK,         id, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/defs_8h.html#ac66d0a09761e7d86b2ac0b2e0c6a8cbba1f375b01ea03a713bbb7e32a36a2589c">wxID_ANY</a>, <a class="el" href="wxscintilla_8h#xl-wxScintillaEventHandler">wxScintillaEventHandler</a>( fn ), (<a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_object.html">wxObject</a> *) <a class="el" href="prefix_8cpp#t6-NULL">NULL</a>),</td></tr>
 <tr class="separator:sw-EVT_SCI_HOTSPOT_CLICK"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:t2-EVT_SCI_HOTSPOT_DCLICK"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wxscintilla_8h#t2-EVT_SCI_HOTSPOT_DCLICK">EVT_SCI_HOTSPOT_DCLICK</a>(id,  fn)&#160;&#160;&#160;DECLARE_EVENT_TABLE_ENTRY (wxEVT_SCI_HOTSPOT_DCLICK,        id, wxID_ANY, <a class="el" href="wxscintilla_8h#xl-wxScintillaEventHandler">wxScintillaEventHandler</a>( fn ), (wxObject *) <a class="el" href="prefix_8cpp#t6-NULL">NULL</a>),</td></tr>
+<tr class="memitem:t2-EVT_SCI_HOTSPOT_DCLICK"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wxscintilla_8h#t2-EVT_SCI_HOTSPOT_DCLICK">EVT_SCI_HOTSPOT_DCLICK</a>(id,  fn)&#160;&#160;&#160;DECLARE_EVENT_TABLE_ENTRY (wxEVT_SCI_HOTSPOT_DCLICK,        id, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/defs_8h.html#ac66d0a09761e7d86b2ac0b2e0c6a8cbba1f375b01ea03a713bbb7e32a36a2589c">wxID_ANY</a>, <a class="el" href="wxscintilla_8h#xl-wxScintillaEventHandler">wxScintillaEventHandler</a>( fn ), (<a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_object.html">wxObject</a> *) <a class="el" href="prefix_8cpp#t6-NULL">NULL</a>),</td></tr>
 <tr class="separator:t2-EVT_SCI_HOTSPOT_DCLICK"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:s4-EVT_SCI_CALLTIP_CLICK"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wxscintilla_8h#s4-EVT_SCI_CALLTIP_CLICK">EVT_SCI_CALLTIP_CLICK</a>(id,  fn)&#160;&#160;&#160;DECLARE_EVENT_TABLE_ENTRY (wxEVT_SCI_CALLTIP_CLICK          id, wxID_ANY, <a class="el" href="wxscintilla_8h#xl-wxScintillaEventHandler">wxScintillaEventHandler</a>( fn ), (wxObject *) <a class="el" href="prefix_8cpp#t6-NULL">NULL</a>),</td></tr>
+<tr class="memitem:s4-EVT_SCI_CALLTIP_CLICK"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wxscintilla_8h#s4-EVT_SCI_CALLTIP_CLICK">EVT_SCI_CALLTIP_CLICK</a>(id,  fn)&#160;&#160;&#160;DECLARE_EVENT_TABLE_ENTRY (wxEVT_SCI_CALLTIP_CLICK          id, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/defs_8h.html#ac66d0a09761e7d86b2ac0b2e0c6a8cbba1f375b01ea03a713bbb7e32a36a2589c">wxID_ANY</a>, <a class="el" href="wxscintilla_8h#xl-wxScintillaEventHandler">wxScintillaEventHandler</a>( fn ), (<a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_object.html">wxObject</a> *) <a class="el" href="prefix_8cpp#t6-NULL">NULL</a>),</td></tr>
 <tr class="separator:s4-EVT_SCI_CALLTIP_CLICK"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:qj-EVT_SCI_AUTOCOMP_SELECTION"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wxscintilla_8h#qj-EVT_SCI_AUTOCOMP_SELECTION">EVT_SCI_AUTOCOMP_SELECTION</a>(id,  fn)&#160;&#160;&#160;DECLARE_EVENT_TABLE_ENTRY (wxEVT_SCI_AUTOCOMP_SELECTION     id, wxID_ANY, <a class="el" href="wxscintilla_8h#xl-wxScintillaEventHandler">wxScintillaEventHandler</a>( fn ), (wxObject *) <a class="el" href="prefix_8cpp#t6-NULL">NULL</a>),</td></tr>
+<tr class="memitem:qj-EVT_SCI_AUTOCOMP_SELECTION"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wxscintilla_8h#qj-EVT_SCI_AUTOCOMP_SELECTION">EVT_SCI_AUTOCOMP_SELECTION</a>(id,  fn)&#160;&#160;&#160;DECLARE_EVENT_TABLE_ENTRY (wxEVT_SCI_AUTOCOMP_SELECTION     id, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/defs_8h.html#ac66d0a09761e7d86b2ac0b2e0c6a8cbba1f375b01ea03a713bbb7e32a36a2589c">wxID_ANY</a>, <a class="el" href="wxscintilla_8h#xl-wxScintillaEventHandler">wxScintillaEventHandler</a>( fn ), (<a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_object.html">wxObject</a> *) <a class="el" href="prefix_8cpp#t6-NULL">NULL</a>),</td></tr>
 <tr class="separator:qj-EVT_SCI_AUTOCOMP_SELECTION"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:op-EVT_SCI_INDICATOR_CLICK"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wxscintilla_8h#op-EVT_SCI_INDICATOR_CLICK">EVT_SCI_INDICATOR_CLICK</a>(id,  fn)&#160;&#160;&#160;DECLARE_EVENT_TABLE_ENTRY (wxEVT_SCI_INDICATOR_CLICK        id, wxID_ANY, <a class="el" href="wxscintilla_8h#xl-wxScintillaEventHandler">wxScintillaEventHandler</a>( fn ), (wxObject *) <a class="el" href="prefix_8cpp#t6-NULL">NULL</a>),</td></tr>
+<tr class="memitem:op-EVT_SCI_INDICATOR_CLICK"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wxscintilla_8h#op-EVT_SCI_INDICATOR_CLICK">EVT_SCI_INDICATOR_CLICK</a>(id,  fn)&#160;&#160;&#160;DECLARE_EVENT_TABLE_ENTRY (wxEVT_SCI_INDICATOR_CLICK        id, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/defs_8h.html#ac66d0a09761e7d86b2ac0b2e0c6a8cbba1f375b01ea03a713bbb7e32a36a2589c">wxID_ANY</a>, <a class="el" href="wxscintilla_8h#xl-wxScintillaEventHandler">wxScintillaEventHandler</a>( fn ), (<a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_object.html">wxObject</a> *) <a class="el" href="prefix_8cpp#t6-NULL">NULL</a>),</td></tr>
 <tr class="separator:op-EVT_SCI_INDICATOR_CLICK"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:bu-EVT_SCI_INDICATOR_RELEASE"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wxscintilla_8h#bu-EVT_SCI_INDICATOR_RELEASE">EVT_SCI_INDICATOR_RELEASE</a>(id,  fn)&#160;&#160;&#160;DECLARE_EVENT_TABLE_ENTRY (wxEVT_SCI_INDICATOR_RELEASE      id, wxID_ANY, <a class="el" href="wxscintilla_8h#xl-wxScintillaEventHandler">wxScintillaEventHandler</a>( fn ), (wxObject *) <a class="el" href="prefix_8cpp#t6-NULL">NULL</a>),</td></tr>
+<tr class="memitem:bu-EVT_SCI_INDICATOR_RELEASE"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wxscintilla_8h#bu-EVT_SCI_INDICATOR_RELEASE">EVT_SCI_INDICATOR_RELEASE</a>(id,  fn)&#160;&#160;&#160;DECLARE_EVENT_TABLE_ENTRY (wxEVT_SCI_INDICATOR_RELEASE      id, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/defs_8h.html#ac66d0a09761e7d86b2ac0b2e0c6a8cbba1f375b01ea03a713bbb7e32a36a2589c">wxID_ANY</a>, <a class="el" href="wxscintilla_8h#xl-wxScintillaEventHandler">wxScintillaEventHandler</a>( fn ), (<a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_object.html">wxObject</a> *) <a class="el" href="prefix_8cpp#t6-NULL">NULL</a>),</td></tr>
 <tr class="separator:bu-EVT_SCI_INDICATOR_RELEASE"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:q5-EVT_SCI_AUTOCOMP_CANCELLED"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wxscintilla_8h#q5-EVT_SCI_AUTOCOMP_CANCELLED">EVT_SCI_AUTOCOMP_CANCELLED</a>(id,  fn)&#160;&#160;&#160;DECLARE_EVENT_TABLE_ENTRY (wxEVT_SCI_AUTOCOMP_CANCELLED     id, wxID_ANY, <a class="el" href="wxscintilla_8h#xl-wxScintillaEventHandler">wxScintillaEventHandler</a>( fn ), (wxObject *) <a class="el" href="prefix_8cpp#t6-NULL">NULL</a>),</td></tr>
+<tr class="memitem:q5-EVT_SCI_AUTOCOMP_CANCELLED"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wxscintilla_8h#q5-EVT_SCI_AUTOCOMP_CANCELLED">EVT_SCI_AUTOCOMP_CANCELLED</a>(id,  fn)&#160;&#160;&#160;DECLARE_EVENT_TABLE_ENTRY (wxEVT_SCI_AUTOCOMP_CANCELLED     id, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/defs_8h.html#ac66d0a09761e7d86b2ac0b2e0c6a8cbba1f375b01ea03a713bbb7e32a36a2589c">wxID_ANY</a>, <a class="el" href="wxscintilla_8h#xl-wxScintillaEventHandler">wxScintillaEventHandler</a>( fn ), (<a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_object.html">wxObject</a> *) <a class="el" href="prefix_8cpp#t6-NULL">NULL</a>),</td></tr>
 <tr class="separator:q5-EVT_SCI_AUTOCOMP_CANCELLED"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:kn-EVT_SCI_AUTOCOMP_CHAR_DELETED"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wxscintilla_8h#kn-EVT_SCI_AUTOCOMP_CHAR_DELETED">EVT_SCI_AUTOCOMP_CHAR_DELETED</a>(id,  fn)&#160;&#160;&#160;DECLARE_EVENT_TABLE_ENTRY (wxEVT_SCI_AUTOCOMP_CHAR_DELETED  id, wxID_ANY, <a class="el" href="wxscintilla_8h#xl-wxScintillaEventHandler">wxScintillaEventHandler</a>( fn ), (wxObject *) <a class="el" href="prefix_8cpp#t6-NULL">NULL</a>),</td></tr>
+<tr class="memitem:kn-EVT_SCI_AUTOCOMP_CHAR_DELETED"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wxscintilla_8h#kn-EVT_SCI_AUTOCOMP_CHAR_DELETED">EVT_SCI_AUTOCOMP_CHAR_DELETED</a>(id,  fn)&#160;&#160;&#160;DECLARE_EVENT_TABLE_ENTRY (wxEVT_SCI_AUTOCOMP_CHAR_DELETED  id, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/defs_8h.html#ac66d0a09761e7d86b2ac0b2e0c6a8cbba1f375b01ea03a713bbb7e32a36a2589c">wxID_ANY</a>, <a class="el" href="wxscintilla_8h#xl-wxScintillaEventHandler">wxScintillaEventHandler</a>( fn ), (<a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_object.html">wxObject</a> *) <a class="el" href="prefix_8cpp#t6-NULL">NULL</a>),</td></tr>
 <tr class="separator:kn-EVT_SCI_AUTOCOMP_CHAR_DELETED"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:xa-EVT_SCI_HOTSPOT_RELEASE_CLICK"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wxscintilla_8h#xa-EVT_SCI_HOTSPOT_RELEASE_CLICK">EVT_SCI_HOTSPOT_RELEASE_CLICK</a>(id,  fn)&#160;&#160;&#160;DECLARE_EVENT_TABLE_ENTRY (wxEVT_SCI_HOTSPOT_RELEASE_CLICK, id, wxID_ANY, <a class="el" href="wxscintilla_8h#xl-wxScintillaEventHandler">wxScintillaEventHandler</a>( fn ), (wxObject *) <a class="el" href="prefix_8cpp#t6-NULL">NULL</a>),</td></tr>
+<tr class="memitem:xa-EVT_SCI_HOTSPOT_RELEASE_CLICK"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wxscintilla_8h#xa-EVT_SCI_HOTSPOT_RELEASE_CLICK">EVT_SCI_HOTSPOT_RELEASE_CLICK</a>(id,  fn)&#160;&#160;&#160;DECLARE_EVENT_TABLE_ENTRY (wxEVT_SCI_HOTSPOT_RELEASE_CLICK, id, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/defs_8h.html#ac66d0a09761e7d86b2ac0b2e0c6a8cbba1f375b01ea03a713bbb7e32a36a2589c">wxID_ANY</a>, <a class="el" href="wxscintilla_8h#xl-wxScintillaEventHandler">wxScintillaEventHandler</a>( fn ), (<a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_object.html">wxObject</a> *) <a class="el" href="prefix_8cpp#t6-NULL">NULL</a>),</td></tr>
 <tr class="separator:xa-EVT_SCI_HOTSPOT_RELEASE_CLICK"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:bc-EVT_SCI_CLIPBOARD_COPY"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wxscintilla_8h#bc-EVT_SCI_CLIPBOARD_COPY">EVT_SCI_CLIPBOARD_COPY</a>(id,  fn)&#160;&#160;&#160;DECLARE_EVENT_TABLE_ENTRY (wxEVT_SCI_CLIPBOARD_COPY,        id, wxID_ANY, <a class="el" href="wxscintilla_8h#xl-wxScintillaEventHandler">wxScintillaEventHandler</a>( fn ), (wxObject *) <a class="el" href="prefix_8cpp#t6-NULL">NULL</a>),</td></tr>
+<tr class="memitem:bc-EVT_SCI_CLIPBOARD_COPY"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wxscintilla_8h#bc-EVT_SCI_CLIPBOARD_COPY">EVT_SCI_CLIPBOARD_COPY</a>(id,  fn)&#160;&#160;&#160;DECLARE_EVENT_TABLE_ENTRY (wxEVT_SCI_CLIPBOARD_COPY,        id, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/defs_8h.html#ac66d0a09761e7d86b2ac0b2e0c6a8cbba1f375b01ea03a713bbb7e32a36a2589c">wxID_ANY</a>, <a class="el" href="wxscintilla_8h#xl-wxScintillaEventHandler">wxScintillaEventHandler</a>( fn ), (<a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_object.html">wxObject</a> *) <a class="el" href="prefix_8cpp#t6-NULL">NULL</a>),</td></tr>
 <tr class="separator:bc-EVT_SCI_CLIPBOARD_COPY"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:su-EVT_SCI_CLIPBOARD_PASTE"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wxscintilla_8h#su-EVT_SCI_CLIPBOARD_PASTE">EVT_SCI_CLIPBOARD_PASTE</a>(id,  fn)&#160;&#160;&#160;DECLARE_EVENT_TABLE_ENTRY (wxEVT_SCI_CLIPBOARD_PASTE,       id, wxID_ANY, <a class="el" href="wxscintilla_8h#xl-wxScintillaEventHandler">wxScintillaEventHandler</a>( fn ), (wxObject *) <a class="el" href="prefix_8cpp#t6-NULL">NULL</a>),</td></tr>
+<tr class="memitem:su-EVT_SCI_CLIPBOARD_PASTE"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wxscintilla_8h#su-EVT_SCI_CLIPBOARD_PASTE">EVT_SCI_CLIPBOARD_PASTE</a>(id,  fn)&#160;&#160;&#160;DECLARE_EVENT_TABLE_ENTRY (wxEVT_SCI_CLIPBOARD_PASTE,       id, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/defs_8h.html#ac66d0a09761e7d86b2ac0b2e0c6a8cbba1f375b01ea03a713bbb7e32a36a2589c">wxID_ANY</a>, <a class="el" href="wxscintilla_8h#xl-wxScintillaEventHandler">wxScintillaEventHandler</a>( fn ), (<a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_object.html">wxObject</a> *) <a class="el" href="prefix_8cpp#t6-NULL">NULL</a>),</td></tr>
 <tr class="separator:su-EVT_SCI_CLIPBOARD_PASTE"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:io-EVT_SCI_SETFOCUS"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wxscintilla_8h#io-EVT_SCI_SETFOCUS">EVT_SCI_SETFOCUS</a>(id,  fn)&#160;&#160;&#160;DECLARE_EVENT_TABLE_ENTRY (wxEVT_SCI_SETFOCUS               id, wxID_ANY, <a class="el" href="wxscintilla_8h#xl-wxScintillaEventHandler">wxScintillaEventHandler</a>( fn ), (wxObject *) <a class="el" href="prefix_8cpp#t6-NULL">NULL</a>),</td></tr>
+<tr class="memitem:io-EVT_SCI_SETFOCUS"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wxscintilla_8h#io-EVT_SCI_SETFOCUS">EVT_SCI_SETFOCUS</a>(id,  fn)&#160;&#160;&#160;DECLARE_EVENT_TABLE_ENTRY (wxEVT_SCI_SETFOCUS               id, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/defs_8h.html#ac66d0a09761e7d86b2ac0b2e0c6a8cbba1f375b01ea03a713bbb7e32a36a2589c">wxID_ANY</a>, <a class="el" href="wxscintilla_8h#xl-wxScintillaEventHandler">wxScintillaEventHandler</a>( fn ), (<a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_object.html">wxObject</a> *) <a class="el" href="prefix_8cpp#t6-NULL">NULL</a>),</td></tr>
 <tr class="separator:io-EVT_SCI_SETFOCUS"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ry-EVT_SCI_KILLFOCUS"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wxscintilla_8h#ry-EVT_SCI_KILLFOCUS">EVT_SCI_KILLFOCUS</a>(id,  fn)&#160;&#160;&#160;DECLARE_EVENT_TABLE_ENTRY (wxEVT_SCI_KILLFOCUS              id, wxID_ANY, <a class="el" href="wxscintilla_8h#xl-wxScintillaEventHandler">wxScintillaEventHandler</a>( fn ), (wxObject *) <a class="el" href="prefix_8cpp#t6-NULL">NULL</a>),</td></tr>
+<tr class="memitem:ry-EVT_SCI_KILLFOCUS"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wxscintilla_8h#ry-EVT_SCI_KILLFOCUS">EVT_SCI_KILLFOCUS</a>(id,  fn)&#160;&#160;&#160;DECLARE_EVENT_TABLE_ENTRY (wxEVT_SCI_KILLFOCUS              id, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/defs_8h.html#ac66d0a09761e7d86b2ac0b2e0c6a8cbba1f375b01ea03a713bbb7e32a36a2589c">wxID_ANY</a>, <a class="el" href="wxscintilla_8h#xl-wxScintillaEventHandler">wxScintillaEventHandler</a>( fn ), (<a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_object.html">wxObject</a> *) <a class="el" href="prefix_8cpp#t6-NULL">NULL</a>),</td></tr>
 <tr class="separator:ry-EVT_SCI_KILLFOCUS"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:wv-EVT_SCI_FINISHED_DRAG"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wxscintilla_8h#wv-EVT_SCI_FINISHED_DRAG">EVT_SCI_FINISHED_DRAG</a>(id,  fn)&#160;&#160;&#160;DECLARE_EVENT_TABLE_ENTRY (wxEVT_SCI_FINISHED_DRAG,         id, wxID_ANY, <a class="el" href="wxscintilla_8h#xl-wxScintillaEventHandler">wxScintillaEventHandler</a>( fn ), (wxObject *) <a class="el" href="prefix_8cpp#t6-NULL">NULL</a>),</td></tr>
+<tr class="memitem:wv-EVT_SCI_FINISHED_DRAG"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wxscintilla_8h#wv-EVT_SCI_FINISHED_DRAG">EVT_SCI_FINISHED_DRAG</a>(id,  fn)&#160;&#160;&#160;DECLARE_EVENT_TABLE_ENTRY (wxEVT_SCI_FINISHED_DRAG,         id, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/defs_8h.html#ac66d0a09761e7d86b2ac0b2e0c6a8cbba1f375b01ea03a713bbb7e32a36a2589c">wxID_ANY</a>, <a class="el" href="wxscintilla_8h#xl-wxScintillaEventHandler">wxScintillaEventHandler</a>( fn ), (<a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_object.html">wxObject</a> *) <a class="el" href="prefix_8cpp#t6-NULL">NULL</a>),</td></tr>
 <tr class="separator:wv-EVT_SCI_FINISHED_DRAG"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:cx-EVT_SCI_TAB"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wxscintilla_8h#cx-EVT_SCI_TAB">EVT_SCI_TAB</a>(id,  fn)&#160;&#160;&#160;DECLARE_EVENT_TABLE_ENTRY (wxEVT_SCI_TAB,                   id, wxID_ANY, <a class="el" href="wxscintilla_8h#xl-wxScintillaEventHandler">wxScintillaEventHandler</a>( fn ), (wxObject *) <a class="el" href="prefix_8cpp#t6-NULL">NULL</a>),</td></tr>
+<tr class="memitem:cx-EVT_SCI_TAB"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wxscintilla_8h#cx-EVT_SCI_TAB">EVT_SCI_TAB</a>(id,  fn)&#160;&#160;&#160;DECLARE_EVENT_TABLE_ENTRY (wxEVT_SCI_TAB,                   id, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/defs_8h.html#ac66d0a09761e7d86b2ac0b2e0c6a8cbba1f375b01ea03a713bbb7e32a36a2589c">wxID_ANY</a>, <a class="el" href="wxscintilla_8h#xl-wxScintillaEventHandler">wxScintillaEventHandler</a>( fn ), (<a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_object.html">wxObject</a> *) <a class="el" href="prefix_8cpp#t6-NULL">NULL</a>),</td></tr>
 <tr class="separator:cx-EVT_SCI_TAB"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:hj-EVT_SCI_ESC"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wxscintilla_8h#hj-EVT_SCI_ESC">EVT_SCI_ESC</a>(id,  fn)&#160;&#160;&#160;DECLARE_EVENT_TABLE_ENTRY (wxEVT_SCI_ESC,                   id, wxID_ANY, <a class="el" href="wxscintilla_8h#xl-wxScintillaEventHandler">wxScintillaEventHandler</a>( fn ), (wxObject *) <a class="el" href="prefix_8cpp#t6-NULL">NULL</a>),</td></tr>
+<tr class="memitem:hj-EVT_SCI_ESC"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wxscintilla_8h#hj-EVT_SCI_ESC">EVT_SCI_ESC</a>(id,  fn)&#160;&#160;&#160;DECLARE_EVENT_TABLE_ENTRY (wxEVT_SCI_ESC,                   id, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/defs_8h.html#ac66d0a09761e7d86b2ac0b2e0c6a8cbba1f375b01ea03a713bbb7e32a36a2589c">wxID_ANY</a>, <a class="el" href="wxscintilla_8h#xl-wxScintillaEventHandler">wxScintillaEventHandler</a>( fn ), (<a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_object.html">wxObject</a> *) <a class="el" href="prefix_8cpp#t6-NULL">NULL</a>),</td></tr>
 <tr class="separator:hj-EVT_SCI_ESC"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
 Typedefs</h2></td></tr>
-<tr class="memitem:rk-wxIntPtr"><td class="memItemLeft" align="right" valign="top">typedef long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wxscintilla_8h#rk-wxIntPtr">wxIntPtr</a></td></tr>
-<tr class="separator:rk-wxIntPtr"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:hv-wxSciFnDirect"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="wxscintilla_8h#rk-wxIntPtr">wxIntPtr</a>(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wxscintilla_8h#hv-wxSciFnDirect">wxSciFnDirect</a>) (<a class="el" href="wxscintilla_8h#rk-wxIntPtr">wxIntPtr</a> ptr, unsigned int iMessage, wxUIntPtr wParam, <a class="el" href="wxscintilla_8h#rk-wxIntPtr">wxIntPtr</a> lParam)</td></tr>
+<tr class="memitem:hv-wxSciFnDirect"><td class="memItemLeft" align="right" valign="top">typedef <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/defs_8h.html#adc7fafddfefae454021d2e0660c96487">wxIntPtr</a>(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wxscintilla_8h#hv-wxSciFnDirect">wxSciFnDirect</a>) (<a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/defs_8h.html#adc7fafddfefae454021d2e0660c96487">wxIntPtr</a> ptr, unsigned int iMessage, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/defs_8h.html#a74cc3a4753ec135e9e2ee6b155c97216">wxUIntPtr</a> wParam, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/defs_8h.html#adc7fafddfefae454021d2e0660c96487">wxIntPtr</a> lParam)</td></tr>
 <tr class="separator:hv-wxSciFnDirect"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:pp-wxScintillaEventFunction"><td class="memItemLeft" align="right" valign="top">typedef void(wxEvtHandler::*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wxscintilla_8h#pp-wxScintillaEventFunction">wxScintillaEventFunction</a>) (<a class="el" href="classwxScintillaEvent">wxScintillaEvent</a> &amp;)</td></tr>
 <tr class="separator:pp-wxScintillaEventFunction"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:sr-sci2wx"><td class="memItemLeft" align="right" valign="top">wxString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wxscintilla_8h#sr-sci2wx">sci2wx</a> (const char *str)</td></tr>
+<tr class="memitem:sr-sci2wx"><td class="memItemLeft" align="right" valign="top"><a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html">wxString</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wxscintilla_8h#sr-sci2wx">sci2wx</a> (const char *str)</td></tr>
 <tr class="separator:sr-sci2wx"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:vq-sci2wx"><td class="memItemLeft" align="right" valign="top">wxString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wxscintilla_8h#vq-sci2wx">sci2wx</a> (const char *str, size_t len)</td></tr>
+<tr class="memitem:vq-sci2wx"><td class="memItemLeft" align="right" valign="top"><a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html">wxString</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wxscintilla_8h#vq-sci2wx">sci2wx</a> (const char *str, size_t len)</td></tr>
 <tr class="separator:vq-sci2wx"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:dv-wx2sci"><td class="memItemLeft" align="right" valign="top">const wxWX2MBbuf&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wxscintilla_8h#dv-wx2sci">wx2sci</a> (const wxString &amp;str)</td></tr>
+<tr class="memitem:dv-wx2sci"><td class="memItemLeft" align="right" valign="top">const wxWX2MBbuf&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wxscintilla_8h#dv-wx2sci">wx2sci</a> (const <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html">wxString</a> &amp;str)</td></tr>
 <tr class="separator:dv-wx2sci"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
 <tr class="memitem:tx-wxScrollBar"><td class="memItemLeft" align="right" valign="top">class WXDLLIMPEXP_FWD_CORE&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wxscintilla_8h#tx-wxScrollBar">wxScrollBar</a></td></tr>
 <tr class="separator:tx-wxScrollBar"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:t6-wxSCINameStr"><td class="memItemLeft" align="right" valign="top"><a class="el" href="wxscintilla_8h#n2-WXDLLIMPEXP_SCI">WXDLLIMPEXP_SCI</a> const wxChar *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wxscintilla_8h#t6-wxSCINameStr">wxSCINameStr</a></td></tr>
+<tr class="memitem:t6-wxSCINameStr"><td class="memItemLeft" align="right" valign="top"><a class="el" href="wxscintilla_8h#n2-WXDLLIMPEXP_SCI">WXDLLIMPEXP_SCI</a> const <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#gad42f64d8c82f1ce4ae58773a89b2d6a7">wxChar</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wxscintilla_8h#t6-wxSCINameStr">wxSCINameStr</a></td></tr>
 <tr class="separator:t6-wxSCINameStr"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:yr-wxScintilla"><td class="memItemLeft" align="right" valign="top">class <a class="el" href="wxscintilla_8h#n2-WXDLLIMPEXP_SCI">WXDLLIMPEXP_SCI</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="wxscintilla_8h#yr-wxScintilla">wxScintilla</a></td></tr>
 <tr class="separator:yr-wxScintilla"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -4755,7 +4755,7 @@ Variables</h2></td></tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td>&#160;&#160;&#160;DECLARE_EVENT_TABLE_ENTRY (wxEVT_SCI_AUTOCOMP_CANCELLED     id, wxID_ANY, <a class="el" href="wxscintilla_8h#xl-wxScintillaEventHandler">wxScintillaEventHandler</a>( fn ), (wxObject *) <a class="el" href="prefix_8cpp#t6-NULL">NULL</a>),</td>
+          <td></td><td>&#160;&#160;&#160;DECLARE_EVENT_TABLE_ENTRY (wxEVT_SCI_AUTOCOMP_CANCELLED     id, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/defs_8h.html#ac66d0a09761e7d86b2ac0b2e0c6a8cbba1f375b01ea03a713bbb7e32a36a2589c">wxID_ANY</a>, <a class="el" href="wxscintilla_8h#xl-wxScintillaEventHandler">wxScintillaEventHandler</a>( fn ), (<a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_object.html">wxObject</a> *) <a class="el" href="prefix_8cpp#t6-NULL">NULL</a>),</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -4785,7 +4785,7 @@ Variables</h2></td></tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td>&#160;&#160;&#160;DECLARE_EVENT_TABLE_ENTRY (wxEVT_SCI_AUTOCOMP_CHAR_DELETED  id, wxID_ANY, <a class="el" href="wxscintilla_8h#xl-wxScintillaEventHandler">wxScintillaEventHandler</a>( fn ), (wxObject *) <a class="el" href="prefix_8cpp#t6-NULL">NULL</a>),</td>
+          <td></td><td>&#160;&#160;&#160;DECLARE_EVENT_TABLE_ENTRY (wxEVT_SCI_AUTOCOMP_CHAR_DELETED  id, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/defs_8h.html#ac66d0a09761e7d86b2ac0b2e0c6a8cbba1f375b01ea03a713bbb7e32a36a2589c">wxID_ANY</a>, <a class="el" href="wxscintilla_8h#xl-wxScintillaEventHandler">wxScintillaEventHandler</a>( fn ), (<a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_object.html">wxObject</a> *) <a class="el" href="prefix_8cpp#t6-NULL">NULL</a>),</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -4815,7 +4815,7 @@ Variables</h2></td></tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td>&#160;&#160;&#160;DECLARE_EVENT_TABLE_ENTRY (wxEVT_SCI_AUTOCOMP_SELECTION     id, wxID_ANY, <a class="el" href="wxscintilla_8h#xl-wxScintillaEventHandler">wxScintillaEventHandler</a>( fn ), (wxObject *) <a class="el" href="prefix_8cpp#t6-NULL">NULL</a>),</td>
+          <td></td><td>&#160;&#160;&#160;DECLARE_EVENT_TABLE_ENTRY (wxEVT_SCI_AUTOCOMP_SELECTION     id, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/defs_8h.html#ac66d0a09761e7d86b2ac0b2e0c6a8cbba1f375b01ea03a713bbb7e32a36a2589c">wxID_ANY</a>, <a class="el" href="wxscintilla_8h#xl-wxScintillaEventHandler">wxScintillaEventHandler</a>( fn ), (<a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_object.html">wxObject</a> *) <a class="el" href="prefix_8cpp#t6-NULL">NULL</a>),</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -4845,7 +4845,7 @@ Variables</h2></td></tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td>&#160;&#160;&#160;DECLARE_EVENT_TABLE_ENTRY (wxEVT_SCI_CALLTIP_CLICK          id, wxID_ANY, <a class="el" href="wxscintilla_8h#xl-wxScintillaEventHandler">wxScintillaEventHandler</a>( fn ), (wxObject *) <a class="el" href="prefix_8cpp#t6-NULL">NULL</a>),</td>
+          <td></td><td>&#160;&#160;&#160;DECLARE_EVENT_TABLE_ENTRY (wxEVT_SCI_CALLTIP_CLICK          id, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/defs_8h.html#ac66d0a09761e7d86b2ac0b2e0c6a8cbba1f375b01ea03a713bbb7e32a36a2589c">wxID_ANY</a>, <a class="el" href="wxscintilla_8h#xl-wxScintillaEventHandler">wxScintillaEventHandler</a>( fn ), (<a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_object.html">wxObject</a> *) <a class="el" href="prefix_8cpp#t6-NULL">NULL</a>),</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -4875,7 +4875,7 @@ Variables</h2></td></tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td>&#160;&#160;&#160;DECLARE_EVENT_TABLE_ENTRY (wxEVT_SCI_CHANGE,                id, wxID_ANY, <a class="el" href="wxscintilla_8h#xl-wxScintillaEventHandler">wxScintillaEventHandler</a>( fn ), (wxObject *) <a class="el" href="prefix_8cpp#t6-NULL">NULL</a>),</td>
+          <td></td><td>&#160;&#160;&#160;DECLARE_EVENT_TABLE_ENTRY (wxEVT_SCI_CHANGE,                id, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/defs_8h.html#ac66d0a09761e7d86b2ac0b2e0c6a8cbba1f375b01ea03a713bbb7e32a36a2589c">wxID_ANY</a>, <a class="el" href="wxscintilla_8h#xl-wxScintillaEventHandler">wxScintillaEventHandler</a>( fn ), (<a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_object.html">wxObject</a> *) <a class="el" href="prefix_8cpp#t6-NULL">NULL</a>),</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -4905,7 +4905,7 @@ Variables</h2></td></tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td>&#160;&#160;&#160;DECLARE_EVENT_TABLE_ENTRY (wxEVT_SCI_CHARADDED,             id, wxID_ANY, <a class="el" href="wxscintilla_8h#xl-wxScintillaEventHandler">wxScintillaEventHandler</a>( fn ), (wxObject *) <a class="el" href="prefix_8cpp#t6-NULL">NULL</a>),</td>
+          <td></td><td>&#160;&#160;&#160;DECLARE_EVENT_TABLE_ENTRY (wxEVT_SCI_CHARADDED,             id, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/defs_8h.html#ac66d0a09761e7d86b2ac0b2e0c6a8cbba1f375b01ea03a713bbb7e32a36a2589c">wxID_ANY</a>, <a class="el" href="wxscintilla_8h#xl-wxScintillaEventHandler">wxScintillaEventHandler</a>( fn ), (<a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_object.html">wxObject</a> *) <a class="el" href="prefix_8cpp#t6-NULL">NULL</a>),</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -4935,7 +4935,7 @@ Variables</h2></td></tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td>&#160;&#160;&#160;DECLARE_EVENT_TABLE_ENTRY (wxEVT_SCI_CLIPBOARD_COPY,        id, wxID_ANY, <a class="el" href="wxscintilla_8h#xl-wxScintillaEventHandler">wxScintillaEventHandler</a>( fn ), (wxObject *) <a class="el" href="prefix_8cpp#t6-NULL">NULL</a>),</td>
+          <td></td><td>&#160;&#160;&#160;DECLARE_EVENT_TABLE_ENTRY (wxEVT_SCI_CLIPBOARD_COPY,        id, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/defs_8h.html#ac66d0a09761e7d86b2ac0b2e0c6a8cbba1f375b01ea03a713bbb7e32a36a2589c">wxID_ANY</a>, <a class="el" href="wxscintilla_8h#xl-wxScintillaEventHandler">wxScintillaEventHandler</a>( fn ), (<a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_object.html">wxObject</a> *) <a class="el" href="prefix_8cpp#t6-NULL">NULL</a>),</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -4965,7 +4965,7 @@ Variables</h2></td></tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td>&#160;&#160;&#160;DECLARE_EVENT_TABLE_ENTRY (wxEVT_SCI_CLIPBOARD_PASTE,       id, wxID_ANY, <a class="el" href="wxscintilla_8h#xl-wxScintillaEventHandler">wxScintillaEventHandler</a>( fn ), (wxObject *) <a class="el" href="prefix_8cpp#t6-NULL">NULL</a>),</td>
+          <td></td><td>&#160;&#160;&#160;DECLARE_EVENT_TABLE_ENTRY (wxEVT_SCI_CLIPBOARD_PASTE,       id, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/defs_8h.html#ac66d0a09761e7d86b2ac0b2e0c6a8cbba1f375b01ea03a713bbb7e32a36a2589c">wxID_ANY</a>, <a class="el" href="wxscintilla_8h#xl-wxScintillaEventHandler">wxScintillaEventHandler</a>( fn ), (<a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_object.html">wxObject</a> *) <a class="el" href="prefix_8cpp#t6-NULL">NULL</a>),</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -4995,7 +4995,7 @@ Variables</h2></td></tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td>&#160;&#160;&#160;DECLARE_EVENT_TABLE_ENTRY (wxEVT_SCI_DO_DROP,               id, wxID_ANY, <a class="el" href="wxscintilla_8h#xl-wxScintillaEventHandler">wxScintillaEventHandler</a>( fn ), (wxObject *) <a class="el" href="prefix_8cpp#t6-NULL">NULL</a>),</td>
+          <td></td><td>&#160;&#160;&#160;DECLARE_EVENT_TABLE_ENTRY (wxEVT_SCI_DO_DROP,               id, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/defs_8h.html#ac66d0a09761e7d86b2ac0b2e0c6a8cbba1f375b01ea03a713bbb7e32a36a2589c">wxID_ANY</a>, <a class="el" href="wxscintilla_8h#xl-wxScintillaEventHandler">wxScintillaEventHandler</a>( fn ), (<a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_object.html">wxObject</a> *) <a class="el" href="prefix_8cpp#t6-NULL">NULL</a>),</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -5025,7 +5025,7 @@ Variables</h2></td></tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td>&#160;&#160;&#160;DECLARE_EVENT_TABLE_ENTRY (wxEVT_SCI_DOUBLECLICK,           id, wxID_ANY, <a class="el" href="wxscintilla_8h#xl-wxScintillaEventHandler">wxScintillaEventHandler</a>( fn ), (wxObject *) <a class="el" href="prefix_8cpp#t6-NULL">NULL</a>),</td>
+          <td></td><td>&#160;&#160;&#160;DECLARE_EVENT_TABLE_ENTRY (wxEVT_SCI_DOUBLECLICK,           id, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/defs_8h.html#ac66d0a09761e7d86b2ac0b2e0c6a8cbba1f375b01ea03a713bbb7e32a36a2589c">wxID_ANY</a>, <a class="el" href="wxscintilla_8h#xl-wxScintillaEventHandler">wxScintillaEventHandler</a>( fn ), (<a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_object.html">wxObject</a> *) <a class="el" href="prefix_8cpp#t6-NULL">NULL</a>),</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -5055,7 +5055,7 @@ Variables</h2></td></tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td>&#160;&#160;&#160;DECLARE_EVENT_TABLE_ENTRY (wxEVT_SCI_DRAG_OVER,             id, wxID_ANY, <a class="el" href="wxscintilla_8h#xl-wxScintillaEventHandler">wxScintillaEventHandler</a>( fn ), (wxObject *) <a class="el" href="prefix_8cpp#t6-NULL">NULL</a>),</td>
+          <td></td><td>&#160;&#160;&#160;DECLARE_EVENT_TABLE_ENTRY (wxEVT_SCI_DRAG_OVER,             id, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/defs_8h.html#ac66d0a09761e7d86b2ac0b2e0c6a8cbba1f375b01ea03a713bbb7e32a36a2589c">wxID_ANY</a>, <a class="el" href="wxscintilla_8h#xl-wxScintillaEventHandler">wxScintillaEventHandler</a>( fn ), (<a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_object.html">wxObject</a> *) <a class="el" href="prefix_8cpp#t6-NULL">NULL</a>),</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -5085,7 +5085,7 @@ Variables</h2></td></tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td>&#160;&#160;&#160;DECLARE_EVENT_TABLE_ENTRY (wxEVT_SCI_DWELLEND,              id, wxID_ANY, <a class="el" href="wxscintilla_8h#xl-wxScintillaEventHandler">wxScintillaEventHandler</a>( fn ), (wxObject *) <a class="el" href="prefix_8cpp#t6-NULL">NULL</a>),</td>
+          <td></td><td>&#160;&#160;&#160;DECLARE_EVENT_TABLE_ENTRY (wxEVT_SCI_DWELLEND,              id, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/defs_8h.html#ac66d0a09761e7d86b2ac0b2e0c6a8cbba1f375b01ea03a713bbb7e32a36a2589c">wxID_ANY</a>, <a class="el" href="wxscintilla_8h#xl-wxScintillaEventHandler">wxScintillaEventHandler</a>( fn ), (<a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_object.html">wxObject</a> *) <a class="el" href="prefix_8cpp#t6-NULL">NULL</a>),</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -5115,7 +5115,7 @@ Variables</h2></td></tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td>&#160;&#160;&#160;DECLARE_EVENT_TABLE_ENTRY (wxEVT_SCI_DWELLSTART,            id, wxID_ANY, <a class="el" href="wxscintilla_8h#xl-wxScintillaEventHandler">wxScintillaEventHandler</a>( fn ), (wxObject *) <a class="el" href="prefix_8cpp#t6-NULL">NULL</a>),</td>
+          <td></td><td>&#160;&#160;&#160;DECLARE_EVENT_TABLE_ENTRY (wxEVT_SCI_DWELLSTART,            id, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/defs_8h.html#ac66d0a09761e7d86b2ac0b2e0c6a8cbba1f375b01ea03a713bbb7e32a36a2589c">wxID_ANY</a>, <a class="el" href="wxscintilla_8h#xl-wxScintillaEventHandler">wxScintillaEventHandler</a>( fn ), (<a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_object.html">wxObject</a> *) <a class="el" href="prefix_8cpp#t6-NULL">NULL</a>),</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -5145,7 +5145,7 @@ Variables</h2></td></tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td>&#160;&#160;&#160;DECLARE_EVENT_TABLE_ENTRY (wxEVT_SCI_ESC,                   id, wxID_ANY, <a class="el" href="wxscintilla_8h#xl-wxScintillaEventHandler">wxScintillaEventHandler</a>( fn ), (wxObject *) <a class="el" href="prefix_8cpp#t6-NULL">NULL</a>),</td>
+          <td></td><td>&#160;&#160;&#160;DECLARE_EVENT_TABLE_ENTRY (wxEVT_SCI_ESC,                   id, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/defs_8h.html#ac66d0a09761e7d86b2ac0b2e0c6a8cbba1f375b01ea03a713bbb7e32a36a2589c">wxID_ANY</a>, <a class="el" href="wxscintilla_8h#xl-wxScintillaEventHandler">wxScintillaEventHandler</a>( fn ), (<a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_object.html">wxObject</a> *) <a class="el" href="prefix_8cpp#t6-NULL">NULL</a>),</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -5175,7 +5175,7 @@ Variables</h2></td></tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td>&#160;&#160;&#160;DECLARE_EVENT_TABLE_ENTRY (wxEVT_SCI_FINISHED_DRAG,         id, wxID_ANY, <a class="el" href="wxscintilla_8h#xl-wxScintillaEventHandler">wxScintillaEventHandler</a>( fn ), (wxObject *) <a class="el" href="prefix_8cpp#t6-NULL">NULL</a>),</td>
+          <td></td><td>&#160;&#160;&#160;DECLARE_EVENT_TABLE_ENTRY (wxEVT_SCI_FINISHED_DRAG,         id, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/defs_8h.html#ac66d0a09761e7d86b2ac0b2e0c6a8cbba1f375b01ea03a713bbb7e32a36a2589c">wxID_ANY</a>, <a class="el" href="wxscintilla_8h#xl-wxScintillaEventHandler">wxScintillaEventHandler</a>( fn ), (<a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_object.html">wxObject</a> *) <a class="el" href="prefix_8cpp#t6-NULL">NULL</a>),</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -5205,7 +5205,7 @@ Variables</h2></td></tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td>&#160;&#160;&#160;DECLARE_EVENT_TABLE_ENTRY (wxEVT_SCI_HOTSPOT_CLICK,         id, wxID_ANY, <a class="el" href="wxscintilla_8h#xl-wxScintillaEventHandler">wxScintillaEventHandler</a>( fn ), (wxObject *) <a class="el" href="prefix_8cpp#t6-NULL">NULL</a>),</td>
+          <td></td><td>&#160;&#160;&#160;DECLARE_EVENT_TABLE_ENTRY (wxEVT_SCI_HOTSPOT_CLICK,         id, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/defs_8h.html#ac66d0a09761e7d86b2ac0b2e0c6a8cbba1f375b01ea03a713bbb7e32a36a2589c">wxID_ANY</a>, <a class="el" href="wxscintilla_8h#xl-wxScintillaEventHandler">wxScintillaEventHandler</a>( fn ), (<a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_object.html">wxObject</a> *) <a class="el" href="prefix_8cpp#t6-NULL">NULL</a>),</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -5235,7 +5235,7 @@ Variables</h2></td></tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td>&#160;&#160;&#160;DECLARE_EVENT_TABLE_ENTRY (wxEVT_SCI_HOTSPOT_DCLICK,        id, wxID_ANY, <a class="el" href="wxscintilla_8h#xl-wxScintillaEventHandler">wxScintillaEventHandler</a>( fn ), (wxObject *) <a class="el" href="prefix_8cpp#t6-NULL">NULL</a>),</td>
+          <td></td><td>&#160;&#160;&#160;DECLARE_EVENT_TABLE_ENTRY (wxEVT_SCI_HOTSPOT_DCLICK,        id, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/defs_8h.html#ac66d0a09761e7d86b2ac0b2e0c6a8cbba1f375b01ea03a713bbb7e32a36a2589c">wxID_ANY</a>, <a class="el" href="wxscintilla_8h#xl-wxScintillaEventHandler">wxScintillaEventHandler</a>( fn ), (<a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_object.html">wxObject</a> *) <a class="el" href="prefix_8cpp#t6-NULL">NULL</a>),</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -5265,7 +5265,7 @@ Variables</h2></td></tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td>&#160;&#160;&#160;DECLARE_EVENT_TABLE_ENTRY (wxEVT_SCI_HOTSPOT_RELEASE_CLICK, id, wxID_ANY, <a class="el" href="wxscintilla_8h#xl-wxScintillaEventHandler">wxScintillaEventHandler</a>( fn ), (wxObject *) <a class="el" href="prefix_8cpp#t6-NULL">NULL</a>),</td>
+          <td></td><td>&#160;&#160;&#160;DECLARE_EVENT_TABLE_ENTRY (wxEVT_SCI_HOTSPOT_RELEASE_CLICK, id, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/defs_8h.html#ac66d0a09761e7d86b2ac0b2e0c6a8cbba1f375b01ea03a713bbb7e32a36a2589c">wxID_ANY</a>, <a class="el" href="wxscintilla_8h#xl-wxScintillaEventHandler">wxScintillaEventHandler</a>( fn ), (<a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_object.html">wxObject</a> *) <a class="el" href="prefix_8cpp#t6-NULL">NULL</a>),</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -5295,7 +5295,7 @@ Variables</h2></td></tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td>&#160;&#160;&#160;DECLARE_EVENT_TABLE_ENTRY (wxEVT_SCI_INDICATOR_CLICK        id, wxID_ANY, <a class="el" href="wxscintilla_8h#xl-wxScintillaEventHandler">wxScintillaEventHandler</a>( fn ), (wxObject *) <a class="el" href="prefix_8cpp#t6-NULL">NULL</a>),</td>
+          <td></td><td>&#160;&#160;&#160;DECLARE_EVENT_TABLE_ENTRY (wxEVT_SCI_INDICATOR_CLICK        id, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/defs_8h.html#ac66d0a09761e7d86b2ac0b2e0c6a8cbba1f375b01ea03a713bbb7e32a36a2589c">wxID_ANY</a>, <a class="el" href="wxscintilla_8h#xl-wxScintillaEventHandler">wxScintillaEventHandler</a>( fn ), (<a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_object.html">wxObject</a> *) <a class="el" href="prefix_8cpp#t6-NULL">NULL</a>),</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -5325,7 +5325,7 @@ Variables</h2></td></tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td>&#160;&#160;&#160;DECLARE_EVENT_TABLE_ENTRY (wxEVT_SCI_INDICATOR_RELEASE      id, wxID_ANY, <a class="el" href="wxscintilla_8h#xl-wxScintillaEventHandler">wxScintillaEventHandler</a>( fn ), (wxObject *) <a class="el" href="prefix_8cpp#t6-NULL">NULL</a>),</td>
+          <td></td><td>&#160;&#160;&#160;DECLARE_EVENT_TABLE_ENTRY (wxEVT_SCI_INDICATOR_RELEASE      id, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/defs_8h.html#ac66d0a09761e7d86b2ac0b2e0c6a8cbba1f375b01ea03a713bbb7e32a36a2589c">wxID_ANY</a>, <a class="el" href="wxscintilla_8h#xl-wxScintillaEventHandler">wxScintillaEventHandler</a>( fn ), (<a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_object.html">wxObject</a> *) <a class="el" href="prefix_8cpp#t6-NULL">NULL</a>),</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -5355,7 +5355,7 @@ Variables</h2></td></tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td>&#160;&#160;&#160;DECLARE_EVENT_TABLE_ENTRY (wxEVT_SCI_KEY,                   id, wxID_ANY, <a class="el" href="wxscintilla_8h#xl-wxScintillaEventHandler">wxScintillaEventHandler</a>( fn ), (wxObject *) <a class="el" href="prefix_8cpp#t6-NULL">NULL</a>),</td>
+          <td></td><td>&#160;&#160;&#160;DECLARE_EVENT_TABLE_ENTRY (wxEVT_SCI_KEY,                   id, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/defs_8h.html#ac66d0a09761e7d86b2ac0b2e0c6a8cbba1f375b01ea03a713bbb7e32a36a2589c">wxID_ANY</a>, <a class="el" href="wxscintilla_8h#xl-wxScintillaEventHandler">wxScintillaEventHandler</a>( fn ), (<a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_object.html">wxObject</a> *) <a class="el" href="prefix_8cpp#t6-NULL">NULL</a>),</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -5385,7 +5385,7 @@ Variables</h2></td></tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td>&#160;&#160;&#160;DECLARE_EVENT_TABLE_ENTRY (wxEVT_SCI_KILLFOCUS              id, wxID_ANY, <a class="el" href="wxscintilla_8h#xl-wxScintillaEventHandler">wxScintillaEventHandler</a>( fn ), (wxObject *) <a class="el" href="prefix_8cpp#t6-NULL">NULL</a>),</td>
+          <td></td><td>&#160;&#160;&#160;DECLARE_EVENT_TABLE_ENTRY (wxEVT_SCI_KILLFOCUS              id, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/defs_8h.html#ac66d0a09761e7d86b2ac0b2e0c6a8cbba1f375b01ea03a713bbb7e32a36a2589c">wxID_ANY</a>, <a class="el" href="wxscintilla_8h#xl-wxScintillaEventHandler">wxScintillaEventHandler</a>( fn ), (<a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_object.html">wxObject</a> *) <a class="el" href="prefix_8cpp#t6-NULL">NULL</a>),</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -5415,7 +5415,7 @@ Variables</h2></td></tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td>&#160;&#160;&#160;DECLARE_EVENT_TABLE_ENTRY (wxEVT_SCI_MACRORECORD,           id, wxID_ANY, <a class="el" href="wxscintilla_8h#xl-wxScintillaEventHandler">wxScintillaEventHandler</a>( fn ), (wxObject *) <a class="el" href="prefix_8cpp#t6-NULL">NULL</a>),</td>
+          <td></td><td>&#160;&#160;&#160;DECLARE_EVENT_TABLE_ENTRY (wxEVT_SCI_MACRORECORD,           id, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/defs_8h.html#ac66d0a09761e7d86b2ac0b2e0c6a8cbba1f375b01ea03a713bbb7e32a36a2589c">wxID_ANY</a>, <a class="el" href="wxscintilla_8h#xl-wxScintillaEventHandler">wxScintillaEventHandler</a>( fn ), (<a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_object.html">wxObject</a> *) <a class="el" href="prefix_8cpp#t6-NULL">NULL</a>),</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -5445,7 +5445,7 @@ Variables</h2></td></tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td>&#160;&#160;&#160;DECLARE_EVENT_TABLE_ENTRY (wxEVT_SCI_MARGINCLICK,           id, wxID_ANY, <a class="el" href="wxscintilla_8h#xl-wxScintillaEventHandler">wxScintillaEventHandler</a>( fn ), (wxObject *) <a class="el" href="prefix_8cpp#t6-NULL">NULL</a>),</td>
+          <td></td><td>&#160;&#160;&#160;DECLARE_EVENT_TABLE_ENTRY (wxEVT_SCI_MARGINCLICK,           id, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/defs_8h.html#ac66d0a09761e7d86b2ac0b2e0c6a8cbba1f375b01ea03a713bbb7e32a36a2589c">wxID_ANY</a>, <a class="el" href="wxscintilla_8h#xl-wxScintillaEventHandler">wxScintillaEventHandler</a>( fn ), (<a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_object.html">wxObject</a> *) <a class="el" href="prefix_8cpp#t6-NULL">NULL</a>),</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -5475,7 +5475,7 @@ Variables</h2></td></tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td>&#160;&#160;&#160;DECLARE_EVENT_TABLE_ENTRY (wxEVT_SCI_MODIFIED,              id, wxID_ANY, <a class="el" href="wxscintilla_8h#xl-wxScintillaEventHandler">wxScintillaEventHandler</a>( fn ), (wxObject *) <a class="el" href="prefix_8cpp#t6-NULL">NULL</a>),</td>
+          <td></td><td>&#160;&#160;&#160;DECLARE_EVENT_TABLE_ENTRY (wxEVT_SCI_MODIFIED,              id, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/defs_8h.html#ac66d0a09761e7d86b2ac0b2e0c6a8cbba1f375b01ea03a713bbb7e32a36a2589c">wxID_ANY</a>, <a class="el" href="wxscintilla_8h#xl-wxScintillaEventHandler">wxScintillaEventHandler</a>( fn ), (<a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_object.html">wxObject</a> *) <a class="el" href="prefix_8cpp#t6-NULL">NULL</a>),</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -5505,7 +5505,7 @@ Variables</h2></td></tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td>&#160;&#160;&#160;DECLARE_EVENT_TABLE_ENTRY (wxEVT_SCI_NEEDSHOWN,             id, wxID_ANY, <a class="el" href="wxscintilla_8h#xl-wxScintillaEventHandler">wxScintillaEventHandler</a>( fn ), (wxObject *) <a class="el" href="prefix_8cpp#t6-NULL">NULL</a>),</td>
+          <td></td><td>&#160;&#160;&#160;DECLARE_EVENT_TABLE_ENTRY (wxEVT_SCI_NEEDSHOWN,             id, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/defs_8h.html#ac66d0a09761e7d86b2ac0b2e0c6a8cbba1f375b01ea03a713bbb7e32a36a2589c">wxID_ANY</a>, <a class="el" href="wxscintilla_8h#xl-wxScintillaEventHandler">wxScintillaEventHandler</a>( fn ), (<a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_object.html">wxObject</a> *) <a class="el" href="prefix_8cpp#t6-NULL">NULL</a>),</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -5535,7 +5535,7 @@ Variables</h2></td></tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td>&#160;&#160;&#160;DECLARE_EVENT_TABLE_ENTRY (wxEVT_SCI_PAINTED,               id, wxID_ANY, <a class="el" href="wxscintilla_8h#xl-wxScintillaEventHandler">wxScintillaEventHandler</a>( fn ), (wxObject *) <a class="el" href="prefix_8cpp#t6-NULL">NULL</a>),</td>
+          <td></td><td>&#160;&#160;&#160;DECLARE_EVENT_TABLE_ENTRY (wxEVT_SCI_PAINTED,               id, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/defs_8h.html#ac66d0a09761e7d86b2ac0b2e0c6a8cbba1f375b01ea03a713bbb7e32a36a2589c">wxID_ANY</a>, <a class="el" href="wxscintilla_8h#xl-wxScintillaEventHandler">wxScintillaEventHandler</a>( fn ), (<a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_object.html">wxObject</a> *) <a class="el" href="prefix_8cpp#t6-NULL">NULL</a>),</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -5565,7 +5565,7 @@ Variables</h2></td></tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td>&#160;&#160;&#160;DECLARE_EVENT_TABLE_ENTRY (wxEVT_SCI_ROMODIFYATTEMPT,       id, wxID_ANY, <a class="el" href="wxscintilla_8h#xl-wxScintillaEventHandler">wxScintillaEventHandler</a>( fn ), (wxObject *) <a class="el" href="prefix_8cpp#t6-NULL">NULL</a>),</td>
+          <td></td><td>&#160;&#160;&#160;DECLARE_EVENT_TABLE_ENTRY (wxEVT_SCI_ROMODIFYATTEMPT,       id, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/defs_8h.html#ac66d0a09761e7d86b2ac0b2e0c6a8cbba1f375b01ea03a713bbb7e32a36a2589c">wxID_ANY</a>, <a class="el" href="wxscintilla_8h#xl-wxScintillaEventHandler">wxScintillaEventHandler</a>( fn ), (<a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_object.html">wxObject</a> *) <a class="el" href="prefix_8cpp#t6-NULL">NULL</a>),</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -5595,7 +5595,7 @@ Variables</h2></td></tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td>&#160;&#160;&#160;DECLARE_EVENT_TABLE_ENTRY (wxEVT_SCI_SAVEPOINTLEFT,         id, wxID_ANY, <a class="el" href="wxscintilla_8h#xl-wxScintillaEventHandler">wxScintillaEventHandler</a>( fn ), (wxObject *) <a class="el" href="prefix_8cpp#t6-NULL">NULL</a>),</td>
+          <td></td><td>&#160;&#160;&#160;DECLARE_EVENT_TABLE_ENTRY (wxEVT_SCI_SAVEPOINTLEFT,         id, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/defs_8h.html#ac66d0a09761e7d86b2ac0b2e0c6a8cbba1f375b01ea03a713bbb7e32a36a2589c">wxID_ANY</a>, <a class="el" href="wxscintilla_8h#xl-wxScintillaEventHandler">wxScintillaEventHandler</a>( fn ), (<a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_object.html">wxObject</a> *) <a class="el" href="prefix_8cpp#t6-NULL">NULL</a>),</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -5625,7 +5625,7 @@ Variables</h2></td></tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td>&#160;&#160;&#160;DECLARE_EVENT_TABLE_ENTRY (wxEVT_SCI_SAVEPOINTREACHED,      id, wxID_ANY, <a class="el" href="wxscintilla_8h#xl-wxScintillaEventHandler">wxScintillaEventHandler</a>( fn ), (wxObject *) <a class="el" href="prefix_8cpp#t6-NULL">NULL</a>),</td>
+          <td></td><td>&#160;&#160;&#160;DECLARE_EVENT_TABLE_ENTRY (wxEVT_SCI_SAVEPOINTREACHED,      id, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/defs_8h.html#ac66d0a09761e7d86b2ac0b2e0c6a8cbba1f375b01ea03a713bbb7e32a36a2589c">wxID_ANY</a>, <a class="el" href="wxscintilla_8h#xl-wxScintillaEventHandler">wxScintillaEventHandler</a>( fn ), (<a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_object.html">wxObject</a> *) <a class="el" href="prefix_8cpp#t6-NULL">NULL</a>),</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -5655,7 +5655,7 @@ Variables</h2></td></tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td>&#160;&#160;&#160;DECLARE_EVENT_TABLE_ENTRY (wxEVT_SCI_SETFOCUS               id, wxID_ANY, <a class="el" href="wxscintilla_8h#xl-wxScintillaEventHandler">wxScintillaEventHandler</a>( fn ), (wxObject *) <a class="el" href="prefix_8cpp#t6-NULL">NULL</a>),</td>
+          <td></td><td>&#160;&#160;&#160;DECLARE_EVENT_TABLE_ENTRY (wxEVT_SCI_SETFOCUS               id, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/defs_8h.html#ac66d0a09761e7d86b2ac0b2e0c6a8cbba1f375b01ea03a713bbb7e32a36a2589c">wxID_ANY</a>, <a class="el" href="wxscintilla_8h#xl-wxScintillaEventHandler">wxScintillaEventHandler</a>( fn ), (<a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_object.html">wxObject</a> *) <a class="el" href="prefix_8cpp#t6-NULL">NULL</a>),</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -5685,7 +5685,7 @@ Variables</h2></td></tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td>&#160;&#160;&#160;DECLARE_EVENT_TABLE_ENTRY (wxEVT_SCI_START_DRAG,            id, wxID_ANY, <a class="el" href="wxscintilla_8h#xl-wxScintillaEventHandler">wxScintillaEventHandler</a>( fn ), (wxObject *) <a class="el" href="prefix_8cpp#t6-NULL">NULL</a>),</td>
+          <td></td><td>&#160;&#160;&#160;DECLARE_EVENT_TABLE_ENTRY (wxEVT_SCI_START_DRAG,            id, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/defs_8h.html#ac66d0a09761e7d86b2ac0b2e0c6a8cbba1f375b01ea03a713bbb7e32a36a2589c">wxID_ANY</a>, <a class="el" href="wxscintilla_8h#xl-wxScintillaEventHandler">wxScintillaEventHandler</a>( fn ), (<a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_object.html">wxObject</a> *) <a class="el" href="prefix_8cpp#t6-NULL">NULL</a>),</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -5715,7 +5715,7 @@ Variables</h2></td></tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td>&#160;&#160;&#160;DECLARE_EVENT_TABLE_ENTRY (wxEVT_SCI_STYLENEEDED,           id, wxID_ANY, <a class="el" href="wxscintilla_8h#xl-wxScintillaEventHandler">wxScintillaEventHandler</a>( fn ), (wxObject *) <a class="el" href="prefix_8cpp#t6-NULL">NULL</a>),</td>
+          <td></td><td>&#160;&#160;&#160;DECLARE_EVENT_TABLE_ENTRY (wxEVT_SCI_STYLENEEDED,           id, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/defs_8h.html#ac66d0a09761e7d86b2ac0b2e0c6a8cbba1f375b01ea03a713bbb7e32a36a2589c">wxID_ANY</a>, <a class="el" href="wxscintilla_8h#xl-wxScintillaEventHandler">wxScintillaEventHandler</a>( fn ), (<a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_object.html">wxObject</a> *) <a class="el" href="prefix_8cpp#t6-NULL">NULL</a>),</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -5745,7 +5745,7 @@ Variables</h2></td></tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td>&#160;&#160;&#160;DECLARE_EVENT_TABLE_ENTRY (wxEVT_SCI_TAB,                   id, wxID_ANY, <a class="el" href="wxscintilla_8h#xl-wxScintillaEventHandler">wxScintillaEventHandler</a>( fn ), (wxObject *) <a class="el" href="prefix_8cpp#t6-NULL">NULL</a>),</td>
+          <td></td><td>&#160;&#160;&#160;DECLARE_EVENT_TABLE_ENTRY (wxEVT_SCI_TAB,                   id, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/defs_8h.html#ac66d0a09761e7d86b2ac0b2e0c6a8cbba1f375b01ea03a713bbb7e32a36a2589c">wxID_ANY</a>, <a class="el" href="wxscintilla_8h#xl-wxScintillaEventHandler">wxScintillaEventHandler</a>( fn ), (<a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_object.html">wxObject</a> *) <a class="el" href="prefix_8cpp#t6-NULL">NULL</a>),</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -5775,7 +5775,7 @@ Variables</h2></td></tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td>&#160;&#160;&#160;DECLARE_EVENT_TABLE_ENTRY (wxEVT_SCI_UPDATEUI,              id, wxID_ANY, <a class="el" href="wxscintilla_8h#xl-wxScintillaEventHandler">wxScintillaEventHandler</a>( fn ), (wxObject *) <a class="el" href="prefix_8cpp#t6-NULL">NULL</a>),</td>
+          <td></td><td>&#160;&#160;&#160;DECLARE_EVENT_TABLE_ENTRY (wxEVT_SCI_UPDATEUI,              id, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/defs_8h.html#ac66d0a09761e7d86b2ac0b2e0c6a8cbba1f375b01ea03a713bbb7e32a36a2589c">wxID_ANY</a>, <a class="el" href="wxscintilla_8h#xl-wxScintillaEventHandler">wxScintillaEventHandler</a>( fn ), (<a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_object.html">wxObject</a> *) <a class="el" href="prefix_8cpp#t6-NULL">NULL</a>),</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -5805,7 +5805,7 @@ Variables</h2></td></tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td>&#160;&#160;&#160;DECLARE_EVENT_TABLE_ENTRY (wxEVT_SCI_URIDROPPED,            id, wxID_ANY, <a class="el" href="wxscintilla_8h#xl-wxScintillaEventHandler">wxScintillaEventHandler</a>( fn ), (wxObject *) <a class="el" href="prefix_8cpp#t6-NULL">NULL</a>),</td>
+          <td></td><td>&#160;&#160;&#160;DECLARE_EVENT_TABLE_ENTRY (wxEVT_SCI_URIDROPPED,            id, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/defs_8h.html#ac66d0a09761e7d86b2ac0b2e0c6a8cbba1f375b01ea03a713bbb7e32a36a2589c">wxID_ANY</a>, <a class="el" href="wxscintilla_8h#xl-wxScintillaEventHandler">wxScintillaEventHandler</a>( fn ), (<a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_object.html">wxObject</a> *) <a class="el" href="prefix_8cpp#t6-NULL">NULL</a>),</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -5835,7 +5835,7 @@ Variables</h2></td></tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td>&#160;&#160;&#160;DECLARE_EVENT_TABLE_ENTRY (wxEVT_SCI_USERLISTSELECTION,     id, wxID_ANY, <a class="el" href="wxscintilla_8h#xl-wxScintillaEventHandler">wxScintillaEventHandler</a>( fn ), (wxObject *) <a class="el" href="prefix_8cpp#t6-NULL">NULL</a>),</td>
+          <td></td><td>&#160;&#160;&#160;DECLARE_EVENT_TABLE_ENTRY (wxEVT_SCI_USERLISTSELECTION,     id, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/defs_8h.html#ac66d0a09761e7d86b2ac0b2e0c6a8cbba1f375b01ea03a713bbb7e32a36a2589c">wxID_ANY</a>, <a class="el" href="wxscintilla_8h#xl-wxScintillaEventHandler">wxScintillaEventHandler</a>( fn ), (<a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_object.html">wxObject</a> *) <a class="el" href="prefix_8cpp#t6-NULL">NULL</a>),</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -5865,7 +5865,7 @@ Variables</h2></td></tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td>&#160;&#160;&#160;DECLARE_EVENT_TABLE_ENTRY (wxEVT_SCI_ZOOM,                  id, wxID_ANY, <a class="el" href="wxscintilla_8h#xl-wxScintillaEventHandler">wxScintillaEventHandler</a>( fn ), (wxObject *) <a class="el" href="prefix_8cpp#t6-NULL">NULL</a>),</td>
+          <td></td><td>&#160;&#160;&#160;DECLARE_EVENT_TABLE_ENTRY (wxEVT_SCI_ZOOM,                  id, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/defs_8h.html#ac66d0a09761e7d86b2ac0b2e0c6a8cbba1f375b01ea03a713bbb7e32a36a2589c">wxID_ANY</a>, <a class="el" href="wxscintilla_8h#xl-wxScintillaEventHandler">wxScintillaEventHandler</a>( fn ), (<a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_object.html">wxObject</a> *) <a class="el" href="prefix_8cpp#t6-NULL">NULL</a>),</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -5896,6 +5896,22 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<a id="hm-SCI_USE_DND"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#hm-SCI_USE_DND">&#9670;&nbsp;</a></span>SCI_USE_DND</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define SCI_USE_DND&#160;&#160;&#160;1</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="wxscintilla_8h_source#l00054">54</a> of file <a class="el" href="wxscintilla_8h_source">wxscintilla.h</a>.</p>
+
+</div>
+</div>
 <a id="n2-WXDLLIMPEXP_SCI"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#n2-WXDLLIMPEXP_SCI">&#9670;&nbsp;</a></span>WXDLLIMPEXP_SCI</h2>
 
@@ -5909,36 +5925,6 @@ Variables</h2></td></tr>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="wxscintilla_8h_source#l00040">40</a> of file <a class="el" href="wxscintilla_8h_source">wxscintilla.h</a>.</p>
-
-</div>
-</div>
-<a id="yd-wxEVENT_HANDLER_CAST"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#yd-wxEVENT_HANDLER_CAST">&#9670;&nbsp;</a></span>wxEVENT_HANDLER_CAST</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define wxEVENT_HANDLER_CAST</td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">functype, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">func&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td>&#160;&#160;&#160;( wxObjectEventFunction )( wxEventFunction )wxStaticCastEvent( functype, &amp;func )</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="wxscintilla_8h_source#l05453">5453</a> of file <a class="el" href="wxscintilla_8h_source">wxscintilla.h</a>.</p>
 
 </div>
 </div>
@@ -10180,7 +10166,7 @@ Variables</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="wxscintilla_8h_source#l00631">631</a> of file <a class="el" href="wxscintilla_8h_source">wxscintilla.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="codecompletion_8cpp_source#l01259">CodeCompletion::GetCallTips()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="codecompletion_8cpp_source#l01258">CodeCompletion::GetCallTips()</a>.</p>
 
 </div>
 </div>
@@ -11630,7 +11616,7 @@ Variables</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="wxscintilla_8h_source#l02556">2556</a> of file <a class="el" href="wxscintilla_8h_source">wxscintilla.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="cbeditor_8cpp_source#l03378">cbEditor::DoUnIndent()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="cbeditor_8cpp_source#l03381">cbEditor::DoUnIndent()</a>.</p>
 
 </div>
 </div>
@@ -12970,7 +12956,7 @@ Variables</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="wxscintilla_8h_source#l02553">2553</a> of file <a class="el" href="wxscintilla_8h_source">wxscintilla.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="cbeditor_8cpp_source#l03371">cbEditor::DoIndent()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="cbeditor_8cpp_source#l03374">cbEditor::DoIndent()</a>.</p>
 
 </div>
 </div>
@@ -16302,7 +16288,7 @@ Variables</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="wxscintilla_8h_source#l00081">81</a> of file <a class="el" href="wxscintilla_8h_source">wxscintilla.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="find__replace_8cpp_source#l00069">cbFindReplaceData::ConvertEOLs()</a>, <a class="el" href="cbeditor_8cpp_source#l00633">DetectLineEnds()</a>, <a class="el" href="main_8cpp_source#l01915">MainFrame::DoUpdateStatusBar()</a>, <a class="el" href="globals_8cpp_source#l00795">GetEOLStr()</a>, <a class="el" href="main_8cpp_source#l03737">MainFrame::OnEditEOLMode()</a>, <a class="el" href="main_8cpp_source#l04054">MainFrame::OnEditMenuUpdateUI()</a>, <a class="el" href="cbeditor_8cpp_source#l03185">cbEditor::OnEditorCharAdded()</a>, and <a class="el" href="cbstyledtextctrl_8cpp_source#l00121">cbStyledTextCtrl::OnMouseMiddleClick()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="find__replace_8cpp_source#l00069">cbFindReplaceData::ConvertEOLs()</a>, <a class="el" href="cbeditor_8cpp_source#l00633">DetectLineEnds()</a>, <a class="el" href="main_8cpp_source#l01915">MainFrame::DoUpdateStatusBar()</a>, <a class="el" href="globals_8cpp_source#l00795">GetEOLStr()</a>, <a class="el" href="main_8cpp_source#l03737">MainFrame::OnEditEOLMode()</a>, <a class="el" href="main_8cpp_source#l04054">MainFrame::OnEditMenuUpdateUI()</a>, <a class="el" href="cbeditor_8cpp_source#l03188">cbEditor::OnEditorCharAdded()</a>, and <a class="el" href="cbstyledtextctrl_8cpp_source#l00121">cbStyledTextCtrl::OnMouseMiddleClick()</a>.</p>
 
 </div>
 </div>
@@ -17848,7 +17834,7 @@ Variables</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="wxscintilla_8h_source#l00250">250</a> of file <a class="el" href="wxscintilla_8h_source">wxscintilla.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="cbeditor_8cpp_source#l01999">cbEditor::DoFoldLine()</a>, and <a class="el" href="cbeditor_8cpp_source#l03290">cbEditor::OnEditorModified()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="cbeditor_8cpp_source#l01999">cbEditor::DoFoldLine()</a>, and <a class="el" href="cbeditor_8cpp_source#l03293">cbEditor::OnEditorModified()</a>.</p>
 
 </div>
 </div>
@@ -22090,7 +22076,7 @@ Variables</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="wxscintilla_8h_source#l00070">70</a> of file <a class="el" href="wxscintilla_8h_source">wxscintilla.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="cbstyledtextctrl_8cpp_source#l00412">cbStyledTextCtrl::AllowTabSmartJump()</a>, <a class="el" href="ccmanager_8cpp_source#l00257">CCManager::CCManager()</a>, <a class="el" href="ccmanager_8cpp_source#l01269">CCManager::DoUpdateCallTip()</a>, <a class="el" href="coderefactoring_8cpp_source#l00433">CodeRefactoring::Find()</a>, <a class="el" href="codecompletion_8cpp_source#l01259">CodeCompletion::GetCallTips()</a>, <a class="el" href="nativeparser_8cpp_source#l00877">NativeParser::GetCallTips()</a>, <a class="el" href="cbplugin_8cpp_source#l00183">cbDebuggerPlugin::GetEditorWordAtCaret()</a>, <a class="el" href="ccmanager_8cpp_source#l00353">CCManager::GetProviderFor()</a>, <a class="el" href="cbeditor_8cpp_source#l02552">cbEditor::GotoMatchingBrace()</a>, <a class="el" href="cbeditor_8cpp_source#l02387">cbEditor::GotoNextChanged()</a>, <a class="el" href="cbeditor_8cpp_source#l02406">cbEditor::GotoPreviousChanged()</a>, <a class="el" href="cbeditor_8cpp_source#l02149">cbEditor::GotoTokenPosition()</a>, <a class="el" href="cbeditor_8cpp_source#l02625">cbEditor::HighlightBraces()</a>, <a class="el" href="cbstyledtextctrl_8cpp_source#l00424">cbStyledTextCtrl::HighlightRightBrace()</a>, <a class="el" href="ccmanager_8cpp_source#l00557">CCManager::OnDeactivateApp()</a>, <a class="el" href="ccmanager_8cpp_source#l00577">CCManager::OnDeactivateEd()</a>, <a class="el" href="main_8cpp_source#l03584">MainFrame::OnEditBoxCommentSelected()</a>, <a class="el" href="main_8cpp_source#l03279">MainFrame::OnEditCommentSelected()</a>, <a class="el" href="ccmanager_8cpp_source#l00740">CCManager::OnEditorHook()</a>, <a class="el" href="ccmanager_8cpp_source#l00643">CCManager::OnEditorTooltip()</a>, <a class="el" href="main_8cpp_source#l03141">MainFrame::OnEditSelectAll()</a>, <a class="el" href="main_8cpp_source#l03504">MainFrame::OnEditStreamCommentSelected()</a>, <a class="el" href="main_8cpp_source#l03426">MainFrame::OnEditToggleCommentSelected()</a>, <a class="el" href="main_8cpp_source#l03335">MainFrame::OnEditUncommentSelected()</a>, <a class="el" href="cbstyledtextctrl_8cpp_source#l00153">cbStyledTextCtrl::OnKeyDown()</a>, <a class="el" href="cbstyledtextctrl_8cpp_source#l00246">cbStyledTextCtrl::OnKeyUp()</a>, <a class="el" href="ccmanager_8cpp_source#l01156">CCManager::OnMenuSelect()</a>, <a class="el" href="cbstyledtextctrl_8cpp_source#l00121">cbStyledTextCtrl::OnMouseMiddleClick()</a>, <a class="el" href="ccmanager_8cpp_source#l00910">CCManager::OnShowCallTip()</a>, and <a class="el" href="ccmanager_8cpp_source#l01120">CCManager::OnTimer()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="cbstyledtextctrl_8cpp_source#l00412">cbStyledTextCtrl::AllowTabSmartJump()</a>, <a class="el" href="ccmanager_8cpp_source#l00257">CCManager::CCManager()</a>, <a class="el" href="ccmanager_8cpp_source#l01299">CCManager::DoUpdateCallTip()</a>, <a class="el" href="coderefactoring_8cpp_source#l00433">CodeRefactoring::Find()</a>, <a class="el" href="codecompletion_8cpp_source#l01258">CodeCompletion::GetCallTips()</a>, <a class="el" href="nativeparser_8cpp_source#l00877">NativeParser::GetCallTips()</a>, <a class="el" href="cbplugin_8cpp_source#l00183">cbDebuggerPlugin::GetEditorWordAtCaret()</a>, <a class="el" href="ccmanager_8cpp_source#l00358">CCManager::GetProviderFor()</a>, <a class="el" href="cbeditor_8cpp_source#l02552">cbEditor::GotoMatchingBrace()</a>, <a class="el" href="cbeditor_8cpp_source#l02387">cbEditor::GotoNextChanged()</a>, <a class="el" href="cbeditor_8cpp_source#l02406">cbEditor::GotoPreviousChanged()</a>, <a class="el" href="cbeditor_8cpp_source#l02149">cbEditor::GotoTokenPosition()</a>, <a class="el" href="cbeditor_8cpp_source#l02625">cbEditor::HighlightBraces()</a>, <a class="el" href="cbstyledtextctrl_8cpp_source#l00424">cbStyledTextCtrl::HighlightRightBrace()</a>, <a class="el" href="ccmanager_8cpp_source#l00584">CCManager::OnDeactivateApp()</a>, <a class="el" href="ccmanager_8cpp_source#l00604">CCManager::OnDeactivateEd()</a>, <a class="el" href="main_8cpp_source#l03584">MainFrame::OnEditBoxCommentSelected()</a>, <a class="el" href="main_8cpp_source#l03279">MainFrame::OnEditCommentSelected()</a>, <a class="el" href="ccmanager_8cpp_source#l00767">CCManager::OnEditorHook()</a>, <a class="el" href="ccmanager_8cpp_source#l00670">CCManager::OnEditorTooltip()</a>, <a class="el" href="main_8cpp_source#l03141">MainFrame::OnEditSelectAll()</a>, <a class="el" href="main_8cpp_source#l03504">MainFrame::OnEditStreamCommentSelected()</a>, <a class="el" href="main_8cpp_source#l03426">MainFrame::OnEditToggleCommentSelected()</a>, <a class="el" href="main_8cpp_source#l03335">MainFrame::OnEditUncommentSelected()</a>, <a class="el" href="cbstyledtextctrl_8cpp_source#l00153">cbStyledTextCtrl::OnKeyDown()</a>, <a class="el" href="cbstyledtextctrl_8cpp_source#l00246">cbStyledTextCtrl::OnKeyUp()</a>, <a class="el" href="ccmanager_8cpp_source#l01183">CCManager::OnMenuSelect()</a>, <a class="el" href="cbstyledtextctrl_8cpp_source#l00121">cbStyledTextCtrl::OnMouseMiddleClick()</a>, <a class="el" href="ccmanager_8cpp_source#l00937">CCManager::OnShowCallTip()</a>, and <a class="el" href="ccmanager_8cpp_source#l01147">CCManager::OnTimer()</a>.</p>
 
 </div>
 </div>
@@ -22243,7 +22229,7 @@ Variables</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="wxscintilla_8h_source#l00424">424</a> of file <a class="el" href="wxscintilla_8h_source">wxscintilla.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="ccmanager_8cpp_source#l00740">CCManager::OnEditorHook()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="ccmanager_8cpp_source#l00767">CCManager::OnEditorHook()</a>.</p>
 
 </div>
 </div>
@@ -22329,7 +22315,7 @@ Variables</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="wxscintilla_8h_source#l00426">426</a> of file <a class="el" href="wxscintilla_8h_source">wxscintilla.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="cbeditor_8cpp_source#l01317">cbEditor::InternalSetEditorStyleBeforeFileOpen()</a>, and <a class="el" href="ccmanager_8cpp_source#l00740">CCManager::OnEditorHook()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="cbeditor_8cpp_source#l01317">cbEditor::InternalSetEditorStyleBeforeFileOpen()</a>, and <a class="el" href="ccmanager_8cpp_source#l00767">CCManager::OnEditorHook()</a>.</p>
 
 </div>
 </div>
@@ -22411,7 +22397,7 @@ Variables</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="wxscintilla_8h_source#l00427">427</a> of file <a class="el" href="wxscintilla_8h_source">wxscintilla.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="cbeditor_8cpp_source#l01317">cbEditor::InternalSetEditorStyleBeforeFileOpen()</a>, and <a class="el" href="ccmanager_8cpp_source#l00740">CCManager::OnEditorHook()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="cbeditor_8cpp_source#l01317">cbEditor::InternalSetEditorStyleBeforeFileOpen()</a>, and <a class="el" href="ccmanager_8cpp_source#l00767">CCManager::OnEditorHook()</a>.</p>
 
 </div>
 </div>
@@ -22477,7 +22463,7 @@ Variables</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="wxscintilla_8h_source#l00425">425</a> of file <a class="el" href="wxscintilla_8h_source">wxscintilla.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="ccmanager_8cpp_source#l00740">CCManager::OnEditorHook()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="ccmanager_8cpp_source#l00767">CCManager::OnEditorHook()</a>.</p>
 
 </div>
 </div>
@@ -22513,7 +22499,7 @@ Variables</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="wxscintilla_8h_source#l00379">379</a> of file <a class="el" href="wxscintilla_8h_source">wxscintilla.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="editorcolourset_8cpp_source#l00514">EditorColourSet::Apply()</a>, <a class="el" href="codecompletion_8cpp_source#l00947">CodeCompletion::DoCodeComplete()</a>, <a class="el" href="editorcolourset_8cpp_source#l00049">EditorColourSet::EditorColourSet()</a>, <a class="el" href="editorcolourset_8cpp_source#l00801">EditorColourSet::GetKeywords()</a>, <a class="el" href="editorcolourset_8cpp_source#l00689">EditorColourSet::Load()</a>, <a class="el" href="editorcolourset_8cpp_source#l00100">EditorColourSet::LoadAvailableSets()</a>, <a class="el" href="editorcolourset_8cpp_source#l00594">EditorColourSet::Save()</a>, and <a class="el" href="editorcolourset_8cpp_source#l00808">EditorColourSet::SetKeywords()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="editorcolourset_8cpp_source#l00514">EditorColourSet::Apply()</a>, <a class="el" href="codecompletion_8cpp_source#l00946">CodeCompletion::DoCodeComplete()</a>, <a class="el" href="editorcolourset_8cpp_source#l00049">EditorColourSet::EditorColourSet()</a>, <a class="el" href="editorcolourset_8cpp_source#l00801">EditorColourSet::GetKeywords()</a>, <a class="el" href="editorcolourset_8cpp_source#l00689">EditorColourSet::Load()</a>, <a class="el" href="editorcolourset_8cpp_source#l00100">EditorColourSet::LoadAvailableSets()</a>, <a class="el" href="editorcolourset_8cpp_source#l00594">EditorColourSet::Save()</a>, and <a class="el" href="editorcolourset_8cpp_source#l00808">EditorColourSet::SetKeywords()</a>.</p>
 
 </div>
 </div>
@@ -23599,7 +23585,7 @@ Variables</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="wxscintilla_8h_source#l00455">455</a> of file <a class="el" href="wxscintilla_8h_source">wxscintilla.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="codecompletion_8cpp_source#l01088">CodeCompletion::DoCodeCompletePreprocessor()</a>, <a class="el" href="cbeditor_8cpp_source#l00304">cbEditorInternalData::GetUrl()</a>, and <a class="el" href="codecompletion_8cpp_source#l03294">CodeCompletion::UpdateEditorSyntax()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="codecompletion_8cpp_source#l01087">CodeCompletion::DoCodeCompletePreprocessor()</a>, <a class="el" href="cbeditor_8cpp_source#l00304">cbEditorInternalData::GetUrl()</a>, and <a class="el" href="codecompletion_8cpp_source#l03305">CodeCompletion::UpdateEditorSyntax()</a>.</p>
 
 </div>
 </div>
@@ -26461,7 +26447,7 @@ Variables</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="wxscintilla_8h_source#l00146">146</a> of file <a class="el" href="wxscintilla_8h_source">wxscintilla.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="editorconfigurationdlg_8cpp_source#l00379">EditorConfigurationDlg::CreateColoursSample()</a>, <a class="el" href="ccmanager_8cpp_source#l01317">CCManager::DoShowTips()</a>, <a class="el" href="cbeditor_8cpp_source#l01529">cbEditor::InternalSetEditorStyleAfterFileOpen()</a>, and <a class="el" href="cbeditor_8cpp_source#l02940">cbEditor::Print()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="editorconfigurationdlg_8cpp_source#l00379">EditorConfigurationDlg::CreateColoursSample()</a>, <a class="el" href="ccmanager_8cpp_source#l01348">CCManager::DoShowTips()</a>, <a class="el" href="cbeditor_8cpp_source#l01529">cbEditor::InternalSetEditorStyleAfterFileOpen()</a>, and <a class="el" href="cbeditor_8cpp_source#l02940">cbEditor::Print()</a>.</p>
 
 </div>
 </div>
@@ -26495,7 +26481,7 @@ Variables</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="wxscintilla_8h_source#l00145">145</a> of file <a class="el" href="wxscintilla_8h_source">wxscintilla.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="disassemblydlg_8cpp_source#l00048">DisassemblyDlg::DisassemblyDlg()</a>, <a class="el" href="ccmanager_8cpp_source#l01317">CCManager::DoShowTips()</a>, <a class="el" href="cbeditor_8cpp_source#l01529">cbEditor::InternalSetEditorStyleAfterFileOpen()</a>, and <a class="el" href="cbeditor_8cpp_source#l01317">cbEditor::InternalSetEditorStyleBeforeFileOpen()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="disassemblydlg_8cpp_source#l00048">DisassemblyDlg::DisassemblyDlg()</a>, <a class="el" href="ccmanager_8cpp_source#l01348">CCManager::DoShowTips()</a>, <a class="el" href="cbeditor_8cpp_source#l01529">cbEditor::InternalSetEditorStyleAfterFileOpen()</a>, and <a class="el" href="cbeditor_8cpp_source#l01317">cbEditor::InternalSetEditorStyleBeforeFileOpen()</a>.</p>
 
 </div>
 </div>
@@ -28313,7 +28299,7 @@ Variables</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="wxscintilla_8h_source#l00391">391</a> of file <a class="el" href="wxscintilla_8h_source">wxscintilla.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="cbeditor_8cpp_source#l03290">cbEditor::OnEditorModified()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="cbeditor_8cpp_source#l03293">cbEditor::OnEditorModified()</a>.</p>
 
 </div>
 </div>
@@ -28443,7 +28429,7 @@ Variables</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="wxscintilla_8h_source#l00389">389</a> of file <a class="el" href="wxscintilla_8h_source">wxscintilla.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="codecompletion_8cpp_source#l01621">CodeCompletion::EditorEventHook()</a>, and <a class="el" href="cbeditor_8cpp_source#l03290">cbEditor::OnEditorModified()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="codecompletion_8cpp_source#l01620">CodeCompletion::EditorEventHook()</a>, and <a class="el" href="cbeditor_8cpp_source#l03293">cbEditor::OnEditorModified()</a>.</p>
 
 </div>
 </div>
@@ -28480,7 +28466,7 @@ Variables</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="wxscintilla_8h_source#l00388">388</a> of file <a class="el" href="wxscintilla_8h_source">wxscintilla.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="codecompletion_8cpp_source#l01621">CodeCompletion::EditorEventHook()</a>, and <a class="el" href="cbeditor_8cpp_source#l03290">cbEditor::OnEditorModified()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="codecompletion_8cpp_source#l01620">CodeCompletion::EditorEventHook()</a>, and <a class="el" href="cbeditor_8cpp_source#l03293">cbEditor::OnEditorModified()</a>.</p>
 
 </div>
 </div>
@@ -30224,7 +30210,7 @@ Variables</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="wxscintilla_8h_source#l00347">347</a> of file <a class="el" href="wxscintilla_8h_source">wxscintilla.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="ccmanager_8cpp_source#l00484">CCManager::OnCompleteCode()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="ccmanager_8cpp_source#l00490">CCManager::OnCompleteCode()</a>.</p>
 
 </div>
 </div>
@@ -30258,7 +30244,7 @@ Variables</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="wxscintilla_8h_source#l00345">345</a> of file <a class="el" href="wxscintilla_8h_source">wxscintilla.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="ccmanager_8cpp_source#l00484">CCManager::OnCompleteCode()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="ccmanager_8cpp_source#l00490">CCManager::OnCompleteCode()</a>.</p>
 
 </div>
 </div>
@@ -31098,7 +31084,7 @@ Variables</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="wxscintilla_8h_source#l00393">393</a> of file <a class="el" href="wxscintilla_8h_source">wxscintilla.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="ccmanager_8cpp_source#l00740">CCManager::OnEditorHook()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="ccmanager_8cpp_source#l00767">CCManager::OnEditorHook()</a>.</p>
 
 </div>
 </div>
@@ -38063,7 +38049,7 @@ Variables</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="wxscintilla_8h_source#l00156">156</a> of file <a class="el" href="wxscintilla_8h_source">wxscintilla.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="editorcolourset_8cpp_source#l00514">EditorColourSet::Apply()</a>, <a class="el" href="ccmanager_8cpp_source#l01317">CCManager::DoShowTips()</a>, and <a class="el" href="cbeditor_8cpp_source#l00191">cbEditorInternalData::SetLineNumberColWidth()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="editorcolourset_8cpp_source#l00514">EditorColourSet::Apply()</a>, <a class="el" href="ccmanager_8cpp_source#l01348">CCManager::DoShowTips()</a>, and <a class="el" href="cbeditor_8cpp_source#l00191">cbEditorInternalData::SetLineNumberColWidth()</a>.</p>
 
 </div>
 </div>
@@ -39645,7 +39631,7 @@ Variables</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="wxscintilla_8h_source#l00415">415</a> of file <a class="el" href="wxscintilla_8h_source">wxscintilla.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="ccmanager_8cpp_source#l00740">CCManager::OnEditorHook()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="ccmanager_8cpp_source#l00767">CCManager::OnEditorHook()</a>.</p>
 
 </div>
 </div>
@@ -39663,7 +39649,7 @@ Variables</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="wxscintilla_8h_source#l00413">413</a> of file <a class="el" href="wxscintilla_8h_source">wxscintilla.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="cbeditor_8cpp_source#l03161">cbEditor::OnEditorUpdateUI()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="cbeditor_8cpp_source#l03164">cbEditor::OnEditorUpdateUI()</a>.</p>
 
 </div>
 </div>
@@ -39681,7 +39667,7 @@ Variables</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="wxscintilla_8h_source#l00414">414</a> of file <a class="el" href="wxscintilla_8h_source">wxscintilla.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="ccmanager_8cpp_source#l00740">CCManager::OnEditorHook()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="ccmanager_8cpp_source#l00767">CCManager::OnEditorHook()</a>.</p>
 
 </div>
 </div>
@@ -41158,7 +41144,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define wxSCINTILLA_VERSION&#160;&#160;&#160;_T(&quot;3.53.0&quot;)</td>
+          <td class="memname">#define wxSCINTILLA_VERSION&#160;&#160;&#160;<a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga7dfc2888539861afe6c4337ef315472b">_T</a>(&quot;3.53.0&quot;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -41178,7 +41164,7 @@ Variables</h2></td></tr>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname">func</td><td>)</td>
-          <td>&#160;&#160;&#160;<a class="el" href="wxscintilla_8h#yd-wxEVENT_HANDLER_CAST">wxEVENT_HANDLER_CAST</a>( <a class="el" href="wxscintilla_8h#pp-wxScintillaEventFunction">wxScintillaEventFunction</a>, func )</td>
+          <td>&#160;&#160;&#160;<a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__events.html#gaca944d76c68b31cf44fb62f25642ad00">wxEVENT_HANDLER_CAST</a>( <a class="el" href="wxscintilla_8h#pp-wxScintillaEventFunction">wxScintillaEventFunction</a>, func )</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -41190,22 +41176,6 @@ Variables</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Typedef Documentation</h2>
-<a id="rk-wxIntPtr"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#rk-wxIntPtr">&#9670;&nbsp;</a></span>wxIntPtr</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">typedef long <a class="el" href="wxscintilla_8h#rk-wxIntPtr">wxIntPtr</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="wxscintilla_8h_source#l02775">2775</a> of file <a class="el" href="wxscintilla_8h_source">wxscintilla.h</a>.</p>
-
-</div>
-</div>
 <a id="hv-wxSciFnDirect"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#hv-wxSciFnDirect">&#9670;&nbsp;</a></span>wxSciFnDirect</h2>
 
@@ -41213,7 +41183,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef <a class="el" href="wxscintilla_8h#rk-wxIntPtr">wxIntPtr</a>(*  wxSciFnDirect) (<a class="el" href="wxscintilla_8h#rk-wxIntPtr">wxIntPtr</a> ptr, unsigned int iMessage, wxUIntPtr wParam, <a class="el" href="wxscintilla_8h#rk-wxIntPtr">wxIntPtr</a> lParam)</td>
+          <td class="memname">typedef <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/defs_8h.html#adc7fafddfefae454021d2e0660c96487">wxIntPtr</a>(*  wxSciFnDirect) (<a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/defs_8h.html#adc7fafddfefae454021d2e0660c96487">wxIntPtr</a> ptr, unsigned int iMessage, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/defs_8h.html#a74cc3a4753ec135e9e2ee6b155c97216">wxUIntPtr</a> wParam, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/defs_8h.html#adc7fafddfefae454021d2e0660c96487">wxIntPtr</a> lParam)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -41246,7 +41216,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">wxString sci2wx </td>
+          <td class="memname"><a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html">wxString</a> sci2wx </td>
           <td>(</td>
           <td class="paramtype">const char *&#160;</td>
           <td class="paramname"><em>str</em></td><td>)</td>
@@ -41264,7 +41234,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">wxString sci2wx </td>
+          <td class="memname"><a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html">wxString</a> sci2wx </td>
           <td>(</td>
           <td class="paramtype">const char *&#160;</td>
           <td class="paramname"><em>str</em>, </td>
@@ -41294,7 +41264,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">const wxWX2MBbuf wx2sci </td>
           <td>(</td>
-          <td class="paramtype">const wxString &amp;&#160;</td>
+          <td class="paramtype">const <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html">wxString</a> &amp;&#160;</td>
           <td class="paramname"><em>str</em></td><td>)</td>
           <td></td>
         </tr>
@@ -41311,7 +41281,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="wxscintilla_8h#n2-WXDLLIMPEXP_SCI">WXDLLIMPEXP_SCI</a> const wxChar* wxSCINameStr</td>
+          <td class="memname"><a class="el" href="wxscintilla_8h#n2-WXDLLIMPEXP_SCI">WXDLLIMPEXP_SCI</a> const <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#gad42f64d8c82f1ce4ae58773a89b2d6a7">wxChar</a>* wxSCINameStr</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -41363,14 +41333,12 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">class WXDLLIMPEXP_FWD_CORE wxScrollBar</td>
+          <td class="memname">class WXDLLIMPEXP_FWD_CORE <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_scroll_bar.html">wxScrollBar</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="wxscintilla_8h_source#l00047">47</a> of file <a class="el" href="wxscintilla_8h_source">wxscintilla.h</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="wxscintilla_8h_source#l02799">wxScintilla::wxScintilla()</a>.</p>
 
 </div>
 </div>

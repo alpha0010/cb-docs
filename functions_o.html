@@ -19,7 +19,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Code::Blocks
-   &#160;<span id="projectnumber">SVN r10947</span>
+   &#160;<span id="projectnumber">SVN r11012</span>
    </div>
   </td>
  </tr>
@@ -82,10 +82,12 @@ $(function() {
 </li>
 <li>OK
 : <a class="el" href="classAnnoyingDialog#wq-dStyle:OK">AnnoyingDialog</a>
-, <a class="el" href="classSharedMemory#xb-OK">SharedMemory</a>
 </li>
 <li>ok
 : <a class="el" href="classSharedMemory#w3-ok">SharedMemory</a>
+</li>
+<li>OK()
+: <a class="el" href="classSharedMemory#xb-OK">SharedMemory</a>
 </li>
 <li>OK_CANCEL
 : <a class="el" href="classAnnoyingDialog#wq-dStyle:OK_CANCEL">AnnoyingDialog</a>
@@ -547,9 +549,6 @@ $(function() {
 <li>OnColourTheme()
 : <a class="el" href="classEditorConfigurationDlg#ui-OnColourTheme">EditorConfigurationDlg</a>
 </li>
-<li>OnColumnSelect()
-: <a class="el" href="classGotoFunctionDlg#nn-OnColumnSelect">GotoFunctionDlg</a>
-</li>
 <li>OnCommandsChange()
 : <a class="el" href="classAdvancedCompilerOptionsDlg#f1-OnCommandsChange">AdvancedCompilerOptionsDlg</a>
 </li>
@@ -626,6 +625,9 @@ $(function() {
 </li>
 <li>OnCreateImportFileClick()
 : <a class="el" href="classProjectOptionsDlg#n2-OnCreateImportFileClick">ProjectOptionsDlg</a>
+</li>
+<li>OnCreateStatusBar()
+: <a class="el" href="classMainFrame#r5-OnCreateStatusBar">MainFrame</a>
 </li>
 <li>OnCtrlAltTab()
 : <a class="el" href="classMainFrame#q2-OnCtrlAltTab">MainFrame</a>
@@ -1048,14 +1050,14 @@ $(function() {
 : <a class="el" href="classAskAssocDialog#gg-OnESC">AskAssocDialog</a>
 </li>
 <li>OnEvent()
-: <a class="el" href="classForwardingTextControl#fc-OnEvent">ForwardingTextControl</a>
+: <a class="el" href="classcbDummyEditor#ov-OnEvent">cbDummyEditor</a>
+, <a class="el" href="classForwardingTextControl#fc-OnEvent">ForwardingTextControl</a>
 </li>
 <li>OnExecParameters()
 : <a class="el" href="classProjectManagerUI#j5-OnExecParameters">ProjectManagerUI</a>
 </li>
 <li>OnExit()
 : <a class="el" href="classCodeBlocksApp#hs-OnExit">CodeBlocksApp</a>
-, <a class="el" href="classwxDialogLayoutAdapterModule#vj-OnExit">wxDialogLayoutAdapterModule</a>
 </li>
 <li>OnExpand()
 : <a class="el" href="classValueTooltip#jr-OnExpand">ValueTooltip</a>
@@ -1267,6 +1269,10 @@ $(function() {
 <li>OnGetActiveLogWindow()
 : <a class="el" href="classMainFrame#g2-OnGetActiveLogWindow">MainFrame</a>
 </li>
+<li>OnGetItemText()
+: <a class="el" href="classGotoFileListCtrl#lp-OnGetItemText">GotoFileListCtrl</a>
+, <a class="el" href="classGotoFunctionListCtrl#v1-OnGetItemText">GotoFunctionListCtrl</a>
+</li>
 <li>OnGlobalUserVars()
 : <a class="el" href="classMainFrame#b2-OnGlobalUserVars">MainFrame</a>
 </li>
@@ -1376,10 +1382,12 @@ $(function() {
 <li>OnInit()
 : <a class="el" href="classCCDebugInfo#uv-OnInit">CCDebugInfo</a>
 , <a class="el" href="classCodeBlocksApp#u4-OnInit">CodeBlocksApp</a>
-, <a class="el" href="classwxDialogLayoutAdapterModule#ii-OnInit">wxDialogLayoutAdapterModule</a>
 </li>
 <li>OnInstall()
 : <a class="el" href="classPluginsConfigurationDlg#ur-OnInstall">PluginsConfigurationDlg</a>
+</li>
+<li>OnItemActivated()
+: <a class="el" href="classIncrementalSelectHandler#h3-OnItemActivated">IncrementalSelectHandler</a>
 </li>
 <li>OnItemToggle()
 : <a class="el" href="classMultiSelectDlg#d8-OnItemToggle">MultiSelectDlg</a>
@@ -1399,8 +1407,9 @@ $(function() {
 <li>OnKeyDown()
 : <a class="el" href="classcbStyledTextCtrl#ar-OnKeyDown">cbStyledTextCtrl</a>
 , <a class="el" href="classcbTreeCtrl#jm-OnKeyDown">cbTreeCtrl</a>
-, <a class="el" href="classIncrementalSelectListBase#cz-OnKeyDown">IncrementalSelectListBase</a>
+, <a class="el" href="classIncrementalSelectHandler#yj-OnKeyDown">IncrementalSelectHandler</a>
 , <a class="el" href="classProjectManagerUI#kz-OnKeyDown">ProjectManagerUI</a>
+, <a class="el" href="classProjectOptionsDlg#bv-OnKeyDown">ProjectOptionsDlg</a>
 , <a class="el" href="classWatchesDlg#z8-OnKeyDown">WatchesDlg</a>
 , <a class="el" href="classwxScintilla#n3-OnKeyDown">wxScintilla</a>
 </li>
@@ -1524,11 +1533,8 @@ $(function() {
 <li>OnMixedModeCB()
 : <a class="el" href="classDisassemblyDlg#p4-OnMixedModeCB">DisassemblyDlg</a>
 </li>
-<li>OnModeChange()
-: <a class="el" href="classGotoFunctionDlg#hk-OnModeChange">GotoFunctionDlg</a>
-</li>
-<li>OnMotion()
-: <a class="el" href="classcbAuiNotebook#cy-OnMotion">cbAuiNotebook</a>
+<li>OnModeClick()
+: <a class="el" href="classGotoFunctionDlg#zc-OnModeClick">GotoFunctionDlg</a>
 </li>
 <li>OnMouseEvent()
 : <a class="el" href="classcbSplashScreen#i4-OnMouseEvent">cbSplashScreen</a>
@@ -1571,19 +1577,19 @@ $(function() {
 : <a class="el" href="classInfoWindow#bi-OnMove">InfoWindow</a>
 </li>
 <li>OnMoveDirDownClick()
-: <a class="el" href="classCompilerOptionsDlg#jm-OnMoveDirDownClick">CompilerOptionsDlg</a>
+: <a class="el" href="classCompilerOptionsDlg#tb-OnMoveDirDownClick">CompilerOptionsDlg</a>
 </li>
 <li>OnMoveDirUpClick()
-: <a class="el" href="classCompilerOptionsDlg#zb-OnMoveDirUpClick">CompilerOptionsDlg</a>
+: <a class="el" href="classCompilerOptionsDlg#bz-OnMoveDirUpClick">CompilerOptionsDlg</a>
 </li>
 <li>OnMoveDown()
 : <a class="el" href="classEditArrayOrderDlg#pw-OnMoveDown">EditArrayOrderDlg</a>
 </li>
 <li>OnMoveLibDownClick()
-: <a class="el" href="classCompilerOptionsDlg#e3-OnMoveLibDownClick">CompilerOptionsDlg</a>
+: <a class="el" href="classCompilerOptionsDlg#vz-OnMoveLibDownClick">CompilerOptionsDlg</a>
 </li>
 <li>OnMoveLibUpClick()
-: <a class="el" href="classCompilerOptionsDlg#f8-OnMoveLibUpClick">CompilerOptionsDlg</a>
+: <a class="el" href="classCompilerOptionsDlg#co-OnMoveLibUpClick">CompilerOptionsDlg</a>
 </li>
 <li>OnMoveUp()
 : <a class="el" href="classEditArrayOrderDlg#pt-OnMoveUp">EditArrayOrderDlg</a>
@@ -1597,8 +1603,8 @@ $(function() {
 <li>OnMyCharHook()
 : <a class="el" href="classCompilerOptionsDlg#pz-OnMyCharHook">CompilerOptionsDlg</a>
 </li>
-<li>OnNavigationKey()
-: <a class="el" href="classcbAuiNotebook#yl-OnNavigationKey">cbAuiNotebook</a>
+<li>OnNavigationKeyNotebook()
+: <a class="el" href="classcbAuiNotebook#bl-OnNavigationKeyNotebook">cbAuiNotebook</a>
 </li>
 <li>OnNext()
 : <a class="el" href="classDebuggerMenuHandler#d9-OnNext">DebuggerMenuHandler</a>
@@ -2054,7 +2060,6 @@ $(function() {
 </li>
 <li>OnSearch()
 : <a class="el" href="classClassBrowser#aw-OnSearch">ClassBrowser</a>
-, <a class="el" href="classIncrementalSelectListBase#yq-OnSearch">IncrementalSelectListBase</a>
 </li>
 <li>OnSearchFind()
 : <a class="el" href="classMainFrame#hh-OnSearchFind">MainFrame</a>
@@ -2084,8 +2089,7 @@ $(function() {
 : <a class="el" href="classMainFrame#c1-OnSearchReplace">MainFrame</a>
 </li>
 <li>OnSelect()
-: <a class="el" href="classIncrementalSelectListBase#st-OnSelect">IncrementalSelectListBase</a>
-, <a class="el" href="classPluginsConfigurationDlg#qi-OnSelect">PluginsConfigurationDlg</a>
+: <a class="el" href="classPluginsConfigurationDlg#qi-OnSelect">PluginsConfigurationDlg</a>
 </li>
 <li>OnSelectAll()
 : <a class="el" href="classMultiSelectDlg#yy-OnSelectAll">MultiSelectDlg</a>
@@ -2279,6 +2283,9 @@ $(function() {
 </li>
 <li>OnTextChange()
 : <a class="el" href="classDebuggerConfigurationPanel#la-OnTextChange">DebuggerConfigurationPanel</a>
+</li>
+<li>OnTextChanged()
+: <a class="el" href="classIncrementalSelectHandler#i7-OnTextChanged">IncrementalSelectHandler</a>
 </li>
 <li>OnThreadEvent()
 : <a class="el" href="classClassBrowser#ur-OnThreadEvent">ClassBrowser</a>
@@ -2524,7 +2531,7 @@ $(function() {
 <li>Open()
 : <a class="el" href="classcbEditor#ll-Open">cbEditor</a>
 , <a class="el" href="classcbProject#zs-Open">cbProject</a>
-, <a class="el" href="classEditorManager#ua-Open">EditorManager</a>
+, <a class="el" href="classEditorManager#r8-Open">EditorManager</a>
 , <a class="el" href="classFileLogger#rr-Open">FileLogger</a>
 , <a class="el" href="classHTMLFileLogger#yx-Open">HTMLFileLogger</a>
 , <a class="el" href="classIBaseLoader#iq-Open">IBaseLoader</a>
@@ -2573,6 +2580,7 @@ $(function() {
 <li>operator()()
 : <a class="el" href="classAbstractJob#ha-operator">AbstractJob</a>
 , <a class="el" href="structAgony#xc-operator">Agony</a>
+, <a class="el" href="structcbStringHash#zy-operator">cbStringHash</a>
 , <a class="el" href="structDeath#ai-operator">Death</a>
 , <a class="el" href="classEditorReuser#t1-operator">EditorReuser</a>
 , <a class="el" href="classFileLoader#eg-operator">FileLoader</a>
@@ -2582,8 +2590,6 @@ $(function() {
 , <a class="el" href="structMatchProject#ic-operator">MatchProject</a>
 , <a class="el" href="structMatchSetTempBreakpoint#xq-operator">MatchSetTempBreakpoint</a>
 , <a class="el" href="classNullLoader#wu-operator">NullLoader</a>
-, <a class="el" href="structProjectFileAbsolutePathCmp#be-operator">ProjectFileAbsolutePathCmp</a>
-, <a class="el" href="structProjectFileAbsolutePathEqual#wq-operator">ProjectFileAbsolutePathEqual</a>
 , <a class="el" href="structProjectFileRelativePathCmp#to-operator">ProjectFileRelativePathCmp</a>
 , <a class="el" href="structRunAll#f4-operator">RunAll</a>
 , <a class="el" href="structSeqDelete#g1-operator">SeqDelete</a>
@@ -2638,7 +2644,7 @@ $(function() {
 </li>
 <li>operator==()
 : <a class="el" href="structCompilerTool#kz-operator">CompilerTool</a>
-, <a class="el" href="classID#ko-operator">ID</a>
+, <a class="el" href="classID#ru-operator">ID</a>
 , <a class="el" href="structRegExStruct#k5-operator">RegExStruct</a>
 , <a class="el" href="classToken#qf-operator">Token</a>
 , <a class="el" href="classwxSwitcherItem#i6-operator">wxSwitcherItem</a>

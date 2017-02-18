@@ -19,7 +19,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Code::Blocks
-   &#160;<span id="projectnumber">SVN r10947</span>
+   &#160;<span id="projectnumber">SVN r11012</span>
    </div>
   </td>
  </tr>
@@ -127,6 +127,7 @@ $(function() {
 : <a class="el" href="classBuildTargetPanel#lg-ID_CHECKBOX1">BuildTargetPanel</a>
 , <a class="el" href="classCompilerPanel#uc-ID_CHECKBOX1">CompilerPanel</a>
 , <a class="el" href="classFilePathPanel#wf-ID_CHECKBOX1">FilePathPanel</a>
+, <a class="el" href="classGotoFunctionDlg#jr-ID_CHECKBOX1">GotoFunctionDlg</a>
 , <a class="el" href="classInfoPanel#yo-ID_CHECKBOX1">InfoPanel</a>
 </li>
 <li>ID_CHECKBOX3
@@ -172,6 +173,9 @@ $(function() {
 <li>ID_LISTBOX3
 : <a class="el" href="classCCDebugInfo#ve-ID_LISTBOX3">CCDebugInfo</a>
 </li>
+<li>ID_LISTCTRL1
+: <a class="el" href="classGotoFunctionDlg#lx-ID_LISTCTRL1">GotoFunctionDlg</a>
+</li>
 <li>ID_NOTEBOOK1
 : <a class="el" href="classCCDebugInfo#er-ID_NOTEBOOK1">CCDebugInfo</a>
 </li>
@@ -199,6 +203,9 @@ $(function() {
 </li>
 <li>ID_REQUIRE_CTRL_FOR_TOOLTIPS
 : <a class="el" href="classDebuggerSettingsCommonPanel#jp-ID_REQUIRE_CTRL_FOR_TOOLTIPS">DebuggerSettingsCommonPanel</a>
+</li>
+<li>ID_RESULT_LIST
+: <a class="el" href="classGotoFile#ob-ID_RESULT_LIST">GotoFile</a>
 </li>
 <li>ID_STATICTEXT1
 : <a class="el" href="classBuildTargetPanel#u1-ID_STATICTEXT1">BuildTargetPanel</a>
@@ -294,6 +301,8 @@ $(function() {
 , <a class="el" href="classCompilerPanel#n7-ID_TEXTCTRL1">CompilerPanel</a>
 , <a class="el" href="classFilePathPanel#nv-ID_TEXTCTRL1">FilePathPanel</a>
 , <a class="el" href="classGenericSelectPath#ab-ID_TEXTCTRL1">GenericSelectPath</a>
+, <a class="el" href="classGotoFile#pz-ID_TEXTCTRL1">GotoFile</a>
+, <a class="el" href="classGotoFunctionDlg#jo-ID_TEXTCTRL1">GotoFunctionDlg</a>
 , <a class="el" href="classProjectPathPanel#ou-ID_TEXTCTRL1">ProjectPathPanel</a>
 , <a class="el" href="classScriptConsole#k4-ID_TEXTCTRL1">ScriptConsole</a>
 </li>
@@ -336,6 +345,9 @@ $(function() {
 <li>ignoreCount
 : <a class="el" href="structDebuggerBreakpoint#or-ignoreCount">DebuggerBreakpoint</a>
 </li>
+<li>implLine
+: <a class="el" href="classGotoFunctionDlg#q6-implLine">GotoFunctionDlg::FunctionToken</a>
+</li>
 <li>include
 : <a class="el" href="classCompilerXML#gp-SearchMode:include">CompilerXML</a>
 </li>
@@ -351,14 +363,8 @@ $(function() {
 <li>IncludeSet
 : <a class="el" href="classScriptingManager#gx-IncludeSet">ScriptingManager</a>
 </li>
-<li>IncrementalSelectIteratorStringArray()
-: <a class="el" href="classIncrementalSelectIteratorStringArray#h9-IncrementalSelectIteratorStri">IncrementalSelectIteratorStringArray</a>
-</li>
-<li>IncrementalSelectListBase()
-: <a class="el" href="classIncrementalSelectListBase#ui-IncrementalSelectListBase">IncrementalSelectListBase</a>
-</li>
-<li>IncrementalSelectListDlg()
-: <a class="el" href="classIncrementalSelectListDlg#y2-IncrementalSelectListDlg">IncrementalSelectListDlg</a>
+<li>IncrementalSelectHandler()
+: <a class="el" href="classIncrementalSelectHandler#u0-IncrementalSelectHandler">IncrementalSelectHandler</a>
 </li>
 <li>Indent()
 : <a class="el" href="classcbSmartIndentPlugin#l6-Indent">cbSmartIndentPlugin</a>
@@ -480,12 +486,10 @@ $(function() {
 , <a class="el" href="classCCLogger#wb-Init">CCLogger</a>
 , <a class="el" href="classClassBrowserBuilderThread#l8-Init">ClassBrowserBuilderThread</a>
 , <a class="el" href="classCompilerCommandGenerator#mq-Init">CompilerCommandGenerator</a>
+, <a class="el" href="classIncrementalSelectHandler#t4-Init">IncrementalSelectHandler</a>
 , <a class="el" href="classMultiSelectDlg#s6-Init">MultiSelectDlg</a>
 , <a class="el" href="classTokenizer#zq-Init">Tokenizer</a>
-, <a class="el" href="classwxDialogHelper#fa-Init">wxDialogHelper</a>
 , <a class="el" href="classwxMultiColumnListCtrl#q5-Init">wxMultiColumnListCtrl</a>
-, <a class="el" href="classwxScrollingDialog#yz-Init">wxScrollingDialog</a>
-, <a class="el" href="classwxScrollingPropertySheetDialog#n1-Init">wxScrollingPropertySheetDialog</a>
 , <a class="el" href="classwxSwitcherDialog#vm-Init">wxSwitcherDialog</a>
 , <a class="el" href="classwxSwitcherItem#sx-Init">wxSwitcherItem</a>
 , <a class="el" href="classwxSwitcherItems#nd-Init">wxSwitcherItems</a>
@@ -882,9 +886,6 @@ $(function() {
 <li>IsOperatorPointer()
 : <a class="el" href="classNativeParserBase#ic-IsOperatorPointer">NativeParserBase</a>
 </li>
-<li>IsOrdinaryButtonSizer()
-: <a class="el" href="classwxStandardDialogLayoutAdapter#bl-IsOrdinaryButtonSizer">wxStandardDialogLayoutAdapter</a>
-</li>
 <li>IsParserPerWorkspace()
 : <a class="el" href="classNativeParser#nh-IsParserPerWorkspace">NativeParser</a>
 </li>
@@ -931,9 +932,6 @@ $(function() {
 <li>isShutdown
 : <a class="el" href="classMgr#ff-isShutdown">Mgr&lt; MgrT &gt;</a>
 </li>
-<li>IsStandardButton()
-: <a class="el" href="classwxStandardDialogLayoutAdapter#hm-IsStandardButton">wxStandardDialogLayoutAdapter</a>
-</li>
 <li>IsStillAlive()
 : <a class="el" href="classParserThread#jq-IsStillAlive">ParserThread</a>
 </li>
@@ -971,9 +969,6 @@ $(function() {
 </li>
 <li>IsUniqueID()
 : <a class="el" href="classCompiler#jd-IsUniqueID">Compiler</a>
-</li>
-<li>IsUserButtonId()
-: <a class="el" href="classwxDialogHelper#gm-IsUserButtonId">wxDialogHelper</a>
 </li>
 <li>IsValid()
 : <a class="el" href="classBasicSearchTreeIterator#ae-IsValid">BasicSearchTreeIterator</a>
@@ -1015,6 +1010,9 @@ $(function() {
 </li>
 <li>Items
 : <a class="el" href="classBreakpointsDlg#nf-Items">BreakpointsDlg</a>
+</li>
+<li>Iterator()
+: <a class="el" href="structGotoFunctionDlg_1_1Iterator#dl-Iterator">GotoFunctionDlg::Iterator</a>
 </li>
 </ul>
 </div><!-- contents -->

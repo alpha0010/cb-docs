@@ -19,7 +19,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Code::Blocks
-   &#160;<span id="projectnumber">SVN r10947</span>
+   &#160;<span id="projectnumber">SVN r11012</span>
    </div>
   </td>
  </tr>
@@ -557,6 +557,9 @@ $(function() {
 <li>SetColumnCount()
 : <a class="el" href="classwxSwitcherItems#lc-SetColumnCount">wxSwitcherItems</a>
 </li>
+<li>SetColumnMode()
+: <a class="el" href="structGotoFunctionDlg_1_1Iterator#le-SetColumnMode">GotoFunctionDlg::Iterator</a>
+</li>
 <li>SetComboboxSelection()
 : <a class="el" href="classWiz#nj-SetComboboxSelection">Wiz</a>
 </li>
@@ -675,14 +678,23 @@ $(function() {
 , <a class="el" href="classGenericSingleChoiceList#iz-SetDescription">GenericSingleChoiceList</a>
 , <a class="el" href="classwxSwitcherItem#zb-SetDescription">wxSwitcherItem</a>
 </li>
-<li>SetDialog()
-: <a class="el" href="classwxDialogHelper#gu-SetDialog">wxDialogHelper</a>
-</li>
 <li>SetDisassemblyMixedMode()
 : <a class="el" href="classDebuggerManager#xo-SetDisassemblyMixedMode">DebuggerManager</a>
 </li>
 <li>SetDocPointer()
 : <a class="el" href="classwxScintilla#vy-SetDocPointer">wxScintilla</a>
+</li>
+<li>SetDragAllowMove()
+: <a class="el" href="classwxScintillaEvent#ak-SetDragAllowMove">wxScintillaEvent</a>
+</li>
+<li>SetDragFlags()
+: <a class="el" href="classwxScintillaEvent#ou-SetDragFlags">wxScintillaEvent</a>
+</li>
+<li>SetDragResult()
+: <a class="el" href="classwxScintillaEvent#je-SetDragResult">wxScintillaEvent</a>
+</li>
+<li>SetDragText()
+: <a class="el" href="classwxScintillaEvent#yu-SetDragText">wxScintillaEvent</a>
 </li>
 <li>SetEdgeColour()
 : <a class="el" href="classwxScintilla#cf-SetEdgeColour">wxScintilla</a>
@@ -907,6 +919,10 @@ $(function() {
 <li>SetItems()
 : <a class="el" href="classwxMultiColumnListCtrl#i1-SetItems">wxMultiColumnListCtrl</a>
 </li>
+<li>SetIterator()
+: <a class="el" href="classGotoFileListCtrl#yp-SetIterator">GotoFileListCtrl</a>
+, <a class="el" href="classGotoFunctionListCtrl#ve-SetIterator">GotoFunctionListCtrl</a>
+</li>
 <li>SetKey()
 : <a class="el" href="classwxScintillaEvent#cy-SetKey">wxScintillaEvent</a>
 </li>
@@ -936,18 +952,6 @@ $(function() {
 </li>
 <li>SetLaunchOption()
 : <a class="el" href="classcbTool#cj-SetLaunchOption">cbTool</a>
-</li>
-<li>SetLayoutAdaptation()
-: <a class="el" href="classwxDialogHelper#z6-SetLayoutAdaptation">wxDialogHelper</a>
-</li>
-<li>SetLayoutAdaptationDone()
-: <a class="el" href="classwxDialogHelper#dy-SetLayoutAdaptationDone">wxDialogHelper</a>
-</li>
-<li>SetLayoutAdaptationLevel()
-: <a class="el" href="classwxDialogHelper#bf-SetLayoutAdaptationLevel">wxDialogHelper</a>
-</li>
-<li>SetLayoutAdapter()
-: <a class="el" href="classwxDialogHelper#qz-SetLayoutAdapter">wxDialogHelper</a>
 </li>
 <li>SetLayoutCache()
 : <a class="el" href="classwxScintilla#jg-SetLayoutCache">wxScintilla</a>
@@ -1158,9 +1162,6 @@ $(function() {
 </li>
 <li>SetOwner()
 : <a class="el" href="classMiscTreeItemData#pa-SetOwner">MiscTreeItemData</a>
-</li>
-<li>SetPageToolTip()
-: <a class="el" href="classcbAuiNotebook#r9-SetPageToolTip">cbAuiNotebook</a>
 </li>
 <li>SetParams()
 : <a class="el" href="classcbTool#i2-SetParams">cbTool</a>
@@ -1556,9 +1557,6 @@ $(function() {
 <li>SetupLog()
 : <a class="el" href="classcbDebuggerPlugin#ae-SetupLog">cbDebuggerPlugin</a>
 </li>
-<li>SetupMode()
-: <a class="el" href="classGotoFunctionDlg#zo-SetupMode">GotoFunctionDlg</a>
-</li>
 <li>SetupOutputFilenames()
 : <a class="el" href="classCompilerCommandGenerator#wn-SetupOutputFilenames">CompilerCommandGenerator</a>
 </li>
@@ -1734,8 +1732,6 @@ $(function() {
 <li>Show()
 : <a class="el" href="classInfoPane#bb-Show">InfoPane</a>
 , <a class="el" href="classUnfocusablePopupWindow#a1-Show">UnfocusablePopupWindow</a>
-, <a class="el" href="classwxScrollingDialog#wn-Show">wxScrollingDialog</a>
-, <a class="el" href="classwxScrollingPropertySheetDialog#p6-Show">wxScrollingPropertySheetDialog</a>
 </li>
 <li>ShowBacktraceDialog()
 : <a class="el" href="classDebuggerManager#qe-ShowBacktraceDialog">DebuggerManager</a>
@@ -1782,8 +1778,6 @@ $(function() {
 </li>
 <li>ShowModal()
 : <a class="el" href="classAnnoyingDialog#sm-ShowModal">AnnoyingDialog</a>
-, <a class="el" href="classwxScrollingDialog#ik-ShowModal">wxScrollingDialog</a>
-, <a class="el" href="classwxScrollingPropertySheetDialog#p6-ShowModal">wxScrollingPropertySheetDialog</a>
 </li>
 <li>ShowNonLogger()
 : <a class="el" href="classInfoPane#e5-ShowNonLogger">InfoPane</a>
@@ -1882,6 +1876,9 @@ $(function() {
 <li>SmartIndentEnabled()
 : <a class="el" href="classcbSmartIndentPlugin#af-SmartIndentEnabled">cbSmartIndentPlugin</a>
 </li>
+<li>Sort()
+: <a class="el" href="structGotoFunctionDlg_1_1Iterator#vh-Sort">GotoFunctionDlg::Iterator</a>
+</li>
 <li>Split()
 : <a class="el" href="classcbEditor#ds-Split">cbEditor</a>
 </li>
@@ -1901,7 +1898,7 @@ $(function() {
 : <a class="el" href="classSQCompiler#mm-SQCompiler">SQCompiler</a>
 </li>
 <li>SQFile()
-: <a class="el" href="structSQFile#rx-SQFile">SQFile</a>
+: <a class="el" href="structSQFile#y3-SQFile">SQFile</a>
 </li>
 <li>Start()
 : <a class="el" href="classCDB__driver#t8-Start">CDB_driver</a>
@@ -2135,6 +2132,9 @@ $(function() {
 </li>
 <li>SwitchCompiler()
 : <a class="el" href="classCompilerGCC#y6-SwitchCompiler">CompilerGCC</a>
+</li>
+<li>SwitchMode()
+: <a class="el" href="classGotoFunctionDlg#um-SwitchMode">GotoFunctionDlg</a>
 </li>
 <li>SwitchParser()
 : <a class="el" href="classNativeParser#az-SwitchParser">NativeParser</a>

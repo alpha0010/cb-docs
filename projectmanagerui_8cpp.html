@@ -19,7 +19,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Code::Blocks
-   &#160;<span id="projectnumber">SVN r10947</span>
+   &#160;<span id="projectnumber">SVN r11012</span>
    </div>
   </td>
  </tr>
@@ -50,21 +50,23 @@ $(function() {
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="sdk_8h_source">sdk.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="projectmanagerui_8h_source">projectmanagerui.h</a>&quot;</code><br />
+<code>#include &lt;unordered_map&gt;</code><br />
 <code>#include &quot;<a class="el" href="cbauibook_8h_source">cbauibook.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="cbcolourmanager_8h_source">cbcolourmanager.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="confirmreplacedlg_8h_source">confirmreplacedlg.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="filefilters_8h_source">filefilters.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="filegroupsandmasks_8h_source">filegroupsandmasks.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="incrementalselectlistdlg_8h_source">incrementalselectlistdlg.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="multiselectdlg_8h_source">multiselectdlg.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="projectdepsdlg_8h_source">projectdepsdlg.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="projectfileoptionsdlg_8h_source">projectfileoptionsdlg.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="projectoptionsdlg_8h_source">projectoptionsdlg.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="projectsfilemasksdlg_8h_source">projectsfilemasksdlg.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="goto__file_8h_source">goto_file.h</a>&quot;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for projectmanagerui.cpp:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="projectmanagerui_8cpp__incl.svg" width="9028" height="635"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="projectmanagerui_8cpp__incl.svg" width="1918" height="426"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 </div>
 <p><a href="projectmanagerui_8cpp_source">Go to the source code of this file.</a></p>
@@ -73,9 +75,7 @@ Include dependency graph for projectmanagerui.cpp:</div>
 Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structProjectFileRelativePathCmp">ProjectFileRelativePathCmp</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structProjectFileAbsolutePathCmp">ProjectFileAbsolutePathCmp</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structProjectFileAbsolutePathEqual">ProjectFileAbsolutePathEqual</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structcbStringHash">cbStringHash</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->

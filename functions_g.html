@@ -19,7 +19,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Code::Blocks
-   &#160;<span id="projectnumber">SVN r10947</span>
+   &#160;<span id="projectnumber">SVN r11012</span>
    </div>
   </td>
  </tr>
@@ -411,9 +411,6 @@ $(function() {
 <li>GetBuiltinEditor()
 : <a class="el" href="classEditorManager#rw-GetBuiltinEditor">EditorManager</a>
 </li>
-<li>GetButtonIds()
-: <a class="el" href="classwxDialogHelper#gm-GetButtonIds">wxDialogHelper</a>
-</li>
 <li>GetBytes()
 : <a class="el" href="classcbExamineMemoryDlg#gs-GetBytes">cbExamineMemoryDlg</a>
 , <a class="el" href="classExamineMemoryDlg#hq-GetBytes">ExamineMemoryDlg</a>
@@ -546,6 +543,10 @@ $(function() {
 </li>
 <li>GetColumnCount()
 : <a class="el" href="classwxSwitcherItems#av-GetColumnCount">wxSwitcherItems</a>
+</li>
+<li>GetColumnWidth()
+: <a class="el" href="structGotoFunctionDlg_1_1Iterator#wl-GetColumnWidth">GotoFunctionDlg::Iterator</a>
+, <a class="el" href="classIncrementalSelectIterator#zl-GetColumnWidth">IncrementalSelectIterator</a>
 </li>
 <li>GetComboboxSelection()
 : <a class="el" href="classWiz#yb-GetComboboxSelection">Wiz</a>
@@ -686,10 +687,6 @@ $(function() {
 <li>GetCOnlyFlags()
 : <a class="el" href="classCompiler#e8-GetCOnlyFlags">Compiler</a>
 </li>
-<li>GetContentWindow()
-: <a class="el" href="classwxDialogHelper#et-GetContentWindow">wxDialogHelper</a>
-, <a class="el" href="classwxScrollingPropertySheetDialog#mo-GetContentWindow">wxScrollingPropertySheetDialog</a>
-</li>
 <li>GetControl()
 : <a class="el" href="classcbEditor#rx-GetControl">cbEditor</a>
 , <a class="el" href="classwxScintillaEvent#yo-GetControl">wxScintillaEvent</a>
@@ -703,8 +700,6 @@ $(function() {
 , <a class="el" href="classCompilerErrors#rr-GetCount">CompilerErrors</a>
 , <a class="el" href="classCompilerOptions#g5-GetCount">CompilerOptions</a>
 , <a class="el" href="classCompilerQueue#hb-GetCount">CompilerQueue</a>
-, <a class="el" href="classIncrementalSelectIterator#j4-GetCount">IncrementalSelectIterator</a>
-, <a class="el" href="classIncrementalSelectIteratorStringArray#q7-GetCount">IncrementalSelectIteratorStringArray</a>
 , <a class="el" href="classSearchTree#v8-GetCount">SearchTree&lt; T &gt;</a>
 , <a class="el" href="classWiz#gb-GetCount">Wiz</a>
 </li>
@@ -750,11 +745,6 @@ $(function() {
 </li>
 <li>GetCurrentProject()
 : <a class="el" href="classNativeParser#uh-GetCurrentProject">NativeParser</a>
-</li>
-<li>GetCurrentSelection()
-: <a class="el" href="classGotoFunctionDlg#d8-GetCurrentSelection">GotoFunctionDlg</a>
-, <a class="el" href="classIncrementalSelectListBase#gd-GetCurrentSelection">IncrementalSelectListBase</a>
-, <a class="el" href="classIncrementalSelectListDlg#ov-GetCurrentSelection">IncrementalSelectListDlg</a>
 </li>
 <li>GetCursor()
 : <a class="el" href="classDebuggerDriver#k2-GetCursor">DebuggerDriver</a>
@@ -848,9 +838,6 @@ $(function() {
 , <a class="el" href="classWiz#vr-GetDescription">Wiz</a>
 , <a class="el" href="classwxSwitcherItem#jz-GetDescription">wxSwitcherItem</a>
 </li>
-<li>GetDialog()
-: <a class="el" href="classwxDialogHelper#a3-GetDialog">wxDialogHelper</a>
-</li>
 <li>GetDirectFunction()
 : <a class="el" href="classwxScintilla#do-GetDirectFunction">wxScintilla</a>
 </li>
@@ -873,8 +860,9 @@ $(function() {
 <li>GetDisassemblyFlavour()
 : <a class="el" href="classGDB__driver#ta-GetDisassemblyFlavour">GDB_driver</a>
 </li>
-<li>GetDisplayItem()
-: <a class="el" href="classIncrementalSelectIterator#tn-GetDisplayItem">IncrementalSelectIterator</a>
+<li>GetDisplayText()
+: <a class="el" href="structGotoFunctionDlg_1_1Iterator#cl-GetDisplayText">GotoFunctionDlg::Iterator</a>
+, <a class="el" href="classIncrementalSelectIterator#bz-GetDisplayText">IncrementalSelectIterator</a>
 </li>
 <li>GetDocPointer()
 : <a class="el" href="classwxScintilla#s3-GetDocPointer">wxScintilla</a>
@@ -883,6 +871,18 @@ $(function() {
 : <a class="el" href="classcbCodeCompletionPlugin#ka-GetDocumentation">cbCodeCompletionPlugin</a>
 , <a class="el" href="classCodeCompletion#vm-GetDocumentation">CodeCompletion</a>
 , <a class="el" href="classTokenTree#mb-GetDocumentation">TokenTree</a>
+</li>
+<li>GetDragAllowMove()
+: <a class="el" href="classwxScintillaEvent#ut-GetDragAllowMove">wxScintillaEvent</a>
+</li>
+<li>GetDragFlags()
+: <a class="el" href="classwxScintillaEvent#c8-GetDragFlags">wxScintillaEvent</a>
+</li>
+<li>GetDragResult()
+: <a class="el" href="classwxScintillaEvent#mx-GetDragResult">wxScintillaEvent</a>
+</li>
+<li>GetDragText()
+: <a class="el" href="classwxScintillaEvent#o9-GetDragText">wxScintillaEvent</a>
 </li>
 <li>GetDriver()
 : <a class="el" href="classDebuggerState#u9-GetDriver">DebuggerState</a>
@@ -1092,6 +1092,10 @@ $(function() {
 </li>
 <li>GetFileTargetIndex()
 : <a class="el" href="classWiz#zt-GetFileTargetIndex">Wiz</a>
+</li>
+<li>GetFilteredCount()
+: <a class="el" href="classIncrementalSelectIterator#fg-GetFilteredCount">IncrementalSelectIterator</a>
+, <a class="el" href="classIncrementalSelectIteratorIndexed#tb-GetFilteredCount">IncrementalSelectIteratorIndexed</a>
 </li>
 <li>GetFindString()
 : <a class="el" href="classFindReplaceBase#qf-GetFindString">FindReplaceBase</a>
@@ -1305,9 +1309,7 @@ $(function() {
 : <a class="el" href="classProjectManager#sz-GetIsRunning">ProjectManager</a>
 </li>
 <li>GetItem()
-: <a class="el" href="classIncrementalSelectIterator#ub-GetItem">IncrementalSelectIterator</a>
-, <a class="el" href="classIncrementalSelectIteratorStringArray#o8-GetItem">IncrementalSelectIteratorStringArray</a>
-, <a class="el" href="classSearchTree#ly-GetItem">SearchTree&lt; T &gt;</a>
+: <a class="el" href="classSearchTree#ly-GetItem">SearchTree&lt; T &gt;</a>
 , <a class="el" href="classwxSwitcherItems#jd-GetItem">wxSwitcherItems</a>
 </li>
 <li>GetItemAsText()
@@ -1318,6 +1320,10 @@ $(function() {
 </li>
 <li>GetItemCount()
 : <a class="el" href="classwxSwitcherItems#om-GetItemCount">wxSwitcherItems</a>
+</li>
+<li>GetItemFilterString()
+: <a class="el" href="structGotoFunctionDlg_1_1Iterator#a5-GetItemFilterString">GotoFunctionDlg::Iterator</a>
+, <a class="el" href="classIncrementalSelectIterator#fb-GetItemFilterString">IncrementalSelectIterator</a>
 </li>
 <li>GetItemFont()
 : <a class="el" href="classwxSwitcherItems#s3-GetItemFont">wxSwitcherItems</a>
@@ -1411,18 +1417,6 @@ $(function() {
 <li>GetLaunchOption()
 : <a class="el" href="classcbTool#lj-GetLaunchOption">cbTool</a>
 </li>
-<li>GetLayoutAdaptation()
-: <a class="el" href="classwxDialogHelper#u9-GetLayoutAdaptation">wxDialogHelper</a>
-</li>
-<li>GetLayoutAdaptationDone()
-: <a class="el" href="classwxDialogHelper#c2-GetLayoutAdaptationDone">wxDialogHelper</a>
-</li>
-<li>GetLayoutAdaptationLevel()
-: <a class="el" href="classwxDialogHelper#rw-GetLayoutAdaptationLevel">wxDialogHelper</a>
-</li>
-<li>GetLayoutAdapter()
-: <a class="el" href="classwxDialogHelper#ou-GetLayoutAdapter">wxDialogHelper</a>
-</li>
 <li>GetLayoutCache()
 : <a class="el" href="classwxScintilla#mp-GetLayoutCache">wxScintilla</a>
 </li>
@@ -1445,6 +1439,9 @@ $(function() {
 </li>
 <li>GetLibDirs()
 : <a class="el" href="classCompileOptionsBase#wp-GetLibDirs">CompileOptionsBase</a>
+</li>
+<li>GetLibraryVersionInfo()
+: <a class="el" href="classwxScintilla#cu-GetLibraryVersionInfo">wxScintilla</a>
 </li>
 <li>GetLine()
 : <a class="el" href="classcbBreakpoint#lt-GetLine">cbBreakpoint</a>
@@ -1529,9 +1526,6 @@ $(function() {
 </li>
 <li>GetListboxStringSelections()
 : <a class="el" href="classWiz#mv-GetListboxStringSelections">Wiz</a>
-</li>
-<li>GetListCtrl()
-: <a class="el" href="classGotoFunctionDlg#x7-GetListCtrl">GotoFunctionDlg</a>
 </li>
 <li>GetListType()
 : <a class="el" href="classwxScintillaEvent#ox-GetListType">wxScintillaEvent</a>
@@ -1690,6 +1684,7 @@ $(function() {
 </li>
 <li>GetName()
 : <a class="el" href="classcbDebuggerConfiguration#wg-GetName">cbDebuggerConfiguration</a>
+, <a class="el" href="classcbDummyEditor#ep-GetName">cbDummyEditor</a>
 , <a class="el" href="classcbTextCtrlAndButtonTooltipEditor#cw-GetName">cbTextCtrlAndButtonTooltipEditor</a>
 , <a class="el" href="classcbTool#ab-GetName">cbTool</a>
 , <a class="el" href="classCompiler#ab-GetName">Compiler</a>
@@ -1854,9 +1849,6 @@ $(function() {
 <li>GetPagesInTabCtrl()
 : <a class="el" href="classcbAuiNotebook#nu-GetPagesInTabCtrl">cbAuiNotebook</a>
 </li>
-<li>GetPageToolTip()
-: <a class="el" href="classcbAuiNotebook#cd-GetPageToolTip">cbAuiNotebook</a>
-</li>
 <li>GetParagraphArgument()
 : <a class="el" href="structDoxygen_1_1DoxygenParser#d5-GetParagraphArgument">Doxygen::DoxygenParser</a>
 </li>
@@ -1920,7 +1912,7 @@ $(function() {
 : <a class="el" href="classCodeBlocksEvent#uc-GetPlugin">CodeBlocksEvent</a>
 </li>
 <li>GetPluginInfo()
-: <a class="el" href="classPluginManager#gi-GetPluginInfo">PluginManager</a>
+: <a class="el" href="classPluginManager#wt-GetPluginInfo">PluginManager</a>
 </li>
 <li>GetPluginManager()
 : <a class="el" href="classManager#py-GetPluginManager">Manager</a>
@@ -2251,8 +2243,9 @@ $(function() {
 </li>
 <li>GetSelection()
 : <a class="el" href="classDataBreakpointDlg#go-GetSelection">DataBreakpointDlg</a>
-, <a class="el" href="classGotoFunctionDlg#m7-GetSelection">GotoFunctionDlg</a>
-, <a class="el" href="classIncrementalSelectListDlg#zj-GetSelection">IncrementalSelectListDlg</a>
+, <a class="el" href="classGotoFile#pa-GetSelection">GotoFile</a>
+, <a class="el" href="classGotoFunctionDlg#qq-GetSelection">GotoFunctionDlg</a>
+, <a class="el" href="classIncrementalSelectHandler#mt-GetSelection">IncrementalSelectHandler</a>
 , <a class="el" href="classSelectTargetDlg#fq-GetSelection">SelectTargetDlg</a>
 , <a class="el" href="classwxScintilla#vp-GetSelection">wxScintilla</a>
 , <a class="el" href="classwxSwitcherDialog#ex-GetSelection">wxSwitcherDialog</a>
@@ -2372,13 +2365,10 @@ $(function() {
 : <a class="el" href="classcbStatusBar#v8-GetStatusTextByPlugin">cbStatusBar</a>
 </li>
 <li>GetString()
-: <a class="el" href="classBasicSearchTree#fw-GetString">BasicSearchTree</a>
+: <a class="el" href="classBasicSearchTree#rm-GetString">BasicSearchTree</a>
 </li>
 <li>GetStringLexerStyles()
 : <a class="el" href="classcbStyledTextCtrl#vx-GetStringLexerStyles">cbStyledTextCtrl</a>
-</li>
-<li>GetStringSelection()
-: <a class="el" href="classIncrementalSelectListDlg#wj-GetStringSelection">IncrementalSelectListDlg</a>
 </li>
 <li>GetStrippedArgs()
 : <a class="el" href="classToken#y6-GetStrippedArgs">Token</a>
@@ -2550,7 +2540,7 @@ $(function() {
 , <a class="el" href="classDebuggerGDB#o4-GetThread">DebuggerGDB</a>
 </li>
 <li>GetThreads()
-: <a class="el" href="classDebuggerDriver#x2-GetThreads">DebuggerDriver</a>
+: <a class="el" href="classDebuggerDriver#ow-GetThreads">DebuggerDriver</a>
 </li>
 <li>GetThreadsCount()
 : <a class="el" href="classcbDebuggerPlugin#o4-GetThreadsCount">cbDebuggerPlugin</a>
@@ -2580,6 +2570,7 @@ $(function() {
 <li>GetToken()
 : <a class="el" href="classClassTreeData#iw-GetToken">ClassTreeData</a>
 , <a class="el" href="classExpressionNode#ws-GetToken">ExpressionNode</a>
+, <a class="el" href="structGotoFunctionDlg_1_1Iterator#p4-GetToken">GotoFunctionDlg::Iterator</a>
 , <a class="el" href="classTokenizer#p4-GetToken">Tokenizer</a>
 , <a class="el" href="classwxScintillaEvent#h1-GetToken">wxScintillaEvent</a>
 </li>
@@ -2641,6 +2632,10 @@ $(function() {
 <li>GetTopProjectFile()
 : <a class="el" href="classProjectLayoutLoader#mr-GetTopProjectFile">ProjectLayoutLoader</a>
 </li>
+<li>GetTotalCount()
+: <a class="el" href="structGotoFunctionDlg_1_1Iterator#n6-GetTotalCount">GotoFunctionDlg::Iterator</a>
+, <a class="el" href="classIncrementalSelectIterator#lm-GetTotalCount">IncrementalSelectIterator</a>
+</li>
 <li>GetTree()
 : <a class="el" href="classBatchProjectManagerUI#no-GetTree">BatchProjectManagerUI</a>
 , <a class="el" href="classcbProjectManagerUI#hu-GetTree">cbProjectManagerUI</a>
@@ -2676,6 +2671,10 @@ $(function() {
 </li>
 <li>GetUndoCollection()
 : <a class="el" href="classwxScintilla#qa-GetUndoCollection">wxScintilla</a>
+</li>
+<li>GetUnfilteredIndex()
+: <a class="el" href="classIncrementalSelectIterator#w8-GetUnfilteredIndex">IncrementalSelectIterator</a>
+, <a class="el" href="classIncrementalSelectIteratorIndexed#dl-GetUnfilteredIndex">IncrementalSelectIteratorIndexed</a>
 </li>
 <li>GetUniqElement()
 : <a class="el" href="classConfigManager#t3-GetUniqElement">ConfigManager</a>
@@ -2714,7 +2713,7 @@ $(function() {
 : <a class="el" href="classDebuggerDriver#kr-GetUserSelectedFrame">DebuggerDriver</a>
 </li>
 <li>GetUserVariableDialog()
-: <a class="el" href="classGetUserVariableDialog#zf-GetUserVariableDialog">GetUserVariableDialog</a>
+: <a class="el" href="classGetUserVariableDialog#tt-GetUserVariableDialog">GetUserVariableDialog</a>
 </li>
 <li>GetUserVariableManager()
 : <a class="el" href="classManager#fr-GetUserVariableManager">Manager</a>
@@ -2741,7 +2740,7 @@ $(function() {
 </li>
 <li>GetVariable()
 : <a class="el" href="classGetUserVariableDialog#z5-GetVariable">GetUserVariableDialog</a>
-, <a class="el" href="classUserVariableManager#l8-GetVariable">UserVariableManager</a>
+, <a class="el" href="classUserVariableManager#tz-GetVariable">UserVariableManager</a>
 </li>
 <li>GetVarsOwner()
 : <a class="el" href="classCompilerOptionsDlg#xo-GetVarsOwner">CompilerOptionsDlg</a>
@@ -2882,8 +2881,17 @@ $(function() {
 <li>GotoError()
 : <a class="el" href="classCompilerErrors#sy-GotoError">CompilerErrors</a>
 </li>
+<li>GotoFile()
+: <a class="el" href="classGotoFile#u2-GotoFile">GotoFile</a>
+</li>
+<li>GotoFileListCtrl()
+: <a class="el" href="classGotoFileListCtrl#c3-GotoFileListCtrl">GotoFileListCtrl</a>
+</li>
 <li>GotoFunctionDlg()
-: <a class="el" href="classGotoFunctionDlg#be-GotoFunctionDlg">GotoFunctionDlg</a>
+: <a class="el" href="classGotoFunctionDlg#cp-GotoFunctionDlg">GotoFunctionDlg</a>
+</li>
+<li>GotoFunctionListCtrl()
+: <a class="el" href="classGotoFunctionListCtrl#k1-GotoFunctionListCtrl">GotoFunctionListCtrl</a>
 </li>
 <li>GotoFunctionPrevNext()
 : <a class="el" href="classCodeCompletion#qp-GotoFunctionPrevNext">CodeCompletion</a>

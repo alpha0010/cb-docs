@@ -19,7 +19,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Code::Blocks
-   &#160;<span id="projectnumber">SVN r10947</span>
+   &#160;<span id="projectnumber">SVN r11012</span>
    </div>
   </td>
  </tr>
@@ -46,35 +46,49 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &lt;<a class="el" href="incrementalselectlistbase_8h_source">incrementalselectlistbase.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="incremental__select__helper_8h_source">incremental_select_helper.h</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for IncrementalSelectIterator:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classIncrementalSelectIterator__inherit__graph.svg" width="206" height="316"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classIncrementalSelectIterator__inherit__graph.svg" width="206" height="720"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 <div class="dynheader">
 Collaboration diagram for IncrementalSelectIterator:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classIncrementalSelectIterator__coll__graph.svg" width="206" height="132"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classIncrementalSelectIterator__coll__graph.svg" width="206" height="220"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:eb-IncrementalSelectIterator"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIncrementalSelectIterator#eb-IncrementalSelectIterator">~IncrementalSelectIterator</a> ()</td></tr>
-<tr class="separator:eb-IncrementalSelectIterator"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:j4-GetCount"><td class="memItemLeft" align="right" valign="top">virtual long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIncrementalSelectIterator#j4-GetCount">GetCount</a> () const =0</td></tr>
-<tr class="separator:j4-GetCount"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ub-GetItem"><td class="memItemLeft" align="right" valign="top">virtual wxString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIncrementalSelectIterator#ub-GetItem">GetItem</a> (long index) const =0</td></tr>
-<tr class="separator:ub-GetItem"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:tn-GetDisplayItem"><td class="memItemLeft" align="right" valign="top">virtual wxString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIncrementalSelectIterator#tn-GetDisplayItem">GetDisplayItem</a> (long index) const</td></tr>
-<tr class="separator:tn-GetDisplayItem"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:dd-IncrementalSelectIterator"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIncrementalSelectIterator#dd-IncrementalSelectIterator">~IncrementalSelectIterator</a> ()</td></tr>
+<tr class="separator:dd-IncrementalSelectIterator"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:fg-GetFilteredCount"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIncrementalSelectIterator#fg-GetFilteredCount">GetFilteredCount</a> () const =0</td></tr>
+<tr class="separator:fg-GetFilteredCount"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:bz-Reset"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIncrementalSelectIterator#bz-Reset">Reset</a> ()=0</td></tr>
+<tr class="separator:bz-Reset"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:jm-AddIndex"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIncrementalSelectIterator#jm-AddIndex">AddIndex</a> (int index)=0</td></tr>
+<tr class="separator:jm-AddIndex"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:w8-GetUnfilteredIndex"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIncrementalSelectIterator#w8-GetUnfilteredIndex">GetUnfilteredIndex</a> (int index) const =0</td></tr>
+<tr class="separator:w8-GetUnfilteredIndex"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:lm-GetTotalCount"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIncrementalSelectIterator#lm-GetTotalCount">GetTotalCount</a> () const =0</td></tr>
+<tr class="separator:lm-GetTotalCount"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:fb-GetItemFilterString"><td class="memItemLeft" align="right" valign="top">virtual const <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html">wxString</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIncrementalSelectIterator#fb-GetItemFilterString">GetItemFilterString</a> (int index) const =0</td></tr>
+<tr class="separator:fb-GetItemFilterString"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:bz-GetDisplayText"><td class="memItemLeft" align="right" valign="top">virtual <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html">wxString</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIncrementalSelectIterator#bz-GetDisplayText">GetDisplayText</a> (int index, int column) const =0</td></tr>
+<tr class="separator:bz-GetDisplayText"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:zl-GetColumnWidth"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIncrementalSelectIterator#zl-GetColumnWidth">GetColumnWidth</a> (int column) const</td></tr>
+<tr class="separator:zl-GetColumnWidth"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:yk-CalcColumnWidth"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIncrementalSelectIterator#yk-CalcColumnWidth">CalcColumnWidth</a> (<a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_list_ctrl.html">wxListCtrl</a> &amp;list)</td></tr>
+<tr class="separator:yk-CalcColumnWidth"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="incrementalselectlistbase_8h_source#l00058">58</a> of file <a class="el" href="incrementalselectlistbase_8h_source">incrementalselectlistbase.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="incremental__select__helper_8h_source#l00023">23</a> of file <a class="el" href="incremental__select__helper_8h_source">incremental_select_helper.h</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="eb-IncrementalSelectIterator"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#eb-IncrementalSelectIterator">&#9670;&nbsp;</a></span>~IncrementalSelectIterator()</h2>
+<a id="dd-IncrementalSelectIterator"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#dd-IncrementalSelectIterator">&#9670;&nbsp;</a></span>~IncrementalSelectIterator()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -83,7 +97,7 @@ Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual IncrementalSelectIterator::~IncrementalSelectIterator </td>
+          <td class="memname">IncrementalSelectIterator::~IncrementalSelectIterator </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -91,18 +105,18 @@ Public Member Functions</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="incrementalselectlistbase_8h_source#l00061">61</a> of file <a class="el" href="incrementalselectlistbase_8h_source">incrementalselectlistbase.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="incremental__select__helper_8cpp_source#l00017">17</a> of file <a class="el" href="incremental__select__helper_8cpp_source">incremental_select_helper.cpp</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="j4-GetCount"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#j4-GetCount">&#9670;&nbsp;</a></span>GetCount()</h2>
+<a id="jm-AddIndex"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#jm-AddIndex">&#9670;&nbsp;</a></span>AddIndex()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -111,7 +125,143 @@ Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual long IncrementalSelectIterator::GetCount </td>
+          <td class="memname">virtual void IncrementalSelectIterator::AddIndex </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>index</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implemented in <a class="el" href="classIncrementalSelectIteratorIndexed#c8-AddIndex">IncrementalSelectIteratorIndexed</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="incremental__select__helper_8cpp_source#l00118">IncrementalSelectHandler::FilterItems()</a>, and <a class="el" href="incremental__select__helper_8h_source#l00045">IncrementalSelectIteratorIndexed::~IncrementalSelectIteratorIndexed()</a>.</p>
+
+</div>
+</div>
+<a id="yk-CalcColumnWidth"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#yk-CalcColumnWidth">&#9670;&nbsp;</a></span>CalcColumnWidth()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void IncrementalSelectIterator::CalcColumnWidth </td>
+          <td>(</td>
+          <td class="paramtype"><a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_list_ctrl.html">wxListCtrl</a> &amp;&#160;</td>
+          <td class="paramname"><em>list</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented in <a class="el" href="structGotoFunctionDlg_1_1Iterator#iw-CalcColumnWidth">GotoFunctionDlg::Iterator</a>.</p>
+
+<p class="definition">Definition at line <a class="el" href="incremental__select__helper_8cpp_source#l00026">26</a> of file <a class="el" href="incremental__select__helper_8cpp_source">incremental_select_helper.cpp</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="incremental__select__helper_8cpp_source#l00067">IncrementalSelectHandler::Init()</a>.</p>
+
+</div>
+</div>
+<a id="zl-GetColumnWidth"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#zl-GetColumnWidth">&#9670;&nbsp;</a></span>GetColumnWidth()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int IncrementalSelectIterator::GetColumnWidth </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>column</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented in <a class="el" href="structGotoFunctionDlg_1_1Iterator#wl-GetColumnWidth">GotoFunctionDlg::Iterator</a>.</p>
+
+<p class="definition">Definition at line <a class="el" href="incremental__select__helper_8cpp_source#l00021">21</a> of file <a class="el" href="incremental__select__helper_8cpp_source">incremental_select_helper.cpp</a>.</p>
+
+<p class="reference">References <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/interface_2wx_2listctrl_8h.html#a96a58e29e8dbf2b5bdeb775cba46556ead8e121a8cc4230175e4687b8d05ef612">wxLIST_AUTOSIZE</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="incremental__select__helper_8cpp_source#l00102">FilterItemsFinalize()</a>.</p>
+
+</div>
+</div>
+<a id="bz-GetDisplayText"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#bz-GetDisplayText">&#9670;&nbsp;</a></span>GetDisplayText()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html">wxString</a> IncrementalSelectIterator::GetDisplayText </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>index</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>column</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implemented in <a class="el" href="structGotoFunctionDlg_1_1Iterator#cl-GetDisplayText">GotoFunctionDlg::Iterator</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="goto__file_8cpp_source#l00041">GotoFileListCtrl::OnGetItemText()</a>.</p>
+
+</div>
+</div>
+<a id="fg-GetFilteredCount"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#fg-GetFilteredCount">&#9670;&nbsp;</a></span>GetFilteredCount()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual int IncrementalSelectIterator::GetFilteredCount </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -124,14 +274,14 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implemented in <a class="el" href="classIncrementalSelectIteratorStringArray#q7-GetCount">IncrementalSelectIteratorStringArray</a>.</p>
+<p>Implemented in <a class="el" href="classIncrementalSelectIteratorIndexed#tb-GetFilteredCount">IncrementalSelectIteratorIndexed</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="incrementalselectlistbase_8cpp_source#l00067">IncrementalSelectListBase::FilterItems()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="incremental__select__helper_8cpp_source#l00102">FilterItemsFinalize()</a>, and <a class="el" href="incremental__select__helper_8h_source#l00045">IncrementalSelectIteratorIndexed::~IncrementalSelectIteratorIndexed()</a>.</p>
 
 </div>
 </div>
-<a id="tn-GetDisplayItem"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#tn-GetDisplayItem">&#9670;&nbsp;</a></span>GetDisplayItem()</h2>
+<a id="fb-GetItemFilterString"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#fb-GetItemFilterString">&#9670;&nbsp;</a></span>GetItemFilterString()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -140,39 +290,9 @@ Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual wxString IncrementalSelectIterator::GetDisplayItem </td>
+          <td class="memname">virtual const <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html">wxString</a>&amp; IncrementalSelectIterator::GetItemFilterString </td>
           <td>(</td>
-          <td class="paramtype">long&#160;</td>
-          <td class="paramname"><em>index</em></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="incrementalselectlistbase_8h_source#l00065">65</a> of file <a class="el" href="incrementalselectlistbase_8h_source">incrementalselectlistbase.h</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="incrementalselectlistbase_8cpp_source#l00067">IncrementalSelectListBase::FilterItems()</a>.</p>
-
-</div>
-</div>
-<a id="ub-GetItem"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ub-GetItem">&#9670;&nbsp;</a></span>GetItem()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual wxString IncrementalSelectIterator::GetItem </td>
-          <td>(</td>
-          <td class="paramtype">long&#160;</td>
+          <td class="paramtype">int&#160;</td>
           <td class="paramname"><em>index</em></td><td>)</td>
           <td> const</td>
         </tr>
@@ -184,14 +304,103 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implemented in <a class="el" href="classIncrementalSelectIteratorStringArray#o8-GetItem">IncrementalSelectIteratorStringArray</a>.</p>
+<p>Implemented in <a class="el" href="structGotoFunctionDlg_1_1Iterator#a5-GetItemFilterString">GotoFunctionDlg::Iterator</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="incrementalselectlistbase_8cpp_source#l00067">IncrementalSelectListBase::FilterItems()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="incremental__select__helper_8cpp_source#l00118">IncrementalSelectHandler::FilterItems()</a>.</p>
 
 </div>
 </div>
-<hr/>The documentation for this class was generated from the following file:<ul>
-<li><a class="el" href="incrementalselectlistbase_8h_source">incrementalselectlistbase.h</a></li>
+<a id="lm-GetTotalCount"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#lm-GetTotalCount">&#9670;&nbsp;</a></span>GetTotalCount()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual int IncrementalSelectIterator::GetTotalCount </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implemented in <a class="el" href="structGotoFunctionDlg_1_1Iterator#n6-GetTotalCount">GotoFunctionDlg::Iterator</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="incremental__select__helper_8cpp_source#l00118">IncrementalSelectHandler::FilterItems()</a>.</p>
+
+</div>
+</div>
+<a id="w8-GetUnfilteredIndex"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#w8-GetUnfilteredIndex">&#9670;&nbsp;</a></span>GetUnfilteredIndex()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual int IncrementalSelectIterator::GetUnfilteredIndex </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>index</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implemented in <a class="el" href="classIncrementalSelectIteratorIndexed#dl-GetUnfilteredIndex">IncrementalSelectIteratorIndexed</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="incremental__select__helper_8cpp_source#l00282">IncrementalSelectHandler::GetSelection()</a>, and <a class="el" href="incremental__select__helper_8h_source#l00045">IncrementalSelectIteratorIndexed::~IncrementalSelectIteratorIndexed()</a>.</p>
+
+</div>
+</div>
+<a id="bz-Reset"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#bz-Reset">&#9670;&nbsp;</a></span>Reset()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void IncrementalSelectIterator::Reset </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implemented in <a class="el" href="classIncrementalSelectIteratorIndexed#oj-Reset">IncrementalSelectIteratorIndexed</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="incremental__select__helper_8cpp_source#l00118">IncrementalSelectHandler::FilterItems()</a>, and <a class="el" href="incremental__select__helper_8h_source#l00045">IncrementalSelectIteratorIndexed::~IncrementalSelectIteratorIndexed()</a>.</p>
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following files:<ul>
+<li><a class="el" href="incremental__select__helper_8h_source">incremental_select_helper.h</a></li>
+<li><a class="el" href="incremental__select__helper_8cpp_source">incremental_select_helper.cpp</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

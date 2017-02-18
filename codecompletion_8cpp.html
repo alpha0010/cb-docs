@@ -19,7 +19,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Code::Blocks
-   &#160;<span id="projectnumber">SVN r10947</span>
+   &#160;<span id="projectnumber">SVN r11012</span>
    </div>
   </td>
  </tr>
@@ -58,7 +58,6 @@ $(function() {
 <code>#include &lt;<a class="el" href="cbstyledtextctrl_8h_source">cbstyledtextctrl.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="editor__hooks_8h_source">editor_hooks.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="filegroupsandmasks_8h_source">filegroupsandmasks.h</a>&gt;</code><br />
-<code>#include &lt;<a class="el" href="incrementalselectlistdlg_8h_source">incrementalselectlistdlg.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="multiselectdlg_8h_source">multiselectdlg.h</a>&gt;</code><br />
 <code>#include &quot;<a class="el" href="codecompletion_8h_source">codecompletion.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="ccoptionsdlg_8h_source">ccoptionsdlg.h</a>&quot;</code><br />
@@ -74,7 +73,8 @@ $(function() {
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for codecompletion.cpp:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="codecompletion_8cpp__incl.svg" width="11062" height="859"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="codecompletion_8cpp__incl.svg" width="2110" height="336"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 </div>
 <p><a href="codecompletion_8cpp_source">Go to the source code of this file.</a></p>
@@ -107,8 +107,6 @@ Macros</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ra-g_GlobalScope"><td class="memItemLeft" align="right" valign="top">static wxString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="codecompletion_8cpp#ra-g_GlobalScope">g_GlobalScope</a> (_T(&quot;&lt;global&gt;&quot;))</td></tr>
-<tr class="separator:ra-g_GlobalScope"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:wx-LessFunctionScope"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceCodeCompletionHelper#wx-LessFunctionScope">CodeCompletionHelper::LessFunctionScope</a> (const <a class="el" href="structCodeCompletion_1_1FunctionScope">CodeCompletion::FunctionScope</a> &amp;fs1, const <a class="el" href="structCodeCompletion_1_1FunctionScope">CodeCompletion::FunctionScope</a> &amp;fs2)</td></tr>
 <tr class="separator:wx-LessFunctionScope"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ck-EqualFunctionScope"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceCodeCompletionHelper#ck-EqualFunctionScope">CodeCompletionHelper::EqualFunctionScope</a> (const <a class="el" href="structCodeCompletion_1_1FunctionScope">CodeCompletion::FunctionScope</a> &amp;fs1, const <a class="el" href="structCodeCompletion_1_1FunctionScope">CodeCompletion::FunctionScope</a> &amp;fs2)</td></tr>
@@ -117,27 +115,29 @@ Functions</h2></td></tr>
 <tr class="separator:b0-LessNameSpace"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:p3-EqualNameSpace"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceCodeCompletionHelper#p3-EqualNameSpace">CodeCompletionHelper::EqualNameSpace</a> (const <a class="el" href="parserthread_8h#structNameSpace">NameSpace</a> &amp;ns1, const <a class="el" href="parserthread_8h#structNameSpace">NameSpace</a> &amp;ns2)</td></tr>
 <tr class="separator:p3-EqualNameSpace"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:lm-GetLastNonWhitespaceChar"><td class="memItemLeft" align="right" valign="top">wxChar&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceCodeCompletionHelper#lm-GetLastNonWhitespaceChar">CodeCompletionHelper::GetLastNonWhitespaceChar</a> (<a class="el" href="classcbStyledTextCtrl">cbStyledTextCtrl</a> *control, int position)</td></tr>
+<tr class="memitem:lm-GetLastNonWhitespaceChar"><td class="memItemLeft" align="right" valign="top"><a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#gad42f64d8c82f1ce4ae58773a89b2d6a7">wxChar</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceCodeCompletionHelper#lm-GetLastNonWhitespaceChar">CodeCompletionHelper::GetLastNonWhitespaceChar</a> (<a class="el" href="classcbStyledTextCtrl">cbStyledTextCtrl</a> *control, int position)</td></tr>
 <tr class="memdesc:lm-GetLastNonWhitespaceChar"><td class="mdescLeft">&#160;</td><td class="mdescRight">for OnGotoFunction(), search backward  <a href="namespaceCodeCompletionHelper#lm-GetLastNonWhitespaceChar">More...</a><br /></td></tr>
 <tr class="separator:lm-GetLastNonWhitespaceChar"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:q4-GetNextNonWhitespaceChar"><td class="memItemLeft" align="right" valign="top">xxxxx **begin result *wxChar&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceCodeCompletionHelper#q4-GetNextNonWhitespaceChar">CodeCompletionHelper::GetNextNonWhitespaceChar</a> (<a class="el" href="classcbStyledTextCtrl">cbStyledTextCtrl</a> *control, int position)</td></tr>
+<tr class="memitem:q4-GetNextNonWhitespaceChar"><td class="memItemLeft" align="right" valign="top">xxxxx **begin result *<a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#gad42f64d8c82f1ce4ae58773a89b2d6a7">wxChar</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceCodeCompletionHelper#q4-GetNextNonWhitespaceChar">CodeCompletionHelper::GetNextNonWhitespaceChar</a> (<a class="el" href="classcbStyledTextCtrl">cbStyledTextCtrl</a> *control, int position)</td></tr>
 <tr class="memdesc:q4-GetNextNonWhitespaceChar"><td class="mdescLeft">&#160;</td><td class="mdescRight">for OnGotoFunction(), search forward /* yyy  <a href="namespaceCodeCompletionHelper#q4-GetNextNonWhitespaceChar">More...</a><br /></td></tr>
 <tr class="separator:q4-GetNextNonWhitespaceChar"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gw-CompareStringLen"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceCodeCompletionHelper#gw-CompareStringLen">CodeCompletionHelper::CompareStringLen</a> (const wxString &amp;first, const wxString &amp;second)</td></tr>
+<tr class="memitem:gw-CompareStringLen"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceCodeCompletionHelper#gw-CompareStringLen">CodeCompletionHelper::CompareStringLen</a> (const <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html">wxString</a> &amp;first, const <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html">wxString</a> &amp;second)</td></tr>
 <tr class="memdesc:gw-CompareStringLen"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sorting in GetLocalIncludeDirs()  <a href="namespaceCodeCompletionHelper#gw-CompareStringLen">More...</a><br /></td></tr>
 <tr class="separator:gw-CompareStringLen"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:l0-TestIncludeLine"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceCodeCompletionHelper#l0-TestIncludeLine">CodeCompletionHelper::TestIncludeLine</a> (wxString const &amp;line)</td></tr>
+<tr class="memitem:l0-TestIncludeLine"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceCodeCompletionHelper#l0-TestIncludeLine">CodeCompletionHelper::TestIncludeLine</a> (<a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html">wxString</a> const &amp;line)</td></tr>
 <tr class="memdesc:l0-TestIncludeLine"><td class="mdescLeft">&#160;</td><td class="mdescRight">for CodeCompleteIncludes() a line has some pattern like below  <a href="namespaceCodeCompletionHelper#l0-TestIncludeLine">More...</a><br /></td></tr>
 <tr class="separator:l0-TestIncludeLine"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gy-EditorHasNameUnderCursor"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceCodeCompletionHelper#gy-EditorHasNameUnderCursor">CodeCompletionHelper::EditorHasNameUnderCursor</a> (wxString &amp;NameUnderCursor, bool &amp;IsInclude)</td></tr>
+<tr class="memitem:gy-EditorHasNameUnderCursor"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceCodeCompletionHelper#gy-EditorHasNameUnderCursor">CodeCompletionHelper::EditorHasNameUnderCursor</a> (<a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html">wxString</a> &amp;NameUnderCursor, bool &amp;IsInclude)</td></tr>
 <tr class="memdesc:gy-EditorHasNameUnderCursor"><td class="mdescLeft">&#160;</td><td class="mdescRight">return identifier like token string under the current cursor pointer  <a href="namespaceCodeCompletionHelper#gy-EditorHasNameUnderCursor">More...</a><br /></td></tr>
 <tr class="separator:gy-EditorHasNameUnderCursor"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:jo-AutocompGetName"><td class="memItemLeft" align="right" valign="top">static wxString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceCodeCompletionHelper#jo-AutocompGetName">CodeCompletionHelper::AutocompGetName</a> (const wxString &amp;selected)</td></tr>
+<tr class="memitem:jo-AutocompGetName"><td class="memItemLeft" align="right" valign="top">static <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html">wxString</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceCodeCompletionHelper#jo-AutocompGetName">CodeCompletionHelper::AutocompGetName</a> (const <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html">wxString</a> &amp;selected)</td></tr>
 <tr class="memdesc:jo-AutocompGetName"><td class="mdescLeft">&#160;</td><td class="mdescRight">when user select one item in the suggestion list, the selected contains the full display name, for example, "function_name():function_return_type", and we only need to insert the "function_name" to the editor, so this function just get the actual inserted text.  <a href="namespaceCodeCompletionHelper#jo-AutocompGetName">More...</a><br /></td></tr>
 <tr class="separator:jo-AutocompGetName"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
+<tr class="memitem:y0-g_GlobalScope"><td class="memItemLeft" align="right" valign="top">static <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html">wxString</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="codecompletion_8cpp#y0-g_GlobalScope">g_GlobalScope</a> (<a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga7dfc2888539861afe6c4337ef315472b">_T</a>(&quot;&lt;global&gt;&quot;))</td></tr>
+<tr class="separator:y0-g_GlobalScope"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:hc-cpp_keyword_xpm"><td class="memItemLeft" align="right" valign="top">static const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="codecompletion_8cpp#hc-cpp_keyword_xpm">cpp_keyword_xpm</a> []</td></tr>
 <tr class="separator:hc-cpp_keyword_xpm"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:rv-d_keyword_xpm"><td class="memItemLeft" align="right" valign="top">static const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="codecompletion_8cpp#rv-d_keyword_xpm">d_keyword_xpm</a> []</td></tr>
@@ -146,51 +146,51 @@ Variables</h2></td></tr>
 <tr class="separator:ua-unknown_keyword_xpm"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:rd-header_file_xpm"><td class="memItemLeft" align="right" valign="top">static const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="codecompletion_8cpp#rd-header_file_xpm">header_file_xpm</a> []</td></tr>
 <tr class="separator:rd-header_file_xpm"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:zn-idMenuGotoFunction"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="codecompletion_8cpp#zn-idMenuGotoFunction">idMenuGotoFunction</a> = wxNewId()</td></tr>
+<tr class="memitem:zn-idMenuGotoFunction"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="codecompletion_8cpp#zn-idMenuGotoFunction">idMenuGotoFunction</a> = <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__misc.html#gaa2d93c1680369b4227f7de9de58e5fcb">wxNewId</a>()</td></tr>
 <tr class="separator:zn-idMenuGotoFunction"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ub-idMenuGotoPrevFunction"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="codecompletion_8cpp#ub-idMenuGotoPrevFunction">idMenuGotoPrevFunction</a> = wxNewId()</td></tr>
+<tr class="memitem:ub-idMenuGotoPrevFunction"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="codecompletion_8cpp#ub-idMenuGotoPrevFunction">idMenuGotoPrevFunction</a> = <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__misc.html#gaa2d93c1680369b4227f7de9de58e5fcb">wxNewId</a>()</td></tr>
 <tr class="separator:ub-idMenuGotoPrevFunction"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:oi-idMenuGotoNextFunction"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="codecompletion_8cpp#oi-idMenuGotoNextFunction">idMenuGotoNextFunction</a> = wxNewId()</td></tr>
+<tr class="memitem:oi-idMenuGotoNextFunction"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="codecompletion_8cpp#oi-idMenuGotoNextFunction">idMenuGotoNextFunction</a> = <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__misc.html#gaa2d93c1680369b4227f7de9de58e5fcb">wxNewId</a>()</td></tr>
 <tr class="separator:oi-idMenuGotoNextFunction"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:mg-idMenuGotoDeclaration"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="codecompletion_8cpp#mg-idMenuGotoDeclaration">idMenuGotoDeclaration</a> = wxNewId()</td></tr>
+<tr class="memitem:mg-idMenuGotoDeclaration"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="codecompletion_8cpp#mg-idMenuGotoDeclaration">idMenuGotoDeclaration</a> = <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__misc.html#gaa2d93c1680369b4227f7de9de58e5fcb">wxNewId</a>()</td></tr>
 <tr class="separator:mg-idMenuGotoDeclaration"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:r2-idMenuGotoImplementation"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="codecompletion_8cpp#r2-idMenuGotoImplementation">idMenuGotoImplementation</a> = wxNewId()</td></tr>
+<tr class="memitem:r2-idMenuGotoImplementation"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="codecompletion_8cpp#r2-idMenuGotoImplementation">idMenuGotoImplementation</a> = <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__misc.html#gaa2d93c1680369b4227f7de9de58e5fcb">wxNewId</a>()</td></tr>
 <tr class="separator:r2-idMenuGotoImplementation"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:f4-idMenuOpenIncludeFile"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="codecompletion_8cpp#f4-idMenuOpenIncludeFile">idMenuOpenIncludeFile</a> = wxNewId()</td></tr>
+<tr class="memitem:f4-idMenuOpenIncludeFile"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="codecompletion_8cpp#f4-idMenuOpenIncludeFile">idMenuOpenIncludeFile</a> = <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__misc.html#gaa2d93c1680369b4227f7de9de58e5fcb">wxNewId</a>()</td></tr>
 <tr class="separator:f4-idMenuOpenIncludeFile"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:z9-idMenuFindReferences"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="codecompletion_8cpp#z9-idMenuFindReferences">idMenuFindReferences</a> = wxNewId()</td></tr>
+<tr class="memitem:z9-idMenuFindReferences"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="codecompletion_8cpp#z9-idMenuFindReferences">idMenuFindReferences</a> = <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__misc.html#gaa2d93c1680369b4227f7de9de58e5fcb">wxNewId</a>()</td></tr>
 <tr class="separator:z9-idMenuFindReferences"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ra-idMenuRenameSymbols"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="codecompletion_8cpp#ra-idMenuRenameSymbols">idMenuRenameSymbols</a> = wxNewId()</td></tr>
+<tr class="memitem:ra-idMenuRenameSymbols"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="codecompletion_8cpp#ra-idMenuRenameSymbols">idMenuRenameSymbols</a> = <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__misc.html#gaa2d93c1680369b4227f7de9de58e5fcb">wxNewId</a>()</td></tr>
 <tr class="separator:ra-idMenuRenameSymbols"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gg-idViewClassBrowser"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="codecompletion_8cpp#gg-idViewClassBrowser">idViewClassBrowser</a> = wxNewId()</td></tr>
+<tr class="memitem:gg-idViewClassBrowser"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="codecompletion_8cpp#gg-idViewClassBrowser">idViewClassBrowser</a> = <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__misc.html#gaa2d93c1680369b4227f7de9de58e5fcb">wxNewId</a>()</td></tr>
 <tr class="separator:gg-idViewClassBrowser"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:tm-idCurrentProjectReparse"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="codecompletion_8cpp#tm-idCurrentProjectReparse">idCurrentProjectReparse</a> = wxNewId()</td></tr>
+<tr class="memitem:tm-idCurrentProjectReparse"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="codecompletion_8cpp#tm-idCurrentProjectReparse">idCurrentProjectReparse</a> = <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__misc.html#gaa2d93c1680369b4227f7de9de58e5fcb">wxNewId</a>()</td></tr>
 <tr class="separator:tm-idCurrentProjectReparse"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:fu-idSelectedProjectReparse"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="codecompletion_8cpp#fu-idSelectedProjectReparse">idSelectedProjectReparse</a> = wxNewId()</td></tr>
+<tr class="memitem:fu-idSelectedProjectReparse"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="codecompletion_8cpp#fu-idSelectedProjectReparse">idSelectedProjectReparse</a> = <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__misc.html#gaa2d93c1680369b4227f7de9de58e5fcb">wxNewId</a>()</td></tr>
 <tr class="separator:fu-idSelectedProjectReparse"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:vg-idSelectedFileReparse"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="codecompletion_8cpp#vg-idSelectedFileReparse">idSelectedFileReparse</a> = wxNewId()</td></tr>
+<tr class="memitem:vg-idSelectedFileReparse"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="codecompletion_8cpp#vg-idSelectedFileReparse">idSelectedFileReparse</a> = <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__misc.html#gaa2d93c1680369b4227f7de9de58e5fcb">wxNewId</a>()</td></tr>
 <tr class="separator:vg-idSelectedFileReparse"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:hi-idEditorSubMenu"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="codecompletion_8cpp#hi-idEditorSubMenu">idEditorSubMenu</a> = wxNewId()</td></tr>
+<tr class="memitem:hi-idEditorSubMenu"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="codecompletion_8cpp#hi-idEditorSubMenu">idEditorSubMenu</a> = <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__misc.html#gaa2d93c1680369b4227f7de9de58e5fcb">wxNewId</a>()</td></tr>
 <tr class="separator:hi-idEditorSubMenu"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:y8-idClassMethod"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="codecompletion_8cpp#y8-idClassMethod">idClassMethod</a> = wxNewId()</td></tr>
+<tr class="memitem:y8-idClassMethod"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="codecompletion_8cpp#y8-idClassMethod">idClassMethod</a> = <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__misc.html#gaa2d93c1680369b4227f7de9de58e5fcb">wxNewId</a>()</td></tr>
 <tr class="separator:y8-idClassMethod"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:wz-idUnimplementedClassMethods"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="codecompletion_8cpp#wz-idUnimplementedClassMethods">idUnimplementedClassMethods</a> = wxNewId()</td></tr>
+<tr class="memitem:wz-idUnimplementedClassMethods"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="codecompletion_8cpp#wz-idUnimplementedClassMethods">idUnimplementedClassMethods</a> = <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__misc.html#gaa2d93c1680369b4227f7de9de58e5fcb">wxNewId</a>()</td></tr>
 <tr class="separator:wz-idUnimplementedClassMethods"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:hi-idGotoDeclaration"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="codecompletion_8cpp#hi-idGotoDeclaration">idGotoDeclaration</a> = wxNewId()</td></tr>
+<tr class="memitem:hi-idGotoDeclaration"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="codecompletion_8cpp#hi-idGotoDeclaration">idGotoDeclaration</a> = <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__misc.html#gaa2d93c1680369b4227f7de9de58e5fcb">wxNewId</a>()</td></tr>
 <tr class="separator:hi-idGotoDeclaration"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:tb-idGotoImplementation"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="codecompletion_8cpp#tb-idGotoImplementation">idGotoImplementation</a> = wxNewId()</td></tr>
+<tr class="memitem:tb-idGotoImplementation"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="codecompletion_8cpp#tb-idGotoImplementation">idGotoImplementation</a> = <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__misc.html#gaa2d93c1680369b4227f7de9de58e5fcb">wxNewId</a>()</td></tr>
 <tr class="separator:tb-idGotoImplementation"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:hm-idOpenIncludeFile"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="codecompletion_8cpp#hm-idOpenIncludeFile">idOpenIncludeFile</a> = wxNewId()</td></tr>
+<tr class="memitem:hm-idOpenIncludeFile"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="codecompletion_8cpp#hm-idOpenIncludeFile">idOpenIncludeFile</a> = <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__misc.html#gaa2d93c1680369b4227f7de9de58e5fcb">wxNewId</a>()</td></tr>
 <tr class="separator:hm-idOpenIncludeFile"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:c3-idRealtimeParsingTimer"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="codecompletion_8cpp#c3-idRealtimeParsingTimer">idRealtimeParsingTimer</a> = wxNewId()</td></tr>
+<tr class="memitem:c3-idRealtimeParsingTimer"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="codecompletion_8cpp#c3-idRealtimeParsingTimer">idRealtimeParsingTimer</a> = <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__misc.html#gaa2d93c1680369b4227f7de9de58e5fcb">wxNewId</a>()</td></tr>
 <tr class="separator:c3-idRealtimeParsingTimer"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gv-idToolbarTimer"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="codecompletion_8cpp#gv-idToolbarTimer">idToolbarTimer</a> = wxNewId()</td></tr>
+<tr class="memitem:gv-idToolbarTimer"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="codecompletion_8cpp#gv-idToolbarTimer">idToolbarTimer</a> = <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__misc.html#gaa2d93c1680369b4227f7de9de58e5fcb">wxNewId</a>()</td></tr>
 <tr class="separator:gv-idToolbarTimer"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:k0-idProjectSavedTimer"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="codecompletion_8cpp#k0-idProjectSavedTimer">idProjectSavedTimer</a> = wxNewId()</td></tr>
+<tr class="memitem:k0-idProjectSavedTimer"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="codecompletion_8cpp#k0-idProjectSavedTimer">idProjectSavedTimer</a> = <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__misc.html#gaa2d93c1680369b4227f7de9de58e5fcb">wxNewId</a>()</td></tr>
 <tr class="separator:k0-idProjectSavedTimer"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:sm-idReparsingTimer"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="codecompletion_8cpp#sm-idReparsingTimer">idReparsingTimer</a> = wxNewId()</td></tr>
+<tr class="memitem:sm-idReparsingTimer"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="codecompletion_8cpp#sm-idReparsingTimer">idReparsingTimer</a> = <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__misc.html#gaa2d93c1680369b4227f7de9de58e5fcb">wxNewId</a>()</td></tr>
 <tr class="separator:sm-idReparsingTimer"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:fy-idEditorActivatedTimer"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="codecompletion_8cpp#fy-idEditorActivatedTimer">idEditorActivatedTimer</a> = wxNewId()</td></tr>
+<tr class="memitem:fy-idEditorActivatedTimer"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="codecompletion_8cpp#fy-idEditorActivatedTimer">idEditorActivatedTimer</a> = <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__misc.html#gaa2d93c1680369b4227f7de9de58e5fcb">wxNewId</a>()</td></tr>
 <tr class="separator:fy-idEditorActivatedTimer"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <hr/><h2 class="groupheader">Class Documentation</h2>
@@ -207,7 +207,7 @@ Variables</h2></td></tr>
 </div><div class="memdoc">
 <div class="textblock"><p>used to record the position of a token when user click find declaration or implementation </p>
 
-<p class="definition">Definition at line <a class="el" href="codecompletion_8cpp_source#l00262">262</a> of file <a class="el" href="codecompletion_8cpp_source">codecompletion.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="codecompletion_8cpp_source#l00261">261</a> of file <a class="el" href="codecompletion_8cpp_source">codecompletion.cpp</a>.</p>
 </div><div class="dynheader">
 Collaboration diagram for CodeCompletionHelper::GotoDeclarationItem:</div>
 <div class="dyncontent">
@@ -216,7 +216,7 @@ Collaboration diagram for CodeCompletionHelper::GotoDeclarationItem:</div>
 <table class="fieldtable">
 <tr><th colspan="3">Class Members</th></tr>
 <tr><td class="fieldtype">
-<a id="jb-filename"></a>wxString</td>
+<a id="jb-filename"></a><a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html">wxString</a></td>
 <td class="fieldname">
 filename</td>
 <td class="fielddoc">
@@ -244,7 +244,7 @@ line</td>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="codecompletion_8cpp_source#l00066">66</a> of file <a class="el" href="codecompletion_8cpp_source">codecompletion.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="codecompletion_8cpp_source#l00065">65</a> of file <a class="el" href="codecompletion_8cpp_source">codecompletion.cpp</a>.</p>
 
 </div>
 </div>
@@ -260,9 +260,9 @@ line</td>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="codecompletion_8cpp_source#l00439">439</a> of file <a class="el" href="codecompletion_8cpp_source">codecompletion.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="codecompletion_8cpp_source#l00438">438</a> of file <a class="el" href="codecompletion_8cpp_source">codecompletion.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="codecompletion_8cpp_source#l01621">CodeCompletion::EditorEventHook()</a>, <a class="el" href="codecompletion_8cpp_source#l02395">CodeCompletion::OnEditorActivated()</a>, <a class="el" href="codecompletion_8cpp_source#l02356">CodeCompletion::OnEditorSave()</a>, and <a class="el" href="codecompletion_8cpp_source#l03447">CodeCompletion::OnReparsingTimer()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="codecompletion_8cpp_source#l01620">CodeCompletion::EditorEventHook()</a>, <a class="el" href="codecompletion_8cpp_source#l02406">CodeCompletion::OnEditorActivated()</a>, <a class="el" href="codecompletion_8cpp_source#l02367">CodeCompletion::OnEditorSave()</a>, and <a class="el" href="codecompletion_8cpp_source#l03458">CodeCompletion::OnReparsingTimer()</a>.</p>
 
 </div>
 </div>
@@ -278,9 +278,9 @@ line</td>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="codecompletion_8cpp_source#l00428">428</a> of file <a class="el" href="codecompletion_8cpp_source">codecompletion.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="codecompletion_8cpp_source#l00427">427</a> of file <a class="el" href="codecompletion_8cpp_source">codecompletion.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="codecompletion_8cpp_source#l01621">CodeCompletion::EditorEventHook()</a>, and <a class="el" href="codecompletion_8cpp_source#l03395">CodeCompletion::OnRealtimeParsingTimer()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="codecompletion_8cpp_source#l01620">CodeCompletion::EditorEventHook()</a>, and <a class="el" href="codecompletion_8cpp_source#l03406">CodeCompletion::OnRealtimeParsingTimer()</a>.</p>
 
 </div>
 </div>
@@ -296,9 +296,9 @@ line</td>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="codecompletion_8cpp_source#l00434">434</a> of file <a class="el" href="codecompletion_8cpp_source">codecompletion.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="codecompletion_8cpp_source#l00433">433</a> of file <a class="el" href="codecompletion_8cpp_source">codecompletion.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="codecompletion_8cpp_source#l01621">CodeCompletion::EditorEventHook()</a>, <a class="el" href="codecompletion_8cpp_source#l03506">CodeCompletion::OnEditorActivatedTimer()</a>, <a class="el" href="codecompletion_8cpp_source#l02505">CodeCompletion::OnParserEnd()</a>, <a class="el" href="codecompletion_8cpp_source#l03447">CodeCompletion::OnReparsingTimer()</a>, <a class="el" href="codecompletion_8cpp_source#l03380">CodeCompletion::OnToolbarTimer()</a>, <a class="el" href="codecompletion_8cpp_source#l02243">CodeCompletion::OnWorkspaceChanged()</a>, and <a class="el" href="codecompletion_8cpp_source#l01687">CodeCompletion::RereadOptions()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="codecompletion_8cpp_source#l01620">CodeCompletion::EditorEventHook()</a>, <a class="el" href="codecompletion_8cpp_source#l03517">CodeCompletion::OnEditorActivatedTimer()</a>, <a class="el" href="codecompletion_8cpp_source#l02516">CodeCompletion::OnParserEnd()</a>, <a class="el" href="codecompletion_8cpp_source#l03458">CodeCompletion::OnReparsingTimer()</a>, <a class="el" href="codecompletion_8cpp_source#l03391">CodeCompletion::OnToolbarTimer()</a>, <a class="el" href="codecompletion_8cpp_source#l02254">CodeCompletion::OnWorkspaceChanged()</a>, and <a class="el" href="codecompletion_8cpp_source#l01686">CodeCompletion::RereadOptions()</a>.</p>
 
 </div>
 </div>
@@ -328,9 +328,9 @@ line</td>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="codecompletion_8cpp_source#l00089">89</a> of file <a class="el" href="codecompletion_8cpp_source">codecompletion.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="codecompletion_8cpp_source#l00088">88</a> of file <a class="el" href="codecompletion_8cpp_source">codecompletion.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="codecompletion_8cpp_source#l00947">CodeCompletion::DoCodeComplete()</a>, <a class="el" href="codecompletion_8cpp_source#l01621">CodeCompletion::EditorEventHook()</a>, <a class="el" href="codecompletion_8cpp_source#l02395">CodeCompletion::OnEditorActivated()</a>, <a class="el" href="codecompletion_8cpp_source#l03506">CodeCompletion::OnEditorActivatedTimer()</a>, <a class="el" href="codecompletion_8cpp_source#l02414">CodeCompletion::OnEditorClosed()</a>, <a class="el" href="codecompletion_8cpp_source#l02356">CodeCompletion::OnEditorSave()</a>, <a class="el" href="codecompletion_8cpp_source#l01880">CodeCompletion::OnGotoDeclaration()</a>, <a class="el" href="codecompletion_8cpp_source#l01804">CodeCompletion::OnGotoFunction()</a>, <a class="el" href="codecompletion_8cpp_source#l02111">CodeCompletion::OnOpenIncludeFile()</a>, <a class="el" href="codecompletion_8cpp_source#l02505">CodeCompletion::OnParserEnd()</a>, <a class="el" href="codecompletion_8cpp_source#l02316">CodeCompletion::OnProjectSaved()</a>, <a class="el" href="codecompletion_8cpp_source#l03421">CodeCompletion::OnProjectSavedTimer()</a>, <a class="el" href="codecompletion_8cpp_source#l03395">CodeCompletion::OnRealtimeParsingTimer()</a>, <a class="el" href="codecompletion_8cpp_source#l03447">CodeCompletion::OnReparsingTimer()</a>, <a class="el" href="codecompletion_8cpp_source#l03380">CodeCompletion::OnToolbarTimer()</a>, <a class="el" href="codecompletion_8cpp_source#l02243">CodeCompletion::OnWorkspaceChanged()</a>, <a class="el" href="codecompletion_8cpp_source#l03000">CodeCompletion::ParseFunctionsAndFillToolbar()</a>, and <a class="el" href="codecompletion_8cpp_source#l01687">CodeCompletion::RereadOptions()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="codecompletion_8cpp_source#l00946">CodeCompletion::DoCodeComplete()</a>, <a class="el" href="codecompletion_8cpp_source#l01620">CodeCompletion::EditorEventHook()</a>, <a class="el" href="codecompletion_8cpp_source#l02406">CodeCompletion::OnEditorActivated()</a>, <a class="el" href="codecompletion_8cpp_source#l03517">CodeCompletion::OnEditorActivatedTimer()</a>, <a class="el" href="codecompletion_8cpp_source#l02425">CodeCompletion::OnEditorClosed()</a>, <a class="el" href="codecompletion_8cpp_source#l02367">CodeCompletion::OnEditorSave()</a>, <a class="el" href="codecompletion_8cpp_source#l01891">CodeCompletion::OnGotoDeclaration()</a>, <a class="el" href="codecompletion_8cpp_source#l01803">CodeCompletion::OnGotoFunction()</a>, <a class="el" href="codecompletion_8cpp_source#l02122">CodeCompletion::OnOpenIncludeFile()</a>, <a class="el" href="codecompletion_8cpp_source#l02516">CodeCompletion::OnParserEnd()</a>, <a class="el" href="codecompletion_8cpp_source#l02327">CodeCompletion::OnProjectSaved()</a>, <a class="el" href="codecompletion_8cpp_source#l03432">CodeCompletion::OnProjectSavedTimer()</a>, <a class="el" href="codecompletion_8cpp_source#l03406">CodeCompletion::OnRealtimeParsingTimer()</a>, <a class="el" href="codecompletion_8cpp_source#l03458">CodeCompletion::OnReparsingTimer()</a>, <a class="el" href="codecompletion_8cpp_source#l03391">CodeCompletion::OnToolbarTimer()</a>, <a class="el" href="codecompletion_8cpp_source#l02254">CodeCompletion::OnWorkspaceChanged()</a>, <a class="el" href="codecompletion_8cpp_source#l03011">CodeCompletion::ParseFunctionsAndFillToolbar()</a>, and <a class="el" href="codecompletion_8cpp_source#l01686">CodeCompletion::RereadOptions()</a>.</p>
 
 </div>
 </div>
@@ -360,36 +360,7 @@ line</td>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="codecompletion_8cpp_source#l00090">90</a> of file <a class="el" href="codecompletion_8cpp_source">codecompletion.cpp</a>.</p>
-
-</div>
-</div>
-<h2 class="groupheader">Function Documentation</h2>
-<a id="ra-g_GlobalScope"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ra-g_GlobalScope">&#9670;&nbsp;</a></span>g_GlobalScope()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static wxString g_GlobalScope </td>
-          <td>(</td>
-          <td class="paramtype">_T(&quot;&lt;global&gt;&quot;)&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="codecompletion_8cpp_source#l03207">CodeCompletion::FindFunctionAndUpdate()</a>, and <a class="el" href="codecompletion_8cpp_source#l03000">CodeCompletion::ParseFunctionsAndFillToolbar()</a>.</p>
+<p class="definition">Definition at line <a class="el" href="codecompletion_8cpp_source#l00089">89</a> of file <a class="el" href="codecompletion_8cpp_source">codecompletion.cpp</a>.</p>
 
 </div>
 </div>
@@ -414,7 +385,7 @@ line</td>
 </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= {</div><div class="line"><span class="stringliteral">&quot;16 16 2 1&quot;</span>,</div><div class="line"><span class="stringliteral">&quot;     c None&quot;</span>,</div><div class="line"><span class="stringliteral">&quot;.    c #04049B&quot;</span>,</div><div class="line"><span class="stringliteral">&quot;                &quot;</span>,</div><div class="line"><span class="stringliteral">&quot;  .......       &quot;</span>,</div><div class="line"><span class="stringliteral">&quot; .........      &quot;</span>,</div><div class="line"><span class="stringliteral">&quot; ..     ..      &quot;</span>,</div><div class="line"><span class="stringliteral">&quot;..              &quot;</span>,</div><div class="line"><span class="stringliteral">&quot;..   ..     ..  &quot;</span>,</div><div class="line"><span class="stringliteral">&quot;..   ..     ..  &quot;</span>,</div><div class="line"><span class="stringliteral">&quot;.. ...... ......&quot;</span>,</div><div class="line"><span class="stringliteral">&quot;.. ...... ......&quot;</span>,</div><div class="line"><span class="stringliteral">&quot;..   ..     ..  &quot;</span>,</div><div class="line"><span class="stringliteral">&quot;..   ..     ..  &quot;</span>,</div><div class="line"><span class="stringliteral">&quot;..      ..      &quot;</span>,</div><div class="line"><span class="stringliteral">&quot;...     ..      &quot;</span>,</div><div class="line"><span class="stringliteral">&quot; .........      &quot;</span>,</div><div class="line"><span class="stringliteral">&quot;  .......       &quot;</span>,</div><div class="line"><span class="stringliteral">&quot;                &quot;</span>}</div></div><!-- fragment -->
-<p class="definition">Definition at line <a class="el" href="codecompletion_8cpp_source#l00284">284</a> of file <a class="el" href="codecompletion_8cpp_source">codecompletion.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="codecompletion_8cpp_source#l00283">283</a> of file <a class="el" href="codecompletion_8cpp_source">codecompletion.cpp</a>.</p>
 
 </div>
 </div>
@@ -438,7 +409,31 @@ line</td>
 </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= {</div><div class="line"></div><div class="line"><span class="stringliteral">&quot;    14    14      6            1&quot;</span>,</div><div class="line"></div><div class="line"><span class="stringliteral">&quot;  c none&quot;</span>,</div><div class="line"><span class="stringliteral">&quot;. c #fefefe&quot;</span>,</div><div class="line"><span class="stringliteral">&quot;# c #e43a3a&quot;</span>,</div><div class="line"><span class="stringliteral">&quot;a c #e40000&quot;</span>,</div><div class="line"><span class="stringliteral">&quot;b c #e48f8f&quot;</span>,</div><div class="line"><span class="stringliteral">&quot;c c #8f0000&quot;</span>,</div><div class="line"></div><div class="line"><span class="stringliteral">&quot;              &quot;</span>,</div><div class="line"><span class="stringliteral">&quot;              &quot;</span>,</div><div class="line"><span class="stringliteral">&quot;  .#aaaa#b.   &quot;</span>,</div><div class="line"><span class="stringliteral">&quot;  baabb#aa#   &quot;</span>,</div><div class="line"><span class="stringliteral">&quot;  ba#   baa#  &quot;</span>,</div><div class="line"><span class="stringliteral">&quot;  ba#    bcab &quot;</span>,</div><div class="line"><span class="stringliteral">&quot;  ba#     #a# &quot;</span>,</div><div class="line"><span class="stringliteral">&quot;  ba#     bac &quot;</span>,</div><div class="line"><span class="stringliteral">&quot;  ba#     ba# &quot;</span>,</div><div class="line"><span class="stringliteral">&quot;  ba#     bc# &quot;</span>,</div><div class="line"><span class="stringliteral">&quot;  ba#     #cb &quot;</span>,</div><div class="line"><span class="stringliteral">&quot;  bcc    ac#  &quot;</span>,</div><div class="line"><span class="stringliteral">&quot;  #aa###ac#   &quot;</span>,</div><div class="line"><span class="stringliteral">&quot;  cccccc#b    &quot;</span></div><div class="line">}</div></div><!-- fragment -->
-<p class="definition">Definition at line <a class="el" href="codecompletion_8cpp_source#l00307">307</a> of file <a class="el" href="codecompletion_8cpp_source">codecompletion.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="codecompletion_8cpp_source#l00306">306</a> of file <a class="el" href="codecompletion_8cpp_source">codecompletion.cpp</a>.</p>
+
+</div>
+</div>
+<a id="y0-g_GlobalScope"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#y0-g_GlobalScope">&#9670;&nbsp;</a></span>g_GlobalScope</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html">wxString</a> g_GlobalScope(<a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga7dfc2888539861afe6c4337ef315472b">_T</a>(&quot;&lt;global&gt;&quot;))</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="codecompletion_8cpp_source#l03218">CodeCompletion::FindFunctionAndUpdate()</a>, and <a class="el" href="codecompletion_8cpp_source#l03011">CodeCompletion::ParseFunctionsAndFillToolbar()</a>.</p>
 
 </div>
 </div>
@@ -462,7 +457,7 @@ line</td>
 </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= {</div><div class="line"><span class="stringliteral">&quot;16 16 9 1&quot;</span>,</div><div class="line"><span class="stringliteral">&quot;   c None&quot;</span>,</div><div class="line"><span class="stringliteral">&quot;+  c #D23E39&quot;</span>,</div><div class="line"><span class="stringliteral">&quot;$  c #CF0C0A&quot;</span>,</div><div class="line"><span class="stringliteral">&quot;@  c #CB524B&quot;</span>,</div><div class="line"><span class="stringliteral">&quot;&amp;  c #E2D8D8&quot;</span>,</div><div class="line"><span class="stringliteral">&quot;#  c #C7C7C4&quot;</span>,</div><div class="line"><span class="stringliteral">&quot;_  c #E4B9B5&quot;</span>,</div><div class="line"><span class="stringliteral">&quot;-  c #F7F9F7&quot;</span>,</div><div class="line"><span class="stringliteral">&quot;=  c #EBE9E7&quot;</span>,</div><div class="line"><span class="stringliteral">&quot;  #########     &quot;</span>,</div><div class="line"><span class="stringliteral">&quot;  #=-----####   &quot;</span>,</div><div class="line"><span class="stringliteral">&quot;  #--------=##  &quot;</span>,</div><div class="line"><span class="stringliteral">&quot;  #--------=-#  &quot;</span>,</div><div class="line"><span class="stringliteral">&quot;  #--=@_-----#  &quot;</span>,</div><div class="line"><span class="stringliteral">&quot;  #--=+_-----#  &quot;</span>,</div><div class="line"><span class="stringliteral">&quot;  #--=++@_---#  &quot;</span>,</div><div class="line"><span class="stringliteral">&quot;  #--&amp;$@@$=--#  &quot;</span>,</div><div class="line"><span class="stringliteral">&quot;  #--&amp;$__$&amp;=-#  &quot;</span>,</div><div class="line"><span class="stringliteral">&quot;  #--&amp;$__$&amp;=-#  &quot;</span>,</div><div class="line"><span class="stringliteral">&quot;  #--&amp;$__$&amp;=-#  &quot;</span>,</div><div class="line"><span class="stringliteral">&quot;  #-==#=&amp;#==-#  &quot;</span>,</div><div class="line"><span class="stringliteral">&quot;  #-========-#  &quot;</span>,</div><div class="line"><span class="stringliteral">&quot;  #----=====-#  &quot;</span>,</div><div class="line"><span class="stringliteral">&quot;  ############  &quot;</span>,</div><div class="line"><span class="stringliteral">&quot;                &quot;</span>}</div></div><!-- fragment -->
-<p class="definition">Definition at line <a class="el" href="codecompletion_8cpp_source#l00366">366</a> of file <a class="el" href="codecompletion_8cpp_source">codecompletion.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="codecompletion_8cpp_source#l00365">365</a> of file <a class="el" href="codecompletion_8cpp_source">codecompletion.cpp</a>.</p>
 
 </div>
 </div>
@@ -473,12 +468,12 @@ line</td>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">int idClassMethod = wxNewId()</td>
+          <td class="memname">int idClassMethod = <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__misc.html#gaa2d93c1680369b4227f7de9de58e5fcb">wxNewId</a>()</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="codecompletion_8cpp_source#l00413">413</a> of file <a class="el" href="codecompletion_8cpp_source">codecompletion.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="codecompletion_8cpp_source#l00412">412</a> of file <a class="el" href="codecompletion_8cpp_source">codecompletion.cpp</a>.</p>
 
 </div>
 </div>
@@ -489,12 +484,12 @@ line</td>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">int idCurrentProjectReparse = wxNewId()</td>
+          <td class="memname">int idCurrentProjectReparse = <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__misc.html#gaa2d93c1680369b4227f7de9de58e5fcb">wxNewId</a>()</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="codecompletion_8cpp_source#l00409">409</a> of file <a class="el" href="codecompletion_8cpp_source">codecompletion.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="codecompletion_8cpp_source#l00408">408</a> of file <a class="el" href="codecompletion_8cpp_source">codecompletion.cpp</a>.</p>
 
 </div>
 </div>
@@ -505,12 +500,12 @@ line</td>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">int idEditorActivatedTimer = wxNewId()</td>
+          <td class="memname">int idEditorActivatedTimer = <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__misc.html#gaa2d93c1680369b4227f7de9de58e5fcb">wxNewId</a>()</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="codecompletion_8cpp_source#l00423">423</a> of file <a class="el" href="codecompletion_8cpp_source">codecompletion.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="codecompletion_8cpp_source#l00422">422</a> of file <a class="el" href="codecompletion_8cpp_source">codecompletion.cpp</a>.</p>
 
 </div>
 </div>
@@ -521,12 +516,12 @@ line</td>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">int idEditorSubMenu = wxNewId()</td>
+          <td class="memname">int idEditorSubMenu = <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__misc.html#gaa2d93c1680369b4227f7de9de58e5fcb">wxNewId</a>()</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="codecompletion_8cpp_source#l00412">412</a> of file <a class="el" href="codecompletion_8cpp_source">codecompletion.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="codecompletion_8cpp_source#l00411">411</a> of file <a class="el" href="codecompletion_8cpp_source">codecompletion.cpp</a>.</p>
 
 </div>
 </div>
@@ -537,12 +532,12 @@ line</td>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">int idGotoDeclaration = wxNewId()</td>
+          <td class="memname">int idGotoDeclaration = <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__misc.html#gaa2d93c1680369b4227f7de9de58e5fcb">wxNewId</a>()</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="codecompletion_8cpp_source#l00415">415</a> of file <a class="el" href="codecompletion_8cpp_source">codecompletion.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="codecompletion_8cpp_source#l00414">414</a> of file <a class="el" href="codecompletion_8cpp_source">codecompletion.cpp</a>.</p>
 
 </div>
 </div>
@@ -553,14 +548,14 @@ line</td>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">int idGotoImplementation = wxNewId()</td>
+          <td class="memname">int idGotoImplementation = <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__misc.html#gaa2d93c1680369b4227f7de9de58e5fcb">wxNewId</a>()</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="codecompletion_8cpp_source#l00416">416</a> of file <a class="el" href="codecompletion_8cpp_source">codecompletion.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="codecompletion_8cpp_source#l00415">415</a> of file <a class="el" href="codecompletion_8cpp_source">codecompletion.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="codecompletion_8cpp_source#l01880">CodeCompletion::OnGotoDeclaration()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="codecompletion_8cpp_source#l01891">CodeCompletion::OnGotoDeclaration()</a>.</p>
 
 </div>
 </div>
@@ -571,12 +566,12 @@ line</td>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">int idMenuFindReferences = wxNewId()</td>
+          <td class="memname">int idMenuFindReferences = <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__misc.html#gaa2d93c1680369b4227f7de9de58e5fcb">wxNewId</a>()</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="codecompletion_8cpp_source#l00405">405</a> of file <a class="el" href="codecompletion_8cpp_source">codecompletion.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="codecompletion_8cpp_source#l00404">404</a> of file <a class="el" href="codecompletion_8cpp_source">codecompletion.cpp</a>.</p>
 
 </div>
 </div>
@@ -587,14 +582,14 @@ line</td>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">int idMenuGotoDeclaration = wxNewId()</td>
+          <td class="memname">int idMenuGotoDeclaration = <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__misc.html#gaa2d93c1680369b4227f7de9de58e5fcb">wxNewId</a>()</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="codecompletion_8cpp_source#l00402">402</a> of file <a class="el" href="codecompletion_8cpp_source">codecompletion.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="codecompletion_8cpp_source#l00401">401</a> of file <a class="el" href="codecompletion_8cpp_source">codecompletion.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="codecompletion_8cpp_source#l01880">CodeCompletion::OnGotoDeclaration()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="codecompletion_8cpp_source#l01891">CodeCompletion::OnGotoDeclaration()</a>.</p>
 
 </div>
 </div>
@@ -605,12 +600,12 @@ line</td>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">int idMenuGotoFunction = wxNewId()</td>
+          <td class="memname">int idMenuGotoFunction = <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__misc.html#gaa2d93c1680369b4227f7de9de58e5fcb">wxNewId</a>()</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="codecompletion_8cpp_source#l00399">399</a> of file <a class="el" href="codecompletion_8cpp_source">codecompletion.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="codecompletion_8cpp_source#l00398">398</a> of file <a class="el" href="codecompletion_8cpp_source">codecompletion.cpp</a>.</p>
 
 </div>
 </div>
@@ -621,14 +616,14 @@ line</td>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">int idMenuGotoImplementation = wxNewId()</td>
+          <td class="memname">int idMenuGotoImplementation = <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__misc.html#gaa2d93c1680369b4227f7de9de58e5fcb">wxNewId</a>()</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="codecompletion_8cpp_source#l00403">403</a> of file <a class="el" href="codecompletion_8cpp_source">codecompletion.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="codecompletion_8cpp_source#l00402">402</a> of file <a class="el" href="codecompletion_8cpp_source">codecompletion.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="codecompletion_8cpp_source#l01880">CodeCompletion::OnGotoDeclaration()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="codecompletion_8cpp_source#l01891">CodeCompletion::OnGotoDeclaration()</a>.</p>
 
 </div>
 </div>
@@ -639,12 +634,12 @@ line</td>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">int idMenuGotoNextFunction = wxNewId()</td>
+          <td class="memname">int idMenuGotoNextFunction = <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__misc.html#gaa2d93c1680369b4227f7de9de58e5fcb">wxNewId</a>()</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="codecompletion_8cpp_source#l00401">401</a> of file <a class="el" href="codecompletion_8cpp_source">codecompletion.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="codecompletion_8cpp_source#l00400">400</a> of file <a class="el" href="codecompletion_8cpp_source">codecompletion.cpp</a>.</p>
 
 </div>
 </div>
@@ -655,12 +650,12 @@ line</td>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">int idMenuGotoPrevFunction = wxNewId()</td>
+          <td class="memname">int idMenuGotoPrevFunction = <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__misc.html#gaa2d93c1680369b4227f7de9de58e5fcb">wxNewId</a>()</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="codecompletion_8cpp_source#l00400">400</a> of file <a class="el" href="codecompletion_8cpp_source">codecompletion.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="codecompletion_8cpp_source#l00399">399</a> of file <a class="el" href="codecompletion_8cpp_source">codecompletion.cpp</a>.</p>
 
 </div>
 </div>
@@ -671,12 +666,12 @@ line</td>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">int idMenuOpenIncludeFile = wxNewId()</td>
+          <td class="memname">int idMenuOpenIncludeFile = <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__misc.html#gaa2d93c1680369b4227f7de9de58e5fcb">wxNewId</a>()</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="codecompletion_8cpp_source#l00404">404</a> of file <a class="el" href="codecompletion_8cpp_source">codecompletion.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="codecompletion_8cpp_source#l00403">403</a> of file <a class="el" href="codecompletion_8cpp_source">codecompletion.cpp</a>.</p>
 
 </div>
 </div>
@@ -687,12 +682,12 @@ line</td>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">int idMenuRenameSymbols = wxNewId()</td>
+          <td class="memname">int idMenuRenameSymbols = <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__misc.html#gaa2d93c1680369b4227f7de9de58e5fcb">wxNewId</a>()</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="codecompletion_8cpp_source#l00406">406</a> of file <a class="el" href="codecompletion_8cpp_source">codecompletion.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="codecompletion_8cpp_source#l00405">405</a> of file <a class="el" href="codecompletion_8cpp_source">codecompletion.cpp</a>.</p>
 
 </div>
 </div>
@@ -703,12 +698,12 @@ line</td>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">int idOpenIncludeFile = wxNewId()</td>
+          <td class="memname">int idOpenIncludeFile = <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__misc.html#gaa2d93c1680369b4227f7de9de58e5fcb">wxNewId</a>()</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="codecompletion_8cpp_source#l00417">417</a> of file <a class="el" href="codecompletion_8cpp_source">codecompletion.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="codecompletion_8cpp_source#l00416">416</a> of file <a class="el" href="codecompletion_8cpp_source">codecompletion.cpp</a>.</p>
 
 </div>
 </div>
@@ -719,12 +714,12 @@ line</td>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">int idProjectSavedTimer = wxNewId()</td>
+          <td class="memname">int idProjectSavedTimer = <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__misc.html#gaa2d93c1680369b4227f7de9de58e5fcb">wxNewId</a>()</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="codecompletion_8cpp_source#l00421">421</a> of file <a class="el" href="codecompletion_8cpp_source">codecompletion.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="codecompletion_8cpp_source#l00420">420</a> of file <a class="el" href="codecompletion_8cpp_source">codecompletion.cpp</a>.</p>
 
 </div>
 </div>
@@ -735,12 +730,12 @@ line</td>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">int idRealtimeParsingTimer = wxNewId()</td>
+          <td class="memname">int idRealtimeParsingTimer = <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__misc.html#gaa2d93c1680369b4227f7de9de58e5fcb">wxNewId</a>()</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="codecompletion_8cpp_source#l00419">419</a> of file <a class="el" href="codecompletion_8cpp_source">codecompletion.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="codecompletion_8cpp_source#l00418">418</a> of file <a class="el" href="codecompletion_8cpp_source">codecompletion.cpp</a>.</p>
 
 </div>
 </div>
@@ -751,12 +746,12 @@ line</td>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">int idReparsingTimer = wxNewId()</td>
+          <td class="memname">int idReparsingTimer = <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__misc.html#gaa2d93c1680369b4227f7de9de58e5fcb">wxNewId</a>()</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="codecompletion_8cpp_source#l00422">422</a> of file <a class="el" href="codecompletion_8cpp_source">codecompletion.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="codecompletion_8cpp_source#l00421">421</a> of file <a class="el" href="codecompletion_8cpp_source">codecompletion.cpp</a>.</p>
 
 </div>
 </div>
@@ -767,12 +762,12 @@ line</td>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">int idSelectedFileReparse = wxNewId()</td>
+          <td class="memname">int idSelectedFileReparse = <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__misc.html#gaa2d93c1680369b4227f7de9de58e5fcb">wxNewId</a>()</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="codecompletion_8cpp_source#l00411">411</a> of file <a class="el" href="codecompletion_8cpp_source">codecompletion.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="codecompletion_8cpp_source#l00410">410</a> of file <a class="el" href="codecompletion_8cpp_source">codecompletion.cpp</a>.</p>
 
 </div>
 </div>
@@ -783,12 +778,12 @@ line</td>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">int idSelectedProjectReparse = wxNewId()</td>
+          <td class="memname">int idSelectedProjectReparse = <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__misc.html#gaa2d93c1680369b4227f7de9de58e5fcb">wxNewId</a>()</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="codecompletion_8cpp_source#l00410">410</a> of file <a class="el" href="codecompletion_8cpp_source">codecompletion.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="codecompletion_8cpp_source#l00409">409</a> of file <a class="el" href="codecompletion_8cpp_source">codecompletion.cpp</a>.</p>
 
 </div>
 </div>
@@ -799,12 +794,12 @@ line</td>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">int idToolbarTimer = wxNewId()</td>
+          <td class="memname">int idToolbarTimer = <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__misc.html#gaa2d93c1680369b4227f7de9de58e5fcb">wxNewId</a>()</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="codecompletion_8cpp_source#l00420">420</a> of file <a class="el" href="codecompletion_8cpp_source">codecompletion.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="codecompletion_8cpp_source#l00419">419</a> of file <a class="el" href="codecompletion_8cpp_source">codecompletion.cpp</a>.</p>
 
 </div>
 </div>
@@ -815,12 +810,12 @@ line</td>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">int idUnimplementedClassMethods = wxNewId()</td>
+          <td class="memname">int idUnimplementedClassMethods = <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__misc.html#gaa2d93c1680369b4227f7de9de58e5fcb">wxNewId</a>()</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="codecompletion_8cpp_source#l00414">414</a> of file <a class="el" href="codecompletion_8cpp_source">codecompletion.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="codecompletion_8cpp_source#l00413">413</a> of file <a class="el" href="codecompletion_8cpp_source">codecompletion.cpp</a>.</p>
 
 </div>
 </div>
@@ -831,12 +826,12 @@ line</td>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">int idViewClassBrowser = wxNewId()</td>
+          <td class="memname">int idViewClassBrowser = <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__misc.html#gaa2d93c1680369b4227f7de9de58e5fcb">wxNewId</a>()</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="codecompletion_8cpp_source#l00407">407</a> of file <a class="el" href="codecompletion_8cpp_source">codecompletion.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="codecompletion_8cpp_source#l00406">406</a> of file <a class="el" href="codecompletion_8cpp_source">codecompletion.cpp</a>.</p>
 
 </div>
 </div>
@@ -860,7 +855,7 @@ line</td>
 </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= {</div><div class="line"><span class="stringliteral">&quot;16 16 7 1&quot;</span>,</div><div class="line"><span class="stringliteral">&quot;     c None&quot;</span>,</div><div class="line"><span class="stringliteral">&quot;.    c #FF8800&quot;</span>,</div><div class="line"><span class="stringliteral">&quot;+    c #FF8D0B&quot;</span>,</div><div class="line"><span class="stringliteral">&quot;@    c #FF9115&quot;</span>,</div><div class="line"><span class="stringliteral">&quot;#    c #FFA948&quot;</span>,</div><div class="line"><span class="stringliteral">&quot;$    c #FFC686&quot;</span>,</div><div class="line"><span class="stringliteral">&quot;%    c #FFFFFF&quot;</span>,</div><div class="line"><span class="stringliteral">&quot;                &quot;</span>,</div><div class="line"><span class="stringliteral">&quot;                &quot;</span>,</div><div class="line"><span class="stringliteral">&quot;      ....      &quot;</span>,</div><div class="line"><span class="stringliteral">&quot;    ........    &quot;</span>,</div><div class="line"><span class="stringliteral">&quot;   ..+@+.....   &quot;</span>,</div><div class="line"><span class="stringliteral">&quot;   .+#$#+....   &quot;</span>,</div><div class="line"><span class="stringliteral">&quot;  ..@$%$@.....  &quot;</span>,</div><div class="line"><span class="stringliteral">&quot;  ..+#$#+.....  &quot;</span>,</div><div class="line"><span class="stringliteral">&quot;  ...+@+......  &quot;</span>,</div><div class="line"><span class="stringliteral">&quot;  ............  &quot;</span>,</div><div class="line"><span class="stringliteral">&quot;   ..........   &quot;</span>,</div><div class="line"><span class="stringliteral">&quot;   ..........   &quot;</span>,</div><div class="line"><span class="stringliteral">&quot;    ........    &quot;</span>,</div><div class="line"><span class="stringliteral">&quot;      ....      &quot;</span>,</div><div class="line"><span class="stringliteral">&quot;                &quot;</span>,</div><div class="line"><span class="stringliteral">&quot;                &quot;</span>}</div></div><!-- fragment -->
-<p class="definition">Definition at line <a class="el" href="codecompletion_8cpp_source#l00338">338</a> of file <a class="el" href="codecompletion_8cpp_source">codecompletion.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="codecompletion_8cpp_source#l00337">337</a> of file <a class="el" href="codecompletion_8cpp_source">codecompletion.cpp</a>.</p>
 
 </div>
 </div>

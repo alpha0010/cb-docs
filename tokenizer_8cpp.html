@@ -19,7 +19,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Code::Blocks
-   &#160;<span id="projectnumber">SVN r10947</span>
+   &#160;<span id="projectnumber">SVN r11012</span>
    </div>
   </td>
  </tr>
@@ -45,7 +45,6 @@ $(function() {
   <div class="summary">
 <a href="#namespaces">Namespaces</a> &#124;
 <a href="#define-members">Macros</a> &#124;
-<a href="#func-members">Functions</a> &#124;
 <a href="#var-members">Variables</a>  </div>
   <div class="headertitle">
 <div class="title">tokenizer.cpp File Reference</div>  </div>
@@ -58,7 +57,7 @@ $(function() {
 <code>#include &lt;wx/msgdlg.h&gt;</code><br />
 <code>#include &quot;<a class="el" href="globals_8h_source">globals.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="logmanager_8h_source">logmanager.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="manager_8h_source">manager.h</a>&quot;</code><br />
+<code>#include &quot;manager.h&quot;</code><br />
 <code>#include &quot;<a class="el" href="cclogger_8h_source">cclogger.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="expression_8h_source">expression.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="tokenizer_8h_source">tokenizer.h</a>&quot;</code><br />
@@ -66,7 +65,7 @@ $(function() {
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for tokenizer.cpp:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="tokenizer_8cpp__incl.svg" width="11552" height="635"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="tokenizer_8cpp__incl.svg" width="1986" height="411"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 <p><a href="tokenizer_8cpp_source">Go to the source code of this file.</a></p>
@@ -87,41 +86,38 @@ Macros</h2></td></tr>
 <tr class="memitem:nm-TRACE2_SET_FLAG"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tokenizer_8cpp#nm-TRACE2_SET_FLAG">TRACE2_SET_FLAG</a>(traceFile)</td></tr>
 <tr class="separator:nm-TRACE2_SET_FLAG"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
-Functions</h2></td></tr>
-<tr class="memitem:a9-colon"><td class="memItemLeft" align="right" valign="top">const wxString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceTokenizerConsts#a9-colon">TokenizerConsts::colon</a> (_T(&quot;:&quot;))</td></tr>
-<tr class="separator:a9-colon"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:kp-colon_colon"><td class="memItemLeft" align="right" valign="top">const wxString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceTokenizerConsts#kp-colon_colon">TokenizerConsts::colon_colon</a> (_T(&quot;::&quot;))</td></tr>
-<tr class="separator:kp-colon_colon"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:yv-equal"><td class="memItemLeft" align="right" valign="top">const wxString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceTokenizerConsts#yv-equal">TokenizerConsts::equal</a> (_T(&quot;=&quot;))</td></tr>
-<tr class="separator:yv-equal"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:sk-kw_if"><td class="memItemLeft" align="right" valign="top">const wxString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceTokenizerConsts#sk-kw_if">TokenizerConsts::kw_if</a> (_T(&quot;if&quot;))</td></tr>
-<tr class="separator:sk-kw_if"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:tt-kw_ifdef"><td class="memItemLeft" align="right" valign="top">const wxString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceTokenizerConsts#tt-kw_ifdef">TokenizerConsts::kw_ifdef</a> (_T(&quot;ifdef&quot;))</td></tr>
-<tr class="separator:tt-kw_ifdef"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:kt-kw_ifndef"><td class="memItemLeft" align="right" valign="top">const wxString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceTokenizerConsts#kt-kw_ifndef">TokenizerConsts::kw_ifndef</a> (_T(&quot;ifndef&quot;))</td></tr>
-<tr class="separator:kt-kw_ifndef"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:p2-kw_elif"><td class="memItemLeft" align="right" valign="top">const wxString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceTokenizerConsts#p2-kw_elif">TokenizerConsts::kw_elif</a> (_T(&quot;elif&quot;))</td></tr>
-<tr class="separator:p2-kw_elif"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:js-kw_elifdef"><td class="memItemLeft" align="right" valign="top">const wxString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceTokenizerConsts#js-kw_elifdef">TokenizerConsts::kw_elifdef</a> (_T(&quot;elifdef&quot;))</td></tr>
-<tr class="separator:js-kw_elifdef"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:yp-kw_elifndef"><td class="memItemLeft" align="right" valign="top">const wxString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceTokenizerConsts#yp-kw_elifndef">TokenizerConsts::kw_elifndef</a> (_T(&quot;elifndef&quot;))</td></tr>
-<tr class="separator:yp-kw_elifndef"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:jp-kw_else"><td class="memItemLeft" align="right" valign="top">const wxString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceTokenizerConsts#jp-kw_else">TokenizerConsts::kw_else</a> (_T(&quot;else&quot;))</td></tr>
-<tr class="separator:jp-kw_else"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:zc-kw_endif"><td class="memItemLeft" align="right" valign="top">const wxString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceTokenizerConsts#zc-kw_endif">TokenizerConsts::kw_endif</a> (_T(&quot;endif&quot;))</td></tr>
-<tr class="separator:zc-kw_endif"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:sy-hash"><td class="memItemLeft" align="right" valign="top">const wxString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceTokenizerConsts#sy-hash">TokenizerConsts::hash</a> (_T(&quot;#&quot;))</td></tr>
-<tr class="separator:sy-hash"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:fe-tabcrlf"><td class="memItemLeft" align="right" valign="top">const wxString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceTokenizerConsts#fe-tabcrlf">TokenizerConsts::tabcrlf</a> (_T(&quot;\\))</td></tr>
-<tr class="separator:fe-tabcrlf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:qb-kw_define"><td class="memItemLeft" align="right" valign="top">const wxString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceTokenizerConsts#qb-kw_define">TokenizerConsts::kw_define</a> (_T(&quot;define&quot;))</td></tr>
-<tr class="separator:qb-kw_define"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:co-kw_undef"><td class="memItemLeft" align="right" valign="top">const wxString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceTokenizerConsts#co-kw_undef">TokenizerConsts::kw_undef</a> (_T(&quot;undef&quot;))</td></tr>
-<tr class="separator:co-kw_undef"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
+<tr class="memitem:qv-colon"><td class="memItemLeft" align="right" valign="top">const <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html">wxString</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceTokenizerConsts#qv-colon">TokenizerConsts::colon</a> (<a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga7dfc2888539861afe6c4337ef315472b">_T</a>(&quot;:&quot;))</td></tr>
+<tr class="separator:qv-colon"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:z9-colon_colon"><td class="memItemLeft" align="right" valign="top">const <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html">wxString</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceTokenizerConsts#z9-colon_colon">TokenizerConsts::colon_colon</a> (<a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga7dfc2888539861afe6c4337ef315472b">_T</a>(&quot;::&quot;))</td></tr>
+<tr class="separator:z9-colon_colon"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:iy-equal"><td class="memItemLeft" align="right" valign="top">const <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html">wxString</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceTokenizerConsts#iy-equal">TokenizerConsts::equal</a> (<a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga7dfc2888539861afe6c4337ef315472b">_T</a>(&quot;=&quot;))</td></tr>
+<tr class="separator:iy-equal"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:tr-kw_if"><td class="memItemLeft" align="right" valign="top">const <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html">wxString</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceTokenizerConsts#tr-kw_if">TokenizerConsts::kw_if</a> (<a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga7dfc2888539861afe6c4337ef315472b">_T</a>(&quot;if&quot;))</td></tr>
+<tr class="separator:tr-kw_if"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ag-kw_ifdef"><td class="memItemLeft" align="right" valign="top">const <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html">wxString</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceTokenizerConsts#ag-kw_ifdef">TokenizerConsts::kw_ifdef</a> (<a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga7dfc2888539861afe6c4337ef315472b">_T</a>(&quot;ifdef&quot;))</td></tr>
+<tr class="separator:ag-kw_ifdef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:d5-kw_ifndef"><td class="memItemLeft" align="right" valign="top">const <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html">wxString</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceTokenizerConsts#d5-kw_ifndef">TokenizerConsts::kw_ifndef</a> (<a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga7dfc2888539861afe6c4337ef315472b">_T</a>(&quot;ifndef&quot;))</td></tr>
+<tr class="separator:d5-kw_ifndef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ou-kw_elif"><td class="memItemLeft" align="right" valign="top">const <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html">wxString</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceTokenizerConsts#ou-kw_elif">TokenizerConsts::kw_elif</a> (<a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga7dfc2888539861afe6c4337ef315472b">_T</a>(&quot;elif&quot;))</td></tr>
+<tr class="separator:ou-kw_elif"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:d0-kw_elifdef"><td class="memItemLeft" align="right" valign="top">const <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html">wxString</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceTokenizerConsts#d0-kw_elifdef">TokenizerConsts::kw_elifdef</a> (<a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga7dfc2888539861afe6c4337ef315472b">_T</a>(&quot;elifdef&quot;))</td></tr>
+<tr class="separator:d0-kw_elifdef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gr-kw_elifndef"><td class="memItemLeft" align="right" valign="top">const <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html">wxString</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceTokenizerConsts#gr-kw_elifndef">TokenizerConsts::kw_elifndef</a> (<a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga7dfc2888539861afe6c4337ef315472b">_T</a>(&quot;elifndef&quot;))</td></tr>
+<tr class="separator:gr-kw_elifndef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:mt-kw_else"><td class="memItemLeft" align="right" valign="top">const <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html">wxString</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceTokenizerConsts#mt-kw_else">TokenizerConsts::kw_else</a> (<a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga7dfc2888539861afe6c4337ef315472b">_T</a>(&quot;else&quot;))</td></tr>
+<tr class="separator:mt-kw_else"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:y0-kw_endif"><td class="memItemLeft" align="right" valign="top">const <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html">wxString</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceTokenizerConsts#y0-kw_endif">TokenizerConsts::kw_endif</a> (<a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga7dfc2888539861afe6c4337ef315472b">_T</a>(&quot;endif&quot;))</td></tr>
+<tr class="separator:y0-kw_endif"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:w4-hash"><td class="memItemLeft" align="right" valign="top">const <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html">wxString</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceTokenizerConsts#w4-hash">TokenizerConsts::hash</a> (<a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga7dfc2888539861afe6c4337ef315472b">_T</a>(&quot;#&quot;))</td></tr>
+<tr class="separator:w4-hash"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5-tabcrlf"><td class="memItemLeft" align="right" valign="top">const <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html">wxString</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceTokenizerConsts#a5-tabcrlf">TokenizerConsts::tabcrlf</a> (<a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga7dfc2888539861afe6c4337ef315472b">_T</a>(&quot;\\))</td></tr>
+<tr class="separator:a5-tabcrlf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:eb-kw_define"><td class="memItemLeft" align="right" valign="top">const <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html">wxString</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceTokenizerConsts#eb-kw_define">TokenizerConsts::kw_define</a> (<a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga7dfc2888539861afe6c4337ef315472b">_T</a>(&quot;define&quot;))</td></tr>
+<tr class="separator:eb-kw_define"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:y7-kw_undef"><td class="memItemLeft" align="right" valign="top">const <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html">wxString</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceTokenizerConsts#y7-kw_undef">TokenizerConsts::kw_undef</a> (<a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga7dfc2888539861afe6c4337ef315472b">_T</a>(&quot;undef&quot;))</td></tr>
+<tr class="separator:y7-kw_undef"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:tg-s_MaxMacroReplaceDepth"><td class="memItemLeft" align="right" valign="top">static const size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tokenizer_8cpp#tg-s_MaxMacroReplaceDepth">s_MaxMacroReplaceDepth</a> = 5</td></tr>
 <tr class="separator:tg-s_MaxMacroReplaceDepth"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
