@@ -119,13 +119,12 @@
 </g>
 <!-- Node57 -->
 <g id="node22" class="node"><title>Node57</title>
-<g id="a_node22"><a xlink:href="classcbStyledTextCtrl" target="_top" xlink:title="{cbStyledTextCtrl\n|&#45; m_bracePosition\l&#45; m_lastPosition\l&#45; m_middleClickPos\l&#45; m_tabSmartJump\l&#45; m_braceShortcutState\l|+ cbStyledTextCtrl()\l+ ~cbStyledTextCtrl()\l+ operator=()\l+ GetLastFocusTime()\l+ GetLastSelectedText()\l+ EnableTabSmartJump()\l+ IsCharacter()\l+ IsString()\land 7 more...\l+ GetCharacterLexerStyles()\l+ GetStringLexerStyles()\l+ GetPreprocessorLexerStyles()\l+ GetCommentLexerStyles()\l&#45; OnContextMenu()\l&#45; OnKillFocus()\l&#45; OnSetFocus()\l&#45; OnMouseMiddleDown()\l&#45; OnMouseMiddleClick()\l&#45; OnKeyDown()\l&#45; OnKeyUp()\l&#45; OnMouseLeftUp()\l&#45; AllowTabSmartJump()\l&#45; HighlightRightBrace()\l&#45; EmulateDwellStart()\l}">
-<polygon fill="none" stroke="red" points="939.251,-920 939.251,-1274 1091.25,-1274 1091.25,-920 939.251,-920"/>
-<text text-anchor="middle" x="1015.25" y="-1262" font-family="FreeSans" font-size="10.00">cbStyledTextCtrl</text>
-<polyline fill="none" stroke="red" points="939.251,-1255 1091.25,-1255 "/>
-<text text-anchor="start" x="947.251" y="-1243" font-family="FreeSans" font-size="10.00">&#45; m_bracePosition</text>
-<text text-anchor="start" x="947.251" y="-1232" font-family="FreeSans" font-size="10.00">&#45; m_lastPosition</text>
-<text text-anchor="start" x="947.251" y="-1221" font-family="FreeSans" font-size="10.00">&#45; m_middleClickPos</text>
+<g id="a_node22"><a xlink:href="classcbStyledTextCtrl" target="_top" xlink:title="{cbStyledTextCtrl\n|&#45; m_bracePosition\l&#45; m_lastPosition\l&#45; m_tabSmartJump\l&#45; m_braceShortcutState\l|+ cbStyledTextCtrl()\l+ ~cbStyledTextCtrl()\l+ operator=()\l+ GetLastFocusTime()\l+ GetLastSelectedText()\l+ EnableTabSmartJump()\l+ IsCharacter()\l+ IsString()\land 7 more...\l+ GetCharacterLexerStyles()\l+ GetStringLexerStyles()\l+ GetPreprocessorLexerStyles()\l+ GetCommentLexerStyles()\l&#45; OnContextMenu()\l&#45; OnKillFocus()\l&#45; OnSetFocus()\l&#45; OnMouseMiddleDown()\l&#45; OnKeyDown()\l&#45; OnKeyUp()\l&#45; OnMouseLeftUp()\l&#45; AllowTabSmartJump()\l&#45; HighlightRightBrace()\l&#45; EmulateDwellStart()\l}">
+<polygon fill="none" stroke="red" points="939.251,-931 939.251,-1263 1091.25,-1263 1091.25,-931 939.251,-931"/>
+<text text-anchor="middle" x="1015.25" y="-1251" font-family="FreeSans" font-size="10.00">cbStyledTextCtrl</text>
+<polyline fill="none" stroke="red" points="939.251,-1244 1091.25,-1244 "/>
+<text text-anchor="start" x="947.251" y="-1232" font-family="FreeSans" font-size="10.00">&#45; m_bracePosition</text>
+<text text-anchor="start" x="947.251" y="-1221" font-family="FreeSans" font-size="10.00">&#45; m_lastPosition</text>
 <text text-anchor="start" x="947.251" y="-1210" font-family="FreeSans" font-size="10.00">&#45; m_tabSmartJump</text>
 <text text-anchor="start" x="947.251" y="-1199" font-family="FreeSans" font-size="10.00">&#45; m_braceShortcutState</text>
 <polyline fill="none" stroke="red" points="939.251,-1192 1091.25,-1192 "/>
@@ -146,20 +145,19 @@
 <text text-anchor="start" x="947.251" y="-1026" font-family="FreeSans" font-size="10.00">&#45; OnKillFocus()</text>
 <text text-anchor="start" x="947.251" y="-1015" font-family="FreeSans" font-size="10.00">&#45; OnSetFocus()</text>
 <text text-anchor="start" x="947.251" y="-1004" font-family="FreeSans" font-size="10.00">&#45; OnMouseMiddleDown()</text>
-<text text-anchor="start" x="947.251" y="-993" font-family="FreeSans" font-size="10.00">&#45; OnMouseMiddleClick()</text>
-<text text-anchor="start" x="947.251" y="-982" font-family="FreeSans" font-size="10.00">&#45; OnKeyDown()</text>
-<text text-anchor="start" x="947.251" y="-971" font-family="FreeSans" font-size="10.00">&#45; OnKeyUp()</text>
-<text text-anchor="start" x="947.251" y="-960" font-family="FreeSans" font-size="10.00">&#45; OnMouseLeftUp()</text>
-<text text-anchor="start" x="947.251" y="-949" font-family="FreeSans" font-size="10.00">&#45; AllowTabSmartJump()</text>
-<text text-anchor="start" x="947.251" y="-938" font-family="FreeSans" font-size="10.00">&#45; HighlightRightBrace()</text>
-<text text-anchor="start" x="947.251" y="-927" font-family="FreeSans" font-size="10.00">&#45; EmulateDwellStart()</text>
+<text text-anchor="start" x="947.251" y="-993" font-family="FreeSans" font-size="10.00">&#45; OnKeyDown()</text>
+<text text-anchor="start" x="947.251" y="-982" font-family="FreeSans" font-size="10.00">&#45; OnKeyUp()</text>
+<text text-anchor="start" x="947.251" y="-971" font-family="FreeSans" font-size="10.00">&#45; OnMouseLeftUp()</text>
+<text text-anchor="start" x="947.251" y="-960" font-family="FreeSans" font-size="10.00">&#45; AllowTabSmartJump()</text>
+<text text-anchor="start" x="947.251" y="-949" font-family="FreeSans" font-size="10.00">&#45; HighlightRightBrace()</text>
+<text text-anchor="start" x="947.251" y="-938" font-family="FreeSans" font-size="10.00">&#45; EmulateDwellStart()</text>
 </a>
 </g>
 </g>
 <!-- Node8&#45;&gt;Node57 -->
 <g id="edge30" class="edge"><title>Node8&#45;&gt;Node57</title>
-<path fill="none" stroke="#404040" d="M841.897,-2278.08C886.53,-2218.64 987.897,-2073.49 1027.25,-1933 1087.67,-1717.31 1070.79,-1457.84 1047.91,-1285.99"/>
-<polygon fill="none" stroke="#404040" points="1047.9,-1285.92 1043.13,-1280.51 1046.29,-1274.03 1051.06,-1279.44 1047.9,-1285.92"/>
+<path fill="none" stroke="#404040" d="M841.897,-2278.08C886.53,-2218.64 987.897,-2073.49 1027.25,-1933 1088.96,-1712.71 1070.03,-1446.75 1046.44,-1275.11"/>
+<polygon fill="none" stroke="#404040" points="1046.43,-1275.06 1041.64,-1269.67 1044.77,-1263.17 1049.56,-1268.56 1046.43,-1275.06"/>
 <text text-anchor="middle" x="1092.75" y="-1808" font-family="FreeSans" font-size="10.00"> &#45;m_pParent</text>
 </g>
 <!-- Node59 -->
@@ -718,14 +716,14 @@
 </g>
 <!-- Node20&#45;&gt;Node57 -->
 <g id="edge31" class="edge"><title>Node20&#45;&gt;Node57</title>
-<path fill="none" stroke="#404040" d="M821.948,-1385.42C835.059,-1340.49 847.317,-1299.83 849.251,-1298 874.479,-1274.16 898.087,-1301.61 925.251,-1280 926.91,-1278.68 928.541,-1277.32 930.144,-1275.93"/>
-<polygon fill="none" stroke="#404040" points="930.288,-1275.79 931.914,-1268.77 939.024,-1267.56 937.398,-1274.59 930.288,-1275.79"/>
+<path fill="none" stroke="#404040" d="M821.948,-1385.42C835.059,-1340.49 847.317,-1299.83 849.251,-1298 874.479,-1274.16 898.087,-1301.61 925.251,-1280 928.423,-1277.48 931.492,-1274.81 934.46,-1272.02"/>
+<polygon fill="none" stroke="#404040" points="934.633,-1271.85 936.004,-1264.77 943.066,-1263.31 941.695,-1270.39 934.633,-1271.85"/>
 <text text-anchor="middle" x="894.751" y="-1330" font-family="FreeSans" font-size="10.00"> &#45;m_lastSelectedText</text>
 </g>
 <!-- Node57&#45;&gt;Node17 -->
 <g id="edge29" class="edge"><title>Node57&#45;&gt;Node17</title>
-<path fill="none" stroke="#404040" d="M1036.66,-919.934C1038.74,-902.811 1040.88,-885.264 1043.01,-867.702"/>
-<polygon fill="none" stroke="#404040" points="1043.04,-867.459 1039.8,-861.02 1044.49,-855.546 1047.74,-861.985 1043.04,-867.459"/>
+<path fill="none" stroke="#404040" d="M1035.35,-930.725C1037.84,-910.251 1040.42,-889.031 1043,-867.788"/>
+<polygon fill="none" stroke="#404040" points="1043.03,-867.55 1039.79,-861.111 1044.48,-855.637 1047.73,-862.076 1043.03,-867.55"/>
 <text text-anchor="middle" x="1076.25" y="-882.5" font-family="FreeSans" font-size="10.00"> &#45;m_LastControl</text>
 </g>
 <!-- Node65 -->

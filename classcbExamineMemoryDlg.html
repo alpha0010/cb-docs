@@ -19,7 +19,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Code::Blocks
-   &#160;<span id="projectnumber">SVN r11012</span>
+   &#160;<span id="projectnumber">SVN r11156</span>
    </div>
   </td>
  </tr>
@@ -50,12 +50,14 @@ $(function() {
 <div class="dynheader">
 Inheritance diagram for cbExamineMemoryDlg:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classcbExamineMemoryDlg__inherit__graph.svg" width="198" height="536"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classcbExamineMemoryDlg__inherit__graph.svg" width="198" height="566"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 <div class="dynheader">
 Collaboration diagram for cbExamineMemoryDlg:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classcbExamineMemoryDlg__coll__graph.svg" width="187" height="220"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classcbExamineMemoryDlg__coll__graph.svg" width="187" height="235"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
@@ -80,6 +82,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:so-AddHexByte"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:cw-EnableWindow"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcbExamineMemoryDlg#cw-EnableWindow">EnableWindow</a> (bool enable)=0</td></tr>
 <tr class="separator:cw-EnableWindow"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:sl-SetBaseAddress"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcbExamineMemoryDlg#sl-SetBaseAddress">SetBaseAddress</a> (const <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html">wxString</a> &amp;addr)=0</td></tr>
+<tr class="separator:sl-SetBaseAddress"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
@@ -267,7 +271,7 @@ Public Member Functions</h2></td></tr>
 
 <p>Implemented in <a class="el" href="classExamineMemoryDlg#pc-EnableWindow">ExamineMemoryDlg</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="debuggermanager_8cpp_source#l01180">DebuggerManager::RefreshUI()</a>, and <a class="el" href="debuggermanager_8cpp_source#l00978">DebuggerManager::SetInterfaceFactory()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="debuggermanager_8cpp_source#l01184">DebuggerManager::RefreshUI()</a>, and <a class="el" href="debuggermanager_8cpp_source#l00982">DebuggerManager::SetInterfaceFactory()</a>.</p>
 
 </div>
 </div>
@@ -383,7 +387,37 @@ Public Member Functions</h2></td></tr>
 
 <p>Implemented in <a class="el" href="classExamineMemoryDlg#kh-GetWindow">ExamineMemoryDlg</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="debugger__interface__creator_8cpp_source#l00150">DebugInterfaceFactory::DeleteMemory()</a>, and <a class="el" href="debuggermanager_8cpp_source#l01115">DebuggerManager::UpdateExamineMemory()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="debugger__interface__creator_8cpp_source#l00150">DebugInterfaceFactory::DeleteMemory()</a>, <a class="el" href="watchesdlg_8cpp_source#l00932">WatchesDlg::OnMenuExamineMemory()</a>, and <a class="el" href="debuggermanager_8cpp_source#l01119">DebuggerManager::UpdateExamineMemory()</a>.</p>
+
+</div>
+</div>
+<a id="sl-SetBaseAddress"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#sl-SetBaseAddress">&#9670;&nbsp;</a></span>SetBaseAddress()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void cbExamineMemoryDlg::SetBaseAddress </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html">wxString</a> &amp;&#160;</td>
+          <td class="paramname"><em>addr</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implemented in <a class="el" href="classExamineMemoryDlg#ne-SetBaseAddress">ExamineMemoryDlg</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="watchesdlg_8cpp_source#l00932">WatchesDlg::OnMenuExamineMemory()</a>.</p>
 
 </div>
 </div>

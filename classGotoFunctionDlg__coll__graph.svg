@@ -103,22 +103,22 @@
 </g>
 <!-- Node16 -->
 <g id="node5" class="node"><title>Node16</title>
-<g id="a_node5"><a xlink:href="classGotoFunctionListCtrl" target="_top" xlink:title="{GotoFunctionListCtrl\n||+ GotoFunctionListCtrl()\l+ OnGetItemText()\l+ SetIterator()\l}">
-<polygon fill="none" stroke="black" points="419,-226.5 419,-305.5 538,-305.5 538,-226.5 419,-226.5"/>
-<text text-anchor="middle" x="478.5" y="-293.5" font-family="FreeSans" font-size="10.00">GotoFunctionListCtrl</text>
-<polyline fill="none" stroke="black" points="419,-286.5 538,-286.5 "/>
-<text text-anchor="middle" x="478.5" y="-274.5" font-family="FreeSans" font-size="10.00"> </text>
-<polyline fill="none" stroke="black" points="419,-267.5 538,-267.5 "/>
-<text text-anchor="start" x="427" y="-255.5" font-family="FreeSans" font-size="10.00">+ GotoFunctionListCtrl()</text>
-<text text-anchor="start" x="427" y="-244.5" font-family="FreeSans" font-size="10.00">+ OnGetItemText()</text>
-<text text-anchor="start" x="427" y="-233.5" font-family="FreeSans" font-size="10.00">+ SetIterator()</text>
+<g id="a_node5"><a xlink:href="classIncrementalListCtrl" target="_top" xlink:title="Class that implements a virtual list control that uses an IncrementalSelectIterator to populate the l...">
+<polygon fill="none" stroke="black" points="426.5,-226.5 426.5,-305.5 538.5,-305.5 538.5,-226.5 426.5,-226.5"/>
+<text text-anchor="middle" x="482.5" y="-293.5" font-family="FreeSans" font-size="10.00">IncrementalListCtrl</text>
+<polyline fill="none" stroke="black" points="426.5,-286.5 538.5,-286.5 "/>
+<text text-anchor="middle" x="482.5" y="-274.5" font-family="FreeSans" font-size="10.00"> </text>
+<polyline fill="none" stroke="black" points="426.5,-267.5 538.5,-267.5 "/>
+<text text-anchor="start" x="434.5" y="-255.5" font-family="FreeSans" font-size="10.00">+ IncrementalListCtrl()</text>
+<text text-anchor="start" x="434.5" y="-244.5" font-family="FreeSans" font-size="10.00">+ OnGetItemText()</text>
+<text text-anchor="start" x="434.5" y="-233.5" font-family="FreeSans" font-size="10.00">+ SetIterator()</text>
 </a>
 </g>
 </g>
 <!-- Node16&#45;&gt;Node8 -->
 <g id="edge4" class="edge"><title>Node16&#45;&gt;Node8</title>
-<path fill="none" stroke="#404040" d="M507.708,-226.226C519.404,-211.71 533.429,-195.484 547.5,-182 573.429,-157.152 604.716,-132.62 631.912,-112.756"/>
-<polygon fill="none" stroke="#404040" points="632.006,-112.689 634.524,-105.931 641.73,-105.657 639.212,-112.414 632.006,-112.689"/>
+<path fill="none" stroke="#404040" d="M509.703,-226.104C520.683,-211.574 533.951,-195.369 547.5,-182 573.166,-156.675 604.552,-131.995 631.888,-112.152"/>
+<polygon fill="none" stroke="#404040" points="632.008,-112.066 634.55,-105.318 641.757,-105.069 639.215,-111.817 632.008,-112.066"/>
 <text text-anchor="middle" x="594" y="-156" font-family="FreeSans" font-size="10.00"> &#45;m_list</text>
 </g>
 <!-- Node17 -->
@@ -148,8 +148,8 @@
 </g>
 <!-- Node17&#45;&gt;Node16 -->
 <g id="edge5" class="edge"><title>Node17&#45;&gt;Node16</title>
-<path fill="none" stroke="midnightblue" d="M531.605,-544.364C516.324,-464.554 496.49,-360.962 485.913,-305.716"/>
-<polygon fill="none" stroke="midnightblue" points="528.221,-545.305 533.539,-554.469 535.096,-543.989 528.221,-545.305"/>
+<path fill="none" stroke="midnightblue" d="M532.734,-544.364C518.279,-464.554 499.518,-360.962 489.512,-305.716"/>
+<polygon fill="none" stroke="midnightblue" points="529.338,-545.252 534.564,-554.469 536.226,-544.005 529.338,-545.252"/>
 </g>
 <!-- Node17&#45;&gt;Node22 -->
 <g id="edge14" class="edge"><title>Node17&#45;&gt;Node22</title>
@@ -241,8 +241,8 @@
 </g>
 <!-- Node19&#45;&gt;Node16 -->
 <g id="edge7" class="edge"><title>Node19&#45;&gt;Node16</title>
-<path fill="none" stroke="#404040" d="M326.932,-802.363C318.633,-735.657 312.569,-637.136 332.5,-554 354.049,-464.115 408.666,-370.616 444.647,-315.667"/>
-<polygon fill="none" stroke="#404040" points="444.732,-315.539 444.71,-308.328 451.358,-305.534 451.38,-312.745 444.732,-315.539"/>
+<path fill="none" stroke="#404040" d="M326.703,-802.308C318.259,-735.566 312.112,-637.025 332.5,-554 354.606,-463.98 410.456,-370.869 447.415,-315.988"/>
+<polygon fill="none" stroke="#404040" points="447.556,-315.781 447.628,-308.571 454.312,-305.864 454.24,-313.075 447.556,-315.781"/>
 <text text-anchor="middle" x="357.5" y="-652" font-family="FreeSans" font-size="10.00"> &#45;m_Iterator</text>
 </g>
 <!-- Node19&#45;&gt;Node22 -->
@@ -350,9 +350,9 @@
 </g>
 <!-- Node23&#45;&gt;Node8 -->
 <g id="edge17" class="edge"><title>Node23&#45;&gt;Node8</title>
-<path fill="none" stroke="#404040" d="M280.415,-237.21C317.798,-220.846 366.213,-199.91 409.5,-182 484.926,-150.792 572.218,-116.533 630.542,-93.9058"/>
-<polygon fill="none" stroke="#404040" points="630.619,-93.8759 634.769,-87.9781 641.809,-89.5399 637.659,-95.4377 630.619,-93.8759"/>
-<text text-anchor="middle" x="505" y="-156" font-family="FreeSans" font-size="10.00"> &#45;m_iterator</text>
+<path fill="none" stroke="#404040" d="M280.061,-238.905C319.469,-222.501 371.426,-200.932 417.5,-182 490.354,-152.065 574.062,-118.064 630.631,-95.1448"/>
+<polygon fill="none" stroke="#404040" points="630.801,-95.0758 634.861,-89.1158 641.924,-90.5706 637.864,-96.5306 630.801,-95.0758"/>
+<text text-anchor="middle" x="511" y="-156" font-family="FreeSans" font-size="10.00"> &#45;m_iterator</text>
 </g>
 <!-- Node24&#45;&gt;Node23 -->
 <g id="edge18" class="edge"><title>Node24&#45;&gt;Node23</title>

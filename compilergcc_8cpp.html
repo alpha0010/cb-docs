@@ -19,7 +19,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Code::Blocks
-   &#160;<span id="projectnumber">SVN r11012</span>
+   &#160;<span id="projectnumber">SVN r11156</span>
    </div>
   </td>
  </tr>
@@ -71,6 +71,7 @@ $(function() {
 <code>#include &lt;<a class="el" href="configmanager_8h_source">configmanager.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="compilercommandgenerator_8h_source">compilercommandgenerator.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="debuggermanager_8h_source">debuggermanager.h</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="incremental__select__helper_8h_source">incremental_select_helper.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="logmanager_8h_source">logmanager.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="macrosmanager_8h_source">macrosmanager.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="projectmanager_8h_source">projectmanager.h</a>&gt;</code><br />
@@ -182,8 +183,14 @@ Variables</h2></td></tr>
 <tr class="separator:xr-idMenuKillProcess"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:xi-idMenuSelectTarget"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="compilergcc_8cpp#xi-idMenuSelectTarget">idMenuSelectTarget</a> = XRCID(&quot;idCompilerMenuSelectTarget&quot;)</td></tr>
 <tr class="separator:xi-idMenuSelectTarget"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:bk-idMenuSelectTargetOther"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="compilergcc_8cpp#bk-idMenuSelectTargetOther">idMenuSelectTargetOther</a> [<a class="el" href="compilergcc_8h#yf-MAX_TARGETS">MAX_TARGETS</a>]</td></tr>
-<tr class="separator:bk-idMenuSelectTargetOther"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:yi-maxTargetInMenus"><td class="memItemLeft" align="right" valign="top">const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="compilergcc_8cpp#yi-maxTargetInMenus">maxTargetInMenus</a> = 40</td></tr>
+<tr class="separator:yi-maxTargetInMenus"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gw-idMenuSelectTargetOther"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="compilergcc_8cpp#gw-idMenuSelectTargetOther">idMenuSelectTargetOther</a> [<a class="el" href="compilergcc_8cpp#yi-maxTargetInMenus">maxTargetInMenus</a>]</td></tr>
+<tr class="separator:gw-idMenuSelectTargetOther"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:g4-idMenuSelectTargetDialog"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="compilergcc_8cpp#g4-idMenuSelectTargetDialog">idMenuSelectTargetDialog</a> = <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__misc.html#gaa2d93c1680369b4227f7de9de58e5fcb">wxNewId</a>()</td></tr>
+<tr class="separator:g4-idMenuSelectTargetDialog"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:q6-idMenuSelectTargetHasMore"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="compilergcc_8cpp#q6-idMenuSelectTargetHasMore">idMenuSelectTargetHasMore</a> = <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__misc.html#gaa2d93c1680369b4227f7de9de58e5fcb">wxNewId</a>()</td></tr>
+<tr class="separator:q6-idMenuSelectTargetHasMore"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:oy-idMenuNextError"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="compilergcc_8cpp#oy-idMenuNextError">idMenuNextError</a> = XRCID(&quot;idCompilerMenuNextError&quot;)</td></tr>
 <tr class="separator:oy-idMenuNextError"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:wl-idMenuPreviousError"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="compilergcc_8cpp#wl-idMenuPreviousError">idMenuPreviousError</a> = XRCID(&quot;idCompilerMenuPreviousError&quot;)</td></tr>
@@ -252,11 +259,11 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="compilergcc_8cpp_source#l02031">2031</a> of file <a class="el" href="compilergcc_8cpp_source">compilergcc.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="compilergcc_8cpp_source#l02053">2053</a> of file <a class="el" href="compilergcc_8cpp_source">compilergcc.cpp</a>.</p>
 
 <p class="reference">References <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga8a02b8875a521df57263a9e6f090f2d0">_()</a>, and <a class="el" href="compiletargetbase_8cpp_source#l00071">CompileTargetBase::GetTitle()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="compilergcc_8cpp_source#l02269">CompilerGCC::BuildStateManagement()</a>, and <a class="el" href="compilergcc_8cpp_source#l02036">CompilerGCC::DoCleanWithMake()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="compilergcc_8cpp_source#l02291">CompilerGCC::BuildStateManagement()</a>, and <a class="el" href="compilergcc_8cpp_source#l02058">CompilerGCC::DoCleanWithMake()</a>.</p>
 
 </div>
 </div>
@@ -284,9 +291,9 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="compilergcc_8cpp_source#l02155">2155</a> of file <a class="el" href="compilergcc_8cpp_source">compilergcc.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="compilergcc_8cpp_source#l02177">2177</a> of file <a class="el" href="compilergcc_8cpp_source">compilergcc.cpp</a>.</p>
 
-<p class="reference">References <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga7dfc2888539861afe6c4337ef315472b">_T</a>, <a class="el" href="compilergcc_8h_source#l00055">bsNone</a>, <a class="el" href="compilergcc_8h_source#l00063">bsProjectDone</a>, <a class="el" href="compilergcc_8h_source#l00062">bsProjectPostBuild</a>, <a class="el" href="compilergcc_8h_source#l00056">bsProjectPreBuild</a>, <a class="el" href="compilergcc_8h_source#l00059">bsTargetBuild</a>, <a class="el" href="compilergcc_8h_source#l00057">bsTargetClean</a>, <a class="el" href="compilergcc_8h_source#l00061">bsTargetDone</a>, <a class="el" href="compilergcc_8h_source#l00060">bsTargetPostBuild</a>, and <a class="el" href="compilergcc_8h_source#l00058">bsTargetPreBuild</a>.</p>
+<p class="reference">References <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga7dfc2888539861afe6c4337ef315472b">_T</a>, <a class="el" href="compilergcc_8h_source#l00053">bsNone</a>, <a class="el" href="compilergcc_8h_source#l00061">bsProjectDone</a>, <a class="el" href="compilergcc_8h_source#l00060">bsProjectPostBuild</a>, <a class="el" href="compilergcc_8h_source#l00054">bsProjectPreBuild</a>, <a class="el" href="compilergcc_8h_source#l00057">bsTargetBuild</a>, <a class="el" href="compilergcc_8h_source#l00055">bsTargetClean</a>, <a class="el" href="compilergcc_8h_source#l00059">bsTargetDone</a>, <a class="el" href="compilergcc_8h_source#l00058">bsTargetPostBuild</a>, and <a class="el" href="compilergcc_8h_source#l00056">bsTargetPreBuild</a>.</p>
 
 </div>
 </div>
@@ -303,9 +310,9 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="compilergcc_8cpp_source#l00087">87</a> of file <a class="el" href="compilergcc_8cpp_source">compilergcc.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="compilergcc_8cpp_source#l00088">88</a> of file <a class="el" href="compilergcc_8cpp_source">compilergcc.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="compilergcc_8cpp_source#l00107">BuildLogger::CreateControl()</a>, and <a class="el" href="compilergcc_8cpp_source#l00680">CompilerGCC::TextURL()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="compilergcc_8cpp_source#l00108">BuildLogger::CreateControl()</a>, and <a class="el" href="compilergcc_8cpp_source#l00689">CompilerGCC::TextURL()</a>.</p>
 
 </div>
 </div>
@@ -321,9 +328,9 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="compilergcc_8cpp_source#l00204">204</a> of file <a class="el" href="compilergcc_8cpp_source">compilergcc.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="compilergcc_8cpp_source#l00212">212</a> of file <a class="el" href="compilergcc_8cpp_source">compilergcc.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="compilergcc_8cpp_source#l01209">CompilerGCC::DoRunQueue()</a>, and <a class="el" href="compilergcc_8cpp_source#l03414">CompilerGCC::OnGCCTerminated()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="compilergcc_8cpp_source#l01218">CompilerGCC::DoRunQueue()</a>, and <a class="el" href="compilergcc_8cpp_source#l03455">CompilerGCC::OnGCCTerminated()</a>.</p>
 
 </div>
 </div>
@@ -339,7 +346,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="compilergcc_8cpp_source#l00213">213</a> of file <a class="el" href="compilergcc_8cpp_source">compilergcc.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="compilergcc_8cpp_source#l00221">221</a> of file <a class="el" href="compilergcc_8cpp_source">compilergcc.cpp</a>.</p>
 
 </div>
 </div>
@@ -355,7 +362,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="compilergcc_8cpp_source#l00214">214</a> of file <a class="el" href="compilergcc_8cpp_source">compilergcc.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="compilergcc_8cpp_source#l00222">222</a> of file <a class="el" href="compilergcc_8cpp_source">compilergcc.cpp</a>.</p>
 
 </div>
 </div>
@@ -371,7 +378,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="compilergcc_8cpp_source#l00215">215</a> of file <a class="el" href="compilergcc_8cpp_source">compilergcc.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="compilergcc_8cpp_source#l00223">223</a> of file <a class="el" href="compilergcc_8cpp_source">compilergcc.cpp</a>.</p>
 
 </div>
 </div>
@@ -387,7 +394,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="compilergcc_8cpp_source#l00216">216</a> of file <a class="el" href="compilergcc_8cpp_source">compilergcc.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="compilergcc_8cpp_source#l00224">224</a> of file <a class="el" href="compilergcc_8cpp_source">compilergcc.cpp</a>.</p>
 
 </div>
 </div>
@@ -403,7 +410,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="compilergcc_8cpp_source#l00217">217</a> of file <a class="el" href="compilergcc_8cpp_source">compilergcc.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="compilergcc_8cpp_source#l00225">225</a> of file <a class="el" href="compilergcc_8cpp_source">compilergcc.cpp</a>.</p>
 
 </div>
 </div>
@@ -419,7 +426,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="compilergcc_8cpp_source#l00218">218</a> of file <a class="el" href="compilergcc_8cpp_source">compilergcc.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="compilergcc_8cpp_source#l00226">226</a> of file <a class="el" href="compilergcc_8cpp_source">compilergcc.cpp</a>.</p>
 
 </div>
 </div>
@@ -435,7 +442,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="compilergcc_8cpp_source#l00219">219</a> of file <a class="el" href="compilergcc_8cpp_source">compilergcc.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="compilergcc_8cpp_source#l00227">227</a> of file <a class="el" href="compilergcc_8cpp_source">compilergcc.cpp</a>.</p>
 
 </div>
 </div>
@@ -451,7 +458,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="compilergcc_8cpp_source#l00205">205</a> of file <a class="el" href="compilergcc_8cpp_source">compilergcc.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="compilergcc_8cpp_source#l00213">213</a> of file <a class="el" href="compilergcc_8cpp_source">compilergcc.cpp</a>.</p>
 
 </div>
 </div>
@@ -467,7 +474,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="compilergcc_8cpp_source#l00206">206</a> of file <a class="el" href="compilergcc_8cpp_source">compilergcc.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="compilergcc_8cpp_source#l00214">214</a> of file <a class="el" href="compilergcc_8cpp_source">compilergcc.cpp</a>.</p>
 
 </div>
 </div>
@@ -483,7 +490,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="compilergcc_8cpp_source#l00207">207</a> of file <a class="el" href="compilergcc_8cpp_source">compilergcc.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="compilergcc_8cpp_source#l00215">215</a> of file <a class="el" href="compilergcc_8cpp_source">compilergcc.cpp</a>.</p>
 
 </div>
 </div>
@@ -499,7 +506,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="compilergcc_8cpp_source#l00208">208</a> of file <a class="el" href="compilergcc_8cpp_source">compilergcc.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="compilergcc_8cpp_source#l00216">216</a> of file <a class="el" href="compilergcc_8cpp_source">compilergcc.cpp</a>.</p>
 
 </div>
 </div>
@@ -515,7 +522,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="compilergcc_8cpp_source#l00209">209</a> of file <a class="el" href="compilergcc_8cpp_source">compilergcc.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="compilergcc_8cpp_source#l00217">217</a> of file <a class="el" href="compilergcc_8cpp_source">compilergcc.cpp</a>.</p>
 
 </div>
 </div>
@@ -531,7 +538,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="compilergcc_8cpp_source#l00210">210</a> of file <a class="el" href="compilergcc_8cpp_source">compilergcc.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="compilergcc_8cpp_source#l00218">218</a> of file <a class="el" href="compilergcc_8cpp_source">compilergcc.cpp</a>.</p>
 
 </div>
 </div>
@@ -547,7 +554,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="compilergcc_8cpp_source#l00211">211</a> of file <a class="el" href="compilergcc_8cpp_source">compilergcc.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="compilergcc_8cpp_source#l00219">219</a> of file <a class="el" href="compilergcc_8cpp_source">compilergcc.cpp</a>.</p>
 
 </div>
 </div>
@@ -563,7 +570,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="compilergcc_8cpp_source#l00212">212</a> of file <a class="el" href="compilergcc_8cpp_source">compilergcc.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="compilergcc_8cpp_source#l00220">220</a> of file <a class="el" href="compilergcc_8cpp_source">compilergcc.cpp</a>.</p>
 
 </div>
 </div>
@@ -579,9 +586,9 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="compilergcc_8cpp_source#l00187">187</a> of file <a class="el" href="compilergcc_8cpp_source">compilergcc.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="compilergcc_8cpp_source#l00188">188</a> of file <a class="el" href="compilergcc_8cpp_source">compilergcc.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="compilergcc_8cpp_source#l00543">CompilerGCC::BuildModuleMenu()</a>, <a class="el" href="compilergcc_8cpp_source#l00624">CompilerGCC::Dispatcher()</a>, and <a class="el" href="compilergcc_8cpp_source#l03268">CompilerGCC::OnUpdateUI()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="compilergcc_8cpp_source#l00552">CompilerGCC::BuildModuleMenu()</a>, <a class="el" href="compilergcc_8cpp_source#l00633">CompilerGCC::Dispatcher()</a>, and <a class="el" href="compilergcc_8cpp_source#l03309">CompilerGCC::OnUpdateUI()</a>.</p>
 
 </div>
 </div>
@@ -597,9 +604,9 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="compilergcc_8cpp_source#l00186">186</a> of file <a class="el" href="compilergcc_8cpp_source">compilergcc.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="compilergcc_8cpp_source#l00187">187</a> of file <a class="el" href="compilergcc_8cpp_source">compilergcc.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="compilergcc_8cpp_source#l00624">CompilerGCC::Dispatcher()</a>, and <a class="el" href="compilergcc_8cpp_source#l03268">CompilerGCC::OnUpdateUI()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="compilergcc_8cpp_source#l00633">CompilerGCC::Dispatcher()</a>, and <a class="el" href="compilergcc_8cpp_source#l03309">CompilerGCC::OnUpdateUI()</a>.</p>
 
 </div>
 </div>
@@ -615,9 +622,9 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="compilergcc_8cpp_source#l00182">182</a> of file <a class="el" href="compilergcc_8cpp_source">compilergcc.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="compilergcc_8cpp_source#l00183">183</a> of file <a class="el" href="compilergcc_8cpp_source">compilergcc.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="compilergcc_8cpp_source#l00543">CompilerGCC::BuildModuleMenu()</a>, <a class="el" href="compilergcc_8cpp_source#l00624">CompilerGCC::Dispatcher()</a>, and <a class="el" href="compilergcc_8cpp_source#l03046">CompilerGCC::OnCleanFile()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="compilergcc_8cpp_source#l00552">CompilerGCC::BuildModuleMenu()</a>, <a class="el" href="compilergcc_8cpp_source#l00633">CompilerGCC::Dispatcher()</a>, and <a class="el" href="compilergcc_8cpp_source#l03068">CompilerGCC::OnCleanFile()</a>.</p>
 
 </div>
 </div>
@@ -633,9 +640,9 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="compilergcc_8cpp_source#l00191">191</a> of file <a class="el" href="compilergcc_8cpp_source">compilergcc.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="compilergcc_8cpp_source#l00192">192</a> of file <a class="el" href="compilergcc_8cpp_source">compilergcc.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="compilergcc_8cpp_source#l00543">CompilerGCC::BuildModuleMenu()</a>, <a class="el" href="compilergcc_8cpp_source#l00624">CompilerGCC::Dispatcher()</a>, and <a class="el" href="compilergcc_8cpp_source#l03151">CompilerGCC::OnClean()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="compilergcc_8cpp_source#l00552">CompilerGCC::BuildModuleMenu()</a>, <a class="el" href="compilergcc_8cpp_source#l00633">CompilerGCC::Dispatcher()</a>, and <a class="el" href="compilergcc_8cpp_source#l03173">CompilerGCC::OnClean()</a>.</p>
 
 </div>
 </div>
@@ -651,7 +658,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="compilergcc_8cpp_source#l00190">190</a> of file <a class="el" href="compilergcc_8cpp_source">compilergcc.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="compilergcc_8cpp_source#l00191">191</a> of file <a class="el" href="compilergcc_8cpp_source">compilergcc.cpp</a>.</p>
 
 </div>
 </div>
@@ -667,9 +674,9 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="compilergcc_8cpp_source#l00189">189</a> of file <a class="el" href="compilergcc_8cpp_source">compilergcc.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="compilergcc_8cpp_source#l00190">190</a> of file <a class="el" href="compilergcc_8cpp_source">compilergcc.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="compilergcc_8cpp_source#l00543">CompilerGCC::BuildModuleMenu()</a>, <a class="el" href="compilergcc_8cpp_source#l00624">CompilerGCC::Dispatcher()</a>, and <a class="el" href="compilergcc_8cpp_source#l03268">CompilerGCC::OnUpdateUI()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="compilergcc_8cpp_source#l00552">CompilerGCC::BuildModuleMenu()</a>, <a class="el" href="compilergcc_8cpp_source#l00633">CompilerGCC::Dispatcher()</a>, and <a class="el" href="compilergcc_8cpp_source#l03309">CompilerGCC::OnUpdateUI()</a>.</p>
 
 </div>
 </div>
@@ -685,9 +692,9 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="compilergcc_8cpp_source#l00199">199</a> of file <a class="el" href="compilergcc_8cpp_source">compilergcc.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="compilergcc_8cpp_source#l00207">207</a> of file <a class="el" href="compilergcc_8cpp_source">compilergcc.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="compilergcc_8cpp_source#l00624">CompilerGCC::Dispatcher()</a>, and <a class="el" href="compilergcc_8cpp_source#l03268">CompilerGCC::OnUpdateUI()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="compilergcc_8cpp_source#l00633">CompilerGCC::Dispatcher()</a>, and <a class="el" href="compilergcc_8cpp_source#l03309">CompilerGCC::OnUpdateUI()</a>.</p>
 
 </div>
 </div>
@@ -703,9 +710,9 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="compilergcc_8cpp_source#l00172">172</a> of file <a class="el" href="compilergcc_8cpp_source">compilergcc.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="compilergcc_8cpp_source#l00173">173</a> of file <a class="el" href="compilergcc_8cpp_source">compilergcc.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="compilergcc_8cpp_source#l00624">CompilerGCC::Dispatcher()</a>, and <a class="el" href="compilergcc_8cpp_source#l03268">CompilerGCC::OnUpdateUI()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="compilergcc_8cpp_source#l00633">CompilerGCC::Dispatcher()</a>, and <a class="el" href="compilergcc_8cpp_source#l03309">CompilerGCC::OnUpdateUI()</a>.</p>
 
 </div>
 </div>
@@ -721,9 +728,9 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="compilergcc_8cpp_source#l00192">192</a> of file <a class="el" href="compilergcc_8cpp_source">compilergcc.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="compilergcc_8cpp_source#l00193">193</a> of file <a class="el" href="compilergcc_8cpp_source">compilergcc.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="compilergcc_8cpp_source#l00624">CompilerGCC::Dispatcher()</a>, and <a class="el" href="compilergcc_8cpp_source#l03268">CompilerGCC::OnUpdateUI()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="compilergcc_8cpp_source#l00633">CompilerGCC::Dispatcher()</a>, and <a class="el" href="compilergcc_8cpp_source#l03309">CompilerGCC::OnUpdateUI()</a>.</p>
 
 </div>
 </div>
@@ -739,9 +746,9 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="compilergcc_8cpp_source#l00180">180</a> of file <a class="el" href="compilergcc_8cpp_source">compilergcc.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="compilergcc_8cpp_source#l00181">181</a> of file <a class="el" href="compilergcc_8cpp_source">compilergcc.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="compilergcc_8cpp_source#l00624">CompilerGCC::Dispatcher()</a>, and <a class="el" href="compilergcc_8cpp_source#l03268">CompilerGCC::OnUpdateUI()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="compilergcc_8cpp_source#l00633">CompilerGCC::Dispatcher()</a>, and <a class="el" href="compilergcc_8cpp_source#l03309">CompilerGCC::OnUpdateUI()</a>.</p>
 
 </div>
 </div>
@@ -757,9 +764,9 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="compilergcc_8cpp_source#l00181">181</a> of file <a class="el" href="compilergcc_8cpp_source">compilergcc.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="compilergcc_8cpp_source#l00182">182</a> of file <a class="el" href="compilergcc_8cpp_source">compilergcc.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="compilergcc_8cpp_source#l00543">CompilerGCC::BuildModuleMenu()</a>, <a class="el" href="compilergcc_8cpp_source#l00624">CompilerGCC::Dispatcher()</a>, and <a class="el" href="compilergcc_8cpp_source#l03034">CompilerGCC::OnCompileFile()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="compilergcc_8cpp_source#l00552">CompilerGCC::BuildModuleMenu()</a>, <a class="el" href="compilergcc_8cpp_source#l00633">CompilerGCC::Dispatcher()</a>, and <a class="el" href="compilergcc_8cpp_source#l03056">CompilerGCC::OnCompileFile()</a>.</p>
 
 </div>
 </div>
@@ -775,9 +782,9 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="compilergcc_8cpp_source#l00174">174</a> of file <a class="el" href="compilergcc_8cpp_source">compilergcc.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="compilergcc_8cpp_source#l00175">175</a> of file <a class="el" href="compilergcc_8cpp_source">compilergcc.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="compilergcc_8cpp_source#l00543">CompilerGCC::BuildModuleMenu()</a>, <a class="el" href="compilergcc_8cpp_source#l00624">CompilerGCC::Dispatcher()</a>, and <a class="el" href="compilergcc_8cpp_source#l03020">CompilerGCC::OnCompile()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="compilergcc_8cpp_source#l00552">CompilerGCC::BuildModuleMenu()</a>, <a class="el" href="compilergcc_8cpp_source#l00633">CompilerGCC::Dispatcher()</a>, and <a class="el" href="compilergcc_8cpp_source#l03042">CompilerGCC::OnCompile()</a>.</p>
 
 </div>
 </div>
@@ -793,7 +800,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="compilergcc_8cpp_source#l00173">173</a> of file <a class="el" href="compilergcc_8cpp_source">compilergcc.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="compilergcc_8cpp_source#l00174">174</a> of file <a class="el" href="compilergcc_8cpp_source">compilergcc.cpp</a>.</p>
 
 </div>
 </div>
@@ -809,9 +816,9 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="compilergcc_8cpp_source#l00194">194</a> of file <a class="el" href="compilergcc_8cpp_source">compilergcc.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="compilergcc_8cpp_source#l00195">195</a> of file <a class="el" href="compilergcc_8cpp_source">compilergcc.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="compilergcc_8cpp_source#l00624">CompilerGCC::Dispatcher()</a>, and <a class="el" href="compilergcc_8cpp_source#l03268">CompilerGCC::OnUpdateUI()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="compilergcc_8cpp_source#l00633">CompilerGCC::Dispatcher()</a>, and <a class="el" href="compilergcc_8cpp_source#l03309">CompilerGCC::OnUpdateUI()</a>.</p>
 
 </div>
 </div>
@@ -827,9 +834,9 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="compilergcc_8cpp_source#l00197">197</a> of file <a class="el" href="compilergcc_8cpp_source">compilergcc.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="compilergcc_8cpp_source#l00205">205</a> of file <a class="el" href="compilergcc_8cpp_source">compilergcc.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="compilergcc_8cpp_source#l00624">CompilerGCC::Dispatcher()</a>, and <a class="el" href="compilergcc_8cpp_source#l03268">CompilerGCC::OnUpdateUI()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="compilergcc_8cpp_source#l00633">CompilerGCC::Dispatcher()</a>, and <a class="el" href="compilergcc_8cpp_source#l03309">CompilerGCC::OnUpdateUI()</a>.</p>
 
 </div>
 </div>
@@ -845,9 +852,9 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="compilergcc_8cpp_source#l00198">198</a> of file <a class="el" href="compilergcc_8cpp_source">compilergcc.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="compilergcc_8cpp_source#l00206">206</a> of file <a class="el" href="compilergcc_8cpp_source">compilergcc.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="compilergcc_8cpp_source#l00624">CompilerGCC::Dispatcher()</a>, and <a class="el" href="compilergcc_8cpp_source#l03268">CompilerGCC::OnUpdateUI()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="compilergcc_8cpp_source#l00633">CompilerGCC::Dispatcher()</a>, and <a class="el" href="compilergcc_8cpp_source#l03309">CompilerGCC::OnUpdateUI()</a>.</p>
 
 </div>
 </div>
@@ -863,9 +870,9 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="compilergcc_8cpp_source#l00175">175</a> of file <a class="el" href="compilergcc_8cpp_source">compilergcc.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="compilergcc_8cpp_source#l00176">176</a> of file <a class="el" href="compilergcc_8cpp_source">compilergcc.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="compilergcc_8cpp_source#l00497">CompilerGCC::BuildMenu()</a>, <a class="el" href="compilergcc_8cpp_source#l00624">CompilerGCC::Dispatcher()</a>, and <a class="el" href="compilergcc_8cpp_source#l03268">CompilerGCC::OnUpdateUI()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="compilergcc_8cpp_source#l00506">CompilerGCC::BuildMenu()</a>, <a class="el" href="compilergcc_8cpp_source#l00633">CompilerGCC::Dispatcher()</a>, and <a class="el" href="compilergcc_8cpp_source#l03309">CompilerGCC::OnUpdateUI()</a>.</p>
 
 </div>
 </div>
@@ -881,9 +888,9 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="compilergcc_8cpp_source#l00176">176</a> of file <a class="el" href="compilergcc_8cpp_source">compilergcc.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="compilergcc_8cpp_source#l00177">177</a> of file <a class="el" href="compilergcc_8cpp_source">compilergcc.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="compilergcc_8cpp_source#l00543">CompilerGCC::BuildModuleMenu()</a>, and <a class="el" href="compilergcc_8cpp_source#l00624">CompilerGCC::Dispatcher()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="compilergcc_8cpp_source#l00552">CompilerGCC::BuildModuleMenu()</a>, and <a class="el" href="compilergcc_8cpp_source#l00633">CompilerGCC::Dispatcher()</a>.</p>
 
 </div>
 </div>
@@ -899,9 +906,9 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="compilergcc_8cpp_source#l00177">177</a> of file <a class="el" href="compilergcc_8cpp_source">compilergcc.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="compilergcc_8cpp_source#l00178">178</a> of file <a class="el" href="compilergcc_8cpp_source">compilergcc.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="compilergcc_8cpp_source#l00497">CompilerGCC::BuildMenu()</a>, <a class="el" href="projectmanagerui_8cpp_source#l00472">ProjectManagerUI::CreateMenu()</a>, <a class="el" href="projectmanagerui_8cpp_source#l01631">ProjectManagerUI::OnProperties()</a>, and <a class="el" href="compilergcc_8cpp_source#l03268">CompilerGCC::OnUpdateUI()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="compilergcc_8cpp_source#l00506">CompilerGCC::BuildMenu()</a>, <a class="el" href="projectmanagerui_8cpp_source#l00472">ProjectManagerUI::CreateMenu()</a>, <a class="el" href="projectmanagerui_8cpp_source#l01632">ProjectManagerUI::OnProperties()</a>, and <a class="el" href="compilergcc_8cpp_source#l03309">CompilerGCC::OnUpdateUI()</a>.</p>
 
 </div>
 </div>
@@ -917,9 +924,9 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="compilergcc_8cpp_source#l00183">183</a> of file <a class="el" href="compilergcc_8cpp_source">compilergcc.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="compilergcc_8cpp_source#l00184">184</a> of file <a class="el" href="compilergcc_8cpp_source">compilergcc.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="compilergcc_8cpp_source#l00624">CompilerGCC::Dispatcher()</a>, and <a class="el" href="compilergcc_8cpp_source#l03268">CompilerGCC::OnUpdateUI()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="compilergcc_8cpp_source#l00633">CompilerGCC::Dispatcher()</a>, and <a class="el" href="compilergcc_8cpp_source#l03309">CompilerGCC::OnUpdateUI()</a>.</p>
 
 </div>
 </div>
@@ -935,9 +942,9 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="compilergcc_8cpp_source#l00185">185</a> of file <a class="el" href="compilergcc_8cpp_source">compilergcc.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="compilergcc_8cpp_source#l00186">186</a> of file <a class="el" href="compilergcc_8cpp_source">compilergcc.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="compilergcc_8cpp_source#l00543">CompilerGCC::BuildModuleMenu()</a>, <a class="el" href="compilergcc_8cpp_source#l00624">CompilerGCC::Dispatcher()</a>, and <a class="el" href="compilergcc_8cpp_source#l03086">CompilerGCC::OnRebuild()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="compilergcc_8cpp_source#l00552">CompilerGCC::BuildModuleMenu()</a>, <a class="el" href="compilergcc_8cpp_source#l00633">CompilerGCC::Dispatcher()</a>, and <a class="el" href="compilergcc_8cpp_source#l03108">CompilerGCC::OnRebuild()</a>.</p>
 
 </div>
 </div>
@@ -953,7 +960,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="compilergcc_8cpp_source#l00184">184</a> of file <a class="el" href="compilergcc_8cpp_source">compilergcc.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="compilergcc_8cpp_source#l00185">185</a> of file <a class="el" href="compilergcc_8cpp_source">compilergcc.cpp</a>.</p>
 
 </div>
 </div>
@@ -969,9 +976,9 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="compilergcc_8cpp_source#l00188">188</a> of file <a class="el" href="compilergcc_8cpp_source">compilergcc.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="compilergcc_8cpp_source#l00189">189</a> of file <a class="el" href="compilergcc_8cpp_source">compilergcc.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="compilergcc_8cpp_source#l00543">CompilerGCC::BuildModuleMenu()</a>, <a class="el" href="compilergcc_8cpp_source#l00624">CompilerGCC::Dispatcher()</a>, and <a class="el" href="compilergcc_8cpp_source#l03268">CompilerGCC::OnUpdateUI()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="compilergcc_8cpp_source#l00552">CompilerGCC::BuildModuleMenu()</a>, <a class="el" href="compilergcc_8cpp_source#l00633">CompilerGCC::Dispatcher()</a>, and <a class="el" href="compilergcc_8cpp_source#l03309">CompilerGCC::OnUpdateUI()</a>.</p>
 
 </div>
 </div>
@@ -987,9 +994,9 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="compilergcc_8cpp_source#l00193">193</a> of file <a class="el" href="compilergcc_8cpp_source">compilergcc.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="compilergcc_8cpp_source#l00194">194</a> of file <a class="el" href="compilergcc_8cpp_source">compilergcc.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="compilergcc_8cpp_source#l00624">CompilerGCC::Dispatcher()</a>, and <a class="el" href="compilergcc_8cpp_source#l03268">CompilerGCC::OnUpdateUI()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="compilergcc_8cpp_source#l00633">CompilerGCC::Dispatcher()</a>, and <a class="el" href="compilergcc_8cpp_source#l03309">CompilerGCC::OnUpdateUI()</a>.</p>
 
 </div>
 </div>
@@ -1005,27 +1012,63 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="compilergcc_8cpp_source#l00195">195</a> of file <a class="el" href="compilergcc_8cpp_source">compilergcc.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="compilergcc_8cpp_source#l00196">196</a> of file <a class="el" href="compilergcc_8cpp_source">compilergcc.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="compilergcc_8cpp_source#l00497">CompilerGCC::BuildMenu()</a>, and <a class="el" href="compilergcc_8cpp_source#l03268">CompilerGCC::OnUpdateUI()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="compilergcc_8cpp_source#l00506">CompilerGCC::BuildMenu()</a>, and <a class="el" href="compilergcc_8cpp_source#l03309">CompilerGCC::OnUpdateUI()</a>.</p>
 
 </div>
 </div>
-<a id="bk-idMenuSelectTargetOther"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#bk-idMenuSelectTargetOther">&#9670;&nbsp;</a></span>idMenuSelectTargetOther</h2>
+<a id="g4-idMenuSelectTargetDialog"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#g4-idMenuSelectTargetDialog">&#9670;&nbsp;</a></span>idMenuSelectTargetDialog</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">int idMenuSelectTargetOther[<a class="el" href="compilergcc_8h#yf-MAX_TARGETS">MAX_TARGETS</a>]</td>
+          <td class="memname">int idMenuSelectTargetDialog = <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__misc.html#gaa2d93c1680369b4227f7de9de58e5fcb">wxNewId</a>()</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="compilergcc_8cpp_source#l00196">196</a> of file <a class="el" href="compilergcc_8cpp_source">compilergcc.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="compilergcc_8cpp_source#l00202">202</a> of file <a class="el" href="compilergcc_8cpp_source">compilergcc.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="compilergcc_8cpp_source#l01404">CompilerGCC::DoRecreateTargetMenu()</a>, <a class="el" href="compilergcc_8cpp_source#l01487">CompilerGCC::DoUpdateTargetMenu()</a>, <a class="el" href="compilergcc_8cpp_source#l00323">CompilerGCC::OnAttach()</a>, and <a class="el" href="compilergcc_8cpp_source#l03236">CompilerGCC::OnSelectTarget()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="compilergcc_8cpp_source#l01413">CompilerGCC::DoRecreateTargetMenu()</a>, and <a class="el" href="compilergcc_8cpp_source#l03258">CompilerGCC::OnSelectTarget()</a>.</p>
+
+</div>
+</div>
+<a id="q6-idMenuSelectTargetHasMore"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#q6-idMenuSelectTargetHasMore">&#9670;&nbsp;</a></span>idMenuSelectTargetHasMore</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int idMenuSelectTargetHasMore = <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__misc.html#gaa2d93c1680369b4227f7de9de58e5fcb">wxNewId</a>()</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="compilergcc_8cpp_source#l00203">203</a> of file <a class="el" href="compilergcc_8cpp_source">compilergcc.cpp</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="compilergcc_8cpp_source#l01413">CompilerGCC::DoRecreateTargetMenu()</a>.</p>
+
+</div>
+</div>
+<a id="gw-idMenuSelectTargetOther"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gw-idMenuSelectTargetOther">&#9670;&nbsp;</a></span>idMenuSelectTargetOther</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int idMenuSelectTargetOther[<a class="el" href="compilergcc_8cpp#yi-maxTargetInMenus">maxTargetInMenus</a>]</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="compilergcc_8cpp_source#l00201">201</a> of file <a class="el" href="compilergcc_8cpp_source">compilergcc.cpp</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="compilergcc_8cpp_source#l01413">CompilerGCC::DoRecreateTargetMenu()</a>, <a class="el" href="compilergcc_8cpp_source#l01509">CompilerGCC::DoUpdateTargetMenu()</a>, <a class="el" href="compilergcc_8cpp_source#l00332">CompilerGCC::OnAttach()</a>, and <a class="el" href="compilergcc_8cpp_source#l03258">CompilerGCC::OnSelectTarget()</a>.</p>
 
 </div>
 </div>
@@ -1041,9 +1084,9 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="compilergcc_8cpp_source#l00200">200</a> of file <a class="el" href="compilergcc_8cpp_source">compilergcc.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="compilergcc_8cpp_source#l00208">208</a> of file <a class="el" href="compilergcc_8cpp_source">compilergcc.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="compilergcc_8cpp_source#l00624">CompilerGCC::Dispatcher()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="compilergcc_8cpp_source#l00633">CompilerGCC::Dispatcher()</a>.</p>
 
 </div>
 </div>
@@ -1059,9 +1102,9 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="compilergcc_8cpp_source#l00178">178</a> of file <a class="el" href="compilergcc_8cpp_source">compilergcc.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="compilergcc_8cpp_source#l00179">179</a> of file <a class="el" href="compilergcc_8cpp_source">compilergcc.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="compilergcc_8cpp_source#l00624">CompilerGCC::Dispatcher()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="compilergcc_8cpp_source#l00633">CompilerGCC::Dispatcher()</a>.</p>
 
 </div>
 </div>
@@ -1077,7 +1120,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="compilergcc_8cpp_source#l00179">179</a> of file <a class="el" href="compilergcc_8cpp_source">compilergcc.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="compilergcc_8cpp_source#l00180">180</a> of file <a class="el" href="compilergcc_8cpp_source">compilergcc.cpp</a>.</p>
 
 </div>
 </div>
@@ -1093,9 +1136,9 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="compilergcc_8cpp_source#l00171">171</a> of file <a class="el" href="compilergcc_8cpp_source">compilergcc.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="compilergcc_8cpp_source#l00172">172</a> of file <a class="el" href="compilergcc_8cpp_source">compilergcc.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="compilergcc_8cpp_source#l00323">CompilerGCC::OnAttach()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="compilergcc_8cpp_source#l00332">CompilerGCC::OnAttach()</a>.</p>
 
 </div>
 </div>
@@ -1111,9 +1154,27 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="compilergcc_8cpp_source#l00202">202</a> of file <a class="el" href="compilergcc_8cpp_source">compilergcc.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="compilergcc_8cpp_source#l00210">210</a> of file <a class="el" href="compilergcc_8cpp_source">compilergcc.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="compilergcc_8cpp_source#l03236">CompilerGCC::OnSelectTarget()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="compilergcc_8cpp_source#l03258">CompilerGCC::OnSelectTarget()</a>.</p>
+
+</div>
+</div>
+<a id="yi-maxTargetInMenus"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#yi-maxTargetInMenus">&#9670;&nbsp;</a></span>maxTargetInMenus</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const int maxTargetInMenus = 40</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="compilergcc_8cpp_source#l00200">200</a> of file <a class="el" href="compilergcc_8cpp_source">compilergcc.cpp</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="compilergcc_8cpp_source#l01413">CompilerGCC::DoRecreateTargetMenu()</a>, <a class="el" href="compilergcc_8cpp_source#l01509">CompilerGCC::DoUpdateTargetMenu()</a>, and <a class="el" href="compilergcc_8cpp_source#l00332">CompilerGCC::OnAttach()</a>.</p>
 
 </div>
 </div>

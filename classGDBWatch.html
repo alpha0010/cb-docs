@@ -19,7 +19,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Code::Blocks
-   &#160;<span id="projectnumber">SVN r11012</span>
+   &#160;<span id="projectnumber">SVN r11156</span>
    </div>
   </td>
  </tr>
@@ -52,12 +52,14 @@ $(function() {
 <div class="dynheader">
 Inheritance diagram for GDBWatch:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classGDBWatch__inherit__graph.svg" width="166" height="712"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classGDBWatch__inherit__graph.svg" width="166" height="712"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 <div class="dynheader">
 Collaboration diagram for GDBWatch:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classGDBWatch__coll__graph.svg" width="327" height="867"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classGDBWatch__coll__graph.svg" width="327" height="867"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
@@ -80,6 +82,12 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:bw-SetType"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:va-GetDebugString"><td class="memItemLeft" align="right" valign="top">virtual <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html">wxString</a> const  &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classGDBWatch#va-GetDebugString">GetDebugString</a> () const</td></tr>
 <tr class="separator:va-GetDebugString"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:e1-MakeSymbolToAddress"><td class="memItemLeft" align="right" valign="top"><a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html">wxString</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classGDBWatch#e1-MakeSymbolToAddress">MakeSymbolToAddress</a> () const override</td></tr>
+<tr class="memdesc:e1-MakeSymbolToAddress"><td class="mdescLeft">&#160;</td><td class="mdescRight">This should return a string that when passed to the debugger will return the address of the variable.  <a href="#e1-MakeSymbolToAddress">More...</a><br /></td></tr>
+<tr class="separator:e1-MakeSymbolToAddress"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gi-IsPointerType"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classGDBWatch#gi-IsPointerType">IsPointerType</a> () const override</td></tr>
+<tr class="memdesc:gi-IsPointerType"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tells us if the watch for pointer variable.  <a href="#gi-IsPointerType">More...</a><br /></td></tr>
+<tr class="separator:gi-IsPointerType"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:wc-SetDebugValue"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classGDBWatch#wc-SetDebugValue">SetDebugValue</a> (<a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html">wxString</a> const &amp;value)</td></tr>
 <tr class="separator:wc-SetDebugValue"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:x2-SetSymbol"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classGDBWatch#x2-SetSymbol">SetSymbol</a> (const <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html">wxString</a> &amp;symbol)</td></tr>
@@ -201,7 +209,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="debugger__defs_8cpp_source#l00181">181</a> of file <a class="el" href="debugger__defs_8cpp_source">debugger_defs.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="debugger__defs_8cpp_source#l00183">183</a> of file <a class="el" href="debugger__defs_8cpp_source">debugger_defs.cpp</a>.</p>
 
 </div>
 </div>
@@ -228,7 +236,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="debugger__defs_8cpp_source#l00190">190</a> of file <a class="el" href="debugger__defs_8cpp_source">debugger_defs.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="debugger__defs_8cpp_source#l00192">192</a> of file <a class="el" href="debugger__defs_8cpp_source">debugger_defs.cpp</a>.</p>
 
 </div>
 </div>
@@ -256,7 +264,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="debugger__defs_8cpp_source#l00245">245</a> of file <a class="el" href="debugger__defs_8cpp_source">debugger_defs.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="debugger__defs_8cpp_source#l00258">258</a> of file <a class="el" href="debugger__defs_8cpp_source">debugger_defs.cpp</a>.</p>
 
 </div>
 </div>
@@ -275,9 +283,9 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="debugger__defs_8cpp_source#l00281">281</a> of file <a class="el" href="debugger__defs_8cpp_source">debugger_defs.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="debugger__defs_8cpp_source#l00294">294</a> of file <a class="el" href="debugger__defs_8cpp_source">debugger_defs.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="debugger__defs_8h_source#l00253">m_array_count</a>.</p>
+<p class="reference">References <a class="el" href="debugger__defs_8h_source#l00256">m_array_count</a>.</p>
 
 </div>
 </div>
@@ -296,9 +304,9 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="debugger__defs_8cpp_source#l00276">276</a> of file <a class="el" href="debugger__defs_8cpp_source">debugger_defs.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="debugger__defs_8cpp_source#l00289">289</a> of file <a class="el" href="debugger__defs_8cpp_source">debugger_defs.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="debugger__defs_8h_source#l00252">m_array_start</a>.</p>
+<p class="reference">References <a class="el" href="debugger__defs_8h_source#l00255">m_array_start</a>.</p>
 
 </div>
 </div>
@@ -327,9 +335,9 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Implements <a class="el" href="classcbWatch#yr-GetDebugString">cbWatch</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="debugger__defs_8cpp_source#l00231">231</a> of file <a class="el" href="debugger__defs_8cpp_source">debugger_defs.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="debugger__defs_8cpp_source#l00233">233</a> of file <a class="el" href="debugger__defs_8cpp_source">debugger_defs.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="debugger__defs_8h_source#l00250">m_debug_value</a>.</p>
+<p class="reference">References <a class="el" href="debugger__defs_8h_source#l00253">m_debug_value</a>.</p>
 
 </div>
 </div>
@@ -348,9 +356,9 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="debugger__defs_8cpp_source#l00255">255</a> of file <a class="el" href="debugger__defs_8cpp_source">debugger_defs.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="debugger__defs_8cpp_source#l00268">268</a> of file <a class="el" href="debugger__defs_8cpp_source">debugger_defs.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="debugger__defs_8h_source#l00251">m_format</a>.</p>
+<p class="reference">References <a class="el" href="debugger__defs_8h_source#l00254">m_format</a>.</p>
 
 </div>
 </div>
@@ -369,9 +377,9 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="debugger__defs_8cpp_source#l00291">291</a> of file <a class="el" href="debugger__defs_8cpp_source">debugger_defs.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="debugger__defs_8cpp_source#l00304">304</a> of file <a class="el" href="debugger__defs_8cpp_source">debugger_defs.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="debugger__defs_8h_source#l00255">m_forTooltip</a>.</p>
+<p class="reference">References <a class="el" href="debugger__defs_8h_source#l00258">m_forTooltip</a>.</p>
 
 </div>
 </div>
@@ -401,9 +409,9 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Implements <a class="el" href="classcbWatch#jw-GetFullWatchString">cbWatch</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="debugger__defs_8cpp_source#l00210">210</a> of file <a class="el" href="debugger__defs_8cpp_source">debugger_defs.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="debugger__defs_8cpp_source#l00212">212</a> of file <a class="el" href="debugger__defs_8cpp_source">debugger_defs.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="debuggermanager_8cpp_source#l00143">cbWatch::GetParent()</a>, <a class="el" href="debugger__defs_8h_source#l00247">m_symbol</a>, and <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga437ea6ba615b75dac8603e96ec864160">wxT</a>.</p>
+<p class="reference">References <a class="el" href="debuggermanager_8cpp_source#l00143">cbWatch::GetParent()</a>, <a class="el" href="debugger__defs_8h_source#l00250">m_symbol</a>, and <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga437ea6ba615b75dac8603e96ec864160">wxT</a>.</p>
 
 </div>
 </div>
@@ -433,9 +441,9 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Implements <a class="el" href="classcbWatch#w0-GetSymbol">cbWatch</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="debugger__defs_8cpp_source#l00193">193</a> of file <a class="el" href="debugger__defs_8cpp_source">debugger_defs.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="debugger__defs_8cpp_source#l00195">195</a> of file <a class="el" href="debugger__defs_8cpp_source">debugger_defs.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="debugger__defs_8h_source#l00247">m_symbol</a>.</p>
+<p class="reference">References <a class="el" href="debugger__defs_8h_source#l00250">m_symbol</a>.</p>
 
 </div>
 </div>
@@ -465,9 +473,9 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Implements <a class="el" href="classcbWatch#yl-GetType">cbWatch</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="debugger__defs_8cpp_source#l00222">222</a> of file <a class="el" href="debugger__defs_8cpp_source">debugger_defs.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="debugger__defs_8cpp_source#l00224">224</a> of file <a class="el" href="debugger__defs_8cpp_source">debugger_defs.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="debugger__defs_8h_source#l00248">m_type</a>.</p>
+<p class="reference">References <a class="el" href="debugger__defs_8h_source#l00251">m_type</a>.</p>
 
 </div>
 </div>
@@ -497,9 +505,9 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Implements <a class="el" href="classcbWatch#d4-GetValue">cbWatch</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="debugger__defs_8cpp_source#l00197">197</a> of file <a class="el" href="debugger__defs_8cpp_source">debugger_defs.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="debugger__defs_8cpp_source#l00199">199</a> of file <a class="el" href="debugger__defs_8cpp_source">debugger_defs.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="debugger__defs_8h_source#l00249">m_raw_value</a>.</p>
+<p class="reference">References <a class="el" href="debugger__defs_8h_source#l00252">m_raw_value</a>.</p>
 
 </div>
 </div>
@@ -518,9 +526,76 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="debugger__defs_8cpp_source#l00265">265</a> of file <a class="el" href="debugger__defs_8cpp_source">debugger_defs.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="debugger__defs_8cpp_source#l00278">278</a> of file <a class="el" href="debugger__defs_8cpp_source">debugger_defs.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="debugger__defs_8h_source#l00254">m_is_array</a>.</p>
+<p class="reference">References <a class="el" href="debugger__defs_8h_source#l00257">m_is_array</a>.</p>
+
+</div>
+</div>
+<a id="gi-IsPointerType"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gi-IsPointerType">&#9670;&nbsp;</a></span>IsPointerType()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool GDBWatch::IsPointerType </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Tells us if the watch for pointer variable. </p>
+
+<p>Implements <a class="el" href="classcbWatch#bq-IsPointerType">cbWatch</a>.</p>
+
+<p class="definition">Definition at line <a class="el" href="debugger__defs_8cpp_source#l00243">243</a> of file <a class="el" href="debugger__defs_8cpp_source">debugger_defs.cpp</a>.</p>
+
+<p class="reference">References <a class="el" href="debugger__defs_8cpp_source#l00309">IsPointerType()</a>, and <a class="el" href="debugger__defs_8h_source#l00251">m_type</a>.</p>
+
+</div>
+</div>
+<a id="e1-MakeSymbolToAddress"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#e1-MakeSymbolToAddress">&#9670;&nbsp;</a></span>MakeSymbolToAddress()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html">wxString</a> GDBWatch::MakeSymbolToAddress </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>This should return a string that when passed to the debugger will return the address of the variable. </p>
+<p>For example for C/C++ languages for myVar this function will return &amp;myVar. </p>
+
+<p>Implements <a class="el" href="classcbWatch#wh-MakeSymbolToAddress">cbWatch</a>.</p>
+
+<p class="definition">Definition at line <a class="el" href="debugger__defs_8cpp_source#l00238">238</a> of file <a class="el" href="debugger__defs_8cpp_source">debugger_defs.cpp</a>.</p>
+
+<p class="reference">References <a class="el" href="debugger__defs_8h_source#l00250">m_symbol</a>, and <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga437ea6ba615b75dac8603e96ec864160">wxT</a>.</p>
 
 </div>
 </div>
@@ -540,9 +615,9 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="debugger__defs_8cpp_source#l00260">260</a> of file <a class="el" href="debugger__defs_8cpp_source">debugger_defs.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="debugger__defs_8cpp_source#l00273">273</a> of file <a class="el" href="debugger__defs_8cpp_source">debugger_defs.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="debugger__defs_8h_source#l00254">m_is_array</a>.</p>
+<p class="reference">References <a class="el" href="debugger__defs_8h_source#l00257">m_is_array</a>.</p>
 
 </div>
 </div>
@@ -572,9 +647,9 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="debugger__defs_8cpp_source#l00270">270</a> of file <a class="el" href="debugger__defs_8cpp_source">debugger_defs.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="debugger__defs_8cpp_source#l00283">283</a> of file <a class="el" href="debugger__defs_8cpp_source">debugger_defs.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="debugger__defs_8h_source#l00253">m_array_count</a>, and <a class="el" href="debugger__defs_8h_source#l00252">m_array_start</a>.</p>
+<p class="reference">References <a class="el" href="debugger__defs_8h_source#l00256">m_array_count</a>, and <a class="el" href="debugger__defs_8h_source#l00255">m_array_start</a>.</p>
 
 </div>
 </div>
@@ -594,9 +669,9 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="debugger__defs_8cpp_source#l00235">235</a> of file <a class="el" href="debugger__defs_8cpp_source">debugger_defs.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="debugger__defs_8cpp_source#l00248">248</a> of file <a class="el" href="debugger__defs_8cpp_source">debugger_defs.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="debugger__defs_8h_source#l00250">m_debug_value</a>.</p>
+<p class="reference">References <a class="el" href="debugger__defs_8h_source#l00253">m_debug_value</a>.</p>
 
 </div>
 </div>
@@ -616,9 +691,9 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="debugger__defs_8cpp_source#l00250">250</a> of file <a class="el" href="debugger__defs_8cpp_source">debugger_defs.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="debugger__defs_8cpp_source#l00263">263</a> of file <a class="el" href="debugger__defs_8cpp_source">debugger_defs.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="debugger__defs_8h_source#l00251">m_format</a>.</p>
+<p class="reference">References <a class="el" href="debugger__defs_8h_source#l00254">m_format</a>.</p>
 
 </div>
 </div>
@@ -638,9 +713,9 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="debugger__defs_8cpp_source#l00286">286</a> of file <a class="el" href="debugger__defs_8cpp_source">debugger_defs.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="debugger__defs_8cpp_source#l00299">299</a> of file <a class="el" href="debugger__defs_8cpp_source">debugger_defs.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="debugger__defs_8h_source#l00255">m_forTooltip</a>.</p>
+<p class="reference">References <a class="el" href="debugger__defs_8h_source#l00258">m_forTooltip</a>.</p>
 
 </div>
 </div>
@@ -660,9 +735,9 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="debugger__defs_8cpp_source#l00240">240</a> of file <a class="el" href="debugger__defs_8cpp_source">debugger_defs.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="debugger__defs_8cpp_source#l00253">253</a> of file <a class="el" href="debugger__defs_8cpp_source">debugger_defs.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="debugger__defs_8h_source#l00247">m_symbol</a>.</p>
+<p class="reference">References <a class="el" href="debugger__defs_8h_source#l00250">m_symbol</a>.</p>
 
 </div>
 </div>
@@ -692,9 +767,9 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Implements <a class="el" href="classcbWatch#hs-SetType">cbWatch</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="debugger__defs_8cpp_source#l00226">226</a> of file <a class="el" href="debugger__defs_8cpp_source">debugger_defs.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="debugger__defs_8cpp_source#l00228">228</a> of file <a class="el" href="debugger__defs_8cpp_source">debugger_defs.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="debugger__defs_8h_source#l00248">m_type</a>.</p>
+<p class="reference">References <a class="el" href="debugger__defs_8h_source#l00251">m_type</a>.</p>
 
 </div>
 </div>
@@ -724,9 +799,9 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Implements <a class="el" href="classcbWatch#sr-SetValue">cbWatch</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="debugger__defs_8cpp_source#l00201">201</a> of file <a class="el" href="debugger__defs_8cpp_source">debugger_defs.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="debugger__defs_8cpp_source#l00203">203</a> of file <a class="el" href="debugger__defs_8cpp_source">debugger_defs.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="debugger__defs_8h_source#l00249">m_raw_value</a>, and <a class="el" href="debuggermanager_8cpp_source#l00173">cbWatch::MarkAsChanged()</a>.</p>
+<p class="reference">References <a class="el" href="debugger__defs_8h_source#l00252">m_raw_value</a>, and <a class="el" href="debuggermanager_8cpp_source#l00173">cbWatch::MarkAsChanged()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="debuggergdb__test__parser_8cpp_source#l00048">SUITE()</a>.</p>
 
@@ -753,9 +828,9 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="debugger__defs_8h_source#l00253">253</a> of file <a class="el" href="debugger__defs_8h_source">debugger_defs.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="debugger__defs_8h_source#l00256">256</a> of file <a class="el" href="debugger__defs_8h_source">debugger_defs.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="debugger__defs_8cpp_source#l00281">GetArrayCount()</a>, and <a class="el" href="debugger__defs_8cpp_source#l00270">SetArrayParams()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="debugger__defs_8cpp_source#l00294">GetArrayCount()</a>, and <a class="el" href="debugger__defs_8cpp_source#l00283">SetArrayParams()</a>.</p>
 
 </div>
 </div>
@@ -779,9 +854,9 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="debugger__defs_8h_source#l00252">252</a> of file <a class="el" href="debugger__defs_8h_source">debugger_defs.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="debugger__defs_8h_source#l00255">255</a> of file <a class="el" href="debugger__defs_8h_source">debugger_defs.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="debugger__defs_8cpp_source#l00276">GetArrayStart()</a>, and <a class="el" href="debugger__defs_8cpp_source#l00270">SetArrayParams()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="debugger__defs_8cpp_source#l00289">GetArrayStart()</a>, and <a class="el" href="debugger__defs_8cpp_source#l00283">SetArrayParams()</a>.</p>
 
 </div>
 </div>
@@ -805,9 +880,9 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="debugger__defs_8h_source#l00250">250</a> of file <a class="el" href="debugger__defs_8h_source">debugger_defs.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="debugger__defs_8h_source#l00253">253</a> of file <a class="el" href="debugger__defs_8h_source">debugger_defs.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="debugger__defs_8cpp_source#l00231">GetDebugString()</a>, and <a class="el" href="debugger__defs_8cpp_source#l00235">SetDebugValue()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="debugger__defs_8cpp_source#l00233">GetDebugString()</a>, and <a class="el" href="debugger__defs_8cpp_source#l00248">SetDebugValue()</a>.</p>
 
 </div>
 </div>
@@ -831,9 +906,9 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="debugger__defs_8h_source#l00251">251</a> of file <a class="el" href="debugger__defs_8h_source">debugger_defs.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="debugger__defs_8h_source#l00254">254</a> of file <a class="el" href="debugger__defs_8h_source">debugger_defs.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="debugger__defs_8cpp_source#l00255">GetFormat()</a>, and <a class="el" href="debugger__defs_8cpp_source#l00250">SetFormat()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="debugger__defs_8cpp_source#l00268">GetFormat()</a>, and <a class="el" href="debugger__defs_8cpp_source#l00263">SetFormat()</a>.</p>
 
 </div>
 </div>
@@ -857,9 +932,9 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="debugger__defs_8h_source#l00255">255</a> of file <a class="el" href="debugger__defs_8h_source">debugger_defs.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="debugger__defs_8h_source#l00258">258</a> of file <a class="el" href="debugger__defs_8h_source">debugger_defs.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="debugger__defs_8cpp_source#l00291">GetForTooltip()</a>, and <a class="el" href="debugger__defs_8cpp_source#l00286">SetForTooltip()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="debugger__defs_8cpp_source#l00304">GetForTooltip()</a>, and <a class="el" href="debugger__defs_8cpp_source#l00299">SetForTooltip()</a>.</p>
 
 </div>
 </div>
@@ -883,9 +958,9 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="debugger__defs_8h_source#l00254">254</a> of file <a class="el" href="debugger__defs_8h_source">debugger_defs.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="debugger__defs_8h_source#l00257">257</a> of file <a class="el" href="debugger__defs_8h_source">debugger_defs.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="debugger__defs_8cpp_source#l00265">IsArray()</a>, and <a class="el" href="debugger__defs_8cpp_source#l00260">SetArray()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="debugger__defs_8cpp_source#l00278">IsArray()</a>, and <a class="el" href="debugger__defs_8cpp_source#l00273">SetArray()</a>.</p>
 
 </div>
 </div>
@@ -909,9 +984,9 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="debugger__defs_8h_source#l00249">249</a> of file <a class="el" href="debugger__defs_8h_source">debugger_defs.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="debugger__defs_8h_source#l00252">252</a> of file <a class="el" href="debugger__defs_8h_source">debugger_defs.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="debugger__defs_8cpp_source#l00197">GetValue()</a>, and <a class="el" href="debugger__defs_8cpp_source#l00201">SetValue()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="debugger__defs_8cpp_source#l00199">GetValue()</a>, and <a class="el" href="debugger__defs_8cpp_source#l00203">SetValue()</a>.</p>
 
 </div>
 </div>
@@ -935,9 +1010,9 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="debugger__defs_8h_source#l00247">247</a> of file <a class="el" href="debugger__defs_8h_source">debugger_defs.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="debugger__defs_8h_source#l00250">250</a> of file <a class="el" href="debugger__defs_8h_source">debugger_defs.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="debugger__defs_8cpp_source#l00210">GetFullWatchString()</a>, <a class="el" href="debugger__defs_8cpp_source#l00193">GetSymbol()</a>, and <a class="el" href="debugger__defs_8cpp_source#l00240">SetSymbol()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="debugger__defs_8cpp_source#l00212">GetFullWatchString()</a>, <a class="el" href="debugger__defs_8cpp_source#l00195">GetSymbol()</a>, <a class="el" href="debugger__defs_8cpp_source#l00238">MakeSymbolToAddress()</a>, and <a class="el" href="debugger__defs_8cpp_source#l00253">SetSymbol()</a>.</p>
 
 </div>
 </div>
@@ -961,9 +1036,9 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="debugger__defs_8h_source#l00248">248</a> of file <a class="el" href="debugger__defs_8h_source">debugger_defs.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="debugger__defs_8h_source#l00251">251</a> of file <a class="el" href="debugger__defs_8h_source">debugger_defs.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="debugger__defs_8cpp_source#l00222">GetType()</a>, and <a class="el" href="debugger__defs_8cpp_source#l00226">SetType()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="debugger__defs_8cpp_source#l00224">GetType()</a>, <a class="el" href="debugger__defs_8cpp_source#l00243">IsPointerType()</a>, and <a class="el" href="debugger__defs_8cpp_source#l00228">SetType()</a>.</p>
 
 </div>
 </div>

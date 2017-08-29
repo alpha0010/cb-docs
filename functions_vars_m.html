@@ -19,7 +19,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Code::Blocks
-   &#160;<span id="projectnumber">SVN r11012</span>
+   &#160;<span id="projectnumber">SVN r11156</span>
    </div>
   </td>
  </tr>
@@ -563,6 +563,9 @@ $(function() {
 <li>m_columnMode
 : <a class="el" href="structGotoFunctionDlg_1_1Iterator#eq-m_columnMode">GotoFunctionDlg::Iterator</a>
 </li>
+<li>m_columnWidth
+: <a class="el" href="classIncrementalSelectArrayIterator#s5-m_columnWidth">IncrementalSelectArrayIterator</a>
+</li>
 <li>m_Command
 : <a class="el" href="classcbTool#zg-m_Command">cbTool</a>
 </li>
@@ -775,6 +778,9 @@ $(function() {
 <li>m_DefaultCode
 : <a class="el" href="classEditorConfigurationDlg#aa-m_DefaultCode">EditorConfigurationDlg</a>
 </li>
+<li>m_DefaultExecTarget
+: <a class="el" href="classTargetListData#jn-m_DefaultExecTarget">TargetListData</a>
+</li>
 <li>m_DefaultExecuteTarget
 : <a class="el" href="classcbProject#t4-m_DefaultExecuteTarget">cbProject</a>
 </li>
@@ -874,17 +880,11 @@ $(function() {
 <li>m_DraggingSelection
 : <a class="el" href="classProjectManagerUI#br-m_DraggingSelection">ProjectManagerUI</a>
 </li>
-<li>m_DragInProgress
-: <a class="el" href="classcbDebuggerPlugin#d3-m_DragInProgress">cbDebuggerPlugin</a>
-</li>
 <li>m_dragResult
 : <a class="el" href="classwxScintillaEvent#e0-m_dragResult">wxScintillaEvent</a>
 </li>
 <li>m_EditMenu
 : <a class="el" href="classCodeCompletion#hr-m_EditMenu">CodeCompletion</a>
-</li>
-<li>m_EditorHookId
-: <a class="el" href="classcbDebuggerPlugin#bs-m_EditorHookId">cbDebuggerPlugin</a>
 </li>
 <li>m_EditorHookID
 : <a class="el" href="classCCManager#z5-m_EditorHookID">CCManager</a>
@@ -962,6 +962,9 @@ $(function() {
 </li>
 <li>m_ExcludeDir
 : <a class="el" href="classNativeParserHelper_1_1ParserDirTraverser#ga-m_ExcludeDir">NativeParserHelper::ParserDirTraverser</a>
+</li>
+<li>m_ExecParameters
+: <a class="el" href="classTargetListData#p2-m_ExecParameters">TargetListData</a>
 </li>
 <li>m_ExecutionParameters
 : <a class="el" href="classCompileTargetBase#ns-m_ExecutionParameters">CompileTargetBase</a>
@@ -1184,6 +1187,7 @@ $(function() {
 <li>m_handler
 : <a class="el" href="classGotoFile#zt-m_handler">GotoFile</a>
 , <a class="el" href="classGotoFunctionDlg#it-m_handler">GotoFunctionDlg</a>
+, <a class="el" href="classIncrementalSelectDialog#xt-m_handler">IncrementalSelectDialog</a>
 </li>
 <li>m_HasActiveAddr
 : <a class="el" href="classDisassemblyDlg#h1-m_HasActiveAddr">DisassemblyDlg</a>
@@ -1212,6 +1216,9 @@ $(function() {
 <li>m_HookId
 : <a class="el" href="classDebuggerGDB#zp-m_HookId">DebuggerGDB</a>
 , <a class="el" href="classNativeParser#ya-m_HookId">NativeParser</a>
+</li>
+<li>m_HostApp
+: <a class="el" href="classTargetListData#aj-m_HostApp">TargetListData</a>
 </li>
 <li>m_HostApplication
 : <a class="el" href="classCompileTargetBase#jz-m_HostApplication">CompileTargetBase</a>
@@ -1404,6 +1411,9 @@ $(function() {
 <li>m_itemFont
 : <a class="el" href="classwxSwitcherItems#cs-m_itemFont">wxSwitcherItems</a>
 </li>
+<li>m_items
+: <a class="el" href="classIncrementalSelectArrayIterator#lh-m_items">IncrementalSelectArrayIterator</a>
+</li>
 <li>m_Items
 : <a class="el" href="classSearchTree#zw-m_Items">SearchTree&lt; T &gt;</a>
 , <a class="el" href="classSearchTreeNode#cs-m_Items">SearchTreeNode</a>
@@ -1415,14 +1425,11 @@ $(function() {
 <li>m_ItemsManager
 : <a class="el" href="classToolsManager#wd-m_ItemsManager">ToolsManager</a>
 </li>
-<li>m_Iterator
-: <a class="el" href="classGotoFileListCtrl#m1-m_Iterator">GotoFileListCtrl</a>
-</li>
 <li>m_iterator
 : <a class="el" href="classGotoFunctionDlg#vp-m_iterator">GotoFunctionDlg</a>
 </li>
 <li>m_Iterator
-: <a class="el" href="classGotoFunctionListCtrl#mg-m_Iterator">GotoFunctionListCtrl</a>
+: <a class="el" href="classIncrementalListCtrl#rp-m_Iterator">IncrementalListCtrl</a>
 </li>
 <li>m_iterator
 : <a class="el" href="classIncrementalSelectHandler#hm-m_iterator">IncrementalSelectHandler</a>
@@ -1620,6 +1627,7 @@ $(function() {
 </li>
 <li>m_LastSelected
 : <a class="el" href="classcbAuiNotebook#mm-m_LastSelected">cbAuiNotebook</a>
+, <a class="el" href="classSelectTargetDlg#xj-m_LastSelected">SelectTargetDlg</a>
 </li>
 <li>m_lastSelectedText
 : <a class="el" href="classcbStyledTextCtrl#bq-m_lastSelectedText">cbStyledTextCtrl</a>
@@ -1747,10 +1755,15 @@ $(function() {
 </li>
 <li>m_list
 : <a class="el" href="classBacktraceDlg#qk-m_list">BacktraceDlg</a>
-, <a class="el" href="classGotoFunctionDlg#ry-m_list">GotoFunctionDlg</a>
+, <a class="el" href="classGotoFunctionDlg#wu-m_list">GotoFunctionDlg</a>
 , <a class="el" href="classIncrementalSelectHandler#d4-m_list">IncrementalSelectHandler</a>
 , <a class="el" href="classRecentItemsList#qm-m_list">RecentItemsList</a>
-, <a class="el" href="classThreadsDlg#wl-m_list">ThreadsDlg</a>
+</li>
+<li>m_List
+: <a class="el" href="classSelectTargetDlg#j4-m_List">SelectTargetDlg</a>
+</li>
+<li>m_list
+: <a class="el" href="classThreadsDlg#wl-m_list">ThreadsDlg</a>
 </li>
 <li>m_listCtrl
 : <a class="el" href="classwxSwitcherDialog#o7-m_listCtrl">wxSwitcherDialog</a>
@@ -1884,9 +1897,6 @@ $(function() {
 </li>
 <li>m_message
 : <a class="el" href="classwxScintillaEvent#m4-m_message">wxScintillaEvent</a>
-</li>
-<li>m_middleClickPos
-: <a class="el" href="classcbStyledTextCtrl#eh-m_middleClickPos">cbStyledTextCtrl</a>
 </li>
 <li>m_MinimizeFreeSpaceOnIdle
 : <a class="el" href="classcbAuiNotebook#ur-m_MinimizeFreeSpaceOnIdle">cbAuiNotebook</a>
@@ -2783,7 +2793,10 @@ $(function() {
 : <a class="el" href="classGdbCmd__SetCatch#ft-m_resultIndex">GdbCmd_SetCatch</a>
 </li>
 <li>m_ResultList
-: <a class="el" href="classGotoFile#r1-m_ResultList">GotoFile</a>
+: <a class="el" href="classGotoFile#hp-m_ResultList">GotoFile</a>
+</li>
+<li>m_resultList
+: <a class="el" href="classIncrementalSelectDialog#ct-m_resultList">IncrementalSelectDialog</a>
 </li>
 <li>m_RightClickItem
 : <a class="el" href="classProjectManagerUI#bv-m_RightClickItem">ProjectManagerUI</a>
@@ -2799,6 +2812,9 @@ $(function() {
 </li>
 <li>m_RunCmd
 : <a class="el" href="classCompilerGCC#q2-m_RunCmd">CompilerGCC</a>
+</li>
+<li>m_RunHostAppInTerminal
+: <a class="el" href="classTargetListData#s4-m_RunHostAppInTerminal">TargetListData</a>
 </li>
 <li>m_RunHostApplicationInTerminal
 : <a class="el" href="classCompileTargetBase#d4-m_RunHostApplicationInTermina">CompileTargetBase</a>
@@ -2890,9 +2906,6 @@ $(function() {
 </li>
 <li>m_selection
 : <a class="el" href="classwxSwitcherItems#ib-m_selection">wxSwitcherItems</a>
-</li>
-<li>m_SelectionClipboard
-: <a class="el" href="structEditorManagerInternalData#rr-m_SelectionClipboard">EditorManagerInternalData</a>
 </li>
 <li>m_selectionColour
 : <a class="el" href="classwxSwitcherItems#bm-m_selectionColour">wxSwitcherItems</a>
@@ -3139,6 +3152,7 @@ $(function() {
 </li>
 <li>m_text
 : <a class="el" href="classGotoFunctionDlg#qd-m_text">GotoFunctionDlg</a>
+, <a class="el" href="classIncrementalSelectDialog#yy-m_text">IncrementalSelectDialog</a>
 , <a class="el" href="classIncrementalSelectHandler#pl-m_text">IncrementalSelectHandler</a>
 , <a class="el" href="classWatchRawDialog#os-m_text">WatchRawDialog</a>
 </li>
@@ -3520,6 +3534,9 @@ $(function() {
 <li>m_Wizards
 : <a class="el" href="classNewFromTemplateDlg#k3-m_Wizards">NewFromTemplateDlg</a>
 , <a class="el" href="classWiz#yd-m_Wizards">Wiz</a>
+</li>
+<li>m_WizardScriptFolder
+: <a class="el" href="classWiz#ir-m_WizardScriptFolder">Wiz</a>
 </li>
 <li>m_WorkingDir
 : <a class="el" href="classcbTool#xj-m_WorkingDir">cbTool</a>

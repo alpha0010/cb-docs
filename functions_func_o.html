@@ -19,7 +19,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Code::Blocks
-   &#160;<span id="projectnumber">SVN r11012</span>
+   &#160;<span id="projectnumber">SVN r11156</span>
    </div>
   </td>
  </tr>
@@ -154,9 +154,6 @@ $(function() {
 </li>
 <li>OnAppActivate()
 : <a class="el" href="classCodeBlocksApp#f3-OnAppActivate">CodeBlocksApp</a>
-</li>
-<li>OnAppActivated()
-: <a class="el" href="classEditorManager#zw-OnAppActivated">EditorManager</a>
 </li>
 <li>OnAppDoneStartup()
 : <a class="el" href="classCodeCompletion#mw-OnAppDoneStartup">CodeCompletion</a>
@@ -372,9 +369,6 @@ $(function() {
 <li>OnCharHook()
 : <a class="el" href="classAskAssocDialog#qs-OnCharHook">AskAssocDialog</a>
 </li>
-<li>OnCheckboxSelection()
-: <a class="el" href="classSelectTargetDlg#fp-OnCheckboxSelection">SelectTargetDlg</a>
-</li>
 <li>OnCheckForModifiedFiles()
 : <a class="el" href="classEditorManager#rt-OnCheckForModifiedFiles">EditorManager</a>
 </li>
@@ -579,7 +573,7 @@ $(function() {
 : <a class="el" href="classProjectOptionsDlg#n2-OnCreateImportFileClick">ProjectOptionsDlg</a>
 </li>
 <li>OnCreateStatusBar()
-: <a class="el" href="classMainFrame#r5-OnCreateStatusBar">MainFrame</a>
+: <a class="el" href="classMainFrame#vt-OnCreateStatusBar">MainFrame</a>
 </li>
 <li>OnCtrlAltTab()
 : <a class="el" href="classMainFrame#q2-OnCtrlAltTab">MainFrame</a>
@@ -790,6 +784,12 @@ $(function() {
 <li>OnEditInsertNewLine()
 : <a class="el" href="classMainFrame#t3-OnEditInsertNewLine">MainFrame</a>
 </li>
+<li>OnEditInsertNewLineAbove()
+: <a class="el" href="classMainFrame#wn-OnEditInsertNewLineAbove">MainFrame</a>
+</li>
+<li>OnEditInsertNewLineBelow()
+: <a class="el" href="classMainFrame#o7-OnEditInsertNewLineBelow">MainFrame</a>
+</li>
 <li>OnEditKeywords()
 : <a class="el" href="classEditorConfigurationDlg#xq-OnEditKeywords">EditorConfigurationDlg</a>
 </li>
@@ -855,8 +855,7 @@ $(function() {
 : <a class="el" href="classcbEditor#k3-OnEditorDwellStart">cbEditor</a>
 </li>
 <li>OnEditorHook()
-: <a class="el" href="classcbDebuggerPlugin#b4-OnEditorHook">cbDebuggerPlugin</a>
-, <a class="el" href="classcbSmartIndentPlugin#np-OnEditorHook">cbSmartIndentPlugin</a>
+: <a class="el" href="classcbSmartIndentPlugin#np-OnEditorHook">cbSmartIndentPlugin</a>
 , <a class="el" href="classCCManager#cf-OnEditorHook">CCManager</a>
 </li>
 <li>OnEditorModified()
@@ -993,7 +992,7 @@ $(function() {
 : <a class="el" href="classAskAssocDialog#gg-OnESC">AskAssocDialog</a>
 </li>
 <li>OnEvent()
-: <a class="el" href="classcbDummyEditor#ov-OnEvent">cbDummyEditor</a>
+: <a class="el" href="classcbDummyEditor#jw-OnEvent">cbDummyEditor</a>
 , <a class="el" href="classForwardingTextControl#fc-OnEvent">ForwardingTextControl</a>
 </li>
 <li>OnExecParameters()
@@ -1213,8 +1212,7 @@ $(function() {
 : <a class="el" href="classMainFrame#g2-OnGetActiveLogWindow">MainFrame</a>
 </li>
 <li>OnGetItemText()
-: <a class="el" href="classGotoFileListCtrl#lp-OnGetItemText">GotoFileListCtrl</a>
-, <a class="el" href="classGotoFunctionListCtrl#v1-OnGetItemText">GotoFunctionListCtrl</a>
+: <a class="el" href="classIncrementalListCtrl#nz-OnGetItemText">IncrementalListCtrl</a>
 </li>
 <li>OnGlobalUserVars()
 : <a class="el" href="classMainFrame#b2-OnGlobalUserVars">MainFrame</a>
@@ -1455,6 +1453,9 @@ $(function() {
 <li>OnMenuDeleteAll()
 : <a class="el" href="classWatchesDlg#u0-OnMenuDeleteAll">WatchesDlg</a>
 </li>
+<li>OnMenuExamineMemory()
+: <a class="el" href="classWatchesDlg#c1-OnMenuExamineMemory">WatchesDlg</a>
+</li>
 <li>OnMenuProperties()
 : <a class="el" href="classWatchesDlg#vy-OnMenuProperties">WatchesDlg</a>
 </li>
@@ -1486,9 +1487,6 @@ $(function() {
 <li>OnMouseLeftUp()
 : <a class="el" href="classcbStyledTextCtrl#en-OnMouseLeftUp">cbStyledTextCtrl</a>
 , <a class="el" href="classwxScintilla#a0-OnMouseLeftUp">wxScintilla</a>
-</li>
-<li>OnMouseMiddleClick()
-: <a class="el" href="classcbStyledTextCtrl#xv-OnMouseMiddleClick">cbStyledTextCtrl</a>
 </li>
 <li>OnMouseMiddleDown()
 : <a class="el" href="classcbStyledTextCtrl#ug-OnMouseMiddleDown">cbStyledTextCtrl</a>
@@ -2471,7 +2469,7 @@ $(function() {
 <li>Open()
 : <a class="el" href="classcbEditor#ll-Open">cbEditor</a>
 , <a class="el" href="classcbProject#zs-Open">cbProject</a>
-, <a class="el" href="classEditorManager#r8-Open">EditorManager</a>
+, <a class="el" href="classEditorManager#ua-Open">EditorManager</a>
 , <a class="el" href="classFileLogger#rr-Open">FileLogger</a>
 , <a class="el" href="classHTMLFileLogger#yx-Open">HTMLFileLogger</a>
 , <a class="el" href="classIBaseLoader#iq-Open">IBaseLoader</a>
@@ -2485,6 +2483,9 @@ $(function() {
 </li>
 <li>OpenContainingFolder()
 : <a class="el" href="classEditorManager#nz-OpenContainingFolder">EditorManager</a>
+</li>
+<li>OpenContainingFolderData()
+: <a class="el" href="structOpenContainingFolderData#vs-OpenContainingFolderData">OpenContainingFolderData</a>
 </li>
 <li>OpenFile()
 : <a class="el" href="classcbMimePlugin#vw-OpenFile">cbMimePlugin</a>
@@ -2529,7 +2530,7 @@ $(function() {
 , <a class="el" href="classNullLoader#wu-operator">NullLoader</a>
 , <a class="el" href="structProjectFileRelativePathCmp#to-operator">ProjectFileRelativePathCmp</a>
 , <a class="el" href="structRunAll#f4-operator">RunAll</a>
-, <a class="el" href="structSeqDelete#g1-operator">SeqDelete</a>
+, <a class="el" href="structSeqDelete#yt-operator">SeqDelete</a>
 , <a class="el" href="structTokenSorter#p3-operator">TokenSorter</a>
 , <a class="el" href="classURLLoader#ov-operator">URLLoader</a>
 , <a class="el" href="structWatchesDlg_1_1WatchItemPredicate#z9-operator">WatchesDlg::WatchItemPredicate</a>

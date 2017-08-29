@@ -19,7 +19,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Code::Blocks
-   &#160;<span id="projectnumber">SVN r11012</span>
+   &#160;<span id="projectnumber">SVN r11156</span>
    </div>
   </td>
  </tr>
@@ -476,10 +476,12 @@ $(function() {
 </li>
 <li>Server()
 : <a class="el" href="classIPC#wg-Server">IPC</a>
-, <a class="el" href="classSharedMemory#jw-Server">SharedMemory</a>
 </li>
 <li>server
 : <a class="el" href="classSharedMemory#d5-server">SharedMemory</a>
+</li>
+<li>Server()
+: <a class="el" href="classSharedMemory#jw-Server">SharedMemory</a>
 </li>
 <li>Set()
 : <a class="el" href="classConfigManager#f2-Set">ConfigManager</a>
@@ -574,6 +576,10 @@ $(function() {
 </li>
 <li>SetBackSpaceUnIndents()
 : <a class="el" href="classwxScintilla#xq-SetBackSpaceUnIndents">wxScintilla</a>
+</li>
+<li>SetBaseAddress()
+: <a class="el" href="classcbExamineMemoryDlg#sl-SetBaseAddress">cbExamineMemoryDlg</a>
+, <a class="el" href="classExamineMemoryDlg#ne-SetBaseAddress">ExamineMemoryDlg</a>
 </li>
 <li>SetBasePath()
 : <a class="el" href="classcbSearchResultsLog#bf-SetBasePath">cbSearchResultsLog</a>
@@ -776,6 +782,9 @@ $(function() {
 <li>SetDefaultCompiler()
 : <a class="el" href="classCompilerFactory#wg-SetDefaultCompiler">CompilerFactory</a>
 </li>
+<li>SetDefaultExecTarget()
+: <a class="el" href="classTargetListData#cd-SetDefaultExecTarget">TargetListData</a>
+</li>
 <li>SetDefaultExecuteTarget()
 : <a class="el" href="classcbProject#aj-SetDefaultExecuteTarget">cbProject</a>
 </li>
@@ -860,6 +869,9 @@ $(function() {
 </li>
 <li>SetErrorLine()
 : <a class="el" href="classcbEditor#gx-SetErrorLine">cbEditor</a>
+</li>
+<li>SetExecParameters()
+: <a class="el" href="classTargetListData#jl-SetExecParameters">TargetListData</a>
 </li>
 <li>SetExecutionParameters()
 : <a class="el" href="classCompileTargetBase#gd-SetExecutionParameters">CompileTargetBase</a>
@@ -959,6 +971,9 @@ $(function() {
 <li>SetHighlightGuide()
 : <a class="el" href="classwxScintilla#s5-SetHighlightGuide">wxScintilla</a>
 </li>
+<li>SetHostApp()
+: <a class="el" href="classTargetListData#mu-SetHostApp">TargetListData</a>
+</li>
 <li>SetHostApplication()
 : <a class="el" href="classCompileTargetBase#b3-SetHostApplication">CompileTargetBase</a>
 </li>
@@ -1035,8 +1050,7 @@ $(function() {
 : <a class="el" href="classwxMultiColumnListCtrl#i1-SetItems">wxMultiColumnListCtrl</a>
 </li>
 <li>SetIterator()
-: <a class="el" href="classGotoFileListCtrl#yp-SetIterator">GotoFileListCtrl</a>
-, <a class="el" href="classGotoFunctionListCtrl#ve-SetIterator">GotoFunctionListCtrl</a>
+: <a class="el" href="classIncrementalListCtrl#bm-SetIterator">IncrementalListCtrl</a>
 </li>
 <li>SetKey()
 : <a class="el" href="classwxScintillaEvent#cy-SetKey">wxScintillaEvent</a>
@@ -1419,6 +1433,9 @@ $(function() {
 <li>SetRowPos()
 : <a class="el" href="classwxSwitcherItem#cj-SetRowPos">wxSwitcherItem</a>
 </li>
+<li>SetRunHostAppInTerminal()
+: <a class="el" href="classTargetListData#q8-SetRunHostAppInTerminal">TargetListData</a>
+</li>
 <li>SetRunHostApplicationInTerminal()
 : <a class="el" href="classCompileTargetBase#ar-SetRunHostApplicationInTermin">CompileTargetBase</a>
 </li>
@@ -1457,7 +1474,7 @@ $(function() {
 </li>
 <li>SetSelection()
 : <a class="el" href="classwxScintilla#t3-SetSelection">wxScintilla</a>
-, <a class="el" href="classwxSwitcherItems#n6-SetSelection">wxSwitcherItems</a>
+, <a class="el" href="classwxSwitcherItems#fp-SetSelection">wxSwitcherItems</a>
 </li>
 <li>SetSelectionClipboard()
 : <a class="el" href="classEditorManager#sc-SetSelectionClipboard">EditorManager</a>
@@ -1721,6 +1738,9 @@ $(function() {
 </li>
 <li>SetValueTooltipFont()
 : <a class="el" href="structcbDebuggerCommonConfig#av-SetValueTooltipFont">cbDebuggerCommonConfig</a>
+</li>
+<li>SetValueToUnspecified()
+: <a class="el" href="classcbDummyEditor#db-SetValueToUnspecified">cbDummyEditor</a>
 </li>
 <li>SetVar()
 : <a class="el" href="classCompileOptionsBase#ht-SetVar">CompileOptionsBase</a>
@@ -2018,11 +2038,11 @@ $(function() {
 <li>SkipWhiteSpace()
 : <a class="el" href="classTokenizer#vm-SkipWhiteSpace">Tokenizer</a>
 </li>
-<li>slot
-: <a class="el" href="classLogManager#j7-slot">LogManager</a>
-</li>
 <li>Slot()
 : <a class="el" href="classLogManager#fn-Slot">LogManager</a>
+</li>
+<li>slot
+: <a class="el" href="classLogManager#j7-slot">LogManager</a>
 </li>
 <li>SmartIndentEnabled()
 : <a class="el" href="classcbSmartIndentPlugin#af-SmartIndentEnabled">cbSmartIndentPlugin</a>
@@ -2423,6 +2443,9 @@ $(function() {
 </li>
 <li>SupportsCurrentPlatform()
 : <a class="el" href="classCompileOptionsBase#g0-SupportsCurrentPlatform">CompileOptionsBase</a>
+</li>
+<li>supportSelect
+: <a class="el" href="structOpenContainingFolderData#mn-supportSelect">OpenContainingFolderData</a>
 </li>
 <li>SupportsFeature()
 : <a class="el" href="classcbDebuggerPlugin#xc-SupportsFeature">cbDebuggerPlugin</a>

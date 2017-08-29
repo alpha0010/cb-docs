@@ -19,7 +19,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Code::Blocks
-   &#160;<span id="projectnumber">SVN r11012</span>
+   &#160;<span id="projectnumber">SVN r11156</span>
    </div>
   </td>
  </tr>
@@ -54,12 +54,14 @@ $(function() {
 <div class="dynheader">
 Inheritance diagram for cbWatch:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classcbWatch__inherit__graph.svg" width="166" height="712"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classcbWatch__inherit__graph.svg" width="166" height="712"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 <div class="dynheader">
 Collaboration diagram for cbWatch:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classcbWatch__coll__graph.svg" width="166" height="478"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classcbWatch__coll__graph.svg" width="166" height="478"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
@@ -80,6 +82,12 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:hs-SetType"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:yr-GetDebugString"><td class="memItemLeft" align="right" valign="top">virtual <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html">wxString</a> const  &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcbWatch#yr-GetDebugString">GetDebugString</a> () const =0</td></tr>
 <tr class="separator:yr-GetDebugString"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:wh-MakeSymbolToAddress"><td class="memItemLeft" align="right" valign="top">virtual <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html">wxString</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcbWatch#wh-MakeSymbolToAddress">MakeSymbolToAddress</a> () const =0</td></tr>
+<tr class="memdesc:wh-MakeSymbolToAddress"><td class="mdescLeft">&#160;</td><td class="mdescRight">This should return a string that when passed to the debugger will return the address of the variable.  <a href="#wh-MakeSymbolToAddress">More...</a><br /></td></tr>
+<tr class="separator:wh-MakeSymbolToAddress"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:bq-IsPointerType"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcbWatch#bq-IsPointerType">IsPointerType</a> () const =0</td></tr>
+<tr class="memdesc:bq-IsPointerType"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tells us if the watch for pointer variable.  <a href="#bq-IsPointerType">More...</a><br /></td></tr>
+<tr class="separator:bq-IsPointerType"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:wz-RemoveChild"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcbWatch#wz-RemoveChild">RemoveChild</a> (int index)</td></tr>
 <tr class="separator:wz-RemoveChild"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:y4-RemoveChildren"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcbWatch#y4-RemoveChildren">RemoveChildren</a> ()</td></tr>
@@ -227,7 +235,7 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="debuggermanager_8cpp_source#l00053">53</a> of file <a class="el" href="debuggermanager_8cpp_source">debuggermanager.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="debuggermanager_8h_source#l00097">m_children</a>.</p>
+<p class="reference">References <a class="el" href="debuggermanager_8h_source#l00102">m_children</a>.</p>
 
 </div>
 </div>
@@ -268,7 +276,7 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="debuggermanager_8cpp_source#l00058">58</a> of file <a class="el" href="debuggermanager_8cpp_source">debuggermanager.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="parsewatchvalue_8cpp_source#l00294">AddChild()</a>, and <a class="el" href="debuggergdb__test__parser_8cpp_source#l00048">SUITE()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="parsewatchvalue_8cpp_source#l00304">AddChild()</a>, and <a class="el" href="debuggergdb__test__parser_8cpp_source#l00048">SUITE()</a>.</p>
 
 </div>
 </div>
@@ -290,7 +298,7 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="debuggermanager_8cpp_source#l00200">200</a> of file <a class="el" href="debuggermanager_8cpp_source">debuggermanager.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="debuggermanager_8h_source#l00101">m_autoUpdate</a>.</p>
+<p class="reference">References <a class="el" href="debuggermanager_8h_source#l00106">m_autoUpdate</a>.</p>
 
 </div>
 </div>
@@ -312,7 +320,7 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="debuggermanager_8cpp_source#l00190">190</a> of file <a class="el" href="debuggermanager_8cpp_source">debuggermanager.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="debuggermanager_8h_source#l00100">m_expanded</a>.</p>
+<p class="reference">References <a class="el" href="debuggermanager_8h_source#l00105">m_expanded</a>.</p>
 
 </div>
 </div>
@@ -334,7 +342,7 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="debuggermanager_8cpp_source#l00116">116</a> of file <a class="el" href="debuggermanager_8cpp_source">debuggermanager.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="debuggermanager_8h_source#l00097">m_children</a>.</p>
+<p class="reference">References <a class="el" href="debuggermanager_8h_source#l00102">m_children</a>.</p>
 
 </div>
 </div>
@@ -356,7 +364,7 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="debuggermanager_8cpp_source#l00128">128</a> of file <a class="el" href="debuggermanager_8cpp_source">debuggermanager.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="debuggermanager_8h_source#l00097">m_children</a>.</p>
+<p class="reference">References <a class="el" href="debuggermanager_8h_source#l00102">m_children</a>.</p>
 
 </div>
 </div>
@@ -378,9 +386,9 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="debuggermanager_8cpp_source#l00102">102</a> of file <a class="el" href="debuggermanager_8cpp_source">debuggermanager.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="debuggermanager_8h_source#l00097">m_children</a>.</p>
+<p class="reference">References <a class="el" href="debuggermanager_8h_source#l00102">m_children</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="watchesdlg_8cpp_source#l00411">AppendChildren()</a>, <a class="el" href="debuggergdb__test__parser_8cpp_source#l00004">WatchToString()</a>, and <a class="el" href="watchesdlg_8cpp_source#l00286">WatchRawDialog::WatchToString()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="watchesdlg_8cpp_source#l00421">AppendChildren()</a>, <a class="el" href="debuggergdb__test__parser_8cpp_source#l00004">WatchToString()</a>, and <a class="el" href="watchesdlg_8cpp_source#l00294">WatchRawDialog::WatchToString()</a>.</p>
 
 </div>
 </div>
@@ -402,7 +410,7 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="debuggermanager_8cpp_source#l00109">109</a> of file <a class="el" href="debuggermanager_8cpp_source">debuggermanager.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="debuggermanager_8h_source#l00097">m_children</a>.</p>
+<p class="reference">References <a class="el" href="debuggermanager_8h_source#l00102">m_children</a>.</p>
 
 </div>
 </div>
@@ -423,9 +431,9 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="debuggermanager_8cpp_source#l00097">97</a> of file <a class="el" href="debuggermanager_8cpp_source">debuggermanager.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="debuggermanager_8h_source#l00097">m_children</a>.</p>
+<p class="reference">References <a class="el" href="debuggermanager_8h_source#l00102">m_children</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="watchesdlg_8cpp_source#l00411">AppendChildren()</a>, <a class="el" href="debuggergdb__test__parser_8cpp_source#l00004">WatchToString()</a>, and <a class="el" href="watchesdlg_8cpp_source#l00286">WatchRawDialog::WatchToString()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="watchesdlg_8cpp_source#l00421">AppendChildren()</a>, <a class="el" href="debuggergdb__test__parser_8cpp_source#l00004">WatchToString()</a>, and <a class="el" href="watchesdlg_8cpp_source#l00294">WatchRawDialog::WatchToString()</a>.</p>
 
 </div>
 </div>
@@ -501,9 +509,9 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="debuggermanager_8cpp_source#l00143">143</a> of file <a class="el" href="debuggermanager_8cpp_source">debuggermanager.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="debuggermanager_8h_source#l00096">m_parent</a>.</p>
+<p class="reference">References <a class="el" href="debuggermanager_8h_source#l00101">m_parent</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="debugger__defs_8cpp_source#l00210">GDBWatch::GetFullWatchString()</a>, and <a class="el" href="debuggergdb_8cpp_source#l02172">DebuggerGDB::OnWatchesContextMenu()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="debugger__defs_8cpp_source#l00212">GDBWatch::GetFullWatchString()</a>, and <a class="el" href="debuggergdb_8cpp_source#l02172">DebuggerGDB::OnWatchesContextMenu()</a>.</p>
 
 </div>
 </div>
@@ -524,7 +532,7 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="debuggermanager_8cpp_source#l00148">148</a> of file <a class="el" href="debuggermanager_8cpp_source">debuggermanager.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="debuggermanager_8h_source#l00096">m_parent</a>.</p>
+<p class="reference">References <a class="el" href="debuggermanager_8h_source#l00101">m_parent</a>.</p>
 
 </div>
 </div>
@@ -554,7 +562,7 @@ Private Attributes</h2></td></tr>
 
 <p>Implemented in <a class="el" href="classGDBWatch#mx-GetSymbol">GDBWatch</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="debuggergdb__test__parser_8cpp_source#l00031">getName()</a>, <a class="el" href="debuggergdb_8cpp_source#l02172">DebuggerGDB::OnWatchesContextMenu()</a>, <a class="el" href="debuggergdb__test__parser_8cpp_source#l00004">WatchToString()</a>, and <a class="el" href="watchesdlg_8cpp_source#l00286">WatchRawDialog::WatchToString()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="debuggergdb__test__parser_8cpp_source#l00031">getName()</a>, <a class="el" href="debuggergdb_8cpp_source#l02172">DebuggerGDB::OnWatchesContextMenu()</a>, <a class="el" href="debuggergdb__test__parser_8cpp_source#l00004">WatchToString()</a>, and <a class="el" href="watchesdlg_8cpp_source#l00294">WatchRawDialog::WatchToString()</a>.</p>
 
 </div>
 </div>
@@ -614,7 +622,7 @@ Private Attributes</h2></td></tr>
 
 <p>Implemented in <a class="el" href="classGDBWatch#tk-GetValue">GDBWatch</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="debuggergdb__test__parser_8cpp_source#l00004">WatchToString()</a>, and <a class="el" href="watchesdlg_8cpp_source#l00286">WatchRawDialog::WatchToString()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="debuggergdb__test__parser_8cpp_source#l00004">WatchToString()</a>, and <a class="el" href="watchesdlg_8cpp_source#l00294">WatchRawDialog::WatchToString()</a>.</p>
 
 </div>
 </div>
@@ -635,7 +643,7 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="debuggermanager_8cpp_source#l00195">195</a> of file <a class="el" href="debuggermanager_8cpp_source">debuggermanager.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="debuggermanager_8h_source#l00101">m_autoUpdate</a>.</p>
+<p class="reference">References <a class="el" href="debuggermanager_8h_source#l00106">m_autoUpdate</a>.</p>
 
 </div>
 </div>
@@ -656,7 +664,7 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="debuggermanager_8cpp_source#l00158">158</a> of file <a class="el" href="debuggermanager_8cpp_source">debuggermanager.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="debuggermanager_8h_source#l00098">m_changed</a>.</p>
+<p class="reference">References <a class="el" href="debuggermanager_8h_source#l00103">m_changed</a>.</p>
 
 </div>
 </div>
@@ -677,7 +685,36 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="debuggermanager_8cpp_source#l00185">185</a> of file <a class="el" href="debuggermanager_8cpp_source">debuggermanager.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="debuggermanager_8h_source#l00100">m_expanded</a>.</p>
+<p class="reference">References <a class="el" href="debuggermanager_8h_source#l00105">m_expanded</a>.</p>
+
+</div>
+</div>
+<a id="bq-IsPointerType"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#bq-IsPointerType">&#9670;&nbsp;</a></span>IsPointerType()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual bool cbWatch::IsPointerType </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Tells us if the watch for pointer variable. </p>
+
+<p>Implemented in <a class="el" href="classGDBWatch#gi-IsPointerType">GDBWatch</a>.</p>
 
 </div>
 </div>
@@ -698,7 +735,37 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="debuggermanager_8cpp_source#l00153">153</a> of file <a class="el" href="debuggermanager_8cpp_source">debuggermanager.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="debuggermanager_8h_source#l00099">m_removed</a>.</p>
+<p class="reference">References <a class="el" href="debuggermanager_8h_source#l00104">m_removed</a>.</p>
+
+</div>
+</div>
+<a id="wh-MakeSymbolToAddress"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#wh-MakeSymbolToAddress">&#9670;&nbsp;</a></span>MakeSymbolToAddress()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html">wxString</a> cbWatch::MakeSymbolToAddress </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>This should return a string that when passed to the debugger will return the address of the variable. </p>
+<p>For example for C/C++ languages for myVar this function will return &amp;myVar. </p>
+
+<p>Implemented in <a class="el" href="classGDBWatch#e1-MakeSymbolToAddress">GDBWatch</a>.</p>
 
 </div>
 </div>
@@ -720,9 +787,9 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="debuggermanager_8cpp_source#l00173">173</a> of file <a class="el" href="debuggermanager_8cpp_source">debuggermanager.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="debuggermanager_8h_source#l00098">m_changed</a>.</p>
+<p class="reference">References <a class="el" href="debuggermanager_8h_source#l00103">m_changed</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="debugger__defs_8cpp_source#l00201">GDBWatch::SetValue()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="debugger__defs_8cpp_source#l00203">GDBWatch::SetValue()</a>.</p>
 
 </div>
 </div>
@@ -744,7 +811,7 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="debuggermanager_8cpp_source#l00178">178</a> of file <a class="el" href="debuggermanager_8cpp_source">debuggermanager.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="debuggermanager_8h_source#l00098">m_changed</a>, and <a class="el" href="debuggermanager_8h_source#l00097">m_children</a>.</p>
+<p class="reference">References <a class="el" href="debuggermanager_8h_source#l00103">m_changed</a>, and <a class="el" href="debuggermanager_8h_source#l00102">m_children</a>.</p>
 
 </div>
 </div>
@@ -766,7 +833,7 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="debuggermanager_8cpp_source#l00163">163</a> of file <a class="el" href="debuggermanager_8cpp_source">debuggermanager.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="debuggermanager_8h_source#l00099">m_removed</a>.</p>
+<p class="reference">References <a class="el" href="debuggermanager_8h_source#l00104">m_removed</a>.</p>
 
 </div>
 </div>
@@ -787,7 +854,7 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="debuggermanager_8cpp_source#l00168">168</a> of file <a class="el" href="debuggermanager_8cpp_source">debuggermanager.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="debuggermanager_8h_source#l00097">m_children</a>.</p>
+<p class="reference">References <a class="el" href="debuggermanager_8h_source#l00102">m_children</a>.</p>
 
 </div>
 </div>
@@ -835,7 +902,7 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="debuggermanager_8cpp_source#l00064">64</a> of file <a class="el" href="debuggermanager_8cpp_source">debuggermanager.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="debuggermanager_8h_source#l00097">m_children</a>.</p>
+<p class="reference">References <a class="el" href="debuggermanager_8h_source#l00102">m_children</a>.</p>
 
 </div>
 </div>
@@ -856,7 +923,7 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="debuggermanager_8cpp_source#l00092">92</a> of file <a class="el" href="debuggermanager_8cpp_source">debuggermanager.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="debuggermanager_8h_source#l00097">m_children</a>.</p>
+<p class="reference">References <a class="el" href="debuggermanager_8h_source#l00102">m_children</a>.</p>
 
 </div>
 </div>
@@ -877,7 +944,7 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="debuggermanager_8cpp_source#l00082">82</a> of file <a class="el" href="debuggermanager_8cpp_source">debuggermanager.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="debuggermanager_8h_source#l00097">m_children</a>, and <a class="el" href="debuggermanager_8cpp_source#l00071">TestIfMarkedForRemoval()</a>.</p>
+<p class="reference">References <a class="el" href="debuggermanager_8h_source#l00102">m_children</a>, and <a class="el" href="debuggermanager_8cpp_source#l00071">TestIfMarkedForRemoval()</a>.</p>
 
 </div>
 </div>
@@ -958,7 +1025,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="debuggermanager_8h_source#l00101">101</a> of file <a class="el" href="debuggermanager_8h_source">debuggermanager.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="debuggermanager_8h_source#l00106">106</a> of file <a class="el" href="debuggermanager_8h_source">debuggermanager.h</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="debuggermanager_8cpp_source#l00200">AutoUpdate()</a>, and <a class="el" href="debuggermanager_8cpp_source#l00195">IsAutoUpdateEnabled()</a>.</p>
 
@@ -984,7 +1051,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="debuggermanager_8h_source#l00098">98</a> of file <a class="el" href="debuggermanager_8h_source">debuggermanager.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="debuggermanager_8h_source#l00103">103</a> of file <a class="el" href="debuggermanager_8h_source">debuggermanager.h</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="debuggermanager_8cpp_source#l00158">IsChanged()</a>, <a class="el" href="debuggermanager_8cpp_source#l00173">MarkAsChanged()</a>, and <a class="el" href="debuggermanager_8cpp_source#l00178">MarkAsChangedRecursive()</a>.</p>
 
@@ -1010,7 +1077,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="debuggermanager_8h_source#l00097">97</a> of file <a class="el" href="debuggermanager_8h_source">debuggermanager.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="debuggermanager_8h_source#l00102">102</a> of file <a class="el" href="debuggermanager_8h_source">debuggermanager.h</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="debuggermanager_8cpp_source#l00116">FindChild()</a>, <a class="el" href="debuggermanager_8cpp_source#l00128">FindChildIndex()</a>, <a class="el" href="debuggermanager_8cpp_source#l00102">GetChild()</a>, <a class="el" href="debuggermanager_8cpp_source#l00097">GetChildCount()</a>, <a class="el" href="debuggermanager_8cpp_source#l00178">MarkAsChangedRecursive()</a>, <a class="el" href="debuggermanager_8cpp_source#l00168">MarkChildsAsRemoved()</a>, <a class="el" href="debuggermanager_8cpp_source#l00064">RemoveChild()</a>, <a class="el" href="debuggermanager_8cpp_source#l00092">RemoveChildren()</a>, <a class="el" href="debuggermanager_8cpp_source#l00082">RemoveMarkedChildren()</a>, and <a class="el" href="debuggermanager_8cpp_source#l00053">~cbWatch()</a>.</p>
 
@@ -1036,7 +1103,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="debuggermanager_8h_source#l00100">100</a> of file <a class="el" href="debuggermanager_8h_source">debuggermanager.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="debuggermanager_8h_source#l00105">105</a> of file <a class="el" href="debuggermanager_8h_source">debuggermanager.h</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="debuggermanager_8cpp_source#l00190">Expand()</a>, and <a class="el" href="debuggermanager_8cpp_source#l00185">IsExpanded()</a>.</p>
 
@@ -1062,7 +1129,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="debuggermanager_8h_source#l00096">96</a> of file <a class="el" href="debuggermanager_8h_source">debuggermanager.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="debuggermanager_8h_source#l00101">101</a> of file <a class="el" href="debuggermanager_8h_source">debuggermanager.h</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="debuggermanager_8cpp_source#l00143">GetParent()</a>.</p>
 
@@ -1088,7 +1155,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="debuggermanager_8h_source#l00099">99</a> of file <a class="el" href="debuggermanager_8h_source">debuggermanager.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="debuggermanager_8h_source#l00104">104</a> of file <a class="el" href="debuggermanager_8h_source">debuggermanager.h</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="debuggermanager_8cpp_source#l00153">IsRemoved()</a>, and <a class="el" href="debuggermanager_8cpp_source#l00163">MarkAsRemoved()</a>.</p>
 
