@@ -19,7 +19,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Code::Blocks
-   &#160;<span id="projectnumber">SVN r11156</span>
+   &#160;<span id="projectnumber">SVN r11506</span>
    </div>
   </td>
  </tr>
@@ -54,6 +54,7 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="sdk__precomp_8h_source">sdk_precomp.h</a>&quot;</code><br />
+<code>#include &lt;algorithm&gt;</code><br />
 <code>#include &lt;wx/dynlib.h&gt;</code><br />
 <code>#include &lt;wx/filesys.h&gt;</code><br />
 <code>#include &lt;wx/progdlg.h&gt;</code><br />
@@ -70,7 +71,8 @@ $(function() {
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for pluginmanager.cpp:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="pluginmanager_8cpp__incl.svg" width="2406" height="351"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="pluginmanager_8cpp__incl.svg" width="2334" height="351"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 </div>
 <p><a href="pluginmanager_8cpp_source">Go to the source code of this file.</a></p>
@@ -109,6 +111,10 @@ Functions</h2></td></tr>
 <tr class="separator:hx-Cleanup"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:tz-SortByConfigurationPriority"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pluginmanager_8cpp#tz-SortByConfigurationPriority">SortByConfigurationPriority</a> (<a class="el" href="classcbPlugin">cbPlugin</a> **first, <a class="el" href="classcbPlugin">cbPlugin</a> **second)</td></tr>
 <tr class="separator:tz-SortByConfigurationPriority"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:rs-cbHasRunningCompilers"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pluginmanager_8cpp#rs-cbHasRunningCompilers">cbHasRunningCompilers</a> (const <a class="el" href="classPluginManager">PluginManager</a> *manager)</td></tr>
+<tr class="separator:rs-cbHasRunningCompilers"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:cx-cbStopRunningCompilers"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pluginmanager_8cpp#cx-cbStopRunningCompilers">cbStopRunningCompilers</a> (<a class="el" href="classPluginManager">PluginManager</a> *manager)</td></tr>
+<tr class="separator:cx-cbStopRunningCompilers"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
@@ -132,11 +138,59 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="pluginmanager_8cpp_source#l00070">CompareVersions()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="pluginmanager_8cpp_source#l00072">CompareVersions()</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Function Documentation</h2>
+<a id="rs-cbHasRunningCompilers"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#rs-cbHasRunningCompilers">&#9670;&nbsp;</a></span>cbHasRunningCompilers()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool cbHasRunningCompilers </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classPluginManager">PluginManager</a> *&#160;</td>
+          <td class="paramname"><em>manager</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="pluginmanager_8cpp_source#l01535">1535</a> of file <a class="el" href="pluginmanager_8cpp_source">pluginmanager.cpp</a>.</p>
+
+<p class="reference">References <a class="el" href="pluginmanager_8h_source#l00115">PluginManager::GetCompilerPlugins()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="batchbuild_8h_source#l00026">BatchLogWindow::EndModal()</a>, <a class="el" href="main_8cpp_source#l02716">MainFrame::OnApplicationClose()</a>, <a class="el" href="projectmanagerui_8cpp_source#l02357">ProjectManagerUI::OnUpdateUI()</a>, and <a class="el" href="projectmanagerui_8cpp_source#l00569">ProjectManagerUI::ShowMenu()</a>.</p>
+
+</div>
+</div>
+<a id="cx-cbStopRunningCompilers"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#cx-cbStopRunningCompilers">&#9670;&nbsp;</a></span>cbStopRunningCompilers()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void cbStopRunningCompilers </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classPluginManager">PluginManager</a> *&#160;</td>
+          <td class="paramname"><em>manager</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="pluginmanager_8cpp_source#l01545">1545</a> of file <a class="el" href="pluginmanager_8cpp_source">pluginmanager.cpp</a>.</p>
+
+<p class="reference">References <a class="el" href="pluginmanager_8h_source#l00115">PluginManager::GetCompilerPlugins()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__time.html#ga66778879349f76fd833902d3767006fa">wxMilliSleep()</a>, and <a class="el" href="manager_8cpp_source#l00221">Manager::Yield()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="batchbuild_8h_source#l00026">BatchLogWindow::EndModal()</a>, and <a class="el" href="main_8cpp_source#l02716">MainFrame::OnApplicationClose()</a>.</p>
+
+</div>
+</div>
 <a id="ca-CompareVersions"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ca-CompareVersions">&#9670;&nbsp;</a></span>CompareVersions()</h2>
 
@@ -171,11 +225,11 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="pluginmanager_8cpp_source#l00070">70</a> of file <a class="el" href="pluginmanager_8cpp_source">pluginmanager.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="pluginmanager_8cpp_source#l00072">72</a> of file <a class="el" href="pluginmanager_8cpp_source">pluginmanager.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="pluginmanager_8cpp#wf-SIGN">SIGN</a>, and <a class="el" href="pluginmanager_8cpp_source#l00055">VersionStringToNumbers()</a>.</p>
+<p class="reference">References <a class="el" href="pluginmanager_8cpp#wf-SIGN">SIGN</a>, and <a class="el" href="pluginmanager_8cpp_source#l00057">VersionStringToNumbers()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="pluginmanager_8cpp_source#l00211">PluginManager::InstallPlugin()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="pluginmanager_8cpp_source#l00213">PluginManager::InstallPlugin()</a>.</p>
 
 </div>
 </div>
@@ -213,9 +267,9 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="pluginmanager_8cpp_source#l01252">1252</a> of file <a class="el" href="pluginmanager_8cpp_source">pluginmanager.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="pluginmanager_8cpp_source#l01264">1264</a> of file <a class="el" href="pluginmanager_8cpp_source">pluginmanager.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="pluginmanager_8cpp_source#l01257">PluginManager::GetConfigurationPanels()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="pluginmanager_8cpp_source#l01269">PluginManager::GetConfigurationPanels()</a>.</p>
 
 </div>
 </div>
@@ -265,11 +319,11 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="pluginmanager_8cpp_source#l00055">55</a> of file <a class="el" href="pluginmanager_8cpp_source">pluginmanager.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="pluginmanager_8cpp_source#l00057">57</a> of file <a class="el" href="pluginmanager_8cpp_source">pluginmanager.cpp</a>.</p>
 
 <p class="reference">References <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga7dfc2888539861afe6c4337ef315472b">_T</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#a1605126b7bbf5f60a6fca7f393a58f1d">wxString::AfterFirst()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#a230d2887e27bd53592bea08bc053d912">wxString::AfterLast()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#ac37f690daad1637493dc8ffc7c0efe70">wxString::BeforeFirst()</a>, and <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#abb54083175bbc1e1164616b4aa64fcd8">wxString::ToLong()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="pluginmanager_8cpp_source#l00070">CompareVersions()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="pluginmanager_8cpp_source#l00072">CompareVersions()</a>.</p>
 
 </div>
 </div>

@@ -19,7 +19,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Code::Blocks
-   &#160;<span id="projectnumber">SVN r11156</span>
+   &#160;<span id="projectnumber">SVN r11506</span>
    </div>
   </td>
  </tr>
@@ -57,7 +57,8 @@ $(function() {
 <div class="dynheader">
 Collaboration diagram for TokenTree:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classTokenTree__coll__graph.svg" width="1418" height="2326"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classTokenTree__coll__graph.svg" width="1418" height="2326"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
@@ -104,7 +105,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:it-RenameToken"><td class="mdescLeft">&#160;</td><td class="mdescRight">only the token's name need to be changed, thus update the index map of the <a class="el" href="classTokenTree" title="a container class to hold all the Tokens getting from parsing stage ">TokenTree</a>  <a href="#it-RenameToken">More...</a><br /></td></tr>
 <tr class="separator:it-RenameToken"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ww-RecalcInheritanceChain"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTokenTree#ww-RecalcInheritanceChain">RecalcInheritanceChain</a> (<a class="el" href="classToken">Token</a> *token)</td></tr>
-<tr class="memdesc:ww-RecalcInheritanceChain"><td class="mdescLeft">&#160;</td><td class="mdescRight">convert the <a class="el" href="classToken" title="a symbol found in the parsed files, it can be many kinds, such as a variable, a class and so on...">Token</a>'s ancestor string to it's IDs  <a href="#ww-RecalcInheritanceChain">More...</a><br /></td></tr>
+<tr class="memdesc:ww-RecalcInheritanceChain"><td class="mdescLeft">&#160;</td><td class="mdescRight">convert the <a class="el" href="classToken" title="a symbol found in the parsed files, it can be many kinds, such as a variable, a class and so on...">Token</a>'s ancestor string to it's IDs this contains recursive calls, for example in such code  <a href="#ww-RecalcInheritanceChain">More...</a><br /></td></tr>
 <tr class="separator:ww-RecalcInheritanceChain"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:b7-TokenExists"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTokenTree#b7-TokenExists">TokenExists</a> (const <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html">wxString</a> &amp;name, int parent, short int kindMask)</td></tr>
 <tr class="memdesc:b7-TokenExists"><td class="mdescLeft">&#160;</td><td class="mdescRight">query tokens by names  <a href="#b7-TokenExists">More...</a><br /></td></tr>
@@ -131,8 +132,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:cg-RemoveFile"><td class="mdescLeft">&#160;</td><td class="mdescRight">remove tokens belong to the file  <a href="#cg-RemoveFile">More...</a><br /></td></tr>
 <tr class="separator:cg-RemoveFile"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:dv-GetTokens"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="tokentree_8h#hd-TokenList">TokenList</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTokenTree#dv-GetTokens">GetTokens</a> () const</td></tr>
+<tr class="memdesc:dv-GetTokens"><td class="mdescLeft">&#160;</td><td class="mdescRight">Protected access to internal lists / maps.  <a href="#dv-GetTokens">More...</a><br /></td></tr>
 <tr class="separator:dv-GetTokens"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:d9-GetGlobalNameSpaces"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="token_8h#wh-TokenIdxSet">TokenIdxSet</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTokenTree#d9-GetGlobalNameSpaces">GetGlobalNameSpaces</a> () const</td></tr>
+<tr class="memdesc:d9-GetGlobalNameSpaces"><td class="mdescLeft">&#160;</td><td class="mdescRight">all kinds of tokens under global name spaces  <a href="#d9-GetGlobalNameSpaces">More...</a><br /></td></tr>
 <tr class="separator:d9-GetGlobalNameSpaces"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ef-GetFilesMap"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="tokentree_8h#wx-TokenFileMap">TokenFileMap</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTokenTree#ef-GetFilesMap">GetFilesMap</a> () const</td></tr>
 <tr class="separator:ef-GetFilesMap"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -227,9 +230,10 @@ Protected Attributes</h2></td></tr>
 <tr class="memdesc:ad-m_FreeTokens"><td class="mdescLeft">&#160;</td><td class="mdescRight">List of all the deleted (and available) tokens.  <a href="#ad-m_FreeTokens">More...</a><br /></td></tr>
 <tr class="separator:ad-m_FreeTokens"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ao-m_TopNameSpaces"><td class="memItemLeft" align="right" valign="top"><a class="el" href="token_8h#wh-TokenIdxSet">TokenIdxSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTokenTree#ao-m_TopNameSpaces">m_TopNameSpaces</a></td></tr>
-<tr class="memdesc:ao-m_TopNameSpaces"><td class="mdescLeft">&#160;</td><td class="mdescRight">List of tokens belonging to the global namespace.  <a href="#ao-m_TopNameSpaces">More...</a><br /></td></tr>
+<tr class="memdesc:ao-m_TopNameSpaces"><td class="mdescLeft">&#160;</td><td class="mdescRight">namespace tokens belongs to the global namespace  <a href="#ao-m_TopNameSpaces">More...</a><br /></td></tr>
 <tr class="separator:ao-m_TopNameSpaces"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:of-m_GlobalNameSpaces"><td class="memItemLeft" align="right" valign="top"><a class="el" href="token_8h#wh-TokenIdxSet">TokenIdxSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTokenTree#of-m_GlobalNameSpaces">m_GlobalNameSpaces</a></td></tr>
+<tr class="memdesc:of-m_GlobalNameSpaces"><td class="mdescLeft">&#160;</td><td class="mdescRight">any tokens belong to the global namespace  <a href="#of-m_GlobalNameSpaces">More...</a><br /></td></tr>
 <tr class="separator:of-m_GlobalNameSpaces"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:l6-m_FilenameMap"><td class="memItemLeft" align="right" valign="top"><a class="el" href="tokentree_8h#lw-TokenFilenameMap">TokenFilenameMap</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTokenTree#l6-m_FilenameMap">m_FilenameMap</a></td></tr>
 <tr class="memdesc:l6-m_FilenameMap"><td class="mdescLeft">&#160;</td><td class="mdescRight">Map: file names -&gt; file indices.  <a href="#l6-m_FilenameMap">More...</a><br /></td></tr>
@@ -278,7 +282,7 @@ Friends</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="tokentree_8cpp_source#l00051">51</a> of file <a class="el" href="tokentree_8cpp_source">tokentree.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="searchtree_8cpp_source#l00542">BasicSearchTree::clear()</a>, <a class="el" href="searchtree_8h_source#l00431">SearchTree&lt; T &gt;::clear()</a>, <a class="el" href="tokentree_8h_source#l00360">m_FileMap</a>, <a class="el" href="tokentree_8h_source#l00357">m_FilenameMap</a>, <a class="el" href="tokentree_8h_source#l00363">m_FileStatusMap</a>, <a class="el" href="tokentree_8h_source#l00366">m_FilesToBeReparsed</a>, <a class="el" href="tokentree_8h_source#l00350">m_FreeTokens</a>, <a class="el" href="tokentree_8h_source#l00354">m_GlobalNameSpaces</a>, <a class="el" href="tokentree_8h_source#l00343">m_Tokens</a>, <a class="el" href="tokentree_8h_source#l00353">m_TopNameSpaces</a>, and <a class="el" href="tokentree_8h_source#l00335">m_Tree</a>.</p>
+<p class="reference">References <a class="el" href="searchtree_8cpp_source#l00542">BasicSearchTree::clear()</a>, <a class="el" href="searchtree_8h_source#l00431">SearchTree&lt; T &gt;::clear()</a>, <a class="el" href="tokentree_8h_source#l00372">m_FileMap</a>, <a class="el" href="tokentree_8h_source#l00369">m_FilenameMap</a>, <a class="el" href="tokentree_8h_source#l00375">m_FileStatusMap</a>, <a class="el" href="tokentree_8h_source#l00378">m_FilesToBeReparsed</a>, <a class="el" href="tokentree_8h_source#l00360">m_FreeTokens</a>, <a class="el" href="tokentree_8h_source#l00366">m_GlobalNameSpaces</a>, <a class="el" href="tokentree_8h_source#l00353">m_Tokens</a>, <a class="el" href="tokentree_8h_source#l00363">m_TopNameSpaces</a>, and <a class="el" href="tokentree_8h_source#l00345">m_Tree</a>.</p>
 
 </div>
 </div>
@@ -348,7 +352,7 @@ Friends</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="tokentree_8cpp_source#l00364">364</a> of file <a class="el" href="tokentree_8cpp_source">tokentree.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="searchtree_8h_source#l00474">SearchTree&lt; T &gt;::AddItem()</a>, <a class="el" href="tokentree_8cpp_source#l00485">AddTokenToList()</a>, <a class="el" href="searchtree_8h_source#l00488">SearchTree&lt; T &gt;::GetItemAtPos()</a>, <a class="el" href="token_8h_source#l00207">Token::m_FileIdx</a>, <a class="el" href="tokentree_8h_source#l00360">m_FileMap</a>, <a class="el" href="tokentree_8h_source#l00354">m_GlobalNameSpaces</a>, <a class="el" href="token_8h_source#l00188">Token::m_Name</a>, <a class="el" href="token_8h_source#l00265">Token::m_ParentIndex</a>, <a class="el" href="token_8h_source#l00234">Token::m_TokenKind</a>, <a class="el" href="tokentree_8h_source#l00353">m_TopNameSpaces</a>, <a class="el" href="tokentree_8h_source#l00335">m_Tree</a>, and <a class="el" href="token_8h_source#l00034">tkNamespace</a>.</p>
+<p class="reference">References <a class="el" href="searchtree_8h_source#l00474">SearchTree&lt; T &gt;::AddItem()</a>, <a class="el" href="tokentree_8cpp_source#l00485">AddTokenToList()</a>, <a class="el" href="searchtree_8h_source#l00488">SearchTree&lt; T &gt;::GetItemAtPos()</a>, <a class="el" href="token_8h_source#l00207">Token::m_FileIdx</a>, <a class="el" href="tokentree_8h_source#l00372">m_FileMap</a>, <a class="el" href="tokentree_8h_source#l00366">m_GlobalNameSpaces</a>, <a class="el" href="token_8h_source#l00188">Token::m_Name</a>, <a class="el" href="token_8h_source#l00265">Token::m_ParentIndex</a>, <a class="el" href="token_8h_source#l00234">Token::m_TokenKind</a>, <a class="el" href="tokentree_8h_source#l00363">m_TopNameSpaces</a>, <a class="el" href="tokentree_8h_source#l00345">m_Tree</a>, and <a class="el" href="token_8h_source#l00034">tkNamespace</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="tokentree_8cpp_source#l00111">insert()</a>.</p>
 
@@ -393,7 +397,7 @@ Friends</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="tokentree_8cpp_source#l00485">485</a> of file <a class="el" href="tokentree_8cpp_source">tokentree.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="token_8h_source#l00204">Token::m_AncestorsString</a>, <a class="el" href="token_8h_source#l00194">Token::m_Args</a>, <a class="el" href="token_8h_source#l00197">Token::m_BaseArgs</a>, <a class="el" href="token_8h_source#l00185">Token::m_BaseType</a>, <a class="el" href="tokentree_8h_source#l00350">m_FreeTokens</a>, <a class="el" href="token_8h_source#l00182">Token::m_FullType</a>, <a class="el" href="token_8h_source#l00262">Token::m_Index</a>, <a class="el" href="token_8h_source#l00188">Token::m_Name</a>, <a class="el" href="token_8h_source#l00283">Token::m_TemplateArgument</a>, <a class="el" href="tokentree_8h_source#l00343">m_Tokens</a>, <a class="el" href="token_8h_source#l00305">Token::m_TokenTree</a>, and <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#ae81a1f0b72aa33325f922aa50579de59">wxString::Shrink()</a>.</p>
+<p class="reference">References <a class="el" href="token_8h_source#l00204">Token::m_AncestorsString</a>, <a class="el" href="token_8h_source#l00194">Token::m_Args</a>, <a class="el" href="token_8h_source#l00197">Token::m_BaseArgs</a>, <a class="el" href="token_8h_source#l00185">Token::m_BaseType</a>, <a class="el" href="tokentree_8h_source#l00360">m_FreeTokens</a>, <a class="el" href="token_8h_source#l00182">Token::m_FullType</a>, <a class="el" href="token_8h_source#l00262">Token::m_Index</a>, <a class="el" href="token_8h_source#l00188">Token::m_Name</a>, <a class="el" href="token_8h_source#l00283">Token::m_TemplateArgument</a>, <a class="el" href="tokentree_8h_source#l00353">m_Tokens</a>, <a class="el" href="token_8h_source#l00305">Token::m_TokenTree</a>, and <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#ae81a1f0b72aa33325f922aa50579de59">wxString::Shrink()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="tokentree_8cpp_source#l00364">AddToken()</a>.</p>
 
@@ -445,7 +449,7 @@ Friends</h2></td></tr>
 
 <p class="reference">References <a class="el" href="tokentree_8cpp_source#l00819">GetTokenAt()</a>, <a class="el" href="token_8h_source#l00213">Token::m_Doc</a>, <a class="el" href="token_8h_source#l00207">Token::m_FileIdx</a>, <a class="el" href="token_8h_source#l00228">Token::m_ImplDoc</a>, <a class="el" href="token_8h_source#l00216">Token::m_ImplFileIdx</a>, and <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#ae81a1f0b72aa33325f922aa50579de59">wxString::Shrink()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="tokentree_8h_source#l00222">EraseFilesToBeReparsedByIndex()</a>, <a class="el" href="tokenizer_8cpp_source#l01720">Tokenizer::SetLastTokenIdx()</a>, and <a class="el" href="tokenizer_8cpp_source#l00613">Tokenizer::SkipComment()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="tokentree_8h_source#l00232">EraseFilesToBeReparsedByIndex()</a>, <a class="el" href="tokenizer_8cpp_source#l01719">Tokenizer::SetLastTokenIdx()</a>, and <a class="el" href="tokenizer_8cpp_source#l00612">Tokenizer::SkipComment()</a>.</p>
 
 </div>
 </div>
@@ -477,7 +481,7 @@ Friends</h2></td></tr>
 
 <p class="reference">References <a class="el" href="tokentree_8cpp_source#l00819">GetTokenAt()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="classbrowserbuilderthread_8cpp_source#l00824">ClassBrowserBuilderThread::AddAncestorsOf()</a>, <a class="el" href="classbrowserbuilderthread_8cpp_source#l00783">ClassBrowserBuilderThread::AddChildrenOf()</a>, <a class="el" href="nativeparser__base_8h_source#l00614">NativeParserBase::AddChildrenOfEnum()</a>, <a class="el" href="nativeparser__base_8h_source#l00588">NativeParserBase::AddChildrenOfUnnamed()</a>, <a class="el" href="nativeparser__base_8cpp_source#l00966">NativeParserBase::AddConstructors()</a>, <a class="el" href="classbrowserbuilderthread_8cpp_source#l00845">ClassBrowserBuilderThread::AddDescendantsOf()</a>, <a class="el" href="tokenizer_8cpp_source#l02014">Tokenizer::AddMacroDefinition()</a>, <a class="el" href="classbrowserbuilderthread_8cpp_source#l01005">ClassBrowserBuilderThread::AddNodes()</a>, <a class="el" href="nativeparser__base_8cpp_source#l01160">NativeParserBase::AddTemplateAlias()</a>, <a class="el" href="parserthread_8cpp_source#l02780">ParserThread::CalcEnumExpression()</a>, <a class="el" href="tokentree_8cpp_source#l00609">CheckChildRemove()</a>, <a class="el" href="tokenizer_8cpp_source#l01070">Tokenizer::CheckMacroUsageAndReplace()</a>, <a class="el" href="nativeparser__base_8cpp_source#l00339">NativeParserBase::CleanupSearchScope()</a>, <a class="el" href="nativeparser__base_8cpp_source#l01635">NativeParserBase::CollectSearchScopes()</a>, <a class="el" href="nativeparser__base_8cpp_source#l01737">NativeParserBase::ComputeCallTip()</a>, <a class="el" href="classbrowserbuilderthread_8cpp_source#l00687">ClassBrowserBuilderThread::CreateSpecialFolders()</a>, <a class="el" href="nativeparser__base_8cpp_source#l01611">NativeParserBase::DependsOnAllocator()</a>, <a class="el" href="ccdebuginfo_8cpp_source#l00439">CCDebugInfo::DisplayTokenInfo()</a>, <a class="el" href="parserthread_8cpp_source#l01476">ParserThread::DoAddToken()</a>, <a class="el" href="codecompletion_8cpp_source#l02667">CodeCompletion::DoAllMethodsImpl()</a>, <a class="el" href="codecompletion_8cpp_source#l00946">CodeCompletion::DoCodeComplete()</a>, <a class="el" href="insertclassmethoddlg_8cpp_source#l00031">InsertClassMethodDlgHelper::DoFillMethodsFor()</a>, <a class="el" href="ccdebuginfo_8cpp_source#l00529">CCDebugInfo::FillAncestors()</a>, <a class="el" href="ccdebuginfo_8cpp_source#l00513">CCDebugInfo::FillChildren()</a>, <a class="el" href="insertclassmethoddlg_8cpp_source#l00133">InsertClassMethodDlg::FillClasses()</a>, <a class="el" href="ccdebuginfo_8cpp_source#l00545">CCDebugInfo::FillDescendants()</a>, <a class="el" href="nativeparser__base_8cpp_source#l00087">NativeParserBase::FindAIMatches()</a>, <a class="el" href="nativeparser__base_8cpp_source#l00306">NativeParserBase::FindCurrentFunctionScope()</a>, <a class="el" href="nativeparser_8cpp_source#l01454">NativeParser::FindCurrentFunctionStart()</a>, <a class="el" href="tokentree_8cpp_source#l00266">FindMatches()</a>, <a class="el" href="parser__base_8cpp_source#l00381">ParserBase::FindTokensInFile()</a>, <a class="el" href="tokentree_8cpp_source#l00298">FindTokensInFile()</a>, <a class="el" href="doxygen__parser_8cpp_source#l00673">DocumentationHelper::GenerateHTML()</a>, <a class="el" href="nativeparser__base_8cpp_source#l01221">NativeParserBase::GenerateResultSet()</a>, <a class="el" href="token_8cpp_source#l00253">Token::GetNamespace()</a>, <a class="el" href="codecompletion_8cpp_source#l01290">CodeCompletion::GetTokenAt()</a>, <a class="el" href="nativeparser__base_8cpp_source#l01666">NativeParserBase::GetTokenFromCurrentLine()</a>, <a class="el" href="token_8cpp_source#l00289">Token::InheritsFrom()</a>, <a class="el" href="classbrowserbuilderthread_8cpp_source#l00088">ClassBrowserBuilderThread::Init()</a>, <a class="el" href="nativeparser__base_8cpp_source#l01597">NativeParserBase::IsAllocator()</a>, <a class="el" href="nativeparser__base_8h_source#l00640">NativeParserBase::IsChildOfUnnamedOrEnum()</a>, <a class="el" href="doxygen__parser_8cpp_source#l00920">DocumentationHelper::OnDocumentationLink()</a>, <a class="el" href="ccdebuginfo_8cpp_source#l00578">CCDebugInfo::OnFindClick()</a>, <a class="el" href="codecompletion_8cpp_source#l01897">CodeCompletion::OnGotoDeclaration()</a>, <a class="el" href="codecompletion_8cpp_source#l01809">CodeCompletion::OnGotoFunction()</a>, <a class="el" href="ccdebuginfo_8cpp_source#l00697">CCDebugInfo::OnSave()</a>, <a class="el" href="classbrowser_8cpp_source#l00726">ClassBrowser::OnSearch()</a>, <a class="el" href="coderefactoring_8cpp_source#l00153">CodeRefactoring::Parse()</a>, <a class="el" href="nativeparser_8cpp_source#l01579">NativeParser::ParseBufferForUsingNamespace()</a>, <a class="el" href="nativeparser_8cpp_source#l01623">NativeParser::ParseFunctionArguments()</a>, <a class="el" href="nativeparser_8cpp_source#l01721">NativeParser::ParseLocalBlock()</a>, <a class="el" href="nativeparser__base_8cpp_source#l01828">NativeParserBase::PrettyPrintToken()</a>, <a class="el" href="tokentree_8cpp_source#l00787">RecalcFullInheritance()</a>, <a class="el" href="tokentree_8cpp_source#l00643">RecalcInheritanceChain()</a>, <a class="el" href="tokentree_8cpp_source#l00554">RemoveFile()</a>, <a class="el" href="classbrowserbuilderthread_8cpp_source#l00590">ClassBrowserBuilderThread::RemoveInvalidNodes()</a>, <a class="el" href="nativeparser__base_8cpp_source#l00651">NativeParserBase::RemoveLastFunctionChildren()</a>, <a class="el" href="nativeparser__base_8cpp_source#l00740">NativeParserBase::ResolveExpression()</a>, <a class="el" href="nativeparser__base_8cpp_source#l00995">NativeParserBase::ResolveOperator()</a>, <a class="el" href="parserthread_8cpp_source#l03611">ParserThread::ResolveTemplateMap()</a>, <a class="el" href="classbrowserbuilderthread_8cpp_source#l01129">ClassBrowserBuilderThread::TokenContainsChildrenOfKind()</a>, <a class="el" href="parserthread_8cpp_source#l01322">ParserThread::TokenExists()</a>, <a class="el" href="classbrowserbuilderthread_8cpp_source#l01088">ClassBrowserBuilderThread::TokenMatchesFilter()</a>, <a class="el" href="codecompletion_8cpp_source#l03314">CodeCompletion::UpdateEditorSyntax()</a>, and <a class="el" href="coderefactoring_8cpp_source#l00283">CodeRefactoring::VerifyResult()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classbrowserbuilderthread_8cpp_source#l00840">ClassBrowserBuilderThread::AddAncestorsOf()</a>, <a class="el" href="classbrowserbuilderthread_8cpp_source#l00795">ClassBrowserBuilderThread::AddChildrenOf()</a>, <a class="el" href="nativeparser__base_8h_source#l00669">NativeParserBase::AddChildrenOfEnum()</a>, <a class="el" href="nativeparser__base_8h_source#l00643">NativeParserBase::AddChildrenOfUnnamed()</a>, <a class="el" href="nativeparser__base_8cpp_source#l00966">NativeParserBase::AddConstructors()</a>, <a class="el" href="classbrowserbuilderthread_8cpp_source#l00861">ClassBrowserBuilderThread::AddDescendantsOf()</a>, <a class="el" href="tokenizer_8cpp_source#l02027">Tokenizer::AddMacroDefinition()</a>, <a class="el" href="classbrowserbuilderthread_8cpp_source#l01021">ClassBrowserBuilderThread::AddNodes()</a>, <a class="el" href="nativeparser__base_8cpp_source#l01160">NativeParserBase::AddTemplateAlias()</a>, <a class="el" href="parserthread_8cpp_source#l02795">ParserThread::CalcEnumExpression()</a>, <a class="el" href="tokentree_8cpp_source#l00609">CheckChildRemove()</a>, <a class="el" href="tokenizer_8cpp_source#l01069">Tokenizer::CheckMacroUsageAndReplace()</a>, <a class="el" href="nativeparser__base_8cpp_source#l00339">NativeParserBase::CleanupSearchScope()</a>, <a class="el" href="nativeparser__base_8cpp_source#l01635">NativeParserBase::CollectSearchScopes()</a>, <a class="el" href="nativeparser__base_8cpp_source#l01737">NativeParserBase::ComputeCallTip()</a>, <a class="el" href="classbrowserbuilderthread_8cpp_source#l00689">ClassBrowserBuilderThread::CreateSpecialFolders()</a>, <a class="el" href="nativeparser__base_8cpp_source#l01611">NativeParserBase::DependsOnAllocator()</a>, <a class="el" href="ccdebuginfo_8cpp_source#l00439">CCDebugInfo::DisplayTokenInfo()</a>, <a class="el" href="parserthread_8cpp_source#l01475">ParserThread::DoAddToken()</a>, <a class="el" href="codecompletion_8cpp_source#l02697">CodeCompletion::DoAllMethodsImpl()</a>, <a class="el" href="codecompletion_8cpp_source#l00948">CodeCompletion::DoCodeComplete()</a>, <a class="el" href="insertclassmethoddlg_8cpp_source#l00031">InsertClassMethodDlgHelper::DoFillMethodsFor()</a>, <a class="el" href="ccdebuginfo_8cpp_source#l00534">CCDebugInfo::FillAncestors()</a>, <a class="el" href="ccdebuginfo_8cpp_source#l00518">CCDebugInfo::FillChildren()</a>, <a class="el" href="insertclassmethoddlg_8cpp_source#l00133">InsertClassMethodDlg::FillClasses()</a>, <a class="el" href="ccdebuginfo_8cpp_source#l00550">CCDebugInfo::FillDescendants()</a>, <a class="el" href="nativeparser__base_8cpp_source#l00087">NativeParserBase::FindAIMatches()</a>, <a class="el" href="nativeparser__base_8cpp_source#l00306">NativeParserBase::FindCurrentFunctionScope()</a>, <a class="el" href="nativeparser_8cpp_source#l01454">NativeParser::FindCurrentFunctionStart()</a>, <a class="el" href="tokentree_8cpp_source#l00266">FindMatches()</a>, <a class="el" href="tokentree_8cpp_source#l00298">FindTokensInFile()</a>, <a class="el" href="parser__base_8cpp_source#l00381">ParserBase::FindTokensInFile()</a>, <a class="el" href="doxygen__parser_8cpp_source#l00673">DocumentationHelper::GenerateHTML()</a>, <a class="el" href="nativeparser__base_8cpp_source#l01221">NativeParserBase::GenerateResultSet()</a>, <a class="el" href="token_8cpp_source#l00253">Token::GetNamespace()</a>, <a class="el" href="codecompletion_8cpp_source#l01310">CodeCompletion::GetTokenAt()</a>, <a class="el" href="nativeparser__base_8cpp_source#l01666">NativeParserBase::GetTokenFromCurrentLine()</a>, <a class="el" href="token_8cpp_source#l00289">Token::InheritsFrom()</a>, <a class="el" href="classbrowserbuilderthread_8cpp_source#l00088">ClassBrowserBuilderThread::Init()</a>, <a class="el" href="nativeparser__base_8cpp_source#l01597">NativeParserBase::IsAllocator()</a>, <a class="el" href="nativeparser__base_8h_source#l00695">NativeParserBase::IsChildOfUnnamedOrEnum()</a>, <a class="el" href="doxygen__parser_8cpp_source#l00920">DocumentationHelper::OnDocumentationLink()</a>, <a class="el" href="ccdebuginfo_8cpp_source#l00583">CCDebugInfo::OnFindClick()</a>, <a class="el" href="codecompletion_8cpp_source#l01935">CodeCompletion::OnGotoDeclaration()</a>, <a class="el" href="codecompletion_8cpp_source#l01847">CodeCompletion::OnGotoFunction()</a>, <a class="el" href="ccdebuginfo_8cpp_source#l00702">CCDebugInfo::OnSave()</a>, <a class="el" href="classbrowser_8cpp_source#l00726">ClassBrowser::OnSearch()</a>, <a class="el" href="coderefactoring_8cpp_source#l00153">CodeRefactoring::Parse()</a>, <a class="el" href="nativeparser_8cpp_source#l01579">NativeParser::ParseBufferForUsingNamespace()</a>, <a class="el" href="nativeparser_8cpp_source#l01623">NativeParser::ParseFunctionArguments()</a>, <a class="el" href="nativeparser_8cpp_source#l01721">NativeParser::ParseLocalBlock()</a>, <a class="el" href="nativeparser__base_8cpp_source#l01828">NativeParserBase::PrettyPrintToken()</a>, <a class="el" href="tokentree_8cpp_source#l00787">RecalcFullInheritance()</a>, <a class="el" href="tokentree_8cpp_source#l00643">RecalcInheritanceChain()</a>, <a class="el" href="tokentree_8cpp_source#l00554">RemoveFile()</a>, <a class="el" href="classbrowserbuilderthread_8cpp_source#l00592">ClassBrowserBuilderThread::RemoveInvalidNodes()</a>, <a class="el" href="nativeparser__base_8cpp_source#l00651">NativeParserBase::RemoveLastFunctionChildren()</a>, <a class="el" href="nativeparser__base_8cpp_source#l00740">NativeParserBase::ResolveExpression()</a>, <a class="el" href="nativeparser__base_8cpp_source#l00995">NativeParserBase::ResolveOperator()</a>, <a class="el" href="parserthread_8cpp_source#l03626">ParserThread::ResolveTemplateMap()</a>, <a class="el" href="classbrowserbuilderthread_8cpp_source#l01148">ClassBrowserBuilderThread::TokenContainsChildrenOfKind()</a>, <a class="el" href="parserthread_8cpp_source#l01321">ParserThread::TokenExists()</a>, <a class="el" href="classbrowserbuilderthread_8cpp_source#l01104">ClassBrowserBuilderThread::TokenMatchesFilter()</a>, <a class="el" href="codecompletion_8cpp_source#l03344">CodeCompletion::UpdateEditorSyntax()</a>, and <a class="el" href="coderefactoring_8cpp_source#l00283">CodeRefactoring::VerifyResult()</a>.</p>
 
 </div>
 </div>
@@ -557,7 +561,7 @@ Friends</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="tokentree_8cpp_source#l00609">609</a> of file <a class="el" href="tokentree_8cpp_source">tokentree.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="tokentree_8h_source#l00051">at()</a>, <a class="el" href="token_8h_source#l00268">Token::m_Children</a>, <a class="el" href="token_8h_source#l00207">Token::m_FileIdx</a>, <a class="el" href="token_8h_source#l00216">Token::m_ImplFileIdx</a>, and <a class="el" href="tokentree_8h_source#l00343">m_Tokens</a>.</p>
+<p class="reference">References <a class="el" href="tokentree_8h_source#l00051">at()</a>, <a class="el" href="token_8h_source#l00268">Token::m_Children</a>, <a class="el" href="token_8h_source#l00207">Token::m_FileIdx</a>, <a class="el" href="token_8h_source#l00216">Token::m_ImplFileIdx</a>, and <a class="el" href="tokentree_8h_source#l00353">m_Tokens</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="tokentree_8cpp_source#l00554">RemoveFile()</a>.</p>
 
@@ -580,9 +584,9 @@ Friends</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="tokentree_8cpp_source#l00074">74</a> of file <a class="el" href="tokentree_8cpp_source">tokentree.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="searchtree_8cpp_source#l00542">BasicSearchTree::clear()</a>, <a class="el" href="searchtree_8h_source#l00431">SearchTree&lt; T &gt;::clear()</a>, <a class="el" href="tokentree_8h_source#l00360">m_FileMap</a>, <a class="el" href="tokentree_8h_source#l00357">m_FilenameMap</a>, <a class="el" href="tokentree_8h_source#l00363">m_FileStatusMap</a>, <a class="el" href="tokentree_8h_source#l00366">m_FilesToBeReparsed</a>, <a class="el" href="tokentree_8h_source#l00350">m_FreeTokens</a>, <a class="el" href="tokentree_8h_source#l00354">m_GlobalNameSpaces</a>, <a class="el" href="tokentree_8h_source#l00343">m_Tokens</a>, <a class="el" href="tokentree_8h_source#l00353">m_TopNameSpaces</a>, and <a class="el" href="tokentree_8h_source#l00335">m_Tree</a>.</p>
+<p class="reference">References <a class="el" href="searchtree_8cpp_source#l00542">BasicSearchTree::clear()</a>, <a class="el" href="searchtree_8h_source#l00431">SearchTree&lt; T &gt;::clear()</a>, <a class="el" href="tokentree_8h_source#l00372">m_FileMap</a>, <a class="el" href="tokentree_8h_source#l00369">m_FilenameMap</a>, <a class="el" href="tokentree_8h_source#l00375">m_FileStatusMap</a>, <a class="el" href="tokentree_8h_source#l00378">m_FilesToBeReparsed</a>, <a class="el" href="tokentree_8h_source#l00360">m_FreeTokens</a>, <a class="el" href="tokentree_8h_source#l00366">m_GlobalNameSpaces</a>, <a class="el" href="tokentree_8h_source#l00353">m_Tokens</a>, <a class="el" href="tokentree_8h_source#l00363">m_TopNameSpaces</a>, and <a class="el" href="tokentree_8h_source#l00345">m_Tree</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="tokentree_8h_source#l00086">Clear()</a>, <a class="el" href="codecompletion_8cpp_source#l01809">CodeCompletion::OnGotoFunction()</a>, and <a class="el" href="tokentree_8cpp_source#l00069">~TokenTree()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="tokentree_8h_source#l00086">Clear()</a>, <a class="el" href="codecompletion_8cpp_source#l01847">CodeCompletion::OnGotoFunction()</a>, and <a class="el" href="tokentree_8cpp_source#l00069">~TokenTree()</a>.</p>
 
 </div>
 </div>
@@ -613,7 +617,7 @@ Friends</h2></td></tr>
 
 <p class="reference">References <a class="el" href="tokentree_8cpp_source#l00074">clear()</a>, <a class="el" href="tokentree_8cpp_source#l00266">FindMatches()</a>, <a class="el" href="tokentree_8cpp_source#l00298">FindTokensInFile()</a>, <a class="el" href="tokentree_8cpp_source#l00633">RecalcFreeList()</a>, <a class="el" href="tokentree_8cpp_source#l00643">RecalcInheritanceChain()</a>, <a class="el" href="tokentree_8cpp_source#l00549">RemoveFile()</a>, <a class="el" href="tokentree_8cpp_source#l00338">RenameToken()</a>, <a class="el" href="token_8h_source#l00076">tkUndefined</a>, and <a class="el" href="tokentree_8cpp_source#l00141">TokenExists()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="ccdebuginfo_8cpp_source#l00529">CCDebugInfo::FillAncestors()</a>, <a class="el" href="ccdebuginfo_8cpp_source#l00513">CCDebugInfo::FillChildren()</a>, <a class="el" href="ccdebuginfo_8cpp_source#l00545">CCDebugInfo::FillDescendants()</a>, <a class="el" href="ccdebuginfo_8cpp_source#l00389">CCDebugInfo::FillFiles()</a>, and <a class="el" href="nativeparser_8cpp_source#l00802">NativeParser::MarkItemsByAI()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="ccdebuginfo_8cpp_source#l00534">CCDebugInfo::FillAncestors()</a>, <a class="el" href="ccdebuginfo_8cpp_source#l00518">CCDebugInfo::FillChildren()</a>, <a class="el" href="ccdebuginfo_8cpp_source#l00550">CCDebugInfo::FillDescendants()</a>, <a class="el" href="ccdebuginfo_8cpp_source#l00389">CCDebugInfo::FillFiles()</a>, and <a class="el" href="nativeparser_8cpp_source#l00802">NativeParser::MarkItemsByAI()</a>.</p>
 
 </div>
 </div>
@@ -646,7 +650,7 @@ Friends</h2></td></tr>
 
 <p class="reference">References <a class="el" href="tokentree_8cpp_source#l00127">erase()</a>, <a class="el" href="tokentree_8cpp_source#l00111">insert()</a>, and <a class="el" href="tokentree_8cpp_source#l00098">size()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="nativeparser__base_8cpp_source#l01160">NativeParserBase::AddTemplateAlias()</a>, <a class="el" href="codecompletion_8cpp_source#l01809">CodeCompletion::OnGotoFunction()</a>, and <a class="el" href="nativeparser__base_8cpp_source#l00995">NativeParserBase::ResolveOperator()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="nativeparser__base_8cpp_source#l01160">NativeParserBase::AddTemplateAlias()</a>, <a class="el" href="codecompletion_8cpp_source#l01847">CodeCompletion::OnGotoFunction()</a>, and <a class="el" href="nativeparser__base_8cpp_source#l00995">NativeParserBase::ResolveOperator()</a>.</p>
 
 </div>
 </div>
@@ -670,9 +674,9 @@ Friends</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="tokentree_8cpp_source#l00127">127</a> of file <a class="el" href="tokentree_8cpp_source">tokentree.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="tokentree_8h_source#l00343">m_Tokens</a>, and <a class="el" href="tokentree_8cpp_source#l00396">RemoveToken()</a>.</p>
+<p class="reference">References <a class="el" href="tokentree_8h_source#l00353">m_Tokens</a>, and <a class="el" href="tokentree_8cpp_source#l00396">RemoveToken()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="token_8cpp_source#l00275">Token::DeleteAllChildren()</a>, <a class="el" href="tokentree_8h_source#l00063">empty()</a>, and <a class="el" href="tokenizer_8cpp_source#l01996">Tokenizer::HandleUndefs()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="token_8cpp_source#l00275">Token::DeleteAllChildren()</a>, <a class="el" href="tokentree_8h_source#l00063">empty()</a>, and <a class="el" href="tokenizer_8cpp_source#l02009">Tokenizer::HandleUndefs()</a>.</p>
 
 </div>
 </div>
@@ -730,9 +734,9 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="tokentree_8h_source#l00207">207</a> of file <a class="el" href="tokentree_8h_source">tokentree.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="tokentree_8h_source#l00217">217</a> of file <a class="el" href="tokentree_8h_source">tokentree.h</a>.</p>
 
-<p class="reference">References <a class="el" href="tokentree_8h_source#l00360">m_FileMap</a>.</p>
+<p class="reference">References <a class="el" href="tokentree_8h_source#l00372">m_FileMap</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="parser_8cpp_source#l00477">Parser::RemoveFile()</a>.</p>
 
@@ -762,9 +766,9 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="tokentree_8h_source#l00217">217</a> of file <a class="el" href="tokentree_8h_source">tokentree.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="tokentree_8h_source#l00227">227</a> of file <a class="el" href="tokentree_8h_source">tokentree.h</a>.</p>
 
-<p class="reference">References <a class="el" href="tokentree_8h_source#l00363">m_FileStatusMap</a>.</p>
+<p class="reference">References <a class="el" href="tokentree_8h_source#l00375">m_FileStatusMap</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="parser_8cpp_source#l00477">Parser::RemoveFile()</a>.</p>
 
@@ -794,9 +798,9 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="tokentree_8h_source#l00222">222</a> of file <a class="el" href="tokentree_8h_source">tokentree.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="tokentree_8h_source#l00232">232</a> of file <a class="el" href="tokentree_8h_source">tokentree.h</a>.</p>
 
-<p class="reference">References <a class="el" href="tokentree_8cpp_source#l00936">AppendDocumentation()</a>, <a class="el" href="tokentree_8cpp_source#l00931">FlagFileAsParsed()</a>, <a class="el" href="tokentree_8cpp_source#l00926">FlagFileForReparsing()</a>, <a class="el" href="tokentree_8cpp_source#l00960">GetDocumentation()</a>, <a class="el" href="tokentree_8cpp_source#l00851">GetFileIndex()</a>, <a class="el" href="tokentree_8cpp_source#l00843">GetFileMatches()</a>, <a class="el" href="tokentree_8cpp_source#l00858">GetFilename()</a>, <a class="el" href="tokentree_8cpp_source#l00835">InsertFileOrGetIndex()</a>, <a class="el" href="tokentree_8cpp_source#l00863">IsFileParsed()</a>, <a class="el" href="tokentree_8h_source#l00366">m_FilesToBeReparsed</a>, <a class="el" href="tokentree_8cpp_source#l00874">MarkFileTokensAsLocal()</a>, and <a class="el" href="tokentree_8cpp_source#l00896">ReserveFileForParsing()</a>.</p>
+<p class="reference">References <a class="el" href="tokentree_8cpp_source#l00936">AppendDocumentation()</a>, <a class="el" href="tokentree_8cpp_source#l00931">FlagFileAsParsed()</a>, <a class="el" href="tokentree_8cpp_source#l00926">FlagFileForReparsing()</a>, <a class="el" href="tokentree_8cpp_source#l00960">GetDocumentation()</a>, <a class="el" href="tokentree_8cpp_source#l00851">GetFileIndex()</a>, <a class="el" href="tokentree_8cpp_source#l00843">GetFileMatches()</a>, <a class="el" href="tokentree_8cpp_source#l00858">GetFilename()</a>, <a class="el" href="tokentree_8cpp_source#l00835">InsertFileOrGetIndex()</a>, <a class="el" href="tokentree_8cpp_source#l00863">IsFileParsed()</a>, <a class="el" href="tokentree_8h_source#l00378">m_FilesToBeReparsed</a>, <a class="el" href="tokentree_8cpp_source#l00874">MarkFileTokensAsLocal()</a>, and <a class="el" href="tokentree_8cpp_source#l00896">ReserveFileForParsing()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="parser_8cpp_source#l00477">Parser::RemoveFile()</a>.</p>
 
@@ -861,9 +865,9 @@ Friends</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="tokentree_8cpp_source#l00266">266</a> of file <a class="el" href="tokentree_8cpp_source">tokentree.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="tokentree_8h_source#l00051">at()</a>, <a class="el" href="searchtree_8cpp_source#l00750">BasicSearchTree::FindMatches()</a>, <a class="el" href="searchtree_8h_source#l00488">SearchTree&lt; T &gt;::GetItemAtPos()</a>, <a class="el" href="token_8h_source#l00234">Token::m_TokenKind</a>, <a class="el" href="tokentree_8h_source#l00335">m_Tree</a>, and <a class="el" href="token_8h_source#l00076">tkUndefined</a>.</p>
+<p class="reference">References <a class="el" href="tokentree_8h_source#l00051">at()</a>, <a class="el" href="searchtree_8cpp_source#l00750">BasicSearchTree::FindMatches()</a>, <a class="el" href="searchtree_8h_source#l00488">SearchTree&lt; T &gt;::GetItemAtPos()</a>, <a class="el" href="token_8h_source#l00234">Token::m_TokenKind</a>, <a class="el" href="tokentree_8h_source#l00345">m_Tree</a>, and <a class="el" href="token_8h_source#l00076">tkUndefined</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="tokentree_8h_source#l00086">Clear()</a>, <a class="el" href="nativeparser__base_8cpp_source#l01737">NativeParserBase::ComputeCallTip()</a>, <a class="el" href="nativeparser__base_8cpp_source#l01221">NativeParserBase::GenerateResultSet()</a>, <a class="el" href="doxygen__parser_8cpp_source#l00920">DocumentationHelper::OnDocumentationLink()</a>, <a class="el" href="classbrowser_8cpp_source#l00726">ClassBrowser::OnSearch()</a>, <a class="el" href="tokentree_8cpp_source#l00643">RecalcInheritanceChain()</a>, and <a class="el" href="parserthread_8cpp_source#l03611">ParserThread::ResolveTemplateMap()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="tokentree_8h_source#l00086">Clear()</a>, <a class="el" href="nativeparser__base_8cpp_source#l01737">NativeParserBase::ComputeCallTip()</a>, <a class="el" href="nativeparser__base_8cpp_source#l01221">NativeParserBase::GenerateResultSet()</a>, <a class="el" href="doxygen__parser_8cpp_source#l00920">DocumentationHelper::OnDocumentationLink()</a>, <a class="el" href="classbrowser_8cpp_source#l00726">ClassBrowser::OnSearch()</a>, <a class="el" href="tokentree_8cpp_source#l00643">RecalcInheritanceChain()</a>, and <a class="el" href="parserthread_8cpp_source#l03626">ParserThread::ResolveTemplateMap()</a>.</p>
 
 </div>
 </div>
@@ -912,9 +916,9 @@ Friends</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="tokentree_8cpp_source#l00298">298</a> of file <a class="el" href="tokentree_8cpp_source">tokentree.cpp</a>.</p>
 
-<p class="reference">References <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga7dfc2888539861afe6c4337ef315472b">_T</a>, <a class="el" href="tokentree_8h_source#l00051">at()</a>, <a class="el" href="searchtree_8cpp_source#l00742">BasicSearchTree::GetItemNo()</a>, <a class="el" href="searchtree_8cpp_source#l00734">BasicSearchTree::HasItem()</a>, <a class="el" href="tokentree_8h_source#l00360">m_FileMap</a>, <a class="el" href="tokentree_8h_source#l00357">m_FilenameMap</a>, <a class="el" href="token_8h_source#l00234">Token::m_TokenKind</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#a5517e2b01e8da1a7a92400028f1a8344">wxString::Replace()</a>, <a class="el" href="tokentree_8cpp_source#l00045">TRACE</a>, and <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#a667b135c20008042653f82b739f6c3ab">wxString::wx_str()</a>.</p>
+<p class="reference">References <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga7dfc2888539861afe6c4337ef315472b">_T</a>, <a class="el" href="tokentree_8h_source#l00051">at()</a>, <a class="el" href="searchtree_8cpp_source#l00742">BasicSearchTree::GetItemNo()</a>, <a class="el" href="searchtree_8cpp_source#l00734">BasicSearchTree::HasItem()</a>, <a class="el" href="tokentree_8h_source#l00372">m_FileMap</a>, <a class="el" href="tokentree_8h_source#l00369">m_FilenameMap</a>, <a class="el" href="token_8h_source#l00234">Token::m_TokenKind</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#a5517e2b01e8da1a7a92400028f1a8344">wxString::Replace()</a>, <a class="el" href="tokentree_8cpp_source#l00045">TRACE</a>, and <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#a667b135c20008042653f82b739f6c3ab">wxString::wx_str()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="tokentree_8h_source#l00086">Clear()</a>, <a class="el" href="parser__base_8cpp_source#l00381">ParserBase::FindTokensInFile()</a>, and <a class="el" href="ccdebuginfo_8cpp_source#l00697">CCDebugInfo::OnSave()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="tokentree_8h_source#l00086">Clear()</a>, <a class="el" href="parser__base_8cpp_source#l00381">ParserBase::FindTokensInFile()</a>, and <a class="el" href="ccdebuginfo_8cpp_source#l00702">CCDebugInfo::OnSave()</a>.</p>
 
 </div>
 </div>
@@ -938,9 +942,9 @@ Friends</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="tokentree_8cpp_source#l00931">931</a> of file <a class="el" href="tokentree_8cpp_source">tokentree.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="tokentree_8h_source#l00019">fpsDone</a>, <a class="el" href="tokentree_8cpp_source#l00835">InsertFileOrGetIndex()</a>, and <a class="el" href="tokentree_8h_source#l00363">m_FileStatusMap</a>.</p>
+<p class="reference">References <a class="el" href="tokentree_8h_source#l00019">fpsDone</a>, <a class="el" href="tokentree_8cpp_source#l00835">InsertFileOrGetIndex()</a>, and <a class="el" href="tokentree_8h_source#l00375">m_FileStatusMap</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="tokentree_8h_source#l00222">EraseFilesToBeReparsedByIndex()</a>, and <a class="el" href="parserthread_8cpp_source#l00510">ParserThread::Parse()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="tokentree_8h_source#l00232">EraseFilesToBeReparsedByIndex()</a>, and <a class="el" href="parserthread_8cpp_source#l00510">ParserThread::Parse()</a>.</p>
 
 </div>
 </div>
@@ -964,9 +968,9 @@ Friends</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="tokentree_8cpp_source#l00926">926</a> of file <a class="el" href="tokentree_8cpp_source">tokentree.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="tokentree_8cpp_source#l00835">InsertFileOrGetIndex()</a>, and <a class="el" href="tokentree_8h_source#l00366">m_FilesToBeReparsed</a>.</p>
+<p class="reference">References <a class="el" href="tokentree_8cpp_source#l00835">InsertFileOrGetIndex()</a>, and <a class="el" href="tokentree_8h_source#l00378">m_FilesToBeReparsed</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="tokentree_8h_source#l00222">EraseFilesToBeReparsedByIndex()</a>, and <a class="el" href="parser_8cpp_source#l00515">Parser::Reparse()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="tokentree_8h_source#l00232">EraseFilesToBeReparsedByIndex()</a>, and <a class="el" href="parser_8cpp_source#l00515">Parser::Reparse()</a>.</p>
 
 </div>
 </div>
@@ -999,7 +1003,7 @@ Friends</h2></td></tr>
 
 <p class="reference">References <a class="el" href="tokentree_8cpp_source#l00819">GetTokenAt()</a>, <a class="el" href="token_8h_source#l00213">Token::m_Doc</a>, <a class="el" href="token_8h_source#l00228">Token::m_ImplDoc</a>, and <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/interface_2wx_2string_8h.html#a9a321d587166a30017b608dd2d234033">wxEmptyString</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="tokentree_8h_source#l00222">EraseFilesToBeReparsedByIndex()</a>, and <a class="el" href="doxygen__parser_8cpp_source#l00673">DocumentationHelper::GenerateHTML()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="tokentree_8h_source#l00232">EraseFilesToBeReparsedByIndex()</a>, and <a class="el" href="doxygen__parser_8cpp_source#l00673">DocumentationHelper::GenerateHTML()</a>.</p>
 
 </div>
 </div>
@@ -1021,9 +1025,9 @@ Friends</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="tokentree_8cpp_source#l00851">851</a> of file <a class="el" href="tokentree_8cpp_source">tokentree.cpp</a>.</p>
 
-<p class="reference">References <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga7dfc2888539861afe6c4337ef315472b">_T</a>, <a class="el" href="searchtree_8cpp_source#l00742">BasicSearchTree::GetItemNo()</a>, <a class="el" href="tokentree_8h_source#l00357">m_FilenameMap</a>, and <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#a5517e2b01e8da1a7a92400028f1a8344">wxString::Replace()</a>.</p>
+<p class="reference">References <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga7dfc2888539861afe6c4337ef315472b">_T</a>, <a class="el" href="searchtree_8cpp_source#l00742">BasicSearchTree::GetItemNo()</a>, <a class="el" href="tokentree_8h_source#l00369">m_FilenameMap</a>, and <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#a5517e2b01e8da1a7a92400028f1a8344">wxString::Replace()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="tokentree_8h_source#l00222">EraseFilesToBeReparsedByIndex()</a>, <a class="el" href="classbrowserbuilderthread_8cpp_source#l00088">ClassBrowserBuilderThread::Init()</a>, <a class="el" href="tokenizer_8cpp_source#l00126">Tokenizer::Init()</a>, and <a class="el" href="tokenizer_8cpp_source#l00174">Tokenizer::InitFromBuffer()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="tokentree_8h_source#l00232">EraseFilesToBeReparsedByIndex()</a>, <a class="el" href="classbrowserbuilderthread_8cpp_source#l00088">ClassBrowserBuilderThread::Init()</a>, <a class="el" href="tokenizer_8cpp_source#l00126">Tokenizer::Init()</a>, and <a class="el" href="tokenizer_8cpp_source#l00174">Tokenizer::InitFromBuffer()</a>.</p>
 
 </div>
 </div>
@@ -1050,11 +1054,11 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="tokentree_8h_source#l00197">197</a> of file <a class="el" href="tokentree_8h_source">tokentree.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="tokentree_8h_source#l00207">207</a> of file <a class="el" href="tokentree_8h_source">tokentree.h</a>.</p>
 
-<p class="reference">References <a class="el" href="tokentree_8h_source#l00360">m_FileMap</a>.</p>
+<p class="reference">References <a class="el" href="tokentree_8h_source#l00372">m_FileMap</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="parser_8cpp_source#l00571">Parser::OnAllThreadsDone()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="parser_8cpp_source#l00572">Parser::OnAllThreadsDone()</a>.</p>
 
 </div>
 </div>
@@ -1098,9 +1102,9 @@ Friends</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="tokentree_8cpp_source#l00843">843</a> of file <a class="el" href="tokentree_8cpp_source">tokentree.cpp</a>.</p>
 
-<p class="reference">References <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga7dfc2888539861afe6c4337ef315472b">_T</a>, <a class="el" href="searchtree_8cpp_source#l00750">BasicSearchTree::FindMatches()</a>, <a class="el" href="tokentree_8h_source#l00357">m_FilenameMap</a>, and <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#a5517e2b01e8da1a7a92400028f1a8344">wxString::Replace()</a>.</p>
+<p class="reference">References <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga7dfc2888539861afe6c4337ef315472b">_T</a>, <a class="el" href="searchtree_8cpp_source#l00750">BasicSearchTree::FindMatches()</a>, <a class="el" href="tokentree_8h_source#l00369">m_FilenameMap</a>, and <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#a5517e2b01e8da1a7a92400028f1a8344">wxString::Replace()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="codecompletion_8cpp_source#l02667">CodeCompletion::DoAllMethodsImpl()</a>, <a class="el" href="tokentree_8h_source#l00222">EraseFilesToBeReparsedByIndex()</a>, and <a class="el" href="classbrowserbuilderthread_8cpp_source#l00088">ClassBrowserBuilderThread::Init()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="codecompletion_8cpp_source#l02697">CodeCompletion::DoAllMethodsImpl()</a>, <a class="el" href="tokentree_8h_source#l00232">EraseFilesToBeReparsedByIndex()</a>, and <a class="el" href="classbrowserbuilderthread_8cpp_source#l00088">ClassBrowserBuilderThread::Init()</a>.</p>
 
 </div>
 </div>
@@ -1122,9 +1126,9 @@ Friends</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="tokentree_8cpp_source#l00858">858</a> of file <a class="el" href="tokentree_8cpp_source">tokentree.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="searchtree_8cpp_source#l00556">BasicSearchTree::GetString()</a>, and <a class="el" href="tokentree_8h_source#l00357">m_FilenameMap</a>.</p>
+<p class="reference">References <a class="el" href="searchtree_8cpp_source#l00556">BasicSearchTree::GetString()</a>, and <a class="el" href="tokentree_8h_source#l00369">m_FilenameMap</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="tokentree_8h_source#l00222">EraseFilesToBeReparsedByIndex()</a>, <a class="el" href="token_8cpp_source#l00185">Token::GetFilename()</a>, <a class="el" href="token_8cpp_source#l00192">Token::GetImplFilename()</a>, and <a class="el" href="parser_8cpp_source#l00754">Parser::ReparseModifiedFiles()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="tokentree_8h_source#l00232">EraseFilesToBeReparsedByIndex()</a>, <a class="el" href="token_8cpp_source#l00185">Token::GetFilename()</a>, <a class="el" href="token_8cpp_source#l00192">Token::GetImplFilename()</a>, and <a class="el" href="parser_8cpp_source#l00757">Parser::ReparseModifiedFiles()</a>.</p>
 
 </div>
 </div>
@@ -1151,9 +1155,9 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="tokentree_8h_source#l00181">181</a> of file <a class="el" href="tokentree_8h_source">tokentree.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="tokentree_8h_source#l00191">191</a> of file <a class="el" href="tokentree_8h_source">tokentree.h</a>.</p>
 
-<p class="reference">References <a class="el" href="tokentree_8h_source#l00360">m_FileMap</a>.</p>
+<p class="reference">References <a class="el" href="tokentree_8h_source#l00372">m_FileMap</a>.</p>
 
 </div>
 </div>
@@ -1181,9 +1185,9 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="tokentree_8h_source#l00212">212</a> of file <a class="el" href="tokentree_8h_source">tokentree.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="tokentree_8h_source#l00222">222</a> of file <a class="el" href="tokentree_8h_source">tokentree.h</a>.</p>
 
-<p class="reference">References <a class="el" href="tokentree_8h_source#l00363">m_FileStatusMap</a>.</p>
+<p class="reference">References <a class="el" href="tokentree_8h_source#l00375">m_FileStatusMap</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="parser_8cpp_source#l00477">Parser::RemoveFile()</a>.</p>
 
@@ -1212,11 +1216,11 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="tokentree_8h_source#l00192">192</a> of file <a class="el" href="tokentree_8h_source">tokentree.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="tokentree_8h_source#l00202">202</a> of file <a class="el" href="tokentree_8h_source">tokentree.h</a>.</p>
 
-<p class="reference">References <a class="el" href="tokentree_8h_source#l00366">m_FilesToBeReparsed</a>.</p>
+<p class="reference">References <a class="el" href="tokentree_8h_source#l00378">m_FilesToBeReparsed</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="parser_8cpp_source#l00754">Parser::ReparseModifiedFiles()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="parser_8cpp_source#l00757">Parser::ReparseModifiedFiles()</a>.</p>
 
 </div>
 </div>
@@ -1243,11 +1247,13 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="tokentree_8h_source#l00176">176</a> of file <a class="el" href="tokentree_8h_source">tokentree.h</a>.</p>
+<p>all kinds of tokens under global name spaces </p>
 
-<p class="reference">References <a class="el" href="tokentree_8h_source#l00354">m_GlobalNameSpaces</a>.</p>
+<p class="definition">Definition at line <a class="el" href="tokentree_8h_source#l00186">186</a> of file <a class="el" href="tokentree_8h_source">tokentree.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="classbrowserbuilderthread_8cpp_source#l00783">ClassBrowserBuilderThread::AddChildrenOf()</a>, and <a class="el" href="classbrowserbuilderthread_8cpp_source#l00687">ClassBrowserBuilderThread::CreateSpecialFolders()</a>.</p>
+<p class="reference">References <a class="el" href="tokentree_8h_source#l00366">m_GlobalNameSpaces</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="classbrowserbuilderthread_8cpp_source#l00795">ClassBrowserBuilderThread::AddChildrenOf()</a>, and <a class="el" href="classbrowserbuilderthread_8cpp_source#l00689">ClassBrowserBuilderThread::CreateSpecialFolders()</a>.</p>
 
 </div>
 </div>
@@ -1277,7 +1283,7 @@ Friends</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="tokentree_8cpp_source#l00819">819</a> of file <a class="el" href="tokentree_8cpp_source">tokentree.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="tokentree_8h_source#l00343">m_Tokens</a>.</p>
+<p class="reference">References <a class="el" href="tokentree_8h_source#l00353">m_Tokens</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="tokentree_8cpp_source#l00936">AppendDocumentation()</a>, <a class="el" href="tokentree_8h_source#l00051">at()</a>, <a class="el" href="tokentree_8cpp_source#l00960">GetDocumentation()</a>, and <a class="el" href="tokentree_8h_source#l00050">operator[]()</a>.</p>
 
@@ -1309,7 +1315,7 @@ Friends</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="tokentree_8cpp_source#l00827">827</a> of file <a class="el" href="tokentree_8cpp_source">tokentree.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="tokentree_8h_source#l00343">m_Tokens</a>.</p>
+<p class="reference">References <a class="el" href="tokentree_8h_source#l00353">m_Tokens</a>.</p>
 
 </div>
 </div>
@@ -1336,9 +1342,11 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="tokentree_8h_source#l00171">171</a> of file <a class="el" href="tokentree_8h_source">tokentree.h</a>.</p>
+<p>Protected access to internal lists / maps. </p>
 
-<p class="reference">References <a class="el" href="tokentree_8h_source#l00343">m_Tokens</a>.</p>
+<p class="definition">Definition at line <a class="el" href="tokentree_8h_source#l00180">180</a> of file <a class="el" href="tokentree_8h_source">tokentree.h</a>.</p>
+
+<p class="reference">References <a class="el" href="tokentree_8h_source#l00353">m_Tokens</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="nativeparser__base_8cpp_source#l01221">NativeParserBase::GenerateResultSet()</a>.</p>
 
@@ -1368,11 +1376,11 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="tokentree_8h_source#l00186">186</a> of file <a class="el" href="tokentree_8h_source">tokentree.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="tokentree_8h_source#l00196">196</a> of file <a class="el" href="tokentree_8h_source">tokentree.h</a>.</p>
 
-<p class="reference">References <a class="el" href="tokentree_8h_source#l00360">m_FileMap</a>.</p>
+<p class="reference">References <a class="el" href="tokentree_8h_source#l00372">m_FileMap</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="codecompletion_8cpp_source#l02667">CodeCompletion::DoAllMethodsImpl()</a>, and <a class="el" href="classbrowserbuilderthread_8cpp_source#l00088">ClassBrowserBuilderThread::Init()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="codecompletion_8cpp_source#l02697">CodeCompletion::DoAllMethodsImpl()</a>, and <a class="el" href="classbrowserbuilderthread_8cpp_source#l00088">ClassBrowserBuilderThread::Init()</a>.</p>
 
 </div>
 </div>
@@ -1405,7 +1413,7 @@ Friends</h2></td></tr>
 
 <p class="reference">References <a class="el" href="tokentree_8cpp_source#l00364">AddToken()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="tokenizer_8cpp_source#l02014">Tokenizer::AddMacroDefinition()</a>, <a class="el" href="parserthread_8cpp_source#l01476">ParserThread::DoAddToken()</a>, <a class="el" href="tokentree_8h_source#l00063">empty()</a>, and <a class="el" href="parserthread_8cpp_source#l01433">ParserThread::FindTokenFromQueue()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="tokenizer_8cpp_source#l02027">Tokenizer::AddMacroDefinition()</a>, <a class="el" href="parserthread_8cpp_source#l01475">ParserThread::DoAddToken()</a>, <a class="el" href="tokentree_8h_source#l00063">empty()</a>, and <a class="el" href="parserthread_8cpp_source#l01432">ParserThread::FindTokenFromQueue()</a>.</p>
 
 </div>
 </div>
@@ -1469,9 +1477,9 @@ Friends</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="tokentree_8cpp_source#l00835">835</a> of file <a class="el" href="tokentree_8cpp_source">tokentree.cpp</a>.</p>
 
-<p class="reference">References <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga7dfc2888539861afe6c4337ef315472b">_T</a>, <a class="el" href="searchtree_8cpp_source#l00822">BasicSearchTree::insert()</a>, <a class="el" href="tokentree_8h_source#l00357">m_FilenameMap</a>, and <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#a5517e2b01e8da1a7a92400028f1a8344">wxString::Replace()</a>.</p>
+<p class="reference">References <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga7dfc2888539861afe6c4337ef315472b">_T</a>, <a class="el" href="searchtree_8cpp_source#l00822">BasicSearchTree::insert()</a>, <a class="el" href="tokentree_8h_source#l00369">m_FilenameMap</a>, and <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#a5517e2b01e8da1a7a92400028f1a8344">wxString::Replace()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="tokentree_8h_source#l00222">EraseFilesToBeReparsedByIndex()</a>, <a class="el" href="tokentree_8cpp_source#l00931">FlagFileAsParsed()</a>, <a class="el" href="tokentree_8cpp_source#l00926">FlagFileForReparsing()</a>, <a class="el" href="nativeparser__base_8cpp_source#l01666">NativeParserBase::GetTokenFromCurrentLine()</a>, <a class="el" href="parserthread_8cpp_source#l00468">ParserThread::InitTokenizer()</a>, <a class="el" href="tokentree_8cpp_source#l00863">IsFileParsed()</a>, <a class="el" href="tokentree_8cpp_source#l00874">MarkFileTokensAsLocal()</a>, <a class="el" href="tokentree_8cpp_source#l00549">RemoveFile()</a>, <a class="el" href="parser_8cpp_source#l00477">Parser::RemoveFile()</a>, and <a class="el" href="tokentree_8cpp_source#l00896">ReserveFileForParsing()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="tokentree_8h_source#l00232">EraseFilesToBeReparsedByIndex()</a>, <a class="el" href="tokentree_8cpp_source#l00931">FlagFileAsParsed()</a>, <a class="el" href="tokentree_8cpp_source#l00926">FlagFileForReparsing()</a>, <a class="el" href="nativeparser__base_8cpp_source#l01666">NativeParserBase::GetTokenFromCurrentLine()</a>, <a class="el" href="parserthread_8cpp_source#l00468">ParserThread::InitTokenizer()</a>, <a class="el" href="tokentree_8cpp_source#l00863">IsFileParsed()</a>, <a class="el" href="tokentree_8cpp_source#l00874">MarkFileTokensAsLocal()</a>, <a class="el" href="tokentree_8cpp_source#l00549">RemoveFile()</a>, <a class="el" href="parser_8cpp_source#l00477">Parser::RemoveFile()</a>, and <a class="el" href="tokentree_8cpp_source#l00896">ReserveFileForParsing()</a>.</p>
 
 </div>
 </div>
@@ -1509,11 +1517,11 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="tokentree_8h_source#l00202">202</a> of file <a class="el" href="tokentree_8h_source">tokentree.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="tokentree_8h_source#l00212">212</a> of file <a class="el" href="tokentree_8h_source">tokentree.h</a>.</p>
 
-<p class="reference">References <a class="el" href="tokentree_8h_source#l00360">m_FileMap</a>.</p>
+<p class="reference">References <a class="el" href="tokentree_8h_source#l00372">m_FileMap</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="parserthread_8cpp_source#l01476">ParserThread::DoAddToken()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="parserthread_8cpp_source#l01475">ParserThread::DoAddToken()</a>.</p>
 
 </div>
 </div>
@@ -1537,9 +1545,9 @@ Friends</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="tokentree_8cpp_source#l00863">863</a> of file <a class="el" href="tokentree_8cpp_source">tokentree.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="tokentree_8h_source#l00019">fpsNotParsed</a>, <a class="el" href="tokentree_8cpp_source#l00835">InsertFileOrGetIndex()</a>, <a class="el" href="tokentree_8h_source#l00360">m_FileMap</a>, <a class="el" href="tokentree_8h_source#l00363">m_FileStatusMap</a>, and <a class="el" href="tokentree_8h_source#l00366">m_FilesToBeReparsed</a>.</p>
+<p class="reference">References <a class="el" href="tokentree_8h_source#l00019">fpsNotParsed</a>, <a class="el" href="tokentree_8cpp_source#l00835">InsertFileOrGetIndex()</a>, <a class="el" href="tokentree_8h_source#l00372">m_FileMap</a>, <a class="el" href="tokentree_8h_source#l00375">m_FileStatusMap</a>, and <a class="el" href="tokentree_8h_source#l00378">m_FilesToBeReparsed</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="tokentree_8h_source#l00222">EraseFilesToBeReparsedByIndex()</a>, <a class="el" href="parserthread_8cpp_source#l01663">ParserThread::HandleIncludes()</a>, <a class="el" href="parser_8cpp_source#l00818">Parser::IsFileParsed()</a>, and <a class="el" href="parser_8cpp_source#l00273">Parser::Parse()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="tokentree_8h_source#l00232">EraseFilesToBeReparsedByIndex()</a>, <a class="el" href="parserthread_8cpp_source#l01662">ParserThread::HandleIncludes()</a>, <a class="el" href="parser_8cpp_source#l00821">Parser::IsFileParsed()</a>, and <a class="el" href="parser_8cpp_source#l00273">Parser::Parse()</a>.</p>
 
 </div>
 </div>
@@ -1589,7 +1597,7 @@ Friends</h2></td></tr>
 
 <p class="reference">References <a class="el" href="tokentree_8cpp_source#l00835">InsertFileOrGetIndex()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="tokentree_8h_source#l00222">EraseFilesToBeReparsedByIndex()</a>, and <a class="el" href="parserthreadedtask_8cpp_source#l00116">MarkFileAsLocalThreadedTask::Execute()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="tokentree_8h_source#l00232">EraseFilesToBeReparsedByIndex()</a>, and <a class="el" href="parserthreadedtask_8cpp_source#l00118">MarkFileAsLocalThreadedTask::Execute()</a>.</p>
 
 </div>
 </div>
@@ -1637,7 +1645,7 @@ Friends</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="tokentree_8cpp_source#l00879">879</a> of file <a class="el" href="tokentree_8cpp_source">tokentree.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="tokentree_8h_source#l00360">m_FileMap</a>, <a class="el" href="token_8h_source#l00242">Token::m_IsLocal</a>, <a class="el" href="tokentree_8h_source#l00343">m_Tokens</a>, and <a class="el" href="token_8h_source#l00300">Token::m_UserData</a>.</p>
+<p class="reference">References <a class="el" href="tokentree_8h_source#l00372">m_FileMap</a>, <a class="el" href="token_8h_source#l00242">Token::m_IsLocal</a>, <a class="el" href="tokentree_8h_source#l00353">m_Tokens</a>, and <a class="el" href="token_8h_source#l00300">Token::m_UserData</a>.</p>
 
 </div>
 </div>
@@ -1690,9 +1698,9 @@ Friends</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="tokentree_8cpp_source#l00103">103</a> of file <a class="el" href="tokentree_8cpp_source">tokentree.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="tokentree_8h_source#l00350">m_FreeTokens</a>, and <a class="el" href="tokentree_8h_source#l00343">m_Tokens</a>.</p>
+<p class="reference">References <a class="el" href="tokentree_8h_source#l00360">m_FreeTokens</a>, and <a class="el" href="tokentree_8h_source#l00353">m_Tokens</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="tokentree_8h_source#l00052">at()</a>, and <a class="el" href="parser_8cpp_source#l00571">Parser::OnAllThreadsDone()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="tokentree_8h_source#l00052">at()</a>, and <a class="el" href="parser_8cpp_source#l00572">Parser::OnAllThreadsDone()</a>.</p>
 
 </div>
 </div>
@@ -1715,7 +1723,7 @@ Friends</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="tokentree_8cpp_source#l00633">633</a> of file <a class="el" href="tokentree_8cpp_source">tokentree.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="tokentree_8h_source#l00350">m_FreeTokens</a>, and <a class="el" href="tokentree_8h_source#l00343">m_Tokens</a>.</p>
+<p class="reference">References <a class="el" href="tokentree_8h_source#l00360">m_FreeTokens</a>, and <a class="el" href="tokentree_8h_source#l00353">m_Tokens</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="tokentree_8h_source#l00086">Clear()</a>.</p>
 
@@ -1779,13 +1787,14 @@ Friends</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>convert the <a class="el" href="classToken" title="a symbol found in the parsed files, it can be many kinds, such as a variable, a class and so on...">Token</a>'s ancestor string to it's IDs </p>
+<p>convert the <a class="el" href="classToken" title="a symbol found in the parsed files, it can be many kinds, such as a variable, a class and so on...">Token</a>'s ancestor string to it's IDs this contains recursive calls, for example in such code </p>
+<div class="fragment"><div class="line"><span class="keyword">class </span>A: <span class="keyword">public</span> <a class="code" href="namespaceDoxygen#c1-KeywordsIds:B">B</a> {};</div><div class="line"><span class="keyword">class </span><a class="code" href="namespaceDoxygen#c1-KeywordsIds:B">B</a>: <span class="keyword">public</span> C {};</div></div><!-- fragment --><p> the <a class="el" href="classToken" title="a symbol found in the parsed files, it can be many kinds, such as a variable, a class and so on...">Token</a> A's ancestor string is "B", and the token B's ancestor string is "C" the ancestors of <a class="el" href="classToken" title="a symbol found in the parsed files, it can be many kinds, such as a variable, a class and so on...">Token</a> A are <a class="el" href="classToken" title="a symbol found in the parsed files, it can be many kinds, such as a variable, a class and so on...">Token</a> B and <a class="el" href="classToken" title="a symbol found in the parsed files, it can be many kinds, such as a variable, a class and so on...">Token</a> C, B is the direct ancestor the <a class="el" href="classToken" title="a symbol found in the parsed files, it can be many kinds, such as a variable, a class and so on...">Token</a> C's descendants are <a class="el" href="classToken" title="a symbol found in the parsed files, it can be many kinds, such as a variable, a class and so on...">Token</a> A and <a class="el" href="classToken" title="a symbol found in the parsed files, it can be many kinds, such as a variable, a class and so on...">Token</a> B, B is the direct descendant </p>
 
 <p class="definition">Definition at line <a class="el" href="tokentree_8cpp_source#l00643">643</a> of file <a class="el" href="tokentree_8cpp_source">tokentree.cpp</a>.</p>
 
 <p class="reference">References <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga7dfc2888539861afe6c4337ef315472b">_T</a>, <a class="el" href="tokentree_8h_source#l00051">at()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#a39f5e308eb0192cac2e338bedb377ee0">wxString::Clear()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#aed58dc1079da38d257bbc7d0d7800f44">wxString::Find()</a>, <a class="el" href="tokentree_8cpp_source#l00266">FindMatches()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string_tokenizer.html#a6537282af1f6b9757393046d780e5270">wxStringTokenizer::GetNextToken()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string_tokenizer.html#a9617fc60328fbc8a502b5da16841fd73">wxStringTokenizer::HasMoreTokens()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#ace32756bab999f8aae9be0cf981fc449">wxString::IsEmpty()</a>, <a class="el" href="token_8h_source#l00271">Token::m_Ancestors</a>, <a class="el" href="token_8h_source#l00204">Token::m_AncestorsString</a>, <a class="el" href="token_8h_source#l00277">Token::m_Descendants</a>, <a class="el" href="token_8h_source#l00274">Token::m_DirectAncestors</a>, <a class="el" href="token_8h_source#l00262">Token::m_Index</a>, <a class="el" href="token_8h_source#l00188">Token::m_Name</a>, <a class="el" href="token_8h_source#l00234">Token::m_TokenKind</a>, <a class="el" href="tokentree_8cpp_source#l00787">RecalcFullInheritance()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_stop_watch.html#a8c0825d3efd859547b47761e57089b5f">wxStopWatch::Start()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_stop_watch.html#aa80ff19ed90b2b99c879ec9ea3e7a71d">wxStopWatch::Time()</a>, <a class="el" href="token_8h_source#l00037">tkClass</a>, <a class="el" href="token_8h_source#l00040">tkEnum</a>, <a class="el" href="token_8h_source#l00034">tkNamespace</a>, <a class="el" href="token_8h_source#l00045">tkTypedef</a>, <a class="el" href="tokentree_8cpp_source#l00141">TokenExists()</a>, <a class="el" href="tokentree_8cpp_source#l00045">TRACE</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#a667b135c20008042653f82b739f6c3ab">wxString::wx_str()</a>, and <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/defs_8h.html#a89de5e6353fc7812991b085e12263e98">wxNOT_FOUND</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="classbrowserbuilderthread_8cpp_source#l00824">ClassBrowserBuilderThread::AddAncestorsOf()</a>, <a class="el" href="classbrowserbuilderthread_8cpp_source#l00845">ClassBrowserBuilderThread::AddDescendantsOf()</a>, <a class="el" href="tokentree_8h_source#l00086">Clear()</a>, <a class="el" href="ccdebuginfo_8cpp_source#l00439">CCDebugInfo::DisplayTokenInfo()</a>, <a class="el" href="insertclassmethoddlg_8cpp_source#l00031">InsertClassMethodDlgHelper::DoFillMethodsFor()</a>, <a class="el" href="classbrowserbuilderthread_8cpp_source#l00243">ClassBrowserBuilderThread::ExpandItem()</a>, <a class="el" href="nativeparser__base_8cpp_source#l01221">NativeParserBase::GenerateResultSet()</a>, and <a class="el" href="codecompletion_8cpp_source#l03314">CodeCompletion::UpdateEditorSyntax()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classbrowserbuilderthread_8cpp_source#l00840">ClassBrowserBuilderThread::AddAncestorsOf()</a>, <a class="el" href="classbrowserbuilderthread_8cpp_source#l00861">ClassBrowserBuilderThread::AddDescendantsOf()</a>, <a class="el" href="tokentree_8h_source#l00086">Clear()</a>, <a class="el" href="ccdebuginfo_8cpp_source#l00439">CCDebugInfo::DisplayTokenInfo()</a>, <a class="el" href="insertclassmethoddlg_8cpp_source#l00031">InsertClassMethodDlgHelper::DoFillMethodsFor()</a>, <a class="el" href="classbrowserbuilderthread_8cpp_source#l00243">ClassBrowserBuilderThread::ExpandItem()</a>, <a class="el" href="nativeparser__base_8cpp_source#l01221">NativeParserBase::GenerateResultSet()</a>, and <a class="el" href="codecompletion_8cpp_source#l03344">CodeCompletion::UpdateEditorSyntax()</a>.</p>
 
 </div>
 </div>
@@ -1811,7 +1820,7 @@ Friends</h2></td></tr>
 
 <p class="reference">References <a class="el" href="tokentree_8cpp_source#l00835">InsertFileOrGetIndex()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="tokentree_8h_source#l00086">Clear()</a>, <a class="el" href="parser_8cpp_source#l00477">Parser::RemoveFile()</a>, <a class="el" href="parser_8cpp_source#l00754">Parser::ReparseModifiedFiles()</a>, and <a class="el" href="tokentree_8cpp_source#l00896">ReserveFileForParsing()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="tokentree_8h_source#l00086">Clear()</a>, <a class="el" href="parser_8cpp_source#l00477">Parser::RemoveFile()</a>, <a class="el" href="parser_8cpp_source#l00757">Parser::ReparseModifiedFiles()</a>, and <a class="el" href="tokentree_8cpp_source#l00896">ReserveFileForParsing()</a>.</p>
 
 </div>
 </div>
@@ -1835,7 +1844,7 @@ Friends</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="tokentree_8cpp_source#l00554">554</a> of file <a class="el" href="tokentree_8cpp_source">tokentree.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="tokentree_8h_source#l00051">at()</a>, <a class="el" href="tokentree_8cpp_source#l00609">CheckChildRemove()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#a4dcd0f3f0fe03ccddb85df2f3b18d665">wxString::clear()</a>, <a class="el" href="token_8h_source#l00213">Token::m_Doc</a>, <a class="el" href="token_8h_source#l00207">Token::m_FileIdx</a>, <a class="el" href="tokentree_8h_source#l00360">m_FileMap</a>, <a class="el" href="token_8h_source#l00228">Token::m_ImplDoc</a>, <a class="el" href="token_8h_source#l00216">Token::m_ImplFileIdx</a>, <a class="el" href="token_8h_source#l00219">Token::m_ImplLine</a>, <a class="el" href="token_8h_source#l00210">Token::m_Line</a>, <a class="el" href="tokentree_8h_source#l00343">m_Tokens</a>, and <a class="el" href="tokentree_8cpp_source#l00396">RemoveToken()</a>.</p>
+<p class="reference">References <a class="el" href="tokentree_8h_source#l00051">at()</a>, <a class="el" href="tokentree_8cpp_source#l00609">CheckChildRemove()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#a4dcd0f3f0fe03ccddb85df2f3b18d665">wxString::clear()</a>, <a class="el" href="token_8h_source#l00213">Token::m_Doc</a>, <a class="el" href="token_8h_source#l00207">Token::m_FileIdx</a>, <a class="el" href="tokentree_8h_source#l00372">m_FileMap</a>, <a class="el" href="token_8h_source#l00228">Token::m_ImplDoc</a>, <a class="el" href="token_8h_source#l00216">Token::m_ImplFileIdx</a>, <a class="el" href="token_8h_source#l00219">Token::m_ImplLine</a>, <a class="el" href="token_8h_source#l00210">Token::m_Line</a>, <a class="el" href="tokentree_8h_source#l00353">m_Tokens</a>, and <a class="el" href="tokentree_8cpp_source#l00396">RemoveToken()</a>.</p>
 
 </div>
 </div>
@@ -1865,7 +1874,7 @@ Friends</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="tokentree_8cpp_source#l00396">396</a> of file <a class="el" href="tokentree_8cpp_source">tokentree.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="tokentree_8h_source#l00343">m_Tokens</a>.</p>
+<p class="reference">References <a class="el" href="tokentree_8h_source#l00353">m_Tokens</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="tokentree_8cpp_source#l00127">erase()</a>, <a class="el" href="tokentree_8cpp_source#l00554">RemoveFile()</a>, and <a class="el" href="tokentree_8cpp_source#l00404">RemoveToken()</a>.</p>
 
@@ -1897,7 +1906,7 @@ Friends</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="tokentree_8cpp_source#l00404">404</a> of file <a class="el" href="tokentree_8cpp_source">tokentree.cpp</a>.</p>
 
-<p class="reference">References <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga7dfc2888539861afe6c4337ef315472b">_T</a>, <a class="el" href="cclogger_8cpp_source#l00107">CCLogger::DebugLog()</a>, <a class="el" href="cclogger_8cpp_source#l00060">CCLogger::Get()</a>, <a class="el" href="searchtree_8h_source#l00488">SearchTree&lt; T &gt;::GetItemAtPos()</a>, <a class="el" href="searchtree_8cpp_source#l00742">BasicSearchTree::GetItemNo()</a>, <a class="el" href="token_8h_source#l00271">Token::m_Ancestors</a>, <a class="el" href="token_8h_source#l00268">Token::m_Children</a>, <a class="el" href="token_8h_source#l00277">Token::m_Descendants</a>, <a class="el" href="token_8h_source#l00274">Token::m_DirectAncestors</a>, <a class="el" href="tokentree_8h_source#l00354">m_GlobalNameSpaces</a>, <a class="el" href="token_8h_source#l00262">Token::m_Index</a>, <a class="el" href="token_8h_source#l00188">Token::m_Name</a>, <a class="el" href="token_8h_source#l00265">Token::m_ParentIndex</a>, <a class="el" href="tokentree_8h_source#l00343">m_Tokens</a>, <a class="el" href="tokentree_8h_source#l00353">m_TopNameSpaces</a>, <a class="el" href="tokentree_8h_source#l00335">m_Tree</a>, <a class="el" href="tokentree_8cpp_source#l00396">RemoveToken()</a>, and <a class="el" href="tokentree_8cpp_source#l00536">RemoveTokenFromList()</a>.</p>
+<p class="reference">References <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga7dfc2888539861afe6c4337ef315472b">_T</a>, <a class="el" href="cclogger_8cpp_source#l00107">CCLogger::DebugLog()</a>, <a class="el" href="cclogger_8cpp_source#l00060">CCLogger::Get()</a>, <a class="el" href="searchtree_8h_source#l00488">SearchTree&lt; T &gt;::GetItemAtPos()</a>, <a class="el" href="searchtree_8cpp_source#l00742">BasicSearchTree::GetItemNo()</a>, <a class="el" href="token_8h_source#l00271">Token::m_Ancestors</a>, <a class="el" href="token_8h_source#l00268">Token::m_Children</a>, <a class="el" href="token_8h_source#l00277">Token::m_Descendants</a>, <a class="el" href="token_8h_source#l00274">Token::m_DirectAncestors</a>, <a class="el" href="tokentree_8h_source#l00366">m_GlobalNameSpaces</a>, <a class="el" href="token_8h_source#l00262">Token::m_Index</a>, <a class="el" href="token_8h_source#l00188">Token::m_Name</a>, <a class="el" href="token_8h_source#l00265">Token::m_ParentIndex</a>, <a class="el" href="tokentree_8h_source#l00353">m_Tokens</a>, <a class="el" href="tokentree_8h_source#l00363">m_TopNameSpaces</a>, <a class="el" href="tokentree_8h_source#l00345">m_Tree</a>, <a class="el" href="tokentree_8cpp_source#l00396">RemoveToken()</a>, and <a class="el" href="tokentree_8cpp_source#l00536">RemoveTokenFromList()</a>.</p>
 
 </div>
 </div>
@@ -1930,7 +1939,7 @@ Friends</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="tokentree_8cpp_source#l00536">536</a> of file <a class="el" href="tokentree_8cpp_source">tokentree.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="tokentree_8h_source#l00350">m_FreeTokens</a>, and <a class="el" href="tokentree_8h_source#l00343">m_Tokens</a>.</p>
+<p class="reference">References <a class="el" href="tokentree_8h_source#l00360">m_FreeTokens</a>, and <a class="el" href="tokentree_8h_source#l00353">m_Tokens</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="tokentree_8cpp_source#l00404">RemoveToken()</a>.</p>
 
@@ -1966,9 +1975,9 @@ Friends</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="tokentree_8cpp_source#l00338">338</a> of file <a class="el" href="tokentree_8cpp_source">tokentree.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="searchtree_8h_source#l00474">SearchTree&lt; T &gt;::AddItem()</a>, <a class="el" href="searchtree_8h_source#l00488">SearchTree&lt; T &gt;::GetItemAtPos()</a>, <a class="el" href="searchtree_8cpp_source#l00742">BasicSearchTree::GetItemNo()</a>, <a class="el" href="token_8h_source#l00262">Token::m_Index</a>, <a class="el" href="token_8h_source#l00188">Token::m_Name</a>, and <a class="el" href="tokentree_8h_source#l00335">m_Tree</a>.</p>
+<p class="reference">References <a class="el" href="searchtree_8h_source#l00474">SearchTree&lt; T &gt;::AddItem()</a>, <a class="el" href="searchtree_8h_source#l00488">SearchTree&lt; T &gt;::GetItemAtPos()</a>, <a class="el" href="searchtree_8cpp_source#l00742">BasicSearchTree::GetItemNo()</a>, <a class="el" href="token_8h_source#l00262">Token::m_Index</a>, <a class="el" href="token_8h_source#l00188">Token::m_Name</a>, and <a class="el" href="tokentree_8h_source#l00345">m_Tree</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="tokentree_8h_source#l00086">Clear()</a>, and <a class="el" href="parserthread_8cpp_source#l03736">ParserThread::RefineAnonymousTypeToken()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="tokentree_8h_source#l00086">Clear()</a>, and <a class="el" href="parserthread_8cpp_source#l03751">ParserThread::RefineAnonymousTypeToken()</a>.</p>
 
 </div>
 </div>
@@ -2009,9 +2018,9 @@ Friends</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="tokentree_8cpp_source#l00896">896</a> of file <a class="el" href="tokentree_8cpp_source">tokentree.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="tokentree_8h_source#l00019">fpsAssigned</a>, <a class="el" href="tokentree_8h_source#l00019">fpsBeingParsed</a>, <a class="el" href="tokentree_8h_source#l00019">fpsDone</a>, <a class="el" href="tokentree_8h_source#l00019">fpsNotParsed</a>, <a class="el" href="tokentree_8cpp_source#l00835">InsertFileOrGetIndex()</a>, <a class="el" href="tokentree_8h_source#l00363">m_FileStatusMap</a>, <a class="el" href="tokentree_8h_source#l00366">m_FilesToBeReparsed</a>, and <a class="el" href="tokentree_8cpp_source#l00549">RemoveFile()</a>.</p>
+<p class="reference">References <a class="el" href="tokentree_8h_source#l00019">fpsAssigned</a>, <a class="el" href="tokentree_8h_source#l00019">fpsBeingParsed</a>, <a class="el" href="tokentree_8h_source#l00019">fpsDone</a>, <a class="el" href="tokentree_8h_source#l00019">fpsNotParsed</a>, <a class="el" href="tokentree_8cpp_source#l00835">InsertFileOrGetIndex()</a>, <a class="el" href="tokentree_8h_source#l00375">m_FileStatusMap</a>, <a class="el" href="tokentree_8h_source#l00378">m_FilesToBeReparsed</a>, and <a class="el" href="tokentree_8cpp_source#l00549">RemoveFile()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="tokentree_8h_source#l00222">EraseFilesToBeReparsedByIndex()</a>, <a class="el" href="parserthread_8cpp_source#l00510">ParserThread::Parse()</a>, <a class="el" href="parser_8cpp_source#l00273">Parser::Parse()</a>, and <a class="el" href="parser__base_8cpp_source#l00206">ParserBase::Reparse()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="tokentree_8h_source#l00232">EraseFilesToBeReparsedByIndex()</a>, <a class="el" href="parserthread_8cpp_source#l00510">ParserThread::Parse()</a>, <a class="el" href="parser_8cpp_source#l00273">Parser::Parse()</a>, and <a class="el" href="parser__base_8cpp_source#l00206">ParserBase::Reparse()</a>.</p>
 
 </div>
 </div>
@@ -2034,9 +2043,9 @@ Friends</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="tokentree_8cpp_source#l00098">98</a> of file <a class="el" href="tokentree_8cpp_source">tokentree.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="tokentree_8h_source#l00343">m_Tokens</a>.</p>
+<p class="reference">References <a class="el" href="tokentree_8h_source#l00353">m_Tokens</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="tokentree_8h_source#l00052">at()</a>, <a class="el" href="tokentree_8h_source#l00063">empty()</a>, <a class="el" href="insertclassmethoddlg_8cpp_source#l00133">InsertClassMethodDlg::FillClasses()</a>, <a class="el" href="nativeparser_8cpp_source#l00802">NativeParser::MarkItemsByAI()</a>, <a class="el" href="ccdebuginfo_8cpp_source#l00578">CCDebugInfo::OnFindClick()</a>, <a class="el" href="codecompletion_8cpp_source#l01809">CodeCompletion::OnGotoFunction()</a>, and <a class="el" href="nativeparser_8cpp_source#l01721">NativeParser::ParseLocalBlock()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="tokentree_8h_source#l00052">at()</a>, <a class="el" href="tokentree_8h_source#l00063">empty()</a>, <a class="el" href="insertclassmethoddlg_8cpp_source#l00133">InsertClassMethodDlg::FillClasses()</a>, <a class="el" href="nativeparser_8cpp_source#l00802">NativeParser::MarkItemsByAI()</a>, <a class="el" href="ccdebuginfo_8cpp_source#l00583">CCDebugInfo::OnFindClick()</a>, <a class="el" href="codecompletion_8cpp_source#l01847">CodeCompletion::OnGotoFunction()</a>, and <a class="el" href="nativeparser_8cpp_source#l01721">NativeParser::ParseLocalBlock()</a>.</p>
 
 </div>
 </div>
@@ -2085,9 +2094,9 @@ Friends</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="tokentree_8cpp_source#l00141">141</a> of file <a class="el" href="tokentree_8cpp_source">tokentree.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="searchtree_8h_source#l00488">SearchTree&lt; T &gt;::GetItemAtPos()</a>, <a class="el" href="searchtree_8cpp_source#l00742">BasicSearchTree::GetItemNo()</a>, <a class="el" href="token_8h_source#l00265">Token::m_ParentIndex</a>, <a class="el" href="token_8h_source#l00234">Token::m_TokenKind</a>, <a class="el" href="tokentree_8h_source#l00343">m_Tokens</a>, and <a class="el" href="tokentree_8h_source#l00335">m_Tree</a>.</p>
+<p class="reference">References <a class="el" href="searchtree_8h_source#l00488">SearchTree&lt; T &gt;::GetItemAtPos()</a>, <a class="el" href="searchtree_8cpp_source#l00742">BasicSearchTree::GetItemNo()</a>, <a class="el" href="token_8h_source#l00265">Token::m_ParentIndex</a>, <a class="el" href="token_8h_source#l00234">Token::m_TokenKind</a>, <a class="el" href="tokentree_8h_source#l00353">m_Tokens</a>, and <a class="el" href="tokentree_8h_source#l00345">m_Tree</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="tokenizer_8cpp_source#l02014">Tokenizer::AddMacroDefinition()</a>, <a class="el" href="parserthread_8cpp_source#l02780">ParserThread::CalcEnumExpression()</a>, <a class="el" href="tokenizer_8cpp_source#l01070">Tokenizer::CheckMacroUsageAndReplace()</a>, <a class="el" href="tokentree_8h_source#l00086">Clear()</a>, <a class="el" href="nativeparser__base_8cpp_source#l01737">NativeParserBase::ComputeCallTip()</a>, <a class="el" href="tokenizer_8cpp_source#l01996">Tokenizer::HandleUndefs()</a>, <a class="el" href="tokenizer_8cpp_source#l01172">Tokenizer::IsMacroDefined()</a>, <a class="el" href="codecompletion_8cpp_source#l01897">CodeCompletion::OnGotoDeclaration()</a>, <a class="el" href="nativeparser_8cpp_source#l01579">NativeParser::ParseBufferForUsingNamespace()</a>, <a class="el" href="nativeparser__base_8cpp_source#l01828">NativeParserBase::PrettyPrintToken()</a>, <a class="el" href="tokentree_8cpp_source#l00643">RecalcInheritanceChain()</a>, and <a class="el" href="parserthread_8cpp_source#l01322">ParserThread::TokenExists()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="tokenizer_8cpp_source#l02027">Tokenizer::AddMacroDefinition()</a>, <a class="el" href="parserthread_8cpp_source#l02795">ParserThread::CalcEnumExpression()</a>, <a class="el" href="tokenizer_8cpp_source#l01069">Tokenizer::CheckMacroUsageAndReplace()</a>, <a class="el" href="tokentree_8h_source#l00086">Clear()</a>, <a class="el" href="nativeparser__base_8cpp_source#l01737">NativeParserBase::ComputeCallTip()</a>, <a class="el" href="tokenizer_8cpp_source#l02009">Tokenizer::HandleUndefs()</a>, <a class="el" href="tokenizer_8cpp_source#l01171">Tokenizer::IsMacroDefined()</a>, <a class="el" href="codecompletion_8cpp_source#l01935">CodeCompletion::OnGotoDeclaration()</a>, <a class="el" href="nativeparser_8cpp_source#l01579">NativeParser::ParseBufferForUsingNamespace()</a>, <a class="el" href="nativeparser__base_8cpp_source#l01828">NativeParserBase::PrettyPrintToken()</a>, <a class="el" href="tokentree_8cpp_source#l00643">RecalcInheritanceChain()</a>, and <a class="el" href="parserthread_8cpp_source#l01321">ParserThread::TokenExists()</a>.</p>
 
 </div>
 </div>
@@ -2143,7 +2152,7 @@ Friends</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="tokentree_8cpp_source#l00167">167</a> of file <a class="el" href="tokentree_8cpp_source">tokentree.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="searchtree_8h_source#l00488">SearchTree&lt; T &gt;::GetItemAtPos()</a>, <a class="el" href="searchtree_8cpp_source#l00742">BasicSearchTree::GetItemNo()</a>, <a class="el" href="token_8h_source#l00197">Token::m_BaseArgs</a>, <a class="el" href="token_8h_source#l00265">Token::m_ParentIndex</a>, <a class="el" href="token_8h_source#l00234">Token::m_TokenKind</a>, <a class="el" href="tokentree_8h_source#l00343">m_Tokens</a>, <a class="el" href="tokentree_8h_source#l00335">m_Tree</a>, and <a class="el" href="token_8h_source#l00070">tkAnyContainer</a>.</p>
+<p class="reference">References <a class="el" href="searchtree_8h_source#l00488">SearchTree&lt; T &gt;::GetItemAtPos()</a>, <a class="el" href="searchtree_8cpp_source#l00742">BasicSearchTree::GetItemNo()</a>, <a class="el" href="token_8h_source#l00197">Token::m_BaseArgs</a>, <a class="el" href="token_8h_source#l00265">Token::m_ParentIndex</a>, <a class="el" href="token_8h_source#l00234">Token::m_TokenKind</a>, <a class="el" href="tokentree_8h_source#l00353">m_Tokens</a>, <a class="el" href="tokentree_8h_source#l00345">m_Tree</a>, and <a class="el" href="token_8h_source#l00070">tkAnyContainer</a>.</p>
 
 </div>
 </div>
@@ -2192,7 +2201,7 @@ Friends</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="tokentree_8cpp_source#l00198">198</a> of file <a class="el" href="tokentree_8cpp_source">tokentree.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="searchtree_8h_source#l00488">SearchTree&lt; T &gt;::GetItemAtPos()</a>, <a class="el" href="searchtree_8cpp_source#l00742">BasicSearchTree::GetItemNo()</a>, <a class="el" href="token_8h_source#l00265">Token::m_ParentIndex</a>, <a class="el" href="token_8h_source#l00234">Token::m_TokenKind</a>, <a class="el" href="tokentree_8h_source#l00343">m_Tokens</a>, and <a class="el" href="tokentree_8h_source#l00335">m_Tree</a>.</p>
+<p class="reference">References <a class="el" href="searchtree_8h_source#l00488">SearchTree&lt; T &gt;::GetItemAtPos()</a>, <a class="el" href="searchtree_8cpp_source#l00742">BasicSearchTree::GetItemNo()</a>, <a class="el" href="token_8h_source#l00265">Token::m_ParentIndex</a>, <a class="el" href="token_8h_source#l00234">Token::m_TokenKind</a>, <a class="el" href="tokentree_8h_source#l00353">m_Tokens</a>, and <a class="el" href="tokentree_8h_source#l00345">m_Tree</a>.</p>
 
 </div>
 </div>
@@ -2248,7 +2257,7 @@ Friends</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="tokentree_8cpp_source#l00230">230</a> of file <a class="el" href="tokentree_8cpp_source">tokentree.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="searchtree_8h_source#l00488">SearchTree&lt; T &gt;::GetItemAtPos()</a>, <a class="el" href="searchtree_8cpp_source#l00742">BasicSearchTree::GetItemNo()</a>, <a class="el" href="token_8h_source#l00197">Token::m_BaseArgs</a>, <a class="el" href="token_8h_source#l00265">Token::m_ParentIndex</a>, <a class="el" href="token_8h_source#l00234">Token::m_TokenKind</a>, <a class="el" href="tokentree_8h_source#l00343">m_Tokens</a>, <a class="el" href="tokentree_8h_source#l00335">m_Tree</a>, and <a class="el" href="token_8h_source#l00070">tkAnyContainer</a>.</p>
+<p class="reference">References <a class="el" href="searchtree_8h_source#l00488">SearchTree&lt; T &gt;::GetItemAtPos()</a>, <a class="el" href="searchtree_8cpp_source#l00742">BasicSearchTree::GetItemNo()</a>, <a class="el" href="token_8h_source#l00197">Token::m_BaseArgs</a>, <a class="el" href="token_8h_source#l00265">Token::m_ParentIndex</a>, <a class="el" href="token_8h_source#l00234">Token::m_TokenKind</a>, <a class="el" href="tokentree_8h_source#l00353">m_Tokens</a>, <a class="el" href="tokentree_8h_source#l00345">m_Tree</a>, and <a class="el" href="token_8h_source#l00070">tkAnyContainer</a>.</p>
 
 </div>
 </div>
@@ -2372,9 +2381,9 @@ Friends</h2></td></tr>
 
 <p>Map: file indices -&gt; sets of TokenIndexes. </p>
 
-<p class="definition">Definition at line <a class="el" href="tokentree_8h_source#l00360">360</a> of file <a class="el" href="tokentree_8h_source">tokentree.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="tokentree_8h_source#l00372">372</a> of file <a class="el" href="tokentree_8h_source">tokentree.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="tokentree_8cpp_source#l00364">AddToken()</a>, <a class="el" href="tokentree_8cpp_source#l00074">clear()</a>, <a class="el" href="tokentree_8h_source#l00207">EraseFileMapInFileMap()</a>, <a class="el" href="tokentree_8cpp_source#l00298">FindTokensInFile()</a>, <a class="el" href="tokentree_8h_source#l00197">GetFileMapSize()</a>, <a class="el" href="tokentree_8h_source#l00181">GetFilesMap()</a>, <a class="el" href="tokentree_8h_source#l00186">GetTokensBelongToFile()</a>, <a class="el" href="tokentree_8h_source#l00202">InsertTokenBelongToFile()</a>, <a class="el" href="tokentree_8cpp_source#l00863">IsFileParsed()</a>, <a class="el" href="tokentree_8cpp_source#l00879">MarkFileTokensAsLocal()</a>, <a class="el" href="tokentree_8cpp_source#l00554">RemoveFile()</a>, and <a class="el" href="tokentree_8cpp_source#l00051">TokenTree()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="tokentree_8cpp_source#l00364">AddToken()</a>, <a class="el" href="tokentree_8cpp_source#l00074">clear()</a>, <a class="el" href="tokentree_8h_source#l00217">EraseFileMapInFileMap()</a>, <a class="el" href="tokentree_8cpp_source#l00298">FindTokensInFile()</a>, <a class="el" href="tokentree_8h_source#l00207">GetFileMapSize()</a>, <a class="el" href="tokentree_8h_source#l00191">GetFilesMap()</a>, <a class="el" href="tokentree_8h_source#l00196">GetTokensBelongToFile()</a>, <a class="el" href="tokentree_8h_source#l00212">InsertTokenBelongToFile()</a>, <a class="el" href="tokentree_8cpp_source#l00863">IsFileParsed()</a>, <a class="el" href="tokentree_8cpp_source#l00879">MarkFileTokensAsLocal()</a>, <a class="el" href="tokentree_8cpp_source#l00554">RemoveFile()</a>, and <a class="el" href="tokentree_8cpp_source#l00051">TokenTree()</a>.</p>
 
 </div>
 </div>
@@ -2400,9 +2409,9 @@ Friends</h2></td></tr>
 
 <p>Map: file names -&gt; file indices. </p>
 
-<p class="definition">Definition at line <a class="el" href="tokentree_8h_source#l00357">357</a> of file <a class="el" href="tokentree_8h_source">tokentree.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="tokentree_8h_source#l00369">369</a> of file <a class="el" href="tokentree_8h_source">tokentree.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="tokentree_8cpp_source#l00074">clear()</a>, <a class="el" href="ccdebuginfo_8cpp_source#l00389">CCDebugInfo::FillFiles()</a>, <a class="el" href="tokentree_8cpp_source#l00298">FindTokensInFile()</a>, <a class="el" href="tokentree_8cpp_source#l00851">GetFileIndex()</a>, <a class="el" href="tokentree_8cpp_source#l00843">GetFileMatches()</a>, <a class="el" href="tokentree_8cpp_source#l00858">GetFilename()</a>, <a class="el" href="tokentree_8cpp_source#l00835">InsertFileOrGetIndex()</a>, <a class="el" href="ccdebuginfo_8cpp_source#l00697">CCDebugInfo::OnSave()</a>, and <a class="el" href="tokentree_8cpp_source#l00051">TokenTree()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="tokentree_8cpp_source#l00074">clear()</a>, <a class="el" href="ccdebuginfo_8cpp_source#l00389">CCDebugInfo::FillFiles()</a>, <a class="el" href="tokentree_8cpp_source#l00298">FindTokensInFile()</a>, <a class="el" href="tokentree_8cpp_source#l00851">GetFileIndex()</a>, <a class="el" href="tokentree_8cpp_source#l00843">GetFileMatches()</a>, <a class="el" href="tokentree_8cpp_source#l00858">GetFilename()</a>, <a class="el" href="tokentree_8cpp_source#l00835">InsertFileOrGetIndex()</a>, <a class="el" href="ccdebuginfo_8cpp_source#l00702">CCDebugInfo::OnSave()</a>, and <a class="el" href="tokentree_8cpp_source#l00051">TokenTree()</a>.</p>
 
 </div>
 </div>
@@ -2428,9 +2437,9 @@ Friends</h2></td></tr>
 
 <p>Map: file indices -&gt; status. </p>
 
-<p class="definition">Definition at line <a class="el" href="tokentree_8h_source#l00363">363</a> of file <a class="el" href="tokentree_8h_source">tokentree.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="tokentree_8h_source#l00375">375</a> of file <a class="el" href="tokentree_8h_source">tokentree.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="tokentree_8cpp_source#l00074">clear()</a>, <a class="el" href="tokentree_8h_source#l00217">EraseFileStatusByIndex()</a>, <a class="el" href="tokentree_8cpp_source#l00931">FlagFileAsParsed()</a>, <a class="el" href="tokentree_8h_source#l00212">GetFileStatusCountForIndex()</a>, <a class="el" href="tokentree_8cpp_source#l00863">IsFileParsed()</a>, <a class="el" href="tokentree_8cpp_source#l00896">ReserveFileForParsing()</a>, and <a class="el" href="tokentree_8cpp_source#l00051">TokenTree()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="tokentree_8cpp_source#l00074">clear()</a>, <a class="el" href="tokentree_8h_source#l00227">EraseFileStatusByIndex()</a>, <a class="el" href="tokentree_8cpp_source#l00931">FlagFileAsParsed()</a>, <a class="el" href="tokentree_8h_source#l00222">GetFileStatusCountForIndex()</a>, <a class="el" href="tokentree_8cpp_source#l00863">IsFileParsed()</a>, <a class="el" href="tokentree_8cpp_source#l00896">ReserveFileForParsing()</a>, and <a class="el" href="tokentree_8cpp_source#l00051">TokenTree()</a>.</p>
 
 </div>
 </div>
@@ -2456,9 +2465,9 @@ Friends</h2></td></tr>
 
 <p>Set: file indices. </p>
 
-<p class="definition">Definition at line <a class="el" href="tokentree_8h_source#l00366">366</a> of file <a class="el" href="tokentree_8h_source">tokentree.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="tokentree_8h_source#l00378">378</a> of file <a class="el" href="tokentree_8h_source">tokentree.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="tokentree_8cpp_source#l00074">clear()</a>, <a class="el" href="tokentree_8h_source#l00222">EraseFilesToBeReparsedByIndex()</a>, <a class="el" href="tokentree_8cpp_source#l00926">FlagFileForReparsing()</a>, <a class="el" href="tokentree_8h_source#l00192">GetFilesToBeReparsed()</a>, <a class="el" href="tokentree_8cpp_source#l00863">IsFileParsed()</a>, <a class="el" href="tokentree_8cpp_source#l00896">ReserveFileForParsing()</a>, and <a class="el" href="tokentree_8cpp_source#l00051">TokenTree()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="tokentree_8cpp_source#l00074">clear()</a>, <a class="el" href="tokentree_8h_source#l00232">EraseFilesToBeReparsedByIndex()</a>, <a class="el" href="tokentree_8cpp_source#l00926">FlagFileForReparsing()</a>, <a class="el" href="tokentree_8h_source#l00202">GetFilesToBeReparsed()</a>, <a class="el" href="tokentree_8cpp_source#l00863">IsFileParsed()</a>, <a class="el" href="tokentree_8cpp_source#l00896">ReserveFileForParsing()</a>, and <a class="el" href="tokentree_8cpp_source#l00051">TokenTree()</a>.</p>
 
 </div>
 </div>
@@ -2485,7 +2494,7 @@ Friends</h2></td></tr>
 <p>List of all the deleted (and available) tokens. </p>
 <p>When more and more Tokens were allocated, their address was recorded in the m_Tokens, m_Tokens grows larger, but if we delete some Tokens, the will have some empty slots in the std::vector&lt;Token*&gt;, we need to reuse those slots, here m_FreeTokens is to hold those empty slots for reuse, so we don't waste empty slots in the m_Tokens </p>
 
-<p class="definition">Definition at line <a class="el" href="tokentree_8h_source#l00350">350</a> of file <a class="el" href="tokentree_8h_source">tokentree.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="tokentree_8h_source#l00360">360</a> of file <a class="el" href="tokentree_8h_source">tokentree.h</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="tokentree_8cpp_source#l00485">AddTokenToList()</a>, <a class="el" href="tokentree_8cpp_source#l00074">clear()</a>, <a class="el" href="tokentree_8cpp_source#l00103">realsize()</a>, <a class="el" href="tokentree_8cpp_source#l00633">RecalcFreeList()</a>, <a class="el" href="tokentree_8cpp_source#l00536">RemoveTokenFromList()</a>, and <a class="el" href="tokentree_8cpp_source#l00051">TokenTree()</a>.</p>
 
@@ -2511,9 +2520,11 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="tokentree_8h_source#l00354">354</a> of file <a class="el" href="tokentree_8h_source">tokentree.h</a>.</p>
+<p>any tokens belong to the global namespace </p>
 
-<p class="reference">Referenced by <a class="el" href="tokentree_8cpp_source#l00364">AddToken()</a>, <a class="el" href="tokentree_8cpp_source#l00074">clear()</a>, <a class="el" href="tokentree_8h_source#l00176">GetGlobalNameSpaces()</a>, <a class="el" href="tokentree_8cpp_source#l00404">RemoveToken()</a>, and <a class="el" href="tokentree_8cpp_source#l00051">TokenTree()</a>.</p>
+<p class="definition">Definition at line <a class="el" href="tokentree_8h_source#l00366">366</a> of file <a class="el" href="tokentree_8h_source">tokentree.h</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="tokentree_8cpp_source#l00364">AddToken()</a>, <a class="el" href="tokentree_8cpp_source#l00074">clear()</a>, <a class="el" href="tokentree_8h_source#l00186">GetGlobalNameSpaces()</a>, <a class="el" href="tokentree_8cpp_source#l00404">RemoveToken()</a>, and <a class="el" href="tokentree_8cpp_source#l00051">TokenTree()</a>.</p>
 
 </div>
 </div>
@@ -2539,9 +2550,9 @@ Friends</h2></td></tr>
 
 <p>Contains the pointers to all the <a class="el" href="classToken" title="a symbol found in the parsed files, it can be many kinds, such as a variable, a class and so on...">Token</a> instances, it is just a std::vector&lt;Token*&gt;, the suggest way to access a <a class="el" href="classToken" title="a symbol found in the parsed files, it can be many kinds, such as a variable, a class and so on...">Token</a> instance is by first get its index in the m_Tokens, then get its address by m_Tokens[index], the reason we have such indirect access is that there are many Tokens which can reference each other, it is much safe using index instead of raw pointers. </p>
 
-<p class="definition">Definition at line <a class="el" href="tokentree_8h_source#l00343">343</a> of file <a class="el" href="tokentree_8h_source">tokentree.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="tokentree_8h_source#l00353">353</a> of file <a class="el" href="tokentree_8h_source">tokentree.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="tokentree_8cpp_source#l00485">AddTokenToList()</a>, <a class="el" href="tokentree_8cpp_source#l00609">CheckChildRemove()</a>, <a class="el" href="tokentree_8cpp_source#l00074">clear()</a>, <a class="el" href="tokentree_8cpp_source#l00127">erase()</a>, <a class="el" href="tokentree_8cpp_source#l00819">GetTokenAt()</a>, <a class="el" href="tokentree_8h_source#l00171">GetTokens()</a>, <a class="el" href="tokentree_8cpp_source#l00879">MarkFileTokensAsLocal()</a>, <a class="el" href="tokentree_8cpp_source#l00103">realsize()</a>, <a class="el" href="tokentree_8cpp_source#l00633">RecalcFreeList()</a>, <a class="el" href="tokentree_8cpp_source#l00554">RemoveFile()</a>, <a class="el" href="tokentree_8cpp_source#l00396">RemoveToken()</a>, <a class="el" href="tokentree_8cpp_source#l00536">RemoveTokenFromList()</a>, <a class="el" href="tokentree_8cpp_source#l00098">size()</a>, <a class="el" href="tokentree_8cpp_source#l00141">TokenExists()</a>, and <a class="el" href="tokentree_8cpp_source#l00051">TokenTree()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="tokentree_8cpp_source#l00485">AddTokenToList()</a>, <a class="el" href="tokentree_8cpp_source#l00609">CheckChildRemove()</a>, <a class="el" href="tokentree_8cpp_source#l00074">clear()</a>, <a class="el" href="tokentree_8cpp_source#l00127">erase()</a>, <a class="el" href="tokentree_8cpp_source#l00819">GetTokenAt()</a>, <a class="el" href="tokentree_8h_source#l00180">GetTokens()</a>, <a class="el" href="tokentree_8cpp_source#l00879">MarkFileTokensAsLocal()</a>, <a class="el" href="tokentree_8cpp_source#l00103">realsize()</a>, <a class="el" href="tokentree_8cpp_source#l00633">RecalcFreeList()</a>, <a class="el" href="tokentree_8cpp_source#l00554">RemoveFile()</a>, <a class="el" href="tokentree_8cpp_source#l00396">RemoveToken()</a>, <a class="el" href="tokentree_8cpp_source#l00536">RemoveTokenFromList()</a>, <a class="el" href="tokentree_8cpp_source#l00098">size()</a>, <a class="el" href="tokentree_8cpp_source#l00141">TokenExists()</a>, and <a class="el" href="tokentree_8cpp_source#l00051">TokenTree()</a>.</p>
 
 </div>
 </div>
@@ -2557,9 +2568,9 @@ Friends</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="tokentree_8h_source#l00295">295</a> of file <a class="el" href="tokentree_8h_source">tokentree.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="tokentree_8h_source#l00305">305</a> of file <a class="el" href="tokentree_8h_source">tokentree.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="tokenizer_8cpp_source#l02014">Tokenizer::AddMacroDefinition()</a>, <a class="el" href="parserthread_8cpp_source#l01476">ParserThread::DoAddToken()</a>, and <a class="el" href="parserthread_8cpp_source#l01433">ParserThread::FindTokenFromQueue()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="tokenizer_8cpp_source#l02027">Tokenizer::AddMacroDefinition()</a>, <a class="el" href="parserthread_8cpp_source#l01475">ParserThread::DoAddToken()</a>, and <a class="el" href="parserthread_8cpp_source#l01432">ParserThread::FindTokenFromQueue()</a>.</p>
 
 </div>
 </div>
@@ -2583,9 +2594,9 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>List of tokens belonging to the global namespace. </p>
+<p>namespace tokens belongs to the global namespace </p>
 
-<p class="definition">Definition at line <a class="el" href="tokentree_8h_source#l00353">353</a> of file <a class="el" href="tokentree_8h_source">tokentree.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="tokentree_8h_source#l00363">363</a> of file <a class="el" href="tokentree_8h_source">tokentree.h</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="tokentree_8cpp_source#l00364">AddToken()</a>, <a class="el" href="tokentree_8cpp_source#l00074">clear()</a>, <a class="el" href="tokentree_8cpp_source#l00404">RemoveToken()</a>, and <a class="el" href="tokentree_8cpp_source#l00051">TokenTree()</a>.</p>
 
@@ -2614,9 +2625,9 @@ Friends</h2></td></tr>
 <p>This is a string-&gt;TokenIndexSet map. </p>
 <p>E.g. we have a class <a class="el" href="classToken" title="a symbol found in the parsed files, it can be many kinds, such as a variable, a class and so on...">Token</a> named "AAA", also, we can have a function <a class="el" href="classToken" title="a symbol found in the parsed files, it can be many kinds, such as a variable, a class and so on...">Token</a> named "AAA", they are different Tokens, but they share the same name. So we may have an tree point "AAA" -&gt; &lt;30, 40&gt; map in the TokenSearchTree. Note here 30 and 40 are the indexes (slots) in the m_Tokens vector, which holds the Tokens pointers. In-fact, "AAA" -&gt; &lt;30, 40&gt; is not mapped directly, it has a indirect map like "AAA" -&gt; 16 -&gt; &lt;30, 40&gt;, the middle number 16 here is the tree point item index in the <a class="el" href="classBasicSearchTree" title="This class is generally a string -&gt; size_t map, the tree details (graph) is already show in the decla...">BasicSearchTree</a>, as we have a std::vector&lt; TokenIndexSet &gt; in the <a class="el" href="classSearchTree" title="this is a class template derived from BasicSearchTree class, the type T was stored in a vector...">SearchTree</a>, the 16 is the index to fetch the value &lt;30,40&gt; in the vector </p>
 
-<p class="definition">Definition at line <a class="el" href="tokentree_8h_source#l00335">335</a> of file <a class="el" href="tokentree_8h_source">tokentree.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="tokentree_8h_source#l00345">345</a> of file <a class="el" href="tokentree_8h_source">tokentree.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="tokentree_8cpp_source#l00364">AddToken()</a>, <a class="el" href="tokentree_8cpp_source#l00074">clear()</a>, <a class="el" href="tokentree_8cpp_source#l00266">FindMatches()</a>, <a class="el" href="ccdebuginfo_8cpp_source#l00697">CCDebugInfo::OnSave()</a>, <a class="el" href="tokentree_8cpp_source#l00404">RemoveToken()</a>, <a class="el" href="tokentree_8cpp_source#l00338">RenameToken()</a>, <a class="el" href="tokentree_8cpp_source#l00141">TokenExists()</a>, and <a class="el" href="tokentree_8cpp_source#l00051">TokenTree()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="tokentree_8cpp_source#l00364">AddToken()</a>, <a class="el" href="tokentree_8cpp_source#l00074">clear()</a>, <a class="el" href="tokentree_8cpp_source#l00266">FindMatches()</a>, <a class="el" href="ccdebuginfo_8cpp_source#l00702">CCDebugInfo::OnSave()</a>, <a class="el" href="tokentree_8cpp_source#l00404">RemoveToken()</a>, <a class="el" href="tokentree_8cpp_source#l00338">RenameToken()</a>, <a class="el" href="tokentree_8cpp_source#l00141">TokenExists()</a>, and <a class="el" href="tokentree_8cpp_source#l00051">TokenTree()</a>.</p>
 
 </div>
 </div>

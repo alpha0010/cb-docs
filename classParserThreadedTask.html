@@ -19,7 +19,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Code::Blocks
-   &#160;<span id="projectnumber">SVN r11156</span>
+   &#160;<span id="projectnumber">SVN r11506</span>
    </div>
   </td>
  </tr>
@@ -47,16 +47,21 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 
+<p>a <a class="el" href="classcbThreadedTask" title="This is what you have to use instead of wxThread to add tasks to the Thread Pool. ...">cbThreadedTask</a> can be executed in <a class="el" href="classcbThreadPool" title="A Thread Pool implementation. ">cbThreadPool</a> to do a lot of parsing jobs in the begining stage of the batch parsing.  
+ <a href="classParserThreadedTask#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="parserthreadedtask_8h_source">parserthreadedtask.h</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for ParserThreadedTask:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classParserThreadedTask__inherit__graph.svg" width="171" height="316"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classParserThreadedTask__inherit__graph.svg" width="171" height="316"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 <div class="dynheader">
 Collaboration diagram for ParserThreadedTask:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classParserThreadedTask__coll__graph.svg" width="3463" height="2266"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classParserThreadedTask__coll__graph.svg" width="3463" height="2266"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
@@ -82,6 +87,7 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:lm-m_Parser"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classParser">Parser</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classParserThreadedTask#lm-m_Parser">m_Parser</a></td></tr>
 <tr class="separator:lm-m_Parser"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:pe-m_ParserMutex"><td class="memItemLeft" align="right" valign="top"><a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_mutex.html">wxMutex</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classParserThreadedTask#pe-m_ParserMutex">m_ParserMutex</a></td></tr>
+<tr class="memdesc:pe-m_ParserMutex"><td class="mdescLeft">&#160;</td><td class="mdescRight">a <a class="el" href="classParser" title="Parser class holds all the tokens of a C::B project. ">Parser</a> object which contain <a class="el" href="classTokenTree" title="a container class to hold all the Tokens getting from parsing stage ">TokenTree</a>  <a href="#pe-m_ParserMutex">More...</a><br /></td></tr>
 <tr class="separator:pe-m_ParserMutex"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
@@ -95,8 +101,10 @@ Additional Inherited Members</h2></td></tr>
 <tr class="separator:l4-Aborted inherit pro_methods_classcbThreadedTask"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock">
-<p class="definition">Definition at line <a class="el" href="parserthreadedtask_8h_source#l00016">16</a> of file <a class="el" href="parserthreadedtask_8h_source">parserthreadedtask.h</a>.</p>
+<div class="textblock"><p>a <a class="el" href="classcbThreadedTask" title="This is what you have to use instead of wxThread to add tasks to the Thread Pool. ...">cbThreadedTask</a> can be executed in <a class="el" href="classcbThreadPool" title="A Thread Pool implementation. ">cbThreadPool</a> to do a lot of parsing jobs in the begining stage of the batch parsing. </p>
+<p>Here, the files and the macro definition are already prepared, so we put them in the thread pool </p>
+
+<p class="definition">Definition at line <a class="el" href="parserthreadedtask_8h_source#l00020">20</a> of file <a class="el" href="parserthreadedtask_8h_source">parserthreadedtask.h</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="t5-ParserThreadedTask"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#t5-ParserThreadedTask">&#9670;&nbsp;</a></span>ParserThreadedTask()</h2>
@@ -158,7 +166,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="parserthreadedtask_8cpp_source#l00064">64</a> of file <a class="el" href="parserthreadedtask_8cpp_source">parserthreadedtask.cpp</a>.</p>
 
-<p class="reference">References <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga7dfc2888539861afe6c4337ef315472b">_T</a>, <a class="el" href="cclogger_8h_source#l00173">CC_LOCKER_TRACK_P_MTX_LOCK</a>, <a class="el" href="cclogger_8h_source#l00174">CC_LOCKER_TRACK_P_MTX_UNLOCK</a>, <a class="el" href="parser_8cpp_source#l00211">Parser::ClearPredefinedMacros()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#ace32756bab999f8aae9be0cf981fc449">wxString::IsEmpty()</a>, <a class="el" href="parser_8h_source#l00344">Parser::m_BatchParseFiles</a>, <a class="el" href="parser_8h_source#l00341">Parser::m_IgnoreThreadEvents</a>, <a class="el" href="parser_8h_source#l00315">Parser::m_IsFirstBatch</a>, <a class="el" href="parser_8h_source#l00304">Parser::m_IsParsing</a>, <a class="el" href="parserthreadedtask_8h_source#l00023">m_Parser</a>, <a class="el" href="parserthreadedtask_8h_source#l00024">m_ParserMutex</a>, <a class="el" href="parser_8h_source#l00347">Parser::m_PredefinedMacros</a>, <a class="el" href="parser_8cpp_source#l00273">Parser::Parse()</a>, <a class="el" href="parser_8cpp_source#l00364">Parser::ParseBuffer()</a>, and <a class="el" href="parserthreadedtask_8cpp_source#l00052">TRACE</a>.</p>
+<p class="reference">References <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga7dfc2888539861afe6c4337ef315472b">_T</a>, <a class="el" href="cclogger_8h_source#l00173">CC_LOCKER_TRACK_P_MTX_LOCK</a>, <a class="el" href="cclogger_8h_source#l00174">CC_LOCKER_TRACK_P_MTX_UNLOCK</a>, <a class="el" href="parser_8cpp_source#l00211">Parser::ClearPredefinedMacros()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#ace32756bab999f8aae9be0cf981fc449">wxString::IsEmpty()</a>, <a class="el" href="parser_8h_source#l00344">Parser::m_BatchParseFiles</a>, <a class="el" href="parser_8h_source#l00341">Parser::m_IgnoreThreadEvents</a>, <a class="el" href="parser_8h_source#l00315">Parser::m_IsFirstBatch</a>, <a class="el" href="parser_8h_source#l00304">Parser::m_IsParsing</a>, <a class="el" href="parserthreadedtask_8h_source#l00032">m_Parser</a>, <a class="el" href="parserthreadedtask_8h_source#l00033">m_ParserMutex</a>, <a class="el" href="parser_8h_source#l00347">Parser::m_PredefinedMacros</a>, <a class="el" href="parser_8cpp_source#l00273">Parser::Parse()</a>, <a class="el" href="parser_8cpp_source#l00364">Parser::ParseBuffer()</a>, and <a class="el" href="parserthreadedtask_8cpp_source#l00052">TRACE</a>.</p>
 
 </div>
 </div>
@@ -183,7 +191,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="parserthreadedtask_8h_source#l00023">23</a> of file <a class="el" href="parserthreadedtask_8h_source">parserthreadedtask.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="parserthreadedtask_8h_source#l00032">32</a> of file <a class="el" href="parserthreadedtask_8h_source">parserthreadedtask.h</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="parserthreadedtask_8cpp_source#l00064">Execute()</a>.</p>
 
@@ -209,7 +217,9 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="parserthreadedtask_8h_source#l00024">24</a> of file <a class="el" href="parserthreadedtask_8h_source">parserthreadedtask.h</a>.</p>
+<p>a <a class="el" href="classParser" title="Parser class holds all the tokens of a C::B project. ">Parser</a> object which contain <a class="el" href="classTokenTree" title="a container class to hold all the Tokens getting from parsing stage ">TokenTree</a> </p>
+
+<p class="definition">Definition at line <a class="el" href="parserthreadedtask_8h_source#l00033">33</a> of file <a class="el" href="parserthreadedtask_8h_source">parserthreadedtask.h</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="parserthreadedtask_8cpp_source#l00064">Execute()</a>.</p>
 

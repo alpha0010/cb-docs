@@ -19,7 +19,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Code::Blocks
-   &#160;<span id="projectnumber">SVN r11156</span>
+   &#160;<span id="projectnumber">SVN r11506</span>
    </div>
   </td>
  </tr>
@@ -57,12 +57,14 @@ $(function() {
 <code>#include &lt;wx/stdpaths.h&gt;</code><br />
 <code>#include &lt;wx/filename.h&gt;</code><br />
 <code>#include &lt;shlobj.h&gt;</code><br />
+<code>#include &quot;<a class="el" href="annoyingdialog_8h_source">annoyingdialog.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="tinywxuni_8h_source">tinywxuni.h</a>&quot;</code><br />
 <code>#include &lt;stdlib.h&gt;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for configmanager.cpp:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="configmanager_8cpp__incl.svg" width="2962" height="262"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="configmanager_8cpp__incl.svg" width="2822" height="336"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 </div>
 <p><a href="configmanager_8cpp_source">Go to the source code of this file.</a></p>
@@ -74,6 +76,9 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
+<tr class="memitem:l7-handleConfigError"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="configmanager_8cpp#l7-handleConfigError">handleConfigError</a> (TiXmlDocument &amp;doc, const <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html">wxString</a> &amp;fileName, const <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html">wxString</a> &amp;additionalMessage)</td></tr>
+<tr class="memdesc:l7-handleConfigError"><td class="mdescLeft">&#160;</td><td class="mdescRight">Print error message an allow the user to either discard the old config or close the application.  <a href="#l7-handleConfigError">More...</a><br /></td></tr>
+<tr class="separator:l7-handleConfigError"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:g9-to_upper"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="configmanager_8cpp#g9-to_upper">to_upper</a> (<a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html">wxString</a> &amp;s)</td></tr>
 <tr class="separator:g9-to_upper"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:yt-to_lower"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="configmanager_8cpp#yt-to_lower">to_lower</a> (<a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html">wxString</a> &amp;s)</td></tr>
@@ -117,11 +122,11 @@ Variables</h2></td></tr>
 <p>Read the list of batch build plugins and return them. </p>
 <p>The list won't be empty; at least the compiler plugin will be added to the to it. The list contain the library names of the plugins and differs on every OS. </p>
 
-<p class="definition">Definition at line <a class="el" href="configmanager_8cpp_source#l01716">1716</a> of file <a class="el" href="configmanager_8cpp_source">configmanager.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="configmanager_8cpp_source#l01772">1772</a> of file <a class="el" href="configmanager_8cpp_source">configmanager.cpp</a>.</p>
 
-<p class="reference">References <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga7dfc2888539861afe6c4337ef315472b">_T</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_array_string.html#af06b61455118d83a24183c3a9f6854b1">wxArrayString::Add()</a>, <a class="el" href="manager_8cpp_source#l00187">Manager::Get()</a>, <a class="el" href="configmanager_8cpp_source#l01706">getCompilerPluginFilename()</a>, <a class="el" href="manager_8cpp_source#l00478">Manager::GetConfigManager()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_array_string.html#ad2a491f799c8d6539dc64d06f2c37ac6">wxArrayString::GetCount()</a>, and <a class="el" href="configmanager_8cpp_source#l01119">ConfigManager::ReadArrayString()</a>.</p>
+<p class="reference">References <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga7dfc2888539861afe6c4337ef315472b">_T</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_array_string.html#af06b61455118d83a24183c3a9f6854b1">wxArrayString::Add()</a>, <a class="el" href="manager_8cpp_source#l00182">Manager::Get()</a>, <a class="el" href="configmanager_8cpp_source#l01762">getCompilerPluginFilename()</a>, <a class="el" href="manager_8cpp_source#l00474">Manager::GetConfigManager()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_array_string.html#ad2a491f799c8d6539dc64d06f2c37ac6">wxArrayString::GetCount()</a>, and <a class="el" href="configmanager_8cpp_source#l01173">ConfigManager::ReadArrayString()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="compilersettingsdlg_8cpp_source#l00051">CompilerSettingsDlg::CompilerSettingsDlg()</a>, and <a class="el" href="pluginmanager_8cpp_source#l00929">PluginManager::ScanForPlugins()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="compilersettingsdlg_8cpp_source#l00051">CompilerSettingsDlg::CompilerSettingsDlg()</a>, and <a class="el" href="pluginmanager_8cpp_source#l00931">PluginManager::ScanForPlugins()</a>.</p>
 
 </div>
 </div>
@@ -160,9 +165,9 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="configmanager_8cpp_source#l01727">1727</a> of file <a class="el" href="configmanager_8cpp_source">configmanager.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="configmanager_8cpp_source#l01783">1783</a> of file <a class="el" href="configmanager_8cpp_source">configmanager.cpp</a>.</p>
 
-<p class="reference">References <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga8a02b8875a521df57263a9e6f090f2d0">_()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga7dfc2888539861afe6c4337ef315472b">_T</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_array_string.html#af06b61455118d83a24183c3a9f6854b1">wxArrayString::Add()</a>, <a class="el" href="globals_8cpp_source#l01381">cbMessageBox()</a>, <a class="el" href="manager_8cpp_source#l00187">Manager::Get()</a>, <a class="el" href="configmanager_8cpp_source#l01706">getCompilerPluginFilename()</a>, <a class="el" href="manager_8cpp_source#l00478">Manager::GetConfigManager()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_array_string.html#a87d29ec37fca50c5b289c242fbaad2f5">wxArrayString::Index()</a>, <a class="el" href="configmanager_8cpp_source#l00805">ConfigManager::Write()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/defs_8h.html#a2b7290c6fea9862351d15a8f695147b5">wxICON_WARNING</a>, and <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/defs_8h.html#a89de5e6353fc7812991b085e12263e98">wxNOT_FOUND</a>.</p>
+<p class="reference">References <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga8a02b8875a521df57263a9e6f090f2d0">_()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga7dfc2888539861afe6c4337ef315472b">_T</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_array_string.html#af06b61455118d83a24183c3a9f6854b1">wxArrayString::Add()</a>, <a class="el" href="globals_8cpp_source#l01395">cbMessageBox()</a>, <a class="el" href="manager_8cpp_source#l00182">Manager::Get()</a>, <a class="el" href="configmanager_8cpp_source#l01762">getCompilerPluginFilename()</a>, <a class="el" href="manager_8cpp_source#l00474">Manager::GetConfigManager()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_array_string.html#a87d29ec37fca50c5b289c242fbaad2f5">wxArrayString::Index()</a>, <a class="el" href="configmanager_8cpp_source#l00859">ConfigManager::Write()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/defs_8h.html#a2b7290c6fea9862351d15a8f695147b5">wxICON_WARNING</a>, and <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/defs_8h.html#a89de5e6353fc7812991b085e12263e98">wxNOT_FOUND</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="compilersettingsdlg_8cpp_source#l00205">CompilerSettingsDlg::EndModal()</a>.</p>
 
@@ -191,11 +196,62 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="configmanager_8cpp_source#l01706">1706</a> of file <a class="el" href="configmanager_8cpp_source">configmanager.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="configmanager_8cpp_source#l01762">1762</a> of file <a class="el" href="configmanager_8cpp_source">configmanager.cpp</a>.</p>
 
 <p class="reference">References <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga437ea6ba615b75dac8603e96ec864160">wxT</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="configmanager_8cpp_source#l01716">cbReadBatchBuildPlugins()</a>, and <a class="el" href="configmanager_8cpp_source#l01727">cbWriteBatchBuildPlugins()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="configmanager_8cpp_source#l01772">cbReadBatchBuildPlugins()</a>, and <a class="el" href="configmanager_8cpp_source#l01783">cbWriteBatchBuildPlugins()</a>.</p>
+
+</div>
+</div>
+<a id="l7-handleConfigError"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#l7-handleConfigError">&#9670;&nbsp;</a></span>handleConfigError()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void handleConfigError </td>
+          <td>(</td>
+          <td class="paramtype">TiXmlDocument &amp;&#160;</td>
+          <td class="paramname"><em>doc</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html">wxString</a> &amp;&#160;</td>
+          <td class="paramname"><em>fileName</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html">wxString</a> &amp;&#160;</td>
+          <td class="paramname"><em>additionalMessage</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Print error message an allow the user to either discard the old config or close the application. </p>
+<p>Call this function when you've detected an error while reading the config. </p>
+
+<p class="definition">Definition at line <a class="el" href="configmanager_8cpp_source#l00227">227</a> of file <a class="el" href="configmanager_8cpp_source">configmanager.cpp</a>.</p>
+
+<p class="reference">References <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga8a02b8875a521df57263a9e6f090f2d0">_()</a>, <a class="el" href="globals_8cpp_source#l00733">cbC2U()</a>, <a class="el" href="cbexception_8h_source#l00042">cbThrow</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#addd9ccfa3ae2b7ab2d66bcbf034d0be0">wxString::Format()</a>, <a class="el" href="manager_8cpp_source#l00182">Manager::Get()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_message_dialog.html#aa23b25ebf18bf0915d438cc13b55cb23">wxMessageDialog::SetYesNoLabels()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_message_dialog.html#a28e6cea6fb3857df6cc9b103e06dbadf">wxMessageDialog::ShowModal()</a>, <a class="el" href="configmanager_8cpp_source#l00082">CfgMgrConsts::version</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#a667b135c20008042653f82b739f6c3ab">wxString::wx_str()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/defs_8h.html#ae160ea382a8f7921484db9d499516dafaa9f0378dc2d52d0a96553e30d05a57ff">wxCENTRE</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/defs_8h.html#aa9a9276fdb8aefda276954e26423283a">wxICON_ERROR</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/defs_8h.html#ac66d0a09761e7d86b2ac0b2e0c6a8cbbac2e6ec2b9ec8438956b0fd3d1d9d6343">wxID_YES</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/defs_8h.html#ab1e324ba2871ccdef2d95fb718c8d479">wxNO</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/defs_8h.html#ab4d4aadda843596c418ee4e9aca8582e">wxNO_DEFAULT</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/defs_8h.html#a789db2fe465af455e29014cc6f7c0114">wxSTAY_ON_TOP</a>, and <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/defs_8h.html#ab38ccd9aa8aa47f9df32a75c96bb3000">wxYES</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="configmanager_8cpp_source#l00254">CfgMgrBldr::SwitchTo()</a>.</p>
 
 </div>
 </div>
@@ -223,11 +279,11 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="configmanager_8cpp_source#l00455">455</a> of file <a class="el" href="configmanager_8cpp_source">configmanager.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="configmanager_8cpp_source#l00509">509</a> of file <a class="el" href="configmanager_8cpp_source">configmanager.cpp</a>.</p>
 
 <p class="reference">References <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#a6418ec90c6d4ffe0b05702be1b35df4f">wxString::c_str()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#af63f200410b56436a830550905e20539">wxString::length()</a>, and <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#a667b135c20008042653f82b739f6c3ab">wxString::wx_str()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="configmanager_8cpp_source#l00674">ConfigManager::AssertPath()</a>, and <a class="el" href="configmanager_8cpp_source#l01194">ConfigManager::DeleteSubPath()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="configmanager_8cpp_source#l00728">ConfigManager::AssertPath()</a>, and <a class="el" href="configmanager_8cpp_source#l01248">ConfigManager::DeleteSubPath()</a>.</p>
 
 </div>
 </div>
@@ -255,11 +311,11 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="configmanager_8cpp_source#l00437">437</a> of file <a class="el" href="configmanager_8cpp_source">configmanager.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="configmanager_8cpp_source#l00491">491</a> of file <a class="el" href="configmanager_8cpp_source">configmanager.cpp</a>.</p>
 
 <p class="reference">References <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#a6418ec90c6d4ffe0b05702be1b35df4f">wxString::c_str()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#af63f200410b56436a830550905e20539">wxString::length()</a>, and <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#a667b135c20008042653f82b739f6c3ab">wxString::wx_str()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="configmanager_8cpp_source#l00674">ConfigManager::AssertPath()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="configmanager_8cpp_source#l00728">ConfigManager::AssertPath()</a>.</p>
 
 </div>
 </div>

@@ -19,7 +19,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Code::Blocks
-   &#160;<span id="projectnumber">SVN r11156</span>
+   &#160;<span id="projectnumber">SVN r11506</span>
    </div>
   </td>
  </tr>
@@ -57,12 +57,13 @@ $(function() {
 <div class="dynheader">
 Inheritance diagram for CCManager:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classCCManager__inherit__graph.svg" width="322" height="794"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classCCManager__inherit__graph.svg" width="322" height="794"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 <div class="dynheader">
 Collaboration diagram for CCManager:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classCCManager__coll__graph.svg" width="3466" height="2515"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classCCManager__coll__graph.svg" width="3466" height="2500"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <table class="memberdecls">
@@ -84,7 +85,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:ca-NotifyPluginStatus"><td class="mdescLeft">&#160;</td><td class="mdescRight">Let <a class="el" href="classCCManager" title="Code Completion Plugin Manager. ">CCManager</a> know that a change (e.g.  <a href="#ca-NotifyPluginStatus">More...</a><br /></td></tr>
 <tr class="separator:ca-NotifyPluginStatus"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:d3-InjectAutoCompShow"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCCManager#d3-InjectAutoCompShow">InjectAutoCompShow</a> (int lenEntered, const <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html">wxString</a> &amp;itemList)</td></tr>
-<tr class="memdesc:d3-InjectAutoCompShow"><td class="mdescLeft">&#160;</td><td class="mdescRight">If for some reason you <em>need</em> to use <a class="el" href="classwxScintilla#wv-AutoCompShow" title="Display a auto-completion list. ">wxScintilla::AutoCompShow()</a>, call this instead so <a class="el" href="classCCManager" title="Code Completion Plugin Manager. ">CCManager</a> does not step on you.  <a href="#d3-InjectAutoCompShow">More...</a><br /></td></tr>
+<tr class="memdesc:d3-InjectAutoCompShow"><td class="mdescLeft">&#160;</td><td class="mdescRight">If for some reason you <em>need</em> to use <a class="el" href="classwxScintilla#h0-AutoCompShow" title="Display a auto-completion list. ">wxScintilla::AutoCompShow()</a>, call this instead so <a class="el" href="classCCManager" title="Code Completion Plugin Manager. ">CCManager</a> does not step on you.  <a href="#d3-InjectAutoCompShow">More...</a><br /></td></tr>
 <tr class="separator:d3-InjectAutoCompShow"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:mb-ProcessArrow"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCCManager#mb-ProcessArrow">ProcessArrow</a> (int key)</td></tr>
 <tr class="memdesc:mb-ProcessArrow"><td class="mdescLeft">&#160;</td><td class="mdescRight">Used by <a class="el" href="classcbStyledTextCtrl">cbStyledTextCtrl</a> to process ArrowUp and ArrowDown key press.  <a href="#mb-ProcessArrow">More...</a><br /></td></tr>
@@ -109,8 +110,8 @@ Private Types</h2></td></tr>
 Private Member Functions</h2></td></tr>
 <tr class="memitem:pj-CCManager"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCCManager#pj-CCManager">CCManager</a> ()</td></tr>
 <tr class="separator:pj-CCManager"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:je-CCManager"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCCManager#je-CCManager">~CCManager</a> ()</td></tr>
-<tr class="separator:je-CCManager"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:kr-CCManager"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCCManager#kr-CCManager">~CCManager</a> () override</td></tr>
+<tr class="separator:kr-CCManager"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:u3-OnCompleteCode"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCCManager#u3-OnCompleteCode">OnCompleteCode</a> (<a class="el" href="classCodeBlocksEvent">CodeBlocksEvent</a> &amp;event)</td></tr>
 <tr class="memdesc:u3-OnCompleteCode"><td class="mdescLeft">&#160;</td><td class="mdescRight">Event handler to list the suggestion, when a user press Ctrl-space (by default).  <a href="#u3-OnCompleteCode">More...</a><br /></td></tr>
 <tr class="separator:u3-OnCompleteCode"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -234,6 +235,7 @@ Private Attributes</h2></td></tr>
 <tr class="memdesc:tk-m_DocPos"><td class="mdescLeft">&#160;</td><td class="mdescRight">Location of the documentation popup.  <a href="#tk-m_DocPos">More...</a><br /></td></tr>
 <tr class="separator:tk-m_DocPos"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:hu-m_pAutocompPopup"><td class="memItemLeft" align="right" valign="top"><a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_list_view.html">wxListView</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCCManager#hu-m_pAutocompPopup">m_pAutocompPopup</a></td></tr>
+<tr class="memdesc:hu-m_pAutocompPopup"><td class="mdescLeft">&#160;</td><td class="mdescRight">a handle to the autocomplete list window created by (wx)scintilla, needed under Windows to determine its dimensions (so the scroll event can be sent to it, if relevant)  <a href="#hu-m_pAutocompPopup">More...</a><br /></td></tr>
 <tr class="separator:hu-m_pAutocompPopup"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:bf-m_pLastEditor"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classcbEditor">cbEditor</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCCManager#bf-m_pLastEditor">m_pLastEditor</a></td></tr>
 <tr class="memdesc:bf-m_pLastEditor"><td class="mdescLeft">&#160;</td><td class="mdescRight">Last editor operated on.  <a href="#bf-m_pLastEditor">More...</a><br /></td></tr>
@@ -280,9 +282,10 @@ Additional Inherited Members</h2></td></tr>
 <p>This class manages all kinds of code completion plugins. For example, the native C/C++ code completion plugin, the Fortran code completion plugin and Python code completion plugin. The ccmanager asks some informations from the managed ccplugins. The major value passes from the ccmanager and the ccplugins are CCCallTip and CCToken.</p>
 <p>The CCToken is needed when ccmanager needs to fill a code suggestion list, it is the ccplugin's duty to supply a collection of CCTokens.</p>
 <p>When user is entering some function call statement, CCCallTip is used to show the function information, and especially it can highlight the current function argument.</p>
-<p>Another kind of tip is the tooltip, this is the tip window shown when mouse hover on a specified token(such as variable token), ccmanager queries this information by asking CCToken information from ccplugin. </p>
+<p>Another kind of tip is the tooltip, this is the tip window shown when mouse hover on a specified token(such as variable token), ccmanager queries this information by asking CCToken information from ccplugin.</p>
+<p>Note: Under Windows, scroll events are always directed to the window in focus, making it difficult to scroll the autocomplete list and the doxygen popup with the mouse. So, under Windows we catch scroll requests to the <a class="el" href="classcbStyledTextCtrl">cbStyledTextCtrl</a>, and run them through <a class="el" href="classCCManager#mn-OnPopupScroll" title="Intercept cbStyledTextCtrl scroll events and forward to autocomplete/documentation popups...">CCManager::OnPopupScroll()</a>. This filters the event, and if the mouse is over the autocomplete list or the doxygen popup, the scroll event is instead sent there (and skipped for the editor window). </p>
 
-<p class="definition">Definition at line <a class="el" href="ccmanager_8h_source#l00040">40</a> of file <a class="el" href="ccmanager_8h_source">ccmanager.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ccmanager_8h_source#l00047">47</a> of file <a class="el" href="ccmanager_8h_source">ccmanager.h</a>.</p>
 </div><h2 class="groupheader">Member Typedef Documentation</h2>
 <a id="nm-CallTipVec"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#nm-CallTipVec">&#9670;&nbsp;</a></span>CallTipVec</h2>
@@ -304,7 +307,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="ccmanager_8h_source#l00172">172</a> of file <a class="el" href="ccmanager_8h_source">ccmanager.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ccmanager_8h_source#l00182">182</a> of file <a class="el" href="ccmanager_8h_source">ccmanager.h</a>.</p>
 
 </div>
 </div>
@@ -328,7 +331,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="ccmanager_8h_source#l00162">162</a> of file <a class="el" href="ccmanager_8h_source">ccmanager.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ccmanager_8h_source#l00172">172</a> of file <a class="el" href="ccmanager_8h_source">ccmanager.h</a>.</p>
 
 </div>
 </div>
@@ -359,7 +362,7 @@ Additional Inherited Members</h2></td></tr>
 <tr><td class="fieldname"><a id="jx-Direction:Next"></a>Next&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
-<p class="definition">Definition at line <a class="el" href="ccmanager_8h_source#l00151">151</a> of file <a class="el" href="ccmanager_8h_source">ccmanager.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ccmanager_8h_source#l00161">161</a> of file <a class="el" href="ccmanager_8h_source">ccmanager.h</a>.</p>
 
 </div>
 </div>
@@ -387,14 +390,14 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="ccmanager_8cpp_source#l00257">257</a> of file <a class="el" href="ccmanager_8cpp_source">ccmanager.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ccmanager_8cpp_source#l00266">266</a> of file <a class="el" href="ccmanager_8cpp_source">ccmanager.cpp</a>.</p>
 
-<p class="reference">References <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga8a02b8875a521df57263a9e6f090f2d0">_()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#ad59ca2dd208720b3cce07d90bcb90093">wxString::begin()</a>, <a class="el" href="ccmanager_8cpp_source#l00084">CCManagerHelper::BuildFontSizes()</a>, <a class="el" href="sdk__events_8cpp_source#l00071">cbEVT_APP_DEACTIVATED</a>, <a class="el" href="sdk__events_8cpp_source#l00176">cbEVT_COMPLETE_CODE</a>, <a class="el" href="sdk__events_8cpp_source#l00080">cbEVT_EDITOR_CLOSE</a>, <a class="el" href="sdk__events_8cpp_source#l00084">cbEVT_EDITOR_DEACTIVATED</a>, <a class="el" href="sdk__events_8cpp_source#l00081">cbEVT_EDITOR_OPEN</a>, <a class="el" href="sdk__events_8cpp_source#l00088">cbEVT_EDITOR_TOOLTIP</a>, <a class="el" href="sdk__events_8cpp_source#l00177">cbEVT_SHOW_CALL_TIP</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#a6a0f235fff88df5e6b16b5f0e1e719cc">wxString::end()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_menu_bar.html#ad4b4ab008d8ce44175c0d1fdf04a8dfe">wxMenuBar::FindMenu()</a>, <a class="el" href="manager_8cpp_source#l00187">Manager::Get()</a>, <a class="el" href="manager_8cpp_source#l00423">Manager::GetAppFrame()</a>, <a class="el" href="manager_8cpp_source#l00493">Manager::GetColourManager()</a>, <a class="el" href="ccmanager_8cpp_source#l00099">CCManagerHelper::GetDefaultHTMLFontSize()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_menu_bar.html#a7935fbf932f070f13c31b213c5e3419d">wxMenuBar::GetMenu()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_menu.html#abe0e1a4395a253e6fe45c821d7a2cf2b">wxMenu::GetMenuItems()</a>, <a class="el" href="ccmanager_8cpp_source#l00118">idCallTipNext</a>, <a class="el" href="ccmanager_8cpp_source#l00119">idCallTipPrevious</a>, <a class="el" href="ccmanager_8cpp_source#l00117">idShowTooltip</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_menu.html#aec84d928bf461c59739e0e4fc7a27bbe">wxMenu::Insert()</a>, <a class="el" href="ccmanager_8cpp_source#l00142">lsCaretStart</a>, <a class="el" href="ccmanager_8cpp_source#l00490">OnCompleteCode()</a>, <a class="el" href="ccmanager_8cpp_source#l00584">OnDeactivateApp()</a>, <a class="el" href="ccmanager_8cpp_source#l00604">OnDeactivateEd()</a>, <a class="el" href="ccmanager_8cpp_source#l01112">OnDeferredCallTipCancel()</a>, <a class="el" href="ccmanager_8cpp_source#l01101">OnDeferredCallTipShow()</a>, <a class="el" href="ccmanager_8cpp_source#l00655">OnEditorClose()</a>, <a class="el" href="ccmanager_8cpp_source#l00767">OnEditorHook()</a>, <a class="el" href="ccmanager_8cpp_source#l00627">OnEditorOpen()</a>, <a class="el" href="ccmanager_8cpp_source#l00670">OnEditorTooltip()</a>, <a class="el" href="ccmanager_8cpp_source#l01132">OnHtmlLink()</a>, <a class="el" href="ccmanager_8cpp_source#l01183">OnMenuSelect()</a>, <a class="el" href="ccmanager_8cpp_source#l00937">OnShowCallTip()</a>, <a class="el" href="ccmanager_8cpp_source#l01147">OnTimer()</a>, <a class="el" href="cbcolourmanager_8cpp_source#l00054">ColourManager::RegisterColour()</a>, <a class="el" href="manager_8cpp_source#l00554">Manager::RegisterEventSink()</a>, <a class="el" href="editor__hooks_8cpp_source#l00078">EditorHooks::RegisterHook()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/defs_8h.html#af63c94dff4e3f25a3c5e9d2874456edfafdbaa6eeb6e9b2e80c2ed9c810972721">wxBORDER_SIMPLE</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/gdicmn_8h.html#af5a90c753eaf3d3e3e5068a19ec3c1d0">wxDefaultPosition</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/gdicmn_8h.html#a33a012cdb075e9f78c93f63bec2dc27b">wxDefaultSize</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/interface_2wx_2string_8h.html#a9a321d587166a30017b608dd2d234033">wxEmptyString</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/timer_8h.html#aaf64fa6b05781756b517eeffeb1d2316">wxEVT_TIMER</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/htmlwin_8h.html#a7d288652a8a084ab38e3a59350ebb8e3">wxHW_SCROLLBAR_AUTO</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/defs_8h.html#ac66d0a09761e7d86b2ac0b2e0c6a8cbba1f375b01ea03a713bbb7e32a36a2589c">wxID_ANY</a>, <a class="el" href="wxscintilla_8h_source#l00070">wxSCI_INVALID_POSITION</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga437ea6ba615b75dac8603e96ec864160">wxT</a>, and <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/colour_8h.html#a3b00973fd189d6ddd42d74046bd45694">wxWHITE</a>.</p>
+<p class="reference">References <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga8a02b8875a521df57263a9e6f090f2d0">_()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#ad59ca2dd208720b3cce07d90bcb90093">wxString::begin()</a>, <a class="el" href="ccmanager_8cpp_source#l00084">CCManagerHelper::BuildFontSizes()</a>, <a class="el" href="sdk__events_8cpp_source#l00071">cbEVT_APP_DEACTIVATED</a>, <a class="el" href="sdk__events_8cpp_source#l00176">cbEVT_COMPLETE_CODE</a>, <a class="el" href="sdk__events_8cpp_source#l00080">cbEVT_EDITOR_CLOSE</a>, <a class="el" href="sdk__events_8cpp_source#l00084">cbEVT_EDITOR_DEACTIVATED</a>, <a class="el" href="sdk__events_8cpp_source#l00081">cbEVT_EDITOR_OPEN</a>, <a class="el" href="sdk__events_8cpp_source#l00088">cbEVT_EDITOR_TOOLTIP</a>, <a class="el" href="sdk__events_8cpp_source#l00177">cbEVT_SHOW_CALL_TIP</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#a6a0f235fff88df5e6b16b5f0e1e719cc">wxString::end()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_menu_bar.html#ad4b4ab008d8ce44175c0d1fdf04a8dfe">wxMenuBar::FindMenu()</a>, <a class="el" href="manager_8cpp_source#l00182">Manager::Get()</a>, <a class="el" href="manager_8cpp_source#l00419">Manager::GetAppFrame()</a>, <a class="el" href="manager_8cpp_source#l00489">Manager::GetColourManager()</a>, <a class="el" href="ccmanager_8cpp_source#l00099">CCManagerHelper::GetDefaultHTMLFontSize()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_menu_bar.html#a7935fbf932f070f13c31b213c5e3419d">wxMenuBar::GetMenu()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_menu.html#abe0e1a4395a253e6fe45c821d7a2cf2b">wxMenu::GetMenuItems()</a>, <a class="el" href="ccmanager_8cpp_source#l00118">idCallTipNext</a>, <a class="el" href="ccmanager_8cpp_source#l00119">idCallTipPrevious</a>, <a class="el" href="ccmanager_8cpp_source#l00117">idShowTooltip</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_menu.html#aec84d928bf461c59739e0e4fc7a27bbe">wxMenu::Insert()</a>, <a class="el" href="ccmanager_8cpp_source#l00151">lsCaretStart</a>, <a class="el" href="ccmanager_8cpp_source#l00505">OnCompleteCode()</a>, <a class="el" href="ccmanager_8cpp_source#l00600">OnDeactivateApp()</a>, <a class="el" href="ccmanager_8cpp_source#l00620">OnDeactivateEd()</a>, <a class="el" href="ccmanager_8cpp_source#l01111">OnDeferredCallTipCancel()</a>, <a class="el" href="ccmanager_8cpp_source#l01100">OnDeferredCallTipShow()</a>, <a class="el" href="ccmanager_8cpp_source#l00671">OnEditorClose()</a>, <a class="el" href="ccmanager_8cpp_source#l00783">OnEditorHook()</a>, <a class="el" href="ccmanager_8cpp_source#l00643">OnEditorOpen()</a>, <a class="el" href="ccmanager_8cpp_source#l00686">OnEditorTooltip()</a>, <a class="el" href="ccmanager_8cpp_source#l01131">OnHtmlLink()</a>, <a class="el" href="ccmanager_8cpp_source#l01182">OnMenuSelect()</a>, <a class="el" href="ccmanager_8cpp_source#l00933">OnShowCallTip()</a>, <a class="el" href="ccmanager_8cpp_source#l01146">OnTimer()</a>, <a class="el" href="cbcolourmanager_8cpp_source#l00054">ColourManager::RegisterColour()</a>, <a class="el" href="manager_8cpp_source#l00550">Manager::RegisterEventSink()</a>, <a class="el" href="editor__hooks_8cpp_source#l00078">EditorHooks::RegisterHook()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/defs_8h.html#af63c94dff4e3f25a3c5e9d2874456edfafdbaa6eeb6e9b2e80c2ed9c810972721">wxBORDER_SIMPLE</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/gdicmn_8h.html#af5a90c753eaf3d3e3e5068a19ec3c1d0">wxDefaultPosition</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/gdicmn_8h.html#a33a012cdb075e9f78c93f63bec2dc27b">wxDefaultSize</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/interface_2wx_2string_8h.html#a9a321d587166a30017b608dd2d234033">wxEmptyString</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/timer_8h.html#aaf64fa6b05781756b517eeffeb1d2316">wxEVT_TIMER</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/htmlwin_8h.html#a7d288652a8a084ab38e3a59350ebb8e3">wxHW_SCROLLBAR_AUTO</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/defs_8h.html#ac66d0a09761e7d86b2ac0b2e0c6a8cbba1f375b01ea03a713bbb7e32a36a2589c">wxID_ANY</a>, <a class="el" href="wxscintilla_8h_source#l00070">wxSCI_INVALID_POSITION</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga437ea6ba615b75dac8603e96ec864160">wxT</a>, and <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/colour_8h.html#a3b00973fd189d6ddd42d74046bd45694">wxWHITE</a>.</p>
 
 </div>
 </div>
-<a id="je-CCManager"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#je-CCManager">&#9670;&nbsp;</a></span>~CCManager()</h2>
+<a id="kr-CCManager"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#kr-CCManager">&#9670;&nbsp;</a></span>~CCManager()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -411,14 +414,14 @@ Additional Inherited Members</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="ccmanager_8cpp_source#l00339">339</a> of file <a class="el" href="ccmanager_8cpp_source">ccmanager.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ccmanager_8cpp_source#l00348">348</a> of file <a class="el" href="ccmanager_8cpp_source">ccmanager.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="manager_8cpp_source#l00187">Manager::Get()</a>, <a class="el" href="manager_8cpp_source#l00423">Manager::GetAppFrame()</a>, <a class="el" href="ccmanager_8cpp_source#l00118">idCallTipNext</a>, <a class="el" href="ccmanager_8cpp_source#l00119">idCallTipPrevious</a>, <a class="el" href="ccmanager_8cpp_source#l00117">idShowTooltip</a>, <a class="el" href="ccmanager_8cpp_source#l01132">OnHtmlLink()</a>, <a class="el" href="ccmanager_8cpp_source#l01183">OnMenuSelect()</a>, <a class="el" href="manager_8cpp_source#l00574">Manager::RemoveAllEventSinksFor()</a>, and <a class="el" href="editor__hooks_8cpp_source#l00089">EditorHooks::UnregisterHook()</a>.</p>
+<p class="reference">References <a class="el" href="manager_8cpp_source#l00182">Manager::Get()</a>, <a class="el" href="manager_8cpp_source#l00419">Manager::GetAppFrame()</a>, <a class="el" href="ccmanager_8cpp_source#l00118">idCallTipNext</a>, <a class="el" href="ccmanager_8cpp_source#l00119">idCallTipPrevious</a>, <a class="el" href="ccmanager_8cpp_source#l00117">idShowTooltip</a>, <a class="el" href="ccmanager_8cpp_source#l01131">OnHtmlLink()</a>, <a class="el" href="ccmanager_8cpp_source#l01182">OnMenuSelect()</a>, <a class="el" href="manager_8cpp_source#l00570">Manager::RemoveAllEventSinksFor()</a>, and <a class="el" href="editor__hooks_8cpp_source#l00089">EditorHooks::UnregisterHook()</a>.</p>
 
 </div>
 </div>
@@ -449,7 +452,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Switch the tip window to the next item. </p>
 
-<p class="definition">Definition at line <a class="el" href="ccmanager_8cpp_source#l00421">421</a> of file <a class="el" href="ccmanager_8cpp_source">ccmanager.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ccmanager_8cpp_source#l00430">430</a> of file <a class="el" href="ccmanager_8cpp_source">ccmanager.cpp</a>.</p>
 
 </div>
 </div>
@@ -479,9 +482,9 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Code completion as just insert some text in the editor, ask the smart indent plugin to adjust the indent. </p>
 
-<p class="definition">Definition at line <a class="el" href="ccmanager_8cpp_source#l01430">1430</a> of file <a class="el" href="ccmanager_8cpp_source">ccmanager.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ccmanager_8cpp_source#l01432">1432</a> of file <a class="el" href="ccmanager_8cpp_source">ccmanager.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="sdk__events_8cpp_source#l00093">cbEVT_EDITOR_CC_DONE</a>, <a class="el" href="manager_8cpp_source#l00187">Manager::Get()</a>, and <a class="el" href="manager_8cpp_source#l00250">Manager::ProcessEvent()</a>.</p>
+<p class="reference">References <a class="el" href="sdk__events_8cpp_source#l00093">cbEVT_EDITOR_CC_DONE</a>, <a class="el" href="manager_8cpp_source#l00182">Manager::Get()</a>, and <a class="el" href="manager_8cpp_source#l00246">Manager::ProcessEvent()</a>.</p>
 
 </div>
 </div>
@@ -511,9 +514,9 @@ Additional Inherited Members</h2></td></tr>
 
 <p>CC launched in the same state as last run, display via cached data. </p>
 
-<p class="definition">Definition at line <a class="el" href="ccmanager_8cpp_source#l01219">1219</a> of file <a class="el" href="ccmanager_8cpp_source">ccmanager.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ccmanager_8cpp_source#l01218">1218</a> of file <a class="el" href="ccmanager_8cpp_source">ccmanager.cpp</a>.</p>
 
-<p class="reference">References <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#a87e614d9924a1b5524334aac3fc96d38">wxString::Alloc()</a>, <a class="el" href="classwxScintilla#j8-AutoCompActive">wxScintilla::AutoCompActive()</a>, <a class="el" href="classwxScintilla#i2-AutoCompSelect">wxScintilla::AutoCompSelect()</a>, <a class="el" href="classwxScintilla#wv-AutoCompShow">wxScintilla::AutoCompShow()</a>, <a class="el" href="classwxScintilla#k3-CallTipActive">wxScintilla::CallTipActive()</a>, <a class="el" href="cbplugin_8h_source#l00777">cbCodeCompletionPlugin::CCToken::displayName</a>, <a class="el" href="logmanager_8h_source#l00020">F()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#aed58dc1079da38d257bbc7d0d7800f44">wxString::Find()</a>, <a class="el" href="ccmanager_8cpp_source#l00142">lsCaretStart</a>, <a class="el" href="ccmanager_8cpp_source#l00141">lsTknStart</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#a023d5f6b708eff5123f47498fcf151bc">wxString::Mid()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#aa375e1718cb40fd991e89428e620ba82">wxString::RemoveLast()</a>, and <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga437ea6ba615b75dac8603e96ec864160">wxT</a>.</p>
+<p class="reference">References <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#a87e614d9924a1b5524334aac3fc96d38">wxString::Alloc()</a>, <a class="el" href="classwxScintilla#j8-AutoCompActive">wxScintilla::AutoCompActive()</a>, <a class="el" href="classwxScintilla#cg-AutoCompSelect">wxScintilla::AutoCompSelect()</a>, <a class="el" href="classwxScintilla#h0-AutoCompShow">wxScintilla::AutoCompShow()</a>, <a class="el" href="classwxScintilla#k3-CallTipActive">wxScintilla::CallTipActive()</a>, <a class="el" href="cbplugin_8h_source#l00777">cbCodeCompletionPlugin::CCToken::displayName</a>, <a class="el" href="logmanager_8h_source#l00020">F()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#aed58dc1079da38d257bbc7d0d7800f44">wxString::Find()</a>, <a class="el" href="ccmanager_8cpp_source#l00151">lsCaretStart</a>, <a class="el" href="ccmanager_8cpp_source#l00150">lsTknStart</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#a023d5f6b708eff5123f47498fcf151bc">wxString::Mid()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#aa375e1718cb40fd991e89428e620ba82">wxString::RemoveLast()</a>, and <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga437ea6ba615b75dac8603e96ec864160">wxT</a>.</p>
 
 </div>
 </div>
@@ -542,9 +545,9 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Hide the documentation popup. </p>
 
-<p class="definition">Definition at line <a class="el" href="ccmanager_8cpp_source#l01253">1253</a> of file <a class="el" href="ccmanager_8cpp_source">ccmanager.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ccmanager_8cpp_source#l01255">1255</a> of file <a class="el" href="ccmanager_8cpp_source">ccmanager.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="ccmanager_8cpp_source#l01120">OnPopupScroll()</a>, and <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__events.html#ga142748dac3ef6834cd07905cf4250287">wxEVT_MOUSEWHEEL</a>.</p>
+<p class="reference">References <a class="el" href="ccmanager_8cpp_source#l01119">OnPopupScroll()</a>, and <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__events.html#ga142748dac3ef6834cd07905cf4250287">wxEVT_MOUSEWHEEL</a>.</p>
 
 </div>
 </div>
@@ -574,9 +577,9 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Show the documentation popup. </p>
 
-<p class="definition">Definition at line <a class="el" href="ccmanager_8cpp_source#l01264">1264</a> of file <a class="el" href="ccmanager_8cpp_source">ccmanager.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ccmanager_8cpp_source#l01266">1266</a> of file <a class="el" href="ccmanager_8cpp_source">ccmanager.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="manager_8cpp_source#l00187">Manager::Get()</a>, <a class="el" href="cbeditor_8cpp_source#l00840">cbEditor::GetControl()</a>, <a class="el" href="classcbCodeCompletionPlugin#ka-GetDocumentation">cbCodeCompletionPlugin::GetDocumentation()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#ace32756bab999f8aae9be0cf981fc449">wxString::IsEmpty()</a>, <a class="el" href="ccmanager_8cpp_source#l01120">OnPopupScroll()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__events.html#ga142748dac3ef6834cd07905cf4250287">wxEVT_MOUSEWHEEL</a>, and <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga437ea6ba615b75dac8603e96ec864160">wxT</a>.</p>
+<p class="reference">References <a class="el" href="manager_8cpp_source#l00182">Manager::Get()</a>, <a class="el" href="cbeditor_8cpp_source#l00842">cbEditor::GetControl()</a>, <a class="el" href="classcbCodeCompletionPlugin#ka-GetDocumentation">cbCodeCompletionPlugin::GetDocumentation()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#ace32756bab999f8aae9be0cf981fc449">wxString::IsEmpty()</a>, <a class="el" href="ccmanager_8cpp_source#l01119">OnPopupScroll()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__events.html#ga142748dac3ef6834cd07905cf4250287">wxEVT_MOUSEWHEEL</a>, and <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga437ea6ba615b75dac8603e96ec864160">wxT</a>.</p>
 
 </div>
 </div>
@@ -640,9 +643,9 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Format tips by breaking long lines at (hopefully) logical places. </p>
 
-<p class="definition">Definition at line <a class="el" href="ccmanager_8cpp_source#l01348">1348</a> of file <a class="el" href="ccmanager_8cpp_source">ccmanager.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ccmanager_8cpp_source#l01350">1350</a> of file <a class="el" href="ccmanager_8cpp_source">ccmanager.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="classwxScintilla#k3-CallTipActive">wxScintilla::CallTipActive()</a>, <a class="el" href="cbstyledtextctrl_8cpp_source#l00319">cbStyledTextCtrl::CallTipCancel()</a>, <a class="el" href="classwxScintilla#cu-CallTipSetHighlight">wxScintilla::CallTipSetHighlight()</a>, <a class="el" href="classwxScintilla#f2-CallTipShow">wxScintilla::CallTipShow()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#a39f5e308eb0192cac2e338bedb377ee0">wxString::Clear()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#aed58dc1079da38d257bbc7d0d7800f44">wxString::Find()</a>, <a class="el" href="ccmanager_8cpp_source#l00051">CCManagerHelper::FindColumn()</a>, <a class="el" href="classwxScintilla#dc-GetColumn">wxScintilla::GetColumn()</a>, <a class="el" href="classwxScintilla#i5-GetLineEndPosition">wxScintilla::GetLineEndPosition()</a>, <a class="el" href="classwxScintilla#s9-GetMarginWidth">wxScintilla::GetMarginWidth()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#ace32756bab999f8aae9be0cf981fc449">wxString::IsEmpty()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#a8895cca03120099236c002c0577b4d1c">wxString::Length()</a>, <a class="el" href="classwxScintilla#f5-LineFromPosition">wxScintilla::LineFromPosition()</a>, <a class="el" href="classwxScintilla#f6-LinesOnScreen">wxScintilla::LinesOnScreen()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#a023d5f6b708eff5123f47498fcf151bc">wxString::Mid()</a>, <a class="el" href="classwxScintilla#wy-PointFromPosition">wxScintilla::PointFromPosition()</a>, <a class="el" href="classwxScintilla#ne-PositionFromLine">wxScintilla::PositionFromLine()</a>, <a class="el" href="classwxScintilla#jx-PositionFromPoint">wxScintilla::PositionFromPoint()</a>, <a class="el" href="ccmanager_8cpp_source#l00040">CCManagerHelper::RipplePts()</a>, <a class="el" href="classwxScintilla#tc-TextWidth">wxScintilla::TextWidth()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#aefd36feb8f3c36edcf3322f84de0bfc4">wxString::Trim()</a>, <a class="el" href="classwxScintilla#uc-WordStartPosition">wxScintilla::WordStartPosition()</a>, <a class="el" href="wxscintilla_8h_source#l00146">wxSCI_MARGIN_NUMBER</a>, <a class="el" href="wxscintilla_8h_source#l00145">wxSCI_MARGIN_SYMBOL</a>, <a class="el" href="wxscintilla_8h_source#l00156">wxSCI_STYLE_LINENUMBER</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga437ea6ba615b75dac8603e96ec864160">wxT</a>, and <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_point.html#a569141753bb48c51a857b7839de54b11">wxPoint::y</a>.</p>
+<p class="reference">References <a class="el" href="classwxScintilla#k3-CallTipActive">wxScintilla::CallTipActive()</a>, <a class="el" href="cbstyledtextctrl_8cpp_source#l00323">cbStyledTextCtrl::CallTipCancel()</a>, <a class="el" href="classwxScintilla#kv-CallTipSetHighlight">wxScintilla::CallTipSetHighlight()</a>, <a class="el" href="classwxScintilla#f2-CallTipShow">wxScintilla::CallTipShow()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#a39f5e308eb0192cac2e338bedb377ee0">wxString::Clear()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#aed58dc1079da38d257bbc7d0d7800f44">wxString::Find()</a>, <a class="el" href="ccmanager_8cpp_source#l00051">CCManagerHelper::FindColumn()</a>, <a class="el" href="classwxScintilla#dc-GetColumn">wxScintilla::GetColumn()</a>, <a class="el" href="classwxScintilla#i5-GetLineEndPosition">wxScintilla::GetLineEndPosition()</a>, <a class="el" href="classwxScintilla#s9-GetMarginWidth">wxScintilla::GetMarginWidth()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#ace32756bab999f8aae9be0cf981fc449">wxString::IsEmpty()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#a8895cca03120099236c002c0577b4d1c">wxString::Length()</a>, <a class="el" href="classwxScintilla#f5-LineFromPosition">wxScintilla::LineFromPosition()</a>, <a class="el" href="classwxScintilla#f6-LinesOnScreen">wxScintilla::LinesOnScreen()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#a023d5f6b708eff5123f47498fcf151bc">wxString::Mid()</a>, <a class="el" href="classwxScintilla#wy-PointFromPosition">wxScintilla::PointFromPosition()</a>, <a class="el" href="classwxScintilla#ne-PositionFromLine">wxScintilla::PositionFromLine()</a>, <a class="el" href="classwxScintilla#jx-PositionFromPoint">wxScintilla::PositionFromPoint()</a>, <a class="el" href="ccmanager_8cpp_source#l00040">CCManagerHelper::RipplePts()</a>, <a class="el" href="classwxScintilla#tc-TextWidth">wxScintilla::TextWidth()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#aefd36feb8f3c36edcf3322f84de0bfc4">wxString::Trim()</a>, <a class="el" href="classwxScintilla#uc-WordStartPosition">wxScintilla::WordStartPosition()</a>, <a class="el" href="wxscintilla_8h_source#l00151">wxSCI_MARGIN_NUMBER</a>, <a class="el" href="wxscintilla_8h_source#l00150">wxSCI_MARGIN_SYMBOL</a>, <a class="el" href="wxscintilla_8h_source#l00164">wxSCI_STYLE_LINENUMBER</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga437ea6ba615b75dac8603e96ec864160">wxT</a>, and <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_point.html#a569141753bb48c51a857b7839de54b11">wxPoint::y</a>.</p>
 
 </div>
 </div>
@@ -672,9 +675,9 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Update which tip to show next and where to show it. </p>
 
-<p class="definition">Definition at line <a class="el" href="ccmanager_8cpp_source#l01299">1299</a> of file <a class="el" href="ccmanager_8cpp_source">ccmanager.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ccmanager_8cpp_source#l01301">1301</a> of file <a class="el" href="ccmanager_8cpp_source">ccmanager.cpp</a>.</p>
 
-<p class="reference">References <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#ad59ca2dd208720b3cce07d90bcb90093">wxString::begin()</a>, <a class="el" href="ccmanager_8cpp_source#l00071">CCManagerHelper::CallTipToInt()</a>, <a class="el" href="classwxScintilla#uz-GetCharAt">wxScintilla::GetCharAt()</a>, <a class="el" href="cbeditor_8cpp_source#l00840">cbEditor::GetControl()</a>, <a class="el" href="classwxScintilla#f1-GetCurrentPos">wxScintilla::GetCurrentPos()</a>, <a class="el" href="classwxScintilla#as-GetTextRange">wxScintilla::GetTextRange()</a>, <a class="el" href="classwxScintilla#f5-LineFromPosition">wxScintilla::LineFromPosition()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#a7f7b5ab972b4be6703f9c779654af247">wxString::npos</a>, <a class="el" href="classwxScintilla#ne-PositionFromLine">wxScintilla::PositionFromLine()</a>, <a class="el" href="ccmanager_8cpp_source#l00040">CCManagerHelper::RipplePts()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#aba423303c6e0580605269827e4744761">wxString::size()</a>, <a class="el" href="classwxScintilla#uc-WordStartPosition">wxScintilla::WordStartPosition()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__crt.html#ga3e619868d9eac1d2cb024b8dc67b06d4">wxIsspace()</a>, <a class="el" href="wxscintilla_8h_source#l00070">wxSCI_INVALID_POSITION</a>, and <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga437ea6ba615b75dac8603e96ec864160">wxT</a>.</p>
+<p class="reference">References <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#ad59ca2dd208720b3cce07d90bcb90093">wxString::begin()</a>, <a class="el" href="ccmanager_8cpp_source#l00071">CCManagerHelper::CallTipToInt()</a>, <a class="el" href="classwxScintilla#uz-GetCharAt">wxScintilla::GetCharAt()</a>, <a class="el" href="cbeditor_8cpp_source#l00842">cbEditor::GetControl()</a>, <a class="el" href="classwxScintilla#f1-GetCurrentPos">wxScintilla::GetCurrentPos()</a>, <a class="el" href="classwxScintilla#as-GetTextRange">wxScintilla::GetTextRange()</a>, <a class="el" href="classwxScintilla#f5-LineFromPosition">wxScintilla::LineFromPosition()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#a7f7b5ab972b4be6703f9c779654af247">wxString::npos</a>, <a class="el" href="classwxScintilla#ne-PositionFromLine">wxScintilla::PositionFromLine()</a>, <a class="el" href="ccmanager_8cpp_source#l00040">CCManagerHelper::RipplePts()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#aba423303c6e0580605269827e4744761">wxString::size()</a>, <a class="el" href="classwxScintilla#uc-WordStartPosition">wxScintilla::WordStartPosition()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__crt.html#ga3e619868d9eac1d2cb024b8dc67b06d4">wxIsspace()</a>, <a class="el" href="wxscintilla_8h_source#l00070">wxSCI_INVALID_POSITION</a>, and <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga437ea6ba615b75dac8603e96ec864160">wxT</a>.</p>
 
 </div>
 </div>
@@ -702,9 +705,9 @@ Additional Inherited Members</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="ccmanager_8cpp_source#l00358">358</a> of file <a class="el" href="ccmanager_8cpp_source">ccmanager.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ccmanager_8cpp_source#l00367">367</a> of file <a class="el" href="ccmanager_8cpp_source">ccmanager.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="cbplugin_8h_source#l00741">cbCodeCompletionPlugin::ccpsActive</a>, <a class="el" href="cbplugin_8h_source#l00742">cbCodeCompletionPlugin::ccpsUniversal</a>, <a class="el" href="manager_8cpp_source#l00187">Manager::Get()</a>, <a class="el" href="editormanager_8h_source#l00095">EditorManager::GetBuiltinActiveEditor()</a>, <a class="el" href="pluginmanager_8cpp_source#l01317">PluginManager::GetCodeCompletionOffers()</a>, <a class="el" href="manager_8cpp_source#l00438">Manager::GetEditorManager()</a>, <a class="el" href="manager_8cpp_source#l00448">Manager::GetPluginManager()</a>, <a class="el" href="ccmanager_8cpp_source#l00142">lsCaretStart</a>, and <a class="el" href="wxscintilla_8h_source#l00070">wxSCI_INVALID_POSITION</a>.</p>
+<p class="reference">References <a class="el" href="cbplugin_8h_source#l00741">cbCodeCompletionPlugin::ccpsActive</a>, <a class="el" href="cbplugin_8h_source#l00742">cbCodeCompletionPlugin::ccpsUniversal</a>, <a class="el" href="manager_8cpp_source#l00182">Manager::Get()</a>, <a class="el" href="editormanager_8h_source#l00095">EditorManager::GetBuiltinActiveEditor()</a>, <a class="el" href="pluginmanager_8cpp_source#l01331">PluginManager::GetCodeCompletionOffers()</a>, <a class="el" href="manager_8cpp_source#l00434">Manager::GetEditorManager()</a>, <a class="el" href="manager_8cpp_source#l00444">Manager::GetPluginManager()</a>, <a class="el" href="ccmanager_8cpp_source#l00151">lsCaretStart</a>, and <a class="el" href="wxscintilla_8h_source#l00070">wxSCI_INVALID_POSITION</a>.</p>
 
 </div>
 </div>
@@ -734,11 +737,11 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>If for some reason you <em>need</em> to use <a class="el" href="classwxScintilla#wv-AutoCompShow" title="Display a auto-completion list. ">wxScintilla::AutoCompShow()</a>, call this instead so <a class="el" href="classCCManager" title="Code Completion Plugin Manager. ">CCManager</a> does not step on you. </p>
+<p>If for some reason you <em>need</em> to use <a class="el" href="classwxScintilla#h0-AutoCompShow" title="Display a auto-completion list. ">wxScintilla::AutoCompShow()</a>, call this instead so <a class="el" href="classCCManager" title="Code Completion Plugin Manager. ">CCManager</a> does not step on you. </p>
 
-<p class="definition">Definition at line <a class="el" href="ccmanager_8cpp_source#l00408">408</a> of file <a class="el" href="ccmanager_8cpp_source">ccmanager.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ccmanager_8cpp_source#l00417">417</a> of file <a class="el" href="ccmanager_8cpp_source">ccmanager.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="classwxScintilla#wv-AutoCompShow">wxScintilla::AutoCompShow()</a>, <a class="el" href="manager_8cpp_source#l00187">Manager::Get()</a>, <a class="el" href="editormanager_8h_source#l00095">EditorManager::GetBuiltinActiveEditor()</a>, <a class="el" href="cbeditor_8cpp_source#l00840">cbEditor::GetControl()</a>, and <a class="el" href="manager_8cpp_source#l00438">Manager::GetEditorManager()</a>.</p>
+<p class="reference">References <a class="el" href="classwxScintilla#h0-AutoCompShow">wxScintilla::AutoCompShow()</a>, <a class="el" href="manager_8cpp_source#l00182">Manager::Get()</a>, <a class="el" href="editormanager_8h_source#l00095">EditorManager::GetBuiltinActiveEditor()</a>, <a class="el" href="cbeditor_8cpp_source#l00842">cbEditor::GetControl()</a>, and <a class="el" href="manager_8cpp_source#l00434">Manager::GetEditorManager()</a>.</p>
 
 </div>
 </div>
@@ -759,9 +762,9 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Let <a class="el" href="classCCManager" title="Code Completion Plugin Manager. ">CCManager</a> know that new results are available from <a class="el" href="classcbCodeCompletionPlugin#ka-GetDocumentation" title="Supply html formatted documentation for the passed token. ">cbCodeCompletionPlugin::GetDocumentation()</a>. </p>
 
-<p class="definition">Definition at line <a class="el" href="ccmanager_8cpp_source#l00395">395</a> of file <a class="el" href="ccmanager_8cpp_source">ccmanager.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ccmanager_8cpp_source#l00404">404</a> of file <a class="el" href="ccmanager_8cpp_source">ccmanager.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="manager_8cpp_source#l00187">Manager::Get()</a>, <a class="el" href="editormanager_8h_source#l00095">EditorManager::GetBuiltinActiveEditor()</a>, and <a class="el" href="manager_8cpp_source#l00438">Manager::GetEditorManager()</a>.</p>
+<p class="reference">References <a class="el" href="manager_8cpp_source#l00182">Manager::Get()</a>, <a class="el" href="editormanager_8h_source#l00095">EditorManager::GetBuiltinActiveEditor()</a>, and <a class="el" href="manager_8cpp_source#l00434">Manager::GetEditorManager()</a>.</p>
 
 </div>
 </div>
@@ -783,9 +786,9 @@ Additional Inherited Members</h2></td></tr>
 <p>Let <a class="el" href="classCCManager" title="Code Completion Plugin Manager. ">CCManager</a> know that a change (e.g. </p>
 <p>active lexer is switched) may invalidate cached active ccPlugin. </p>
 
-<p class="definition">Definition at line <a class="el" href="ccmanager_8cpp_source#l00402">402</a> of file <a class="el" href="ccmanager_8cpp_source">ccmanager.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ccmanager_8cpp_source#l00411">411</a> of file <a class="el" href="ccmanager_8cpp_source">ccmanager.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="pluginsconfigurationdlg_8cpp_source#l00487">PluginsConfigurationDlg::EndModal()</a>, and <a class="el" href="main_8cpp_source#l03729">MainFrame::OnEditHighlightMode()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="pluginsconfigurationdlg_8cpp_source#l00487">PluginsConfigurationDlg::EndModal()</a>, and <a class="el" href="main_8cpp_source#l03720">MainFrame::OnEditHighlightMode()</a>.</p>
 
 </div>
 </div>
@@ -815,11 +818,11 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Event handler to tear down documentation, when autocomplete closes. </p>
 
-<p class="definition">Definition at line <a class="el" href="ccmanager_8cpp_source#l01089">1089</a> of file <a class="el" href="ccmanager_8cpp_source">ccmanager.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ccmanager_8cpp_source#l01088">1088</a> of file <a class="el" href="ccmanager_8cpp_source">ccmanager.cpp</a>.</p>
 
 <p class="reference">References <a class="el" href="ccmanager_8cpp_source#l00125">CALLTIP_REFRESH_DELAY</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__events.html#ga42f754d82b0c87a875b4acc004eb4185">wxEVT_SHOW</a>, and <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/timer_8h.html#aa76166f2f2d3551d72a79b706679b726">wxTIMER_ONE_SHOT</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="ccmanager_8cpp_source#l01044">OnAutocompleteSelect()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="ccmanager_8cpp_source#l01043">OnAutocompleteSelect()</a>.</p>
 
 </div>
 </div>
@@ -849,11 +852,11 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Event handler to show documentation, when user changes autocomplete selection. </p>
 
-<p class="definition">Definition at line <a class="el" href="ccmanager_8cpp_source#l01044">1044</a> of file <a class="el" href="ccmanager_8cpp_source">ccmanager.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ccmanager_8cpp_source#l01043">1043</a> of file <a class="el" href="ccmanager_8cpp_source">ccmanager.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="ccmanager_8cpp_source#l00126">AUTOCOMP_SELECT_DELAY</a>, <a class="el" href="classwxScintilla#bs-AutoCompGetMaxHeight">wxScintilla::AutoCompGetMaxHeight()</a>, <a class="el" href="manager_8cpp_source#l00187">Manager::Get()</a>, <a class="el" href="editormanager_8h_source#l00095">EditorManager::GetBuiltinActiveEditor()</a>, <a class="el" href="cbeditor_8cpp_source#l00840">cbEditor::GetControl()</a>, <a class="el" href="classwxScintilla#gt-GetCurrentLine">wxScintilla::GetCurrentLine()</a>, <a class="el" href="manager_8cpp_source#l00438">Manager::GetEditorManager()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_display.html#aaf13ecd5a870d5b8b10a6c6cd9710b7a">wxDisplay::GetFromWindow()</a>, <a class="el" href="ccmanager_8cpp_source#l01089">OnAutocompleteHide()</a>, <a class="el" href="classwxScintilla#xk-TextHeight">wxScintilla::TextHeight()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_rect.html#ab2be5c8d430c85c007f5a9aab58356d8">wxRect::width</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__events.html#ga42f754d82b0c87a875b4acc004eb4185">wxEVT_SHOW</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/timer_8h.html#aa76166f2f2d3551d72a79b706679b726">wxTIMER_ONE_SHOT</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_point.html#a96cd57c992846b3338837db97836ba5c">wxPoint::x</a>, and <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_point.html#a569141753bb48c51a857b7839de54b11">wxPoint::y</a>.</p>
+<p class="reference">References <a class="el" href="ccmanager_8cpp_source#l00126">AUTOCOMP_SELECT_DELAY</a>, <a class="el" href="classwxScintilla#bs-AutoCompGetMaxHeight">wxScintilla::AutoCompGetMaxHeight()</a>, <a class="el" href="manager_8cpp_source#l00182">Manager::Get()</a>, <a class="el" href="editormanager_8h_source#l00095">EditorManager::GetBuiltinActiveEditor()</a>, <a class="el" href="cbeditor_8cpp_source#l00842">cbEditor::GetControl()</a>, <a class="el" href="classwxScintilla#gt-GetCurrentLine">wxScintilla::GetCurrentLine()</a>, <a class="el" href="manager_8cpp_source#l00434">Manager::GetEditorManager()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_display.html#aaf13ecd5a870d5b8b10a6c6cd9710b7a">wxDisplay::GetFromWindow()</a>, <a class="el" href="ccmanager_8cpp_source#l01088">OnAutocompleteHide()</a>, <a class="el" href="classwxScintilla#xk-TextHeight">wxScintilla::TextHeight()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_rect.html#ab2be5c8d430c85c007f5a9aab58356d8">wxRect::width</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__events.html#ga42f754d82b0c87a875b4acc004eb4185">wxEVT_SHOW</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/timer_8h.html#aa76166f2f2d3551d72a79b706679b726">wxTIMER_ONE_SHOT</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_point.html#a96cd57c992846b3338837db97836ba5c">wxPoint::x</a>, and <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_point.html#a569141753bb48c51a857b7839de54b11">wxPoint::y</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="ccmanager_8cpp_source#l00655">OnEditorClose()</a>, and <a class="el" href="ccmanager_8cpp_source#l00627">OnEditorOpen()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="ccmanager_8cpp_source#l00671">OnEditorClose()</a>, and <a class="el" href="ccmanager_8cpp_source#l00643">OnEditorOpen()</a>.</p>
 
 </div>
 </div>
@@ -883,11 +886,11 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Event handler to list the suggestion, when a user press Ctrl-space (by default). </p>
 
-<p class="definition">Definition at line <a class="el" href="ccmanager_8cpp_source#l00490">490</a> of file <a class="el" href="ccmanager_8cpp_source">ccmanager.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ccmanager_8cpp_source#l00505">505</a> of file <a class="el" href="ccmanager_8cpp_source">ccmanager.cpp</a>.</p>
 
-<p class="reference">References <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#a87e614d9924a1b5524334aac3fc96d38">wxString::Alloc()</a>, <a class="el" href="classwxScintilla#j8-AutoCompActive">wxScintilla::AutoCompActive()</a>, <a class="el" href="classwxScintilla#i2-AutoCompSelect">wxScintilla::AutoCompSelect()</a>, <a class="el" href="classwxScintilla#bd-AutoCompSetIgnoreCase">wxScintilla::AutoCompSetIgnoreCase()</a>, <a class="el" href="classwxScintilla#en-AutoCompSetMaxHeight">wxScintilla::AutoCompSetMaxHeight()</a>, <a class="el" href="classwxScintilla#zx-AutoCompSetOrder">wxScintilla::AutoCompSetOrder()</a>, <a class="el" href="classwxScintilla#v8-AutoCompSetSeparator">wxScintilla::AutoCompSetSeparator()</a>, <a class="el" href="classwxScintilla#g8-AutoCompSetTypeSeparator">wxScintilla::AutoCompSetTypeSeparator()</a>, <a class="el" href="classwxScintilla#wv-AutoCompShow">wxScintilla::AutoCompShow()</a>, <a class="el" href="classwxScintilla#k3-CallTipActive">wxScintilla::CallTipActive()</a>, <a class="el" href="logmanager_8h_source#l00020">F()</a>, <a class="el" href="ccmanager_8cpp_source#l00137">FROM_TIMER</a>, <a class="el" href="manager_8cpp_source#l00187">Manager::Get()</a>, <a class="el" href="classcbCodeCompletionPlugin#pc-GetAutocompList">cbCodeCompletionPlugin::GetAutocompList()</a>, <a class="el" href="editormanager_8h_source#l00095">EditorManager::GetBuiltinActiveEditor()</a>, <a class="el" href="manager_8cpp_source#l00478">Manager::GetConfigManager()</a>, <a class="el" href="cbeditor_8cpp_source#l00840">cbEditor::GetControl()</a>, <a class="el" href="classwxScintilla#f1-GetCurrentPos">wxScintilla::GetCurrentPos()</a>, <a class="el" href="manager_8cpp_source#l00438">Manager::GetEditorManager()</a>, <a class="el" href="classwxScintilla#as-GetTextRange">wxScintilla::GetTextRange()</a>, <a class="el" href="ccmanager_8cpp_source#l00142">lsCaretStart</a>, <a class="el" href="ccmanager_8cpp_source#l00141">lsTknStart</a>, <a class="el" href="configmanager_8cpp_source#l00990">ConfigManager::ReadBool()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#aa375e1718cb40fd991e89428e620ba82">wxString::RemoveLast()</a>, <a class="el" href="wxscintilla_8h_source#l05242">wxScintillaEvent::SetText()</a>, <a class="el" href="classwxScintilla#sd-WordEndPosition">wxScintilla::WordEndPosition()</a>, <a class="el" href="classwxScintilla#uc-WordStartPosition">wxScintilla::WordStartPosition()</a>, <a class="el" href="wxscintilla_8h_source#l00347">wxSCI_ORDER_CUSTOM</a>, <a class="el" href="wxscintilla_8h_source#l00345">wxSCI_ORDER_PRESORTED</a>, and <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga437ea6ba615b75dac8603e96ec864160">wxT</a>.</p>
+<p class="reference">References <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#a87e614d9924a1b5524334aac3fc96d38">wxString::Alloc()</a>, <a class="el" href="classwxScintilla#j8-AutoCompActive">wxScintilla::AutoCompActive()</a>, <a class="el" href="classwxScintilla#cg-AutoCompSelect">wxScintilla::AutoCompSelect()</a>, <a class="el" href="classwxScintilla#bd-AutoCompSetIgnoreCase">wxScintilla::AutoCompSetIgnoreCase()</a>, <a class="el" href="classwxScintilla#en-AutoCompSetMaxHeight">wxScintilla::AutoCompSetMaxHeight()</a>, <a class="el" href="classwxScintilla#zx-AutoCompSetOrder">wxScintilla::AutoCompSetOrder()</a>, <a class="el" href="classwxScintilla#v8-AutoCompSetSeparator">wxScintilla::AutoCompSetSeparator()</a>, <a class="el" href="classwxScintilla#g8-AutoCompSetTypeSeparator">wxScintilla::AutoCompSetTypeSeparator()</a>, <a class="el" href="classwxScintilla#h0-AutoCompShow">wxScintilla::AutoCompShow()</a>, <a class="el" href="classwxScintilla#k3-CallTipActive">wxScintilla::CallTipActive()</a>, <a class="el" href="logmanager_8h_source#l00020">F()</a>, <a class="el" href="ccmanager_8cpp_source#l00146">FROM_TIMER</a>, <a class="el" href="manager_8cpp_source#l00182">Manager::Get()</a>, <a class="el" href="classcbCodeCompletionPlugin#pc-GetAutocompList">cbCodeCompletionPlugin::GetAutocompList()</a>, <a class="el" href="editormanager_8h_source#l00095">EditorManager::GetBuiltinActiveEditor()</a>, <a class="el" href="manager_8cpp_source#l00474">Manager::GetConfigManager()</a>, <a class="el" href="cbeditor_8cpp_source#l00842">cbEditor::GetControl()</a>, <a class="el" href="classwxScintilla#f1-GetCurrentPos">wxScintilla::GetCurrentPos()</a>, <a class="el" href="manager_8cpp_source#l00434">Manager::GetEditorManager()</a>, <a class="el" href="classwxScintilla#as-GetTextRange">wxScintilla::GetTextRange()</a>, <a class="el" href="ccmanager_8cpp_source#l00151">lsCaretStart</a>, <a class="el" href="ccmanager_8cpp_source#l00150">lsTknStart</a>, <a class="el" href="configmanager_8cpp_source#l01044">ConfigManager::ReadBool()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#aa375e1718cb40fd991e89428e620ba82">wxString::RemoveLast()</a>, <a class="el" href="wxscintilla_8h_source#l05420">wxScintillaEvent::SetText()</a>, <a class="el" href="classwxScintilla#sd-WordEndPosition">wxScintilla::WordEndPosition()</a>, <a class="el" href="classwxScintilla#uc-WordStartPosition">wxScintilla::WordStartPosition()</a>, <a class="el" href="wxscintilla_8h_source#l00373">wxSCI_ORDER_CUSTOM</a>, <a class="el" href="wxscintilla_8h_source#l00371">wxSCI_ORDER_PRESORTED</a>, and <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga437ea6ba615b75dac8603e96ec864160">wxT</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="ccmanager_8cpp_source#l00257">CCManager()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="ccmanager_8cpp_source#l00266">CCManager()</a>.</p>
 
 </div>
 </div>
@@ -917,11 +920,11 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Event handler to avoid tooltips getting stuck active. </p>
 
-<p class="definition">Definition at line <a class="el" href="ccmanager_8cpp_source#l00584">584</a> of file <a class="el" href="ccmanager_8cpp_source">ccmanager.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ccmanager_8cpp_source#l00600">600</a> of file <a class="el" href="ccmanager_8cpp_source">ccmanager.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="classwxScintilla#k3-CallTipActive">wxScintilla::CallTipActive()</a>, <a class="el" href="manager_8cpp_source#l00187">Manager::Get()</a>, <a class="el" href="editormanager_8h_source#l00095">EditorManager::GetBuiltinActiveEditor()</a>, <a class="el" href="cbeditor_8cpp_source#l00840">cbEditor::GetControl()</a>, <a class="el" href="manager_8cpp_source#l00438">Manager::GetEditorManager()</a>, and <a class="el" href="wxscintilla_8h_source#l00070">wxSCI_INVALID_POSITION</a>.</p>
+<p class="reference">References <a class="el" href="classwxScintilla#k3-CallTipActive">wxScintilla::CallTipActive()</a>, <a class="el" href="manager_8cpp_source#l00182">Manager::Get()</a>, <a class="el" href="editormanager_8h_source#l00095">EditorManager::GetBuiltinActiveEditor()</a>, <a class="el" href="cbeditor_8cpp_source#l00842">cbEditor::GetControl()</a>, <a class="el" href="manager_8cpp_source#l00434">Manager::GetEditorManager()</a>, and <a class="el" href="wxscintilla_8h_source#l00070">wxSCI_INVALID_POSITION</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="ccmanager_8cpp_source#l00257">CCManager()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="ccmanager_8cpp_source#l00266">CCManager()</a>.</p>
 
 </div>
 </div>
@@ -951,11 +954,11 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Event handler to avoid tooltips getting stuck active. </p>
 
-<p class="definition">Definition at line <a class="el" href="ccmanager_8cpp_source#l00604">604</a> of file <a class="el" href="ccmanager_8cpp_source">ccmanager.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ccmanager_8cpp_source#l00620">620</a> of file <a class="el" href="ccmanager_8cpp_source">ccmanager.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="classwxScintilla#k3-CallTipActive">wxScintilla::CallTipActive()</a>, <a class="el" href="cbstyledtextctrl_8cpp_source#l00319">cbStyledTextCtrl::CallTipCancel()</a>, <a class="el" href="manager_8cpp_source#l00187">Manager::Get()</a>, <a class="el" href="editormanager_8cpp_source#l00305">EditorManager::GetBuiltinEditor()</a>, <a class="el" href="cbeditor_8cpp_source#l00840">cbEditor::GetControl()</a>, <a class="el" href="sdk__events_8h_source#l00044">CodeBlocksEvent::GetEditor()</a>, <a class="el" href="manager_8cpp_source#l00438">Manager::GetEditorManager()</a>, and <a class="el" href="wxscintilla_8h_source#l00070">wxSCI_INVALID_POSITION</a>.</p>
+<p class="reference">References <a class="el" href="classwxScintilla#k3-CallTipActive">wxScintilla::CallTipActive()</a>, <a class="el" href="cbstyledtextctrl_8cpp_source#l00323">cbStyledTextCtrl::CallTipCancel()</a>, <a class="el" href="manager_8cpp_source#l00182">Manager::Get()</a>, <a class="el" href="editormanager_8cpp_source#l00309">EditorManager::GetBuiltinEditor()</a>, <a class="el" href="cbeditor_8cpp_source#l00842">cbEditor::GetControl()</a>, <a class="el" href="sdk__events_8h_source#l00044">CodeBlocksEvent::GetEditor()</a>, <a class="el" href="manager_8cpp_source#l00434">Manager::GetEditorManager()</a>, and <a class="el" href="wxscintilla_8h_source#l00070">wxSCI_INVALID_POSITION</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="ccmanager_8cpp_source#l00257">CCManager()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="ccmanager_8cpp_source#l00266">CCManager()</a>.</p>
 
 </div>
 </div>
@@ -986,11 +989,11 @@ Additional Inherited Members</h2></td></tr>
 <p>Defer canceling the calltip to avoid a crash issue. </p>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="classCCManager#zb-OnDeferredCallTipShow" title="Defer showing the calltip to avoid a crash issue. ">CCManager::OnDeferredCallTipShow</a> </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="ccmanager_8cpp_source#l01112">1112</a> of file <a class="el" href="ccmanager_8cpp_source">ccmanager.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ccmanager_8cpp_source#l01111">1111</a> of file <a class="el" href="ccmanager_8cpp_source">ccmanager.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="manager_8cpp_source#l00187">Manager::Get()</a>, <a class="el" href="editormanager_8h_source#l00095">EditorManager::GetBuiltinActiveEditor()</a>, <a class="el" href="cbeditor_8cpp_source#l00840">cbEditor::GetControl()</a>, and <a class="el" href="manager_8cpp_source#l00438">Manager::GetEditorManager()</a>.</p>
+<p class="reference">References <a class="el" href="manager_8cpp_source#l00182">Manager::Get()</a>, <a class="el" href="editormanager_8h_source#l00095">EditorManager::GetBuiltinActiveEditor()</a>, <a class="el" href="cbeditor_8cpp_source#l00842">cbEditor::GetControl()</a>, and <a class="el" href="manager_8cpp_source#l00434">Manager::GetEditorManager()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="ccmanager_8cpp_source#l00257">CCManager()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="ccmanager_8cpp_source#l00266">CCManager()</a>.</p>
 
 </div>
 </div>
@@ -1021,11 +1024,11 @@ Additional Inherited Members</h2></td></tr>
 <p>Defer showing the calltip to avoid a crash issue. </p>
 <p>Launching this event directly seems to be a candidate for race condition and crash in <a class="el" href="classCCManager#jo-OnShowCallTip" title="Event handler to show the call tip, when user press Ctrl-Shift-Space. ">OnShowCallTip()</a> so we attempt to serialize it. </p>
 
-<p class="definition">Definition at line <a class="el" href="ccmanager_8cpp_source#l01101">1101</a> of file <a class="el" href="ccmanager_8cpp_source">ccmanager.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ccmanager_8cpp_source#l01100">1100</a> of file <a class="el" href="ccmanager_8cpp_source">ccmanager.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="sdk__events_8cpp_source#l00177">cbEVT_SHOW_CALL_TIP</a>, <a class="el" href="manager_8cpp_source#l00187">Manager::Get()</a>, and <a class="el" href="manager_8cpp_source#l00250">Manager::ProcessEvent()</a>.</p>
+<p class="reference">References <a class="el" href="sdk__events_8cpp_source#l00177">cbEVT_SHOW_CALL_TIP</a>, <a class="el" href="manager_8cpp_source#l00182">Manager::Get()</a>, and <a class="el" href="manager_8cpp_source#l00246">Manager::ProcessEvent()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="ccmanager_8cpp_source#l00257">CCManager()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="ccmanager_8cpp_source#l00266">CCManager()</a>.</p>
 
 </div>
 </div>
@@ -1055,11 +1058,11 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Event handler to avoid tooltips getting stuck active. </p>
 
-<p class="definition">Definition at line <a class="el" href="ccmanager_8cpp_source#l00655">655</a> of file <a class="el" href="ccmanager_8cpp_source">ccmanager.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ccmanager_8cpp_source#l00671">671</a> of file <a class="el" href="ccmanager_8cpp_source">ccmanager.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="manager_8cpp_source#l00187">Manager::Get()</a>, <a class="el" href="editormanager_8cpp_source#l00305">EditorManager::GetBuiltinEditor()</a>, <a class="el" href="cbeditor_8cpp_source#l00840">cbEditor::GetControl()</a>, <a class="el" href="sdk__events_8h_source#l00044">CodeBlocksEvent::GetEditor()</a>, <a class="el" href="manager_8cpp_source#l00438">Manager::GetEditorManager()</a>, and <a class="el" href="ccmanager_8cpp_source#l01044">OnAutocompleteSelect()</a>.</p>
+<p class="reference">References <a class="el" href="manager_8cpp_source#l00182">Manager::Get()</a>, <a class="el" href="editormanager_8cpp_source#l00309">EditorManager::GetBuiltinEditor()</a>, <a class="el" href="cbeditor_8cpp_source#l00842">cbEditor::GetControl()</a>, <a class="el" href="sdk__events_8h_source#l00044">CodeBlocksEvent::GetEditor()</a>, <a class="el" href="manager_8cpp_source#l00434">Manager::GetEditorManager()</a>, and <a class="el" href="ccmanager_8cpp_source#l01043">OnAutocompleteSelect()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="ccmanager_8cpp_source#l00257">CCManager()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="ccmanager_8cpp_source#l00266">CCManager()</a>.</p>
 
 </div>
 </div>
@@ -1100,11 +1103,11 @@ Additional Inherited Members</h2></td></tr>
 <p>Hook to the editor. </p>
 <p>This is used so that we know some specific chars were entered, then we can decide whether it time to show a calltip or suggestion list. </p>
 
-<p class="definition">Definition at line <a class="el" href="ccmanager_8cpp_source#l00767">767</a> of file <a class="el" href="ccmanager_8cpp_source">ccmanager.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ccmanager_8cpp_source#l00783">783</a> of file <a class="el" href="ccmanager_8cpp_source">ccmanager.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="classwxScintilla#j8-AutoCompActive">wxScintilla::AutoCompActive()</a>, <a class="el" href="classwxScintilla#kp-AutoCompCancel">wxScintilla::AutoCompCancel()</a>, <a class="el" href="ccmanager_8cpp_source#l00125">CALLTIP_REFRESH_DELAY</a>, <a class="el" href="classwxScintilla#k3-CallTipActive">wxScintilla::CallTipActive()</a>, <a class="el" href="sdk__events_8cpp_source#l00176">cbEVT_COMPLETE_CODE</a>, <a class="el" href="classcbCodeCompletionPlugin#q0-DoAutocomplete">cbCodeCompletionPlugin::DoAutocomplete()</a>, <a class="el" href="manager_8cpp_source#l00187">Manager::Get()</a>, <a class="el" href="manager_8cpp_source#l00478">Manager::GetConfigManager()</a>, <a class="el" href="cbeditor_8cpp_source#l00840">cbEditor::GetControl()</a>, <a class="el" href="classwxScintilla#f1-GetCurrentPos">wxScintilla::GetCurrentPos()</a>, <a class="el" href="wxscintilla_8h_source#l05279">wxScintillaEvent::GetKey()</a>, <a class="el" href="wxscintilla_8h_source#l05281">wxScintillaEvent::GetModificationType()</a>, <a class="el" href="wxscintilla_8h_source#l05278">wxScintillaEvent::GetPosition()</a>, <a class="el" href="wxscintilla_8h_source#l05283">wxScintillaEvent::GetText()</a>, <a class="el" href="wxscintilla_8h_source#l05298">wxScintillaEvent::GetUpdated()</a>, <a class="el" href="ccmanager_8cpp_source#l00063">CCManagerHelper::IsPosVisible()</a>, <a class="el" href="manager_8cpp_source#l00250">Manager::ProcessEvent()</a>, <a class="el" href="configmanager_8cpp_source#l00957">ConfigManager::ReadInt()</a>, <a class="el" href="ccmanager_8cpp_source#l00127">SCROLL_REFRESH_DELAY</a>, <a class="el" href="classwxScintilla#uc-WordStartPosition">wxScintilla::WordStartPosition()</a>, <a class="el" href="wxscintilla_8h_source#l00070">wxSCI_INVALID_POSITION</a>, <a class="el" href="wxscintilla_8h_source#l00424">wxSCI_KEY_DOWN</a>, <a class="el" href="wxscintilla_8h_source#l00426">wxSCI_KEY_LEFT</a>, <a class="el" href="wxscintilla_8h_source#l00427">wxSCI_KEY_RIGHT</a>, <a class="el" href="wxscintilla_8h_source#l00425">wxSCI_KEY_UP</a>, <a class="el" href="wxscintilla_8h_source#l00393">wxSCI_PERFORMED_UNDO</a>, <a class="el" href="wxscintilla_8h_source#l00415">wxSCI_UPDATE_H_SCROLL</a>, <a class="el" href="wxscintilla_8h_source#l00414">wxSCI_UPDATE_V_SCROLL</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga437ea6ba615b75dac8603e96ec864160">wxT</a>, and <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/timer_8h.html#aa76166f2f2d3551d72a79b706679b726">wxTIMER_ONE_SHOT</a>.</p>
+<p class="reference">References <a class="el" href="classwxScintilla#j8-AutoCompActive">wxScintilla::AutoCompActive()</a>, <a class="el" href="classwxScintilla#kp-AutoCompCancel">wxScintilla::AutoCompCancel()</a>, <a class="el" href="ccmanager_8cpp_source#l00125">CALLTIP_REFRESH_DELAY</a>, <a class="el" href="classwxScintilla#k3-CallTipActive">wxScintilla::CallTipActive()</a>, <a class="el" href="sdk__events_8cpp_source#l00176">cbEVT_COMPLETE_CODE</a>, <a class="el" href="classcbCodeCompletionPlugin#q0-DoAutocomplete">cbCodeCompletionPlugin::DoAutocomplete()</a>, <a class="el" href="manager_8cpp_source#l00182">Manager::Get()</a>, <a class="el" href="manager_8cpp_source#l00474">Manager::GetConfigManager()</a>, <a class="el" href="cbeditor_8cpp_source#l00842">cbEditor::GetControl()</a>, <a class="el" href="classwxScintilla#f1-GetCurrentPos">wxScintilla::GetCurrentPos()</a>, <a class="el" href="wxscintilla_8h_source#l05457">wxScintillaEvent::GetModificationType()</a>, <a class="el" href="wxscintilla_8h_source#l05454">wxScintillaEvent::GetPosition()</a>, <a class="el" href="wxscintilla_8h_source#l05459">wxScintillaEvent::GetText()</a>, <a class="el" href="wxscintilla_8h_source#l05474">wxScintillaEvent::GetUpdated()</a>, <a class="el" href="ccmanager_8cpp_source#l00063">CCManagerHelper::IsPosVisible()</a>, <a class="el" href="manager_8cpp_source#l00246">Manager::ProcessEvent()</a>, <a class="el" href="configmanager_8cpp_source#l01011">ConfigManager::ReadInt()</a>, <a class="el" href="ccmanager_8cpp_source#l00127">SCROLL_REFRESH_DELAY</a>, <a class="el" href="classwxScintilla#uc-WordStartPosition">wxScintilla::WordStartPosition()</a>, <a class="el" href="wxscintilla_8h_source#l00070">wxSCI_INVALID_POSITION</a>, <a class="el" href="wxscintilla_8h_source#l00418">wxSCI_PERFORMED_UNDO</a>, <a class="el" href="wxscintilla_8h_source#l00439">wxSCI_UPDATE_H_SCROLL</a>, <a class="el" href="wxscintilla_8h_source#l00438">wxSCI_UPDATE_V_SCROLL</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga437ea6ba615b75dac8603e96ec864160">wxT</a>, and <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/timer_8h.html#aa76166f2f2d3551d72a79b706679b726">wxTIMER_ONE_SHOT</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="ccmanager_8cpp_source#l00257">CCManager()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="ccmanager_8cpp_source#l00266">CCManager()</a>.</p>
 
 </div>
 </div>
@@ -1134,11 +1137,11 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Event handler to avoid tooltips getting stuck active. </p>
 
-<p class="definition">Definition at line <a class="el" href="ccmanager_8cpp_source#l00627">627</a> of file <a class="el" href="ccmanager_8cpp_source">ccmanager.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ccmanager_8cpp_source#l00643">643</a> of file <a class="el" href="ccmanager_8cpp_source">ccmanager.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="manager_8cpp_source#l00187">Manager::Get()</a>, <a class="el" href="editormanager_8cpp_source#l00305">EditorManager::GetBuiltinEditor()</a>, <a class="el" href="cbeditor_8cpp_source#l00840">cbEditor::GetControl()</a>, <a class="el" href="sdk__events_8h_source#l00044">CodeBlocksEvent::GetEditor()</a>, <a class="el" href="manager_8cpp_source#l00438">Manager::GetEditorManager()</a>, <a class="el" href="ccmanager_8cpp_source#l01044">OnAutocompleteSelect()</a>, and <a class="el" href="ccmanager_8cpp_source#l00618">setupColours()</a>.</p>
+<p class="reference">References <a class="el" href="manager_8cpp_source#l00182">Manager::Get()</a>, <a class="el" href="editormanager_8cpp_source#l00309">EditorManager::GetBuiltinEditor()</a>, <a class="el" href="cbeditor_8cpp_source#l00842">cbEditor::GetControl()</a>, <a class="el" href="sdk__events_8h_source#l00044">CodeBlocksEvent::GetEditor()</a>, <a class="el" href="manager_8cpp_source#l00434">Manager::GetEditorManager()</a>, <a class="el" href="ccmanager_8cpp_source#l01043">OnAutocompleteSelect()</a>, and <a class="el" href="ccmanager_8cpp_source#l00634">setupColours()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="ccmanager_8cpp_source#l00257">CCManager()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="ccmanager_8cpp_source#l00266">CCManager()</a>.</p>
 
 </div>
 </div>
@@ -1168,11 +1171,11 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Mouse hover event. </p>
 
-<p class="definition">Definition at line <a class="el" href="ccmanager_8cpp_source#l00670">670</a> of file <a class="el" href="ccmanager_8cpp_source">ccmanager.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ccmanager_8cpp_source#l00686">686</a> of file <a class="el" href="ccmanager_8cpp_source">ccmanager.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="classwxScintilla#k3-CallTipActive">wxScintilla::CallTipActive()</a>, <a class="el" href="manager_8cpp_source#l00187">Manager::Get()</a>, <a class="el" href="classcbCodeCompletionPlugin#o2-GetCallTips">cbCodeCompletionPlugin::GetCallTips()</a>, <a class="el" href="manager_8cpp_source#l00478">Manager::GetConfigManager()</a>, <a class="el" href="cbeditor_8cpp_source#l00840">cbEditor::GetControl()</a>, <a class="el" href="classwxScintilla#cb-GetLength">wxScintilla::GetLength()</a>, <a class="el" href="cbeditor_8cpp_source#l02685">cbEditor::GetLineIndentString()</a>, <a class="el" href="classwxScintilla#as-GetTextRange">wxScintilla::GetTextRange()</a>, <a class="el" href="classcbCodeCompletionPlugin#of-GetTokenAt">cbCodeCompletionPlugin::GetTokenAt()</a>, <a class="el" href="sdk__events_8h_source#l00053">CodeBlocksEvent::GetX()</a>, <a class="el" href="editorbase_8cpp_source#l00211">EditorBase::IsBuiltinEditor()</a>, <a class="el" href="cbstyledtextctrl_8cpp_source#l00299">cbStyledTextCtrl::IsCharacter()</a>, <a class="el" href="cbstyledtextctrl_8cpp_source#l00314">cbStyledTextCtrl::IsComment()</a>, <a class="el" href="editorbase_8cpp_source#l00425">EditorBase::IsContextMenuOpened()</a>, <a class="el" href="cbstyledtextctrl_8cpp_source#l00309">cbStyledTextCtrl::IsPreprocessor()</a>, <a class="el" href="cbstyledtextctrl_8cpp_source#l00304">cbStyledTextCtrl::IsString()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#a8895cca03120099236c002c0577b4d1c">wxString::Length()</a>, <a class="el" href="classwxScintilla#f5-LineFromPosition">wxScintilla::LineFromPosition()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#a7f7b5ab972b4be6703f9c779654af247">wxString::npos</a>, <a class="el" href="classwxScintilla#ne-PositionFromLine">wxScintilla::PositionFromLine()</a>, <a class="el" href="classwxScintilla#g5-PositionFromPointClose">wxScintilla::PositionFromPointClose()</a>, <a class="el" href="configmanager_8cpp_source#l00957">ConfigManager::ReadInt()</a>, <a class="el" href="classwxScintilla#sd-WordEndPosition">wxScintilla::WordEndPosition()</a>, <a class="el" href="classwxScintilla#uc-WordStartPosition">wxScintilla::WordStartPosition()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__misc.html#ga82a18ac43492bfb375604c41b71ce84f">wxGetKeyState()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__crt.html#ga1db833e4d75bf60143bbbad0b28203ff">wxIsalpha()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/defs_8h.html#a41c4609211685cff198618963ec8f77da12012e9dbb08c875c2ad12e73735bb1a">WXK_CONTROL</a>, <a class="el" href="wxscintilla_8h_source#l00070">wxSCI_INVALID_POSITION</a>, and <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga437ea6ba615b75dac8603e96ec864160">wxT</a>.</p>
+<p class="reference">References <a class="el" href="classwxScintilla#k3-CallTipActive">wxScintilla::CallTipActive()</a>, <a class="el" href="manager_8cpp_source#l00182">Manager::Get()</a>, <a class="el" href="classcbCodeCompletionPlugin#o2-GetCallTips">cbCodeCompletionPlugin::GetCallTips()</a>, <a class="el" href="manager_8cpp_source#l00474">Manager::GetConfigManager()</a>, <a class="el" href="cbeditor_8cpp_source#l00842">cbEditor::GetControl()</a>, <a class="el" href="classwxScintilla#cb-GetLength">wxScintilla::GetLength()</a>, <a class="el" href="cbeditor_8cpp_source#l02778">cbEditor::GetLineIndentString()</a>, <a class="el" href="classwxScintilla#as-GetTextRange">wxScintilla::GetTextRange()</a>, <a class="el" href="classcbCodeCompletionPlugin#of-GetTokenAt">cbCodeCompletionPlugin::GetTokenAt()</a>, <a class="el" href="sdk__events_8h_source#l00053">CodeBlocksEvent::GetX()</a>, <a class="el" href="editorbase_8cpp_source#l00209">EditorBase::IsBuiltinEditor()</a>, <a class="el" href="cbstyledtextctrl_8cpp_source#l00303">cbStyledTextCtrl::IsCharacter()</a>, <a class="el" href="cbstyledtextctrl_8cpp_source#l00318">cbStyledTextCtrl::IsComment()</a>, <a class="el" href="editorbase_8cpp_source#l00441">EditorBase::IsContextMenuOpened()</a>, <a class="el" href="cbstyledtextctrl_8cpp_source#l00313">cbStyledTextCtrl::IsPreprocessor()</a>, <a class="el" href="cbstyledtextctrl_8cpp_source#l00308">cbStyledTextCtrl::IsString()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#a8895cca03120099236c002c0577b4d1c">wxString::Length()</a>, <a class="el" href="classwxScintilla#f5-LineFromPosition">wxScintilla::LineFromPosition()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#a7f7b5ab972b4be6703f9c779654af247">wxString::npos</a>, <a class="el" href="classwxScintilla#ne-PositionFromLine">wxScintilla::PositionFromLine()</a>, <a class="el" href="classwxScintilla#g5-PositionFromPointClose">wxScintilla::PositionFromPointClose()</a>, <a class="el" href="configmanager_8cpp_source#l01011">ConfigManager::ReadInt()</a>, <a class="el" href="ccmanager_8cpp_source#l00132">tmDisable</a>, <a class="el" href="ccmanager_8cpp_source#l00135">tmKeyboundOnly</a>, <a class="el" href="classwxScintilla#sd-WordEndPosition">wxScintilla::WordEndPosition()</a>, <a class="el" href="classwxScintilla#uc-WordStartPosition">wxScintilla::WordStartPosition()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__misc.html#ga82a18ac43492bfb375604c41b71ce84f">wxGetKeyState()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__crt.html#ga1db833e4d75bf60143bbbad0b28203ff">wxIsalpha()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/defs_8h.html#a41c4609211685cff198618963ec8f77da12012e9dbb08c875c2ad12e73735bb1a">WXK_CONTROL</a>, <a class="el" href="wxscintilla_8h_source#l00070">wxSCI_INVALID_POSITION</a>, and <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga437ea6ba615b75dac8603e96ec864160">wxT</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="ccmanager_8cpp_source#l00257">CCManager()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="ccmanager_8cpp_source#l00266">CCManager()</a>.</p>
 
 </div>
 </div>
@@ -1202,11 +1205,11 @@ Additional Inherited Members</h2></td></tr>
 
 <p>A link is clicked in the document window. </p>
 
-<p class="definition">Definition at line <a class="el" href="ccmanager_8cpp_source#l01132">1132</a> of file <a class="el" href="ccmanager_8cpp_source">ccmanager.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ccmanager_8cpp_source#l01131">1131</a> of file <a class="el" href="ccmanager_8cpp_source">ccmanager.cpp</a>.</p>
 
 <p class="reference">References <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#ace32756bab999f8aae9be0cf981fc449">wxString::IsEmpty()</a>, and <a class="el" href="classcbCodeCompletionPlugin#er-OnDocumentationLink">cbCodeCompletionPlugin::OnDocumentationLink()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="ccmanager_8cpp_source#l00257">CCManager()</a>, and <a class="el" href="ccmanager_8cpp_source#l00339">~CCManager()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="ccmanager_8cpp_source#l00266">CCManager()</a>, and <a class="el" href="ccmanager_8cpp_source#l00348">~CCManager()</a>.</p>
 
 </div>
 </div>
@@ -1236,11 +1239,11 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Handle the CC related menu click. </p>
 
-<p class="definition">Definition at line <a class="el" href="ccmanager_8cpp_source#l01183">1183</a> of file <a class="el" href="ccmanager_8cpp_source">ccmanager.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ccmanager_8cpp_source#l01182">1182</a> of file <a class="el" href="ccmanager_8cpp_source">ccmanager.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="classwxScintilla#k3-CallTipActive">wxScintilla::CallTipActive()</a>, <a class="el" href="sdk__events_8cpp_source#l00088">cbEVT_EDITOR_TOOLTIP</a>, <a class="el" href="manager_8cpp_source#l00187">Manager::Get()</a>, <a class="el" href="editormanager_8h_source#l00095">EditorManager::GetBuiltinActiveEditor()</a>, <a class="el" href="cbeditor_8cpp_source#l00840">cbEditor::GetControl()</a>, <a class="el" href="classwxScintilla#f1-GetCurrentPos">wxScintilla::GetCurrentPos()</a>, <a class="el" href="manager_8cpp_source#l00438">Manager::GetEditorManager()</a>, <a class="el" href="classwxScintilla#u2-GetStyleAt">wxScintilla::GetStyleAt()</a>, <a class="el" href="ccmanager_8cpp_source#l00118">idCallTipNext</a>, <a class="el" href="ccmanager_8cpp_source#l00119">idCallTipPrevious</a>, <a class="el" href="ccmanager_8cpp_source#l00117">idShowTooltip</a>, <a class="el" href="classwxScintilla#wy-PointFromPosition">wxScintilla::PointFromPosition()</a>, <a class="el" href="manager_8cpp_source#l00250">Manager::ProcessEvent()</a>, <a class="el" href="sdk__events_8h_source#l00045">CodeBlocksEvent::SetEditor()</a>, <a class="el" href="sdk__events_8h_source#l00054">CodeBlocksEvent::SetX()</a>, <a class="el" href="sdk__events_8h_source#l00057">CodeBlocksEvent::SetY()</a>, <a class="el" href="wxscintilla_8h_source#l00070">wxSCI_INVALID_POSITION</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga437ea6ba615b75dac8603e96ec864160">wxT</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_point.html#a96cd57c992846b3338837db97836ba5c">wxPoint::x</a>, and <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_point.html#a569141753bb48c51a857b7839de54b11">wxPoint::y</a>.</p>
+<p class="reference">References <a class="el" href="classwxScintilla#k3-CallTipActive">wxScintilla::CallTipActive()</a>, <a class="el" href="sdk__events_8cpp_source#l00088">cbEVT_EDITOR_TOOLTIP</a>, <a class="el" href="manager_8cpp_source#l00182">Manager::Get()</a>, <a class="el" href="editormanager_8h_source#l00095">EditorManager::GetBuiltinActiveEditor()</a>, <a class="el" href="cbeditor_8cpp_source#l00842">cbEditor::GetControl()</a>, <a class="el" href="classwxScintilla#f1-GetCurrentPos">wxScintilla::GetCurrentPos()</a>, <a class="el" href="manager_8cpp_source#l00434">Manager::GetEditorManager()</a>, <a class="el" href="classwxScintilla#u2-GetStyleAt">wxScintilla::GetStyleAt()</a>, <a class="el" href="ccmanager_8cpp_source#l00118">idCallTipNext</a>, <a class="el" href="ccmanager_8cpp_source#l00119">idCallTipPrevious</a>, <a class="el" href="ccmanager_8cpp_source#l00117">idShowTooltip</a>, <a class="el" href="classwxScintilla#wy-PointFromPosition">wxScintilla::PointFromPosition()</a>, <a class="el" href="manager_8cpp_source#l00246">Manager::ProcessEvent()</a>, <a class="el" href="sdk__events_8h_source#l00045">CodeBlocksEvent::SetEditor()</a>, <a class="el" href="sdk__events_8h_source#l00054">CodeBlocksEvent::SetX()</a>, <a class="el" href="sdk__events_8h_source#l00057">CodeBlocksEvent::SetY()</a>, <a class="el" href="wxscintilla_8h_source#l00070">wxSCI_INVALID_POSITION</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga437ea6ba615b75dac8603e96ec864160">wxT</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_point.html#a96cd57c992846b3338837db97836ba5c">wxPoint::x</a>, and <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_point.html#a569141753bb48c51a857b7839de54b11">wxPoint::y</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="ccmanager_8cpp_source#l00257">CCManager()</a>, and <a class="el" href="ccmanager_8cpp_source#l00339">~CCManager()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="ccmanager_8cpp_source#l00266">CCManager()</a>, and <a class="el" href="ccmanager_8cpp_source#l00348">~CCManager()</a>.</p>
 
 </div>
 </div>
@@ -1270,11 +1273,11 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Intercept <a class="el" href="classcbStyledTextCtrl">cbStyledTextCtrl</a> scroll events and forward to autocomplete/documentation popups. </p>
 
-<p class="definition">Definition at line <a class="el" href="ccmanager_8cpp_source#l01120">1120</a> of file <a class="el" href="ccmanager_8cpp_source">ccmanager.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ccmanager_8cpp_source#l01119">1119</a> of file <a class="el" href="ccmanager_8cpp_source">ccmanager.cpp</a>.</p>
 
 <p class="reference">References <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_mouse_state.html#aa3eff164b6e5407a6185e051ab26ac52">wxMouseEvent::GetPosition()</a>, and <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_mouse_event.html#a0bb1e43dbaa5b1185cdff155e0edf1a2">wxMouseEvent::GetWheelRotation()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="ccmanager_8cpp_source#l01253">DoHidePopup()</a>, and <a class="el" href="ccmanager_8cpp_source#l01264">DoShowDocumentation()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="ccmanager_8cpp_source#l01255">DoHidePopup()</a>, and <a class="el" href="ccmanager_8cpp_source#l01266">DoShowDocumentation()</a>.</p>
 
 </div>
 </div>
@@ -1304,11 +1307,11 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Event handler to show the call tip, when user press Ctrl-Shift-Space. </p>
 
-<p class="definition">Definition at line <a class="el" href="ccmanager_8cpp_source#l00937">937</a> of file <a class="el" href="ccmanager_8cpp_source">ccmanager.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ccmanager_8cpp_source#l00933">933</a> of file <a class="el" href="ccmanager_8cpp_source">ccmanager.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="ccmanager_8cpp_source#l00071">CCManagerHelper::CallTipToInt()</a>, <a class="el" href="ccmanager_8cpp_source#l00137">FROM_TIMER</a>, <a class="el" href="manager_8cpp_source#l00187">Manager::Get()</a>, <a class="el" href="editormanager_8h_source#l00095">EditorManager::GetBuiltinActiveEditor()</a>, <a class="el" href="classcbCodeCompletionPlugin#o2-GetCallTips">cbCodeCompletionPlugin::GetCallTips()</a>, <a class="el" href="classwxScintilla#uz-GetCharAt">wxScintilla::GetCharAt()</a>, <a class="el" href="manager_8cpp_source#l00478">Manager::GetConfigManager()</a>, <a class="el" href="cbeditor_8cpp_source#l00840">cbEditor::GetControl()</a>, <a class="el" href="classwxScintilla#f1-GetCurrentPos">wxScintilla::GetCurrentPos()</a>, <a class="el" href="manager_8cpp_source#l00438">Manager::GetEditorManager()</a>, <a class="el" href="classwxScintilla#u2-GetStyleAt">wxScintilla::GetStyleAt()</a>, <a class="el" href="classwxScintilla#as-GetTextRange">wxScintilla::GetTextRange()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#a8895cca03120099236c002c0577b4d1c">wxString::Length()</a>, <a class="el" href="classwxScintilla#f5-LineFromPosition">wxScintilla::LineFromPosition()</a>, <a class="el" href="classwxScintilla#ne-PositionFromLine">wxScintilla::PositionFromLine()</a>, <a class="el" href="configmanager_8cpp_source#l00957">ConfigManager::ReadInt()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#aa375e1718cb40fd991e89428e620ba82">wxString::RemoveLast()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#aba423303c6e0580605269827e4744761">wxString::size()</a>, <a class="el" href="classwxScintilla#uc-WordStartPosition">wxScintilla::WordStartPosition()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__crt.html#ga3e619868d9eac1d2cb024b8dc67b06d4">wxIsspace()</a>, <a class="el" href="wxscintilla_8h_source#l00070">wxSCI_INVALID_POSITION</a>, and <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga437ea6ba615b75dac8603e96ec864160">wxT</a>.</p>
+<p class="reference">References <a class="el" href="ccmanager_8cpp_source#l00071">CCManagerHelper::CallTipToInt()</a>, <a class="el" href="ccmanager_8cpp_source#l00146">FROM_TIMER</a>, <a class="el" href="manager_8cpp_source#l00182">Manager::Get()</a>, <a class="el" href="editormanager_8h_source#l00095">EditorManager::GetBuiltinActiveEditor()</a>, <a class="el" href="classcbCodeCompletionPlugin#o2-GetCallTips">cbCodeCompletionPlugin::GetCallTips()</a>, <a class="el" href="classwxScintilla#uz-GetCharAt">wxScintilla::GetCharAt()</a>, <a class="el" href="manager_8cpp_source#l00474">Manager::GetConfigManager()</a>, <a class="el" href="cbeditor_8cpp_source#l00842">cbEditor::GetControl()</a>, <a class="el" href="classwxScintilla#f1-GetCurrentPos">wxScintilla::GetCurrentPos()</a>, <a class="el" href="manager_8cpp_source#l00434">Manager::GetEditorManager()</a>, <a class="el" href="classwxScintilla#u2-GetStyleAt">wxScintilla::GetStyleAt()</a>, <a class="el" href="classwxScintilla#as-GetTextRange">wxScintilla::GetTextRange()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#a8895cca03120099236c002c0577b4d1c">wxString::Length()</a>, <a class="el" href="classwxScintilla#f5-LineFromPosition">wxScintilla::LineFromPosition()</a>, <a class="el" href="classwxScintilla#ne-PositionFromLine">wxScintilla::PositionFromLine()</a>, <a class="el" href="configmanager_8cpp_source#l01011">ConfigManager::ReadInt()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#aa375e1718cb40fd991e89428e620ba82">wxString::RemoveLast()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#aba423303c6e0580605269827e4744761">wxString::size()</a>, <a class="el" href="ccmanager_8cpp_source#l00132">tmDisable</a>, <a class="el" href="ccmanager_8cpp_source#l00134">tmForceSinglePage</a>, <a class="el" href="classwxScintilla#uc-WordStartPosition">wxScintilla::WordStartPosition()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__crt.html#ga3e619868d9eac1d2cb024b8dc67b06d4">wxIsspace()</a>, <a class="el" href="wxscintilla_8h_source#l00070">wxSCI_INVALID_POSITION</a>, and <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga437ea6ba615b75dac8603e96ec864160">wxT</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="ccmanager_8cpp_source#l00257">CCManager()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="ccmanager_8cpp_source#l00266">CCManager()</a>.</p>
 
 </div>
 </div>
@@ -1338,11 +1341,11 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Grouped event handler for several timers. </p>
 
-<p class="definition">Definition at line <a class="el" href="ccmanager_8cpp_source#l01147">1147</a> of file <a class="el" href="ccmanager_8cpp_source">ccmanager.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ccmanager_8cpp_source#l01146">1146</a> of file <a class="el" href="ccmanager_8cpp_source">ccmanager.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="classwxScintilla#j8-AutoCompActive">wxScintilla::AutoCompActive()</a>, <a class="el" href="classwxScintilla#gd-AutoCompGetCurrent">wxScintilla::AutoCompGetCurrent()</a>, <a class="el" href="sdk__events_8cpp_source#l00176">cbEVT_COMPLETE_CODE</a>, <a class="el" href="ccmanager_8cpp_source#l00137">FROM_TIMER</a>, <a class="el" href="manager_8cpp_source#l00187">Manager::Get()</a>, <a class="el" href="editormanager_8h_source#l00095">EditorManager::GetBuiltinActiveEditor()</a>, <a class="el" href="cbeditor_8cpp_source#l00840">cbEditor::GetControl()</a>, <a class="el" href="classwxScintilla#f1-GetCurrentPos">wxScintilla::GetCurrentPos()</a>, <a class="el" href="manager_8cpp_source#l00438">Manager::GetEditorManager()</a>, <a class="el" href="ccmanager_8cpp_source#l00116">idAutocompSelectTimer</a>, <a class="el" href="ccmanager_8cpp_source#l00115">idAutoLaunchTimer</a>, <a class="el" href="ccmanager_8cpp_source#l00114">idCallTipTimer</a>, <a class="el" href="manager_8cpp_source#l00250">Manager::ProcessEvent()</a>, and <a class="el" href="wxscintilla_8h_source#l00070">wxSCI_INVALID_POSITION</a>.</p>
+<p class="reference">References <a class="el" href="classwxScintilla#j8-AutoCompActive">wxScintilla::AutoCompActive()</a>, <a class="el" href="classwxScintilla#gd-AutoCompGetCurrent">wxScintilla::AutoCompGetCurrent()</a>, <a class="el" href="sdk__events_8cpp_source#l00176">cbEVT_COMPLETE_CODE</a>, <a class="el" href="ccmanager_8cpp_source#l00146">FROM_TIMER</a>, <a class="el" href="manager_8cpp_source#l00182">Manager::Get()</a>, <a class="el" href="editormanager_8h_source#l00095">EditorManager::GetBuiltinActiveEditor()</a>, <a class="el" href="cbeditor_8cpp_source#l00842">cbEditor::GetControl()</a>, <a class="el" href="classwxScintilla#f1-GetCurrentPos">wxScintilla::GetCurrentPos()</a>, <a class="el" href="manager_8cpp_source#l00434">Manager::GetEditorManager()</a>, <a class="el" href="ccmanager_8cpp_source#l00116">idAutocompSelectTimer</a>, <a class="el" href="ccmanager_8cpp_source#l00115">idAutoLaunchTimer</a>, <a class="el" href="ccmanager_8cpp_source#l00114">idCallTipTimer</a>, <a class="el" href="manager_8cpp_source#l00246">Manager::ProcessEvent()</a>, and <a class="el" href="wxscintilla_8h_source#l00070">wxSCI_INVALID_POSITION</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="ccmanager_8cpp_source#l00257">CCManager()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="ccmanager_8cpp_source#l00266">CCManager()</a>.</p>
 
 </div>
 </div>
@@ -1365,11 +1368,11 @@ Additional Inherited Members</h2></td></tr>
 <p>Used by <a class="el" href="classcbStyledTextCtrl">cbStyledTextCtrl</a> to process ArrowUp and ArrowDown key press. </p>
 <p>This is not intended to be called by ccPlugins. </p>
 
-<p class="definition">Definition at line <a class="el" href="ccmanager_8cpp_source#l00441">441</a> of file <a class="el" href="ccmanager_8cpp_source">ccmanager.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ccmanager_8cpp_source#l00450">450</a> of file <a class="el" href="ccmanager_8cpp_source">ccmanager.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="classwxScintilla#k3-CallTipActive">wxScintilla::CallTipActive()</a>, <a class="el" href="manager_8cpp_source#l00187">Manager::Get()</a>, <a class="el" href="editormanager_8h_source#l00095">EditorManager::GetBuiltinActiveEditor()</a>, <a class="el" href="cbeditor_8cpp_source#l00840">cbEditor::GetControl()</a>, <a class="el" href="manager_8cpp_source#l00438">Manager::GetEditorManager()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/defs_8h.html#a41c4609211685cff198618963ec8f77da821b236b6e3cf28b0a958aa98647f1df">WXK_DOWN</a>, and <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/defs_8h.html#a41c4609211685cff198618963ec8f77dad2f4d3fb6940f1c959d2487fd96a9ba6">WXK_UP</a>.</p>
+<p class="reference">References <a class="el" href="classwxScintilla#k3-CallTipActive">wxScintilla::CallTipActive()</a>, <a class="el" href="manager_8cpp_source#l00182">Manager::Get()</a>, <a class="el" href="editormanager_8h_source#l00095">EditorManager::GetBuiltinActiveEditor()</a>, <a class="el" href="cbeditor_8cpp_source#l00842">cbEditor::GetControl()</a>, <a class="el" href="manager_8cpp_source#l00434">Manager::GetEditorManager()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/defs_8h.html#a41c4609211685cff198618963ec8f77da821b236b6e3cf28b0a958aa98647f1df">WXK_DOWN</a>, and <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/defs_8h.html#a41c4609211685cff198618963ec8f77dad2f4d3fb6940f1c959d2487fd96a9ba6">WXK_UP</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="cbstyledtextctrl_8cpp_source#l00137">cbStyledTextCtrl::OnKeyDown()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="cbstyledtextctrl_8cpp_source#l00141">cbStyledTextCtrl::OnKeyDown()</a>.</p>
 
 </div>
 </div>
@@ -1402,7 +1405,7 @@ Additional Inherited Members</h2></td></tr>
 <p>Register a new set of characters that, when typed, auto-launch codecomplete requests. </p>
 <p>Use this if the default set is not appropriate. </p>
 
-<p class="definition">Definition at line <a class="el" href="ccmanager_8cpp_source#l00389">389</a> of file <a class="el" href="ccmanager_8cpp_source">ccmanager.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ccmanager_8cpp_source#l00398">398</a> of file <a class="el" href="ccmanager_8cpp_source">ccmanager.cpp</a>.</p>
 
 <p class="reference">References <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#ad59ca2dd208720b3cce07d90bcb90093">wxString::begin()</a>, and <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#a6a0f235fff88df5e6b16b5f0e1e719cc">wxString::end()</a>.</p>
 
@@ -1437,7 +1440,7 @@ Additional Inherited Members</h2></td></tr>
 <p>Register a new set of characters that, when typed, invoke calltip requests. </p>
 <p>Use this if the default set is not appropriate. </p>
 
-<p class="definition">Definition at line <a class="el" href="ccmanager_8cpp_source#l00383">383</a> of file <a class="el" href="ccmanager_8cpp_source">ccmanager.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ccmanager_8cpp_source#l00392">392</a> of file <a class="el" href="ccmanager_8cpp_source">ccmanager.cpp</a>.</p>
 
 <p class="reference">References <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#ad59ca2dd208720b3cce07d90bcb90093">wxString::begin()</a>, and <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#a6a0f235fff88df5e6b16b5f0e1e719cc">wxString::end()</a>.</p>
 
@@ -1460,11 +1463,11 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Called after env settings have changed, so the changes can be applied. </p>
 
-<p class="definition">Definition at line <a class="el" href="ccmanager_8cpp_source#l00640">640</a> of file <a class="el" href="ccmanager_8cpp_source">ccmanager.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ccmanager_8cpp_source#l00656">656</a> of file <a class="el" href="ccmanager_8cpp_source">ccmanager.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="manager_8cpp_source#l00187">Manager::Get()</a>, <a class="el" href="editormanager_8cpp_source#l00305">EditorManager::GetBuiltinEditor()</a>, <a class="el" href="manager_8cpp_source#l00493">Manager::GetColourManager()</a>, <a class="el" href="editormanager_8cpp_source#l00328">EditorManager::GetEditor()</a>, <a class="el" href="manager_8cpp_source#l00438">Manager::GetEditorManager()</a>, <a class="el" href="editormanager_8cpp_source#l00283">EditorManager::GetEditorsCount()</a>, and <a class="el" href="ccmanager_8cpp_source#l00618">setupColours()</a>.</p>
+<p class="reference">References <a class="el" href="manager_8cpp_source#l00182">Manager::Get()</a>, <a class="el" href="editormanager_8cpp_source#l00309">EditorManager::GetBuiltinEditor()</a>, <a class="el" href="manager_8cpp_source#l00489">Manager::GetColourManager()</a>, <a class="el" href="editormanager_8cpp_source#l00332">EditorManager::GetEditor()</a>, <a class="el" href="manager_8cpp_source#l00434">Manager::GetEditorManager()</a>, <a class="el" href="editormanager_8cpp_source#l00287">EditorManager::GetEditorsCount()</a>, and <a class="el" href="ccmanager_8cpp_source#l00634">setupColours()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="main_8cpp_source#l04721">MainFrame::OnSettingsEnvironment()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="main_8cpp_source#l04711">MainFrame::OnSettingsEnvironment()</a>.</p>
 
 </div>
 </div>
@@ -1489,7 +1492,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="ccmanager_8h_source#l00044">44</a> of file <a class="el" href="ccmanager_8h_source">ccmanager.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ccmanager_8h_source#l00051">51</a> of file <a class="el" href="ccmanager_8h_source">ccmanager.h</a>.</p>
 
 </div>
 </div>
@@ -1513,7 +1516,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="ccmanager_8h_source#l00043">43</a> of file <a class="el" href="ccmanager_8h_source">ccmanager.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ccmanager_8h_source#l00050">50</a> of file <a class="el" href="ccmanager_8h_source">ccmanager.h</a>.</p>
 
 </div>
 </div>
@@ -1540,7 +1543,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Location of caret when autocomplete timer starts, if caret is still there, launch autocomplete. </p>
 
-<p class="definition">Definition at line <a class="el" href="ccmanager_8h_source#l00166">166</a> of file <a class="el" href="ccmanager_8h_source">ccmanager.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ccmanager_8h_source#l00176">176</a> of file <a class="el" href="ccmanager_8h_source">ccmanager.h</a>.</p>
 
 </div>
 </div>
@@ -1564,7 +1567,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="ccmanager_8h_source#l00179">179</a> of file <a class="el" href="ccmanager_8h_source">ccmanager.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ccmanager_8h_source#l00189">189</a> of file <a class="el" href="ccmanager_8h_source">ccmanager.h</a>.</p>
 
 </div>
 </div>
@@ -1589,8 +1592,9 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Cached autocomplete list. </p>
+<p>It is the data <a class="el" href="classCCManager" title="Code Completion Plugin Manager. ">CCManager</a> uses to populate the (wx)scintilla autocomplete list window </p>
 
-<p class="definition">Definition at line <a class="el" href="ccmanager_8h_source#l00190">190</a> of file <a class="el" href="ccmanager_8h_source">ccmanager.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ccmanager_8h_source#l00219">219</a> of file <a class="el" href="ccmanager_8h_source">ccmanager.h</a>.</p>
 
 </div>
 </div>
@@ -1616,7 +1620,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Chars each plugin is interested in for autocomplete. </p>
 
-<p class="definition">Definition at line <a class="el" href="ccmanager_8h_source#l00164">164</a> of file <a class="el" href="ccmanager_8h_source">ccmanager.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ccmanager_8h_source#l00174">174</a> of file <a class="el" href="ccmanager_8h_source">ccmanager.h</a>.</p>
 
 </div>
 </div>
@@ -1640,7 +1644,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="ccmanager_8h_source#l00178">178</a> of file <a class="el" href="ccmanager_8h_source">ccmanager.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ccmanager_8h_source#l00188">188</a> of file <a class="el" href="ccmanager_8h_source">ccmanager.h</a>.</p>
 
 </div>
 </div>
@@ -1666,7 +1670,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Is <a class="el" href="classCCManager" title="Code Completion Plugin Manager. ">CCManager</a> currently displaying a calltip, and if so, where. </p>
 
-<p class="definition">Definition at line <a class="el" href="ccmanager_8h_source#l00167">167</a> of file <a class="el" href="ccmanager_8h_source">ccmanager.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ccmanager_8h_source#l00177">177</a> of file <a class="el" href="ccmanager_8h_source">ccmanager.h</a>.</p>
 
 </div>
 </div>
@@ -1692,7 +1696,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Chars each plugin is interested in for calltip state. </p>
 
-<p class="definition">Definition at line <a class="el" href="ccmanager_8h_source#l00163">163</a> of file <a class="el" href="ccmanager_8h_source">ccmanager.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ccmanager_8h_source#l00173">173</a> of file <a class="el" href="ccmanager_8h_source">ccmanager.h</a>.</p>
 
 </div>
 </div>
@@ -1718,7 +1722,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Remember past choices. </p>
 
-<p class="definition">Definition at line <a class="el" href="ccmanager_8h_source#l00175">175</a> of file <a class="el" href="ccmanager_8h_source">ccmanager.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ccmanager_8h_source#l00185">185</a> of file <a class="el" href="ccmanager_8h_source">ccmanager.h</a>.</p>
 
 </div>
 </div>
@@ -1744,7 +1748,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Remember past choices based on prefix. </p>
 
-<p class="definition">Definition at line <a class="el" href="ccmanager_8h_source#l00176">176</a> of file <a class="el" href="ccmanager_8h_source">ccmanager.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ccmanager_8h_source#l00186">186</a> of file <a class="el" href="ccmanager_8h_source">ccmanager.h</a>.</p>
 
 </div>
 </div>
@@ -1770,7 +1774,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Cached calltips. </p>
 
-<p class="definition">Definition at line <a class="el" href="ccmanager_8h_source#l00173">173</a> of file <a class="el" href="ccmanager_8h_source">ccmanager.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ccmanager_8h_source#l00183">183</a> of file <a class="el" href="ccmanager_8h_source">ccmanager.h</a>.</p>
 
 </div>
 </div>
@@ -1794,7 +1798,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="ccmanager_8h_source#l00177">177</a> of file <a class="el" href="ccmanager_8h_source">ccmanager.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ccmanager_8h_source#l00187">187</a> of file <a class="el" href="ccmanager_8h_source">ccmanager.h</a>.</p>
 
 </div>
 </div>
@@ -1820,7 +1824,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Remember current choice. </p>
 
-<p class="definition">Definition at line <a class="el" href="ccmanager_8h_source#l00174">174</a> of file <a class="el" href="ccmanager_8h_source">ccmanager.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ccmanager_8h_source#l00184">184</a> of file <a class="el" href="ccmanager_8h_source">ccmanager.h</a>.</p>
 
 </div>
 </div>
@@ -1846,7 +1850,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Location of the documentation popup. </p>
 
-<p class="definition">Definition at line <a class="el" href="ccmanager_8h_source#l00181">181</a> of file <a class="el" href="ccmanager_8h_source">ccmanager.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ccmanager_8h_source#l00191">191</a> of file <a class="el" href="ccmanager_8h_source">ccmanager.h</a>.</p>
 
 </div>
 </div>
@@ -1872,7 +1876,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Size of the documentation popup. </p>
 
-<p class="definition">Definition at line <a class="el" href="ccmanager_8h_source#l00180">180</a> of file <a class="el" href="ccmanager_8h_source">ccmanager.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ccmanager_8h_source#l00190">190</a> of file <a class="el" href="ccmanager_8h_source">ccmanager.h</a>.</p>
 
 </div>
 </div>
@@ -1896,7 +1900,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="ccmanager_8h_source#l00165">165</a> of file <a class="el" href="ccmanager_8h_source">ccmanager.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ccmanager_8h_source#l00175">175</a> of file <a class="el" href="ccmanager_8h_source">ccmanager.h</a>.</p>
 
 </div>
 </div>
@@ -1920,7 +1924,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="ccmanager_8h_source#l00189">189</a> of file <a class="el" href="ccmanager_8h_source">ccmanager.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ccmanager_8h_source#l00214">214</a> of file <a class="el" href="ccmanager_8h_source">ccmanager.h</a>.</p>
 
 </div>
 </div>
@@ -1946,7 +1950,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Index of currently selected entry in autocomplete popup. </p>
 
-<p class="definition">Definition at line <a class="el" href="ccmanager_8h_source#l00168">168</a> of file <a class="el" href="ccmanager_8h_source">ccmanager.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ccmanager_8h_source#l00178">178</a> of file <a class="el" href="ccmanager_8h_source">ccmanager.h</a>.</p>
 
 </div>
 </div>
@@ -1972,7 +1976,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Last location a tool/call tip was displayed. </p>
 
-<p class="definition">Definition at line <a class="el" href="ccmanager_8h_source#l00169">169</a> of file <a class="el" href="ccmanager_8h_source">ccmanager.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ccmanager_8h_source#l00179">179</a> of file <a class="el" href="ccmanager_8h_source">ccmanager.h</a>.</p>
 
 </div>
 </div>
@@ -1998,7 +2002,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Do we control the current autocomplete popup? </p>
 
-<p class="definition">Definition at line <a class="el" href="ccmanager_8h_source#l00171">171</a> of file <a class="el" href="ccmanager_8h_source">ccmanager.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ccmanager_8h_source#l00181">181</a> of file <a class="el" href="ccmanager_8h_source">ccmanager.h</a>.</p>
 
 </div>
 </div>
@@ -2022,7 +2026,9 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="ccmanager_8h_source#l00183">183</a> of file <a class="el" href="ccmanager_8h_source">ccmanager.h</a>.</p>
+<p>a handle to the autocomplete list window created by (wx)scintilla, needed under Windows to determine its dimensions (so the scroll event can be sent to it, if relevant) </p>
+
+<p class="definition">Definition at line <a class="el" href="ccmanager_8h_source#l00197">197</a> of file <a class="el" href="ccmanager_8h_source">ccmanager.h</a>.</p>
 
 </div>
 </div>
@@ -2047,8 +2053,9 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Documentation popup. </p>
+<p>it is the rendered doxygen documentation to display in the popup </p>
 
-<p class="definition">Definition at line <a class="el" href="ccmanager_8h_source#l00188">188</a> of file <a class="el" href="ccmanager_8h_source">ccmanager.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ccmanager_8h_source#l00212">212</a> of file <a class="el" href="ccmanager_8h_source">ccmanager.h</a>.</p>
 
 </div>
 </div>
@@ -2074,7 +2081,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>The plugin handling m_pLastEditor. </p>
 
-<p class="definition">Definition at line <a class="el" href="ccmanager_8h_source#l00186">186</a> of file <a class="el" href="ccmanager_8h_source">ccmanager.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ccmanager_8h_source#l00201">201</a> of file <a class="el" href="ccmanager_8h_source">ccmanager.h</a>.</p>
 
 </div>
 </div>
@@ -2100,7 +2107,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Last editor operated on. </p>
 
-<p class="definition">Definition at line <a class="el" href="ccmanager_8h_source#l00185">185</a> of file <a class="el" href="ccmanager_8h_source">ccmanager.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ccmanager_8h_source#l00200">200</a> of file <a class="el" href="ccmanager_8h_source">ccmanager.h</a>.</p>
 
 </div>
 </div>
@@ -2125,8 +2132,9 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Container for documentation popup. </p>
+<p>the window for the doxygen popup, with properties so it is always on top, but cannot be focused. </p>
 
-<p class="definition">Definition at line <a class="el" href="ccmanager_8h_source#l00187">187</a> of file <a class="el" href="ccmanager_8h_source">ccmanager.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ccmanager_8h_source#l00207">207</a> of file <a class="el" href="ccmanager_8h_source">ccmanager.h</a>.</p>
 
 </div>
 </div>
@@ -2152,7 +2160,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Right-most boundary the documentation popup is allowed to stretch to. </p>
 
-<p class="definition">Definition at line <a class="el" href="ccmanager_8h_source#l00170">170</a> of file <a class="el" href="ccmanager_8h_source">ccmanager.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ccmanager_8h_source#l00180">180</a> of file <a class="el" href="ccmanager_8h_source">ccmanager.h</a>.</p>
 
 </div>
 </div>

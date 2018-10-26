@@ -19,7 +19,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Code::Blocks
-   &#160;<span id="projectnumber">SVN r11156</span>
+   &#160;<span id="projectnumber">SVN r11506</span>
    </div>
   </td>
  </tr>
@@ -49,13 +49,14 @@ $(function() {
 <div class="dynheader">
 Collaboration diagram for TokenSorter:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="structTokenSorter__coll__graph.svg" width="160" height="103"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="structTokenSorter__coll__graph.svg" width="160" height="118"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:dr-TokenSorter"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structTokenSorter#dr-TokenSorter">TokenSorter</a> (bool &amp;alphabetical)</td></tr>
-<tr class="separator:dr-TokenSorter"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:jd-TokenSorter"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structTokenSorter#jd-TokenSorter">TokenSorter</a> (bool &amp;alphabetical, bool caseSensitive)</td></tr>
+<tr class="separator:jd-TokenSorter"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:p3-operator"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structTokenSorter#p3-operator">operator()</a> (const <a class="el" href="structcbCodeCompletionPlugin_1_1CCToken">cbCodeCompletionPlugin::CCToken</a> &amp;a, const <a class="el" href="structcbCodeCompletionPlugin_1_1CCToken">cbCodeCompletionPlugin::CCToken</a> &amp;b)</td></tr>
 <tr class="separator:p3-operator"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -63,13 +64,15 @@ Public Member Functions</h2></td></tr>
 Public Attributes</h2></td></tr>
 <tr class="memitem:cg-m_PureAlphabetical"><td class="memItemLeft" align="right" valign="top">bool &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structTokenSorter#cg-m_PureAlphabetical">m_PureAlphabetical</a></td></tr>
 <tr class="separator:cg-m_PureAlphabetical"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:o1-m_CaseSensitive"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structTokenSorter#o1-m_CaseSensitive">m_CaseSensitive</a></td></tr>
+<tr class="separator:o1-m_CaseSensitive"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="ccmanager_8cpp_source#l00464">464</a> of file <a class="el" href="ccmanager_8cpp_source">ccmanager.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ccmanager_8cpp_source#l00473">473</a> of file <a class="el" href="ccmanager_8cpp_source">ccmanager.cpp</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="dr-TokenSorter"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#dr-TokenSorter">&#9670;&nbsp;</a></span>TokenSorter()</h2>
+<a id="jd-TokenSorter"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#jd-TokenSorter">&#9670;&nbsp;</a></span>TokenSorter()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -81,8 +84,18 @@ Public Attributes</h2></td></tr>
           <td class="memname">TokenSorter::TokenSorter </td>
           <td>(</td>
           <td class="paramtype">bool &amp;&#160;</td>
-          <td class="paramname"><em>alphabetical</em></td><td>)</td>
+          <td class="paramname"><em>alphabetical</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>caseSensitive</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
   </td>
@@ -92,7 +105,7 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="ccmanager_8cpp_source#l00468">468</a> of file <a class="el" href="ccmanager_8cpp_source">ccmanager.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ccmanager_8cpp_source#l00478">478</a> of file <a class="el" href="ccmanager_8cpp_source">ccmanager.cpp</a>.</p>
 
 </div>
 </div>
@@ -131,13 +144,29 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="ccmanager_8cpp_source#l00473">473</a> of file <a class="el" href="ccmanager_8cpp_source">ccmanager.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ccmanager_8cpp_source#l00483">483</a> of file <a class="el" href="ccmanager_8cpp_source">ccmanager.cpp</a>.</p>
 
 <p class="reference">References <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#a0352d6eeadcfad0b234e8c9481479a4a">wxString::Cmp()</a>, <a class="el" href="cbplugin_8h_source#l00777">cbCodeCompletionPlugin::CCToken::displayName</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#ab84d4b6e9f38ba939d61f3382d2a009b">wxString::Upper()</a>, and <a class="el" href="cbplugin_8h_source#l00776">cbCodeCompletionPlugin::CCToken::weight</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
+<a id="o1-m_CaseSensitive"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#o1-m_CaseSensitive">&#9670;&nbsp;</a></span>m_CaseSensitive</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool TokenSorter::m_CaseSensitive</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="ccmanager_8cpp_source#l00476">476</a> of file <a class="el" href="ccmanager_8cpp_source">ccmanager.cpp</a>.</p>
+
+</div>
+</div>
 <a id="cg-m_PureAlphabetical"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#cg-m_PureAlphabetical">&#9670;&nbsp;</a></span>m_PureAlphabetical</h2>
 
@@ -150,7 +179,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="ccmanager_8cpp_source#l00466">466</a> of file <a class="el" href="ccmanager_8cpp_source">ccmanager.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ccmanager_8cpp_source#l00475">475</a> of file <a class="el" href="ccmanager_8cpp_source">ccmanager.cpp</a>.</p>
 
 </div>
 </div>

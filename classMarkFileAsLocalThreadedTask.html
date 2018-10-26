@@ -19,7 +19,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Code::Blocks
-   &#160;<span id="projectnumber">SVN r11156</span>
+   &#160;<span id="projectnumber">SVN r11506</span>
    </div>
   </td>
  </tr>
@@ -47,16 +47,21 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 
+<p>mark all the tokens belong to the project as "local" E.g.  
+ <a href="classMarkFileAsLocalThreadedTask#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="parserthreadedtask_8h_source">parserthreadedtask.h</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for MarkFileAsLocalThreadedTask:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMarkFileAsLocalThreadedTask__inherit__graph.svg" width="230" height="316"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMarkFileAsLocalThreadedTask__inherit__graph.svg" width="230" height="316"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 <div class="dynheader">
 Collaboration diagram for MarkFileAsLocalThreadedTask:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classMarkFileAsLocalThreadedTask__coll__graph.svg" width="3334" height="2622"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classMarkFileAsLocalThreadedTask__coll__graph.svg" width="3346" height="2622"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
@@ -82,6 +87,7 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:zz-m_Parser"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classParser">Parser</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMarkFileAsLocalThreadedTask#zz-m_Parser">m_Parser</a></td></tr>
 <tr class="separator:zz-m_Parser"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:hq-m_Project"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classcbProject">cbProject</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMarkFileAsLocalThreadedTask#hq-m_Project">m_Project</a></td></tr>
+<tr class="memdesc:hq-m_Project"><td class="mdescLeft">&#160;</td><td class="mdescRight">a <a class="el" href="classParser" title="Parser class holds all the tokens of a C::B project. ">Parser</a> object which contain <a class="el" href="classTokenTree" title="a container class to hold all the Tokens getting from parsing stage ">TokenTree</a>  <a href="#hq-m_Project">More...</a><br /></td></tr>
 <tr class="separator:hq-m_Project"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
@@ -95,8 +101,10 @@ Additional Inherited Members</h2></td></tr>
 <tr class="separator:l4-Aborted inherit pro_methods_classcbThreadedTask"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock">
-<p class="definition">Definition at line <a class="el" href="parserthreadedtask_8h_source#l00027">27</a> of file <a class="el" href="parserthreadedtask_8h_source">parserthreadedtask.h</a>.</p>
+<div class="textblock"><p>mark all the tokens belong to the project as "local" E.g. </p>
+<p>If you have a.cpp in cbp, then all the tokens belong to a.cpp are marked as local but not system headers like Windows.h, those tokens do not belong to the project files, so it is not "local". </p>
+
+<p class="definition">Definition at line <a class="el" href="parserthreadedtask_8h_source#l00041">41</a> of file <a class="el" href="parserthreadedtask_8h_source">parserthreadedtask.h</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="jf-MarkFileAsLocalThreadedTask"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#jf-MarkFileAsLocalThreadedTask">&#9670;&nbsp;</a></span>MarkFileAsLocalThreadedTask()</h2>
@@ -124,7 +132,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="parserthreadedtask_8cpp_source#l00111">111</a> of file <a class="el" href="parserthreadedtask_8cpp_source">parserthreadedtask.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="parserthreadedtask_8cpp_source#l00113">113</a> of file <a class="el" href="parserthreadedtask_8cpp_source">parserthreadedtask.cpp</a>.</p>
 
 </div>
 </div>
@@ -156,9 +164,9 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Implements <a class="el" href="classcbThreadedTask#q2-Execute">cbThreadedTask</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="parserthreadedtask_8cpp_source#l00116">116</a> of file <a class="el" href="parserthreadedtask_8cpp_source">parserthreadedtask.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="parserthreadedtask_8cpp_source#l00118">118</a> of file <a class="el" href="parserthreadedtask_8cpp_source">parserthreadedtask.cpp</a>.</p>
 
-<p class="reference">References <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga7dfc2888539861afe6c4337ef315472b">_T</a>, <a class="el" href="cclogger_8h_source#l00159">CC_LOCKER_TRACK_TT_MTX_LOCK</a>, <a class="el" href="cclogger_8h_source#l00165">CC_LOCKER_TRACK_TT_MTX_UNLOCK</a>, <a class="el" href="projectfile_8h_source#l00126">ProjectFile::file</a>, <a class="el" href="parser__base_8cpp_source#l00125">ParserCommon::FileType()</a>, <a class="el" href="parser__base_8h_source#l00029">ParserCommon::ftOther</a>, <a class="el" href="cbproject_8h_source#l00685">cbProject::GetFilesList()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_file_name.html#a8fc8100ba99859a40558c068a841b586">wxFileName::GetFullPath()</a>, <a class="el" href="parser__base_8cpp_source#l00196">ParserBase::GetTokenTree()</a>, <a class="el" href="parserthreadedtask_8h_source#l00034">m_Parser</a>, <a class="el" href="parserthreadedtask_8h_source#l00035">m_Project</a>, <a class="el" href="tokentree_8cpp_source#l00874">TokenTree::MarkFileTokensAsLocal()</a>, <a class="el" href="projectfile_8h_source#l00131">ProjectFile::relativeFilename</a>, <a class="el" href="tokentree_8cpp_source#l00049">s_TokenTreeMutex</a>, and <a class="el" href="parserthreadedtask_8cpp_source#l00052">TRACE</a>.</p>
+<p class="reference">References <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga7dfc2888539861afe6c4337ef315472b">_T</a>, <a class="el" href="cclogger_8h_source#l00159">CC_LOCKER_TRACK_TT_MTX_LOCK</a>, <a class="el" href="cclogger_8h_source#l00165">CC_LOCKER_TRACK_TT_MTX_UNLOCK</a>, <a class="el" href="projectfile_8h_source#l00126">ProjectFile::file</a>, <a class="el" href="parser__base_8cpp_source#l00125">ParserCommon::FileType()</a>, <a class="el" href="parser__base_8h_source#l00029">ParserCommon::ftOther</a>, <a class="el" href="cbproject_8h_source#l00685">cbProject::GetFilesList()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_file_name.html#a8fc8100ba99859a40558c068a841b586">wxFileName::GetFullPath()</a>, <a class="el" href="parser__base_8cpp_source#l00196">ParserBase::GetTokenTree()</a>, <a class="el" href="parserthreadedtask_8h_source#l00049">m_Parser</a>, <a class="el" href="parserthreadedtask_8h_source#l00050">m_Project</a>, <a class="el" href="tokentree_8cpp_source#l00874">TokenTree::MarkFileTokensAsLocal()</a>, <a class="el" href="projectfile_8h_source#l00131">ProjectFile::relativeFilename</a>, <a class="el" href="tokentree_8cpp_source#l00049">s_TokenTreeMutex</a>, and <a class="el" href="parserthreadedtask_8cpp_source#l00052">TRACE</a>.</p>
 
 </div>
 </div>
@@ -183,9 +191,9 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="parserthreadedtask_8h_source#l00034">34</a> of file <a class="el" href="parserthreadedtask_8h_source">parserthreadedtask.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="parserthreadedtask_8h_source#l00049">49</a> of file <a class="el" href="parserthreadedtask_8h_source">parserthreadedtask.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="parserthreadedtask_8cpp_source#l00116">Execute()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="parserthreadedtask_8cpp_source#l00118">Execute()</a>.</p>
 
 </div>
 </div>
@@ -209,9 +217,11 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="parserthreadedtask_8h_source#l00035">35</a> of file <a class="el" href="parserthreadedtask_8h_source">parserthreadedtask.h</a>.</p>
+<p>a <a class="el" href="classParser" title="Parser class holds all the tokens of a C::B project. ">Parser</a> object which contain <a class="el" href="classTokenTree" title="a container class to hold all the Tokens getting from parsing stage ">TokenTree</a> </p>
 
-<p class="reference">Referenced by <a class="el" href="parserthreadedtask_8cpp_source#l00116">Execute()</a>.</p>
+<p class="definition">Definition at line <a class="el" href="parserthreadedtask_8h_source#l00050">50</a> of file <a class="el" href="parserthreadedtask_8h_source">parserthreadedtask.h</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="parserthreadedtask_8cpp_source#l00118">Execute()</a>.</p>
 
 </div>
 </div>

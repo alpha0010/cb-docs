@@ -19,7 +19,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Code::Blocks
-   &#160;<span id="projectnumber">SVN r11156</span>
+   &#160;<span id="projectnumber">SVN r11506</span>
    </div>
   </td>
  </tr>
@@ -169,6 +169,9 @@ Functions</h2></td></tr>
 <tr class="separator:a8-DECLARE_INSTANCE_TYPE"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:xv-InitToolbar"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="main_8cpp#xv-InitToolbar">InitToolbar</a> (<a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_tool_bar.html">wxToolBar</a> *tb)</td></tr>
 <tr class="separator:xv-InitToolbar"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:h6-changeButtonLabel"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="main_8cpp#h6-changeButtonLabel">changeButtonLabel</a> (<a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_button.html">wxButton</a> &amp;button, const <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html">wxString</a> &amp;text)</td></tr>
+<tr class="memdesc:h6-changeButtonLabel"><td class="mdescLeft">&#160;</td><td class="mdescRight">Change the label of a button only if it has really changed.  <a href="#h6-changeButtonLabel">More...</a><br /></td></tr>
+<tr class="separator:h6-changeButtonLabel"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:qe-InsertNewLine"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="main_8cpp#qe-InsertNewLine">InsertNewLine</a> (bool below)</td></tr>
 <tr class="separator:qe-InsertNewLine"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -224,14 +227,12 @@ Variables</h2></td></tr>
 <tr class="separator:v3-idFileSave"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:pw-idFileSaveAs"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="main_8cpp#pw-idFileSaveAs">idFileSaveAs</a> = XRCID(&quot;idFileSaveAs&quot;)</td></tr>
 <tr class="separator:pw-idFileSaveAs"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:q3-idFileSaveAllFiles"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="main_8cpp#q3-idFileSaveAllFiles">idFileSaveAllFiles</a> = XRCID(&quot;idFileSaveAllFiles&quot;)</td></tr>
-<tr class="separator:q3-idFileSaveAllFiles"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa-idFileReopenProject"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="main_8cpp#aa-idFileReopenProject">idFileReopenProject</a> = XRCID(&quot;idFileReopenProject&quot;)</td></tr>
+<tr class="separator:aa-idFileReopenProject"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:oc-idFileSaveProject"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="main_8cpp#oc-idFileSaveProject">idFileSaveProject</a> = XRCID(&quot;idFileSaveProject&quot;)</td></tr>
 <tr class="separator:oc-idFileSaveProject"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:jc-idFileSaveProjectAs"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="main_8cpp#jc-idFileSaveProjectAs">idFileSaveProjectAs</a> = XRCID(&quot;idFileSaveProjectAs&quot;)</td></tr>
 <tr class="separator:jc-idFileSaveProjectAs"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:mk-idFileSaveProjectAllProjects"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="main_8cpp#mk-idFileSaveProjectAllProjects">idFileSaveProjectAllProjects</a> = XRCID(&quot;idFileSaveProjectAllProjects&quot;)</td></tr>
-<tr class="separator:mk-idFileSaveProjectAllProjects"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:cl-idFileSaveProjectTemplate"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="main_8cpp#cl-idFileSaveProjectTemplate">idFileSaveProjectTemplate</a> = XRCID(&quot;idFileSaveProjectTemplate&quot;)</td></tr>
 <tr class="separator:cl-idFileSaveProjectTemplate"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:zu-idFileOpenDefWorkspace"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="main_8cpp#zu-idFileOpenDefWorkspace">idFileOpenDefWorkspace</a> = XRCID(&quot;idFileOpenDefWorkspace&quot;)</td></tr>
@@ -250,8 +251,6 @@ Variables</h2></td></tr>
 <tr class="separator:it-idFileCloseAll"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gr-idFileCloseProject"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="main_8cpp#gr-idFileCloseProject">idFileCloseProject</a> = XRCID(&quot;idFileCloseProject&quot;)</td></tr>
 <tr class="separator:gr-idFileCloseProject"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:bd-idFileCloseAllProjects"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="main_8cpp#bd-idFileCloseAllProjects">idFileCloseAllProjects</a> = XRCID(&quot;idFileCloseAllProjects&quot;)</td></tr>
-<tr class="separator:bd-idFileCloseAllProjects"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:lv-idFilePrintSetup"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="main_8cpp#lv-idFilePrintSetup">idFilePrintSetup</a> = XRCID(&quot;idFilePrintSetup&quot;)</td></tr>
 <tr class="separator:lv-idFilePrintSetup"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:tg-idFilePrint"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="main_8cpp#tg-idFilePrint">idFilePrint</a> = XRCID(&quot;idFilePrint&quot;)</td></tr>
@@ -565,6 +564,49 @@ Variables</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Function Documentation</h2>
+<a id="h6-changeButtonLabel"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#h6-changeButtonLabel">&#9670;&nbsp;</a></span>changeButtonLabel()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void changeButtonLabel </td>
+          <td>(</td>
+          <td class="paramtype"><a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_button.html">wxButton</a> &amp;&#160;</td>
+          <td class="paramname"><em>button</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html">wxString</a> &amp;&#160;</td>
+          <td class="paramname"><em>text</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Change the label of a button only if it has really changed. </p>
+<p>This is used for status bar button, because if we always set the label there is flickering while scrolling in the editor. I've observed the flickering on wxGTK and I don't know if it is present on the other ports. </p>
+
+<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l01921">1921</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="main_8cpp_source#l01927">MainFrame::DoUpdateStatusBar()</a>, and <a class="el" href="main_8cpp_source#l03720">MainFrame::OnEditHighlightMode()</a>.</p>
+
+</div>
+</div>
 <a id="a8-DECLARE_INSTANCE_TYPE"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a8-DECLARE_INSTANCE_TYPE">&#9670;&nbsp;</a></span>DECLARE_INSTANCE_TYPE()</h2>
 
@@ -581,7 +623,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="main_8cpp_source#l00834">MainFrame::SetupDebuggerUI()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="main_8cpp_source#l00828">MainFrame::SetupDebuggerUI()</a>.</p>
 
 </div>
 </div>
@@ -609,9 +651,9 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l01618">1618</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l01609">1609</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="main_8cpp_source#l01623">MainFrame::DoAddPluginToolbar()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="main_8cpp_source#l01614">MainFrame::DoAddPluginToolbar()</a>.</p>
 
 </div>
 </div>
@@ -639,11 +681,11 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l03151">3151</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l03141">3141</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="classwxScintilla#j8-AutoCompActive">wxScintilla::AutoCompActive()</a>, <a class="el" href="classwxScintilla#kp-AutoCompCancel">wxScintilla::AutoCompCancel()</a>, <a class="el" href="classwxScintilla#uf-BeginUndoAction">wxScintilla::BeginUndoAction()</a>, <a class="el" href="classwxScintilla#c8-EndUndoAction">wxScintilla::EndUndoAction()</a>, <a class="el" href="manager_8cpp_source#l00187">Manager::Get()</a>, <a class="el" href="editormanager_8h_source#l00095">EditorManager::GetBuiltinActiveEditor()</a>, <a class="el" href="cbeditor_8cpp_source#l00840">cbEditor::GetControl()</a>, <a class="el" href="classwxScintilla#f1-GetCurrentPos">wxScintilla::GetCurrentPos()</a>, <a class="el" href="manager_8cpp_source#l00438">Manager::GetEditorManager()</a>, <a class="el" href="classwxScintilla#t1-GetEOLMode">wxScintilla::GetEOLMode()</a>, <a class="el" href="globals_8cpp_source#l00803">GetEOLStr()</a>, <a class="el" href="classwxScintilla#sy-HomeDisplay">wxScintilla::HomeDisplay()</a>, <a class="el" href="classwxScintilla#f8-InsertText">wxScintilla::InsertText()</a>, <a class="el" href="classwxScintilla#kb-LineDown">wxScintilla::LineDown()</a>, and <a class="el" href="classwxScintilla#ox-LineEndDisplay">wxScintilla::LineEndDisplay()</a>.</p>
+<p class="reference">References <a class="el" href="classwxScintilla#j8-AutoCompActive">wxScintilla::AutoCompActive()</a>, <a class="el" href="classwxScintilla#kp-AutoCompCancel">wxScintilla::AutoCompCancel()</a>, <a class="el" href="classwxScintilla#uf-BeginUndoAction">wxScintilla::BeginUndoAction()</a>, <a class="el" href="classwxScintilla#c8-EndUndoAction">wxScintilla::EndUndoAction()</a>, <a class="el" href="manager_8cpp_source#l00182">Manager::Get()</a>, <a class="el" href="editormanager_8h_source#l00095">EditorManager::GetBuiltinActiveEditor()</a>, <a class="el" href="cbeditor_8cpp_source#l00842">cbEditor::GetControl()</a>, <a class="el" href="classwxScintilla#f1-GetCurrentPos">wxScintilla::GetCurrentPos()</a>, <a class="el" href="manager_8cpp_source#l00434">Manager::GetEditorManager()</a>, <a class="el" href="classwxScintilla#t1-GetEOLMode">wxScintilla::GetEOLMode()</a>, <a class="el" href="globals_8cpp_source#l00812">GetEOLStr()</a>, <a class="el" href="classwxScintilla#sy-HomeDisplay">wxScintilla::HomeDisplay()</a>, <a class="el" href="classwxScintilla#f8-InsertText">wxScintilla::InsertText()</a>, <a class="el" href="classwxScintilla#kb-LineDown">wxScintilla::LineDown()</a>, and <a class="el" href="classwxScintilla#ox-LineEndDisplay">wxScintilla::LineEndDisplay()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="main_8cpp_source#l03184">MainFrame::OnEditInsertNewLineAbove()</a>, and <a class="el" href="main_8cpp_source#l03179">MainFrame::OnEditInsertNewLineBelow()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="main_8cpp_source#l03174">MainFrame::OnEditInsertNewLineAbove()</a>, and <a class="el" href="main_8cpp_source#l03169">MainFrame::OnEditInsertNewLineBelow()</a>.</p>
 
 </div>
 </div>
@@ -670,7 +712,7 @@ Variables</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00087">87</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="main_8cpp_source#l01404">MainFrame::LoadViewLayout()</a>, <a class="el" href="main_8cpp_source#l04996">MainFrame::OnLayoutQuery()</a>, and <a class="el" href="main_8cpp_source#l03889">MainFrame::OnViewLayoutDelete()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="main_8cpp_source#l01395">MainFrame::LoadViewLayout()</a>, <a class="el" href="main_8cpp_source#l04986">MainFrame::OnLayoutQuery()</a>, and <a class="el" href="main_8cpp_source#l03876">MainFrame::OnViewLayoutDelete()</a>.</p>
 
 </div>
 </div>
@@ -696,7 +738,7 @@ Variables</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00088">88</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="main_8cpp_source#l03889">MainFrame::OnViewLayoutDelete()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="main_8cpp_source#l03876">MainFrame::OnViewLayoutDelete()</a>.</p>
 
 </div>
 </div>
@@ -722,7 +764,7 @@ Variables</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00089">89</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="main_8cpp_source#l03889">MainFrame::OnViewLayoutDelete()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="main_8cpp_source#l03876">MainFrame::OnViewLayoutDelete()</a>.</p>
 
 </div>
 </div>
@@ -748,7 +790,7 @@ Variables</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00091">91</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="main_8cpp_source#l03889">MainFrame::OnViewLayoutDelete()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="main_8cpp_source#l03876">MainFrame::OnViewLayoutDelete()</a>.</p>
 
 </div>
 </div>
@@ -774,7 +816,7 @@ Variables</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00092">92</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="main_8cpp_source#l03889">MainFrame::OnViewLayoutDelete()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="main_8cpp_source#l03876">MainFrame::OnViewLayoutDelete()</a>.</p>
 
 </div>
 </div>
@@ -800,7 +842,7 @@ Variables</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00093">93</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="main_8cpp_source#l03889">MainFrame::OnViewLayoutDelete()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="main_8cpp_source#l03876">MainFrame::OnViewLayoutDelete()</a>.</p>
 
 </div>
 </div>
@@ -816,7 +858,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00298">298</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00296">296</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
 
 </div>
 </div>
@@ -832,9 +874,9 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00299">299</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00297">297</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="main_8cpp_source#l00736">MainFrame::CreateIDE()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="main_8cpp_source#l00730">MainFrame::CreateIDE()</a>.</p>
 
 </div>
 </div>
@@ -850,9 +892,9 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00304">304</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00302">302</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="main_8cpp_source#l00561">MainFrame::MainFrame()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="main_8cpp_source#l00555">MainFrame::MainFrame()</a>.</p>
 
 </div>
 </div>
@@ -868,7 +910,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00184">184</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00182">182</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="main_8cpp_source#l04121">MainFrame::OnEditMenuUpdateUI()</a>.</p>
 
@@ -886,7 +928,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00188">188</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00186">186</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
 
 </div>
 </div>
@@ -902,7 +944,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00187">187</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00185">185</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
 
 </div>
 </div>
@@ -918,7 +960,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00186">186</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00184">184</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
 
 </div>
 </div>
@@ -934,7 +976,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00185">185</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00183">183</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
 
 </div>
 </div>
@@ -950,7 +992,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00251">251</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00249">249</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="main_8cpp_source#l04121">MainFrame::OnEditMenuUpdateUI()</a>.</p>
 
@@ -968,7 +1010,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00176">176</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00174">174</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="main_8cpp_source#l04121">MainFrame::OnEditMenuUpdateUI()</a>.</p>
 
@@ -986,7 +1028,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00247">247</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00245">245</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="main_8cpp_source#l04121">MainFrame::OnEditMenuUpdateUI()</a>.</p>
 
@@ -1004,9 +1046,9 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00253">253</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00251">251</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="main_8cpp_source#l00967">MainFrame::CreateMenubar()</a>, and <a class="el" href="main_8cpp_source#l04121">MainFrame::OnEditMenuUpdateUI()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="main_8cpp_source#l00961">MainFrame::CreateMenubar()</a>, and <a class="el" href="main_8cpp_source#l04121">MainFrame::OnEditMenuUpdateUI()</a>.</p>
 
 </div>
 </div>
@@ -1022,7 +1064,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00177">177</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00175">175</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="main_8cpp_source#l04121">MainFrame::OnEditMenuUpdateUI()</a>.</p>
 
@@ -1040,7 +1082,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00178">178</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00176">176</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="main_8cpp_source#l04121">MainFrame::OnEditMenuUpdateUI()</a>.</p>
 
@@ -1058,7 +1100,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00200">200</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00198">198</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="main_8cpp_source#l04121">MainFrame::OnEditMenuUpdateUI()</a>.</p>
 
@@ -1076,9 +1118,9 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00203">203</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00201">201</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="main_8cpp_source#l03828">MainFrame::OnEditEncoding()</a>, and <a class="el" href="main_8cpp_source#l04121">MainFrame::OnEditMenuUpdateUI()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="main_8cpp_source#l03815">MainFrame::OnEditEncoding()</a>, and <a class="el" href="main_8cpp_source#l04121">MainFrame::OnEditMenuUpdateUI()</a>.</p>
 
 </div>
 </div>
@@ -1094,9 +1136,9 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00201">201</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00199">199</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="main_8cpp_source#l03828">MainFrame::OnEditEncoding()</a>, and <a class="el" href="main_8cpp_source#l04121">MainFrame::OnEditMenuUpdateUI()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="main_8cpp_source#l03815">MainFrame::OnEditEncoding()</a>, and <a class="el" href="main_8cpp_source#l04121">MainFrame::OnEditMenuUpdateUI()</a>.</p>
 
 </div>
 </div>
@@ -1112,9 +1154,9 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00206">206</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00204">204</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="main_8cpp_source#l03828">MainFrame::OnEditEncoding()</a>, and <a class="el" href="main_8cpp_source#l04121">MainFrame::OnEditMenuUpdateUI()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="main_8cpp_source#l03815">MainFrame::OnEditEncoding()</a>, and <a class="el" href="main_8cpp_source#l04121">MainFrame::OnEditMenuUpdateUI()</a>.</p>
 
 </div>
 </div>
@@ -1130,9 +1172,9 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00209">209</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00207">207</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="main_8cpp_source#l03828">MainFrame::OnEditEncoding()</a>, and <a class="el" href="main_8cpp_source#l04121">MainFrame::OnEditMenuUpdateUI()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="main_8cpp_source#l03815">MainFrame::OnEditEncoding()</a>, and <a class="el" href="main_8cpp_source#l04121">MainFrame::OnEditMenuUpdateUI()</a>.</p>
 
 </div>
 </div>
@@ -1148,9 +1190,9 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00210">210</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00208">208</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="main_8cpp_source#l03828">MainFrame::OnEditEncoding()</a>, and <a class="el" href="main_8cpp_source#l04121">MainFrame::OnEditMenuUpdateUI()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="main_8cpp_source#l03815">MainFrame::OnEditEncoding()</a>, and <a class="el" href="main_8cpp_source#l04121">MainFrame::OnEditMenuUpdateUI()</a>.</p>
 
 </div>
 </div>
@@ -1166,9 +1208,9 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00211">211</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00209">209</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="main_8cpp_source#l03828">MainFrame::OnEditEncoding()</a>, and <a class="el" href="main_8cpp_source#l04121">MainFrame::OnEditMenuUpdateUI()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="main_8cpp_source#l03815">MainFrame::OnEditEncoding()</a>, and <a class="el" href="main_8cpp_source#l04121">MainFrame::OnEditMenuUpdateUI()</a>.</p>
 
 </div>
 </div>
@@ -1184,9 +1226,9 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00212">212</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00210">210</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="main_8cpp_source#l03828">MainFrame::OnEditEncoding()</a>, and <a class="el" href="main_8cpp_source#l04121">MainFrame::OnEditMenuUpdateUI()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="main_8cpp_source#l03815">MainFrame::OnEditEncoding()</a>, and <a class="el" href="main_8cpp_source#l04121">MainFrame::OnEditMenuUpdateUI()</a>.</p>
 
 </div>
 </div>
@@ -1202,9 +1244,9 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00202">202</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00200">200</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="main_8cpp_source#l03828">MainFrame::OnEditEncoding()</a>, and <a class="el" href="main_8cpp_source#l04121">MainFrame::OnEditMenuUpdateUI()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="main_8cpp_source#l03815">MainFrame::OnEditEncoding()</a>, and <a class="el" href="main_8cpp_source#l04121">MainFrame::OnEditMenuUpdateUI()</a>.</p>
 
 </div>
 </div>
@@ -1220,9 +1262,9 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00207">207</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00205">205</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="main_8cpp_source#l03828">MainFrame::OnEditEncoding()</a>, and <a class="el" href="main_8cpp_source#l04121">MainFrame::OnEditMenuUpdateUI()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="main_8cpp_source#l03815">MainFrame::OnEditEncoding()</a>, and <a class="el" href="main_8cpp_source#l04121">MainFrame::OnEditMenuUpdateUI()</a>.</p>
 
 </div>
 </div>
@@ -1238,9 +1280,9 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00208">208</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00206">206</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="main_8cpp_source#l03828">MainFrame::OnEditEncoding()</a>, and <a class="el" href="main_8cpp_source#l04121">MainFrame::OnEditMenuUpdateUI()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="main_8cpp_source#l03815">MainFrame::OnEditEncoding()</a>, and <a class="el" href="main_8cpp_source#l04121">MainFrame::OnEditMenuUpdateUI()</a>.</p>
 
 </div>
 </div>
@@ -1256,9 +1298,9 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00204">204</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00202">202</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="main_8cpp_source#l03828">MainFrame::OnEditEncoding()</a>, and <a class="el" href="main_8cpp_source#l04121">MainFrame::OnEditMenuUpdateUI()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="main_8cpp_source#l03815">MainFrame::OnEditEncoding()</a>, and <a class="el" href="main_8cpp_source#l04121">MainFrame::OnEditMenuUpdateUI()</a>.</p>
 
 </div>
 </div>
@@ -1274,9 +1316,9 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00205">205</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00203">203</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="main_8cpp_source#l03828">MainFrame::OnEditEncoding()</a>, and <a class="el" href="main_8cpp_source#l04121">MainFrame::OnEditMenuUpdateUI()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="main_8cpp_source#l03815">MainFrame::OnEditEncoding()</a>, and <a class="el" href="main_8cpp_source#l04121">MainFrame::OnEditMenuUpdateUI()</a>.</p>
 
 </div>
 </div>
@@ -1292,9 +1334,9 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00198">198</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00196">196</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="main_8cpp_source#l03804">MainFrame::OnEditEOLMode()</a>, and <a class="el" href="main_8cpp_source#l04121">MainFrame::OnEditMenuUpdateUI()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="main_8cpp_source#l03791">MainFrame::OnEditEOLMode()</a>, and <a class="el" href="main_8cpp_source#l04121">MainFrame::OnEditMenuUpdateUI()</a>.</p>
 
 </div>
 </div>
@@ -1310,9 +1352,9 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00197">197</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00195">195</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="main_8cpp_source#l03804">MainFrame::OnEditEOLMode()</a>, and <a class="el" href="main_8cpp_source#l04121">MainFrame::OnEditMenuUpdateUI()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="main_8cpp_source#l03791">MainFrame::OnEditEOLMode()</a>, and <a class="el" href="main_8cpp_source#l04121">MainFrame::OnEditMenuUpdateUI()</a>.</p>
 
 </div>
 </div>
@@ -1328,9 +1370,9 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00199">199</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00197">197</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="main_8cpp_source#l03804">MainFrame::OnEditEOLMode()</a>, and <a class="el" href="main_8cpp_source#l04121">MainFrame::OnEditMenuUpdateUI()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="main_8cpp_source#l03791">MainFrame::OnEditEOLMode()</a>, and <a class="el" href="main_8cpp_source#l04121">MainFrame::OnEditMenuUpdateUI()</a>.</p>
 
 </div>
 </div>
@@ -1346,7 +1388,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00196">196</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00194">194</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="main_8cpp_source#l04121">MainFrame::OnEditMenuUpdateUI()</a>.</p>
 
@@ -1364,7 +1406,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00190">190</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00188">188</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
 
 </div>
 </div>
@@ -1380,7 +1422,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00193">193</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00191">191</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
 
 </div>
 </div>
@@ -1396,7 +1438,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00189">189</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00187">187</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="main_8cpp_source#l04121">MainFrame::OnEditMenuUpdateUI()</a>.</p>
 
@@ -1414,7 +1456,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00241">241</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00239">239</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
 
 </div>
 </div>
@@ -1430,7 +1472,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00181">181</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00179">179</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="main_8cpp_source#l04121">MainFrame::OnEditMenuUpdateUI()</a>.</p>
 
@@ -1448,7 +1490,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00182">182</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00180">180</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="main_8cpp_source#l04121">MainFrame::OnEditMenuUpdateUI()</a>.</p>
 
@@ -1466,9 +1508,9 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00183">183</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00181">181</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="main_8cpp_source#l00967">MainFrame::CreateMenubar()</a>, <a class="el" href="main_8cpp_source#l03729">MainFrame::OnEditHighlightMode()</a>, <a class="el" href="main_8cpp_source#l04121">MainFrame::OnEditMenuUpdateUI()</a>, and <a class="el" href="main_8cpp_source#l05102">MainFrame::OnHighlightMenu()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="main_8cpp_source#l00961">MainFrame::CreateMenubar()</a>, <a class="el" href="main_8cpp_source#l03720">MainFrame::OnEditHighlightMode()</a>, <a class="el" href="main_8cpp_source#l04121">MainFrame::OnEditMenuUpdateUI()</a>, and <a class="el" href="main_8cpp_source#l05092">MainFrame::OnHighlightMenu()</a>.</p>
 
 </div>
 </div>
@@ -1484,7 +1526,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00240">240</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00238">238</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
 
 </div>
 </div>
@@ -1500,7 +1542,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00243">243</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00241">241</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
 
 </div>
 </div>
@@ -1516,7 +1558,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00242">242</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00240">240</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
 
 </div>
 </div>
@@ -1532,7 +1574,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00232">232</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00230">230</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
 
 </div>
 </div>
@@ -1548,7 +1590,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00228">228</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00226">226</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
 
 </div>
 </div>
@@ -1564,7 +1606,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00229">229</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00227">227</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
 
 </div>
 </div>
@@ -1580,7 +1622,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00235">235</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00233">233</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
 
 </div>
 </div>
@@ -1596,7 +1638,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00230">230</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00228">228</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
 
 </div>
 </div>
@@ -1612,7 +1654,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00233">233</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00231">231</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
 
 </div>
 </div>
@@ -1628,7 +1670,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00231">231</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00229">229</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
 
 </div>
 </div>
@@ -1644,9 +1686,9 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00234">234</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00232">232</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="main_8cpp_source#l03046">MainFrame::OnEditLineMove()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="main_8cpp_source#l03036">MainFrame::OnEditLineMove()</a>.</p>
 
 </div>
 </div>
@@ -1662,7 +1704,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00238">238</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00236">236</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
 
 </div>
 </div>
@@ -1678,7 +1720,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00217">217</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00215">215</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
 
 </div>
 </div>
@@ -1694,7 +1736,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00218">218</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00216">216</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
 
 </div>
 </div>
@@ -1710,7 +1752,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00215">215</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00213">213</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
 
 </div>
 </div>
@@ -1726,7 +1768,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00216">216</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00214">214</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
 
 </div>
 </div>
@@ -1742,7 +1784,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00179">179</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00177">177</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="main_8cpp_source#l04121">MainFrame::OnEditMenuUpdateUI()</a>.</p>
 
@@ -1760,7 +1802,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00175">175</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00173">173</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="main_8cpp_source#l04121">MainFrame::OnEditMenuUpdateUI()</a>.</p>
 
@@ -1778,7 +1820,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00244">244</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00242">242</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="main_8cpp_source#l04121">MainFrame::OnEditMenuUpdateUI()</a>.</p>
 
@@ -1796,7 +1838,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00245">245</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00243">243</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="main_8cpp_source#l04121">MainFrame::OnEditMenuUpdateUI()</a>.</p>
 
@@ -1814,7 +1856,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00246">246</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00244">244</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="main_8cpp_source#l04121">MainFrame::OnEditMenuUpdateUI()</a>.</p>
 
@@ -1832,7 +1874,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00252">252</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00250">250</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="main_8cpp_source#l04121">MainFrame::OnEditMenuUpdateUI()</a>.</p>
 
@@ -1850,7 +1892,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00213">213</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00211">211</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="main_8cpp_source#l04121">MainFrame::OnEditMenuUpdateUI()</a>.</p>
 
@@ -1868,7 +1910,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00236">236</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00234">234</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="main_8cpp_source#l04121">MainFrame::OnEditMenuUpdateUI()</a>.</p>
 
@@ -1886,7 +1928,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00227">227</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00225">225</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
 
 </div>
 </div>
@@ -1902,7 +1944,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00214">214</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00212">212</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
 
 </div>
 </div>
@@ -1918,7 +1960,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00239">239</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00237">237</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
 
 </div>
 </div>
@@ -1934,7 +1976,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00223">223</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00221">221</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
 
 </div>
 </div>
@@ -1950,7 +1992,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00250">250</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00248">248</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="main_8cpp_source#l04121">MainFrame::OnEditMenuUpdateUI()</a>.</p>
 
@@ -1968,7 +2010,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00180">180</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00178">178</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="main_8cpp_source#l04121">MainFrame::OnEditMenuUpdateUI()</a>.</p>
 
@@ -1986,7 +2028,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00192">192</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00190">190</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
 
 </div>
 </div>
@@ -2002,7 +2044,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00249">249</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00247">247</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="main_8cpp_source#l04121">MainFrame::OnEditMenuUpdateUI()</a>.</p>
 
@@ -2020,7 +2062,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00195">195</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00193">193</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
 
 </div>
 </div>
@@ -2036,7 +2078,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00248">248</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00246">246</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="main_8cpp_source#l04121">MainFrame::OnEditMenuUpdateUI()</a>.</p>
 
@@ -2054,7 +2096,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00174">174</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00172">172</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="main_8cpp_source#l04121">MainFrame::OnEditMenuUpdateUI()</a>.</p>
 
@@ -2072,7 +2114,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00191">191</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00189">189</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
 
 </div>
 </div>
@@ -2088,7 +2130,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00194">194</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00192">192</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
 
 </div>
 </div>
@@ -2104,7 +2146,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00237">237</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00235">235</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
 
 </div>
 </div>
@@ -2120,7 +2162,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00219">219</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00217">217</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
 
 </div>
 </div>
@@ -2136,7 +2178,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00220">220</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00218">218</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
 
 </div>
 </div>
@@ -2152,7 +2194,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00221">221</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00219">219</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
 
 </div>
 </div>
@@ -2168,7 +2210,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00222">222</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00220">220</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
 
 </div>
 </div>
@@ -2184,7 +2226,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00224">224</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00222">222</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
 
 </div>
 </div>
@@ -2200,7 +2242,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00225">225</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00223">223</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
 
 </div>
 </div>
@@ -2216,7 +2258,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00226">226</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00224">224</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
 
 </div>
 </div>
@@ -2232,9 +2274,9 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00166">166</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00165">165</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="main_8cpp_source#l00561">MainFrame::MainFrame()</a>, and <a class="el" href="main_8cpp_source#l04071">MainFrame::OnFileMenuUpdateUI()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="main_8cpp_source#l00555">MainFrame::MainFrame()</a>, and <a class="el" href="main_8cpp_source#l04058">MainFrame::OnFileMenuUpdateUI()</a>.</p>
 
 </div>
 </div>
@@ -2250,27 +2292,9 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00167">167</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00166">166</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="main_8cpp_source#l00561">MainFrame::MainFrame()</a>, and <a class="el" href="main_8cpp_source#l04071">MainFrame::OnFileMenuUpdateUI()</a>.</p>
-
-</div>
-</div>
-<a id="bd-idFileCloseAllProjects"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#bd-idFileCloseAllProjects">&#9670;&nbsp;</a></span>idFileCloseAllProjects</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">int idFileCloseAllProjects = XRCID(&quot;idFileCloseAllProjects&quot;)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00169">169</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="main_8cpp_source#l04314">MainFrame::OnProjectMenuUpdateUI()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="main_8cpp_source#l00555">MainFrame::MainFrame()</a>, and <a class="el" href="main_8cpp_source#l04058">MainFrame::OnFileMenuUpdateUI()</a>.</p>
 
 </div>
 </div>
@@ -2286,9 +2310,9 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00168">168</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00167">167</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="main_8cpp_source#l04071">MainFrame::OnFileMenuUpdateUI()</a>, and <a class="el" href="main_8cpp_source#l04314">MainFrame::OnProjectMenuUpdateUI()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="main_8cpp_source#l04058">MainFrame::OnFileMenuUpdateUI()</a>.</p>
 
 </div>
 </div>
@@ -2304,9 +2328,9 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00165">165</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00164">164</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="main_8cpp_source#l04071">MainFrame::OnFileMenuUpdateUI()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="main_8cpp_source#l04058">MainFrame::OnFileMenuUpdateUI()</a>.</p>
 
 </div>
 </div>
@@ -2322,7 +2346,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00172">172</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00170">170</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
 
 </div>
 </div>
@@ -2436,7 +2460,7 @@ Variables</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00143">143</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="main_8cpp_source#l02304">MainFrame::OnFileNewWhat()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="main_8cpp_source#l02310">MainFrame::OnFileNewWhat()</a>.</p>
 
 </div>
 </div>
@@ -2454,7 +2478,7 @@ Variables</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00139">139</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="main_8cpp_source#l02304">MainFrame::OnFileNewWhat()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="main_8cpp_source#l02310">MainFrame::OnFileNewWhat()</a>.</p>
 
 </div>
 </div>
@@ -2472,7 +2496,7 @@ Variables</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00142">142</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="main_8cpp_source#l02304">MainFrame::OnFileNewWhat()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="main_8cpp_source#l02310">MainFrame::OnFileNewWhat()</a>.</p>
 
 </div>
 </div>
@@ -2490,7 +2514,7 @@ Variables</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00140">140</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="main_8cpp_source#l02419">MainFrame::OnFileNew()</a>, <a class="el" href="main_8cpp_source#l02304">MainFrame::OnFileNewWhat()</a>, and <a class="el" href="main_8cpp_source#l02194">MainFrame::OnStartHereLink()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="main_8cpp_source#l02425">MainFrame::OnFileNew()</a>, <a class="el" href="main_8cpp_source#l02310">MainFrame::OnFileNewWhat()</a>, and <a class="el" href="main_8cpp_source#l02200">MainFrame::OnStartHereLink()</a>.</p>
 
 </div>
 </div>
@@ -2508,7 +2532,7 @@ Variables</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00141">141</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="main_8cpp_source#l02304">MainFrame::OnFileNewWhat()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="main_8cpp_source#l02310">MainFrame::OnFileNewWhat()</a>.</p>
 
 </div>
 </div>
@@ -2526,7 +2550,7 @@ Variables</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00144">144</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="main_8cpp_source#l02304">MainFrame::OnFileNewWhat()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="main_8cpp_source#l02310">MainFrame::OnFileNewWhat()</a>.</p>
 
 </div>
 </div>
@@ -2542,9 +2566,9 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00301">301</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00299">299</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="main_8cpp_source#l00561">MainFrame::MainFrame()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="main_8cpp_source#l00555">MainFrame::MainFrame()</a>.</p>
 
 </div>
 </div>
@@ -2562,6 +2586,8 @@ Variables</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00145">145</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
 
+<p class="reference">Referenced by <a class="el" href="main_8cpp_source#l04058">MainFrame::OnFileMenuUpdateUI()</a>.</p>
+
 </div>
 </div>
 <a id="zu-idFileOpenDefWorkspace"></a>
@@ -2576,9 +2602,9 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00161">161</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00160">160</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="main_8cpp_source#l04071">MainFrame::OnFileMenuUpdateUI()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="main_8cpp_source#l04058">MainFrame::OnFileMenuUpdateUI()</a>.</p>
 
 </div>
 </div>
@@ -2596,8 +2622,6 @@ Variables</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00147">147</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="main_8cpp_source#l04071">MainFrame::OnFileMenuUpdateUI()</a>.</p>
-
 </div>
 </div>
 <a id="x1-idFileOpenRecentProjectClearH"></a>
@@ -2614,8 +2638,6 @@ Variables</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00148">148</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="main_8cpp_source#l04071">MainFrame::OnFileMenuUpdateUI()</a>.</p>
-
 </div>
 </div>
 <a id="o1-idFilePrev"></a>
@@ -2630,9 +2652,9 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00302">302</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00300">300</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="main_8cpp_source#l00561">MainFrame::MainFrame()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="main_8cpp_source#l00555">MainFrame::MainFrame()</a>.</p>
 
 </div>
 </div>
@@ -2648,9 +2670,9 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00171">171</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00169">169</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="main_8cpp_source#l04071">MainFrame::OnFileMenuUpdateUI()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="main_8cpp_source#l04058">MainFrame::OnFileMenuUpdateUI()</a>.</p>
 
 </div>
 </div>
@@ -2666,7 +2688,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00170">170</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00168">168</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
 
 </div>
 </div>
@@ -2686,6 +2708,24 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<a id="aa-idFileReopenProject"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa-idFileReopenProject">&#9670;&nbsp;</a></span>idFileReopenProject</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int idFileReopenProject = XRCID(&quot;idFileReopenProject&quot;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00156">156</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="main_8cpp_source#l04058">MainFrame::OnFileMenuUpdateUI()</a>.</p>
+
+</div>
+</div>
 <a id="v3-idFileSave"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#v3-idFileSave">&#9670;&nbsp;</a></span>idFileSave</h2>
 
@@ -2700,7 +2740,7 @@ Variables</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00154">154</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="main_8cpp_source#l04071">MainFrame::OnFileMenuUpdateUI()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="main_8cpp_source#l04058">MainFrame::OnFileMenuUpdateUI()</a>.</p>
 
 </div>
 </div>
@@ -2716,27 +2756,9 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00164">164</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00163">163</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="main_8cpp_source#l04071">MainFrame::OnFileMenuUpdateUI()</a>.</p>
-
-</div>
-</div>
-<a id="q3-idFileSaveAllFiles"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#q3-idFileSaveAllFiles">&#9670;&nbsp;</a></span>idFileSaveAllFiles</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">int idFileSaveAllFiles = XRCID(&quot;idFileSaveAllFiles&quot;)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00156">156</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="main_8cpp_source#l04071">MainFrame::OnFileMenuUpdateUI()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="main_8cpp_source#l04058">MainFrame::OnFileMenuUpdateUI()</a>.</p>
 
 </div>
 </div>
@@ -2754,7 +2776,7 @@ Variables</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00155">155</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="main_8cpp_source#l04071">MainFrame::OnFileMenuUpdateUI()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="main_8cpp_source#l04058">MainFrame::OnFileMenuUpdateUI()</a>.</p>
 
 </div>
 </div>
@@ -2772,25 +2794,7 @@ Variables</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00157">157</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="main_8cpp_source#l04071">MainFrame::OnFileMenuUpdateUI()</a>, and <a class="el" href="main_8cpp_source#l04314">MainFrame::OnProjectMenuUpdateUI()</a>.</p>
-
-</div>
-</div>
-<a id="mk-idFileSaveProjectAllProjects"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#mk-idFileSaveProjectAllProjects">&#9670;&nbsp;</a></span>idFileSaveProjectAllProjects</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">int idFileSaveProjectAllProjects = XRCID(&quot;idFileSaveProjectAllProjects&quot;)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00159">159</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="main_8cpp_source#l04314">MainFrame::OnProjectMenuUpdateUI()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="main_8cpp_source#l04058">MainFrame::OnFileMenuUpdateUI()</a>.</p>
 
 </div>
 </div>
@@ -2808,7 +2812,7 @@ Variables</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00158">158</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="main_8cpp_source#l04071">MainFrame::OnFileMenuUpdateUI()</a>, and <a class="el" href="main_8cpp_source#l04314">MainFrame::OnProjectMenuUpdateUI()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="main_8cpp_source#l04058">MainFrame::OnFileMenuUpdateUI()</a>.</p>
 
 </div>
 </div>
@@ -2824,9 +2828,9 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00160">160</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00159">159</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="main_8cpp_source#l04314">MainFrame::OnProjectMenuUpdateUI()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="main_8cpp_source#l04058">MainFrame::OnFileMenuUpdateUI()</a>.</p>
 
 </div>
 </div>
@@ -2842,9 +2846,9 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00162">162</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00161">161</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="main_8cpp_source#l04071">MainFrame::OnFileMenuUpdateUI()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="main_8cpp_source#l04058">MainFrame::OnFileMenuUpdateUI()</a>.</p>
 
 </div>
 </div>
@@ -2860,9 +2864,9 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00163">163</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00162">162</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="main_8cpp_source#l04071">MainFrame::OnFileMenuUpdateUI()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="main_8cpp_source#l04058">MainFrame::OnFileMenuUpdateUI()</a>.</p>
 
 </div>
 </div>
@@ -2878,9 +2882,9 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00295">295</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00293">293</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="main_8cpp_source#l00967">MainFrame::CreateMenubar()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="main_8cpp_source#l00961">MainFrame::CreateMenubar()</a>.</p>
 
 </div>
 </div>
@@ -2896,7 +2900,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00294">294</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00292">292</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
 
 </div>
 </div>
@@ -2912,9 +2916,9 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00306">306</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00304">304</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="main_8cpp_source#l01885">MainFrame::DoCreateStatusBar()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="main_8cpp_source#l01880">MainFrame::DoCreateStatusBar()</a>.</p>
 
 </div>
 </div>
@@ -2930,7 +2934,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00297">297</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00295">295</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
 
 </div>
 </div>
@@ -2946,7 +2950,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00291">291</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00289">289</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
 
 </div>
 </div>
@@ -2962,9 +2966,9 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00274">274</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00272">272</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="main_8cpp_source#l04279">MainFrame::OnSearchMenuUpdateUI()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="main_8cpp_source#l04283">MainFrame::OnSearchMenuUpdateUI()</a>.</p>
 
 </div>
 </div>
@@ -2980,9 +2984,9 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00275">275</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00273">273</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="main_8cpp_source#l03989">MainFrame::OnSearchFind()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="main_8cpp_source#l03976">MainFrame::OnSearchFind()</a>.</p>
 
 </div>
 </div>
@@ -2998,9 +3002,9 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00276">276</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00274">274</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="main_8cpp_source#l04279">MainFrame::OnSearchMenuUpdateUI()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="main_8cpp_source#l04283">MainFrame::OnSearchMenuUpdateUI()</a>.</p>
 
 </div>
 </div>
@@ -3016,9 +3020,9 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00277">277</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00275">275</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="main_8cpp_source#l03997">MainFrame::OnSearchFindNext()</a>, and <a class="el" href="main_8cpp_source#l04279">MainFrame::OnSearchMenuUpdateUI()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="main_8cpp_source#l03984">MainFrame::OnSearchFindNext()</a>, and <a class="el" href="main_8cpp_source#l04283">MainFrame::OnSearchMenuUpdateUI()</a>.</p>
 
 </div>
 </div>
@@ -3034,9 +3038,9 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00278">278</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00276">276</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="main_8cpp_source#l04279">MainFrame::OnSearchMenuUpdateUI()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="main_8cpp_source#l04283">MainFrame::OnSearchMenuUpdateUI()</a>.</p>
 
 </div>
 </div>
@@ -3052,9 +3056,9 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00279">279</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00277">277</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="main_8cpp_source#l04003">MainFrame::OnSearchFindNextSelected()</a>, and <a class="el" href="main_8cpp_source#l04279">MainFrame::OnSearchMenuUpdateUI()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="main_8cpp_source#l03990">MainFrame::OnSearchFindNextSelected()</a>, and <a class="el" href="main_8cpp_source#l04283">MainFrame::OnSearchMenuUpdateUI()</a>.</p>
 
 </div>
 </div>
@@ -3070,9 +3074,9 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00282">282</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00280">280</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="main_8cpp_source#l04279">MainFrame::OnSearchMenuUpdateUI()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="main_8cpp_source#l04283">MainFrame::OnSearchMenuUpdateUI()</a>.</p>
 
 </div>
 </div>
@@ -3088,9 +3092,9 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00283">283</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00281">281</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="main_8cpp_source#l04279">MainFrame::OnSearchMenuUpdateUI()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="main_8cpp_source#l04283">MainFrame::OnSearchMenuUpdateUI()</a>.</p>
 
 </div>
 </div>
@@ -3106,9 +3110,9 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00284">284</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00282">282</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="main_8cpp_source#l04279">MainFrame::OnSearchMenuUpdateUI()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="main_8cpp_source#l04283">MainFrame::OnSearchMenuUpdateUI()</a>.</p>
 
 </div>
 </div>
@@ -3124,9 +3128,9 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00280">280</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00278">278</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="main_8cpp_source#l04279">MainFrame::OnSearchMenuUpdateUI()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="main_8cpp_source#l04283">MainFrame::OnSearchMenuUpdateUI()</a>.</p>
 
 </div>
 </div>
@@ -3142,9 +3146,9 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00281">281</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00279">279</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="main_8cpp_source#l04009">MainFrame::OnSearchReplace()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="main_8cpp_source#l03996">MainFrame::OnSearchReplace()</a>.</p>
 
 </div>
 </div>
@@ -3160,7 +3164,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00289">289</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00287">287</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
 
 </div>
 </div>
@@ -3176,7 +3180,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00290">290</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00288">288</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
 
 </div>
 </div>
@@ -3192,7 +3196,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00288">288</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00286">286</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
 
 </div>
 </div>
@@ -3208,7 +3212,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00286">286</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00284">284</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
 
 </div>
 </div>
@@ -3224,7 +3228,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00287">287</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00285">285</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
 
 </div>
 </div>
@@ -3240,7 +3244,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00292">292</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00290">290</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
 
 </div>
 </div>
@@ -3256,9 +3260,9 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00303">303</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00301">301</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="main_8cpp_source#l00561">MainFrame::MainFrame()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="main_8cpp_source#l00555">MainFrame::MainFrame()</a>.</p>
 
 </div>
 </div>
@@ -3274,7 +3278,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00305">305</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00303">303</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="startherepage_8cpp_source#l00271">StartHerePage::LinkClicked()</a>.</p>
 
@@ -3308,9 +3312,9 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00268">268</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00266">266</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="main_8cpp_source#l04245">MainFrame::OnViewMenuUpdateUI()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="main_8cpp_source#l04249">MainFrame::OnViewMenuUpdateUI()</a>.</p>
 
 </div>
 </div>
@@ -3326,9 +3330,9 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00270">270</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00268">268</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="main_8cpp_source#l04245">MainFrame::OnViewMenuUpdateUI()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="main_8cpp_source#l04249">MainFrame::OnViewMenuUpdateUI()</a>.</p>
 
 </div>
 </div>
@@ -3344,9 +3348,9 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00269">269</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00267">267</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="main_8cpp_source#l04245">MainFrame::OnViewMenuUpdateUI()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="main_8cpp_source#l04249">MainFrame::OnViewMenuUpdateUI()</a>.</p>
 
 </div>
 </div>
@@ -3362,9 +3366,9 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00272">272</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00270">270</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="main_8cpp_source#l04245">MainFrame::OnViewMenuUpdateUI()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="main_8cpp_source#l04249">MainFrame::OnViewMenuUpdateUI()</a>.</p>
 
 </div>
 </div>
@@ -3380,9 +3384,9 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00267">267</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00265">265</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="main_8cpp_source#l04245">MainFrame::OnViewMenuUpdateUI()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="main_8cpp_source#l04249">MainFrame::OnViewMenuUpdateUI()</a>.</p>
 
 </div>
 </div>
@@ -3398,7 +3402,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00255">255</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00253">253</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
 
 </div>
 </div>
@@ -3414,9 +3418,9 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00256">256</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00254">254</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="main_8cpp_source#l01586">MainFrame::DoSelectLayout()</a>, <a class="el" href="main_8cpp_source#l03889">MainFrame::OnViewLayoutDelete()</a>, and <a class="el" href="main_8cpp_source#l01440">MainFrame::SaveViewLayout()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="main_8cpp_source#l01577">MainFrame::DoSelectLayout()</a>, <a class="el" href="main_8cpp_source#l03876">MainFrame::OnViewLayoutDelete()</a>, and <a class="el" href="main_8cpp_source#l01431">MainFrame::SaveViewLayout()</a>.</p>
 
 </div>
 </div>
@@ -3432,9 +3436,9 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00263">263</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00261">261</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="main_8cpp_source#l04484">MainFrame::OnToggleBar()</a>, and <a class="el" href="main_8cpp_source#l04245">MainFrame::OnViewMenuUpdateUI()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="main_8cpp_source#l04474">MainFrame::OnToggleBar()</a>, and <a class="el" href="main_8cpp_source#l04249">MainFrame::OnViewMenuUpdateUI()</a>.</p>
 
 </div>
 </div>
@@ -3450,9 +3454,9 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00262">262</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00260">260</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="main_8cpp_source#l04484">MainFrame::OnToggleBar()</a>, and <a class="el" href="main_8cpp_source#l04245">MainFrame::OnViewMenuUpdateUI()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="main_8cpp_source#l04474">MainFrame::OnToggleBar()</a>, and <a class="el" href="main_8cpp_source#l04249">MainFrame::OnViewMenuUpdateUI()</a>.</p>
 
 </div>
 </div>
@@ -3468,9 +3472,9 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00266">266</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00264">264</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="main_8cpp_source#l04245">MainFrame::OnViewMenuUpdateUI()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="main_8cpp_source#l04249">MainFrame::OnViewMenuUpdateUI()</a>.</p>
 
 </div>
 </div>
@@ -3486,9 +3490,9 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00264">264</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00262">262</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="main_8cpp_source#l04245">MainFrame::OnViewMenuUpdateUI()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="main_8cpp_source#l04249">MainFrame::OnViewMenuUpdateUI()</a>.</p>
 
 </div>
 </div>
@@ -3504,9 +3508,9 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00265">265</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00263">263</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="main_8cpp_source#l04245">MainFrame::OnViewMenuUpdateUI()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="main_8cpp_source#l04249">MainFrame::OnViewMenuUpdateUI()</a>.</p>
 
 </div>
 </div>
@@ -3522,9 +3526,9 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00271">271</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00269">269</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="main_8cpp_source#l00967">MainFrame::CreateMenubar()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="main_8cpp_source#l00961">MainFrame::CreateMenubar()</a>.</p>
 
 </div>
 </div>
@@ -3540,7 +3544,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00257">257</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00255">255</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
 
 </div>
 </div>
@@ -3556,9 +3560,9 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00261">261</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00259">259</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="main_8cpp_source#l04484">MainFrame::OnToggleBar()</a>, and <a class="el" href="main_8cpp_source#l05194">MainFrame::SetChecksForViewToolbarsMenu()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="main_8cpp_source#l04474">MainFrame::OnToggleBar()</a>, and <a class="el" href="main_8cpp_source#l05179">MainFrame::SetChecksForViewToolbarsMenu()</a>.</p>
 
 </div>
 </div>
@@ -3574,7 +3578,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00258">258</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00256">256</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
 
 </div>
 </div>
@@ -3590,9 +3594,9 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00260">260</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00258">258</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="main_8cpp_source#l01623">MainFrame::DoAddPluginToolbar()</a>, <a class="el" href="main_8cpp_source#l04484">MainFrame::OnToggleBar()</a>, <a class="el" href="main_8cpp_source#l04245">MainFrame::OnViewMenuUpdateUI()</a>, <a class="el" href="main_8cpp_source#l00906">MainFrame::PluginsUpdated()</a>, and <a class="el" href="main_8cpp_source#l05194">MainFrame::SetChecksForViewToolbarsMenu()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="main_8cpp_source#l01614">MainFrame::DoAddPluginToolbar()</a>, <a class="el" href="main_8cpp_source#l04474">MainFrame::OnToggleBar()</a>, <a class="el" href="main_8cpp_source#l04249">MainFrame::OnViewMenuUpdateUI()</a>, <a class="el" href="main_8cpp_source#l00900">MainFrame::PluginsUpdated()</a>, and <a class="el" href="main_8cpp_source#l05179">MainFrame::SetChecksForViewToolbarsMenu()</a>.</p>
 
 </div>
 </div>
@@ -3608,7 +3612,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00259">259</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="main_8cpp_source#l00257">257</a> of file <a class="el" href="main_8cpp_source">main.cpp</a>.</p>
 
 </div>
 </div>

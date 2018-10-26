@@ -19,7 +19,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Code::Blocks
-   &#160;<span id="projectnumber">SVN r11156</span>
+   &#160;<span id="projectnumber">SVN r11506</span>
    </div>
   </td>
  </tr>
@@ -151,7 +151,7 @@ $(function() {
 <li>RebuildTree()
 : <a class="el" href="classBatchProjectManagerUI#ro-RebuildTree">BatchProjectManagerUI</a>
 , <a class="el" href="classcbProjectManagerUI#n3-RebuildTree">cbProjectManagerUI</a>
-, <a class="el" href="classNullProjectManagerUI#m7-RebuildTree">NullProjectManagerUI</a>
+, <a class="el" href="classNullProjectManagerUI#av-RebuildTree">NullProjectManagerUI</a>
 , <a class="el" href="classProjectManagerUI#s2-RebuildTree">ProjectManagerUI</a>
 </li>
 <li>RebuildWorkspace()
@@ -186,7 +186,7 @@ $(function() {
 : <a class="el" href="classClassBrowser#xr-RecursiveSearch">ClassBrowser</a>
 </li>
 <li>Redo()
-: <a class="el" href="classcbEditor#zr-Redo">cbEditor</a>
+: <a class="el" href="classcbEditor#v2-Redo">cbEditor</a>
 , <a class="el" href="classEditorBase#tm-Redo">EditorBase</a>
 , <a class="el" href="classwxScintilla#e9-Redo">wxScintilla</a>
 </li>
@@ -243,11 +243,17 @@ $(function() {
 <li>RegisterEventSink()
 : <a class="el" href="classManager#jh-RegisterEventSink">Manager</a>
 </li>
+<li>RegisterFindMenuItems()
+: <a class="el" href="classPluginManager#ml-RegisterFindMenuItems">PluginManager</a>
+</li>
 <li>RegisterImage()
 : <a class="el" href="classwxScintilla#xg-RegisterImage">wxScintilla</a>
 </li>
 <li>RegisterIndex()
 : <a class="el" href="classCPURegistersDlg#qa-RegisterIndex">CPURegistersDlg</a>
+</li>
+<li>RegisterLastNonPluginMenuItem()
+: <a class="el" href="classPluginManager#kz-RegisterLastNonPluginMenuItem">PluginManager</a>
 </li>
 <li>RegisterPlugin()
 : <a class="el" href="classPluginManager#yh-RegisterPlugin">PluginManager</a>
@@ -264,9 +270,6 @@ $(function() {
 </li>
 <li>RegisterScriptPlugin()
 : <a class="el" href="classScriptingManager#a7-RegisterScriptPlugin">ScriptingManager</a>
-</li>
-<li>RegisterType()
-: <a class="el" href="classGDB__driver#ep-RegisterType">GDB_driver</a>
 </li>
 <li>RegisterUserCompilers()
 : <a class="el" href="classCompilerFactory#y2-RegisterUserCompilers">CompilerFactory</a>
@@ -392,7 +395,7 @@ $(function() {
 , <a class="el" href="classParser#ve-RemoveFile">Parser</a>
 , <a class="el" href="classParserBase#mb-RemoveFile">ParserBase</a>
 , <a class="el" href="classProjectBuildTarget#gh-RemoveFile">ProjectBuildTarget</a>
-, <a class="el" href="classTokenTree#lb-RemoveFile">TokenTree</a>
+, <a class="el" href="classTokenTree#cg-RemoveFile">TokenTree</a>
 </li>
 <li>RemoveFileFromParser()
 : <a class="el" href="classNativeParser#f2-RemoveFileFromParser">NativeParser</a>
@@ -449,9 +452,9 @@ $(function() {
 : <a class="el" href="classCompileOptionsBase#xx-RemovePlatform">CompileOptionsBase</a>
 </li>
 <li>RemoveProject()
-: <a class="el" href="classBatchProjectManagerUI#dg-RemoveProject">BatchProjectManagerUI</a>
+: <a class="el" href="classBatchProjectManagerUI#ho-RemoveProject">BatchProjectManagerUI</a>
 , <a class="el" href="classcbProjectManagerUI#jh-RemoveProject">cbProjectManagerUI</a>
-, <a class="el" href="classNullProjectManagerUI#dc-RemoveProject">NullProjectManagerUI</a>
+, <a class="el" href="classNullProjectManagerUI#qa-RemoveProject">NullProjectManagerUI</a>
 , <a class="el" href="classProjectManagerUI#sp-RemoveProject">ProjectManagerUI</a>
 </li>
 <li>RemoveProjectDependency()
@@ -581,7 +584,7 @@ $(function() {
 : <a class="el" href="classCompileOptionsBase#y9-ReplaceLinkLib">CompileOptionsBase</a>
 </li>
 <li>ReplaceMacros()
-: <a class="el" href="classMacrosManager#lm-ReplaceMacros">MacrosManager</a>
+: <a class="el" href="classMacrosManager#nr-ReplaceMacros">MacrosManager</a>
 </li>
 <li>ReplaceMacroUsage()
 : <a class="el" href="classTokenizer#v8-ReplaceMacroUsage">Tokenizer</a>
@@ -605,7 +608,7 @@ $(function() {
 : <a class="el" href="classcbProject#wt-ReplaceVirtualFolder">cbProject</a>
 </li>
 <li>Report()
-: <a class="el" href="classEncodingDetector#k3-Report">EncodingDetector</a>
+: <a class="el" href="classEncodingDetector#r3-Report">EncodingDetector</a>
 </li>
 <li>RequestTermination()
 : <a class="el" href="classClassBrowserBuilderThread#df-RequestTermination">ClassBrowserBuilderThread</a>
@@ -615,7 +618,7 @@ $(function() {
 , <a class="el" href="classDebuggerGDB#fj-RequestUpdate">DebuggerGDB</a>
 </li>
 <li>RequiresFilename()
-: <a class="el" href="structLogManager_1_1Instantiator#d1-RequiresFilename">LogManager::Instantiator&lt; type, requires_filename &gt;</a>
+: <a class="el" href="structLogManager_1_1Instantiator#zf-RequiresFilename">LogManager::Instantiator&lt; type, requires_filename &gt;</a>
 , <a class="el" href="structLogManager_1_1InstantiatorBase#pp-RequiresFilename">LogManager::InstantiatorBase</a>
 </li>
 <li>RereadOptions()
@@ -651,6 +654,9 @@ $(function() {
 </li>
 <li>ResetCursor()
 : <a class="el" href="classDebuggerDriver#in-ResetCursor">DebuggerDriver</a>
+</li>
+<li>ResetModuleMenu()
+: <a class="el" href="classPluginManager#ld-ResetModuleMenu">PluginManager</a>
 </li>
 <li>ResetProject()
 : <a class="el" href="classcbDebuggerPlugin#va-ResetProject">cbDebuggerPlugin</a>

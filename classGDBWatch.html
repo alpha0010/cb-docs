@@ -19,7 +19,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Code::Blocks
-   &#160;<span id="projectnumber">SVN r11156</span>
+   &#160;<span id="projectnumber">SVN r11506</span>
    </div>
   </td>
  </tr>
@@ -58,7 +58,7 @@ Inheritance diagram for GDBWatch:</div>
 <div class="dynheader">
 Collaboration diagram for GDBWatch:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classGDBWatch__coll__graph.svg" width="327" height="867"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classGDBWatch__coll__graph.svg" width="312" height="867"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <table class="memberdecls">
@@ -86,7 +86,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:e1-MakeSymbolToAddress"><td class="mdescLeft">&#160;</td><td class="mdescRight">This should return a string that when passed to the debugger will return the address of the variable.  <a href="#e1-MakeSymbolToAddress">More...</a><br /></td></tr>
 <tr class="separator:e1-MakeSymbolToAddress"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gi-IsPointerType"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classGDBWatch#gi-IsPointerType">IsPointerType</a> () const override</td></tr>
-<tr class="memdesc:gi-IsPointerType"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tells us if the watch for pointer variable.  <a href="#gi-IsPointerType">More...</a><br /></td></tr>
+<tr class="memdesc:gi-IsPointerType"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tells us if the watch is for pointer variable.  <a href="#gi-IsPointerType">More...</a><br /></td></tr>
 <tr class="separator:gi-IsPointerType"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:wc-SetDebugValue"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classGDBWatch#wc-SetDebugValue">SetDebugValue</a> (<a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html">wxString</a> const &amp;value)</td></tr>
 <tr class="separator:wc-SetDebugValue"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -555,9 +555,9 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Tells us if the watch for pointer variable. </p>
+<p>Tells us if the watch is for pointer variable. </p>
 
-<p>Implements <a class="el" href="classcbWatch#bq-IsPointerType">cbWatch</a>.</p>
+<p>Reimplemented from <a class="el" href="classcbWatch#ek-IsPointerType">cbWatch</a>.</p>
 
 <p class="definition">Definition at line <a class="el" href="debugger__defs_8cpp_source#l00243">243</a> of file <a class="el" href="debugger__defs_8cpp_source">debugger_defs.cpp</a>.</p>
 
@@ -591,7 +591,7 @@ Additional Inherited Members</h2></td></tr>
 <p>This should return a string that when passed to the debugger will return the address of the variable. </p>
 <p>For example for C/C++ languages for myVar this function will return &amp;myVar. </p>
 
-<p>Implements <a class="el" href="classcbWatch#wh-MakeSymbolToAddress">cbWatch</a>.</p>
+<p>Reimplemented from <a class="el" href="classcbWatch#di-MakeSymbolToAddress">cbWatch</a>.</p>
 
 <p class="definition">Definition at line <a class="el" href="debugger__defs_8cpp_source#l00238">238</a> of file <a class="el" href="debugger__defs_8cpp_source">debugger_defs.cpp</a>.</p>
 

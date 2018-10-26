@@ -19,7 +19,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Code::Blocks
-   &#160;<span id="projectnumber">SVN r11156</span>
+   &#160;<span id="projectnumber">SVN r11506</span>
    </div>
   </td>
  </tr>
@@ -53,12 +53,13 @@ $(function() {
 <div class="dynheader">
 Inheritance diagram for DebuggerDriver:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classDebuggerDriver__inherit__graph.svg" width="416" height="786"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classDebuggerDriver__inherit__graph.svg" width="416" height="756"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 <div class="dynheader">
 Collaboration diagram for DebuggerDriver:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classDebuggerDriver__coll__graph.svg" width="2239" height="2652"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classDebuggerDriver__coll__graph.svg" width="2275" height="2652"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <table class="memberdecls">
@@ -252,6 +253,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:s5-NotifyCursorChanged"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDebuggerDriver#s5-NotifyCursorChanged">NotifyCursorChanged</a> ()</td></tr>
 <tr class="memdesc:s5-NotifyCursorChanged"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called by implementations to notify cursor changes.  <a href="#s5-NotifyCursorChanged">More...</a><br /></td></tr>
 <tr class="separator:s5-NotifyCursorChanged"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:s1-DetermineLanguage"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDebuggerDriver#s1-DetermineLanguage">DetermineLanguage</a> ()</td></tr>
+<tr class="memdesc:s1-DetermineLanguage"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determine language is debugged.  <a href="#s1-DetermineLanguage">More...</a><br /></td></tr>
+<tr class="separator:s1-DetermineLanguage"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
@@ -289,6 +293,8 @@ Protected Attributes</h2></td></tr>
 <tr class="separator:a1-m_currentFrameNo"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:fx-m_userSelectedFrameNo"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDebuggerDriver#fx-m_userSelectedFrameNo">m_userSelectedFrameNo</a></td></tr>
 <tr class="separator:fx-m_userSelectedFrameNo"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:kd-m_FileName"><td class="memItemLeft" align="right" valign="top"><a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html">wxString</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDebuggerDriver#kd-m_FileName">m_FileName</a></td></tr>
+<tr class="separator:kd-m_FileName"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
@@ -396,7 +402,7 @@ Protected Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="debuggerdriver_8cpp_source#l00027">27</a> of file <a class="el" href="debuggerdriver_8cpp_source">debuggerdriver.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="debuggerdriver_8h_source#l00221">m_DCmds</a>.</p>
+<p class="reference">References <a class="el" href="debuggerdriver_8h_source#l00224">m_DCmds</a>.</p>
 
 </div>
 </div>
@@ -468,9 +474,9 @@ Protected Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="debuggerdriver_8cpp_source#l00050">50</a> of file <a class="el" href="debuggerdriver_8cpp_source">debuggerdriver.cpp</a>.</p>
 
-<p class="reference">References <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_array_string.html#af06b61455118d83a24183c3a9f6854b1">wxArrayString::Add()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_array_string.html#a87d29ec37fca50c5b289c242fbaad2f5">wxArrayString::Index()</a>, <a class="el" href="debuggerdriver_8h_source#l00209">m_Dirs</a>, and <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/defs_8h.html#a89de5e6353fc7812991b085e12263e98">wxNOT_FOUND</a>.</p>
+<p class="reference">References <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_array_string.html#af06b61455118d83a24183c3a9f6854b1">wxArrayString::Add()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_array_string.html#a87d29ec37fca50c5b289c242fbaad2f5">wxArrayString::Index()</a>, <a class="el" href="debuggerdriver_8h_source#l00212">m_Dirs</a>, and <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/defs_8h.html#a89de5e6353fc7812991b085e12263e98">wxNOT_FOUND</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="debuggergdb_8cpp_source#l00944">DebuggerGDB::AddSourceDir()</a>, and <a class="el" href="debuggerdriver_8h_source#l00052">GetDebugger()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="debuggergdb_8cpp_source#l00986">DebuggerGDB::AddSourceDir()</a>, and <a class="el" href="debuggerdriver_8h_source#l00052">GetDebugger()</a>.</p>
 
 </div>
 </div>
@@ -502,7 +508,7 @@ Protected Attributes</h2></td></tr>
 
 <p>Implemented in <a class="el" href="classGDB__driver#sh-Attach">GDB_driver</a>, and <a class="el" href="classCDB__driver#ra-Attach">CDB_driver</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="debuggergdb_8cpp_source#l00665">DebuggerGDB::DoDebug()</a>, and <a class="el" href="debuggerdriver_8h_source#l00052">GetDebugger()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="debuggergdb_8cpp_source#l00707">DebuggerGDB::DoDebug()</a>, and <a class="el" href="debuggerdriver_8h_source#l00052">GetDebugger()</a>.</p>
 
 </div>
 </div>
@@ -531,7 +537,7 @@ Protected Attributes</h2></td></tr>
 
 <p>Implemented in <a class="el" href="classGDB__driver#ps-Backtrace">GDB_driver</a>, and <a class="el" href="classCDB__driver#f5-Backtrace">CDB_driver</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="debuggerdriver_8h_source#l00052">GetDebugger()</a>, and <a class="el" href="debuggergdb_8cpp_source#l01132">DebuggerGDB::RunCommand()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="debuggerdriver_8h_source#l00052">GetDebugger()</a>, and <a class="el" href="debuggergdb_8cpp_source#l01174">DebuggerGDB::RunCommand()</a>.</p>
 
 </div>
 </div>
@@ -562,9 +568,9 @@ Protected Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="debuggerdriver_8cpp_source#l00045">45</a> of file <a class="el" href="debuggerdriver_8cpp_source">debuggerdriver.cpp</a>.</p>
 
-<p class="reference">References <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_array_string.html#aad1c8fe1dd445b359a633cdd6c5940ce">wxArrayString::Clear()</a>, and <a class="el" href="debuggerdriver_8h_source#l00209">m_Dirs</a>.</p>
+<p class="reference">References <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_array_string.html#aad1c8fe1dd445b359a633cdd6c5940ce">wxArrayString::Clear()</a>, and <a class="el" href="debuggerdriver_8h_source#l00212">m_Dirs</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="debuggergdb_8cpp_source#l00665">DebuggerGDB::DoDebug()</a>, and <a class="el" href="debuggerdriver_8h_source#l00052">GetDebugger()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="debuggergdb_8cpp_source#l00707">DebuggerGDB::DoDebug()</a>, and <a class="el" href="debuggerdriver_8h_source#l00052">GetDebugger()</a>.</p>
 
 </div>
 </div>
@@ -593,7 +599,7 @@ Protected Attributes</h2></td></tr>
 
 <p>Implemented in <a class="el" href="classGDB__driver#h4-Continue">GDB_driver</a>, and <a class="el" href="classCDB__driver#pt-Continue">CDB_driver</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="debuggerdriver_8h_source#l00052">GetDebugger()</a>, <a class="el" href="gdb__commands_8h_source#l00400">GdbCmd_AddBreakpointCondition::ParseOutput()</a>, and <a class="el" href="debuggergdb_8cpp_source#l01132">DebuggerGDB::RunCommand()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="debuggerdriver_8h_source#l00052">GetDebugger()</a>, <a class="el" href="gdb__commands_8h_source#l00400">GdbCmd_AddBreakpointCondition::ParseOutput()</a>, and <a class="el" href="debuggergdb_8cpp_source#l01174">DebuggerGDB::RunCommand()</a>.</p>
 
 </div>
 </div>
@@ -622,7 +628,7 @@ Protected Attributes</h2></td></tr>
 
 <p>Implemented in <a class="el" href="classGDB__driver#bs-CPURegisters">GDB_driver</a>, and <a class="el" href="classCDB__driver#id-CPURegisters">CDB_driver</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="debuggerdriver_8h_source#l00052">GetDebugger()</a>, and <a class="el" href="debuggergdb_8cpp_source#l01132">DebuggerGDB::RunCommand()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="debuggerdriver_8h_source#l00052">GetDebugger()</a>, and <a class="el" href="debuggergdb_8cpp_source#l01174">DebuggerGDB::RunCommand()</a>.</p>
 
 </div>
 </div>
@@ -643,11 +649,11 @@ Protected Attributes</h2></td></tr>
 
 <p>returns the currently executing command </p>
 
-<p class="definition">Definition at line <a class="el" href="debuggerdriver_8cpp_source#l00118">118</a> of file <a class="el" href="debuggerdriver_8cpp_source">debuggerdriver.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="debuggerdriver_8cpp_source#l00120">120</a> of file <a class="el" href="debuggerdriver_8cpp_source">debuggerdriver.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="debuggerdriver_8h_source#l00221">m_DCmds</a>.</p>
+<p class="reference">References <a class="el" href="debuggerdriver_8h_source#l00224">m_DCmds</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="debuggerdriver_8h_source#l00164">GetChildPID()</a>, <a class="el" href="cdb__driver_8cpp_source#l00330">CDB_driver::ParseOutput()</a>, <a class="el" href="gdb__driver_8cpp_source#l00777">GDB_driver::ParseOutput()</a>, and <a class="el" href="debuggerdriver_8cpp_source#l00123">RunQueue()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="debuggerdriver_8h_source#l00164">GetChildPID()</a>, <a class="el" href="cdb__driver_8cpp_source#l00331">CDB_driver::ParseOutput()</a>, <a class="el" href="gdb__driver_8cpp_source#l00691">GDB_driver::ParseOutput()</a>, and <a class="el" href="debuggerdriver_8cpp_source#l00125">RunQueue()</a>.</p>
 
 </div>
 </div>
@@ -669,9 +675,7 @@ Protected Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="debuggerdriver_8cpp_source#l00040">40</a> of file <a class="el" href="debuggerdriver_8cpp_source">debuggerdriver.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="cbplugin_8cpp_source#l00540">cbDebuggerPlugin::DebugLog()</a>, and <a class="el" href="debuggerdriver_8h_source#l00206">m_pDBG</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="gdb__commands_8h_source#l00943">GdbCmd_TooltipEvaluation::GdbCmd_TooltipEvaluation()</a>, and <a class="el" href="gdb__commands_8h_source#l00989">GdbCmd_TooltipEvaluation::ParseOutput()</a>.</p>
+<p class="reference">References <a class="el" href="cbplugin_8cpp_source#l00540">cbDebuggerPlugin::DebugLog()</a>, and <a class="el" href="debuggerdriver_8h_source#l00209">m_pDBG</a>.</p>
 
 </div>
 </div>
@@ -702,7 +706,42 @@ Protected Attributes</h2></td></tr>
 
 <p>Implemented in <a class="el" href="classGDB__driver#ce-Detach">GDB_driver</a>, and <a class="el" href="classCDB__driver#xo-Detach">CDB_driver</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="debuggergdb_8cpp_source#l02216">DebuggerGDB::DetachFromProcess()</a>, and <a class="el" href="debuggerdriver_8h_source#l00052">GetDebugger()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="debuggergdb_8cpp_source#l02290">DebuggerGDB::DetachFromProcess()</a>, and <a class="el" href="debuggerdriver_8h_source#l00052">GetDebugger()</a>.</p>
+
+</div>
+</div>
+<a id="s1-DetermineLanguage"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#s1-DetermineLanguage">&#9670;&nbsp;</a></span>DetermineLanguage()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void DebuggerDriver::DetermineLanguage </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Determine language is debugged. </p>
+
+<p>Reimplemented in <a class="el" href="classGDB__driver#bz-DetermineLanguage">GDB_driver</a>.</p>
+
+<p class="definition">Definition at line <a class="el" href="debuggerdriver_8h_source#l00203">203</a> of file <a class="el" href="debuggerdriver_8h_source">debuggerdriver.h</a>.</p>
+
+<p class="reference">References <a class="el" href="debuggerdriver_8cpp_source#l00100">ResetCursor()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="debuggergdb_8cpp_source#l02319">DebuggerGDB::DetermineLanguage()</a>.</p>
 
 </div>
 </div>
@@ -731,7 +770,7 @@ Protected Attributes</h2></td></tr>
 
 <p>Implemented in <a class="el" href="classGDB__driver#x1-Disassemble">GDB_driver</a>, and <a class="el" href="classCDB__driver#cz-Disassemble">CDB_driver</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="debuggerdriver_8h_source#l00052">GetDebugger()</a>, and <a class="el" href="debuggergdb_8cpp_source#l01132">DebuggerGDB::RunCommand()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="debuggerdriver_8h_source#l00052">GetDebugger()</a>, and <a class="el" href="debuggergdb_8cpp_source#l01174">DebuggerGDB::RunCommand()</a>.</p>
 
 </div>
 </div>
@@ -761,7 +800,7 @@ Protected Attributes</h2></td></tr>
 
 <p>Implemented in <a class="el" href="classGDB__driver#x9-EnableCatchingThrow">GDB_driver</a>, and <a class="el" href="classCDB__driver#n0-EnableCatchingThrow">CDB_driver</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="debuggerdriver_8h_source#l00052">GetDebugger()</a>, and <a class="el" href="debuggergdb_8cpp_source#l01794">DebuggerGDB::OnCatchThrow()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="debuggerdriver_8h_source#l00052">GetDebugger()</a>, and <a class="el" href="debuggergdb_8cpp_source#l01836">DebuggerGDB::OnCatchThrow()</a>.</p>
 
 </div>
 </div>
@@ -810,7 +849,7 @@ Protected Attributes</h2></td></tr>
 
 <p>Implemented in <a class="el" href="classGDB__driver#kc-EvaluateSymbol">GDB_driver</a>, and <a class="el" href="classCDB__driver#me-EvaluateSymbol">CDB_driver</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="debuggerdriver_8h_source#l00052">GetDebugger()</a>, and <a class="el" href="debuggergdb_8cpp_source#l01945">DebuggerGDB::OnValueTooltip()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="debuggerdriver_8h_source#l00052">GetDebugger()</a>, and <a class="el" href="debuggergdb_8cpp_source#l01988">DebuggerGDB::OnValueTooltip()</a>.</p>
 
 </div>
 </div>
@@ -841,9 +880,9 @@ Protected Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="debuggerdriver_8h_source#l00164">164</a> of file <a class="el" href="debuggerdriver_8h_source">debuggerdriver.h</a>.</p>
 
-<p class="reference">References <a class="el" href="debuggerdriver_8cpp_source#l00118">CurrentCommand()</a>, <a class="el" href="debuggerdriver_8cpp_source#l00061">GetDebuggersWorkingDirectory()</a>, <a class="el" href="debuggerdriver_8cpp_source#l00164">GetStackFrames()</a>, <a class="el" href="debuggerdriver_8cpp_source#l00174">GetThreads()</a>, <a class="el" href="debuggerdriver_8h_source#l00040">Low</a>, <a class="el" href="debuggerdriver_8h_source#l00218">m_ChildPID</a>, <a class="el" href="debuggerdriver_8cpp_source#l00108">QueueCommand()</a>, <a class="el" href="debuggerdriver_8cpp_source#l00153">RemoveTopCommand()</a>, <a class="el" href="debuggerdriver_8cpp_source#l00123">RunQueue()</a>, <a class="el" href="debuggerdriver_8cpp_source#l00075">ShowFile()</a>, <a class="el" href="classDebuggerDriver#f2-SwitchThread">SwitchThread()</a>, and <a class="el" href="classDebuggerDriver#ib-UseDebugBreakProcess">UseDebugBreakProcess()</a>.</p>
+<p class="reference">References <a class="el" href="debuggerdriver_8cpp_source#l00120">CurrentCommand()</a>, <a class="el" href="debuggerdriver_8cpp_source#l00061">GetDebuggersWorkingDirectory()</a>, <a class="el" href="debuggerdriver_8cpp_source#l00166">GetStackFrames()</a>, <a class="el" href="debuggerdriver_8cpp_source#l00176">GetThreads()</a>, <a class="el" href="debuggerdriver_8h_source#l00040">Low</a>, <a class="el" href="debuggerdriver_8h_source#l00221">m_ChildPID</a>, <a class="el" href="debuggerdriver_8cpp_source#l00110">QueueCommand()</a>, <a class="el" href="debuggerdriver_8cpp_source#l00155">RemoveTopCommand()</a>, <a class="el" href="debuggerdriver_8cpp_source#l00125">RunQueue()</a>, <a class="el" href="debuggerdriver_8cpp_source#l00077">ShowFile()</a>, <a class="el" href="classDebuggerDriver#f2-SwitchThread">SwitchThread()</a>, and <a class="el" href="classDebuggerDriver#ib-UseDebugBreakProcess">UseDebugBreakProcess()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="debuggergdb_8cpp_source#l01573">DebuggerGDB::DoBreak()</a>, and <a class="el" href="debuggergdb_8cpp_source#l01671">DebuggerGDB::Stop()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="debuggergdb_8cpp_source#l01615">DebuggerGDB::DoBreak()</a>, and <a class="el" href="debuggergdb_8cpp_source#l01713">DebuggerGDB::Stop()</a>.</p>
 
 </div>
 </div>
@@ -891,7 +930,7 @@ Protected Attributes</h2></td></tr>
 
 <p>Implemented in <a class="el" href="classGDB__driver#u1-GetCommandLine">GDB_driver</a>, and <a class="el" href="classCDB__driver#sn-GetCommandLine">CDB_driver</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="debuggergdb_8cpp_source#l00665">DebuggerGDB::DoDebug()</a>, and <a class="el" href="debuggerdriver_8h_source#l00052">GetDebugger()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="debuggergdb_8cpp_source#l00707">DebuggerGDB::DoDebug()</a>, and <a class="el" href="debuggerdriver_8h_source#l00052">GetDebugger()</a>.</p>
 
 </div>
 </div>
@@ -966,9 +1005,9 @@ Protected Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="debuggerdriver_8h_source#l00194">194</a> of file <a class="el" href="debuggerdriver_8h_source">debuggerdriver.h</a>.</p>
 
-<p class="reference">References <a class="el" href="debuggerdriver_8h_source#l00226">m_currentFrameNo</a>.</p>
+<p class="reference">References <a class="el" href="debuggerdriver_8h_source#l00229">m_currentFrameNo</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="debuggergdb_8cpp_source#l01292">DebuggerGDB::GetActiveStackFrame()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="debuggergdb_8cpp_source#l01334">DebuggerGDB::GetActiveStackFrame()</a>.</p>
 
 </div>
 </div>
@@ -999,9 +1038,9 @@ Protected Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="debuggerdriver_8h_source#l00189">189</a> of file <a class="el" href="debuggerdriver_8h_source">debuggerdriver.h</a>.</p>
 
-<p class="reference">References <a class="el" href="debuggerdriver_8h_source#l00216">m_Cursor</a>.</p>
+<p class="reference">References <a class="el" href="debuggerdriver_8h_source#l00219">m_Cursor</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="gdb__commands_8h_source#l01565">GdbCmd_DisassemblyInit::GdbCmd_DisassemblyInit()</a>, <a class="el" href="debuggergdb_8cpp_source#l01702">DebuggerGDB::GetCurrentPosition()</a>, <a class="el" href="debuggergdb_8cpp_source#l01995">DebuggerGDB::OnCursorChanged()</a>, <a class="el" href="gdb__commands_8h_source#l01588">GdbCmd_DisassemblyInit::ParseOutput()</a>, and <a class="el" href="gdb__commands_8h_source#l01911">GdbCmd_FindCursor::ParseOutput()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="gdb__commands_8h_source#l01493">GdbCmd_DisassemblyInit::GdbCmd_DisassemblyInit()</a>, <a class="el" href="debuggergdb_8cpp_source#l01744">DebuggerGDB::GetCurrentPosition()</a>, <a class="el" href="debuggergdb_8cpp_source#l02038">DebuggerGDB::OnCursorChanged()</a>, <a class="el" href="gdb__commands_8h_source#l01516">GdbCmd_DisassemblyInit::ParseOutput()</a>, and <a class="el" href="gdb__commands_8h_source#l01839">GdbCmd_FindCursor::ParseOutput()</a>.</p>
 
 </div>
 </div>
@@ -1030,9 +1069,9 @@ Protected Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="debuggerdriver_8h_source#l00052">52</a> of file <a class="el" href="debuggerdriver_8h_source">debuggerdriver.h</a>.</p>
 
-<p class="reference">References <a class="el" href="classDebuggerDriver#hh-AddBreakpoint">AddBreakpoint()</a>, <a class="el" href="debuggerdriver_8cpp_source#l00050">AddDirectory()</a>, <a class="el" href="classDebuggerDriver#r6-Attach">Attach()</a>, <a class="el" href="classDebuggerDriver#k1-Backtrace">Backtrace()</a>, <a class="el" href="debuggerdriver_8cpp_source#l00045">ClearDirectories()</a>, <a class="el" href="classDebuggerDriver#ht-Continue">Continue()</a>, <a class="el" href="classDebuggerDriver#cb-CPURegisters">CPURegisters()</a>, <a class="el" href="classDebuggerDriver#w2-Detach">Detach()</a>, <a class="el" href="classDebuggerDriver#vb-Disassemble">Disassemble()</a>, <a class="el" href="classDebuggerDriver#qs-EnableCatchingThrow">EnableCatchingThrow()</a>, <a class="el" href="classDebuggerDriver#sk-EvaluateSymbol">EvaluateSymbol()</a>, <a class="el" href="classDebuggerDriver#pv-GetCommandLine">GetCommandLine()</a>, <a class="el" href="classDebuggerDriver#ol-InfoDLL">InfoDLL()</a>, <a class="el" href="classDebuggerDriver#ks-InfoFiles">InfoFiles()</a>, <a class="el" href="classDebuggerDriver#n3-InfoFPU">InfoFPU()</a>, <a class="el" href="classDebuggerDriver#kv-InfoFrame">InfoFrame()</a>, <a class="el" href="classDebuggerDriver#kg-InfoSignals">InfoSignals()</a>, <a class="el" href="classDebuggerDriver#mj-IsDebuggingStarted">IsDebuggingStarted()</a>, <a class="el" href="debuggerdriver_8h_source#l00206">m_pDBG</a>, <a class="el" href="classDebuggerDriver#cg-MemoryDump">MemoryDump()</a>, <a class="el" href="classDebuggerDriver#fj-ParseOutput">ParseOutput()</a>, <a class="el" href="classDebuggerDriver#tt-Prepare">Prepare()</a>, <a class="el" href="classDebuggerDriver#j3-RemoveBreakpoint">RemoveBreakpoint()</a>, <a class="el" href="classDebuggerDriver#ia-RunningThreads">RunningThreads()</a>, <a class="el" href="debuggerdriver_8cpp_source#l00070">SetArguments()</a>, <a class="el" href="classDebuggerDriver#gd-SetNextStatement">SetNextStatement()</a>, <a class="el" href="classDebuggerDriver#av-SetTarget">SetTarget()</a>, <a class="el" href="classDebuggerDriver#dw-SetVarValue">SetVarValue()</a>, <a class="el" href="debuggerdriver_8cpp_source#l00056">SetWorkingDirectory()</a>, <a class="el" href="classDebuggerDriver#sm-Start">Start()</a>, <a class="el" href="classDebuggerDriver#vb-Step">Step()</a>, <a class="el" href="classDebuggerDriver#y1-StepIn">StepIn()</a>, <a class="el" href="classDebuggerDriver#xg-StepInstruction">StepInstruction()</a>, <a class="el" href="classDebuggerDriver#lq-StepIntoInstruction">StepIntoInstruction()</a>, <a class="el" href="classDebuggerDriver#e9-StepOut">StepOut()</a>, <a class="el" href="classDebuggerDriver#l0-Stop">Stop()</a>, <a class="el" href="classDebuggerDriver#rr-SwitchToFrame">SwitchToFrame()</a>, <a class="el" href="classDebuggerDriver#s1-UpdateWatch">UpdateWatch()</a>, <a class="el" href="classDebuggerDriver#o2-UpdateWatches">UpdateWatches()</a>, and <a class="el" href="classDebuggerDriver#rk-UpdateWatchLocalsArgs">UpdateWatchLocalsArgs()</a>.</p>
+<p class="reference">References <a class="el" href="classDebuggerDriver#hh-AddBreakpoint">AddBreakpoint()</a>, <a class="el" href="debuggerdriver_8cpp_source#l00050">AddDirectory()</a>, <a class="el" href="classDebuggerDriver#r6-Attach">Attach()</a>, <a class="el" href="classDebuggerDriver#k1-Backtrace">Backtrace()</a>, <a class="el" href="debuggerdriver_8cpp_source#l00045">ClearDirectories()</a>, <a class="el" href="classDebuggerDriver#ht-Continue">Continue()</a>, <a class="el" href="classDebuggerDriver#cb-CPURegisters">CPURegisters()</a>, <a class="el" href="classDebuggerDriver#w2-Detach">Detach()</a>, <a class="el" href="classDebuggerDriver#vb-Disassemble">Disassemble()</a>, <a class="el" href="classDebuggerDriver#qs-EnableCatchingThrow">EnableCatchingThrow()</a>, <a class="el" href="classDebuggerDriver#sk-EvaluateSymbol">EvaluateSymbol()</a>, <a class="el" href="classDebuggerDriver#pv-GetCommandLine">GetCommandLine()</a>, <a class="el" href="classDebuggerDriver#ol-InfoDLL">InfoDLL()</a>, <a class="el" href="classDebuggerDriver#ks-InfoFiles">InfoFiles()</a>, <a class="el" href="classDebuggerDriver#n3-InfoFPU">InfoFPU()</a>, <a class="el" href="classDebuggerDriver#kv-InfoFrame">InfoFrame()</a>, <a class="el" href="classDebuggerDriver#kg-InfoSignals">InfoSignals()</a>, <a class="el" href="classDebuggerDriver#mj-IsDebuggingStarted">IsDebuggingStarted()</a>, <a class="el" href="debuggerdriver_8h_source#l00209">m_pDBG</a>, <a class="el" href="classDebuggerDriver#cg-MemoryDump">MemoryDump()</a>, <a class="el" href="classDebuggerDriver#fj-ParseOutput">ParseOutput()</a>, <a class="el" href="classDebuggerDriver#tt-Prepare">Prepare()</a>, <a class="el" href="classDebuggerDriver#j3-RemoveBreakpoint">RemoveBreakpoint()</a>, <a class="el" href="classDebuggerDriver#ia-RunningThreads">RunningThreads()</a>, <a class="el" href="debuggerdriver_8cpp_source#l00072">SetArguments()</a>, <a class="el" href="classDebuggerDriver#gd-SetNextStatement">SetNextStatement()</a>, <a class="el" href="classDebuggerDriver#av-SetTarget">SetTarget()</a>, <a class="el" href="classDebuggerDriver#dw-SetVarValue">SetVarValue()</a>, <a class="el" href="debuggerdriver_8cpp_source#l00056">SetWorkingDirectory()</a>, <a class="el" href="classDebuggerDriver#sm-Start">Start()</a>, <a class="el" href="classDebuggerDriver#vb-Step">Step()</a>, <a class="el" href="classDebuggerDriver#y1-StepIn">StepIn()</a>, <a class="el" href="classDebuggerDriver#xg-StepInstruction">StepInstruction()</a>, <a class="el" href="classDebuggerDriver#lq-StepIntoInstruction">StepIntoInstruction()</a>, <a class="el" href="classDebuggerDriver#e9-StepOut">StepOut()</a>, <a class="el" href="classDebuggerDriver#l0-Stop">Stop()</a>, <a class="el" href="classDebuggerDriver#rr-SwitchToFrame">SwitchToFrame()</a>, <a class="el" href="classDebuggerDriver#s1-UpdateWatch">UpdateWatch()</a>, <a class="el" href="classDebuggerDriver#o2-UpdateWatches">UpdateWatches()</a>, and <a class="el" href="classDebuggerDriver#rk-UpdateWatchLocalsArgs">UpdateWatchLocalsArgs()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="gdb__commands_8h_source#l00989">GdbCmd_TooltipEvaluation::ParseOutput()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="gdb__commands_8h_source#l00945">GdbCmd_TooltipEvaluation::ParseOutput()</a>.</p>
 
 </div>
 </div>
@@ -1053,9 +1092,9 @@ Protected Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="debuggerdriver_8cpp_source#l00061">61</a> of file <a class="el" href="debuggerdriver_8cpp_source">debuggerdriver.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="debuggerdriver_8h_source#l00210">m_WorkingDir</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__file.html#gab0cc6ceca11d23f61cba353c01eeac06">wxGetCwd()</a>, and <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__file.html#ga315b861f905ae6b3915faa79526a198e">wxSetWorkingDirectory()</a>.</p>
+<p class="reference">References <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#ac6ae24a8ccc6e4e671f972948fca437c">wxString::empty()</a>, <a class="el" href="debuggerdriver_8h_source#l00213">m_WorkingDir</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/interface_2wx_2string_8h.html#a9a321d587166a30017b608dd2d234033">wxEmptyString</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__file.html#gab0cc6ceca11d23f61cba353c01eeac06">wxGetCwd()</a>, and <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__file.html#ga315b861f905ae6b3915faa79526a198e">wxSetWorkingDirectory()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="debuggergdb_8cpp_source#l00665">DebuggerGDB::DoDebug()</a>, and <a class="el" href="debuggerdriver_8h_source#l00164">GetChildPID()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="debuggergdb_8cpp_source#l00707">DebuggerGDB::DoDebug()</a>, and <a class="el" href="debuggerdriver_8h_source#l00164">GetChildPID()</a>.</p>
 
 </div>
 </div>
@@ -1076,11 +1115,11 @@ Protected Attributes</h2></td></tr>
 
 <p>returns the container with the current backtrace </p>
 
-<p class="definition">Definition at line <a class="el" href="debuggerdriver_8cpp_source#l00164">164</a> of file <a class="el" href="debuggerdriver_8cpp_source">debuggerdriver.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="debuggerdriver_8cpp_source#l00166">166</a> of file <a class="el" href="debuggerdriver_8cpp_source">debuggerdriver.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="debuggerdriver_8h_source#l00224">m_backtrace</a>.</p>
+<p class="reference">References <a class="el" href="debuggerdriver_8h_source#l00227">m_backtrace</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="debuggerdriver_8h_source#l00164">GetChildPID()</a>, <a class="el" href="debuggergdb_8cpp_source#l01275">DebuggerGDB::GetStackFrame()</a>, <a class="el" href="debuggergdb_8cpp_source#l01270">DebuggerGDB::GetStackFrameCount()</a>, <a class="el" href="cdb__commands_8h_source#l00410">CdbCmd_Backtrace::ParseOutput()</a>, and <a class="el" href="gdb__commands_8h_source#l01204">GdbCmd_Backtrace::ParseOutput()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="debuggerdriver_8h_source#l00164">GetChildPID()</a>, <a class="el" href="debuggergdb_8cpp_source#l01317">DebuggerGDB::GetStackFrame()</a>, <a class="el" href="debuggergdb_8cpp_source#l01312">DebuggerGDB::GetStackFrameCount()</a>, <a class="el" href="cdb__commands_8h_source#l00410">CdbCmd_Backtrace::ParseOutput()</a>, and <a class="el" href="gdb__commands_8h_source#l01132">GdbCmd_Backtrace::ParseOutput()</a>.</p>
 
 </div>
 </div>
@@ -1101,9 +1140,9 @@ Protected Attributes</h2></td></tr>
 
 <p>returns the container with the current backtrace </p>
 
-<p class="definition">Definition at line <a class="el" href="debuggerdriver_8cpp_source#l00169">169</a> of file <a class="el" href="debuggerdriver_8cpp_source">debuggerdriver.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="debuggerdriver_8cpp_source#l00171">171</a> of file <a class="el" href="debuggerdriver_8cpp_source">debuggerdriver.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="debuggerdriver_8h_source#l00224">m_backtrace</a>.</p>
+<p class="reference">References <a class="el" href="debuggerdriver_8h_source#l00227">m_backtrace</a>.</p>
 
 </div>
 </div>
@@ -1124,11 +1163,11 @@ Protected Attributes</h2></td></tr>
 
 <p>returns the thread container with the current list of threads </p>
 
-<p class="definition">Definition at line <a class="el" href="debuggerdriver_8cpp_source#l00174">174</a> of file <a class="el" href="debuggerdriver_8cpp_source">debuggerdriver.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="debuggerdriver_8cpp_source#l00176">176</a> of file <a class="el" href="debuggerdriver_8cpp_source">debuggerdriver.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="debuggerdriver_8h_source#l00225">m_threads</a>.</p>
+<p class="reference">References <a class="el" href="debuggerdriver_8h_source#l00228">m_threads</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="debuggerdriver_8h_source#l00164">GetChildPID()</a>, <a class="el" href="debuggergdb_8cpp_source#l01305">DebuggerGDB::GetThread()</a>, <a class="el" href="debuggergdb_8cpp_source#l01297">DebuggerGDB::GetThreadsCount()</a>, <a class="el" href="gdb__commands_8h_source#l00742">GdbCmd_Threads::ParseOutput()</a>, and <a class="el" href="debuggergdb_8cpp_source#l01310">DebuggerGDB::SwitchToThread()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="debuggerdriver_8h_source#l00164">GetChildPID()</a>, <a class="el" href="debuggergdb_8cpp_source#l01347">DebuggerGDB::GetThread()</a>, <a class="el" href="debuggergdb_8cpp_source#l01339">DebuggerGDB::GetThreadsCount()</a>, <a class="el" href="gdb__commands_8h_source#l00742">GdbCmd_Threads::ParseOutput()</a>, and <a class="el" href="debuggergdb_8cpp_source#l01352">DebuggerGDB::SwitchToThread()</a>.</p>
 
 </div>
 </div>
@@ -1149,9 +1188,9 @@ Protected Attributes</h2></td></tr>
 
 <p>returns the thread container with the current list of threads </p>
 
-<p class="definition">Definition at line <a class="el" href="debuggerdriver_8cpp_source#l00179">179</a> of file <a class="el" href="debuggerdriver_8cpp_source">debuggerdriver.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="debuggerdriver_8cpp_source#l00181">181</a> of file <a class="el" href="debuggerdriver_8cpp_source">debuggerdriver.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="debuggerdriver_8h_source#l00225">m_threads</a>.</p>
+<p class="reference">References <a class="el" href="debuggerdriver_8h_source#l00228">m_threads</a>.</p>
 
 </div>
 </div>
@@ -1180,9 +1219,9 @@ Protected Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="debuggerdriver_8h_source#l00195">195</a> of file <a class="el" href="debuggerdriver_8h_source">debuggerdriver.h</a>.</p>
 
-<p class="reference">References <a class="el" href="debuggerdriver_8h_source#l00227">m_userSelectedFrameNo</a>, <a class="el" href="debuggerdriver_8cpp_source#l00083">NotifyCursorChanged()</a>, <a class="el" href="debuggerdriver_8cpp_source#l00092">NotifyDebuggeeContinued()</a>, <a class="el" href="debuggerdriver_8cpp_source#l00098">ResetCursor()</a>, and <a class="el" href="debuggerdriver_8cpp_source#l00184">SetCurrentFrame()</a>.</p>
+<p class="reference">References <a class="el" href="debuggerdriver_8h_source#l00230">m_userSelectedFrameNo</a>, <a class="el" href="debuggerdriver_8cpp_source#l00085">NotifyCursorChanged()</a>, <a class="el" href="debuggerdriver_8cpp_source#l00094">NotifyDebuggeeContinued()</a>, and <a class="el" href="debuggerdriver_8cpp_source#l00186">SetCurrentFrame()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="gdb__commands_8h_source#l01204">GdbCmd_Backtrace::ParseOutput()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="gdb__commands_8h_source#l01132">GdbCmd_Backtrace::ParseOutput()</a>.</p>
 
 </div>
 </div>
@@ -1211,7 +1250,7 @@ Protected Attributes</h2></td></tr>
 
 <p>Implemented in <a class="el" href="classGDB__driver#kj-InfoDLL">GDB_driver</a>, and <a class="el" href="classCDB__driver#s9-InfoDLL">CDB_driver</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="debuggerdriver_8h_source#l00052">GetDebugger()</a>, and <a class="el" href="debuggergdb_8cpp_source#l01807">DebuggerGDB::OnInfoDLL()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="debuggerdriver_8h_source#l00052">GetDebugger()</a>, and <a class="el" href="debuggergdb_8cpp_source#l01849">DebuggerGDB::OnInfoDLL()</a>.</p>
 
 </div>
 </div>
@@ -1240,7 +1279,7 @@ Protected Attributes</h2></td></tr>
 
 <p>Implemented in <a class="el" href="classGDB__driver#y8-InfoFiles">GDB_driver</a>, and <a class="el" href="classCDB__driver#kn-InfoFiles">CDB_driver</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="debuggerdriver_8h_source#l00052">GetDebugger()</a>, and <a class="el" href="debuggergdb_8cpp_source#l01815">DebuggerGDB::OnInfoFiles()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="debuggerdriver_8h_source#l00052">GetDebugger()</a>, and <a class="el" href="debuggergdb_8cpp_source#l01857">DebuggerGDB::OnInfoFiles()</a>.</p>
 
 </div>
 </div>
@@ -1269,7 +1308,7 @@ Protected Attributes</h2></td></tr>
 
 <p>Implemented in <a class="el" href="classGDB__driver#yo-InfoFPU">GDB_driver</a>, and <a class="el" href="classCDB__driver#a6-InfoFPU">CDB_driver</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="debuggerdriver_8h_source#l00052">GetDebugger()</a>, and <a class="el" href="debuggergdb_8cpp_source#l01821">DebuggerGDB::OnInfoFPU()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="debuggerdriver_8h_source#l00052">GetDebugger()</a>, and <a class="el" href="debuggergdb_8cpp_source#l01863">DebuggerGDB::OnInfoFPU()</a>.</p>
 
 </div>
 </div>
@@ -1298,7 +1337,7 @@ Protected Attributes</h2></td></tr>
 
 <p>Implemented in <a class="el" href="classGDB__driver#rd-InfoFrame">GDB_driver</a>, and <a class="el" href="classCDB__driver#rj-InfoFrame">CDB_driver</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="debuggerdriver_8h_source#l00052">GetDebugger()</a>, and <a class="el" href="debuggergdb_8cpp_source#l01801">DebuggerGDB::OnInfoFrame()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="debuggerdriver_8h_source#l00052">GetDebugger()</a>, and <a class="el" href="debuggergdb_8cpp_source#l01843">DebuggerGDB::OnInfoFrame()</a>.</p>
 
 </div>
 </div>
@@ -1327,7 +1366,7 @@ Protected Attributes</h2></td></tr>
 
 <p>Implemented in <a class="el" href="classGDB__driver#o9-InfoSignals">GDB_driver</a>, and <a class="el" href="classCDB__driver#o5-InfoSignals">CDB_driver</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="debuggerdriver_8h_source#l00052">GetDebugger()</a>, and <a class="el" href="debuggergdb_8cpp_source#l01827">DebuggerGDB::OnInfoSignals()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="debuggerdriver_8h_source#l00052">GetDebugger()</a>, and <a class="el" href="debuggergdb_8cpp_source#l01869">DebuggerGDB::OnInfoSignals()</a>.</p>
 
 </div>
 </div>
@@ -1358,7 +1397,7 @@ Protected Attributes</h2></td></tr>
 
 <p>Implemented in <a class="el" href="classGDB__driver#um-IsDebuggingStarted">GDB_driver</a>, and <a class="el" href="classCDB__driver#i9-IsDebuggingStarted">CDB_driver</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="debuggerdriver_8h_source#l00052">GetDebugger()</a>, and <a class="el" href="debuggergdb_8cpp_source#l01927">DebuggerGDB::ShowValueTooltip()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="debuggerdriver_8h_source#l00052">GetDebugger()</a>, and <a class="el" href="debuggergdb_8cpp_source#l01969">DebuggerGDB::ShowValueTooltip()</a>.</p>
 
 </div>
 </div>
@@ -1389,9 +1428,9 @@ Protected Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="debuggerdriver_8h_source#l00157">157</a> of file <a class="el" href="debuggerdriver_8h_source">debuggerdriver.h</a>.</p>
 
-<p class="reference">References <a class="el" href="debuggerdriver_8h_source#l00214">m_ProgramIsStopped</a>.</p>
+<p class="reference">References <a class="el" href="debuggerdriver_8h_source#l00217">m_ProgramIsStopped</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="debuggergdb_8cpp_source#l00614">DebuggerGDB::IsStopped()</a>, and <a class="el" href="debuggerdriver_8cpp_source#l00123">RunQueue()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="debuggergdb_8cpp_source#l00656">DebuggerGDB::IsStopped()</a>, and <a class="el" href="debuggerdriver_8cpp_source#l00125">RunQueue()</a>.</p>
 
 </div>
 </div>
@@ -1422,9 +1461,9 @@ Protected Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="debuggerdriver_8h_source#l00160">160</a> of file <a class="el" href="debuggerdriver_8h_source">debuggerdriver.h</a>.</p>
 
-<p class="reference">References <a class="el" href="debuggerdriver_8h_source#l00222">m_QueueBusy</a>.</p>
+<p class="reference">References <a class="el" href="debuggerdriver_8h_source#l00225">m_QueueBusy</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="debuggergdb_8cpp_source#l00619">DebuggerGDB::IsBusy()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="debuggergdb_8cpp_source#l00661">DebuggerGDB::IsBusy()</a>.</p>
 
 </div>
 </div>
@@ -1446,9 +1485,9 @@ Protected Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="debuggerdriver_8cpp_source#l00035">35</a> of file <a class="el" href="debuggerdriver_8cpp_source">debuggerdriver.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="cbplugin_8cpp_source#l00530">cbDebuggerPlugin::Log()</a>, and <a class="el" href="debuggerdriver_8h_source#l00206">m_pDBG</a>.</p>
+<p class="reference">References <a class="el" href="cbplugin_8cpp_source#l00530">cbDebuggerPlugin::Log()</a>, and <a class="el" href="debuggerdriver_8h_source#l00209">m_pDBG</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="gdb__commands_8h_source#l00325">GdbCmd_AttachToProcess::GdbCmd_AttachToProcess()</a>, <a class="el" href="gdb__commands_8h_source#l01731">GdbCmd_RemoteBaud::GdbCmd_RemoteBaud()</a>, <a class="el" href="gdb__commands_8h_source#l01745">GdbCmd_RemoteTarget::GdbCmd_RemoteTarget()</a>, <a class="el" href="cdb__commands_8h_source#l00052">CdbCmd_AddSourceDir::ParseOutput()</a>, <a class="el" href="cdb__driver_8cpp_source#l00330">CDB_driver::ParseOutput()</a>, <a class="el" href="debugger__defs_8cpp_source#l00037">DebuggerCmd::ParseOutput()</a>, <a class="el" href="cdb__commands_8h_source#l00074">CdbCmd_SetDebuggee::ParseOutput()</a>, <a class="el" href="gdb__driver_8cpp_source#l00777">GDB_driver::ParseOutput()</a>, <a class="el" href="cdb__commands_8h_source#l00098">CdbCmd_AddSymbolFile::ParseOutput()</a>, <a class="el" href="cdb__commands_8h_source#l00180">CdbCmd_AttachToProcess::ParseOutput()</a>, <a class="el" href="cdb__commands_8h_source#l00217">CdbCmd_Detach::ParseOutput()</a>, <a class="el" href="gdb__commands_8h_source#l00238">GdbCmd_AddSourceDir::ParseOutput()</a>, <a class="el" href="gdb__commands_8h_source#l00260">GdbCmd_SetDebuggee::ParseOutput()</a>, <a class="el" href="cdb__commands_8h_source#l00272">CdbCmd_AddBreakpoint::ParseOutput()</a>, <a class="el" href="gdb__commands_8h_source#l00284">GdbCmd_AddSymbolFile::ParseOutput()</a>, <a class="el" href="cdb__commands_8h_source#l00308">CdbCmd_RemoveBreakpoint::ParseOutput()</a>, <a class="el" href="gdb__commands_8h_source#l00331">GdbCmd_AttachToProcess::ParseOutput()</a>, <a class="el" href="gdb__commands_8h_source#l00367">GdbCmd_Detach::ParseOutput()</a>, <a class="el" href="gdb__commands_8h_source#l00481">GdbCmd_AddBreakpoint::ParseOutput()</a>, <a class="el" href="gdb__commands_8h_source#l00567">GdbCmd_AddDataBreakpoint::ParseOutput()</a>, <a class="el" href="cdb__commands_8h_source#l00604">CdbCmd_DisassemblyInit::ParseOutput()</a>, <a class="el" href="gdb__commands_8h_source#l00608">GdbCmd_RemoveBreakpoint::ParseOutput()</a>, <a class="el" href="gdb__commands_8h_source#l00683">GdbCmd_Start::ParseOutput()</a>, <a class="el" href="gdb__commands_8h_source#l01187">GdbCmd_ChangeFrame::ParseOutput()</a>, <a class="el" href="gdb__commands_8h_source#l01204">GdbCmd_Backtrace::ParseOutput()</a>, <a class="el" href="gdb__commands_8h_source#l01588">GdbCmd_DisassemblyInit::ParseOutput()</a>, <a class="el" href="gdb__commands_8h_source#l01782">GdbCmd_RemoteTarget::ParseOutput()</a>, and <a class="el" href="gdb__commands_8h_source#l01846">GdbCmd_StepOrNextInstruction::ParseOutput()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="gdb__commands_8h_source#l00322">GdbCmd_AttachToProcess::GdbCmd_AttachToProcess()</a>, <a class="el" href="gdb__commands_8h_source#l01659">GdbCmd_RemoteBaud::GdbCmd_RemoteBaud()</a>, <a class="el" href="gdb__commands_8h_source#l01673">GdbCmd_RemoteTarget::GdbCmd_RemoteTarget()</a>, <a class="el" href="cdb__commands_8h_source#l00052">CdbCmd_AddSourceDir::ParseOutput()</a>, <a class="el" href="cdb__driver_8cpp_source#l00331">CDB_driver::ParseOutput()</a>, <a class="el" href="gdb__driver_8cpp_source#l00691">GDB_driver::ParseOutput()</a>, <a class="el" href="debugger__defs_8cpp_source#l00037">DebuggerCmd::ParseOutput()</a>, <a class="el" href="cdb__commands_8h_source#l00074">CdbCmd_SetDebuggee::ParseOutput()</a>, <a class="el" href="cdb__commands_8h_source#l00098">CdbCmd_AddSymbolFile::ParseOutput()</a>, <a class="el" href="cdb__commands_8h_source#l00180">CdbCmd_AttachToProcess::ParseOutput()</a>, <a class="el" href="cdb__commands_8h_source#l00217">CdbCmd_Detach::ParseOutput()</a>, <a class="el" href="gdb__commands_8h_source#l00235">GdbCmd_AddSourceDir::ParseOutput()</a>, <a class="el" href="gdb__commands_8h_source#l00257">GdbCmd_SetDebuggee::ParseOutput()</a>, <a class="el" href="cdb__commands_8h_source#l00272">CdbCmd_AddBreakpoint::ParseOutput()</a>, <a class="el" href="gdb__commands_8h_source#l00281">GdbCmd_AddSymbolFile::ParseOutput()</a>, <a class="el" href="cdb__commands_8h_source#l00308">CdbCmd_RemoveBreakpoint::ParseOutput()</a>, <a class="el" href="gdb__commands_8h_source#l00328">GdbCmd_AttachToProcess::ParseOutput()</a>, <a class="el" href="gdb__commands_8h_source#l00367">GdbCmd_Detach::ParseOutput()</a>, <a class="el" href="gdb__commands_8h_source#l00481">GdbCmd_AddBreakpoint::ParseOutput()</a>, <a class="el" href="gdb__commands_8h_source#l00567">GdbCmd_AddDataBreakpoint::ParseOutput()</a>, <a class="el" href="cdb__commands_8h_source#l00604">CdbCmd_DisassemblyInit::ParseOutput()</a>, <a class="el" href="gdb__commands_8h_source#l00608">GdbCmd_RemoveBreakpoint::ParseOutput()</a>, <a class="el" href="gdb__commands_8h_source#l00683">GdbCmd_Start::ParseOutput()</a>, <a class="el" href="gdb__commands_8h_source#l01115">GdbCmd_ChangeFrame::ParseOutput()</a>, <a class="el" href="gdb__commands_8h_source#l01132">GdbCmd_Backtrace::ParseOutput()</a>, <a class="el" href="gdb__commands_8h_source#l01516">GdbCmd_DisassemblyInit::ParseOutput()</a>, <a class="el" href="gdb__commands_8h_source#l01710">GdbCmd_RemoteTarget::ParseOutput()</a>, and <a class="el" href="gdb__commands_8h_source#l01774">GdbCmd_StepOrNextInstruction::ParseOutput()</a>.</p>
 
 </div>
 </div>
@@ -1478,9 +1517,9 @@ Protected Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="debuggerdriver_8h_source#l00158">158</a> of file <a class="el" href="debuggerdriver_8h_source">debuggerdriver.h</a>.</p>
 
-<p class="reference">References <a class="el" href="debuggerdriver_8h_source#l00214">m_ProgramIsStopped</a>.</p>
+<p class="reference">References <a class="el" href="debuggerdriver_8h_source#l00217">m_ProgramIsStopped</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="gdb__commands_8h_source#l00683">GdbCmd_Start::ParseOutput()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="gdb__commands_8h_source#l00328">GdbCmd_AttachToProcess::ParseOutput()</a>, and <a class="el" href="gdb__commands_8h_source#l00683">GdbCmd_Start::ParseOutput()</a>.</p>
 
 </div>
 </div>
@@ -1509,7 +1548,7 @@ Protected Attributes</h2></td></tr>
 
 <p>Implemented in <a class="el" href="classGDB__driver#k0-MemoryDump">GDB_driver</a>, and <a class="el" href="classCDB__driver#cw-MemoryDump">CDB_driver</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="debuggerdriver_8h_source#l00052">GetDebugger()</a>, and <a class="el" href="debuggergdb_8cpp_source#l01132">DebuggerGDB::RunCommand()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="debuggerdriver_8h_source#l00052">GetDebugger()</a>, and <a class="el" href="debuggergdb_8cpp_source#l01174">DebuggerGDB::RunCommand()</a>.</p>
 
 </div>
 </div>
@@ -1530,11 +1569,11 @@ Protected Attributes</h2></td></tr>
 
 <p>Called by implementations to notify cursor changes. </p>
 
-<p class="definition">Definition at line <a class="el" href="debuggerdriver_8cpp_source#l00083">83</a> of file <a class="el" href="debuggerdriver_8cpp_source">debuggerdriver.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="debuggerdriver_8cpp_source#l00085">85</a> of file <a class="el" href="debuggerdriver_8cpp_source">debuggerdriver.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="debugger__defs_8h_source#l00030">Cursor::address</a>, <a class="el" href="debugger__defs_8h_source#l00033">Cursor::changed</a>, <a class="el" href="debugger__defs_8cpp_source#l00027">DEBUGGER_CURSOR_CHANGED</a>, <a class="el" href="debuggerdriver_8h_source#l00216">m_Cursor</a>, <a class="el" href="debuggerdriver_8h_source#l00215">m_LastCursorAddress</a>, and <a class="el" href="debuggerdriver_8h_source#l00206">m_pDBG</a>.</p>
+<p class="reference">References <a class="el" href="debugger__defs_8h_source#l00030">Cursor::address</a>, <a class="el" href="debugger__defs_8h_source#l00033">Cursor::changed</a>, <a class="el" href="debugger__defs_8cpp_source#l00027">DEBUGGER_CURSOR_CHANGED</a>, <a class="el" href="debuggerdriver_8h_source#l00219">m_Cursor</a>, <a class="el" href="debuggerdriver_8h_source#l00218">m_LastCursorAddress</a>, and <a class="el" href="debuggerdriver_8h_source#l00209">m_pDBG</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="gdb__driver_8cpp_source#l00676">GDB_driver::AddBreakpoint()</a>, <a class="el" href="debuggerdriver_8h_source#l00195">GetUserSelectedFrame()</a>, <a class="el" href="cdb__driver_8cpp_source#l00330">CDB_driver::ParseOutput()</a>, <a class="el" href="gdb__driver_8cpp_source#l00777">GDB_driver::ParseOutput()</a>, <a class="el" href="cdb__commands_8h_source#l00410">CdbCmd_Backtrace::ParseOutput()</a>, <a class="el" href="cdb__commands_8h_source#l00489">CdbCmd_SwitchFrame::ParseOutput()</a>, <a class="el" href="gdb__commands_8h_source#l01911">GdbCmd_FindCursor::ParseOutput()</a>, and <a class="el" href="debuggergdb_8cpp_source#l01132">DebuggerGDB::RunCommand()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="gdb__driver_8cpp_source#l00584">GDB_driver::AddBreakpoint()</a>, <a class="el" href="debuggerdriver_8h_source#l00195">GetUserSelectedFrame()</a>, <a class="el" href="cdb__driver_8cpp_source#l00331">CDB_driver::ParseOutput()</a>, <a class="el" href="gdb__driver_8cpp_source#l00691">GDB_driver::ParseOutput()</a>, <a class="el" href="cdb__commands_8h_source#l00410">CdbCmd_Backtrace::ParseOutput()</a>, <a class="el" href="cdb__commands_8h_source#l00489">CdbCmd_SwitchFrame::ParseOutput()</a>, <a class="el" href="gdb__commands_8h_source#l01839">GdbCmd_FindCursor::ParseOutput()</a>, and <a class="el" href="debuggergdb_8cpp_source#l01174">DebuggerGDB::RunCommand()</a>.</p>
 
 </div>
 </div>
@@ -1553,9 +1592,9 @@ Protected Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="debuggerdriver_8cpp_source#l00092">92</a> of file <a class="el" href="debuggerdriver_8cpp_source">debuggerdriver.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="debuggerdriver_8cpp_source#l00094">94</a> of file <a class="el" href="debuggerdriver_8cpp_source">debuggerdriver.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="debuggergdb_8cpp_source#l01990">DebuggerGDB::DebuggeeContinued()</a>, <a class="el" href="debuggerdriver_8h_source#l00206">m_pDBG</a>, and <a class="el" href="debuggerdriver_8cpp_source#l00098">ResetCursor()</a>.</p>
+<p class="reference">References <a class="el" href="debuggergdb_8cpp_source#l02033">DebuggerGDB::DebuggeeContinued()</a>, <a class="el" href="debuggerdriver_8h_source#l00209">m_pDBG</a>, and <a class="el" href="debuggerdriver_8cpp_source#l00100">ResetCursor()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="cdb__commands_8h_source#l00235">CdbCmd_Continue::Action()</a>, <a class="el" href="gdb__commands_8h_source#l00669">GdbCmd_Continue::Action()</a>, and <a class="el" href="debuggerdriver_8h_source#l00195">GetUserSelectedFrame()</a>.</p>
 
@@ -1589,7 +1628,7 @@ Protected Attributes</h2></td></tr>
 
 <p>Implemented in <a class="el" href="classGDB__driver#sd-ParseOutput">GDB_driver</a>, and <a class="el" href="classCDB__driver#l5-ParseOutput">CDB_driver</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="debuggerdriver_8h_source#l00052">GetDebugger()</a>, and <a class="el" href="debuggergdb_8cpp_source#l01694">DebuggerGDB::ParseOutput()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="debuggerdriver_8h_source#l00052">GetDebugger()</a>, and <a class="el" href="debuggergdb_8cpp_source#l01736">DebuggerGDB::ParseOutput()</a>.</p>
 
 </div>
 </div>
@@ -1637,7 +1676,7 @@ Protected Attributes</h2></td></tr>
 
 <p>Implemented in <a class="el" href="classGDB__driver#so-Prepare">GDB_driver</a>, and <a class="el" href="classCDB__driver#hw-Prepare">CDB_driver</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="debuggergdb_8cpp_source#l00665">DebuggerGDB::DoDebug()</a>, and <a class="el" href="debuggerdriver_8h_source#l00052">GetDebugger()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="debuggergdb_8cpp_source#l00707">DebuggerGDB::DoDebug()</a>, and <a class="el" href="debuggerdriver_8h_source#l00052">GetDebugger()</a>.</p>
 
 </div>
 </div>
@@ -1669,11 +1708,11 @@ Protected Attributes</h2></td></tr>
 
 <p>add a command in the queue. The <a class="el" href="classDebuggerCmd" title="Basic interface for debugger commands. ">DebuggerCmd</a> will be deleted automatically when finished. </p>
 
-<p class="definition">Definition at line <a class="el" href="debuggerdriver_8cpp_source#l00108">108</a> of file <a class="el" href="debuggerdriver_8cpp_source">debuggerdriver.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="debuggerdriver_8cpp_source#l00110">110</a> of file <a class="el" href="debuggerdriver_8cpp_source">debuggerdriver.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="debuggerdriver_8h_source#l00040">Low</a>, <a class="el" href="debuggerdriver_8h_source#l00221">m_DCmds</a>, and <a class="el" href="debuggerdriver_8cpp_source#l00123">RunQueue()</a>.</p>
+<p class="reference">References <a class="el" href="debuggerdriver_8h_source#l00040">Low</a>, <a class="el" href="debuggerdriver_8h_source#l00224">m_DCmds</a>, and <a class="el" href="debuggerdriver_8cpp_source#l00125">RunQueue()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="cdb__driver_8cpp_source#l00257">CDB_driver::AddBreakpoint()</a>, <a class="el" href="gdb__driver_8cpp_source#l00676">GDB_driver::AddBreakpoint()</a>, <a class="el" href="gdb__driver_8cpp_source#l00764">GDB_driver::Attach()</a>, <a class="el" href="gdb__driver_8cpp_source#l00585">GDB_driver::Backtrace()</a>, <a class="el" href="cdb__driver_8cpp_source#l00142">CDB_driver::Continue()</a>, <a class="el" href="gdb__driver_8cpp_source#l00528">GDB_driver::Continue()</a>, <a class="el" href="cdb__driver_8cpp_source#l00201">CDB_driver::CPURegisters()</a>, <a class="el" href="gdb__driver_8cpp_source#l00598">GDB_driver::CPURegisters()</a>, <a class="el" href="cdb__driver_8cpp_source#l00325">CDB_driver::Detach()</a>, <a class="el" href="gdb__driver_8cpp_source#l00772">GDB_driver::Detach()</a>, <a class="el" href="cdb__driver_8cpp_source#l00196">CDB_driver::Disassemble()</a>, <a class="el" href="gdb__driver_8cpp_source#l00590">GDB_driver::Disassemble()</a>, <a class="el" href="cdb__driver_8cpp_source#l00190">CDB_driver::DoBacktrace()</a>, <a class="el" href="debuggergdb_8cpp_source#l00665">DebuggerGDB::DoDebug()</a>, <a class="el" href="gdb__driver_8cpp_source#l00657">GDB_driver::EnableCatchingThrow()</a>, <a class="el" href="cdb__driver_8cpp_source#l00267">CDB_driver::EvaluateSymbol()</a>, <a class="el" href="gdb__driver_8cpp_source#l00715">GDB_driver::EvaluateSymbol()</a>, <a class="el" href="gdb__commands_8h_source#l01057">GdbCmd_FindTooltipAddress::GdbCmd_FindTooltipAddress()</a>, <a class="el" href="debuggerdriver_8h_source#l00164">GetChildPID()</a>, <a class="el" href="gdb__driver_8cpp_source#l01172">GDB_driver::HandleMainBreakPoint()</a>, <a class="el" href="gdb__driver_8cpp_source#l00634">GDB_driver::InfoDLL()</a>, <a class="el" href="gdb__driver_8cpp_source#l00642">GDB_driver::InfoFiles()</a>, <a class="el" href="gdb__driver_8cpp_source#l00647">GDB_driver::InfoFPU()</a>, <a class="el" href="gdb__driver_8cpp_source#l00629">GDB_driver::InfoFrame()</a>, <a class="el" href="gdb__driver_8cpp_source#l00652">GDB_driver::InfoSignals()</a>, <a class="el" href="gdb__driver_8cpp_source#l00110">GDB_driver::InitializeScripting()</a>, <a class="el" href="gdb__driver_8cpp_source#l00618">GDB_driver::MemoryDump()</a>, <a class="el" href="debuggergdb_8cpp_source#l01767">DebuggerGDB::OnPrintElements()</a>, <a class="el" href="gdb__driver_8cpp_source#l00777">GDB_driver::ParseOutput()</a>, <a class="el" href="cdb__commands_8h_source#l00180">CdbCmd_AttachToProcess::ParseOutput()</a>, <a class="el" href="gdb__commands_8h_source#l00331">GdbCmd_AttachToProcess::ParseOutput()</a>, <a class="el" href="gdb__commands_8h_source#l00400">GdbCmd_AddBreakpointCondition::ParseOutput()</a>, <a class="el" href="gdb__commands_8h_source#l00481">GdbCmd_AddBreakpoint::ParseOutput()</a>, <a class="el" href="gdb__commands_8h_source#l00567">GdbCmd_AddDataBreakpoint::ParseOutput()</a>, <a class="el" href="cdb__commands_8h_source#l00604">CdbCmd_DisassemblyInit::ParseOutput()</a>, <a class="el" href="gdb__commands_8h_source#l00683">GdbCmd_Start::ParseOutput()</a>, <a class="el" href="gdb__commands_8h_source#l00889">GdbCmd_FindWatchType::ParseOutput()</a>, <a class="el" href="gdb__commands_8h_source#l01073">GdbCmd_FindTooltipAddress::ParseOutput()</a>, <a class="el" href="gdb__commands_8h_source#l01116">GdbCmd_FindTooltipType::ParseOutput()</a>, <a class="el" href="gdb__commands_8h_source#l01204">GdbCmd_Backtrace::ParseOutput()</a>, <a class="el" href="gdb__commands_8h_source#l01588">GdbCmd_DisassemblyInit::ParseOutput()</a>, <a class="el" href="gdb__commands_8h_source#l01846">GdbCmd_StepOrNextInstruction::ParseOutput()</a>, <a class="el" href="cdb__driver_8cpp_source#l00110">CDB_driver::Prepare()</a>, <a class="el" href="gdb__driver_8cpp_source#l00220">GDB_driver::Prepare()</a>, <a class="el" href="cdb__driver_8cpp_source#l00262">CDB_driver::RemoveBreakpoint()</a>, <a class="el" href="gdb__driver_8cpp_source#l00709">GDB_driver::RemoveBreakpoint()</a>, <a class="el" href="gdb__driver_8cpp_source#l00623">GDB_driver::RunningThreads()</a>, <a class="el" href="debuggergdb_8cpp_source#l01081">DebuggerGDB::SendCommand()</a>, <a class="el" href="gdb__driver_8cpp_source#l00578">GDB_driver::SetNextStatement()</a>, <a class="el" href="gdb__driver_8cpp_source#l00612">GDB_driver::SetVarValue()</a>, <a class="el" href="cdb__driver_8cpp_source#l00121">CDB_driver::Start()</a>, <a class="el" href="gdb__driver_8cpp_source#l00483">GDB_driver::Start()</a>, <a class="el" href="cdb__driver_8cpp_source#l00149">CDB_driver::Step()</a>, <a class="el" href="gdb__driver_8cpp_source#l00548">GDB_driver::Step()</a>, <a class="el" href="cdb__driver_8cpp_source#l00167">CDB_driver::StepIn()</a>, <a class="el" href="gdb__driver_8cpp_source#l00566">GDB_driver::StepIn()</a>, <a class="el" href="gdb__driver_8cpp_source#l00554">GDB_driver::StepInstruction()</a>, <a class="el" href="gdb__driver_8cpp_source#l00560">GDB_driver::StepIntoInstruction()</a>, <a class="el" href="cdb__driver_8cpp_source#l00174">CDB_driver::StepOut()</a>, <a class="el" href="gdb__driver_8cpp_source#l00572">GDB_driver::StepOut()</a>, <a class="el" href="cdb__driver_8cpp_source#l00135">CDB_driver::Stop()</a>, <a class="el" href="gdb__driver_8cpp_source#l00518">GDB_driver::Stop()</a>, <a class="el" href="gdb__driver_8cpp_source#l00668">GDB_driver::SwitchThread()</a>, <a class="el" href="cdb__driver_8cpp_source#l00206">CDB_driver::SwitchToFrame()</a>, <a class="el" href="gdb__driver_8cpp_source#l00606">GDB_driver::SwitchToFrame()</a>, <a class="el" href="cdb__driver_8cpp_source#l00309">CDB_driver::UpdateWatch()</a>, <a class="el" href="gdb__driver_8cpp_source#l00752">GDB_driver::UpdateWatch()</a>, <a class="el" href="cdb__driver_8cpp_source#l00272">CDB_driver::UpdateWatches()</a>, <a class="el" href="gdb__driver_8cpp_source#l00720">GDB_driver::UpdateWatches()</a>, and <a class="el" href="gdb__driver_8cpp_source#l00758">GDB_driver::UpdateWatchLocalsArgs()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="cdb__driver_8cpp_source#l00257">CDB_driver::AddBreakpoint()</a>, <a class="el" href="gdb__driver_8cpp_source#l00584">GDB_driver::AddBreakpoint()</a>, <a class="el" href="gdb__driver_8cpp_source#l00678">GDB_driver::Attach()</a>, <a class="el" href="gdb__driver_8cpp_source#l00493">GDB_driver::Backtrace()</a>, <a class="el" href="cdb__driver_8cpp_source#l00142">CDB_driver::Continue()</a>, <a class="el" href="gdb__driver_8cpp_source#l00436">GDB_driver::Continue()</a>, <a class="el" href="cdb__driver_8cpp_source#l00201">CDB_driver::CPURegisters()</a>, <a class="el" href="gdb__driver_8cpp_source#l00506">GDB_driver::CPURegisters()</a>, <a class="el" href="cdb__driver_8cpp_source#l00326">CDB_driver::Detach()</a>, <a class="el" href="gdb__driver_8cpp_source#l00686">GDB_driver::Detach()</a>, <a class="el" href="gdb__driver_8cpp_source#l01128">GDB_driver::DetermineLanguage()</a>, <a class="el" href="cdb__driver_8cpp_source#l00196">CDB_driver::Disassemble()</a>, <a class="el" href="gdb__driver_8cpp_source#l00498">GDB_driver::Disassemble()</a>, <a class="el" href="cdb__driver_8cpp_source#l00190">CDB_driver::DoBacktrace()</a>, <a class="el" href="debuggergdb_8cpp_source#l00707">DebuggerGDB::DoDebug()</a>, <a class="el" href="gdb__driver_8cpp_source#l00565">GDB_driver::EnableCatchingThrow()</a>, <a class="el" href="cdb__driver_8cpp_source#l00267">CDB_driver::EvaluateSymbol()</a>, <a class="el" href="gdb__driver_8cpp_source#l00623">GDB_driver::EvaluateSymbol()</a>, <a class="el" href="gdb__commands_8h_source#l00985">GdbCmd_FindTooltipAddress::GdbCmd_FindTooltipAddress()</a>, <a class="el" href="debuggerdriver_8h_source#l00164">GetChildPID()</a>, <a class="el" href="gdb__driver_8cpp_source#l01086">GDB_driver::HandleMainBreakPoint()</a>, <a class="el" href="gdb__driver_8cpp_source#l00542">GDB_driver::InfoDLL()</a>, <a class="el" href="gdb__driver_8cpp_source#l00550">GDB_driver::InfoFiles()</a>, <a class="el" href="gdb__driver_8cpp_source#l00555">GDB_driver::InfoFPU()</a>, <a class="el" href="gdb__driver_8cpp_source#l00537">GDB_driver::InfoFrame()</a>, <a class="el" href="gdb__driver_8cpp_source#l00560">GDB_driver::InfoSignals()</a>, <a class="el" href="gdb__driver_8cpp_source#l00526">GDB_driver::MemoryDump()</a>, <a class="el" href="debuggergdb_8cpp_source#l01809">DebuggerGDB::OnPrintElements()</a>, <a class="el" href="gdb__driver_8cpp_source#l00691">GDB_driver::ParseOutput()</a>, <a class="el" href="cdb__commands_8h_source#l00180">CdbCmd_AttachToProcess::ParseOutput()</a>, <a class="el" href="gdb__commands_8h_source#l00328">GdbCmd_AttachToProcess::ParseOutput()</a>, <a class="el" href="gdb__commands_8h_source#l00400">GdbCmd_AddBreakpointCondition::ParseOutput()</a>, <a class="el" href="gdb__commands_8h_source#l00481">GdbCmd_AddBreakpoint::ParseOutput()</a>, <a class="el" href="gdb__commands_8h_source#l00567">GdbCmd_AddDataBreakpoint::ParseOutput()</a>, <a class="el" href="cdb__commands_8h_source#l00604">CdbCmd_DisassemblyInit::ParseOutput()</a>, <a class="el" href="gdb__commands_8h_source#l00683">GdbCmd_Start::ParseOutput()</a>, <a class="el" href="gdb__commands_8h_source#l00872">GdbCmd_FindWatchType::ParseOutput()</a>, <a class="el" href="gdb__commands_8h_source#l01001">GdbCmd_FindTooltipAddress::ParseOutput()</a>, <a class="el" href="gdb__commands_8h_source#l01044">GdbCmd_FindTooltipType::ParseOutput()</a>, <a class="el" href="gdb__commands_8h_source#l01132">GdbCmd_Backtrace::ParseOutput()</a>, <a class="el" href="gdb__commands_8h_source#l01516">GdbCmd_DisassemblyInit::ParseOutput()</a>, <a class="el" href="gdb__commands_8h_source#l01774">GdbCmd_StepOrNextInstruction::ParseOutput()</a>, <a class="el" href="cdb__driver_8cpp_source#l00110">CDB_driver::Prepare()</a>, <a class="el" href="gdb__driver_8cpp_source#l00132">GDB_driver::Prepare()</a>, <a class="el" href="cdb__driver_8cpp_source#l00262">CDB_driver::RemoveBreakpoint()</a>, <a class="el" href="gdb__driver_8cpp_source#l00617">GDB_driver::RemoveBreakpoint()</a>, <a class="el" href="gdb__driver_8cpp_source#l00531">GDB_driver::RunningThreads()</a>, <a class="el" href="debuggergdb_8cpp_source#l01123">DebuggerGDB::SendCommand()</a>, <a class="el" href="gdb__driver_8cpp_source#l00486">GDB_driver::SetNextStatement()</a>, <a class="el" href="gdb__driver_8cpp_source#l00520">GDB_driver::SetVarValue()</a>, <a class="el" href="cdb__driver_8cpp_source#l00121">CDB_driver::Start()</a>, <a class="el" href="gdb__driver_8cpp_source#l00391">GDB_driver::Start()</a>, <a class="el" href="cdb__driver_8cpp_source#l00149">CDB_driver::Step()</a>, <a class="el" href="gdb__driver_8cpp_source#l00456">GDB_driver::Step()</a>, <a class="el" href="cdb__driver_8cpp_source#l00167">CDB_driver::StepIn()</a>, <a class="el" href="gdb__driver_8cpp_source#l00474">GDB_driver::StepIn()</a>, <a class="el" href="gdb__driver_8cpp_source#l00462">GDB_driver::StepInstruction()</a>, <a class="el" href="gdb__driver_8cpp_source#l00468">GDB_driver::StepIntoInstruction()</a>, <a class="el" href="cdb__driver_8cpp_source#l00174">CDB_driver::StepOut()</a>, <a class="el" href="gdb__driver_8cpp_source#l00480">GDB_driver::StepOut()</a>, <a class="el" href="cdb__driver_8cpp_source#l00135">CDB_driver::Stop()</a>, <a class="el" href="gdb__driver_8cpp_source#l00426">GDB_driver::Stop()</a>, <a class="el" href="gdb__driver_8cpp_source#l00576">GDB_driver::SwitchThread()</a>, <a class="el" href="cdb__driver_8cpp_source#l00206">CDB_driver::SwitchToFrame()</a>, <a class="el" href="gdb__driver_8cpp_source#l00514">GDB_driver::SwitchToFrame()</a>, <a class="el" href="cdb__driver_8cpp_source#l00309">CDB_driver::UpdateWatch()</a>, <a class="el" href="gdb__driver_8cpp_source#l00666">GDB_driver::UpdateWatch()</a>, <a class="el" href="cdb__driver_8cpp_source#l00272">CDB_driver::UpdateWatches()</a>, <a class="el" href="gdb__driver_8cpp_source#l00628">GDB_driver::UpdateWatches()</a>, and <a class="el" href="gdb__driver_8cpp_source#l00672">GDB_driver::UpdateWatchLocalsArgs()</a>.</p>
 
 </div>
 </div>
@@ -1733,11 +1772,11 @@ Protected Attributes</h2></td></tr>
 
 <p>removes the top command (it has finished) </p>
 
-<p class="definition">Definition at line <a class="el" href="debuggerdriver_8cpp_source#l00153">153</a> of file <a class="el" href="debuggerdriver_8cpp_source">debuggerdriver.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="debuggerdriver_8cpp_source#l00155">155</a> of file <a class="el" href="debuggerdriver_8cpp_source">debuggerdriver.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="debuggerdriver_8h_source#l00221">m_DCmds</a>, and <a class="el" href="debuggerdriver_8h_source#l00222">m_QueueBusy</a>.</p>
+<p class="reference">References <a class="el" href="debuggerdriver_8h_source#l00224">m_DCmds</a>, and <a class="el" href="debuggerdriver_8h_source#l00225">m_QueueBusy</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="debuggerdriver_8h_source#l00164">GetChildPID()</a>, <a class="el" href="cdb__driver_8cpp_source#l00330">CDB_driver::ParseOutput()</a>, <a class="el" href="gdb__driver_8cpp_source#l00777">GDB_driver::ParseOutput()</a>, and <a class="el" href="debuggerdriver_8cpp_source#l00123">RunQueue()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="debuggerdriver_8h_source#l00164">GetChildPID()</a>, <a class="el" href="cdb__driver_8cpp_source#l00331">CDB_driver::ParseOutput()</a>, <a class="el" href="gdb__driver_8cpp_source#l00691">GDB_driver::ParseOutput()</a>, and <a class="el" href="debuggerdriver_8cpp_source#l00125">RunQueue()</a>.</p>
 
 </div>
 </div>
@@ -1756,11 +1795,11 @@ Protected Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="debuggerdriver_8cpp_source#l00191">191</a> of file <a class="el" href="debuggerdriver_8cpp_source">debuggerdriver.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="debuggerdriver_8cpp_source#l00193">193</a> of file <a class="el" href="debuggerdriver_8cpp_source">debuggerdriver.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="manager_8cpp_source#l00187">Manager::Get()</a>, <a class="el" href="debuggermanager_8cpp_source#l01053">DebuggerManager::GetBacktraceDialog()</a>, <a class="el" href="manager_8cpp_source#l00488">Manager::GetDebuggerManager()</a>, <a class="el" href="debuggerdriver_8h_source#l00226">m_currentFrameNo</a>, <a class="el" href="debuggerdriver_8h_source#l00227">m_userSelectedFrameNo</a>, and <a class="el" href="classcbBacktraceDlg#hv-Reload">cbBacktraceDlg::Reload()</a>.</p>
+<p class="reference">References <a class="el" href="manager_8cpp_source#l00182">Manager::Get()</a>, <a class="el" href="debuggermanager_8cpp_source#l01065">DebuggerManager::GetBacktraceDialog()</a>, <a class="el" href="manager_8cpp_source#l00484">Manager::GetDebuggerManager()</a>, <a class="el" href="debuggerdriver_8h_source#l00229">m_currentFrameNo</a>, <a class="el" href="debuggerdriver_8h_source#l00230">m_userSelectedFrameNo</a>, and <a class="el" href="classcbBacktraceDlg#hv-Reload">cbBacktraceDlg::Reload()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="debuggergdb_8cpp_source#l01132">DebuggerGDB::RunCommand()</a>, and <a class="el" href="debuggerdriver_8h_source#l00191">SetCursor()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="debuggergdb_8cpp_source#l01174">DebuggerGDB::RunCommand()</a>, and <a class="el" href="debuggerdriver_8h_source#l00191">SetCursor()</a>.</p>
 
 </div>
 </div>
@@ -1789,11 +1828,11 @@ Protected Attributes</h2></td></tr>
 
 <p>Called by implementations to reset the cursor. </p>
 
-<p class="definition">Definition at line <a class="el" href="debuggerdriver_8cpp_source#l00098">98</a> of file <a class="el" href="debuggerdriver_8cpp_source">debuggerdriver.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="debuggerdriver_8cpp_source#l00100">100</a> of file <a class="el" href="debuggerdriver_8cpp_source">debuggerdriver.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="debugger__defs_8h_source#l00030">Cursor::address</a>, <a class="el" href="debugger__defs_8h_source#l00033">Cursor::changed</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#a39f5e308eb0192cac2e338bedb377ee0">wxString::Clear()</a>, <a class="el" href="debugger__defs_8h_source#l00029">Cursor::file</a>, <a class="el" href="debugger__defs_8h_source#l00031">Cursor::function</a>, <a class="el" href="debugger__defs_8h_source#l00032">Cursor::line</a>, <a class="el" href="debuggerdriver_8h_source#l00216">m_Cursor</a>, and <a class="el" href="debuggerdriver_8h_source#l00215">m_LastCursorAddress</a>.</p>
+<p class="reference">References <a class="el" href="debugger__defs_8h_source#l00030">Cursor::address</a>, <a class="el" href="debugger__defs_8h_source#l00033">Cursor::changed</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#a39f5e308eb0192cac2e338bedb377ee0">wxString::Clear()</a>, <a class="el" href="debugger__defs_8h_source#l00029">Cursor::file</a>, <a class="el" href="debugger__defs_8h_source#l00031">Cursor::function</a>, <a class="el" href="debugger__defs_8h_source#l00032">Cursor::line</a>, <a class="el" href="debuggerdriver_8h_source#l00219">m_Cursor</a>, and <a class="el" href="debuggerdriver_8h_source#l00218">m_LastCursorAddress</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="cdb__driver_8cpp_source#l00142">CDB_driver::Continue()</a>, <a class="el" href="gdb__driver_8cpp_source#l00528">GDB_driver::Continue()</a>, <a class="el" href="debuggerdriver_8h_source#l00195">GetUserSelectedFrame()</a>, <a class="el" href="debuggerdriver_8cpp_source#l00092">NotifyDebuggeeContinued()</a>, <a class="el" href="gdb__driver_8cpp_source#l00578">GDB_driver::SetNextStatement()</a>, <a class="el" href="gdb__driver_8cpp_source#l00483">GDB_driver::Start()</a>, <a class="el" href="cdb__driver_8cpp_source#l00149">CDB_driver::Step()</a>, <a class="el" href="gdb__driver_8cpp_source#l00548">GDB_driver::Step()</a>, <a class="el" href="cdb__driver_8cpp_source#l00167">CDB_driver::StepIn()</a>, <a class="el" href="gdb__driver_8cpp_source#l00566">GDB_driver::StepIn()</a>, <a class="el" href="gdb__driver_8cpp_source#l00554">GDB_driver::StepInstruction()</a>, <a class="el" href="gdb__driver_8cpp_source#l00560">GDB_driver::StepIntoInstruction()</a>, <a class="el" href="cdb__driver_8cpp_source#l00174">CDB_driver::StepOut()</a>, <a class="el" href="gdb__driver_8cpp_source#l00572">GDB_driver::StepOut()</a>, <a class="el" href="cdb__driver_8cpp_source#l00135">CDB_driver::Stop()</a>, <a class="el" href="gdb__driver_8cpp_source#l00518">GDB_driver::Stop()</a>, <a class="el" href="gdb__driver_8cpp_source#l00668">GDB_driver::SwitchThread()</a>, <a class="el" href="cdb__driver_8cpp_source#l00206">CDB_driver::SwitchToFrame()</a>, and <a class="el" href="gdb__driver_8cpp_source#l00606">GDB_driver::SwitchToFrame()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="cdb__driver_8cpp_source#l00142">CDB_driver::Continue()</a>, <a class="el" href="gdb__driver_8cpp_source#l00436">GDB_driver::Continue()</a>, <a class="el" href="debuggerdriver_8h_source#l00203">DetermineLanguage()</a>, <a class="el" href="debuggerdriver_8cpp_source#l00094">NotifyDebuggeeContinued()</a>, <a class="el" href="gdb__driver_8cpp_source#l00486">GDB_driver::SetNextStatement()</a>, <a class="el" href="gdb__driver_8cpp_source#l00391">GDB_driver::Start()</a>, <a class="el" href="cdb__driver_8cpp_source#l00149">CDB_driver::Step()</a>, <a class="el" href="gdb__driver_8cpp_source#l00456">GDB_driver::Step()</a>, <a class="el" href="cdb__driver_8cpp_source#l00167">CDB_driver::StepIn()</a>, <a class="el" href="gdb__driver_8cpp_source#l00474">GDB_driver::StepIn()</a>, <a class="el" href="gdb__driver_8cpp_source#l00462">GDB_driver::StepInstruction()</a>, <a class="el" href="gdb__driver_8cpp_source#l00468">GDB_driver::StepIntoInstruction()</a>, <a class="el" href="cdb__driver_8cpp_source#l00174">CDB_driver::StepOut()</a>, <a class="el" href="gdb__driver_8cpp_source#l00480">GDB_driver::StepOut()</a>, <a class="el" href="cdb__driver_8cpp_source#l00135">CDB_driver::Stop()</a>, <a class="el" href="gdb__driver_8cpp_source#l00426">GDB_driver::Stop()</a>, <a class="el" href="gdb__driver_8cpp_source#l00576">GDB_driver::SwitchThread()</a>, <a class="el" href="cdb__driver_8cpp_source#l00206">CDB_driver::SwitchToFrame()</a>, and <a class="el" href="gdb__driver_8cpp_source#l00514">GDB_driver::SwitchToFrame()</a>.</p>
 
 </div>
 </div>
@@ -1822,7 +1861,7 @@ Protected Attributes</h2></td></tr>
 
 <p>Implemented in <a class="el" href="classGDB__driver#hg-RunningThreads">GDB_driver</a>, and <a class="el" href="classCDB__driver#z8-RunningThreads">CDB_driver</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="debuggerdriver_8h_source#l00052">GetDebugger()</a>, and <a class="el" href="debuggergdb_8cpp_source#l01132">DebuggerGDB::RunCommand()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="debuggerdriver_8h_source#l00052">GetDebugger()</a>, and <a class="el" href="debuggergdb_8cpp_source#l01174">DebuggerGDB::RunCommand()</a>.</p>
 
 </div>
 </div>
@@ -1843,11 +1882,11 @@ Protected Attributes</h2></td></tr>
 
 <p>runs the next command in the queue, if it is idle </p>
 
-<p class="definition">Definition at line <a class="el" href="debuggerdriver_8cpp_source#l00123">123</a> of file <a class="el" href="debuggerdriver_8cpp_source">debuggerdriver.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="debuggerdriver_8cpp_source#l00125">125</a> of file <a class="el" href="debuggerdriver_8cpp_source">debuggerdriver.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="debugger__defs_8h_source#l00063">DebuggerCmd::Action()</a>, <a class="el" href="debuggerdriver_8cpp_source#l00118">CurrentCommand()</a>, <a class="el" href="debuggergdb_8cpp_source#l01093">DebuggerGDB::DoSendCommand()</a>, <a class="el" href="debugger__defs_8h_source#l00075">DebuggerCmd::IsContinueCommand()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#ace32756bab999f8aae9be0cf981fc449">wxString::IsEmpty()</a>, <a class="el" href="debuggerdriver_8h_source#l00157">IsProgramStopped()</a>, <a class="el" href="debugger__defs_8h_source#l00077">DebuggerCmd::m_Cmd</a>, <a class="el" href="debuggerdriver_8h_source#l00221">m_DCmds</a>, <a class="el" href="debuggerdriver_8h_source#l00206">m_pDBG</a>, <a class="el" href="debuggerdriver_8h_source#l00214">m_ProgramIsStopped</a>, <a class="el" href="debuggerdriver_8h_source#l00222">m_QueueBusy</a>, and <a class="el" href="debuggerdriver_8cpp_source#l00153">RemoveTopCommand()</a>.</p>
+<p class="reference">References <a class="el" href="debugger__defs_8h_source#l00063">DebuggerCmd::Action()</a>, <a class="el" href="debuggerdriver_8cpp_source#l00120">CurrentCommand()</a>, <a class="el" href="debuggergdb_8cpp_source#l01135">DebuggerGDB::DoSendCommand()</a>, <a class="el" href="debugger__defs_8h_source#l00075">DebuggerCmd::IsContinueCommand()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#ace32756bab999f8aae9be0cf981fc449">wxString::IsEmpty()</a>, <a class="el" href="debuggerdriver_8h_source#l00157">IsProgramStopped()</a>, <a class="el" href="debugger__defs_8h_source#l00077">DebuggerCmd::m_Cmd</a>, <a class="el" href="debuggerdriver_8h_source#l00224">m_DCmds</a>, <a class="el" href="debuggerdriver_8h_source#l00209">m_pDBG</a>, <a class="el" href="debuggerdriver_8h_source#l00217">m_ProgramIsStopped</a>, <a class="el" href="debuggerdriver_8h_source#l00225">m_QueueBusy</a>, and <a class="el" href="debuggerdriver_8cpp_source#l00155">RemoveTopCommand()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="debuggerdriver_8h_source#l00164">GetChildPID()</a>, <a class="el" href="cdb__driver_8cpp_source#l00330">CDB_driver::ParseOutput()</a>, <a class="el" href="gdb__driver_8cpp_source#l00777">GDB_driver::ParseOutput()</a>, and <a class="el" href="debuggerdriver_8cpp_source#l00108">QueueCommand()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="debuggerdriver_8h_source#l00164">GetChildPID()</a>, <a class="el" href="cdb__driver_8cpp_source#l00331">CDB_driver::ParseOutput()</a>, <a class="el" href="gdb__driver_8cpp_source#l00691">GDB_driver::ParseOutput()</a>, and <a class="el" href="debuggerdriver_8cpp_source#l00110">QueueCommand()</a>.</p>
 
 </div>
 </div>
@@ -1877,11 +1916,11 @@ Protected Attributes</h2></td></tr>
 
 <p>Set the execution arguments. </p>
 
-<p class="definition">Definition at line <a class="el" href="debuggerdriver_8cpp_source#l00070">70</a> of file <a class="el" href="debuggerdriver_8cpp_source">debuggerdriver.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="debuggerdriver_8cpp_source#l00072">72</a> of file <a class="el" href="debuggerdriver_8cpp_source">debuggerdriver.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="debuggerdriver_8h_source#l00211">m_Args</a>.</p>
+<p class="reference">References <a class="el" href="debuggerdriver_8h_source#l00214">m_Args</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="debuggergdb_8cpp_source#l00665">DebuggerGDB::DoDebug()</a>, and <a class="el" href="debuggerdriver_8h_source#l00052">GetDebugger()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="debuggergdb_8cpp_source#l00707">DebuggerGDB::DoDebug()</a>, and <a class="el" href="debuggerdriver_8h_source#l00052">GetDebugger()</a>.</p>
 
 </div>
 </div>
@@ -1914,9 +1953,9 @@ Protected Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="debuggerdriver_8h_source#l00162">162</a> of file <a class="el" href="debuggerdriver_8h_source">debuggerdriver.h</a>.</p>
 
-<p class="reference">References <a class="el" href="debuggerdriver_8h_source#l00218">m_ChildPID</a>.</p>
+<p class="reference">References <a class="el" href="debuggerdriver_8h_source#l00221">m_ChildPID</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="gdb__driver_8cpp_source#l00764">GDB_driver::Attach()</a>, <a class="el" href="gdb__driver_8cpp_source#l00777">GDB_driver::ParseOutput()</a>, <a class="el" href="cdb__commands_8h_source#l00144">CdbCmd_GetPID::ParseOutput()</a>, <a class="el" href="cdb__commands_8h_source#l00180">CdbCmd_AttachToProcess::ParseOutput()</a>, and <a class="el" href="gdb__commands_8h_source#l00713">GdbCmd_InfoProgram::ParseOutput()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="gdb__driver_8cpp_source#l00678">GDB_driver::Attach()</a>, <a class="el" href="gdb__driver_8cpp_source#l00691">GDB_driver::ParseOutput()</a>, <a class="el" href="cdb__commands_8h_source#l00144">CdbCmd_GetPID::ParseOutput()</a>, <a class="el" href="cdb__commands_8h_source#l00180">CdbCmd_AttachToProcess::ParseOutput()</a>, and <a class="el" href="gdb__commands_8h_source#l00713">GdbCmd_InfoProgram::ParseOutput()</a>.</p>
 
 </div>
 </div>
@@ -1946,11 +1985,11 @@ Protected Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="debuggerdriver_8cpp_source#l00184">184</a> of file <a class="el" href="debuggerdriver_8cpp_source">debuggerdriver.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="debuggerdriver_8cpp_source#l00186">186</a> of file <a class="el" href="debuggerdriver_8cpp_source">debuggerdriver.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="debuggerdriver_8h_source#l00226">m_currentFrameNo</a>, and <a class="el" href="debuggerdriver_8h_source#l00227">m_userSelectedFrameNo</a>.</p>
+<p class="reference">References <a class="el" href="debuggerdriver_8h_source#l00229">m_currentFrameNo</a>, and <a class="el" href="debuggerdriver_8h_source#l00230">m_userSelectedFrameNo</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="debuggerdriver_8h_source#l00195">GetUserSelectedFrame()</a>, <a class="el" href="gdb__commands_8h_source#l01204">GdbCmd_Backtrace::ParseOutput()</a>, and <a class="el" href="debuggergdb_8cpp_source#l01280">DebuggerGDB::SwitchToFrame()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="debuggerdriver_8h_source#l00195">GetUserSelectedFrame()</a>, <a class="el" href="gdb__commands_8h_source#l01132">GdbCmd_Backtrace::ParseOutput()</a>, and <a class="el" href="debuggergdb_8cpp_source#l01322">DebuggerGDB::SwitchToFrame()</a>.</p>
 
 </div>
 </div>
@@ -1982,9 +2021,9 @@ Protected Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="debuggerdriver_8h_source#l00191">191</a> of file <a class="el" href="debuggerdriver_8h_source">debuggerdriver.h</a>.</p>
 
-<p class="reference">References <a class="el" href="debuggerdriver_8h_source#l00216">m_Cursor</a>, and <a class="el" href="debuggerdriver_8cpp_source#l00191">ResetCurrentFrame()</a>.</p>
+<p class="reference">References <a class="el" href="debuggerdriver_8h_source#l00219">m_Cursor</a>, and <a class="el" href="debuggerdriver_8cpp_source#l00193">ResetCurrentFrame()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="cdb__commands_8h_source#l00410">CdbCmd_Backtrace::ParseOutput()</a>, <a class="el" href="cdb__commands_8h_source#l00489">CdbCmd_SwitchFrame::ParseOutput()</a>, <a class="el" href="gdb__commands_8h_source#l01588">GdbCmd_DisassemblyInit::ParseOutput()</a>, and <a class="el" href="gdb__commands_8h_source#l01911">GdbCmd_FindCursor::ParseOutput()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="cdb__commands_8h_source#l00410">CdbCmd_Backtrace::ParseOutput()</a>, <a class="el" href="cdb__commands_8h_source#l00489">CdbCmd_SwitchFrame::ParseOutput()</a>, <a class="el" href="gdb__commands_8h_source#l01516">GdbCmd_DisassemblyInit::ParseOutput()</a>, and <a class="el" href="gdb__commands_8h_source#l01839">GdbCmd_FindCursor::ParseOutput()</a>.</p>
 
 </div>
 </div>
@@ -2024,7 +2063,7 @@ Protected Attributes</h2></td></tr>
 
 <p>Implemented in <a class="el" href="classGDB__driver#wn-SetNextStatement">GDB_driver</a>, and <a class="el" href="classCDB__driver#jw-SetNextStatement">CDB_driver</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="debuggerdriver_8h_source#l00052">GetDebugger()</a>, and <a class="el" href="debuggergdb_8cpp_source#l01560">DebuggerGDB::SetNextStatement()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="debuggerdriver_8h_source#l00052">GetDebugger()</a>, and <a class="el" href="debuggergdb_8cpp_source#l01602">DebuggerGDB::SetNextStatement()</a>.</p>
 
 </div>
 </div>
@@ -2096,7 +2135,7 @@ Protected Attributes</h2></td></tr>
 
 <p>Implemented in <a class="el" href="classGDB__driver#av-SetVarValue">GDB_driver</a>, and <a class="el" href="classCDB__driver#ox-SetVarValue">CDB_driver</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="debuggerdriver_8h_source#l00052">GetDebugger()</a>, and <a class="el" href="debuggergdb_8cpp_source#l02106">DebuggerGDB::SetWatchValue()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="debuggerdriver_8h_source#l00052">GetDebugger()</a>, and <a class="el" href="debuggergdb_8cpp_source#l02149">DebuggerGDB::SetWatchValue()</a>.</p>
 
 </div>
 </div>
@@ -2128,9 +2167,9 @@ Protected Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="debuggerdriver_8cpp_source#l00056">56</a> of file <a class="el" href="debuggerdriver_8cpp_source">debuggerdriver.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="debuggerdriver_8h_source#l00210">m_WorkingDir</a>.</p>
+<p class="reference">References <a class="el" href="debuggerdriver_8h_source#l00213">m_WorkingDir</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="debuggergdb_8cpp_source#l00665">DebuggerGDB::DoDebug()</a>, and <a class="el" href="debuggerdriver_8h_source#l00052">GetDebugger()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="debuggergdb_8cpp_source#l00707">DebuggerGDB::DoDebug()</a>, and <a class="el" href="debuggerdriver_8h_source#l00052">GetDebugger()</a>.</p>
 
 </div>
 </div>
@@ -2162,11 +2201,11 @@ Protected Attributes</h2></td></tr>
 
 <p>Show a file/line without changing the cursor. </p>
 
-<p class="definition">Definition at line <a class="el" href="debuggerdriver_8cpp_source#l00075">75</a> of file <a class="el" href="debuggerdriver_8cpp_source">debuggerdriver.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="debuggerdriver_8cpp_source#l00077">77</a> of file <a class="el" href="debuggerdriver_8cpp_source">debuggerdriver.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="debugger__defs_8cpp_source#l00028">DEBUGGER_SHOW_FILE_LINE</a>, and <a class="el" href="debuggerdriver_8h_source#l00206">m_pDBG</a>.</p>
+<p class="reference">References <a class="el" href="debugger__defs_8cpp_source#l00028">DEBUGGER_SHOW_FILE_LINE</a>, and <a class="el" href="debuggerdriver_8h_source#l00209">m_pDBG</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="debuggerdriver_8h_source#l00164">GetChildPID()</a>, and <a class="el" href="gdb__commands_8h_source#l01204">GdbCmd_Backtrace::ParseOutput()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="debuggerdriver_8h_source#l00164">GetChildPID()</a>, and <a class="el" href="gdb__commands_8h_source#l01132">GdbCmd_Backtrace::ParseOutput()</a>.</p>
 
 </div>
 </div>
@@ -2198,7 +2237,7 @@ Protected Attributes</h2></td></tr>
 
 <p>Implemented in <a class="el" href="classGDB__driver#q5-Start">GDB_driver</a>, and <a class="el" href="classCDB__driver#t8-Start">CDB_driver</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="debuggergdb_8cpp_source#l00665">DebuggerGDB::DoDebug()</a>, and <a class="el" href="debuggerdriver_8h_source#l00052">GetDebugger()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="debuggergdb_8cpp_source#l00707">DebuggerGDB::DoDebug()</a>, and <a class="el" href="debuggerdriver_8h_source#l00052">GetDebugger()</a>.</p>
 
 </div>
 </div>
@@ -2227,7 +2266,7 @@ Protected Attributes</h2></td></tr>
 
 <p>Implemented in <a class="el" href="classGDB__driver#e8-Step">GDB_driver</a>, and <a class="el" href="classCDB__driver#ew-Step">CDB_driver</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="debuggerdriver_8h_source#l00052">GetDebugger()</a>, and <a class="el" href="debuggergdb_8cpp_source#l01132">DebuggerGDB::RunCommand()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="debuggerdriver_8h_source#l00052">GetDebugger()</a>, and <a class="el" href="debuggergdb_8cpp_source#l01174">DebuggerGDB::RunCommand()</a>.</p>
 
 </div>
 </div>
@@ -2256,7 +2295,7 @@ Protected Attributes</h2></td></tr>
 
 <p>Implemented in <a class="el" href="classGDB__driver#zt-StepIn">GDB_driver</a>, and <a class="el" href="classCDB__driver#zw-StepIn">CDB_driver</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="debuggerdriver_8h_source#l00052">GetDebugger()</a>, and <a class="el" href="debuggergdb_8cpp_source#l01132">DebuggerGDB::RunCommand()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="debuggerdriver_8h_source#l00052">GetDebugger()</a>, and <a class="el" href="debuggergdb_8cpp_source#l01174">DebuggerGDB::RunCommand()</a>.</p>
 
 </div>
 </div>
@@ -2285,7 +2324,7 @@ Protected Attributes</h2></td></tr>
 
 <p>Implemented in <a class="el" href="classGDB__driver#pd-StepInstruction">GDB_driver</a>, and <a class="el" href="classCDB__driver#o6-StepInstruction">CDB_driver</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="debuggerdriver_8h_source#l00052">GetDebugger()</a>, and <a class="el" href="debuggergdb_8cpp_source#l01132">DebuggerGDB::RunCommand()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="debuggerdriver_8h_source#l00052">GetDebugger()</a>, and <a class="el" href="debuggergdb_8cpp_source#l01174">DebuggerGDB::RunCommand()</a>.</p>
 
 </div>
 </div>
@@ -2314,7 +2353,7 @@ Protected Attributes</h2></td></tr>
 
 <p>Implemented in <a class="el" href="classGDB__driver#cb-StepIntoInstruction">GDB_driver</a>, and <a class="el" href="classCDB__driver#uj-StepIntoInstruction">CDB_driver</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="debuggerdriver_8h_source#l00052">GetDebugger()</a>, and <a class="el" href="debuggergdb_8cpp_source#l01132">DebuggerGDB::RunCommand()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="debuggerdriver_8h_source#l00052">GetDebugger()</a>, and <a class="el" href="debuggergdb_8cpp_source#l01174">DebuggerGDB::RunCommand()</a>.</p>
 
 </div>
 </div>
@@ -2343,7 +2382,7 @@ Protected Attributes</h2></td></tr>
 
 <p>Implemented in <a class="el" href="classGDB__driver#d7-StepOut">GDB_driver</a>, and <a class="el" href="classCDB__driver#dm-StepOut">CDB_driver</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="debuggerdriver_8h_source#l00052">GetDebugger()</a>, and <a class="el" href="debuggergdb_8cpp_source#l01132">DebuggerGDB::RunCommand()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="debuggerdriver_8h_source#l00052">GetDebugger()</a>, and <a class="el" href="debuggergdb_8cpp_source#l01174">DebuggerGDB::RunCommand()</a>.</p>
 
 </div>
 </div>
@@ -2374,7 +2413,7 @@ Protected Attributes</h2></td></tr>
 
 <p>Implemented in <a class="el" href="classGDB__driver#gv-Stop">GDB_driver</a>, and <a class="el" href="classCDB__driver#go-Stop">CDB_driver</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="debuggergdb_8cpp_source#l02216">DebuggerGDB::DetachFromProcess()</a>, <a class="el" href="debuggerdriver_8h_source#l00052">GetDebugger()</a>, and <a class="el" href="debuggergdb_8cpp_source#l01132">DebuggerGDB::RunCommand()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="debuggergdb_8cpp_source#l02290">DebuggerGDB::DetachFromProcess()</a>, <a class="el" href="debuggerdriver_8h_source#l00052">GetDebugger()</a>, and <a class="el" href="debuggergdb_8cpp_source#l01174">DebuggerGDB::RunCommand()</a>.</p>
 
 </div>
 </div>
@@ -2406,7 +2445,7 @@ Protected Attributes</h2></td></tr>
 
 <p>Implemented in <a class="el" href="classGDB__driver#cy-SwitchThread">GDB_driver</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="debuggerdriver_8h_source#l00164">GetChildPID()</a>, and <a class="el" href="debuggergdb_8cpp_source#l01310">DebuggerGDB::SwitchToThread()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="debuggerdriver_8h_source#l00164">GetChildPID()</a>, and <a class="el" href="debuggergdb_8cpp_source#l01352">DebuggerGDB::SwitchToThread()</a>.</p>
 
 </div>
 </div>
@@ -2436,7 +2475,7 @@ Protected Attributes</h2></td></tr>
 
 <p>Implemented in <a class="el" href="classGDB__driver#yq-SwitchToFrame">GDB_driver</a>, and <a class="el" href="classCDB__driver#dz-SwitchToFrame">CDB_driver</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="debuggerdriver_8h_source#l00052">GetDebugger()</a>, and <a class="el" href="debuggergdb_8cpp_source#l01280">DebuggerGDB::SwitchToFrame()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="debuggerdriver_8h_source#l00052">GetDebugger()</a>, and <a class="el" href="debuggergdb_8cpp_source#l01322">DebuggerGDB::SwitchToFrame()</a>.</p>
 
 </div>
 </div>
@@ -2466,7 +2505,7 @@ Protected Attributes</h2></td></tr>
 
 <p>Implemented in <a class="el" href="classGDB__driver#bv-UpdateWatch">GDB_driver</a>, and <a class="el" href="classCDB__driver#i2-UpdateWatch">CDB_driver</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="debuggergdb_8cpp_source#l02062">DebuggerGDB::AddWatch()</a>, <a class="el" href="debuggerdriver_8h_source#l00052">GetDebugger()</a>, and <a class="el" href="debuggergdb_8cpp_source#l02145">DebuggerGDB::UpdateWatch()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="debuggergdb_8cpp_source#l02105">DebuggerGDB::AddWatch()</a>, <a class="el" href="debuggerdriver_8h_source#l00052">GetDebugger()</a>, and <a class="el" href="debuggergdb_8cpp_source#l02219">DebuggerGDB::UpdateWatch()</a>.</p>
 
 </div>
 </div>
@@ -2562,7 +2601,7 @@ Protected Attributes</h2></td></tr>
 
 <p>Implemented in <a class="el" href="classGDB__driver#xe-UpdateWatchLocalsArgs">GDB_driver</a>, and <a class="el" href="classCDB__driver#w8-UpdateWatchLocalsArgs">CDB_driver</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="debuggerdriver_8h_source#l00052">GetDebugger()</a>, and <a class="el" href="debuggergdb_8cpp_source#l02145">DebuggerGDB::UpdateWatch()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="debuggerdriver_8h_source#l00052">GetDebugger()</a>, and <a class="el" href="debuggergdb_8cpp_source#l02219">DebuggerGDB::UpdateWatch()</a>.</p>
 
 </div>
 </div>
@@ -2593,7 +2632,7 @@ Protected Attributes</h2></td></tr>
 
 <p>Implemented in <a class="el" href="classGDB__driver#qd-UseDebugBreakProcess">GDB_driver</a>, and <a class="el" href="classCDB__driver#k2-UseDebugBreakProcess">CDB_driver</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="debuggergdb_8cpp_source#l01573">DebuggerGDB::DoBreak()</a>, <a class="el" href="debuggergdb_8cpp_source#l00665">DebuggerGDB::DoDebug()</a>, and <a class="el" href="debuggerdriver_8h_source#l00164">GetChildPID()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="debuggergdb_8cpp_source#l01615">DebuggerGDB::DoBreak()</a>, <a class="el" href="debuggergdb_8cpp_source#l00707">DebuggerGDB::DoDebug()</a>, and <a class="el" href="debuggerdriver_8h_source#l00164">GetChildPID()</a>.</p>
 
 </div>
 </div>
@@ -2618,9 +2657,9 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="debuggerdriver_8h_source#l00211">211</a> of file <a class="el" href="debuggerdriver_8h_source">debuggerdriver.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="debuggerdriver_8h_source#l00214">214</a> of file <a class="el" href="debuggerdriver_8h_source">debuggerdriver.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="gdb__driver_8cpp_source#l00220">GDB_driver::Prepare()</a>, and <a class="el" href="debuggerdriver_8cpp_source#l00070">SetArguments()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="gdb__driver_8cpp_source#l00132">GDB_driver::Prepare()</a>, and <a class="el" href="debuggerdriver_8cpp_source#l00072">SetArguments()</a>.</p>
 
 </div>
 </div>
@@ -2644,9 +2683,9 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="debuggerdriver_8h_source#l00224">224</a> of file <a class="el" href="debuggerdriver_8h_source">debuggerdriver.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="debuggerdriver_8h_source#l00227">227</a> of file <a class="el" href="debuggerdriver_8h_source">debuggerdriver.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="debuggerdriver_8cpp_source#l00164">GetStackFrames()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="debuggerdriver_8cpp_source#l00166">GetStackFrames()</a>.</p>
 
 </div>
 </div>
@@ -2670,9 +2709,9 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="debuggerdriver_8h_source#l00218">218</a> of file <a class="el" href="debuggerdriver_8h_source">debuggerdriver.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="debuggerdriver_8h_source#l00221">221</a> of file <a class="el" href="debuggerdriver_8h_source">debuggerdriver.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="debuggerdriver_8h_source#l00164">GetChildPID()</a>, <a class="el" href="gdb__driver_8cpp_source#l00777">GDB_driver::ParseOutput()</a>, and <a class="el" href="debuggerdriver_8h_source#l00162">SetChildPID()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="debuggerdriver_8h_source#l00164">GetChildPID()</a>, <a class="el" href="gdb__driver_8cpp_source#l00691">GDB_driver::ParseOutput()</a>, and <a class="el" href="debuggerdriver_8h_source#l00162">SetChildPID()</a>.</p>
 
 </div>
 </div>
@@ -2696,9 +2735,9 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="debuggerdriver_8h_source#l00226">226</a> of file <a class="el" href="debuggerdriver_8h_source">debuggerdriver.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="debuggerdriver_8h_source#l00229">229</a> of file <a class="el" href="debuggerdriver_8h_source">debuggerdriver.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="debuggerdriver_8h_source#l00194">GetCurrentFrame()</a>, <a class="el" href="debuggerdriver_8cpp_source#l00191">ResetCurrentFrame()</a>, and <a class="el" href="debuggerdriver_8cpp_source#l00184">SetCurrentFrame()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="debuggerdriver_8h_source#l00194">GetCurrentFrame()</a>, <a class="el" href="debuggerdriver_8cpp_source#l00193">ResetCurrentFrame()</a>, and <a class="el" href="debuggerdriver_8cpp_source#l00186">SetCurrentFrame()</a>.</p>
 
 </div>
 </div>
@@ -2722,9 +2761,9 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="debuggerdriver_8h_source#l00216">216</a> of file <a class="el" href="debuggerdriver_8h_source">debuggerdriver.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="debuggerdriver_8h_source#l00219">219</a> of file <a class="el" href="debuggerdriver_8h_source">debuggerdriver.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="debuggerdriver_8h_source#l00189">GetCursor()</a>, <a class="el" href="gdb__driver_8cpp_source#l01172">GDB_driver::HandleMainBreakPoint()</a>, <a class="el" href="debuggerdriver_8cpp_source#l00083">NotifyCursorChanged()</a>, <a class="el" href="cdb__driver_8cpp_source#l00330">CDB_driver::ParseOutput()</a>, <a class="el" href="gdb__driver_8cpp_source#l00777">GDB_driver::ParseOutput()</a>, <a class="el" href="debuggerdriver_8cpp_source#l00098">ResetCursor()</a>, and <a class="el" href="debuggerdriver_8h_source#l00191">SetCursor()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="debuggerdriver_8h_source#l00189">GetCursor()</a>, <a class="el" href="gdb__driver_8cpp_source#l01086">GDB_driver::HandleMainBreakPoint()</a>, <a class="el" href="debuggerdriver_8cpp_source#l00085">NotifyCursorChanged()</a>, <a class="el" href="cdb__driver_8cpp_source#l00331">CDB_driver::ParseOutput()</a>, <a class="el" href="gdb__driver_8cpp_source#l00691">GDB_driver::ParseOutput()</a>, <a class="el" href="debuggerdriver_8cpp_source#l00100">ResetCursor()</a>, <a class="el" href="debuggerdriver_8h_source#l00191">SetCursor()</a>, and <a class="el" href="gdb__driver_8cpp_source#l00628">GDB_driver::UpdateWatches()</a>.</p>
 
 </div>
 </div>
@@ -2748,9 +2787,9 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="debuggerdriver_8h_source#l00221">221</a> of file <a class="el" href="debuggerdriver_8h_source">debuggerdriver.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="debuggerdriver_8h_source#l00224">224</a> of file <a class="el" href="debuggerdriver_8h_source">debuggerdriver.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="debuggerdriver_8cpp_source#l00118">CurrentCommand()</a>, <a class="el" href="gdb__driver_8cpp_source#l00777">GDB_driver::ParseOutput()</a>, <a class="el" href="debuggerdriver_8cpp_source#l00108">QueueCommand()</a>, <a class="el" href="debuggerdriver_8cpp_source#l00153">RemoveTopCommand()</a>, <a class="el" href="debuggerdriver_8cpp_source#l00123">RunQueue()</a>, and <a class="el" href="debuggerdriver_8cpp_source#l00027">~DebuggerDriver()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="debuggerdriver_8cpp_source#l00120">CurrentCommand()</a>, <a class="el" href="gdb__driver_8cpp_source#l00691">GDB_driver::ParseOutput()</a>, <a class="el" href="debuggerdriver_8cpp_source#l00110">QueueCommand()</a>, <a class="el" href="debuggerdriver_8cpp_source#l00155">RemoveTopCommand()</a>, <a class="el" href="debuggerdriver_8cpp_source#l00125">RunQueue()</a>, and <a class="el" href="debuggerdriver_8cpp_source#l00027">~DebuggerDriver()</a>.</p>
 
 </div>
 </div>
@@ -2774,9 +2813,35 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="debuggerdriver_8h_source#l00209">209</a> of file <a class="el" href="debuggerdriver_8h_source">debuggerdriver.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="debuggerdriver_8h_source#l00212">212</a> of file <a class="el" href="debuggerdriver_8h_source">debuggerdriver.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="debuggerdriver_8cpp_source#l00050">AddDirectory()</a>, <a class="el" href="debuggerdriver_8cpp_source#l00045">ClearDirectories()</a>, <a class="el" href="cdb__driver_8cpp_source#l00055">CDB_driver::GetCommonCommandLine()</a>, and <a class="el" href="gdb__driver_8cpp_source#l00220">GDB_driver::Prepare()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="debuggerdriver_8cpp_source#l00050">AddDirectory()</a>, <a class="el" href="debuggerdriver_8cpp_source#l00045">ClearDirectories()</a>, <a class="el" href="cdb__driver_8cpp_source#l00055">CDB_driver::GetCommonCommandLine()</a>, and <a class="el" href="gdb__driver_8cpp_source#l00132">GDB_driver::Prepare()</a>.</p>
+
+</div>
+</div>
+<a id="kd-m_FileName"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#kd-m_FileName">&#9670;&nbsp;</a></span>m_FileName</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html">wxString</a> DebuggerDriver::m_FileName</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="debuggerdriver_8h_source#l00232">232</a> of file <a class="el" href="debuggerdriver_8h_source">debuggerdriver.h</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="gdb__driver_8cpp_source#l00628">GDB_driver::UpdateWatches()</a>.</p>
 
 </div>
 </div>
@@ -2800,9 +2865,9 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="debuggerdriver_8h_source#l00215">215</a> of file <a class="el" href="debuggerdriver_8h_source">debuggerdriver.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="debuggerdriver_8h_source#l00218">218</a> of file <a class="el" href="debuggerdriver_8h_source">debuggerdriver.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="debuggerdriver_8cpp_source#l00083">NotifyCursorChanged()</a>, and <a class="el" href="debuggerdriver_8cpp_source#l00098">ResetCursor()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="debuggerdriver_8cpp_source#l00085">NotifyCursorChanged()</a>, and <a class="el" href="debuggerdriver_8cpp_source#l00100">ResetCursor()</a>.</p>
 
 </div>
 </div>
@@ -2826,9 +2891,9 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="debuggerdriver_8h_source#l00206">206</a> of file <a class="el" href="debuggerdriver_8h_source">debuggerdriver.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="debuggerdriver_8h_source#l00209">209</a> of file <a class="el" href="debuggerdriver_8h_source">debuggerdriver.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="debuggerdriver_8cpp_source#l00040">DebugLog()</a>, <a class="el" href="gdb__driver_8cpp_source#l00189">GDB_driver::GetCommandLine()</a>, <a class="el" href="debuggerdriver_8h_source#l00052">GetDebugger()</a>, <a class="el" href="gdb__driver_8cpp_source#l00341">GDB_driver::GetRemoteDebuggingInfo()</a>, <a class="el" href="gdb__driver_8cpp_source#l01172">GDB_driver::HandleMainBreakPoint()</a>, <a class="el" href="gdb__driver_8cpp_source#l00110">GDB_driver::InitializeScripting()</a>, <a class="el" href="debuggerdriver_8cpp_source#l00035">Log()</a>, <a class="el" href="debuggerdriver_8cpp_source#l00083">NotifyCursorChanged()</a>, <a class="el" href="debuggerdriver_8cpp_source#l00092">NotifyDebuggeeContinued()</a>, <a class="el" href="cdb__driver_8cpp_source#l00330">CDB_driver::ParseOutput()</a>, <a class="el" href="gdb__driver_8cpp_source#l00777">GDB_driver::ParseOutput()</a>, <a class="el" href="gdb__driver_8cpp_source#l00220">GDB_driver::Prepare()</a>, <a class="el" href="gdb__driver_8cpp_source#l00153">GDB_driver::RegisterType()</a>, <a class="el" href="debuggerdriver_8cpp_source#l00123">RunQueue()</a>, <a class="el" href="debuggerdriver_8cpp_source#l00075">ShowFile()</a>, <a class="el" href="cdb__driver_8cpp_source#l00121">CDB_driver::Start()</a>, <a class="el" href="gdb__driver_8cpp_source#l00483">GDB_driver::Start()</a>, and <a class="el" href="gdb__driver_8cpp_source#l00518">GDB_driver::Stop()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="debuggerdriver_8cpp_source#l00040">DebugLog()</a>, <a class="el" href="gdb__driver_8cpp_source#l00101">GDB_driver::GetCommandLine()</a>, <a class="el" href="debuggerdriver_8h_source#l00052">GetDebugger()</a>, <a class="el" href="gdb__driver_8cpp_source#l00249">GDB_driver::GetRemoteDebuggingInfo()</a>, <a class="el" href="gdb__driver_8cpp_source#l01086">GDB_driver::HandleMainBreakPoint()</a>, <a class="el" href="debuggerdriver_8cpp_source#l00035">Log()</a>, <a class="el" href="debuggerdriver_8cpp_source#l00085">NotifyCursorChanged()</a>, <a class="el" href="debuggerdriver_8cpp_source#l00094">NotifyDebuggeeContinued()</a>, <a class="el" href="cdb__driver_8cpp_source#l00331">CDB_driver::ParseOutput()</a>, <a class="el" href="gdb__driver_8cpp_source#l00691">GDB_driver::ParseOutput()</a>, <a class="el" href="gdb__driver_8cpp_source#l00132">GDB_driver::Prepare()</a>, <a class="el" href="debuggerdriver_8cpp_source#l00125">RunQueue()</a>, <a class="el" href="debuggerdriver_8cpp_source#l00077">ShowFile()</a>, <a class="el" href="cdb__driver_8cpp_source#l00121">CDB_driver::Start()</a>, <a class="el" href="gdb__driver_8cpp_source#l00391">GDB_driver::Start()</a>, <a class="el" href="gdb__driver_8cpp_source#l00426">GDB_driver::Stop()</a>, and <a class="el" href="gdb__driver_8cpp_source#l00628">GDB_driver::UpdateWatches()</a>.</p>
 
 </div>
 </div>
@@ -2852,9 +2917,9 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="debuggerdriver_8h_source#l00214">214</a> of file <a class="el" href="debuggerdriver_8h_source">debuggerdriver.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="debuggerdriver_8h_source#l00217">217</a> of file <a class="el" href="debuggerdriver_8h_source">debuggerdriver.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="debuggerdriver_8h_source#l00157">IsProgramStopped()</a>, <a class="el" href="debuggerdriver_8h_source#l00158">MarkProgramStopped()</a>, <a class="el" href="cdb__driver_8cpp_source#l00330">CDB_driver::ParseOutput()</a>, <a class="el" href="gdb__driver_8cpp_source#l00777">GDB_driver::ParseOutput()</a>, and <a class="el" href="debuggerdriver_8cpp_source#l00123">RunQueue()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="debuggerdriver_8h_source#l00157">IsProgramStopped()</a>, <a class="el" href="debuggerdriver_8h_source#l00158">MarkProgramStopped()</a>, <a class="el" href="cdb__driver_8cpp_source#l00331">CDB_driver::ParseOutput()</a>, <a class="el" href="gdb__driver_8cpp_source#l00691">GDB_driver::ParseOutput()</a>, and <a class="el" href="debuggerdriver_8cpp_source#l00125">RunQueue()</a>.</p>
 
 </div>
 </div>
@@ -2878,9 +2943,9 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="debuggerdriver_8h_source#l00222">222</a> of file <a class="el" href="debuggerdriver_8h_source">debuggerdriver.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="debuggerdriver_8h_source#l00225">225</a> of file <a class="el" href="debuggerdriver_8h_source">debuggerdriver.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="debuggerdriver_8h_source#l00160">IsQueueBusy()</a>, <a class="el" href="cdb__driver_8cpp_source#l00330">CDB_driver::ParseOutput()</a>, <a class="el" href="gdb__driver_8cpp_source#l00777">GDB_driver::ParseOutput()</a>, <a class="el" href="cdb__driver_8cpp_source#l00110">CDB_driver::Prepare()</a>, <a class="el" href="debuggerdriver_8cpp_source#l00153">RemoveTopCommand()</a>, and <a class="el" href="debuggerdriver_8cpp_source#l00123">RunQueue()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="debuggerdriver_8h_source#l00160">IsQueueBusy()</a>, <a class="el" href="cdb__driver_8cpp_source#l00331">CDB_driver::ParseOutput()</a>, <a class="el" href="gdb__driver_8cpp_source#l00691">GDB_driver::ParseOutput()</a>, <a class="el" href="cdb__driver_8cpp_source#l00110">CDB_driver::Prepare()</a>, <a class="el" href="debuggerdriver_8cpp_source#l00155">RemoveTopCommand()</a>, and <a class="el" href="debuggerdriver_8cpp_source#l00125">RunQueue()</a>.</p>
 
 </div>
 </div>
@@ -2904,9 +2969,9 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="debuggerdriver_8h_source#l00225">225</a> of file <a class="el" href="debuggerdriver_8h_source">debuggerdriver.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="debuggerdriver_8h_source#l00228">228</a> of file <a class="el" href="debuggerdriver_8h_source">debuggerdriver.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="debuggerdriver_8cpp_source#l00174">GetThreads()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="debuggerdriver_8cpp_source#l00176">GetThreads()</a>.</p>
 
 </div>
 </div>
@@ -2930,9 +2995,9 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="debuggerdriver_8h_source#l00227">227</a> of file <a class="el" href="debuggerdriver_8h_source">debuggerdriver.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="debuggerdriver_8h_source#l00230">230</a> of file <a class="el" href="debuggerdriver_8h_source">debuggerdriver.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="debuggerdriver_8h_source#l00195">GetUserSelectedFrame()</a>, <a class="el" href="debuggerdriver_8cpp_source#l00191">ResetCurrentFrame()</a>, and <a class="el" href="debuggerdriver_8cpp_source#l00184">SetCurrentFrame()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="debuggerdriver_8h_source#l00195">GetUserSelectedFrame()</a>, <a class="el" href="debuggerdriver_8cpp_source#l00193">ResetCurrentFrame()</a>, and <a class="el" href="debuggerdriver_8cpp_source#l00186">SetCurrentFrame()</a>.</p>
 
 </div>
 </div>
@@ -2956,7 +3021,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="debuggerdriver_8h_source#l00210">210</a> of file <a class="el" href="debuggerdriver_8h_source">debuggerdriver.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="debuggerdriver_8h_source#l00213">213</a> of file <a class="el" href="debuggerdriver_8h_source">debuggerdriver.h</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="debuggerdriver_8cpp_source#l00061">GetDebuggersWorkingDirectory()</a>, and <a class="el" href="debuggerdriver_8cpp_source#l00056">SetWorkingDirectory()</a>.</p>
 

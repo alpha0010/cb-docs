@@ -19,7 +19,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Code::Blocks
-   &#160;<span id="projectnumber">SVN r11156</span>
+   &#160;<span id="projectnumber">SVN r11506</span>
    </div>
   </td>
  </tr>
@@ -47,16 +47,21 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 
+<p>Actual data stored with each node in the symbol tree.  
+ <a href="classCCTreeCtrlData#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="cctreectrl_8h_source">cctreectrl.h</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for CCTreeCtrlData:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classCCTreeCtrlData__inherit__graph.svg" width="154" height="500"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classCCTreeCtrlData__inherit__graph.svg" width="154" height="500"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 <div class="dynheader">
 Collaboration diagram for CCTreeCtrlData:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classCCTreeCtrlData__coll__graph.svg" width="1714" height="1796"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classCCTreeCtrlData__coll__graph.svg" width="1714" height="1796"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
@@ -81,25 +86,34 @@ Public Member Functions</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
 <tr class="memitem:a3-m_Token"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classToken">Token</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCCTreeCtrlData#a3-m_Token">m_Token</a></td></tr>
+<tr class="memdesc:a3-m_Token"><td class="mdescLeft">&#160;</td><td class="mdescRight">a pointer to the associated <a class="el" href="classToken" title="a symbol found in the parsed files, it can be many kinds, such as a variable, a class and so on...">Token</a> instance in the <a class="el" href="classTokenTree" title="a container class to hold all the Tokens getting from parsing stage ">TokenTree</a>  <a href="#a3-m_Token">More...</a><br /></td></tr>
 <tr class="separator:a3-m_Token"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:k6-m_KindMask"><td class="memItemLeft" align="right" valign="top">short int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCCTreeCtrlData#k6-m_KindMask">m_KindMask</a></td></tr>
+<tr class="memdesc:k6-m_KindMask"><td class="mdescLeft">&#160;</td><td class="mdescRight">a copy of Token::m_KindMask  <a href="#k6-m_KindMask">More...</a><br /></td></tr>
 <tr class="separator:k6-m_KindMask"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:vr-m_SpecialFolder"><td class="memItemLeft" align="right" valign="top"><a class="el" href="cctreectrl_8h#ah-SpecialFolder">SpecialFolder</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCCTreeCtrlData#vr-m_SpecialFolder">m_SpecialFolder</a></td></tr>
+<tr class="memdesc:vr-m_SpecialFolder"><td class="mdescLeft">&#160;</td><td class="mdescRight">the node's kind, it could be "root", "normal token",  <a href="#vr-m_SpecialFolder">More...</a><br /></td></tr>
 <tr class="separator:vr-m_SpecialFolder"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ez-m_TokenIndex"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCCTreeCtrlData#ez-m_TokenIndex">m_TokenIndex</a></td></tr>
+<tr class="memdesc:ez-m_TokenIndex"><td class="mdescLeft">&#160;</td><td class="mdescRight">a copy of Token::m_TokenIndex  <a href="#ez-m_TokenIndex">More...</a><br /></td></tr>
 <tr class="separator:ez-m_TokenIndex"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ji-m_TokenKind"><td class="memItemLeft" align="right" valign="top"><a class="el" href="token_8h#uj-TokenKind">TokenKind</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCCTreeCtrlData#ji-m_TokenKind">m_TokenKind</a></td></tr>
+<tr class="memdesc:ji-m_TokenKind"><td class="mdescLeft">&#160;</td><td class="mdescRight">a copy of <a class="el" href="classToken#ky-m_TokenKind" title="See TokenKind class. ">Token::m_TokenKind</a>  <a href="#ji-m_TokenKind">More...</a><br /></td></tr>
 <tr class="separator:ji-m_TokenKind"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:q0-m_TokenName"><td class="memItemLeft" align="right" valign="top"><a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html">wxString</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCCTreeCtrlData#q0-m_TokenName">m_TokenName</a></td></tr>
+<tr class="memdesc:q0-m_TokenName"><td class="mdescLeft">&#160;</td><td class="mdescRight">short name of the <a class="el" href="classToken" title="a symbol found in the parsed files, it can be many kinds, such as a variable, a class and so on...">Token</a>, it is a copy of <a class="el" href="classToken#el-m_Name" title="Token&#39;s name, it can be searched in the TokenTree. ">Token::m_Name</a>  <a href="#q0-m_TokenName">More...</a><br /></td></tr>
 <tr class="separator:q0-m_TokenName"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:e3-m_ParentIndex"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCCTreeCtrlData#e3-m_ParentIndex">m_ParentIndex</a></td></tr>
+<tr class="memdesc:e3-m_ParentIndex"><td class="mdescLeft">&#160;</td><td class="mdescRight">the parent <a class="el" href="classToken" title="a symbol found in the parsed files, it can be many kinds, such as a variable, a class and so on...">Token</a> index it is a copy of <a class="el" href="classToken#wc-m_ParentIndex" title="Parent Token index. ">Token::m_ParentIndex</a>,  <a href="#e3-m_ParentIndex">More...</a><br /></td></tr>
 <tr class="separator:e3-m_ParentIndex"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:wb-m_Ticket"><td class="memItemLeft" align="right" valign="top">unsigned long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCCTreeCtrlData#wb-m_Ticket">m_Ticket</a></td></tr>
+<tr class="memdesc:wb-m_Ticket"><td class="mdescLeft">&#160;</td><td class="mdescRight">the <a class="el" href="classToken" title="a symbol found in the parsed files, it can be many kinds, such as a variable, a class and so on...">Token</a>'s ticket in a <a class="el" href="classTokenTree" title="a container class to hold all the Tokens getting from parsing stage ">TokenTree</a> This is actually a copy of <a class="el" href="classToken#a9-m_Ticket" title="This is used in class browser to avoid duplication nodes in the class browser tree. ">Token::m_Ticket</a>,  <a href="#wb-m_Ticket">More...</a><br /></td></tr>
 <tr class="separator:wb-m_Ticket"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock">
-<p class="definition">Definition at line <a class="el" href="cctreectrl_8h_source#l00035">35</a> of file <a class="el" href="cctreectrl_8h_source">cctreectrl.h</a>.</p>
+<div class="textblock"><p>Actual data stored with each node in the symbol tree. </p>
+
+<p class="definition">Definition at line <a class="el" href="cctreectrl_8h_source#l00037">37</a> of file <a class="el" href="cctreectrl_8h_source">cctreectrl.h</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="ea-CCTreeCtrlData"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ea-CCTreeCtrlData">&#9670;&nbsp;</a></span>CCTreeCtrlData()</h2>
@@ -158,7 +172,10 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="cctreectrl_8h_source#l00042">42</a> of file <a class="el" href="cctreectrl_8h_source">cctreectrl.h</a>.</p>
+<p>a copy of Token::m_KindMask </p>
+<dl class="todo"><dt><b><a class="el" href="todo#_todo000002">Todo:</a></b></dt><dd>this variable is not used? </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="cctreectrl_8h_source#l00049">49</a> of file <a class="el" href="cctreectrl_8h_source">cctreectrl.h</a>.</p>
 
 </div>
 </div>
@@ -174,7 +191,11 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="cctreectrl_8h_source#l00047">47</a> of file <a class="el" href="cctreectrl_8h_source">cctreectrl.h</a>.</p>
+<p>the parent <a class="el" href="classToken" title="a symbol found in the parsed files, it can be many kinds, such as a variable, a class and so on...">Token</a> index it is a copy of <a class="el" href="classToken#wc-m_ParentIndex" title="Parent Token index. ">Token::m_ParentIndex</a>, </p>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="classToken#wc-m_ParentIndex" title="Parent Token index. ">Token::m_ParentIndex</a> </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo#_todo000003">Todo:</a></b></dt><dd>this variable is not used? </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="cctreectrl_8h_source#l00069">69</a> of file <a class="el" href="cctreectrl_8h_source">cctreectrl.h</a>.</p>
 
 </div>
 </div>
@@ -190,9 +211,12 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="cctreectrl_8h_source#l00043">43</a> of file <a class="el" href="cctreectrl_8h_source">cctreectrl.h</a>.</p>
+<p>the node's kind, it could be "root", "normal token", </p>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="cctreectrl_8h#ah-SpecialFolder" title="Specify which kind of node it is. ">SpecialFolder</a> </dd></dl>
 
-<p class="reference">Referenced by <a class="el" href="classbrowserbuilderthread_8cpp_source#l00872">ClassBrowserBuilderThread::AddMembersOf()</a>, <a class="el" href="cctreectrl_8cpp_source#l00089">CCTreeCtrl::CBAlphabetCompare()</a>, <a class="el" href="cctreectrl_8cpp_source#l00100">CCTreeCtrl::CBKindCompare()</a>, <a class="el" href="cctreectrl_8cpp_source#l00125">CCTreeCtrl::CBLineCompare()</a>, <a class="el" href="cctreectrl_8cpp_source#l00112">CCTreeCtrl::CBScopeCompare()</a>, <a class="el" href="classbrowserbuilderthread_8cpp_source#l00243">ClassBrowserBuilderThread::ExpandItem()</a>, <a class="el" href="classbrowserbuilderthread_8cpp_source#l01179">ClassBrowserBuilderThread::ExpandSavedItems()</a>, <a class="el" href="classbrowser_8cpp_source#l00726">ClassBrowser::OnSearch()</a>, <a class="el" href="cctreectrl_8cpp_source#l00151">CCTreeCtrl::RemoveDoubles()</a>, and <a class="el" href="classbrowserbuilderthread_8cpp_source#l01240">ClassBrowserBuilderThread::SelectSavedItem()</a>.</p>
+<p class="definition">Definition at line <a class="el" href="cctreectrl_8h_source#l00052">52</a> of file <a class="el" href="cctreectrl_8h_source">cctreectrl.h</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="classbrowserbuilderthread_8cpp_source#l00888">ClassBrowserBuilderThread::AddMembersOf()</a>, <a class="el" href="cctreectrl_8cpp_source#l00089">CCTreeCtrl::CBAlphabetCompare()</a>, <a class="el" href="cctreectrl_8cpp_source#l00100">CCTreeCtrl::CBKindCompare()</a>, <a class="el" href="cctreectrl_8cpp_source#l00125">CCTreeCtrl::CBLineCompare()</a>, <a class="el" href="cctreectrl_8cpp_source#l00112">CCTreeCtrl::CBScopeCompare()</a>, <a class="el" href="classbrowserbuilderthread_8cpp_source#l00243">ClassBrowserBuilderThread::ExpandItem()</a>, <a class="el" href="classbrowserbuilderthread_8cpp_source#l01198">ClassBrowserBuilderThread::ExpandSavedItems()</a>, <a class="el" href="classbrowser_8cpp_source#l00726">ClassBrowser::OnSearch()</a>, <a class="el" href="cctreectrl_8cpp_source#l00151">CCTreeCtrl::RemoveDoubles()</a>, and <a class="el" href="classbrowserbuilderthread_8cpp_source#l01259">ClassBrowserBuilderThread::SelectSavedItem()</a>.</p>
 
 </div>
 </div>
@@ -208,9 +232,12 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="cctreectrl_8h_source#l00048">48</a> of file <a class="el" href="cctreectrl_8h_source">cctreectrl.h</a>.</p>
+<p>the <a class="el" href="classToken" title="a symbol found in the parsed files, it can be many kinds, such as a variable, a class and so on...">Token</a>'s ticket in a <a class="el" href="classTokenTree" title="a container class to hold all the Tokens getting from parsing stage ">TokenTree</a> This is actually a copy of <a class="el" href="classToken#a9-m_Ticket" title="This is used in class browser to avoid duplication nodes in the class browser tree. ">Token::m_Ticket</a>, </p>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="classToken#a9-m_Ticket" title="This is used in class browser to avoid duplication nodes in the class browser tree. ">Token::m_Ticket</a> </dd></dl>
 
-<p class="reference">Referenced by <a class="el" href="classbrowserbuilderthread_8cpp_source#l01005">ClassBrowserBuilderThread::AddNodes()</a>, and <a class="el" href="classbrowserbuilderthread_8cpp_source#l00590">ClassBrowserBuilderThread::RemoveInvalidNodes()</a>.</p>
+<p class="definition">Definition at line <a class="el" href="cctreectrl_8h_source#l00073">73</a> of file <a class="el" href="cctreectrl_8h_source">cctreectrl.h</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="classbrowserbuilderthread_8cpp_source#l01021">ClassBrowserBuilderThread::AddNodes()</a>, and <a class="el" href="classbrowserbuilderthread_8cpp_source#l00592">ClassBrowserBuilderThread::RemoveInvalidNodes()</a>.</p>
 
 </div>
 </div>
@@ -226,9 +253,11 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="cctreectrl_8h_source#l00041">41</a> of file <a class="el" href="cctreectrl_8h_source">cctreectrl.h</a>.</p>
+<p>a pointer to the associated <a class="el" href="classToken" title="a symbol found in the parsed files, it can be many kinds, such as a variable, a class and so on...">Token</a> instance in the <a class="el" href="classTokenTree" title="a container class to hold all the Tokens getting from parsing stage ">TokenTree</a> </p>
 
-<p class="reference">Referenced by <a class="el" href="classbrowserbuilderthread_8cpp_source#l00872">ClassBrowserBuilderThread::AddMembersOf()</a>, <a class="el" href="cctreectrl_8cpp_source#l00089">CCTreeCtrl::CBAlphabetCompare()</a>, <a class="el" href="cctreectrl_8cpp_source#l00125">CCTreeCtrl::CBLineCompare()</a>, <a class="el" href="cctreectrl_8cpp_source#l00112">CCTreeCtrl::CBScopeCompare()</a>, <a class="el" href="classbrowserbuilderthread_8cpp_source#l00243">ClassBrowserBuilderThread::ExpandItem()</a>, <a class="el" href="classbrowserbuilderthread_8cpp_source#l00661">ClassBrowserBuilderThread::ExpandNamespaces()</a>, <a class="el" href="classbrowser_8cpp_source#l00484">ClassBrowser::OnJumpTo()</a>, <a class="el" href="classbrowser_8cpp_source#l00538">ClassBrowser::OnTreeItemDoubleClick()</a>, <a class="el" href="cctreectrl_8cpp_source#l00151">CCTreeCtrl::RemoveDoubles()</a>, <a class="el" href="classbrowserbuilderthread_8cpp_source#l00590">ClassBrowserBuilderThread::RemoveInvalidNodes()</a>, and <a class="el" href="classbrowser_8cpp_source#l00268">ClassBrowser::ShowMenu()</a>.</p>
+<p class="definition">Definition at line <a class="el" href="cctreectrl_8h_source#l00044">44</a> of file <a class="el" href="cctreectrl_8h_source">cctreectrl.h</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="classbrowserbuilderthread_8cpp_source#l00888">ClassBrowserBuilderThread::AddMembersOf()</a>, <a class="el" href="cctreectrl_8cpp_source#l00089">CCTreeCtrl::CBAlphabetCompare()</a>, <a class="el" href="cctreectrl_8cpp_source#l00125">CCTreeCtrl::CBLineCompare()</a>, <a class="el" href="cctreectrl_8cpp_source#l00112">CCTreeCtrl::CBScopeCompare()</a>, <a class="el" href="classbrowserbuilderthread_8cpp_source#l00243">ClassBrowserBuilderThread::ExpandItem()</a>, <a class="el" href="classbrowserbuilderthread_8cpp_source#l00663">ClassBrowserBuilderThread::ExpandNamespaces()</a>, <a class="el" href="classbrowser_8cpp_source#l00484">ClassBrowser::OnJumpTo()</a>, <a class="el" href="classbrowser_8cpp_source#l00538">ClassBrowser::OnTreeItemDoubleClick()</a>, <a class="el" href="cctreectrl_8cpp_source#l00151">CCTreeCtrl::RemoveDoubles()</a>, <a class="el" href="classbrowserbuilderthread_8cpp_source#l00592">ClassBrowserBuilderThread::RemoveInvalidNodes()</a>, and <a class="el" href="classbrowser_8cpp_source#l00268">ClassBrowser::ShowMenu()</a>.</p>
 
 </div>
 </div>
@@ -244,9 +273,11 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="cctreectrl_8h_source#l00044">44</a> of file <a class="el" href="cctreectrl_8h_source">cctreectrl.h</a>.</p>
+<p>a copy of Token::m_TokenIndex </p>
 
-<p class="reference">Referenced by <a class="el" href="classbrowserbuilderthread_8cpp_source#l00590">ClassBrowserBuilderThread::RemoveInvalidNodes()</a>.</p>
+<p class="definition">Definition at line <a class="el" href="cctreectrl_8h_source#l00055">55</a> of file <a class="el" href="cctreectrl_8h_source">cctreectrl.h</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="classbrowserbuilderthread_8cpp_source#l00592">ClassBrowserBuilderThread::RemoveInvalidNodes()</a>.</p>
 
 </div>
 </div>
@@ -262,9 +293,11 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="cctreectrl_8h_source#l00045">45</a> of file <a class="el" href="cctreectrl_8h_source">cctreectrl.h</a>.</p>
+<p>a copy of <a class="el" href="classToken#ky-m_TokenKind" title="See TokenKind class. ">Token::m_TokenKind</a> </p>
 
-<p class="reference">Referenced by <a class="el" href="cctreectrl_8cpp_source#l00100">CCTreeCtrl::CBKindCompare()</a>, <a class="el" href="classbrowserbuilderthread_8cpp_source#l01179">ClassBrowserBuilderThread::ExpandSavedItems()</a>, and <a class="el" href="classbrowserbuilderthread_8cpp_source#l01240">ClassBrowserBuilderThread::SelectSavedItem()</a>.</p>
+<p class="definition">Definition at line <a class="el" href="cctreectrl_8h_source#l00058">58</a> of file <a class="el" href="cctreectrl_8h_source">cctreectrl.h</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="cctreectrl_8cpp_source#l00100">CCTreeCtrl::CBKindCompare()</a>, <a class="el" href="classbrowserbuilderthread_8cpp_source#l01198">ClassBrowserBuilderThread::ExpandSavedItems()</a>, and <a class="el" href="classbrowserbuilderthread_8cpp_source#l01259">ClassBrowserBuilderThread::SelectSavedItem()</a>.</p>
 
 </div>
 </div>
@@ -280,9 +313,11 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="cctreectrl_8h_source#l00046">46</a> of file <a class="el" href="cctreectrl_8h_source">cctreectrl.h</a>.</p>
+<p>short name of the <a class="el" href="classToken" title="a symbol found in the parsed files, it can be many kinds, such as a variable, a class and so on...">Token</a>, it is a copy of <a class="el" href="classToken#el-m_Name" title="Token&#39;s name, it can be searched in the TokenTree. ">Token::m_Name</a> </p>
 
-<p class="reference">Referenced by <a class="el" href="classbrowserbuilderthread_8cpp_source#l01179">ClassBrowserBuilderThread::ExpandSavedItems()</a>, and <a class="el" href="classbrowserbuilderthread_8cpp_source#l01240">ClassBrowserBuilderThread::SelectSavedItem()</a>.</p>
+<p class="definition">Definition at line <a class="el" href="cctreectrl_8h_source#l00063">63</a> of file <a class="el" href="cctreectrl_8h_source">cctreectrl.h</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="classbrowserbuilderthread_8cpp_source#l01198">ClassBrowserBuilderThread::ExpandSavedItems()</a>, and <a class="el" href="classbrowserbuilderthread_8cpp_source#l01259">ClassBrowserBuilderThread::SelectSavedItem()</a>.</p>
 
 </div>
 </div>

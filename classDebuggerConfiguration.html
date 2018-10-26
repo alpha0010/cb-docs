@@ -19,7 +19,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Code::Blocks
-   &#160;<span id="projectnumber">SVN r11156</span>
+   &#160;<span id="projectnumber">SVN r11506</span>
    </div>
   </td>
  </tr>
@@ -51,12 +51,14 @@ $(function() {
 <div class="dynheader">
 Inheritance diagram for DebuggerConfiguration:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classDebuggerConfiguration__inherit__graph.svg" width="238" height="566"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classDebuggerConfiguration__inherit__graph.svg" width="238" height="566"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 <div class="dynheader">
 Collaboration diagram for DebuggerConfiguration:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classDebuggerConfiguration__coll__graph.svg" width="328" height="1199"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classDebuggerConfiguration__coll__graph.svg" width="328" height="1199"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
@@ -65,10 +67,9 @@ Public Types</h2></td></tr>
 &#160;&#160;<a class="el" href="classDebuggerConfiguration#bv-Flags:DisableInit">DisableInit</a>, 
 <a class="el" href="classDebuggerConfiguration#bv-Flags:WatchFuncArgs">WatchFuncArgs</a>, 
 <a class="el" href="classDebuggerConfiguration#bv-Flags:WatchLocals">WatchLocals</a>, 
-<a class="el" href="classDebuggerConfiguration#bv-Flags:WatchScriptPrinters">WatchScriptPrinters</a>, 
+<a class="el" href="classDebuggerConfiguration#bv-Flags:CatchExceptions">CatchExceptions</a>, 
 <br />
-&#160;&#160;<a class="el" href="classDebuggerConfiguration#bv-Flags:CatchExceptions">CatchExceptions</a>, 
-<a class="el" href="classDebuggerConfiguration#bv-Flags:EvalExpression">EvalExpression</a>, 
+&#160;&#160;<a class="el" href="classDebuggerConfiguration#bv-Flags:EvalExpression">EvalExpression</a>, 
 <a class="el" href="classDebuggerConfiguration#bv-Flags:AddOtherProjectDirs">AddOtherProjectDirs</a>, 
 <a class="el" href="classDebuggerConfiguration#bv-Flags:DoNotRun">DoNotRun</a>
 <br />
@@ -147,7 +148,6 @@ Additional Inherited Members</h2></td></tr>
 <tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="bv-Flags:DisableInit"></a>DisableInit&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="bv-Flags:WatchFuncArgs"></a>WatchFuncArgs&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="bv-Flags:WatchLocals"></a>WatchLocals&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="bv-Flags:WatchScriptPrinters"></a>WatchScriptPrinters&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="bv-Flags:CatchExceptions"></a>CatchExceptions&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="bv-Flags:EvalExpression"></a>EvalExpression&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="bv-Flags:AddOtherProjectDirs"></a>AddOtherProjectDirs&#160;</td><td class="fielddoc"></td></tr>
@@ -233,11 +233,11 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="debuggeroptionsdlg_8cpp_source#l00195">195</a> of file <a class="el" href="debuggeroptionsdlg_8cpp_source">debuggeroptionsdlg.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="debuggeroptionsdlg_8cpp_source#l00188">188</a> of file <a class="el" href="debuggeroptionsdlg_8cpp_source">debuggeroptionsdlg.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="debuggermanager_8cpp_source#l00443">cbDetectDebuggerExecutable()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#ac6ae24a8ccc6e4e671f972948fca437c">wxString::empty()</a>, <a class="el" href="manager_8cpp_source#l00187">Manager::Get()</a>, <a class="el" href="manager_8cpp_source#l00458">Manager::GetMacrosManager()</a>, <a class="el" href="macrosmanager_8h_source#l00032">MacrosManager::ReplaceEnvVars()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/interface_2wx_2string_8h.html#a9a321d587166a30017b608dd2d234033">wxEmptyString</a>, and <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga437ea6ba615b75dac8603e96ec864160">wxT</a>.</p>
+<p class="reference">References <a class="el" href="debuggermanager_8cpp_source#l00455">cbDetectDebuggerExecutable()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#ac6ae24a8ccc6e4e671f972948fca437c">wxString::empty()</a>, <a class="el" href="manager_8cpp_source#l00182">Manager::Get()</a>, <a class="el" href="manager_8cpp_source#l00454">Manager::GetMacrosManager()</a>, <a class="el" href="macrosmanager_8h_source#l00032">MacrosManager::ReplaceEnvVars()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/interface_2wx_2string_8h.html#a9a321d587166a30017b608dd2d234033">wxEmptyString</a>, and <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga437ea6ba615b75dac8603e96ec864160">wxT</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="debuggergdb_8cpp_source#l00665">DebuggerGDB::DoDebug()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="debuggergdb_8cpp_source#l00707">DebuggerGDB::DoDebug()</a>.</p>
 
 </div>
 </div>
@@ -256,11 +256,11 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="debuggeroptionsdlg_8cpp_source#l00211">211</a> of file <a class="el" href="debuggeroptionsdlg_8cpp_source">debuggeroptionsdlg.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="debuggeroptionsdlg_8cpp_source#l00204">204</a> of file <a class="el" href="debuggeroptionsdlg_8cpp_source">debuggeroptionsdlg.cpp</a>.</p>
 
 <p class="reference">References <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/interface_2wx_2string_8h.html#a9a321d587166a30017b608dd2d234033">wxEmptyString</a>, and <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga437ea6ba615b75dac8603e96ec864160">wxT</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="gdb__driver_8cpp_source#l00220">GDB_driver::Prepare()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="gdb__driver_8cpp_source#l00132">GDB_driver::Prepare()</a>.</p>
 
 </div>
 </div>
@@ -280,11 +280,11 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="debuggeroptionsdlg_8cpp_source#l00133">133</a> of file <a class="el" href="debuggeroptionsdlg_8cpp_source">debuggeroptionsdlg.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="debuggeroptionsdlg_8cpp_source#l00131">131</a> of file <a class="el" href="debuggeroptionsdlg_8cpp_source">debuggeroptionsdlg.cpp</a>.</p>
 
 <p class="reference">References <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga437ea6ba615b75dac8603e96ec864160">wxT</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="debuggergdb_8cpp_source#l00493">DebuggerGDB::DoWatches()</a>, <a class="el" href="gdb__driver_8cpp_source#l00189">GDB_driver::GetCommandLine()</a>, <a class="el" href="gdb__driver_8cpp_source#l00110">GDB_driver::InitializeScripting()</a>, <a class="el" href="debuggergdb_8cpp_source#l00296">DebuggerGDB::OnConfigurationChange()</a>, <a class="el" href="debuggergdb_8cpp_source#l01787">DebuggerGDB::OnUpdateCatchThrow()</a>, <a class="el" href="gdb__driver_8cpp_source#l00220">GDB_driver::Prepare()</a>, <a class="el" href="debuggergdb_8cpp_source#l01927">DebuggerGDB::ShowValueTooltip()</a>, <a class="el" href="cdb__driver_8cpp_source#l00121">CDB_driver::Start()</a>, and <a class="el" href="gdb__driver_8cpp_source#l00483">GDB_driver::Start()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="debuggergdb_8cpp_source#l00493">DebuggerGDB::DoWatches()</a>, <a class="el" href="gdb__driver_8cpp_source#l00101">GDB_driver::GetCommandLine()</a>, <a class="el" href="debuggergdb_8cpp_source#l00296">DebuggerGDB::OnConfigurationChange()</a>, <a class="el" href="debuggergdb_8cpp_source#l01829">DebuggerGDB::OnUpdateCatchThrow()</a>, <a class="el" href="gdb__driver_8cpp_source#l00132">GDB_driver::Prepare()</a>, <a class="el" href="debuggergdb_8cpp_source#l01969">DebuggerGDB::ShowValueTooltip()</a>, <a class="el" href="cdb__driver_8cpp_source#l00121">CDB_driver::Start()</a>, and <a class="el" href="gdb__driver_8cpp_source#l00391">GDB_driver::Start()</a>.</p>
 
 </div>
 </div>
@@ -303,11 +303,11 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="debuggeroptionsdlg_8cpp_source#l00244">244</a> of file <a class="el" href="debuggeroptionsdlg_8cpp_source">debuggeroptionsdlg.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="debuggeroptionsdlg_8cpp_source#l00237">237</a> of file <a class="el" href="debuggeroptionsdlg_8cpp_source">debuggeroptionsdlg.cpp</a>.</p>
 
 <p class="reference">References <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/interface_2wx_2string_8h.html#a9a321d587166a30017b608dd2d234033">wxEmptyString</a>, and <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga437ea6ba615b75dac8603e96ec864160">wxT</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="gdb__driver_8cpp_source#l00220">GDB_driver::Prepare()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="gdb__driver_8cpp_source#l00132">GDB_driver::Prepare()</a>.</p>
 
 </div>
 </div>
@@ -327,9 +327,9 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="debuggeroptionsdlg_8cpp_source#l00203">203</a> of file <a class="el" href="debuggeroptionsdlg_8cpp_source">debuggeroptionsdlg.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="debuggeroptionsdlg_8cpp_source#l00196">196</a> of file <a class="el" href="debuggeroptionsdlg_8cpp_source">debuggeroptionsdlg.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="manager_8cpp_source#l00187">Manager::Get()</a>, <a class="el" href="manager_8cpp_source#l00458">Manager::GetMacrosManager()</a>, <a class="el" href="macrosmanager_8h_source#l00032">MacrosManager::ReplaceEnvVars()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/interface_2wx_2string_8h.html#a9a321d587166a30017b608dd2d234033">wxEmptyString</a>, and <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga437ea6ba615b75dac8603e96ec864160">wxT</a>.</p>
+<p class="reference">References <a class="el" href="manager_8cpp_source#l00182">Manager::Get()</a>, <a class="el" href="manager_8cpp_source#l00454">Manager::GetMacrosManager()</a>, <a class="el" href="macrosmanager_8h_source#l00032">MacrosManager::ReplaceEnvVars()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/interface_2wx_2string_8h.html#a9a321d587166a30017b608dd2d234033">wxEmptyString</a>, and <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga437ea6ba615b75dac8603e96ec864160">wxT</a>.</p>
 
 </div>
 </div>
@@ -348,11 +348,11 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="debuggeroptionsdlg_8cpp_source#l00190">190</a> of file <a class="el" href="debuggeroptionsdlg_8cpp_source">debuggeroptionsdlg.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="debuggeroptionsdlg_8cpp_source#l00183">183</a> of file <a class="el" href="debuggeroptionsdlg_8cpp_source">debuggeroptionsdlg.cpp</a>.</p>
 
 <p class="reference">References <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga437ea6ba615b75dac8603e96ec864160">wxT</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="debuggergdb_8cpp_source#l01787">DebuggerGDB::OnUpdateCatchThrow()</a>, <a class="el" href="debuggerstate_8cpp_source#l00038">DebuggerState::StartDriver()</a>, and <a class="el" href="debuggergdb_8cpp_source#l00234">DebuggerGDB::SupportsFeature()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="debuggergdb_8cpp_source#l01829">DebuggerGDB::OnUpdateCatchThrow()</a>, <a class="el" href="debuggerstate_8cpp_source#l00038">DebuggerState::StartDriver()</a>, and <a class="el" href="debuggergdb_8cpp_source#l00234">DebuggerGDB::SupportsFeature()</a>.</p>
 
 </div>
 </div>
@@ -414,7 +414,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Implements <a class="el" href="classcbDebuggerConfiguration#d9-SaveChanges">cbDebuggerConfiguration</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="debuggeroptionsdlg_8cpp_source#l00113">113</a> of file <a class="el" href="debuggeroptionsdlg_8cpp_source">debuggeroptionsdlg.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="debuggeroptionsdlg_8cpp_source#l00112">112</a> of file <a class="el" href="debuggeroptionsdlg_8cpp_source">debuggeroptionsdlg.cpp</a>.</p>
 
 <p class="reference">References <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga437ea6ba615b75dac8603e96ec864160">wxT</a>.</p>
 
@@ -446,11 +446,11 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="debuggeroptionsdlg_8cpp_source#l00157">157</a> of file <a class="el" href="debuggeroptionsdlg_8cpp_source">debuggeroptionsdlg.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="debuggeroptionsdlg_8cpp_source#l00153">153</a> of file <a class="el" href="debuggeroptionsdlg_8cpp_source">debuggeroptionsdlg.cpp</a>.</p>
 
 <p class="reference">References <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga437ea6ba615b75dac8603e96ec864160">wxT</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="debuggergdb_8cpp_source#l01794">DebuggerGDB::OnCatchThrow()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="debuggergdb_8cpp_source#l01836">DebuggerGDB::OnCatchThrow()</a>.</p>
 
 </div>
 </div>

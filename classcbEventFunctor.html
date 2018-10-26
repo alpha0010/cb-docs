@@ -19,7 +19,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Code::Blocks
-   &#160;<span id="projectnumber">SVN r11156</span>
+   &#160;<span id="projectnumber">SVN r11506</span>
    </div>
   </td>
  </tr>
@@ -55,12 +55,14 @@ $(function() {
 <div class="dynheader">
 Inheritance diagram for cbEventFunctor&lt; ClassType, EventType &gt;:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classcbEventFunctor__inherit__graph.svg" width="198" height="442"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classcbEventFunctor__inherit__graph.svg" width="198" height="442"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 <div class="dynheader">
 Collaboration diagram for cbEventFunctor&lt; ClassType, EventType &gt;:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classcbEventFunctor__coll__graph.svg" width="198" height="442"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classcbEventFunctor__coll__graph.svg" width="198" height="442"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
@@ -69,10 +71,10 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:cu-cbEventFunctor"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:q0-cbEventFunctor"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcbEventFunctor#q0-cbEventFunctor">cbEventFunctor</a> (const <a class="el" href="classcbEventFunctor">cbEventFunctor</a>&lt; ClassType, EventType &gt; &amp;rhs)</td></tr>
 <tr class="separator:q0-cbEventFunctor"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:t1-GetThis"><td class="memItemLeft" align="right" valign="top">virtual void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcbEventFunctor#t1-GetThis">GetThis</a> ()</td></tr>
-<tr class="separator:t1-GetThis"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:rd-Call"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcbEventFunctor#rd-Call">Call</a> (EventType &amp;event)</td></tr>
-<tr class="separator:rd-Call"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:fy-GetThis"><td class="memItemLeft" align="right" valign="top">void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcbEventFunctor#fy-GetThis">GetThis</a> () override</td></tr>
+<tr class="separator:fy-GetThis"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:hn-Call"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcbEventFunctor#hn-Call">Call</a> (EventType &amp;event) override</td></tr>
+<tr class="separator:hn-Call"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classIFunctorBase"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classIFunctorBase')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classIFunctorBase">IFunctorBase</a></td></tr>
 <tr class="memitem:se-IFunctorBase inherit pub_methods_classIFunctorBase"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIFunctorBase#se-IFunctorBase">~IFunctorBase</a> ()</td></tr>
 <tr class="separator:se-IFunctorBase inherit pub_methods_classIFunctorBase"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -195,8 +197,8 @@ template&lt;class ClassType, typename EventType&gt; </div>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="rd-Call"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#rd-Call">&#9670;&nbsp;</a></span>Call()</h2>
+<a id="hn-Call"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#hn-Call">&#9670;&nbsp;</a></span>Call()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -207,7 +209,7 @@ template&lt;class ClassType, typename EventType&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual void <a class="el" href="classcbEventFunctor">cbEventFunctor</a>&lt; ClassType, EventType &gt;::Call </td>
+          <td class="memname">void <a class="el" href="classcbEventFunctor">cbEventFunctor</a>&lt; ClassType, EventType &gt;::Call </td>
           <td>(</td>
           <td class="paramtype">EventType &amp;&#160;</td>
           <td class="paramname"><em>event</em></td><td>)</td>
@@ -216,7 +218,7 @@ template&lt;class ClassType, typename EventType&gt; </div>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -229,8 +231,8 @@ template&lt;class ClassType, typename EventType&gt; </div>
 
 </div>
 </div>
-<a id="t1-GetThis"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#t1-GetThis">&#9670;&nbsp;</a></span>GetThis()</h2>
+<a id="fy-GetThis"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#fy-GetThis">&#9670;&nbsp;</a></span>GetThis()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -241,7 +243,7 @@ template&lt;class ClassType, typename EventType&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual void* <a class="el" href="classcbEventFunctor">cbEventFunctor</a>&lt; ClassType, EventType &gt;::GetThis </td>
+          <td class="memname">void* <a class="el" href="classcbEventFunctor">cbEventFunctor</a>&lt; ClassType, EventType &gt;::GetThis </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -249,7 +251,7 @@ template&lt;class ClassType, typename EventType&gt; </div>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">

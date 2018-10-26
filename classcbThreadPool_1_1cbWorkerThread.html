@@ -19,7 +19,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Code::Blocks
-   &#160;<span id="projectnumber">SVN r11156</span>
+   &#160;<span id="projectnumber">SVN r11506</span>
    </div>
   </td>
  </tr>
@@ -56,12 +56,14 @@ $(function() {
 <div class="dynheader">
 Inheritance diagram for cbThreadPool::cbWorkerThread:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classcbThreadPool_1_1cbWorkerThread__inherit__graph.svg" width="214" height="595"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classcbThreadPool_1_1cbWorkerThread__inherit__graph.svg" width="214" height="595"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 <div class="dynheader">
 Collaboration diagram for cbThreadPool::cbWorkerThread:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classcbThreadPool_1_1cbWorkerThread__coll__graph.svg" width="890" height="1382"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classcbThreadPool_1_1cbWorkerThread__coll__graph.svg" width="890" height="1382"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
@@ -69,9 +71,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:m1-cbWorkerThread"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcbThreadPool_1_1cbWorkerThread#m1-cbWorkerThread">cbWorkerThread</a> (<a class="el" href="classcbThreadPool">cbThreadPool</a> *pool, <a class="el" href="classcbThreadPool_1_1CountedPtr">CountedPtr</a>&lt; <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_semaphore.html">wxSemaphore</a> &gt; &amp;semaphore)</td></tr>
 <tr class="memdesc:m1-cbWorkerThread"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classcbThreadPool_1_1cbWorkerThread" title="A Worker Thread class. ">cbWorkerThread</a> ctor  <a href="#m1-cbWorkerThread">More...</a><br /></td></tr>
 <tr class="separator:m1-cbWorkerThread"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:pu-Entry"><td class="memItemLeft" align="right" valign="top"><a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_thread.html#ade9497fa072fe19481086e6486dcc028">ExitCode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcbThreadPool_1_1cbWorkerThread#pu-Entry">Entry</a> ()</td></tr>
-<tr class="memdesc:pu-Entry"><td class="mdescLeft">&#160;</td><td class="mdescRight">Entry point of this thread. The magic happens here.  <a href="#pu-Entry">More...</a><br /></td></tr>
-<tr class="separator:pu-Entry"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:k9-Entry"><td class="memItemLeft" align="right" valign="top"><a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_thread.html#ade9497fa072fe19481086e6486dcc028">ExitCode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcbThreadPool_1_1cbWorkerThread#k9-Entry">Entry</a> () override</td></tr>
+<tr class="memdesc:k9-Entry"><td class="mdescLeft">&#160;</td><td class="mdescRight">Entry point of this thread. The magic happens here.  <a href="#k9-Entry">More...</a><br /></td></tr>
+<tr class="separator:k9-Entry"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:mi-Abort"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcbThreadPool_1_1cbWorkerThread#mi-Abort">Abort</a> ()</td></tr>
 <tr class="memdesc:mi-Abort"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tell the thread to abort. It will also tell the task to abort (if any)  <a href="#mi-Abort">More...</a><br /></td></tr>
 <tr class="separator:mi-Abort"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -285,8 +287,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="pu-Entry"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#pu-Entry">&#9670;&nbsp;</a></span>Entry()</h2>
+<a id="k9-Entry"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#k9-Entry">&#9670;&nbsp;</a></span>Entry()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -303,7 +305,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">

@@ -19,7 +19,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Code::Blocks
-   &#160;<span id="projectnumber">SVN r11156</span>
+   &#160;<span id="projectnumber">SVN r11506</span>
    </div>
   </td>
  </tr>
@@ -58,12 +58,14 @@ $(function() {
 <div class="dynheader">
 Inheritance diagram for ProjectManager:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classProjectManager__inherit__graph.svg" width="344" height="794"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classProjectManager__inherit__graph.svg" width="344" height="794"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 <div class="dynheader">
 Collaboration diagram for ProjectManager:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classProjectManager__coll__graph.svg" width="2174" height="2548"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classProjectManager__coll__graph.svg" width="2176" height="2548"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
@@ -214,9 +216,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:k2-operator"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classProjectManager">ProjectManager</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classProjectManager#k2-operator">operator=</a> (cb_unused const <a class="el" href="classProjectManager">ProjectManager</a> &amp;rhs)</td></tr>
 <tr class="separator:k2-operator"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:k4-SetIsRunning"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classProjectManager#k4-SetIsRunning">SetIsRunning</a> (<a class="el" href="classcbPlugin">cbPlugin</a> *plugin)</td></tr>
-<tr class="memdesc:k4-SetIsRunning"><td class="mdescLeft">&#160;</td><td class="mdescRight">If a plugin runs the project executable, should not be able to run it too.  <a href="#k4-SetIsRunning">More...</a><br /></td></tr>
+<tr class="memdesc:k4-SetIsRunning"><td class="mdescLeft">&#160;</td><td class="mdescRight">This method should be called when the applications is started by a plugin.  <a href="#k4-SetIsRunning">More...</a><br /></td></tr>
 <tr class="separator:k4-SetIsRunning"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:sz-GetIsRunning"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classcbPlugin">cbPlugin</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classProjectManager#sz-GetIsRunning">GetIsRunning</a> () const</td></tr>
+<tr class="memdesc:sz-GetIsRunning"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return a pointer to the plugin which is running the application.  <a href="#sz-GetIsRunning">More...</a><br /></td></tr>
 <tr class="separator:sz-GetIsRunning"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:vk-FindProjectForFile"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classcbProject">cbProject</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classProjectManager#vk-FindProjectForFile">FindProjectForFile</a> (const <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html">wxString</a> &amp;file, <a class="el" href="classProjectFile">ProjectFile</a> **resultFile, bool isRelative, bool isUnixFilename)</td></tr>
 <tr class="memdesc:vk-FindProjectForFile"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the project which has the file in it, also return the pointer to the <a class="el" href="classProjectFile" title="Represents a file in a Code::Blocks project. ">ProjectFile</a> object.  <a href="#vk-FindProjectForFile">More...</a><br /></td></tr>
@@ -244,8 +247,8 @@ Private Member Functions</h2></td></tr>
 <tr class="separator:n4-ProjectManager"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:vq-ProjectManager"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classProjectManager#vq-ProjectManager">ProjectManager</a> ()</td></tr>
 <tr class="separator:vq-ProjectManager"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:r8-ProjectManager"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classProjectManager#r8-ProjectManager">~ProjectManager</a> ()</td></tr>
-<tr class="separator:r8-ProjectManager"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:k7-ProjectManager"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classProjectManager#k7-ProjectManager">~ProjectManager</a> () override</td></tr>
+<tr class="separator:k7-ProjectManager"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:dx-OnAppDoneStartup"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classProjectManager#dx-OnAppDoneStartup">OnAppDoneStartup</a> (<a class="el" href="classCodeBlocksEvent">CodeBlocksEvent</a> &amp;event)</td></tr>
 <tr class="separator:dx-OnAppDoneStartup"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ci-DoAddFileToProject"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classProjectManager#ci-DoAddFileToProject">DoAddFileToProject</a> (const <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html">wxString</a> &amp;filename, <a class="el" href="classcbProject">cbProject</a> *project, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/dynarray_8h.html#add87f199292e36ee87efd6d7f0d4ee66">wxArrayInt</a> &amp;targets)</td></tr>
@@ -360,12 +363,12 @@ Additional Inherited Members</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="projectmanager_8cpp_source#l00075">75</a> of file <a class="el" href="projectmanager_8cpp_source">projectmanager.cpp</a>.</p>
 
-<p class="reference">References <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga7dfc2888539861afe6c4337ef315472b">_T</a>, <a class="el" href="sdk__events_8cpp_source#l00068">cbEVT_APP_STARTUP_DONE</a>, <a class="el" href="manager_8cpp_source#l00187">Manager::Get()</a>, <a class="el" href="manager_8cpp_source#l00428">Manager::GetAppWindow()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_file_name.html#af697f1c0f7864fc35ac0e8198eacc84d">wxFileName::GetCwd()</a>, <a class="el" href="projectmanager_8h_source#l00465">m_InitialDir</a>, <a class="el" href="projectmanager_8h_source#l00455">m_pActiveProject</a>, <a class="el" href="projectmanager_8h_source#l00460">m_pFileGroups</a>, <a class="el" href="projectmanager_8h_source#l00457">m_pProjects</a>, <a class="el" href="projectmanager_8h_source#l00456">m_pProjectToActivate</a>, <a class="el" href="projectmanager_8cpp_source#l00921">OnAppDoneStartup()</a>, and <a class="el" href="manager_8cpp_source#l00554">Manager::RegisterEventSink()</a>.</p>
+<p class="reference">References <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga7dfc2888539861afe6c4337ef315472b">_T</a>, <a class="el" href="sdk__events_8cpp_source#l00068">cbEVT_APP_STARTUP_DONE</a>, <a class="el" href="manager_8cpp_source#l00182">Manager::Get()</a>, <a class="el" href="manager_8cpp_source#l00424">Manager::GetAppWindow()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_file_name.html#af697f1c0f7864fc35ac0e8198eacc84d">wxFileName::GetCwd()</a>, <a class="el" href="projectmanager_8h_source#l00469">m_InitialDir</a>, <a class="el" href="projectmanager_8h_source#l00459">m_pActiveProject</a>, <a class="el" href="projectmanager_8h_source#l00464">m_pFileGroups</a>, <a class="el" href="projectmanager_8h_source#l00461">m_pProjects</a>, <a class="el" href="projectmanager_8h_source#l00460">m_pProjectToActivate</a>, <a class="el" href="projectmanager_8cpp_source#l00932">OnAppDoneStartup()</a>, and <a class="el" href="manager_8cpp_source#l00550">Manager::RegisterEventSink()</a>.</p>
 
 </div>
 </div>
-<a id="r8-ProjectManager"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#r8-ProjectManager">&#9670;&nbsp;</a></span>~ProjectManager()</h2>
+<a id="k7-ProjectManager"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#k7-ProjectManager">&#9670;&nbsp;</a></span>~ProjectManager()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -382,14 +385,14 @@ Additional Inherited Members</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="projectmanager_8cpp_source#l00104">104</a> of file <a class="el" href="projectmanager_8cpp_source">projectmanager.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="projectmanager_8h_source#l00460">m_pFileGroups</a>, <a class="el" href="projectmanager_8h_source#l00457">m_pProjects</a>, <a class="el" href="projectmanager_8h_source#l00459">m_pWorkspace</a>, and <a class="el" href="projectmanager_8h_source#l00454">m_ui</a>.</p>
+<p class="reference">References <a class="el" href="projectmanager_8h_source#l00464">m_pFileGroups</a>, <a class="el" href="projectmanager_8h_source#l00461">m_pProjects</a>, <a class="el" href="projectmanager_8h_source#l00463">m_pWorkspace</a>, and <a class="el" href="projectmanager_8h_source#l00458">m_ui</a>.</p>
 
 </div>
 </div>
@@ -438,11 +441,11 @@ Additional Inherited Members</h2></td></tr>
 <dl class="section return"><dt>Returns</dt><dd>The build target's index that this file was added to. </dd></dl>
 <dl class="section note"><dt>Note</dt><dd>If the target index supplied is -1 then, if the project has exactly one build target, the file is added to this single build target. If the project has more than one build targets, a dialog appears so that the user can select which build target this file should belong to. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="projectmanager_8cpp_source#l00700">700</a> of file <a class="el" href="projectmanager_8cpp_source">projectmanager.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="projectmanager_8cpp_source#l00711">711</a> of file <a class="el" href="projectmanager_8cpp_source">projectmanager.cpp</a>.</p>
 
 <p class="reference">References <a class="el" href="projectmanager_8h_source#l00177">GetActiveProject()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="wiz_8cpp_source#l00791">Wiz::CopyFiles()</a>, <a class="el" href="main_8cpp_source#l02304">MainFrame::OnFileNewWhat()</a>, <a class="el" href="wiz_8cpp_source#l00346">Wiz::RunProjectWizard()</a>, and <a class="el" href="editormanager_8cpp_source#l01181">EditorManager::SwapActiveHeaderSource()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="wiz_8cpp_source#l00791">Wiz::CopyFiles()</a>, <a class="el" href="main_8cpp_source#l02310">MainFrame::OnFileNewWhat()</a>, <a class="el" href="wiz_8cpp_source#l00346">Wiz::RunProjectWizard()</a>, and <a class="el" href="editormanager_8cpp_source#l01222">EditorManager::SwapActiveHeaderSource()</a>.</p>
 
 </div>
 </div>
@@ -491,9 +494,9 @@ Additional Inherited Members</h2></td></tr>
 <dl class="section note"><dt>Note</dt><dd>If the targets array is empty then, if the project has exactly one build target, the file is added to this single build target. If the project has more than one build targets, a dialog appears so that the user can select which build targets (multiple) this file should belong to.<br />
 Also note than when this function returns, the targets array will contain the user-selected build targets. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="projectmanager_8cpp_source#l00712">712</a> of file <a class="el" href="projectmanager_8cpp_source">projectmanager.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="projectmanager_8cpp_source#l00723">723</a> of file <a class="el" href="projectmanager_8cpp_source">projectmanager.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="sdk__events_8cpp_source#l00104">cbEVT_PROJECT_FILE_ADDED</a>, <a class="el" href="projectmanager_8cpp_source#l00659">DoAddFileToProject()</a>, <a class="el" href="manager_8cpp_source#l00187">Manager::Get()</a>, <a class="el" href="projectmanager_8h_source#l00177">GetActiveProject()</a>, <a class="el" href="manager_8cpp_source#l00448">Manager::GetPluginManager()</a>, and <a class="el" href="pluginmanager_8cpp_source#l01435">PluginManager::NotifyPlugins()</a>.</p>
+<p class="reference">References <a class="el" href="sdk__events_8cpp_source#l00104">cbEVT_PROJECT_FILE_ADDED</a>, <a class="el" href="projectmanager_8cpp_source#l00670">DoAddFileToProject()</a>, <a class="el" href="manager_8cpp_source#l00182">Manager::Get()</a>, <a class="el" href="projectmanager_8h_source#l00177">GetActiveProject()</a>, <a class="el" href="manager_8cpp_source#l00444">Manager::GetPluginManager()</a>, and <a class="el" href="pluginmanager_8cpp_source#l01520">PluginManager::NotifyPlugins()</a>.</p>
 
 </div>
 </div>
@@ -541,11 +544,11 @@ Also note than when this function returns, the targets array will contain the us
 <dl class="section return"><dt>Returns</dt><dd>The build target's index that these files were added to. </dd></dl>
 <dl class="section note"><dt>Note</dt><dd>If the target index supplied is -1 then, if the project has exactly one build target, the files are added to this single build target. If the project has more than one build targets, a dialog appears so that the user can select which build target these files should belong to. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="projectmanager_8cpp_source#l00728">728</a> of file <a class="el" href="projectmanager_8cpp_source">projectmanager.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="projectmanager_8cpp_source#l00739">739</a> of file <a class="el" href="projectmanager_8cpp_source">projectmanager.cpp</a>.</p>
 
 <p class="reference">References <a class="el" href="projectmanager_8h_source#l00177">GetActiveProject()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="projectmanagerui_8cpp_source#l01197">ProjectManagerUI::OnAddFilesToProjectRecursively()</a>, and <a class="el" href="projectmanagerui_8cpp_source#l01287">ProjectManagerUI::OnAddFileToProject()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="projectmanagerui_8cpp_source#l01263">ProjectManagerUI::OnAddFilesToProjectRecursively()</a>, and <a class="el" href="projectmanagerui_8cpp_source#l01353">ProjectManagerUI::OnAddFileToProject()</a>.</p>
 
 </div>
 </div>
@@ -594,9 +597,9 @@ Also note than when this function returns, the targets array will contain the us
 <dl class="section note"><dt>Note</dt><dd>If the targets array is empty then, if the project has exactly one build target, the files are added to this single build target. If the project has more than one build targets, a dialog appears so that the user can select which build targets (multiple) these files should belong to.<br />
 Also note than when this function returns, the targets array will contain the user-selected build targets. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="projectmanager_8cpp_source#l00740">740</a> of file <a class="el" href="projectmanager_8cpp_source">projectmanager.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="projectmanager_8cpp_source#l00751">751</a> of file <a class="el" href="projectmanager_8cpp_source">projectmanager.cpp</a>.</p>
 
-<p class="reference">References <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga8a02b8875a521df57263a9e6f090f2d0">_()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_array_string.html#af06b61455118d83a24183c3a9f6854b1">wxArrayString::Add()</a>, <a class="el" href="cbproject_8cpp_source#l00589">cbProject::BeginAddFiles()</a>, <a class="el" href="sdk__events_8cpp_source#l00104">cbEVT_PROJECT_FILE_ADDED</a>, <a class="el" href="projectmanager_8cpp_source#l00659">DoAddFileToProject()</a>, <a class="el" href="cbproject_8cpp_source#l00596">cbProject::EndAddFiles()</a>, <a class="el" href="manager_8cpp_source#l00187">Manager::Get()</a>, <a class="el" href="projectmanager_8h_source#l00177">GetActiveProject()</a>, <a class="el" href="manager_8cpp_source#l00423">Manager::GetAppFrame()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_array_string.html#ad2a491f799c8d6539dc64d06f2c37ac6">wxArrayString::GetCount()</a>, <a class="el" href="manager_8cpp_source#l00448">Manager::GetPluginManager()</a>, and <a class="el" href="pluginmanager_8cpp_source#l01435">PluginManager::NotifyPlugins()</a>.</p>
+<p class="reference">References <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga8a02b8875a521df57263a9e6f090f2d0">_()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_array_string.html#af06b61455118d83a24183c3a9f6854b1">wxArrayString::Add()</a>, <a class="el" href="cbproject_8cpp_source#l00593">cbProject::BeginAddFiles()</a>, <a class="el" href="sdk__events_8cpp_source#l00104">cbEVT_PROJECT_FILE_ADDED</a>, <a class="el" href="projectmanager_8cpp_source#l00670">DoAddFileToProject()</a>, <a class="el" href="cbproject_8cpp_source#l00600">cbProject::EndAddFiles()</a>, <a class="el" href="manager_8cpp_source#l00182">Manager::Get()</a>, <a class="el" href="projectmanager_8h_source#l00177">GetActiveProject()</a>, <a class="el" href="manager_8cpp_source#l00419">Manager::GetAppFrame()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_array_string.html#ad2a491f799c8d6539dc64d06f2c37ac6">wxArrayString::GetCount()</a>, <a class="el" href="manager_8cpp_source#l00444">Manager::GetPluginManager()</a>, and <a class="el" href="pluginmanager_8cpp_source#l01520">PluginManager::NotifyPlugins()</a>.</p>
 
 </div>
 </div>
@@ -635,11 +638,11 @@ Also note than when this function returns, the targets array will contain the us
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="projectmanager_8cpp_source#l00800">800</a> of file <a class="el" href="projectmanager_8cpp_source">projectmanager.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="projectmanager_8cpp_source#l00811">811</a> of file <a class="el" href="projectmanager_8cpp_source">projectmanager.cpp</a>.</p>
 
-<p class="reference">References <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga7dfc2888539861afe6c4337ef315472b">_T</a>, <a class="el" href="projectmanager_8cpp_source#l00776">CausesCircularDependency()</a>, <a class="el" href="logmanager_8h_source#l00128">LogManager::DebugLog()</a>, <a class="el" href="logmanager_8h_source#l00020">F()</a>, <a class="el" href="manager_8cpp_source#l00187">Manager::Get()</a>, <a class="el" href="manager_8cpp_source#l00443">Manager::GetLogManager()</a>, <a class="el" href="compiletargetbase_8cpp_source#l00071">CompileTargetBase::GetTitle()</a>, <a class="el" href="projectmanager_8h_source#l00458">m_ProjectDeps</a>, <a class="el" href="projectmanager_8h_source#l00459">m_pWorkspace</a>, <a class="el" href="cbworkspace_8cpp_source#l00153">cbWorkspace::SetModified()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#a667b135c20008042653f82b739f6c3ab">wxString::wx_str()</a>, and <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/defs_8h.html#a89de5e6353fc7812991b085e12263e98">wxNOT_FOUND</a>.</p>
+<p class="reference">References <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga7dfc2888539861afe6c4337ef315472b">_T</a>, <a class="el" href="projectmanager_8cpp_source#l00787">CausesCircularDependency()</a>, <a class="el" href="logmanager_8h_source#l00146">LogManager::DebugLog()</a>, <a class="el" href="logmanager_8h_source#l00020">F()</a>, <a class="el" href="manager_8cpp_source#l00182">Manager::Get()</a>, <a class="el" href="manager_8cpp_source#l00439">Manager::GetLogManager()</a>, <a class="el" href="compiletargetbase_8cpp_source#l00071">CompileTargetBase::GetTitle()</a>, <a class="el" href="projectmanager_8h_source#l00462">m_ProjectDeps</a>, <a class="el" href="projectmanager_8h_source#l00463">m_pWorkspace</a>, <a class="el" href="cbworkspace_8cpp_source#l00153">cbWorkspace::SetModified()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#a667b135c20008042653f82b739f6c3ab">wxString::wx_str()</a>, and <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/defs_8h.html#a89de5e6353fc7812991b085e12263e98">wxNOT_FOUND</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="workspaceloader_8cpp_source#l00052">WorkspaceLoader::Open()</a>, <a class="el" href="scriptbindings_8cpp_source#l00384">ScriptBindings::RegisterBindings()</a>, and <a class="el" href="projectmanager_8cpp_source#l00281">ReloadProject()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="workspaceloader_8cpp_source#l00052">WorkspaceLoader::Open()</a>, <a class="el" href="scriptbindings_8cpp_source#l00384">ScriptBindings::RegisterBindings()</a>, and <a class="el" href="projectmanager_8cpp_source#l00284">ReloadProject()</a>.</p>
 
 </div>
 </div>
@@ -662,11 +665,11 @@ Also note than when this function returns, the targets array will contain the us
 <p>Only to be used by code that needs it (e.g. project importers). </p><dl class="section return"><dt>Returns</dt><dd>True on success, false on failure. </dd></dl>
 <dl class="section note"><dt>Note</dt><dd>This call <em>must</em> be "closed" by a call to <a class="el" href="classProjectManager#oy-EndLoadingProject" title="Ends the project loading process. ">EndLoadingProject()</a>! </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="projectmanager_8cpp_source#l00972">972</a> of file <a class="el" href="projectmanager_8cpp_source">projectmanager.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="projectmanager_8cpp_source#l00983">983</a> of file <a class="el" href="projectmanager_8cpp_source">projectmanager.cpp</a>.</p>
 
-<p class="reference">References <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga8a02b8875a521df57263a9e6f090f2d0">_()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga7dfc2888539861afe6c4337ef315472b">_T</a>, <a class="el" href="globals_8cpp_source#l01381">cbMessageBox()</a>, <a class="el" href="manager_8cpp_source#l00187">Manager::Get()</a>, <a class="el" href="projectmanager_8h_source#l00461">m_IsLoadingProject</a>, and <a class="el" href="projectmanager_8h_source#l00144">s_CanShutdown</a>.</p>
+<p class="reference">References <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga8a02b8875a521df57263a9e6f090f2d0">_()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga7dfc2888539861afe6c4337ef315472b">_T</a>, <a class="el" href="globals_8cpp_source#l01395">cbMessageBox()</a>, <a class="el" href="manager_8cpp_source#l00182">Manager::Get()</a>, <a class="el" href="projectmanager_8h_source#l00465">m_IsLoadingProject</a>, and <a class="el" href="projectmanager_8h_source#l00144">s_CanShutdown</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="projectmanager_8cpp_source#l00210">LoadProject()</a>, and <a class="el" href="projectmanager_8cpp_source#l00354">NewProject()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="projectmanager_8cpp_source#l00213">LoadProject()</a>, and <a class="el" href="projectmanager_8cpp_source#l00357">NewProject()</a>.</p>
 
 </div>
 </div>
@@ -689,11 +692,11 @@ Also note than when this function returns, the targets array will contain the us
 <p>Only to be used by code that needs it (e.g. workspace importers). </p><dl class="section return"><dt>Returns</dt><dd>True on success, false on failure. </dd></dl>
 <dl class="section note"><dt>Note</dt><dd>This call <em>must</em> be "closed" by a call to <a class="el" href="classProjectManager#zz-EndLoadingWorkspace" title="Ends the workspace loading process. ">EndLoadingWorkspace()</a>! </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="projectmanager_8cpp_source#l01042">1042</a> of file <a class="el" href="projectmanager_8cpp_source">projectmanager.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="projectmanager_8cpp_source#l01053">1053</a> of file <a class="el" href="projectmanager_8cpp_source">projectmanager.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="classcbProjectManagerUI#kc-BeginLoadingWorkspace">cbProjectManagerUI::BeginLoadingWorkspace()</a>, <a class="el" href="projectmanager_8cpp_source#l00576">CloseWorkspace()</a>, <a class="el" href="projectmanager_8h_source#l00462">m_IsLoadingWorkspace</a>, and <a class="el" href="projectmanager_8h_source#l00454">m_ui</a>.</p>
+<p class="reference">References <a class="el" href="classcbProjectManagerUI#kc-BeginLoadingWorkspace">cbProjectManagerUI::BeginLoadingWorkspace()</a>, <a class="el" href="projectmanager_8cpp_source#l00587">CloseWorkspace()</a>, <a class="el" href="projectmanager_8h_source#l00466">m_IsLoadingWorkspace</a>, and <a class="el" href="projectmanager_8h_source#l00458">m_ui</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="projectmanager_8cpp_source#l00543">LoadWorkspace()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="projectmanager_8cpp_source#l00547">LoadWorkspace()</a>.</p>
 
 </div>
 </div>
@@ -724,7 +727,7 @@ Also note than when this function returns, the targets array will contain the us
 
 <p class="definition">Definition at line <a class="el" href="projectmanager_8h_source#l00157">157</a> of file <a class="el" href="projectmanager_8h_source">projectmanager.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="main_8cpp_source#l02734">MainFrame::OnApplicationClose()</a>, <a class="el" href="main_8cpp_source#l02607">MainFrame::OnFileCloseAllProjects()</a>, <a class="el" href="main_8cpp_source#l02594">MainFrame::OnFileCloseProject()</a>, <a class="el" href="main_8cpp_source#l04071">MainFrame::OnFileMenuUpdateUI()</a>, and <a class="el" href="main_8cpp_source#l04314">MainFrame::OnProjectMenuUpdateUI()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="main_8cpp_source#l02716">MainFrame::OnApplicationClose()</a>, <a class="el" href="main_8cpp_source#l02587">MainFrame::OnFileCloseProject()</a>, and <a class="el" href="main_8cpp_source#l04058">MainFrame::OnFileMenuUpdateUI()</a>.</p>
 
 </div>
 </div>
@@ -757,11 +760,11 @@ Also note than when this function returns, the targets array will contain the us
 <p>Checks for circular dependencies between <code>base</code> and <code>dependsOn</code>. </p>
 <dl class="section return"><dt>Returns</dt><dd>True if circular dependency is detected, false if it isn't. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="projectmanager_8cpp_source#l00776">776</a> of file <a class="el" href="projectmanager_8cpp_source">projectmanager.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="projectmanager_8cpp_source#l00787">787</a> of file <a class="el" href="projectmanager_8cpp_source">projectmanager.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="projectmanager_8cpp_source#l00911">GetDependenciesForProject()</a>.</p>
+<p class="reference">References <a class="el" href="projectmanager_8cpp_source#l00922">GetDependenciesForProject()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="projectmanager_8cpp_source#l00800">AddProjectDependency()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="projectmanager_8cpp_source#l00811">AddProjectDependency()</a>.</p>
 
 </div>
 </div>
@@ -790,11 +793,11 @@ Also note than when this function returns, the targets array will contain the us
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="projectmanager_8cpp_source#l00854">854</a> of file <a class="el" href="projectmanager_8cpp_source">projectmanager.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="projectmanager_8cpp_source#l00865">865</a> of file <a class="el" href="projectmanager_8cpp_source">projectmanager.cpp</a>.</p>
 
-<p class="reference">References <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga7dfc2888539861afe6c4337ef315472b">_T</a>, <a class="el" href="logmanager_8h_source#l00128">LogManager::DebugLog()</a>, <a class="el" href="manager_8cpp_source#l00187">Manager::Get()</a>, <a class="el" href="manager_8cpp_source#l00443">Manager::GetLogManager()</a>, <a class="el" href="compiletargetbase_8cpp_source#l00071">CompileTargetBase::GetTitle()</a>, <a class="el" href="projectmanager_8h_source#l00458">m_ProjectDeps</a>, <a class="el" href="projectmanager_8h_source#l00459">m_pWorkspace</a>, and <a class="el" href="cbworkspace_8cpp_source#l00153">cbWorkspace::SetModified()</a>.</p>
+<p class="reference">References <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga7dfc2888539861afe6c4337ef315472b">_T</a>, <a class="el" href="logmanager_8h_source#l00146">LogManager::DebugLog()</a>, <a class="el" href="manager_8cpp_source#l00182">Manager::Get()</a>, <a class="el" href="manager_8cpp_source#l00439">Manager::GetLogManager()</a>, <a class="el" href="compiletargetbase_8cpp_source#l00071">CompileTargetBase::GetTitle()</a>, <a class="el" href="projectmanager_8h_source#l00462">m_ProjectDeps</a>, <a class="el" href="projectmanager_8h_source#l00463">m_pWorkspace</a>, and <a class="el" href="cbworkspace_8cpp_source#l00153">cbWorkspace::SetModified()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="scriptbindings_8cpp_source#l00384">ScriptBindings::RegisterBindings()</a>, and <a class="el" href="projectdepsdlg_8cpp_source#l00061">ProjectDepsDlg::SaveList()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="projectmanager_8cpp_source#l00419">CloseProject()</a>, <a class="el" href="scriptbindings_8cpp_source#l00384">ScriptBindings::RegisterBindings()</a>, and <a class="el" href="projectdepsdlg_8cpp_source#l00061">ProjectDepsDlg::SaveList()</a>.</p>
 
 </div>
 </div>
@@ -817,11 +820,11 @@ Also note than when this function returns, the targets array will contain the us
 <p>Close the active project. </p>
 <p>Same as CloseProject(GetActiveProject()). </p><dl class="section return"><dt>Returns</dt><dd>True if project was closed, false if not. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="projectmanager_8cpp_source#l00468">468</a> of file <a class="el" href="projectmanager_8cpp_source">projectmanager.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="projectmanager_8cpp_source#l00472">472</a> of file <a class="el" href="projectmanager_8cpp_source">projectmanager.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="projectmanager_8cpp_source#l00416">CloseProject()</a>, <a class="el" href="projectmanager_8h_source#l00455">m_pActiveProject</a>, <a class="el" href="projectmanager_8h_source#l00457">m_pProjects</a>, and <a class="el" href="projectmanager_8cpp_source#l00159">SetProject()</a>.</p>
+<p class="reference">References <a class="el" href="projectmanager_8cpp_source#l00419">CloseProject()</a>, <a class="el" href="projectmanager_8h_source#l00459">m_pActiveProject</a>, <a class="el" href="projectmanager_8h_source#l00461">m_pProjects</a>, and <a class="el" href="projectmanager_8cpp_source#l00162">SetProject()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="main_8cpp_source#l02594">MainFrame::OnFileCloseProject()</a>, and <a class="el" href="scriptbindings_8cpp_source#l00384">ScriptBindings::RegisterBindings()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="main_8cpp_source#l02587">MainFrame::OnFileCloseProject()</a>, and <a class="el" href="scriptbindings_8cpp_source#l00384">ScriptBindings::RegisterBindings()</a>.</p>
 
 </div>
 </div>
@@ -844,11 +847,11 @@ Also note than when this function returns, the targets array will contain the us
 <p>Close all projects. </p>
 <dl class="section return"><dt>Returns</dt><dd>True if all projects were closed, false if even one close operation failed. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="projectmanager_8cpp_source#l00382">382</a> of file <a class="el" href="projectmanager_8cpp_source">projectmanager.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="projectmanager_8cpp_source#l00385">385</a> of file <a class="el" href="projectmanager_8cpp_source">projectmanager.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="projectmanager_8cpp_source#l00416">CloseProject()</a>, <a class="el" href="classcbProjectManagerUI#ls-FreezeTree">cbProjectManagerUI::FreezeTree()</a>, <a class="el" href="manager_8cpp_source#l00337">Manager::IsAppShuttingDown()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#ace32756bab999f8aae9be0cf981fc449">wxString::IsEmpty()</a>, <a class="el" href="projectmanager_8h_source#l00465">m_InitialDir</a>, <a class="el" href="projectmanager_8h_source#l00463">m_IsClosingProject</a>, <a class="el" href="projectmanager_8h_source#l00457">m_pProjects</a>, <a class="el" href="projectmanager_8h_source#l00454">m_ui</a>, <a class="el" href="classcbProjectManagerUI#r9-QueryCloseAllProjects">cbProjectManagerUI::QueryCloseAllProjects()</a>, <a class="el" href="classcbProjectManagerUI#n3-RebuildTree">cbProjectManagerUI::RebuildTree()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_file_name.html#acf954a5fb0ec5c9433fd7b49bfd781a8">wxFileName::SetCwd()</a>, <a class="el" href="classcbProjectManagerUI#jv-UnfreezeTree">cbProjectManagerUI::UnfreezeTree()</a>, and <a class="el" href="projectmanager_8cpp_source#l00930">WorkspaceChanged()</a>.</p>
+<p class="reference">References <a class="el" href="projectmanager_8cpp_source#l00419">CloseProject()</a>, <a class="el" href="classcbProjectManagerUI#ls-FreezeTree">cbProjectManagerUI::FreezeTree()</a>, <a class="el" href="manager_8cpp_source#l00333">Manager::IsAppShuttingDown()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#ace32756bab999f8aae9be0cf981fc449">wxString::IsEmpty()</a>, <a class="el" href="projectmanager_8h_source#l00469">m_InitialDir</a>, <a class="el" href="projectmanager_8h_source#l00467">m_IsClosingProject</a>, <a class="el" href="projectmanager_8h_source#l00461">m_pProjects</a>, <a class="el" href="projectmanager_8h_source#l00458">m_ui</a>, <a class="el" href="classcbProjectManagerUI#r9-QueryCloseAllProjects">cbProjectManagerUI::QueryCloseAllProjects()</a>, <a class="el" href="classcbProjectManagerUI#n3-RebuildTree">cbProjectManagerUI::RebuildTree()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_file_name.html#acf954a5fb0ec5c9433fd7b49bfd781a8">wxFileName::SetCwd()</a>, <a class="el" href="classcbProjectManagerUI#jv-UnfreezeTree">cbProjectManagerUI::UnfreezeTree()</a>, and <a class="el" href="projectmanager_8cpp_source#l00941">WorkspaceChanged()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="projectmanager_8cpp_source#l00576">CloseWorkspace()</a>, and <a class="el" href="scriptbindings_8cpp_source#l00384">ScriptBindings::RegisterBindings()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="projectmanager_8cpp_source#l00587">CloseWorkspace()</a>, and <a class="el" href="scriptbindings_8cpp_source#l00384">ScriptBindings::RegisterBindings()</a>.</p>
 
 </div>
 </div>
@@ -895,11 +898,11 @@ Also note than when this function returns, the targets array will contain the us
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>True if project was closed, false if not. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="projectmanager_8cpp_source#l00416">416</a> of file <a class="el" href="projectmanager_8cpp_source">projectmanager.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="projectmanager_8cpp_source#l00419">419</a> of file <a class="el" href="projectmanager_8cpp_source">projectmanager.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="sdk__events_8cpp_source#l00096">cbEVT_PROJECT_CLOSE</a>, <a class="el" href="cbproject_8cpp_source#l01090">cbProject::CloseAllFiles()</a>, <a class="el" href="manager_8cpp_source#l00187">Manager::Get()</a>, <a class="el" href="cbproject_8h_source#l00478">cbProject::GetCurrentlyCompilingTarget()</a>, <a class="el" href="manager_8cpp_source#l00438">Manager::GetEditorManager()</a>, <a class="el" href="manager_8cpp_source#l00448">Manager::GetPluginManager()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#ace32756bab999f8aae9be0cf981fc449">wxString::IsEmpty()</a>, <a class="el" href="projectmanager_8h_source#l00465">m_InitialDir</a>, <a class="el" href="projectmanager_8h_source#l00463">m_IsClosingProject</a>, <a class="el" href="projectmanager_8h_source#l00455">m_pActiveProject</a>, <a class="el" href="projectmanager_8h_source#l00457">m_pProjects</a>, <a class="el" href="projectmanager_8h_source#l00459">m_pWorkspace</a>, <a class="el" href="projectmanager_8h_source#l00454">m_ui</a>, <a class="el" href="pluginmanager_8cpp_source#l01435">PluginManager::NotifyPlugins()</a>, <a class="el" href="classcbProjectManagerUI#n2-QueryCloseProject">cbProjectManagerUI::QueryCloseProject()</a>, <a class="el" href="classcbProjectManagerUI#jh-RemoveProject">cbProjectManagerUI::RemoveProject()</a>, <a class="el" href="projectmanager_8cpp_source#l00870">RemoveProjectFromAllDependencies()</a>, <a class="el" href="cbproject_8cpp_source#l00495">cbProject::SaveLayout()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_file_name.html#acf954a5fb0ec5c9433fd7b49bfd781a8">wxFileName::SetCwd()</a>, <a class="el" href="cbworkspace_8cpp_source#l00153">cbWorkspace::SetModified()</a>, <a class="el" href="projectmanager_8cpp_source#l00159">SetProject()</a>, <a class="el" href="editormanager_8cpp_source#l00543">EditorManager::UpdateProjectFiles()</a>, <a class="el" href="projectmanager_8cpp_source#l00930">WorkspaceChanged()</a>, and <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/defs_8h.html#a89de5e6353fc7812991b085e12263e98">wxNOT_FOUND</a>.</p>
+<p class="reference">References <a class="el" href="sdk__events_8cpp_source#l00096">cbEVT_PROJECT_CLOSE</a>, <a class="el" href="projectmanager_8cpp_source#l00865">ClearProjectDependencies()</a>, <a class="el" href="cbproject_8cpp_source#l01094">cbProject::CloseAllFiles()</a>, <a class="el" href="manager_8cpp_source#l00182">Manager::Get()</a>, <a class="el" href="cbproject_8h_source#l00478">cbProject::GetCurrentlyCompilingTarget()</a>, <a class="el" href="manager_8cpp_source#l00434">Manager::GetEditorManager()</a>, <a class="el" href="manager_8cpp_source#l00444">Manager::GetPluginManager()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#ace32756bab999f8aae9be0cf981fc449">wxString::IsEmpty()</a>, <a class="el" href="projectmanager_8h_source#l00469">m_InitialDir</a>, <a class="el" href="projectmanager_8h_source#l00467">m_IsClosingProject</a>, <a class="el" href="projectmanager_8h_source#l00459">m_pActiveProject</a>, <a class="el" href="projectmanager_8h_source#l00461">m_pProjects</a>, <a class="el" href="projectmanager_8h_source#l00463">m_pWorkspace</a>, <a class="el" href="projectmanager_8h_source#l00458">m_ui</a>, <a class="el" href="pluginmanager_8cpp_source#l01520">PluginManager::NotifyPlugins()</a>, <a class="el" href="classcbProjectManagerUI#n2-QueryCloseProject">cbProjectManagerUI::QueryCloseProject()</a>, <a class="el" href="classcbProjectManagerUI#jh-RemoveProject">cbProjectManagerUI::RemoveProject()</a>, <a class="el" href="projectmanager_8cpp_source#l00881">RemoveProjectFromAllDependencies()</a>, <a class="el" href="cbproject_8cpp_source#l00499">cbProject::SaveLayout()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_file_name.html#acf954a5fb0ec5c9433fd7b49bfd781a8">wxFileName::SetCwd()</a>, <a class="el" href="cbworkspace_8cpp_source#l00153">cbWorkspace::SetModified()</a>, <a class="el" href="projectmanager_8cpp_source#l00162">SetProject()</a>, <a class="el" href="editormanager_8cpp_source#l00547">EditorManager::UpdateProjectFiles()</a>, <a class="el" href="projectmanager_8cpp_source#l00941">WorkspaceChanged()</a>, and <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/defs_8h.html#a89de5e6353fc7812991b085e12263e98">wxNOT_FOUND</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="projectmanager_8cpp_source#l00468">CloseActiveProject()</a>, <a class="el" href="projectmanager_8cpp_source#l00382">CloseAllProjects()</a>, <a class="el" href="projectmanagerui_8cpp_source#l01496">ProjectManagerUI::OnCloseProject()</a>, <a class="el" href="scriptbindings_8cpp_source#l00384">ScriptBindings::RegisterBindings()</a>, and <a class="el" href="projectmanager_8cpp_source#l00281">ReloadProject()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="projectmanager_8cpp_source#l00472">CloseActiveProject()</a>, <a class="el" href="projectmanager_8cpp_source#l00385">CloseAllProjects()</a>, <a class="el" href="projectmanagerui_8cpp_source#l01562">ProjectManagerUI::OnCloseProject()</a>, <a class="el" href="scriptbindings_8cpp_source#l00384">ScriptBindings::RegisterBindings()</a>, and <a class="el" href="projectmanager_8cpp_source#l00284">ReloadProject()</a>.</p>
 
 </div>
 </div>
@@ -921,11 +924,11 @@ Also note than when this function returns, the targets array will contain the us
 <p>Close the workspace. </p>
 <dl class="section return"><dt>Returns</dt><dd>True if the workspace closes, false if not (the user is asked to save the workspace, if it is modified) </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="projectmanager_8cpp_source#l00576">576</a> of file <a class="el" href="projectmanager_8cpp_source">projectmanager.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="projectmanager_8cpp_source#l00587">587</a> of file <a class="el" href="projectmanager_8cpp_source">projectmanager.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="sdk__events_8cpp_source#l00113">cbEVT_WORKSPACE_CLOSING_BEGIN</a>, <a class="el" href="sdk__events_8cpp_source#l00114">cbEVT_WORKSPACE_CLOSING_COMPLETE</a>, <a class="el" href="projectmanager_8cpp_source#l00382">CloseAllProjects()</a>, <a class="el" href="classcbProjectManagerUI#s6-CloseWorkspace">cbProjectManagerUI::CloseWorkspace()</a>, <a class="el" href="manager_8cpp_source#l00187">Manager::Get()</a>, <a class="el" href="manager_8cpp_source#l00448">Manager::GetPluginManager()</a>, <a class="el" href="manager_8h_source#l00065">Manager::IsBatchBuild()</a>, <a class="el" href="projectmanager_8h_source#l00464">m_IsClosingWorkspace</a>, <a class="el" href="projectmanager_8h_source#l00459">m_pWorkspace</a>, <a class="el" href="projectmanager_8h_source#l00454">m_ui</a>, <a class="el" href="pluginmanager_8cpp_source#l01435">PluginManager::NotifyPlugins()</a>, <a class="el" href="classcbProjectManagerUI#rv-QueryCloseWorkspace">cbProjectManagerUI::QueryCloseWorkspace()</a>, and <a class="el" href="projectmanager_8cpp_source#l00930">WorkspaceChanged()</a>.</p>
+<p class="reference">References <a class="el" href="sdk__events_8cpp_source#l00113">cbEVT_WORKSPACE_CLOSING_BEGIN</a>, <a class="el" href="sdk__events_8cpp_source#l00114">cbEVT_WORKSPACE_CLOSING_COMPLETE</a>, <a class="el" href="projectmanager_8cpp_source#l00385">CloseAllProjects()</a>, <a class="el" href="classcbProjectManagerUI#s6-CloseWorkspace">cbProjectManagerUI::CloseWorkspace()</a>, <a class="el" href="manager_8cpp_source#l00182">Manager::Get()</a>, <a class="el" href="manager_8cpp_source#l00444">Manager::GetPluginManager()</a>, <a class="el" href="manager_8h_source#l00066">Manager::IsBatchBuild()</a>, <a class="el" href="projectmanager_8h_source#l00468">m_IsClosingWorkspace</a>, <a class="el" href="projectmanager_8h_source#l00463">m_pWorkspace</a>, <a class="el" href="projectmanager_8h_source#l00458">m_ui</a>, <a class="el" href="pluginmanager_8cpp_source#l01520">PluginManager::NotifyPlugins()</a>, <a class="el" href="classcbProjectManagerUI#rv-QueryCloseWorkspace">cbProjectManagerUI::QueryCloseWorkspace()</a>, and <a class="el" href="projectmanager_8cpp_source#l00941">WorkspaceChanged()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="projectmanager_8cpp_source#l01042">BeginLoadingWorkspace()</a>, <a class="el" href="main_8cpp_source#l01880">MainFrame::DoCloseCurrentWorkspace()</a>, <a class="el" href="projectmanager_8cpp_source#l01059">EndLoadingWorkspace()</a>, <a class="el" href="projectmanagerui_8cpp_source#l01134">ProjectManagerUI::OnCloseWorkspace()</a>, and <a class="el" href="scriptbindings_8cpp_source#l00384">ScriptBindings::RegisterBindings()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="projectmanager_8cpp_source#l01053">BeginLoadingWorkspace()</a>, <a class="el" href="main_8cpp_source#l01875">MainFrame::DoCloseCurrentWorkspace()</a>, <a class="el" href="projectmanager_8cpp_source#l01070">EndLoadingWorkspace()</a>, <a class="el" href="projectmanagerui_8cpp_source#l01200">ProjectManagerUI::OnCloseWorkspace()</a>, and <a class="el" href="scriptbindings_8cpp_source#l00384">ScriptBindings::RegisterBindings()</a>.</p>
 
 </div>
 </div>
@@ -969,11 +972,11 @@ Also note than when this function returns, the targets array will contain the us
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="projectmanager_8cpp_source#l00659">659</a> of file <a class="el" href="projectmanager_8cpp_source">projectmanager.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="projectmanager_8cpp_source#l00670">670</a> of file <a class="el" href="projectmanager_8cpp_source">projectmanager.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="projectfile_8cpp_source#l00078">ProjectFile::AddBuildTarget()</a>, <a class="el" href="cbproject_8cpp_source#l00617">cbProject::AddFile()</a>, <a class="el" href="classcbProjectManagerUI#ku-AskForMultiBuildTargetIndex">cbProjectManagerUI::AskForMultiBuildTargetIndex()</a>, <a class="el" href="compiletargetbase_8cpp_source#l00464">CompileTargetBase::GetBasePath()</a>, <a class="el" href="cbproject_8cpp_source#l01388">cbProject::GetBuildTarget()</a>, <a class="el" href="cbproject_8h_source#l00200">cbProject::GetBuildTargetsCount()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_file_name.html#a8fc8100ba99859a40558c068a841b586">wxFileName::GetFullPath()</a>, <a class="el" href="compiletargetbase_8cpp_source#l00071">CompileTargetBase::GetTitle()</a>, <a class="el" href="projectmanager_8h_source#l00454">m_ui</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_file_name.html#ab7ac6ac2f4f0d7dca3fd9c9764ec818d">wxFileName::MakeRelativeTo()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_file_name.html#a2db3fcc42863daa265619de0d5f390df">wxFileName::Normalize()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/filename_8h.html#a18dd81e40b3fad4a089077e28e5dce22a2c0029fffea115ef1506b1dd7522e06c">wxPATH_NORM_ABSOLUTE</a>, and <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/filename_8h.html#a18dd81e40b3fad4a089077e28e5dce22a6bffe1a3462787d537fcd92bb049a864">wxPATH_NORM_DOTS</a>.</p>
+<p class="reference">References <a class="el" href="projectfile_8cpp_source#l00078">ProjectFile::AddBuildTarget()</a>, <a class="el" href="cbproject_8cpp_source#l00621">cbProject::AddFile()</a>, <a class="el" href="classcbProjectManagerUI#ku-AskForMultiBuildTargetIndex">cbProjectManagerUI::AskForMultiBuildTargetIndex()</a>, <a class="el" href="compiletargetbase_8cpp_source#l00464">CompileTargetBase::GetBasePath()</a>, <a class="el" href="cbproject_8cpp_source#l01392">cbProject::GetBuildTarget()</a>, <a class="el" href="cbproject_8h_source#l00200">cbProject::GetBuildTargetsCount()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_file_name.html#a8fc8100ba99859a40558c068a841b586">wxFileName::GetFullPath()</a>, <a class="el" href="compiletargetbase_8cpp_source#l00071">CompileTargetBase::GetTitle()</a>, <a class="el" href="projectmanager_8h_source#l00458">m_ui</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_file_name.html#ab7ac6ac2f4f0d7dca3fd9c9764ec818d">wxFileName::MakeRelativeTo()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_file_name.html#a2db3fcc42863daa265619de0d5f390df">wxFileName::Normalize()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/filename_8h.html#a18dd81e40b3fad4a089077e28e5dce22a2c0029fffea115ef1506b1dd7522e06c">wxPATH_NORM_ABSOLUTE</a>, and <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/filename_8h.html#a18dd81e40b3fad4a089077e28e5dce22a6bffe1a3462787d537fcd92bb049a864">wxPATH_NORM_DOTS</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="projectmanager_8cpp_source#l00712">AddFileToProject()</a>, and <a class="el" href="projectmanager_8cpp_source#l00740">AddMultipleFilesToProject()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="projectmanager_8cpp_source#l00723">AddFileToProject()</a>, and <a class="el" href="projectmanager_8cpp_source#l00751">AddMultipleFilesToProject()</a>.</p>
 
 </div>
 </div>
@@ -1002,11 +1005,11 @@ Also note than when this function returns, the targets array will contain the us
 </dl>
 <dl class="section note"><dt>Note</dt><dd>A call to <a class="el" href="classProjectManager#lv-BeginLoadingProject" title="Begins the project loading process. ">BeginLoadingProject()</a> must have preceded. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="projectmanager_8cpp_source#l00991">991</a> of file <a class="el" href="projectmanager_8cpp_source">projectmanager.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="projectmanager_8cpp_source#l01002">1002</a> of file <a class="el" href="projectmanager_8cpp_source">projectmanager.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="uservarmanager_8cpp_source#l00234">UserVariableManager::Arrogate()</a>, <a class="el" href="sdk__events_8cpp_source#l00097">cbEVT_PROJECT_OPEN</a>, <a class="el" href="classcbProjectManagerUI#pu-FinishLoadingProject">cbProjectManagerUI::FinishLoadingProject()</a>, <a class="el" href="manager_8cpp_source#l00187">Manager::Get()</a>, <a class="el" href="cbproject_8cpp_source#l01610">cbProject::GetShowNotesOnLoad()</a>, <a class="el" href="manager_8cpp_source#l00468">Manager::GetUserVariableManager()</a>, <a class="el" href="cbproject_8cpp_source#l00509">cbProject::LoadLayout()</a>, <a class="el" href="projectmanager_8h_source#l00461">m_IsLoadingProject</a>, <a class="el" href="projectmanager_8h_source#l00462">m_IsLoadingWorkspace</a>, <a class="el" href="projectmanager_8h_source#l00460">m_pFileGroups</a>, <a class="el" href="projectmanager_8h_source#l00457">m_pProjects</a>, <a class="el" href="projectmanager_8h_source#l00459">m_pWorkspace</a>, <a class="el" href="projectmanager_8h_source#l00454">m_ui</a>, <a class="el" href="manager_8cpp_source#l00250">Manager::ProcessEvent()</a>, <a class="el" href="projectmanager_8h_source#l00144">s_CanShutdown</a>, <a class="el" href="cbworkspace_8cpp_source#l00153">cbWorkspace::SetModified()</a>, <a class="el" href="cbproject_8cpp_source#l01629">cbProject::ShowNotes()</a>, and <a class="el" href="projectmanager_8cpp_source#l00930">WorkspaceChanged()</a>.</p>
+<p class="reference">References <a class="el" href="uservarmanager_8cpp_source#l00234">UserVariableManager::Arrogate()</a>, <a class="el" href="sdk__events_8cpp_source#l00097">cbEVT_PROJECT_OPEN</a>, <a class="el" href="classcbProjectManagerUI#pu-FinishLoadingProject">cbProjectManagerUI::FinishLoadingProject()</a>, <a class="el" href="manager_8cpp_source#l00182">Manager::Get()</a>, <a class="el" href="cbproject_8cpp_source#l01614">cbProject::GetShowNotesOnLoad()</a>, <a class="el" href="manager_8cpp_source#l00464">Manager::GetUserVariableManager()</a>, <a class="el" href="cbproject_8cpp_source#l00513">cbProject::LoadLayout()</a>, <a class="el" href="projectmanager_8h_source#l00465">m_IsLoadingProject</a>, <a class="el" href="projectmanager_8h_source#l00466">m_IsLoadingWorkspace</a>, <a class="el" href="projectmanager_8h_source#l00464">m_pFileGroups</a>, <a class="el" href="projectmanager_8h_source#l00461">m_pProjects</a>, <a class="el" href="projectmanager_8h_source#l00463">m_pWorkspace</a>, <a class="el" href="projectmanager_8h_source#l00458">m_ui</a>, <a class="el" href="manager_8cpp_source#l00246">Manager::ProcessEvent()</a>, <a class="el" href="projectmanager_8h_source#l00144">s_CanShutdown</a>, <a class="el" href="cbworkspace_8cpp_source#l00153">cbWorkspace::SetModified()</a>, <a class="el" href="cbproject_8cpp_source#l01633">cbProject::ShowNotes()</a>, and <a class="el" href="projectmanager_8cpp_source#l00941">WorkspaceChanged()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="projectmanager_8cpp_source#l00210">LoadProject()</a>, and <a class="el" href="projectmanager_8cpp_source#l00354">NewProject()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="projectmanager_8cpp_source#l00213">LoadProject()</a>, and <a class="el" href="projectmanager_8cpp_source#l00357">NewProject()</a>.</p>
 
 </div>
 </div>
@@ -1028,11 +1031,11 @@ Also note than when this function returns, the targets array will contain the us
 <p>Ends the workspace loading process. </p>
 <p>Only to be used by code that needs it (e.g. workspace importers). </p><dl class="section note"><dt>Note</dt><dd>A call to <a class="el" href="classProjectManager#fp-BeginLoadingWorkspace" title="Begins the workspace loading process. ">BeginLoadingWorkspace()</a> must have preceded. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="projectmanager_8cpp_source#l01059">1059</a> of file <a class="el" href="projectmanager_8cpp_source">projectmanager.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="projectmanager_8cpp_source#l01070">1070</a> of file <a class="el" href="projectmanager_8cpp_source">projectmanager.cpp</a>.</p>
 
-<p class="reference">References <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga8a02b8875a521df57263a9e6f090f2d0">_()</a>, <a class="el" href="uservarmanager_8cpp_source#l00234">UserVariableManager::Arrogate()</a>, <a class="el" href="sdk__events_8cpp_source#l00097">cbEVT_PROJECT_OPEN</a>, <a class="el" href="globals_8cpp_source#l01381">cbMessageBox()</a>, <a class="el" href="projectmanager_8cpp_source#l00576">CloseWorkspace()</a>, <a class="el" href="classcbProjectManagerUI#wl-FinishLoadingWorkspace">cbProjectManagerUI::FinishLoadingWorkspace()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#addd9ccfa3ae2b7ab2d66bcbf034d0be0">wxString::Format()</a>, <a class="el" href="manager_8cpp_source#l00187">Manager::Get()</a>, <a class="el" href="cbproject_8cpp_source#l01596">cbProject::GetNotes()</a>, <a class="el" href="manager_8cpp_source#l00448">Manager::GetPluginManager()</a>, <a class="el" href="cbproject_8cpp_source#l01610">cbProject::GetShowNotesOnLoad()</a>, <a class="el" href="cbworkspace_8h_source#l00069">cbWorkspace::GetTitle()</a>, <a class="el" href="manager_8cpp_source#l00468">Manager::GetUserVariableManager()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#ace32756bab999f8aae9be0cf981fc449">wxString::IsEmpty()</a>, <a class="el" href="cbworkspace_8h_source#l00087">cbWorkspace::IsOK()</a>, <a class="el" href="projectmanager_8h_source#l00462">m_IsLoadingWorkspace</a>, <a class="el" href="projectmanager_8h_source#l00455">m_pActiveProject</a>, <a class="el" href="projectmanager_8h_source#l00457">m_pProjects</a>, <a class="el" href="projectmanager_8h_source#l00456">m_pProjectToActivate</a>, <a class="el" href="projectmanager_8h_source#l00459">m_pWorkspace</a>, <a class="el" href="projectmanager_8h_source#l00454">m_ui</a>, <a class="el" href="pluginmanager_8cpp_source#l01435">PluginManager::NotifyPlugins()</a>, <a class="el" href="projectmanager_8cpp_source#l00159">SetProject()</a>, <a class="el" href="cbproject_8cpp_source#l01629">cbProject::ShowNotes()</a>, <a class="el" href="projectmanager_8cpp_source#l00930">WorkspaceChanged()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/defs_8h.html#a01d0612a961327f6038a91e5f94fa44a">wxICON_QUESTION</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/defs_8h.html#ac66d0a09761e7d86b2ac0b2e0c6a8cbbac2e6ec2b9ec8438956b0fd3d1d9d6343">wxID_YES</a>, and <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/defs_8h.html#a5ba00a09cea0417a2ef7c4a4c2b0012c">wxYES_NO</a>.</p>
+<p class="reference">References <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga8a02b8875a521df57263a9e6f090f2d0">_()</a>, <a class="el" href="uservarmanager_8cpp_source#l00234">UserVariableManager::Arrogate()</a>, <a class="el" href="sdk__events_8cpp_source#l00097">cbEVT_PROJECT_OPEN</a>, <a class="el" href="globals_8cpp_source#l01395">cbMessageBox()</a>, <a class="el" href="projectmanager_8cpp_source#l00587">CloseWorkspace()</a>, <a class="el" href="classcbProjectManagerUI#wl-FinishLoadingWorkspace">cbProjectManagerUI::FinishLoadingWorkspace()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#addd9ccfa3ae2b7ab2d66bcbf034d0be0">wxString::Format()</a>, <a class="el" href="manager_8cpp_source#l00182">Manager::Get()</a>, <a class="el" href="cbproject_8cpp_source#l01600">cbProject::GetNotes()</a>, <a class="el" href="manager_8cpp_source#l00444">Manager::GetPluginManager()</a>, <a class="el" href="cbproject_8cpp_source#l01614">cbProject::GetShowNotesOnLoad()</a>, <a class="el" href="cbworkspace_8h_source#l00069">cbWorkspace::GetTitle()</a>, <a class="el" href="manager_8cpp_source#l00464">Manager::GetUserVariableManager()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#ace32756bab999f8aae9be0cf981fc449">wxString::IsEmpty()</a>, <a class="el" href="cbworkspace_8h_source#l00087">cbWorkspace::IsOK()</a>, <a class="el" href="projectmanager_8h_source#l00466">m_IsLoadingWorkspace</a>, <a class="el" href="projectmanager_8h_source#l00459">m_pActiveProject</a>, <a class="el" href="projectmanager_8h_source#l00461">m_pProjects</a>, <a class="el" href="projectmanager_8h_source#l00460">m_pProjectToActivate</a>, <a class="el" href="projectmanager_8h_source#l00463">m_pWorkspace</a>, <a class="el" href="projectmanager_8h_source#l00458">m_ui</a>, <a class="el" href="pluginmanager_8cpp_source#l01520">PluginManager::NotifyPlugins()</a>, <a class="el" href="projectmanager_8cpp_source#l00162">SetProject()</a>, <a class="el" href="cbproject_8cpp_source#l01633">cbProject::ShowNotes()</a>, <a class="el" href="projectmanager_8cpp_source#l00941">WorkspaceChanged()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/defs_8h.html#a01d0612a961327f6038a91e5f94fa44a">wxICON_QUESTION</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/defs_8h.html#ac66d0a09761e7d86b2ac0b2e0c6a8cbbac2e6ec2b9ec8438956b0fd3d1d9d6343">wxID_YES</a>, and <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/defs_8h.html#a5ba00a09cea0417a2ef7c4a4c2b0012c">wxYES_NO</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="projectmanager_8cpp_source#l00543">LoadWorkspace()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="projectmanager_8cpp_source#l00547">LoadWorkspace()</a>.</p>
 
 </div>
 </div>
@@ -1076,11 +1079,11 @@ Also note than when this function returns, the targets array will contain the us
 
 <p>Return the project which has the file in it, also return the pointer to the <a class="el" href="classProjectFile" title="Represents a file in a Code::Blocks project. ">ProjectFile</a> object. </p>
 
-<p class="definition">Definition at line <a class="el" href="projectmanager_8cpp_source#l01136">1136</a> of file <a class="el" href="projectmanager_8cpp_source">projectmanager.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="projectmanager_8cpp_source#l01147">1147</a> of file <a class="el" href="projectmanager_8cpp_source">projectmanager.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="cbproject_8cpp_source#l01045">cbProject::GetFileByFilename()</a>, and <a class="el" href="projectmanager_8h_source#l00457">m_pProjects</a>.</p>
+<p class="reference">References <a class="el" href="cbproject_8cpp_source#l01049">cbProject::GetFileByFilename()</a>, and <a class="el" href="projectmanager_8h_source#l00461">m_pProjects</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="debuggerstate_8cpp_source#l00103">DebuggerState::AddBreakpoint()</a>, <a class="el" href="editormanager_8cpp_source#l00805">EditorManager::CheckForExternallyModifiedFiles()</a>, <a class="el" href="editormanager_8cpp_source#l00354">EditorManager::Open()</a>, <a class="el" href="editorbase_8cpp_source#l00151">EditorBase::SetTitle()</a>, and <a class="el" href="cbauibook_8cpp_source#l00782">cbAuiNotebook::UniqueIdFromTooltip()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="debuggerstate_8cpp_source#l00103">DebuggerState::AddBreakpoint()</a>, <a class="el" href="editormanager_8cpp_source#l00845">EditorManager::CheckForExternallyModifiedFiles()</a>, <a class="el" href="editormanager_8cpp_source#l00358">EditorManager::Open()</a>, <a class="el" href="editorbase_8cpp_source#l00149">EditorBase::SetTitle()</a>, and <a class="el" href="cbauibook_8cpp_source#l00779">cbAuiNotebook::UniqueIdFromTooltip()</a>.</p>
 
 </div>
 </div>
@@ -1112,7 +1115,7 @@ Also note than when this function returns, the targets array will contain the us
 
 <p class="definition">Definition at line <a class="el" href="projectmanager_8h_source#l00177">177</a> of file <a class="el" href="projectmanager_8h_source">projectmanager.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="projectmanager_8cpp_source#l00700">AddFileToProject()</a>, <a class="el" href="projectmanager_8cpp_source#l00728">AddMultipleFilesToProject()</a>, <a class="el" href="cbeditor_8cpp_source#l02761">cbEditor::AddToContextMenu()</a>, <a class="el" href="compilergcc_8cpp_source#l01029">CompilerGCC::AskForActiveProject()</a>, <a class="el" href="projectmanagerui_8cpp_source#l02499">ProjectManagerUI::AskForBuildTargetIndex()</a>, <a class="el" href="projectmanagerui_8cpp_source#l02517">ProjectManagerUI::AskForMultiBuildTargetIndex()</a>, <a class="el" href="app_8cpp_source#l00894">CodeBlocksApp::BatchJob()</a>, <a class="el" href="editormanager_8cpp_source#l01795">EditorManager::CollectDefines()</a>, <a class="el" href="debuggergdb_8cpp_source#l00625">DebuggerGDB::Debug()</a>, <a class="el" href="compilererrors_8cpp_source#l00134">CompilerErrors::DoGotoError()</a>, <a class="el" href="cbeditor_8cpp_source#l00743">cbEditor::DoInitializations()</a>, <a class="el" href="codecompletion_8cpp_source#l03293">CodeCompletion::DoParseOpenedProjectAndActiveEditor()</a>, <a class="el" href="main_8cpp_source#l02104">MainFrame::DoUpdateAppTitle()</a>, <a class="el" href="filepathpanel_8cpp_source#l00044">FilePathPanel::FilePathPanel()</a>, <a class="el" href="findreplacedlg_8cpp_source#l00058">FindReplaceDlg::FindReplaceDlg()</a>, <a class="el" href="debuggermanager_8cpp_source#l01221">DebuggerManager::FindTargetsDebugger()</a>, <a class="el" href="nativeparser_8cpp_source#l00341">NativeParser::GetCurrentProject()</a>, <a class="el" href="main_8cpp_source#l02248">MainFrame::GetEditorDescription()</a>, <a class="el" href="nativeparser_8cpp_source#l00295">NativeParser::GetProjectByFilename()</a>, <a class="el" href="compilergcc_8cpp_source#l01401">CompilerGCC::IsValidTarget()</a>, <a class="el" href="projectmanagerui_8cpp_source#l01197">ProjectManagerUI::OnAddFilesToProjectRecursively()</a>, <a class="el" href="projectmanagerui_8cpp_source#l01287">ProjectManagerUI::OnAddFileToProject()</a>, <a class="el" href="editormanager_8cpp_source#l01715">EditorManager::OnAddFileToProject()</a>, <a class="el" href="main_8cpp_source#l02734">MainFrame::OnApplicationClose()</a>, <a class="el" href="filepathpanel_8cpp_source#l00183">FilePathPanel::OnbtnBrowseClick()</a>, <a class="el" href="projectmanagerui_8cpp_source#l01496">ProjectManagerUI::OnCloseProject()</a>, <a class="el" href="cbeditor_8cpp_source#l03012">cbEditor::OnContextMenuEntry()</a>, <a class="el" href="projectmanagerui_8cpp_source#l01028">ProjectManagerUI::OnExecParameters()</a>, <a class="el" href="main_8cpp_source#l04071">MainFrame::OnFileMenuUpdateUI()</a>, <a class="el" href="main_8cpp_source#l02304">MainFrame::OnFileNewWhat()</a>, <a class="el" href="main_8cpp_source#l02546">MainFrame::OnFileSaveProject()</a>, <a class="el" href="main_8cpp_source#l02556">MainFrame::OnFileSaveProjectAs()</a>, <a class="el" href="projectmanagerui_8cpp_source#l01811">ProjectManagerUI::OnGotoFile()</a>, <a class="el" href="projectmanagerui_8cpp_source#l02337">ProjectManagerUI::OnKeyDown()</a>, <a class="el" href="wizpage_8cpp_source#l00682">WizBuildTargetPanel::OnPageChanging()</a>, <a class="el" href="nativeparser_8cpp_source#l02550">NativeParser::OnParsingOneByOneTimer()</a>, <a class="el" href="compilergcc_8cpp_source#l03366">CompilerGCC::OnProjectActivated()</a>, <a class="el" href="projectmanagerui_8cpp_source#l01002">ProjectManagerUI::OnProjectFileActivated()</a>, <a class="el" href="main_8cpp_source#l04314">MainFrame::OnProjectMenuUpdateUI()</a>, <a class="el" href="projectmanagerui_8cpp_source#l01632">ProjectManagerUI::OnProperties()</a>, <a class="el" href="disassemblydlg_8cpp_source#l00231">DisassemblyDlg::OnSave()</a>, <a class="el" href="projectmanagerui_8cpp_source#l01141">ProjectManagerUI::OnSetActiveProject()</a>, <a class="el" href="debuggermenu_8cpp_source#l00441">DebuggerMenuHandler::OnUpdateUI()</a>, <a class="el" href="debuggermenu_8cpp_source#l00798">DebuggerToolbarHandler::OnUpdateUI()</a>, <a class="el" href="compilergcc_8cpp_source#l03309">CompilerGCC::OnUpdateUI()</a>, <a class="el" href="codecompletion_8cpp_source#l02260">CodeCompletion::OnWorkspaceChanged()</a>, <a class="el" href="projectmanagerui_8cpp_source#l00297">ProjectManagerUI::RebuildTree()</a>, <a class="el" href="scriptbindings_8cpp_source#l00384">ScriptBindings::RegisterBindings()</a>, <a class="el" href="macrosmanager_8cpp_source#l00435">MacrosManager::ReplaceMacros()</a>, <a class="el" href="wiz_8cpp_source#l00547">Wiz::RunTargetWizard()</a>, <a class="el" href="workspaceloader_8cpp_source#l00205">WorkspaceLoader::SaveLayout()</a>, <a class="el" href="filepathpanel_8cpp_source#l00135">FilePathPanel::SetAddToProject()</a>, <a class="el" href="projectmanagerui_8cpp_source#l00552">ProjectManagerUI::ShowMenu()</a>, <a class="el" href="editormanager_8cpp_source#l01181">EditorManager::SwapActiveHeaderSource()</a>, <a class="el" href="cbplugin_8cpp_source#l00301">cbDebuggerPlugin::SyncEditor()</a>, and <a class="el" href="cbplugin_8cpp_source#l00258">cbDebuggerPlugin::ToolMenuEnabled()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="projectmanager_8cpp_source#l00711">AddFileToProject()</a>, <a class="el" href="projectmanager_8cpp_source#l00739">AddMultipleFilesToProject()</a>, <a class="el" href="compilergcc_8cpp_source#l01015">CompilerGCC::AskForActiveProject()</a>, <a class="el" href="projectmanagerui_8cpp_source#l02622">ProjectManagerUI::AskForBuildTargetIndex()</a>, <a class="el" href="projectmanagerui_8cpp_source#l02640">ProjectManagerUI::AskForMultiBuildTargetIndex()</a>, <a class="el" href="app_8cpp_source#l00914">CodeBlocksApp::BatchJob()</a>, <a class="el" href="editormanager_8cpp_source#l01857">EditorManager::CollectDefines()</a>, <a class="el" href="debuggergdb_8cpp_source#l00667">DebuggerGDB::Debug()</a>, <a class="el" href="compilererrors_8cpp_source#l00141">CompilerErrors::DoGotoError()</a>, <a class="el" href="cbeditor_8cpp_source#l00745">cbEditor::DoInitializations()</a>, <a class="el" href="codecompletion_8cpp_source#l03323">CodeCompletion::DoParseOpenedProjectAndActiveEditor()</a>, <a class="el" href="main_8cpp_source#l02110">MainFrame::DoUpdateAppTitle()</a>, <a class="el" href="filepathpanel_8cpp_source#l00044">FilePathPanel::FilePathPanel()</a>, <a class="el" href="findreplacedlg_8cpp_source#l00063">FindReplaceDlg::FindReplaceDlg()</a>, <a class="el" href="debuggermanager_8cpp_source#l01233">DebuggerManager::FindTargetsDebugger()</a>, <a class="el" href="nativeparser_8cpp_source#l00341">NativeParser::GetCurrentProject()</a>, <a class="el" href="main_8cpp_source#l02254">MainFrame::GetEditorDescription()</a>, <a class="el" href="nativeparser_8cpp_source#l00295">NativeParser::GetProjectByFilename()</a>, <a class="el" href="findreplacedlg_8cpp_source#l00533">FindReplaceDlg::GetTarget()</a>, <a class="el" href="compilergcc_8cpp_source#l01388">CompilerGCC::IsValidTarget()</a>, <a class="el" href="projectmanagerui_8cpp_source#l01263">ProjectManagerUI::OnAddFilesToProjectRecursively()</a>, <a class="el" href="projectmanagerui_8cpp_source#l01353">ProjectManagerUI::OnAddFileToProject()</a>, <a class="el" href="editormanager_8cpp_source#l01777">EditorManager::OnAddFileToProject()</a>, <a class="el" href="filepathpanel_8cpp_source#l00183">FilePathPanel::OnbtnBrowseClick()</a>, <a class="el" href="projectmanagerui_8cpp_source#l01562">ProjectManagerUI::OnCloseProject()</a>, <a class="el" href="cbeditor_8cpp_source#l03084">cbEditor::OnContextMenuEntry()</a>, <a class="el" href="projectmanagerui_8cpp_source#l01082">ProjectManagerUI::OnExecParameters()</a>, <a class="el" href="main_8cpp_source#l04058">MainFrame::OnFileMenuUpdateUI()</a>, <a class="el" href="main_8cpp_source#l02310">MainFrame::OnFileNewWhat()</a>, <a class="el" href="main_8cpp_source#l02546">MainFrame::OnFileSaveProject()</a>, <a class="el" href="main_8cpp_source#l02556">MainFrame::OnFileSaveProjectAs()</a>, <a class="el" href="projectmanagerui_8cpp_source#l01893">ProjectManagerUI::OnGotoFile()</a>, <a class="el" href="projectmanagerui_8cpp_source#l02458">ProjectManagerUI::OnKeyDown()</a>, <a class="el" href="wizpage_8cpp_source#l00682">WizBuildTargetPanel::OnPageChanging()</a>, <a class="el" href="nativeparser_8cpp_source#l02550">NativeParser::OnParsingOneByOneTimer()</a>, <a class="el" href="compilergcc_8cpp_source#l03382">CompilerGCC::OnProjectActivated()</a>, <a class="el" href="projectmanagerui_8cpp_source#l01056">ProjectManagerUI::OnProjectFileActivated()</a>, <a class="el" href="projectmanagerui_8cpp_source#l01698">ProjectManagerUI::OnProperties()</a>, <a class="el" href="projectmanagerui_8cpp_source#l01088">ProjectManagerUI::OnRightClick()</a>, <a class="el" href="disassemblydlg_8cpp_source#l00231">DisassemblyDlg::OnSave()</a>, <a class="el" href="findreplacedlg_8cpp_source#l00789">FindReplaceDlg::OnSelectTarget()</a>, <a class="el" href="projectmanagerui_8cpp_source#l01207">ProjectManagerUI::OnSetActiveProject()</a>, <a class="el" href="debuggermenu_8cpp_source#l00454">DebuggerMenuHandler::OnUpdateUI()</a>, <a class="el" href="debuggermenu_8cpp_source#l00811">DebuggerToolbarHandler::OnUpdateUI()</a>, <a class="el" href="projectmanagerui_8cpp_source#l02357">ProjectManagerUI::OnUpdateUI()</a>, <a class="el" href="compilergcc_8cpp_source#l03325">CompilerGCC::OnUpdateUI()</a>, <a class="el" href="codecompletion_8cpp_source#l02298">CodeCompletion::OnWorkspaceChanged()</a>, <a class="el" href="projectmanagerui_8cpp_source#l00314">ProjectManagerUI::RebuildTree()</a>, <a class="el" href="scriptbindings_8cpp_source#l00384">ScriptBindings::RegisterBindings()</a>, <a class="el" href="macrosmanager_8cpp_source#l00446">MacrosManager::ReplaceMacros()</a>, <a class="el" href="wiz_8cpp_source#l00547">Wiz::RunTargetWizard()</a>, <a class="el" href="workspaceloader_8cpp_source#l00205">WorkspaceLoader::SaveLayout()</a>, <a class="el" href="filepathpanel_8cpp_source#l00135">FilePathPanel::SetAddToProject()</a>, <a class="el" href="projectmanagerui_8cpp_source#l00569">ProjectManagerUI::ShowMenu()</a>, <a class="el" href="editormanager_8cpp_source#l01222">EditorManager::SwapActiveHeaderSource()</a>, <a class="el" href="cbplugin_8cpp_source#l00301">cbDebuggerPlugin::SyncEditor()</a>, and <a class="el" href="cbplugin_8cpp_source#l00258">cbDebuggerPlugin::ToolMenuEnabled()</a>.</p>
 
 </div>
 </div>
@@ -1135,9 +1138,9 @@ Also note than when this function returns, the targets array will contain the us
 <dl class="section return"><dt>Returns</dt><dd>The default path for new projects. Contains trailing path separator. </dd></dl>
 <dl class="section note"><dt>Note</dt><dd>This might be empty if not configured before... </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="projectmanager_8cpp_source#l00135">135</a> of file <a class="el" href="projectmanager_8cpp_source">projectmanager.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="projectmanager_8cpp_source#l00138">138</a> of file <a class="el" href="projectmanager_8cpp_source">projectmanager.cpp</a>.</p>
 
-<p class="reference">References <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga7dfc2888539861afe6c4337ef315472b">_T</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#a2faf8f428d7fac92e11f00a017ab46b3">wxString::Append()</a>, <a class="el" href="manager_8cpp_source#l00187">Manager::Get()</a>, <a class="el" href="manager_8cpp_source#l00478">Manager::GetConfigManager()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#ace32756bab999f8aae9be0cf981fc449">wxString::IsEmpty()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#a9cbac1fb780a7e227d38a85108829f8d">wxString::Last()</a>, <a class="el" href="configmanager_8cpp_source#l00841">ConfigManager::Read()</a>, and <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/interface_2wx_2string_8h.html#a9a321d587166a30017b608dd2d234033">wxEmptyString</a>.</p>
+<p class="reference">References <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga7dfc2888539861afe6c4337ef315472b">_T</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#a2faf8f428d7fac92e11f00a017ab46b3">wxString::Append()</a>, <a class="el" href="manager_8cpp_source#l00182">Manager::Get()</a>, <a class="el" href="manager_8cpp_source#l00474">Manager::GetConfigManager()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#ace32756bab999f8aae9be0cf981fc449">wxString::IsEmpty()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#a9cbac1fb780a7e227d38a85108829f8d">wxString::Last()</a>, <a class="el" href="configmanager_8cpp_source#l00895">ConfigManager::Read()</a>, and <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/interface_2wx_2string_8h.html#a9a321d587166a30017b608dd2d234033">wxEmptyString</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="wizpage_8cpp_source#l00421">WizProjectPathPanel::OnPageChanged()</a>, and <a class="el" href="scriptbindings_8cpp_source#l00384">ScriptBindings::RegisterBindings()</a>.</p>
 
@@ -1168,11 +1171,11 @@ Also note than when this function returns, the targets array will contain the us
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>An array of project dependencies, or NULL if no dependencies are set for <code>base</code>. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="projectmanager_8cpp_source#l00911">911</a> of file <a class="el" href="projectmanager_8cpp_source">projectmanager.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="projectmanager_8cpp_source#l00922">922</a> of file <a class="el" href="projectmanager_8cpp_source">projectmanager.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="projectmanager_8h_source#l00458">m_ProjectDeps</a>.</p>
+<p class="reference">References <a class="el" href="projectmanager_8h_source#l00462">m_ProjectDeps</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="compilergcc_8cpp_source#l02670">CompilerGCC::CalculateProjectDependencies()</a>, <a class="el" href="projectmanager_8cpp_source#l00776">CausesCircularDependency()</a>, <a class="el" href="projectdepsdlg_8cpp_source#l00108">ProjectDepsDlg::FillList()</a>, <a class="el" href="scriptbindings_8cpp_source#l00384">ScriptBindings::RegisterBindings()</a>, and <a class="el" href="workspaceloader_8cpp_source#l00163">WorkspaceLoader::Save()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="compilergcc_8cpp_source#l02686">CompilerGCC::CalculateProjectDependencies()</a>, <a class="el" href="projectmanager_8cpp_source#l00787">CausesCircularDependency()</a>, <a class="el" href="projectdepsdlg_8cpp_source#l00108">ProjectDepsDlg::FillList()</a>, <a class="el" href="scriptbindings_8cpp_source#l00384">ScriptBindings::RegisterBindings()</a>, and <a class="el" href="workspaceloader_8cpp_source#l00163">WorkspaceLoader::Save()</a>.</p>
 
 </div>
 </div>
@@ -1201,7 +1204,7 @@ Also note than when this function returns, the targets array will contain the us
 
 <p class="definition">Definition at line <a class="el" href="projectmanager_8h_source#l00153">153</a> of file <a class="el" href="projectmanager_8h_source">projectmanager.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="globals_8cpp_source#l00285">FileTypeOf()</a>, <a class="el" href="projectmanagerui_8cpp_source#l00424">ProjectManagerUI::FinishLoadingProject()</a>, <a class="el" href="projectmanagerui_8cpp_source#l01197">ProjectManagerUI::OnAddFilesToProjectRecursively()</a>, <a class="el" href="projectmanagerui_8cpp_source#l01990">ProjectManagerUI::OnViewFileMasks()</a>, and <a class="el" href="projectmanagerui_8cpp_source#l00297">ProjectManagerUI::RebuildTree()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="projectmanagerui_8cpp_source#l00441">ProjectManagerUI::FinishLoadingProject()</a>, <a class="el" href="projectmanagerui_8cpp_source#l01263">ProjectManagerUI::OnAddFilesToProjectRecursively()</a>, <a class="el" href="projectmanagerui_8cpp_source#l02072">ProjectManagerUI::OnViewFileMasks()</a>, and <a class="el" href="projectmanagerui_8cpp_source#l00314">ProjectManagerUI::RebuildTree()</a>.</p>
 
 </div>
 </div>
@@ -1247,11 +1250,13 @@ Also note than when this function returns, the targets array will contain the us
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="projectmanager_8cpp_source#l01131">1131</a> of file <a class="el" href="projectmanager_8cpp_source">projectmanager.cpp</a>.</p>
+<p>Return a pointer to the plugin which is running the application. </p>
 
-<p class="reference">References <a class="el" href="projectmanager_8h_source#l00467">m_RunningPlugin</a>.</p>
+<p class="definition">Definition at line <a class="el" href="projectmanager_8cpp_source#l01142">1142</a> of file <a class="el" href="projectmanager_8cpp_source">projectmanager.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="compilergcc_8cpp_source#l00552">CompilerGCC::BuildModuleMenu()</a>, <a class="el" href="compilergcc_8cpp_source#l02849">CompilerGCC::KillProcess()</a>, <a class="el" href="compilergcc_8cpp_source#l03905">CompilerGCC::NotifyJobDone()</a>, <a class="el" href="cbplugin_8cpp_source#l00713">cbDebuggerPlugin::OnCompilerFinished()</a>, <a class="el" href="debuggermenu_8cpp_source#l00624">DebuggerMenuHandler::OnRunToCursor()</a>, <a class="el" href="debuggermenu_8cpp_source#l00517">DebuggerMenuHandler::OnStart()</a>, <a class="el" href="debuggermenu_8cpp_source#l00589">DebuggerMenuHandler::OnStep()</a>, <a class="el" href="debuggermenu_8cpp_source#l00441">DebuggerMenuHandler::OnUpdateUI()</a>, <a class="el" href="debuggermenu_8cpp_source#l00798">DebuggerToolbarHandler::OnUpdateUI()</a>, and <a class="el" href="compilergcc_8cpp_source#l03309">CompilerGCC::OnUpdateUI()</a>.</p>
+<p class="reference">References <a class="el" href="projectmanager_8h_source#l00471">m_RunningPlugin</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="compilergcc_8cpp_source#l00538">CompilerGCC::BuildModuleMenu()</a>, <a class="el" href="compilergcc_8cpp_source#l02865">CompilerGCC::KillProcess()</a>, <a class="el" href="compilergcc_8cpp_source#l03930">CompilerGCC::NotifyJobDone()</a>, <a class="el" href="cbplugin_8cpp_source#l00713">cbDebuggerPlugin::OnCompilerFinished()</a>, <a class="el" href="debuggermenu_8cpp_source#l00637">DebuggerMenuHandler::OnRunToCursor()</a>, <a class="el" href="debuggermenu_8cpp_source#l00530">DebuggerMenuHandler::OnStart()</a>, <a class="el" href="debuggermenu_8cpp_source#l00602">DebuggerMenuHandler::OnStep()</a>, <a class="el" href="debuggermenu_8cpp_source#l00454">DebuggerMenuHandler::OnUpdateUI()</a>, <a class="el" href="debuggermenu_8cpp_source#l00811">DebuggerToolbarHandler::OnUpdateUI()</a>, <a class="el" href="projectmanagerui_8cpp_source#l02357">ProjectManagerUI::OnUpdateUI()</a>, and <a class="el" href="compilergcc_8cpp_source#l03325">CompilerGCC::OnUpdateUI()</a>.</p>
 
 </div>
 </div>
@@ -1285,7 +1290,7 @@ Also note than when this function returns, the targets array will contain the us
 
 <p class="reference">References <a class="el" href="globals_8cpp_source#l00055">DEFAULT_WORKSPACE</a>, and <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/interface_2wx_2string_8h.html#a9a321d587166a30017b608dd2d234033">wxEmptyString</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="compilergcc_8cpp_source#l02670">CompilerGCC::CalculateProjectDependencies()</a>, <a class="el" href="compilergcc_8cpp_source#l02660">CompilerGCC::CalculateWorkspaceDependencies()</a>, <a class="el" href="projectmanagerui_8cpp_source#l02547">ProjectManagerUI::CheckForExternallyModifiedProjects()</a>, <a class="el" href="cbproject_8cpp_source#l00203">cbProject::CreateUniqueFilename()</a>, <a class="el" href="debuggergdb_8cpp_source#l00665">DebuggerGDB::DoDebug()</a>, <a class="el" href="compilergcc_8cpp_source#l02785">CompilerGCC::DoWorkspaceBuild()</a>, <a class="el" href="projectdepsdlg_8cpp_source#l00108">ProjectDepsDlg::FillList()</a>, <a class="el" href="find__replace_8cpp_source#l01295">FindReplace::FindInFiles()</a>, <a class="el" href="findreplacedlg_8cpp_source#l00058">FindReplaceDlg::FindReplaceDlg()</a>, <a class="el" href="nativeparser_8cpp_source#l00295">NativeParser::GetProjectByFilename()</a>, <a class="el" href="projectmanagerui_8cpp_source#l02385">ProjectManagerUI::MoveProjectDown()</a>, <a class="el" href="projectmanagerui_8cpp_source#l02355">ProjectManagerUI::MoveProjectUp()</a>, <a class="el" href="projectmanagerui_8cpp_source#l01496">ProjectManagerUI::OnCloseProject()</a>, <a class="el" href="projectmanagerui_8cpp_source#l02022">ProjectManagerUI::OnFindFile()</a>, <a class="el" href="projectmanagerui_8cpp_source#l01811">ProjectManagerUI::OnGotoFile()</a>, <a class="el" href="nativeparser_8cpp_source#l02550">NativeParser::OnParsingOneByOneTimer()</a>, <a class="el" href="codecompletion_8cpp_source#l03441">CodeCompletion::OnProjectSavedTimer()</a>, <a class="el" href="findreplacedlg_8cpp_source#l00558">FindReplaceDlg::OnSearchProject()</a>, <a class="el" href="projectmanagerui_8cpp_source#l01141">ProjectManagerUI::OnSetActiveProject()</a>, <a class="el" href="compilergcc_8cpp_source#l02524">CompilerGCC::PreprocessJob()</a>, <a class="el" href="projectdepsdlg_8cpp_source#l00031">ProjectDepsDlg::ProjectDepsDlg()</a>, <a class="el" href="scriptbindings_8cpp_source#l00299">ScriptBindings::ProjectManager_GetProject()</a>, <a class="el" href="scriptbindings_8cpp_source#l00285">ScriptBindings::ProjectManager_GetProjectCount()</a>, <a class="el" href="projectmanagerui_8cpp_source#l02416">ProjectManagerUI::QueryCloseAllProjects()</a>, <a class="el" href="projectmanagerui_8cpp_source#l00297">ProjectManagerUI::RebuildTree()</a>, <a class="el" href="find__replace_8cpp_source#l00675">FindReplace::ReplaceInFiles()</a>, <a class="el" href="compilergcc_8cpp_source#l02147">CompilerGCC::ResetBuildState()</a>, <a class="el" href="workspaceloader_8cpp_source#l00163">WorkspaceLoader::Save()</a>, <a class="el" href="projectdepsdlg_8cpp_source#l00061">ProjectDepsDlg::SaveList()</a>, <a class="el" href="main_8cpp_source#l02140">MainFrame::ShowHideStartPage()</a>, and <a class="el" href="projectmanagerui_8cpp_source#l00552">ProjectManagerUI::ShowMenu()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="compilergcc_8cpp_source#l02686">CompilerGCC::CalculateProjectDependencies()</a>, <a class="el" href="compilergcc_8cpp_source#l02676">CompilerGCC::CalculateWorkspaceDependencies()</a>, <a class="el" href="projectmanagerui_8cpp_source#l02670">ProjectManagerUI::CheckForExternallyModifiedProjects()</a>, <a class="el" href="cbproject_8cpp_source#l00203">cbProject::CreateUniqueFilename()</a>, <a class="el" href="debuggergdb_8cpp_source#l00707">DebuggerGDB::DoDebug()</a>, <a class="el" href="compilergcc_8cpp_source#l02801">CompilerGCC::DoWorkspaceBuild()</a>, <a class="el" href="projectdepsdlg_8cpp_source#l00108">ProjectDepsDlg::FillList()</a>, <a class="el" href="find__replace_8cpp_source#l01304">FindReplace::FindInFiles()</a>, <a class="el" href="findreplacedlg_8cpp_source#l00063">FindReplaceDlg::FindReplaceDlg()</a>, <a class="el" href="nativeparser_8cpp_source#l00295">NativeParser::GetProjectByFilename()</a>, <a class="el" href="projectmanagerui_8cpp_source#l02507">ProjectManagerUI::MoveProjectDown()</a>, <a class="el" href="projectmanagerui_8cpp_source#l02476">ProjectManagerUI::MoveProjectUp()</a>, <a class="el" href="projectmanagerui_8cpp_source#l01562">ProjectManagerUI::OnCloseProject()</a>, <a class="el" href="projectmanagerui_8cpp_source#l02104">ProjectManagerUI::OnFindFile()</a>, <a class="el" href="projectmanagerui_8cpp_source#l01893">ProjectManagerUI::OnGotoFile()</a>, <a class="el" href="nativeparser_8cpp_source#l02550">NativeParser::OnParsingOneByOneTimer()</a>, <a class="el" href="codecompletion_8cpp_source#l03471">CodeCompletion::OnProjectSavedTimer()</a>, <a class="el" href="findreplacedlg_8cpp_source#l00597">FindReplaceDlg::OnSearchProject()</a>, <a class="el" href="projectmanagerui_8cpp_source#l01207">ProjectManagerUI::OnSetActiveProject()</a>, <a class="el" href="compilergcc_8cpp_source#l02553">CompilerGCC::PreprocessJob()</a>, <a class="el" href="projectdepsdlg_8cpp_source#l00031">ProjectDepsDlg::ProjectDepsDlg()</a>, <a class="el" href="scriptbindings_8cpp_source#l00299">ScriptBindings::ProjectManager_GetProject()</a>, <a class="el" href="scriptbindings_8cpp_source#l00285">ScriptBindings::ProjectManager_GetProjectCount()</a>, <a class="el" href="projectmanagerui_8cpp_source#l02539">ProjectManagerUI::QueryCloseAllProjects()</a>, <a class="el" href="projectmanagerui_8cpp_source#l00314">ProjectManagerUI::RebuildTree()</a>, <a class="el" href="find__replace_8cpp_source#l00678">FindReplace::ReplaceInFiles()</a>, <a class="el" href="compilergcc_8cpp_source#l02176">CompilerGCC::ResetBuildState()</a>, <a class="el" href="workspaceloader_8cpp_source#l00163">WorkspaceLoader::Save()</a>, <a class="el" href="projectdepsdlg_8cpp_source#l00061">ProjectDepsDlg::SaveList()</a>, <a class="el" href="main_8cpp_source#l02146">MainFrame::ShowHideStartPage()</a>, and <a class="el" href="projectmanagerui_8cpp_source#l00569">ProjectManagerUI::ShowMenu()</a>.</p>
 
 </div>
 </div>
@@ -1314,7 +1319,7 @@ Also note than when this function returns, the targets array will contain the us
 
 <p class="definition">Definition at line <a class="el" href="projectmanager_8h_source#l00150">150</a> of file <a class="el" href="projectmanager_8h_source">projectmanager.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="projectmanagerui_8cpp_source#l02547">ProjectManagerUI::CheckForExternallyModifiedProjects()</a>, <a class="el" href="nativeparser_8cpp_source#l00968">NativeParser::CreateClassBrowser()</a>, <a class="el" href="compilergcc_8cpp_source#l01081">CompilerGCC::DoSwitchProjectTemporarily()</a>, <a class="el" href="projectfileoptionsdlg_8cpp_source#l00276">ProjectFileOptionsDlg::EndModal()</a>, <a class="el" href="templatemanager_8cpp_source#l00123">TemplateManager::NewProjectFromUserTemplate()</a>, <a class="el" href="editormanager_8cpp_source#l01715">EditorManager::OnAddFileToProject()</a>, <a class="el" href="cbeditor_8cpp_source#l03012">cbEditor::OnContextMenuEntry()</a>, <a class="el" href="projectoptionsdlg_8cpp_source#l01286">ProjectOptionsDlg::OnCreateImportFileClick()</a>, <a class="el" href="compilergcc_8cpp_source#l03201">CompilerGCC::OnProjectCompilerOptions()</a>, <a class="el" href="projectoptionsdlg_8cpp_source#l00609">ProjectOptionsDlg::OnProjectDepsClick()</a>, <a class="el" href="editormanager_8cpp_source#l01729">EditorManager::OnRemoveFileFromProject()</a>, <a class="el" href="codecompletion_8cpp_source#l02224">CodeCompletion::OnSelectedFileReparse()</a>, <a class="el" href="editormanager_8cpp_source#l01740">EditorManager::OnShowFileInTree()</a>, <a class="el" href="scriptbindings_8cpp_source#l00320">ScriptBindings::ProjectManager_RebuildTree()</a>, <a class="el" href="nativeparser_8cpp_source#l01016">NativeParser::RemoveClassBrowser()</a>, <a class="el" href="nativeparser_8cpp_source#l00773">NativeParser::ReparseSelectedProject()</a>, <a class="el" href="wiz_8cpp_source#l00346">Wiz::RunProjectWizard()</a>, <a class="el" href="projectfile_8cpp_source#l00300">ProjectFile::SetFileState()</a>, and <a class="el" href="editormanager_8cpp_source#l01181">EditorManager::SwapActiveHeaderSource()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="projectmanagerui_8cpp_source#l02670">ProjectManagerUI::CheckForExternallyModifiedProjects()</a>, <a class="el" href="nativeparser_8cpp_source#l00968">NativeParser::CreateClassBrowser()</a>, <a class="el" href="compilergcc_8cpp_source#l01070">CompilerGCC::DoSwitchProjectTemporarily()</a>, <a class="el" href="projectfileoptionsdlg_8cpp_source#l00276">ProjectFileOptionsDlg::EndModal()</a>, <a class="el" href="templatemanager_8cpp_source#l00122">TemplateManager::NewProjectFromUserTemplate()</a>, <a class="el" href="editormanager_8cpp_source#l01777">EditorManager::OnAddFileToProject()</a>, <a class="el" href="cbeditor_8cpp_source#l03084">cbEditor::OnContextMenuEntry()</a>, <a class="el" href="projectoptionsdlg_8cpp_source#l01282">ProjectOptionsDlg::OnCreateImportFileClick()</a>, <a class="el" href="compilergcc_8cpp_source#l03217">CompilerGCC::OnProjectCompilerOptions()</a>, <a class="el" href="projectoptionsdlg_8cpp_source#l00605">ProjectOptionsDlg::OnProjectDepsClick()</a>, <a class="el" href="editormanager_8cpp_source#l01791">EditorManager::OnRemoveFileFromProject()</a>, <a class="el" href="codecompletion_8cpp_source#l02262">CodeCompletion::OnSelectedFileReparse()</a>, <a class="el" href="editormanager_8cpp_source#l01802">EditorManager::OnShowFileInTree()</a>, <a class="el" href="scriptbindings_8cpp_source#l00320">ScriptBindings::ProjectManager_RebuildTree()</a>, <a class="el" href="nativeparser_8cpp_source#l01016">NativeParser::RemoveClassBrowser()</a>, <a class="el" href="nativeparser_8cpp_source#l00773">NativeParser::ReparseSelectedProject()</a>, <a class="el" href="wiz_8cpp_source#l00346">Wiz::RunProjectWizard()</a>, <a class="el" href="projectfile_8cpp_source#l00300">ProjectFile::SetFileState()</a>, and <a class="el" href="editormanager_8cpp_source#l01222">EditorManager::SwapActiveHeaderSource()</a>.</p>
 
 </div>
 </div>
@@ -1336,11 +1341,11 @@ Also note than when this function returns, the targets array will contain the us
 <p>Get the current workspace filename. </p>
 <dl class="section return"><dt>Returns</dt><dd>The current workspace filename. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="projectmanager_8cpp_source#l00531">531</a> of file <a class="el" href="projectmanager_8cpp_source">projectmanager.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="projectmanager_8cpp_source#l00535">535</a> of file <a class="el" href="projectmanager_8cpp_source">projectmanager.cpp</a>.</p>
 
-<p class="reference">References <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga8a02b8875a521df57263a9e6f090f2d0">_()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga7dfc2888539861afe6c4337ef315472b">_T</a>, <a class="el" href="projectmanager_8h_source#l00459">m_pWorkspace</a>, <a class="el" href="cbworkspace_8cpp_source#l00153">cbWorkspace::SetModified()</a>, and <a class="el" href="cbworkspace_8cpp_source#l00147">cbWorkspace::SetTitle()</a>.</p>
+<p class="reference">References <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga8a02b8875a521df57263a9e6f090f2d0">_()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga7dfc2888539861afe6c4337ef315472b">_T</a>, <a class="el" href="projectmanager_8h_source#l00463">m_pWorkspace</a>, <a class="el" href="cbworkspace_8cpp_source#l00153">cbWorkspace::SetModified()</a>, and <a class="el" href="cbworkspace_8cpp_source#l00147">cbWorkspace::SetTitle()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="macrosmanager_8cpp_source#l00115">MacrosManager::ClearProjectKeys()</a>, <a class="el" href="compilergcc_8cpp_source#l01413">CompilerGCC::DoRecreateTargetMenu()</a>, <a class="el" href="compilergcc_8cpp_source#l03652">CompilerGCC::InitBuildLog()</a>, <a class="el" href="workspaceloader_8cpp_source#l00264">WorkspaceLoader::LoadLayout()</a>, <a class="el" href="projectmanagerui_8cpp_source#l02385">ProjectManagerUI::MoveProjectDown()</a>, <a class="el" href="projectmanagerui_8cpp_source#l02355">ProjectManagerUI::MoveProjectUp()</a>, <a class="el" href="projectmanagerui_8cpp_source#l01134">ProjectManagerUI::OnCloseWorkspace()</a>, <a class="el" href="main_8cpp_source#l04071">MainFrame::OnFileMenuUpdateUI()</a>, <a class="el" href="main_8cpp_source#l02643">MainFrame::OnFileOpenDefWorkspace()</a>, <a class="el" href="main_8cpp_source#l02572">MainFrame::OnFileSaveAll()</a>, <a class="el" href="main_8cpp_source#l02654">MainFrame::OnFileSaveWorkspace()</a>, <a class="el" href="main_8cpp_source#l02661">MainFrame::OnFileSaveWorkspaceAs()</a>, <a class="el" href="projectmanagerui_8cpp_source#l02022">ProjectManagerUI::OnFindFile()</a>, <a class="el" href="projectmanagerui_8cpp_source#l01002">ProjectManagerUI::OnProjectFileActivated()</a>, <a class="el" href="projectmanagerui_8cpp_source#l01104">ProjectManagerUI::OnRenameWorkspace()</a>, <a class="el" href="projectmanagerui_8cpp_source#l01034">ProjectManagerUI::OnRightClick()</a>, <a class="el" href="projectmanagerui_8cpp_source#l01127">ProjectManagerUI::OnSaveAsWorkspace()</a>, <a class="el" href="projectmanagerui_8cpp_source#l01120">ProjectManagerUI::OnSaveWorkspace()</a>, <a class="el" href="compilergcc_8cpp_source#l03258">CompilerGCC::OnSelectTarget()</a>, <a class="el" href="projectmanagerui_8cpp_source#l02462">ProjectManagerUI::QueryCloseWorkspace()</a>, <a class="el" href="projectmanagerui_8cpp_source#l00297">ProjectManagerUI::RebuildTree()</a>, <a class="el" href="workspaceloader_8cpp_source#l00205">WorkspaceLoader::SaveLayout()</a>, <a class="el" href="projectmanager_8cpp_source#l00566">SaveWorkspace()</a>, <a class="el" href="projectmanager_8cpp_source#l00571">SaveWorkspaceAs()</a>, and <a class="el" href="projectmanagerui_8cpp_source#l00552">ProjectManagerUI::ShowMenu()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="macrosmanager_8cpp_source#l00115">MacrosManager::ClearProjectKeys()</a>, <a class="el" href="compilergcc_8cpp_source#l01400">CompilerGCC::DoRecreateTargetMenu()</a>, <a class="el" href="compilergcc_8cpp_source#l03675">CompilerGCC::InitBuildLog()</a>, <a class="el" href="workspaceloader_8cpp_source#l00264">WorkspaceLoader::LoadLayout()</a>, <a class="el" href="projectmanagerui_8cpp_source#l02507">ProjectManagerUI::MoveProjectDown()</a>, <a class="el" href="projectmanagerui_8cpp_source#l02476">ProjectManagerUI::MoveProjectUp()</a>, <a class="el" href="projectmanagerui_8cpp_source#l01200">ProjectManagerUI::OnCloseWorkspace()</a>, <a class="el" href="main_8cpp_source#l04058">MainFrame::OnFileMenuUpdateUI()</a>, <a class="el" href="main_8cpp_source#l02625">MainFrame::OnFileOpenDefWorkspace()</a>, <a class="el" href="main_8cpp_source#l02565">MainFrame::OnFileSaveAll()</a>, <a class="el" href="main_8cpp_source#l02636">MainFrame::OnFileSaveWorkspace()</a>, <a class="el" href="main_8cpp_source#l02643">MainFrame::OnFileSaveWorkspaceAs()</a>, <a class="el" href="projectmanagerui_8cpp_source#l02104">ProjectManagerUI::OnFindFile()</a>, <a class="el" href="projectmanagerui_8cpp_source#l01056">ProjectManagerUI::OnProjectFileActivated()</a>, <a class="el" href="projectmanagerui_8cpp_source#l01170">ProjectManagerUI::OnRenameWorkspace()</a>, <a class="el" href="projectmanagerui_8cpp_source#l01088">ProjectManagerUI::OnRightClick()</a>, <a class="el" href="projectmanagerui_8cpp_source#l01193">ProjectManagerUI::OnSaveAsWorkspace()</a>, <a class="el" href="projectmanagerui_8cpp_source#l01186">ProjectManagerUI::OnSaveWorkspace()</a>, <a class="el" href="compilergcc_8cpp_source#l03274">CompilerGCC::OnSelectTarget()</a>, <a class="el" href="projectmanagerui_8cpp_source#l02585">ProjectManagerUI::QueryCloseWorkspace()</a>, <a class="el" href="projectmanagerui_8cpp_source#l00314">ProjectManagerUI::RebuildTree()</a>, <a class="el" href="workspaceloader_8cpp_source#l00205">WorkspaceLoader::SaveLayout()</a>, <a class="el" href="projectmanager_8cpp_source#l00577">SaveWorkspace()</a>, <a class="el" href="projectmanager_8cpp_source#l00582">SaveWorkspaceAs()</a>, and <a class="el" href="projectmanagerui_8cpp_source#l00569">ProjectManagerUI::ShowMenu()</a>.</p>
 
 </div>
 </div>
@@ -1370,11 +1375,11 @@ Also note than when this function returns, the targets array will contain the us
 <p>For use with plugins. </p>
 <p>Checks whether files in the project MAY be processed. This function has been made static for your convenience :) </p><dl class="section return"><dt>Returns</dt><dd>true if Loading,closing a project/workspace, or if the app is shutting down. False otherwise </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="projectmanager_8cpp_source#l00616">616</a> of file <a class="el" href="projectmanager_8cpp_source">projectmanager.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="projectmanager_8cpp_source#l00627">627</a> of file <a class="el" href="projectmanager_8cpp_source">projectmanager.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="manager_8cpp_source#l00187">Manager::Get()</a>, <a class="el" href="manager_8cpp_source#l00433">Manager::GetProjectManager()</a>, <a class="el" href="manager_8cpp_source#l00337">Manager::IsAppShuttingDown()</a>, and <a class="el" href="projectmanager_8cpp_source#l00628">IsLoadingOrClosing()</a>.</p>
+<p class="reference">References <a class="el" href="manager_8cpp_source#l00182">Manager::Get()</a>, <a class="el" href="manager_8cpp_source#l00429">Manager::GetProjectManager()</a>, <a class="el" href="manager_8cpp_source#l00333">Manager::IsAppShuttingDown()</a>, and <a class="el" href="projectmanager_8cpp_source#l00639">IsLoadingOrClosing()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="codecompletion_8cpp_source#l02412">CodeCompletion::OnEditorActivated()</a>, <a class="el" href="codecompletion_8cpp_source#l02373">CodeCompletion::OnEditorSave()</a>, <a class="el" href="codecompletion_8cpp_source#l02290">CodeCompletion::OnProjectActivated()</a>, <a class="el" href="codecompletion_8cpp_source#l03467">CodeCompletion::OnReparsingTimer()</a>, <a class="el" href="cbeditor_8cpp_source#l03423">cbEditor::OnScintillaEvent()</a>, <a class="el" href="codecompletion_8cpp_source#l03400">CodeCompletion::OnToolbarTimer()</a>, and <a class="el" href="projectmanager_8cpp_source#l00930">WorkspaceChanged()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="codecompletion_8cpp_source#l02450">CodeCompletion::OnEditorActivated()</a>, <a class="el" href="codecompletion_8cpp_source#l02411">CodeCompletion::OnEditorSave()</a>, <a class="el" href="codecompletion_8cpp_source#l02328">CodeCompletion::OnProjectActivated()</a>, <a class="el" href="codecompletion_8cpp_source#l03497">CodeCompletion::OnReparsingTimer()</a>, <a class="el" href="cbeditor_8cpp_source#l03495">cbEditor::OnScintillaEvent()</a>, <a class="el" href="codecompletion_8cpp_source#l03430">CodeCompletion::OnToolbarTimer()</a>, and <a class="el" href="projectmanager_8cpp_source#l00941">WorkspaceChanged()</a>.</p>
 
 </div>
 </div>
@@ -1396,9 +1401,9 @@ Also note than when this function returns, the targets array will contain the us
 <p>Check if the project manager is closing a project. </p>
 <dl class="section return"><dt>Returns</dt><dd>True if it's closing a project, false otherwise </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="projectmanager_8cpp_source#l00648">648</a> of file <a class="el" href="projectmanager_8cpp_source">projectmanager.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="projectmanager_8cpp_source#l00659">659</a> of file <a class="el" href="projectmanager_8cpp_source">projectmanager.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="projectmanager_8h_source#l00463">m_IsClosingProject</a>.</p>
+<p class="reference">References <a class="el" href="projectmanager_8h_source#l00467">m_IsClosingProject</a>.</p>
 
 </div>
 </div>
@@ -1420,9 +1425,9 @@ Also note than when this function returns, the targets array will contain the us
 <p>Check if the project manager is closing a workspace. </p>
 <dl class="section return"><dt>Returns</dt><dd>True if it's closing a workspace, false otherwise </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="projectmanager_8cpp_source#l00653">653</a> of file <a class="el" href="projectmanager_8cpp_source">projectmanager.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="projectmanager_8cpp_source#l00664">664</a> of file <a class="el" href="projectmanager_8cpp_source">projectmanager.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="projectmanager_8h_source#l00464">m_IsClosingWorkspace</a>.</p>
+<p class="reference">References <a class="el" href="projectmanager_8h_source#l00468">m_IsClosingWorkspace</a>.</p>
 
 </div>
 </div>
@@ -1444,11 +1449,11 @@ Also note than when this function returns, the targets array will contain the us
 <p>Check if the project manager is loading a project/workspace. </p>
 <dl class="section return"><dt>Returns</dt><dd>True if it's loading a project/workspace, false otherwise </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="projectmanager_8cpp_source#l00643">643</a> of file <a class="el" href="projectmanager_8cpp_source">projectmanager.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="projectmanager_8cpp_source#l00654">654</a> of file <a class="el" href="projectmanager_8cpp_source">projectmanager.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="projectmanager_8h_source#l00461">m_IsLoadingProject</a>, and <a class="el" href="projectmanager_8h_source#l00462">m_IsLoadingWorkspace</a>.</p>
+<p class="reference">References <a class="el" href="projectmanager_8h_source#l00465">m_IsLoadingProject</a>, and <a class="el" href="projectmanager_8h_source#l00466">m_IsLoadingWorkspace</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="editormanager_8cpp_source#l00354">EditorManager::Open()</a>, and <a class="el" href="uservarmanager_8cpp_source#l00152">UserVariableManager::Replace()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="editormanager_8cpp_source#l00358">EditorManager::Open()</a>, and <a class="el" href="uservarmanager_8cpp_source#l00152">UserVariableManager::Replace()</a>.</p>
 
 </div>
 </div>
@@ -1470,11 +1475,11 @@ Also note than when this function returns, the targets array will contain the us
 <p>Check if the project manager is loading/closing a project/workspace. </p>
 <dl class="section return"><dt>Returns</dt><dd>True if it is loading/closing something, false otherwise </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="projectmanager_8cpp_source#l00628">628</a> of file <a class="el" href="projectmanager_8cpp_source">projectmanager.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="projectmanager_8cpp_source#l00639">639</a> of file <a class="el" href="projectmanager_8cpp_source">projectmanager.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="projectmanager_8h_source#l00463">m_IsClosingProject</a>, <a class="el" href="projectmanager_8h_source#l00464">m_IsClosingWorkspace</a>, <a class="el" href="projectmanager_8h_source#l00461">m_IsLoadingProject</a>, and <a class="el" href="projectmanager_8h_source#l00462">m_IsLoadingWorkspace</a>.</p>
+<p class="reference">References <a class="el" href="projectmanager_8h_source#l00467">m_IsClosingProject</a>, <a class="el" href="projectmanager_8h_source#l00468">m_IsClosingWorkspace</a>, <a class="el" href="projectmanager_8h_source#l00465">m_IsLoadingProject</a>, and <a class="el" href="projectmanager_8h_source#l00466">m_IsLoadingWorkspace</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="projectmanager_8cpp_source#l00616">IsBusy()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="projectmanager_8cpp_source#l00627">IsBusy()</a>.</p>
 
 </div>
 </div>
@@ -1496,11 +1501,11 @@ Also note than when this function returns, the targets array will contain the us
 <p>Check if the project manager is loading a project. </p>
 <dl class="section return"><dt>Returns</dt><dd>True if it's loading a project, false otherwise </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="projectmanager_8cpp_source#l00633">633</a> of file <a class="el" href="projectmanager_8cpp_source">projectmanager.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="projectmanager_8cpp_source#l00644">644</a> of file <a class="el" href="projectmanager_8cpp_source">projectmanager.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="projectmanager_8h_source#l00461">m_IsLoadingProject</a>.</p>
+<p class="reference">References <a class="el" href="projectmanager_8h_source#l00465">m_IsLoadingProject</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="projectmanagerui_8cpp_source#l01496">ProjectManagerUI::OnCloseProject()</a>, and <a class="el" href="projectmanagerui_8cpp_source#l01475">ProjectManagerUI::OnSaveProject()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="projectmanagerui_8cpp_source#l01562">ProjectManagerUI::OnCloseProject()</a>, and <a class="el" href="projectmanagerui_8cpp_source#l01541">ProjectManagerUI::OnSaveProject()</a>.</p>
 
 </div>
 </div>
@@ -1522,9 +1527,9 @@ Also note than when this function returns, the targets array will contain the us
 <p>Check if the project manager is loading a workspace. </p>
 <dl class="section return"><dt>Returns</dt><dd>True if it's loading a workspace, false otherwise </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="projectmanager_8cpp_source#l00638">638</a> of file <a class="el" href="projectmanager_8cpp_source">projectmanager.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="projectmanager_8cpp_source#l00649">649</a> of file <a class="el" href="projectmanager_8cpp_source">projectmanager.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="projectmanager_8h_source#l00462">m_IsLoadingWorkspace</a>.</p>
+<p class="reference">References <a class="el" href="projectmanager_8h_source#l00466">m_IsLoadingWorkspace</a>.</p>
 
 </div>
 </div>
@@ -1553,11 +1558,11 @@ Also note than when this function returns, the targets array will contain the us
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>A pointer to the project if it is open, or NULL if it is not. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="projectmanager_8cpp_source#l00184">184</a> of file <a class="el" href="projectmanager_8cpp_source">projectmanager.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="projectmanager_8cpp_source#l00187">187</a> of file <a class="el" href="projectmanager_8cpp_source">projectmanager.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="compiletargetbase_8cpp_source#l00066">CompileTargetBase::GetFilename()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#ace32756bab999f8aae9be0cf981fc449">wxString::IsEmpty()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#aaacf7a99a2674bc3f462d54181c40f4f">wxString::Lower()</a>, <a class="el" href="projectmanager_8h_source#l00457">m_pProjects</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#a0fef65e3bf7f77fa6858521f29a84e20">wxString::Matches()</a>, and <a class="el" href="globals_8cpp_source#l01334">realpath()</a>.</p>
+<p class="reference">References <a class="el" href="compiletargetbase_8cpp_source#l00066">CompileTargetBase::GetFilename()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#ace32756bab999f8aae9be0cf981fc449">wxString::IsEmpty()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#aaacf7a99a2674bc3f462d54181c40f4f">wxString::Lower()</a>, <a class="el" href="projectmanager_8h_source#l00461">m_pProjects</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#a0fef65e3bf7f77fa6858521f29a84e20">wxString::Matches()</a>, and <a class="el" href="globals_8cpp_source#l01348">realpath()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="workspaceloader_8cpp_source#l00264">WorkspaceLoader::LoadLayout()</a>, <a class="el" href="projectmanager_8cpp_source#l00210">LoadProject()</a>, <a class="el" href="projectmanager_8cpp_source#l00354">NewProject()</a>, <a class="el" href="workspaceloader_8cpp_source#l00052">WorkspaceLoader::Open()</a>, <a class="el" href="main_8cpp_source#l01759">MainFrame::OpenGeneric()</a>, and <a class="el" href="scriptbindings_8cpp_source#l00384">ScriptBindings::RegisterBindings()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="workspaceloader_8cpp_source#l00264">WorkspaceLoader::LoadLayout()</a>, <a class="el" href="projectmanager_8cpp_source#l00213">LoadProject()</a>, <a class="el" href="projectmanager_8cpp_source#l00357">NewProject()</a>, <a class="el" href="workspaceloader_8cpp_source#l00052">WorkspaceLoader::Open()</a>, <a class="el" href="main_8cpp_source#l01754">MainFrame::OpenGeneric()</a>, and <a class="el" href="scriptbindings_8cpp_source#l00384">ScriptBindings::RegisterBindings()</a>.</p>
 
 </div>
 </div>
@@ -1586,9 +1591,9 @@ Also note than when this function returns, the targets array will contain the us
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>True if the project is valid (i.e. still open), false if not. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="projectmanager_8cpp_source#l00148">148</a> of file <a class="el" href="projectmanager_8cpp_source">projectmanager.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="projectmanager_8cpp_source#l00151">151</a> of file <a class="el" href="projectmanager_8cpp_source">projectmanager.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="projectmanager_8h_source#l00457">m_pProjects</a>.</p>
+<p class="reference">References <a class="el" href="projectmanager_8h_source#l00461">m_pProjects</a>.</p>
 
 </div>
 </div>
@@ -1628,11 +1633,11 @@ Also note than when this function returns, the targets array will contain the us
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>If the function succeeds, a pointer to the newly opened project is returned. Else the return value is NULL. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="projectmanager_8cpp_source#l00210">210</a> of file <a class="el" href="projectmanager_8cpp_source">projectmanager.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="projectmanager_8cpp_source#l00213">213</a> of file <a class="el" href="projectmanager_8cpp_source">projectmanager.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="projectmanager_8cpp_source#l00972">BeginLoadingProject()</a>, <a class="el" href="projectmanager_8cpp_source#l00991">EndLoadingProject()</a>, <a class="el" href="globals_8cpp_source#l00285">FileTypeOf()</a>, <a class="el" href="globals_8h_source#l00051">ftCodeBlocksProject</a>, <a class="el" href="manager_8cpp_source#l00187">Manager::Get()</a>, <a class="el" href="pluginmanager_8cpp_source#l01398">PluginManager::GetMIMEHandlerForFile()</a>, <a class="el" href="manager_8cpp_source#l00448">Manager::GetPluginManager()</a>, <a class="el" href="cbproject_8h_source#l00105">cbProject::IsLoaded()</a>, <a class="el" href="projectmanager_8cpp_source#l00184">IsOpen()</a>, <a class="el" href="projectmanager_8h_source#l00462">m_IsLoadingWorkspace</a>, <a class="el" href="projectmanager_8h_source#l00456">m_pProjectToActivate</a>, <a class="el" href="classcbMimePlugin#vw-OpenFile">cbMimePlugin::OpenFile()</a>, <a class="el" href="projectmanager_8cpp_source#l00159">SetProject()</a>, and <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__file.html#ga72d2e4ef03d51c0d59c2cb788462d600">wxFileExists()</a>.</p>
+<p class="reference">References <a class="el" href="projectmanager_8cpp_source#l00983">BeginLoadingProject()</a>, <a class="el" href="projectmanager_8cpp_source#l01002">EndLoadingProject()</a>, <a class="el" href="globals_8cpp_source#l00285">FileTypeOf()</a>, <a class="el" href="globals_8h_source#l00051">ftCodeBlocksProject</a>, <a class="el" href="manager_8cpp_source#l00182">Manager::Get()</a>, <a class="el" href="pluginmanager_8cpp_source#l01483">PluginManager::GetMIMEHandlerForFile()</a>, <a class="el" href="manager_8cpp_source#l00444">Manager::GetPluginManager()</a>, <a class="el" href="cbproject_8h_source#l00105">cbProject::IsLoaded()</a>, <a class="el" href="projectmanager_8cpp_source#l00187">IsOpen()</a>, <a class="el" href="projectmanager_8h_source#l00466">m_IsLoadingWorkspace</a>, <a class="el" href="projectmanager_8h_source#l00460">m_pProjectToActivate</a>, <a class="el" href="classcbMimePlugin#vw-OpenFile">cbMimePlugin::OpenFile()</a>, <a class="el" href="projectmanager_8cpp_source#l00162">SetProject()</a>, and <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__file.html#ga72d2e4ef03d51c0d59c2cb788462d600">wxFileExists()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="main_8cpp_source#l01845">MainFrame::DoOpenProject()</a>, <a class="el" href="templatemanager_8cpp_source#l00123">TemplateManager::NewProjectFromUserTemplate()</a>, <a class="el" href="workspaceloader_8cpp_source#l00052">WorkspaceLoader::Open()</a>, <a class="el" href="scriptbindings_8cpp_source#l00384">ScriptBindings::RegisterBindings()</a>, and <a class="el" href="projectmanager_8cpp_source#l00281">ReloadProject()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="main_8cpp_source#l01840">MainFrame::DoOpenProject()</a>, <a class="el" href="templatemanager_8cpp_source#l00122">TemplateManager::NewProjectFromUserTemplate()</a>, <a class="el" href="workspaceloader_8cpp_source#l00052">WorkspaceLoader::Open()</a>, <a class="el" href="scriptbindings_8cpp_source#l00384">ScriptBindings::RegisterBindings()</a>, and <a class="el" href="projectmanager_8cpp_source#l00284">ReloadProject()</a>.</p>
 
 </div>
 </div>
@@ -1661,11 +1666,11 @@ Also note than when this function returns, the targets array will contain the us
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>True if the workspace loads succefully, false if not. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="projectmanager_8cpp_source#l00543">543</a> of file <a class="el" href="projectmanager_8cpp_source">projectmanager.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="projectmanager_8cpp_source#l00547">547</a> of file <a class="el" href="projectmanager_8cpp_source">projectmanager.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="projectmanager_8cpp_source#l01042">BeginLoadingWorkspace()</a>, <a class="el" href="sdk__events_8cpp_source#l00112">cbEVT_WORKSPACE_LOADING_COMPLETE</a>, <a class="el" href="projectmanager_8cpp_source#l01059">EndLoadingWorkspace()</a>, <a class="el" href="manager_8cpp_source#l00187">Manager::Get()</a>, <a class="el" href="manager_8cpp_source#l00448">Manager::GetPluginManager()</a>, <a class="el" href="cbworkspace_8h_source#l00087">cbWorkspace::IsOK()</a>, <a class="el" href="projectmanager_8h_source#l00455">m_pActiveProject</a>, <a class="el" href="projectmanager_8h_source#l00457">m_pProjects</a>, <a class="el" href="projectmanager_8h_source#l00459">m_pWorkspace</a>, <a class="el" href="pluginmanager_8cpp_source#l01435">PluginManager::NotifyPlugins()</a>, and <a class="el" href="projectmanager_8cpp_source#l00159">SetProject()</a>.</p>
+<p class="reference">References <a class="el" href="projectmanager_8cpp_source#l01053">BeginLoadingWorkspace()</a>, <a class="el" href="sdk__events_8cpp_source#l00112">cbEVT_WORKSPACE_LOADING_COMPLETE</a>, <a class="el" href="projectmanager_8cpp_source#l01070">EndLoadingWorkspace()</a>, <a class="el" href="manager_8cpp_source#l00182">Manager::Get()</a>, <a class="el" href="manager_8cpp_source#l00444">Manager::GetPluginManager()</a>, <a class="el" href="cbworkspace_8h_source#l00087">cbWorkspace::IsOK()</a>, <a class="el" href="projectmanager_8h_source#l00459">m_pActiveProject</a>, <a class="el" href="projectmanager_8h_source#l00461">m_pProjects</a>, <a class="el" href="projectmanager_8h_source#l00463">m_pWorkspace</a>, <a class="el" href="pluginmanager_8cpp_source#l01520">PluginManager::NotifyPlugins()</a>, and <a class="el" href="projectmanager_8cpp_source#l00162">SetProject()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="main_8cpp_source#l02643">MainFrame::OnFileOpenDefWorkspace()</a>, <a class="el" href="app_8cpp_source#l00556">CodeBlocksApp::OnInit()</a>, <a class="el" href="main_8cpp_source#l01759">MainFrame::OpenGeneric()</a>, and <a class="el" href="scriptbindings_8cpp_source#l00384">ScriptBindings::RegisterBindings()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="main_8cpp_source#l02625">MainFrame::OnFileOpenDefWorkspace()</a>, <a class="el" href="app_8cpp_source#l00572">CodeBlocksApp::OnInit()</a>, <a class="el" href="main_8cpp_source#l01754">MainFrame::OpenGeneric()</a>, and <a class="el" href="scriptbindings_8cpp_source#l00384">ScriptBindings::RegisterBindings()</a>.</p>
 
 </div>
 </div>
@@ -1695,9 +1700,9 @@ Also note than when this function returns, the targets array will contain the us
 <dl class="section return"><dt>Returns</dt><dd>A pointer to the new project if succesful, or NULL if not. </dd></dl>
 <dl class="section note"><dt>Note</dt><dd>When the new project is created, if no filename parameter was supplied, it asks the user where to save it. If the user cancels the Save dialog, then NULL is returned from this function. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="projectmanager_8cpp_source#l00354">354</a> of file <a class="el" href="projectmanager_8cpp_source">projectmanager.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="projectmanager_8cpp_source#l00357">357</a> of file <a class="el" href="projectmanager_8cpp_source">projectmanager.cpp</a>.</p>
 
-<p class="reference">References <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga8a02b8875a521df57263a9e6f090f2d0">_()</a>, <a class="el" href="projectmanager_8cpp_source#l00972">BeginLoadingProject()</a>, <a class="el" href="globals_8cpp_source#l01381">cbMessageBox()</a>, <a class="el" href="projectmanager_8cpp_source#l00991">EndLoadingProject()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#ace32756bab999f8aae9be0cf981fc449">wxString::IsEmpty()</a>, <a class="el" href="projectmanager_8cpp_source#l00184">IsOpen()</a>, <a class="el" href="projectmanager_8h_source#l00462">m_IsLoadingWorkspace</a>, <a class="el" href="projectmanager_8cpp_source#l00159">SetProject()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__file.html#ga72d2e4ef03d51c0d59c2cb788462d600">wxFileExists()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/defs_8h.html#a01d0612a961327f6038a91e5f94fa44a">wxICON_QUESTION</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/defs_8h.html#a2b7290c6fea9862351d15a8f695147b5">wxICON_WARNING</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/defs_8h.html#ac66d0a09761e7d86b2ac0b2e0c6a8cbbac2e6ec2b9ec8438956b0fd3d1d9d6343">wxID_YES</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__file.html#ga147f3601590c8c29a97d1101e03b2b90">wxRemoveFile()</a>, and <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/defs_8h.html#a5ba00a09cea0417a2ef7c4a4c2b0012c">wxYES_NO</a>.</p>
+<p class="reference">References <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga8a02b8875a521df57263a9e6f090f2d0">_()</a>, <a class="el" href="projectmanager_8cpp_source#l00983">BeginLoadingProject()</a>, <a class="el" href="globals_8cpp_source#l01395">cbMessageBox()</a>, <a class="el" href="projectmanager_8cpp_source#l01002">EndLoadingProject()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#ace32756bab999f8aae9be0cf981fc449">wxString::IsEmpty()</a>, <a class="el" href="projectmanager_8cpp_source#l00187">IsOpen()</a>, <a class="el" href="projectmanager_8h_source#l00466">m_IsLoadingWorkspace</a>, <a class="el" href="projectmanager_8cpp_source#l00162">SetProject()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__file.html#ga72d2e4ef03d51c0d59c2cb788462d600">wxFileExists()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/defs_8h.html#a01d0612a961327f6038a91e5f94fa44a">wxICON_QUESTION</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/defs_8h.html#a2b7290c6fea9862351d15a8f695147b5">wxICON_WARNING</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/defs_8h.html#ac66d0a09761e7d86b2ac0b2e0c6a8cbbac2e6ec2b9ec8438956b0fd3d1d9d6343">wxID_YES</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__file.html#ga147f3601590c8c29a97d1101e03b2b90">wxRemoveFile()</a>, and <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/defs_8h.html#a5ba00a09cea0417a2ef7c4a4c2b0012c">wxYES_NO</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="scriptbindings_8cpp_source#l00384">ScriptBindings::RegisterBindings()</a>, and <a class="el" href="wiz_8cpp_source#l00346">Wiz::RunProjectWizard()</a>.</p>
 
@@ -1727,9 +1732,9 @@ Also note than when this function returns, the targets array will contain the us
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="projectmanager_8cpp_source#l00921">921</a> of file <a class="el" href="projectmanager_8cpp_source">projectmanager.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="projectmanager_8cpp_source#l00932">932</a> of file <a class="el" href="projectmanager_8cpp_source">projectmanager.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="projectmanager_8h_source#l00466">m_CanSendWorkspaceChanged</a>.</p>
+<p class="reference">References <a class="el" href="projectmanager_8h_source#l00470">m_CanSendWorkspaceChanged</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="projectmanager_8cpp_source#l00075">ProjectManager()</a>.</p>
 
@@ -1789,11 +1794,11 @@ Also note than when this function returns, the targets array will contain the us
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="projectmanager_8cpp_source#l00281">281</a> of file <a class="el" href="projectmanager_8cpp_source">projectmanager.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="projectmanager_8cpp_source#l00284">284</a> of file <a class="el" href="projectmanager_8cpp_source">projectmanager.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="projectmanager_8cpp_source#l00800">AddProjectDependency()</a>, <a class="el" href="projectmanager_8cpp_source#l00416">CloseProject()</a>, <a class="el" href="classcbProjectManagerUI#ls-FreezeTree">cbProjectManagerUI::FreezeTree()</a>, <a class="el" href="compiletargetbase_8cpp_source#l00066">CompileTargetBase::GetFilename()</a>, <a class="el" href="cbworkspace_8h_source#l00102">cbWorkspace::GetModified()</a>, <a class="el" href="projectmanager_8cpp_source#l00210">LoadProject()</a>, <a class="el" href="projectmanager_8h_source#l00455">m_pActiveProject</a>, <a class="el" href="projectmanager_8h_source#l00457">m_pProjects</a>, <a class="el" href="projectmanager_8h_source#l00458">m_ProjectDeps</a>, <a class="el" href="projectmanager_8h_source#l00459">m_pWorkspace</a>, <a class="el" href="projectmanager_8h_source#l00454">m_ui</a>, <a class="el" href="classcbProjectManagerUI#n3-RebuildTree">cbProjectManagerUI::RebuildTree()</a>, <a class="el" href="cbworkspace_8cpp_source#l00153">cbWorkspace::SetModified()</a>, <a class="el" href="classcbProjectManagerUI#jv-UnfreezeTree">cbProjectManagerUI::UnfreezeTree()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/interface_2wx_2string_8h.html#a9a321d587166a30017b608dd2d234033">wxEmptyString</a>, and <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/defs_8h.html#a89de5e6353fc7812991b085e12263e98">wxNOT_FOUND</a>.</p>
+<p class="reference">References <a class="el" href="projectmanager_8cpp_source#l00811">AddProjectDependency()</a>, <a class="el" href="projectmanager_8cpp_source#l00419">CloseProject()</a>, <a class="el" href="classcbProjectManagerUI#ls-FreezeTree">cbProjectManagerUI::FreezeTree()</a>, <a class="el" href="compiletargetbase_8cpp_source#l00066">CompileTargetBase::GetFilename()</a>, <a class="el" href="cbworkspace_8h_source#l00102">cbWorkspace::GetModified()</a>, <a class="el" href="projectmanager_8cpp_source#l00213">LoadProject()</a>, <a class="el" href="projectmanager_8h_source#l00459">m_pActiveProject</a>, <a class="el" href="projectmanager_8h_source#l00461">m_pProjects</a>, <a class="el" href="projectmanager_8h_source#l00462">m_ProjectDeps</a>, <a class="el" href="projectmanager_8h_source#l00463">m_pWorkspace</a>, <a class="el" href="projectmanager_8h_source#l00458">m_ui</a>, <a class="el" href="classcbProjectManagerUI#n3-RebuildTree">cbProjectManagerUI::RebuildTree()</a>, <a class="el" href="cbworkspace_8cpp_source#l00153">cbWorkspace::SetModified()</a>, <a class="el" href="classcbProjectManagerUI#jv-UnfreezeTree">cbProjectManagerUI::UnfreezeTree()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/interface_2wx_2string_8h.html#a9a321d587166a30017b608dd2d234033">wxEmptyString</a>, and <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/defs_8h.html#a89de5e6353fc7812991b085e12263e98">wxNOT_FOUND</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="projectmanagerui_8cpp_source#l02547">ProjectManagerUI::CheckForExternallyModifiedProjects()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="projectmanagerui_8cpp_source#l02670">ProjectManagerUI::CheckForExternallyModifiedProjects()</a>.</p>
 
 </div>
 </div>
@@ -1832,11 +1837,11 @@ Also note than when this function returns, the targets array will contain the us
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="projectmanager_8cpp_source#l00944">944</a> of file <a class="el" href="projectmanager_8cpp_source">projectmanager.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="projectmanager_8cpp_source#l00955">955</a> of file <a class="el" href="projectmanager_8cpp_source">projectmanager.cpp</a>.</p>
 
-<p class="reference">References <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga8a02b8875a521df57263a9e6f090f2d0">_()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga7dfc2888539861afe6c4337ef315472b">_T</a>, <a class="el" href="projectfile_8h_source#l00201">ProjectFile::AutoGeneratedBy()</a>, <a class="el" href="sdk__events_8cpp_source#l00105">cbEVT_PROJECT_FILE_REMOVED</a>, <a class="el" href="globals_8cpp_source#l01381">cbMessageBox()</a>, <a class="el" href="logmanager_8h_source#l00128">LogManager::DebugLog()</a>, <a class="el" href="projectfile_8h_source#l00126">ProjectFile::file</a>, <a class="el" href="manager_8cpp_source#l00187">Manager::Get()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_file_name.html#a8fc8100ba99859a40558c068a841b586">wxFileName::GetFullPath()</a>, <a class="el" href="manager_8cpp_source#l00443">Manager::GetLogManager()</a>, <a class="el" href="projectfile_8h_source#l00093">ProjectFile::GetParentProject()</a>, <a class="el" href="manager_8cpp_source#l00448">Manager::GetPluginManager()</a>, <a class="el" href="compiletargetbase_8cpp_source#l00071">CompileTargetBase::GetTitle()</a>, <a class="el" href="pluginmanager_8cpp_source#l01435">PluginManager::NotifyPlugins()</a>, <a class="el" href="cbproject_8cpp_source#l00856">cbProject::RemoveFile()</a>, and <a class="el" href="sdk__events_8h_source#l00042">CodeBlocksEvent::SetProject()</a>.</p>
+<p class="reference">References <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga8a02b8875a521df57263a9e6f090f2d0">_()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga7dfc2888539861afe6c4337ef315472b">_T</a>, <a class="el" href="projectfile_8h_source#l00201">ProjectFile::AutoGeneratedBy()</a>, <a class="el" href="sdk__events_8cpp_source#l00105">cbEVT_PROJECT_FILE_REMOVED</a>, <a class="el" href="globals_8cpp_source#l01395">cbMessageBox()</a>, <a class="el" href="logmanager_8h_source#l00146">LogManager::DebugLog()</a>, <a class="el" href="projectfile_8h_source#l00126">ProjectFile::file</a>, <a class="el" href="manager_8cpp_source#l00182">Manager::Get()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_file_name.html#a8fc8100ba99859a40558c068a841b586">wxFileName::GetFullPath()</a>, <a class="el" href="manager_8cpp_source#l00439">Manager::GetLogManager()</a>, <a class="el" href="projectfile_8h_source#l00093">ProjectFile::GetParentProject()</a>, <a class="el" href="manager_8cpp_source#l00444">Manager::GetPluginManager()</a>, <a class="el" href="compiletargetbase_8cpp_source#l00071">CompileTargetBase::GetTitle()</a>, <a class="el" href="pluginmanager_8cpp_source#l01520">PluginManager::NotifyPlugins()</a>, <a class="el" href="cbproject_8cpp_source#l00860">cbProject::RemoveFile()</a>, and <a class="el" href="sdk__events_8h_source#l00042">CodeBlocksEvent::SetProject()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="cbeditor_8cpp_source#l03012">cbEditor::OnContextMenuEntry()</a>, <a class="el" href="projectmanagerui_8cpp_source#l01376">ProjectManagerUI::OnRemoveFileFromProject()</a>, <a class="el" href="editormanager_8cpp_source#l01729">EditorManager::OnRemoveFileFromProject()</a>, and <a class="el" href="projectmanagerui_8cpp_source#l00828">ProjectManagerUI::RemoveFilesRecursively()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="cbeditor_8cpp_source#l03084">cbEditor::OnContextMenuEntry()</a>, <a class="el" href="projectmanagerui_8cpp_source#l01442">ProjectManagerUI::OnRemoveFileFromProject()</a>, <a class="el" href="editormanager_8cpp_source#l01791">EditorManager::OnRemoveFileFromProject()</a>, and <a class="el" href="projectmanagerui_8cpp_source#l00835">ProjectManagerUI::RemoveFilesRecursively()</a>.</p>
 
 </div>
 </div>
@@ -1876,9 +1881,9 @@ Also note than when this function returns, the targets array will contain the us
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="projectmanager_8cpp_source#l00831">831</a> of file <a class="el" href="projectmanager_8cpp_source">projectmanager.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="projectmanager_8cpp_source#l00842">842</a> of file <a class="el" href="projectmanager_8cpp_source">projectmanager.cpp</a>.</p>
 
-<p class="reference">References <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga7dfc2888539861afe6c4337ef315472b">_T</a>, <a class="el" href="logmanager_8h_source#l00128">LogManager::DebugLog()</a>, <a class="el" href="logmanager_8h_source#l00020">F()</a>, <a class="el" href="manager_8cpp_source#l00187">Manager::Get()</a>, <a class="el" href="manager_8cpp_source#l00443">Manager::GetLogManager()</a>, <a class="el" href="compiletargetbase_8cpp_source#l00071">CompileTargetBase::GetTitle()</a>, <a class="el" href="projectmanager_8h_source#l00458">m_ProjectDeps</a>, <a class="el" href="projectmanager_8h_source#l00459">m_pWorkspace</a>, <a class="el" href="cbworkspace_8cpp_source#l00153">cbWorkspace::SetModified()</a>, and <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#a667b135c20008042653f82b739f6c3ab">wxString::wx_str()</a>.</p>
+<p class="reference">References <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga7dfc2888539861afe6c4337ef315472b">_T</a>, <a class="el" href="logmanager_8h_source#l00146">LogManager::DebugLog()</a>, <a class="el" href="logmanager_8h_source#l00020">F()</a>, <a class="el" href="manager_8cpp_source#l00182">Manager::Get()</a>, <a class="el" href="manager_8cpp_source#l00439">Manager::GetLogManager()</a>, <a class="el" href="compiletargetbase_8cpp_source#l00071">CompileTargetBase::GetTitle()</a>, <a class="el" href="projectmanager_8h_source#l00462">m_ProjectDeps</a>, <a class="el" href="projectmanager_8h_source#l00463">m_pWorkspace</a>, <a class="el" href="cbworkspace_8cpp_source#l00153">cbWorkspace::SetModified()</a>, and <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#a667b135c20008042653f82b739f6c3ab">wxString::wx_str()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="scriptbindings_8cpp_source#l00384">ScriptBindings::RegisterBindings()</a>.</p>
 
@@ -1909,11 +1914,11 @@ Also note than when this function returns, the targets array will contain the us
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="projectmanager_8cpp_source#l00870">870</a> of file <a class="el" href="projectmanager_8cpp_source">projectmanager.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="projectmanager_8cpp_source#l00881">881</a> of file <a class="el" href="projectmanager_8cpp_source">projectmanager.cpp</a>.</p>
 
-<p class="reference">References <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga7dfc2888539861afe6c4337ef315472b">_T</a>, <a class="el" href="logmanager_8h_source#l00128">LogManager::DebugLog()</a>, <a class="el" href="logmanager_8h_source#l00020">F()</a>, <a class="el" href="manager_8cpp_source#l00187">Manager::Get()</a>, <a class="el" href="manager_8cpp_source#l00443">Manager::GetLogManager()</a>, <a class="el" href="compiletargetbase_8cpp_source#l00071">CompileTargetBase::GetTitle()</a>, <a class="el" href="projectmanager_8h_source#l00458">m_ProjectDeps</a>, <a class="el" href="projectmanager_8h_source#l00459">m_pWorkspace</a>, <a class="el" href="cbworkspace_8cpp_source#l00153">cbWorkspace::SetModified()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#a667b135c20008042653f82b739f6c3ab">wxString::wx_str()</a>, and <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/defs_8h.html#a89de5e6353fc7812991b085e12263e98">wxNOT_FOUND</a>.</p>
+<p class="reference">References <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga7dfc2888539861afe6c4337ef315472b">_T</a>, <a class="el" href="logmanager_8h_source#l00146">LogManager::DebugLog()</a>, <a class="el" href="logmanager_8h_source#l00020">F()</a>, <a class="el" href="manager_8cpp_source#l00182">Manager::Get()</a>, <a class="el" href="manager_8cpp_source#l00439">Manager::GetLogManager()</a>, <a class="el" href="compiletargetbase_8cpp_source#l00071">CompileTargetBase::GetTitle()</a>, <a class="el" href="projectmanager_8h_source#l00462">m_ProjectDeps</a>, <a class="el" href="projectmanager_8h_source#l00463">m_pWorkspace</a>, <a class="el" href="cbworkspace_8cpp_source#l00153">cbWorkspace::SetModified()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#a667b135c20008042653f82b739f6c3ab">wxString::wx_str()</a>, and <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/defs_8h.html#a89de5e6353fc7812991b085e12263e98">wxNOT_FOUND</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="projectmanager_8cpp_source#l00416">CloseProject()</a>, and <a class="el" href="scriptbindings_8cpp_source#l00384">ScriptBindings::RegisterBindings()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="projectmanager_8cpp_source#l00419">CloseProject()</a>, and <a class="el" href="scriptbindings_8cpp_source#l00384">ScriptBindings::RegisterBindings()</a>.</p>
 
 </div>
 </div>
@@ -1935,9 +1940,9 @@ Also note than when this function returns, the targets array will contain the us
 <p>Save the active project to disk. </p>
 <p>Same as SaveProject(GetActiveProject()). </p><dl class="section return"><dt>Returns</dt><dd>True if saving was succesful, false if not. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="projectmanager_8cpp_source#l00502">502</a> of file <a class="el" href="projectmanager_8cpp_source">projectmanager.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="projectmanager_8cpp_source#l00506">506</a> of file <a class="el" href="projectmanager_8cpp_source">projectmanager.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="projectmanager_8h_source#l00455">m_pActiveProject</a>, and <a class="el" href="projectmanager_8cpp_source#l00477">SaveProject()</a>.</p>
+<p class="reference">References <a class="el" href="projectmanager_8h_source#l00459">m_pActiveProject</a>, and <a class="el" href="projectmanager_8cpp_source#l00481">SaveProject()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="main_8cpp_source#l02546">MainFrame::OnFileSaveProject()</a>, and <a class="el" href="scriptbindings_8cpp_source#l00384">ScriptBindings::RegisterBindings()</a>.</p>
 
@@ -1962,9 +1967,9 @@ Also note than when this function returns, the targets array will contain the us
 <p>Same as SaveProjectAs(GetActiveProject()). </p><dl class="section return"><dt>Returns</dt><dd>True if saving was succesful, false if not. </dd></dl>
 <dl class="section note"><dt>Note</dt><dd>A false return value doesn't necessarily mean failure. The user might have cancelled the SaveAs dialog... </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="projectmanager_8cpp_source#l00507">507</a> of file <a class="el" href="projectmanager_8cpp_source">projectmanager.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="projectmanager_8cpp_source#l00511">511</a> of file <a class="el" href="projectmanager_8cpp_source">projectmanager.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="projectmanager_8h_source#l00455">m_pActiveProject</a>, and <a class="el" href="projectmanager_8cpp_source#l00489">SaveProjectAs()</a>.</p>
+<p class="reference">References <a class="el" href="projectmanager_8h_source#l00459">m_pActiveProject</a>, and <a class="el" href="projectmanager_8cpp_source#l00493">SaveProjectAs()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="main_8cpp_source#l02556">MainFrame::OnFileSaveProjectAs()</a>, and <a class="el" href="scriptbindings_8cpp_source#l00384">ScriptBindings::RegisterBindings()</a>.</p>
 
@@ -1988,11 +1993,11 @@ Also note than when this function returns, the targets array will contain the us
 <p>Saves all projects to disk. </p>
 <dl class="section return"><dt>Returns</dt><dd>True if all projects were saved, false if even one save operation failed. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="projectmanager_8cpp_source#l00512">512</a> of file <a class="el" href="projectmanager_8cpp_source">projectmanager.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="projectmanager_8cpp_source#l00516">516</a> of file <a class="el" href="projectmanager_8cpp_source">projectmanager.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="classcbProjectManagerUI#ls-FreezeTree">cbProjectManagerUI::FreezeTree()</a>, <a class="el" href="cbproject_8cpp_source#l00162">cbProject::GetModified()</a>, <a class="el" href="projectmanager_8h_source#l00457">m_pProjects</a>, <a class="el" href="projectmanager_8h_source#l00454">m_ui</a>, <a class="el" href="projectmanager_8cpp_source#l00477">SaveProject()</a>, and <a class="el" href="classcbProjectManagerUI#jv-UnfreezeTree">cbProjectManagerUI::UnfreezeTree()</a>.</p>
+<p class="reference">References <a class="el" href="classcbProjectManagerUI#ls-FreezeTree">cbProjectManagerUI::FreezeTree()</a>, <a class="el" href="cbproject_8cpp_source#l00162">cbProject::GetModified()</a>, <a class="el" href="projectmanager_8h_source#l00461">m_pProjects</a>, <a class="el" href="projectmanager_8h_source#l00458">m_ui</a>, <a class="el" href="projectmanager_8cpp_source#l00481">SaveProject()</a>, and <a class="el" href="classcbProjectManagerUI#jv-UnfreezeTree">cbProjectManagerUI::UnfreezeTree()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="main_8cpp_source#l02572">MainFrame::OnFileSaveAll()</a>, <a class="el" href="main_8cpp_source#l02565">MainFrame::OnFileSaveProjectAllProjects()</a>, and <a class="el" href="scriptbindings_8cpp_source#l00384">ScriptBindings::RegisterBindings()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="main_8cpp_source#l02565">MainFrame::OnFileSaveAll()</a>, and <a class="el" href="scriptbindings_8cpp_source#l00384">ScriptBindings::RegisterBindings()</a>.</p>
 
 </div>
 </div>
@@ -2021,11 +2026,11 @@ Also note than when this function returns, the targets array will contain the us
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>True if saving was succesful, false if not. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="projectmanager_8cpp_source#l00477">477</a> of file <a class="el" href="projectmanager_8cpp_source">projectmanager.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="projectmanager_8cpp_source#l00481">481</a> of file <a class="el" href="projectmanager_8cpp_source">projectmanager.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="projectmanager_8h_source#l00454">m_ui</a>, <a class="el" href="classcbProjectManagerUI#n3-RebuildTree">cbProjectManagerUI::RebuildTree()</a>, and <a class="el" href="cbproject_8cpp_source#l00478">cbProject::Save()</a>.</p>
+<p class="reference">References <a class="el" href="projectmanager_8h_source#l00458">m_ui</a>, <a class="el" href="classcbProjectManagerUI#n3-RebuildTree">cbProjectManagerUI::RebuildTree()</a>, and <a class="el" href="cbproject_8cpp_source#l00482">cbProject::Save()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="projectmanagerui_8cpp_source#l01475">ProjectManagerUI::OnSaveProject()</a>, <a class="el" href="scriptbindings_8cpp_source#l00384">ScriptBindings::RegisterBindings()</a>, <a class="el" href="projectmanager_8cpp_source#l00502">SaveActiveProject()</a>, and <a class="el" href="projectmanager_8cpp_source#l00512">SaveAllProjects()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="projectmanagerui_8cpp_source#l01541">ProjectManagerUI::OnSaveProject()</a>, <a class="el" href="scriptbindings_8cpp_source#l00384">ScriptBindings::RegisterBindings()</a>, <a class="el" href="projectmanager_8cpp_source#l00506">SaveActiveProject()</a>, and <a class="el" href="projectmanager_8cpp_source#l00516">SaveAllProjects()</a>.</p>
 
 </div>
 </div>
@@ -2055,11 +2060,11 @@ Also note than when this function returns, the targets array will contain the us
 <dl class="section return"><dt>Returns</dt><dd>True if saving was succesful, false if not. </dd></dl>
 <dl class="section note"><dt>Note</dt><dd>A false return value doesn't necessarily mean failure. The user might have cancelled the SaveAs dialog... </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="projectmanager_8cpp_source#l00489">489</a> of file <a class="el" href="projectmanager_8cpp_source">projectmanager.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="projectmanager_8cpp_source#l00493">493</a> of file <a class="el" href="projectmanager_8cpp_source">projectmanager.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="projectmanager_8h_source#l00454">m_ui</a>, <a class="el" href="classcbProjectManagerUI#n3-RebuildTree">cbProjectManagerUI::RebuildTree()</a>, and <a class="el" href="cbproject_8cpp_source#l00429">cbProject::SaveAs()</a>.</p>
+<p class="reference">References <a class="el" href="projectmanager_8h_source#l00458">m_ui</a>, <a class="el" href="classcbProjectManagerUI#n3-RebuildTree">cbProjectManagerUI::RebuildTree()</a>, and <a class="el" href="cbproject_8cpp_source#l00433">cbProject::SaveAs()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="scriptbindings_8cpp_source#l00384">ScriptBindings::RegisterBindings()</a>, and <a class="el" href="projectmanager_8cpp_source#l00507">SaveActiveProjectAs()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="scriptbindings_8cpp_source#l00384">ScriptBindings::RegisterBindings()</a>, and <a class="el" href="projectmanager_8cpp_source#l00511">SaveActiveProjectAs()</a>.</p>
 
 </div>
 </div>
@@ -2081,11 +2086,11 @@ Also note than when this function returns, the targets array will contain the us
 <p>Save the open workspace. </p>
 <dl class="section return"><dt>Returns</dt><dd>True if the workspace is saved succefully, false if not. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="projectmanager_8cpp_source#l00566">566</a> of file <a class="el" href="projectmanager_8cpp_source">projectmanager.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="projectmanager_8cpp_source#l00577">577</a> of file <a class="el" href="projectmanager_8cpp_source">projectmanager.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="projectmanager_8cpp_source#l00531">GetWorkspace()</a>, and <a class="el" href="cbworkspace_8cpp_source#l00102">cbWorkspace::Save()</a>.</p>
+<p class="reference">References <a class="el" href="projectmanager_8cpp_source#l00535">GetWorkspace()</a>, and <a class="el" href="cbworkspace_8cpp_source#l00102">cbWorkspace::Save()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="main_8cpp_source#l02572">MainFrame::OnFileSaveAll()</a>, <a class="el" href="main_8cpp_source#l02654">MainFrame::OnFileSaveWorkspace()</a>, <a class="el" href="projectmanagerui_8cpp_source#l01120">ProjectManagerUI::OnSaveWorkspace()</a>, <a class="el" href="projectmanagerui_8cpp_source#l02462">ProjectManagerUI::QueryCloseWorkspace()</a>, and <a class="el" href="scriptbindings_8cpp_source#l00384">ScriptBindings::RegisterBindings()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="main_8cpp_source#l02565">MainFrame::OnFileSaveAll()</a>, <a class="el" href="main_8cpp_source#l02636">MainFrame::OnFileSaveWorkspace()</a>, <a class="el" href="projectmanagerui_8cpp_source#l01186">ProjectManagerUI::OnSaveWorkspace()</a>, <a class="el" href="projectmanagerui_8cpp_source#l02585">ProjectManagerUI::QueryCloseWorkspace()</a>, and <a class="el" href="scriptbindings_8cpp_source#l00384">ScriptBindings::RegisterBindings()</a>.</p>
 
 </div>
 </div>
@@ -2114,11 +2119,11 @@ Also note than when this function returns, the targets array will contain the us
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>True if the workspace is saved succefully, false if not. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="projectmanager_8cpp_source#l00571">571</a> of file <a class="el" href="projectmanager_8cpp_source">projectmanager.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="projectmanager_8cpp_source#l00582">582</a> of file <a class="el" href="projectmanager_8cpp_source">projectmanager.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="projectmanager_8cpp_source#l00531">GetWorkspace()</a>, and <a class="el" href="cbworkspace_8cpp_source#l00123">cbWorkspace::SaveAs()</a>.</p>
+<p class="reference">References <a class="el" href="projectmanager_8cpp_source#l00535">GetWorkspace()</a>, and <a class="el" href="cbworkspace_8cpp_source#l00123">cbWorkspace::SaveAs()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="main_8cpp_source#l02661">MainFrame::OnFileSaveWorkspaceAs()</a>, <a class="el" href="projectmanagerui_8cpp_source#l01127">ProjectManagerUI::OnSaveAsWorkspace()</a>, and <a class="el" href="scriptbindings_8cpp_source#l00384">ScriptBindings::RegisterBindings()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="main_8cpp_source#l02643">MainFrame::OnFileSaveWorkspaceAs()</a>, <a class="el" href="projectmanagerui_8cpp_source#l01193">ProjectManagerUI::OnSaveAsWorkspace()</a>, and <a class="el" href="scriptbindings_8cpp_source#l00384">ScriptBindings::RegisterBindings()</a>.</p>
 
 </div>
 </div>
@@ -2141,9 +2146,9 @@ Also note than when this function returns, the targets array will contain the us
 <p>Set the default path for new projects. </p>
 <dl class="section note"><dt>Note</dt><dd><a class="el" href="classProjectManager" title="The entry point singleton for working with projects. ">ProjectManager</a> doesn't use this by itself. It's only doing the book-keeping. Usually this is set/queried from project wizards... </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="projectmanager_8cpp_source#l00143">143</a> of file <a class="el" href="projectmanager_8cpp_source">projectmanager.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="projectmanager_8cpp_source#l00146">146</a> of file <a class="el" href="projectmanager_8cpp_source">projectmanager.cpp</a>.</p>
 
-<p class="reference">References <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga7dfc2888539861afe6c4337ef315472b">_T</a>, <a class="el" href="manager_8cpp_source#l00187">Manager::Get()</a>, <a class="el" href="manager_8cpp_source#l00478">Manager::GetConfigManager()</a>, and <a class="el" href="configmanager_8cpp_source#l00805">ConfigManager::Write()</a>.</p>
+<p class="reference">References <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga7dfc2888539861afe6c4337ef315472b">_T</a>, <a class="el" href="manager_8cpp_source#l00182">Manager::Get()</a>, <a class="el" href="manager_8cpp_source#l00474">Manager::GetConfigManager()</a>, and <a class="el" href="configmanager_8cpp_source#l00859">ConfigManager::Write()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="wizpage_8cpp_source#l00376">WizProjectPathPanel::OnPageChanging()</a>, and <a class="el" href="scriptbindings_8cpp_source#l00384">ScriptBindings::RegisterBindings()</a>.</p>
 
@@ -2165,13 +2170,14 @@ Also note than when this function returns, the targets array will contain the us
       </table>
 </div><div class="memdoc">
 
-<p>If a plugin runs the project executable, should not be able to run it too. </p>
+<p>This method should be called when the applications is started by a plugin. </p>
+<p>There is only one plugin which could be running the application. Running means that plugin has started the executable and it is waiting for it to finish. </p>
 
-<p class="definition">Definition at line <a class="el" href="projectmanager_8cpp_source#l01126">1126</a> of file <a class="el" href="projectmanager_8cpp_source">projectmanager.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="projectmanager_8cpp_source#l01137">1137</a> of file <a class="el" href="projectmanager_8cpp_source">projectmanager.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="projectmanager_8h_source#l00467">m_RunningPlugin</a>.</p>
+<p class="reference">References <a class="el" href="projectmanager_8h_source#l00471">m_RunningPlugin</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="compilergcc_8cpp_source#l02849">CompilerGCC::KillProcess()</a>, <a class="el" href="cbplugin_8cpp_source#l00908">cbDebuggerPlugin::MarkAsStopped()</a>, <a class="el" href="compilergcc_8cpp_source#l03905">CompilerGCC::NotifyJobDone()</a>, <a class="el" href="cbplugin_8cpp_source#l00713">cbDebuggerPlugin::OnCompilerFinished()</a>, <a class="el" href="debuggermenu_8cpp_source#l00624">DebuggerMenuHandler::OnRunToCursor()</a>, <a class="el" href="debuggermenu_8cpp_source#l00517">DebuggerMenuHandler::OnStart()</a>, <a class="el" href="debuggermenu_8cpp_source#l00589">DebuggerMenuHandler::OnStep()</a>, and <a class="el" href="compilergcc_8cpp_source#l01797">CompilerGCC::Run()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="compilergcc_8cpp_source#l02865">CompilerGCC::KillProcess()</a>, <a class="el" href="cbplugin_8cpp_source#l00908">cbDebuggerPlugin::MarkAsStopped()</a>, <a class="el" href="compilergcc_8cpp_source#l03930">CompilerGCC::NotifyJobDone()</a>, <a class="el" href="cbplugin_8cpp_source#l00713">cbDebuggerPlugin::OnCompilerFinished()</a>, <a class="el" href="debuggermenu_8cpp_source#l00637">DebuggerMenuHandler::OnRunToCursor()</a>, <a class="el" href="debuggermenu_8cpp_source#l00530">DebuggerMenuHandler::OnStart()</a>, <a class="el" href="debuggermenu_8cpp_source#l00602">DebuggerMenuHandler::OnStep()</a>, and <a class="el" href="compilergcc_8cpp_source#l01823">CompilerGCC::Run()</a>.</p>
 
 </div>
 </div>
@@ -2210,11 +2216,11 @@ Also note than when this function returns, the targets array will contain the us
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="projectmanager_8cpp_source#l00159">159</a> of file <a class="el" href="projectmanager_8cpp_source">projectmanager.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="projectmanager_8cpp_source#l00162">162</a> of file <a class="el" href="projectmanager_8cpp_source">projectmanager.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="cbworkspace_8cpp_source#l00170">cbWorkspace::ActiveProjectChanged()</a>, <a class="el" href="sdk__events_8cpp_source#l00099">cbEVT_PROJECT_ACTIVATE</a>, <a class="el" href="manager_8cpp_source#l00187">Manager::Get()</a>, <a class="el" href="manager_8cpp_source#l00448">Manager::GetPluginManager()</a>, <a class="el" href="projectmanager_8h_source#l00455">m_pActiveProject</a>, <a class="el" href="projectmanager_8h_source#l00459">m_pWorkspace</a>, <a class="el" href="projectmanager_8h_source#l00454">m_ui</a>, <a class="el" href="pluginmanager_8cpp_source#l01435">PluginManager::NotifyPlugins()</a>, and <a class="el" href="classcbProjectManagerUI#db-UpdateActiveProject">cbProjectManagerUI::UpdateActiveProject()</a>.</p>
+<p class="reference">References <a class="el" href="cbworkspace_8cpp_source#l00170">cbWorkspace::ActiveProjectChanged()</a>, <a class="el" href="sdk__events_8cpp_source#l00099">cbEVT_PROJECT_ACTIVATE</a>, <a class="el" href="manager_8cpp_source#l00182">Manager::Get()</a>, <a class="el" href="manager_8cpp_source#l00444">Manager::GetPluginManager()</a>, <a class="el" href="projectmanager_8h_source#l00459">m_pActiveProject</a>, <a class="el" href="projectmanager_8h_source#l00463">m_pWorkspace</a>, <a class="el" href="projectmanager_8h_source#l00458">m_ui</a>, <a class="el" href="pluginmanager_8cpp_source#l01520">PluginManager::NotifyPlugins()</a>, and <a class="el" href="classcbProjectManagerUI#db-UpdateActiveProject">cbProjectManagerUI::UpdateActiveProject()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="projectmanager_8cpp_source#l00468">CloseActiveProject()</a>, <a class="el" href="projectmanager_8cpp_source#l00416">CloseProject()</a>, <a class="el" href="compilergcc_8cpp_source#l01081">CompilerGCC::DoSwitchProjectTemporarily()</a>, <a class="el" href="projectmanager_8cpp_source#l01059">EndLoadingWorkspace()</a>, <a class="el" href="workspaceloader_8cpp_source#l00264">WorkspaceLoader::LoadLayout()</a>, <a class="el" href="projectmanager_8cpp_source#l00210">LoadProject()</a>, <a class="el" href="projectmanager_8cpp_source#l00543">LoadWorkspace()</a>, <a class="el" href="projectmanager_8cpp_source#l00354">NewProject()</a>, <a class="el" href="projectmanagerui_8cpp_source#l01496">ProjectManagerUI::OnCloseProject()</a>, <a class="el" href="projectmanagerui_8cpp_source#l02022">ProjectManagerUI::OnFindFile()</a>, <a class="el" href="cbplugin_8cpp_source#l00456">cbDebuggerPlugin::OnProjectActivated()</a>, <a class="el" href="projectmanagerui_8cpp_source#l01002">ProjectManagerUI::OnProjectFileActivated()</a>, <a class="el" href="projectmanagerui_8cpp_source#l01632">ProjectManagerUI::OnProperties()</a>, <a class="el" href="projectmanagerui_8cpp_source#l01141">ProjectManagerUI::OnSetActiveProject()</a>, <a class="el" href="main_8cpp_source#l01759">MainFrame::OpenGeneric()</a>, <a class="el" href="compilergcc_8cpp_source#l00992">CompilerGCC::PrepareCompileFile()</a>, and <a class="el" href="scriptbindings_8cpp_source#l00384">ScriptBindings::RegisterBindings()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="projectmanager_8cpp_source#l00472">CloseActiveProject()</a>, <a class="el" href="projectmanager_8cpp_source#l00419">CloseProject()</a>, <a class="el" href="compilergcc_8cpp_source#l01070">CompilerGCC::DoSwitchProjectTemporarily()</a>, <a class="el" href="projectmanager_8cpp_source#l01070">EndLoadingWorkspace()</a>, <a class="el" href="workspaceloader_8cpp_source#l00264">WorkspaceLoader::LoadLayout()</a>, <a class="el" href="projectmanager_8cpp_source#l00213">LoadProject()</a>, <a class="el" href="projectmanager_8cpp_source#l00547">LoadWorkspace()</a>, <a class="el" href="projectmanager_8cpp_source#l00357">NewProject()</a>, <a class="el" href="projectmanagerui_8cpp_source#l01562">ProjectManagerUI::OnCloseProject()</a>, <a class="el" href="projectmanagerui_8cpp_source#l02104">ProjectManagerUI::OnFindFile()</a>, <a class="el" href="cbplugin_8cpp_source#l00456">cbDebuggerPlugin::OnProjectActivated()</a>, <a class="el" href="projectmanagerui_8cpp_source#l01056">ProjectManagerUI::OnProjectFileActivated()</a>, <a class="el" href="projectmanagerui_8cpp_source#l01698">ProjectManagerUI::OnProperties()</a>, <a class="el" href="projectmanagerui_8cpp_source#l01207">ProjectManagerUI::OnSetActiveProject()</a>, <a class="el" href="main_8cpp_source#l01754">MainFrame::OpenGeneric()</a>, <a class="el" href="compilergcc_8cpp_source#l00978">CompilerGCC::PrepareCompileFile()</a>, and <a class="el" href="scriptbindings_8cpp_source#l00384">ScriptBindings::RegisterBindings()</a>.</p>
 
 </div>
 </div>
@@ -2234,9 +2240,9 @@ Also note than when this function returns, the targets array will contain the us
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="projectmanager_8cpp_source#l00129">129</a> of file <a class="el" href="projectmanager_8cpp_source">projectmanager.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="projectmanager_8cpp_source#l00132">132</a> of file <a class="el" href="projectmanager_8cpp_source">projectmanager.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="projectmanager_8h_source#l00454">m_ui</a>.</p>
+<p class="reference">References <a class="el" href="projectmanager_8h_source#l00458">m_ui</a>.</p>
 
 </div>
 </div>
@@ -2257,11 +2263,11 @@ Also note than when this function returns, the targets array will contain the us
 
 <p>Sends message to the plugins that the workspace has been changed. </p>
 
-<p class="definition">Definition at line <a class="el" href="projectmanager_8cpp_source#l00930">930</a> of file <a class="el" href="projectmanager_8cpp_source">projectmanager.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="projectmanager_8cpp_source#l00941">941</a> of file <a class="el" href="projectmanager_8cpp_source">projectmanager.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="sdk__events_8cpp_source#l00111">cbEVT_WORKSPACE_CHANGED</a>, <a class="el" href="manager_8cpp_source#l00187">Manager::Get()</a>, <a class="el" href="manager_8cpp_source#l00438">Manager::GetEditorManager()</a>, <a class="el" href="editormanager_8h_source#l00073">EditorManager::GetNotebook()</a>, <a class="el" href="manager_8cpp_source#l00448">Manager::GetPluginManager()</a>, <a class="el" href="projectmanager_8cpp_source#l00616">IsBusy()</a>, <a class="el" href="projectmanager_8h_source#l00466">m_CanSendWorkspaceChanged</a>, <a class="el" href="cbauibook_8cpp_source#l00483">cbAuiNotebook::MinimizeFreeSpace()</a>, and <a class="el" href="pluginmanager_8cpp_source#l01435">PluginManager::NotifyPlugins()</a>.</p>
+<p class="reference">References <a class="el" href="sdk__events_8cpp_source#l00111">cbEVT_WORKSPACE_CHANGED</a>, <a class="el" href="manager_8cpp_source#l00182">Manager::Get()</a>, <a class="el" href="manager_8cpp_source#l00434">Manager::GetEditorManager()</a>, <a class="el" href="editormanager_8h_source#l00073">EditorManager::GetNotebook()</a>, <a class="el" href="manager_8cpp_source#l00444">Manager::GetPluginManager()</a>, <a class="el" href="projectmanager_8cpp_source#l00627">IsBusy()</a>, <a class="el" href="projectmanager_8h_source#l00470">m_CanSendWorkspaceChanged</a>, <a class="el" href="cbauibook_8cpp_source#l00480">cbAuiNotebook::MinimizeFreeSpace()</a>, and <a class="el" href="pluginmanager_8cpp_source#l01520">PluginManager::NotifyPlugins()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="projectmanager_8cpp_source#l00382">CloseAllProjects()</a>, <a class="el" href="projectmanager_8cpp_source#l00416">CloseProject()</a>, <a class="el" href="projectmanager_8cpp_source#l00576">CloseWorkspace()</a>, <a class="el" href="projectmanager_8cpp_source#l00991">EndLoadingProject()</a>, <a class="el" href="projectmanager_8cpp_source#l01059">EndLoadingWorkspace()</a>, and <a class="el" href="app_8cpp_source#l00556">CodeBlocksApp::OnInit()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="projectmanager_8cpp_source#l00385">CloseAllProjects()</a>, <a class="el" href="projectmanager_8cpp_source#l00419">CloseProject()</a>, <a class="el" href="projectmanager_8cpp_source#l00587">CloseWorkspace()</a>, <a class="el" href="projectmanager_8cpp_source#l01002">EndLoadingProject()</a>, <a class="el" href="projectmanager_8cpp_source#l01070">EndLoadingWorkspace()</a>, and <a class="el" href="app_8cpp_source#l00572">CodeBlocksApp::OnInit()</a>.</p>
 
 </div>
 </div>
@@ -2335,9 +2341,9 @@ Also note than when this function returns, the targets array will contain the us
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="projectmanager_8h_source#l00466">466</a> of file <a class="el" href="projectmanager_8h_source">projectmanager.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="projectmanager_8h_source#l00470">470</a> of file <a class="el" href="projectmanager_8h_source">projectmanager.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="projectmanager_8cpp_source#l00921">OnAppDoneStartup()</a>, and <a class="el" href="projectmanager_8cpp_source#l00930">WorkspaceChanged()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="projectmanager_8cpp_source#l00932">OnAppDoneStartup()</a>, and <a class="el" href="projectmanager_8cpp_source#l00941">WorkspaceChanged()</a>.</p>
 
 </div>
 </div>
@@ -2361,9 +2367,9 @@ Also note than when this function returns, the targets array will contain the us
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="projectmanager_8h_source#l00465">465</a> of file <a class="el" href="projectmanager_8h_source">projectmanager.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="projectmanager_8h_source#l00469">469</a> of file <a class="el" href="projectmanager_8h_source">projectmanager.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="projectmanager_8cpp_source#l00382">CloseAllProjects()</a>, <a class="el" href="projectmanager_8cpp_source#l00416">CloseProject()</a>, and <a class="el" href="projectmanager_8cpp_source#l00075">ProjectManager()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="projectmanager_8cpp_source#l00385">CloseAllProjects()</a>, <a class="el" href="projectmanager_8cpp_source#l00419">CloseProject()</a>, and <a class="el" href="projectmanager_8cpp_source#l00075">ProjectManager()</a>.</p>
 
 </div>
 </div>
@@ -2387,9 +2393,9 @@ Also note than when this function returns, the targets array will contain the us
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="projectmanager_8h_source#l00463">463</a> of file <a class="el" href="projectmanager_8h_source">projectmanager.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="projectmanager_8h_source#l00467">467</a> of file <a class="el" href="projectmanager_8h_source">projectmanager.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="projectmanager_8cpp_source#l00382">CloseAllProjects()</a>, <a class="el" href="projectmanager_8cpp_source#l00416">CloseProject()</a>, <a class="el" href="projectmanager_8cpp_source#l00648">IsClosingProject()</a>, and <a class="el" href="projectmanager_8cpp_source#l00628">IsLoadingOrClosing()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="projectmanager_8cpp_source#l00385">CloseAllProjects()</a>, <a class="el" href="projectmanager_8cpp_source#l00419">CloseProject()</a>, <a class="el" href="projectmanager_8cpp_source#l00659">IsClosingProject()</a>, and <a class="el" href="projectmanager_8cpp_source#l00639">IsLoadingOrClosing()</a>.</p>
 
 </div>
 </div>
@@ -2413,9 +2419,9 @@ Also note than when this function returns, the targets array will contain the us
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="projectmanager_8h_source#l00464">464</a> of file <a class="el" href="projectmanager_8h_source">projectmanager.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="projectmanager_8h_source#l00468">468</a> of file <a class="el" href="projectmanager_8h_source">projectmanager.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="projectmanager_8cpp_source#l00576">CloseWorkspace()</a>, <a class="el" href="projectmanager_8cpp_source#l00653">IsClosingWorkspace()</a>, and <a class="el" href="projectmanager_8cpp_source#l00628">IsLoadingOrClosing()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="projectmanager_8cpp_source#l00587">CloseWorkspace()</a>, <a class="el" href="projectmanager_8cpp_source#l00664">IsClosingWorkspace()</a>, and <a class="el" href="projectmanager_8cpp_source#l00639">IsLoadingOrClosing()</a>.</p>
 
 </div>
 </div>
@@ -2439,9 +2445,9 @@ Also note than when this function returns, the targets array will contain the us
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="projectmanager_8h_source#l00461">461</a> of file <a class="el" href="projectmanager_8h_source">projectmanager.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="projectmanager_8h_source#l00465">465</a> of file <a class="el" href="projectmanager_8h_source">projectmanager.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="projectmanager_8cpp_source#l00972">BeginLoadingProject()</a>, <a class="el" href="projectmanager_8cpp_source#l00991">EndLoadingProject()</a>, <a class="el" href="projectmanager_8cpp_source#l00643">IsLoading()</a>, <a class="el" href="projectmanager_8cpp_source#l00628">IsLoadingOrClosing()</a>, and <a class="el" href="projectmanager_8cpp_source#l00633">IsLoadingProject()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="projectmanager_8cpp_source#l00983">BeginLoadingProject()</a>, <a class="el" href="projectmanager_8cpp_source#l01002">EndLoadingProject()</a>, <a class="el" href="projectmanager_8cpp_source#l00654">IsLoading()</a>, <a class="el" href="projectmanager_8cpp_source#l00639">IsLoadingOrClosing()</a>, and <a class="el" href="projectmanager_8cpp_source#l00644">IsLoadingProject()</a>.</p>
 
 </div>
 </div>
@@ -2465,9 +2471,9 @@ Also note than when this function returns, the targets array will contain the us
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="projectmanager_8h_source#l00462">462</a> of file <a class="el" href="projectmanager_8h_source">projectmanager.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="projectmanager_8h_source#l00466">466</a> of file <a class="el" href="projectmanager_8h_source">projectmanager.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="projectmanager_8cpp_source#l01042">BeginLoadingWorkspace()</a>, <a class="el" href="projectmanager_8cpp_source#l00991">EndLoadingProject()</a>, <a class="el" href="projectmanager_8cpp_source#l01059">EndLoadingWorkspace()</a>, <a class="el" href="projectmanager_8cpp_source#l00643">IsLoading()</a>, <a class="el" href="projectmanager_8cpp_source#l00628">IsLoadingOrClosing()</a>, <a class="el" href="projectmanager_8cpp_source#l00638">IsLoadingWorkspace()</a>, <a class="el" href="projectmanager_8cpp_source#l00210">LoadProject()</a>, and <a class="el" href="projectmanager_8cpp_source#l00354">NewProject()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="projectmanager_8cpp_source#l01053">BeginLoadingWorkspace()</a>, <a class="el" href="projectmanager_8cpp_source#l01002">EndLoadingProject()</a>, <a class="el" href="projectmanager_8cpp_source#l01070">EndLoadingWorkspace()</a>, <a class="el" href="projectmanager_8cpp_source#l00654">IsLoading()</a>, <a class="el" href="projectmanager_8cpp_source#l00639">IsLoadingOrClosing()</a>, <a class="el" href="projectmanager_8cpp_source#l00649">IsLoadingWorkspace()</a>, <a class="el" href="projectmanager_8cpp_source#l00213">LoadProject()</a>, and <a class="el" href="projectmanager_8cpp_source#l00357">NewProject()</a>.</p>
 
 </div>
 </div>
@@ -2491,9 +2497,9 @@ Also note than when this function returns, the targets array will contain the us
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="projectmanager_8h_source#l00455">455</a> of file <a class="el" href="projectmanager_8h_source">projectmanager.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="projectmanager_8h_source#l00459">459</a> of file <a class="el" href="projectmanager_8h_source">projectmanager.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="projectmanager_8cpp_source#l00468">CloseActiveProject()</a>, <a class="el" href="projectmanager_8cpp_source#l00416">CloseProject()</a>, <a class="el" href="projectmanager_8cpp_source#l01059">EndLoadingWorkspace()</a>, <a class="el" href="projectmanager_8cpp_source#l00543">LoadWorkspace()</a>, <a class="el" href="projectmanager_8cpp_source#l00075">ProjectManager()</a>, <a class="el" href="projectmanager_8cpp_source#l00281">ReloadProject()</a>, <a class="el" href="projectmanager_8cpp_source#l00502">SaveActiveProject()</a>, <a class="el" href="projectmanager_8cpp_source#l00507">SaveActiveProjectAs()</a>, and <a class="el" href="projectmanager_8cpp_source#l00159">SetProject()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="projectmanager_8cpp_source#l00472">CloseActiveProject()</a>, <a class="el" href="projectmanager_8cpp_source#l00419">CloseProject()</a>, <a class="el" href="projectmanager_8cpp_source#l01070">EndLoadingWorkspace()</a>, <a class="el" href="projectmanager_8cpp_source#l00547">LoadWorkspace()</a>, <a class="el" href="projectmanager_8cpp_source#l00075">ProjectManager()</a>, <a class="el" href="projectmanager_8cpp_source#l00284">ReloadProject()</a>, <a class="el" href="projectmanager_8cpp_source#l00506">SaveActiveProject()</a>, <a class="el" href="projectmanager_8cpp_source#l00511">SaveActiveProjectAs()</a>, and <a class="el" href="projectmanager_8cpp_source#l00162">SetProject()</a>.</p>
 
 </div>
 </div>
@@ -2517,9 +2523,9 @@ Also note than when this function returns, the targets array will contain the us
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="projectmanager_8h_source#l00460">460</a> of file <a class="el" href="projectmanager_8h_source">projectmanager.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="projectmanager_8h_source#l00464">464</a> of file <a class="el" href="projectmanager_8h_source">projectmanager.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="projectmanager_8cpp_source#l00991">EndLoadingProject()</a>, <a class="el" href="projectmanager_8cpp_source#l00075">ProjectManager()</a>, and <a class="el" href="projectmanager_8cpp_source#l00104">~ProjectManager()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="projectmanager_8cpp_source#l01002">EndLoadingProject()</a>, <a class="el" href="projectmanager_8cpp_source#l00075">ProjectManager()</a>, and <a class="el" href="projectmanager_8cpp_source#l00104">~ProjectManager()</a>.</p>
 
 </div>
 </div>
@@ -2543,9 +2549,9 @@ Also note than when this function returns, the targets array will contain the us
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="projectmanager_8h_source#l00457">457</a> of file <a class="el" href="projectmanager_8h_source">projectmanager.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="projectmanager_8h_source#l00461">461</a> of file <a class="el" href="projectmanager_8h_source">projectmanager.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="projectmanager_8cpp_source#l00468">CloseActiveProject()</a>, <a class="el" href="projectmanager_8cpp_source#l00382">CloseAllProjects()</a>, <a class="el" href="projectmanager_8cpp_source#l00416">CloseProject()</a>, <a class="el" href="projectmanager_8cpp_source#l00991">EndLoadingProject()</a>, <a class="el" href="projectmanager_8cpp_source#l01059">EndLoadingWorkspace()</a>, <a class="el" href="projectmanager_8cpp_source#l01136">FindProjectForFile()</a>, <a class="el" href="projectmanager_8cpp_source#l00184">IsOpen()</a>, <a class="el" href="projectmanager_8cpp_source#l00148">IsProjectStillOpen()</a>, <a class="el" href="projectmanager_8cpp_source#l00543">LoadWorkspace()</a>, <a class="el" href="projectmanager_8cpp_source#l00075">ProjectManager()</a>, <a class="el" href="projectmanager_8cpp_source#l00281">ReloadProject()</a>, <a class="el" href="projectmanager_8cpp_source#l00512">SaveAllProjects()</a>, and <a class="el" href="projectmanager_8cpp_source#l00104">~ProjectManager()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="projectmanager_8cpp_source#l00472">CloseActiveProject()</a>, <a class="el" href="projectmanager_8cpp_source#l00385">CloseAllProjects()</a>, <a class="el" href="projectmanager_8cpp_source#l00419">CloseProject()</a>, <a class="el" href="projectmanager_8cpp_source#l01002">EndLoadingProject()</a>, <a class="el" href="projectmanager_8cpp_source#l01070">EndLoadingWorkspace()</a>, <a class="el" href="projectmanager_8cpp_source#l01147">FindProjectForFile()</a>, <a class="el" href="projectmanager_8cpp_source#l00187">IsOpen()</a>, <a class="el" href="projectmanager_8cpp_source#l00151">IsProjectStillOpen()</a>, <a class="el" href="projectmanager_8cpp_source#l00547">LoadWorkspace()</a>, <a class="el" href="projectmanager_8cpp_source#l00075">ProjectManager()</a>, <a class="el" href="projectmanager_8cpp_source#l00284">ReloadProject()</a>, <a class="el" href="projectmanager_8cpp_source#l00516">SaveAllProjects()</a>, and <a class="el" href="projectmanager_8cpp_source#l00104">~ProjectManager()</a>.</p>
 
 </div>
 </div>
@@ -2569,9 +2575,9 @@ Also note than when this function returns, the targets array will contain the us
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="projectmanager_8h_source#l00456">456</a> of file <a class="el" href="projectmanager_8h_source">projectmanager.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="projectmanager_8h_source#l00460">460</a> of file <a class="el" href="projectmanager_8h_source">projectmanager.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="projectmanager_8cpp_source#l01059">EndLoadingWorkspace()</a>, <a class="el" href="projectmanager_8cpp_source#l00210">LoadProject()</a>, and <a class="el" href="projectmanager_8cpp_source#l00075">ProjectManager()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="projectmanager_8cpp_source#l01070">EndLoadingWorkspace()</a>, <a class="el" href="projectmanager_8cpp_source#l00213">LoadProject()</a>, and <a class="el" href="projectmanager_8cpp_source#l00075">ProjectManager()</a>.</p>
 
 </div>
 </div>
@@ -2595,9 +2601,9 @@ Also note than when this function returns, the targets array will contain the us
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="projectmanager_8h_source#l00458">458</a> of file <a class="el" href="projectmanager_8h_source">projectmanager.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="projectmanager_8h_source#l00462">462</a> of file <a class="el" href="projectmanager_8h_source">projectmanager.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="projectmanager_8cpp_source#l00800">AddProjectDependency()</a>, <a class="el" href="projectmanager_8cpp_source#l00854">ClearProjectDependencies()</a>, <a class="el" href="projectmanager_8cpp_source#l00911">GetDependenciesForProject()</a>, <a class="el" href="projectmanager_8cpp_source#l00281">ReloadProject()</a>, <a class="el" href="projectmanager_8cpp_source#l00831">RemoveProjectDependency()</a>, and <a class="el" href="projectmanager_8cpp_source#l00870">RemoveProjectFromAllDependencies()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="projectmanager_8cpp_source#l00811">AddProjectDependency()</a>, <a class="el" href="projectmanager_8cpp_source#l00865">ClearProjectDependencies()</a>, <a class="el" href="projectmanager_8cpp_source#l00922">GetDependenciesForProject()</a>, <a class="el" href="projectmanager_8cpp_source#l00284">ReloadProject()</a>, <a class="el" href="projectmanager_8cpp_source#l00842">RemoveProjectDependency()</a>, and <a class="el" href="projectmanager_8cpp_source#l00881">RemoveProjectFromAllDependencies()</a>.</p>
 
 </div>
 </div>
@@ -2621,9 +2627,9 @@ Also note than when this function returns, the targets array will contain the us
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="projectmanager_8h_source#l00459">459</a> of file <a class="el" href="projectmanager_8h_source">projectmanager.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="projectmanager_8h_source#l00463">463</a> of file <a class="el" href="projectmanager_8h_source">projectmanager.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="projectmanager_8cpp_source#l00800">AddProjectDependency()</a>, <a class="el" href="projectmanager_8cpp_source#l00854">ClearProjectDependencies()</a>, <a class="el" href="projectmanager_8cpp_source#l00416">CloseProject()</a>, <a class="el" href="projectmanager_8cpp_source#l00576">CloseWorkspace()</a>, <a class="el" href="projectmanager_8cpp_source#l00991">EndLoadingProject()</a>, <a class="el" href="projectmanager_8cpp_source#l01059">EndLoadingWorkspace()</a>, <a class="el" href="projectmanager_8cpp_source#l00531">GetWorkspace()</a>, <a class="el" href="projectmanager_8cpp_source#l00543">LoadWorkspace()</a>, <a class="el" href="projectmanager_8cpp_source#l00281">ReloadProject()</a>, <a class="el" href="projectmanager_8cpp_source#l00831">RemoveProjectDependency()</a>, <a class="el" href="projectmanager_8cpp_source#l00870">RemoveProjectFromAllDependencies()</a>, <a class="el" href="projectmanager_8cpp_source#l00159">SetProject()</a>, and <a class="el" href="projectmanager_8cpp_source#l00104">~ProjectManager()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="projectmanager_8cpp_source#l00811">AddProjectDependency()</a>, <a class="el" href="projectmanager_8cpp_source#l00865">ClearProjectDependencies()</a>, <a class="el" href="projectmanager_8cpp_source#l00419">CloseProject()</a>, <a class="el" href="projectmanager_8cpp_source#l00587">CloseWorkspace()</a>, <a class="el" href="projectmanager_8cpp_source#l01002">EndLoadingProject()</a>, <a class="el" href="projectmanager_8cpp_source#l01070">EndLoadingWorkspace()</a>, <a class="el" href="projectmanager_8cpp_source#l00535">GetWorkspace()</a>, <a class="el" href="projectmanager_8cpp_source#l00547">LoadWorkspace()</a>, <a class="el" href="projectmanager_8cpp_source#l00284">ReloadProject()</a>, <a class="el" href="projectmanager_8cpp_source#l00842">RemoveProjectDependency()</a>, <a class="el" href="projectmanager_8cpp_source#l00881">RemoveProjectFromAllDependencies()</a>, <a class="el" href="projectmanager_8cpp_source#l00162">SetProject()</a>, and <a class="el" href="projectmanager_8cpp_source#l00104">~ProjectManager()</a>.</p>
 
 </div>
 </div>
@@ -2647,9 +2653,9 @@ Also note than when this function returns, the targets array will contain the us
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="projectmanager_8h_source#l00467">467</a> of file <a class="el" href="projectmanager_8h_source">projectmanager.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="projectmanager_8h_source#l00471">471</a> of file <a class="el" href="projectmanager_8h_source">projectmanager.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="projectmanager_8cpp_source#l01131">GetIsRunning()</a>, and <a class="el" href="projectmanager_8cpp_source#l01126">SetIsRunning()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="projectmanager_8cpp_source#l01142">GetIsRunning()</a>, and <a class="el" href="projectmanager_8cpp_source#l01137">SetIsRunning()</a>.</p>
 
 </div>
 </div>
@@ -2673,9 +2679,9 @@ Also note than when this function returns, the targets array will contain the us
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="projectmanager_8h_source#l00454">454</a> of file <a class="el" href="projectmanager_8h_source">projectmanager.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="projectmanager_8h_source#l00458">458</a> of file <a class="el" href="projectmanager_8h_source">projectmanager.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="projectmanager_8cpp_source#l01042">BeginLoadingWorkspace()</a>, <a class="el" href="projectmanager_8cpp_source#l00382">CloseAllProjects()</a>, <a class="el" href="projectmanager_8cpp_source#l00416">CloseProject()</a>, <a class="el" href="projectmanager_8cpp_source#l00576">CloseWorkspace()</a>, <a class="el" href="projectmanager_8cpp_source#l00659">DoAddFileToProject()</a>, <a class="el" href="projectmanager_8cpp_source#l00991">EndLoadingProject()</a>, <a class="el" href="projectmanager_8cpp_source#l01059">EndLoadingWorkspace()</a>, <a class="el" href="projectmanager_8cpp_source#l00281">ReloadProject()</a>, <a class="el" href="projectmanager_8cpp_source#l00512">SaveAllProjects()</a>, <a class="el" href="projectmanager_8cpp_source#l00477">SaveProject()</a>, <a class="el" href="projectmanager_8cpp_source#l00489">SaveProjectAs()</a>, <a class="el" href="projectmanager_8cpp_source#l00159">SetProject()</a>, <a class="el" href="projectmanager_8cpp_source#l00129">SetUI()</a>, and <a class="el" href="projectmanager_8cpp_source#l00104">~ProjectManager()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="projectmanager_8cpp_source#l01053">BeginLoadingWorkspace()</a>, <a class="el" href="projectmanager_8cpp_source#l00385">CloseAllProjects()</a>, <a class="el" href="projectmanager_8cpp_source#l00419">CloseProject()</a>, <a class="el" href="projectmanager_8cpp_source#l00587">CloseWorkspace()</a>, <a class="el" href="projectmanager_8cpp_source#l00670">DoAddFileToProject()</a>, <a class="el" href="projectmanager_8cpp_source#l01002">EndLoadingProject()</a>, <a class="el" href="projectmanager_8cpp_source#l01070">EndLoadingWorkspace()</a>, <a class="el" href="projectmanager_8cpp_source#l00284">ReloadProject()</a>, <a class="el" href="projectmanager_8cpp_source#l00516">SaveAllProjects()</a>, <a class="el" href="projectmanager_8cpp_source#l00481">SaveProject()</a>, <a class="el" href="projectmanager_8cpp_source#l00493">SaveProjectAs()</a>, <a class="el" href="projectmanager_8cpp_source#l00162">SetProject()</a>, <a class="el" href="projectmanager_8cpp_source#l00132">SetUI()</a>, and <a class="el" href="projectmanager_8cpp_source#l00104">~ProjectManager()</a>.</p>
 
 </div>
 </div>
@@ -2701,7 +2707,7 @@ Also note than when this function returns, the targets array will contain the us
 
 <p class="definition">Definition at line <a class="el" href="projectmanager_8h_source#l00144">144</a> of file <a class="el" href="projectmanager_8h_source">projectmanager.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="projectmanager_8cpp_source#l00972">BeginLoadingProject()</a>, and <a class="el" href="projectmanager_8cpp_source#l00991">EndLoadingProject()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="projectmanager_8cpp_source#l00983">BeginLoadingProject()</a>, and <a class="el" href="projectmanager_8cpp_source#l01002">EndLoadingProject()</a>.</p>
 
 </div>
 </div>

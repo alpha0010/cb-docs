@@ -19,7 +19,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Code::Blocks
-   &#160;<span id="projectnumber">SVN r11156</span>
+   &#160;<span id="projectnumber">SVN r11506</span>
    </div>
   </td>
  </tr>
@@ -428,6 +428,7 @@ $(function() {
 </li>
 <li>m_CaseSensitive
 : <a class="el" href="editorcolourset_8h#ho-m_CaseSensitive">OptionSet</a>
+, <a class="el" href="structTokenSorter#o1-m_CaseSensitive">TokenSorter</a>
 </li>
 <li>m_catchThrowIndex
 : <a class="el" href="classGDB__driver#yr-m_catchThrowIndex">GDB_driver</a>
@@ -601,6 +602,9 @@ $(function() {
 : <a class="el" href="classCompileOptionsBase#m1-m_CompilerOptions">CompileOptionsBase</a>
 , <a class="el" href="classCompilerOptionsDlg#ya-m_CompilerOptions">CompilerOptionsDlg</a>
 </li>
+<li>m_CompilerPlugins
+: <a class="el" href="classPluginManager#dk-m_CompilerPlugins">PluginManager</a>
+</li>
 <li>m_CompilerProcessList
 : <a class="el" href="classCompilerGCC#na-m_CompilerProcessList">CompilerGCC</a>
 </li>
@@ -738,6 +742,12 @@ $(function() {
 </li>
 <li>m_debug_value
 : <a class="el" href="classGDBWatch#co-m_debug_value">GDBWatch</a>
+</li>
+<li>m_DebuggerAttach
+: <a class="el" href="classCodeBlocksApp#cs-m_DebuggerAttach">CodeBlocksApp</a>
+</li>
+<li>m_DebuggerConfig
+: <a class="el" href="classCodeBlocksApp#ha-m_DebuggerConfig">CodeBlocksApp</a>
 </li>
 <li>m_debuggerMenuHandler
 : <a class="el" href="classMainFrame#uj-m_debuggerMenuHandler">MainFrame</a>
@@ -1033,7 +1043,12 @@ $(function() {
 </li>
 <li>m_Filename
 : <a class="el" href="classCompileTargetBase#h3-m_Filename">CompileTargetBase</a>
-, <a class="el" href="classEditorBase#qt-m_Filename">EditorBase</a>
+</li>
+<li>m_FileName
+: <a class="el" href="classDebuggerDriver#kd-m_FileName">DebuggerDriver</a>
+</li>
+<li>m_Filename
+: <a class="el" href="classEditorBase#qt-m_Filename">EditorBase</a>
 , <a class="el" href="classInsertClassMethodDlg#hq-m_Filename">InsertClassMethodDlg</a>
 , <a class="el" href="classParserThread#ql-m_Filename">ParserThread</a>
 </li>
@@ -1076,6 +1091,12 @@ $(function() {
 </li>
 <li>m_Filter
 : <a class="el" href="classEditPathDlg#bx-m_Filter">EditPathDlg</a>
+</li>
+<li>m_FindMenuItemCount
+: <a class="el" href="classPluginManager#n8-m_FindMenuItemCount">PluginManager</a>
+</li>
+<li>m_FindMenuItemFirst
+: <a class="el" href="classPluginManager#gt-m_FindMenuItemFirst">PluginManager</a>
 </li>
 <li>m_findMode
 : <a class="el" href="classFindReplaceDlg#he-m_findMode">FindReplaceDlg</a>
@@ -1289,6 +1310,7 @@ $(function() {
 <li>m_Index
 : <a class="el" href="classcbEditor#q4-m_Index">cbEditor</a>
 , <a class="el" href="classFileTreeData#su-m_Index">FileTreeData</a>
+, <a class="el" href="classPipedProcess#r4-m_Index">PipedProcess</a>
 , <a class="el" href="classToken#zl-m_Index">Token</a>
 </li>
 <li>m_indices
@@ -1456,9 +1478,6 @@ $(function() {
 <li>m_KindMask
 : <a class="el" href="classCCTreeCtrlData#k6-m_KindMask">CCTreeCtrlData</a>
 </li>
-<li>m_label
-: <a class="el" href="classcbSplashScreen#zj-m_label">cbSplashScreen</a>
-</li>
 <li>m_Label
 : <a class="el" href="classSearchTreeNode#xy-m_Label">SearchTreeNode</a>
 </li>
@@ -1594,6 +1613,9 @@ $(function() {
 </li>
 <li>m_LastNamespace
 : <a class="el" href="classNativeParser#h9-m_LastNamespace">NativeParser</a>
+</li>
+<li>m_LastNonPluginMenuId
+: <a class="el" href="classPluginManager#dp-m_LastNonPluginMenuId">PluginManager</a>
 </li>
 <li>m_LastParent
 : <a class="el" href="classParserThread#dn-m_LastParent">ParserThread</a>
@@ -1764,6 +1786,9 @@ $(function() {
 </li>
 <li>m_list
 : <a class="el" href="classThreadsDlg#wl-m_list">ThreadsDlg</a>
+</li>
+<li>m_listCompletionMethod
+: <a class="el" href="classwxScintillaEvent#m7-m_listCompletionMethod">wxScintillaEvent</a>
 </li>
 <li>m_listCtrl
 : <a class="el" href="classwxSwitcherDialog#o7-m_listCtrl">wxSwitcherDialog</a>
@@ -2158,10 +2183,6 @@ $(function() {
 <li>m_ParsedProjects
 : <a class="el" href="classNativeParser#mh-m_ParsedProjects">NativeParser</a>
 </li>
-<li>m_ParseFunc
-: <a class="el" href="classGdbCmd__TooltipEvaluation#ov-m_ParseFunc">GdbCmd_TooltipEvaluation</a>
-, <a class="el" href="classGdbCmd__Watch#if-m_ParseFunc">GdbCmd_Watch</a>
-</li>
 <li>m_Parser
 : <a class="el" href="classCCDebugInfo#oa-m_Parser">CCDebugInfo</a>
 , <a class="el" href="classCCOptionsDlg#jz-m_Parser">CCOptionsDlg</a>
@@ -2343,6 +2364,9 @@ $(function() {
 </li>
 <li>m_pInfoPane
 : <a class="el" href="classMainFrame#jm-m_pInfoPane">MainFrame</a>
+</li>
+<li>m_PlainTextLexerID
+: <a class="el" href="classEditorColourSet#vn-m_PlainTextLexerID">EditorColourSet</a>
 </li>
 <li>m_pLastBuildingProject
 : <a class="el" href="classCompilerGCC#bu-m_pLastBuildingProject">CompilerGCC</a>
@@ -3006,6 +3030,9 @@ $(function() {
 <li>m_stopDebuggerConsoleClosed
 : <a class="el" href="classDebuggerGDB#ft-m_stopDebuggerConsoleClosed">DebuggerGDB</a>
 </li>
+<li>m_Stopped
+: <a class="el" href="classPipedProcess#v4-m_Stopped">PipedProcess</a>
+</li>
 <li>m_StoppedOnSignal
 : <a class="el" href="classDebuggerGDB#fm-m_StoppedOnSignal">DebuggerGDB</a>
 </li>
@@ -3191,8 +3218,7 @@ $(function() {
 , <a class="el" href="classToken#a9-m_Ticket">Token</a>
 </li>
 <li>m_timer
-: <a class="el" href="classcbSplashScreen#r9-m_timer">cbSplashScreen</a>
-, <a class="el" href="classInfoWindow#qu-m_timer">InfoWindow</a>
+: <a class="el" href="classInfoWindow#qu-m_timer">InfoWindow</a>
 , <a class="el" href="classValueTooltip#ly-m_timer">ValueTooltip</a>
 </li>
 <li>m_TimerEditorActivated
@@ -3353,9 +3379,6 @@ $(function() {
 : <a class="el" href="classGDBWatch#k5-m_type">GDBWatch</a>
 , <a class="el" href="classWatchRawDialog#by-m_type">WatchRawDialog</a>
 </li>
-<li>m_Types
-: <a class="el" href="classGDB__driver#j6-m_Types">GDB_driver</a>
-</li>
 <li>m_ui
 : <a class="el" href="classProjectManager#dy-m_ui">ProjectManager</a>
 </li>
@@ -3370,9 +3393,6 @@ $(function() {
 </li>
 <li>m_UndoTokenIndex
 : <a class="el" href="classTokenizer#ky-m_UndoTokenIndex">Tokenizer</a>
-</li>
-<li>m_update
-: <a class="el" href="classwxScintillaEvent#j9-m_update">wxScintillaEvent</a>
 </li>
 <li>m_updated
 : <a class="el" href="classwxScintillaEvent#rl-m_updated">wxScintillaEvent</a>
@@ -3453,9 +3473,6 @@ $(function() {
 </li>
 <li>m_VirtualTargets
 : <a class="el" href="classcbProject#ux-m_VirtualTargets">cbProject</a>
-</li>
-<li>m_VisitedDirs
-: <a class="el" href="classHeaderDirTraverser#f3-m_VisitedDirs">HeaderDirTraverser</a>
 </li>
 <li>m_VisualState
 : <a class="el" href="classProjectFile#m5-m_VisualState">ProjectFile</a>

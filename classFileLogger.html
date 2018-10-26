@@ -19,7 +19,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Code::Blocks
-   &#160;<span id="projectnumber">SVN r11156</span>
+   &#160;<span id="projectnumber">SVN r11506</span>
    </div>
   </td>
  </tr>
@@ -54,12 +54,14 @@ $(function() {
 <div class="dynheader">
 Inheritance diagram for FileLogger:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classFileLogger__inherit__graph.svg" width="218" height="588"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classFileLogger__inherit__graph.svg" width="218" height="588"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 <div class="dynheader">
 Collaboration diagram for FileLogger:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classFileLogger__coll__graph.svg" width="344" height="419"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classFileLogger__coll__graph.svg" width="344" height="419"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
@@ -68,8 +70,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:h0-FileLogger"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:t3-FileLogger"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFileLogger#t3-FileLogger">FileLogger</a> ()</td></tr>
 <tr class="separator:t3-FileLogger"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:q0-Append"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFileLogger#q0-Append">Append</a> (const <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html">wxString</a> &amp;msg, cb_unused <a class="el" href="classLogger#nc-level">Logger::level</a> lv)</td></tr>
-<tr class="separator:q0-Append"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9-Append"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFileLogger#a9-Append">Append</a> (const <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html">wxString</a> &amp;msg, cb_unused <a class="el" href="classLogger#nc-level">Logger::level</a> lv) override</td></tr>
+<tr class="separator:a9-Append"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:rr-Open"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFileLogger#rr-Open">Open</a> (const <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html">wxString</a> &amp;filename)</td></tr>
 <tr class="separator:rr-Open"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:et-Close"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFileLogger#et-Close">Close</a> ()</td></tr>
@@ -187,8 +189,8 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="q0-Append"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#q0-Append">&#9670;&nbsp;</a></span>Append()</h2>
+<a id="a9-Append"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9-Append">&#9670;&nbsp;</a></span>Append()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -197,7 +199,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual void FileLogger::Append </td>
+          <td class="memname">void FileLogger::Append </td>
           <td>(</td>
           <td class="paramtype">const <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html">wxString</a> &amp;&#160;</td>
           <td class="paramname"><em>msg</em>, </td>
@@ -216,14 +218,14 @@ Additional Inherited Members</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">override</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="loggers_8h_source#l00048">48</a> of file <a class="el" href="loggers_8h_source">loggers.h</a>.</p>
 
-<p class="reference">References <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_f_file.html#a6a63fa1dd92a895a4925ad3bafc46636">wxFFile::fp()</a>.</p>
+<p class="reference">References <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_f_file.html#a6a63fa1dd92a895a4925ad3bafc46636">wxFFile::fp()</a>, and <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#a6cd4782263a3ed4064eca915eb6e27e6">wxString::wc_str()</a>.</p>
 
 </div>
 </div>
@@ -250,13 +252,13 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Reimplemented in <a class="el" href="classHTMLFileLogger#ev-Close">HTMLFileLogger</a>.</p>
+<p>Reimplemented in <a class="el" href="classHTMLFileLogger#if-Close">HTMLFileLogger</a>.</p>
 
 <p class="definition">Definition at line <a class="el" href="loggers_8h_source#l00055">55</a> of file <a class="el" href="loggers_8h_source">loggers.h</a>.</p>
 
 <p class="reference">References <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_f_file.html#a00f1f75c98adc0a8c401d702006f406a">wxFFile::Close()</a>, and <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_f_file.html#a8d957fe6f3c765d0141186e0aac9a7bf">wxFFile::IsOpened()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="loggers_8cpp_source#l00496">HTMLFileLogger::Close()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="loggers_8cpp_source#l00501">HTMLFileLogger::Close()</a>.</p>
 
 </div>
 </div>
@@ -284,13 +286,13 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Reimplemented in <a class="el" href="classHTMLFileLogger#yx-Open">HTMLFileLogger</a>.</p>
+<p>Reimplemented in <a class="el" href="classHTMLFileLogger#op-Open">HTMLFileLogger</a>.</p>
 
 <p class="definition">Definition at line <a class="el" href="loggers_8h_source#l00054">54</a> of file <a class="el" href="loggers_8h_source">loggers.h</a>.</p>
 
 <p class="reference">References <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga7dfc2888539861afe6c4337ef315472b">_T</a>, and <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_f_file.html#a93670081c85d725649660611e5dccb9c">wxFFile::Open()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="loggers_8cpp_source#l00470">HTMLFileLogger::Open()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="loggers_8cpp_source#l00475">HTMLFileLogger::Open()</a>.</p>
 
 </div>
 </div>

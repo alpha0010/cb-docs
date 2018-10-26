@@ -19,7 +19,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Code::Blocks
-   &#160;<span id="projectnumber">SVN r11156</span>
+   &#160;<span id="projectnumber">SVN r11506</span>
    </div>
   </td>
  </tr>
@@ -54,12 +54,14 @@ $(function() {
 <div class="dynheader">
 Inheritance diagram for cbConfigurationDialog:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classcbConfigurationDialog__inherit__graph.svg" width="198" height="552"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classcbConfigurationDialog__inherit__graph.svg" width="198" height="552"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 <div class="dynheader">
 Collaboration diagram for cbConfigurationDialog:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classcbConfigurationDialog__coll__graph.svg" width="523" height="799"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classcbConfigurationDialog__coll__graph.svg" width="523" height="799"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
@@ -68,10 +70,10 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:c2-cbConfigurationDialog"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:il-AttachConfigurationPanel"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcbConfigurationDialog#il-AttachConfigurationPanel">AttachConfigurationPanel</a> (<a class="el" href="classcbConfigurationPanel">cbConfigurationPanel</a> *panel)</td></tr>
 <tr class="separator:il-AttachConfigurationPanel"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:mg-cbConfigurationDialog"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcbConfigurationDialog#mg-cbConfigurationDialog">~cbConfigurationDialog</a> ()</td></tr>
-<tr class="separator:mg-cbConfigurationDialog"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:u2-EndModal"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcbConfigurationDialog#u2-EndModal">EndModal</a> (int retCode)</td></tr>
-<tr class="separator:u2-EndModal"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:rw-cbConfigurationDialog"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcbConfigurationDialog#rw-cbConfigurationDialog">~cbConfigurationDialog</a> () override</td></tr>
+<tr class="separator:rw-cbConfigurationDialog"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:pm-EndModal"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcbConfigurationDialog#pm-EndModal">EndModal</a> (int retCode) override</td></tr>
+<tr class="separator:pm-EndModal"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classwxScrollingDialog"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classwxScrollingDialog')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classwxScrollingDialog">wxScrollingDialog</a></td></tr>
 <tr class="memitem:dg-wxScrollingDialog inherit pub_methods_classwxScrollingDialog"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classwxScrollingDialog#dg-wxScrollingDialog">wxScrollingDialog</a> ()</td></tr>
 <tr class="separator:dg-wxScrollingDialog inherit pub_methods_classwxScrollingDialog"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -133,11 +135,14 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="mg-cbConfigurationDialog"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#mg-cbConfigurationDialog">&#9670;&nbsp;</a></span>~cbConfigurationDialog()</h2>
+<a id="rw-cbConfigurationDialog"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#rw-cbConfigurationDialog">&#9670;&nbsp;</a></span>~cbConfigurationDialog()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">cbConfigurationDialog::~cbConfigurationDialog </td>
@@ -146,6 +151,11 @@ Protected Attributes</h2></td></tr>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="configurationpanel_8cpp_source#l00050">50</a> of file <a class="el" href="configurationpanel_8cpp_source">configurationpanel.cpp</a>.</p>
@@ -173,15 +183,18 @@ Protected Attributes</h2></td></tr>
 
 <p class="reference">References <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga8a02b8875a521df57263a9e6f090f2d0">_()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_sizer.html#a4e2122f2749261473c21cb192d00709f">wxBoxSizer::Add()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_std_dialog_button_sizer.html#ad86379fdfdeeb02f77019ea9e1250688">wxStdDialogButtonSizer::AddButton()</a>, <a class="el" href="configurationpanel_8h_source#l00069">m_pCancel</a>, <a class="el" href="configurationpanel_8h_source#l00068">m_pOK</a>, <a class="el" href="configurationpanel_8h_source#l00067">m_pPanel</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_std_dialog_button_sizer.html#a6b84c3a59817dd4c1dbe22eec8951134">wxStdDialogButtonSizer::Realize()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_sizer.html#abc460cd0e2bb3bde72142fdb434bc546">wxBoxSizer::SetSizeHints()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/defs_8h.html#a543dd017a172dc316253a8a1f351dde9a1bd5f0fec4fd0f5829d7e1639640d441">wxALIGN_CENTER_HORIZONTAL</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/defs_8h.html#ac0f30319732dcceda470516918ff3556a066863c82a2c08f6f53b663de87c60b6">wxALL</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/defs_8h.html#ac0f30319732dcceda470516918ff3556a17bc9a3dbb6e30a2418601aa5e30019b">wxBOTTOM</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/defs_8h.html#a27b6b668631a5f79f24d474af7d9b388aa50aca1b853659665bd11d3befd32f64">wxGROW</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/defs_8h.html#ac66d0a09761e7d86b2ac0b2e0c6a8cbba27aec3f2d4b5cf0e36c028bbab048206">wxID_CANCEL</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/defs_8h.html#ac66d0a09761e7d86b2ac0b2e0c6a8cbbaeeb1bdf97306d7f0fdffb62c8af3d02f">wxID_OK</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/defs_8h.html#ac0f30319732dcceda470516918ff3556aab66c1f81b54102c884b1307840d323c">wxLEFT</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/defs_8h.html#ac0f30319732dcceda470516918ff3556a2b2d18b748d21a493f82e589f1a05746">wxRIGHT</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/defs_8h.html#ac0f30319732dcceda470516918ff3556a2c9453664f068ee652a5b61a8248f000">wxTOP</a>, and <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/defs_8h.html#a1e6994f40bd9cb140e292afb165af971a2134d1cb8cf605532880c118190695b5">wxVERTICAL</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="compilergcc_8cpp_source#l00473">CompilerGCC::Configure()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="compilergcc_8cpp_source#l00459">CompilerGCC::Configure()</a>.</p>
 
 </div>
 </div>
-<a id="u2-EndModal"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#u2-EndModal">&#9670;&nbsp;</a></span>EndModal()</h2>
+<a id="pm-EndModal"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#pm-EndModal">&#9670;&nbsp;</a></span>EndModal()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">void cbConfigurationDialog::EndModal </td>
@@ -191,6 +204,11 @@ Protected Attributes</h2></td></tr>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="configurationpanel_8cpp_source#l00054">54</a> of file <a class="el" href="configurationpanel_8cpp_source">configurationpanel.cpp</a>.</p>

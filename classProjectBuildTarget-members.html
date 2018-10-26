@@ -19,7 +19,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Code::Blocks
-   &#160;<span id="projectnumber">SVN r11156</span>
+   &#160;<span id="projectnumber">SVN r11506</span>
    </div>
   </td>
  </tr>
@@ -202,7 +202,7 @@ $(function() {
   <tr class="even"><td class="entry"><a class="el" href="classCompileOptionsBase#f6-SetResourceIncludeDirs">SetResourceIncludeDirs</a>(const wxArrayString &amp;resIncludeDirs)</td><td class="entry"><a class="el" href="classCompileOptionsBase">CompileOptionsBase</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
   <tr><td class="entry"><a class="el" href="classCompileTargetBase#ar-SetRunHostApplicationInTermin">SetRunHostApplicationInTerminal</a>(bool in_terminal)</td><td class="entry"><a class="el" href="classCompileTargetBase">CompileTargetBase</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="classCompileTargetBase#iw-SetTargetFilenameGenerationPo">SetTargetFilenameGenerationPolicy</a>(TargetFilenameGenerationPolicy prefix, TargetFilenameGenerationPolicy extension)</td><td class="entry"><a class="el" href="classCompileTargetBase">CompileTargetBase</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
-  <tr><td class="entry"><a class="el" href="classProjectBuildTarget#wv-SetTargetType">SetTargetType</a>(TargetType pt)</td><td class="entry"><a class="el" href="classProjectBuildTarget">ProjectBuildTarget</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
+  <tr><td class="entry"><a class="el" href="classProjectBuildTarget#ei-SetTargetType">SetTargetType</a>(TargetType pt) override</td><td class="entry"><a class="el" href="classProjectBuildTarget">ProjectBuildTarget</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="classCompileTargetBase#sb-SetTitle">SetTitle</a>(const wxString &amp;title)</td><td class="entry"><a class="el" href="classCompileTargetBase">CompileTargetBase</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
   <tr><td class="entry"><a class="el" href="classProjectBuildTarget#z7-SetUseConsoleRunner">SetUseConsoleRunner</a>(bool useIt)</td><td class="entry"><a class="el" href="classProjectBuildTarget">ProjectBuildTarget</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="classCompileOptionsBase#ht-SetVar">SetVar</a>(const wxString &amp;key, const wxString &amp;value, bool onlyIfExists=false)</td><td class="entry"><a class="el" href="classCompileOptionsBase">CompileOptionsBase</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
@@ -212,8 +212,8 @@ $(function() {
   <tr class="even"><td class="entry"><a class="el" href="classCompileOptionsBase#ni-UnsetAllVars">UnsetAllVars</a>()</td><td class="entry"><a class="el" href="classCompileOptionsBase">CompileOptionsBase</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
   <tr><td class="entry"><a class="el" href="classCompileOptionsBase#ks-UnsetVar">UnsetVar</a>(const wxString &amp;key)</td><td class="entry"><a class="el" href="classCompileOptionsBase">CompileOptionsBase</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="classCompileOptionsBase#bq-CompileOptionsBase">~CompileOptionsBase</a>()</td><td class="entry"><a class="el" href="classCompileOptionsBase">CompileOptionsBase</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
-  <tr><td class="entry"><a class="el" href="classCompileTargetBase#qf-CompileTargetBase">~CompileTargetBase</a>()</td><td class="entry"><a class="el" href="classCompileTargetBase">CompileTargetBase</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classProjectBuildTarget#uj-ProjectBuildTarget">~ProjectBuildTarget</a>()</td><td class="entry"><a class="el" href="classProjectBuildTarget">ProjectBuildTarget</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="classCompileTargetBase#jk-CompileTargetBase">~CompileTargetBase</a>() override</td><td class="entry"><a class="el" href="classCompileTargetBase">CompileTargetBase</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classProjectBuildTarget#qr-ProjectBuildTarget">~ProjectBuildTarget</a>() override</td><td class="entry"><a class="el" href="classProjectBuildTarget">ProjectBuildTarget</a></td><td class="entry"></td></tr>
 </table></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

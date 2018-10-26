@@ -19,7 +19,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Code::Blocks
-   &#160;<span id="projectnumber">SVN r11156</span>
+   &#160;<span id="projectnumber">SVN r11506</span>
    </div>
   </td>
  </tr>
@@ -43,7 +43,8 @@ $(function() {
 </div><!-- top -->
 <div class="header">
   <div class="summary">
-<a href="#nested-classes">Classes</a>  </div>
+<a href="#nested-classes">Classes</a> &#124;
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">projectmanagerui.cpp File Reference</div>  </div>
 </div><!--header-->
@@ -51,6 +52,8 @@ $(function() {
 <div class="textblock"><code>#include &quot;<a class="el" href="sdk_8h_source">sdk.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="projectmanagerui_8h_source">projectmanagerui.h</a>&quot;</code><br />
 <code>#include &lt;unordered_map&gt;</code><br />
+<code>#include &lt;wx/dataobj.h&gt;</code><br />
+<code>#include &lt;wx/dnd.h&gt;</code><br />
 <code>#include &quot;<a class="el" href="cbauibook_8h_source">cbauibook.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="cbcolourmanager_8h_source">cbcolourmanager.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="confirmreplacedlg_8h_source">confirmreplacedlg.h</a>&quot;</code><br />
@@ -62,10 +65,12 @@ $(function() {
 <code>#include &quot;<a class="el" href="projectoptionsdlg_8h_source">projectoptionsdlg.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="projectsfilemasksdlg_8h_source">projectsfilemasksdlg.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="goto__file_8h_source">goto_file.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="startherepage_8h_source">startherepage.h</a>&quot;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for projectmanagerui.cpp:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="projectmanagerui_8cpp__incl.svg" width="1918" height="426"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="projectmanagerui_8cpp__incl.svg" width="1968" height="411"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 </div>
 <p><a href="projectmanagerui_8cpp_source">Go to the source code of this file.</a></p>
@@ -76,7 +81,68 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structcbStringHash">cbStringHash</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:a2-applyFileOptionChange"><td class="memTemplParams" colspan="2">template&lt;typename Func &gt; </td></tr>
+<tr class="memitem:a2-applyFileOptionChange"><td class="memTemplItemLeft" align="right" valign="top">static void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="projectmanagerui_8cpp#a2-applyFileOptionChange">applyFileOptionChange</a> (std::set&lt; <a class="el" href="classcbProject">cbProject</a> *&gt; &amp;modified, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_tree_ctrl.html">wxTreeCtrl</a> &amp;tree, Func func)</td></tr>
+<tr class="memdesc:a2-applyFileOptionChange"><td class="mdescLeft">&#160;</td><td class="mdescRight">Find all selected tree items which are files and call the func on them.  <a href="#a2-applyFileOptionChange">More...</a><br /></td></tr>
+<tr class="separator:a2-applyFileOptionChange"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="a2-applyFileOptionChange"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2-applyFileOptionChange">&#9670;&nbsp;</a></span>applyFileOptionChange()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Func &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void applyFileOptionChange </td>
+          <td>(</td>
+          <td class="paramtype">std::set&lt; <a class="el" href="classcbProject">cbProject</a> *&gt; &amp;&#160;</td>
+          <td class="paramname"><em>modified</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_tree_ctrl.html">wxTreeCtrl</a> &amp;&#160;</td>
+          <td class="paramname"><em>tree</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Func&#160;</td>
+          <td class="paramname"><em>func</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Find all selected tree items which are files and call the func on them. </p>
+<p>The function is expected to return true when it made modifications to the <a class="el" href="classProjectFile" title="Represents a file in a Code::Blocks project. ">ProjectFile</a> parameter, and false when it didn't. The modified parameter will be filled with the set of modified projects. </p>
+
+<p class="definition">Definition at line <a class="el" href="projectmanagerui_8cpp_source#l01790">1790</a> of file <a class="el" href="projectmanagerui_8cpp_source">projectmanagerui.cpp</a>.</p>
+
+<p class="reference">References <a class="el" href="cbproject_8h_source#l00046">FileTreeData::ftdkFile</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_tree_ctrl.html#acda99a877de8d0fa855879778bfaee62">wxTreeCtrl::GetItemData()</a>, <a class="el" href="cbproject_8h_source#l00058">FileTreeData::GetKind()</a>, <a class="el" href="projectfile_8h_source#l00093">ProjectFile::GetParentProject()</a>, <a class="el" href="cbproject_8h_source#l00061">FileTreeData::GetProjectFile()</a>, and <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_tree_ctrl.html#a44c0a5e8d6fbfb83d17a1ab5f9407ae8">wxTreeCtrl::GetSelections()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="projectmanagerui_8cpp_source#l01813">ProjectManagerUI::OnFileOptions()</a>.</p>
+
+</div>
+</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

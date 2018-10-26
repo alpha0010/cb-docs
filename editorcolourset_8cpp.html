@@ -19,7 +19,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Code::Blocks
-   &#160;<span id="projectnumber">SVN r11156</span>
+   &#160;<span id="projectnumber">SVN r11506</span>
    </div>
   </td>
  </tr>
@@ -43,8 +43,7 @@ $(function() {
 </div><!-- top -->
 <div class="header">
   <div class="summary">
-<a href="#func-members">Functions</a> &#124;
-<a href="#var-members">Variables</a>  </div>
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">editorcolourset.cpp File Reference</div>  </div>
 </div><!--header-->
@@ -61,7 +60,8 @@ $(function() {
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for editorcolourset.cpp:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="editorcolourset_8cpp__incl.svg" width="2382" height="411"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="editorcolourset_8cpp__incl.svg" width="2382" height="411"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 </div>
 <p><a href="editorcolourset_8cpp_source">Go to the source code of this file.</a></p>
@@ -70,13 +70,8 @@ Include dependency graph for editorcolourset.cpp:</div>
 Functions</h2></td></tr>
 <tr class="memitem:b4-CompareStringNoCase"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="editorcolourset_8cpp#b4-CompareStringNoCase">CompareStringNoCase</a> (const <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html">wxString</a> &amp;first, const <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html">wxString</a> &amp;second)</td></tr>
 <tr class="separator:b4-CompareStringNoCase"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
-Variables</h2></td></tr>
-<tr class="memitem:zw-cbHIGHLIGHT_LINE"><td class="memItemLeft" align="right" valign="top">const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="editorcolourset_8cpp#zw-cbHIGHLIGHT_LINE">cbHIGHLIGHT_LINE</a> = -98</td></tr>
-<tr class="separator:zw-cbHIGHLIGHT_LINE"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ow-cbSELECTION"><td class="memItemLeft" align="right" valign="top">const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="editorcolourset_8cpp#ow-cbSELECTION">cbSELECTION</a> = -99</td></tr>
-<tr class="separator:ow-cbSELECTION"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:t6-GetDefaultOption"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="editorcolourset_8h#structOptionColour">OptionColour</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="editorcolourset_8cpp#t6-GetDefaultOption">GetDefaultOption</a> (<a class="el" href="editorcolourset_8h#structOptionSet">OptionSet</a> &amp;mset)</td></tr>
+<tr class="separator:t6-GetDefaultOption"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
 <a id="b4-CompareStringNoCase"></a>
@@ -113,48 +108,43 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="editorcolourset_8cpp_source#l00239">239</a> of file <a class="el" href="editorcolourset_8cpp_source">editorcolourset.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="editorcolourset_8cpp_source#l00241">241</a> of file <a class="el" href="editorcolourset_8cpp_source">editorcolourset.cpp</a>.</p>
 
 <p class="reference">References <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#a9c0eb52308e347031f9e479a9abc0a8f">wxString::CmpNoCase()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="editorcolourset_8cpp_source#l00244">EditorColourSet::GetAllHighlightLanguages()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="editorcolourset_8cpp_source#l00246">EditorColourSet::GetAllHighlightLanguages()</a>.</p>
 
 </div>
 </div>
-<h2 class="groupheader">Variable Documentation</h2>
-<a id="zw-cbHIGHLIGHT_LINE"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#zw-cbHIGHLIGHT_LINE">&#9670;&nbsp;</a></span>cbHIGHLIGHT_LINE</h2>
+<a id="t6-GetDefaultOption"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#t6-GetDefaultOption">&#9670;&nbsp;</a></span>GetDefaultOption()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const int cbHIGHLIGHT_LINE = -98</td>
+          <td class="memname">static <a class="el" href="editorcolourset_8h#structOptionColour">OptionColour</a>* GetDefaultOption </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="editorcolourset_8h#structOptionSet">OptionSet</a> &amp;&#160;</td>
+          <td class="paramname"><em>mset</em></td><td>)</td>
+          <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="editorcolourset_8cpp_source#l00035">35</a> of file <a class="el" href="editorcolourset_8cpp_source">editorcolourset.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="editorcolourset_8cpp_source#l00526">526</a> of file <a class="el" href="editorcolourset_8cpp_source">editorcolourset.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="editorcolourset_8cpp_source#l00514">EditorColourSet::Apply()</a>, and <a class="el" href="editorcolourset_8cpp_source#l00100">EditorColourSet::LoadAvailableSets()</a>.</p>
+<p class="reference">References <a class="el" href="editorcolourset_8h_source#l00062">OptionSet::m_Colours</a>, <a class="el" href="editorcolourset_8h_source#l00029">OptionColour::name</a>, <a class="el" href="editorcolourset_8h_source#l00030">OptionColour::value</a>, and <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga437ea6ba615b75dac8603e96ec864160">wxT</a>.</p>
 
-</div>
-</div>
-<a id="ow-cbSELECTION"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ow-cbSELECTION">&#9670;&nbsp;</a></span>cbSELECTION</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">const int cbSELECTION = -99</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="editorcolourset_8cpp_source#l00036">36</a> of file <a class="el" href="editorcolourset_8cpp_source">editorcolourset.cpp</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="editorcolourset_8cpp_source#l00514">EditorColourSet::Apply()</a>, and <a class="el" href="editorcolourset_8cpp_source#l00100">EditorColourSet::LoadAvailableSets()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="editorcolourset_8h_source#l00112">EditorColourSet::SetName()</a>.</p>
 
 </div>
 </div>

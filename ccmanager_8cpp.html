@@ -19,7 +19,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Code::Blocks
-   &#160;<span id="projectnumber">SVN r11156</span>
+   &#160;<span id="projectnumber">SVN r11506</span>
    </div>
   </td>
  </tr>
@@ -63,7 +63,8 @@ $(function() {
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for ccmanager.cpp:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="ccmanager_8cpp__incl.svg" width="2635" height="336"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="ccmanager_8cpp__incl.svg" width="2635" height="336"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 </div>
 <p><a href="ccmanager_8cpp_source">Go to the source code of this file.</a></p>
@@ -94,6 +95,13 @@ Macros</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
 Enumerations</h2></td></tr>
+<tr class="memitem:uw-TooltipMode"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ccmanager_8cpp#uw-TooltipMode">TooltipMode</a> { <a class="el" href="ccmanager_8cpp#uw-TooltipMode:tmDisable">tmDisable</a> = 0, 
+<a class="el" href="ccmanager_8cpp#uw-TooltipMode:tmEnable">tmEnable</a>, 
+<a class="el" href="ccmanager_8cpp#uw-TooltipMode:tmForceSinglePage">tmForceSinglePage</a>, 
+<a class="el" href="ccmanager_8cpp#uw-TooltipMode:tmKeyboundOnly">tmKeyboundOnly</a>
+ }<tr class="memdesc:uw-TooltipMode"><td class="mdescLeft">&#160;</td><td class="mdescRight">the CC tooltip options in Editor setting dialog  <a href="ccmanager_8cpp#uw-TooltipMode">More...</a><br /></td></tr>
+</td></tr>
+<tr class="separator:uw-TooltipMode"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:yg-ACLaunchState"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ccmanager_8cpp#yg-ACLaunchState">ACLaunchState</a> { <a class="el" href="ccmanager_8cpp#yg-ACLaunchState:lsTknStart">lsTknStart</a>, 
 <a class="el" href="ccmanager_8cpp#yg-ACLaunchState:lsCaretStart">lsCaretStart</a>
  }</td></tr>
@@ -146,7 +154,7 @@ Variables</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="ccmanager_8cpp_source#l00126">126</a> of file <a class="el" href="ccmanager_8cpp_source">ccmanager.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="ccmanager_8cpp_source#l01044">CCManager::OnAutocompleteSelect()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="ccmanager_8cpp_source#l01043">CCManager::OnAutocompleteSelect()</a>.</p>
 
 </div>
 </div>
@@ -164,7 +172,7 @@ Variables</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="ccmanager_8cpp_source#l00125">125</a> of file <a class="el" href="ccmanager_8cpp_source">ccmanager.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="ccmanager_8cpp_source#l01089">CCManager::OnAutocompleteHide()</a>, and <a class="el" href="ccmanager_8cpp_source#l00767">CCManager::OnEditorHook()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="ccmanager_8cpp_source#l01088">CCManager::OnAutocompleteHide()</a>, and <a class="el" href="ccmanager_8cpp_source#l00783">CCManager::OnEditorHook()</a>.</p>
 
 </div>
 </div>
@@ -183,9 +191,9 @@ Variables</h2></td></tr>
 <p>FROM_TIMER means the event is automatically fired from the ccmanager, not explicitly called by the user. </p>
 <p>For example, if the code suggestion is fired by the client code, such as: </p><div class="fragment"><div class="line"><a class="code" href="classCodeBlocksEvent">CodeBlocksEvent</a> evt(<a class="code" href="sdk__events_8h#wh-cbEVT_COMPLETE_CODE">cbEVT_COMPLETE_CODE</a>);</div><div class="line"><a class="code" href="classManager#rz-Get">Manager::Get</a>()-&gt;<a class="code" href="classManager#qc-ProcessEvent">ProcessEvent</a>(evt);</div></div><!-- fragment --><p> Then the event has int value 0. </p>
 
-<p class="definition">Definition at line <a class="el" href="ccmanager_8cpp_source#l00137">137</a> of file <a class="el" href="ccmanager_8cpp_source">ccmanager.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ccmanager_8cpp_source#l00146">146</a> of file <a class="el" href="ccmanager_8cpp_source">ccmanager.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="ccmanager_8cpp_source#l00490">CCManager::OnCompleteCode()</a>, <a class="el" href="ccmanager_8cpp_source#l00937">CCManager::OnShowCallTip()</a>, and <a class="el" href="ccmanager_8cpp_source#l01147">CCManager::OnTimer()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="ccmanager_8cpp_source#l00505">CCManager::OnCompleteCode()</a>, <a class="el" href="ccmanager_8cpp_source#l00933">CCManager::OnShowCallTip()</a>, and <a class="el" href="ccmanager_8cpp_source#l01146">CCManager::OnTimer()</a>.</p>
 
 </div>
 </div>
@@ -203,7 +211,7 @@ Variables</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="ccmanager_8cpp_source#l00127">127</a> of file <a class="el" href="ccmanager_8cpp_source">ccmanager.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="ccmanager_8cpp_source#l00767">CCManager::OnEditorHook()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="ccmanager_8cpp_source#l00783">CCManager::OnEditorHook()</a>.</p>
 
 </div>
 </div>
@@ -224,7 +232,31 @@ Variables</h2></td></tr>
 <tr><td class="fieldname"><a id="yg-ACLaunchState:lsCaretStart"></a>lsCaretStart&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
-<p class="definition">Definition at line <a class="el" href="ccmanager_8cpp_source#l00139">139</a> of file <a class="el" href="ccmanager_8cpp_source">ccmanager.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ccmanager_8cpp_source#l00148">148</a> of file <a class="el" href="ccmanager_8cpp_source">ccmanager.cpp</a>.</p>
+
+</div>
+</div>
+<a id="uw-TooltipMode"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#uw-TooltipMode">&#9670;&nbsp;</a></span>TooltipMode</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="ccmanager_8cpp#uw-TooltipMode">TooltipMode</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>the CC tooltip options in Editor setting dialog </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="uw-TooltipMode:tmDisable"></a>tmDisable&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="uw-TooltipMode:tmEnable"></a>tmEnable&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="uw-TooltipMode:tmForceSinglePage"></a>tmForceSinglePage&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="uw-TooltipMode:tmKeyboundOnly"></a>tmKeyboundOnly&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+<p class="definition">Definition at line <a class="el" href="ccmanager_8cpp_source#l00130">130</a> of file <a class="el" href="ccmanager_8cpp_source">ccmanager.cpp</a>.</p>
 
 </div>
 </div>
@@ -263,11 +295,11 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="ccmanager_8cpp_source#l00618">618</a> of file <a class="el" href="ccmanager_8cpp_source">ccmanager.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ccmanager_8cpp_source#l00634">634</a> of file <a class="el" href="ccmanager_8cpp_source">ccmanager.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="classwxScintilla#y2-CallTipSetBackground">wxScintilla::CallTipSetBackground()</a>, <a class="el" href="classwxScintilla#e4-CallTipSetForeground">wxScintilla::CallTipSetForeground()</a>, <a class="el" href="classwxScintilla#v1-CallTipSetForegroundHighlight">wxScintilla::CallTipSetForegroundHighlight()</a>, <a class="el" href="cbcolourmanager_8cpp_source#l00075">ColourManager::GetColour()</a>, <a class="el" href="cbeditor_8cpp_source#l00840">cbEditor::GetControl()</a>, and <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga437ea6ba615b75dac8603e96ec864160">wxT</a>.</p>
+<p class="reference">References <a class="el" href="classwxScintilla#y2-CallTipSetBackground">wxScintilla::CallTipSetBackground()</a>, <a class="el" href="classwxScintilla#e4-CallTipSetForeground">wxScintilla::CallTipSetForeground()</a>, <a class="el" href="classwxScintilla#v1-CallTipSetForegroundHighlight">wxScintilla::CallTipSetForegroundHighlight()</a>, <a class="el" href="cbcolourmanager_8cpp_source#l00075">ColourManager::GetColour()</a>, <a class="el" href="cbeditor_8cpp_source#l00842">cbEditor::GetControl()</a>, and <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga437ea6ba615b75dac8603e96ec864160">wxT</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="ccmanager_8cpp_source#l00627">CCManager::OnEditorOpen()</a>, and <a class="el" href="ccmanager_8cpp_source#l00640">CCManager::UpdateEnvSettings()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="ccmanager_8cpp_source#l00643">CCManager::OnEditorOpen()</a>, and <a class="el" href="ccmanager_8cpp_source#l00656">CCManager::UpdateEnvSettings()</a>.</p>
 
 </div>
 </div>
@@ -286,7 +318,7 @@ Variables</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="ccmanager_8cpp_source#l00116">116</a> of file <a class="el" href="ccmanager_8cpp_source">ccmanager.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="ccmanager_8cpp_source#l01147">CCManager::OnTimer()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="ccmanager_8cpp_source#l01146">CCManager::OnTimer()</a>.</p>
 
 </div>
 </div>
@@ -304,7 +336,7 @@ Variables</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="ccmanager_8cpp_source#l00115">115</a> of file <a class="el" href="ccmanager_8cpp_source">ccmanager.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="ccmanager_8cpp_source#l01147">CCManager::OnTimer()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="ccmanager_8cpp_source#l01146">CCManager::OnTimer()</a>.</p>
 
 </div>
 </div>
@@ -322,7 +354,7 @@ Variables</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="ccmanager_8cpp_source#l00118">118</a> of file <a class="el" href="ccmanager_8cpp_source">ccmanager.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="ccmanager_8cpp_source#l00257">CCManager::CCManager()</a>, <a class="el" href="ccmanager_8cpp_source#l01183">CCManager::OnMenuSelect()</a>, and <a class="el" href="ccmanager_8cpp_source#l00339">CCManager::~CCManager()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="ccmanager_8cpp_source#l00266">CCManager::CCManager()</a>, <a class="el" href="ccmanager_8cpp_source#l01182">CCManager::OnMenuSelect()</a>, and <a class="el" href="ccmanager_8cpp_source#l00348">CCManager::~CCManager()</a>.</p>
 
 </div>
 </div>
@@ -340,7 +372,7 @@ Variables</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="ccmanager_8cpp_source#l00119">119</a> of file <a class="el" href="ccmanager_8cpp_source">ccmanager.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="ccmanager_8cpp_source#l00257">CCManager::CCManager()</a>, <a class="el" href="ccmanager_8cpp_source#l01183">CCManager::OnMenuSelect()</a>, and <a class="el" href="ccmanager_8cpp_source#l00339">CCManager::~CCManager()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="ccmanager_8cpp_source#l00266">CCManager::CCManager()</a>, <a class="el" href="ccmanager_8cpp_source#l01182">CCManager::OnMenuSelect()</a>, and <a class="el" href="ccmanager_8cpp_source#l00348">CCManager::~CCManager()</a>.</p>
 
 </div>
 </div>
@@ -358,7 +390,7 @@ Variables</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="ccmanager_8cpp_source#l00114">114</a> of file <a class="el" href="ccmanager_8cpp_source">ccmanager.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="ccmanager_8cpp_source#l01147">CCManager::OnTimer()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="ccmanager_8cpp_source#l01146">CCManager::OnTimer()</a>.</p>
 
 </div>
 </div>
@@ -376,7 +408,7 @@ Variables</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="ccmanager_8cpp_source#l00117">117</a> of file <a class="el" href="ccmanager_8cpp_source">ccmanager.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="ccmanager_8cpp_source#l00257">CCManager::CCManager()</a>, <a class="el" href="ccmanager_8cpp_source#l01183">CCManager::OnMenuSelect()</a>, and <a class="el" href="ccmanager_8cpp_source#l00339">CCManager::~CCManager()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="ccmanager_8cpp_source#l00266">CCManager::CCManager()</a>, <a class="el" href="ccmanager_8cpp_source#l01182">CCManager::OnMenuSelect()</a>, and <a class="el" href="ccmanager_8cpp_source#l00348">CCManager::~CCManager()</a>.</p>
 
 </div>
 </div>

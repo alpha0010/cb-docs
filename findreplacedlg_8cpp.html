@@ -19,7 +19,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Code::Blocks
-   &#160;<span id="projectnumber">SVN r11156</span>
+   &#160;<span id="projectnumber">SVN r11506</span>
    </div>
   </td>
  </tr>
@@ -43,7 +43,8 @@ $(function() {
 </div><!-- top -->
 <div class="header">
   <div class="summary">
-<a href="#define-members">Macros</a>  </div>
+<a href="#define-members">Macros</a> &#124;
+<a href="#var-members">Variables</a>  </div>
   <div class="headertitle">
 <div class="title">findreplacedlg.cpp File Reference</div>  </div>
 </div><!--header-->
@@ -51,10 +52,12 @@ $(function() {
 <div class="textblock"><code>#include &quot;<a class="el" href="sdk__precomp_8h_source">sdk_precomp.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="findreplacedlg_8h_source">findreplacedlg.h</a>&quot;</code><br />
 <code>#include &lt;algorithm&gt;</code><br />
+<code>#include &quot;<a class="el" href="incremental__select__helper_8h_source">incremental_select_helper.h</a>&quot;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for findreplacedlg.cpp:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="findreplacedlg_8cpp__incl.svg" width="2939" height="262"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="findreplacedlg_8cpp__incl.svg" width="2792" height="276"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 </div>
 <p><a href="findreplacedlg_8cpp_source">Go to the source code of this file.</a></p>
@@ -63,6 +66,11 @@ Include dependency graph for findreplacedlg.cpp:</div>
 Macros</h2></td></tr>
 <tr class="memitem:ux-CONF_GROUP"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="findreplacedlg_8cpp#ux-CONF_GROUP">CONF_GROUP</a>&#160;&#160;&#160;<a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga7dfc2888539861afe6c4337ef315472b">_T</a>(&quot;/replace_options&quot;)</td></tr>
 <tr class="separator:ux-CONF_GROUP"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:ou-maxTargetCount"><td class="memItemLeft" align="right" valign="top">const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="findreplacedlg_8cpp#ou-maxTargetCount">maxTargetCount</a> = 100</td></tr>
+<tr class="separator:ou-maxTargetCount"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
 <a id="ux-CONF_GROUP"></a>
@@ -77,9 +85,28 @@ Macros</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="findreplacedlg_8cpp_source#l00035">35</a> of file <a class="el" href="findreplacedlg_8cpp_source">findreplacedlg.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="findreplacedlg_8cpp_source#l00037">37</a> of file <a class="el" href="findreplacedlg_8cpp_source">findreplacedlg.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="findreplacedlg_8cpp_source#l00058">FindReplaceDlg::FindReplaceDlg()</a>, and <a class="el" href="findreplacedlg_8cpp_source#l00271">FindReplaceDlg::~FindReplaceDlg()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="findreplacedlg_8cpp_source#l00063">FindReplaceDlg::FindReplaceDlg()</a>, and <a class="el" href="findreplacedlg_8cpp_source#l00295">FindReplaceDlg::~FindReplaceDlg()</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Variable Documentation</h2>
+<a id="ou-maxTargetCount"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ou-maxTargetCount">&#9670;&nbsp;</a></span>maxTargetCount</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const int maxTargetCount = 100</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="findreplacedlg_8cpp_source#l00039">39</a> of file <a class="el" href="findreplacedlg_8cpp_source">findreplacedlg.cpp</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="findreplacedlg_8cpp_source#l00063">FindReplaceDlg::FindReplaceDlg()</a>, and <a class="el" href="findreplacedlg_8cpp_source#l00789">FindReplaceDlg::OnSelectTarget()</a>.</p>
 
 </div>
 </div>

@@ -19,7 +19,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Code::Blocks
-   &#160;<span id="projectnumber">SVN r11156</span>
+   &#160;<span id="projectnumber">SVN r11506</span>
    </div>
   </td>
  </tr>
@@ -40,6 +40,7 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
+<a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="#pri-methods">Private Member Functions</a> &#124;
@@ -59,18 +60,25 @@ $(function() {
 <div class="dynheader">
 Inheritance diagram for PluginManager:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classPluginManager__inherit__graph.svg" width="339" height="764"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classPluginManager__inherit__graph.svg" width="339" height="823"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 <div class="dynheader">
 Collaboration diagram for PluginManager:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classPluginManager__coll__graph.svg" width="720" height="2074"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classPluginManager__coll__graph.svg" width="888" height="2220"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structPluginManager_1_1PluginRegistration">PluginRegistration</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
+Public Types</h2></td></tr>
+<tr class="memitem:pc-CompilerPlugins"><td class="memItemLeft" align="right" valign="top">typedef std::vector&lt; <a class="el" href="classcbCompilerPlugin">cbCompilerPlugin</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPluginManager#pc-CompilerPlugins">CompilerPlugins</a></td></tr>
+<tr class="separator:pc-CompilerPlugins"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -106,20 +114,22 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:wt-GetPluginInfo"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gi-GetPluginInfo"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="pluginmanager_8h#structPluginInfo">PluginInfo</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPluginManager#gi-GetPluginInfo">GetPluginInfo</a> (<a class="el" href="classcbPlugin">cbPlugin</a> *plugin)</td></tr>
 <tr class="separator:gi-GetPluginInfo"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gi-GetPlugins"><td class="memItemLeft" align="right" valign="top">PluginElementsArray &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPluginManager#gi-GetPlugins">GetPlugins</a> ()</td></tr>
-<tr class="separator:gi-GetPlugins"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ki-GetPlugins"><td class="memItemLeft" align="right" valign="top">const PluginElementsArray &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPluginManager#ki-GetPlugins">GetPlugins</a> () const</td></tr>
+<tr class="separator:ki-GetPlugins"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:jv-FindElementByName"><td class="memItemLeft" align="right" valign="top"><a class="el" href="pluginmanager_8h#structPluginElement">PluginElement</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPluginManager#jv-FindElementByName">FindElementByName</a> (const <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html">wxString</a> &amp;pluginName)</td></tr>
 <tr class="separator:jv-FindElementByName"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:f1-FindPluginByName"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classcbPlugin">cbPlugin</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPluginManager#f1-FindPluginByName">FindPluginByName</a> (const <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html">wxString</a> &amp;pluginName)</td></tr>
 <tr class="separator:f1-FindPluginByName"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ti-FindPluginByFileName"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classcbPlugin">cbPlugin</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPluginManager#ti-FindPluginByFileName">FindPluginByFileName</a> (const <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html">wxString</a> &amp;pluginFileName)</td></tr>
 <tr class="separator:ti-FindPluginByFileName"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:nr-GetCompilerPlugins"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classPluginManager#pc-CompilerPlugins">CompilerPlugins</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPluginManager#nr-GetCompilerPlugins">GetCompilerPlugins</a> () const</td></tr>
+<tr class="separator:nr-GetCompilerPlugins"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:rw-GetFirstCompiler"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classcbCompilerPlugin">cbCompilerPlugin</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPluginManager#rw-GetFirstCompiler">GetFirstCompiler</a> () const</td></tr>
+<tr class="separator:rw-GetFirstCompiler"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ze-GetToolOffers"><td class="memItemLeft" align="right" valign="top">PluginsArray&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPluginManager#ze-GetToolOffers">GetToolOffers</a> ()</td></tr>
 <tr class="separator:ze-GetToolOffers"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:wp-GetMimeOffers"><td class="memItemLeft" align="right" valign="top">PluginsArray&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPluginManager#wp-GetMimeOffers">GetMimeOffers</a> ()</td></tr>
 <tr class="separator:wp-GetMimeOffers"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ze-GetCompilerOffers"><td class="memItemLeft" align="right" valign="top">PluginsArray&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPluginManager#ze-GetCompilerOffers">GetCompilerOffers</a> ()</td></tr>
-<tr class="separator:ze-GetCompilerOffers"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:sz-GetDebuggerOffers"><td class="memItemLeft" align="right" valign="top">PluginsArray&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPluginManager#sz-GetDebuggerOffers">GetDebuggerOffers</a> ()</td></tr>
 <tr class="separator:sz-GetDebuggerOffers"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:u3-GetCodeCompletionOffers"><td class="memItemLeft" align="right" valign="top">PluginsArray&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPluginManager#u3-GetCodeCompletionOffers">GetCodeCompletionOffers</a> ()</td></tr>
@@ -130,6 +140,24 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:h7-GetOffersFor"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:h9-AskPluginsForModuleMenu"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPluginManager#h9-AskPluginsForModuleMenu">AskPluginsForModuleMenu</a> (const <a class="el" href="globals_8h#ou-ModuleType">ModuleType</a> type, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_menu.html">wxMenu</a> *menu, const <a class="el" href="classFileTreeData">FileTreeData</a> *data=<a class="el" href="nullptr_8cpp#ix-nullptr">nullptr</a>)</td></tr>
 <tr class="separator:h9-AskPluginsForModuleMenu"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ld-ResetModuleMenu"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPluginManager#ld-ResetModuleMenu">ResetModuleMenu</a> ()</td></tr>
+<tr class="memdesc:ld-ResetModuleMenu"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called by the code creating the context menu for the editor.  <a href="#ld-ResetModuleMenu">More...</a><br /></td></tr>
+<tr class="separator:ld-ResetModuleMenu"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ml-RegisterFindMenuItems"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPluginManager#ml-RegisterFindMenuItems">RegisterFindMenuItems</a> (bool before, int count)</td></tr>
+<tr class="memdesc:ml-RegisterFindMenuItems"><td class="mdescLeft">&#160;</td><td class="mdescRight">Can be called by plugins' BuildModuleMenu when building the <a class="el" href="classEditorManager">EditorManager</a>'s context menu.  <a href="#ml-RegisterFindMenuItems">More...</a><br /></td></tr>
+<tr class="separator:ml-RegisterFindMenuItems"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:xk-GetFindMenuItemCount"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPluginManager#xk-GetFindMenuItemCount">GetFindMenuItemCount</a> () const</td></tr>
+<tr class="memdesc:xk-GetFindMenuItemCount"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the number of items in the find group already added to the menu.  <a href="#xk-GetFindMenuItemCount">More...</a><br /></td></tr>
+<tr class="separator:xk-GetFindMenuItemCount"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:r5-GetFindMenuItemFirst"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPluginManager#r5-GetFindMenuItemFirst">GetFindMenuItemFirst</a> () const</td></tr>
+<tr class="memdesc:r5-GetFindMenuItemFirst"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the position of the first menu item in the find group.  <a href="#r5-GetFindMenuItemFirst">More...</a><br /></td></tr>
+<tr class="separator:r5-GetFindMenuItemFirst"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:kz-RegisterLastNonPluginMenuItem"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPluginManager#kz-RegisterLastNonPluginMenuItem">RegisterLastNonPluginMenuItem</a> (int id)</td></tr>
+<tr class="memdesc:kz-RegisterLastNonPluginMenuItem"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called by the editor code which adds the non-plugin related menu items to store the id of the last fixed menu item.  <a href="#kz-RegisterLastNonPluginMenuItem">More...</a><br /></td></tr>
+<tr class="separator:kz-RegisterLastNonPluginMenuItem"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ns-FindSortedMenuItemPosition"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPluginManager#ns-FindSortedMenuItemPosition">FindSortedMenuItemPosition</a> (<a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_menu.html">wxMenu</a> &amp;popup, const <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html">wxString</a> &amp;label) const</td></tr>
+<tr class="memdesc:ns-FindSortedMenuItemPosition"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called by plugins when they want to add menu items to the editor's context menu.  <a href="#ns-FindSortedMenuItemPosition">More...</a><br /></td></tr>
+<tr class="separator:ns-FindSortedMenuItemPosition"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:n3-GetMIMEHandlerForFile"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classcbMimePlugin">cbMimePlugin</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPluginManager#n3-GetMIMEHandlerForFile">GetMIMEHandlerForFile</a> (const <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html">wxString</a> &amp;filename)</td></tr>
 <tr class="separator:n3-GetMIMEHandlerForFile"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:tv-GetConfigurationPanels"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPluginManager#tv-GetConfigurationPanels">GetConfigurationPanels</a> (int group, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_window.html">wxWindow</a> *parent, ConfigurationPanelsArray &amp;arrayToFill)</td></tr>
@@ -165,8 +193,8 @@ Static Public Member Functions</h2></td></tr>
 Private Member Functions</h2></td></tr>
 <tr class="memitem:hz-PluginManager"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPluginManager#hz-PluginManager">PluginManager</a> ()</td></tr>
 <tr class="separator:hz-PluginManager"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:y3-PluginManager"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPluginManager#y3-PluginManager">~PluginManager</a> ()</td></tr>
-<tr class="separator:y3-PluginManager"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ny-PluginManager"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPluginManager#ny-PluginManager">~PluginManager</a> () override</td></tr>
+<tr class="separator:ny-PluginManager"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ef-OnScriptMenu"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPluginManager#ef-OnScriptMenu">OnScriptMenu</a> (<a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_command_event.html">wxCommandEvent</a> &amp;event)</td></tr>
 <tr class="separator:ef-OnScriptMenu"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:hj-OnScriptModuleMenu"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPluginManager#hj-OnScriptModuleMenu">OnScriptModuleMenu</a> (<a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_command_event.html">wxCommandEvent</a> &amp;event)</td></tr>
@@ -190,6 +218,14 @@ Private Attributes</h2></td></tr>
 <tr class="separator:o1-m_pCurrentlyLoadingManifestDo"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:m8-m_RegisteredPlugins"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="structPluginManager_1_1PluginRegistration">PluginRegistration</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPluginManager#m8-m_RegisteredPlugins">m_RegisteredPlugins</a></td></tr>
 <tr class="separator:m8-m_RegisteredPlugins"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:dk-m_CompilerPlugins"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPluginManager#pc-CompilerPlugins">CompilerPlugins</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPluginManager#dk-m_CompilerPlugins">m_CompilerPlugins</a></td></tr>
+<tr class="separator:dk-m_CompilerPlugins"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:n8-m_FindMenuItemCount"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPluginManager#n8-m_FindMenuItemCount">m_FindMenuItemCount</a> = 0</td></tr>
+<tr class="separator:n8-m_FindMenuItemCount"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gt-m_FindMenuItemFirst"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPluginManager#gt-m_FindMenuItemFirst">m_FindMenuItemFirst</a> = 0</td></tr>
+<tr class="separator:gt-m_FindMenuItemFirst"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:dp-m_LastNonPluginMenuId"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPluginManager#dp-m_LastNonPluginMenuId">m_LastNonPluginMenuId</a> = 0</td></tr>
+<tr class="separator:dp-m_LastNonPluginMenuId"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-static-attribs"></a>
 Static Private Attributes</h2></td></tr>
@@ -217,8 +253,25 @@ Additional Inherited Members</h2></td></tr>
 <p>Binary plugins are dynamically loaded shared libraries (dll/so) which can do pretty much anything with the SDK.</p>
 <p>Script plugins are more lightweight and are very convenient for smaller scale/functionality plugins. </p>
 
-<p class="definition">Definition at line <a class="el" href="pluginmanager_8h_source#l00075">75</a> of file <a class="el" href="pluginmanager_8h_source">pluginmanager.h</a>.</p>
-</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<p class="definition">Definition at line <a class="el" href="pluginmanager_8h_source#l00076">76</a> of file <a class="el" href="pluginmanager_8h_source">pluginmanager.h</a>.</p>
+</div><h2 class="groupheader">Member Typedef Documentation</h2>
+<a id="pc-CompilerPlugins"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#pc-CompilerPlugins">&#9670;&nbsp;</a></span>CompilerPlugins</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef std::vector&lt;<a class="el" href="classcbCompilerPlugin">cbCompilerPlugin</a>*&gt; <a class="el" href="classPluginManager#pc-CompilerPlugins">PluginManager::CompilerPlugins</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="pluginmanager_8h_source#l00079">79</a> of file <a class="el" href="pluginmanager_8h_source">pluginmanager.h</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="hz-PluginManager"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#hz-PluginManager">&#9670;&nbsp;</a></span>PluginManager()</h2>
 
@@ -242,14 +295,14 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="pluginmanager_8cpp_source#l00166">166</a> of file <a class="el" href="pluginmanager_8cpp_source">pluginmanager.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="pluginmanager_8cpp_source#l00168">168</a> of file <a class="el" href="pluginmanager_8cpp_source">pluginmanager.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="manager_8cpp_source#l00187">Manager::Get()</a>, and <a class="el" href="manager_8cpp_source#l00428">Manager::GetAppWindow()</a>.</p>
+<p class="reference">References <a class="el" href="manager_8cpp_source#l00182">Manager::Get()</a>, and <a class="el" href="manager_8cpp_source#l00424">Manager::GetAppWindow()</a>.</p>
 
 </div>
 </div>
-<a id="y3-PluginManager"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#y3-PluginManager">&#9670;&nbsp;</a></span>~PluginManager()</h2>
+<a id="ny-PluginManager"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ny-PluginManager">&#9670;&nbsp;</a></span>~PluginManager()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -266,12 +319,12 @@ Additional Inherited Members</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="pluginmanager_8cpp_source#l00174">174</a> of file <a class="el" href="pluginmanager_8cpp_source">pluginmanager.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="pluginmanager_8cpp_source#l00176">176</a> of file <a class="el" href="pluginmanager_8cpp_source">pluginmanager.cpp</a>.</p>
 
 </div>
 </div>
@@ -308,11 +361,11 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="pluginmanager_8cpp_source#l01360">1360</a> of file <a class="el" href="pluginmanager_8cpp_source">pluginmanager.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="pluginmanager_8cpp_source#l01374">1374</a> of file <a class="el" href="pluginmanager_8cpp_source">pluginmanager.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="cbplugin_8h_source#l00155">cbPlugin::BuildModuleMenu()</a>, <a class="el" href="sc__plugin_8cpp_source#l00104">ScriptBindings::ScriptPluginWrapper::CreateModuleMenu()</a>, <a class="el" href="cbplugin_8h_source#l00187">cbPlugin::IsAttached()</a>, <a class="el" href="pluginmanager_8cpp_source#l01393">OnScriptModuleMenu()</a>, and <a class="el" href="cbexception_8cpp_source#l00031">cbException::ShowErrorMessage()</a>.</p>
+<p class="reference">References <a class="el" href="cbplugin_8h_source#l00155">cbPlugin::BuildModuleMenu()</a>, <a class="el" href="sc__plugin_8cpp_source#l00104">ScriptBindings::ScriptPluginWrapper::CreateModuleMenu()</a>, <a class="el" href="cbplugin_8h_source#l00187">cbPlugin::IsAttached()</a>, <a class="el" href="pluginmanager_8cpp_source#l01478">OnScriptModuleMenu()</a>, and <a class="el" href="cbexception_8cpp_source#l00031">cbException::ShowErrorMessage()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="editorbase_8cpp_source#l00273">EditorBase::DisplayContextMenu()</a>, <a class="el" href="editormanager_8cpp_source#l01532">EditorManager::OnPageContextMenu()</a>, <a class="el" href="projectmanagerui_8cpp_source#l01034">ProjectManagerUI::OnRightClick()</a>, and <a class="el" href="projectmanagerui_8cpp_source#l00552">ProjectManagerUI::ShowMenu()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="editorbase_8cpp_source#l00271">EditorBase::DisplayContextMenu()</a>, <a class="el" href="editormanager_8cpp_source#l01573">EditorManager::OnPageContextMenu()</a>, <a class="el" href="projectmanagerui_8cpp_source#l01088">ProjectManagerUI::OnRightClick()</a>, and <a class="el" href="projectmanagerui_8cpp_source#l00569">ProjectManagerUI::ShowMenu()</a>.</p>
 
 </div>
 </div>
@@ -342,7 +395,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="pluginmanager_8cpp_source#l00187">187</a> of file <a class="el" href="pluginmanager_8cpp_source">pluginmanager.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="pluginmanager_8cpp_source#l00189">189</a> of file <a class="el" href="pluginmanager_8cpp_source">pluginmanager.cpp</a>.</p>
 
 <p class="reference">References <a class="el" href="cbplugin_8cpp_source#l00062">cbPlugin::Attach()</a>, and <a class="el" href="cbplugin_8h_source#l00187">cbPlugin::IsAttached()</a>.</p>
 
@@ -365,9 +418,9 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="pluginmanager_8cpp_source#l01410">1410</a> of file <a class="el" href="pluginmanager_8cpp_source">pluginmanager.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="pluginmanager_8cpp_source#l01495">1495</a> of file <a class="el" href="pluginmanager_8cpp_source">pluginmanager.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="manager_8cpp_source#l00187">Manager::Get()</a>, <a class="el" href="globals_8cpp_source#l01142">PlaceWindow()</a>, and <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_dialog.html#a6e078c3d0653f75ad3c34a37c0b54637">wxDialog::ShowModal()</a>.</p>
+<p class="reference">References <a class="el" href="manager_8cpp_source#l00182">Manager::Get()</a>, <a class="el" href="globals_8cpp_source#l01177">PlaceWindow()</a>, and <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_dialog.html#a6e078c3d0653f75ad3c34a37c0b54637">wxDialog::ShowModal()</a>.</p>
 
 </div>
 </div>
@@ -387,7 +440,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="pluginmanager_8cpp_source#l00179">179</a> of file <a class="el" href="pluginmanager_8cpp_source">pluginmanager.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="pluginmanager_8cpp_source#l00181">181</a> of file <a class="el" href="pluginmanager_8cpp_source">pluginmanager.cpp</a>.</p>
 
 </div>
 </div>
@@ -407,9 +460,9 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="pluginmanager_8cpp_source#l00199">199</a> of file <a class="el" href="pluginmanager_8cpp_source">pluginmanager.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="pluginmanager_8cpp_source#l00201">201</a> of file <a class="el" href="pluginmanager_8cpp_source">pluginmanager.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="manager_8cpp_source#l00187">Manager::Get()</a>, <a class="el" href="manager_8cpp_source#l00337">Manager::IsAppShuttingDown()</a>, <a class="el" href="cbplugin_8h_source#l00187">cbPlugin::IsAttached()</a>, <a class="el" href="cbplugin_8cpp_source#l00082">cbPlugin::Release()</a>, and <a class="el" href="manager_8cpp_source#l00574">Manager::RemoveAllEventSinksFor()</a>.</p>
+<p class="reference">References <a class="el" href="manager_8cpp_source#l00182">Manager::Get()</a>, <a class="el" href="manager_8cpp_source#l00333">Manager::IsAppShuttingDown()</a>, <a class="el" href="cbplugin_8h_source#l00187">cbPlugin::IsAttached()</a>, <a class="el" href="cbplugin_8cpp_source#l00082">cbPlugin::Release()</a>, and <a class="el" href="manager_8cpp_source#l00570">Manager::RemoveAllEventSinksFor()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="pluginsconfigurationdlg_8cpp_source#l00182">PluginsConfigurationDlg::OnToggle()</a>.</p>
 
@@ -431,11 +484,11 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="pluginmanager_8cpp_source#l01223">1223</a> of file <a class="el" href="pluginmanager_8cpp_source">pluginmanager.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="pluginmanager_8cpp_source#l01235">1235</a> of file <a class="el" href="pluginmanager_8cpp_source">pluginmanager.cpp</a>.</p>
 
-<p class="reference">References <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga7dfc2888539861afe6c4337ef315472b">_T</a>, <a class="el" href="sc__io_8cpp_source#l00183">ScriptBindings::IOLib::Execute()</a>, <a class="el" href="logmanager_8h_source#l00020">F()</a>, <a class="el" href="manager_8cpp_source#l00187">Manager::Get()</a>, <a class="el" href="manager_8cpp_source#l00443">Manager::GetLogManager()</a>, <a class="el" href="cbplugin_8h_source#l00097">cbPlugin::GetType()</a>, <a class="el" href="pluginmanager_8h_source#l00053">PluginElement::info</a>, <a class="el" href="logmanager_8h_source#l00124">LogManager::LogError()</a>, <a class="el" href="pluginmanager_8h_source#l00039">PluginInfo::name</a>, <a class="el" href="pluginmanager_8h_source#l00057">PluginElement::plugin</a>, <a class="el" href="globals_8h_source#l00027">ptTool</a>, <a class="el" href="cbexception_8cpp_source#l00031">cbException::ShowErrorMessage()</a>, and <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#a667b135c20008042653f82b739f6c3ab">wxString::wx_str()</a>.</p>
+<p class="reference">References <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga7dfc2888539861afe6c4337ef315472b">_T</a>, <a class="el" href="sc__io_8cpp_source#l00183">ScriptBindings::IOLib::Execute()</a>, <a class="el" href="logmanager_8h_source#l00020">F()</a>, <a class="el" href="manager_8cpp_source#l00182">Manager::Get()</a>, <a class="el" href="manager_8cpp_source#l00439">Manager::GetLogManager()</a>, <a class="el" href="cbplugin_8h_source#l00097">cbPlugin::GetType()</a>, <a class="el" href="pluginmanager_8h_source#l00054">PluginElement::info</a>, <a class="el" href="logmanager_8h_source#l00142">LogManager::LogError()</a>, <a class="el" href="pluginmanager_8h_source#l00040">PluginInfo::name</a>, <a class="el" href="pluginmanager_8h_source#l00058">PluginElement::plugin</a>, <a class="el" href="globals_8h_source#l00027">ptTool</a>, <a class="el" href="cbexception_8cpp_source#l00031">cbException::ShowErrorMessage()</a>, and <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#a667b135c20008042653f82b739f6c3ab">wxString::wx_str()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="sc__globals_8cpp_source#l00087">ScriptBindings::ExecutePlugin()</a>, and <a class="el" href="main_8cpp_source#l02276">MainFrame::OnPluginsExecuteMenu()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="sc__globals_8cpp_source#l00087">ScriptBindings::ExecutePlugin()</a>, and <a class="el" href="main_8cpp_source#l02282">MainFrame::OnPluginsExecuteMenu()</a>.</p>
 
 </div>
 </div>
@@ -465,9 +518,9 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="pluginmanager_8cpp_source#l00495">495</a> of file <a class="el" href="pluginmanager_8cpp_source">pluginmanager.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="pluginmanager_8cpp_source#l00497">497</a> of file <a class="el" href="pluginmanager_8cpp_source">pluginmanager.cpp</a>.</p>
 
-<p class="reference">References <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga8a02b8875a521df57263a9e6f090f2d0">_()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga7dfc2888539861afe6c4337ef315472b">_T</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_file.html#a9842fdcc9d4f4b8c74cf73c2dd48be26">wxFile::Access()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_array_string.html#af06b61455118d83a24183c3a9f6854b1">wxArrayString::Add()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_file_name.html#ab75d82f4024c6f15cc4247c8835da557">wxFileName::Assign()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#a6418ec90c6d4ffe0b05702be1b35df4f">wxString::c_str()</a>, <a class="el" href="globals_8cpp_source#l01381">cbMessageBox()</a>, <a class="el" href="pluginmanager_8h_source#l00054">PluginElement::fileName</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#addd9ccfa3ae2b7ab2d66bcbf034d0be0">wxString::Format()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_array_string.html#ad2a491f799c8d6539dc64d06f2c37ac6">wxArrayString::GetCount()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_file_name.html#ac6475b655ac68c02a094723f653270e9">wxFileName::GetName()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_array_string.html#a1eb4f967685188b1c14407026e9ec53c">wxArrayString::IsEmpty()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#ace32756bab999f8aae9be0cf981fc449">wxString::IsEmpty()</a>, <a class="el" href="configmanager_8cpp_source#l00579">ConfigManager::LocateDataFile()</a>, <a class="el" href="pluginmanager_8h_source#l00057">PluginElement::plugin</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#a09e5dc4368a806f922c24651033f45de">wxString::Prepend()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_zip_output_stream.html#a3ef78370a66ac4c0030164df04eec61d">wxZipOutputStream::PutNextEntry()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#a9a83357210198cefd2d7d1411db1838d">wxString::Remove()</a>, <a class="el" href="configmanager_8h_source#l00081">sdDataGlobal</a>, <a class="el" href="configmanager_8h_source#l00075">sdDataUser</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_zip_output_stream.html#a939d59ea1b953158036a99ab9ab42235">wxZipOutputStream::SetComment()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#a627b084ee8088734e1b28ee23d67f7bb">wxString::StartsWith()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_file.html#ae26cef66ac8e94be0c687c2a0fd569dfabfa8d43f2e87d73f80ae1a181b1544b8">wxFile::write</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__file.html#ga72d2e4ef03d51c0d59c2cb788462d600">wxFileExists()</a>, and <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/defs_8h.html#a2b7290c6fea9862351d15a8f695147b5">wxICON_WARNING</a>.</p>
+<p class="reference">References <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga8a02b8875a521df57263a9e6f090f2d0">_()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga7dfc2888539861afe6c4337ef315472b">_T</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_file.html#a9842fdcc9d4f4b8c74cf73c2dd48be26">wxFile::Access()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_array_string.html#af06b61455118d83a24183c3a9f6854b1">wxArrayString::Add()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_file_name.html#ab75d82f4024c6f15cc4247c8835da557">wxFileName::Assign()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#a6418ec90c6d4ffe0b05702be1b35df4f">wxString::c_str()</a>, <a class="el" href="globals_8cpp_source#l01395">cbMessageBox()</a>, <a class="el" href="pluginmanager_8h_source#l00055">PluginElement::fileName</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#addd9ccfa3ae2b7ab2d66bcbf034d0be0">wxString::Format()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_array_string.html#ad2a491f799c8d6539dc64d06f2c37ac6">wxArrayString::GetCount()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_file_name.html#ac6475b655ac68c02a094723f653270e9">wxFileName::GetName()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_array_string.html#a1eb4f967685188b1c14407026e9ec53c">wxArrayString::IsEmpty()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#ace32756bab999f8aae9be0cf981fc449">wxString::IsEmpty()</a>, <a class="el" href="configmanager_8cpp_source#l00633">ConfigManager::LocateDataFile()</a>, <a class="el" href="pluginmanager_8h_source#l00058">PluginElement::plugin</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#a09e5dc4368a806f922c24651033f45de">wxString::Prepend()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_zip_output_stream.html#a3ef78370a66ac4c0030164df04eec61d">wxZipOutputStream::PutNextEntry()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#a9a83357210198cefd2d7d1411db1838d">wxString::Remove()</a>, <a class="el" href="configmanager_8h_source#l00081">sdDataGlobal</a>, <a class="el" href="configmanager_8h_source#l00075">sdDataUser</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_zip_output_stream.html#a939d59ea1b953158036a99ab9ab42235">wxZipOutputStream::SetComment()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#a627b084ee8088734e1b28ee23d67f7bb">wxString::StartsWith()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_file.html#ae26cef66ac8e94be0c687c2a0fd569dfabfa8d43f2e87d73f80ae1a181b1544b8">wxFile::write</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__file.html#ga72d2e4ef03d51c0d59c2cb788462d600">wxFileExists()</a>, and <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/defs_8h.html#a2b7290c6fea9862351d15a8f695147b5">wxICON_WARNING</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="pluginsconfigurationdlg_8cpp_source#l00304">PluginsConfigurationDlg::OnExport()</a>.</p>
 
@@ -519,9 +572,9 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="pluginmanager_8cpp_source#l00595">595</a> of file <a class="el" href="pluginmanager_8cpp_source">pluginmanager.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="pluginmanager_8cpp_source#l00597">597</a> of file <a class="el" href="pluginmanager_8cpp_source">pluginmanager.cpp</a>.</p>
 
-<p class="reference">References <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga8a02b8875a521df57263a9e6f090f2d0">_()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga7dfc2888539861afe6c4337ef315472b">_T</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_file.html#a9842fdcc9d4f4b8c74cf73c2dd48be26">wxFile::Access()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#a6418ec90c6d4ffe0b05702be1b35df4f">wxString::c_str()</a>, <a class="el" href="globals_8cpp_source#l01381">cbMessageBox()</a>, <a class="el" href="globals_8cpp_source#l00601">CreateDirRecursively()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#addd9ccfa3ae2b7ab2d66bcbf034d0be0">wxString::Format()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_f_s_file.html#a0508b48f21d366aa209eed0b848a303b">wxFSFile::GetStream()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_file.html#a91ba1ec486bbc7668f95cb11e13511fb">wxFile::IsOpened()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_file_system.html#a01c6b989e86e34da21e94c802e516b16">wxFileSystem::OpenFile()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_file.html#ae26cef66ac8e94be0c687c2a0fd569dfabfa8d43f2e87d73f80ae1a181b1544b8">wxFile::write</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_file.html#a0974a92a5c8793629fd9ee0f1735657c">wxFile::Write()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__file.html#ga72d2e4ef03d51c0d59c2cb788462d600">wxFileExists()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/defs_8h.html#aa9a9276fdb8aefda276954e26423283a">wxICON_ERROR</a>, and <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/defs_8h.html#a2b7290c6fea9862351d15a8f695147b5">wxICON_WARNING</a>.</p>
+<p class="reference">References <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga8a02b8875a521df57263a9e6f090f2d0">_()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga7dfc2888539861afe6c4337ef315472b">_T</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_file.html#a9842fdcc9d4f4b8c74cf73c2dd48be26">wxFile::Access()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#a6418ec90c6d4ffe0b05702be1b35df4f">wxString::c_str()</a>, <a class="el" href="globals_8cpp_source#l01395">cbMessageBox()</a>, <a class="el" href="globals_8cpp_source#l00610">CreateDirRecursively()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#addd9ccfa3ae2b7ab2d66bcbf034d0be0">wxString::Format()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_f_s_file.html#a0508b48f21d366aa209eed0b848a303b">wxFSFile::GetStream()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_file.html#a91ba1ec486bbc7668f95cb11e13511fb">wxFile::IsOpened()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_file_system.html#a01c6b989e86e34da21e94c802e516b16">wxFileSystem::OpenFile()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_file.html#ae26cef66ac8e94be0c687c2a0fd569dfabfa8d43f2e87d73f80ae1a181b1544b8">wxFile::write</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_file.html#a0974a92a5c8793629fd9ee0f1735657c">wxFile::Write()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__file.html#ga72d2e4ef03d51c0d59c2cb788462d600">wxFileExists()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/defs_8h.html#aa9a9276fdb8aefda276954e26423283a">wxICON_ERROR</a>, and <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/defs_8h.html#a2b7290c6fea9862351d15a8f695147b5">wxICON_WARNING</a>.</p>
 
 </div>
 </div>
@@ -541,9 +594,9 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="pluginmanager_8cpp_source#l01166">1166</a> of file <a class="el" href="pluginmanager_8cpp_source">pluginmanager.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="pluginmanager_8cpp_source#l01178">1178</a> of file <a class="el" href="pluginmanager_8cpp_source">pluginmanager.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="pluginmanager_8h_source#l00053">PluginElement::info</a>, and <a class="el" href="pluginmanager_8h_source#l00039">PluginInfo::name</a>.</p>
+<p class="reference">References <a class="el" href="pluginmanager_8h_source#l00054">PluginElement::info</a>, and <a class="el" href="pluginmanager_8h_source#l00040">PluginInfo::name</a>.</p>
 
 </div>
 </div>
@@ -563,9 +616,9 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="pluginmanager_8cpp_source#l01190">1190</a> of file <a class="el" href="pluginmanager_8cpp_source">pluginmanager.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="pluginmanager_8cpp_source#l01202">1202</a> of file <a class="el" href="pluginmanager_8cpp_source">pluginmanager.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="pluginmanager_8h_source#l00054">PluginElement::fileName</a>, and <a class="el" href="pluginmanager_8h_source#l00057">PluginElement::plugin</a>.</p>
+<p class="reference">References <a class="el" href="pluginmanager_8h_source#l00055">PluginElement::fileName</a>, and <a class="el" href="pluginmanager_8h_source#l00058">PluginElement::plugin</a>.</p>
 
 </div>
 </div>
@@ -585,11 +638,53 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="pluginmanager_8cpp_source#l01178">1178</a> of file <a class="el" href="pluginmanager_8cpp_source">pluginmanager.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="pluginmanager_8cpp_source#l01190">1190</a> of file <a class="el" href="pluginmanager_8cpp_source">pluginmanager.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="pluginmanager_8h_source#l00053">PluginElement::info</a>, <a class="el" href="pluginmanager_8h_source#l00039">PluginInfo::name</a>, and <a class="el" href="pluginmanager_8h_source#l00057">PluginElement::plugin</a>.</p>
+<p class="reference">References <a class="el" href="pluginmanager_8h_source#l00054">PluginElement::info</a>, <a class="el" href="pluginmanager_8h_source#l00040">PluginInfo::name</a>, and <a class="el" href="pluginmanager_8h_source#l00058">PluginElement::plugin</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="main_8cpp_source#l04484">MainFrame::OnToggleBar()</a>, and <a class="el" href="main_8cpp_source#l05194">MainFrame::SetChecksForViewToolbarsMenu()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="main_8cpp_source#l04474">MainFrame::OnToggleBar()</a>, and <a class="el" href="main_8cpp_source#l05179">MainFrame::SetChecksForViewToolbarsMenu()</a>.</p>
+
+</div>
+</div>
+<a id="ns-FindSortedMenuItemPosition"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ns-FindSortedMenuItemPosition">&#9670;&nbsp;</a></span>FindSortedMenuItemPosition()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int PluginManager::FindSortedMenuItemPosition </td>
+          <td>(</td>
+          <td class="paramtype"><a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_menu.html">wxMenu</a> &amp;&#160;</td>
+          <td class="paramname"><em>popup</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html">wxString</a> &amp;&#160;</td>
+          <td class="paramname"><em>label</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Called by plugins when they want to add menu items to the editor's context menu. </p>
+<p>Using this method will produce a menu which is sorted alphabetically (case insensitive). The menu items are added at the bottom of the menu. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">popup</td><td>The context menu passed to BuildModuleMenu. </td></tr>
+    <tr><td class="paramname">label</td><td>The label of the new menu item. It will be used to find the correct position. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The position where to insert the item. </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="pluginmanager_8cpp_source#l01437">1437</a> of file <a class="el" href="pluginmanager_8cpp_source">pluginmanager.cpp</a>.</p>
+
+<p class="reference">References <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#ad59ca2dd208720b3cce07d90bcb90093">wxString::begin()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#a9c0eb52308e347031f9e479a9abc0a8f">wxString::CmpNoCase()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#a6a0f235fff88df5e6b16b5f0e1e719cc">wxString::end()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#acb2c7985fb9550bb057b62bd6e5b4305">wxString::erase()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_menu.html#abe0e1a4395a253e6fe45c821d7a2cf2b">wxMenu::GetMenuItems()</a>, and <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/defs_8h.html#abd0c640814a55e4adda3bce698646d2da7b68d12feed3f60a6ef5dfdda59717c4">wxITEM_SEPARATOR</a>.</p>
 
 </div>
 </div>
@@ -608,34 +703,40 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="pluginmanager_8cpp_source#l01317">1317</a> of file <a class="el" href="pluginmanager_8cpp_source">pluginmanager.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="pluginmanager_8cpp_source#l01331">1331</a> of file <a class="el" href="pluginmanager_8cpp_source">pluginmanager.cpp</a>.</p>
 
 <p class="reference">References <a class="el" href="globals_8h_source#l00031">ptCodeCompletion</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="ccmanager_8cpp_source#l00358">CCManager::GetProviderFor()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="ccmanager_8cpp_source#l00367">CCManager::GetProviderFor()</a>.</p>
 
 </div>
 </div>
-<a id="ze-GetCompilerOffers"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ze-GetCompilerOffers">&#9670;&nbsp;</a></span>GetCompilerOffers()</h2>
+<a id="nr-GetCompilerPlugins"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#nr-GetCompilerPlugins">&#9670;&nbsp;</a></span>GetCompilerPlugins()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">PluginsArray PluginManager::GetCompilerOffers </td>
+          <td class="memname">const <a class="el" href="classPluginManager#pc-CompilerPlugins">CompilerPlugins</a>&amp; PluginManager::GetCompilerPlugins </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
-          <td></td>
+          <td> const</td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="pluginmanager_8cpp_source#l01307">1307</a> of file <a class="el" href="pluginmanager_8cpp_source">pluginmanager.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="pluginmanager_8h_source#l00115">115</a> of file <a class="el" href="pluginmanager_8h_source">pluginmanager.h</a>.</p>
 
-<p class="reference">References <a class="el" href="globals_8h_source#l00029">ptCompiler</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="app_8cpp_source#l00894">CodeBlocksApp::BatchJob()</a>, <a class="el" href="batchbuild_8h_source#l00026">BatchLogWindow::EndModal()</a>, <a class="el" href="cbplugin_8cpp_source#l00670">cbDebuggerPlugin::EnsureBuildUpToDate()</a>, and <a class="el" href="projectoptionsdlg_8cpp_source#l00100">ProjectOptionsDlg::ProjectOptionsDlg()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="pluginmanager_8cpp_source#l01535">cbHasRunningCompilers()</a>, <a class="el" href="pluginmanager_8cpp_source#l01545">cbStopRunningCompilers()</a>, and <a class="el" href="cbplugin_8cpp_source#l00670">cbDebuggerPlugin::EnsureBuildUpToDate()</a>.</p>
 
 </div>
 </div>
@@ -671,11 +772,11 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="pluginmanager_8cpp_source#l01257">1257</a> of file <a class="el" href="pluginmanager_8cpp_source">pluginmanager.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="pluginmanager_8cpp_source#l01269">1269</a> of file <a class="el" href="pluginmanager_8cpp_source">pluginmanager.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="cbplugin_8h_source#l00110">cbPlugin::GetConfigurationGroup()</a>, <a class="el" href="cbplugin_8h_source#l00116">cbPlugin::GetConfigurationPanel()</a>, <a class="el" href="cbplugin_8h_source#l00187">cbPlugin::IsAttached()</a>, and <a class="el" href="pluginmanager_8cpp_source#l01252">SortByConfigurationPriority()</a>.</p>
+<p class="reference">References <a class="el" href="cbplugin_8h_source#l00110">cbPlugin::GetConfigurationGroup()</a>, <a class="el" href="cbplugin_8h_source#l00116">cbPlugin::GetConfigurationPanel()</a>, <a class="el" href="cbplugin_8h_source#l00187">cbPlugin::IsAttached()</a>, and <a class="el" href="pluginmanager_8cpp_source#l01264">SortByConfigurationPriority()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="compilersettingsdlg_8cpp_source#l00109">CompilerSettingsDlg::AddPluginPanels()</a>, <a class="el" href="environmentsettingsdlg_8cpp_source#l00325">EnvironmentSettingsDlg::AddPluginPanels()</a>, and <a class="el" href="editorconfigurationdlg_8cpp_source#l00289">EditorConfigurationDlg::AddPluginPanels()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="compilersettingsdlg_8cpp_source#l00109">CompilerSettingsDlg::AddPluginPanels()</a>, <a class="el" href="environmentsettingsdlg_8cpp_source#l00325">EnvironmentSettingsDlg::AddPluginPanels()</a>, and <a class="el" href="editorconfigurationdlg_8cpp_source#l00290">EditorConfigurationDlg::AddPluginPanels()</a>.</p>
 
 </div>
 </div>
@@ -694,9 +795,76 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="pluginmanager_8cpp_source#l01312">1312</a> of file <a class="el" href="pluginmanager_8cpp_source">pluginmanager.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="pluginmanager_8cpp_source#l01326">1326</a> of file <a class="el" href="pluginmanager_8cpp_source">pluginmanager.cpp</a>.</p>
 
 <p class="reference">References <a class="el" href="globals_8h_source#l00030">ptDebugger</a>.</p>
+
+</div>
+</div>
+<a id="xk-GetFindMenuItemCount"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#xk-GetFindMenuItemCount">&#9670;&nbsp;</a></span>GetFindMenuItemCount()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int PluginManager::GetFindMenuItemCount </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns the number of items in the find group already added to the menu. </p>
+
+<p class="definition">Definition at line <a class="el" href="pluginmanager_8cpp_source#l01422">1422</a> of file <a class="el" href="pluginmanager_8cpp_source">pluginmanager.cpp</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="debuggermenu_8cpp_source#l00405">DebuggerMenuHandler::BuildContextMenu()</a>, and <a class="el" href="editorbase_8cpp_source#l00271">EditorBase::DisplayContextMenu()</a>.</p>
+
+</div>
+</div>
+<a id="r5-GetFindMenuItemFirst"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#r5-GetFindMenuItemFirst">&#9670;&nbsp;</a></span>GetFindMenuItemFirst()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int PluginManager::GetFindMenuItemFirst </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns the position of the first menu item in the find group. </p>
+
+<p class="definition">Definition at line <a class="el" href="pluginmanager_8cpp_source#l01427">1427</a> of file <a class="el" href="pluginmanager_8cpp_source">pluginmanager.cpp</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="debuggermenu_8cpp_source#l00405">DebuggerMenuHandler::BuildContextMenu()</a>, <a class="el" href="codecompletion_8cpp_source#l00745">CodeCompletion::BuildModuleMenu()</a>, and <a class="el" href="editorbase_8cpp_source#l00271">EditorBase::DisplayContextMenu()</a>.</p>
+
+</div>
+</div>
+<a id="rw-GetFirstCompiler"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#rw-GetFirstCompiler">&#9670;&nbsp;</a></span>GetFirstCompiler()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classcbCompilerPlugin">cbCompilerPlugin</a> * PluginManager::GetFirstCompiler </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="pluginmanager_8cpp_source#l01309">1309</a> of file <a class="el" href="pluginmanager_8cpp_source">pluginmanager.cpp</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="app_8cpp_source#l00914">CodeBlocksApp::BatchJob()</a>, and <a class="el" href="projectoptionsdlg_8cpp_source#l00099">ProjectOptionsDlg::ProjectOptionsDlg()</a>.</p>
 
 </div>
 </div>
@@ -716,11 +884,11 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="pluginmanager_8cpp_source#l01398">1398</a> of file <a class="el" href="pluginmanager_8cpp_source">pluginmanager.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="pluginmanager_8cpp_source#l01483">1483</a> of file <a class="el" href="pluginmanager_8cpp_source">pluginmanager.cpp</a>.</p>
 
 <p class="reference">References <a class="el" href="classcbMimePlugin#lz-CanHandleFile">cbMimePlugin::CanHandleFile()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="projectmanagerui_8cpp_source#l00755">ProjectManagerUI::DoOpenFile()</a>, <a class="el" href="projectmanager_8cpp_source#l00210">ProjectManager::LoadProject()</a>, <a class="el" href="main_8cpp_source#l01759">MainFrame::OpenGeneric()</a>, and <a class="el" href="compilergcc_8cpp_source#l00143">BuildLogger::OpenLink()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="projectmanagerui_8cpp_source#l00762">ProjectManagerUI::DoOpenFile()</a>, <a class="el" href="projectmanager_8cpp_source#l00213">ProjectManager::LoadProject()</a>, <a class="el" href="main_8cpp_source#l01754">MainFrame::OpenGeneric()</a>, and <a class="el" href="compilergcc_8cpp_source#l00143">BuildLogger::OpenLink()</a>.</p>
 
 </div>
 </div>
@@ -739,11 +907,11 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="pluginmanager_8cpp_source#l01302">1302</a> of file <a class="el" href="pluginmanager_8cpp_source">pluginmanager.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="pluginmanager_8cpp_source#l01321">1321</a> of file <a class="el" href="pluginmanager_8cpp_source">pluginmanager.cpp</a>.</p>
 
 <p class="reference">References <a class="el" href="globals_8h_source#l00028">ptMime</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="projectmanagerui_8cpp_source#l01591">ProjectManagerUI::OnOpenWith()</a>, and <a class="el" href="projectmanagerui_8cpp_source#l00552">ProjectManagerUI::ShowMenu()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="projectmanagerui_8cpp_source#l01657">ProjectManagerUI::OnOpenWith()</a>, and <a class="el" href="projectmanagerui_8cpp_source#l00569">ProjectManagerUI::ShowMenu()</a>.</p>
 
 </div>
 </div>
@@ -763,7 +931,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="pluginmanager_8cpp_source#l01327">1327</a> of file <a class="el" href="pluginmanager_8cpp_source">pluginmanager.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="pluginmanager_8cpp_source#l01341">1341</a> of file <a class="el" href="pluginmanager_8cpp_source">pluginmanager.cpp</a>.</p>
 
 <p class="reference">References <a class="el" href="cbplugin_8h_source#l00097">cbPlugin::GetType()</a>, <a class="el" href="cbplugin_8h_source#l00187">cbPlugin::IsAttached()</a>, and <a class="el" href="globals_8h_source#l00028">ptMime</a>.</p>
 
@@ -787,11 +955,11 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="pluginmanager_8cpp_source#l01202">1202</a> of file <a class="el" href="pluginmanager_8cpp_source">pluginmanager.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="pluginmanager_8cpp_source#l01214">1214</a> of file <a class="el" href="pluginmanager_8cpp_source">pluginmanager.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="pluginmanager_8h_source#l00053">PluginElement::info</a>, and <a class="el" href="pluginmanager_8h_source#l00039">PluginInfo::name</a>.</p>
+<p class="reference">References <a class="el" href="pluginmanager_8h_source#l00054">PluginElement::info</a>, and <a class="el" href="pluginmanager_8h_source#l00040">PluginInfo::name</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="main_8cpp_source#l01217">MainFrame::AddPluginInMenus()</a>, <a class="el" href="main_8cpp_source#l01623">MainFrame::DoAddPluginToolbar()</a>, <a class="el" href="projectmanagerui_8cpp_source#l00755">ProjectManagerUI::DoOpenFile()</a>, <a class="el" href="main_8cpp_source#l02285">MainFrame::OnHelpPluginMenu()</a>, <a class="el" href="main_8cpp_source#l04683">MainFrame::OnPluginLoaded()</a>, <a class="el" href="main_8cpp_source#l00906">MainFrame::PluginsUpdated()</a>, and <a class="el" href="projectmanagerui_8cpp_source#l00552">ProjectManagerUI::ShowMenu()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="main_8cpp_source#l01212">MainFrame::AddPluginInMenus()</a>, <a class="el" href="main_8cpp_source#l01614">MainFrame::DoAddPluginToolbar()</a>, <a class="el" href="projectmanagerui_8cpp_source#l00762">ProjectManagerUI::DoOpenFile()</a>, <a class="el" href="main_8cpp_source#l02291">MainFrame::OnHelpPluginMenu()</a>, <a class="el" href="main_8cpp_source#l04673">MainFrame::OnPluginLoaded()</a>, <a class="el" href="main_8cpp_source#l00900">MainFrame::PluginsUpdated()</a>, and <a class="el" href="projectmanagerui_8cpp_source#l00569">ProjectManagerUI::ShowMenu()</a>.</p>
 
 </div>
 </div>
@@ -811,14 +979,14 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="pluginmanager_8cpp_source#l01211">1211</a> of file <a class="el" href="pluginmanager_8cpp_source">pluginmanager.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="pluginmanager_8cpp_source#l01223">1223</a> of file <a class="el" href="pluginmanager_8cpp_source">pluginmanager.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="pluginmanager_8h_source#l00053">PluginElement::info</a>, and <a class="el" href="pluginmanager_8h_source#l00057">PluginElement::plugin</a>.</p>
+<p class="reference">References <a class="el" href="pluginmanager_8h_source#l00054">PluginElement::info</a>, and <a class="el" href="pluginmanager_8h_source#l00058">PluginElement::plugin</a>.</p>
 
 </div>
 </div>
-<a id="gi-GetPlugins"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gi-GetPlugins">&#9670;&nbsp;</a></span>GetPlugins()</h2>
+<a id="ki-GetPlugins"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ki-GetPlugins">&#9670;&nbsp;</a></span>GetPlugins()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -827,10 +995,10 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">PluginElementsArray&amp; PluginManager::GetPlugins </td>
+          <td class="memname">const PluginElementsArray&amp; PluginManager::GetPlugins </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
-          <td></td>
+          <td> const</td>
         </tr>
       </table>
   </td>
@@ -840,9 +1008,9 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="pluginmanager_8h_source#l00105">105</a> of file <a class="el" href="pluginmanager_8h_source">pluginmanager.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="pluginmanager_8h_source#l00109">109</a> of file <a class="el" href="pluginmanager_8h_source">pluginmanager.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="compilersettingsdlg_8cpp_source#l00051">CompilerSettingsDlg::CompilerSettingsDlg()</a>, <a class="el" href="main_8cpp_source#l00967">MainFrame::CreateMenubar()</a>, <a class="el" href="main_8cpp_source#l01101">MainFrame::CreateToolbars()</a>, <a class="el" href="compilersettingsdlg_8cpp_source#l00205">CompilerSettingsDlg::EndModal()</a>, <a class="el" href="pluginsconfigurationdlg_8cpp_source#l00135">PluginsConfigurationDlg::FillList()</a>, and <a class="el" href="main_8cpp_source#l00906">MainFrame::PluginsUpdated()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="compilersettingsdlg_8cpp_source#l00051">CompilerSettingsDlg::CompilerSettingsDlg()</a>, <a class="el" href="main_8cpp_source#l00961">MainFrame::CreateMenubar()</a>, <a class="el" href="main_8cpp_source#l01096">MainFrame::CreateToolbars()</a>, <a class="el" href="compilersettingsdlg_8cpp_source#l00205">CompilerSettingsDlg::EndModal()</a>, <a class="el" href="pluginsconfigurationdlg_8cpp_source#l00135">PluginsConfigurationDlg::FillList()</a>, and <a class="el" href="main_8cpp_source#l00900">MainFrame::PluginsUpdated()</a>.</p>
 
 </div>
 </div>
@@ -878,11 +1046,11 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="pluginmanager_8cpp_source#l01283">1283</a> of file <a class="el" href="pluginmanager_8cpp_source">pluginmanager.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="pluginmanager_8cpp_source#l01295">1295</a> of file <a class="el" href="pluginmanager_8cpp_source">pluginmanager.cpp</a>.</p>
 
 <p class="reference">References <a class="el" href="cbplugin_8h_source#l00125">cbPlugin::GetProjectConfigurationPanel()</a>, and <a class="el" href="cbplugin_8h_source#l00187">cbPlugin::IsAttached()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="projectoptionsdlg_8cpp_source#l00198">ProjectOptionsDlg::AddPluginPanels()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="projectoptionsdlg_8cpp_source#l00196">ProjectOptionsDlg::AddPluginPanels()</a>.</p>
 
 </div>
 </div>
@@ -909,11 +1077,11 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="pluginmanager_8h_source#l00130">130</a> of file <a class="el" href="pluginmanager_8h_source">pluginmanager.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="pluginmanager_8h_source#l00164">164</a> of file <a class="el" href="pluginmanager_8h_source">pluginmanager.h</a>.</p>
 
 <p class="reference">References <a class="el" href="sc__plugin_8cpp_source#l00162">ScriptBindings::ScriptPluginWrapper::OnScriptMenu()</a>, <a class="el" href="sc__plugin_8cpp_source#l00187">ScriptBindings::ScriptPluginWrapper::OnScriptModuleMenu()</a>, and <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/interface_2wx_2string_8h.html#a9a321d587166a30017b608dd2d234033">wxEmptyString</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="splashscreen_8cpp_source#l00032">cbSplashScreen::DrawReleaseInfo()</a>, <a class="el" href="pluginsconfigurationdlg_8cpp_source#l00039">GetInitialInfo()</a>, and <a class="el" href="startherepage_8cpp_source#l00140">StartHerePage::StartHerePage()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="splashscreen_8cpp_source#l00029">cbSplashScreen::DrawReleaseInfo()</a>, <a class="el" href="pluginsconfigurationdlg_8cpp_source#l00039">GetInitialInfo()</a>, and <a class="el" href="startherepage_8cpp_source#l00140">StartHerePage::StartHerePage()</a>.</p>
 
 </div>
 </div>
@@ -932,7 +1100,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="pluginmanager_8cpp_source#l01322">1322</a> of file <a class="el" href="pluginmanager_8cpp_source">pluginmanager.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="pluginmanager_8cpp_source#l01336">1336</a> of file <a class="el" href="pluginmanager_8cpp_source">pluginmanager.cpp</a>.</p>
 
 <p class="reference">References <a class="el" href="globals_8h_source#l00033">ptSmartIndent</a>.</p>
 
@@ -953,7 +1121,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="pluginmanager_8cpp_source#l01297">1297</a> of file <a class="el" href="pluginmanager_8cpp_source">pluginmanager.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="pluginmanager_8cpp_source#l01316">1316</a> of file <a class="el" href="pluginmanager_8cpp_source">pluginmanager.cpp</a>.</p>
 
 <p class="reference">References <a class="el" href="globals_8h_source#l00027">ptTool</a>.</p>
 
@@ -991,9 +1159,9 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="pluginmanager_8cpp_source#l00211">211</a> of file <a class="el" href="pluginmanager_8cpp_source">pluginmanager.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="pluginmanager_8cpp_source#l00213">213</a> of file <a class="el" href="pluginmanager_8cpp_source">pluginmanager.cpp</a>.</p>
 
-<p class="reference">References <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga8a02b8875a521df57263a9e6f090f2d0">_()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga7dfc2888539861afe6c4337ef315472b">_T</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#a1605126b7bbf5f60a6fca7f393a58f1d">wxString::AfterFirst()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#ac37f690daad1637493dc8ffc7c0efe70">wxString::BeforeFirst()</a>, <a class="el" href="sdk__events_8cpp_source#l00076">cbEVT_PLUGIN_INSTALLED</a>, <a class="el" href="globals_8cpp_source#l01381">cbMessageBox()</a>, <a class="el" href="pluginmanager_8cpp_source#l00070">CompareVersions()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#a05fb8f3d4827186ff18a6bac99d7133a">wxString::Contains()</a>, <a class="el" href="logmanager_8h_source#l00128">LogManager::DebugLog()</a>, <a class="el" href="filefilters_8cpp_source#l00250">FileFilters::DYNAMICLIB_DOT_EXT</a>, <a class="el" href="manager_8cpp_source#l00187">Manager::Get()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_array_string.html#ad2a491f799c8d6539dc64d06f2c37ac6">wxArrayString::GetCount()</a>, <a class="el" href="configmanager_8cpp_source#l00487">ConfigManager::GetFolder()</a>, <a class="el" href="manager_8cpp_source#l00443">Manager::GetLogManager()</a>, <a class="el" href="manager_8cpp_source#l00458">Manager::GetMacrosManager()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_file_name.html#ac6475b655ac68c02a094723f653270e9">wxFileName::GetName()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#ace32756bab999f8aae9be0cf981fc449">wxString::IsEmpty()</a>, <a class="el" href="manager_8cpp_source#l00250">Manager::ProcessEvent()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#a9a83357210198cefd2d7d1411db1838d">wxString::Remove()</a>, <a class="el" href="macrosmanager_8cpp_source#l00435">MacrosManager::ReplaceMacros()</a>, <a class="el" href="configmanager_8h_source#l00081">sdDataGlobal</a>, <a class="el" href="configmanager_8h_source#l00075">sdDataUser</a>, <a class="el" href="configmanager_8h_source#l00079">sdPluginsGlobal</a>, <a class="el" href="configmanager_8h_source#l00073">sdPluginsUser</a>, <a class="el" href="sdk__events_8h_source#l00051">CodeBlocksEvent::SetPlugin()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#a627b084ee8088734e1b28ee23d67f7bb">wxString::StartsWith()</a>, <a class="el" href="globals_8cpp_source#l00228">UnixFilename()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_generic_progress_dialog.html#a1d542cea96c531d85c32d6612bd55a02">wxGenericProgressDialog::Update()</a>, <a class="el" href="pluginmanager_8h_source#l00041">PluginInfo::version</a>, <a class="el" href="configmanager_8cpp_source#l00080">CfgMgrConsts::version</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/defs_8h.html#a01d0612a961327f6038a91e5f94fa44a">wxICON_QUESTION</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/defs_8h.html#ac66d0a09761e7d86b2ac0b2e0c6a8cbba6afbf7b34a4a04053eaeb7634295f0fc">wxID_NO</a>, and <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/defs_8h.html#a5ba00a09cea0417a2ef7c4a4c2b0012c">wxYES_NO</a>.</p>
+<p class="reference">References <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga8a02b8875a521df57263a9e6f090f2d0">_()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga7dfc2888539861afe6c4337ef315472b">_T</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#a1605126b7bbf5f60a6fca7f393a58f1d">wxString::AfterFirst()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#ac37f690daad1637493dc8ffc7c0efe70">wxString::BeforeFirst()</a>, <a class="el" href="sdk__events_8cpp_source#l00076">cbEVT_PLUGIN_INSTALLED</a>, <a class="el" href="globals_8cpp_source#l01395">cbMessageBox()</a>, <a class="el" href="pluginmanager_8cpp_source#l00072">CompareVersions()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#a05fb8f3d4827186ff18a6bac99d7133a">wxString::Contains()</a>, <a class="el" href="logmanager_8h_source#l00146">LogManager::DebugLog()</a>, <a class="el" href="filefilters_8cpp_source#l00250">FileFilters::DYNAMICLIB_DOT_EXT</a>, <a class="el" href="manager_8cpp_source#l00182">Manager::Get()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_array_string.html#ad2a491f799c8d6539dc64d06f2c37ac6">wxArrayString::GetCount()</a>, <a class="el" href="configmanager_8cpp_source#l00541">ConfigManager::GetFolder()</a>, <a class="el" href="manager_8cpp_source#l00439">Manager::GetLogManager()</a>, <a class="el" href="manager_8cpp_source#l00454">Manager::GetMacrosManager()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_file_name.html#ac6475b655ac68c02a094723f653270e9">wxFileName::GetName()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#ace32756bab999f8aae9be0cf981fc449">wxString::IsEmpty()</a>, <a class="el" href="manager_8cpp_source#l00246">Manager::ProcessEvent()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#a9a83357210198cefd2d7d1411db1838d">wxString::Remove()</a>, <a class="el" href="macrosmanager_8cpp_source#l00446">MacrosManager::ReplaceMacros()</a>, <a class="el" href="configmanager_8h_source#l00081">sdDataGlobal</a>, <a class="el" href="configmanager_8h_source#l00075">sdDataUser</a>, <a class="el" href="configmanager_8h_source#l00079">sdPluginsGlobal</a>, <a class="el" href="configmanager_8h_source#l00073">sdPluginsUser</a>, <a class="el" href="sdk__events_8h_source#l00051">CodeBlocksEvent::SetPlugin()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#a627b084ee8088734e1b28ee23d67f7bb">wxString::StartsWith()</a>, <a class="el" href="globals_8cpp_source#l00228">UnixFilename()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_generic_progress_dialog.html#a1d542cea96c531d85c32d6612bd55a02">wxGenericProgressDialog::Update()</a>, <a class="el" href="pluginmanager_8h_source#l00042">PluginInfo::version</a>, <a class="el" href="configmanager_8cpp_source#l00082">CfgMgrConsts::version</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/defs_8h.html#a01d0612a961327f6038a91e5f94fa44a">wxICON_QUESTION</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/defs_8h.html#ac66d0a09761e7d86b2ac0b2e0c6a8cbba6afbf7b34a4a04053eaeb7634295f0fc">wxID_NO</a>, and <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/defs_8h.html#a5ba00a09cea0417a2ef7c4a4c2b0012c">wxYES_NO</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="sc__globals_8cpp_source#l00077">ScriptBindings::InstallPlugin()</a>, and <a class="el" href="pluginsconfigurationdlg_8cpp_source#l00242">PluginsConfigurationDlg::OnInstall()</a>.</p>
 
@@ -1014,11 +1182,11 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="pluginmanager_8cpp_source#l01063">1063</a> of file <a class="el" href="pluginmanager_8cpp_source">pluginmanager.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="pluginmanager_8cpp_source#l01067">1067</a> of file <a class="el" href="pluginmanager_8cpp_source">pluginmanager.cpp</a>.</p>
 
-<p class="reference">References <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga8a02b8875a521df57263a9e6f090f2d0">_()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga7dfc2888539861afe6c4337ef315472b">_T</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#a6418ec90c6d4ffe0b05702be1b35df4f">wxString::c_str()</a>, <a class="el" href="globals_8cpp_source#l01381">cbMessageBox()</a>, <a class="el" href="manager_8cpp_source#l00187">Manager::Get()</a>, <a class="el" href="manager_8cpp_source#l00478">Manager::GetConfigManager()</a>, <a class="el" href="manager_8cpp_source#l00443">Manager::GetLogManager()</a>, <a class="el" href="pluginmanager_8h_source#l00053">PluginElement::info</a>, <a class="el" href="cbplugin_8h_source#l00187">cbPlugin::IsAttached()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#ace32756bab999f8aae9be0cf981fc449">wxString::IsEmpty()</a>, <a class="el" href="logmanager_8h_source#l00122">LogManager::Log()</a>, <a class="el" href="pluginmanager_8h_source#l00039">PluginInfo::name</a>, <a class="el" href="pluginmanager_8h_source#l00057">PluginElement::plugin</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#a9588b7f2684b9a6a924dc3746a2b2f8d">wxString::Printf()</a>, <a class="el" href="configmanager_8cpp_source#l00841">ConfigManager::Read()</a>, <a class="el" href="configmanager_8cpp_source#l00990">ConfigManager::ReadBool()</a>, <a class="el" href="cbexception_8cpp_source#l00031">cbException::ShowErrorMessage()</a>, <a class="el" href="pluginmanager_8h_source#l00040">PluginInfo::title</a>, <a class="el" href="configmanager_8cpp_source#l00805">ConfigManager::Write()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/interface_2wx_2string_8h.html#a9a321d587166a30017b608dd2d234033">wxEmptyString</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/defs_8h.html#a2b7290c6fea9862351d15a8f695147b5">wxICON_WARNING</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/defs_8h.html#ac66d0a09761e7d86b2ac0b2e0c6a8cbba6afbf7b34a4a04053eaeb7634295f0fc">wxID_NO</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/defs_8h.html#ac66d0a09761e7d86b2ac0b2e0c6a8cbbac2e6ec2b9ec8438956b0fd3d1d9d6343">wxID_YES</a>, and <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/defs_8h.html#a5ba00a09cea0417a2ef7c4a4c2b0012c">wxYES_NO</a>.</p>
+<p class="reference">References <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga8a02b8875a521df57263a9e6f090f2d0">_()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga7dfc2888539861afe6c4337ef315472b">_T</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#a6418ec90c6d4ffe0b05702be1b35df4f">wxString::c_str()</a>, <a class="el" href="globals_8cpp_source#l01395">cbMessageBox()</a>, <a class="el" href="manager_8cpp_source#l00182">Manager::Get()</a>, <a class="el" href="manager_8cpp_source#l00474">Manager::GetConfigManager()</a>, <a class="el" href="manager_8cpp_source#l00439">Manager::GetLogManager()</a>, <a class="el" href="pluginmanager_8h_source#l00054">PluginElement::info</a>, <a class="el" href="cbplugin_8h_source#l00187">cbPlugin::IsAttached()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#ace32756bab999f8aae9be0cf981fc449">wxString::IsEmpty()</a>, <a class="el" href="logmanager_8h_source#l00140">LogManager::Log()</a>, <a class="el" href="pluginmanager_8h_source#l00040">PluginInfo::name</a>, <a class="el" href="pluginmanager_8h_source#l00058">PluginElement::plugin</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#a9588b7f2684b9a6a924dc3746a2b2f8d">wxString::Printf()</a>, <a class="el" href="configmanager_8cpp_source#l00895">ConfigManager::Read()</a>, <a class="el" href="configmanager_8cpp_source#l01044">ConfigManager::ReadBool()</a>, <a class="el" href="cbexception_8cpp_source#l00031">cbException::ShowErrorMessage()</a>, <a class="el" href="pluginmanager_8h_source#l00041">PluginInfo::title</a>, <a class="el" href="configmanager_8cpp_source#l00859">ConfigManager::Write()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/interface_2wx_2string_8h.html#a9a321d587166a30017b608dd2d234033">wxEmptyString</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/defs_8h.html#a2b7290c6fea9862351d15a8f695147b5">wxICON_WARNING</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/defs_8h.html#ac66d0a09761e7d86b2ac0b2e0c6a8cbba6afbf7b34a4a04053eaeb7634295f0fc">wxID_NO</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/defs_8h.html#ac66d0a09761e7d86b2ac0b2e0c6a8cbbac2e6ec2b9ec8438956b0fd3d1d9d6343">wxID_YES</a>, and <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/defs_8h.html#a5ba00a09cea0417a2ef7c4a4c2b0012c">wxYES_NO</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="main_8cpp_source#l01188">MainFrame::ScanForPlugins()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="main_8cpp_source#l01183">MainFrame::ScanForPlugins()</a>.</p>
 
 </div>
 </div>
@@ -1038,9 +1206,9 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="pluginmanager_8cpp_source#l01002">1002</a> of file <a class="el" href="pluginmanager_8cpp_source">pluginmanager.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="pluginmanager_8cpp_source#l01004">1004</a> of file <a class="el" href="pluginmanager_8cpp_source">pluginmanager.cpp</a>.</p>
 
-<p class="reference">References <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga7dfc2888539861afe6c4337ef315472b">_T</a>, <a class="el" href="pluginmanager_8h_source#l00173">PluginManager::PluginRegistration::createProc</a>, <a class="el" href="logmanager_8h_source#l00128">LogManager::DebugLog()</a>, <a class="el" href="logmanager_8h_source#l00020">F()</a>, <a class="el" href="pluginmanager_8h_source#l00054">PluginElement::fileName</a>, <a class="el" href="pluginmanager_8h_source#l00056">PluginElement::freeProc</a>, <a class="el" href="pluginmanager_8h_source#l00174">PluginManager::PluginRegistration::freeProc</a>, <a class="el" href="manager_8cpp_source#l00187">Manager::Get()</a>, <a class="el" href="manager_8cpp_source#l00443">Manager::GetLogManager()</a>, <a class="el" href="pluginmanager_8h_source#l00053">PluginElement::info</a>, <a class="el" href="pluginmanager_8h_source#l00176">PluginManager::PluginRegistration::info</a>, <a class="el" href="pluginmanager_8h_source#l00055">PluginElement::library</a>, <a class="el" href="pluginmanager_8cpp_source#l00101">LibLoader::LoadLibrary()</a>, <a class="el" href="logmanager_8h_source#l00124">LogManager::LogError()</a>, <a class="el" href="pluginmanager_8h_source#l00172">PluginManager::PluginRegistration::name</a>, <a class="el" href="pluginmanager_8h_source#l00057">PluginElement::plugin</a>, <a class="el" href="pluginmanager_8cpp_source#l00118">LibLoader::RemoveLibrary()</a>, <a class="el" href="cbexception_8cpp_source#l00031">cbException::ShowErrorMessage()</a>, and <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#a667b135c20008042653f82b739f6c3ab">wxString::wx_str()</a>.</p>
+<p class="reference">References <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga7dfc2888539861afe6c4337ef315472b">_T</a>, <a class="el" href="pluginmanager_8h_source#l00207">PluginManager::PluginRegistration::createProc</a>, <a class="el" href="logmanager_8h_source#l00146">LogManager::DebugLog()</a>, <a class="el" href="logmanager_8h_source#l00020">F()</a>, <a class="el" href="pluginmanager_8h_source#l00055">PluginElement::fileName</a>, <a class="el" href="pluginmanager_8h_source#l00057">PluginElement::freeProc</a>, <a class="el" href="pluginmanager_8h_source#l00208">PluginManager::PluginRegistration::freeProc</a>, <a class="el" href="manager_8cpp_source#l00182">Manager::Get()</a>, <a class="el" href="manager_8cpp_source#l00439">Manager::GetLogManager()</a>, <a class="el" href="cbplugin_8h_source#l00097">cbPlugin::GetType()</a>, <a class="el" href="pluginmanager_8h_source#l00054">PluginElement::info</a>, <a class="el" href="pluginmanager_8h_source#l00210">PluginManager::PluginRegistration::info</a>, <a class="el" href="pluginmanager_8h_source#l00056">PluginElement::library</a>, <a class="el" href="pluginmanager_8cpp_source#l00103">LibLoader::LoadLibrary()</a>, <a class="el" href="logmanager_8h_source#l00142">LogManager::LogError()</a>, <a class="el" href="pluginmanager_8h_source#l00206">PluginManager::PluginRegistration::name</a>, <a class="el" href="pluginmanager_8h_source#l00058">PluginElement::plugin</a>, <a class="el" href="globals_8h_source#l00029">ptCompiler</a>, <a class="el" href="pluginmanager_8cpp_source#l00120">LibLoader::RemoveLibrary()</a>, <a class="el" href="cbexception_8cpp_source#l00031">cbException::ShowErrorMessage()</a>, and <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#a667b135c20008042653f82b739f6c3ab">wxString::wx_str()</a>.</p>
 
 </div>
 </div>
@@ -1060,11 +1228,11 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="pluginmanager_8cpp_source#l01435">1435</a> of file <a class="el" href="pluginmanager_8cpp_source">pluginmanager.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="pluginmanager_8cpp_source#l01520">1520</a> of file <a class="el" href="pluginmanager_8cpp_source">pluginmanager.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="manager_8cpp_source#l00187">Manager::Get()</a>, and <a class="el" href="manager_8cpp_source#l00250">Manager::ProcessEvent()</a>.</p>
+<p class="reference">References <a class="el" href="manager_8cpp_source#l00182">Manager::Get()</a>, and <a class="el" href="manager_8cpp_source#l00246">Manager::ProcessEvent()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="projectmanager_8cpp_source#l00712">ProjectManager::AddFileToProject()</a>, <a class="el" href="projectmanager_8cpp_source#l00740">ProjectManager::AddMultipleFilesToProject()</a>, <a class="el" href="projectmanager_8cpp_source#l00416">ProjectManager::CloseProject()</a>, <a class="el" href="projectmanager_8cpp_source#l00576">ProjectManager::CloseWorkspace()</a>, <a class="el" href="debuggergdb_8cpp_source#l01573">DebuggerGDB::DoBreak()</a>, <a class="el" href="debuggergdb_8cpp_source#l00665">DebuggerGDB::DoDebug()</a>, <a class="el" href="cbstyledtextctrl_8cpp_source#l00476">cbStyledTextCtrl::EmulateDwellStart()</a>, <a class="el" href="projectmanager_8cpp_source#l01059">ProjectManager::EndLoadingWorkspace()</a>, <a class="el" href="projectmanager_8cpp_source#l00543">ProjectManager::LoadWorkspace()</a>, <a class="el" href="editormanager_8cpp_source#l00472">EditorManager::New()</a>, <a class="el" href="cbeditor_8cpp_source#l00810">cbEditor::NotifyPlugins()</a>, <a class="el" href="projectoptionsdlg_8cpp_source#l00633">ProjectOptionsDlg::OnAddBuildTargetClick()</a>, <a class="el" href="projectoptionsdlg_8cpp_source#l00578">ProjectOptionsDlg::OnBuildOrderClick()</a>, <a class="el" href="projectoptionsdlg_8cpp_source#l00570">ProjectOptionsDlg::OnBuildTargetChanged()</a>, <a class="el" href="projectoptionsdlg_8cpp_source#l00688">ProjectOptionsDlg::OnCopyBuildTargetClick()</a>, <a class="el" href="projectoptionsdlg_8cpp_source#l00659">ProjectOptionsDlg::OnEditBuildTargetClick()</a>, <a class="el" href="main_8cpp_source#l02304">MainFrame::OnFileNewWhat()</a>, <a class="el" href="debuggergdb_8cpp_source#l01847">DebuggerGDB::OnGDBTerminated()</a>, <a class="el" href="editormanager_8cpp_source#l01426">EditorManager::OnPageChanged()</a>, <a class="el" href="editormanager_8cpp_source#l01474">EditorManager::OnPageChanging()</a>, <a class="el" href="editormanager_8cpp_source#l01486">EditorManager::OnPageClose()</a>, <a class="el" href="projectoptionsdlg_8cpp_source#l00722">ProjectOptionsDlg::OnRemoveBuildTargetClick()</a>, <a class="el" href="projectmanager_8cpp_source#l00944">ProjectManager::RemoveFileFromProject()</a>, <a class="el" href="main_8cpp_source#l01188">MainFrame::ScanForPlugins()</a>, <a class="el" href="editormanager_8cpp_source#l00447">EditorManager::SetActiveEditor()</a>, <a class="el" href="projectmanager_8cpp_source#l00159">ProjectManager::SetProject()</a>, <a class="el" href="projectmanager_8cpp_source#l00930">ProjectManager::WorkspaceChanged()</a>, and <a class="el" href="editorbase_8cpp_source#l00129">EditorBase::~EditorBase()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="projectmanager_8cpp_source#l00723">ProjectManager::AddFileToProject()</a>, <a class="el" href="projectmanager_8cpp_source#l00751">ProjectManager::AddMultipleFilesToProject()</a>, <a class="el" href="projectmanager_8cpp_source#l00419">ProjectManager::CloseProject()</a>, <a class="el" href="projectmanager_8cpp_source#l00587">ProjectManager::CloseWorkspace()</a>, <a class="el" href="debuggergdb_8cpp_source#l01615">DebuggerGDB::DoBreak()</a>, <a class="el" href="debuggergdb_8cpp_source#l00707">DebuggerGDB::DoDebug()</a>, <a class="el" href="cbstyledtextctrl_8cpp_source#l00482">cbStyledTextCtrl::EmulateDwellStart()</a>, <a class="el" href="projectmanager_8cpp_source#l01070">ProjectManager::EndLoadingWorkspace()</a>, <a class="el" href="projectmanager_8cpp_source#l00547">ProjectManager::LoadWorkspace()</a>, <a class="el" href="editormanager_8cpp_source#l00476">EditorManager::New()</a>, <a class="el" href="cbeditor_8cpp_source#l00812">cbEditor::NotifyPlugins()</a>, <a class="el" href="projectoptionsdlg_8cpp_source#l00629">ProjectOptionsDlg::OnAddBuildTargetClick()</a>, <a class="el" href="projectoptionsdlg_8cpp_source#l00575">ProjectOptionsDlg::OnBuildOrderClick()</a>, <a class="el" href="projectoptionsdlg_8cpp_source#l00567">ProjectOptionsDlg::OnBuildTargetChanged()</a>, <a class="el" href="projectoptionsdlg_8cpp_source#l00684">ProjectOptionsDlg::OnCopyBuildTargetClick()</a>, <a class="el" href="projectoptionsdlg_8cpp_source#l00655">ProjectOptionsDlg::OnEditBuildTargetClick()</a>, <a class="el" href="main_8cpp_source#l02310">MainFrame::OnFileNewWhat()</a>, <a class="el" href="debuggergdb_8cpp_source#l01889">DebuggerGDB::OnGDBTerminated()</a>, <a class="el" href="editormanager_8cpp_source#l01467">EditorManager::OnPageChanged()</a>, <a class="el" href="editormanager_8cpp_source#l01515">EditorManager::OnPageChanging()</a>, <a class="el" href="editormanager_8cpp_source#l01527">EditorManager::OnPageClose()</a>, <a class="el" href="projectoptionsdlg_8cpp_source#l00718">ProjectOptionsDlg::OnRemoveBuildTargetClick()</a>, <a class="el" href="projectmanager_8cpp_source#l00955">ProjectManager::RemoveFileFromProject()</a>, <a class="el" href="main_8cpp_source#l01183">MainFrame::ScanForPlugins()</a>, <a class="el" href="editormanager_8cpp_source#l00451">EditorManager::SetActiveEditor()</a>, <a class="el" href="projectmanager_8cpp_source#l00162">ProjectManager::SetProject()</a>, <a class="el" href="projectmanager_8cpp_source#l00941">ProjectManager::WorkspaceChanged()</a>, and <a class="el" href="editorbase_8cpp_source#l00129">EditorBase::~EditorBase()</a>.</p>
 
 </div>
 </div>
@@ -1084,9 +1252,9 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="pluginmanager_8cpp_source#l01440">1440</a> of file <a class="el" href="pluginmanager_8cpp_source">pluginmanager.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="pluginmanager_8cpp_source#l01525">1525</a> of file <a class="el" href="pluginmanager_8cpp_source">pluginmanager.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="manager_8cpp_source#l00187">Manager::Get()</a>, and <a class="el" href="manager_8cpp_source#l00250">Manager::ProcessEvent()</a>.</p>
+<p class="reference">References <a class="el" href="manager_8cpp_source#l00182">Manager::Get()</a>, and <a class="el" href="manager_8cpp_source#l00246">Manager::ProcessEvent()</a>.</p>
 
 </div>
 </div>
@@ -1106,9 +1274,9 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="pluginmanager_8cpp_source#l01445">1445</a> of file <a class="el" href="pluginmanager_8cpp_source">pluginmanager.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="pluginmanager_8cpp_source#l01530">1530</a> of file <a class="el" href="pluginmanager_8cpp_source">pluginmanager.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="manager_8cpp_source#l00187">Manager::Get()</a>, and <a class="el" href="manager_8cpp_source#l00250">Manager::ProcessEvent()</a>.</p>
+<p class="reference">References <a class="el" href="manager_8cpp_source#l00182">Manager::Get()</a>, and <a class="el" href="manager_8cpp_source#l00246">Manager::ProcessEvent()</a>.</p>
 
 </div>
 </div>
@@ -1136,7 +1304,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="pluginmanager_8cpp_source#l01388">1388</a> of file <a class="el" href="pluginmanager_8cpp_source">pluginmanager.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="pluginmanager_8cpp_source#l01473">1473</a> of file <a class="el" href="pluginmanager_8cpp_source">pluginmanager.cpp</a>.</p>
 
 <p class="reference">References <a class="el" href="sc__plugin_8cpp_source#l00162">ScriptBindings::ScriptPluginWrapper::OnScriptMenu()</a>.</p>
 
@@ -1166,11 +1334,11 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="pluginmanager_8cpp_source#l01393">1393</a> of file <a class="el" href="pluginmanager_8cpp_source">pluginmanager.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="pluginmanager_8cpp_source#l01478">1478</a> of file <a class="el" href="pluginmanager_8cpp_source">pluginmanager.cpp</a>.</p>
 
 <p class="reference">References <a class="el" href="sc__plugin_8cpp_source#l00187">ScriptBindings::ScriptPluginWrapper::OnScriptModuleMenu()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="pluginmanager_8cpp_source#l01360">AskPluginsForModuleMenu()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="pluginmanager_8cpp_source#l01374">AskPluginsForModuleMenu()</a>.</p>
 
 </div>
 </div>
@@ -1208,9 +1376,9 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="pluginmanager_8cpp_source#l00861">861</a> of file <a class="el" href="pluginmanager_8cpp_source">pluginmanager.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="pluginmanager_8cpp_source#l00863">863</a> of file <a class="el" href="pluginmanager_8cpp_source">pluginmanager.cpp</a>.</p>
 
-<p class="reference">References <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga7dfc2888539861afe6c4337ef315472b">_T</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_array_string.html#af06b61455118d83a24183c3a9f6854b1">wxArrayString::Add()</a>, <a class="el" href="globals_8cpp_source#l00724">cbC2U()</a>, <a class="el" href="globals_8cpp_source#l00734">cbU2C()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_array_string.html#aad1c8fe1dd445b359a633cdd6c5940ce">wxArrayString::Clear()</a>, <a class="el" href="manager_8cpp_source#l00187">Manager::Get()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_file_name.html#af1a43f651750f2b8a44adf08bb5db7a3">wxFileName::GetFullName()</a>, <a class="el" href="manager_8cpp_source#l00443">Manager::GetLogManager()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_f_s_file.html#a0508b48f21d366aa209eed0b848a303b">wxFSFile::GetStream()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#ace32756bab999f8aae9be0cf981fc449">wxString::IsEmpty()</a>, <a class="el" href="configmanager_8cpp_source#l00579">ConfigManager::LocateDataFile()</a>, <a class="el" href="logmanager_8h_source#l00124">LogManager::LogError()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_file_system.html#a01c6b989e86e34da21e94c802e516b16">wxFileSystem::OpenFile()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#a9a83357210198cefd2d7d1411db1838d">wxString::Remove()</a>, <a class="el" href="configmanager_8h_source#l00081">sdDataGlobal</a>, <a class="el" href="configmanager_8h_source#l00075">sdDataUser</a>, <a class="el" href="configmanager_8h_source#l00079">sdPluginsGlobal</a>, <a class="el" href="configmanager_8h_source#l00073">sdPluginsUser</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_file_name.html#a65c37fa5017b400d41009bbab56f2774">wxFileName::SetExt()</a>, and <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#a627b084ee8088734e1b28ee23d67f7bb">wxString::StartsWith()</a>.</p>
+<p class="reference">References <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga7dfc2888539861afe6c4337ef315472b">_T</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_array_string.html#af06b61455118d83a24183c3a9f6854b1">wxArrayString::Add()</a>, <a class="el" href="globals_8cpp_source#l00733">cbC2U()</a>, <a class="el" href="globals_8cpp_source#l00743">cbU2C()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_array_string.html#aad1c8fe1dd445b359a633cdd6c5940ce">wxArrayString::Clear()</a>, <a class="el" href="manager_8cpp_source#l00182">Manager::Get()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_file_name.html#af1a43f651750f2b8a44adf08bb5db7a3">wxFileName::GetFullName()</a>, <a class="el" href="manager_8cpp_source#l00439">Manager::GetLogManager()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_f_s_file.html#a0508b48f21d366aa209eed0b848a303b">wxFSFile::GetStream()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#ace32756bab999f8aae9be0cf981fc449">wxString::IsEmpty()</a>, <a class="el" href="configmanager_8cpp_source#l00633">ConfigManager::LocateDataFile()</a>, <a class="el" href="logmanager_8h_source#l00142">LogManager::LogError()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_file_system.html#a01c6b989e86e34da21e94c802e516b16">wxFileSystem::OpenFile()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#a9a83357210198cefd2d7d1411db1838d">wxString::Remove()</a>, <a class="el" href="configmanager_8h_source#l00081">sdDataGlobal</a>, <a class="el" href="configmanager_8h_source#l00075">sdDataUser</a>, <a class="el" href="configmanager_8h_source#l00079">sdPluginsGlobal</a>, <a class="el" href="configmanager_8h_source#l00073">sdPluginsUser</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_file_name.html#a65c37fa5017b400d41009bbab56f2774">wxFileName::SetExt()</a>, and <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#a627b084ee8088734e1b28ee23d67f7bb">wxString::StartsWith()</a>.</p>
 
 </div>
 </div>
@@ -1255,9 +1423,79 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 <dl class="section return"><dt>Returns</dt><dd>True if the plugin should be loaded, false if not. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="pluginmanager_8cpp_source#l00720">720</a> of file <a class="el" href="pluginmanager_8cpp_source">pluginmanager.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="pluginmanager_8cpp_source#l00722">722</a> of file <a class="el" href="pluginmanager_8cpp_source">pluginmanager.cpp</a>.</p>
 
-<p class="reference">References <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga7dfc2888539861afe6c4337ef315472b">_T</a>, <a class="el" href="pluginmanager_8h_source#l00043">PluginInfo::author</a>, <a class="el" href="pluginmanager_8h_source#l00044">PluginInfo::authorEmail</a>, <a class="el" href="pluginmanager_8h_source#l00045">PluginInfo::authorWebsite</a>, <a class="el" href="globals_8cpp_source#l00724">cbC2U()</a>, <a class="el" href="globals_8cpp_source#l00734">cbU2C()</a>, <a class="el" href="pluginmanager_8h_source#l00042">PluginInfo::description</a>, <a class="el" href="manager_8cpp_source#l00187">Manager::Get()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_file_name.html#af1a43f651750f2b8a44adf08bb5db7a3">wxFileName::GetFullName()</a>, <a class="el" href="manager_8cpp_source#l00443">Manager::GetLogManager()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_f_s_file.html#a0508b48f21d366aa209eed0b848a303b">wxFSFile::GetStream()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#ace32756bab999f8aae9be0cf981fc449">wxString::IsEmpty()</a>, <a class="el" href="pluginmanager_8h_source#l00047">PluginInfo::license</a>, <a class="el" href="configmanager_8cpp_source#l00579">ConfigManager::LocateDataFile()</a>, <a class="el" href="logmanager_8h_source#l00124">LogManager::LogError()</a>, <a class="el" href="pluginmanager_8h_source#l00039">PluginInfo::name</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_file_system.html#a01c6b989e86e34da21e94c802e516b16">wxFileSystem::OpenFile()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#a9a83357210198cefd2d7d1411db1838d">wxString::Remove()</a>, <a class="el" href="configmanager_8h_source#l00081">sdDataGlobal</a>, <a class="el" href="configmanager_8h_source#l00075">sdDataUser</a>, <a class="el" href="configmanager_8h_source#l00079">sdPluginsGlobal</a>, <a class="el" href="configmanager_8h_source#l00073">sdPluginsUser</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_file_name.html#a65c37fa5017b400d41009bbab56f2774">wxFileName::SetExt()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#a627b084ee8088734e1b28ee23d67f7bb">wxString::StartsWith()</a>, <a class="el" href="pluginmanager_8h_source#l00046">PluginInfo::thanksTo</a>, <a class="el" href="pluginmanager_8h_source#l00040">PluginInfo::title</a>, <a class="el" href="pluginmanager_8h_source#l00041">PluginInfo::version</a>, and <a class="el" href="configmanager_8cpp_source#l00080">CfgMgrConsts::version</a>.</p>
+<p class="reference">References <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga7dfc2888539861afe6c4337ef315472b">_T</a>, <a class="el" href="pluginmanager_8h_source#l00044">PluginInfo::author</a>, <a class="el" href="pluginmanager_8h_source#l00045">PluginInfo::authorEmail</a>, <a class="el" href="pluginmanager_8h_source#l00046">PluginInfo::authorWebsite</a>, <a class="el" href="globals_8cpp_source#l00733">cbC2U()</a>, <a class="el" href="globals_8cpp_source#l00743">cbU2C()</a>, <a class="el" href="pluginmanager_8h_source#l00043">PluginInfo::description</a>, <a class="el" href="manager_8cpp_source#l00182">Manager::Get()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_file_name.html#af1a43f651750f2b8a44adf08bb5db7a3">wxFileName::GetFullName()</a>, <a class="el" href="manager_8cpp_source#l00439">Manager::GetLogManager()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_f_s_file.html#a0508b48f21d366aa209eed0b848a303b">wxFSFile::GetStream()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#ace32756bab999f8aae9be0cf981fc449">wxString::IsEmpty()</a>, <a class="el" href="pluginmanager_8h_source#l00048">PluginInfo::license</a>, <a class="el" href="configmanager_8cpp_source#l00633">ConfigManager::LocateDataFile()</a>, <a class="el" href="logmanager_8h_source#l00142">LogManager::LogError()</a>, <a class="el" href="pluginmanager_8h_source#l00040">PluginInfo::name</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_file_system.html#a01c6b989e86e34da21e94c802e516b16">wxFileSystem::OpenFile()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#a9a83357210198cefd2d7d1411db1838d">wxString::Remove()</a>, <a class="el" href="configmanager_8h_source#l00081">sdDataGlobal</a>, <a class="el" href="configmanager_8h_source#l00075">sdDataUser</a>, <a class="el" href="configmanager_8h_source#l00079">sdPluginsGlobal</a>, <a class="el" href="configmanager_8h_source#l00073">sdPluginsUser</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_file_name.html#a65c37fa5017b400d41009bbab56f2774">wxFileName::SetExt()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#a627b084ee8088734e1b28ee23d67f7bb">wxString::StartsWith()</a>, <a class="el" href="pluginmanager_8h_source#l00047">PluginInfo::thanksTo</a>, <a class="el" href="pluginmanager_8h_source#l00041">PluginInfo::title</a>, <a class="el" href="pluginmanager_8h_source#l00042">PluginInfo::version</a>, and <a class="el" href="configmanager_8cpp_source#l00082">CfgMgrConsts::version</a>.</p>
+
+</div>
+</div>
+<a id="ml-RegisterFindMenuItems"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ml-RegisterFindMenuItems">&#9670;&nbsp;</a></span>RegisterFindMenuItems()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void PluginManager::RegisterFindMenuItems </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>before</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>count</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Can be called by plugins' BuildModuleMenu when building the <a class="el" href="classEditorManager">EditorManager</a>'s context menu. </p>
+<p>This method has two purposes:</p><ol type="1">
+<li>to control the number of find related items in the menu</li>
+<li>to control the number of items that are placed before the find related items. <dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">before</td><td>Pass true when you're adding items before the find group and false when adding in the find group. </td></tr>
+    <tr><td class="paramname">count</td><td>The number of items you're adding to the menu. </td></tr>
+  </table>
+  </dd>
+</dl>
+</li>
+</ol>
+
+<p class="definition">Definition at line <a class="el" href="pluginmanager_8cpp_source#l01414">1414</a> of file <a class="el" href="pluginmanager_8cpp_source">pluginmanager.cpp</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="cbeditor_8cpp_source#l02843">cbEditor::AddToContextMenu()</a>, <a class="el" href="debuggermenu_8cpp_source#l00405">DebuggerMenuHandler::BuildContextMenu()</a>, and <a class="el" href="codecompletion_8cpp_source#l00745">CodeCompletion::BuildModuleMenu()</a>.</p>
+
+</div>
+</div>
+<a id="kz-RegisterLastNonPluginMenuItem"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#kz-RegisterLastNonPluginMenuItem">&#9670;&nbsp;</a></span>RegisterLastNonPluginMenuItem()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void PluginManager::RegisterLastNonPluginMenuItem </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>id</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Called by the editor code which adds the non-plugin related menu items to store the id of the last fixed menu item. </p>
+<p>Must not be called by plugins. </p>
+
+<p class="definition">Definition at line <a class="el" href="pluginmanager_8cpp_source#l01432">1432</a> of file <a class="el" href="pluginmanager_8cpp_source">pluginmanager.cpp</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="cbeditor_8cpp_source#l02843">cbEditor::AddToContextMenu()</a>.</p>
 
 </div>
 </div>
@@ -1299,9 +1537,9 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="pluginmanager_8cpp_source#l00663">663</a> of file <a class="el" href="pluginmanager_8cpp_source">pluginmanager.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="pluginmanager_8cpp_source#l00665">665</a> of file <a class="el" href="pluginmanager_8cpp_source">pluginmanager.cpp</a>.</p>
 
-<p class="reference">References <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga8a02b8875a521df57263a9e6f090f2d0">_()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga7dfc2888539861afe6c4337ef315472b">_T</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#a6418ec90c6d4ffe0b05702be1b35df4f">wxString::c_str()</a>, <a class="el" href="pluginmanager_8h_source#l00173">PluginManager::PluginRegistration::createProc</a>, <a class="el" href="pluginmanager_8h_source#l00174">PluginManager::PluginRegistration::freeProc</a>, <a class="el" href="manager_8cpp_source#l00187">Manager::Get()</a>, <a class="el" href="manager_8cpp_source#l00443">Manager::GetLogManager()</a>, <a class="el" href="pluginmanager_8h_source#l00176">PluginManager::PluginRegistration::info</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#ace32756bab999f8aae9be0cf981fc449">wxString::IsEmpty()</a>, <a class="el" href="logmanager_8h_source#l00124">LogManager::LogError()</a>, <a class="el" href="pluginmanager_8h_source#l00039">PluginInfo::name</a>, <a class="el" href="pluginmanager_8h_source#l00172">PluginManager::PluginRegistration::name</a>, <a class="el" href="cbplugin_8h_source#l00039">PLUGIN_SDK_VERSION_MAJOR</a>, <a class="el" href="cbplugin_8h_source#l00040">PLUGIN_SDK_VERSION_MINOR</a>, <a class="el" href="cbplugin_8h_source#l00041">PLUGIN_SDK_VERSION_RELEASE</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#a9588b7f2684b9a6a924dc3746a2b2f8d">wxString::Printf()</a>, and <a class="el" href="pluginmanager_8h_source#l00175">PluginManager::PluginRegistration::versionProc</a>.</p>
+<p class="reference">References <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga8a02b8875a521df57263a9e6f090f2d0">_()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga7dfc2888539861afe6c4337ef315472b">_T</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#a6418ec90c6d4ffe0b05702be1b35df4f">wxString::c_str()</a>, <a class="el" href="pluginmanager_8h_source#l00207">PluginManager::PluginRegistration::createProc</a>, <a class="el" href="pluginmanager_8h_source#l00208">PluginManager::PluginRegistration::freeProc</a>, <a class="el" href="manager_8cpp_source#l00182">Manager::Get()</a>, <a class="el" href="manager_8cpp_source#l00439">Manager::GetLogManager()</a>, <a class="el" href="pluginmanager_8h_source#l00210">PluginManager::PluginRegistration::info</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#ace32756bab999f8aae9be0cf981fc449">wxString::IsEmpty()</a>, <a class="el" href="logmanager_8h_source#l00142">LogManager::LogError()</a>, <a class="el" href="pluginmanager_8h_source#l00040">PluginInfo::name</a>, <a class="el" href="pluginmanager_8h_source#l00206">PluginManager::PluginRegistration::name</a>, <a class="el" href="cbplugin_8h_source#l00039">PLUGIN_SDK_VERSION_MAJOR</a>, <a class="el" href="cbplugin_8h_source#l00040">PLUGIN_SDK_VERSION_MINOR</a>, <a class="el" href="cbplugin_8h_source#l00041">PLUGIN_SDK_VERSION_RELEASE</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#a9588b7f2684b9a6a924dc3746a2b2f8d">wxString::Printf()</a>, and <a class="el" href="pluginmanager_8h_source#l00209">PluginManager::PluginRegistration::versionProc</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="cbplugin_8h_source#l01103">PluginRegistrant&lt; T &gt;::PluginRegistrant()</a>.</p>
 
@@ -1323,7 +1561,31 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="pluginmanager_8cpp_source#l00183">183</a> of file <a class="el" href="pluginmanager_8cpp_source">pluginmanager.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="pluginmanager_8cpp_source#l00185">185</a> of file <a class="el" href="pluginmanager_8cpp_source">pluginmanager.cpp</a>.</p>
+
+</div>
+</div>
+<a id="ld-ResetModuleMenu"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ld-ResetModuleMenu">&#9670;&nbsp;</a></span>ResetModuleMenu()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void PluginManager::ResetModuleMenu </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Called by the code creating the context menu for the editor. </p>
+<p>Must not be called by plugins. </p>
+
+<p class="definition">Definition at line <a class="el" href="pluginmanager_8cpp_source#l01407">1407</a> of file <a class="el" href="pluginmanager_8cpp_source">pluginmanager.cpp</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="editorbase_8cpp_source#l00271">EditorBase::DisplayContextMenu()</a>.</p>
 
 </div>
 </div>
@@ -1343,11 +1605,11 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="pluginmanager_8cpp_source#l00929">929</a> of file <a class="el" href="pluginmanager_8cpp_source">pluginmanager.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="pluginmanager_8cpp_source#l00931">931</a> of file <a class="el" href="pluginmanager_8cpp_source">pluginmanager.cpp</a>.</p>
 
-<p class="reference">References <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga8a02b8875a521df57263a9e6f090f2d0">_()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga7dfc2888539861afe6c4337ef315472b">_T</a>, <a class="el" href="configmanager_8cpp_source#l01716">cbReadBatchBuildPlugins()</a>, <a class="el" href="infowindow_8cpp_source#l00294">InfoWindow::Display()</a>, <a class="el" href="logmanager_8h_source#l00020">F()</a>, <a class="el" href="manager_8cpp_source#l00187">Manager::Get()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_array_string.html#ad2a491f799c8d6539dc64d06f2c37ac6">wxArrayString::GetCount()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_dir.html#a08bad912e7c04ed2b5f7a4e498f77247">wxDir::GetFirst()</a>, <a class="el" href="manager_8cpp_source#l00443">Manager::GetLogManager()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_dir.html#a231c28d6814d9ab89eb1be1b9545590e">wxDir::GetNext()</a>, <a class="el" href="manager_8h_source#l00065">Manager::IsBatchBuild()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#ace32756bab999f8aae9be0cf981fc449">wxString::IsEmpty()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_dir.html#a4746350f9d7fa2971d46e2a19a335868">wxDir::IsOpened()</a>, <a class="el" href="logmanager_8h_source#l00122">LogManager::Log()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/dir_8h.html#aa45988fae9ce0d0c4f8312a6cf026232a0f5850a0da2466b891dfd7b4ecc48b23">wxDIR_FILES</a>, and <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__file.html#ga3e960a6805631320fede18bf1176f278">wxDirExists()</a>.</p>
+<p class="reference">References <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga8a02b8875a521df57263a9e6f090f2d0">_()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga7dfc2888539861afe6c4337ef315472b">_T</a>, <a class="el" href="configmanager_8cpp_source#l01772">cbReadBatchBuildPlugins()</a>, <a class="el" href="infowindow_8cpp_source#l00294">InfoWindow::Display()</a>, <a class="el" href="logmanager_8h_source#l00020">F()</a>, <a class="el" href="manager_8cpp_source#l00182">Manager::Get()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_array_string.html#ad2a491f799c8d6539dc64d06f2c37ac6">wxArrayString::GetCount()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_dir.html#a08bad912e7c04ed2b5f7a4e498f77247">wxDir::GetFirst()</a>, <a class="el" href="manager_8cpp_source#l00439">Manager::GetLogManager()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_dir.html#a231c28d6814d9ab89eb1be1b9545590e">wxDir::GetNext()</a>, <a class="el" href="manager_8h_source#l00066">Manager::IsBatchBuild()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#ace32756bab999f8aae9be0cf981fc449">wxString::IsEmpty()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_dir.html#a4746350f9d7fa2971d46e2a19a335868">wxDir::IsOpened()</a>, <a class="el" href="logmanager_8h_source#l00140">LogManager::Log()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/dir_8h.html#aa45988fae9ce0d0c4f8312a6cf026232a0f5850a0da2466b891dfd7b4ecc48b23">wxDIR_FILES</a>, and <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__file.html#ga3e960a6805631320fede18bf1176f278">wxDirExists()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="main_8cpp_source#l01188">MainFrame::ScanForPlugins()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="main_8cpp_source#l01183">MainFrame::ScanForPlugins()</a>.</p>
 
 </div>
 </div>
@@ -1375,9 +1637,9 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="pluginmanager_8h_source#l00129">129</a> of file <a class="el" href="pluginmanager_8h_source">pluginmanager.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="pluginmanager_8h_source#l00163">163</a> of file <a class="el" href="pluginmanager_8h_source">pluginmanager.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="app_8cpp_source#l00556">CodeBlocksApp::OnInit()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="app_8cpp_source#l00572">CodeBlocksApp::OnInit()</a>.</p>
 
 </div>
 </div>
@@ -1397,9 +1659,9 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="pluginmanager_8cpp_source#l01417">1417</a> of file <a class="el" href="pluginmanager_8cpp_source">pluginmanager.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="pluginmanager_8cpp_source#l01502">1502</a> of file <a class="el" href="pluginmanager_8cpp_source">pluginmanager.cpp</a>.</p>
 
-<p class="reference">References <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga7dfc2888539861afe6c4337ef315472b">_T</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#a0352d6eeadcfad0b234e8c9481479a4a">wxString::Cmp()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#addd9ccfa3ae2b7ab2d66bcbf034d0be0">wxString::Format()</a>, <a class="el" href="manager_8cpp_source#l00187">Manager::Get()</a>, <a class="el" href="manager_8cpp_source#l00478">Manager::GetConfigManager()</a>, <a class="el" href="configmanager_8cpp_source#l00841">ConfigManager::Read()</a>, <a class="el" href="configmanager_8cpp_source#l00957">ConfigManager::ReadInt()</a>, <a class="el" href="configmanager_8cpp_source#l00805">ConfigManager::Write()</a>, and <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/interface_2wx_2string_8h.html#a9a321d587166a30017b608dd2d234033">wxEmptyString</a>.</p>
+<p class="reference">References <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga7dfc2888539861afe6c4337ef315472b">_T</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#a0352d6eeadcfad0b234e8c9481479a4a">wxString::Cmp()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#addd9ccfa3ae2b7ab2d66bcbf034d0be0">wxString::Format()</a>, <a class="el" href="manager_8cpp_source#l00182">Manager::Get()</a>, <a class="el" href="manager_8cpp_source#l00474">Manager::GetConfigManager()</a>, <a class="el" href="configmanager_8cpp_source#l00895">ConfigManager::Read()</a>, <a class="el" href="configmanager_8cpp_source#l01011">ConfigManager::ReadInt()</a>, <a class="el" href="configmanager_8cpp_source#l00859">ConfigManager::Write()</a>, and <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/interface_2wx_2string_8h.html#a9a321d587166a30017b608dd2d234033">wxEmptyString</a>.</p>
 
 </div>
 </div>
@@ -1429,9 +1691,9 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="pluginmanager_8cpp_source#l00359">359</a> of file <a class="el" href="pluginmanager_8cpp_source">pluginmanager.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="pluginmanager_8cpp_source#l00361">361</a> of file <a class="el" href="pluginmanager_8cpp_source">pluginmanager.cpp</a>.</p>
 
-<p class="reference">References <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga8a02b8875a521df57263a9e6f090f2d0">_()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga7dfc2888539861afe6c4337ef315472b">_T</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_file.html#a9842fdcc9d4f4b8c74cf73c2dd48be26">wxFile::Access()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#a6418ec90c6d4ffe0b05702be1b35df4f">wxString::c_str()</a>, <a class="el" href="sdk__events_8cpp_source#l00077">cbEVT_PLUGIN_UNINSTALLED</a>, <a class="el" href="globals_8cpp_source#l01381">cbMessageBox()</a>, <a class="el" href="pluginmanager_8h_source#l00054">PluginElement::fileName</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#addd9ccfa3ae2b7ab2d66bcbf034d0be0">wxString::Format()</a>, <a class="el" href="manager_8cpp_source#l00187">Manager::Get()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_array_string.html#ad2a491f799c8d6539dc64d06f2c37ac6">wxArrayString::GetCount()</a>, <a class="el" href="manager_8cpp_source#l00443">Manager::GetLogManager()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_file_name.html#ac6475b655ac68c02a094723f653270e9">wxFileName::GetName()</a>, <a class="el" href="pluginmanager_8h_source#l00053">PluginElement::info</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#ace32756bab999f8aae9be0cf981fc449">wxString::IsEmpty()</a>, <a class="el" href="configmanager_8cpp_source#l00579">ConfigManager::LocateDataFile()</a>, <a class="el" href="logmanager_8h_source#l00123">LogManager::LogWarning()</a>, <a class="el" href="pluginmanager_8h_source#l00057">PluginElement::plugin</a>, <a class="el" href="manager_8cpp_source#l00250">Manager::ProcessEvent()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#a9a83357210198cefd2d7d1411db1838d">wxString::Remove()</a>, <a class="el" href="configmanager_8h_source#l00081">sdDataGlobal</a>, <a class="el" href="configmanager_8h_source#l00075">sdDataUser</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#a627b084ee8088734e1b28ee23d67f7bb">wxString::StartsWith()</a>, <a class="el" href="pluginmanager_8h_source#l00040">PluginInfo::title</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_generic_progress_dialog.html#a1d542cea96c531d85c32d6612bd55a02">wxGenericProgressDialog::Update()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_file.html#ae26cef66ac8e94be0c687c2a0fd569dfabfa8d43f2e87d73f80ae1a181b1544b8">wxFile::write</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__file.html#ga72d2e4ef03d51c0d59c2cb788462d600">wxFileExists()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/defs_8h.html#a2b7290c6fea9862351d15a8f695147b5">wxICON_WARNING</a>, and <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__file.html#ga147f3601590c8c29a97d1101e03b2b90">wxRemoveFile()</a>.</p>
+<p class="reference">References <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga8a02b8875a521df57263a9e6f090f2d0">_()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga7dfc2888539861afe6c4337ef315472b">_T</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_file.html#a9842fdcc9d4f4b8c74cf73c2dd48be26">wxFile::Access()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#a6418ec90c6d4ffe0b05702be1b35df4f">wxString::c_str()</a>, <a class="el" href="sdk__events_8cpp_source#l00077">cbEVT_PLUGIN_UNINSTALLED</a>, <a class="el" href="globals_8cpp_source#l01395">cbMessageBox()</a>, <a class="el" href="pluginmanager_8h_source#l00055">PluginElement::fileName</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#addd9ccfa3ae2b7ab2d66bcbf034d0be0">wxString::Format()</a>, <a class="el" href="manager_8cpp_source#l00182">Manager::Get()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_array_string.html#ad2a491f799c8d6539dc64d06f2c37ac6">wxArrayString::GetCount()</a>, <a class="el" href="manager_8cpp_source#l00439">Manager::GetLogManager()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_file_name.html#ac6475b655ac68c02a094723f653270e9">wxFileName::GetName()</a>, <a class="el" href="pluginmanager_8h_source#l00054">PluginElement::info</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#ace32756bab999f8aae9be0cf981fc449">wxString::IsEmpty()</a>, <a class="el" href="configmanager_8cpp_source#l00633">ConfigManager::LocateDataFile()</a>, <a class="el" href="logmanager_8h_source#l00141">LogManager::LogWarning()</a>, <a class="el" href="pluginmanager_8h_source#l00058">PluginElement::plugin</a>, <a class="el" href="manager_8cpp_source#l00246">Manager::ProcessEvent()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#a9a83357210198cefd2d7d1411db1838d">wxString::Remove()</a>, <a class="el" href="configmanager_8h_source#l00081">sdDataGlobal</a>, <a class="el" href="configmanager_8h_source#l00075">sdDataUser</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#a627b084ee8088734e1b28ee23d67f7bb">wxString::StartsWith()</a>, <a class="el" href="pluginmanager_8h_source#l00041">PluginInfo::title</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_generic_progress_dialog.html#a1d542cea96c531d85c32d6612bd55a02">wxGenericProgressDialog::Update()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_file.html#ae26cef66ac8e94be0c687c2a0fd569dfabfa8d43f2e87d73f80ae1a181b1544b8">wxFile::write</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__file.html#ga72d2e4ef03d51c0d59c2cb788462d600">wxFileExists()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/defs_8h.html#a2b7290c6fea9862351d15a8f695147b5">wxICON_WARNING</a>, and <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__file.html#ga147f3601590c8c29a97d1101e03b2b90">wxRemoveFile()</a>.</p>
 
 </div>
 </div>
@@ -1450,9 +1712,9 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="pluginmanager_8cpp_source#l01123">1123</a> of file <a class="el" href="pluginmanager_8cpp_source">pluginmanager.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="pluginmanager_8cpp_source#l01127">1127</a> of file <a class="el" href="pluginmanager_8cpp_source">pluginmanager.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="pluginmanager_8cpp_source#l00143">LibLoader::Cleanup()</a>.</p>
+<p class="reference">References <a class="el" href="pluginmanager_8cpp_source#l00145">LibLoader::Cleanup()</a>.</p>
 
 </div>
 </div>
@@ -1472,9 +1734,9 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="pluginmanager_8cpp_source#l01135">1135</a> of file <a class="el" href="pluginmanager_8cpp_source">pluginmanager.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="pluginmanager_8cpp_source#l01140">1140</a> of file <a class="el" href="pluginmanager_8cpp_source">pluginmanager.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="pluginmanager_8h_source#l00056">PluginElement::freeProc</a>, <a class="el" href="pluginmanager_8h_source#l00055">PluginElement::library</a>, <a class="el" href="pluginmanager_8h_source#l00057">PluginElement::plugin</a>, and <a class="el" href="pluginmanager_8cpp_source#l00118">LibLoader::RemoveLibrary()</a>.</p>
+<p class="reference">References <a class="el" href="pluginmanager_8h_source#l00057">PluginElement::freeProc</a>, <a class="el" href="cbplugin_8h_source#l00097">cbPlugin::GetType()</a>, <a class="el" href="pluginmanager_8h_source#l00056">PluginElement::library</a>, <a class="el" href="pluginmanager_8h_source#l00058">PluginElement::plugin</a>, <a class="el" href="globals_8h_source#l00029">ptCompiler</a>, and <a class="el" href="pluginmanager_8cpp_source#l00120">LibLoader::RemoveLibrary()</a>.</p>
 
 </div>
 </div>
@@ -1499,7 +1761,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="pluginmanager_8h_source#l00079">79</a> of file <a class="el" href="pluginmanager_8h_source">pluginmanager.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="pluginmanager_8h_source#l00083">83</a> of file <a class="el" href="pluginmanager_8h_source">pluginmanager.h</a>.</p>
 
 </div>
 </div>
@@ -1523,11 +1785,35 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="pluginmanager_8h_source#l00078">78</a> of file <a class="el" href="pluginmanager_8h_source">pluginmanager.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="pluginmanager_8h_source#l00082">82</a> of file <a class="el" href="pluginmanager_8h_source">pluginmanager.h</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
+<a id="dk-m_CompilerPlugins"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#dk-m_CompilerPlugins">&#9670;&nbsp;</a></span>m_CompilerPlugins</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classPluginManager#pc-CompilerPlugins">CompilerPlugins</a> PluginManager::m_CompilerPlugins</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="pluginmanager_8h_source#l00213">213</a> of file <a class="el" href="pluginmanager_8h_source">pluginmanager.h</a>.</p>
+
+</div>
+</div>
 <a id="yl-m_CurrentlyLoadingFilename"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#yl-m_CurrentlyLoadingFilename">&#9670;&nbsp;</a></span>m_CurrentlyLoadingFilename</h2>
 
@@ -1548,7 +1834,79 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="pluginmanager_8h_source#l00150">150</a> of file <a class="el" href="pluginmanager_8h_source">pluginmanager.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="pluginmanager_8h_source#l00184">184</a> of file <a class="el" href="pluginmanager_8h_source">pluginmanager.h</a>.</p>
+
+</div>
+</div>
+<a id="n8-m_FindMenuItemCount"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#n8-m_FindMenuItemCount">&#9670;&nbsp;</a></span>m_FindMenuItemCount</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int PluginManager::m_FindMenuItemCount = 0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="pluginmanager_8h_source#l00215">215</a> of file <a class="el" href="pluginmanager_8h_source">pluginmanager.h</a>.</p>
+
+</div>
+</div>
+<a id="gt-m_FindMenuItemFirst"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gt-m_FindMenuItemFirst">&#9670;&nbsp;</a></span>m_FindMenuItemFirst</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int PluginManager::m_FindMenuItemFirst = 0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="pluginmanager_8h_source#l00216">216</a> of file <a class="el" href="pluginmanager_8h_source">pluginmanager.h</a>.</p>
+
+</div>
+</div>
+<a id="dp-m_LastNonPluginMenuId"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#dp-m_LastNonPluginMenuId">&#9670;&nbsp;</a></span>m_LastNonPluginMenuId</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int PluginManager::m_LastNonPluginMenuId = 0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="pluginmanager_8h_source#l00217">217</a> of file <a class="el" href="pluginmanager_8h_source">pluginmanager.h</a>.</p>
 
 </div>
 </div>
@@ -1572,7 +1930,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="pluginmanager_8h_source#l00151">151</a> of file <a class="el" href="pluginmanager_8h_source">pluginmanager.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="pluginmanager_8h_source#l00185">185</a> of file <a class="el" href="pluginmanager_8h_source">pluginmanager.h</a>.</p>
 
 </div>
 </div>
@@ -1596,7 +1954,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="pluginmanager_8h_source#l00152">152</a> of file <a class="el" href="pluginmanager_8h_source">pluginmanager.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="pluginmanager_8h_source#l00186">186</a> of file <a class="el" href="pluginmanager_8h_source">pluginmanager.h</a>.</p>
 
 </div>
 </div>
@@ -1620,7 +1978,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="pluginmanager_8h_source#l00149">149</a> of file <a class="el" href="pluginmanager_8h_source">pluginmanager.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="pluginmanager_8h_source#l00183">183</a> of file <a class="el" href="pluginmanager_8h_source">pluginmanager.h</a>.</p>
 
 </div>
 </div>
@@ -1644,7 +2002,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="pluginmanager_8h_source#l00178">178</a> of file <a class="el" href="pluginmanager_8h_source">pluginmanager.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="pluginmanager_8h_source#l00212">212</a> of file <a class="el" href="pluginmanager_8h_source">pluginmanager.h</a>.</p>
 
 </div>
 </div>
@@ -1668,9 +2026,9 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="pluginmanager_8h_source#l00180">180</a> of file <a class="el" href="pluginmanager_8h_source">pluginmanager.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="pluginmanager_8h_source#l00219">219</a> of file <a class="el" href="pluginmanager_8h_source">pluginmanager.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="pluginmanager_8cpp_source#l00143">LibLoader::Cleanup()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="pluginmanager_8cpp_source#l00145">LibLoader::Cleanup()</a>.</p>
 
 </div>
 </div>

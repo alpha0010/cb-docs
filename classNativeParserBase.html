@@ -19,7 +19,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Code::Blocks
-   &#160;<span id="projectnumber">SVN r11156</span>
+   &#160;<span id="projectnumber">SVN r11506</span>
    </div>
   </td>
  </tr>
@@ -56,12 +56,14 @@ $(function() {
 <div class="dynheader">
 Inheritance diagram for NativeParserBase:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classNativeParserBase__inherit__graph.svg" width="234" height="1167"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classNativeParserBase__inherit__graph.svg" width="234" height="1167"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 <div class="dynheader">
 Collaboration diagram for NativeParserBase:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classNativeParserBase__coll__graph.svg" width="346" height="1087"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classNativeParserBase__coll__graph.svg" width="348" height="1087"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
@@ -122,10 +124,10 @@ Protected Member Functions</h2></td></tr>
 <tr class="memdesc:er-GetCallTipHighlight"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the start and end of the call-tip highlight region.  <a href="#er-GetCallTipHighlight">More...</a><br /></td></tr>
 <tr class="separator:er-GetCallTipHighlight"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:s5-FindFunctionOpenParenthesis"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNativeParserBase#s5-FindFunctionOpenParenthesis">FindFunctionOpenParenthesis</a> (const <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html">wxString</a> &amp;calltip)</td></tr>
-<tr class="memdesc:s5-FindFunctionOpenParenthesis"><td class="mdescLeft">&#160;</td><td class="mdescRight">for <a class="el" href="classNativeParserBase#er-GetCallTipHighlight" title="Returns the start and end of the call-tip highlight region. ">GetCallTipHighlight()</a> Finds the position of the opening parenthesis marking the beginning of the params.  <a href="#s5-FindFunctionOpenParenthesis">More...</a><br /></td></tr>
+<tr class="memdesc:s5-FindFunctionOpenParenthesis"><td class="mdescLeft">&#160;</td><td class="mdescRight">Finds the position of the opening parenthesis marking the beginning of the params.  <a href="#s5-FindFunctionOpenParenthesis">More...</a><br /></td></tr>
 <tr class="separator:s5-FindFunctionOpenParenthesis"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:v6-GetCCToken"><td class="memItemLeft" align="right" valign="top"><a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html">wxString</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNativeParserBase#v6-GetCCToken">GetCCToken</a> (<a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html">wxString</a> &amp;line, <a class="el" href="classNativeParserBase#u7-ParserTokenType">ParserTokenType</a> &amp;tokenType, <a class="el" href="classNativeParserBase#q3-OperatorType">OperatorType</a> &amp;tokenOperatorType)</td></tr>
-<tr class="memdesc:v6-GetCCToken"><td class="mdescLeft">&#160;</td><td class="mdescRight">helper function to split the statement line contains a string on the following form:  <a href="#v6-GetCCToken">More...</a><br /></td></tr>
+<tr class="memdesc:v6-GetCCToken"><td class="mdescLeft">&#160;</td><td class="mdescRight">helper function to split the statement  <a href="#v6-GetCCToken">More...</a><br /></td></tr>
 <tr class="separator:v6-GetCCToken"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:q8-FindCCTokenStart"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNativeParserBase#q8-FindCCTokenStart">FindCCTokenStart</a> (const <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html">wxString</a> &amp;line)</td></tr>
 <tr class="memdesc:q8-FindCCTokenStart"><td class="mdescLeft">&#160;</td><td class="mdescRight">helper function to split the statement  <a href="#q8-FindCCTokenStart">More...</a><br /></td></tr>
@@ -206,9 +208,10 @@ Static Protected Member Functions</h2></td></tr>
 <tr class="memdesc:ik-BeforeWhitespace"><td class="mdescLeft">&#160;</td><td class="mdescRight">move to the char before whitespace and tabs, e.g.  <a href="#ik-BeforeWhitespace">More...</a><br /></td></tr>
 <tr class="separator:ik-BeforeWhitespace"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:dp-AfterWhitespace"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNativeParserBase#dp-AfterWhitespace">AfterWhitespace</a> (int startAt, const <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html">wxString</a> &amp;line)</td></tr>
-<tr class="memdesc:dp-AfterWhitespace"><td class="mdescLeft">&#160;</td><td class="mdescRight">search from left to right, move to the first character of the space  <a href="#dp-AfterWhitespace">More...</a><br /></td></tr>
+<tr class="memdesc:dp-AfterWhitespace"><td class="mdescLeft">&#160;</td><td class="mdescRight">search from left to right, move the cursor to the first character after the space  <a href="#dp-AfterWhitespace">More...</a><br /></td></tr>
 <tr class="separator:dp-AfterWhitespace"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ii-IsOpeningBracket"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNativeParserBase#ii-IsOpeningBracket">IsOpeningBracket</a> (int startAt, const <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html">wxString</a> &amp;line)</td></tr>
+<tr class="memdesc:ii-IsOpeningBracket"><td class="mdescLeft">&#160;</td><td class="mdescRight">Test whether the current character is a '(' or '['.  <a href="#ii-IsOpeningBracket">More...</a><br /></td></tr>
 <tr class="separator:ii-IsOpeningBracket"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:xe-IsClosingBracket"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNativeParserBase#xe-IsClosingBracket">IsClosingBracket</a> (int startAt, const <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html">wxString</a> &amp;line)</td></tr>
 <tr class="memdesc:xe-IsClosingBracket"><td class="mdescLeft">&#160;</td><td class="mdescRight">check the current char (line[startAt]) is either ')' or ']'  <a href="#xe-IsClosingBracket">More...</a><br /></td></tr>
@@ -313,7 +316,7 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="nativeparser__base_8cpp_source#l00065">65</a> of file <a class="el" href="nativeparser__base_8cpp_source">nativeparser_base.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="nativeparser__base_8h_source#l00068">NativeParserBase::ParserComponent::Clear()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="nativeparser__base_8h_source#l00080">NativeParserBase::ParserComponent::Clear()</a>.</p>
 
 </div>
 </div>
@@ -344,7 +347,7 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="nativeparser__base_8cpp_source#l00069">69</a> of file <a class="el" href="nativeparser__base_8cpp_source">nativeparser_base.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="nativeparser__base_8h_source#l00068">NativeParserBase::ParserComponent::Clear()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="nativeparser__base_8h_source#l00080">NativeParserBase::ParserComponent::Clear()</a>.</p>
 
 </div>
 </div>
@@ -389,11 +392,11 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="nativeparser__base_8h_source#l00614">614</a> of file <a class="el" href="nativeparser__base_8h_source">nativeparser_base.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="nativeparser__base_8h_source#l00669">669</a> of file <a class="el" href="nativeparser__base_8h_source">nativeparser_base.h</a>.</p>
 
 <p class="reference">References <a class="el" href="tokentree_8h_source#l00051">TokenTree::at()</a>, <a class="el" href="token_8h_source#l00268">Token::m_Children</a>, <a class="el" href="token_8h_source#l00231">Token::m_Scope</a>, <a class="el" href="token_8h_source#l00234">Token::m_TokenKind</a>, <a class="el" href="token_8h_source#l00040">tkEnum</a>, and <a class="el" href="token_8h_source#l00024">tsPrivate</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="nativeparser__base_8h_source#l00588">AddChildrenOfUnnamed()</a>, and <a class="el" href="nativeparser__base_8cpp_source#l01221">GenerateResultSet()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="nativeparser__base_8h_source#l00643">AddChildrenOfUnnamed()</a>, and <a class="el" href="nativeparser__base_8cpp_source#l01221">GenerateResultSet()</a>.</p>
 
 </div>
 </div>
@@ -448,9 +451,9 @@ Private Attributes</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>bool true if parent is an unnamed class or enum </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="nativeparser__base_8h_source#l00588">588</a> of file <a class="el" href="nativeparser__base_8h_source">nativeparser_base.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="nativeparser__base_8h_source#l00643">643</a> of file <a class="el" href="nativeparser__base_8h_source">nativeparser_base.h</a>.</p>
 
-<p class="reference">References <a class="el" href="nativeparser__base_8h_source#l00614">AddChildrenOfEnum()</a>, <a class="el" href="tokentree_8h_source#l00051">TokenTree::at()</a>, <a class="el" href="token_8h_source#l00268">Token::m_Children</a>, <a class="el" href="token_8h_source#l00254">Token::m_IsAnonymous</a>, <a class="el" href="token_8h_source#l00231">Token::m_Scope</a>, <a class="el" href="token_8h_source#l00234">Token::m_TokenKind</a>, <a class="el" href="token_8h_source#l00037">tkClass</a>, <a class="el" href="token_8h_source#l00040">tkEnum</a>, and <a class="el" href="token_8h_source#l00024">tsPrivate</a>.</p>
+<p class="reference">References <a class="el" href="nativeparser__base_8h_source#l00669">AddChildrenOfEnum()</a>, <a class="el" href="tokentree_8h_source#l00051">TokenTree::at()</a>, <a class="el" href="token_8h_source#l00268">Token::m_Children</a>, <a class="el" href="token_8h_source#l00254">Token::m_IsAnonymous</a>, <a class="el" href="token_8h_source#l00231">Token::m_Scope</a>, <a class="el" href="token_8h_source#l00234">Token::m_TokenKind</a>, <a class="el" href="token_8h_source#l00037">tkClass</a>, <a class="el" href="token_8h_source#l00040">tkEnum</a>, and <a class="el" href="token_8h_source#l00024">tsPrivate</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="nativeparser__base_8cpp_source#l01221">GenerateResultSet()</a>.</p>
 
@@ -502,7 +505,7 @@ Private Attributes</h2></td></tr>
 
 <p class="reference">References <a class="el" href="tokentree_8h_source#l00051">TokenTree::at()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#a5799047918ccbed5d3166ab9c03be279">wxString::EndsWith()</a>, <a class="el" href="token_8h_source#l00268">Token::m_Children</a>, <a class="el" href="token_8h_source#l00237">Token::m_IsOperator</a>, <a class="el" href="token_8h_source#l00188">Token::m_Name</a>, <a class="el" href="token_8h_source#l00231">Token::m_Scope</a>, <a class="el" href="token_8h_source#l00234">Token::m_TokenKind</a>, <a class="el" href="token_8h_source#l00037">tkClass</a>, <a class="el" href="token_8h_source#l00048">tkConstructor</a>, <a class="el" href="token_8h_source#l00026">tsPublic</a>, <a class="el" href="token_8h_source#l00023">tsUndefined</a>, and <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga437ea6ba615b75dac8603e96ec864160">wxT</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="nativeparser__base_8h_source#l00640">IsChildOfUnnamedOrEnum()</a>, and <a class="el" href="nativeparser__base_8cpp_source#l00740">ResolveExpression()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="nativeparser__base_8h_source#l00695">IsChildOfUnnamedOrEnum()</a>, and <a class="el" href="nativeparser__base_8cpp_source#l00740">ResolveExpression()</a>.</p>
 
 </div>
 </div>
@@ -565,9 +568,9 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="nativeparser__base_8cpp_source#l01160">1160</a> of file <a class="el" href="nativeparser__base_8cpp_source">nativeparser_base.cpp</a>.</p>
 
-<p class="reference">References <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga7dfc2888539861afe6c4337ef315472b">_T</a>, <a class="el" href="tokentree_8h_source#l00051">TokenTree::at()</a>, <a class="el" href="cclogger_8h_source#l00159">CC_LOCKER_TRACK_TT_MTX_LOCK</a>, <a class="el" href="cclogger_8h_source#l00165">CC_LOCKER_TRACK_TT_MTX_UNLOCK</a>, <a class="el" href="tokentree_8h_source#l00063">TokenTree::empty()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#ace32756bab999f8aae9be0cf981fc449">wxString::IsEmpty()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#a9cbac1fb780a7e227d38a85108829f8d">wxString::Last()</a>, <a class="el" href="token_8h_source#l00294">Token::m_TemplateAlias</a>, <a class="el" href="nativeparser__base_8h_source#l00695">m_TemplateMap</a>, <a class="el" href="token_8h_source#l00234">Token::m_TokenKind</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#aa375e1718cb40fd991e89428e620ba82">wxString::RemoveLast()</a>, <a class="el" href="nativeparser__base_8cpp_source#l01086">ResolveActualType()</a>, <a class="el" href="tokentree_8cpp_source#l00049">s_TokenTreeMutex</a>, and <a class="el" href="token_8h_source#l00045">tkTypedef</a>.</p>
+<p class="reference">References <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga7dfc2888539861afe6c4337ef315472b">_T</a>, <a class="el" href="tokentree_8h_source#l00051">TokenTree::at()</a>, <a class="el" href="cclogger_8h_source#l00159">CC_LOCKER_TRACK_TT_MTX_LOCK</a>, <a class="el" href="cclogger_8h_source#l00165">CC_LOCKER_TRACK_TT_MTX_UNLOCK</a>, <a class="el" href="tokentree_8h_source#l00063">TokenTree::empty()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#ace32756bab999f8aae9be0cf981fc449">wxString::IsEmpty()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#a9cbac1fb780a7e227d38a85108829f8d">wxString::Last()</a>, <a class="el" href="token_8h_source#l00294">Token::m_TemplateAlias</a>, <a class="el" href="nativeparser__base_8h_source#l00750">m_TemplateMap</a>, <a class="el" href="token_8h_source#l00234">Token::m_TokenKind</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#aa375e1718cb40fd991e89428e620ba82">wxString::RemoveLast()</a>, <a class="el" href="nativeparser__base_8cpp_source#l01086">ResolveActualType()</a>, <a class="el" href="tokentree_8cpp_source#l00049">s_TokenTreeMutex</a>, and <a class="el" href="token_8h_source#l00045">tkTypedef</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="nativeparser__base_8h_source#l00068">NativeParserBase::ParserComponent::Clear()</a>, <a class="el" href="nativeparser__base_8cpp_source#l00740">ResolveExpression()</a>, and <a class="el" href="nativeparser__base_8cpp_source#l00995">ResolveOperator()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="nativeparser__base_8h_source#l00080">NativeParserBase::ParserComponent::Clear()</a>, <a class="el" href="nativeparser__base_8cpp_source#l00740">ResolveExpression()</a>, and <a class="el" href="nativeparser__base_8cpp_source#l00995">ResolveOperator()</a>.</p>
 
 </div>
 </div>
@@ -605,9 +608,17 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>search from left to right, move to the first character of the space </p>
-<div class="fragment"><div class="line"><span class="stringliteral">&quot;       ::   f&quot;</span></div><div class="line">^begin  ^end</div></div><!-- fragment --> 
-<p class="definition">Definition at line <a class="el" href="nativeparser__base_8h_source#l00548">548</a> of file <a class="el" href="nativeparser__base_8h_source">nativeparser_base.h</a>.</p>
+<p>search from left to right, move the cursor to the first character after the space </p>
+<div class="fragment"><div class="line"><span class="stringliteral">&quot;       ::   f&quot;</span></div><div class="line"> ^begin ^end</div></div><!-- fragment --> <dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">startAt</td><td>the begin of the cursor </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">line</td><td>the string buffer </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>the location of the cursor </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="nativeparser__base_8h_source#l00598">598</a> of file <a class="el" href="nativeparser__base_8h_source">nativeparser_base.h</a>.</p>
 
 <p class="reference">References <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#a0a760b0340bafebd03a803073e8050b7">wxString::GetChar()</a>, and <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#ab20a87ca731a52c36ec674dae2213ad8">wxString::Len()</a>.</p>
 
@@ -649,7 +660,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="nativeparser__base_8h_source#l00467">467</a> of file <a class="el" href="nativeparser__base_8h_source">nativeparser_base.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="nativeparser__base_8h_source#l00513">513</a> of file <a class="el" href="nativeparser__base_8h_source">nativeparser_base.h</a>.</p>
 
 <p class="reference">References <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#a0a760b0340bafebd03a803073e8050b7">wxString::GetChar()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#ab20a87ca731a52c36ec674dae2213ad8">wxString::Len()</a>, and <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__crt.html#ga5a1b5598d93897eda57d5f691de339cd">wxIsalnum()</a>.</p>
 
@@ -692,9 +703,9 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>move to the char before whitespace and tabs, e.g. </p>
-<div class="fragment"><div class="line"> SomeNameSpace       ::  SomeClass</div><div class="line">             ^end   ^begin</div><div class="line">note <span class="keywordflow">if</span> there some spaces in the begging like</div><div class="line">     <span class="stringliteral">&quot;       f::&quot;</span></div><div class="line">    ^end    ^begin</div></div><!-- fragment --><p> the returned index is -1. </p>
+<div class="fragment"><div class="line"> SomeNameSpace       ::  SomeClass</div><div class="line">             ^end   ^begin</div><div class="line">note <span class="keywordflow">if</span> there some spaces in the beginning like below</div><div class="line">     <span class="stringliteral">&quot;       f::&quot;</span></div><div class="line">    ^end    ^begin</div></div><!-- fragment --><p> the returned index is -1. </p><dl class="section return"><dt>Returns</dt><dd>the cursor after the operation </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="nativeparser__base_8h_source#l00532">532</a> of file <a class="el" href="nativeparser__base_8h_source">nativeparser_base.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="nativeparser__base_8h_source#l00579">579</a> of file <a class="el" href="nativeparser__base_8h_source">nativeparser_base.h</a>.</p>
 
 <p class="reference">References <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#a0a760b0340bafebd03a803073e8050b7">wxString::GetChar()</a>, and <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#ab20a87ca731a52c36ec674dae2213ad8">wxString::Len()</a>.</p>
 
@@ -739,7 +750,7 @@ Private Attributes</h2></td></tr>
 <p>go to the first character of the identifier, e.g </p>
 <div class="fragment"><div class="line"><span class="stringliteral">&quot;    f(SomeNameSpace::SomeClass.SomeMethod&quot;</span></div><div class="line">                   <span class="keywordflow">return</span> value^         ^begin</div></div><!-- fragment --><p> this is the index before the first character of the identifier </p>
 
-<p class="definition">Definition at line <a class="el" href="nativeparser__base_8h_source#l00458">458</a> of file <a class="el" href="nativeparser__base_8h_source">nativeparser_base.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="nativeparser__base_8h_source#l00504">504</a> of file <a class="el" href="nativeparser__base_8h_source">nativeparser_base.h</a>.</p>
 
 <p class="reference">References <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#a0a760b0340bafebd03a803073e8050b7">wxString::GetChar()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#ab20a87ca731a52c36ec674dae2213ad8">wxString::Len()</a>, and <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__crt.html#ga5a1b5598d93897eda57d5f691de339cd">wxIsalnum()</a>.</p>
 
@@ -793,9 +804,9 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="nativeparser__base_8cpp_source#l00681">681</a> of file <a class="el" href="nativeparser__base_8cpp_source">nativeparser_base.cpp</a>.</p>
 
-<p class="reference">References <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga7dfc2888539861afe6c4337ef315472b">_T</a>, <a class="el" href="nativeparser__base_8h_source#l00063">NativeParserBase::ParserComponent::component</a>, <a class="el" href="cclogger_8cpp_source#l00107">CCLogger::DebugLog()</a>, <a class="el" href="logmanager_8h_source#l00020">F()</a>, <a class="el" href="cclogger_8cpp_source#l00060">CCLogger::Get()</a>, <a class="el" href="nativeparser__base_8cpp_source#l00419">GetCCToken()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#ace32756bab999f8aae9be0cf981fc449">wxString::IsEmpty()</a>, <a class="el" href="nativeparser__base_8h_source#l00031">pttClass</a>, <a class="el" href="nativeparser__base_8h_source#l00033">pttFunction</a>, <a class="el" href="nativeparser__base_8h_source#l00032">pttNamespace</a>, <a class="el" href="nativeparser__base_8h_source#l00030">pttSearchText</a>, <a class="el" href="nativeparser__base_8h_source#l00029">pttUndefined</a>, <a class="el" href="nativeparser_8cpp_source#l00128">s_DebugSmartSense</a>, <a class="el" href="nativeparser__base_8h_source#l00065">NativeParserBase::ParserComponent::tokenOperatorType</a>, <a class="el" href="nativeparser__base_8h_source#l00064">NativeParserBase::ParserComponent::tokenType</a>, <a class="el" href="nativeparser__base_8cpp_source#l00060">TRACE</a>, and <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#a667b135c20008042653f82b739f6c3ab">wxString::wx_str()</a>.</p>
+<p class="reference">References <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga7dfc2888539861afe6c4337ef315472b">_T</a>, <a class="el" href="nativeparser__base_8h_source#l00075">NativeParserBase::ParserComponent::component</a>, <a class="el" href="cclogger_8cpp_source#l00107">CCLogger::DebugLog()</a>, <a class="el" href="logmanager_8h_source#l00020">F()</a>, <a class="el" href="cclogger_8cpp_source#l00060">CCLogger::Get()</a>, <a class="el" href="nativeparser__base_8cpp_source#l00419">GetCCToken()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#ace32756bab999f8aae9be0cf981fc449">wxString::IsEmpty()</a>, <a class="el" href="nativeparser__base_8h_source#l00031">pttClass</a>, <a class="el" href="nativeparser__base_8h_source#l00033">pttFunction</a>, <a class="el" href="nativeparser__base_8h_source#l00032">pttNamespace</a>, <a class="el" href="nativeparser__base_8h_source#l00030">pttSearchText</a>, <a class="el" href="nativeparser__base_8h_source#l00029">pttUndefined</a>, <a class="el" href="nativeparser_8cpp_source#l00128">s_DebugSmartSense</a>, <a class="el" href="nativeparser__base_8h_source#l00077">NativeParserBase::ParserComponent::tokenOperatorType</a>, <a class="el" href="nativeparser__base_8h_source#l00076">NativeParserBase::ParserComponent::tokenType</a>, <a class="el" href="nativeparser__base_8cpp_source#l00060">TRACE</a>, and <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#a667b135c20008042653f82b739f6c3ab">wxString::wx_str()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="nativeparser_8cpp_source#l01321">NativeParser::AI()</a>, <a class="el" href="nativeparser__base_8h_source#l00068">NativeParserBase::ParserComponent::Clear()</a>, <a class="el" href="nativeparser__base_8cpp_source#l00087">FindAIMatches()</a>, <a class="el" href="nativeparser_8cpp_source#l01405">NativeParser::FindCurrentFunctionToken()</a>, <a class="el" href="nativeparser_8cpp_source#l01579">NativeParser::ParseBufferForUsingNamespace()</a>, and <a class="el" href="nativeparser__base_8cpp_source#l01086">ResolveActualType()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="nativeparser_8cpp_source#l01321">NativeParser::AI()</a>, <a class="el" href="nativeparser__base_8h_source#l00080">NativeParserBase::ParserComponent::Clear()</a>, <a class="el" href="nativeparser__base_8cpp_source#l00087">FindAIMatches()</a>, <a class="el" href="nativeparser_8cpp_source#l01405">NativeParser::FindCurrentFunctionToken()</a>, <a class="el" href="nativeparser_8cpp_source#l01579">NativeParser::ParseBufferForUsingNamespace()</a>, and <a class="el" href="nativeparser__base_8cpp_source#l01086">ResolveActualType()</a>.</p>
 
 </div>
 </div>
@@ -834,12 +845,18 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>remove all the container tokens in the token index set. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">searchScope</td><td>The Tokens we need to remove from the tree </td></tr>
+  </table>
+  </dd>
+</dl>
 
 <p class="definition">Definition at line <a class="el" href="nativeparser__base_8cpp_source#l00339">339</a> of file <a class="el" href="nativeparser__base_8cpp_source">nativeparser_base.cpp</a>.</p>
 
 <p class="reference">References <a class="el" href="tokentree_8h_source#l00051">TokenTree::at()</a>, <a class="el" href="cclogger_8h_source#l00159">CC_LOCKER_TRACK_TT_MTX_LOCK</a>, <a class="el" href="cclogger_8h_source#l00165">CC_LOCKER_TRACK_TT_MTX_UNLOCK</a>, <a class="el" href="token_8h_source#l00234">Token::m_TokenKind</a>, <a class="el" href="tokentree_8cpp_source#l00049">s_TokenTreeMutex</a>, <a class="el" href="token_8h_source#l00073">tkAnyFunction</a>, <a class="el" href="token_8h_source#l00037">tkClass</a>, <a class="el" href="token_8h_source#l00034">tkNamespace</a>, and <a class="el" href="token_8h_source#l00045">tkTypedef</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="nativeparser_8cpp_source#l01321">NativeParser::AI()</a>, and <a class="el" href="nativeparser__base_8h_source#l00068">NativeParserBase::ParserComponent::Clear()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="nativeparser_8cpp_source#l01321">NativeParser::AI()</a>, and <a class="el" href="nativeparser__base_8h_source#l00080">NativeParserBase::ParserComponent::Clear()</a>.</p>
 
 </div>
 </div>
@@ -897,7 +914,7 @@ Private Attributes</h2></td></tr>
 
 <p class="reference">References <a class="el" href="tokentree_8h_source#l00051">TokenTree::at()</a>, <a class="el" href="cclogger_8h_source#l00159">CC_LOCKER_TRACK_TT_MTX_LOCK</a>, <a class="el" href="cclogger_8h_source#l00165">CC_LOCKER_TRACK_TT_MTX_UNLOCK</a>, <a class="el" href="token_8h_source#l00262">Token::m_Index</a>, <a class="el" href="token_8h_source#l00265">Token::m_ParentIndex</a>, and <a class="el" href="tokentree_8cpp_source#l00049">s_TokenTreeMutex</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="nativeparser__base_8h_source#l00068">NativeParserBase::ParserComponent::Clear()</a>, <a class="el" href="nativeparser__base_8cpp_source#l00740">ResolveExpression()</a>, and <a class="el" href="nativeparser__base_8cpp_source#l00995">ResolveOperator()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="nativeparser__base_8h_source#l00080">NativeParserBase::ParserComponent::Clear()</a>, <a class="el" href="nativeparser__base_8cpp_source#l00740">ResolveExpression()</a>, and <a class="el" href="nativeparser__base_8cpp_source#l00995">ResolveOperator()</a>.</p>
 
 </div>
 </div>
@@ -946,9 +963,9 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="nativeparser__base_8cpp_source#l01737">1737</a> of file <a class="el" href="nativeparser__base_8cpp_source">nativeparser_base.cpp</a>.</p>
 
-<p class="reference">References <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga7dfc2888539861afe6c4337ef315472b">_T</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_array_string.html#af06b61455118d83a24183c3a9f6854b1">wxArrayString::Add()</a>, <a class="el" href="tokentree_8h_source#l00051">TokenTree::at()</a>, <a class="el" href="cclogger_8h_source#l00159">CC_LOCKER_TRACK_TT_MTX_LOCK</a>, <a class="el" href="cclogger_8h_source#l00165">CC_LOCKER_TRACK_TT_MTX_UNLOCK</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#ac6ae24a8ccc6e4e671f972948fca437c">wxString::empty()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#a5799047918ccbed5d3166ab9c03be279">wxString::EndsWith()</a>, <a class="el" href="tokentree_8cpp_source#l00266">TokenTree::FindMatches()</a>, <a class="el" href="tokenizer_8cpp_source#l00840">Tokenizer::GetToken()</a>, <a class="el" href="tokenizer_8cpp_source#l00174">Tokenizer::InitFromBuffer()</a>, <a class="el" href="token_8h_source#l00194">Token::m_Args</a>, <a class="el" href="token_8h_source#l00185">Token::m_BaseType</a>, <a class="el" href="token_8h_source#l00268">Token::m_Children</a>, <a class="el" href="token_8h_source#l00182">Token::m_FullType</a>, <a class="el" href="token_8h_source#l00237">Token::m_IsOperator</a>, <a class="el" href="token_8h_source#l00188">Token::m_Name</a>, <a class="el" href="token_8h_source#l00231">Token::m_Scope</a>, <a class="el" href="token_8h_source#l00234">Token::m_TokenKind</a>, <a class="el" href="tokenizer_8cpp_source#l00870">Tokenizer::PeekToken()</a>, <a class="el" href="nativeparser__base_8cpp_source#l01828">PrettyPrintToken()</a>, <a class="el" href="tokentree_8cpp_source#l00049">s_TokenTreeMutex</a>, <a class="el" href="token_8h_source#l00037">tkClass</a>, <a class="el" href="token_8h_source#l00048">tkConstructor</a>, <a class="el" href="token_8h_source#l00054">tkFunction</a>, <a class="el" href="token_8h_source#l00063">tkMacroDef</a>, <a class="el" href="token_8h_source#l00057">tkVariable</a>, <a class="el" href="tokentree_8cpp_source#l00141">TokenTree::TokenExists()</a>, <a class="el" href="token_8h_source#l00026">tsPublic</a>, <a class="el" href="token_8h_source#l00023">tsUndefined</a>, and <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga437ea6ba615b75dac8603e96ec864160">wxT</a>.</p>
+<p class="reference">References <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga7dfc2888539861afe6c4337ef315472b">_T</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_array_string.html#af06b61455118d83a24183c3a9f6854b1">wxArrayString::Add()</a>, <a class="el" href="tokentree_8h_source#l00051">TokenTree::at()</a>, <a class="el" href="cclogger_8h_source#l00159">CC_LOCKER_TRACK_TT_MTX_LOCK</a>, <a class="el" href="cclogger_8h_source#l00165">CC_LOCKER_TRACK_TT_MTX_UNLOCK</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#ac6ae24a8ccc6e4e671f972948fca437c">wxString::empty()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#a5799047918ccbed5d3166ab9c03be279">wxString::EndsWith()</a>, <a class="el" href="tokentree_8cpp_source#l00266">TokenTree::FindMatches()</a>, <a class="el" href="tokenizer_8cpp_source#l00839">Tokenizer::GetToken()</a>, <a class="el" href="tokenizer_8cpp_source#l00174">Tokenizer::InitFromBuffer()</a>, <a class="el" href="token_8h_source#l00194">Token::m_Args</a>, <a class="el" href="token_8h_source#l00185">Token::m_BaseType</a>, <a class="el" href="token_8h_source#l00268">Token::m_Children</a>, <a class="el" href="token_8h_source#l00182">Token::m_FullType</a>, <a class="el" href="token_8h_source#l00237">Token::m_IsOperator</a>, <a class="el" href="token_8h_source#l00188">Token::m_Name</a>, <a class="el" href="token_8h_source#l00231">Token::m_Scope</a>, <a class="el" href="token_8h_source#l00234">Token::m_TokenKind</a>, <a class="el" href="tokenizer_8cpp_source#l00869">Tokenizer::PeekToken()</a>, <a class="el" href="nativeparser__base_8cpp_source#l01828">PrettyPrintToken()</a>, <a class="el" href="tokentree_8cpp_source#l00049">s_TokenTreeMutex</a>, <a class="el" href="token_8h_source#l00037">tkClass</a>, <a class="el" href="token_8h_source#l00048">tkConstructor</a>, <a class="el" href="token_8h_source#l00054">tkFunction</a>, <a class="el" href="token_8h_source#l00063">tkMacroDef</a>, <a class="el" href="token_8h_source#l00057">tkVariable</a>, <a class="el" href="tokentree_8cpp_source#l00141">TokenTree::TokenExists()</a>, <a class="el" href="token_8h_source#l00026">tsPublic</a>, <a class="el" href="token_8h_source#l00023">tsUndefined</a>, and <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga437ea6ba615b75dac8603e96ec864160">wxT</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="nativeparser__base_8h_source#l00068">NativeParserBase::ParserComponent::Clear()</a>, and <a class="el" href="nativeparser_8cpp_source#l00883">NativeParser::GetCallTips()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="nativeparser__base_8h_source#l00080">NativeParserBase::ParserComponent::Clear()</a>, and <a class="el" href="nativeparser_8cpp_source#l00883">NativeParser::GetCallTips()</a>.</p>
 
 </div>
 </div>
@@ -986,7 +1003,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="nativeparser__base_8h_source#l00418">418</a> of file <a class="el" href="nativeparser__base_8h_source">nativeparser_base.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="nativeparser__base_8h_source#l00464">464</a> of file <a class="el" href="nativeparser__base_8h_source">nativeparser_base.h</a>.</p>
 
 <p class="reference">References <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#a0a760b0340bafebd03a803073e8050b7">wxString::GetChar()</a>.</p>
 
@@ -1041,7 +1058,7 @@ Private Attributes</h2></td></tr>
 
 <p class="reference">References <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga7dfc2888539861afe6c4337ef315472b">_T</a>, <a class="el" href="tokentree_8h_source#l00051">TokenTree::at()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#aed58dc1079da38d257bbc7d0d7800f44">wxString::Find()</a>, <a class="el" href="token_8h_source#l00265">Token::m_ParentIndex</a>, <a class="el" href="token_8h_source#l00283">Token::m_TemplateArgument</a>, and <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/defs_8h.html#a89de5e6353fc7812991b085e12263e98">wxNOT_FOUND</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="nativeparser__base_8h_source#l00068">NativeParserBase::ParserComponent::Clear()</a>, and <a class="el" href="nativeparser__base_8cpp_source#l01221">GenerateResultSet()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="nativeparser__base_8h_source#l00080">NativeParserBase::ParserComponent::Clear()</a>, and <a class="el" href="nativeparser__base_8cpp_source#l01221">GenerateResultSet()</a>.</p>
 
 </div>
 </div>
@@ -1135,9 +1152,9 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="nativeparser__base_8cpp_source#l00087">87</a> of file <a class="el" href="nativeparser__base_8cpp_source">nativeparser_base.cpp</a>.</p>
 
-<p class="reference">References <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga8a02b8875a521df57263a9e6f090f2d0">_()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga7dfc2888539861afe6c4337ef315472b">_T</a>, <a class="el" href="tokentree_8h_source#l00051">TokenTree::at()</a>, <a class="el" href="nativeparser__base_8cpp_source#l00681">BreakUpComponents()</a>, <a class="el" href="nativeparser__base_8h_source#l00063">NativeParserBase::ParserComponent::component</a>, <a class="el" href="cclogger_8cpp_source#l00107">CCLogger::DebugLog()</a>, <a class="el" href="logmanager_8h_source#l00020">F()</a>, <a class="el" href="nativeparser__base_8cpp_source#l01221">GenerateResultSet()</a>, <a class="el" href="cclogger_8cpp_source#l00060">CCLogger::Get()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#ace32756bab999f8aae9be0cf981fc449">wxString::IsEmpty()</a>, <a class="el" href="token_8h_source#l00185">Token::m_BaseType</a>, <a class="el" href="token_8h_source#l00268">Token::m_Children</a>, <a class="el" href="token_8h_source#l00262">Token::m_Index</a>, <a class="el" href="token_8h_source#l00237">Token::m_IsOperator</a>, <a class="el" href="token_8h_source#l00188">Token::m_Name</a>, <a class="el" href="token_8h_source#l00265">Token::m_ParentIndex</a>, <a class="el" href="token_8h_source#l00234">Token::m_TokenKind</a>, <a class="el" href="nativeparser__base_8h_source#l00030">pttSearchText</a>, <a class="el" href="nativeparser_8cpp_source#l00128">s_DebugSmartSense</a>, <a class="el" href="token_8h_source#l00037">tkClass</a>, <a class="el" href="token_8h_source#l00040">tkEnum</a>, <a class="el" href="token_8h_source#l00034">tkNamespace</a>, <a class="el" href="token_8h_source#l00045">tkTypedef</a>, <a class="el" href="nativeparser__base_8h_source#l00064">NativeParserBase::ParserComponent::tokenType</a>, <a class="el" href="nativeparser__base_8cpp_source#l00060">TRACE</a>, and <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#a667b135c20008042653f82b739f6c3ab">wxString::wx_str()</a>.</p>
+<p class="reference">References <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga8a02b8875a521df57263a9e6f090f2d0">_()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga7dfc2888539861afe6c4337ef315472b">_T</a>, <a class="el" href="tokentree_8h_source#l00051">TokenTree::at()</a>, <a class="el" href="nativeparser__base_8cpp_source#l00681">BreakUpComponents()</a>, <a class="el" href="nativeparser__base_8h_source#l00075">NativeParserBase::ParserComponent::component</a>, <a class="el" href="cclogger_8cpp_source#l00107">CCLogger::DebugLog()</a>, <a class="el" href="logmanager_8h_source#l00020">F()</a>, <a class="el" href="nativeparser__base_8cpp_source#l01221">GenerateResultSet()</a>, <a class="el" href="cclogger_8cpp_source#l00060">CCLogger::Get()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#ace32756bab999f8aae9be0cf981fc449">wxString::IsEmpty()</a>, <a class="el" href="token_8h_source#l00185">Token::m_BaseType</a>, <a class="el" href="token_8h_source#l00268">Token::m_Children</a>, <a class="el" href="token_8h_source#l00262">Token::m_Index</a>, <a class="el" href="token_8h_source#l00237">Token::m_IsOperator</a>, <a class="el" href="token_8h_source#l00188">Token::m_Name</a>, <a class="el" href="token_8h_source#l00265">Token::m_ParentIndex</a>, <a class="el" href="token_8h_source#l00234">Token::m_TokenKind</a>, <a class="el" href="nativeparser__base_8h_source#l00030">pttSearchText</a>, <a class="el" href="nativeparser_8cpp_source#l00128">s_DebugSmartSense</a>, <a class="el" href="token_8h_source#l00037">tkClass</a>, <a class="el" href="token_8h_source#l00040">tkEnum</a>, <a class="el" href="token_8h_source#l00034">tkNamespace</a>, <a class="el" href="token_8h_source#l00045">tkTypedef</a>, <a class="el" href="nativeparser__base_8h_source#l00076">NativeParserBase::ParserComponent::tokenType</a>, <a class="el" href="nativeparser__base_8cpp_source#l00060">TRACE</a>, and <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#a667b135c20008042653f82b739f6c3ab">wxString::wx_str()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="nativeparser__base_8h_source#l00068">NativeParserBase::ParserComponent::Clear()</a>, and <a class="el" href="nativeparser_8cpp_source#l01405">NativeParser::FindCurrentFunctionToken()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="nativeparser__base_8h_source#l00080">NativeParserBase::ParserComponent::Clear()</a>, and <a class="el" href="nativeparser_8cpp_source#l01405">NativeParser::FindCurrentFunctionToken()</a>.</p>
 
 </div>
 </div>
@@ -1170,9 +1187,9 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="nativeparser__base_8cpp_source#l00482">482</a> of file <a class="el" href="nativeparser__base_8cpp_source">nativeparser_base.cpp</a>.</p>
 
-<p class="reference">References <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga7dfc2888539861afe6c4337ef315472b">_T</a>, <a class="el" href="nativeparser__base_8h_source#l00548">AfterWhitespace()</a>, <a class="el" href="nativeparser__base_8h_source#l00467">BeforeToken()</a>, <a class="el" href="nativeparser__base_8h_source#l00532">BeforeWhitespace()</a>, <a class="el" href="nativeparser__base_8h_source#l00458">BeginOfToken()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#a0a760b0340bafebd03a803073e8050b7">wxString::GetChar()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_uni_char.html#a870a92d4a197ba01a5f5fbf811623713">wxUniChar::GetValue()</a>, <a class="el" href="nativeparser__base_8h_source#l00566">IsClosingBracket()</a>, <a class="el" href="nativeparser__base_8h_source#l00558">IsOpeningBracket()</a>, <a class="el" href="nativeparser__base_8h_source#l00515">IsOperatorDot()</a>, <a class="el" href="nativeparser__base_8h_source#l00485">IsOperatorEnd()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#ab20a87ca731a52c36ec674dae2213ad8">wxString::Len()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#a023d5f6b708eff5123f47498fcf151bc">wxString::Mid()</a>, <a class="el" href="nativeparser__base_8cpp_source#l00060">TRACE</a>, and <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#a667b135c20008042653f82b739f6c3ab">wxString::wx_str()</a>.</p>
+<p class="reference">References <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga7dfc2888539861afe6c4337ef315472b">_T</a>, <a class="el" href="nativeparser__base_8h_source#l00598">AfterWhitespace()</a>, <a class="el" href="nativeparser__base_8h_source#l00513">BeforeToken()</a>, <a class="el" href="nativeparser__base_8h_source#l00579">BeforeWhitespace()</a>, <a class="el" href="nativeparser__base_8h_source#l00504">BeginOfToken()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#a0a760b0340bafebd03a803073e8050b7">wxString::GetChar()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_uni_char.html#a870a92d4a197ba01a5f5fbf811623713">wxUniChar::GetValue()</a>, <a class="el" href="nativeparser__base_8h_source#l00621">IsClosingBracket()</a>, <a class="el" href="nativeparser__base_8h_source#l00613">IsOpeningBracket()</a>, <a class="el" href="nativeparser__base_8h_source#l00561">IsOperatorDot()</a>, <a class="el" href="nativeparser__base_8h_source#l00531">IsOperatorEnd()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#ab20a87ca731a52c36ec674dae2213ad8">wxString::Len()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#a023d5f6b708eff5123f47498fcf151bc">wxString::Mid()</a>, <a class="el" href="nativeparser__base_8cpp_source#l00060">TRACE</a>, and <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#a667b135c20008042653f82b739f6c3ab">wxString::wx_str()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="nativeparser__base_8h_source#l00068">NativeParserBase::ParserComponent::Clear()</a>, and <a class="el" href="nativeparser__base_8cpp_source#l00419">GetCCToken()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="nativeparser__base_8h_source#l00080">NativeParserBase::ParserComponent::Clear()</a>, and <a class="el" href="nativeparser__base_8cpp_source#l00419">GetCCToken()</a>.</p>
 
 </div>
 </div>
@@ -1219,8 +1236,8 @@ Private Attributes</h2></td></tr>
 <p>if the expression return the container tokens, which are the parent of the expression. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">procResult</td><td>input function index collection </td></tr>
-    <tr><td class="paramname">scopeResult</td><td>filtered output function index collection </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">procResult</td><td>input function index collection </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">scopeResult</td><td>filtered output function index collection For example, if we have such code <div class="fragment"><div class="line"><span class="keyword">class </span>A</div><div class="line">{</div><div class="line">     <span class="keywordtype">void</span> f()</div><div class="line">     {</div><div class="line">        statement|&lt;-----CC here</div><div class="line">     };</div><div class="line">}</div></div><!-- fragment --> We try to locate the Tokens their scopes "Cover" the "statement" </td></tr>
   </table>
   </dd>
 </dl>
@@ -1229,7 +1246,7 @@ Private Attributes</h2></td></tr>
 
 <p class="reference">References <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga7dfc2888539861afe6c4337ef315472b">_T</a>, <a class="el" href="tokentree_8h_source#l00051">TokenTree::at()</a>, <a class="el" href="cclogger_8h_source#l00159">CC_LOCKER_TRACK_TT_MTX_LOCK</a>, <a class="el" href="cclogger_8h_source#l00165">CC_LOCKER_TRACK_TT_MTX_UNLOCK</a>, <a class="el" href="cclogger_8cpp_source#l00107">CCLogger::DebugLog()</a>, <a class="el" href="cclogger_8cpp_source#l00060">CCLogger::Get()</a>, <a class="el" href="token_8h_source#l00113">Token::HasChildren()</a>, <a class="el" href="token_8h_source#l00188">Token::m_Name</a>, <a class="el" href="token_8h_source#l00265">Token::m_ParentIndex</a>, <a class="el" href="token_8h_source#l00234">Token::m_TokenKind</a>, <a class="el" href="nativeparser_8cpp_source#l00128">s_DebugSmartSense</a>, <a class="el" href="tokentree_8cpp_source#l00049">s_TokenTreeMutex</a>, <a class="el" href="token_8h_source#l00073">tkAnyFunction</a>, and <a class="el" href="token_8h_source#l00037">tkClass</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="nativeparser_8cpp_source#l01321">NativeParser::AI()</a>, and <a class="el" href="nativeparser__base_8h_source#l00068">NativeParserBase::ParserComponent::Clear()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="nativeparser_8cpp_source#l01321">NativeParser::AI()</a>, and <a class="el" href="nativeparser__base_8h_source#l00080">NativeParserBase::ParserComponent::Clear()</a>.</p>
 
 </div>
 </div>
@@ -1257,13 +1274,14 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>for <a class="el" href="classNativeParserBase#er-GetCallTipHighlight" title="Returns the start and end of the call-tip highlight region. ">GetCallTipHighlight()</a> Finds the position of the opening parenthesis marking the beginning of the params. </p>
+<p>Finds the position of the opening parenthesis marking the beginning of the params. </p>
+<p>See <a class="el" href="classNativeParserBase#er-GetCallTipHighlight" title="Returns the start and end of the call-tip highlight region. ">GetCallTipHighlight()</a> for more details </p>
 
 <p class="definition">Definition at line <a class="el" href="nativeparser__base_8cpp_source#l00401">401</a> of file <a class="el" href="nativeparser__base_8cpp_source">nativeparser_base.cpp</a>.</p>
 
 <p class="reference">References <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#af63f200410b56436a830550905e20539">wxString::length()</a>, and <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga437ea6ba615b75dac8603e96ec864160">wxT</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="nativeparser__base_8h_source#l00068">NativeParserBase::ParserComponent::Clear()</a>, and <a class="el" href="nativeparser__base_8cpp_source#l00360">GetCallTipHighlight()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="nativeparser__base_8h_source#l00080">NativeParserBase::ParserComponent::Clear()</a>, and <a class="el" href="nativeparser__base_8cpp_source#l00360">GetCallTipHighlight()</a>.</p>
 
 </div>
 </div>
@@ -1347,9 +1365,9 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="nativeparser__base_8cpp_source#l01221">1221</a> of file <a class="el" href="nativeparser__base_8cpp_source">nativeparser_base.cpp</a>.</p>
 
-<p class="reference">References <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga8a02b8875a521df57263a9e6f090f2d0">_()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga7dfc2888539861afe6c4337ef315472b">_T</a>, <a class="el" href="nativeparser__base_8h_source#l00614">AddChildrenOfEnum()</a>, <a class="el" href="nativeparser__base_8h_source#l00588">AddChildrenOfUnnamed()</a>, <a class="el" href="tokentree_8h_source#l00051">TokenTree::at()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#ad59ca2dd208720b3cce07d90bcb90093">wxString::begin()</a>, <a class="el" href="cclogger_8cpp_source#l00107">CCLogger::DebugLog()</a>, <a class="el" href="nativeparser__base_8cpp_source#l01611">DependsOnAllocator()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#a6a0f235fff88df5e6b16b5f0e1e719cc">wxString::end()</a>, <a class="el" href="logmanager_8h_source#l00020">F()</a>, <a class="el" href="tokentree_8cpp_source#l00266">TokenTree::FindMatches()</a>, <a class="el" href="cclogger_8cpp_source#l00060">CCLogger::Get()</a>, <a class="el" href="token_8cpp_source#l00311">Token::GetTokenKindString()</a>, <a class="el" href="tokentree_8h_source#l00171">TokenTree::GetTokens()</a>, <a class="el" href="nativeparser__base_8cpp_source#l01597">IsAllocator()</a>, <a class="el" href="nativeparser__base_8h_source#l00640">IsChildOfUnnamedOrEnum()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#ace32756bab999f8aae9be0cf981fc449">wxString::IsEmpty()</a>, <a class="el" href="token_8h_source#l00280">Token::m_Aliases</a>, <a class="el" href="token_8h_source#l00271">Token::m_Ancestors</a>, <a class="el" href="token_8h_source#l00268">Token::m_Children</a>, <a class="el" href="token_8h_source#l00262">Token::m_Index</a>, <a class="el" href="token_8h_source#l00188">Token::m_Name</a>, <a class="el" href="token_8h_source#l00265">Token::m_ParentIndex</a>, <a class="el" href="token_8h_source#l00234">Token::m_TokenKind</a>, <a class="el" href="nativeparser__base_8h_source#l00675">MatchText()</a>, <a class="el" href="nativeparser__base_8h_source#l00688">MatchType()</a>, <a class="el" href="namespaceParserConsts#xu-ptr">ParserConsts::ptr</a>, <a class="el" href="tokentree_8cpp_source#l00643">TokenTree::RecalcInheritanceChain()</a>, <a class="el" href="nativeparser_8cpp_source#l00128">s_DebugSmartSense</a>, <a class="el" href="token_8h_source#l00040">tkEnum</a>, <a class="el" href="token_8h_source#l00034">tkNamespace</a>, <a class="el" href="nativeparser__base_8cpp_source#l00060">TRACE</a>, and <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#a667b135c20008042653f82b739f6c3ab">wxString::wx_str()</a>.</p>
+<p class="reference">References <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga8a02b8875a521df57263a9e6f090f2d0">_()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga7dfc2888539861afe6c4337ef315472b">_T</a>, <a class="el" href="nativeparser__base_8h_source#l00669">AddChildrenOfEnum()</a>, <a class="el" href="nativeparser__base_8h_source#l00643">AddChildrenOfUnnamed()</a>, <a class="el" href="tokentree_8h_source#l00051">TokenTree::at()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#ad59ca2dd208720b3cce07d90bcb90093">wxString::begin()</a>, <a class="el" href="cclogger_8cpp_source#l00107">CCLogger::DebugLog()</a>, <a class="el" href="nativeparser__base_8cpp_source#l01611">DependsOnAllocator()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#a6a0f235fff88df5e6b16b5f0e1e719cc">wxString::end()</a>, <a class="el" href="logmanager_8h_source#l00020">F()</a>, <a class="el" href="tokentree_8cpp_source#l00266">TokenTree::FindMatches()</a>, <a class="el" href="cclogger_8cpp_source#l00060">CCLogger::Get()</a>, <a class="el" href="token_8cpp_source#l00311">Token::GetTokenKindString()</a>, <a class="el" href="tokentree_8h_source#l00180">TokenTree::GetTokens()</a>, <a class="el" href="nativeparser__base_8cpp_source#l01597">IsAllocator()</a>, <a class="el" href="nativeparser__base_8h_source#l00695">IsChildOfUnnamedOrEnum()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#ace32756bab999f8aae9be0cf981fc449">wxString::IsEmpty()</a>, <a class="el" href="token_8h_source#l00280">Token::m_Aliases</a>, <a class="el" href="token_8h_source#l00271">Token::m_Ancestors</a>, <a class="el" href="token_8h_source#l00268">Token::m_Children</a>, <a class="el" href="token_8h_source#l00262">Token::m_Index</a>, <a class="el" href="token_8h_source#l00188">Token::m_Name</a>, <a class="el" href="token_8h_source#l00265">Token::m_ParentIndex</a>, <a class="el" href="token_8h_source#l00234">Token::m_TokenKind</a>, <a class="el" href="nativeparser__base_8h_source#l00730">MatchText()</a>, <a class="el" href="nativeparser__base_8h_source#l00743">MatchType()</a>, <a class="el" href="namespaceParserConsts#xu-ptr">ParserConsts::ptr</a>, <a class="el" href="tokentree_8cpp_source#l00643">TokenTree::RecalcInheritanceChain()</a>, <a class="el" href="nativeparser_8cpp_source#l00128">s_DebugSmartSense</a>, <a class="el" href="token_8h_source#l00040">tkEnum</a>, <a class="el" href="token_8h_source#l00034">tkNamespace</a>, <a class="el" href="nativeparser__base_8cpp_source#l00060">TRACE</a>, and <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#a667b135c20008042653f82b739f6c3ab">wxString::wx_str()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="nativeparser__base_8h_source#l00068">NativeParserBase::ParserComponent::Clear()</a>, <a class="el" href="nativeparser__base_8cpp_source#l00087">FindAIMatches()</a>, <a class="el" href="nativeparser_8cpp_source#l01405">NativeParser::FindCurrentFunctionToken()</a>, <a class="el" href="nativeparser__base_8cpp_source#l01086">ResolveActualType()</a>, <a class="el" href="nativeparser__base_8cpp_source#l00740">ResolveExpression()</a>, and <a class="el" href="nativeparser__base_8cpp_source#l00995">ResolveOperator()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="nativeparser__base_8h_source#l00080">NativeParserBase::ParserComponent::Clear()</a>, <a class="el" href="nativeparser__base_8cpp_source#l00087">FindAIMatches()</a>, <a class="el" href="nativeparser_8cpp_source#l01405">NativeParser::FindCurrentFunctionToken()</a>, <a class="el" href="nativeparser__base_8cpp_source#l01086">ResolveActualType()</a>, <a class="el" href="nativeparser__base_8cpp_source#l00740">ResolveExpression()</a>, and <a class="el" href="nativeparser__base_8cpp_source#l00995">ResolveOperator()</a>.</p>
 
 </div>
 </div>
@@ -1469,12 +1487,21 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Returns the start and end of the call-tip highlight region. </p>
+<p>For a function prototype "void MyNamespace::SomeClass::func(int a, float b)" if we have a function call statement "obj-&gt;f(x,y)", when we hover on the "y", we should high light the "float b" in the calltip </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">calltip</td><td>is the calltip string </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">start</td><td>the start index of the high light string </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">end</td><td>the end index of the high light string </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">typedCommas</td><td>e.g. "func(x, y)", in this case, we say we have typed one comma before the hovered "y", so we know we need to high light the second parameter, which is "float b" </td></tr>
+  </table>
+  </dd>
+</dl>
 
 <p class="definition">Definition at line <a class="el" href="nativeparser__base_8cpp_source#l00360">360</a> of file <a class="el" href="nativeparser__base_8cpp_source">nativeparser_base.cpp</a>.</p>
 
 <p class="reference">References <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga7dfc2888539861afe6c4337ef315472b">_T</a>, <a class="el" href="nativeparser__base_8cpp_source#l00401">FindFunctionOpenParenthesis()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#a0a760b0340bafebd03a803073e8050b7">wxString::GetChar()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#af63f200410b56436a830550905e20539">wxString::length()</a>, and <a class="el" href="nativeparser__base_8cpp_source#l00060">TRACE</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="nativeparser__base_8h_source#l00068">NativeParserBase::ParserComponent::Clear()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="nativeparser__base_8h_source#l00080">NativeParserBase::ParserComponent::Clear()</a>.</p>
 
 </div>
 </div>
@@ -1518,14 +1545,23 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>helper function to split the statement line contains a string on the following form: </p>
-<div class="fragment"><div class="line"><span class="stringliteral">&quot;    char* mychar = SomeNamespace::m_SomeVar.SomeMeth&quot;</span></div></div><!-- fragment --><p> first we locate the first non-space char starting from the <em>end</em>: </p><div class="fragment"><div class="line"><span class="stringliteral">&quot;    char* mychar = SomeNamespace::m_SomeVar.SomeMeth&quot;</span></div></div><!-- fragment --><p> ^ then we remove everything before it. after it, what we do here, is (by this example) return "SomeNamespace" <em>and</em> modify line to become: </p><div class="fragment"><div class="line">m_SomeVar.SomeMeth</div></div><!-- fragment --><p> so that if we 're called again with the (modified) line, we 'll return "m_SomeVar" and modify line (again) to become: </p><div class="fragment"><div class="line">SomeMeth</div></div><!-- fragment --><p> and so on and so forth until we return an empty string... NOTE: if we find () args or [] arrays in our way, we skip them (done in GetNextCCToken)... </p>
+<p>helper function to split the statement </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir"></td><td class="paramname">line</td><td>a statement string </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">tokenType</td><td>the returned type of the string </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">tokenOperatorType</td><td>if it is a function call token, specify which type of function call It contains a string on the following form: <div class="fragment"><div class="line"><span class="keywordtype">char</span>* mychar = SomeNamespace::m_SomeVar.SomeMeth</div><div class="line">                                                ^----start from here</div></div><!-- fragment --> Usually, the caret is located at the end of the line.</td></tr>
+  </table>
+  </dd>
+</dl>
+<p>first we locate the first non-space char starting from the <em>end</em>: </p><div class="fragment"><div class="line"><span class="keywordtype">char</span>* mychar = SomeNamespace::m_SomeVar.SomeMeth</div><div class="line">               ^----stop here</div></div><!-- fragment --><p> then we remove everything before it, so we get "SomeNamespace::m_SomeVar.SomeMeth"</p>
+<p>Now we cut the first component "SomeNamespace" and return it. The statement line becomes: </p><div class="fragment"><div class="line">m_SomeVar.SomeMeth</div></div><!-- fragment --><p> so that if we call this function again with the (modified) line, we'll return "m_SomeVar" and modify line (again) to become: </p><div class="fragment"><div class="line">SomeMeth</div></div><!-- fragment --><p> and so on and so forth until we return an empty string... NOTE: if we find () args or [] arrays in our way, we skip them (done in GetNextCCToken)... todo: it looks like [] is not skipped, because we have to handle the operator[] also, if we see a aaa(), we always think it is a function call </p>
 
 <p class="definition">Definition at line <a class="el" href="nativeparser__base_8cpp_source#l00419">419</a> of file <a class="el" href="nativeparser__base_8cpp_source">nativeparser_base.cpp</a>.</p>
 
-<p class="reference">References <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga7dfc2888539861afe6c4337ef315472b">_T</a>, <a class="el" href="nativeparser__base_8h_source#l00548">AfterWhitespace()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#a39f5e308eb0192cac2e338bedb377ee0">wxString::Clear()</a>, <a class="el" href="nativeparser__base_8cpp_source#l00482">FindCCTokenStart()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#a0a760b0340bafebd03a803073e8050b7">wxString::GetChar()</a>, <a class="el" href="nativeparser__base_8cpp_source#l00558">GetNextCCToken()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#ace32756bab999f8aae9be0cf981fc449">wxString::IsEmpty()</a>, <a class="el" href="nativeparser__base_8h_source#l00515">IsOperatorDot()</a>, <a class="el" href="nativeparser__base_8h_source#l00485">IsOperatorEnd()</a>, <a class="el" href="nativeparser__base_8h_source#l00494">IsOperatorPointer()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#ab20a87ca731a52c36ec674dae2213ad8">wxString::Len()</a>, <a class="el" href="nativeparser__base_8h_source#l00041">otOperatorParentheses</a>, <a class="el" href="nativeparser__base_8h_source#l00042">otOperatorPointer</a>, <a class="el" href="nativeparser__base_8h_source#l00040">otOperatorSquare</a>, <a class="el" href="nativeparser__base_8h_source#l00039">otOperatorUndefined</a>, <a class="el" href="nativeparser__base_8h_source#l00031">pttClass</a>, <a class="el" href="nativeparser__base_8h_source#l00033">pttFunction</a>, <a class="el" href="nativeparser__base_8h_source#l00032">pttNamespace</a>, <a class="el" href="nativeparser__base_8h_source#l00030">pttSearchText</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#a9a83357210198cefd2d7d1411db1838d">wxString::Remove()</a>, <a class="el" href="nativeparser__base_8cpp_source#l00060">TRACE</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#a667b135c20008042653f82b739f6c3ab">wxString::wx_str()</a>, and <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/interface_2wx_2string_8h.html#a9a321d587166a30017b608dd2d234033">wxEmptyString</a>.</p>
+<p class="reference">References <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga7dfc2888539861afe6c4337ef315472b">_T</a>, <a class="el" href="nativeparser__base_8h_source#l00598">AfterWhitespace()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#a39f5e308eb0192cac2e338bedb377ee0">wxString::Clear()</a>, <a class="el" href="nativeparser__base_8cpp_source#l00482">FindCCTokenStart()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#a0a760b0340bafebd03a803073e8050b7">wxString::GetChar()</a>, <a class="el" href="nativeparser__base_8cpp_source#l00558">GetNextCCToken()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#ace32756bab999f8aae9be0cf981fc449">wxString::IsEmpty()</a>, <a class="el" href="nativeparser__base_8h_source#l00561">IsOperatorDot()</a>, <a class="el" href="nativeparser__base_8h_source#l00531">IsOperatorEnd()</a>, <a class="el" href="nativeparser__base_8h_source#l00540">IsOperatorPointer()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#ab20a87ca731a52c36ec674dae2213ad8">wxString::Len()</a>, <a class="el" href="nativeparser__base_8h_source#l00041">otOperatorParentheses</a>, <a class="el" href="nativeparser__base_8h_source#l00042">otOperatorPointer</a>, <a class="el" href="nativeparser__base_8h_source#l00040">otOperatorSquare</a>, <a class="el" href="nativeparser__base_8h_source#l00039">otOperatorUndefined</a>, <a class="el" href="nativeparser__base_8h_source#l00031">pttClass</a>, <a class="el" href="nativeparser__base_8h_source#l00033">pttFunction</a>, <a class="el" href="nativeparser__base_8h_source#l00032">pttNamespace</a>, <a class="el" href="nativeparser__base_8h_source#l00030">pttSearchText</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#a9a83357210198cefd2d7d1411db1838d">wxString::Remove()</a>, <a class="el" href="nativeparser__base_8cpp_source#l00060">TRACE</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#a667b135c20008042653f82b739f6c3ab">wxString::wx_str()</a>, and <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/interface_2wx_2string_8h.html#a9a321d587166a30017b608dd2d234033">wxEmptyString</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="nativeparser__base_8cpp_source#l00681">BreakUpComponents()</a>, and <a class="el" href="nativeparser__base_8h_source#l00068">NativeParserBase::ParserComponent::Clear()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="nativeparser__base_8cpp_source#l00681">BreakUpComponents()</a>, and <a class="el" href="nativeparser__base_8h_source#l00080">NativeParserBase::ParserComponent::Clear()</a>.</p>
 
 </div>
 </div>
@@ -1580,9 +1616,9 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="nativeparser__base_8cpp_source#l00558">558</a> of file <a class="el" href="nativeparser__base_8cpp_source">nativeparser_base.cpp</a>.</p>
 
-<p class="reference">References <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga7dfc2888539861afe6c4337ef315472b">_T</a>, <a class="el" href="nativeparser__base_8h_source#l00548">AfterWhitespace()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#a0a760b0340bafebd03a803073e8050b7">wxString::GetChar()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_uni_char.html#a870a92d4a197ba01a5f5fbf811623713">wxUniChar::GetValue()</a>, <a class="el" href="nativeparser__base_8h_source#l00443">InsideToken()</a>, <a class="el" href="nativeparser__base_8h_source#l00566">IsClosingBracket()</a>, <a class="el" href="nativeparser__base_8h_source#l00558">IsOpeningBracket()</a>, <a class="el" href="nativeparser__base_8h_source#l00504">IsOperatorBegin()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#ab20a87ca731a52c36ec674dae2213ad8">wxString::Len()</a>, <a class="el" href="nativeparser__base_8h_source#l00041">otOperatorParentheses</a>, <a class="el" href="nativeparser__base_8h_source#l00040">otOperatorSquare</a>, <a class="el" href="nativeparser__base_8h_source#l00043">otOperatorStar</a>, <a class="el" href="nativeparser__base_8cpp_source#l00060">TRACE</a>, and <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#a667b135c20008042653f82b739f6c3ab">wxString::wx_str()</a>.</p>
+<p class="reference">References <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga7dfc2888539861afe6c4337ef315472b">_T</a>, <a class="el" href="nativeparser__base_8h_source#l00598">AfterWhitespace()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#a0a760b0340bafebd03a803073e8050b7">wxString::GetChar()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_uni_char.html#a870a92d4a197ba01a5f5fbf811623713">wxUniChar::GetValue()</a>, <a class="el" href="nativeparser__base_8h_source#l00489">InsideToken()</a>, <a class="el" href="nativeparser__base_8h_source#l00621">IsClosingBracket()</a>, <a class="el" href="nativeparser__base_8h_source#l00613">IsOpeningBracket()</a>, <a class="el" href="nativeparser__base_8h_source#l00550">IsOperatorBegin()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#ab20a87ca731a52c36ec674dae2213ad8">wxString::Len()</a>, <a class="el" href="nativeparser__base_8h_source#l00041">otOperatorParentheses</a>, <a class="el" href="nativeparser__base_8h_source#l00040">otOperatorSquare</a>, <a class="el" href="nativeparser__base_8h_source#l00043">otOperatorStar</a>, <a class="el" href="nativeparser__base_8cpp_source#l00060">TRACE</a>, and <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#a667b135c20008042653f82b739f6c3ab">wxString::wx_str()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="nativeparser__base_8h_source#l00068">NativeParserBase::ParserComponent::Clear()</a>, and <a class="el" href="nativeparser__base_8cpp_source#l00419">GetCCToken()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="nativeparser__base_8h_source#l00080">NativeParserBase::ParserComponent::Clear()</a>, and <a class="el" href="nativeparser__base_8cpp_source#l00419">GetCCToken()</a>.</p>
 
 </div>
 </div>
@@ -1646,7 +1682,7 @@ Private Attributes</h2></td></tr>
 
 <p class="reference">References <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga7dfc2888539861afe6c4337ef315472b">_T</a>, <a class="el" href="tokentree_8h_source#l00051">TokenTree::at()</a>, <a class="el" href="token_8cpp_source#l00080">Token::DisplayName()</a>, <a class="el" href="token_8cpp_source#l00185">Token::GetFilename()</a>, <a class="el" href="tokentree_8cpp_source#l00835">TokenTree::InsertFileOrGetIndex()</a>, <a class="el" href="token_8h_source#l00216">Token::m_ImplFileIdx</a>, <a class="el" href="token_8h_source#l00219">Token::m_ImplLine</a>, <a class="el" href="token_8h_source#l00225">Token::m_ImplLineEnd</a>, <a class="el" href="token_8h_source#l00222">Token::m_ImplLineStart</a>, <a class="el" href="token_8h_source#l00262">Token::m_Index</a>, <a class="el" href="token_8h_source#l00234">Token::m_TokenKind</a>, <a class="el" href="token_8h_source#l00073">tkAnyFunction</a>, <a class="el" href="token_8h_source#l00037">tkClass</a>, <a class="el" href="token_8h_source#l00048">tkConstructor</a>, <a class="el" href="nativeparser__base_8cpp_source#l00060">TRACE</a>, and <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#a667b135c20008042653f82b739f6c3ab">wxString::wx_str()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="nativeparser__base_8h_source#l00068">NativeParserBase::ParserComponent::Clear()</a>, and <a class="el" href="nativeparser_8cpp_source#l01454">NativeParser::FindCurrentFunctionStart()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="nativeparser__base_8h_source#l00080">NativeParserBase::ParserComponent::Clear()</a>, and <a class="el" href="nativeparser_8cpp_source#l01454">NativeParser::FindCurrentFunctionStart()</a>.</p>
 
 </div>
 </div>
@@ -1686,7 +1722,7 @@ Private Attributes</h2></td></tr>
 
 <p>check whether the line[startAt] point to the identifier </p>
 <div class="fragment"><div class="line">SomeMethod(<a class="code" href="sqvm_8cpp#wp-arg1">arg1</a>, <a class="code" href="sqvm_8cpp#ga-arg2">arg2</a>)-&gt;Method2()</div><div class="line">^^^^^^^^^^ those index will <span class="keywordflow">return</span> <span class="keyword">true</span></div></div><!-- fragment --> 
-<p class="definition">Definition at line <a class="el" href="nativeparser__base_8h_source#l00443">443</a> of file <a class="el" href="nativeparser__base_8h_source">nativeparser_base.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="nativeparser__base_8h_source#l00489">489</a> of file <a class="el" href="nativeparser__base_8h_source">nativeparser_base.h</a>.</p>
 
 <p class="reference">References <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#a0a760b0340bafebd03a803073e8050b7">wxString::GetChar()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#ab20a87ca731a52c36ec674dae2213ad8">wxString::Len()</a>, and <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__crt.html#ga5a1b5598d93897eda57d5f691de339cd">wxIsalnum()</a>.</p>
 
@@ -1742,7 +1778,7 @@ Private Attributes</h2></td></tr>
 
 <p class="reference">References <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga7dfc2888539861afe6c4337ef315472b">_T</a>, <a class="el" href="tokentree_8h_source#l00051">TokenTree::at()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#a65f965b378fbfceed8f8688287f6e65e">wxString::IsSameAs()</a>, and <a class="el" href="token_8h_source#l00188">Token::m_Name</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="nativeparser__base_8h_source#l00068">NativeParserBase::ParserComponent::Clear()</a>, and <a class="el" href="nativeparser__base_8cpp_source#l01221">GenerateResultSet()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="nativeparser__base_8h_source#l00080">NativeParserBase::ParserComponent::Clear()</a>, and <a class="el" href="nativeparser__base_8cpp_source#l01221">GenerateResultSet()</a>.</p>
 
 </div>
 </div>
@@ -1797,7 +1833,7 @@ Private Attributes</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>bool true if success </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="nativeparser__base_8h_source#l00640">640</a> of file <a class="el" href="nativeparser__base_8h_source">nativeparser_base.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="nativeparser__base_8h_source#l00695">695</a> of file <a class="el" href="nativeparser__base_8h_source">nativeparser_base.h</a>.</p>
 
 <p class="reference">References <a class="el" href="nativeparser__base_8cpp_source#l00966">AddConstructors()</a>, <a class="el" href="tokentree_8h_source#l00051">TokenTree::at()</a>, <a class="el" href="token_8h_source#l00268">Token::m_Children</a>, <a class="el" href="token_8h_source#l00254">Token::m_IsAnonymous</a>, <a class="el" href="token_8h_source#l00234">Token::m_TokenKind</a>, <a class="el" href="token_8h_source#l00037">tkClass</a>, and <a class="el" href="token_8h_source#l00040">tkEnum</a>.</p>
 
@@ -1841,7 +1877,7 @@ Private Attributes</h2></td></tr>
 
 <p>check the current char (line[startAt]) is either ')' or ']' </p>
 
-<p class="definition">Definition at line <a class="el" href="nativeparser__base_8h_source#l00566">566</a> of file <a class="el" href="nativeparser__base_8h_source">nativeparser_base.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="nativeparser__base_8h_source#l00621">621</a> of file <a class="el" href="nativeparser__base_8h_source">nativeparser_base.h</a>.</p>
 
 <p class="reference">References <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#a0a760b0340bafebd03a803073e8050b7">wxString::GetChar()</a>.</p>
 
@@ -1883,7 +1919,16 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="nativeparser__base_8h_source#l00558">558</a> of file <a class="el" href="nativeparser__base_8h_source">nativeparser_base.h</a>.</p>
+<p>Test whether the current character is a '(' or '['. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">startAt</td><td>the current cursor on the buffer </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>true if test is OK </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="nativeparser__base_8h_source#l00613">613</a> of file <a class="el" href="nativeparser__base_8h_source">nativeparser_base.h</a>.</p>
 
 <p class="reference">References <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#a0a760b0340bafebd03a803073e8050b7">wxString::GetChar()</a>, and <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#ab20a87ca731a52c36ec674dae2213ad8">wxString::Len()</a>.</p>
 
@@ -1927,7 +1972,7 @@ Private Attributes</h2></td></tr>
 
 <p>check if startAt point to "-&gt;" or "::" operator </p>
 
-<p class="definition">Definition at line <a class="el" href="nativeparser__base_8h_source#l00504">504</a> of file <a class="el" href="nativeparser__base_8h_source">nativeparser_base.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="nativeparser__base_8h_source#l00550">550</a> of file <a class="el" href="nativeparser__base_8h_source">nativeparser_base.h</a>.</p>
 
 <p class="reference">References <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#a0a760b0340bafebd03a803073e8050b7">wxString::GetChar()</a>, and <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#ab20a87ca731a52c36ec674dae2213ad8">wxString::Len()</a>.</p>
 
@@ -1971,7 +2016,7 @@ Private Attributes</h2></td></tr>
 
 <p>check whether line[startAt] is a dot character </p>
 
-<p class="definition">Definition at line <a class="el" href="nativeparser__base_8h_source#l00515">515</a> of file <a class="el" href="nativeparser__base_8h_source">nativeparser_base.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="nativeparser__base_8h_source#l00561">561</a> of file <a class="el" href="nativeparser__base_8h_source">nativeparser_base.h</a>.</p>
 
 <p class="reference">References <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#a0a760b0340bafebd03a803073e8050b7">wxString::GetChar()</a>, and <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#ab20a87ca731a52c36ec674dae2213ad8">wxString::Len()</a>.</p>
 
@@ -2015,7 +2060,7 @@ Private Attributes</h2></td></tr>
 
 <p>check startAt is at some character like: </p>
 <div class="fragment"><div class="line">SomeNameSpace::SomeClass</div><div class="line">              ^ here is a <span class="keywordtype">double</span> <a class="code" href="namespaceParserConsts#sq-colon">colon</a></div><div class="line">SomeObject-&gt;SomeMethod</div><div class="line">           ^ here is a pointer member access <span class="keyword">operator</span></div></div><!-- fragment --> 
-<p class="definition">Definition at line <a class="el" href="nativeparser__base_8h_source#l00485">485</a> of file <a class="el" href="nativeparser__base_8h_source">nativeparser_base.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="nativeparser__base_8h_source#l00531">531</a> of file <a class="el" href="nativeparser__base_8h_source">nativeparser_base.h</a>.</p>
 
 <p class="reference">References <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#a0a760b0340bafebd03a803073e8050b7">wxString::GetChar()</a>, and <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#ab20a87ca731a52c36ec674dae2213ad8">wxString::Len()</a>.</p>
 
@@ -2057,7 +2102,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="nativeparser__base_8h_source#l00494">494</a> of file <a class="el" href="nativeparser__base_8h_source">nativeparser_base.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="nativeparser__base_8h_source#l00540">540</a> of file <a class="el" href="nativeparser__base_8h_source">nativeparser_base.h</a>.</p>
 
 <p class="reference">References <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#a0a760b0340bafebd03a803073e8050b7">wxString::GetChar()</a>, and <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#ab20a87ca731a52c36ec674dae2213ad8">wxString::Len()</a>.</p>
 
@@ -2111,9 +2156,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="nativeparser__base_8h_source#l00675">675</a> of file <a class="el" href="nativeparser__base_8h_source">nativeparser_base.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="nativeparser__base_8h_source#l00730">730</a> of file <a class="el" href="nativeparser__base_8h_source">nativeparser_base.h</a>.</p>
 
-<p class="reference">References <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#ace32756bab999f8aae9be0cf981fc449">wxString::IsEmpty()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#a627b084ee8088734e1b28ee23d67f7bb">wxString::StartsWith()</a>, and <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#ab84d4b6e9f38ba939d61f3382d2a009b">wxString::Upper()</a>.</p>
+<p class="reference">References <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#ace32756bab999f8aae9be0cf981fc449">wxString::IsEmpty()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#a627b084ee8088734e1b28ee23d67f7bb">wxString::StartsWith()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#ab84d4b6e9f38ba939d61f3382d2a009b">wxString::Upper()</a>, and <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#a667b135c20008042653f82b739f6c3ab">wxString::wx_str()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="nativeparser__base_8cpp_source#l01221">GenerateResultSet()</a>.</p>
 
@@ -2153,7 +2198,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="nativeparser__base_8h_source#l00688">688</a> of file <a class="el" href="nativeparser__base_8h_source">nativeparser_base.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="nativeparser__base_8h_source#l00743">743</a> of file <a class="el" href="nativeparser__base_8h_source">nativeparser_base.h</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="nativeparser__base_8cpp_source#l01221">GenerateResultSet()</a>.</p>
 
@@ -2211,7 +2256,7 @@ Private Attributes</h2></td></tr>
 
 <p class="reference">References <a class="el" href="tokentree_8h_source#l00051">TokenTree::at()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#ac6ae24a8ccc6e4e671f972948fca437c">wxString::empty()</a>, <a class="el" href="token_8cpp_source#l00199">Token::GetFormattedArgs()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#ace32756bab999f8aae9be0cf981fc449">wxString::IsEmpty()</a>, <a class="el" href="token_8h_source#l00194">Token::m_Args</a>, <a class="el" href="token_8h_source#l00185">Token::m_BaseType</a>, <a class="el" href="token_8h_source#l00182">Token::m_FullType</a>, <a class="el" href="token_8h_source#l00248">Token::m_IsConst</a>, <a class="el" href="token_8h_source#l00251">Token::m_IsNoExcept</a>, <a class="el" href="token_8h_source#l00188">Token::m_Name</a>, <a class="el" href="token_8h_source#l00265">Token::m_ParentIndex</a>, <a class="el" href="token_8h_source#l00234">Token::m_TokenKind</a>, <a class="el" href="token_8h_source#l00070">tkAnyContainer</a>, <a class="el" href="token_8h_source#l00073">tkAnyFunction</a>, <a class="el" href="token_8h_source#l00037">tkClass</a>, <a class="el" href="token_8h_source#l00048">tkConstructor</a>, <a class="el" href="token_8h_source#l00051">tkDestructor</a>, <a class="el" href="token_8h_source#l00040">tkEnum</a>, <a class="el" href="token_8h_source#l00060">tkEnumerator</a>, <a class="el" href="token_8h_source#l00054">tkFunction</a>, <a class="el" href="token_8h_source#l00063">tkMacroDef</a>, <a class="el" href="token_8h_source#l00066">tkMacroUse</a>, <a class="el" href="token_8h_source#l00034">tkNamespace</a>, <a class="el" href="token_8h_source#l00045">tkTypedef</a>, <a class="el" href="token_8h_source#l00076">tkUndefined</a>, <a class="el" href="token_8h_source#l00057">tkVariable</a>, <a class="el" href="tokentree_8cpp_source#l00141">TokenTree::TokenExists()</a>, and <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga437ea6ba615b75dac8603e96ec864160">wxT</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="nativeparser__base_8h_source#l00068">NativeParserBase::ParserComponent::Clear()</a>, and <a class="el" href="nativeparser__base_8cpp_source#l01737">ComputeCallTip()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="nativeparser__base_8h_source#l00080">NativeParserBase::ParserComponent::Clear()</a>, and <a class="el" href="nativeparser__base_8cpp_source#l01737">ComputeCallTip()</a>.</p>
 
 </div>
 </div>
@@ -2250,13 +2295,13 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Remove the last function's children, when doing codecompletion in a function body, the function body up to the caret position was parsed, and the local variables defined in the function were recorded as the function's children. </p>
-<p>Note that there tokens are marked as temporary tokens, so If the edit caret moves to another function body, those temporary tokens should be removed. </p>
+<p>Note that these tokens are marked as temporary tokens, so if the edit caret moves to another function body, these temporary tokens should be removed. </p>
 
 <p class="definition">Definition at line <a class="el" href="nativeparser__base_8cpp_source#l00651">651</a> of file <a class="el" href="nativeparser__base_8cpp_source">nativeparser_base.cpp</a>.</p>
 
 <p class="reference">References <a class="el" href="tokentree_8h_source#l00051">TokenTree::at()</a>, <a class="el" href="cclogger_8h_source#l00159">CC_LOCKER_TRACK_TT_MTX_LOCK</a>, <a class="el" href="cclogger_8h_source#l00165">CC_LOCKER_TRACK_TT_MTX_UNLOCK</a>, <a class="el" href="token_8cpp_source#l00275">Token::DeleteAllChildren()</a>, <a class="el" href="token_8h_source#l00234">Token::m_TokenKind</a>, <a class="el" href="tokentree_8cpp_source#l00049">s_TokenTreeMutex</a>, and <a class="el" href="token_8h_source#l00073">tkAnyFunction</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="nativeparser__base_8h_source#l00068">NativeParserBase::ParserComponent::Clear()</a>, <a class="el" href="nativeparser_8cpp_source#l00802">NativeParser::MarkItemsByAI()</a>, and <a class="el" href="nativeparser_8cpp_source#l01140">NativeParser::SetParser()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="nativeparser__base_8h_source#l00080">NativeParserBase::ParserComponent::Clear()</a>, <a class="el" href="nativeparser_8cpp_source#l00802">NativeParser::MarkItemsByAI()</a>, and <a class="el" href="nativeparser_8cpp_source#l01140">NativeParser::SetParser()</a>.</p>
 
 </div>
 </div>
@@ -2287,9 +2332,9 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="nativeparser__base_8cpp_source#l00073">73</a> of file <a class="el" href="nativeparser__base_8cpp_source">nativeparser_base.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="nativeparser__base_8h_source#l00068">NativeParserBase::ParserComponent::Clear()</a>, and <a class="el" href="nativeparser__base_8h_source#l00694">m_LastComponent</a>.</p>
+<p class="reference">References <a class="el" href="nativeparser__base_8h_source#l00080">NativeParserBase::ParserComponent::Clear()</a>, and <a class="el" href="nativeparser__base_8h_source#l00749">m_LastComponent</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="nativeparser__base_8h_source#l00068">NativeParserBase::ParserComponent::Clear()</a>, and <a class="el" href="nativeparser_8cpp_source#l02692">NativeParser::InitCCSearchVariables()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="nativeparser__base_8h_source#l00080">NativeParserBase::ParserComponent::Clear()</a>, and <a class="el" href="nativeparser_8cpp_source#l02692">NativeParser::InitCCSearchVariables()</a>.</p>
 
 </div>
 </div>
@@ -2351,9 +2396,9 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="nativeparser__base_8cpp_source#l01086">1086</a> of file <a class="el" href="nativeparser__base_8cpp_source">nativeparser_base.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="nativeparser__base_8cpp_source#l00681">BreakUpComponents()</a>, <a class="el" href="cclogger_8h_source#l00159">CC_LOCKER_TRACK_TT_MTX_LOCK</a>, <a class="el" href="cclogger_8h_source#l00165">CC_LOCKER_TRACK_TT_MTX_UNLOCK</a>, <a class="el" href="nativeparser__base_8h_source#l00063">NativeParserBase::ParserComponent::component</a>, <a class="el" href="nativeparser__base_8cpp_source#l01221">GenerateResultSet()</a>, and <a class="el" href="tokentree_8cpp_source#l00049">s_TokenTreeMutex</a>.</p>
+<p class="reference">References <a class="el" href="nativeparser__base_8cpp_source#l00681">BreakUpComponents()</a>, <a class="el" href="cclogger_8h_source#l00159">CC_LOCKER_TRACK_TT_MTX_LOCK</a>, <a class="el" href="cclogger_8h_source#l00165">CC_LOCKER_TRACK_TT_MTX_UNLOCK</a>, <a class="el" href="nativeparser__base_8h_source#l00075">NativeParserBase::ParserComponent::component</a>, <a class="el" href="nativeparser__base_8cpp_source#l01221">GenerateResultSet()</a>, and <a class="el" href="tokentree_8cpp_source#l00049">s_TokenTreeMutex</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="nativeparser__base_8cpp_source#l01160">AddTemplateAlias()</a>, <a class="el" href="nativeparser__base_8h_source#l00068">NativeParserBase::ParserComponent::Clear()</a>, <a class="el" href="nativeparser__base_8cpp_source#l00740">ResolveExpression()</a>, <a class="el" href="nativeparser__base_8cpp_source#l00995">ResolveOperator()</a>, and <a class="el" href="nativeparser__base_8cpp_source#l01137">ResolveTemplateMap()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="nativeparser__base_8cpp_source#l01160">AddTemplateAlias()</a>, <a class="el" href="nativeparser__base_8h_source#l00080">NativeParserBase::ParserComponent::Clear()</a>, <a class="el" href="nativeparser__base_8cpp_source#l00740">ResolveExpression()</a>, <a class="el" href="nativeparser__base_8cpp_source#l00995">ResolveOperator()</a>, and <a class="el" href="nativeparser__base_8cpp_source#l01137">ResolveTemplateMap()</a>.</p>
 
 </div>
 </div>
@@ -2433,9 +2478,9 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="nativeparser__base_8cpp_source#l00740">740</a> of file <a class="el" href="nativeparser__base_8cpp_source">nativeparser_base.cpp</a>.</p>
 
-<p class="reference">References <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga7dfc2888539861afe6c4337ef315472b">_T</a>, <a class="el" href="nativeparser__base_8cpp_source#l00966">AddConstructors()</a>, <a class="el" href="nativeparser__base_8cpp_source#l01160">AddTemplateAlias()</a>, <a class="el" href="tokentree_8h_source#l00051">TokenTree::at()</a>, <a class="el" href="cclogger_8h_source#l00159">CC_LOCKER_TRACK_TT_MTX_LOCK</a>, <a class="el" href="cclogger_8h_source#l00165">CC_LOCKER_TRACK_TT_MTX_UNLOCK</a>, <a class="el" href="nativeparser__base_8cpp_source#l01635">CollectSearchScopes()</a>, <a class="el" href="nativeparser__base_8h_source#l00063">NativeParserBase::ParserComponent::component</a>, <a class="el" href="cclogger_8cpp_source#l00107">CCLogger::DebugLog()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#acb2c7985fb9550bb057b62bd6e5b4305">wxString::erase()</a>, <a class="el" href="logmanager_8h_source#l00020">F()</a>, <a class="el" href="nativeparser__base_8cpp_source#l01221">GenerateResultSet()</a>, <a class="el" href="cclogger_8cpp_source#l00060">CCLogger::Get()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#ace32756bab999f8aae9be0cf981fc449">wxString::IsEmpty()</a>, <a class="el" href="token_8h_source#l00185">Token::m_BaseType</a>, <a class="el" href="token_8h_source#l00262">Token::m_Index</a>, <a class="el" href="token_8h_source#l00237">Token::m_IsOperator</a>, <a class="el" href="nativeparser__base_8h_source#l00694">m_LastComponent</a>, <a class="el" href="token_8h_source#l00188">Token::m_Name</a>, <a class="el" href="token_8h_source#l00265">Token::m_ParentIndex</a>, <a class="el" href="token_8h_source#l00291">Token::m_TemplateMap</a>, <a class="el" href="nativeparser__base_8h_source#l00695">m_TemplateMap</a>, <a class="el" href="token_8h_source#l00234">Token::m_TokenKind</a>, <a class="el" href="nativeparser__base_8h_source#l00039">otOperatorUndefined</a>, <a class="el" href="nativeparser__base_8h_source#l00032">pttNamespace</a>, <a class="el" href="nativeparser__base_8h_source#l00030">pttSearchText</a>, <a class="el" href="nativeparser__base_8cpp_source#l01086">ResolveActualType()</a>, <a class="el" href="nativeparser__base_8cpp_source#l00995">ResolveOperator()</a>, <a class="el" href="nativeparser__base_8cpp_source#l01137">ResolveTemplateMap()</a>, <a class="el" href="nativeparser_8cpp_source#l00128">s_DebugSmartSense</a>, <a class="el" href="tokentree_8cpp_source#l00049">s_TokenTreeMutex</a>, <a class="el" href="token_8h_source#l00037">tkClass</a>, <a class="el" href="nativeparser__base_8h_source#l00065">NativeParserBase::ParserComponent::tokenOperatorType</a>, <a class="el" href="nativeparser__base_8h_source#l00064">NativeParserBase::ParserComponent::tokenType</a>, and <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#a667b135c20008042653f82b739f6c3ab">wxString::wx_str()</a>.</p>
+<p class="reference">References <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga7dfc2888539861afe6c4337ef315472b">_T</a>, <a class="el" href="nativeparser__base_8cpp_source#l00966">AddConstructors()</a>, <a class="el" href="nativeparser__base_8cpp_source#l01160">AddTemplateAlias()</a>, <a class="el" href="tokentree_8h_source#l00051">TokenTree::at()</a>, <a class="el" href="cclogger_8h_source#l00159">CC_LOCKER_TRACK_TT_MTX_LOCK</a>, <a class="el" href="cclogger_8h_source#l00165">CC_LOCKER_TRACK_TT_MTX_UNLOCK</a>, <a class="el" href="nativeparser__base_8cpp_source#l01635">CollectSearchScopes()</a>, <a class="el" href="nativeparser__base_8h_source#l00075">NativeParserBase::ParserComponent::component</a>, <a class="el" href="cclogger_8cpp_source#l00107">CCLogger::DebugLog()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#acb2c7985fb9550bb057b62bd6e5b4305">wxString::erase()</a>, <a class="el" href="logmanager_8h_source#l00020">F()</a>, <a class="el" href="nativeparser__base_8cpp_source#l01221">GenerateResultSet()</a>, <a class="el" href="cclogger_8cpp_source#l00060">CCLogger::Get()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#ace32756bab999f8aae9be0cf981fc449">wxString::IsEmpty()</a>, <a class="el" href="token_8h_source#l00185">Token::m_BaseType</a>, <a class="el" href="token_8h_source#l00262">Token::m_Index</a>, <a class="el" href="token_8h_source#l00237">Token::m_IsOperator</a>, <a class="el" href="nativeparser__base_8h_source#l00749">m_LastComponent</a>, <a class="el" href="token_8h_source#l00188">Token::m_Name</a>, <a class="el" href="token_8h_source#l00265">Token::m_ParentIndex</a>, <a class="el" href="token_8h_source#l00291">Token::m_TemplateMap</a>, <a class="el" href="nativeparser__base_8h_source#l00750">m_TemplateMap</a>, <a class="el" href="token_8h_source#l00234">Token::m_TokenKind</a>, <a class="el" href="nativeparser__base_8h_source#l00039">otOperatorUndefined</a>, <a class="el" href="nativeparser__base_8h_source#l00032">pttNamespace</a>, <a class="el" href="nativeparser__base_8h_source#l00030">pttSearchText</a>, <a class="el" href="nativeparser__base_8cpp_source#l01086">ResolveActualType()</a>, <a class="el" href="nativeparser__base_8cpp_source#l00995">ResolveOperator()</a>, <a class="el" href="nativeparser__base_8cpp_source#l01137">ResolveTemplateMap()</a>, <a class="el" href="nativeparser_8cpp_source#l00128">s_DebugSmartSense</a>, <a class="el" href="tokentree_8cpp_source#l00049">s_TokenTreeMutex</a>, <a class="el" href="token_8h_source#l00037">tkClass</a>, <a class="el" href="nativeparser__base_8h_source#l00077">NativeParserBase::ParserComponent::tokenOperatorType</a>, <a class="el" href="nativeparser__base_8h_source#l00076">NativeParserBase::ParserComponent::tokenType</a>, and <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#a667b135c20008042653f82b739f6c3ab">wxString::wx_str()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="nativeparser_8cpp_source#l01321">NativeParser::AI()</a>, and <a class="el" href="nativeparser__base_8h_source#l00068">NativeParserBase::ParserComponent::Clear()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="nativeparser_8cpp_source#l01321">NativeParser::AI()</a>, and <a class="el" href="nativeparser__base_8h_source#l00080">NativeParserBase::ParserComponent::Clear()</a>.</p>
 
 </div>
 </div>
@@ -2507,7 +2552,7 @@ Private Attributes</h2></td></tr>
 
 <p class="reference">References <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga7dfc2888539861afe6c4337ef315472b">_T</a>, <a class="el" href="nativeparser__base_8cpp_source#l01160">AddTemplateAlias()</a>, <a class="el" href="tokentree_8h_source#l00051">TokenTree::at()</a>, <a class="el" href="cclogger_8h_source#l00159">CC_LOCKER_TRACK_TT_MTX_LOCK</a>, <a class="el" href="cclogger_8h_source#l00165">CC_LOCKER_TRACK_TT_MTX_UNLOCK</a>, <a class="el" href="nativeparser__base_8cpp_source#l01635">CollectSearchScopes()</a>, <a class="el" href="tokentree_8h_source#l00063">TokenTree::empty()</a>, <a class="el" href="nativeparser__base_8cpp_source#l01221">GenerateResultSet()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#ace32756bab999f8aae9be0cf981fc449">wxString::IsEmpty()</a>, <a class="el" href="token_8h_source#l00185">Token::m_BaseType</a>, <a class="el" href="token_8h_source#l00234">Token::m_TokenKind</a>, <a class="el" href="nativeparser__base_8h_source#l00041">otOperatorParentheses</a>, <a class="el" href="nativeparser__base_8h_source#l00042">otOperatorPointer</a>, <a class="el" href="nativeparser__base_8h_source#l00040">otOperatorSquare</a>, <a class="el" href="nativeparser__base_8h_source#l00043">otOperatorStar</a>, <a class="el" href="nativeparser__base_8h_source#l00039">otOperatorUndefined</a>, <a class="el" href="nativeparser__base_8cpp_source#l01086">ResolveActualType()</a>, <a class="el" href="nativeparser__base_8cpp_source#l01137">ResolveTemplateMap()</a>, <a class="el" href="tokentree_8cpp_source#l00049">s_TokenTreeMutex</a>, <a class="el" href="token_8h_source#l00037">tkClass</a>, and <a class="el" href="token_8h_source#l00045">tkTypedef</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="nativeparser__base_8h_source#l00068">NativeParserBase::ParserComponent::Clear()</a>, and <a class="el" href="nativeparser__base_8cpp_source#l00740">ResolveExpression()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="nativeparser__base_8h_source#l00080">NativeParserBase::ParserComponent::Clear()</a>, and <a class="el" href="nativeparser__base_8cpp_source#l00740">ResolveExpression()</a>.</p>
 
 </div>
 </div>
@@ -2569,9 +2614,9 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="nativeparser__base_8cpp_source#l01137">1137</a> of file <a class="el" href="nativeparser__base_8cpp_source">nativeparser_base.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="nativeparser__base_8h_source#l00695">m_TemplateMap</a>, and <a class="el" href="nativeparser__base_8cpp_source#l01086">ResolveActualType()</a>.</p>
+<p class="reference">References <a class="el" href="nativeparser__base_8h_source#l00750">m_TemplateMap</a>, and <a class="el" href="nativeparser__base_8cpp_source#l01086">ResolveActualType()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="nativeparser__base_8h_source#l00068">NativeParserBase::ParserComponent::Clear()</a>, <a class="el" href="nativeparser__base_8cpp_source#l00740">ResolveExpression()</a>, and <a class="el" href="nativeparser__base_8cpp_source#l00995">ResolveOperator()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="nativeparser__base_8h_source#l00080">NativeParserBase::ParserComponent::Clear()</a>, <a class="el" href="nativeparser__base_8cpp_source#l00740">ResolveExpression()</a>, and <a class="el" href="nativeparser__base_8cpp_source#l00995">ResolveOperator()</a>.</p>
 
 </div>
 </div>
@@ -2596,7 +2641,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="nativeparser__base_8h_source#l00694">694</a> of file <a class="el" href="nativeparser__base_8h_source">nativeparser_base.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="nativeparser__base_8h_source#l00749">749</a> of file <a class="el" href="nativeparser__base_8h_source">nativeparser_base.h</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="nativeparser__base_8cpp_source#l00073">Reset()</a>, and <a class="el" href="nativeparser__base_8cpp_source#l00740">ResolveExpression()</a>.</p>
 
@@ -2622,7 +2667,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="nativeparser__base_8h_source#l00695">695</a> of file <a class="el" href="nativeparser__base_8h_source">nativeparser_base.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="nativeparser__base_8h_source#l00750">750</a> of file <a class="el" href="nativeparser__base_8h_source">nativeparser_base.h</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="nativeparser__base_8cpp_source#l01160">AddTemplateAlias()</a>, <a class="el" href="nativeparser__base_8cpp_source#l00740">ResolveExpression()</a>, and <a class="el" href="nativeparser__base_8cpp_source#l01137">ResolveTemplateMap()</a>.</p>
 

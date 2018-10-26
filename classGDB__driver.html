@@ -19,7 +19,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Code::Blocks
-   &#160;<span id="projectnumber">SVN r11156</span>
+   &#160;<span id="projectnumber">SVN r11506</span>
    </div>
   </td>
  </tr>
@@ -52,12 +52,13 @@ $(function() {
 <div class="dynheader">
 Inheritance diagram for GDB_driver:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classGDB__driver__inherit__graph.svg" width="198" height="786"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classGDB__driver__inherit__graph.svg" width="198" height="756"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 <div class="dynheader">
 Collaboration diagram for GDB_driver:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classGDB__driver__coll__graph.svg" width="2472" height="3062"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classGDB__driver__coll__graph.svg" width="2472" height="3018"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <table class="memberdecls">
@@ -156,13 +157,14 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:um-IsDebuggingStarted"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classGDB__driver#um-IsDebuggingStarted">IsDebuggingStarted</a> () const</td></tr>
 <tr class="memdesc:um-IsDebuggingStarted"><td class="mdescLeft">&#160;</td><td class="mdescRight">Is debugging started.  <a href="#um-IsDebuggingStarted">More...</a><br /></td></tr>
 <tr class="separator:um-IsDebuggingStarted"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:bz-DetermineLanguage"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classGDB__driver#bz-DetermineLanguage">DetermineLanguage</a> ()</td></tr>
+<tr class="memdesc:bz-DetermineLanguage"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determine language is debugged.  <a href="#bz-DetermineLanguage">More...</a><br /></td></tr>
+<tr class="separator:bz-DetermineLanguage"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:qd-UseDebugBreakProcess"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classGDB__driver#qd-UseDebugBreakProcess">UseDebugBreakProcess</a> ()</td></tr>
 <tr class="memdesc:qd-UseDebugBreakProcess"><td class="mdescLeft">&#160;</td><td class="mdescRight">Ask the driver if the debugger should be interrupted with DebugBreakProcess or Ctrl+C event.  <a href="#qd-UseDebugBreakProcess">More...</a><br /></td></tr>
 <tr class="separator:qd-UseDebugBreakProcess"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ta-GetDisassemblyFlavour"><td class="memItemLeft" align="right" valign="top">virtual <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html">wxString</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classGDB__driver#ta-GetDisassemblyFlavour">GetDisassemblyFlavour</a> (void)</td></tr>
 <tr class="separator:ta-GetDisassemblyFlavour"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:pd-GetScriptedTypeCommand"><td class="memItemLeft" align="right" valign="top"><a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html">wxString</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classGDB__driver#pd-GetScriptedTypeCommand">GetScriptedTypeCommand</a> (const <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html">wxString</a> &amp;gdb_type, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html">wxString</a> &amp;parse_func)</td></tr>
-<tr class="separator:pd-GetScriptedTypeCommand"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:hu-AsmFlavour"><td class="memItemLeft" align="right" valign="top"><a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html">wxString</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classGDB__driver#hu-AsmFlavour">AsmFlavour</a> ()</td></tr>
 <tr class="separator:hu-AsmFlavour"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classDebuggerDriver"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classDebuggerDriver')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classDebuggerDriver">DebuggerDriver</a></td></tr>
@@ -253,10 +255,6 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
-<tr class="memitem:we-InitializeScripting"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classGDB__driver#we-InitializeScripting">InitializeScripting</a> ()</td></tr>
-<tr class="separator:we-InitializeScripting"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ep-RegisterType"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classGDB__driver#ep-RegisterType">RegisterType</a> (const <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html">wxString</a> &amp;name, const <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html">wxString</a> &amp;regex, const <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html">wxString</a> &amp;eval_func, const <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html">wxString</a> &amp;parse_func)</td></tr>
-<tr class="separator:ep-RegisterType"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:y0-HandleMainBreakPoint"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classGDB__driver#y0-HandleMainBreakPoint">HandleMainBreakPoint</a> (const <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_reg_ex.html">wxRegEx</a> &amp;<a class="el" href="gdb__driver_8cpp#ue-reBreak">reBreak</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html">wxString</a> line)</td></tr>
 <tr class="separator:y0-HandleMainBreakPoint"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:sg-DetectCygwinMount"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classGDB__driver#sg-DetectCygwinMount">DetectCygwinMount</a> (void)</td></tr>
@@ -272,8 +270,6 @@ Private Attributes</h2></td></tr>
 <tr class="separator:co-m_CygwinPresent"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ri-m_CygdrivePrefix"><td class="memItemLeft" align="right" valign="top"><a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html">wxString</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classGDB__driver#ri-m_CygdrivePrefix">m_CygdrivePrefix</a></td></tr>
 <tr class="separator:ri-m_CygdrivePrefix"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:j6-m_Types"><td class="memItemLeft" align="right" valign="top">TypesArray&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classGDB__driver#j6-m_Types">m_Types</a></td></tr>
-<tr class="separator:j6-m_Types"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:lr-m_BreakOnEntry"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classGDB__driver#lr-m_BreakOnEntry">m_BreakOnEntry</a></td></tr>
 <tr class="separator:lr-m_BreakOnEntry"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:v1-m_ManualBreakOnEntry"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classGDB__driver#v1-m_ManualBreakOnEntry">m_ManualBreakOnEntry</a></td></tr>
@@ -344,10 +340,12 @@ Additional Inherited Members</h2></td></tr>
 <tr class="separator:a1-m_currentFrameNo inherit pro_attribs_classDebuggerDriver"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:fx-m_userSelectedFrameNo inherit pro_attribs_classDebuggerDriver"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDebuggerDriver#fx-m_userSelectedFrameNo">m_userSelectedFrameNo</a></td></tr>
 <tr class="separator:fx-m_userSelectedFrameNo inherit pro_attribs_classDebuggerDriver"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:kd-m_FileName inherit pro_attribs_classDebuggerDriver"><td class="memItemLeft" align="right" valign="top"><a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html">wxString</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDebuggerDriver#kd-m_FileName">m_FileName</a></td></tr>
+<tr class="separator:kd-m_FileName inherit pro_attribs_classDebuggerDriver"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="gdb__driver_8h_source#l00036">36</a> of file <a class="el" href="gdb__driver_8h_source">gdb_driver.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="gdb__driver_8h_source#l00013">13</a> of file <a class="el" href="gdb__driver_8h_source">gdb_driver.h</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="mg-GDB_driver"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#mg-GDB_driver">&#9670;&nbsp;</a></span>GDB_driver()</h2>
@@ -365,9 +363,9 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="gdb__driver_8cpp_source#l00089">89</a> of file <a class="el" href="gdb__driver_8cpp_source">gdb_driver.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="gdb__driver_8cpp_source#l00080">80</a> of file <a class="el" href="gdb__driver_8cpp_source">gdb_driver.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="gdb__driver_8h_source#l00125">m_forceUpdate</a>, and <a class="el" href="gdb__driver_8h_source#l00124">m_needsUpdate</a>.</p>
+<p class="reference">References <a class="el" href="gdb__driver_8h_source#l00099">m_forceUpdate</a>, and <a class="el" href="gdb__driver_8h_source#l00098">m_needsUpdate</a>.</p>
 
 </div>
 </div>
@@ -394,7 +392,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="gdb__driver_8cpp_source#l00105">105</a> of file <a class="el" href="gdb__driver_8cpp_source">gdb_driver.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="gdb__driver_8cpp_source#l00096">96</a> of file <a class="el" href="gdb__driver_8cpp_source">gdb_driver.cpp</a>.</p>
 
 </div>
 </div>
@@ -434,9 +432,9 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Implements <a class="el" href="classDebuggerDriver#hh-AddBreakpoint">DebuggerDriver</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="gdb__driver_8cpp_source#l00676">676</a> of file <a class="el" href="gdb__driver_8cpp_source">gdb_driver.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="gdb__driver_8cpp_source#l00584">584</a> of file <a class="el" href="gdb__driver_8cpp_source">gdb_driver.cpp</a>.</p>
 
-<p class="reference">References <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga7dfc2888539861afe6c4337ef315472b">_T</a>, <a class="el" href="debugger__defs_8h_source#l00134">DebuggerBreakpoint::bptData</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_reg_ex.html#a7b2b15b023a36603084a6b8b9fcf84fd">wxRegEx::GetMatch()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#a65f965b378fbfceed8f8688287f6e65e">wxString::IsSameAs()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_reg_ex.html#aac3f3acd35f8daf37ab2837473188e6a">wxRegEx::Matches()</a>, <a class="el" href="debuggerdriver_8cpp_source#l00083">DebuggerDriver::NotifyCursorChanged()</a>, and <a class="el" href="debuggerdriver_8cpp_source#l00108">DebuggerDriver::QueueCommand()</a>.</p>
+<p class="reference">References <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga7dfc2888539861afe6c4337ef315472b">_T</a>, <a class="el" href="debugger__defs_8h_source#l00134">DebuggerBreakpoint::bptData</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_reg_ex.html#a7b2b15b023a36603084a6b8b9fcf84fd">wxRegEx::GetMatch()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#a65f965b378fbfceed8f8688287f6e65e">wxString::IsSameAs()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_reg_ex.html#aac3f3acd35f8daf37ab2837473188e6a">wxRegEx::Matches()</a>, <a class="el" href="debuggerdriver_8cpp_source#l00085">DebuggerDriver::NotifyCursorChanged()</a>, and <a class="el" href="debuggerdriver_8cpp_source#l00110">DebuggerDriver::QueueCommand()</a>.</p>
 
 </div>
 </div>
@@ -463,9 +461,9 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="gdb__driver_8h_source#l00093">93</a> of file <a class="el" href="gdb__driver_8h_source">gdb_driver.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="gdb__driver_8h_source#l00071">71</a> of file <a class="el" href="gdb__driver_8h_source">gdb_driver.h</a>.</p>
 
-<p class="reference">References <a class="el" href="gdb__driver_8h_source#l00019">ScriptedType::eval_func</a>, <a class="el" href="gdb__driver_8h_source#l00016">ScriptedType::name</a>, <a class="el" href="gdb__driver_8cpp#ue-reBreak">reBreak</a>, and <a class="el" href="gdb__driver_8h_source#l00018">ScriptedType::regex</a>.</p>
+<p class="reference">References <a class="el" href="gdb__driver_8cpp_source#l00328">CorrectCygwinPath()</a>, <a class="el" href="gdb__driver_8cpp_source#l00272">DetectCygwinMount()</a>, <a class="el" href="gdb__driver_8h_source#l00104">flavour</a>, <a class="el" href="gdb__driver_8cpp_source#l00249">GetRemoteDebuggingInfo()</a>, <a class="el" href="gdb__driver_8cpp_source#l01086">HandleMainBreakPoint()</a>, and <a class="el" href="gdb__driver_8cpp#ue-reBreak">reBreak</a>.</p>
 
 </div>
 </div>
@@ -497,9 +495,9 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Implements <a class="el" href="classDebuggerDriver#r6-Attach">DebuggerDriver</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="gdb__driver_8cpp_source#l00764">764</a> of file <a class="el" href="gdb__driver_8cpp_source">gdb_driver.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="gdb__driver_8cpp_source#l00678">678</a> of file <a class="el" href="gdb__driver_8cpp_source">gdb_driver.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="gdb__driver_8h_source#l00132">m_attachedToProcess</a>, <a class="el" href="gdb__driver_8h_source#l00121">m_IsStarted</a>, <a class="el" href="debuggerdriver_8cpp_source#l00108">DebuggerDriver::QueueCommand()</a>, and <a class="el" href="debuggerdriver_8h_source#l00162">DebuggerDriver::SetChildPID()</a>.</p>
+<p class="reference">References <a class="el" href="gdb__driver_8h_source#l00106">m_attachedToProcess</a>, <a class="el" href="gdb__driver_8h_source#l00095">m_IsStarted</a>, <a class="el" href="debuggerdriver_8cpp_source#l00110">DebuggerDriver::QueueCommand()</a>, and <a class="el" href="debuggerdriver_8h_source#l00162">DebuggerDriver::SetChildPID()</a>.</p>
 
 </div>
 </div>
@@ -528,9 +526,9 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Implements <a class="el" href="classDebuggerDriver#k1-Backtrace">DebuggerDriver</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="gdb__driver_8cpp_source#l00585">585</a> of file <a class="el" href="gdb__driver_8cpp_source">gdb_driver.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="gdb__driver_8cpp_source#l00493">493</a> of file <a class="el" href="gdb__driver_8cpp_source">gdb_driver.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="debuggerdriver_8cpp_source#l00108">DebuggerDriver::QueueCommand()</a>.</p>
+<p class="reference">References <a class="el" href="debuggerdriver_8cpp_source#l00110">DebuggerDriver::QueueCommand()</a>.</p>
 
 </div>
 </div>
@@ -559,11 +557,11 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Implements <a class="el" href="classDebuggerDriver#ht-Continue">DebuggerDriver</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="gdb__driver_8cpp_source#l00528">528</a> of file <a class="el" href="gdb__driver_8cpp_source">gdb_driver.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="gdb__driver_8cpp_source#l00436">436</a> of file <a class="el" href="gdb__driver_8cpp_source">gdb_driver.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="gdb__driver_8cpp_source#l00341">GetRemoteDebuggingInfo()</a>, <a class="el" href="remotedebugging_8h_source#l00026">RemoteDebugging::IsOk()</a>, <a class="el" href="gdb__driver_8h_source#l00132">m_attachedToProcess</a>, <a class="el" href="gdb__driver_8h_source#l00121">m_IsStarted</a>, <a class="el" href="gdb__driver_8h_source#l00118">m_ManualBreakOnEntry</a>, <a class="el" href="debuggerdriver_8cpp_source#l00108">DebuggerDriver::QueueCommand()</a>, <a class="el" href="debuggerdriver_8cpp_source#l00098">DebuggerDriver::ResetCursor()</a>, and <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga437ea6ba615b75dac8603e96ec864160">wxT</a>.</p>
+<p class="reference">References <a class="el" href="gdb__driver_8cpp_source#l00249">GetRemoteDebuggingInfo()</a>, <a class="el" href="remotedebugging_8h_source#l00026">RemoteDebugging::IsOk()</a>, <a class="el" href="gdb__driver_8h_source#l00106">m_attachedToProcess</a>, <a class="el" href="gdb__driver_8h_source#l00095">m_IsStarted</a>, <a class="el" href="gdb__driver_8h_source#l00092">m_ManualBreakOnEntry</a>, <a class="el" href="debuggerdriver_8cpp_source#l00110">DebuggerDriver::QueueCommand()</a>, <a class="el" href="debuggerdriver_8cpp_source#l00100">DebuggerDriver::ResetCursor()</a>, and <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga437ea6ba615b75dac8603e96ec864160">wxT</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="gdb__driver_8cpp_source#l01172">HandleMainBreakPoint()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="gdb__driver_8cpp_source#l01086">HandleMainBreakPoint()</a>.</p>
 
 </div>
 </div>
@@ -591,11 +589,11 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="gdb__driver_8cpp_source#l00420">420</a> of file <a class="el" href="gdb__driver_8cpp_source">gdb_driver.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="gdb__driver_8cpp_source#l00328">328</a> of file <a class="el" href="gdb__driver_8cpp_source">gdb_driver.cpp</a>.</p>
 
-<p class="reference">References <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga7dfc2888539861afe6c4337ef315472b">_T</a>, <a class="el" href="gdb__driver_8cpp_source#l00364">DetectCygwinMount()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#a5799047918ccbed5d3166ab9c03be279">wxString::EndsWith()</a>, <a class="el" href="debuggergdb_8cpp_source#l00102">g_EscapeChar</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#a0a760b0340bafebd03a803073e8050b7">wxString::GetChar()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#ab20a87ca731a52c36ec674dae2213ad8">wxString::Len()</a>, <a class="el" href="gdb__driver_8h_source#l00108">m_CygdrivePrefix</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#a9a83357210198cefd2d7d1411db1838d">wxString::Remove()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#a5517e2b01e8da1a7a92400028f1a8344">wxString::Replace()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#a627b084ee8088734e1b28ee23d67f7bb">wxString::StartsWith()</a>, and <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/interface_2wx_2string_8h.html#a9a321d587166a30017b608dd2d234033">wxEmptyString</a>.</p>
+<p class="reference">References <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga7dfc2888539861afe6c4337ef315472b">_T</a>, <a class="el" href="gdb__driver_8cpp_source#l00272">DetectCygwinMount()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#a5799047918ccbed5d3166ab9c03be279">wxString::EndsWith()</a>, <a class="el" href="debuggergdb_8cpp_source#l00102">g_EscapeChar</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#a0a760b0340bafebd03a803073e8050b7">wxString::GetChar()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#ab20a87ca731a52c36ec674dae2213ad8">wxString::Len()</a>, <a class="el" href="gdb__driver_8h_source#l00084">m_CygdrivePrefix</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#a9a83357210198cefd2d7d1411db1838d">wxString::Remove()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#a5517e2b01e8da1a7a92400028f1a8344">wxString::Replace()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#a627b084ee8088734e1b28ee23d67f7bb">wxString::StartsWith()</a>, and <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/interface_2wx_2string_8h.html#a9a321d587166a30017b608dd2d234033">wxEmptyString</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="gdb__driver_8cpp_source#l00777">ParseOutput()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="gdb__driver_8h_source#l00071">AsmFlavour()</a>, and <a class="el" href="gdb__driver_8cpp_source#l00691">ParseOutput()</a>.</p>
 
 </div>
 </div>
@@ -624,9 +622,9 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Implements <a class="el" href="classDebuggerDriver#cb-CPURegisters">DebuggerDriver</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="gdb__driver_8cpp_source#l00598">598</a> of file <a class="el" href="gdb__driver_8cpp_source">gdb_driver.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="gdb__driver_8cpp_source#l00506">506</a> of file <a class="el" href="gdb__driver_8cpp_source">gdb_driver.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="gdb__driver_8h_source#l00130">flavour</a>, and <a class="el" href="debuggerdriver_8cpp_source#l00108">DebuggerDriver::QueueCommand()</a>.</p>
+<p class="reference">References <a class="el" href="gdb__driver_8h_source#l00104">flavour</a>, and <a class="el" href="debuggerdriver_8cpp_source#l00110">DebuggerDriver::QueueCommand()</a>.</p>
 
 </div>
 </div>
@@ -657,9 +655,9 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Implements <a class="el" href="classDebuggerDriver#w2-Detach">DebuggerDriver</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="gdb__driver_8cpp_source#l00772">772</a> of file <a class="el" href="gdb__driver_8cpp_source">gdb_driver.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="gdb__driver_8cpp_source#l00686">686</a> of file <a class="el" href="gdb__driver_8cpp_source">gdb_driver.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="debuggerdriver_8cpp_source#l00108">DebuggerDriver::QueueCommand()</a>.</p>
+<p class="reference">References <a class="el" href="debuggerdriver_8cpp_source#l00110">DebuggerDriver::QueueCommand()</a>.</p>
 
 </div>
 </div>
@@ -687,11 +685,46 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="gdb__driver_8cpp_source#l00364">364</a> of file <a class="el" href="gdb__driver_8cpp_source">gdb_driver.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="gdb__driver_8cpp_source#l00272">272</a> of file <a class="el" href="gdb__driver_8cpp_source">gdb_driver.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="gdb__driver_8cpp_source#l00361">BUFSIZE</a>, <a class="el" href="gdb__driver_8h_source#l00108">m_CygdrivePrefix</a>, <a class="el" href="gdb__driver_8h_source#l00107">m_CygwinPresent</a>, and <a class="el" href="prefix_8cpp_source#l00059">NULL</a>.</p>
+<p class="reference">References <a class="el" href="gdb__driver_8cpp_source#l00269">BUFSIZE</a>, <a class="el" href="gdb__driver_8h_source#l00084">m_CygdrivePrefix</a>, <a class="el" href="gdb__driver_8h_source#l00083">m_CygwinPresent</a>, and <a class="el" href="prefix_8cpp_source#l00059">NULL</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="gdb__driver_8cpp_source#l00420">CorrectCygwinPath()</a>, and <a class="el" href="gdb__driver_8cpp_source#l00220">Prepare()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="gdb__driver_8h_source#l00071">AsmFlavour()</a>, <a class="el" href="gdb__driver_8cpp_source#l00328">CorrectCygwinPath()</a>, and <a class="el" href="gdb__driver_8cpp_source#l00132">Prepare()</a>.</p>
+
+</div>
+</div>
+<a id="bz-DetermineLanguage"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#bz-DetermineLanguage">&#9670;&nbsp;</a></span>DetermineLanguage()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GDB_driver::DetermineLanguage </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Determine language is debugged. </p>
+
+<p>Reimplemented from <a class="el" href="classDebuggerDriver#s1-DetermineLanguage">DebuggerDriver</a>.</p>
+
+<p class="definition">Definition at line <a class="el" href="gdb__driver_8cpp_source#l01128">1128</a> of file <a class="el" href="gdb__driver_8cpp_source">gdb_driver.cpp</a>.</p>
+
+<p class="reference">References <a class="el" href="debuggerdriver_8cpp_source#l00110">DebuggerDriver::QueueCommand()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="gdb__driver_8h_source#l00063">IsDebuggingStarted()</a>.</p>
 
 </div>
 </div>
@@ -720,9 +753,9 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Implements <a class="el" href="classDebuggerDriver#vb-Disassemble">DebuggerDriver</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="gdb__driver_8cpp_source#l00590">590</a> of file <a class="el" href="gdb__driver_8cpp_source">gdb_driver.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="gdb__driver_8cpp_source#l00498">498</a> of file <a class="el" href="gdb__driver_8cpp_source">gdb_driver.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="gdb__driver_8h_source#l00130">flavour</a>, and <a class="el" href="debuggerdriver_8cpp_source#l00108">DebuggerDriver::QueueCommand()</a>.</p>
+<p class="reference">References <a class="el" href="gdb__driver_8h_source#l00104">flavour</a>, and <a class="el" href="debuggerdriver_8cpp_source#l00110">DebuggerDriver::QueueCommand()</a>.</p>
 
 </div>
 </div>
@@ -752,9 +785,9 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Implements <a class="el" href="classDebuggerDriver#qs-EnableCatchingThrow">DebuggerDriver</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="gdb__driver_8cpp_source#l00657">657</a> of file <a class="el" href="gdb__driver_8cpp_source">gdb_driver.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="gdb__driver_8cpp_source#l00565">565</a> of file <a class="el" href="gdb__driver_8cpp_source">gdb_driver.cpp</a>.</p>
 
-<p class="reference">References <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#addd9ccfa3ae2b7ab2d66bcbf034d0be0">wxString::Format()</a>, <a class="el" href="gdb__driver_8h_source#l00140">m_catchThrowIndex</a>, <a class="el" href="debuggerdriver_8cpp_source#l00108">DebuggerDriver::QueueCommand()</a>, and <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga437ea6ba615b75dac8603e96ec864160">wxT</a>.</p>
+<p class="reference">References <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#addd9ccfa3ae2b7ab2d66bcbf034d0be0">wxString::Format()</a>, <a class="el" href="gdb__driver_8h_source#l00114">m_catchThrowIndex</a>, <a class="el" href="debuggerdriver_8cpp_source#l00110">DebuggerDriver::QueueCommand()</a>, and <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga437ea6ba615b75dac8603e96ec864160">wxT</a>.</p>
 
 </div>
 </div>
@@ -803,9 +836,9 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Implements <a class="el" href="classDebuggerDriver#sk-EvaluateSymbol">DebuggerDriver</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="gdb__driver_8cpp_source#l00715">715</a> of file <a class="el" href="gdb__driver_8cpp_source">gdb_driver.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="gdb__driver_8cpp_source#l00623">623</a> of file <a class="el" href="gdb__driver_8cpp_source">gdb_driver.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="debuggerdriver_8cpp_source#l00108">DebuggerDriver::QueueCommand()</a>.</p>
+<p class="reference">References <a class="el" href="debuggerdriver_8cpp_source#l00110">DebuggerDriver::QueueCommand()</a>.</p>
 
 </div>
 </div>
@@ -853,9 +886,9 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Implements <a class="el" href="classDebuggerDriver#pv-GetCommandLine">DebuggerDriver</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="gdb__driver_8cpp_source#l00189">189</a> of file <a class="el" href="gdb__driver_8cpp_source">gdb_driver.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="gdb__driver_8cpp_source#l00101">101</a> of file <a class="el" href="gdb__driver_8cpp_source">gdb_driver.cpp</a>.</p>
 
-<p class="reference">References <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga7dfc2888539861afe6c4337ef315472b">_T</a>, <a class="el" href="debuggeroptionsdlg_8h_source#l00024">DebuggerConfiguration::DisableInit</a>, <a class="el" href="debuggergdb_8cpp_source#l00285">DebuggerGDB::GetActiveConfigEx()</a>, <a class="el" href="debuggeroptionsdlg_8cpp_source#l00133">DebuggerConfiguration::GetFlag()</a>, <a class="el" href="debuggerdriver_8h_source#l00206">DebuggerDriver::m_pDBG</a>, and <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga437ea6ba615b75dac8603e96ec864160">wxT</a>.</p>
+<p class="reference">References <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga7dfc2888539861afe6c4337ef315472b">_T</a>, <a class="el" href="debuggeroptionsdlg_8h_source#l00024">DebuggerConfiguration::DisableInit</a>, <a class="el" href="debuggergdb_8cpp_source#l00285">DebuggerGDB::GetActiveConfigEx()</a>, <a class="el" href="debuggeroptionsdlg_8cpp_source#l00131">DebuggerConfiguration::GetFlag()</a>, <a class="el" href="debuggerdriver_8h_source#l00209">DebuggerDriver::m_pDBG</a>, and <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga437ea6ba615b75dac8603e96ec864160">wxT</a>.</p>
 
 </div>
 </div>
@@ -929,9 +962,11 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="gdb__driver_8cpp_source#l00476">476</a> of file <a class="el" href="gdb__driver_8cpp_source">gdb_driver.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="gdb__driver_8cpp_source#l00384">384</a> of file <a class="el" href="gdb__driver_8cpp_source">gdb_driver.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="gdb__driver_8h_source#l00130">flavour</a>.</p>
+<p class="reference">References <a class="el" href="gdb__driver_8h_source#l00104">flavour</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="gdb__driver_8h_source#l00063">IsDebuggingStarted()</a>.</p>
 
 </div>
 </div>
@@ -958,43 +993,11 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="gdb__driver_8cpp_source#l00341">341</a> of file <a class="el" href="gdb__driver_8cpp_source">gdb_driver.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="gdb__driver_8cpp_source#l00249">249</a> of file <a class="el" href="gdb__driver_8cpp_source">gdb_driver.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="debuggergdb_8cpp_source#l00340">DebuggerGDB::GetRemoteDebuggingMap()</a>, <a class="el" href="gdb__driver_8h_source#l00138">m_MergedRDInfo</a>, <a class="el" href="debuggerdriver_8h_source#l00206">DebuggerDriver::m_pDBG</a>, <a class="el" href="gdb__driver_8h_source#l00135">m_pTarget</a>, and <a class="el" href="remotedebugging_8h_source#l00033">RemoteDebugging::MergeWith()</a>.</p>
+<p class="reference">References <a class="el" href="debuggergdb_8cpp_source#l00340">DebuggerGDB::GetRemoteDebuggingMap()</a>, <a class="el" href="gdb__driver_8h_source#l00112">m_MergedRDInfo</a>, <a class="el" href="debuggerdriver_8h_source#l00209">DebuggerDriver::m_pDBG</a>, <a class="el" href="gdb__driver_8h_source#l00109">m_pTarget</a>, and <a class="el" href="remotedebugging_8h_source#l00033">RemoteDebugging::MergeWith()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="gdb__driver_8cpp_source#l00528">Continue()</a>, <a class="el" href="gdb__driver_8cpp_source#l00220">Prepare()</a>, <a class="el" href="gdb__driver_8cpp_source#l00483">Start()</a>, and <a class="el" href="gdb__driver_8cpp_source#l00468">UseDebugBreakProcess()</a>.</p>
-
-</div>
-</div>
-<a id="pd-GetScriptedTypeCommand"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#pd-GetScriptedTypeCommand">&#9670;&nbsp;</a></span>GetScriptedTypeCommand()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html">wxString</a> GDB_driver::GetScriptedTypeCommand </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html">wxString</a> &amp;&#160;</td>
-          <td class="paramname"><em>gdb_type</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html">wxString</a> &amp;&#160;</td>
-          <td class="paramname"><em>parse_func</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="gdb__driver_8cpp_source#l00174">174</a> of file <a class="el" href="gdb__driver_8cpp_source">gdb_driver.cpp</a>.</p>
-
-<p class="reference">References <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga7dfc2888539861afe6c4337ef315472b">_T</a>, <a class="el" href="gdb__driver_8h_source#l00019">ScriptedType::eval_func</a>, <a class="el" href="gdb__driver_8h_source#l00110">m_Types</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_reg_ex.html#aac3f3acd35f8daf37ab2837473188e6a">wxRegEx::Matches()</a>, <a class="el" href="gdb__driver_8h_source#l00020">ScriptedType::parse_func</a>, and <a class="el" href="gdb__driver_8h_source#l00018">ScriptedType::regex</a>.</p>
+<p class="reference">Referenced by <a class="el" href="gdb__driver_8h_source#l00071">AsmFlavour()</a>, <a class="el" href="gdb__driver_8cpp_source#l00436">Continue()</a>, <a class="el" href="gdb__driver_8cpp_source#l00132">Prepare()</a>, <a class="el" href="gdb__driver_8cpp_source#l00391">Start()</a>, and <a class="el" href="gdb__driver_8cpp_source#l00376">UseDebugBreakProcess()</a>.</p>
 
 </div>
 </div>
@@ -1032,11 +1035,11 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="gdb__driver_8cpp_source#l01172">1172</a> of file <a class="el" href="gdb__driver_8cpp_source">gdb_driver.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="gdb__driver_8cpp_source#l01086">1086</a> of file <a class="el" href="gdb__driver_8cpp_source">gdb_driver.cpp</a>.</p>
 
-<p class="reference">References <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga8a02b8875a521df57263a9e6f090f2d0">_()</a>, <a class="el" href="debugger__defs_8h_source#l00030">Cursor::address</a>, <a class="el" href="debugger__defs_8h_source#l00033">Cursor::changed</a>, <a class="el" href="gdb__driver_8cpp_source#l00528">Continue()</a>, <a class="el" href="debugger__defs_8h_source#l00029">Cursor::file</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_reg_ex.html#a7b2b15b023a36603084a6b8b9fcf84fd">wxRegEx::GetMatch()</a>, <a class="el" href="debuggerdriver_8h_source#l00041">DebuggerDriver::High</a>, <a class="el" href="debugger__defs_8h_source#l00032">Cursor::line</a>, <a class="el" href="cbplugin_8cpp_source#l00530">cbDebuggerPlugin::Log()</a>, <a class="el" href="gdb__driver_8h_source#l00114">m_BreakOnEntry</a>, <a class="el" href="debuggerdriver_8h_source#l00216">DebuggerDriver::m_Cursor</a>, <a class="el" href="gdb__driver_8h_source#l00118">m_ManualBreakOnEntry</a>, <a class="el" href="gdb__driver_8h_source#l00124">m_needsUpdate</a>, <a class="el" href="debuggerdriver_8h_source#l00206">DebuggerDriver::m_pDBG</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_reg_ex.html#aac3f3acd35f8daf37ab2837473188e6a">wxRegEx::Matches()</a>, <a class="el" href="debuggerdriver_8cpp_source#l00108">DebuggerDriver::QueueCommand()</a>, and <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#abb54083175bbc1e1164616b4aa64fcd8">wxString::ToLong()</a>.</p>
+<p class="reference">References <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga8a02b8875a521df57263a9e6f090f2d0">_()</a>, <a class="el" href="debugger__defs_8h_source#l00030">Cursor::address</a>, <a class="el" href="debugger__defs_8h_source#l00033">Cursor::changed</a>, <a class="el" href="gdb__driver_8cpp_source#l00436">Continue()</a>, <a class="el" href="debugger__defs_8h_source#l00029">Cursor::file</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_reg_ex.html#a7b2b15b023a36603084a6b8b9fcf84fd">wxRegEx::GetMatch()</a>, <a class="el" href="debuggerdriver_8h_source#l00041">DebuggerDriver::High</a>, <a class="el" href="debugger__defs_8h_source#l00032">Cursor::line</a>, <a class="el" href="cbplugin_8cpp_source#l00530">cbDebuggerPlugin::Log()</a>, <a class="el" href="gdb__driver_8h_source#l00088">m_BreakOnEntry</a>, <a class="el" href="debuggerdriver_8h_source#l00219">DebuggerDriver::m_Cursor</a>, <a class="el" href="gdb__driver_8h_source#l00092">m_ManualBreakOnEntry</a>, <a class="el" href="gdb__driver_8h_source#l00098">m_needsUpdate</a>, <a class="el" href="debuggerdriver_8h_source#l00209">DebuggerDriver::m_pDBG</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_reg_ex.html#aac3f3acd35f8daf37ab2837473188e6a">wxRegEx::Matches()</a>, <a class="el" href="debuggerdriver_8cpp_source#l00110">DebuggerDriver::QueueCommand()</a>, and <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#abb54083175bbc1e1164616b4aa64fcd8">wxString::ToLong()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="gdb__driver_8cpp_source#l00777">ParseOutput()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="gdb__driver_8h_source#l00071">AsmFlavour()</a>, and <a class="el" href="gdb__driver_8cpp_source#l00691">ParseOutput()</a>.</p>
 
 </div>
 </div>
@@ -1065,9 +1068,9 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Implements <a class="el" href="classDebuggerDriver#ol-InfoDLL">DebuggerDriver</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="gdb__driver_8cpp_source#l00634">634</a> of file <a class="el" href="gdb__driver_8cpp_source">gdb_driver.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="gdb__driver_8cpp_source#l00542">542</a> of file <a class="el" href="gdb__driver_8cpp_source">gdb_driver.cpp</a>.</p>
 
-<p class="reference">References <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga8a02b8875a521df57263a9e6f090f2d0">_()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga7dfc2888539861afe6c4337ef315472b">_T</a>, and <a class="el" href="debuggerdriver_8cpp_source#l00108">DebuggerDriver::QueueCommand()</a>.</p>
+<p class="reference">References <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga8a02b8875a521df57263a9e6f090f2d0">_()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga7dfc2888539861afe6c4337ef315472b">_T</a>, and <a class="el" href="debuggerdriver_8cpp_source#l00110">DebuggerDriver::QueueCommand()</a>.</p>
 
 </div>
 </div>
@@ -1096,9 +1099,9 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Implements <a class="el" href="classDebuggerDriver#ks-InfoFiles">DebuggerDriver</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="gdb__driver_8cpp_source#l00642">642</a> of file <a class="el" href="gdb__driver_8cpp_source">gdb_driver.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="gdb__driver_8cpp_source#l00550">550</a> of file <a class="el" href="gdb__driver_8cpp_source">gdb_driver.cpp</a>.</p>
 
-<p class="reference">References <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga8a02b8875a521df57263a9e6f090f2d0">_()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga7dfc2888539861afe6c4337ef315472b">_T</a>, and <a class="el" href="debuggerdriver_8cpp_source#l00108">DebuggerDriver::QueueCommand()</a>.</p>
+<p class="reference">References <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga8a02b8875a521df57263a9e6f090f2d0">_()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga7dfc2888539861afe6c4337ef315472b">_T</a>, and <a class="el" href="debuggerdriver_8cpp_source#l00110">DebuggerDriver::QueueCommand()</a>.</p>
 
 </div>
 </div>
@@ -1127,9 +1130,9 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Implements <a class="el" href="classDebuggerDriver#n3-InfoFPU">DebuggerDriver</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="gdb__driver_8cpp_source#l00647">647</a> of file <a class="el" href="gdb__driver_8cpp_source">gdb_driver.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="gdb__driver_8cpp_source#l00555">555</a> of file <a class="el" href="gdb__driver_8cpp_source">gdb_driver.cpp</a>.</p>
 
-<p class="reference">References <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga8a02b8875a521df57263a9e6f090f2d0">_()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga7dfc2888539861afe6c4337ef315472b">_T</a>, and <a class="el" href="debuggerdriver_8cpp_source#l00108">DebuggerDriver::QueueCommand()</a>.</p>
+<p class="reference">References <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga8a02b8875a521df57263a9e6f090f2d0">_()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga7dfc2888539861afe6c4337ef315472b">_T</a>, and <a class="el" href="debuggerdriver_8cpp_source#l00110">DebuggerDriver::QueueCommand()</a>.</p>
 
 </div>
 </div>
@@ -1158,9 +1161,9 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Implements <a class="el" href="classDebuggerDriver#kv-InfoFrame">DebuggerDriver</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="gdb__driver_8cpp_source#l00629">629</a> of file <a class="el" href="gdb__driver_8cpp_source">gdb_driver.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="gdb__driver_8cpp_source#l00537">537</a> of file <a class="el" href="gdb__driver_8cpp_source">gdb_driver.cpp</a>.</p>
 
-<p class="reference">References <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga8a02b8875a521df57263a9e6f090f2d0">_()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga7dfc2888539861afe6c4337ef315472b">_T</a>, and <a class="el" href="debuggerdriver_8cpp_source#l00108">DebuggerDriver::QueueCommand()</a>.</p>
+<p class="reference">References <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga8a02b8875a521df57263a9e6f090f2d0">_()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga7dfc2888539861afe6c4337ef315472b">_T</a>, and <a class="el" href="debuggerdriver_8cpp_source#l00110">DebuggerDriver::QueueCommand()</a>.</p>
 
 </div>
 </div>
@@ -1189,40 +1192,9 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Implements <a class="el" href="classDebuggerDriver#kg-InfoSignals">DebuggerDriver</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="gdb__driver_8cpp_source#l00652">652</a> of file <a class="el" href="gdb__driver_8cpp_source">gdb_driver.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="gdb__driver_8cpp_source#l00560">560</a> of file <a class="el" href="gdb__driver_8cpp_source">gdb_driver.cpp</a>.</p>
 
-<p class="reference">References <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga8a02b8875a521df57263a9e6f090f2d0">_()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga7dfc2888539861afe6c4337ef315472b">_T</a>, and <a class="el" href="debuggerdriver_8cpp_source#l00108">DebuggerDriver::QueueCommand()</a>.</p>
-
-</div>
-</div>
-<a id="we-InitializeScripting"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#we-InitializeScripting">&#9670;&nbsp;</a></span>InitializeScripting()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void GDB_driver::InitializeScripting </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="gdb__driver_8cpp_source#l00110">110</a> of file <a class="el" href="gdb__driver_8cpp_source">gdb_driver.cpp</a>.</p>
-
-<p class="reference">References <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga8a02b8875a521df57263a9e6f090f2d0">_()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga7dfc2888539861afe6c4337ef315472b">_T</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#a6418ec90c6d4ffe0b05702be1b35df4f">wxString::c_str()</a>, <a class="el" href="globals_8cpp_source#l00724">cbC2U()</a>, <a class="el" href="cbplugin_8cpp_source#l00540">cbDebuggerPlugin::DebugLog()</a>, <a class="el" href="scriptingmanager_8cpp_source#l00245">ScriptingManager::DisplayErrors()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#addd9ccfa3ae2b7ab2d66bcbf034d0be0">wxString::Format()</a>, <a class="el" href="manager_8cpp_source#l00187">Manager::Get()</a>, <a class="el" href="debuggergdb_8cpp_source#l00285">DebuggerGDB::GetActiveConfigEx()</a>, <a class="el" href="debuggeroptionsdlg_8cpp_source#l00133">DebuggerConfiguration::GetFlag()</a>, <a class="el" href="manager_8cpp_source#l00458">Manager::GetMacrosManager()</a>, <a class="el" href="manager_8cpp_source#l00473">Manager::GetScriptingManager()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#ace32756bab999f8aae9be0cf981fc449">wxString::IsEmpty()</a>, <a class="el" href="scriptingmanager_8cpp_source#l00134">ScriptingManager::LoadScript()</a>, <a class="el" href="configmanager_8cpp_source#l00579">ConfigManager::LocateDataFile()</a>, <a class="el" href="cbplugin_8cpp_source#l00530">cbDebuggerPlugin::Log()</a>, <a class="el" href="debuggerdriver_8h_source#l00206">DebuggerDriver::m_pDBG</a>, <a class="el" href="debuggerdriver_8cpp_source#l00108">DebuggerDriver::QueueCommand()</a>, <a class="el" href="gdb__driver_8cpp_source#l00153">RegisterType()</a>, <a class="el" href="macrosmanager_8cpp_source#l00435">MacrosManager::ReplaceMacros()</a>, <a class="el" href="configmanager_8h_source#l00080">sdScriptsGlobal</a>, <a class="el" href="configmanager_8h_source#l00074">sdScriptsUser</a>, and <a class="el" href="debuggeroptionsdlg_8h_source#l00027">DebuggerConfiguration::WatchScriptPrinters</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="gdb__driver_8cpp_source#l00220">Prepare()</a>.</p>
+<p class="reference">References <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga8a02b8875a521df57263a9e6f090f2d0">_()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga7dfc2888539861afe6c4337ef315472b">_T</a>, and <a class="el" href="debuggerdriver_8cpp_source#l00110">DebuggerDriver::QueueCommand()</a>.</p>
 
 </div>
 </div>
@@ -1253,9 +1225,9 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Implements <a class="el" href="classDebuggerDriver#mj-IsDebuggingStarted">DebuggerDriver</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="gdb__driver_8h_source#l00086">86</a> of file <a class="el" href="gdb__driver_8h_source">gdb_driver.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="gdb__driver_8h_source#l00063">63</a> of file <a class="el" href="gdb__driver_8h_source">gdb_driver.h</a>.</p>
 
-<p class="reference">References <a class="el" href="gdb__driver_8h_source#l00020">ScriptedType::parse_func</a>.</p>
+<p class="reference">References <a class="el" href="gdb__driver_8cpp_source#l01128">DetermineLanguage()</a>, <a class="el" href="gdb__driver_8cpp_source#l00384">GetDisassemblyFlavour()</a>, <a class="el" href="gdb__driver_8h_source#l00095">m_IsStarted</a>, and <a class="el" href="gdb__driver_8cpp_source#l00376">UseDebugBreakProcess()</a>.</p>
 
 </div>
 </div>
@@ -1284,9 +1256,9 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Implements <a class="el" href="classDebuggerDriver#cg-MemoryDump">DebuggerDriver</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="gdb__driver_8cpp_source#l00618">618</a> of file <a class="el" href="gdb__driver_8cpp_source">gdb_driver.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="gdb__driver_8cpp_source#l00526">526</a> of file <a class="el" href="gdb__driver_8cpp_source">gdb_driver.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="debuggerdriver_8cpp_source#l00108">DebuggerDriver::QueueCommand()</a>.</p>
+<p class="reference">References <a class="el" href="debuggerdriver_8cpp_source#l00110">DebuggerDriver::QueueCommand()</a>.</p>
 
 </div>
 </div>
@@ -1318,9 +1290,9 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Implements <a class="el" href="classDebuggerDriver#fj-ParseOutput">DebuggerDriver</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="gdb__driver_8cpp_source#l00777">777</a> of file <a class="el" href="gdb__driver_8cpp_source">gdb_driver.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="gdb__driver_8cpp_source#l00691">691</a> of file <a class="el" href="gdb__driver_8cpp_source">gdb_driver.cpp</a>.</p>
 
-<p class="reference">References <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga8a02b8875a521df57263a9e6f090f2d0">_()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga7dfc2888539861afe6c4337ef315472b">_T</a>, <a class="el" href="gdb__commands_8h_source#l01180">GdbCmd_ChangeFrame::AddrChgMode()</a>, <a class="el" href="debugger__defs_8h_source#l00030">Cursor::address</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#a1605126b7bbf5f60a6fca7f393a58f1d">wxString::AfterFirst()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#ac37f690daad1637493dc8ffc7c0efe70">wxString::BeforeFirst()</a>, <a class="el" href="cbplugin_8cpp_source#l00913">cbDebuggerPlugin::BringCBToFront()</a>, <a class="el" href="debugger__defs_8h_source#l00033">Cursor::changed</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#a39f5e308eb0192cac2e338bedb377ee0">wxString::Clear()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#a4dcd0f3f0fe03ccddb85df2f3b18d665">wxString::clear()</a>, <a class="el" href="gdb__driver_8cpp_source#l00420">CorrectCygwinPath()</a>, <a class="el" href="debuggerdriver_8cpp_source#l00118">DebuggerDriver::CurrentCommand()</a>, <a class="el" href="cbplugin_8cpp_source#l00540">cbDebuggerPlugin::DebugLog()</a>, <a class="el" href="infowindow_8cpp_source#l00294">InfoWindow::Display()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#ac6ae24a8ccc6e4e671f972948fca437c">wxString::empty()</a>, <a class="el" href="debugger__defs_8h_source#l00029">Cursor::file</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#a93e1e0634d46ce94d6491abdedc71c21">wxString::First()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#addd9ccfa3ae2b7ab2d66bcbf034d0be0">wxString::Format()</a>, <a class="el" href="debugger__defs_8h_source#l00031">Cursor::function</a>, <a class="el" href="debuggergdb_8cpp_source#l00102">g_EscapeChar</a>, <a class="el" href="gdb__driver_8cpp_source#l00036">GDB_PROMPT</a>, <a class="el" href="manager_8cpp_source#l00187">Manager::Get()</a>, <a class="el" href="globals_8cpp_source#l00134">GetArrayFromString()</a>, <a class="el" href="debuggerstate_8cpp_source#l00243">DebuggerState::GetBreakpoint()</a>, <a class="el" href="debuggerstate_8cpp_source#l00250">DebuggerState::GetBreakpointByNumber()</a>, <a class="el" href="debuggermanager_8cpp_source#l01058">DebuggerManager::GetBreakpointDialog()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_array_string.html#ad2a491f799c8d6539dc64d06f2c37ac6">wxArrayString::GetCount()</a>, <a class="el" href="manager_8cpp_source#l00488">Manager::GetDebuggerManager()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_reg_ex.html#a7b2b15b023a36603084a6b8b9fcf84fd">wxRegEx::GetMatch()</a>, <a class="el" href="debuggergdb_8h_source#l00114">DebuggerGDB::GetState()</a>, <a class="el" href="gdb__driver_8cpp_source#l01172">HandleMainBreakPoint()</a>, <a class="el" href="debuggerstate_8cpp_source#l00230">DebuggerState::HasBreakpoint()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_array_string.html#a9d02526d49d8b9da9ea184969ca721d2">wxArrayString::Item()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#a9cbac1fb780a7e227d38a85108829f8d">wxString::Last()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#aaadd66ce3aa4bcfc66459c95cad81550">wxString::Left()</a>, <a class="el" href="debugger__defs_8h_source#l00032">Cursor::line</a>, <a class="el" href="debuggerdriver_8cpp_source#l00035">DebuggerDriver::Log()</a>, <a class="el" href="cbplugin_8cpp_source#l00530">cbDebuggerPlugin::Log()</a>, <a class="el" href="debuggerdriver_8h_source#l00218">DebuggerDriver::m_ChildPID</a>, <a class="el" href="debuggerdriver_8h_source#l00216">DebuggerDriver::m_Cursor</a>, <a class="el" href="gdb__driver_8h_source#l00107">m_CygwinPresent</a>, <a class="el" href="debuggerdriver_8h_source#l00221">DebuggerDriver::m_DCmds</a>, <a class="el" href="gdb__driver_8h_source#l00125">m_forceUpdate</a>, <a class="el" href="gdb__driver_8h_source#l00128">m_GDBVersionMajor</a>, <a class="el" href="gdb__driver_8h_source#l00129">m_GDBVersionMinor</a>, <a class="el" href="gdb__driver_8h_source#l00121">m_IsStarted</a>, <a class="el" href="gdb__driver_8h_source#l00124">m_needsUpdate</a>, <a class="el" href="debuggerdriver_8h_source#l00206">DebuggerDriver::m_pDBG</a>, <a class="el" href="debuggerdriver_8h_source#l00214">DebuggerDriver::m_ProgramIsStopped</a>, <a class="el" href="debuggerdriver_8h_source#l00222">DebuggerDriver::m_QueueBusy</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_reg_ex.html#aac3f3acd35f8daf37ab2837473188e6a">wxRegEx::Matches()</a>, <a class="el" href="debuggerdriver_8cpp_source#l00083">DebuggerDriver::NotifyCursorChanged()</a>, <a class="el" href="debugger__defs_8cpp_source#l00037">DebuggerCmd::ParseOutput()</a>, <a class="el" href="debuggerdriver_8cpp_source#l00108">DebuggerDriver::QueueCommand()</a>, <a class="el" href="gdb__driver_8cpp#ue-reBreak">reBreak</a>, <a class="el" href="gdb__driver_8cpp#mb-reBreak2">reBreak2</a>, <a class="el" href="gdb__driver_8cpp#i3-reBreak3">reBreak3</a>, <a class="el" href="gdb__driver_8cpp#j5-reCatchThrow">reCatchThrow</a>, <a class="el" href="gdb__driver_8cpp#zx-reCatchThrowNoFile">reCatchThrowNoFile</a>, <a class="el" href="gdb__driver_8cpp#uy-reChildPid1">reChildPid1</a>, <a class="el" href="gdb__driver_8cpp#gx-reChildPid2">reChildPid2</a>, <a class="el" href="gdb__driver_8cpp#dk-reInferiorExited">reInferiorExited</a>, <a class="el" href="gdb__driver_8cpp#pe-reInferiorExitedWithCode">reInferiorExitedWithCode</a>, <a class="el" href="classcbBreakpointsDlg#d3-Reload">cbBreakpointsDlg::Reload()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#a9a83357210198cefd2d7d1411db1838d">wxString::Remove()</a>, <a class="el" href="debuggerstate_8cpp_source#l00169">DebuggerState::RemoveBreakpoint()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#aa375e1718cb40fd991e89428e620ba82">wxString::RemoveLast()</a>, <a class="el" href="debuggerdriver_8cpp_source#l00153">DebuggerDriver::RemoveTopCommand()</a>, <a class="el" href="gdb__driver_8cpp#p3-rePendingFound">rePendingFound</a>, <a class="el" href="gdb__driver_8cpp#uj-rePendingFound1">rePendingFound1</a>, <a class="el" href="gdb__driver_8cpp#i0-reTempBreakFound">reTempBreakFound</a>, <a class="el" href="gdb__driver_8cpp#la-reThreadSwitch">reThreadSwitch</a>, <a class="el" href="gdb__driver_8cpp#zu-reThreadSwitch2">reThreadSwitch2</a>, <a class="el" href="debuggerdriver_8cpp_source#l00123">DebuggerDriver::RunQueue()</a>, <a class="el" href="debuggerdriver_8h_source#l00162">DebuggerDriver::SetChildPID()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#a627b084ee8088734e1b28ee23d67f7bb">wxString::StartsWith()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#abb54083175bbc1e1164616b4aa64fcd8">wxString::ToLong()</a>, <a class="el" href="globals_8cpp_source#l00228">UnixFilename()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/interface_2wx_2string_8h.html#a9a321d587166a30017b608dd2d234033">wxEmptyString</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/defs_8h.html#a89de5e6353fc7812991b085e12263e98">wxNOT_FOUND</a>, and <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga437ea6ba615b75dac8603e96ec864160">wxT</a>.</p>
+<p class="reference">References <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga8a02b8875a521df57263a9e6f090f2d0">_()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga7dfc2888539861afe6c4337ef315472b">_T</a>, <a class="el" href="gdb__commands_8h_source#l01108">GdbCmd_ChangeFrame::AddrChgMode()</a>, <a class="el" href="debugger__defs_8h_source#l00030">Cursor::address</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#a1605126b7bbf5f60a6fca7f393a58f1d">wxString::AfterFirst()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#ac37f690daad1637493dc8ffc7c0efe70">wxString::BeforeFirst()</a>, <a class="el" href="cbplugin_8cpp_source#l00913">cbDebuggerPlugin::BringCBToFront()</a>, <a class="el" href="debugger__defs_8h_source#l00033">Cursor::changed</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#a39f5e308eb0192cac2e338bedb377ee0">wxString::Clear()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#a4dcd0f3f0fe03ccddb85df2f3b18d665">wxString::clear()</a>, <a class="el" href="gdb__driver_8cpp_source#l00328">CorrectCygwinPath()</a>, <a class="el" href="debuggerdriver_8cpp_source#l00120">DebuggerDriver::CurrentCommand()</a>, <a class="el" href="cbplugin_8cpp_source#l00540">cbDebuggerPlugin::DebugLog()</a>, <a class="el" href="infowindow_8cpp_source#l00294">InfoWindow::Display()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#ac6ae24a8ccc6e4e671f972948fca437c">wxString::empty()</a>, <a class="el" href="debugger__defs_8h_source#l00029">Cursor::file</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#a93e1e0634d46ce94d6491abdedc71c21">wxString::First()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#addd9ccfa3ae2b7ab2d66bcbf034d0be0">wxString::Format()</a>, <a class="el" href="debugger__defs_8h_source#l00031">Cursor::function</a>, <a class="el" href="debuggergdb_8cpp_source#l00102">g_EscapeChar</a>, <a class="el" href="gdb__driver_8cpp_source#l00032">GDB_PROMPT</a>, <a class="el" href="manager_8cpp_source#l00182">Manager::Get()</a>, <a class="el" href="globals_8cpp_source#l00134">GetArrayFromString()</a>, <a class="el" href="debuggerstate_8cpp_source#l00243">DebuggerState::GetBreakpoint()</a>, <a class="el" href="debuggerstate_8cpp_source#l00250">DebuggerState::GetBreakpointByNumber()</a>, <a class="el" href="debuggermanager_8cpp_source#l01070">DebuggerManager::GetBreakpointDialog()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_array_string.html#ad2a491f799c8d6539dc64d06f2c37ac6">wxArrayString::GetCount()</a>, <a class="el" href="manager_8cpp_source#l00484">Manager::GetDebuggerManager()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_reg_ex.html#a7b2b15b023a36603084a6b8b9fcf84fd">wxRegEx::GetMatch()</a>, <a class="el" href="debuggergdb_8h_source#l00114">DebuggerGDB::GetState()</a>, <a class="el" href="gdb__driver_8cpp_source#l01086">HandleMainBreakPoint()</a>, <a class="el" href="debuggerstate_8cpp_source#l00230">DebuggerState::HasBreakpoint()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_array_string.html#a9d02526d49d8b9da9ea184969ca721d2">wxArrayString::Item()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#a9cbac1fb780a7e227d38a85108829f8d">wxString::Last()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#aaadd66ce3aa4bcfc66459c95cad81550">wxString::Left()</a>, <a class="el" href="debugger__defs_8h_source#l00032">Cursor::line</a>, <a class="el" href="debuggerdriver_8cpp_source#l00035">DebuggerDriver::Log()</a>, <a class="el" href="cbplugin_8cpp_source#l00530">cbDebuggerPlugin::Log()</a>, <a class="el" href="debuggerdriver_8h_source#l00221">DebuggerDriver::m_ChildPID</a>, <a class="el" href="debuggerdriver_8h_source#l00219">DebuggerDriver::m_Cursor</a>, <a class="el" href="gdb__driver_8h_source#l00083">m_CygwinPresent</a>, <a class="el" href="debuggerdriver_8h_source#l00224">DebuggerDriver::m_DCmds</a>, <a class="el" href="gdb__driver_8h_source#l00099">m_forceUpdate</a>, <a class="el" href="gdb__driver_8h_source#l00102">m_GDBVersionMajor</a>, <a class="el" href="gdb__driver_8h_source#l00103">m_GDBVersionMinor</a>, <a class="el" href="gdb__driver_8h_source#l00095">m_IsStarted</a>, <a class="el" href="gdb__driver_8h_source#l00098">m_needsUpdate</a>, <a class="el" href="debuggerdriver_8h_source#l00209">DebuggerDriver::m_pDBG</a>, <a class="el" href="debuggerdriver_8h_source#l00217">DebuggerDriver::m_ProgramIsStopped</a>, <a class="el" href="debuggerdriver_8h_source#l00225">DebuggerDriver::m_QueueBusy</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_reg_ex.html#aac3f3acd35f8daf37ab2837473188e6a">wxRegEx::Matches()</a>, <a class="el" href="debuggerdriver_8cpp_source#l00085">DebuggerDriver::NotifyCursorChanged()</a>, <a class="el" href="debugger__defs_8cpp_source#l00037">DebuggerCmd::ParseOutput()</a>, <a class="el" href="debuggerdriver_8cpp_source#l00110">DebuggerDriver::QueueCommand()</a>, <a class="el" href="gdb__driver_8cpp#ue-reBreak">reBreak</a>, <a class="el" href="gdb__driver_8cpp#mb-reBreak2">reBreak2</a>, <a class="el" href="gdb__driver_8cpp#i3-reBreak3">reBreak3</a>, <a class="el" href="gdb__driver_8cpp#j5-reCatchThrow">reCatchThrow</a>, <a class="el" href="gdb__driver_8cpp#zx-reCatchThrowNoFile">reCatchThrowNoFile</a>, <a class="el" href="gdb__driver_8cpp#uy-reChildPid1">reChildPid1</a>, <a class="el" href="gdb__driver_8cpp#gx-reChildPid2">reChildPid2</a>, <a class="el" href="gdb__driver_8cpp#dk-reInferiorExited">reInferiorExited</a>, <a class="el" href="gdb__driver_8cpp#pe-reInferiorExitedWithCode">reInferiorExitedWithCode</a>, <a class="el" href="classcbBreakpointsDlg#d3-Reload">cbBreakpointsDlg::Reload()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#a9a83357210198cefd2d7d1411db1838d">wxString::Remove()</a>, <a class="el" href="debuggerstate_8cpp_source#l00169">DebuggerState::RemoveBreakpoint()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#aa375e1718cb40fd991e89428e620ba82">wxString::RemoveLast()</a>, <a class="el" href="debuggerdriver_8cpp_source#l00155">DebuggerDriver::RemoveTopCommand()</a>, <a class="el" href="gdb__driver_8cpp#p3-rePendingFound">rePendingFound</a>, <a class="el" href="gdb__driver_8cpp#uj-rePendingFound1">rePendingFound1</a>, <a class="el" href="gdb__driver_8cpp#i0-reTempBreakFound">reTempBreakFound</a>, <a class="el" href="gdb__driver_8cpp#la-reThreadSwitch">reThreadSwitch</a>, <a class="el" href="gdb__driver_8cpp#zu-reThreadSwitch2">reThreadSwitch2</a>, <a class="el" href="debuggerdriver_8cpp_source#l00125">DebuggerDriver::RunQueue()</a>, <a class="el" href="debuggerdriver_8h_source#l00162">DebuggerDriver::SetChildPID()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#a627b084ee8088734e1b28ee23d67f7bb">wxString::StartsWith()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#abb54083175bbc1e1164616b4aa64fcd8">wxString::ToLong()</a>, <a class="el" href="globals_8cpp_source#l00228">UnixFilename()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/interface_2wx_2string_8h.html#a9a321d587166a30017b608dd2d234033">wxEmptyString</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/defs_8h.html#a89de5e6353fc7812991b085e12263e98">wxNOT_FOUND</a>, and <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga437ea6ba615b75dac8603e96ec864160">wxT</a>.</p>
 
 </div>
 </div>
@@ -1368,63 +1340,9 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Implements <a class="el" href="classDebuggerDriver#tt-Prepare">DebuggerDriver</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="gdb__driver_8cpp_source#l00220">220</a> of file <a class="el" href="gdb__driver_8cpp_source">gdb_driver.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="gdb__driver_8cpp_source#l00132">132</a> of file <a class="el" href="gdb__driver_8cpp_source">gdb_driver.cpp</a>.</p>
 
-<p class="reference">References <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga7dfc2888539861afe6c4337ef315472b">_T</a>, <a class="el" href="remotedebugging_8h_source#l00073">RemoteDebugging::additionalCmds</a>, <a class="el" href="remotedebugging_8h_source#l00074">RemoteDebugging::additionalCmdsBefore</a>, <a class="el" href="remotedebugging_8h_source#l00075">RemoteDebugging::additionalShellCmdsAfter</a>, <a class="el" href="remotedebugging_8h_source#l00076">RemoteDebugging::additionalShellCmdsBefore</a>, <a class="el" href="debuggeroptionsdlg_8h_source#l00028">DebuggerConfiguration::CatchExceptions</a>, <a class="el" href="remotedebugging_8h_source#l00068">RemoteDebugging::connType</a>, <a class="el" href="gdb__driver_8cpp_source#l00364">DetectCygwinMount()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#ac6ae24a8ccc6e4e671f972948fca437c">wxString::empty()</a>, <a class="el" href="gdb__driver_8h_source#l00130">flavour</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#addd9ccfa3ae2b7ab2d66bcbf034d0be0">wxString::Format()</a>, <a class="el" href="gdb__driver_8cpp_source#l00037">FULL_GDB_PROMPT</a>, <a class="el" href="manager_8cpp_source#l00187">Manager::Get()</a>, <a class="el" href="debuggergdb_8cpp_source#l00285">DebuggerGDB::GetActiveConfigEx()</a>, <a class="el" href="globals_8cpp_source#l00134">GetArrayFromString()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_array_string.html#ad2a491f799c8d6539dc64d06f2c37ac6">wxArrayString::GetCount()</a>, <a class="el" href="debuggeroptionsdlg_8cpp_source#l00211">DebuggerConfiguration::GetDisassemblyFlavorCommand()</a>, <a class="el" href="debuggeroptionsdlg_8cpp_source#l00133">DebuggerConfiguration::GetFlag()</a>, <a class="el" href="debuggeroptionsdlg_8cpp_source#l00244">DebuggerConfiguration::GetInitCommands()</a>, <a class="el" href="manager_8cpp_source#l00458">Manager::GetMacrosManager()</a>, <a class="el" href="gdb__driver_8cpp_source#l00341">GetRemoteDebuggingInfo()</a>, <a class="el" href="gdb__driver_8cpp_source#l00110">InitializeScripting()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#ace32756bab999f8aae9be0cf981fc449">wxString::IsEmpty()</a>, <a class="el" href="remotedebugging_8h_source#l00026">RemoteDebugging::IsOk()</a>, <a class="el" href="debuggerdriver_8h_source#l00211">DebuggerDriver::m_Args</a>, <a class="el" href="gdb__driver_8h_source#l00140">m_catchThrowIndex</a>, <a class="el" href="debuggerdriver_8h_source#l00209">DebuggerDriver::m_Dirs</a>, <a class="el" href="debuggerdriver_8h_source#l00206">DebuggerDriver::m_pDBG</a>, <a class="el" href="gdb__driver_8h_source#l00110">m_Types</a>, <a class="el" href="debuggerdriver_8cpp_source#l00108">DebuggerDriver::QueueCommand()</a>, <a class="el" href="macrosmanager_8cpp_source#l00435">MacrosManager::ReplaceMacros()</a>, <a class="el" href="remotedebugging_8h_source#l00021">RemoteDebugging::Serial</a>, <a class="el" href="remotedebugging_8h_source#l00070">RemoteDebugging::serialBaud</a>, and <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga437ea6ba615b75dac8603e96ec864160">wxT</a>.</p>
-
-</div>
-</div>
-<a id="ep-RegisterType"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ep-RegisterType">&#9670;&nbsp;</a></span>RegisterType()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void GDB_driver::RegisterType </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html">wxString</a> &amp;&#160;</td>
-          <td class="paramname"><em>name</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html">wxString</a> &amp;&#160;</td>
-          <td class="paramname"><em>regex</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html">wxString</a> &amp;&#160;</td>
-          <td class="paramname"><em>eval_func</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html">wxString</a> &amp;&#160;</td>
-          <td class="paramname"><em>parse_func</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="gdb__driver_8cpp_source#l00153">153</a> of file <a class="el" href="gdb__driver_8cpp_source">gdb_driver.cpp</a>.</p>
-
-<p class="reference">References <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga8a02b8875a521df57263a9e6f090f2d0">_()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_reg_ex.html#acd01c4ab52213184f89a1e9a36bc1a24">wxRegEx::Compile()</a>, <a class="el" href="gdb__driver_8h_source#l00019">ScriptedType::eval_func</a>, <a class="el" href="cbplugin_8cpp_source#l00530">cbDebuggerPlugin::Log()</a>, <a class="el" href="debuggerdriver_8h_source#l00206">DebuggerDriver::m_pDBG</a>, <a class="el" href="gdb__driver_8h_source#l00110">m_Types</a>, <a class="el" href="gdb__driver_8h_source#l00016">ScriptedType::name</a>, <a class="el" href="gdb__driver_8h_source#l00020">ScriptedType::parse_func</a>, <a class="el" href="gdb__driver_8h_source#l00018">ScriptedType::regex</a>, and <a class="el" href="gdb__driver_8h_source#l00017">ScriptedType::regex_str</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="gdb__driver_8cpp_source#l00110">InitializeScripting()</a>.</p>
+<p class="reference">References <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga7dfc2888539861afe6c4337ef315472b">_T</a>, <a class="el" href="remotedebugging_8h_source#l00073">RemoteDebugging::additionalCmds</a>, <a class="el" href="remotedebugging_8h_source#l00074">RemoteDebugging::additionalCmdsBefore</a>, <a class="el" href="remotedebugging_8h_source#l00075">RemoteDebugging::additionalShellCmdsAfter</a>, <a class="el" href="remotedebugging_8h_source#l00076">RemoteDebugging::additionalShellCmdsBefore</a>, <a class="el" href="debuggeroptionsdlg_8h_source#l00027">DebuggerConfiguration::CatchExceptions</a>, <a class="el" href="remotedebugging_8h_source#l00068">RemoteDebugging::connType</a>, <a class="el" href="gdb__driver_8cpp_source#l00272">DetectCygwinMount()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#ac6ae24a8ccc6e4e671f972948fca437c">wxString::empty()</a>, <a class="el" href="gdb__driver_8h_source#l00104">flavour</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#addd9ccfa3ae2b7ab2d66bcbf034d0be0">wxString::Format()</a>, <a class="el" href="gdb__driver_8cpp_source#l00033">FULL_GDB_PROMPT</a>, <a class="el" href="manager_8cpp_source#l00182">Manager::Get()</a>, <a class="el" href="debuggergdb_8cpp_source#l00285">DebuggerGDB::GetActiveConfigEx()</a>, <a class="el" href="globals_8cpp_source#l00134">GetArrayFromString()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_array_string.html#ad2a491f799c8d6539dc64d06f2c37ac6">wxArrayString::GetCount()</a>, <a class="el" href="debuggeroptionsdlg_8cpp_source#l00204">DebuggerConfiguration::GetDisassemblyFlavorCommand()</a>, <a class="el" href="debuggeroptionsdlg_8cpp_source#l00131">DebuggerConfiguration::GetFlag()</a>, <a class="el" href="debuggeroptionsdlg_8cpp_source#l00237">DebuggerConfiguration::GetInitCommands()</a>, <a class="el" href="manager_8cpp_source#l00454">Manager::GetMacrosManager()</a>, <a class="el" href="gdb__driver_8cpp_source#l00249">GetRemoteDebuggingInfo()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#ace32756bab999f8aae9be0cf981fc449">wxString::IsEmpty()</a>, <a class="el" href="remotedebugging_8h_source#l00026">RemoteDebugging::IsOk()</a>, <a class="el" href="debuggerdriver_8h_source#l00214">DebuggerDriver::m_Args</a>, <a class="el" href="gdb__driver_8h_source#l00114">m_catchThrowIndex</a>, <a class="el" href="debuggerdriver_8h_source#l00212">DebuggerDriver::m_Dirs</a>, <a class="el" href="debuggerdriver_8h_source#l00209">DebuggerDriver::m_pDBG</a>, <a class="el" href="debuggerdriver_8cpp_source#l00110">DebuggerDriver::QueueCommand()</a>, <a class="el" href="macrosmanager_8cpp_source#l00446">MacrosManager::ReplaceMacros()</a>, <a class="el" href="remotedebugging_8h_source#l00021">RemoteDebugging::Serial</a>, <a class="el" href="remotedebugging_8h_source#l00070">RemoteDebugging::serialBaud</a>, and <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga437ea6ba615b75dac8603e96ec864160">wxT</a>.</p>
 
 </div>
 </div>
@@ -1462,9 +1380,9 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Implements <a class="el" href="classDebuggerDriver#j3-RemoveBreakpoint">DebuggerDriver</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="gdb__driver_8cpp_source#l00709">709</a> of file <a class="el" href="gdb__driver_8cpp_source">gdb_driver.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="gdb__driver_8cpp_source#l00617">617</a> of file <a class="el" href="gdb__driver_8cpp_source">gdb_driver.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="debuggerdriver_8cpp_source#l00108">DebuggerDriver::QueueCommand()</a>.</p>
+<p class="reference">References <a class="el" href="debuggerdriver_8cpp_source#l00110">DebuggerDriver::QueueCommand()</a>.</p>
 
 </div>
 </div>
@@ -1493,9 +1411,9 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Implements <a class="el" href="classDebuggerDriver#ia-RunningThreads">DebuggerDriver</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="gdb__driver_8cpp_source#l00623">623</a> of file <a class="el" href="gdb__driver_8cpp_source">gdb_driver.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="gdb__driver_8cpp_source#l00531">531</a> of file <a class="el" href="gdb__driver_8cpp_source">gdb_driver.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="manager_8cpp_source#l00187">Manager::Get()</a>, and <a class="el" href="debuggerdriver_8cpp_source#l00108">DebuggerDriver::QueueCommand()</a>.</p>
+<p class="reference">References <a class="el" href="manager_8cpp_source#l00182">Manager::Get()</a>, and <a class="el" href="debuggerdriver_8cpp_source#l00110">DebuggerDriver::QueueCommand()</a>.</p>
 
 </div>
 </div>
@@ -1535,9 +1453,9 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Implements <a class="el" href="classDebuggerDriver#gd-SetNextStatement">DebuggerDriver</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="gdb__driver_8cpp_source#l00578">578</a> of file <a class="el" href="gdb__driver_8cpp_source">gdb_driver.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="gdb__driver_8cpp_source#l00486">486</a> of file <a class="el" href="gdb__driver_8cpp_source">gdb_driver.cpp</a>.</p>
 
-<p class="reference">References <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#a6418ec90c6d4ffe0b05702be1b35df4f">wxString::c_str()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#addd9ccfa3ae2b7ab2d66bcbf034d0be0">wxString::Format()</a>, <a class="el" href="debuggerdriver_8cpp_source#l00108">DebuggerDriver::QueueCommand()</a>, <a class="el" href="debuggerdriver_8cpp_source#l00098">DebuggerDriver::ResetCursor()</a>, and <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga437ea6ba615b75dac8603e96ec864160">wxT</a>.</p>
+<p class="reference">References <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#a6418ec90c6d4ffe0b05702be1b35df4f">wxString::c_str()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#addd9ccfa3ae2b7ab2d66bcbf034d0be0">wxString::Format()</a>, <a class="el" href="debuggerdriver_8cpp_source#l00110">DebuggerDriver::QueueCommand()</a>, <a class="el" href="debuggerdriver_8cpp_source#l00100">DebuggerDriver::ResetCursor()</a>, and <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga437ea6ba615b75dac8603e96ec864160">wxT</a>.</p>
 
 </div>
 </div>
@@ -1569,9 +1487,9 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Implements <a class="el" href="classDebuggerDriver#av-SetTarget">DebuggerDriver</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="gdb__driver_8cpp_source#l00214">214</a> of file <a class="el" href="gdb__driver_8cpp_source">gdb_driver.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="gdb__driver_8cpp_source#l00126">126</a> of file <a class="el" href="gdb__driver_8cpp_source">gdb_driver.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="gdb__driver_8h_source#l00135">m_pTarget</a>.</p>
+<p class="reference">References <a class="el" href="gdb__driver_8h_source#l00109">m_pTarget</a>.</p>
 
 </div>
 </div>
@@ -1611,9 +1529,9 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Implements <a class="el" href="classDebuggerDriver#dw-SetVarValue">DebuggerDriver</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="gdb__driver_8cpp_source#l00612">612</a> of file <a class="el" href="gdb__driver_8cpp_source">gdb_driver.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="gdb__driver_8cpp_source#l00520">520</a> of file <a class="el" href="gdb__driver_8cpp_source">gdb_driver.cpp</a>.</p>
 
-<p class="reference">References <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga7dfc2888539861afe6c4337ef315472b">_T</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#a6418ec90c6d4ffe0b05702be1b35df4f">wxString::c_str()</a>, <a class="el" href="debugger__defs_8cpp_source#l00327">CleanStringValue()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#addd9ccfa3ae2b7ab2d66bcbf034d0be0">wxString::Format()</a>, and <a class="el" href="debuggerdriver_8cpp_source#l00108">DebuggerDriver::QueueCommand()</a>.</p>
+<p class="reference">References <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga7dfc2888539861afe6c4337ef315472b">_T</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#a6418ec90c6d4ffe0b05702be1b35df4f">wxString::c_str()</a>, <a class="el" href="debugger__defs_8cpp_source#l00327">CleanStringValue()</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#addd9ccfa3ae2b7ab2d66bcbf034d0be0">wxString::Format()</a>, and <a class="el" href="debuggerdriver_8cpp_source#l00110">DebuggerDriver::QueueCommand()</a>.</p>
 
 </div>
 </div>
@@ -1645,9 +1563,9 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Implements <a class="el" href="classDebuggerDriver#sm-Start">DebuggerDriver</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="gdb__driver_8cpp_source#l00483">483</a> of file <a class="el" href="gdb__driver_8cpp_source">gdb_driver.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="gdb__driver_8cpp_source#l00391">391</a> of file <a class="el" href="gdb__driver_8cpp_source">gdb_driver.cpp</a>.</p>
 
-<p class="reference">References <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga7dfc2888539861afe6c4337ef315472b">_T</a>, <a class="el" href="classcbDisassemblyDlg#ul-Clear">cbDisassemblyDlg::Clear()</a>, <a class="el" href="gdb__commands_8h_source#l01657">GdbCmd_DisassemblyInit::Clear()</a>, <a class="el" href="debuggeroptionsdlg_8h_source#l00031">DebuggerConfiguration::DoNotRun</a>, <a class="el" href="manager_8cpp_source#l00187">Manager::Get()</a>, <a class="el" href="debuggergdb_8cpp_source#l00285">DebuggerGDB::GetActiveConfigEx()</a>, <a class="el" href="manager_8cpp_source#l00488">Manager::GetDebuggerManager()</a>, <a class="el" href="debuggermanager_8cpp_source#l01068">DebuggerManager::GetDisassemblyDialog()</a>, <a class="el" href="debuggeroptionsdlg_8cpp_source#l00133">DebuggerConfiguration::GetFlag()</a>, <a class="el" href="gdb__driver_8cpp_source#l00341">GetRemoteDebuggingInfo()</a>, <a class="el" href="remotedebugging_8h_source#l00026">RemoteDebugging::IsOk()</a>, <a class="el" href="gdb__driver_8h_source#l00132">m_attachedToProcess</a>, <a class="el" href="gdb__driver_8h_source#l00114">m_BreakOnEntry</a>, <a class="el" href="gdb__driver_8h_source#l00121">m_IsStarted</a>, <a class="el" href="gdb__driver_8h_source#l00118">m_ManualBreakOnEntry</a>, <a class="el" href="debuggerdriver_8h_source#l00206">DebuggerDriver::m_pDBG</a>, <a class="el" href="debuggerdriver_8cpp_source#l00108">DebuggerDriver::QueueCommand()</a>, and <a class="el" href="debuggerdriver_8cpp_source#l00098">DebuggerDriver::ResetCursor()</a>.</p>
+<p class="reference">References <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga7dfc2888539861afe6c4337ef315472b">_T</a>, <a class="el" href="classcbDisassemblyDlg#ul-Clear">cbDisassemblyDlg::Clear()</a>, <a class="el" href="gdb__commands_8h_source#l01585">GdbCmd_DisassemblyInit::Clear()</a>, <a class="el" href="debuggeroptionsdlg_8h_source#l00030">DebuggerConfiguration::DoNotRun</a>, <a class="el" href="manager_8cpp_source#l00182">Manager::Get()</a>, <a class="el" href="debuggergdb_8cpp_source#l00285">DebuggerGDB::GetActiveConfigEx()</a>, <a class="el" href="manager_8cpp_source#l00484">Manager::GetDebuggerManager()</a>, <a class="el" href="debuggermanager_8cpp_source#l01080">DebuggerManager::GetDisassemblyDialog()</a>, <a class="el" href="debuggeroptionsdlg_8cpp_source#l00131">DebuggerConfiguration::GetFlag()</a>, <a class="el" href="gdb__driver_8cpp_source#l00249">GetRemoteDebuggingInfo()</a>, <a class="el" href="remotedebugging_8h_source#l00026">RemoteDebugging::IsOk()</a>, <a class="el" href="gdb__driver_8h_source#l00106">m_attachedToProcess</a>, <a class="el" href="gdb__driver_8h_source#l00088">m_BreakOnEntry</a>, <a class="el" href="gdb__driver_8h_source#l00095">m_IsStarted</a>, <a class="el" href="gdb__driver_8h_source#l00092">m_ManualBreakOnEntry</a>, <a class="el" href="debuggerdriver_8h_source#l00209">DebuggerDriver::m_pDBG</a>, <a class="el" href="debuggerdriver_8cpp_source#l00110">DebuggerDriver::QueueCommand()</a>, and <a class="el" href="debuggerdriver_8cpp_source#l00100">DebuggerDriver::ResetCursor()</a>.</p>
 
 </div>
 </div>
@@ -1676,9 +1594,9 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Implements <a class="el" href="classDebuggerDriver#vb-Step">DebuggerDriver</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="gdb__driver_8cpp_source#l00548">548</a> of file <a class="el" href="gdb__driver_8cpp_source">gdb_driver.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="gdb__driver_8cpp_source#l00456">456</a> of file <a class="el" href="gdb__driver_8cpp_source">gdb_driver.cpp</a>.</p>
 
-<p class="reference">References <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga7dfc2888539861afe6c4337ef315472b">_T</a>, <a class="el" href="debuggerdriver_8cpp_source#l00108">DebuggerDriver::QueueCommand()</a>, and <a class="el" href="debuggerdriver_8cpp_source#l00098">DebuggerDriver::ResetCursor()</a>.</p>
+<p class="reference">References <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga7dfc2888539861afe6c4337ef315472b">_T</a>, <a class="el" href="debuggerdriver_8cpp_source#l00110">DebuggerDriver::QueueCommand()</a>, and <a class="el" href="debuggerdriver_8cpp_source#l00100">DebuggerDriver::ResetCursor()</a>.</p>
 
 </div>
 </div>
@@ -1707,9 +1625,9 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Implements <a class="el" href="classDebuggerDriver#y1-StepIn">DebuggerDriver</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="gdb__driver_8cpp_source#l00566">566</a> of file <a class="el" href="gdb__driver_8cpp_source">gdb_driver.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="gdb__driver_8cpp_source#l00474">474</a> of file <a class="el" href="gdb__driver_8cpp_source">gdb_driver.cpp</a>.</p>
 
-<p class="reference">References <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga7dfc2888539861afe6c4337ef315472b">_T</a>, <a class="el" href="debuggerdriver_8cpp_source#l00108">DebuggerDriver::QueueCommand()</a>, and <a class="el" href="debuggerdriver_8cpp_source#l00098">DebuggerDriver::ResetCursor()</a>.</p>
+<p class="reference">References <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga7dfc2888539861afe6c4337ef315472b">_T</a>, <a class="el" href="debuggerdriver_8cpp_source#l00110">DebuggerDriver::QueueCommand()</a>, and <a class="el" href="debuggerdriver_8cpp_source#l00100">DebuggerDriver::ResetCursor()</a>.</p>
 
 </div>
 </div>
@@ -1738,9 +1656,9 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Implements <a class="el" href="classDebuggerDriver#xg-StepInstruction">DebuggerDriver</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="gdb__driver_8cpp_source#l00554">554</a> of file <a class="el" href="gdb__driver_8cpp_source">gdb_driver.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="gdb__driver_8cpp_source#l00462">462</a> of file <a class="el" href="gdb__driver_8cpp_source">gdb_driver.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="debuggerdriver_8cpp_source#l00108">DebuggerDriver::QueueCommand()</a>, and <a class="el" href="debuggerdriver_8cpp_source#l00098">DebuggerDriver::ResetCursor()</a>.</p>
+<p class="reference">References <a class="el" href="debuggerdriver_8cpp_source#l00110">DebuggerDriver::QueueCommand()</a>, and <a class="el" href="debuggerdriver_8cpp_source#l00100">DebuggerDriver::ResetCursor()</a>.</p>
 
 </div>
 </div>
@@ -1769,9 +1687,9 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Implements <a class="el" href="classDebuggerDriver#lq-StepIntoInstruction">DebuggerDriver</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="gdb__driver_8cpp_source#l00560">560</a> of file <a class="el" href="gdb__driver_8cpp_source">gdb_driver.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="gdb__driver_8cpp_source#l00468">468</a> of file <a class="el" href="gdb__driver_8cpp_source">gdb_driver.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="debuggerdriver_8cpp_source#l00108">DebuggerDriver::QueueCommand()</a>, and <a class="el" href="debuggerdriver_8cpp_source#l00098">DebuggerDriver::ResetCursor()</a>.</p>
+<p class="reference">References <a class="el" href="debuggerdriver_8cpp_source#l00110">DebuggerDriver::QueueCommand()</a>, and <a class="el" href="debuggerdriver_8cpp_source#l00100">DebuggerDriver::ResetCursor()</a>.</p>
 
 </div>
 </div>
@@ -1800,9 +1718,9 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Implements <a class="el" href="classDebuggerDriver#e9-StepOut">DebuggerDriver</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="gdb__driver_8cpp_source#l00572">572</a> of file <a class="el" href="gdb__driver_8cpp_source">gdb_driver.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="gdb__driver_8cpp_source#l00480">480</a> of file <a class="el" href="gdb__driver_8cpp_source">gdb_driver.cpp</a>.</p>
 
-<p class="reference">References <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga7dfc2888539861afe6c4337ef315472b">_T</a>, <a class="el" href="debuggerdriver_8cpp_source#l00108">DebuggerDriver::QueueCommand()</a>, and <a class="el" href="debuggerdriver_8cpp_source#l00098">DebuggerDriver::ResetCursor()</a>.</p>
+<p class="reference">References <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga7dfc2888539861afe6c4337ef315472b">_T</a>, <a class="el" href="debuggerdriver_8cpp_source#l00110">DebuggerDriver::QueueCommand()</a>, and <a class="el" href="debuggerdriver_8cpp_source#l00100">DebuggerDriver::ResetCursor()</a>.</p>
 
 </div>
 </div>
@@ -1833,9 +1751,9 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Implements <a class="el" href="classDebuggerDriver#l0-Stop">DebuggerDriver</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="gdb__driver_8cpp_source#l00518">518</a> of file <a class="el" href="gdb__driver_8cpp_source">gdb_driver.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="gdb__driver_8cpp_source#l00426">426</a> of file <a class="el" href="gdb__driver_8cpp_source">gdb_driver.cpp</a>.</p>
 
-<p class="reference">References <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga7dfc2888539861afe6c4337ef315472b">_T</a>, <a class="el" href="debuggergdb_8cpp_source#l02223">DebuggerGDB::IsAttachedToProcess()</a>, <a class="el" href="gdb__driver_8h_source#l00132">m_attachedToProcess</a>, <a class="el" href="gdb__driver_8h_source#l00121">m_IsStarted</a>, <a class="el" href="debuggerdriver_8h_source#l00206">DebuggerDriver::m_pDBG</a>, <a class="el" href="debuggerdriver_8cpp_source#l00108">DebuggerDriver::QueueCommand()</a>, <a class="el" href="debuggerdriver_8cpp_source#l00098">DebuggerDriver::ResetCursor()</a>, and <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga437ea6ba615b75dac8603e96ec864160">wxT</a>.</p>
+<p class="reference">References <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga7dfc2888539861afe6c4337ef315472b">_T</a>, <a class="el" href="debuggergdb_8cpp_source#l02297">DebuggerGDB::IsAttachedToProcess()</a>, <a class="el" href="gdb__driver_8h_source#l00106">m_attachedToProcess</a>, <a class="el" href="gdb__driver_8h_source#l00095">m_IsStarted</a>, <a class="el" href="debuggerdriver_8h_source#l00209">DebuggerDriver::m_pDBG</a>, <a class="el" href="debuggerdriver_8cpp_source#l00110">DebuggerDriver::QueueCommand()</a>, <a class="el" href="debuggerdriver_8cpp_source#l00100">DebuggerDriver::ResetCursor()</a>, and <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga437ea6ba615b75dac8603e96ec864160">wxT</a>.</p>
 
 </div>
 </div>
@@ -1867,9 +1785,9 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Implements <a class="el" href="classDebuggerDriver#f2-SwitchThread">DebuggerDriver</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="gdb__driver_8cpp_source#l00668">668</a> of file <a class="el" href="gdb__driver_8cpp_source">gdb_driver.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="gdb__driver_8cpp_source#l00576">576</a> of file <a class="el" href="gdb__driver_8cpp_source">gdb_driver.cpp</a>.</p>
 
-<p class="reference">References <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga7dfc2888539861afe6c4337ef315472b">_T</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#addd9ccfa3ae2b7ab2d66bcbf034d0be0">wxString::Format()</a>, <a class="el" href="manager_8cpp_source#l00187">Manager::Get()</a>, <a class="el" href="debuggerdriver_8cpp_source#l00108">DebuggerDriver::QueueCommand()</a>, and <a class="el" href="debuggerdriver_8cpp_source#l00098">DebuggerDriver::ResetCursor()</a>.</p>
+<p class="reference">References <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga7dfc2888539861afe6c4337ef315472b">_T</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#addd9ccfa3ae2b7ab2d66bcbf034d0be0">wxString::Format()</a>, <a class="el" href="manager_8cpp_source#l00182">Manager::Get()</a>, <a class="el" href="debuggerdriver_8cpp_source#l00110">DebuggerDriver::QueueCommand()</a>, and <a class="el" href="debuggerdriver_8cpp_source#l00100">DebuggerDriver::ResetCursor()</a>.</p>
 
 </div>
 </div>
@@ -1899,9 +1817,9 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Implements <a class="el" href="classDebuggerDriver#rr-SwitchToFrame">DebuggerDriver</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="gdb__driver_8cpp_source#l00606">606</a> of file <a class="el" href="gdb__driver_8cpp_source">gdb_driver.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="gdb__driver_8cpp_source#l00514">514</a> of file <a class="el" href="gdb__driver_8cpp_source">gdb_driver.cpp</a>.</p>
 
-<p class="reference">References <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga7dfc2888539861afe6c4337ef315472b">_T</a>, <a class="el" href="debuggerdriver_8cpp_source#l00108">DebuggerDriver::QueueCommand()</a>, and <a class="el" href="debuggerdriver_8cpp_source#l00098">DebuggerDriver::ResetCursor()</a>.</p>
+<p class="reference">References <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/group__group__funcmacro__string.html#ga7dfc2888539861afe6c4337ef315472b">_T</a>, <a class="el" href="debuggerdriver_8cpp_source#l00110">DebuggerDriver::QueueCommand()</a>, and <a class="el" href="debuggerdriver_8cpp_source#l00100">DebuggerDriver::ResetCursor()</a>.</p>
 
 </div>
 </div>
@@ -1931,9 +1849,9 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Implements <a class="el" href="classDebuggerDriver#s1-UpdateWatch">DebuggerDriver</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="gdb__driver_8cpp_source#l00752">752</a> of file <a class="el" href="gdb__driver_8cpp_source">gdb_driver.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="gdb__driver_8cpp_source#l00666">666</a> of file <a class="el" href="gdb__driver_8cpp_source">gdb_driver.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="debuggerdriver_8cpp_source#l00108">DebuggerDriver::QueueCommand()</a>.</p>
+<p class="reference">References <a class="el" href="debuggerdriver_8cpp_source#l00110">DebuggerDriver::QueueCommand()</a>.</p>
 
 </div>
 </div>
@@ -1989,9 +1907,9 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Implements <a class="el" href="classDebuggerDriver#o2-UpdateWatches">DebuggerDriver</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="gdb__driver_8cpp_source#l00720">720</a> of file <a class="el" href="gdb__driver_8cpp_source">gdb_driver.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="gdb__driver_8cpp_source#l00628">628</a> of file <a class="el" href="gdb__driver_8cpp_source">gdb_driver.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="debuggerdriver_8cpp_source#l00108">DebuggerDriver::QueueCommand()</a>.</p>
+<p class="reference">References <a class="el" href="debuggergdb_8cpp_source#l02319">DebuggerGDB::DetermineLanguage()</a>, <a class="el" href="debugger__defs_8h_source#l00029">Cursor::file</a>, <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html#a65f965b378fbfceed8f8688287f6e65e">wxString::IsSameAs()</a>, <a class="el" href="debuggerdriver_8h_source#l00219">DebuggerDriver::m_Cursor</a>, <a class="el" href="debuggerdriver_8h_source#l00232">DebuggerDriver::m_FileName</a>, <a class="el" href="debuggerdriver_8h_source#l00209">DebuggerDriver::m_pDBG</a>, and <a class="el" href="debuggerdriver_8cpp_source#l00110">DebuggerDriver::QueueCommand()</a>.</p>
 
 </div>
 </div>
@@ -2031,9 +1949,9 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Implements <a class="el" href="classDebuggerDriver#rk-UpdateWatchLocalsArgs">DebuggerDriver</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="gdb__driver_8cpp_source#l00758">758</a> of file <a class="el" href="gdb__driver_8cpp_source">gdb_driver.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="gdb__driver_8cpp_source#l00672">672</a> of file <a class="el" href="gdb__driver_8cpp_source">gdb_driver.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="debuggerdriver_8cpp_source#l00108">DebuggerDriver::QueueCommand()</a>.</p>
+<p class="reference">References <a class="el" href="debuggerdriver_8cpp_source#l00110">DebuggerDriver::QueueCommand()</a>.</p>
 
 </div>
 </div>
@@ -2064,9 +1982,11 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Implements <a class="el" href="classDebuggerDriver#ib-UseDebugBreakProcess">DebuggerDriver</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="gdb__driver_8cpp_source#l00468">468</a> of file <a class="el" href="gdb__driver_8cpp_source">gdb_driver.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="gdb__driver_8cpp_source#l00376">376</a> of file <a class="el" href="gdb__driver_8cpp_source">gdb_driver.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="gdb__driver_8cpp_source#l00341">GetRemoteDebuggingInfo()</a>, and <a class="el" href="remotedebugging_8h_source#l00026">RemoteDebugging::IsOk()</a>.</p>
+<p class="reference">References <a class="el" href="gdb__driver_8cpp_source#l00249">GetRemoteDebuggingInfo()</a>, and <a class="el" href="remotedebugging_8h_source#l00026">RemoteDebugging::IsOk()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="gdb__driver_8h_source#l00063">IsDebuggingStarted()</a>.</p>
 
 </div>
 </div>
@@ -2091,9 +2011,9 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="gdb__driver_8h_source#l00130">130</a> of file <a class="el" href="gdb__driver_8h_source">gdb_driver.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="gdb__driver_8h_source#l00104">104</a> of file <a class="el" href="gdb__driver_8h_source">gdb_driver.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="gdb__driver_8cpp_source#l00598">CPURegisters()</a>, <a class="el" href="gdb__driver_8cpp_source#l00590">Disassemble()</a>, <a class="el" href="gdb__driver_8cpp_source#l00476">GetDisassemblyFlavour()</a>, and <a class="el" href="gdb__driver_8cpp_source#l00220">Prepare()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="gdb__driver_8h_source#l00071">AsmFlavour()</a>, <a class="el" href="gdb__driver_8cpp_source#l00506">CPURegisters()</a>, <a class="el" href="gdb__driver_8cpp_source#l00498">Disassemble()</a>, <a class="el" href="gdb__driver_8cpp_source#l00384">GetDisassemblyFlavour()</a>, and <a class="el" href="gdb__driver_8cpp_source#l00132">Prepare()</a>.</p>
 
 </div>
 </div>
@@ -2117,9 +2037,9 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="gdb__driver_8h_source#l00132">132</a> of file <a class="el" href="gdb__driver_8h_source">gdb_driver.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="gdb__driver_8h_source#l00106">106</a> of file <a class="el" href="gdb__driver_8h_source">gdb_driver.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="gdb__driver_8cpp_source#l00764">Attach()</a>, <a class="el" href="gdb__driver_8cpp_source#l00528">Continue()</a>, <a class="el" href="gdb__driver_8cpp_source#l00483">Start()</a>, and <a class="el" href="gdb__driver_8cpp_source#l00518">Stop()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="gdb__driver_8cpp_source#l00678">Attach()</a>, <a class="el" href="gdb__driver_8cpp_source#l00436">Continue()</a>, <a class="el" href="gdb__driver_8cpp_source#l00391">Start()</a>, and <a class="el" href="gdb__driver_8cpp_source#l00426">Stop()</a>.</p>
 
 </div>
 </div>
@@ -2143,9 +2063,9 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="gdb__driver_8h_source#l00114">114</a> of file <a class="el" href="gdb__driver_8h_source">gdb_driver.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="gdb__driver_8h_source#l00088">88</a> of file <a class="el" href="gdb__driver_8h_source">gdb_driver.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="gdb__driver_8cpp_source#l01172">HandleMainBreakPoint()</a>, and <a class="el" href="gdb__driver_8cpp_source#l00483">Start()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="gdb__driver_8cpp_source#l01086">HandleMainBreakPoint()</a>, and <a class="el" href="gdb__driver_8cpp_source#l00391">Start()</a>.</p>
 
 </div>
 </div>
@@ -2169,9 +2089,9 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="gdb__driver_8h_source#l00140">140</a> of file <a class="el" href="gdb__driver_8h_source">gdb_driver.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="gdb__driver_8h_source#l00114">114</a> of file <a class="el" href="gdb__driver_8h_source">gdb_driver.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="gdb__driver_8cpp_source#l00657">EnableCatchingThrow()</a>, and <a class="el" href="gdb__driver_8cpp_source#l00220">Prepare()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="gdb__driver_8cpp_source#l00565">EnableCatchingThrow()</a>, and <a class="el" href="gdb__driver_8cpp_source#l00132">Prepare()</a>.</p>
 
 </div>
 </div>
@@ -2195,9 +2115,9 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="gdb__driver_8h_source#l00108">108</a> of file <a class="el" href="gdb__driver_8h_source">gdb_driver.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="gdb__driver_8h_source#l00084">84</a> of file <a class="el" href="gdb__driver_8h_source">gdb_driver.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="gdb__driver_8cpp_source#l00420">CorrectCygwinPath()</a>, and <a class="el" href="gdb__driver_8cpp_source#l00364">DetectCygwinMount()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="gdb__driver_8cpp_source#l00328">CorrectCygwinPath()</a>, and <a class="el" href="gdb__driver_8cpp_source#l00272">DetectCygwinMount()</a>.</p>
 
 </div>
 </div>
@@ -2221,9 +2141,9 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="gdb__driver_8h_source#l00107">107</a> of file <a class="el" href="gdb__driver_8h_source">gdb_driver.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="gdb__driver_8h_source#l00083">83</a> of file <a class="el" href="gdb__driver_8h_source">gdb_driver.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="gdb__driver_8cpp_source#l00364">DetectCygwinMount()</a>, and <a class="el" href="gdb__driver_8cpp_source#l00777">ParseOutput()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="gdb__driver_8cpp_source#l00272">DetectCygwinMount()</a>, and <a class="el" href="gdb__driver_8cpp_source#l00691">ParseOutput()</a>.</p>
 
 </div>
 </div>
@@ -2247,9 +2167,9 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="gdb__driver_8h_source#l00125">125</a> of file <a class="el" href="gdb__driver_8h_source">gdb_driver.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="gdb__driver_8h_source#l00099">99</a> of file <a class="el" href="gdb__driver_8h_source">gdb_driver.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="gdb__driver_8cpp_source#l00089">GDB_driver()</a>, and <a class="el" href="gdb__driver_8cpp_source#l00777">ParseOutput()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="gdb__driver_8cpp_source#l00080">GDB_driver()</a>, and <a class="el" href="gdb__driver_8cpp_source#l00691">ParseOutput()</a>.</p>
 
 </div>
 </div>
@@ -2273,9 +2193,9 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="gdb__driver_8h_source#l00128">128</a> of file <a class="el" href="gdb__driver_8h_source">gdb_driver.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="gdb__driver_8h_source#l00102">102</a> of file <a class="el" href="gdb__driver_8h_source">gdb_driver.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="gdb__driver_8cpp_source#l00777">ParseOutput()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="gdb__driver_8cpp_source#l00691">ParseOutput()</a>.</p>
 
 </div>
 </div>
@@ -2299,9 +2219,9 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="gdb__driver_8h_source#l00129">129</a> of file <a class="el" href="gdb__driver_8h_source">gdb_driver.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="gdb__driver_8h_source#l00103">103</a> of file <a class="el" href="gdb__driver_8h_source">gdb_driver.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="gdb__driver_8cpp_source#l00777">ParseOutput()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="gdb__driver_8cpp_source#l00691">ParseOutput()</a>.</p>
 
 </div>
 </div>
@@ -2325,9 +2245,9 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="gdb__driver_8h_source#l00121">121</a> of file <a class="el" href="gdb__driver_8h_source">gdb_driver.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="gdb__driver_8h_source#l00095">95</a> of file <a class="el" href="gdb__driver_8h_source">gdb_driver.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="gdb__driver_8cpp_source#l00764">Attach()</a>, <a class="el" href="gdb__driver_8cpp_source#l00528">Continue()</a>, <a class="el" href="gdb__driver_8cpp_source#l00777">ParseOutput()</a>, <a class="el" href="gdb__driver_8cpp_source#l00483">Start()</a>, and <a class="el" href="gdb__driver_8cpp_source#l00518">Stop()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="gdb__driver_8cpp_source#l00678">Attach()</a>, <a class="el" href="gdb__driver_8cpp_source#l00436">Continue()</a>, <a class="el" href="gdb__driver_8h_source#l00063">IsDebuggingStarted()</a>, <a class="el" href="gdb__driver_8cpp_source#l00691">ParseOutput()</a>, <a class="el" href="gdb__driver_8cpp_source#l00391">Start()</a>, and <a class="el" href="gdb__driver_8cpp_source#l00426">Stop()</a>.</p>
 
 </div>
 </div>
@@ -2351,9 +2271,9 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="gdb__driver_8h_source#l00118">118</a> of file <a class="el" href="gdb__driver_8h_source">gdb_driver.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="gdb__driver_8h_source#l00092">92</a> of file <a class="el" href="gdb__driver_8h_source">gdb_driver.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="gdb__driver_8cpp_source#l00528">Continue()</a>, <a class="el" href="gdb__driver_8cpp_source#l01172">HandleMainBreakPoint()</a>, and <a class="el" href="gdb__driver_8cpp_source#l00483">Start()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="gdb__driver_8cpp_source#l00436">Continue()</a>, <a class="el" href="gdb__driver_8cpp_source#l01086">HandleMainBreakPoint()</a>, and <a class="el" href="gdb__driver_8cpp_source#l00391">Start()</a>.</p>
 
 </div>
 </div>
@@ -2377,9 +2297,9 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="gdb__driver_8h_source#l00138">138</a> of file <a class="el" href="gdb__driver_8h_source">gdb_driver.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="gdb__driver_8h_source#l00112">112</a> of file <a class="el" href="gdb__driver_8h_source">gdb_driver.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="gdb__driver_8cpp_source#l00341">GetRemoteDebuggingInfo()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="gdb__driver_8cpp_source#l00249">GetRemoteDebuggingInfo()</a>.</p>
 
 </div>
 </div>
@@ -2403,9 +2323,9 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="gdb__driver_8h_source#l00124">124</a> of file <a class="el" href="gdb__driver_8h_source">gdb_driver.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="gdb__driver_8h_source#l00098">98</a> of file <a class="el" href="gdb__driver_8h_source">gdb_driver.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="gdb__driver_8cpp_source#l00089">GDB_driver()</a>, <a class="el" href="gdb__driver_8cpp_source#l01172">HandleMainBreakPoint()</a>, and <a class="el" href="gdb__driver_8cpp_source#l00777">ParseOutput()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="gdb__driver_8cpp_source#l00080">GDB_driver()</a>, <a class="el" href="gdb__driver_8cpp_source#l01086">HandleMainBreakPoint()</a>, and <a class="el" href="gdb__driver_8cpp_source#l00691">ParseOutput()</a>.</p>
 
 </div>
 </div>
@@ -2429,35 +2349,9 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="gdb__driver_8h_source#l00135">135</a> of file <a class="el" href="gdb__driver_8h_source">gdb_driver.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="gdb__driver_8h_source#l00109">109</a> of file <a class="el" href="gdb__driver_8h_source">gdb_driver.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="gdb__driver_8cpp_source#l00341">GetRemoteDebuggingInfo()</a>, and <a class="el" href="gdb__driver_8cpp_source#l00214">SetTarget()</a>.</p>
-
-</div>
-</div>
-<a id="j6-m_Types"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#j6-m_Types">&#9670;&nbsp;</a></span>m_Types</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">TypesArray GDB_driver::m_Types</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="gdb__driver_8h_source#l00110">110</a> of file <a class="el" href="gdb__driver_8h_source">gdb_driver.h</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="gdb__driver_8cpp_source#l00174">GetScriptedTypeCommand()</a>, <a class="el" href="gdb__driver_8cpp_source#l00220">Prepare()</a>, and <a class="el" href="gdb__driver_8cpp_source#l00153">RegisterType()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="gdb__driver_8cpp_source#l00249">GetRemoteDebuggingInfo()</a>, and <a class="el" href="gdb__driver_8cpp_source#l00126">SetTarget()</a>.</p>
 
 </div>
 </div>

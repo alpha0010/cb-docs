@@ -19,7 +19,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Code::Blocks
-   &#160;<span id="projectnumber">SVN r11156</span>
+   &#160;<span id="projectnumber">SVN r11506</span>
    </div>
   </td>
  </tr>
@@ -58,12 +58,14 @@ $(function() {
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for systemheadersthread.h:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="systemheadersthread_8h__incl.svg" width="1879" height="486"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="systemheadersthread_8h__incl.svg" width="1879" height="486"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 </div><div class="textblock"><div class="dynheader">
 This graph shows which files directly or indirectly include this file:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="systemheadersthread_8h__dep__incl.svg" width="475" height="187"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="systemheadersthread_8h__dep__incl.svg" width="475" height="187"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 </div>
 <p><a href="systemheadersthread_8h_source">Go to the source code of this file.</a></p>
@@ -71,21 +73,22 @@ This graph shows which files directly or indirectly include this file:</div>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSystemHeadersThread">SystemHeadersThread</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">collect all the header files, so they can be used in auto suggestion after #include&lt;| directive.  <a href="classSystemHeadersThread#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
 Typedefs</h2></td></tr>
 <tr class="memitem:le-SystemHeadersMap"><td class="memItemLeft" align="right" valign="top">typedef std::map&lt; <a class="elRef" doxygen="/media/alpha/Barracuda/cb_docs/src/wxTagFile.xml:http://docs.wxwidgets.org/3.0/" href="http://docs.wxwidgets.org/3.0/classwx_string.html">wxString</a>, <a class="el" href="parser__base_8h#lk-StringSet">StringSet</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="systemheadersthread_8h#le-SystemHeadersMap">SystemHeadersMap</a></td></tr>
+<tr class="memdesc:le-SystemHeadersMap"><td class="mdescLeft">&#160;</td><td class="mdescRight">dir to files map, for example, you have two dirs c:/a and c:/b so the map looks like: c:/a &mdash;&gt; {c:/a/a1.h, c:/a/a2.h} c:/b &mdash;&gt; {c:/b/b1.h, c:/b/b2.h}  <a href="#le-SystemHeadersMap">More...</a><br /></td></tr>
 <tr class="separator:le-SystemHeadersMap"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
 <tr class="memitem:dl-idSystemHeadersThreadFinish"><td class="memItemLeft" align="right" valign="top">long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="systemheadersthread_8h#dl-idSystemHeadersThreadFinish">idSystemHeadersThreadFinish</a></td></tr>
+<tr class="memdesc:dl-idSystemHeadersThreadFinish"><td class="mdescLeft">&#160;</td><td class="mdescRight">event ids used to notify parent objects  <a href="#dl-idSystemHeadersThreadFinish">More...</a><br /></td></tr>
 <tr class="separator:dl-idSystemHeadersThreadFinish"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:if-idSystemHeadersThreadUpdate"><td class="memItemLeft" align="right" valign="top">long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="systemheadersthread_8h#if-idSystemHeadersThreadUpdate">idSystemHeadersThreadUpdate</a></td></tr>
-<tr class="separator:if-idSystemHeadersThreadUpdate"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:u0-idSystemHeadersThreadError"><td class="memItemLeft" align="right" valign="top">long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="systemheadersthread_8h#u0-idSystemHeadersThreadError">idSystemHeadersThreadError</a></td></tr>
-<tr class="separator:u0-idSystemHeadersThreadError"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:r7-idSystemHeadersThreadMessage"><td class="memItemLeft" align="right" valign="top">long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="systemheadersthread_8h#r7-idSystemHeadersThreadMessage">idSystemHeadersThreadMessage</a></td></tr>
+<tr class="separator:r7-idSystemHeadersThreadMessage"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Typedef Documentation</h2>
 <a id="le-SystemHeadersMap"></a>
@@ -100,29 +103,13 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>dir to files map, for example, you have two dirs c:/a and c:/b so the map looks like: c:/a &mdash;&gt; {c:/a/a1.h, c:/a/a2.h} c:/b &mdash;&gt; {c:/b/b1.h, c:/b/b2.h} </p>
+
 <p class="definition">Definition at line <a class="el" href="systemheadersthread_8h_source#l00017">17</a> of file <a class="el" href="systemheadersthread_8h_source">systemheadersthread.h</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Variable Documentation</h2>
-<a id="u0-idSystemHeadersThreadError"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#u0-idSystemHeadersThreadError">&#9670;&nbsp;</a></span>idSystemHeadersThreadError</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">long idSystemHeadersThreadError</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="systemheadersthread_8cpp_source#l00058">58</a> of file <a class="el" href="systemheadersthread_8cpp_source">systemheadersthread.cpp</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="codecompletion_8cpp_source#l00467">CodeCompletion::CodeCompletion()</a>, <a class="el" href="systemheadersthread_8cpp_source#l00133">SystemHeadersThread::Entry()</a>, and <a class="el" href="codecompletion_8cpp_source#l00521">CodeCompletion::~CodeCompletion()</a>.</p>
-
-</div>
-</div>
 <a id="dl-idSystemHeadersThreadFinish"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#dl-idSystemHeadersThreadFinish">&#9670;&nbsp;</a></span>idSystemHeadersThreadFinish</h2>
 
@@ -135,27 +122,29 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="systemheadersthread_8cpp_source#l00054">54</a> of file <a class="el" href="systemheadersthread_8cpp_source">systemheadersthread.cpp</a>.</p>
+<p>event ids used to notify parent objects </p>
 
-<p class="reference">Referenced by <a class="el" href="codecompletion_8cpp_source#l00467">CodeCompletion::CodeCompletion()</a>, <a class="el" href="systemheadersthread_8cpp_source#l00133">SystemHeadersThread::Entry()</a>, and <a class="el" href="codecompletion_8cpp_source#l00521">CodeCompletion::~CodeCompletion()</a>.</p>
+<p class="definition">Definition at line <a class="el" href="systemheadersthread_8cpp_source#l00053">53</a> of file <a class="el" href="systemheadersthread_8cpp_source">systemheadersthread.cpp</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="codecompletion_8cpp_source#l00468">CodeCompletion::CodeCompletion()</a>, <a class="el" href="systemheadersthread_8cpp_source#l00154">SystemHeadersThread::Entry()</a>, and <a class="el" href="codecompletion_8cpp_source#l00523">CodeCompletion::~CodeCompletion()</a>.</p>
 
 </div>
 </div>
-<a id="if-idSystemHeadersThreadUpdate"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#if-idSystemHeadersThreadUpdate">&#9670;&nbsp;</a></span>idSystemHeadersThreadUpdate</h2>
+<a id="r7-idSystemHeadersThreadMessage"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#r7-idSystemHeadersThreadMessage">&#9670;&nbsp;</a></span>idSystemHeadersThreadMessage</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">long idSystemHeadersThreadUpdate</td>
+          <td class="memname">long idSystemHeadersThreadMessage</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="systemheadersthread_8cpp_source#l00056">56</a> of file <a class="el" href="systemheadersthread_8cpp_source">systemheadersthread.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="codecompletion_8cpp_source#l00467">CodeCompletion::CodeCompletion()</a>, <a class="el" href="systemheadersthread_8cpp_source#l00133">SystemHeadersThread::Entry()</a>, and <a class="el" href="codecompletion_8cpp_source#l00521">CodeCompletion::~CodeCompletion()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="codecompletion_8cpp_source#l00468">CodeCompletion::CodeCompletion()</a>, <a class="el" href="systemheadersthread_8cpp_source#l00154">SystemHeadersThread::Entry()</a>, and <a class="el" href="codecompletion_8cpp_source#l00523">CodeCompletion::~CodeCompletion()</a>.</p>
 
 </div>
 </div>

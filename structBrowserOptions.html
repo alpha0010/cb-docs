@@ -19,7 +19,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Code::Blocks
-   &#160;<span id="projectnumber">SVN r11156</span>
+   &#160;<span id="projectnumber">SVN r11506</span>
    </div>
   </td>
  </tr>
@@ -47,11 +47,15 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 
+<p>Options for the symbol browser, this specify how the symbol browser will shown.  
+ <a href="structBrowserOptions#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="parser__base_8h_source">parser_base.h</a>&gt;</code></p>
 <div class="dynheader">
 Collaboration diagram for BrowserOptions:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="structBrowserOptions__coll__graph.svg" width="142" height="147"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="structBrowserOptions__coll__graph.svg" width="142" height="147"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
@@ -62,24 +66,25 @@ Public Member Functions</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
 <tr class="memitem:ww-showInheritance"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structBrowserOptions#ww-showInheritance">showInheritance</a></td></tr>
-<tr class="memdesc:ww-showInheritance"><td class="mdescLeft">&#160;</td><td class="mdescRight">default: false  <a href="#ww-showInheritance">More...</a><br /></td></tr>
+<tr class="memdesc:ww-showInheritance"><td class="mdescLeft">&#160;</td><td class="mdescRight">whether the base class or derive class information is shown as a child node default: false  <a href="#ww-showInheritance">More...</a><br /></td></tr>
 <tr class="separator:ww-showInheritance"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:e3-expandNS"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structBrowserOptions#e3-expandNS">expandNS</a></td></tr>
-<tr class="memdesc:e3-expandNS"><td class="mdescLeft">&#160;</td><td class="mdescRight">default: false (auto-expand namespaces)  <a href="#e3-expandNS">More...</a><br /></td></tr>
+<tr class="memdesc:e3-expandNS"><td class="mdescLeft">&#160;</td><td class="mdescRight">whether a namespaces node is auto-expand auto-expand means the child of the namespace is automatically added.  <a href="#e3-expandNS">More...</a><br /></td></tr>
 <tr class="separator:e3-expandNS"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:le-treeMembers"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structBrowserOptions#le-treeMembers">treeMembers</a></td></tr>
-<tr class="memdesc:le-treeMembers"><td class="mdescLeft">&#160;</td><td class="mdescRight">default: true  <a href="#le-treeMembers">More...</a><br /></td></tr>
+<tr class="memdesc:le-treeMembers"><td class="mdescLeft">&#160;</td><td class="mdescRight">show members in the bottom tree.  <a href="#le-treeMembers">More...</a><br /></td></tr>
 <tr class="separator:le-treeMembers"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ee-displayFilter"><td class="memItemLeft" align="right" valign="top"><a class="el" href="parser__base_8h#s6-BrowserDisplayFilter">BrowserDisplayFilter</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structBrowserOptions#ee-displayFilter">displayFilter</a></td></tr>
-<tr class="memdesc:ee-displayFilter"><td class="mdescLeft">&#160;</td><td class="mdescRight">default: bdfFile  <a href="#ee-displayFilter">More...</a><br /></td></tr>
+<tr class="memdesc:ee-displayFilter"><td class="mdescLeft">&#160;</td><td class="mdescRight">token filter option  <a href="#ee-displayFilter">More...</a><br /></td></tr>
 <tr class="separator:ee-displayFilter"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:b7-sortType"><td class="memItemLeft" align="right" valign="top"><a class="el" href="parser__base_8h#gj-BrowserSortType">BrowserSortType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structBrowserOptions#b7-sortType">sortType</a></td></tr>
-<tr class="memdesc:b7-sortType"><td class="mdescLeft">&#160;</td><td class="mdescRight">default: bstKind  <a href="#b7-sortType">More...</a><br /></td></tr>
+<tr class="memdesc:b7-sortType"><td class="mdescLeft">&#160;</td><td class="mdescRight">token sort option in the tree default: bstKind  <a href="#b7-sortType">More...</a><br /></td></tr>
 <tr class="separator:b7-sortType"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock">
-<p class="definition">Definition at line <a class="el" href="parser__base_8h_source#l00058">58</a> of file <a class="el" href="parser__base_8h_source">parser_base.h</a>.</p>
+<div class="textblock"><p>Options for the symbol browser, this specify how the symbol browser will shown. </p>
+
+<p class="definition">Definition at line <a class="el" href="parser__base_8h_source#l00059">59</a> of file <a class="el" href="parser__base_8h_source">parser_base.h</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="yr-BrowserOptions"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#yr-BrowserOptions">&#9670;&nbsp;</a></span>BrowserOptions()</h2>
@@ -104,7 +109,7 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="parser__base_8h_source#l00060">60</a> of file <a class="el" href="parser__base_8h_source">parser_base.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="parser__base_8h_source#l00061">61</a> of file <a class="el" href="parser__base_8h_source">parser_base.h</a>.</p>
 
 </div>
 </div>
@@ -121,11 +126,12 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>default: bdfFile </p>
+<p>token filter option </p>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="parser__base_8h#s6-BrowserDisplayFilter" title="specify the scope of the shown symbols ">BrowserDisplayFilter</a> for details default: <a class="el" href="parser__base_8h#s6-BrowserDisplayFilter:bdfFile">bdfFile</a> </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="parser__base_8h_source#l00071">71</a> of file <a class="el" href="parser__base_8h_source">parser_base.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="parser__base_8h_source#l00088">88</a> of file <a class="el" href="parser__base_8h_source">parser_base.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="classbrowserbuilderthread_8cpp_source#l00783">ClassBrowserBuilderThread::AddChildrenOf()</a>, <a class="el" href="classbrowserbuilderthread_8cpp_source#l00243">ClassBrowserBuilderThread::ExpandItem()</a>, <a class="el" href="classbrowserbuilderthread_8cpp_source#l00088">ClassBrowserBuilderThread::Init()</a>, <a class="el" href="nativeparser_8cpp_source#l02612">NativeParser::OnEditorActivated()</a>, <a class="el" href="classbrowser_8cpp_source#l00675">ClassBrowser::OnViewScope()</a>, <a class="el" href="parser_8cpp_source#l00851">Parser::ReadOptions()</a>, <a class="el" href="classbrowserbuilderthread_8cpp_source#l00376">ClassBrowserBuilderThread::SelectItem()</a>, <a class="el" href="classbrowser_8cpp_source#l00184">ClassBrowser::SetParser()</a>, <a class="el" href="classbrowserbuilderthread_8cpp_source#l01088">ClassBrowserBuilderThread::TokenMatchesFilter()</a>, and <a class="el" href="parser_8cpp_source#l00901">Parser::WriteOptions()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classbrowserbuilderthread_8cpp_source#l00795">ClassBrowserBuilderThread::AddChildrenOf()</a>, <a class="el" href="classbrowserbuilderthread_8cpp_source#l00243">ClassBrowserBuilderThread::ExpandItem()</a>, <a class="el" href="classbrowserbuilderthread_8cpp_source#l00088">ClassBrowserBuilderThread::Init()</a>, <a class="el" href="nativeparser_8cpp_source#l02612">NativeParser::OnEditorActivated()</a>, <a class="el" href="classbrowser_8cpp_source#l00675">ClassBrowser::OnViewScope()</a>, <a class="el" href="parser_8cpp_source#l00855">Parser::ReadOptions()</a>, <a class="el" href="classbrowserbuilderthread_8cpp_source#l00378">ClassBrowserBuilderThread::SelectItem()</a>, <a class="el" href="classbrowser_8cpp_source#l00184">ClassBrowser::SetParser()</a>, <a class="el" href="classbrowserbuilderthread_8cpp_source#l01104">ClassBrowserBuilderThread::TokenMatchesFilter()</a>, and <a class="el" href="parser_8cpp_source#l00905">Parser::WriteOptions()</a>.</p>
 
 </div>
 </div>
@@ -141,11 +147,12 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>default: false (auto-expand namespaces) </p>
+<p>whether a namespaces node is auto-expand auto-expand means the child of the namespace is automatically added. </p>
+<p>default: false, so the user has to click on the '+' icon to expand the namespace, and at this time, the child will be added. </p>
 
-<p class="definition">Definition at line <a class="el" href="parser__base_8h_source#l00069">69</a> of file <a class="el" href="parser__base_8h_source">parser_base.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="parser__base_8h_source#l00079">79</a> of file <a class="el" href="parser__base_8h_source">parser_base.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="classbrowserbuilderthread_8cpp_source#l00661">ClassBrowserBuilderThread::ExpandNamespaces()</a>, <a class="el" href="ccoptionsdlg_8cpp_source#l00185">CCOptionsDlg::OnApply()</a>, <a class="el" href="classbrowser_8cpp_source#l00663">ClassBrowser::OnCBExpandNS()</a>, <a class="el" href="classbrowser_8cpp_source#l00645">ClassBrowser::OnCBViewMode()</a>, <a class="el" href="parser_8cpp_source#l00851">Parser::ReadOptions()</a>, <a class="el" href="classbrowser_8cpp_source#l00268">ClassBrowser::ShowMenu()</a>, and <a class="el" href="parser_8cpp_source#l00901">Parser::WriteOptions()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classbrowserbuilderthread_8cpp_source#l00663">ClassBrowserBuilderThread::ExpandNamespaces()</a>, <a class="el" href="ccoptionsdlg_8cpp_source#l00196">CCOptionsDlg::OnApply()</a>, <a class="el" href="classbrowser_8cpp_source#l00663">ClassBrowser::OnCBExpandNS()</a>, <a class="el" href="classbrowser_8cpp_source#l00645">ClassBrowser::OnCBViewMode()</a>, <a class="el" href="parser_8cpp_source#l00855">Parser::ReadOptions()</a>, <a class="el" href="classbrowser_8cpp_source#l00268">ClassBrowser::ShowMenu()</a>, and <a class="el" href="parser_8cpp_source#l00905">Parser::WriteOptions()</a>.</p>
 
 </div>
 </div>
@@ -161,11 +168,11 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>default: false </p>
+<p>whether the base class or derive class information is shown as a child node default: false </p>
 
-<p class="definition">Definition at line <a class="el" href="parser__base_8h_source#l00068">68</a> of file <a class="el" href="parser__base_8h_source">parser_base.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="parser__base_8h_source#l00072">72</a> of file <a class="el" href="parser__base_8h_source">parser_base.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="classbrowserbuilderthread_8cpp_source#l00845">ClassBrowserBuilderThread::AddDescendantsOf()</a>, <a class="el" href="classbrowserbuilderthread_8cpp_source#l01005">ClassBrowserBuilderThread::AddNodes()</a>, <a class="el" href="classbrowserbuilderthread_8cpp_source#l00243">ClassBrowserBuilderThread::ExpandItem()</a>, <a class="el" href="ccoptionsdlg_8cpp_source#l00185">CCOptionsDlg::OnApply()</a>, <a class="el" href="classbrowser_8cpp_source#l00645">ClassBrowser::OnCBViewMode()</a>, <a class="el" href="parser_8cpp_source#l00851">Parser::ReadOptions()</a>, <a class="el" href="nativeparser_8cpp_source#l01262">NativeParser::SetCBViewMode()</a>, <a class="el" href="classbrowser_8cpp_source#l00268">ClassBrowser::ShowMenu()</a>, and <a class="el" href="parser_8cpp_source#l00901">Parser::WriteOptions()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classbrowserbuilderthread_8cpp_source#l00861">ClassBrowserBuilderThread::AddDescendantsOf()</a>, <a class="el" href="classbrowserbuilderthread_8cpp_source#l01021">ClassBrowserBuilderThread::AddNodes()</a>, <a class="el" href="classbrowserbuilderthread_8cpp_source#l00243">ClassBrowserBuilderThread::ExpandItem()</a>, <a class="el" href="ccoptionsdlg_8cpp_source#l00196">CCOptionsDlg::OnApply()</a>, <a class="el" href="classbrowser_8cpp_source#l00645">ClassBrowser::OnCBViewMode()</a>, <a class="el" href="parser_8cpp_source#l00855">Parser::ReadOptions()</a>, <a class="el" href="nativeparser_8cpp_source#l01262">NativeParser::SetCBViewMode()</a>, <a class="el" href="classbrowser_8cpp_source#l00268">ClassBrowser::ShowMenu()</a>, and <a class="el" href="parser_8cpp_source#l00905">Parser::WriteOptions()</a>.</p>
 
 </div>
 </div>
@@ -181,11 +188,11 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>default: bstKind </p>
+<p>token sort option in the tree default: bstKind </p>
 
-<p class="definition">Definition at line <a class="el" href="parser__base_8h_source#l00072">72</a> of file <a class="el" href="parser__base_8h_source">parser_base.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="parser__base_8h_source#l00093">93</a> of file <a class="el" href="parser__base_8h_source">parser_base.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="classbrowserbuilderthread_8cpp_source#l00872">ClassBrowserBuilderThread::AddMembersOf()</a>, <a class="el" href="classbrowserbuilderthread_8cpp_source#l00415">ClassBrowserBuilderThread::BuildTree()</a>, <a class="el" href="classbrowser_8cpp_source#l00707">ClassBrowser::OnSetSortType()</a>, <a class="el" href="parser_8cpp_source#l00851">Parser::ReadOptions()</a>, <a class="el" href="classbrowser_8cpp_source#l00268">ClassBrowser::ShowMenu()</a>, and <a class="el" href="parser_8cpp_source#l00901">Parser::WriteOptions()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classbrowserbuilderthread_8cpp_source#l00888">ClassBrowserBuilderThread::AddMembersOf()</a>, <a class="el" href="classbrowserbuilderthread_8cpp_source#l00417">ClassBrowserBuilderThread::BuildTree()</a>, <a class="el" href="classbrowser_8cpp_source#l00707">ClassBrowser::OnSetSortType()</a>, <a class="el" href="parser_8cpp_source#l00855">Parser::ReadOptions()</a>, <a class="el" href="classbrowser_8cpp_source#l00268">ClassBrowser::ShowMenu()</a>, and <a class="el" href="parser_8cpp_source#l00905">Parser::WriteOptions()</a>.</p>
 
 </div>
 </div>
@@ -201,11 +208,12 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>show members in the bottom tree. </p>
 <p>default: true </p>
 
-<p class="definition">Definition at line <a class="el" href="parser__base_8h_source#l00070">70</a> of file <a class="el" href="parser__base_8h_source">parser_base.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="parser__base_8h_source#l00082">82</a> of file <a class="el" href="parser__base_8h_source">parser_base.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="classbrowserbuilderthread_8cpp_source#l01005">ClassBrowserBuilderThread::AddNodes()</a>, <a class="el" href="classbrowserbuilderthread_8cpp_source#l00415">ClassBrowserBuilderThread::BuildTree()</a>, <a class="el" href="classbrowserbuilderthread_8cpp_source#l00687">ClassBrowserBuilderThread::CreateSpecialFolders()</a>, <a class="el" href="classbrowserbuilderthread_8cpp_source#l00243">ClassBrowserBuilderThread::ExpandItem()</a>, <a class="el" href="ccoptionsdlg_8cpp_source#l00185">CCOptionsDlg::OnApply()</a>, <a class="el" href="classbrowser_8cpp_source#l00645">ClassBrowser::OnCBViewMode()</a>, <a class="el" href="classbrowser_8cpp_source#l00972">ClassBrowser::OnThreadEvent()</a>, <a class="el" href="classbrowser_8cpp_source#l00960">ClassBrowser::OnTreeSelChanged()</a>, <a class="el" href="parser_8cpp_source#l00851">Parser::ReadOptions()</a>, <a class="el" href="classbrowserbuilderthread_8cpp_source#l00376">ClassBrowserBuilderThread::SelectItem()</a>, <a class="el" href="classbrowser_8cpp_source#l00268">ClassBrowser::ShowMenu()</a>, <a class="el" href="classbrowser_8cpp_source#l00212">ClassBrowser::UpdateClassBrowserView()</a>, and <a class="el" href="parser_8cpp_source#l00901">Parser::WriteOptions()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classbrowserbuilderthread_8cpp_source#l01021">ClassBrowserBuilderThread::AddNodes()</a>, <a class="el" href="classbrowserbuilderthread_8cpp_source#l00417">ClassBrowserBuilderThread::BuildTree()</a>, <a class="el" href="classbrowserbuilderthread_8cpp_source#l00689">ClassBrowserBuilderThread::CreateSpecialFolders()</a>, <a class="el" href="classbrowserbuilderthread_8cpp_source#l00243">ClassBrowserBuilderThread::ExpandItem()</a>, <a class="el" href="ccoptionsdlg_8cpp_source#l00196">CCOptionsDlg::OnApply()</a>, <a class="el" href="classbrowser_8cpp_source#l00645">ClassBrowser::OnCBViewMode()</a>, <a class="el" href="classbrowser_8cpp_source#l00972">ClassBrowser::OnThreadEvent()</a>, <a class="el" href="classbrowser_8cpp_source#l00960">ClassBrowser::OnTreeSelChanged()</a>, <a class="el" href="parser_8cpp_source#l00855">Parser::ReadOptions()</a>, <a class="el" href="classbrowserbuilderthread_8cpp_source#l00378">ClassBrowserBuilderThread::SelectItem()</a>, <a class="el" href="classbrowser_8cpp_source#l00268">ClassBrowser::ShowMenu()</a>, <a class="el" href="classbrowser_8cpp_source#l00212">ClassBrowser::UpdateClassBrowserView()</a>, and <a class="el" href="parser_8cpp_source#l00905">Parser::WriteOptions()</a>.</p>
 
 </div>
 </div>

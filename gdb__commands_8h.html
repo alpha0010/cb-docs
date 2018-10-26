@@ -19,7 +19,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Code::Blocks
-   &#160;<span id="projectnumber">SVN r11156</span>
+   &#160;<span id="projectnumber">SVN r11506</span>
    </div>
   </td>
  </tr>
@@ -63,9 +63,6 @@ $(function() {
 <code>#include &lt;<a class="el" href="infowindow_8h_source">infowindow.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="logmanager_8h_source">logmanager.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="macrosmanager_8h_source">macrosmanager.h</a>&gt;</code><br />
-<code>#include &lt;<a class="el" href="scriptingmanager_8h_source">scriptingmanager.h</a>&gt;</code><br />
-<code>#include &lt;sqplus.h&gt;</code><br />
-<code>#include &lt;<a class="el" href="sc__base__types_8h_source">scripting/bindings/sc_base_types.h</a>&gt;</code><br />
 <code>#include &quot;<a class="el" href="debugger__defs_8h_source">debugger_defs.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="debuggergdb_8h_source">debuggergdb.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="gdb__driver_8h_source">gdb_driver.h</a>&quot;</code><br />
@@ -74,12 +71,14 @@ $(function() {
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for gdb_commands.h:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="gdb__commands_8h__incl.svg" width="2190" height="500"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="gdb__commands_8h__incl.svg" width="2106" height="486"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 </div><div class="textblock"><div class="dynheader">
 This graph shows which files directly or indirectly include this file:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="gdb__commands_8h__dep__incl.svg" width="352" height="112"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="gdb__commands_8h__dep__incl.svg" width="352" height="112"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 </div>
 <p><a href="gdb__commands_8h_source">Go to the source code of this file.</a></p>
@@ -177,6 +176,9 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classGdbCmd__FindCursor">GdbCmd_FindCursor</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Command which tries to find the current cursor position.  <a href="classGdbCmd__FindCursor#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classGdbCmd__DebugLanguage">GdbCmd_DebugLanguage</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Command to determine the debugging (working) language.  <a href="classGdbCmd__DebugLanguage#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
@@ -293,7 +295,7 @@ Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="gdb__commands_8h_source#l01276">GdbCmd_Backtrace::MatchLine()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="gdb__commands_8h_source#l01204">GdbCmd_Backtrace::MatchLine()</a>.</p>
 
 </div>
 </div>
@@ -321,7 +323,7 @@ Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="gdb__commands_8h_source#l01276">GdbCmd_Backtrace::MatchLine()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="gdb__commands_8h_source#l01204">GdbCmd_Backtrace::MatchLine()</a>.</p>
 
 </div>
 </div>
@@ -349,7 +351,7 @@ Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="gdb__commands_8h_source#l01276">GdbCmd_Backtrace::MatchLine()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="gdb__commands_8h_source#l01204">GdbCmd_Backtrace::MatchLine()</a>.</p>
 
 </div>
 </div>
@@ -377,7 +379,7 @@ Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="gdb__commands_8h_source#l01276">GdbCmd_Backtrace::MatchLine()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="gdb__commands_8h_source#l01204">GdbCmd_Backtrace::MatchLine()</a>.</p>
 
 </div>
 </div>
@@ -405,7 +407,7 @@ Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="gdb__commands_8h_source#l01276">GdbCmd_Backtrace::MatchLine()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="gdb__commands_8h_source#l01204">GdbCmd_Backtrace::MatchLine()</a>.</p>
 
 </div>
 </div>
@@ -433,7 +435,7 @@ Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="gdb__commands_8h_source#l01276">GdbCmd_Backtrace::MatchLine()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="gdb__commands_8h_source#l01204">GdbCmd_Backtrace::MatchLine()</a>.</p>
 
 </div>
 </div>
@@ -489,7 +491,7 @@ Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="gdb__commands_8h_source#l01497">GdbCmd_Disassembly::ParseOutput()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="gdb__commands_8h_source#l01425">GdbCmd_Disassembly::ParseOutput()</a>.</p>
 
 </div>
 </div>
@@ -517,7 +519,7 @@ Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="gdb__commands_8h_source#l01588">GdbCmd_DisassemblyInit::ParseOutput()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="gdb__commands_8h_source#l01516">GdbCmd_DisassemblyInit::ParseOutput()</a>.</p>
 
 </div>
 </div>
@@ -545,7 +547,7 @@ Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="gdb__commands_8h_source#l01588">GdbCmd_DisassemblyInit::ParseOutput()</a>, and <a class="el" href="gdb__commands_8h_source#l01911">GdbCmd_FindCursor::ParseOutput()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="gdb__commands_8h_source#l01516">GdbCmd_DisassemblyInit::ParseOutput()</a>, and <a class="el" href="gdb__commands_8h_source#l01839">GdbCmd_FindCursor::ParseOutput()</a>.</p>
 
 </div>
 </div>
@@ -573,7 +575,7 @@ Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="gdb__commands_8h_source#l01588">GdbCmd_DisassemblyInit::ParseOutput()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="gdb__commands_8h_source#l01516">GdbCmd_DisassemblyInit::ParseOutput()</a>.</p>
 
 </div>
 </div>
@@ -627,7 +629,7 @@ Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="gdb__commands_8h_source#l01588">GdbCmd_DisassemblyInit::ParseOutput()</a>, and <a class="el" href="gdb__commands_8h_source#l01911">GdbCmd_FindCursor::ParseOutput()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="gdb__commands_8h_source#l01516">GdbCmd_DisassemblyInit::ParseOutput()</a>, and <a class="el" href="gdb__commands_8h_source#l01839">GdbCmd_FindCursor::ParseOutput()</a>.</p>
 
 </div>
 </div>
@@ -655,7 +657,7 @@ Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="gdb__commands_8h_source#l01497">GdbCmd_Disassembly::ParseOutput()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="gdb__commands_8h_source#l01425">GdbCmd_Disassembly::ParseOutput()</a>.</p>
 
 </div>
 </div>
@@ -683,7 +685,7 @@ Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="gdb__commands_8h_source#l01681">GdbCmd_ExamineMemory::ParseOutput()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="gdb__commands_8h_source#l01609">GdbCmd_ExamineMemory::ParseOutput()</a>.</p>
 
 </div>
 </div>
@@ -711,7 +713,7 @@ Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="gdb__commands_8h_source#l00567">GdbCmd_AddDataBreakpoint::ParseOutput()</a>, and <a class="el" href="gdb__commands_8h_source#l01073">GdbCmd_FindTooltipAddress::ParseOutput()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="gdb__commands_8h_source#l00567">GdbCmd_AddDataBreakpoint::ParseOutput()</a>, and <a class="el" href="gdb__commands_8h_source#l01001">GdbCmd_FindTooltipAddress::ParseOutput()</a>.</p>
 
 </div>
 </div>
@@ -915,7 +917,7 @@ Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="gdb__commands_8h_source#l01350">GdbCmd_InfoRegisters::ParseOutput()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="gdb__commands_8h_source#l01278">GdbCmd_InfoRegisters::ParseOutput()</a>.</p>
 
 </div>
 </div>
@@ -953,7 +955,7 @@ Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="gdb__commands_8h_source#l01846">GdbCmd_StepOrNextInstruction::ParseOutput()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="gdb__commands_8h_source#l01774">GdbCmd_StepOrNextInstruction::ParseOutput()</a>.</p>
 
 </div>
 </div>
@@ -991,7 +993,7 @@ Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="gdb__commands_8h_source#l01846">GdbCmd_StepOrNextInstruction::ParseOutput()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="gdb__commands_8h_source#l01774">GdbCmd_StepOrNextInstruction::ParseOutput()</a>.</p>
 
 </div>
 </div>
@@ -1019,7 +1021,7 @@ Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="gdb__commands_8h_source#l01846">GdbCmd_StepOrNextInstruction::ParseOutput()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="gdb__commands_8h_source#l01774">GdbCmd_StepOrNextInstruction::ParseOutput()</a>.</p>
 
 </div>
 </div>
@@ -1047,7 +1049,7 @@ Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="gdb__commands_8h_source#l01846">GdbCmd_StepOrNextInstruction::ParseOutput()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="gdb__commands_8h_source#l01774">GdbCmd_StepOrNextInstruction::ParseOutput()</a>.</p>
 
 </div>
 </div>
